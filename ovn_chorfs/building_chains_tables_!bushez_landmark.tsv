@@ -1,0 +1,8 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+ovn_cd_kadrin			military	false	ovn_cd_kadrin		7	
+ovn_cd_karaz			military	false	ovn_cd_karaz		7	
+ovn_cd_varr			military	false	ovn_cd_varr		7	
+ovn_cd_azul			military	false	ovn_cd_azul		7	
+ovn_cd_peak			military	false	ovn_cd_peak		7	
+ovn_cd_black			military	false	ovn_cd_black		7	

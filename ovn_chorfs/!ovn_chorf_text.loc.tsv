@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+custom_loading_screen_components_localised_text_ovn_chaos_dwarfscustom_quote	They wish to make the world a place of smoky darkness where hope and cheer are crimes punishable by immediate slavery and slow torture. Theirs is an endless greed that neither time nor wealth can ever abate. They committed blasphemy by turning away from the Ancestor Gods and practicing magic. Magic, I tell you! They are our greatest shame and they will be dealt with, in time.\\n\\n - Cranneg Enlagsson, Dwarf Lorekeeper	false
+frontend_factions_localised_mechanics_wh2_main_ovn_chaos_dwarfs	[[img:bullet_def_slaves]][[/img]]Slaves: Used to unlock three powerful Legendarty Lords and other bonuses. Also boosts income at the cost of reduced public order.||[[img:bullet_chs_corruption]][[/img]]Chaos Corruption: Creeping, insidious, Ruin that can be spread within enemy territory, leading to public order issues and Chaos rebellions.||[[img:bullet_chs_units]][[/img]]Powerful unit roster with armoured infantry and monsters.	false
+effect_bundles_localised_title_wh2_main_lord_trait_ovn_chaos_dwarfs	Of Smoke and Ash	false
+effect_bundles_localised_description_wh2_main_lord_trait_ovn_chaos_dwarfs	In the name of Hashut, we will march forth and drive the machine of war to sow misery and mayhem to all four corners of the world.	false
+ui_text_replacements_localised_text_agent_exalted_hero	Exalted Hero	true
+ui_text_replacements_localised_text_agent_exalted_hero_wh_main_sc_nor_warp	Chaos Champion	true
+agent_culture_details_onscreen_name_494	{{tr:agent_exalted_hero}}	false
+agent_culture_details_description_text_494	{{tr:agent_exalted_hero_desc}}	true
+ui_text_replacements_localised_text_agent_exalted_hero_desc	The history of many Exalted Heroes, recorded in scattered chronicles by the free people of the Old World, is a catalogue of woes and evil deeds.	true
+ui_text_replacements_localised_text_agent_exalted_hero_desc_wh_main_sc_nor_warp	The Champions of Chaos are cruel and to drill their troops ceaselessly, they themselves being paragons of deadly ability and lethal intent.	true

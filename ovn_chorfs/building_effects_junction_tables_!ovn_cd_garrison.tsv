@@ -1,0 +1,8 @@
+building_effects_junction_tables	3
+building	effect	effect_scope	value	value_damaged	value_ruined
+ovn_cd_garrison_1	wh_main_effect_force_army_battle_unit_melee_defence_siege_defence	region_to_force_own	4.0	4.0	0.0
+ovn_cd_garrison_1	wh_main_effect_force_army_battle_unit_morale_siege_defence	region_to_force_own	2.0	2.0	0.0
+ovn_cd_garrison_2	wh_main_effect_force_army_battle_unit_melee_defence_siege_defence	region_to_force_own	7.0	7.0	0.0
+ovn_cd_garrison_2	wh_main_effect_force_army_battle_unit_morale_siege_defence	region_to_force_own	4.0	4.0	0.0
+ovn_cd_garrison_2	wh_main_effect_textonly_walls	region_to_region_own	1.0	1.0	1.0
+ovn_cd_garrison_2	wh_main_effect_settlement_walls_hidden	region_to_region_own	1.0	1.0	1.0

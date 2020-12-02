@@ -1,0 +1,16 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+pj_chorfs_infernals_xp	experience.png	343	experience.png	campaign	true
+pj_chorfs_infernals_upkeep	income.png	369	income.png	campaign	false
+pj_chorfs_acolytes_upkeep	income.png	369	income.png	campaign	false
+pj_chorfs_immortals_upkeep	income.png	369	income.png	campaign	false
+pj_chorfs_infernals_fatigue	vigour.png	2	vigour.png	campaign	false
+pj_chorfs_infernals_md	defence.png	108	defence.png	battle	true
+pj_chorfs_infernals_heal	health_character.png	55	health_character.png	battle	true
+pj_chorf_panel_unlock_ror_ironsworn	army.png	109	army.png	battle	true
+pj_chorf_panel_unlock_ror_chaos_dwarf_warriors_horde	army.png	109	army.png	battle	true
+pj_chorf_panel_unlock_ror_granite_guard	army.png	109	army.png	battle	true
+pj_chorf_panel_unlock_ror_magma_beasts	army.png	109	army.png	battle	true
+pj_chorf_panel_unlock_ror_bull_centaur_ba'hal_guardians	army.png	109	army.png	battle	true
+pj_chorf_panel_unlock_ror_wh_pro04_chs_art_hellcannon_ror_0	army.png	109	army.png	battle	true
+pj_chorfs_unlock_infernals	religion.png	110	religion.png	battle	true

@@ -1,0 +1,14 @@
+building_units_allowed_tables	4
+building	unit	xp	key	conditions	faction	enabled
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	goblin_slaves	0	970042678	0		false
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	orc_slaves	0	389451177	0		false
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	slave_ogre	0	639996807	0		false
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	goblin_slaves	0	440795063	0		false
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	orc_slaves	0	438808791	0		false
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	slave_ogre	0	792652111	0		false
+wh2_main_special_settlement_athel_loren_norsca_5	goblin_slaves	0	718749503	0		false
+wh2_main_special_settlement_athel_loren_norsca_5	orc_slaves	0	871163286	0		false
+wh2_main_special_settlement_athel_loren_norsca_5	slave_ogre	0	275206788	0		false
+wh2_main_special_settlement_athel_loren_norsca_4	goblin_slaves	0	587701073	0		false
+wh2_main_special_settlement_athel_loren_norsca_4	orc_slaves	0	369383648	0		false
+wh2_main_special_settlement_athel_loren_norsca_4	slave_ogre	0	425550951	0		false

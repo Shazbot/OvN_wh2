@@ -1,0 +1,3 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_chs_chaos_dwarfs	true	warrhak_skullcrusher	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/chaos_dwarf_castellan_warmaster.png	warrhak_skullcrusher	wh_main_chs_cha_dwarf_lord	false

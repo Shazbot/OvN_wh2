@@ -1,0 +1,4 @@
+building_downgrade_junctions_tables	0
+from	to
+ovn_nor_outpost_major_human_5	ovn_nor_outpost_major_human_5
+ovn_nor_outpost_major_human_5_coast	ovn_nor_outpost_major_human_5_coast

@@ -1,0 +1,8 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_cd_kadrin		wh2_main_set_landmark	false
+ovn_cd_karaz		wh2_main_set_landmark	false
+ovn_cd_varr		wh2_main_set_landmark	false
+ovn_cd_azul		wh2_main_set_landmark	false
+ovn_cd_peak		wh2_main_set_landmark	false
+ovn_cd_black		wh2_main_set_landmark	false

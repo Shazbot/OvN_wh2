@@ -1,0 +1,38 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_subtypes_onscreen_name_override_warrhak_skullcrusher	Legendary Lord	true
+agent_subtypes_description_text_override_warrhak_skullcrusher	Warrhak is a Chaos Dwarf Overlord, a leader of Dawi Zharr slave hunting expeditions.	true
+land_units_concealed_name_warrhak_skullcrusher		true
+land_units_onscreen_name_warrhak_skullcrusher	Warrhak Skullcrusher	true
+land_units_concealed_name_warrhak_skullcrusher_taurus		true
+land_units_onscreen_name_warrhak_skullcrusher_taurus	Warrhak Skullcrusher	true
+character_skill_node_sets_enc_title_wh_main_skill_node_set_warrhak_skullcrusher	Warrhak Skullcrusher Skills	true
+character_skills_localised_name_wh_main_skill_chs_warrhak_taurus	Great Taurus	true
+character_skills_localised_description_wh_main_skill_chs_warrhak_taurus	None but the highest and most powerful servants of Hashut can hope to master these hellish monsters.	true
+ancillaries_colour_text_wh_main_anc_mount_chs_great_taurus_warrhak	None but the highest and most powerful servants of Hashut can hope to master these hellish monsters.	true
+ancillaries_onscreen_name_wh_main_anc_mount_chs_great_taurus_warrhak	Great Taurus	true
+agent_subtypes_description_text_override_warrhak_skullcrusher	Warrhak Skullcrusher desc	true
+character_skills_localised_name_warrhak_skullcrusher_special_0	Blight Upon The Darklands	true
+character_skills_localised_description_warrhak_skullcrusher_special_0	Woe and ruin is the industry of Warrhak and his legions, as the Southern Darklands will soon come to know.	true
+character_skills_localised_name_warrhak_skullcrusher_special_1	A Banner Planted	true
+character_skills_localised_description_warrhak_skullcrusher_special_1	It is politically unwise to stray too far, or for too long from Zharr-Naggrund, but there are still Chaos Dwarfs who flock to Warrhak's banner by way of necessity.	true
+character_skills_localised_name_warrhak_skullcrusher_special_2	A Fell Reunion	true
+character_skills_localised_description_warrhak_skullcrusher_special_2	The former kin of Dawi Zharr call these lands home, and there is no love lost between the two peoples.	true
+character_skills_localised_name_warrhak_skullcrusher_special_3	Hobgoblin Scouts	true
+character_skills_localised_description_warrhak_skullcrusher_special_3	Send the hobgoblin scouts to chart these lands, and find the next target for Warrhak's legions.	true
+character_skills_localised_name_warrhak_skullcrusher_special_2_1	Unbridled Ambition	true
+character_skills_localised_description_warrhak_skullcrusher_special_2_1	This slave expedition has proceeded beyond Warrhak's expectations, and he senses an opportunity for great personal advancement.	true
+character_skills_localised_name_warrhak_skullcrusher_special_2_2	Railroad To Zharr-Nagrund	true
+character_skills_localised_description_warrhak_skullcrusher_special_2_2	Lay down tracks that will carry riches and slaves to the heart of the Dawi Zharr empire.	true
+character_skills_localised_name_warrhak_skullcrusher_special_2_3	Daemonforged Steel	true
+character_skills_localised_description_warrhak_skullcrusher_special_2_3	Make a bargain with the Daemonsmith of Zharr-Nagrund for the finest of their craft.	true
+character_skills_localised_name_warrhak_skullcrusher_special_2_4	Zharr-Naggrund Envoys	true
+character_skills_localised_description_warrhak_skullcrusher_special_2_4	All the lords in Zharr-Nagrund will know of Warrhak and the great works that are being done for the glory of Zharr-Naggrund.	true
+character_skills_localised_name_warrhak_skullcrusher_special_2_5	New Borders Of The Empire	true
+character_skills_localised_description_warrhak_skullcrusher_special_2_5	Secure these lands and dot them with towers and fortresses. Let it be known that these lands belong to the Dawi Zharr Empire now.	true
+effects_description_pj_frenzy_versus_dwarfs	Attribute: Causes Frenzy when fighting against Dwarfs	true
+character_skills_localised_name_warrhak_skullcrusher_trait	Son of Zharr-Naggrund	true
+character_skills_localised_description_warrhak_skullcrusher_trait	Warrhak Skullcrusher has a chance to prove himself in these distant lands, or perish should he not be worthy.	true
+unit_description_short_texts_text_wh_main_unit_short_text_warrhak_skullcrusher	Warrhak Skullcrusher is a cruel Chaos Dwarf Overlord, in command of a slave gathering expedition into the Southern Badlands.	true
+character_skills_localised_name_warrhak_skullcrusher_ammo	Over Loader	true
+character_skills_localised_description_warrhak_skullcrusher_ammo	Always best to err on the side of caution when it comes to bullets, bolts and arrows.	true

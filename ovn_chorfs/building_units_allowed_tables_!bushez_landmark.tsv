@@ -1,0 +1,10 @@
+building_units_allowed_tables	4
+building	unit	xp	key	conditions	faction	enabled
+ovn_cd_kadrin	bull_centaur_render_great_weapons	0	99644562	0		false
+ovn_cd_kadrin	k'daai_destroyer	0	965336450	0		false
+ovn_cd_kadrin	lammasu	0	123553097	0		false
+ovn_cd_azul	kollossus	0	123553098	0		false
+ovn_cd_peak	dreadquake_mortar	0	123553099	0		false
+ovn_cd_black	slave_ogre	0	1235243099	0		false
+ovn_cd_black	black_orc_slaves_dual	0	123553735	0		false
+ovn_cd_black	lava_troll	0	1235537144	0		false

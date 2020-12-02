@@ -1,0 +1,7 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_ash_ridge		wh2_main_set_landmark	false
+ovn_darkhold		wh2_main_set_landmark	false
+ovn_vorag		wh2_main_set_landmark	false
+ovn_greyhag		wh2_main_set_landmark	false
+ovn_flayed_rock		wh2_main_set_landmark	false

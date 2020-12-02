@@ -1,0 +1,8 @@
+building_culture_variants_tables	4
+building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
+ovn_ash_ridge		wh_main_PLACEHOLDER	special_copper_mountain		wh2_main_ovn_chaos_dwarfs	false	ovn_ash_ridge	true
+ovn_darkhold		wh_main_PLACEHOLDER	special_ancient_vault		wh2_main_ovn_chaos_dwarfs	false	ovn_darkhold	true
+ovn_vorag		wh_main_PLACEHOLDER	dlc12_skv_clan_skyre_laboratory		wh2_main_ovn_chaos_dwarfs	false	ovn_vorag	true
+ovn_greyhag		wh_main_PLACEHOLDER	ovn_greyhag_landmark		wh2_main_ovn_chaos_dwarfs	false	ovn_greyhag	true
+ovn_flayed_rock		wh_main_PLACEHOLDER	special_anlec_citadel_def		wh2_main_ovn_chaos_dwarfs	false	ovn_flayed_rock	true
+ovn_vorag_0		wh_main_PLACEHOLDER	dlc12_skv_clan_skyre_laboratory		wh2_main_ovn_chaos_dwarfs	false	ovn_vorag_0	true

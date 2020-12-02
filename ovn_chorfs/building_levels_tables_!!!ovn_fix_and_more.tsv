@@ -1,0 +1,54 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+ovn_emp_fort_ruin	ovn_emp_fort	0	1	0	0		false	0	0	0	0	false				true	wh_dlc05_wef_settlement_major	false	0.0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
+ovn_emp_fort_1	ovn_emp_fort	1	2	1200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_emp_fort_2	ovn_emp_fort	2	3	2000	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	1	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_emp_fort_3	ovn_emp_fort	3	4	3200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	2	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_emp_fort_4	ovn_emp_fort	4	6	5000	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	4	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_emp_fort_5	ovn_emp_fort	5	7	7500	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	5	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_eagle_ruin	ovn_elf_gate_eagle	0	1	0	0		false	0	0	0	0	false				true	wh_dlc05_wef_settlement_major	false	0.0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
+ovn_elf_gate_eagle_1	ovn_elf_gate_eagle	1	2	800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_eagle_2	ovn_elf_gate_eagle	2	3	1600	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	1	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_eagle_3	ovn_elf_gate_eagle	3	4	3200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	2	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_eagle_4	ovn_elf_gate_eagle	4	6	4800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	4	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_eagle_5	ovn_elf_gate_eagle	5	7	7200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	5	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_griffon_ruin	ovn_elf_gate_griffon	0	1	0	0		false	0	0	0	0	false				true	wh_dlc05_wef_settlement_major	false	0.0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
+ovn_elf_gate_griffon_1	ovn_elf_gate_griffon	1	2	800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_griffon_2	ovn_elf_gate_griffon	2	3	1600	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	1	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_griffon_3	ovn_elf_gate_griffon	3	4	3200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	2	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_griffon_4	ovn_elf_gate_griffon	4	6	4800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	4	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_griffon_5	ovn_elf_gate_griffon	5	7	7200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	5	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_phoenix_ruin	ovn_elf_gate_phoenix	0	1	0	0		false	0	0	0	0	false				true	wh_dlc05_wef_settlement_major	false	0.0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
+ovn_elf_gate_phoenix_1	ovn_elf_gate_phoenix	1	2	800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_phoenix_2	ovn_elf_gate_phoenix	2	3	1600	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	1	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_phoenix_3	ovn_elf_gate_phoenix	3	4	3200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	2	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_phoenix_4	ovn_elf_gate_phoenix	4	6	4800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	4	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_phoenix_5	ovn_elf_gate_phoenix	5	7	7200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	5	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_unicorn_ruin	ovn_elf_gate_unicorn	0	1	0	0		false	0	0	0	0	false				true	wh_dlc05_wef_settlement_major	false	0.0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
+ovn_elf_gate_unicorn_1	ovn_elf_gate_unicorn	1	2	800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_unicorn_2	ovn_elf_gate_unicorn	2	3	1600	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	1	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_unicorn_3	ovn_elf_gate_unicorn	3	4	3200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	2	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_unicorn_4	ovn_elf_gate_unicorn	4	6	4800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	4	true	0	wh_cam_settlement_major_nordic	true	0	0
+ovn_elf_gate_unicorn_5	ovn_elf_gate_unicorn	5	7	7200	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	5	true	0	wh_cam_settlement_major_nordic	true	0	0
+wh2_main_special_lothern_port_norsca_2	wh2_main_special_lothern_port_norsca	2	4	5000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	3		true	0	0
+wh2_main_special_lothern_port_norsca_3	wh2_main_special_lothern_port_norsca	3	6	10000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	5		true	0	0
+wh_dlc08_special_marienburg_port_norsca_2	wh_dlc08_special_marienburg_port_norsca	2	4	5000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	3		true	0	0
+wh_dlc08_special_marienburg_port_norsca_3	wh_dlc08_special_marienburg_port_norsca	3	6	10000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	5		true	0	0
+wh_dlc08_special_bordeleaux_port_norsca_2	wh_dlc08_special_bordeleaux_port_norsca	2	4	5000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	3		true	0	0
+wh_dlc08_special_bordeleaux_port_norsca_3	wh_dlc08_special_bordeleaux_port_norsca	3	6	10000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	5		true	0	0
+wh_dlc08_special_erengrad_port_norsca_2	wh_dlc08_special_erengrad_port_norsca	2	4	5000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	3		true	0	0
+wh_dlc08_special_erengrad_port_norsca_3	wh_dlc08_special_erengrad_port_norsca	3	6	10000	0		false	0	0	0	0	false				true	wh_main_HUMAN_port	false	0.0	0	true	5		true	0	0
+ovn_resource_marble_1	ovn_resource_marble	0	2	3000	0		false	0	0	0	0	false				true		false	0.0	0	true	1		true	0	0
+ovn_resource_marble_2	ovn_resource_marble	1	3	5000	0		false	0	0	0	0	false				true		false	0.0	0	true	3		true	0	0
+ovn_resource_spices_1	ovn_resource_spices	0	2	3000	0		false	0	0	0	0	false				true		false	0.0	0	true	1		true	0	0
+ovn_resource_spices_2	ovn_resource_spices	1	3	5000	0		false	0	0	0	0	false				true		false	0.0	0	true	3		true	0	0
+ovn_resource_dyes_1	ovn_resource_dyes	0	2	3000	0		false	0	0	0	0	false				true		false	0.0	0	true	1		true	0	0
+ovn_resource_dyes_2	ovn_resource_dyes	1	3	5000	0		false	0	0	0	0	false				true		false	0.0	0	true	3		true	0	0
+ovn_resource_pasture_1	ovn_resource_pasture	0	2	3000	0		false	0	0	0	0	false				true		false	0.0	0	true	1		true	0	0
+ovn_resource_pasture_2	ovn_resource_pasture	1	3	5000	0		false	0	0	0	0	false				true		false	0.0	0	true	3		true	0	0
+ovn_resource_wine_1	ovn_resource_wine	0	2	3000	0		false	0	0	0	0	false				true		false	0.0	0	true	1		true	0	0
+ovn_resource_wine_2	ovn_resource_wine	1	3	5000	0		false	0	0	0	0	false				true		false	0.0	0	true	3		true	0	0
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	wh2_main_special_settlement_pyramid_of_nagash_norsca	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	4	true	0	wh_cam_settlement_capital_empire	true	0	5000
+wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	wh2_main_special_settlement_pyramid_of_nagash_norsca	5	6	7000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	5	true	0	wh_cam_settlement_capital_empire	true	0	7000
+wh2_main_special_settlement_athel_loren_norsca_4	wh2_main_special_settlement_athel_loren_norsca	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	4	true	0	wh_cam_settlement_capital_empire	true	0	5000
+wh2_main_special_settlement_athel_loren_norsca_5	wh2_main_special_settlement_athel_loren_norsca	5	6	7000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	5	true	0	wh_cam_settlement_capital_empire	true	0	7000

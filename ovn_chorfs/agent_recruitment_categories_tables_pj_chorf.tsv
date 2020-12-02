@@ -1,0 +1,5 @@
+agent_recruitment_categories_tables	1
+key	order	icon_file_path
+chorf_lord	2	UI\Common UI\unit_category_icons\infantry_axe.png
+chorf_sorcerer_lord	3	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png
+chorf_bull_lord	1	UI\Common UI\unit_category_icons\infantry_axe.png

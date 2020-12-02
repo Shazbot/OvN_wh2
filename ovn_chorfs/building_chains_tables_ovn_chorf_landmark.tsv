@@ -1,0 +1,7 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+ovn_ash_ridge			military	false	ovn_ash_ridge		7	
+ovn_darkhold			military	false	ovn_darkhold		7	
+ovn_vorag			military	false	ovn_vorag		7	
+ovn_greyhag			military	false	ovn_greyhag		7	
+ovn_flayed_rock			military	false	ovn_flayed_rock		7	

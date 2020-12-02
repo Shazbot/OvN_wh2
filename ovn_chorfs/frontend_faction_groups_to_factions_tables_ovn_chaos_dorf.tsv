@@ -1,0 +1,3 @@
+frontend_faction_groups_to_factions_tables	0
+faction_group	faction_key	is_major_faction	sort_order
+destruction	wh2_main_ovn_chaos_dwarfs	false	134

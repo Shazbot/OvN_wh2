@@ -1,0 +1,7 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_resource_marble		wh2_main_set_resource	false
+ovn_resource_spices		wh2_main_set_resource	false
+ovn_resource_dyes		wh2_main_set_resource	false
+ovn_resource_pasture		wh2_main_set_resource	false
+ovn_resource_wine		wh2_main_set_resource	false

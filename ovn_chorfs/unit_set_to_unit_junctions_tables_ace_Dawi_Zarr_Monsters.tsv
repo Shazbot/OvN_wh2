@@ -1,0 +1,3 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				cr_chd_mon_siege_giant	chs_giants

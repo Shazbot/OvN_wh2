@@ -1,0 +1,3 @@
+character_traits_tables	2
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+pj_trait_chorf_lord	1	false	1	trait_good	1	

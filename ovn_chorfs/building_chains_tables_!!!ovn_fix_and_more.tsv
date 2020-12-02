@@ -1,0 +1,12 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+ovn_emp_fort			money	false	wh2_main_sch_empire_fort		0	
+ovn_elf_gate_eagle			military	false	wh2_main_sch_fortress_gate_eagle		0	
+ovn_elf_gate_griffon			military	false	wh2_main_sch_fortress_gate_griffon		0	
+ovn_elf_gate_phoenix			military	false	wh2_main_sch_fortress_gate_phoenix		0	
+ovn_elf_gate_unicorn			military	false	wh2_main_sch_fortress_gate_unicorn		0	
+ovn_resource_marble			money	false	wh_main_sch_human_resource_marble		0	
+ovn_resource_spices			money	false	wh2_main_sch_resource_spices		0	
+ovn_resource_dyes			money	false	wh_main_sch_human_resource_dyes		0	
+ovn_resource_pasture			money	false	wh_main_sch_human_resource_pastures		0	
+ovn_resource_wine			money	false	wh_main_sch_human_resource_wine		0	

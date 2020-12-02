@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	warrhak_skullcrusher_taurus	warrhak_skullcrusher_taurus	pj_warrhak_skullcrusher_mnt	chaos_dwarf_castellan_warmaster
+	warrhak_skullcrusher	warrhak_skullcrusher	pj_warrhak_skullcrusher	chaos_dwarf_castellan_warmaster

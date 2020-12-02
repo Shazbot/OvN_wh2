@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Chorf_Dip_Acceptance_Negative_01	I may be destined for the iron mask, but I accept.	false
+diplomacy_strings_string_Chorf_Dip_Acceptance_Negative_02	May the Shadows of Hashut hide my dishonour!	false
+diplomacy_strings_string_Chorf_Dip_Acceptance_Negative_03	It pains me to treat with the likes of you, very well.	false
+diplomacy_strings_string_Chorf_Dip_Demand_Payments_Negative_01	You have a choice to make, serve as a slave or pay the Dawi Zharr.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Negative_01	It is lucky for you that you have something I want.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Negative_02	The strong take from the weak, it will go easier on you if it is willing.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Negative_03	The Great Skull Land is littered with the bodies of those who denied me.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Negative_01	I would rather join the Infernal Guard!	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Negative_02	You insult my pride!	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Negative_03	Only a slave would accept such a deal!	false
+diplomacy_strings_string_Chorf_Dip_Greet_Neg_01	Do not mistake me for a worshipper of the Ruinous Powers, we are the Children of Hashut.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Neg_02	You look like one of my slaves!	false
+diplomacy_strings_string_Chorf_Dip_Greet_Neg_03	Oh look, one of the lesser races wishes to speak with me.	false
+diplomacy_strings_string_Chorf_Dip_Acceptance_Positive_01	By the grace of Hashut, yes!	false
+diplomacy_strings_string_Chorf_Dip_Acceptance_Positive_03	Excellent!  I shall sacrifice many slaves in celebration!	false
+diplomacy_strings_string_Chorf_Dip_Demand_Payments_Positive_01	We control the trade routes to the east, but such a thing is expensive, deserving of compensation.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Positive_01	We are as old as the mountains, trust in our judgment	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Positive_02	Hashut knows we stick to our deals.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Positive_03	Many are the deals we have made, whether to buy or to sell, this should be another.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Positive_01	You speak well, but I am not convinced.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Positive_02	I do not see the benefit for us in this.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Positive_03	I must listen to the will of the Bull God, this is not it.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Pos_01	Ah, you!  You I can stand.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Pos_02	The Children of Hashut bid you welcome.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Pos_03	You have the ear of the Dawi Zharr.	false
+diplomacy_strings_string_Chorf_Dip_Acceptance_Neutral_01	Not the best trade I have ever made, but very well.	false
+diplomacy_strings_string_Chorf_Dip_Acceptance_Neutral_02	I suppose an ogre would accept this.	false
+diplomacy_strings_string_Chorf_Dip_Accept_State_Gift_01	The Sorcerer-Prophets will be pleased.	false
+diplomacy_strings_string_Chorf_Dip_Accept_State_Gift_02	We are glad to see you recognize the majesty of the Dawi Zharr.	false
+diplomacy_strings_string_Chorf_Dip_Accept_State_Gift_03	This will advance my standing in the Tower of Zharr, my thanks.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Accept_01	You show great promise for a lesser being.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Accept_02	Our relations will be very profitable I imagine.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Accept_03	May Hashut bless you.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Cancel_Treaty_01	If you wish to be a fool, so be it.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Cancel_Treaty_02	Only the Father of Darkness is true to his word.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Cancel_Treaty_03	Just like the Ancestor Gods at the dawn of the Dawi Zharr.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Reject_01	You insult the Chosen of Hashut!	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Reject_02	May the Sorcerer's Curse afflict you!	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_Reject_03	It seems you do not know a good deal when you see one.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_War_01	So be it, the mines are in need of new slaves.	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_War_02	The Legions of Azgorh will be unleashed!	false
+diplomacy_strings_string_Chorf_Dip_Acknowledge_War_03	We have weathered the wrath of gods, you are nothing in comparison.	false
+diplomacy_strings_string_Chorf_Dip_Cancel_Treaty_01	This is no longer beneficial to the Dawi Zharr.	false
+diplomacy_strings_string_Chorf_Dip_Cancel_Treaty_02	The Sorcerer-Prophets have spoken.	false
+diplomacy_strings_string_Chorf_Dip_Cancel_Treaty_03	I see no further profit in this.	false
+diplomacy_strings_string_Chorf_Dip_Demand_Join_War_01	Sacrifices must be made if you wish to continue our relations.	false
+diplomacy_strings_string_Chorf_Dip_Demand_Join_War_02	We did not recover our numbers by risking the Children of Hashut in battle unnecessarily.	false
+diplomacy_strings_string_Chorf_Dip_Demand_Join_War_03	The slavemasters are ready for this conflict, are you?	false
+diplomacy_strings_string_Chorf_Dip_Demand_Payments_Neutral_01	Hellcannons are not cheap to make.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Neutral_01	We can do business if you can.	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Neutral_02	Do you require a staring contest with Rykarth before you accept?	false
+diplomacy_strings_string_Chorf_Dip_Generic_Offer_Neutral_03	We do not need the honeyed words of the Lammasu to make this offer.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Neutral_01	We have no need of lesser races.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Neutral_02	I still have my pride.	false
+diplomacy_strings_string_Chorf_Dip_Rejection_Neutral_03	If I needed that, I would let you know.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Cooperation_01	Trust does not come easy to us since the Ancestors abandoned us.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Cooperation_02	We are more used to enslaving those we need, but we can try this.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Cooperation_03	If we can work with Ironskin ogres, we can work with you.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Peace_01	The Dawi Zharr are too few in number for this.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Peace_02	There is no profit in this conflict any longer.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Peace_03	Hashut has counselled me in this.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Join_War_01	There are many slaves to be taken in this conflict, if you will have us.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Join_War_02	Do you wish the aid of the Dawi Zharr?	false
+diplomacy_strings_string_Chorf_Dip_Offer_Join_War_03	We have war machines that require field testing.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Gift_01	Yes, we are more generous than the average Dawi.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Gift_02	All gifts come with a price, perhaps one day we will have need of you.	false
+diplomacy_strings_string_Chorf_Dip_Offer_Gift_03	A sample of our wares, let us know if you want more.  Armour, weapons, cannons . . . mechanical boars.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Neu_01	You have my attention . . . for now.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Neu_02	We have treated with all sorts, we can treat with you.	false
+diplomacy_strings_string_Chorf_Dip_Greet_Neu_03	I suppose I have time for this.	false
+diplomacy_strings_string_Chorf_Dip_Reject_Peace_01	We may not have a Dammaz Kron, but there is unsettled business between us all the same.	false
+diplomacy_strings_string_Chorf_Dip_Reject_Peace_02	You are chattel, and I do not make deals with chattel.	false
+diplomacy_strings_string_Chorf_Dip_Reject_Peace_03	The fires of war have not yet burnt out.	false
+diplomacy_strings_string_Chorf_Dip_Reject_Join_Confederation_01	The Children of Hashut stand alone in this world.	false
+diplomacy_strings_string_Chorf_Dip_Reject_Join_Confederation_02	Our loyalty is to the Bull God alone!	false
+diplomacy_strings_string_Chorf_Dip_Reject_Join_Confederation_03	What do you take us for?  Dwarfs?	false
+diplomacy_strings_string_Chorf_Dip_War_01	I have need of slaves, you look suitable!	false
+diplomacy_strings_string_Chorf_Dip_War_02	Behold the fury of Hashut, Father of Darkness, God of Fire, Greed and Tyranny!	false
+diplomacy_strings_string_Chorf_Dip_War_03	The furnace beneath the statue of Hashut requires sacrifices!	false

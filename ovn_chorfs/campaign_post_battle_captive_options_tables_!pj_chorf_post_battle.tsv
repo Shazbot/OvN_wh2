@@ -1,0 +1,3 @@
+campaign_post_battle_captive_options_tables	4
+campaign_group	captive_option	effect_bundle	effect_bundle_turns	icon_path	resource_transaction
+pj_captive_option_chorfs_enslave	enslave		1	icon_enslave.png	

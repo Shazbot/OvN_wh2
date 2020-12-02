@@ -1,0 +1,4 @@
+custom_loading_screen_components_tables	0
+component_id	custom_loading_screen_key	image_path
+background	ovn_chaos_dwarfs	ui/loading_ui/load_images/chorf_load.png
+custom_quote	ovn_chaos_dwarfs	
