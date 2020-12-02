@@ -1,0 +1,7 @@
+faction_agent_permitted_subtypes_tables	0
+agent	faction	subtype
+champion	wh2_dlc09_tmb_the_sentinels	elo_dread_centurion
+general	wh2_dlc09_tmb_the_sentinels	elo_liche_general
+general	wh2_dlc09_tmb_the_sentinels	Dread_King
+colonel	wh2_dlc09_tmb_the_sentinels	elo_liche_general
+general	wh2_dlc09_tmb_the_sentinels	elo_hand_of_nagash

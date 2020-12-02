@@ -1,0 +1,9 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_elo_enable_lands_nagash	Ability: Cursed Lands	true
+effects_description_dread_legion_archers_cap	Unit Capacity: %+n for Dread Legion Archers	true
+effects_description_elo_enable_call_legions	Ability: Call the Legions	true
+effects_description_elo_hand_punished_one	Ability: The Punished One	true
+effects_description_elo_hungering_blade	Ability: The Hungering Blade	true
+effects_description_elo_hand_vortex	Ability: Call of Death	true
+effects_description_elo_hand_judge_executioner	Ability: Jury, Judge and Executioner	true

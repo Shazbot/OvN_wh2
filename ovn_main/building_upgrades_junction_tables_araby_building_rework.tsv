@@ -1,0 +1,7 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_arb_nomad_1	ovn_arb_nomad_2
+ovn_arb_nomad_2	ovn_arb_nomad_3
+ovn_arb_nomad_3	ovn_arb_nomad_4
+ovn_arb_forge_1	ovn_arb_forge_2
+ovn_arb_forge_2	ovn_arb_forge_3

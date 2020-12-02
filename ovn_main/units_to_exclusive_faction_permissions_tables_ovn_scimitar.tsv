@@ -1,0 +1,3 @@
+units_to_exclusive_faction_permissions_tables	0
+key	faction	allowed
+ovn_prometheans	wh2_main_arb_flaming_scimitar	true

@@ -1,0 +1,6 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+cod_threat_vhigh_dummy	cod_threat_vhigh.png	2	cod_threat_vhigh.png	campaign	false
+cod_threat_high_dummy	cod_threat_high.png	2	cod_threat_high.png	campaign	false
+cod_threat_vlow_dummy	cod_threat_vlow.png	2	cod_threat_vlow.png	campaign	true
+cod_threat_low_dummy	cod_threat_low.png	2	cod_threat_low.png	campaign	true

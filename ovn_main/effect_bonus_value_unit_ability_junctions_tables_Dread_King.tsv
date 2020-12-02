@@ -1,0 +1,5 @@
+effect_bonus_value_unit_ability_junctions_tables	0
+effect	bonus_value_id	unit_ability
+spawn_ushabti_dread_king	enable	spawn_ushabti_dread_king
+Dread_Aura	enable	Dread_Aura
+Summon_Black_Grail_Kinghts	enable	Summon_Black_Grail_Kinghts

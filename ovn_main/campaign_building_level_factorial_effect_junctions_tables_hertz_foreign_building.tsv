@@ -1,0 +1,4 @@
+campaign_building_level_factorial_effect_junctions_tables	2
+building_level	factorial_effect	key	value	scope
+hertz_rotblood_nurgle_corruption	skaven_discoverability_buildings	15467	40	EFS_ONLY_OWNER
+hertz_rotblood_nurgle_income	skaven_discoverability_buildings	15468	40	EFS_ONLY_OWNER

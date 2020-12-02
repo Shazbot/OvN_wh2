@@ -1,0 +1,7 @@
+building_effects_junction_tables	3
+building	effect	effect_scope	value	value_damaged	value_ruined
+ovn_Citadel_of_dusk	wh_main_effect_economy_gdp_trade_sea	building_to_building_own	500.0	300.0	0.0
+ovn_Citadel_of_dusk	wh_main_effect_public_order_base	province_to_province_own	4.0	3.0	0.0
+ovn_Citadel_of_dusk	wh_main_effect_religion_conversion_untainted	region_to_region_own	4.0	4.0	0.0
+ovn_Citadel_of_dusk	wh_main_effect_economy_trade_good_commodity_mod	faction_to_faction_own	5.0	3.0	0.0
+ovn_Citadel_of_dusk	landmark_effect_produce_res_cathay	building_to_building_own	40.0	15.0	0.0

@@ -1,0 +1,5 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+grudge_supply_dummy	hunter_effect_icons_imperial_supplies.png	2	hunter_effect_icons_imperial_supplies.png	campaign	true
+grudge_hire_dummy	hunter_effect_icons_imperial_supplies.png	2	hunter_effect_icons_imperial_supplies.png	campaign	true
+grudge_retain_dummy	siege_defence.png	2	siege_defence.png	campaign	true

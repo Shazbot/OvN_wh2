@@ -1,0 +1,6 @@
+special_ability_phase_stat_effects_tables	3
+phase	value	stat	how
+lzd_amazon_poison	0.8	stat_melee_attack	mult
+lzd_amazon_poison	-5.0	stat_morale	add
+jag_amazon_poison	0.8	stat_resistance_physical	mult
+jag_amazon_poison	0.8	stat_melee_defence	mult

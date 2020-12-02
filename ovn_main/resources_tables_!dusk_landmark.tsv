@@ -1,0 +1,3 @@
+resources_tables	5
+key	unit	trade_value	icon_filepath	strategic_value	in_encyclopedia	show_on_city_infobar
+res_cathay	sacks	50	ui\campaign ui\effect_bundles\res_cathay.png	500	false	true

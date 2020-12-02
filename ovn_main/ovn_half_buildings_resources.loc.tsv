@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+resources_onscreen_text_res_tobacco	Tobacco	true
+resources_description_res_tobacco	Tobacco good after hard battle.	true
+effects_description_tobacco_effect_produce_res_tobacco	Tobacco resource production: %n sacks	true

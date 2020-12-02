@@ -1,0 +1,5 @@
+building_instances_tables	0
+key	num_instances
+ovn_arb_forge	1
+ovn_arb_nomad	1
+ovn_arb_xp	1

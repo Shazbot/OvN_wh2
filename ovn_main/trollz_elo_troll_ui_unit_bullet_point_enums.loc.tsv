@@ -1,0 +1,22 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_bullet_point_enums_tooltip_horrible_stench	River Trolls stink horribly - even compared to other trolls. Even the most repulsive or strong-willed beings need to overcome their natural disgust to engage them in close combat.	true
+ui_unit_bullet_point_enums_onscreen_name_horrible_stench	Horrible Stench	true
+ui_unit_bullet_point_enums_tooltip_rock_solid	Stone Trolls have a hard skin which makes them very resilient against physical or magical harm. However, once it is penetrated and the Trolls feel pain, they are easy to scare off the battlefield.	true
+ui_unit_bullet_point_enums_onscreen_name_rock_solid	Stone Skin	true
+ui_unit_bullet_point_enums_onscreen_name_death_stench	Stench of Death	true
+ui_unit_bullet_point_enums_tooltip_death_stench	Other River Trolls already stink badly of rotting fish and riverbed, but Shipwreckers stink of rotting corpses, feces and waste. Even the bravest find it intolerable to stay close for long, let alone to  fight efficiently.	true
+ui_unit_bullet_point_enums_tooltip_throgg_orders	These Trolls have been under the bosses command for a very long time already. They can follow simple orders to slightly alter their behaviour in battle. Due to their limited intelligence though, only one order per battle can be given to avoid confusion.	true
+ui_unit_bullet_point_enums_onscreen_name_throgg_orders	Bosses Orders	true
+ui_unit_bullet_point_enums_onscreen_name_difficult_to_spot	Natural Carmouflage	true
+ui_unit_bullet_point_enums_tooltip_difficult_to_spot	Despite being naturally carmouflaged in forests, these monsters never understood the concept of sneaking. They are still difficult to spot from afar.	true
+ui_unit_bullet_point_enums_onscreen_name_weak_regeneration	Weakened Regeneration	true
+ui_unit_bullet_point_enums_tooltip_weak_regeneration	The regenerative ability of Bile Trolls is mostly occupied by keeping their many afflictions at bay. This means that wounds Bile Trolls receive are healing much slower compared to other Trolls.	true
+ui_unit_bullet_point_enums_onscreen_name_host_illnesses	Host to Terrifying Afflictions	true
+ui_unit_bullet_point_enums_tooltip_host_illnesses	Just being near Bile Trolls is a terrifying experience as the many gifts of Grandfather Nurgle constantly threaten to infect everyone around, weakening and frightening closeby enemies and allies alike.	true
+ui_unit_bullet_point_enums_onscreen_name_big_angry	Reckless Rage	true
+ui_unit_bullet_point_enums_tooltip_big_angry	Hurting these Trolls just makes them really angry. Not even the boss can maintain control over enraged Snow Trolls - usually it is not necessary though, since they will just pound the source of their anger into the ground.	true
+ui_unit_bullet_point_enums_tooltip_no_regeneration	The regenerative abilities of Lava Trolls are fully occupied, constantly repairing the damage the heat inside their bodies causes. These Trolls cannot regenerate damage received and heal as slowly as most 'normal' beings. 	true
+ui_unit_bullet_point_enums_onscreen_name_no_regeneration	No Regeneration	true
+ui_unit_bullet_point_enums_tooltip_burning_aura	Lava Trolls radiate heat. Those who come too close to engage these monsters in melee are often burned by their proximity to the Lava Trolls alone.	true
+ui_unit_bullet_point_enums_onscreen_name_burning_aura	Burning Aura	true

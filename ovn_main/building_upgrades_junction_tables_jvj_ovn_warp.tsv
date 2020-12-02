@@ -1,0 +1,8 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_warp_military_1	ovn_warp_military_2
+ovn_warp_military_2	ovn_warp_military_3
+ovn_warp_military_3	ovn_warp_military_4
+ovn_warp_stables_1	ovn_warp_stables_2
+ovn_warp_stables_2	ovn_warp_stables_3
+ovn_warp_stables_3	ovn_warp_stables_4

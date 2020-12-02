@@ -1,0 +1,48 @@
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+22.0	positive	spell_ice_shield_of_cold		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_harmonic_convergence	wh_main_spell_heavens_harmonic_convergence	-1.0	false	true	true	0.0	
+33.0	positive	spell_ice_shield_of_cold_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_harmonic_convergence	wh_main_spell_heavens_harmonic_convergence	-1.0	false	true	true	0.0	
+22.0	positive	spell_ice_frost_blade		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_shadow_buff_attack_passive	wh_dlc05_spell_shadow_okkams_mindrazor	-1.0	false	true	true	0.0	
+33.0	positive	spell_ice_frost_blade_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_shadow_buff_attack_passive	wh_dlc05_spell_shadow_okkams_mindrazor	-1.0	false	true	true	0.0	
+22.0	positive	spell_ice_crisping_cold		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_high_magic_hand_of_glory	wh2_main_spell_high_magic_hand_of_glory	-1.0	false	true	true	0.0	
+33.0	positive	spell_ice_crisping_cold_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_high_magic_hand_of_glory	wh2_main_spell_high_magic_hand_of_glory	-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_shattering_frost1		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_curse_of_the_midnight_wind	wh_main_spell_heavens_curse_of_the_midnight_wind	-1.0	false	true	true	0.0	
+60.0	negative	spell_ice_shattering_frost_upgraded1		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_curse_of_the_midnight_wind	wh_main_spell_heavens_curse_of_the_midnight_wind	-1.0	false	true	true	0.0	
+10.0	negative	spell_ice_shattering_frost2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_curse_of_the_midnight_wind	wh_main_spell_heavens_curse_of_the_midnight_wind	-1.0	false	true	true	0.0	
+10.0	negative	spell_ice_shattering_frost_upgraded2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_curse_of_the_midnight_wind	wh_main_spell_heavens_curse_of_the_midnight_wind	-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_chill1		false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_dark_magic_word_of_pain	wh_main_spell_dark_magic_word_of_pain	-1.0	false	true	true	0.0	
+60.0	negative	spell_ice_chill_upgraded1		false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_dark_magic_word_of_pain	wh_main_spell_dark_magic_word_of_pain	-1.0	false	true	true	0.0	
+20.0	negative	spell_ice_chill2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_dark_magic_word_of_pain	wh_main_spell_dark_magic_word_of_pain	-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_chill_upgraded2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_dark_magic_word_of_pain	wh_main_spell_dark_magic_word_of_pain	-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_blinding_blizzard1		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_dlc05_spell_shadow_the_withering	wh_dlc05_spell_shadow_the_withering	-1.0	false	true	true	0.0	
+60.0	negative	spell_ice_blinding_blizzard_upgraded1		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_dlc05_spell_shadow_the_withering	wh_dlc05_spell_shadow_the_withering	-1.0	false	true	true	0.0	
+10.0	negative	spell_ice_blinding_blizzard2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_dlc05_spell_shadow_the_withering	wh_dlc05_spell_shadow_the_withering	-1.0	false	true	true	0.0	
+10.0	negative	spell_ice_blinding_blizzard_upgraded2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_dlc05_spell_shadow_the_withering	wh_dlc05_spell_shadow_the_withering	-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_ice_blizzard		false	false	false	0.0	0.0	30.0	1.0	0	0.2	6	20	0	false	0.0	0.0	false	0		wh_dlc05_spell_shadow_melkoths_mystifying_miasma	wh_dlc05_spell_shadow_melkoths_mystifying_miasma	-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_ice_blizzard_upgraded		false	false	false	0.0	0.0	45.0	1.0	0	0.2	7	20	0	false	0.0	0.0	false	0		wh_dlc05_spell_shadow_melkoths_mystifying_miasma	wh_dlc05_spell_shadow_melkoths_mystifying_miasma	-1.0	false	true	true	0.0	
+15.0	negative	spell_ice_tempest		false	true	false	0.0	0.0	0.0	1.0	0	0.18	5	15	0	false	0.0	0.0	false	0		wh2_main_spell_high_magic_tempest		-1.0	false	true	true	0.0	
+30.0	negative	spell_ice_tempest_upgraded		false	true	false	0.0	0.0	0.0	1.0	0	0.18	5	15	0	false	0.0	0.0	false	0		wh2_main_spell_high_magic_tempest		-1.0	false	true	true	0.0	
+15.0	negative	lore_passive_ice_winter		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+15.0	negative	lore_passive_ice_cold		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+20.0	positive	wh_main_unit_passive_bear_kin		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_positive	-1.0	false	false	false	0.0	
+-1.0	positive	wh_main_unit_abilities_chekist		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_positive	-1.0	false	true	false	0.0	
+-1.0	positive	wh_main_unit_passive_glorious		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_positive	-1.0	false	false	false	0.0	
+30.0	positive	wh_main_unit_ability_prayer		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	50.0	false	true	false	0.0	
+25.0	positive	wh_main_unit_ability_growl		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	45.0	false	true	false	0.0	
+20.0	positive	wh_main_unit_abilities_camp		false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_banner	wh_ability_positive_one_shot	-1.0	false	true	true	0.0	
+-1.0	negative	wh_main_unit_abilities_widow_miscast		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+-1.0	positive	grudge_ballistics_calibration1		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_ballistics_calibration2		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_ballistics_calibration3		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_explosion1		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_apexplosion1		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_explosion2		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_apexplosion2		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_explosion3		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	grudge_apexplosion3		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+35.0	positive	grudge_weapon_abilities_hellfire_sword		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	10		wh_main_spell_fire_flaming_sword_of_rhuin	wh_main_spell_fire_flaming_sword_of_rhuin	-1.0	false	true	true	0.0	
+30.0	negative	grudge_item_abilities_horn_of_urgok		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	negative	grudge_item_abilities_banner_of_arcane_warding		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+-1.0	negative	grudge_item_abilities_spelleater_shield		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+35.0	positive	grudge_ability_swiftness_of_itzl		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_positive_one_shot	-1.0	false	true	true	0.0	
+14.0	positive	grudge_ability_skv_verminous_valour		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_positive_one_shot	-1.0	false	true	true	0.0	

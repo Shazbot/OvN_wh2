@@ -1,0 +1,26 @@
+unit_sets_tables	2
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+elo_warband	false	-1	-1	
+elo_elite_warband	false	-1	-1	
+elo_monsters	false	-1	-1	
+elo_holy_warriors	false	-1	-1	
+elo_ranged_special	false	-1	-1	
+elo_fast_attack	false	-1	-1	
+elo_albion_shielded	false	-1	-1	
+elo_albion_humans	false	-1	-1	
+elo_albion_swamp	false	-1	-1	
+elo_albion_giant	false	-1	-1	
+elo_morrigan_handmaidens	false	-1	-1	
+elo_morrigan_handmaidens_hunters	false	-1	-1	
+elo_morrigan_handmaidens_sword	false	-1	-1	
+elo_druid_circle	false	-1	-1	
+elo_champions_r7	true	7	9	
+elo_hunters_r7	true	7	9	
+elo_riders_r7	true	7	9	
+elo_monsters_r7	true	7	9	
+elo_noble_cav_chariot	false	-1	-1	
+albion_ancient_allies	false	-1	-1	
+albion_monsters_fen	false	-1	-1	
+elo_albion_holy_warriors	false	-1	-1	
+elo_hunting_parties	false	-1	-1	
+elo_wooden_structures	false	-1	-1	

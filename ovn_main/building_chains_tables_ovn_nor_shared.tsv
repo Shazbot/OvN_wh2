@@ -1,0 +1,6 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+ovn_evil_income			money	false	wh_main_sch_norsca_outpost_income		7	
+ovn_grn_agent			military	false	wh_main_sch_human_worship		7	
+ovn_cd_slave			money	false	wh2_main_sch_infrastructure1_farm		7	
+ovn_cd_work			military	false	wh_main_sch_human_forges		7	

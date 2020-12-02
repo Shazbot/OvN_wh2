@@ -1,0 +1,11 @@
+Loc PackedFile	1
+key	text	tooltip
+campaign_map_attritions_unit_card_tooltip_ovn_fimir_mist	This army is suffering losses within the swirling mists of the Fimir.	true
+campaign_map_attritions_unit_immunity_text_ovn_fimir_mist	Swirling Mist	true
+campaign_storms_display_name_1ovn_fimir_mist	Swirling Mist	true
+campaign_map_attritions_unit_card_tooltip_ovn_albion_mist	This army is suffering losses within the heavy mists of Albion.	true
+campaign_map_attritions_unit_immunity_text_ovn_albion_mist	Mist of Albion	true
+campaign_storms_display_name_1ovn_albion_mist	Mist of Albion	true
+campaign_map_attritions_unit_card_tooltip_ovn_albion_storm	This army is suffering losses within the heavy storms of Albion.	true
+campaign_map_attritions_unit_immunity_text_ovn_albion_storm	Storm of Albion	true
+campaign_storms_display_name_1ovn_albion_storm	Storm of Albion	true

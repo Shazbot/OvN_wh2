@@ -1,0 +1,4 @@
+frontend_faction_effect_groups_tables	0
+campaign	faction_leader	group_key	ui_section
+	wh2_main_political_party_vor_arb_flaming_scimitar	ovn_vor_flaming_scimitar	faction_traits
+	wh2_main_political_party_vor_arb_flaming_scimitar	ovn_vor_flaming_scimitar_lord	lord_traits

@@ -1,0 +1,5 @@
+special_ability_to_invalid_target_flags_tables	0
+invalid_target	special_ability
+morale_is_higher_than_wavering	elo_so_hungry
+unit_is_commander_class	elo_so_hungry
+hasnt_casting_ability	elo_so_hungry

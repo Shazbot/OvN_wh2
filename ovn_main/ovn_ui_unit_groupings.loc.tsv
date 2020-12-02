@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_groupings_onscreen_ovn_heavy_cav	Heavy Cavalry	true
+ui_unit_groupings_tooltip_ovn_heavy_cav	Slow and Heavy, they can be left in the thick of the fight. 	true
+ui_unit_groupings_onscreen_ovn_elephant	Elephant	true
+ui_unit_groupings_tooltip_ovn_elephant		true
+ui_unit_groupings_onscreen_ovn_shock_infantry	Shock Infantry	true
+ui_unit_groupings_tooltip_ovn_shock_infantry		true

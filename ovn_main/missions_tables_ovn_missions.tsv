@@ -1,0 +1,21 @@
+missions_tables	6
+generate	key	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
+false	ovn_grudge_vortex_move_to_swem	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_vortex_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_vortex_take_zandri	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_vortex_take_kasabar	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_vortex_kill_dk	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_vortex_kill_arkhan	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_troll_me_take_karak_azgal	ovn_troll_me_take_karak_azgal		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_blood_dragons_me_take_altdorf	ovn_blood_dragons_me_take_altdorf		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_blood_dragons_me_take_couronne	ovn_blood_dragons_me_take_couronne		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_blood_dragons_me_take_templehof	ovn_blood_dragons_me_take_templehof		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_blood_dragons_me_take_nuln	ovn_blood_dragons_me_take_nuln		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_me_move_to_swem	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_me_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_me_take_zandri	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_me_take_kasabar	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_me_kill_dk	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_grudge_me_kill_arkhan	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_dk_vortex_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+false	ovn_dk_me_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false

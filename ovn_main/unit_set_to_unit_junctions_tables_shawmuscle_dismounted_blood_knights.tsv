@@ -1,0 +1,14 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				dismounted_blood_knights	mp_set_vmp_cav_blood_knights
+false				dismounted_blood_knights	vmp_all
+false				dismounted_blood_knights	vmp_blood_knights
+false				dismounted_blood_knights_shield	mp_set_vmp_cav_blood_knights
+false				dismounted_blood_knights_shield	vmp_all
+false				dismounted_blood_knights_shield	vmp_blood_knights
+false				dismounted_blood_knights_shield	wh2_dlc11_vmp_black_knights_blood_knights
+false				dismounted_blood_knights	wh2_dlc11_vmp_black_knights_blood_knights
+false				dismounted_blood_knights	wh2_dlc11_vmp_vets_all_knights_corpse_cart_mortis_engine_black_coach_hexwraiths
+false				dismounted_blood_knights	wh_pro02_isabella_extra_upkeep
+false				dismounted_blood_knights_shield	wh2_dlc11_vmp_vets_all_knights_corpse_cart_mortis_engine_black_coach_hexwraiths
+false				dismounted_blood_knights_shield	wh_pro02_isabella_extra_upkeep

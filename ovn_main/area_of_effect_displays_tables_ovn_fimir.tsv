@@ -1,0 +1,5 @@
+area_of_effect_displays_tables	8
+spline	key	decal	vfx_central	vfx_ring	spline_width	spline_col_r	spline_col_g	spline_col_b	spline_oor_col_r	spline_oor_col_g	spline_oor_col_b	spline_vertical	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time
+	fire_of_the_gods_effect_deamon		fire_of_the_gods_effect_deamon	fire_of_the_gods_effect_deamon	2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
+	fire_of_the_gods_effect_deamon_ground		fire_of_the_gods_effect_deamon_ground	fire_of_the_gods_effect_deamon_ground	2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
+	fire_of_the_gods_effect_khorne			fire_of_the_gods_effect	2.0	255	255	255	255	255	255	false	50.0	64	composite_scene\spells_and_abilities\gaze_of_kaine.csc	false	5	false

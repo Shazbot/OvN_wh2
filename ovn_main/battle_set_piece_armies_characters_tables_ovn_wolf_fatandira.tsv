@@ -1,0 +1,3 @@
+battle_set_piece_armies_characters_tables	7
+character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+1	arb_fatandira	882002		100	882003	arb_fatandira	general	arb_fatandira	ui/portraits/portholes/no_culture/arb_fatandira.png	87497939		true

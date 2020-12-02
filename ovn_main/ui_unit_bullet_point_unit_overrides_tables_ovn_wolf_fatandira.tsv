@@ -1,0 +1,13 @@
+ui_unit_bullet_point_unit_overrides_tables	0
+bullet_point	unit_key
+armour_piercing_ranged	arb_fatandira
+melee_expert	arb_fatandira
+anti_large	arb_fatandira
+armour_piercing_ranged	arb_fatandira_warhorse
+anti_large	arb_fatandira_warhorse
+fire_whilst_moving	arb_fatandira_warhorse
+armour_piercing_ranged	arb_fatandira_roc
+melee_expert	arb_fatandira_roc
+anti_large	arb_fatandira_roc
+fire_whilst_moving	arb_fatandira_roc
+very_fast	arb_fatandira_roc

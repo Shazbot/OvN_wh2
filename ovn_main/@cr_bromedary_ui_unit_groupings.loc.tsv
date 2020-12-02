@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_groupings_onscreen_missile_camelry_rifle	Missile Camelry	true
+ui_unit_groupings_tooltip_missile_camelry_rifle	 	true
+ui_unit_groupings_onscreen_missile_camelry_bow	Missile Camelry	true
+ui_unit_groupings_tooltip_missile_camelry_bow	 	true
+ui_unit_groupings_onscreen_camelry	Camelry	true
+ui_unit_groupings_tooltip_camelry		true

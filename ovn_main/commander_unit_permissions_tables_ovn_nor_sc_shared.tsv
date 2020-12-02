@@ -1,0 +1,10 @@
+commander_unit_permissions_tables	0
+culture_key	faction_key	subculture_key	unit_key
+		wh_main_sc_nor_warp	wh_main_nor_cha_marauder_chieftan_0
+		wh_main_sc_nor_warp	wh_main_nor_shp_bloodship_general
+		wh_main_sc_nor_fimir	wh_main_nor_cha_marauder_chieftan_0
+		wh_main_sc_nor_fimir	wh_main_nor_shp_bloodship_general
+		wh_main_sc_nor_troll	wh_main_nor_cha_marauder_chieftan_0
+		wh_main_sc_nor_troll	wh_main_nor_shp_bloodship_general
+		wh_main_sc_emp_araby	ovn_araby_ll
+		wh_main_sc_emp_araby	wh_main_emp_shp_greatship_general

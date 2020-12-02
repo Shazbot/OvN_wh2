@@ -1,0 +1,18 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+wizard	wh_dlc07_art_set_chs_sorcerer_shadow_01				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wizard	wh_dlc07_art_set_chs_sorcerer_shadow_02				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wizard	wh_dlc07_art_set_chs_sorcerer_shadow_03				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wizard	wh_dlc07_art_set_chs_sorcerer_shadow_04				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wizard	wh_main_art_set_chs_sorcerer_death_01				false	true	chs_chaos_sorcerer_death	1.0
+wizard	wh_main_art_set_chs_sorcerer_death_02				false	true	chs_chaos_sorcerer_death	1.0
+wizard	wh_main_art_set_chs_sorcerer_death_03				false	true	chs_chaos_sorcerer_death	1.0
+wizard	wh_main_art_set_chs_sorcerer_death_04				false	true	chs_chaos_sorcerer_death	1.0
+wizard	wh_main_art_set_chs_sorcerer_fire_01				false	true	chs_chaos_sorcerer_fire	1.0
+wizard	wh_main_art_set_chs_sorcerer_fire_02				false	true	chs_chaos_sorcerer_fire	1.0
+wizard	wh_main_art_set_chs_sorcerer_fire_03				false	true	chs_chaos_sorcerer_fire	1.0
+wizard	wh_main_art_set_chs_sorcerer_fire_04				false	true	chs_chaos_sorcerer_fire	1.0
+wizard	wh_main_art_set_chs_sorcerer_metal_01				false	true	chs_chaos_sorcerer_metal	1.0
+wizard	wh_main_art_set_chs_sorcerer_metal_02				false	true	chs_chaos_sorcerer_metal	1.0
+wizard	wh_main_art_set_chs_sorcerer_metal_03				false	true	chs_chaos_sorcerer_metal	1.0
+wizard	wh_main_art_set_chs_sorcerer_metal_04				false	true	chs_chaos_sorcerer_metal	1.0

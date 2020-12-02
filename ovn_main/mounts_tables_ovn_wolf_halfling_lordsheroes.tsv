@@ -1,0 +1,4 @@
+mounts_tables	10
+key	animation	entity	audio_armour_type	variant	voiceover
+ovn_mtl_mnt_swine_general_lord	bo1_warboar	ovn_pig_mount_entity	body	ovn_mtl_swine_lord_general	wh_dlc03_vo_culture_Boar
+ovn_mtl_mnt_poultry_general_lord	rp3_cold_one	ovn_mtl_cavalry_poultry_blood	body	ovn_mtl_poultry_lord_general	wh_main_vo_culture_Eagle

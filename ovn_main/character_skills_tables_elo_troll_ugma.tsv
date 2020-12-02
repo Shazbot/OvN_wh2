@@ -1,0 +1,22 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+character_morale.png	elo_skill_troll_controlled	meh	Mind Controlled	0	false	false	false	0.0	0
+battle_ward_save.png	elo_skill_mountain_masters	meh	meh	0	false	false	false	0.0	0
+battle_defence.png	elo_skill_troll_children_chaos	meh	meh	0	false	false	false	0.0	0
+battle_armour.png	elo_skill_troll_unnatural_resilience	meh	meh	0	false	false	false	0.0	0
+battle_attack.png	elo_skill_troll_menace_land	meh	meh	0	false	false	false	0.0	0
+battle_charge.png	elo_skill_troll_ice_snow	meh	meh	0	false	false	false	0.0	0
+battle_defence.png	reworked_cyclopean_fiends	meh	meh	0	false	false	false	0.0	0
+campaign_military_spending.png	reworked_king_of_trolls	meh	meh	0	false	false	false	0.0	0
+campaign_replenishment.png	reworked_mutant_regeneration	meh	meh	0	false	false	false	0.0	0
+campaign_military_spending.png	elo_troll_toll	meh	meh	0	false	false	false	0.0	0
+battle_attack.png	elo_leader_river	meh	meh	0	false	false	false	0.0	0
+causes_terror.png	elo_eloquent_troll	meh	meh	0	false	false	false	0.0	0
+battle_morale.png	creature_water	meh	meh	0	false	false	false	0.0	0
+campaign_wound_time.png	ugma_warpstone_touched	meh	meh	0	false	false	false	0.0	0
+character_chaos_corruption.png	ugma_strongest_river	meh	meh	0	false	false	false	0.0	0
+item_talisman.png	ugma_trinkets	meh	meh	0	false	false	false	0.0	0
+item_weapon.png	resevoir_stone_hammer	meh	meh	0	false	false	false	0.0	0
+trait_norsca.png	ugma_innate	meh	meh	0	true	false	false	5.0	0
+battle_speed.png	elo_skill_throgg_raw_might	meh	meh	0	false	false	false	0.0	0
+battle_defence.png	elo_skill_throgg_blight	meh	meh	0	false	false	false	0.0	0

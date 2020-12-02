@@ -1,0 +1,3 @@
+army_special_abilities_tables	2
+army_special_ability	unit_special_ability	unique_id	enables_siege_assault
+grudge_summon_wagons	grudge_summon_wagons	250519900	false

@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_tooltip_text_ovn_feast	Doesn't matter if you're a Halfling, an Ogre or something else, the promise of good grub is worth fighting for.	true
+unit_abilities_onscreen_name_ovn_feast	The Feast is Coming!	true
+unit_abilities_tooltip_text_ovn_thief	Halflings have a knack for dodging blows before pin-pointing exposed armour and thrusting thier blade.	true
+unit_abilities_onscreen_name_ovn_thief	Tricksy Little Halflings!	true
+unit_abilities_tooltip_text_blood_howl	Devoted to thier gods these Arabyans give out a shrill howl in thier honour.	true
+unit_abilities_onscreen_name_blood_howl	Blood Howl	true
+unit_abilities_tooltip_text_ovn_mystic_mist	Fimir surround themselves with a magically-created mist, through which the Fimir are barely discernable from a distance of more than few metres.	true
+unit_abilities_onscreen_name_ovn_mystic_mist	Mystic Mist	true

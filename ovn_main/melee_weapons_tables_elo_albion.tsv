@@ -1,0 +1,26 @@
+melee_weapons_tables	22
+bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage
+0	0	0	woad_raiders_dual_axes	32	6	0	1.0	axe	axe		1	1.0	10	0.0	false		0	10	4.0	
+0	0	0	sickle_swords	38	9	0	1.0	sword	sword		1	1.0	10	0.0	true		0	10	4.0	
+0	0	0	wooden_arms	30	60	0	2.0	sword	claw	medium	6	1.3	100	0.0	false		0	10	3.8	
+0	0	0	albion_hunting_knife	18	3	0	1.0	sword	sword		1	1.0	10	0.0	false		0	10	3.8	
+0	0	0	albion_riders_sword	24	6	0	1.0	sword	sword		4	1.0	10	0.0	false		0	10	4.5	
+0	0	0	albion_riders_spear	17	6	0	2.0	spear	spear		1	1.0	10	0.0	false		0	10	5.0	
+0	0	0	hearthguard_sword	28	8	0	1.0	sword	sword		1	1.0	10	0.0	false		0	10	3.8	
+0	0	10	highlander_2h_sword	6	26	0	1.0	sword	sword		4	1.0	10	0.0	false		0	10	3.8	
+0	22	0	hearthguard_halberd	12	24	0	2.0	spear	halberd		1	1.0	14	0.0	false		0	10	4.3	
+0	0	10	albion_swordmaiden_sword	20	8	0	1.0	sword	sword		4	1.0	10	0.0	false		0	10	3.8	
+0	0	18	albion_chariot_scythe	12	33	0	3.0	axe	claw	very_large	4	1.0	10	0.0	false		3	2	4.0	
+0	0	0	truthsayer_sword	200	75	0	3.0	sword	staff	medium	5	1.0	150	0.0	false		0	10	4.0	
+0	0	0	centaur_great_axe	4	26	0	2.0	axe	axe		5	1.0	10	0.0	false		0	10	4.3	
+0	0	0	fenhulk_claw	150	320	0	10.0	axe	claw	large	8	1.0	600	0.0	false		0	10	3.2	
+0	0	0	warleader_sword	270	150	0	3.0	sword	axe	large	8	1.0	150	0.0	false		0	10	3.8	
+0	0	26	warleader_chariot	90	250	0	3.0	axe	claw	very_large	4	1.0	100	0.0	false		3	2	4.0	
+0	35	0	chief_halberd	110	220	0	3.0	spear	halberd	large	4	1.0	150	0.0	false		0	2	4.0	
+0	0	20	chief_halberd_chariot	90	200	0	3.0	axe	claw	very_large	4	1.0	150	0.0	false		3	2	4.6	
+0	0	0	morrigan_scythe	215	105	0	3.0	sword	staff	medium	5	1.0	150	0.0	true		0	10	4.0	
+0	0	0	morrigan_midnight	240	160	0	7.0	axe	claw	large	5	1.0	100	0.0	true		0	3	4.0	
+0	25	0	half_giant_club	90	40	0	2.0	axe	club_medium	medium	4	1.0	100	0.0	false		0	10	3.8	
+0	0	0	wyrd_druid_staff	200	115	0	3.0	axe	sword	medium	5	1.0	150	0.0	false		0	10	4.0	
+0	0	0	barghest_claws	35	15	0	1.0	axe	claw	medium	1	1.0	40	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
+0	0	8	ovn_barrow_wight	26	12	0	1.0	sword	sword		1	1.0	10	0.0	true		0	10	4.4	

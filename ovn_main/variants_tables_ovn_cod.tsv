@@ -1,0 +1,11 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+ovn_hef_cav_ellyrian_reavers_shore		cod_hef_cav_ellyrian_reavers_shore		1.07	1.07	0.05	
+ovn_hef_inf_archers_sea		cod_hef_inf_archers_sea		1.0	1.0	0.05	
+ovn_hef_inf_archers_fire		cod_hef_inf_archers_fire		1.0	1.0	0.05	
+ovn_hef_inf_archers_wind		cod_hef_inf_archers_wind		1.0	1.0	0.05	
+ovn_hef_inf_spearmen_falcon		cod_hef_inf_spearmen_falcon		1.0	1.0	0.05	
+ovn_hef_inf_spearmen_sapphire		cod_hef_inf_spearmen_sapphire		1.0	1.0	0.05	
+ovn_stormrider_mount		ovn_stormrider_mount		1.09	1.15	0.0	
+ovn_stormrider_mount_sharpclaw	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	ovn_stormrider_mount_sharpclaw		1.5	1.15	0.0	
+ovn_stormrider		ovn_stormrider		1.09	1.09	0.0	

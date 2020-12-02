@@ -1,0 +1,18 @@
+land_units_officers_tables	4
+key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+ovn_arb_inf_off	ovn_arb_inf_off	ovn_arb_inf_sgt					front	
+ovn_arb_slave_off	ovn_arb_slave_off	ovn_arb_slave_off					back	
+ovn_arb_cav_off	ovn_arb_cav_off						front	
+ovn_arb_jez_off	ovn_arb_jez_off						front	
+ovn_arb_war_elephant_ror_officer							front	ovn_arb_war_elephant_ror_riders
+ovn_arb_cha_magician_life_officer	ovn_arb_cha_magician_life				ovn_arb_inf_djinn_vessel_sea		back	
+ovn_arb_cha_magician_desert_officer	ovn_arb_cha_magician_desert				ovn_arb_inf_djinn_vessel_desert		back	
+ovn_arb_cha_magician_fire_officer	ovn_arb_cha_magician_fire				ovn_arb_inf_djinn_vessel_fire		back	
+ovn_arb_cha_magician_heavens_officer	ovn_arb_cha_magician_heavens				ovn_arb_inf_djinn_vessel_tempest		back	
+wh_main_arb_elephant_officer							front	wh_main_arb_elephant_riders
+wh_main_arb_war_elephant_officer							front	wh_main_arb_war_elephant_riders
+wh_main_arb_royal_war_elephant_officer							front	wh_main_arb_royal_war_elephant_riders
+ovn_arb_cav_scorpion_officer							front	ovn_arb_cav_scorpion_riders
+arb_golden_magus_skiff_officer							front	arb_golden_magus_skiff_officer
+ovn_araby_ll							front	
+arb_jaffar_elephant_officer							front	arb_jaffar_elephant_riders

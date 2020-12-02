@@ -1,0 +1,5 @@
+unit_abilities_to_additional_ui_effects_juncs_tables	0
+ability	effect
+elo_necromantic_anchor	wh_main_all_replenish
+elo_necromantic_anchor	wh_main_all_resurrect
+elo_necromantic_anchor	wh_main_all_resurrect_hp

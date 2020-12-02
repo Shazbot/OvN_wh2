@@ -1,0 +1,11 @@
+Loc PackedFile	1
+key	text	tooltip
+ancillaries_onscreen_name_arb_golden_magus_fire_scimitar	The Flaming Scimitar	true
+ancillaries_colour_text_arb_golden_magus_fire_scimitar	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	true
+ancillaries_onscreen_name_arb_golden_magus_auric_robe	Auric Robes	true
+ancillaries_colour_text_arb_golden_magus_auric_robe	The Magus' ostentatious golden robes are not just a flamboyant show of wealth, they possess potent enchantments that the Magus discovered in a parchment at the ruined city of Bel-Aliad. Besides providing protection from harm, these wards are curiously nocive to the Undead.	true
+ancillaries_onscreen_name_arb_golden_magus_camel_mount	Camel	true
+ancillaries_colour_text_arb_golden_magus_camel_mount	Though vigorous and spry for his old age, the Golden Magus often rides to battle on one of his many camels - out of flamboyance if anything else.	true
+ancillaries_onscreen_name_arb_golden_magus_djinnskiff_mount	Djinn Skiff	true
+ancillaries_colour_text_arb_golden_magus_djinnskiff_mount	Much like the Magus' infamous flagship, this enchanted skiff is proof of his mastery over the Djinn. Held "afloat" on the air by servile Lesser Tempest Djinn oarsmen, this is one of the Golden Magus' favourite ways to ride to battle.	true
+character_trait_levels_explanation_text_hlf_glibfoot_defeated_trait	There was no quirky remark, absurd story or honey-tongued comment to save Glibfoot this time. This is the end of his "grand" tale.	false

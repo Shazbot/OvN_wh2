@@ -1,0 +1,8 @@
+special_ability_to_special_ability_phase_junctions_tables	1
+order	phase	special_ability
+1	spawn_ushabti_dread_king	spawn_ushabti_dread_king
+1	Dread_Aura	Dread_Aura
+1	Summon_Black_Grail_Kinghts_1	Summon_Black_Grail_Kinghts
+2	Summon_Black_Grail_Kinghts_2	Summon_Black_Grail_Kinghts
+3	Summon_Black_Grail_Kinghts_3	Summon_Black_Grail_Kinghts
+0	elo_necromantic_anchor	elo_necromantic_anchor

@@ -1,0 +1,15 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ovn_boglar	dlc08_nor_marauders_all
+false				ovn_boglar	dlc08_nor_marauders_inf
+false				ovn_fimm	dlc08_nor_fimirs
+false				ovn_zoat	wh2_dlc11_nor_fimir_giant_mammoth
+false				ovn_zoat	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir
+false				ovn_fenbeast	all_units
+false				ovn_fenhulk	all_units
+false				ovn_fenbeast	wh2_dlc11_nor_fimir_giant_mammoth
+false				ovn_fenhulk	wh2_dlc11_nor_fimir_giant_mammoth
+false				ovn_fenbeast	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir
+false				ovn_fenhulk	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir
+false				ovn_boglar_no_garrison	dlc08_nor_marauders_all
+false				ovn_boglar_no_garrison	dlc08_nor_marauders_inf

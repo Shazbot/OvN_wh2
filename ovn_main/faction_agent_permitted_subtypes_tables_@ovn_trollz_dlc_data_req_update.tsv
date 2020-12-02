@@ -1,0 +1,14 @@
+faction_agent_permitted_subtypes_tables	0
+agent	faction	subtype
+champion	wh2_main_nor_trollz	default
+colonel	wh2_main_nor_trollz	elo_cha_troll_lord
+dignitary	wh2_main_nor_trollz	default
+engineer	wh2_main_nor_trollz	default
+general	wh2_main_nor_trollz	elo_cha_troll_lord
+minister	wh2_main_nor_trollz	default
+spy	wh2_main_nor_trollz	default
+wizard	wh2_main_nor_trollz	grn_night_goblin_shaman
+colonel	wh2_main_rogue_troll_skullz	elo_cha_troll_lord
+general	wh2_main_rogue_troll_skullz	elo_cha_troll_lord
+runesmith	wh2_main_nor_trollz	wh2_dlc15_grn_river_troll_hag
+general	wh2_main_nor_trollz	elo_chief_ugma

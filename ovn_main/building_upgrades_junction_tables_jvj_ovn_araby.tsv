@@ -1,0 +1,11 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_arb_barracks_1	ovn_arb_barracks_2
+ovn_arb_barracks_2	ovn_arb_barracks_3
+ovn_arb_industry_basic_1	ovn_arb_industry_basic_2
+ovn_arb_industry_basic_2	ovn_arb_industry_basic_3
+ovn_arb_stables_1	ovn_arb_stables_2
+ovn_arb_stables_2	ovn_arb_stables_3
+ovn_arb_tavern_1	ovn_arb_tavern_2
+ovn_arb_tavern_2	ovn_arb_tavern_3
+ovn_arb_worship_1	ovn_arb_worship_2

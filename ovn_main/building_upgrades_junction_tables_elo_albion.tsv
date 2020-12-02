@@ -1,0 +1,14 @@
+building_upgrades_junction_tables	0
+from	to
+elo_ogham_stone_1	elo_ogham_stone_2
+elo_ogham_stone_2	elo_ogham_stone_4
+elo_ogham_stone_4	elo_ogham_stone_3
+elo_temple_danu_1	elo_temple_danu_2
+elo_temple_danu_2	elo_temple_danu_3
+albion_hunters_1	albion_hunters_2
+albion_hunters_2	albion_hunters_3
+albion_order_1	albion_order_2
+albion_order_2	albion_order_3
+albion_smith_1	albion_smith_2
+albion_oracle_hall_1	albion_oracle_hall_2
+albion_gryphon_eyrie_0	albion_gryphon_eyrie

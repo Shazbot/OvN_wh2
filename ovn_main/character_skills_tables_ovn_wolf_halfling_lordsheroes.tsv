@@ -1,0 +1,21 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+icon_stat_melee.png	wh2_main_skill_all_dummy_agent_actions_hlf_fieldwarden		Actions [HIDDEN]	0	false	false	false	0.0	0
+campaign_army.png	hlf_fieldwarden_halfling_hero	Fieldwardens are esteemed figures in Halfling society, they know everyone and everyone knows them. Their sole presence can instill courage in the heart of fellow Halflings.	Halfling of the People	11	false	false	false	0.0	0
+battle_ammo.png	hlf_fieldwarden_friendly_competition	The presence of a Fieldwarden often leads nearby Halflings to try and outdo eachother in an effort to impress the Fieldwarden.	Friendly Competition	0	false	false	false	0.0	0
+character_subterfuge.png	hlf_fieldwarden_border_patrol	Lone Fieldwardens are often posted in the forests and hills at the borders of the Moot in order to stop any covert enemy incursions.	Border Patrols	11	false	false	false	0.0	0
+character_ranged_damage.png	hlf_fieldwarden_moot_warden	"And stay out, unless you want the next one  to hit something more sensitive!"	Defender of the Moot	0	false	false	false	0.0	0
+icon_stat_melee.png	wh2_main_skill_all_dummy_agent_actions_hlf_master_chef		Actions [HIDDEN]	0	false	false	false	0.0	0
+hlf_master_chef_skill_3_0_regeneration_passive_aura.png	hlf_master_chef_skill_3_0_regeneration_passive_aura		Food Delivery	0	false	false	false	0.0	0
+hlf_master_chef_skill_3_0_regeneration_passive_aura.png	hlf_master_chef_skill_3_0_regeneration_passive_aura		regeneration_passive_aura	0	false	false	false	0.0	0
+hlf_master_chef_skill_3_1_earth_blood.png	hlf_master_chef_skill_3_1_earth_blood		earth_blood	0	false	false	false	0.0	0
+campaign_army.png	hlf_master_chef_skill_3_2_cook_aura		The Feast is Coming!	10	false	false	false	0.0	0
+hlf_master_chef_skill_3_3_hot_spices.png	hlf_master_chef_skill_3_3_hot_spices		Hot Spices	10	false	false	false	0.0	0
+character_damage.png	hlf_moot_general_skill_1_3_defense_moot		In Defense of the Moot	10	false	false	false	0.0	0
+character_damage.png	hlf_moot_general_skill_1_3_pure_good		For all that is Pure and Good	10	false	false	false	0.0	0
+icon_stat_melee.png	wh2_main_skill_all_dummy_agent_actions_hlf_sheriff		Actions [HIDDEN]	0	false	false	false	0.0	0
+hlf_master_chef_skill_3_1_flush_soup.png	hlf_master_chef_skill_3_4_flush_soup		Spill the Soup!	10	false	false	false	0.0	0
+character_ward_save.png	hlf_unique_ward	cnsidnvdnv	Smallfolk Luck	7	false	false	false	0.0	0
+mount_cockarel.png	hlf_moot_general_skill_0_0_mount_poultry		poultry	8	false	false	false	0.0	0
+mount_cwagon.png	hlf_master_chef_skill_0_0_mount_wagon		wagon	9	false	false	false	0.0	0
+mount_bpig.png	hlf_sheriff_skill_0_0_mount_pig		pig	8	false	false	false	0.0	0

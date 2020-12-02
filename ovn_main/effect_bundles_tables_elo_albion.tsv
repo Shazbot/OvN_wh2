@@ -1,0 +1,6 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+albion_scary_banner		Scary Banner	character	1	public_order.png	false
+anc_albion_triskele_banner		Triskele Banner	character	1	public_order.png	false
+anc_danu_banner		Danu Banner	character	1	public_order.png	false
+anc_albion_hunter_banner		Hunter's Banner	character	1	public_order.png	false

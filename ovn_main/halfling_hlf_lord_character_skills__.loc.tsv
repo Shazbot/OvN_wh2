@@ -1,0 +1,44 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_description_hlf_staff	Gifted Halflings who have defended the Moot and all within are presented a magical staff from the creatures of Altern Forest.	true
+character_skills_localised_description_hlf_robe	Dried and treated Tobacco from the Greenleaf plantations are woven into impossible robes showcasing various runes of protection.	true
+character_skills_localised_description_meat_Buff	My pies are second to none, my proof you ask, well look at my troops, not one can even run!	true
+character_skills_localised_description_cig_Buff	They said my love of the Halfing's weed would dull my senses but who can resist a puff of Greenleaves finest!	true
+character_skills_localised_name_hlf_staff	Altern Gnarl Staff	true
+character_skills_localised_name_hlf_robe	Greenleaf Battle Robes	true
+character_skills_localised_name_meat_Buff	Butcher	true
+character_skills_localised_name_cig_Buff	Tobacconist	true
+character_skills_localised_name_hlf_Lord_Buff	Halfling Noble	true
+character_skills_localised_description_hlf_Lord_Buff	Halflings of the upper echelons of society are friendly and industrious and just like all halflings are perceived as weak but they use this misconception to their advantage.	true
+character_skills_localised_name_haffenlyver	Entry into the Haffenlyver	true
+character_skills_localised_description_haffenlyver	Kept by the Elder of the Moot,  the great book Haffenlyver lists the great heroes and notable halfling families. To be entered onto its pages is an honour like no other.	true
+character_skills_localised_description_trick_Buff	Magic does not come easily to the Halflings and most are only ever able to perform cheap parlor tricks, this does keep the rabble amused though.	true
+character_skills_localised_name_trick_Buff	Conjuror of Cheap Tricks	true
+character_skills_localised_name_ovn_buff_halfling_welf	Friends to Nature	true
+character_skills_localised_description_ovn_buff_halfling_welf	The Halflings have long had an affinity with nature and both have come to each others aid in times of need.	true
+character_skills_localised_name_ovn_buff_soup_art	Art of Soup	true
+character_skills_localised_description_ovn_buff_soup_art	There is an art to making soup a deadly weapon the viscosity, temperature and so on has to be carefully considered and when done right no-one, however mighty, will be laughing.	true
+character_skills_localised_name_ovn_halfling_hlf_r7	Even Darkness Must Pass	true
+character_skills_localised_description_ovn_halfling_hlf_r7	There’s some good in this world and it’s worth fighting for!	true
+character_skills_localised_name_ovn_halfling_ogre_r7	A New Home	true
+character_skills_localised_description_ovn_halfling_ogre_r7	They came in search of food but what they found was home.	true
+character_skills_localised_name_ovn_halfling_welf_r7	You're Part Of This World!	true
+character_skills_localised_description_ovn_halfling_welf_r7	Our friends are out there. They need our help! They cannot fight this war on their own.	true
+character_skills_localised_name_ovn_soup_art_r7	Masters of Broth	true
+character_skills_localised_description_ovn_soup_art_r7	The closer we are to danger, the farther we are from harm.	true
+character_skills_localised_name_elo_halfling_cook	Cook	true
+character_skills_localised_description_elo_halfling_cook	Despite not being a Master Chef, a Cook as a leader is always seen as a good sign for a Halfling army.	true
+character_skills_localised_name_elo_halfling_scharlatan	Charlatan	true
+character_skills_localised_description_elo_halfling_scharlatan	This one is pretending to be more than he really is and he's quite good at it.	true
+character_skills_localised_name_elo_halfling_glutton	Glutton	true
+character_skills_localised_description_elo_halfling_glutton	Ogres respect Halflings - they have quite the gut for their small size. And this Halfling has an even bigger gut than most others.	true
+character_skills_localised_name_elo_halfling_farmer	Farmer	true
+character_skills_localised_description_elo_halfling_farmer	A healthy and stable homegrown diet is the base of every Halfling society - and their armies.	true
+character_skills_localised_name_elo_halfling_warden	Warden	true
+character_skills_localised_description_elo_halfling_warden	Wardens are the professional warriors of the Moot. They are highly respected by other Halflings.	true
+character_skills_localised_name_elo_halfling_thief	Borrower	true
+character_skills_localised_description_elo_halfling_thief	"This ring is so shiny and pretty - my precious! But then again, this necklace is also quite nice looking...."	true
+character_skills_localised_name_elo_halfling_adventurer	Adventurer	true
+character_skills_localised_description_elo_halfling_adventurer	Most Halflings prefer a comfortable, safe life at home. Some however are drawn to foreign lands with a compulsion to explore.	true
+character_skills_localised_name_elo_halfling_pennypincher	Pennypincher	true
+character_skills_localised_description_elo_halfling_pennypincher	The cheapest supplies, who cares if the food doesn't taste that good as long as it fills the soldiers stomachs? Well, the soldiers certainly do....	true

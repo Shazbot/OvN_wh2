@@ -1,0 +1,5 @@
+unit_abilities_to_additional_ui_effects_juncs_tables	0
+ability	effect
+elo_so_hungry	wh_dlc06_automatic
+elo_so_hungry	wh_main_all_direct_damage_self_high
+elo_so_hungry	troll_fodder_ui

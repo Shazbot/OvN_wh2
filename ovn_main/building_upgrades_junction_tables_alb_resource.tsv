@@ -1,0 +1,8 @@
+building_upgrades_junction_tables	0
+from	to
+alb_resource_pottery_1	alb_resource_pottery_2
+alb_resource_pottery_2	alb_resource_pottery_3
+alb_resource_wood_1	alb_resource_wood_2
+alb_resource_wood_2	alb_resource_wood_3
+alb_resource_medicine_1	alb_resource_medicine_2
+alb_resource_medicine_2	alb_resource_medicine_3

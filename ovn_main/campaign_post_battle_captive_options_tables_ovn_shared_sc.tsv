@@ -1,0 +1,7 @@
+campaign_post_battle_captive_options_tables	4
+campaign_group	captive_option	effect_bundle	effect_bundle_turns	icon_path	resource_transaction
+ovn_captive_option_enslave_troll	enslave	ovn_troll_devour	4	icon_grn_eat.png	
+wh_captive_option_release_troll	release		1	icon_grn_slaughter.png	
+wh_captive_option_enslave_albion	enslave		1	icon_dominate.png	
+wh_captive_option_kill_albion	kill	wh_main_bundle_captives_kill_humans	4	icon_grn_slaughter.png	
+wh_captive_option_release_albion	release		1	icon_release_captives.png	

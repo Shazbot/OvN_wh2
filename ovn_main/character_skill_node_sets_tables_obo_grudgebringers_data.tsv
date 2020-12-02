@@ -1,0 +1,4 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			morgan_bernhardt		false	false	morgan_bernhardt
+wizard			vladimir_stormbringer		false	false	vladimir_stormbringer

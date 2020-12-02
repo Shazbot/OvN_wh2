@@ -1,0 +1,35 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	sessair_leader		19
+		x	1	fir_leader		19
+		x	1	filian_leader		19
+		x	1	finian_leader		19
+		x	1	warleader_mount_skill		4
+		x	1	warleader_chariot_skill		9
+		x	1	teachings_old_ones		9
+		x	1	oral_tradition		9
+		x	1	swamp_monsters		19
+		x	1	ancient_allies		19
+		x	1	mount_horse_truthsayer_beasts_skill		4
+		x	1	mount_horse_truthsayer_light_skill		4
+		x	1	mount_horse_truthsayer_life_skill		4
+		x	1	chief_hunter		9
+		x	1	chief_leader		9
+		x	1	chief_bodyguard		9
+		x	1	chief_mount_skill		4
+		x	1	chief_chariot_skill		9
+		x	1	wyrd_mount_skill		4
+		x	1	warrior_shaman		9
+		x	1	wyrd_spellbinder		9
+		x	1	wyrd_channeler		9
+		x	1	morrigan_legendary_staff		11
+		x	1	morrigan_raven_skill		9
+		x	1	morrigan_magical_being		14
+		x	1	morrigan_wings_bound		9
+		x	1	elo_staff_of_dural_durak		11
+		x	1	elo_amulet_old_ones		19
+		x	1	dural_mount_horse		4
+		x	1	dural_mount_chariot		9
+		x	1	dural_mentor		14
+		x	1	dural_leader_circle		19
+		x	1	dural_loremaster		9

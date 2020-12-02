@@ -1,0 +1,3 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ovn_arb_cav_scorpion	wh2_mp_single_entity_monsters

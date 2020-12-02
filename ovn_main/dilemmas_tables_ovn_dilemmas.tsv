@@ -1,0 +1,9 @@
+dilemmas_tables	5
+generate	key	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override
+false	ovn_dilemma_grudge_occupy	region transfer	region transfer	grudge_dilemma	false	Event	UI_CAM_EVENT_Dilemma_Grombrindal	
+false	ovn_dilemma_sabaar_occupy	region transfer	region transfer	grudge_kasabar_dilemma	true	Event		
+false	ovn_dilemma_zandri_occupy	region transfer	region transfer	grudge_wizard_dilemma	true	Event		
+true	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_chaos_gipfel	halfling_dilemma	false	Event		
+false	ovn_dilemma_rotblood_skit	ovn_chaos_gipfel	ovn_chaos_gipfel	rotblood_dilemma	false	Event		
+false	ovn_dilemma_arb_excavation	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_arb_excavation	false	Event		
+false	ovn_dilemma_alb_alt_leader	ovn_chaos_gipfel	ovn_chaos_gipfel	albion_dilemma	false	Event		

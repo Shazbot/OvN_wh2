@@ -1,0 +1,17 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+hlf_glibfoot_hlf_thieves	experience.png	120	experience.png	campaign	true
+hlf_glibfoot_reduce_inf_upkeep	military_spending.png	105	military_spending.png	campaign	false
+hlf_glibfoot_morale_inf	morale.png	61	morale.png	battle	true
+ovn_glibfoot_enable_adv_continues	general_ability.png	600	general_ability.png	battle	true
+hlf_glibfoot_inf_xp_inc	experience.png	15	experience.png	campaign	true
+hlf_glibfoot_ranged_xp_inc	experience.png	15	experience.png	campaign	true
+hlf_glibfoot_cav_xp_inc	experience.png	15	experience.png	campaign	true
+hlf_glibfoot_warden_xp_inc	experience.png	15	experience.png	campaign	true
+hlf_glibfoot_rangers_xp_inc	experience.png	15	experience.png	campaign	true
+hlf_glibfoot_warden_melee_inc	weapon_damage.png	15	experience.png	campaign	true
+hlf_glibfoot_rangers_ranged_inc	ranged_damage.png	15	experience.png	campaign	true
+ovn_glibfoot_enable_for_the_moot	general_ability.png	600	general_ability.png	battle	true
+ovn_glibfoot_enable_hyshia_charged_shot	general_ability.png	600	general_ability.png	battle	true
+ovn_glibfoot_enable_willowblade_ability	general_ability.png	600	general_ability.png	battle	true
+ovn_glibfoot_enable_thief_tactics_ability	general_ability.png	600	general_ability.png	battle	true

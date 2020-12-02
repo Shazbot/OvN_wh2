@@ -1,0 +1,49 @@
+technologies_tables	5
+key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+tech_ovn_hlf_soup_1	wh_main_sch_special_moot_cauldron_1	1	wh2_def_tech_keep_what_you_capture	0	0	0	0	false	false	"placeholder.tga"	250519880	false	false	true
+tech_ovn_hlf_soup_2	wh_main_sch_special_moot_cauldron_1	1	wh2_hef_tech_spices_trade_contract_with_the_east	0	0	0	0	false	false	"placeholder.tga"	250519881	false	false	true
+tech_ovn_hlf_soup_3		1	wh2_hef_tech_pastures_call_to_the_great_herds	0	0	0	0	false	false	"placeholder.tga"	250519882	false	false	true
+tech_ovn_hlf_soup_4		1	wh_main_grn_boar_breeding	0	0	0	0	false	false	"placeholder.tga"	250519883	false	false	true
+tech_ovn_troll_1		1	wh_main_vmp_cannibalistic_rituals	0	0	0	0	false	false	"placeholder.tga"	250519884	false	false	true
+tech_ovn_troll_2		1	wh_main_chs_skulls_for_the_skull_throne	0	0	0	0	false	false	"placeholder.tga"	250519885	false	false	true
+tech_ovn_troll_3		1	wh_main_grn_heavy_clubs	0	0	0	0	false	false	"placeholder.tga"	250519886	false	false	true
+tech_ovn_troll_4		1	wh_main_chs_unholy_communion	0	0	0	0	false	false	"placeholder.tga"	250519887	false	false	true
+tech_ovn_troll_5		1	wh2_skv_tech_unfathomable_horrors	0	0	0	0	false	false	"placeholder.tga"	250519888	false	false	true
+tech_ovn_troll_6		1	tech_cst_rotten_gift	0	0	0	0	false	false	"placeholder.tga"	250519889	false	false	true
+tech_ovn_troll_7		1	tech_dlc07_brt_economy_start	0	0	0	0	false	false	"placeholder.tga"	250519890	false	false	true
+tech_ovn_troll_8		1	wh2_dlc13_emp_assumbly_line	0	0	0	0	false	false	"placeholder.tga"	250519891	false	false	true
+tech_ovn_troll_9		1	wh_main_vmp_beastmaster	0	0	0	0	false	false	"placeholder.tga"	250519892	false	false	true
+araby_tech_good_1		1	wh_main_emp_ecclestial_writ	0	0	0	0	false	false	"placeholder.tga"	250519893	false	false	true
+araby_tech_good_2		1	wh2_hef_tech_arcane_studies	0	0	0	0	false	false	"placeholder.tga"	250519894	false	false	true
+araby_tech_good_3		1	wh2_def_tech_founded_on_tyranny	0	0	0	0	false	false	"placeholder.tga"	250519895	false	false	true
+araby_tech_good_4		1	wh2_def_tech_study_the_chaos_wastes	0	0	0	0	false	false	"placeholder.tga"	250519896	false	false	true
+araby_tech_good_5		1	tech_dlc14_brt_code_of_conduct	0	0	0	0	false	false	"placeholder.tga"	250519897	false	false	true
+araby_tech_good_6		1	wh_main_grn_heavy_clubs	0	0	0	0	false	false	"placeholder.tga"	250519898	false	false	true
+araby_tech_good_7		1	wh2_hef_tech_naval_empire	0	0	0	0	false	false	"placeholder.tga"	250519899	false	false	true
+araby_tech_good_8		1	tech_cst_piracy_00	0	0	0	0	false	false	"placeholder.tga"	250519900	false	false	true
+araby_tech_bad_1		1	tech_dlc14_brt_rally_the_peasants	0	0	0	0	false	false	"placeholder.tga"	250519901	false	false	true
+araby_tech_bad_2		1	wh_main_chs_rituals_of_corruption	0	0	0	0	false	false	"placeholder.tga"	250519902	false	false	true
+araby_tech_bad_3		1	wh_main_vmp_blood	0	0	0	0	false	false	"placeholder.tga"	250519903	false	false	true
+araby_tech_bad_4		1	wh_main_vmp_bones	0	0	0	0	false	false	"placeholder.tga"	250519904	false	false	true
+araby_tech_bad_5		1	wh_main_vmp_binding	0	0	0	0	false	false	"placeholder.tga"	250519905	false	false	true
+araby_tech_bad_6		1	wh_main_chs_gaze_of_the_dark_gods	0	0	0	0	false	false	"placeholder.tga"	250519906	false	false	true
+araby_tech_bad_7		1	wh_main_chs_pledges_to_the_dark_gods	0	0	0	0	false	false	"placeholder.tga"	250519907	false	false	true
+araby_tech_bad_8		1	tech_dlc08_nor_secrets_of_necromancy	0	0	0	0	false	false	"placeholder.tga"	250519908	false	false	true
+araby_tech_neu_1		1	wh2_liz_tech_verse_of_scrying	0	0	0	0	false	false	"placeholder.tga"	250519909	false	false	true
+araby_tech_neu_2		1	tech_dlc08_nor_master_of_beasts	0	0	0	0	false	false	"placeholder.tga"	250519910	false	false	true
+araby_tech_neu_3		1	wh2_def_tech_blood_and_death	0	0	0	0	false	false	"placeholder.tga"	250519911	false	false	true
+araby_tech_neu_4		1	wh_main_emp_draft_irregulars	0	0	0	0	false	false	"placeholder.tga"	250519912	false	false	true
+araby_tech_neu_5		1	wh2_dlc13_emp_ordnance_canisters	0	0	0	0	false	false	"placeholder.tga"	250519913	false	false	true
+araby_tech_neu_6		1	wh_main_emp_volley_fire	0	0	0	0	false	false	"placeholder.tga"	250519914	false	false	true
+araby_tech_neu_eco_1		1	tech_dlc09_ancient_quarries	0	0	0	0	false	false	"placeholder.tga"	250519915	false	false	true
+araby_tech_neu_eco_2		1	tech_dlc07_brt_economy_other_2	0	0	0	0	false	false	"placeholder.tga"	250519915	false	false	true
+araby_tech_neu_eco_3		1	wh2_def_tech_masters_of_murder	0	0	0	0	false	false	"placeholder.tga"	250519916	false	false	true
+araby_tech_neu_eco_4		1	tech_dlc07_brt_economy_other_1	0	0	0	0	false	false	"placeholder.tga"	250519917	false	false	true
+araby_tech_neu_eco_5		1	wh2_hef_tech_naval_empire	0	0	0	0	false	false	"placeholder.tga"	250519918	false	false	true
+araby_tech_neu_eco_6		1	tech_dlc13_emp_wulfhart_2	0	0	0	0	false	false	"placeholder.tga"	250519919	false	false	true
+araby_tech_neu_0		1	wh_main_emp_state_issued_infantry_armour	0	0	0	0	false	false	"placeholder.tga"	250519920	false	false	true
+araby_tech_neu_eco_0		1	wh_main_emp_siege_experts	0	0	0	0	false	false	"placeholder.tga"	250519921	false	false	true
+grudge_tech_1		1	tech_dlc09_ancient_battle_sites	0	0	0	0	false	false	"placeholder.tga"	250519922	false	false	true
+grudge_tech_2		1	tech_dlc08_nor_one_with_beasts	0	0	0	0	false	false	"placeholder.tga"	250519923	false	false	true
+grudge_tech_3		1	wh_main_dwf_ancestral_tombs	0	0	0	0	false	false	"placeholder.tga"	250519924	false	false	true
+grudge_tech_4		1	wh2_dlc13_emp_ordnance_canisters	0	0	0	0	false	false	"placeholder.tga"	250519925	false	false	true

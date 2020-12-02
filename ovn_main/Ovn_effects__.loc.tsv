@@ -1,0 +1,120 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_title_sr_arab_bundle	Araby Prejudice	true
+effect_bundles_localised_description_sr_arab_bundle	Araby holds ancient bonds and hatreds though they have mellowed with time.	true
+effects_description_wh2_main_diplomatic_relations_crusaders_bad	Diplomatic relations: %+n with the factions of [[img:ovn_scythans]][[/img]]Aswad Scythans, [[img:ovn_araby]][[/img]]Caliphate of Araby & [[img:ovn_scimitar]][[/img]]the Flaming Scimitar.	true
+effects_description_ovn_desert_att_immune_dummy	Immune to Desert Attrition	true
+effects_description_ovn_scythans_recruit_tmbking_dummy	Enables recruitment of certain Tomb King units	true
+effects_description_ovn_grudge_horde_dummy	Roving camp which grows with the mercenaries reputation.	true
+effects_description_ovn_grudge_mercenary_dummy	Wide selection of rare and powerful legendary mercenaries	true
+effect_bundles_localised_title_wh2_main_lord_trait_arb_caliphate_of_araby	Of Magic and Coin	true
+effect_bundles_localised_description_wh2_main_lord_trait_arb_caliphate_of_araby	Long thought dead, Jaffar has arisen through some nefarious way and taken back power ushering in a new age of magic and trade.	true
+effect_bundles_localised_title_wh2_main_lord_trait_arb_aswad_scythans	Of Dune and Crypt	true
+effect_bundles_localised_description_wh2_main_lord_trait_arb_aswad_scythans	The Scythans were once a nomadic people but now serve and defend the deserts of the Tomb Kings to the east. 	true
+effect_bundles_localised_title_wh2_main_lord_trait_arb_flaming_scimitar	Of Sea and Sand	true
+effect_bundles_localised_description_wh2_main_lord_trait_arb_flaming_scimitar	Led by the seafaring Golden Magus these veteran sailors have been far and wide in search of gold and glory.	true
+effects_description_ovn_grudge_good_dummy	Servants of Order: Cannot declare war on Empires States, Bretonnian Kingdoms and Dawi Realms	false
+effects_description_ovn_barbarian_hatred	Barbarian Hatred: No peace just war with Norscan factions	false
+effects_description_ovn_trollz_bad	Can only enter into diplomacy with Chaos worshipping, Greenskin or Rogue factions	false
+effect_bundles_localised_title_wh2_main_lord_trait_emp_the_moot	Of Pies and Tobaccy	false
+effect_bundles_localised_description_wh2_main_lord_trait_emp_the_moot	Halfings are famous for three things Pies, Tobacco and Thieving, all of which can make a pretty penny.	false
+effects_description_ovn_halfling_friendly	%+n Diplomatic relations with Dwarfs, Men & Elves	true
+effects_description_wh2_main_diplomatic_relations_averland_bad	-25 Diplomatic penalty with Averland	true
+effects_description_ovn_halfling_chaos_resist	Forces are resistant to Chaos corruption	true
+effect_bundles_localised_title_wh2_main_lord_trait_emp_grudgebringers	Grudgebringer Mercenaries	false
+effect_bundles_localised_description_wh2_main_lord_trait_emp_grudgebringers	Veterans of many campaigns the Grudgebringer mercenaries are hailed as heroes from the courts of Altdorf, Zhufbar, Loren and beyond.	false
+effect_bundles_localised_title_wh2_main_lord_trait_tmb_the_sentinels	Dark Omen	true
+effect_bundles_localised_description_wh2_main_lord_trait_tmb_the_sentinels	The Dread King has arisen through dark magics and will usher in a new age of dread and darkness.	true
+effects_description_ovn_buff_soup_art	%+n Ranged Damage for Hot-Pot Catapults and Kathleen Steam Tank	true
+effects_description_ovn_buff_halfling_welf	%+n Melee Defence for Dryads, Treekin, Treemen and Great Eagles	true
+effects_description_ovn_halfling_hlf_r7_morale	%+n Morale for all Halflings {{tr:rank7}}	true
+effects_description_ovn_halfling_ogre_r7_morale	%+n Morale for Ogres {{tr:rank7}}	true
+effects_description_ovn_halfling_welf_r7_morale	%+n Morale for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
+effects_description_ovn_soup_art_r7_range	%+n Range for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
+effects_description_ovn_hlf_effect_religion_conversion_chaos_technologies	%+n Chaos Corruption	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_arb_1	Hero capacity: %+n for Sorcerers	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_arb_2	Hero capacity: %+n for Sorcerers	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_1	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_2	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
+effect_bundles_localised_title_wh2_main_lord_trait_nor_naglfarlings	Pillage and Raid	false
+effect_bundles_localised_description_wh2_main_lord_trait_nor_naglfarlings	Father to a murdered son, husband to a murdered wife. And I will have my vengeance, in this life or the next.	false
+ovn_effect_agent_cap_increase_champion_goblin_big_boss	Hero capacity: %+n for Goblin Big Boss	true
+effects_description_ovn_effect_agent_enable_recruitment_champion_greenskins	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Goblin Big Boss	true
+effect_bundles_localised_title_ovn_Tzeen	Champion of Tzeentch	true
+effect_bundles_localised_title_ovn_Slaa	Champion of Slaanesh	true
+effect_bundles_localised_title_ovn_Khar	Champion of Khorne	true
+effect_bundles_localised_title_ovn_Nurgh	Champion of Nurgle	true
+effect_bundles_localised_description_ovn_Tzeen	This warrior has been ordained Champion of Tzeentch	true
+effect_bundles_localised_description_ovn_Slaa	This warrior has been ordained Champion of Slaanesh	true
+effect_bundles_localised_description_ovn_Khar	This warrior has been ordained Champion of Khorne	true
+effect_bundles_localised_description_ovn_Nurgh	This warrior has been ordained Champion of Nurgle	true
+effect_bundles_localised_title_ovn_troll_devour	Well-Fed	true
+effect_bundles_localised_description_ovn_troll_devour	We iz full for now!	true
+effects_description_ovn_warp_champion	Access to the Skittergate which allows your lord to teleport across the world, when the Skaven have found enough Warpfuel that is	false
+effect_bundles_localised_title_wh2_main_lord_trait_nor_goromadny_tribe	From The Mist They Come	true
+effect_bundles_localised_description_wh2_main_lord_trait_nor_goromadny_tribe	We come for your women folk, resistance is futile!	true
+effect_bundles_localised_title_wh2_main_lord_trait_nor_trollz	Too Stupid To Care	true
+effect_bundles_localised_description_wh2_main_lord_trait_nor_trollz	We eat, we smash, we eat what we smash, what else is there?	true
+effect_bundles_localised_title_ovn_annoy_chaos_gods_2	Curse of the Dark Gods	true
+effect_bundles_localised_description_ovn_annoy_chaos_gods_2	You waste time searching for mere trinkets? True power lies with us fool!	true
+effect_bundles_localised_title_ovn_annoy_chaos_gods	Curse of the Dark Gods	true
+effect_bundles_localised_description_ovn_annoy_chaos_gods	You do nothing, NOTHING! You don't have enough coin? Here, let me thin your ranks for you!	true
+effect_bundles_localised_title_ovn_favour_chaos_gods	Favour of the Dark Gods	true
+effect_bundles_localised_description_ovn_favour_chaos_gods	This pleases us, take this gift and bring ruin to the world!	true
+effects_description_ovn_cod_defender_mech_dummy_good	Gains bonuses when Eatine and the Eastern Shores of Lustria are held by High Elves.	false
+effects_description_ovn_cod_defender_mech_dummy_bad	Receives penalties when Eatine and the Eastern Shores of Lustria are not held by High Elves.	false
+effects_description_ovn_cod_as_noble_dummy	Can recruit Nobles without the required building	false
+effects_description_ovn_cod_ll_visit_dummy	All High Elf Legenday Lords leave temporary bonuses on regions they visit belonging to the Citadel of Dusk.	false
+effects_description_ovn_cod_mech_diplo_improve	Improved diplomatic relations with Lothern and Order of Loremasters, for a little while at least.	false
+effect_bundles_localised_title_wh2_main_lord_trait_hef_citadel_of_dusk	Of Booty and Cargo	true
+effect_bundles_localised_description_wh2_main_lord_trait_hef_citadel_of_dusk	The Citadel of Dusk is a site of tremendous strategic importance as it allows the Asuryan navy to patrol, protect and ultimately control the western sea trade routes to Cathay and Nippon whilst suppressing the threat of Druchii corsairs & undead pirates to Ulthuan.	true
+effect_bundles_localised_title_ovn_troll_cannibal	Cannibals	true
+effect_bundles_localised_description_ovn_troll_cannibal	Out of hunger these trolls have taken to eating their kin.	true
+effects_description_ovn_halfling_hlf_r7_melee	%+n Melee Attack for all Halflings {{tr:rank7}}	true
+effects_description_ovn_halfling_ogre_r7_resistance_physical	%+n Physical Resistance for Ogres {{tr:rank7}}	true
+effects_description_ovn_halfling_welf_r7_speed	%+n Battle Spped for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
+effects_description_ovn_soup_art_r7_reload	%+n Reload time reduction for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
+effect_bundles_localised_title_wh_main_lord_trait_vmp_templehof	Fallen Order	true
+effect_bundles_localised_description_wh_main_lord_trait_vmp_templehof	Once a noble house fallen to evil ways, their cruel and surreal beliefs drive them on as mindlessly as their minions.	true
+effects_description_ovn_blood_dragon_ward	%+n% Ward Save for Blood Knights	true
+effects_description_ovn_grudgebringer_ward	%+n% Ward Save for Grudgebringer Cavalry, Grudgebringer Infantry, Grudgebringer Crossbowmen & Grudgebringer Cannon.	true
+effect_bundles_localised_title_wh2_main_lord_trait_wef_treeblood	From Hell They Come	true
+effect_bundles_localised_description_wh2_main_lord_trait_wef_treeblood	All shall bow before their Dark Master, even the Gods!	true
+effects_description_ovn_araby_tech_camel_armour	%+n Armour for all Camel units	true
+effects_description_ovn_araby_tech_gunpowder_missle_dam	%+n% Missile Damage for Grand Bombards, Jezzails and Camel Jezzails	true
+effects_description_ovn_araby_tech_gunpowder_rel	%+n% Reload for Grand Bombards, Jezzails and Camel Jezzails	true
+effects_description_ovn_araby_tech_state_inf_md	%+n Melee Defence for Arabyan Warriors, Spearmen, Archers, Guards, Knights & Sipahi	true
+effects_description_ovn_araby_tech_state_inf_arm	%+n Armour for Arabyan Warriors, Spearmen, Archers, Guards, Knights & Sipahi	true
+effects_description_ovn_araby_tech_nomad_units_ma	%+n Melee Attack for all Arabyan Nomad units	true
+effects_description_ovn_araby_tech_nomad_units_sp	%+n Battle Speed for all Arabyan Nomad units	true
+effects_description_ovn_araby_tech_bow_units	%+n% Missile Damage for Arabyan Archers, Camel Archers & Al-Raheem Nomads	true
+effects_description_ovn_halfling_hlf_r7_melee	%+n Melee Attack for all Halflings {{tr:rank7}}	true
+effects_description_ovn_halfling_ogre_r7_resistance_physical	%+n Physical Resistance for Ogres {{tr:rank7}}	true
+effects_description_ovn_halfling_welf_r7_speed	%+n Battle Spped for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
+effects_description_ovn_soup_art_r7_reload	%+n Reload time reduction for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
+effects_description_ovn_araby_nomads_r7_mor	%+n Morale for all Arabyan Nomad units {{tr:rank7}}	true
+effects_description_ovn_araby_nomads_r7_charge	%+n% Charge for all Arabyan Nomad units {{tr:rank7}}	true
+effects_description_ovn_araby_state_inf_r7_ma	%+n Melee Attack for Arabyan Warriors, Spearmen, Archers, Guards, Knights & Sipahi {{tr:rank7}}	true
+effects_description_ovn_araby_state_inf_r7_mor	%+n Morale for Arabyan Warriors, Spearmen, Archers, Guards, Knights & Sipahi {{tr:rank7}}	true
+effects_description_ovn_araby_beasts_r7_mor	%+n Morale for Arabyan Elephants, Scorpions, Giants & Promethean Hatchlings {{tr:rank7}}	true
+effects_description_ovn_araby_beasts_r7_charge	%+n Charge for Arabyan Elephants, Scorpions, Giants & Promethean Hatchlings {{tr:rank7}}	true
+effects_description_ovn_araby_magic_r7	%+n Ward Save for Arabyan Flying Carpets, Dervishers, Genie & Ifreet{{tr:rank7}}	true
+effects_description_ovn_araby_tech_corasir_units_ma	%+n Melee Attack for Corsairs and Promethean Hatchlings	false
+effects_description_ovn_araby_tech_corasir_units_upkeep	%+n% Upkeep for Corsairs and Promethean Hatchlings	false
+effects_description_ovn_araby_tech_slaves_units_ma	%+n Melee Attack for Sharkas Slaves and Pit-Fighters	false
+effects_description_ovn_araby_tech_slave_units_cost	%+n% Recruitment Cost for Sharkas Slaves and Pit-Fighters	false
+effects_description_ovn_araby_slave_production	Around %+n Slaves procured	false
+effects_description_ovn_jaffar_innate_dummy	Summon a Fire Djinn	false
+effects_description_wh2_dlc15_grn_river_troll_hag_wintertooth_cap	Recruitment Cap: %+n for Giant River Troll Hags	true
+effects_description_wh2_dlc15_grn_river_troll_hag_wintertooth_availability	Enable Recruitment of Giant River Troll Hags	true
+effect_bundles_localised_title_wh2_main_lord_trait_amz_amazons	We Brave Few	true
+effect_bundles_localised_description_wh2_main_lord_trait_amz_amazons	We may not be many but we have the strength of a thousand men!	true
+effects_description_elo_ogres_trait	%+n Morale for Ogres	true
+effect_bundles_localised_title_ovn_fimir_region_mist	Swirling Mist	true
+effect_bundles_localised_description_ovn_fimir_region_mist	Fimir strongholds are seldom seen by outsiders, for they are wreathed in thick mist, a miasma which is magically generated by the Fimir to shield their fortresses from prying eyes, and themselves from the harsh glare of the sun.	true
+unit_abilities_tooltip_text_ovn_chs_dark_god_blessing	This army has gained the favour of the Dark Ones, wreak havoc and they will knit your gaping bloody wounds.	true
+unit_abilities_onscreen_name_ovn_chs_dark_god_blessing	Blessings of the Dark Ones	true
+effects_description_ovn_chs_dark_god_blessing	Passive ability: "Dark Ones Blessing"	true
+effects_description_ovn_no_add_army_upkeep_dummy	Does not pay additional Army Upkeep	true
+effects_description_ovn_albion_waystone_geomancy	Empowers the network of Waystones	true
+effects_description_ovn_grudge_replenish_dummy	Replenish units in full for gold when near to owned or imperial settlements.	true

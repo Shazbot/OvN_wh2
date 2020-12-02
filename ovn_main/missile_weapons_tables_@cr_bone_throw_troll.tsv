@@ -1,0 +1,3 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+ovn_trl_throwing_bone	false	ovn_trl_throwing_bone	none	false

@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_title_ovn_grudge_armour_effect	Crafted Heavy Armour	true
+effect_bundles_localised_description_ovn_grudge_armour_effect	Mercenaries often outfit their troops with additional armour that has been specially crafted, a cost too great for standing armies.	true
+effect_bundles_localised_title_ovn_grudge_inf_effect	XVI Battle Standard	true
+effect_bundles_localised_description_ovn_grudge_inf_effect	A testament not only to the thirty-four that fell but to the sixteen men that survived the onslaught of over two hundred Greenskins. It took over five hours but the greenskins were slain to the last goblin and the convoy, they were protecting, managed to retreat back to the safety of the Empire in the infamous battle at Black Fire Pass.	true
+effect_bundles_localised_title_ovn_grudge_cross_effect	Brigands Way	true
+effect_bundles_localised_description_ovn_grudge_cross_effect	Former brigands and once on the Empire's most wanted list, enough time has passed for them to make use of some their former talents.	true
+effect_bundles_localised_title_ovn_grudge_can_effect	Earthworks	false
+effect_bundles_localised_description_ovn_grudge_can_effect	Hiring an imperial engineer and a few sappers will allow us to defend our cannon from enemy fire at the cost of manoeuvrability and a large sum of gold.	false

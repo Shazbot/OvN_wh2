@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_title	Ingredient Unlocked	true
+event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_primary_detail	A New Ingredient for the Kitchen	true
+event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_secondary_detail	One of Mootland's foraging parties has stumbled upon a new ingredient. This ingredient can now be used in the Kitchen to develop new and improved rations for our armies.	true

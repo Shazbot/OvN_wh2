@@ -1,0 +1,69 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_knights	true	true				false
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_archers	true	true				false
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_kepra_guard	true	true				false
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_spearmen	true	true				false
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_swordsmen	true	true				false
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_elite_guard	true	true				false
+wh2_main_arb_flaming_scimitar	false	OtF_khemri_rangers	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_yeoman	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_yeomanarchers	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_corsairs	true	true				false
+wh2_main_arb_flaming_scimitar	false	sr_ogre_arb	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh_main_grn_mon_giant	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_prometheans	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_southlander	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_slave	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_ifreet	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_jez	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_glad	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_scor	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_knights_ror	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_cat_knights	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_cat_knights_ror	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_jez_ror	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_jag	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_jag_ror	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_bom_ror	true	true				false
+wh2_main_arb_flaming_scimitar	true	ovn_araby_ll	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_araby_ll	ovn_araby_ll	false
+wh2_main_arb_flaming_scimitar	true	ovn_araby_ll_mount	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_araby_ll	ovn_araby_ll	false
+wh2_main_arb_flaming_scimitar	false	akp_brt_ballista	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_elephant_ror	true	true				false
+wh2_main_arb_flaming_scimitar	true	arb_golden_magus	true	true	ui/portraits/portholes/no_culture/arb_golden_magus.png	arb_golden_magus	arb_golden_magus	false
+wh2_main_arb_flaming_scimitar	true	arb_golden_magus_camel	true	true	ui/portraits/portholes/no_culture/arb_golden_magus.png	arb_golden_magus_camel	arb_golden_magus	false
+wh2_main_arb_flaming_scimitar	true	arb_golden_magus_skiff	true	true	ui/portraits/portholes/no_culture/arb_golden_magus.png	arb_golden_magus	arb_golden_magus	false
+wh2_main_arb_flaming_scimitar	false	arb_sultan_of_flame	true	true				true
+wh2_main_arb_flaming_scimitar	false	ovn_arb_art_grand_bombard	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_mon_war_elephant_ror	true	true				false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_champion	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	ovn_arb_cha_champion	roy_arb_cha_champion	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_champion_elephant	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	ovn_arb_cha_champion	roy_arb_cha_champion	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_champion_horse	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	ovn_arb_cha_champion	roy_arb_cha_champion	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_champion_warhorse	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	ovn_arb_cha_champion	roy_arb_cha_champion	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_nomad	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_uniform_03	roy_arb_cha_nomad	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_nomad_horse	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_uniform_03	roy_arb_cha_nomad	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_nomad_horse_jezzail	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_jezzail_uniform_03	roy_arb_cha_nomad	false
+wh2_main_arb_flaming_scimitar	true	roy_arb_cha_lord_horse	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_araby_ll	ovn_araby_ll	false
+wh2_main_arb_flaming_scimitar	false	roy_arb_cha_nomad_assassin	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_assassin_uniform_03	roy_arb_cha_nomad_assassin	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cav_jezzail_camel	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cav_archer_camel	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cav_lancer_camel	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_mon_genie	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_life_0	true	true	ui/portraits/portholes/no_culture/araby_wiz_life.png		ovn_arb_cha_magician_life_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_desert_0	true	true	ui/portraits/portholes/no_culture/araby_wiz.png		ovn_arb_cha_magician_desert_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_fire_0	true	true	ui/portraits/portholes/no_culture/araby_wiz_fire.png		ovn_arb_cha_magician_fire_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_heavens_0	true	true	ui/portraits/portholes/no_culture/araby_wiz_sky.png		ovn_arb_cha_magician_heavens_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_life_1	true	true	ui/portraits/portholes/no_culture/araby_wiz_life.png		ovn_arb_cha_magician_life_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_desert_1	true	true	ui/portraits/portholes/no_culture/araby_wiz.png		ovn_arb_cha_magician_desert_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_fire_1	true	true	ui/portraits/portholes/no_culture/araby_wiz_fire.png		ovn_arb_cha_magician_fire_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_heavens_1	true	true	ui/portraits/portholes/no_culture/araby_wiz_sky.png		ovn_arb_cha_magician_heavens_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_life_2	true	true	ui/portraits/portholes/no_culture/araby_wiz_life.png		ovn_arb_cha_magician_life_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_desert_2	true	true	ui/portraits/portholes/no_culture/araby_wiz.png		ovn_arb_cha_magician_desert_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_fire_2	true	true	ui/portraits/portholes/no_culture/araby_wiz_fire.png		ovn_arb_cha_magician_fire_0	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cha_magician_heavens_2	true	true	ui/portraits/portholes/no_culture/araby_wiz_sky.png		ovn_arb_cha_magician_heavens_0	false
+wh2_main_arb_flaming_scimitar	false	wh_main_arb_cav_magic_carpet_0	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_art_trebuchet	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh_main_arb_mon_elephant	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh_main_arb_mon_war_elephant	true	true				false
+wh2_main_arb_flaming_scimitar	true	wh_main_arb_cha_sheikh_2	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_araby_ll	ovn_araby_ll	false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cav_scorpion	true	true				false

@@ -1,0 +1,20 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_dread_legion_dual_cap	Unit Capacity: %+n for Dread Legion (Dual Swords)	true
+effects_description_dread_legion_2h_cap	Unit Capacity: %+n for Dread Legion (Great Weapons)	true
+effects_description_dread_legion_spears_cap	Unit Capacity: %+n for Dread Legion (Spears)	true
+effects_description_dread_legion_all_mattk	Melee Attack: %+n for Dread Legion units	true
+effects_description_dread_legion_all_mdef	Melee Defence: %+n for Dread Legion units	true
+effects_description_dread_legion_all_phyres	Physical Resistance: %+n% for Dread Legion units	true
+effects_description_wh2_dlc09_effect_melee_defence_tmb_all_melee_infantry	Melee Defence: %+n for all melee infantry units	true
+effects_description_wh2_dlc09_effect_armour_tmb_all_melee_infantry	Armour: %+n for all melee infantry units	true
+effects_description_wh2_dlc09_effect_melee_attack_tmb_all_melee_infantry	Melee Attack: %+n for all melee infantry units	true
+effects_description_wh2_dlc09_effect_morale_tmb_all_melee_infantry	Leadership: %+n for all melee infantry units	true
+effects_description_wh2_dlc09_effect_leadership_tmb_vet_all_infantry	Leadership: %+n for all melee infantry units {{tr:rank7}}	true
+effects_description_wh2_dlc09_effect_missile_resistance_tmb_vet_all_infantry	Missile Resistance: %+n% for all melee infantry units {{tr:rank7}}	true
+effects_description_wh2_dlc09_effect_speed_tmb_vet_all_infantry	Speed: %+n% for all melee infantry units {{tr:rank7}}	true
+effects_description_wh2_dlc09_effect_armour_tmb_vet_all_infantry	Armour: %+n for all melee infantry units {{tr:rank7}}	true
+effects_description_dread_legion_grail_knight_cap	Unit Capacity: %+n for Black Grail Knights	true
+effects_description_dread_legion_skellie_giant_cap	Unit Capacity: %+n for Skeletal Giants	true
+effects_description_elo_dread_inf_grave_guard_0_cap	Unit Capacity: %+n for Grave Guard	true
+effects_description_elo_dread_mummy	Unit Capacity: %+n for Mummies	false

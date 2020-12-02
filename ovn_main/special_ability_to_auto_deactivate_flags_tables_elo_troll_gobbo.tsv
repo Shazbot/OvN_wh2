@@ -1,0 +1,5 @@
+special_ability_to_auto_deactivate_flags_tables	0
+deactivate_flag	special_ability
+out_of_melee	troll_mocking_laughter
+losing_melee_combat	troll_mocking_laughter
+morale_is_broken_or_lower	troll_mocking_laughter

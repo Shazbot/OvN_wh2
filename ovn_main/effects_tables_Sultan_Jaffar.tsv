@@ -1,0 +1,13 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+Black_Book_Of_Ibn_Naggazar	item_ability.png	600	item_ability.png	battle	true
+summon_djinn_fighter	item_ability.png	600	item_ability.png	battle	true
+wh2_dlc12_army_abilities_great_invocation_of_djinn	item_ability.png	600	item_ability.png	battle	true
+ovn_jaffar_innate_dummy	magic.png	4	magic.png	battle	true
+arb_jaffar_serpent_djinn_enable	item_ability.png	600	item_ability.png	battle	true
+arb_jaffar_camel_mount	mount.png	50	mount.png	both	true
+arb_jaffar_elephant_mount	mount.png	50	mount.png	both	true
+arb_jaffar_serpent_guard_upkeep	military_spending.png	100	military_spending.png	battle	false
+arb_jaffar_serpent_guard_melee	melee.png	100	melee.png	battle	true
+arb_jaffar_serpent_guard_defence	defence.png	100	defence.png	battle	true
+arb_jaffar_enable_aura_will	general_ability.png	50	defence.png	battle	true

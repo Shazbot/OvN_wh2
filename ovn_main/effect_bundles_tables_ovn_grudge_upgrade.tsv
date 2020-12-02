@@ -1,0 +1,6 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+ovn_grudge_armour_effect			none	1		true
+ovn_grudge_inf_effect			none	1		true
+ovn_grudge_cross_effect			none	1		true
+ovn_grudge_can_effect			none	1		true

@@ -1,0 +1,37 @@
+technologies_tables	5
+key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+elo_fimir_slave_eco_1		1	wh2_def_tech_broken_by_lashes	0	0	0	0	false	false	"placeholder.tga"	777111200	false	false	true
+elo_fimir_slave_eco_2		1	wh2_def_tech_tempered_in_blood	0	0	0	0	false	false	"placeholder.tga"	777111201	false	false	true
+elo_fimir_slave_eco_3		1	wh2_def_tech_continuous_slave_supply	0	0	0	0	false	false	"placeholder.tga"	777111202	false	false	true
+elo_fimir_slave_eco_4		1	wh2_def_tech_revel_in_suffering	0	0	0	0	false	false	"placeholder.tga"	777111203	false	false	true
+elo_fimir_slave_eco_5		1	wh2_def_tech_founded_on_tyranny	0	0	0	0	false	false	"placeholder.tga"	777111204	false	false	true
+elo_fimir_culture_1		1	tech_dlc08_nor_secrets_of_necromancy	0	0	0	0	false	false	"placeholder.tga"	777111205	false	false	true
+elo_fimir_culture_2		1	tech_dlc03_bst_gods_5	0	0	0	0	false	false	"placeholder.tga"	777111206	false	false	true
+elo_fimir_culture_3		1	wh_main_chs_skulls_for_the_skull_throne	0	0	0	0	false	false	"placeholder.tga"	777111207	false	false	true
+elo_fimir_culture_4		1	tech_dlc08_nor_chaos_surge	0	0	0	0	false	false	"placeholder.tga"	777111208	false	false	true
+elo_fimir_culture_5		1	wh_dlc05_wood_elves_estreath	0	0	0	0	false	false	"placeholder.tga"	777111209	false	false	true
+elo_fimir_military_1		1	tech_dlc03_bst_hate_3	0	0	0	0	false	false	"placeholder.tga"	777111210	false	false	true
+elo_fimir_military_2		1	tech_dlc03_bst_gods_4	0	0	0	0	false	false	"placeholder.tga"	777111211	false	false	true
+elo_fimir_military_3		1	wh_main_chs_ensorcelled_weapons	0	0	0	0	false	false	"placeholder.tga"	777111212	false	false	true
+elo_fimir_military_4		1	wh_main_chs_blood_for_the_blood_god	0	0	0	0	false	false	"placeholder.tga"	777111213	false	false	true
+elo_fimir_military_5		1	wh_main_chs_daemonic_armour	0	0	0	0	false	false	"placeholder.tga"	777111214	false	false	true
+elo_fimir_magic_1		1	wh_main_chs_rituals_of_corruption	0	0	0	0	false	false	"placeholder.tga"	777111215	false	false	true
+elo_fimir_magic_2		1	tech_dlc03_bst_morslieh_5	0	0	0	0	false	false	"placeholder.tga"	777111216	false	false	true
+elo_fimir_magic_3		1	tech_dlc03_bst_morslieh_2	0	0	0	0	false	false	"placeholder.tga"	777111217	false	false	true
+elo_fimir_magic_4		1	tech_dlc08_nor_baying_to_morrslieb	0	0	0	0	false	false	"placeholder.tga"	777111218	false	false	true
+elo_fimir_magic_5		1	tech_dlc08_nor_secrets_of_dark_sorcery	0	0	0	0	false	false	"placeholder.tga"	777111219	false	false	true
+elo_fimir_chaos_loyalist_1		1	wh_main_chs_unholy_communion	0	0	0	0	false	false	"placeholder.tga"	777111220	false	false	true
+elo_fimir_chaos_loyalist_2		1	wh_main_chs_herald_of_doom	0	0	0	0	false	false	"placeholder.tga"	777111221	false	false	true
+elo_fimir_chaos_loyalist_3		1	wh_main_vmp_master_of_the_putrid_horde	0	0	0	0	false	false	"placeholder.tga"	777111222	false	false	true
+elo_fimir_chaos_loyalist_4		1	wh_main_chs_gaze_of_the_dark_gods	0	0	0	0	false	false	"placeholder.tga"	777111223	false	false	true
+elo_fimir_chaos_loyalist_5		1	wh_main_chs_a_thousand_twisted_blessings	0	0	0	0	false	false	"placeholder.tga"	777111224	false	false	true
+elo_fimir_swamp_creatures_1		1	tech_dlc08_nor_one_with_beasts	0	0	0	0	false	false	"placeholder.tga"	777111225	false	false	true
+elo_fimir_swamp_creatures_2		1	tech_grn_end_2_2	0	0	0	0	false	false	"placeholder.tga"	777111226	false	false	true
+elo_fimir_swamp_creatures_3		1	tech_dlc03_bst_morslieh	0	0	0	0	false	false	"placeholder.tga"	777111227	false	false	true
+elo_fimir_swamp_creatures_4		1	tech_dlc03_bst_morslieh_3	0	0	0	0	false	false	"placeholder.tga"	777111228	false	false	true
+elo_fimir_swamp_creatures_5		1	wh2_def_tech_bred_in_captivity	0	0	0	0	false	false	"placeholder.tga"	777111229	false	false	true
+elo_fimir_culture_eco		1	tech_dlc08_nor_butchers_captives	0	0	0	0	false	false	"placeholder.tga"	777111230	false	false	true
+elo_fimir_eco_military		1	tech_dlc08_nor_secrets_of_war_n_coin	0	0	0	0	false	false	"placeholder.tga"	777111231	false	false	true
+elo_fimir_military_magic		1	wh_main_chs_the_path_to_ruination	0	0	0	0	false	false	"placeholder.tga"	777111232	false	false	true
+elo_fimir_magic_loyalist		1	wh_main_chs_pledges_to_the_dark_gods	0	0	0	0	false	false	"placeholder.tga"	777111233	false	false	true
+elo_fimir_loyalist_creatures		1	wh_main_chs_daemonic_pact	0	0	0	0	false	false	"placeholder.tga"	777111234	false	false	true

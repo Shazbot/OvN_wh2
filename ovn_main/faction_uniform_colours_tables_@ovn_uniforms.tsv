@@ -1,0 +1,13 @@
+faction_uniform_colours_tables	1
+faction_name	primary_colour_r	primary_colour_g	primary_colour_b	secondary_colour_r	secondary_colour_g	secondary_colour_b	tertiary_colour_r	tertiary_colour_g	tertiary_colour_b
+wh2_main_emp_the_moot	35	75	35	35	35	35	155	45	35
+wh2_main_emp_grudgebringers	0	0	138	125	0	0	125	0	0
+wh2_main_arb_caliphate_of_araby	60	90	60	206	197	163	163	255	0
+wh2_main_nor_trollz	190	190	190	190	190	190	190	190	190
+wh2_main_amz_amazons	180	60	230	180	60	230	180	60	230
+wh2_main_arb_aswad_scythans	15	15	15	180	145	65	225	180	70
+wh2_main_arb_flaming_scimitar	44	76	120	165	145	55	225	180	70
+wh2_main_wef_treeblood	225	180	70	40	40	180	40	40	180
+wh_dlc08_nor_naglfarlings	0	90	0	15	15	15	0	0	0
+wh2_main_hef_citadel_of_dusk	248	12	12	25	25	35	25	25	35
+wh2_main_nor_albion	225	220	200	60	80	140	140	30	30

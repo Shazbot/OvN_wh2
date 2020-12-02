@@ -1,0 +1,8 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+wizard	wh_main_art_set_grn_night_goblin_shaman_01				false	true	grn_night_goblin_shaman	1.1
+wizard	wh_main_art_set_grn_night_goblin_shaman_02				false	true	grn_night_goblin_shaman	1.1
+wizard	wh_main_art_set_grn_night_goblin_shaman_03				false	true	grn_night_goblin_shaman	1.1
+wizard	wh_main_art_set_grn_night_goblin_shaman_04				false	true	grn_night_goblin_shaman	1.1
+wizard	wh_main_art_set_grn_night_goblin_shaman_05				false	true	grn_night_goblin_shaman	1.1
+wizard	wh_main_art_set_grn_night_goblin_shaman_06				false	true	grn_night_goblin_shaman	1.1

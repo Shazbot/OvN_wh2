@@ -1,0 +1,4 @@
+character_skills_to_quest_ancillaries_tables	1
+ancillary	skill	use_quest_for_prefix
+hlf_staff	hlf_staff	false
+hlf_robe	hlf_robe	false

@@ -1,0 +1,6 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+wizard			ovn_skill_node_set_arb_magician_life		false	false	arb_magician_life
+wizard			ovn_skill_node_set_arb_magician_desert		false	false	arb_magician_desert
+wizard			ovn_skill_node_set_arb_magician_fire		false	false	arb_magician_fire
+wizard			ovn_skill_node_set_arb_magician_heavens		false	false	arb_magician_heavens

@@ -1,0 +1,8 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+mount_skeleton_chariot.png	dread_chariot_skeletal_steed	meh		0	false	false	false	0.0	0
+mount_barded_skeletal_steed.png	dread_legion_barded_skeletal_steed	meh		0	false	false	false	0.0	0
+mount_skeletal_steed.png	elo_dread_centurion_horse	meh		0	false	false	false	0.0	0
+character_unit_capacity.png	dread_we_are_legion			0	false	false	false	0.0	0
+character_movement.png	dread_eternal_march			0	false	false	false	0.0	0
+campaign_wound_time.png	dread_blessing_nagash			0	false	false	false	0.0	0

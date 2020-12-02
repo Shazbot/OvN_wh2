@@ -1,0 +1,24 @@
+resource_ui_overrides_tables	0
+override_faction	override_subculture	source_resource	target_resource
+	wh_main_sc_nor_troll	res_location_brt_wef_hef	
+	wh_main_sc_nor_troll	res_location_brt	
+	wh_main_sc_nor_troll	res_location_def	
+	wh_main_sc_nor_troll	res_location_dwf_grn_skv	
+	wh_main_sc_nor_troll	res_location_dwf_grn	
+	wh_main_sc_nor_troll	res_location_dwf_skv	
+	wh_main_sc_nor_troll	res_location_dwf	
+	wh_main_sc_nor_troll	res_location_emp_brt	
+	wh_main_sc_nor_troll	res_location_emp_vmp_brt	
+	wh_main_sc_nor_troll	res_location_emp_vmp	
+	wh_main_sc_nor_troll	res_location_emp	
+	wh_main_sc_nor_troll	res_location_grn	
+	wh_main_sc_nor_troll	res_location_hef_def	
+	wh_main_sc_nor_troll	res_location_hef_wef	
+	wh_main_sc_nor_troll	res_location_hef	
+	wh_main_sc_nor_troll	res_location_lzd	
+	wh_main_sc_nor_troll	res_location_skv_lzd	
+	wh_main_sc_nor_troll	res_location_skv	
+	wh_main_sc_nor_troll	res_location_tmb	
+	wh_main_sc_nor_troll	res_location_vmp_arkhan	
+	wh_main_sc_nor_troll	res_location_vmp	
+	wh_main_sc_nor_troll	res_location_xef_emp_brt	

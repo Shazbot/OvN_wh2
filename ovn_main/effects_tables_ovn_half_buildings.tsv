@@ -1,0 +1,3 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+tobacco_effect_produce_res_tobacco	res_tobacco.png	2	res_tobacco.png	campaign	true

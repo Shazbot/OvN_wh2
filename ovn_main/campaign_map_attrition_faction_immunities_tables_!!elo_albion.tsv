@@ -1,0 +1,13 @@
+campaign_map_attrition_faction_immunities_tables	0
+attrition	faction
+storm_level_1	wh2_main_nor_albion
+storm_level_2	wh2_main_nor_albion
+storm_level_3	wh2_main_nor_albion
+storm_level_4	wh2_main_nor_albion
+storm_level_5	wh2_main_nor_albion
+swamp	wh2_main_nor_albion
+sea_monster_storm	wh2_main_nor_albion
+maelstrom	wh2_main_nor_albion
+non_vampire_territory	wh2_main_nor_albion
+chaos_territory	wh2_main_nor_albion
+snow	wh2_main_nor_albion

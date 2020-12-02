@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+event_feed_targeted_events_title_hidden_settlement_exposedevent_feed_target_faction	Enemy Revealed!	true
+uied_component_texts_localised_string_tx_rite_reformed_NewState_Text_72007f	Enemy Revealed!	true
+event_feed_strings_text_wh2_event_feed_string_hidden_settlement_exposed_description	We have discovered an enemy faction - #(settlement.faction) - hiding within the ruins of #(settlement)!	true

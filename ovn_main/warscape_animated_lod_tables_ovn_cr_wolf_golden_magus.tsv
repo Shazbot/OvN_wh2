@@ -1,0 +1,4 @@
+warscape_animated_lod_tables	1
+key	filename	range	animated
+861312231	warmachines\chariot\arb_golden_magus_ship\arb_golden_magus_ship_01.wsmodel	0.0	arb_ship
+861312232	warmachines\chariot\arb_golden_magus_ship\arb_golden_magus_ship_destruct.rigid_model_v2	0.0	arb_ship_destruct

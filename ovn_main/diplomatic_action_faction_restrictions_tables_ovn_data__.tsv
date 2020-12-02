@@ -1,0 +1,15 @@
+diplomatic_action_faction_restrictions_tables	0
+can_make_client_states	can_make_confederations	can_make_vassals	faction
+false	false	false	wh2_main_amz_amazons
+false	true	true	wh_main_vmp_rival_sylvanian_vamps
+false	false	true	wh2_main_arb_caliphate_of_araby
+false	false	true	wh2_main_emp_the_moot
+false	false	false	wh_dlc08_nor_naglfarlings
+false	false	true	wh2_main_arb_aswad_scythans
+false	false	true	wh2_main_arb_flaming_scimitar
+false	false	false	wh2_main_nor_trollz
+false	false	false	wh2_main_wef_treeblood
+false	false	true	wh2_main_nor_albion
+false	false	false	wh2_main_emp_grudgebringers
+false	false	true	wh_dlc08_nor_goromadny_tribe
+false	false	true	wh2_dlc09_tmb_the_sentinels

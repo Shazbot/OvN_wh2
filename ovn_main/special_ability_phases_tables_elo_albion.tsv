@@ -1,0 +1,32 @@
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+-1.0	positive	war_fury		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
+-1.0	negative	war_fury_2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_debuff_morale		-1.0	false	true	true	0.0	
+-1.0	positive	woad_paint		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_ward_save_all_passive		-1.0	false	true	true	0.0	
+12.0	negative	druid_bound_awakening_of_the_wood		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+-1.0	positive	devestating_charge		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
+25.0	positive	spell_truth_gift_life		false	false	false	0.0	0.0	0.0	0.5	24	0.0	0	0	24	true	0.0	0.0	false	0		wh_dlc05_spell_life_regrowth	wh_dlc05_spell_life_regrowth	-1.0	false	true	true	0.0	
+25.0	positive	spell_truth_gift_life_upgraded		false	false	false	0.0	0.0	0.0	0.5	24	0.0	0	0	24	true	0.0	0.0	false	0		wh_dlc05_spell_life_regrowth	wh_dlc05_spell_life_regrowth	-1.0	false	true	true	0.0	
+15.0	positive	wh2_main_lore_passive_truthsayer		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+22.0	positive	spell_truth_valor		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_harmonic_convergence	wh_main_spell_heavens_harmonic_convergence	-1.0	false	true	true	0.0	
+22.0	positive	spell_truth_valor_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_harmonic_convergence	wh_main_spell_heavens_harmonic_convergence	-1.0	false	true	true	0.0	
+30.0	positive	spell_truth_protection		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_light_phas_protection	wh_main_spell_light_phas_protection	-1.0	false	true	true	0.0	
+30.0	positive	spell_truth_protection_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_light_phas_protection	wh_main_spell_light_phas_protection	-1.0	false	true	true	0.0	
+22.0	negative	spell_truth_voice_command		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_death_doom_and_darkness	wh_main_spell_death_doom_and_darkness	-1.0	false	true	true	0.0	
+22.0	negative	spell_truth_voice_command_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_death_doom_and_darkness	wh_main_spell_death_doom_and_darkness	-1.0	false	true	true	0.0	
+22.0	positive	spell_truth_boon_courage		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_light_light_of_battle	wh_main_spell_light_light_of_battle	-1.0	false	true	true	0.0	
+44.0	positive	spell_truth_boon_courage_upgraded		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_light_light_of_battle	wh_main_spell_light_light_of_battle	-1.0	false	true	true	0.0	
+-1.0	positive	magic_siphon		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	
+-1.0	negative	embodiment_albion		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_debuff_defence		-1.0	false	true	true	0.0	
+18.0	positive	albion_warcry		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	negative	omen_of_doom		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_debuff_morale_passive	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	omen_of_war		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive	wh_ability_positive	-1.0	false	true	true	0.0	
+15.0	negative	murder_crows		false	false	false	0.0	0.0	0.0	1.0	0	0.25	6	8	0	false	0.0	0.0	false	0		wh_dlc03_spell_beast_flock_of_doom	wh_dlc03_spell_beasts_flock_of_doom	-1.0	false	true	true	0.0	
+-1.0	negative	howling_shields		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_debuff_morale_passive	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	negative	darkened_skies		false	false	false	0.0	0.0	0.0	1.0	0	0.15	4	-1	0	false	0.0	0.0	false	0		wh_dlc03_spell_beast_flock_of_doom	wh_dlc03_spell_beasts_flock_of_doom	-1.0	false	true	true	0.0	
+-1.0	negative	murder_crows_upgraded		false	false	false	0.0	0.0	0.0	1.0	0	0.25	6	8	0	false	0.0	0.0	false	0		wh_dlc03_spell_beast_flock_of_doom	wh_dlc03_spell_beasts_flock_of_doom	-1.0	false	true	true	0.0	
+-1.0	positive	morrigan_hunters_dmg		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
+25.0	positive	lesser_shield_of_the_old_ones		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh2_main_ability_shield_of_the_old_ones	-1.0	false	true	true	0.0	
+10.0	negative	elo_staff_of_dural_durak		false	false	false	0.0	0.0	10.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+1.1	positive	elo_amulet_old_ones		false	false	false	0.0	0.0	0.0	1.0	1100	0.0	0	0	1100	false	15.0	50.0	false	0		wh2_main_unit_passive_rebirth		-1.0	false	true	true	0.0	
+10.0	positive	elo_albion_freedom		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh_ability_positive	-1.0	false	true	true	0.0	

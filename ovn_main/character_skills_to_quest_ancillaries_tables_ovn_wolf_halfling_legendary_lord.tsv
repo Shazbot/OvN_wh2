@@ -1,0 +1,4 @@
+character_skills_to_quest_ancillaries_tables	1
+ancillary	skill	use_quest_for_prefix
+hlf_glibfoot_hyshia	wh2_main_skill_anc_hyshia	false
+hlf_glibfoot_willowblade	wh2_main_skill_anc_willowblade	false

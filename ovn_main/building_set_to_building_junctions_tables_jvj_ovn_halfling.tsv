@@ -1,0 +1,5 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_half_barracks		wh_main_set_empire_military_recruitment	false
+ovn_half_forges		wh_main_set_empire_military_recruitment	false
+ovn_half_tavern		wh_main_set_empire_economy	false

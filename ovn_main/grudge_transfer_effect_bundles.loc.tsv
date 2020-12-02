@@ -1,0 +1,23 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_title_grudge_transfer_region	Glory to the Empire	true
+effect_bundles_localised_title_grudge_transfer_region_horde_growth	Camp Grows	true
+effect_bundles_localised_description_grudge_transfer_region	You have conquered in the name of the Empire - glory to you - glory to the Empire!	true
+effect_bundles_localised_description_grudge_transfer_region_horde_growth	As the Grudgebringers success spreads around the Empire, many seek us out to swell our ranks.	true
+effect_bundles_localised_title_grudge_supply_dummy	Imperial Reinforcements	true
+effect_bundles_localised_title_grudge_hire_dummy	Hired Mercenary	true
+effect_bundles_localised_description_grudge_supply_dummy	You will receive what men, if any, the Emperor can spare for your mission.	true
+effect_bundles_localised_description_grudge_hire_dummy	This unit will bolster our ranks.	true
+effects_description_grudge_supply_dummy	High chance to receive reinforcements in the form of Imperial State Troops or Mercenaries.	true
+effects_description_grudge_hire_dummy	Receive one mercenary unit.	true
+effect_bundles_localised_title_grudge_retain_dummy	Imperial Satellite	true
+effect_bundles_localised_description_grudge_retain_dummy	A place to rest our weary bones and while the nobles run the settlement, we will defend it.	true
+effects_description_grudge_retain_dummy	Retain settlement with limited construction options.	true
+effect_bundles_localised_title_grudge_liberate	Liberator	true
+effect_bundles_localised_description_grudge_liberate	You are the breaker of chains and the people rightfully adore you for it.	true
+effect_bundles_localised_title_sabaar_fountain	Fountain of Light	true
+effect_bundles_localised_description_sabaar_fountain	The fountain of Light can heal even the most gravest of injuries ensuring all our troops are fighting fit.	true
+effect_bundles_localised_title_grudge_camp_followers	Camp Followers	true
+effect_bundles_localised_description_grudge_camp_followers	These men reduce the burden allowing us to cover more ground and eventually those that prove themselves can join our ranks but some seem untrustworthy.	true
+effect_bundles_localised_title_grudge_replacements	Unit Replacements	true
+effect_bundles_localised_description_grudge_replacements	These men will replenish our depleted ranks.	true

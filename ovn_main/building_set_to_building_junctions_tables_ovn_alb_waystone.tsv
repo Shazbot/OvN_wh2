@@ -1,0 +1,5 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_Waystone		ovn_Waystone	false
+ovn_Waystone_marker		ovn_Waystone	false
+ovn_Waystone_beacon		ovn_Waystone	false

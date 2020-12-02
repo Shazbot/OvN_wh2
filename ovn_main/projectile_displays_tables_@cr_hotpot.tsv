@@ -1,0 +1,4 @@
+projectile_displays_tables	10
+display_model	impact	key	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood
+projectiles\mtl_hotpot_projectile_01.wsmodel	wh_main_mtl_soup_projectile	ovn_mtl_hotpot_projectile		wh_main_soup_projectile_trail				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact			
+projectiles\mtl_hotpot_ror_projectile_01.wsmodel	ovn_mtl_hotpot_ror_projectile	ovn_mtl_hotpot_ror_projectile		ovn_mtl_hotpot_ror_projectile_trail				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact			

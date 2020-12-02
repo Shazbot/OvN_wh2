@@ -1,0 +1,16 @@
+unit_sets_tables	2
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+arb_OtF_khemri_elite_guard	false	-1	-1	
+arb_ovn_elephant	false	-1	-1	
+ovn_araby_tech_bow_units	false	-1	-1	
+ovn_araby_tech_camel	false	-1	-1	
+ovn_araby_tech_gunpowder	false	-1	-1	
+ovn_araby_tech_nomad_units	false	-1	-1	
+ovn_araby_tech_state_inf	false	-1	-1	
+ovn_araby_nomads_r7	true	7	9	
+ovn_araby_state_inf_r7	true	7	9	
+ovn_araby_beasts_r7	true	7	9	
+ovn_araby_magic_r7	true	7	9	
+ovn_araby_tech_corasir_units	false	-1	-1	
+ovn_araby_tech_slaves_units	false	-1	-1	
+arb_jaffar_serpent_guard_units	false	-1	-1	

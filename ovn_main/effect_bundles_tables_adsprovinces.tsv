@@ -1,0 +1,27 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+province_edict_albion1	 	Harshen Tithes	province	1	edict_collect_tribute.png	false
+province_edict_albion1b	 	Harshen Tithes	province	1	edict_collect_tribute.png	false
+province_edict_albion1c	 	Harshen Tithes	province	1	edict_collect_tribute.png	false
+province_edict_albion1d	 	Harshen Tithes	province	1	edict_collect_tribute.png	false
+province_edict_albion1e	 	Harshen Tithes	province	1	edict_collect_tribute.png	false
+province_edict_albion2	 	Amass Forces	province	1	edict_camp_ruckus.png	false
+province_edict_albion2b	 	Amass Forces	province	1	edict_camp_ruckus.png	false
+province_edict_albion2c	 	Amass Forces	province	1	edict_camp_ruckus.png	false
+province_edict_albion2d	 	Amass Forces	province	1	edict_camp_ruckus.png	false
+province_edict_albion2e	 	Amass Forces	province	1	edict_camp_ruckus.png	false
+province_edict_albion3	 	Quash Dissent	province	1	edict_foster_terror.png	false
+province_edict_albion3b	 	Quash Dissent	province	1	edict_foster_terror.png	false
+province_edict_albion3c	 	Quash Dissent	province	1	edict_foster_terror.png	false
+province_edict_albion3d	 	Quash Dissent	province	1	edict_foster_terror.png	false
+province_edict_albion3e	 	Quash Dissent	province	1	edict_foster_terror.png	false
+province_edict_albion4	 	Druidic Rituals	province	1	edict_hunt_of_kurnous.png	false
+province_edict_albion4b	 	Druidic Rituals	province	1	edict_hunt_of_kurnous.png	false
+province_edict_albion4c	 	Druidic Rituals	province	1	edict_hunt_of_kurnous.png	false
+province_edict_albion4d	 	Druidic Rituals	province	1	edict_hunt_of_kurnous.png	false
+province_edict_albion4e	 	Druidic Rituals	province	1	edict_hunt_of_kurnous.png	false
+province_edict_albion5	 	Hunting Season	province	1	edict_hand_of_asuryan.png	false
+province_edict_albion5b	 	Hunting Season	province	1	edict_hand_of_asuryan.png	false
+province_edict_albion5c	 	Hunting Season	province	1	edict_hand_of_asuryan.png	false
+province_edict_albion5d	 	Hunting Season	province	1	edict_hand_of_asuryan.png	false
+province_edict_albion5e	 	Hunting Season	province	1	edict_hand_of_asuryan.png	false

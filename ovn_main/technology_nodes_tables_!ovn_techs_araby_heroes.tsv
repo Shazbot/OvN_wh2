@@ -1,0 +1,8 @@
+technology_nodes_tables	3
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+	wh2_main_arb_caliphate_of_araby	0	araby_tech_good_9	araby_tech_good_9	ovn_araby_tech	1	1000	0	0		
+	wh2_main_arb_caliphate_of_araby	9	araby_tech_bad_9	araby_tech_bad_9	ovn_araby_tech	1	1200	0	0		
+	wh2_main_arb_flaming_scimitar	0	scimitar_tech_good_9	araby_tech_good_9	ovn_scimitar_tech	1	1000	0	0		
+	wh2_main_arb_flaming_scimitar	9	scimitar_tech_bad_9	araby_tech_bad_9	ovn_scimitar_tech	1	1200	0	0		
+	wh2_main_arb_aswad_scythans	0	scythan_tech_good_9	araby_tech_good_9	ovn_scythans_tech	1	1000	0	0		
+	wh2_main_arb_aswad_scythans	9	scythan_tech_bad_9	araby_tech_bad_9	ovn_scythans_tech	1	1200	0	0		

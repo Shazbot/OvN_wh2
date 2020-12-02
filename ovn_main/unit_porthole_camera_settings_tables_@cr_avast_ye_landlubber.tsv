@@ -1,0 +1,3 @@
+unit_porthole_camera_settings_tables	2
+distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
+2.0	28.0	arb_djinn	180.0	195.0	-0.05	1.8	0.0	Porthole/advisor/default_porthole.lighting

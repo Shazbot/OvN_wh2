@@ -1,0 +1,5 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+wizard	wh_main_art_set_vmp_necromancer_01				false	true	vmp_necromancer	1.0
+wizard	wh_main_art_set_vmp_necromancer_02				false	true	vmp_necromancer	1.0
+wizard	wh_main_art_set_vmp_necromancer_03				false	true	vmp_necromancer	1.0

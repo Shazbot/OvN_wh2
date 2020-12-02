@@ -1,0 +1,42 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_groupings_onscreen_emp_grudge_cav_flag	Grudgebringer Cavalry	true
+ui_unit_groupings_tooltip_emp_grudge_cav_flag	Taking their name from their Commander's powerful sword 'Grudgebringer' these mercenaries form the core of the army known as the Grudgebringers	true
+ui_unit_groupings_onscreen_emp_gru_inf_flag	Grudgebringer Infantry	true
+ui_unit_groupings_tooltip_emp_gru_inf_flag	These warriors are highly experienced and proficient fighters led by Sergeant Gunther Schepke, Bernhardt's second in command	true
+ui_unit_groupings_onscreen_emp_cnt_grd_flag	Countess Guard	true
+ui_unit_groupings_tooltip_emp_cnt_grd_flag	Halberdiers, like all the Empire's infantry, are highly trained and proficient fighters	true
+ui_unit_groupings_onscreen_emp_gswords_inf_flag	Imperial Greatswords	true
+ui_unit_groupings_tooltip_emp_gswords_inf_flag	These warriors wield so large swords, that they must be swung with both hands and therefore strike with great force	true
+ui_unit_groupings_onscreen_emp_flag_inf_flag	Flagellants	true
+ui_unit_groupings_tooltip_emp_flag_inf_flag	Flagellants' madness gives them superhuman strength and resilience and they fight with outstanding fury	true
+ui_unit_groupings_onscreen_emp_dwarf_war_flag	Dwarf Infantry	true
+ui_unit_groupings_tooltip_emp_dwarf_war_flag	Determined and confident, Dwarfs are immensely strong and resilient although slow on their feet	true
+ui_unit_groupings_onscreen_emp_elf_inf_flag	Wood Elf Glade Guards	true
+ui_unit_groupings_tooltip_emp_elf_inf_flag	These tall, agile warriors live in the forests of Loren. They are quick on their feet, are not slowed by difficult terrain and are skilled in combat	true
+ui_unit_groupings_onscreen_emp_out_inf_flag	Outlaw Infantry	true
+ui_unit_groupings_tooltip_emp_out_inf_flag	These highly trained warriors were once swordsmen of the Empire, but abandoned it to fight outside the law for greater material gain	true
+ui_unit_groupings_onscreen_emp_grudge_cross_flag	Grudgebringer Crossbows	true
+ui_unit_groupings_tooltip_emp_grudge_cross_flag	These troops are armed with powerful crossbows, which have a long range but require line of sight to their target	true
+ui_unit_groupings_onscreen_emp_helm_bow_flag	Helmgart Bowmen	true
+ui_unit_groupings_tooltip_emp_helm_bow_flag	Helmgart bowmen are armed with standard bows which have a medium range	true
+ui_unit_groupings_onscreen_emp_elf_arch_flag	Elf Archers	true
+ui_unit_groupings_tooltip_emp_elf_arch_flag	These tall, agile warriors are armed with powerful longbows. Their skill as archers is excellent and their bows have a very long range	true
+ui_unit_groupings_onscreen_emp_out_pist_flag	Outlaw Pistoliers	true
+ui_unit_groupings_tooltip_emp_out_pist_flag	These young mercenaries are fairly inexperienced, but make an exceptional rapid response force	true
+ui_unit_groupings_onscreen_emp_ragnar_wolves_flag	Ragnar's Wolves	true
+ui_unit_groupings_tooltip_emp_ragnar_wolves_flag	These warriors originate from the cold and inhospitable lands of Norsca where they fight under the command of Eric Ragnar	true
+ui_unit_groupings_onscreen_emp_carlsson_cav_flag	Carlsson's Cavalry	true
+ui_unit_groupings_tooltip_emp_carlsson_cav_flag	These warriors form part of the militia commanded by the Border Prince and former mercenary Sven Carlsson	true
+ui_unit_groupings_onscreen_emp_realm_knights_flag	Knights of the Realm	true
+ui_unit_groupings_tooltip_emp_realm_knights_flag	These Knights belong to the most numerous of the Bretonnian orders of chivalry	true
+ui_unit_groupings_onscreen_emp_grail_knights_flag	Grail Knights	true
+ui_unit_groupings_tooltip_emp_grail_knights_flag	Having sipped from the grail itself, these Knights are the most powerful of all the Knights of Bretonnia	true
+ui_unit_groupings_onscreen_emp_grudge_can_flag	Grudgebringer Cannon	true
+ui_unit_groupings_tooltip_emp_grudge_can_flag	This machine fires heavy cannonballs which can tear through enemy regiments and light buildings with ease, but is progressively more inaccurate the further it fires	true
+ui_unit_groupings_onscreen_emp_imperial_can_flag	Imperial Cannon	true
+ui_unit_groupings_tooltip_emp_imperial_can_flag	These warriors are highly experienced and proficient fighters led by Sergeant Gunther Schepke, Bernhardt's second in command	true
+ui_unit_groupings_onscreen_emp_imperial_mortar_flag	Imperial Mortar	true
+ui_unit_groupings_tooltip_emp_imperial_mortar_flag	This machine fires explosive shells high into the air, sending them crashing into enemy ranks	true
+ui_unit_groupings_onscreen_emp_ice_mage_flag	Ice Mage	true
+ui_unit_groupings_tooltip_emp_ice_mage_flag	Ice Magic is a native form of Magic practised in the northern regions of Kislev. An Ice Mage is able to control magical energy to produce deadly spells of ice and cold	true

@@ -1,0 +1,5 @@
+frontend_faction_effect_junctions_tables	1
+effect	group	value	scope
+hlf_glibfoot_hlf_thieves	ovn_emp_the_moot_lord	3	general_to_force_own
+hlf_glibfoot_reduce_inf_upkeep	ovn_emp_the_moot_lord	-30	general_to_force_own
+hlf_glibfoot_morale_inf	ovn_emp_the_moot_lord	8	general_to_force_own

@@ -1,0 +1,5 @@
+projectile_bombardments_tables	6
+arrival_window	bombardment_key	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
+0.5	spell_ice_hailstorm	2	spell_ice_hailstorm	8.0	2.0	above_target	wh_main_heavens_comet_of_casandora_bomb_spawn	150	wh_main_spell_heavens_comet_of_casandora	75	true
+1.0	spell_ice_hailstorm_upgraded	3	spell_ice_hailstorm	8.0	2.0	above_target	wh_main_heavens_comet_of_casandora_bomb_spawn	150	wh_main_spell_heavens_comet_of_casandora	75	true
+1.0	grudge_abilities_lord_of_the_storm	6	grudge_abilities_lord_of_the_storm	8.0	1.0	above_target	wh_main_heavens_urannons_thunderbolt_bomb_spawn	150		75	true

@@ -1,0 +1,16 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_elo_dread_centurion_horse	Skeletal Steed	true
+character_skills_localised_description_elo_dread_centurion_horse	Animated by vile magic, the bones of this once proud steed still show a reflection of the grace it possessed in life.	true
+character_skills_localised_name_dread_legion_barded_skeletal_steed	Barded Skeletal Steed	true
+character_skills_localised_description_dread_legion_barded_skeletal_steed	The fragile bones are protected by legion armour.	true
+character_skills_localised_name_dread_chariot_skeletal_steed	Dread Legion Chariot	true
+character_skills_localised_description_dread_chariot_skeletal_steed	Built in the style of the Tomb Kings, only the highest officers of the Dread Legion will take to the battlefield on top of this chariot.	true
+character_skills_localised_name_dread_we_are_legion	We are Legion	true
+character_skills_localised_description_dread_we_are_legion	Once the Dread Legion had soldiers beyond counting. Now they lay beneath the sand, until their master calls them to battle once more.	true
+character_skills_localised_name_dread_eternal_march	Eternal March	true
+character_skills_localised_description_dread_eternal_march	The legion ever marches onwards to bring death to the living.	true
+character_skills_localised_name_dread_blessing_nagash	Blessing of Nagash	true
+character_skills_localised_description_dread_blessing_nagash	Neither grievous wounds nor death can hold down the favoured servants of Nagash for long.	true
+character_skills_localised_description_dread_king_trait	The Dread King marches at the front of his legions to further the plans of his master, Nagash, and bring the blessing of death to the living.	false
+character_skills_localised_name_dread_king_trait	Disciple of Nagash	false

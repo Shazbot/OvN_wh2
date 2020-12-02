@@ -1,0 +1,14 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+alb_resource_marble	alb_resource_marble	0	4	3200	0		false	0	0	0	0	false				true	alb_resource_marble	false	0.0	0	true	2	wh_cam_resource_quarry	true	0	0
+alb_resource_gold	alb_resource_gold	0	5	4000	0		false	0	0	0	0	false				true	alb_resource_gold	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0
+alb_resource_iron	alb_resource_iron	0	4	3200	0		false	0	0	0	0	false				true	alb_resource_iron	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0
+alb_resource_pottery_1	alb_resource_pottery	0	2	800	0		false	0	0	0	0	false				true	alb_resource_pottery	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+alb_resource_pottery_2	alb_resource_pottery	1	3	1600	0		false	0	0	0	0	false				true	alb_resource_pottery	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+alb_resource_pottery_3	alb_resource_pottery	2	4	3200	0		false	0	0	0	0	false				true	alb_resource_pottery	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0
+alb_resource_wood_1	alb_resource_wood	0	2	800	0		false	0	0	0	0	false				true	alb_resource_wood	false	0.0	0	true	1	wh_cam_resource_lumber_mill	true	0	0
+alb_resource_wood_2	alb_resource_wood	1	3	1600	0		false	0	0	0	0	false				true	alb_resource_wood	false	0.0	0	true	2	wh_cam_resource_lumber_mill	true	0	0
+alb_resource_wood_3	alb_resource_wood	2	4	3200	0		false	0	0	0	0	false				true	alb_resource_wood	false	0.0	0	true	3	wh_cam_resource_lumber_mill	true	0	0
+alb_resource_medicine_1	alb_resource_medicine	0	2	800	0		false	0	0	0	0	false				true	alb_resource_medicine	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+alb_resource_medicine_2	alb_resource_medicine	1	3	1600	0		false	0	0	0	0	false				true	alb_resource_medicine	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+alb_resource_medicine_3	alb_resource_medicine	2	4	3200	0		false	0	0	0	0	false				true	alb_resource_medicine	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0

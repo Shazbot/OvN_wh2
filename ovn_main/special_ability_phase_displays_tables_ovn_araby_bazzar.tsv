@@ -1,0 +1,3 @@
+special_ability_phase_displays_tables	1
+active_vfx	banner_vfx	entity_vfx	key	entity_vfx_attach_type
+	wh_main_generic_banner_debuff	wh_main_light_net_of_amyntok_entity_debuff	ovn_arb_baz_arm_08_gorgon_shield_ability	logical_top

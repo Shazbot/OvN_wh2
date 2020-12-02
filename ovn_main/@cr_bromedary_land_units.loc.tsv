@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+land_units_concealed_name_ovn_arb_cav_jezzail_camel		true
+land_units_onscreen_name_ovn_arb_cav_jezzail_camel	Camel Riders (Jezzails)	true
+land_units_concealed_name_ovn_arb_cav_archer_camel		true
+land_units_onscreen_name_ovn_arb_cav_archer_camel	Camel Riders (Bows)	true
+land_units_concealed_name_ovn_arb_cav_lancer_camel		true
+land_units_onscreen_name_ovn_arb_cav_lancer_camel	Camel Lancers	true

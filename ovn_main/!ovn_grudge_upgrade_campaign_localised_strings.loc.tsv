@@ -1,0 +1,3 @@
+Loc PackedFile	1
+key	text	tooltip
+campaign_localised_strings_string_unit_upgrade_tooltip_cant_afford	Cannot upgrade. You have insufficient resources.	true

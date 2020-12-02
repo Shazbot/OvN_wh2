@@ -1,0 +1,8 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_lzd_hexoatl	false	lzd_amazon	true	true				false
+wh2_main_lzd_last_defenders	false	lzd_amazon	true	true				false
+wh2_main_lzd_lizardmen	false	lzd_amazon	true	true				false
+wh2_main_lzd_hexoatl	false	jag_amazon	true	true				false
+wh2_main_lzd_last_defenders	false	jag_amazon	true	true				false
+wh2_main_lzd_lizardmen	false	jag_amazon	true	true				false

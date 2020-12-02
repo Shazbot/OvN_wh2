@@ -1,0 +1,6 @@
+provincial_initiative_records_tables	3
+effect_bundle	key	order	icon_path	campaign_vfx_id	religion_restriction
+Fimir_edict_1	Fimir_edict_1	1	UI/Campaign UI/edicts/def_read_dark_portents.png		
+Fimir_edict_2	Fimir_edict_2	2	UI/Campaign UI/edicts/def_sacrifices_for_khaine.png		
+Fimir_edict_3	Fimir_edict_3	3	UI/Campaign UI/edicts/skv_efficient_scheming.png		
+Fimir_edict_4	Fimir_edict_4	4	UI/Campaign UI/edicts/def_increase_slave_production_quota.png		

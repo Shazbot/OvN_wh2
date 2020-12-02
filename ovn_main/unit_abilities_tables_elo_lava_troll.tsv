@@ -1,0 +1,4 @@
+unit_abilities_tables	16
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+burn_troll_burn	false	placeholder		wh_type_augment		wh_main_anc_group_common	true	true	unit		false
+burning_aura_of_ouch	false	wh_main_spell_fire_cascading_fire_cloak		wh_type_hex		wh_main_anc_group_uncommon	false	false	unit		true

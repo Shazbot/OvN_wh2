@@ -1,0 +1,4 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_Waystone_1	ovn_Waystone_2
+ovn_Waystone_2	ovn_Waystone_3

@@ -1,0 +1,4 @@
+resources_tables	5
+key	unit	trade_value	icon_filepath	strategic_value	in_encyclopedia	show_on_city_infobar
+res_location_araby		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
+res_location_chorfs		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true

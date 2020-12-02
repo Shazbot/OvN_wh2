@@ -1,0 +1,23 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	wh_dlc07_art_set_chs_sorcerer_lord_shadow_01				false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+general	wh_dlc07_art_set_chs_sorcerer_lord_shadow_02				false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+general	wh_dlc07_art_set_chs_sorcerer_lord_shadow_03				false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+general	wh_dlc07_art_set_chs_sorcerer_lord_shadow_04				false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+general	wh_main_art_set_chs_sorcerer_death_01_general				false	true	chs_chaos_sorcerer_death	1.0
+general	wh_main_art_set_chs_sorcerer_lord_death_01				false	true	chs_sorcerer_lord_death	1.0
+general	wh_main_art_set_chs_sorcerer_lord_death_02				false	true	chs_sorcerer_lord_death	1.0
+general	wh_main_art_set_chs_sorcerer_lord_death_03				false	true	chs_sorcerer_lord_death	1.0
+general	wh_main_art_set_chs_sorcerer_lord_death_04				false	true	chs_sorcerer_lord_death	1.0
+general	wh_main_art_set_chs_sorcerer_lord_fire_01				false	true	chs_sorcerer_lord_fire	1.0
+general	wh_main_art_set_chs_sorcerer_lord_fire_02				false	true	chs_sorcerer_lord_fire	1.0
+general	wh_main_art_set_chs_sorcerer_lord_fire_03				false	true	chs_sorcerer_lord_fire	1.0
+general	wh_main_art_set_chs_sorcerer_lord_fire_04				false	true	chs_sorcerer_lord_fire	1.0
+general	wh_main_art_set_chs_sorcerer_lord_metal_01				false	true	chs_sorcerer_lord_metal	1.0
+general	wh_main_art_set_chs_sorcerer_lord_metal_02				false	true	chs_sorcerer_lord_metal	1.0
+general	wh_main_art_set_chs_sorcerer_lord_metal_03				false	true	chs_sorcerer_lord_metal	1.0
+general	wh_main_art_set_chs_sorcerer_lord_metal_04				false	true	chs_sorcerer_lord_metal	1.0
+general	wh_main_art_set_nor_marauder_chieftain_01				false	true	nor_marauder_chieftain	1.0
+general	wh_main_art_set_nor_marauder_chieftain_02				false	true	nor_marauder_chieftain	1.0
+general	wh_main_art_set_nor_marauder_chieftain_03				false	true	nor_marauder_chieftain	1.0
+general	wh_main_art_set_nor_marauder_chieftain_04				false	true	nor_marauder_chieftain	1.0

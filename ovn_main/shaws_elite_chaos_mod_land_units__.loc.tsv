@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+land_units_onscreen_name_Great_Deamon1_unit	Bloodthirster	true
+unit_description_short_texts_text_Great_Deamon1_unit	These entities watch with envious eyes towards the mortal kingdoms, waiting with unblinking patience for their chance to wreak destruction and dismay upon the world and to feed upon the misery that they have wrought.	true
+special_ability_phases_onscreen_name_fire_of_the_gods_effect_deamon	Fire of the gods effect	true
+unit_abilities_tooltip_text_fire_of_the_gods_effect_deamon	Fire of the gods effect	true
+unit_abilities_tooltip_text_abilities_rage_of_khorne	Their blood thickens as your warriors fill with the Rage of Khorne!	true
+unit_abilities_tooltip_text_blooth_thirsters_breath	The fires of Chaos swell deep within its most powerful of beings.	true
+unit_abilities_onscreen_name_blooth_thirsters_breath	Bloodthirster's Breath	false
+unit_abilities_onscreen_name_abilities_rage_of_khorne	Rage of Khorne	false
+ui_unit_groupings_onscreen_Blood_Thirster_ui	Greater Daemon	true
+ui_unit_groupings_tooltip_Blood_Thirster_ui	Those few who have confronted a Bloodthirster and survived commonly recall an overwhelming impression of vast size and unchecked barbarity, of roaring and snarling death riding upon stygian wings that eclipse the sun. A Bloodthirster’s ruddy skin is covered with coarse fur and brass armour, slick and gleaming with the blood of innumerable victims. This armour is forged upon the Daemon’s flesh by Khorne himself and thereafter becomes a living part of the Daemon, even whilst maintaining a brutal intelligence of its own. As such, even the Bloodthirster’s armour is wrathful and longs for slaughter.	true

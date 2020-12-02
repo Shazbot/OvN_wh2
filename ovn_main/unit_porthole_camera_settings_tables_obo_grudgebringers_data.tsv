@@ -1,0 +1,3 @@
+unit_porthole_camera_settings_tables	2
+distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
+4.4	28.0	grudge_cav_hero	175.0	170.0	0.0	1.7	0.0	Porthole/advisor/default_porthole.lighting

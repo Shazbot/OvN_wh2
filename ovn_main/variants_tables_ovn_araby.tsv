@@ -1,0 +1,115 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+ovn_arb_camel	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_camel	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0	1.0	0.0	
+ovn_arb_camel_rider_jezzail		arb_camel_rider_jezzail	hu1/emp/low_poly/emp_outrider_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+ovn_arb_camel_rider_archer		arb_camel_rider_archer	hu1\brt\brt_men_at_arms\low_poly\brt_men_at_arms_archer_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+ovn_arb_camel_rider_lancer		arb_camel_rider_lancer	hu1\brt\brt_men_at_arms\low_poly\brt_spearmen_at_arms_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+ovn_arb_elephant_cannon		arb_elephant_cannon		1.0	1.0	0.0	
+ovn_arb_war_elephant_ror	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_ror	arb_war_elephant		0.8	0.8	0.0	
+ovn_arb_genie		arb_genie		1.0	4.0	0.0	
+ovn_arb_sea_nymph		arb_sea_nymph		1.0	4.0	0.0	
+ovn_arb_desert_spirit		arb_desert_spirit		1.0	4.0	0.0	
+ovn_arb_fire_efreet		arb_fire_efreet		1.0	4.0	0.0	
+ovn_arb_tempest_djinn		arb_tempest_djinn		1.0	4.0	0.0	
+ovn_arb_djinn_vessel_01		arb_djinn_vessel_01		1.0	1.0	0.0	
+ovn_arb_djinn_vessel_02		arb_djinn_vessel_02		1.0	1.0	0.0	
+ovn_arb_ch_magician_life		arb_magician_life		1.0	1.0	0.05	
+ovn_arb_ch_magician_desert		arb_magician_desert		1.0	1.0	0.05	
+ovn_arb_ch_magician_fire		arb_magician_fire		1.0	1.0	0.05	
+ovn_arb_ch_magician_heavens		arb_magician_heavens		1.0	1.0	0.05	
+ovn_arb_ch_magician_life_carpet		arb_magician_life_carpet		1.0	1.0	0.0	
+ovn_arb_ch_magician_desert_carpet		arb_magician_desert_carpet		1.0	1.0	0.0	
+ovn_arb_ch_magician_fire_carpet		arb_magician_fire_carpet		1.0	1.0	0.0	
+ovn_arb_ch_magician_heavens_carpet		arb_magician_heavens_carpet		1.0	1.0	0.0	
+wh_arb_magic_carpet		arb_magic_carpet		1.0	1.0	0.05	
+wh_arb_magic_carpet_rider		arb_magic_carpet_rider		1.0	1.0	0.05	
+OtF_khemri_knights		OtF_khemri_knights	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+OtF_khemri_archers		OtF_khemri_archers	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+OtF_khemri_spearmen		OtF_khemri_spearmen	hu1\emp\low_poly\emp_state_troops_spear_shield_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+OtF_khemri_kepra_guard		OtF_khemri_kepra_guard	hu1\emp\low_poly\emp_state_troops_spear_shield_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+OtF_khemri_swordsmen		OtF_khemri_swordsmen	hu1\emp\low_poly\emp_state_troops_spear_shield_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+otf_khemri_rangers		otf_khemri_rangers	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+OtF_khemri_elite_guard		arb_arabyan_guard	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0	1.0	0.05	
+ovn_peasants_mob		ovn_peasants_mob		1.0	1.0	0.05	
+ovn_yeoman		ovn_yeoman		1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+ovn_yeomanarchers		ovn_yeomanarchers		1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+ovn_corsairs		ovn_corsairs		1.0	1.0	0.05	
+ovn_elephant		ovn_elephant		1.0	0.7	0.05	
+ovn_prometheans		ovn_prometheans		1.0	0.6	0.05	
+ovn_southlander		ovn_southlander		1.0	1.0	0.05	
+ovn_slave		ovn_slave		1.0	1.0	0.05	
+ovn_ifreet		ovn_ifreet		1.0	1.0	0.05	
+ovn_jez		ovn_jez		1.0	1.0	0.05	
+ovn_glad		ovn_glad		1.0	1.0	0.05	
+savage_giant		arb_savage_giant		1.0	1.0	0.05	
+ovn_elephantmount		ovn_elephantmount		1.0	1.0	0.05	
+ovn_scor		ovn_scor		1.0	0.6	0.05	
+ovn_knights_ror		ovn_knights_ror		1.0	1.0	0.05	
+ovn_cat_knights		ovn_cat_knights		1.0	1.0	0.05	
+ovn_cat_knights_ror		ovn_cat_knights_ror		1.0	1.0	0.05	
+ovn_jez_ror		ovn_jez_ror		1.0	1.0	0.05	
+ovn_jag		ovn_jag		1.0	1.0	0.05	
+ovn_jag_ror		ovn_jag_ror		1.0	1.0	0.05	
+ovn_elephant_ror		ovn_elephant_ror		0.95	0.95	0.05	
+ovn_cat_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_cat_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
+ovn_arb_inf_off		ovn_arb_inf_off		1.05	1.05	0.05	
+ovn_arb_cav_off		ovn_arb_cav_off		1.05	1.05	0.05	
+ovn_arb_inf_sgt		ovn_arb_inf_sgt		1.05	1.05	0.05	
+ovn_arb_slave_off		ovn_arb_slave_off		1.05	1.05	0.05	
+ovn_arb_jez_off		ovn_arb_jez_off		1.05	1.05	0.05	
+scythan_swordsmen		ovn_arb_scy_swordsmen		1.0	1.0	0.05	
+scythan_archers		ovn_arb_scy_archers		1.0	1.0	0.05	
+scythan_spearmen		ovn_arb_scy_spearmen		1.0	1.0	0.05	
+scythan_knights		ovn_arb_scy_knights		1.0	1.0	0.05	
+sr_ogre_arb		araby_mercenary_ogres		1.0	1.6	0.05	
+arb_golden_magus		arb_golden_magus		1.05	1.05	0.0	
+arb_golden_magus_horse		arb_golden_magus_horse		1.05	1.05	0.0	
+arb_golden_magus_skiff		arb_golden_magus		1.05	1.05	0.0	
+ovn_arb_tempest_djinn_gm_skiff		arb_tempest_djinn_oarsman		1.0	1.0	0.0	
+arb_golden_magus_djinn_siff_cam	warmachines\chariot\arb_golden_magus_ship\tech_campaign	arb_golden_magus_djinn_skiff_campaign		1.05	1.05	0.0	
+ovn_campaign_arb_ship_flaming_scimitar_army		arb_ship_flaming_scimitar		1.0	0.8	0.0	
+arb_sultan_of_flame		arb_sultan_of_flame		1.0	5.0	0.0	
+Sultan_Jaffar		Sultan_Jaffar		1.05	1.05	0.0	
+Sultan_Jaffar_horse		Sultan_Jaffar_horse		1.05	1.05	0.0	
+Djinn_fire		Djinn_fire		4.0	4.0	0.0	
+ovn_arb_cav_scorpion	VariantMeshes/wh_variantmodels/sc1/arb/arb_scorpion/tech	arb_scorpion		1.1	1.0	0.0	
+ovn_araby_ll_mount	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	ovn_araby_ll_mount		1.02	1.06	0.05	
+ovn_araby_ll		ovn_araby_ll		1.02	1.15	0.05	
+wh_main_arb_elephant	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech	arb_elephant		0.75	0.75	0.0	
+wh_main_arb_war_elephant	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_war	arb_war_elephant		0.8	0.8	0.0	
+wh_main_arb_royal_war_elephant	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_royal	arb_royal_war_elephant		0.85	0.85	0.0	
+wh_main_arb_mahout		arb_mahout		1.0	1.0	0.0	
+wh_main_arb_sheikh_mounted		ovn_araby_ll		1.0	1.0	0.0	
+ovn_campaign_arb_ship_agent		campaign_arb_ship_agent		1.0	0.5	0.0	
+ovn_campaign_arb_ship_army		campaign_arb_ship_army		1.0	0.6	0.0	
+ovn_arb_cha_champion		ovn_arb_cha_champion		1.0	1.0	0.0	
+ovn_arb_cha_champion_guard		ovn_arb_cha_champion_guard		1.0	1.0	0.0	
+ovn_arb_cha_champion_warrior		ovn_arb_cha_champion_warrior		1.0	1.0	0.0	
+ovn_arb_cha_champion_sergeant		ovn_arb_cha_champion_sergeant		1.0	1.0	0.0	
+ovn_arb_cha_nomad_assassin		ovn_arb_cha_nomad_assassin		1.0	1.0	0.0	
+ovn_arb_cha_nomad_01		ovn_arb_cha_nomad_01		1.0	1.0	0.0	
+ovn_arb_cha_nomad_02		ovn_arb_cha_nomad_02		1.0	1.0	0.0	
+ovn_arb_cha_nomad_03		ovn_arb_cha_nomad_03		1.0	1.0	0.0	
+ovn_arb_cha_nomad_assassin_01		ovn_arb_cha_nomad_assassin_01		1.0	1.0	0.0	
+ovn_arb_cha_nomad_assassin_02		ovn_arb_cha_nomad_assassin_02		1.0	1.0	0.0	
+ovn_arb_cha_nomad_assassin_03		ovn_arb_cha_nomad_assassin_03		1.0	1.0	0.0	
+ovn_arb_cha_nomad_jezzail_01		ovn_arb_cha_nomad_jezzail_01		1.0	1.0	0.0	
+ovn_arb_cha_nomad_jezzail_02		ovn_arb_cha_nomad_jezzail_02		1.0	1.0	0.0	
+ovn_arb_cha_nomad_jezzail_03		ovn_arb_cha_nomad_jezzail_03		1.0	1.0	0.0	
+ovn_arb_cha_nomad_jezzail_campaign_01		ovn_arb_cha_nomad_jezzail_campaign_01		1.0	1.0	0.0	
+ovn_arb_cha_nomad_jezzail_campaign_02		ovn_arb_cha_nomad_jezzail_campaign_02		1.0	1.0	0.0	
+ovn_arb_cha_nomad_jezzail_campaign_03		ovn_arb_cha_nomad_jezzail_campaign_03		1.0	1.0	0.0	
+scythan_cataphracts		ovn_arb_scy_cataphracts		1.0	1.0	0.0	
+scythan_guard		ovn_arb_scy_guard		1.0	1.0	0.0	
+wh_main_arb_royal_war_elephant_cam	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	arb_royal_war_elephant		0.85	0.85	0.0	
+arb_fatandira		arb_fatandira		1.0	1.2	0.0	
+arb_fatandira_warhorse		arb_fatandira_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	0.95	0.95	0.0	
+arb_fatandira_warhorse_campaign	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_fatandira_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.0	
+arb_fatandira_roc	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	arb_fatandira_roc		1.0	1.0	0.0	
+arb_fatandira_camp		arb_fatandira_camp		1.0	1.1	0.0	
+ovn_knight_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_knight_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
+arb_knight_horse_muktar	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_knight_horse_muktar	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
+ovn_cat_horse_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_cat_horse_ror	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
+arb_mirage_spearmen		arb_mirage_spearmen	hu1\emp\low_poly\emp_state_troops_spear_shield_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+ovn_araby_ll_2		ovn_araby_ll_2		1.02	1.15	0.05	
+wh_main_arb_sheikh_2_mounted		ovn_araby_ll_2		1.0	1.0	0.0	

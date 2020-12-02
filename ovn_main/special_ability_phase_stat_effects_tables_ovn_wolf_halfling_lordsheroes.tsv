@@ -1,0 +1,5 @@
+special_ability_phase_stat_effects_tables	3
+phase	value	stat	how
+hlf_master_chef_regeneration_passive_aura	5.0	stat_resistance_all	add
+hlf_master_chef_hot_spices	-5.0	stat_morale	add
+hlf_master_chef_hot_spices	0.9	stat_resistance_all	mult

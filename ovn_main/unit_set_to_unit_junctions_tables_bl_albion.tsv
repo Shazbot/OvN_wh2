@@ -1,0 +1,20 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				alb_cav_noble	elo_riders_r7
+false				alb_cav_noble_spear	elo_riders_r7
+false				alb_viridian_champ	elo_elite_warband
+false				albion_riders_spear	elo_riders_r7
+false				alb_cav_noble	elo_fast_attack
+false				alb_cav_noble	all_units
+false				alb_cav_noble	elo_albion_shielded
+false				alb_cav_noble	elo_albion_humans
+false				alb_cav_noble_spear	elo_fast_attack
+false				alb_cav_noble_spear	all_units
+false				alb_cav_noble_spear	elo_albion_shielded
+false				alb_cav_noble_spear	elo_albion_humans
+false				albion_riders_spear	elo_fast_attack
+false				albion_riders_spear	all_units
+false				albion_riders_spear	elo_albion_shielded
+false				albion_riders_spear	elo_albion_humans
+false				alb_viridian_champ	elo_champions_r7
+false				alb_viridian_champ	all_units

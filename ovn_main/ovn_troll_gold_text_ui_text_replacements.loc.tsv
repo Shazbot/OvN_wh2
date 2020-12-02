@@ -1,0 +1,15 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_text_replacements_localised_text_hp_campaign_money_term_description_redir_wh_main_sc_nor_troll	Trolls [[sl:campaign_factions]]factions[[/sl]] use [[img:icon_skaven_food]][[/img]]Food as currency. The available [[img:icon_skaven_food]][[/img]]Food is shown at the top of the screen on the game interface.	true
+ui_text_replacements_localised_text_hp_campaign_tax_term_description_redir_wh_main_sc_nor_troll	[[sl:campaign_settlements]]Settlements[[/sl]] can produce a small amount of [[img:icon_skaven_food]][[/img]][[sl:campaign_income]]food[[/sl]]. The more sty's a [[sl:campaign_factions]]faction[[/sl]] controls, the more {{tr:icon_money}}[[sl:campaign_money]]food[[/sl]] it can make.	true
+ui_text_replacements_localised_text_hp_campaign_point_2_money_wh_main_sc_nor_troll	[[sl:campaign_unit_recruitment]]Recruitment[[/sl]] of new [[sl:campaign_units]]units[[/sl]], the upkeep of existing units and the construction of [[sl:campaign_buildings]]buildings[[/sl]] all deplete Food.	true
+ui_text_replacements_localised_text_hp_campaign_point_1_tax_wh_main_sc_nor_troll	[[img:icon_skaven_food]][[/img]]Food is generated mainly by capturing enemy settlements and post battle. The food a building generates is shown when the cursor is placed over its icon on the [[sl:campaign_province_overview_panel]]Province Overview panel[[/sl]].	true
+ui_text_replacements_localised_text_hp_campaign_money_term_wh_main_sc_nor_troll	Food	true
+ui_text_replacements_localised_text_hp_campaign_money_term_title_wh_main_sc_nor_troll	Food	true
+ui_text_replacements_localised_text_hp_campaign_description_treasury_button_term_wh_main_sc_nor_troll	Food Stash Summary Button	true
+ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_wh_main_sc_nor_troll	Food Stash Summary Panel	true
+ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_title_wh_main_sc_nor_troll	Food Stash Summary Panel	true
+ui_text_replacements_localised_text_hp_campaign_description_treasury_wh_main_sc_nor_troll	The available [[img:icon_skaven_food]][[/img]]Food are displayed at the top of the screen on the campaign interface.	true
+ui_text_replacements_localised_text_treasury_header_wh_main_sc_nor_troll	Food Stash	true
+ui_text_replacements_localised_text_treasury_wh_main_sc_nor_troll	Food Stash	true
+ui_text_replacements_localised_text_treasury_tooltip_wh_main_sc_nor_troll	Food Stash||This is the total amount of [[img:icon_skaven_food]][[/img]]Food available to your faction. Food can be accrued by sacking and razing enemy settlements, buildings, raiding and diplomacy.	true

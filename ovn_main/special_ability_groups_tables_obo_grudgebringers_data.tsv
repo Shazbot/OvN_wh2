@@ -1,0 +1,4 @@
+special_ability_groups_tables	8
+ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group
+wh_main_lore_cold_witchering	UI\Battle UI\ability_icons\grudge_lore_cold_witchering_large.png	0	3	false	60	60	152	lore_cold_witchering	Play_WH_UI_Ability_Click_Generic_Heavens	false
+wh_main_lore_winter_rage	UI\Battle UI\ability_icons\grudge_lore_winter_rage_large.png	0	3	false	43	43	83	lore_winter_rage	Play_WH_UI_Ability_Click_Generic_Heavens	false

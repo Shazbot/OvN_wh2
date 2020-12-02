@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Warp_Dip_Accept_State_Gift_01	No souls, pity, this will have to do.	false
+diplomacy_strings_string_Warp_Dip_Accept_State_Gift_02	The Society of Harmonious Growth and Splendour will make great use of this. 	false
+diplomacy_strings_string_Warp_Dip_Accept_State_Gift_03	You have Nurgles favour.	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Negative_01	We accept, may your wounds fester and decay.	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Negative_02	I’d sooner cleave you in two but the superiors have spoken.	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Negative_03	AHHHHHH! Rot-Father no longer eases my pain.	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Neutral_01	The Rotblood Tribe accepts this.	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Neutral_02	Rot-Father is most glorified in us when we are most satisfied in him.	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Positive_01	Let us sign this Dark Pact in blood, bring the knife!	false
+diplomacy_strings_string_Warp_Dip_Acceptance_Positive_03	This pleases the Lords of Flies.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Accept_01	You have Nurgles faith.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Accept_02	Rot-Father loves each of us as if there were only one of us	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Accept_03	The plague lord never said that the journey would be easy, but he did say that the arrival would be worthwhile.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Cancel_Treaty_01	Your ribs will be severed from your spine and your lungs torn out. You will then fly as the mighty Blood Eagle does.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Cancel_Treaty_02	Weaklings! Face me in the arena! I'll take you all by myself!	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Cancel_Treaty_03	You will now have to seek the Rot-Father out and beg for his forgiveness but forgive you he will and embrace you he shall.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Reject_01	You deny the Lord of Pestilence.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Reject_02	May your family be struck down with the most ruinous pox.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_Reject_03	The plague addles your mind.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_War_01	Is it foolish bravery or stupidity that drove you here? No matter you'll die all the same!	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_War_02	Come! Hack me down, if you can! I need no aid against weaklings.	false
+diplomacy_strings_string_Warp_Dip_Acknowledge_War_03	You want war with the Rotbloods and I thought you were all cowards.	false
+diplomacy_strings_string_Warp_Dip_Cancel_Treaty_01	Decay until death is a part of the cycle of life. This agreement is no different.	false
+diplomacy_strings_string_Warp_Dip_Cancel_Treaty_02	This agreement is rotten and decayed best we put it out of its misery.	false
+diplomacy_strings_string_Warp_Dip_Cancel_Treaty_03	What is gone can be reborn such is the Plague Lords way.	false
+diplomacy_strings_string_Warp_Dip_Demand_Join_War_01	I will send word to the Gatekeeper to open the Skittergates.	false
+diplomacy_strings_string_Warp_Dip_Demand_Join_War_02	We need souls to harvest!	false
+diplomacy_strings_string_Warp_Dip_Demand_Join_War_03	May our enemies rot and decay.	false
+diplomacy_strings_string_Warp_Dip_Demand_Payments_Negative_01	Give us your gold or we will reap your souls!	false
+diplomacy_strings_string_Warp_Dip_Demand_Payments_Neutral_01	He who hoards treasures in this world spends his life backing away from them. To him, death is loss. He who lays treasures within the Chaos Realms looks forward to eternity. To him, death is gain	false
+diplomacy_strings_string_Warp_Dip_Demand_Payments_Positive_01	The Society of Harmonious Growth and Splendour will put this to ruinous use.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Negative_01	Though it displeases Rot-Father, it must be done.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Negative_02	We only do this so it may help us kill that Ubersreik lot.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Negative_03	Many disagreed we should offer you this. Their heads are now stakes and their entrails decorate our palisades.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_01	Nurgles work done in Nurgles way will never lack Nurgles plague.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_02	Rot-Father will meet you where you are in order to take you where he wants you to go.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_03	The Lord of Decay does not give us everything we want, but he does fulfill his promises, leading us to him.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Positive_01	Let the Fly Lords promises rot away your problems.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Positive_02	Remember who you are. Don’t compromise for anyone, for any reason. You are a child of Nurgle. Live that truth.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Positive_03	Just like our deal with Grey Seer Rasknitt this will serve us both well.	false
+diplomacy_strings_string_Warp_Dip_Greet_Neg_01	Welcome honoured visitors! Your timing is impeccable! My ritual could use a soul or two to add zest to my muculent broth!	false
+diplomacy_strings_string_Warp_Dip_Greet_Neg_02	Esteemed guests! Greetings! I thank thee for joining my hallowed ritual! Your souls will be a much welcome addition!	false
+diplomacy_strings_string_Warp_Dip_Greet_Neg_03	Speak! Before I throw you into the Plague Cauldron.	false
+diplomacy_strings_string_Warp_Dip_Greet_Neu_01	Buboes, phlegm, blood and guts! Boils, bogeys, rot and pus! Blisters, fevers, weeping sores! From your wounds the fester pours.	false
+diplomacy_strings_string_Warp_Dip_Greet_Neu_02	What say you to the Rotblood Tribe?	false
+diplomacy_strings_string_Warp_Dip_Greet_Neu_03	Many plagues upon you.	false
+diplomacy_strings_string_Warp_Dip_Greet_Pos_01	We're looking for a group, the Ubersreik five... or four, it doesn't matter. Have you seen them?	false
+diplomacy_strings_string_Warp_Dip_Greet_Pos_02	The Rot-Father embraces you.	false
+diplomacy_strings_string_Warp_Dip_Greet_Pos_03	Welcome, Welcome! A thousand plagues to you.	false
+diplomacy_strings_string_Warp_Dip_Offer_Cooperation_01	Let us enter into a Dark Pact.	false
+diplomacy_strings_string_Warp_Dip_Offer_Cooperation_02	Together we will spread rot and decay!	false
+diplomacy_strings_string_Warp_Dip_Offer_Cooperation_03	Your potential is the sum of all the possibilities Nurgle has for your life.	false
+diplomacy_strings_string_Warp_Dip_Offer_Gift_01	Always, everywhere Nurgle is present, and always he seeks to discover himself to each one	false
+diplomacy_strings_string_Warp_Dip_Offer_Gift_02	There is no one who is insignificant in the purpose of the Rot-Father.	false
+diplomacy_strings_string_Warp_Dip_Offer_Gift_03	Take this in Rotbloods name, may is serve our Dark Pact.	false
+diplomacy_strings_string_Warp_Dip_Offer_Join_War_01	We wish to prove ourselves, as all Rotbloods do!	false
+diplomacy_strings_string_Warp_Dip_Offer_Join_War_02	The ones I seek come to me! Stealers of slaves, torchers of food, defilers of Lords… they will suffer for it all!	false
+diplomacy_strings_string_Warp_Dip_Offer_Join_War_03	We have use of their souls.	false
+diplomacy_strings_string_Warp_Dip_Offer_Peace_01	We have enough souls for our rituals!	false
+diplomacy_strings_string_Warp_Dip_Offer_Peace_02	We need time for our wounds to rot and fester.	false
+diplomacy_strings_string_Warp_Dip_Offer_Peace_03	Had enough weakling?	false
+diplomacy_strings_string_Warp_Dip_Reject_Join_Confederation_01	Never, we will spread the plague on our own accord.	false
+diplomacy_strings_string_Warp_Dip_Reject_Join_Confederation_02	Do not worry, we will share with you pestilence and death.	false
+diplomacy_strings_string_Warp_Dip_Reject_Join_Confederation_03	Our wounds are fresh, yet to rot and fester.	false
+diplomacy_strings_string_Warp_Dip_Reject_Peace_01	We do not bow, we will show you how Rotbloods fight!	false
+diplomacy_strings_string_Warp_Dip_Reject_Peace_02	I know you. My Slaves. My spoils of war. Lord Ghulmagak. You will pay for them all!	false
+diplomacy_strings_string_Warp_Dip_Reject_Peace_03	We require more of your souls.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Negative_01	You think us some mere Norcan, think again fool.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Negative_02	You are far too clean and pretty, come here, let me cut you up.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Negative_03	I think you’re in league with that Ubersreik lot.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Neutral_01	Nurgle is not a god of destruction – he cherishes all life. The spluttering of the newborn babe is as dear to Nurgle as the slithering of the maggot hatched in its gut.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Neutral_02	Prove to us your loyalty, go out and strike our foes and we’ll reconsider.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Neutral_03	Bring us the Ubersreik four… or five, it doesn’t matter, and then we’ll talk.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Positive_01	Let us fester on this plan.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Positive_02	We can not accept this yet, rituals must be performed.	false
+diplomacy_strings_string_Warp_Dip_Rejection_Positive_03	Though this deal is most rotten it needs to fester further.	false
+diplomacy_strings_string_Warp_Dip_War_01	You will suffer unimaginable pain from which you will find no relief.	false
+diplomacy_strings_string_Warp_Dip_War_02	Souls! we need your souls!	false
+diplomacy_strings_string_Warp_Dip_War_03	We need fresh wounds, so that they may rot and decay.	false

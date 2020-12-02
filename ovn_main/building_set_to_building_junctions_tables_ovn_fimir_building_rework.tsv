@@ -1,0 +1,6 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_fimir_mil		wh_main_set_norsca_military_recruitment	false
+ovn_fimir_nor		wh_main_set_norsca_military_recruitment	false
+ovn_fimir_beast		wh_main_set_norsca_military_support	false
+ovn_fimir_agrul_migdhal_landmark		wh2_main_set_landmark	false

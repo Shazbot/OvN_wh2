@@ -1,0 +1,5 @@
+campaign_character_arts_tables	7
+art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	id	religion	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
+Sultan_Jaffar	0	0		none	Sultan_Jaffar			ovn_campaign_arb_ship_army	ovn_campaign_arb_ship_army	cam_hu1_empire_staff_and_sword	cam_light_ship_05	cam_light_ship_05	7078		0	0	0
+ovn_araby_ll	0	0		none	ovn_araby_ll			ovn_campaign_arb_ship_army	ovn_campaign_arb_ship_army	cam_hu1_empire_sword_and_shield	cam_light_ship_05	cam_light_ship_05	290598903		0	0	0
+ovn_araby_ll_2	0	0		none	ovn_araby_ll_2			ovn_campaign_arb_ship_army	ovn_campaign_arb_ship_army	cam_hu1_empire_sword_and_shield	cam_light_ship_05	cam_light_ship_05	290588884		0	0	0

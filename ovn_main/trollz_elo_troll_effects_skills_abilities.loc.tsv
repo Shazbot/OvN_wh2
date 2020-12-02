@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_enable_run_and_shakeoff	Ability: "Devour them all!"	true
+effects_description_enable_frenzy	Ability: "Frenzy"	true
+effects_description_enable_stoneskin	Ability: "Stone Skin"	true
+effects_description_elo_raw_might_frenzy	Ability: "Frenzy" for Bile Trolls, Norscan Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_enable_tantrum	Ability: "Reckless Rampage"	true
+effects_description_sickness_host	Ability: "Host to Terrifying Afflictions"	true
+effects_description_enable_stink	Ability: "Stink Baaaad!"	true
+effects_description_enable_death_stench	Ability: "Stench of Death!"	false
+effects_description_disable_horrible_stench	Replaces: "Stink Baaaad!"	false
+effects_description_enable_mon_strength	Ability: "Monstrous Strength"	false

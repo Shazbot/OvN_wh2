@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Albion_Dip_Acceptance_Negative_01	May the earth mother forgive me, we accept.	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Negative_02	Dark times call for unpleasant decisions.	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Negative_03	If this will make you leave, then so be it.	false
+diplomacy_strings_string_Albion_Dip_Demand_Payments_Negative_01	The weak exist to nurture the strong. It is the way of nature.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Negative_01	If you give this to us willingly, we will not have to take it in other ways.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Negative_02	You should be grateful that we came to speak words instead of letting our weapons do the talking.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Negative_03	The horned god decided that you are unworthy of being prey, as long as you willingly give up what we require.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Negative_01	Those who lay with mangy dogs will wake up with fleas. We refuse.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Negative_02	May the swamps take you for this insult!	false
+diplomacy_strings_string_Albion_Dip_Rejection_Negative_03	Get out, before we loose the hounds!	false
+diplomacy_strings_string_Albion_Dip_Greet_Neg_01	Speak, before I command my ravens to feed on your eyes.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neg_02	The mists are supposed to keep the likes of you from our sacred lands. Leave to whence you came, while you still can.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neg_03	You reek of Be'lakor’s foul influence, dark emissary. 	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Positive_01	The earth mother smiles upon this agreement, friend.	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Positive_03	May your day be touched by Ranald’s luck.	false
+diplomacy_strings_string_Albion_Dip_Demand_Payments_Positive_01	Forgetting a debt doesn’t mean it’s paid. The Ogham stones saved the world, it is time you make a contribution.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Positive_01	The earth mother’s gifts are plentiful this season. How about both sides share what they got?	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Positive_02	Our goals align, we should deepen our cooperation.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Positive_03	Friends of Albion, we shall prosper together	false
+diplomacy_strings_string_Albion_Dip_Rejection_Positive_01	I have read the birds flight. This offer stands under a bad omen.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Positive_02	Lugh, the sun god, requires us to choose another way.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Positive_03	Unfortunately we can’t agree to that.	false
+diplomacy_strings_string_Albion_Dip_Greet_Pos_01	A thousand welcomes, friend.	false
+diplomacy_strings_string_Albion_Dip_Greet_Pos_02	The druid council, welcomes you dear friend.	false
+diplomacy_strings_string_Albion_Dip_Greet_Pos_03	May you live as long as you want, and never want as long as you live!	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_01	The tribes can live with this.	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_02	We shall seal this deal before the altars of our gods.	false
+diplomacy_strings_string_Albion_Dip_Accept_State_Gift_01	The hands are there for friendship, the gold is there for more.	false
+diplomacy_strings_string_Albion_Dip_Accept_State_Gift_02	May you live to be 100 years with one extra year to repent. 	false
+diplomacy_strings_string_Albion_Dip_Accept_State_Gift_03	You have the druids blessings.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Accept_01	You are as wise as the Druids.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Accept_02	You have our thanks outsider.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Accept_03	The shadows may be stopped yet.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Cancel_Treaty_01	It's no use giving good advice unless you have the wisdom to go with it.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Cancel_Treaty_02	The shadows grow long.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Cancel_Treaty_03	Remember my friend, that knowledge is stronger than memory, and we should not trust the weaker.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_01	May the holes in your nets be no larger than the fish in it.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_02	May you drown in the bogs.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_03	You reject even the Phantom Queen.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_War_01	Sometimes one day changes everything; sometimes years change nothing.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_War_02	We beat our swords upon our shields. To no beast or man shall we ever yield to.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_War_03	We will call the giants to construct stone circles for your arrival.	false
+diplomacy_strings_string_Albion_Dip_Cancel_Treaty_01	Always remember to forget the troubles that passed away. But never forget to remember the blessings that come each day. 	false
+diplomacy_strings_string_Albion_Dip_Cancel_Treaty_02	You should never be ashamed to admit you have been wrong. It only proves you are wiser today than yesterday. 	false
+diplomacy_strings_string_Albion_Dip_Cancel_Treaty_03	A Truthsayer never tells a lie - only where the truth won't fit.	false
+diplomacy_strings_string_Albion_Dip_Demand_Join_War_01	A kind word never broke anyone's mouth.	false
+diplomacy_strings_string_Albion_Dip_Demand_Join_War_02	Your battles inspired me - not the obvious battles but those that were fought and won inside your head.	false
+diplomacy_strings_string_Albion_Dip_Demand_Join_War_03	May we extinguish the shadows from this world.	false
+diplomacy_strings_string_Albion_Dip_Demand_Payments_Neutral_01	If only wishing it made it so.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_01	May the sun shine through the gloom of despair.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_02	May we banish the Shadows.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_03	The Phantom Queen hears all.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Neutral_01	We prize our seclusion. No.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Neutral_02	We have no need of you "civilised" people.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Neutral_03	It's a good deed to forget a bad joke.	false
+diplomacy_strings_string_Albion_Dip_Offer_Cooperation_01	We require help. The wards falter.	false
+diplomacy_strings_string_Albion_Dip_Offer_Cooperation_02	There is a storm coming. Help us weather it.	false
+diplomacy_strings_string_Albion_Dip_Offer_Cooperation_03	As we trust the giants, will you trust us?	false
+diplomacy_strings_string_Albion_Dip_Offer_Peace_01	This fighting benefits no one.	false
+diplomacy_strings_string_Albion_Dip_Offer_Peace_02	The ancient enemy benefits from this. Let us have peace.	false
+diplomacy_strings_string_Albion_Dip_Offer_Peace_03	War weakens us all.	false
+diplomacy_strings_string_Albion_Dip_Offer_Join_War_01	The White Cliffs need defending. Will you aid us?	false
+diplomacy_strings_string_Albion_Dip_Offer_Join_War_02	The Ogham stones topple. Help us right them.	false
+diplomacy_strings_string_Albion_Dip_Offer_Join_War_03	A darkness clouds the druids minds. Something is coming…	false
+diplomacy_strings_string_Albion_Dip_Offer_Gift_01	A gift to ease relations.	false
+diplomacy_strings_string_Albion_Dip_Offer_Gift_02	We know of the stories about the treasures of Albion.	false
+diplomacy_strings_string_Albion_Dip_Offer_Gift_03	What remains of many shipwreaks. Take it back.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neu_01	The Truthsayers listen. Speak truth and we'll decide.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neu_02	The mists parted and, like the storms, you flood our land. Speak.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neu_03	May you have warm words on this cold evening	false
+diplomacy_strings_string_Albion_Dip_Reject_Peace_01	Such an affront cannot be resolved with mere words.	false
+diplomacy_strings_string_Albion_Dip_Reject_Peace_02	You threaten the wards. Never!	false
+diplomacy_strings_string_Albion_Dip_Reject_Peace_03	We beat our swords upon our shields. To no beast or man shall we yield to.	false
+diplomacy_strings_string_Albion_Dip_Reject_Join_Confederation_01	What would we possibly stand to gain? We have all we need here in Albion.	false
+diplomacy_strings_string_Albion_Dip_Reject_Join_Confederation_02	Our ways are not your ways. We cannot possibly join together.	false
+diplomacy_strings_string_Albion_Dip_Reject_Join_Confederation_03	Only the Truthsayers may know our secrets. No outsiders shall learn them.	false
+diplomacy_strings_string_Albion_Dip_War_01	The auguries speak of war! We rally our people to defend our homeland!	false
+diplomacy_strings_string_Albion_Dip_War_02	We see the mark of Chaos upon you! For the sake of the world, you must be stopped!	false
+diplomacy_strings_string_Albion_Dip_War_03	Dark Emmissaries have whispered lies to you. You aid Chaos without even realising it. No more!	false

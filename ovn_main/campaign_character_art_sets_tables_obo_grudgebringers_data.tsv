@@ -1,0 +1,4 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	morgan_bernhardt_art	wh_main_emp_empire		wh2_main_emp_grudgebringers	false	true	morgan_bernhardt	1.0
+wizard	vladimir_stormbringer_art	wh_main_emp_empire		wh2_main_emp_grudgebringers	false	true	vladimir_stormbringer	1.0

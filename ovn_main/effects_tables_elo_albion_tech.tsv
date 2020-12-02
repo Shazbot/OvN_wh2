@@ -1,0 +1,20 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+elo_warband_cost	military_spending.png	111	military_spending.png	campaign	false
+elo_ranged_reload	icon_stat_reload_time_force.png	111	icon_stat_reload_time_force.png	battle	true
+elo_ranged_xp	experience.png	111	experience.png	battle	true
+disable_war_fury_2	general_ability.png	111	general_ability.png	battle	true
+elo_elite_warband_wps	weapon_damage.png	109	weapon_damage.png	battle	true
+elo_noble_cav_chariot_armour	armour.png	111	armour.png	battle	true
+elo_noble_cav_chariot_vigour	vigour.png	101	vigour.png	battle	false
+albion_ancient_allies_missiles_res	resistance_missile.png	109	resistance_missile.png	battle	true
+albion_ancient_allies_speed	battle_movement.png	109	battle_movement.png	battle	true
+albion_ancient_mattk	melee.png	109	melee.png	battle	true
+albion_monsters_fen_anti_small	bonus_vs_small.png	109	bonus_vs_small.png	battle	true
+albion_monsters_fen_mdef	defence.png	101	defence.png	battle	true
+albion_monsters_fen_mattk	melee.png	109	melee.png	battle	true
+enable_zeal_holy_albion	general_ability.png	109	general_ability.png	battle	true
+elo_albion_upkeep_all	military_spending.png	109	military_spending.png	campaign	false
+elo_hunting_parties_upkeep	military_spending.png	109	military_spending.png	campaign	false
+elo_wooden_structures_cost	military_spending.png	109	military_spending.png	campaign	false
+elo_albion_protectors_world	general_ability.png	109	general_ability.png	battle	true

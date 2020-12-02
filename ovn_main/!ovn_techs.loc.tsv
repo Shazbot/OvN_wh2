@@ -1,0 +1,97 @@
+Loc PackedFile	1
+key	text	tooltip
+technologies_onscreen_name_tech_ovn_hlf_soup_1	Troll Chowder	false
+technologies_short_description_tech_ovn_hlf_soup_1	Chopped onions, butter, flour, potatoes, cows milk, spices, troll flesh and crusty bread, to serve.	false
+technology_ui_groups_optional_display_name_hlf_soup	Soup Kitchen	false
+technologies_onscreen_name_tech_ovn_hlf_soup_2	Fire Mountain Soup	false
+technologies_short_description_tech_ovn_hlf_soup_2	Chopped onions, butter, garlic, spices, tomatoes and soured cream, to serve.	false
+technologies_onscreen_name_tech_ovn_hlf_soup_3	Mutton Stew	false
+technologies_short_description_tech_ovn_hlf_soup_3	Chopped onions, butter, flour, carrots, turnips, potatoes and mutton.	false
+technologies_onscreen_name_tech_ovn_hlf_soup_4	 Boar Broth	false
+technologies_short_description_tech_ovn_hlf_soup_4	Chopped onions, butter, garlic, Bordeleaux wine, herbs, tomatoes and wild boar meat.	false
+technologies_onscreen_name_tech_ovn_troll_1	Meat Bag	false
+technologies_short_description_tech_ovn_troll_1	Bag to carry meat, maggots grow, tasty!	false
+technologies_onscreen_name_tech_ovn_troll_2	Ugma's Teachings	false
+technologies_short_description_tech_ovn_troll_2	Much to learn from Ugma.	false
+technologies_onscreen_name_tech_ovn_troll_3	Big Spiky Clubs	false
+technologies_short_description_tech_ovn_troll_3	Bigger, spikier, hurtier!	false
+technologies_onscreen_name_tech_ovn_troll_4	Slaves to Chaos	false
+technologies_short_description_tech_ovn_troll_4	Submit to our true masters.	false
+technologies_onscreen_name_tech_ovn_troll_5	Irreplaceable	false
+technologies_short_description_tech_ovn_troll_5	To the left, to the left.	false
+technologies_onscreen_name_tech_ovn_troll_6	Mutant Healing	false
+technologies_short_description_tech_ovn_troll_6	This and that makes us heal good.	false
+technologies_onscreen_name_tech_ovn_troll_7	Sprawling Troll Toll	false
+technologies_short_description_tech_ovn_troll_7	Under Ugma more Tolls.	false
+technologies_onscreen_name_tech_ovn_troll_8	Front & Back Loin Cloth	false
+technologies_short_description_tech_ovn_troll_8	It cover front bits and back hole.	false
+technologies_onscreen_name_tech_ovn_troll_9	Ascendancy	false
+technologies_short_description_tech_ovn_troll_9	I think therefore I smash.	false
+technologies_short_description_araby_tech_good_1	We must open our minds to new ways.	false
+technologies_short_description_araby_tech_good_2	Learn from your past to better your future.	false
+technologies_short_description_araby_tech_good_3	Indentured servants don't count right?	false
+technologies_short_description_araby_tech_good_4	Together we stand and fight, as equals, as brothers.	false
+technologies_short_description_araby_tech_good_5	Wisdom beats brutes.	false
+technologies_short_description_araby_tech_good_6	They are not beasts, they're simply misunderstood.	false
+technologies_short_description_araby_tech_good_7	Our future lies in the mind, protected by the sword.	false
+technologies_short_description_araby_tech_good_8	We will be envy of our successors and will go down as the greatest of our people. 	false
+technologies_short_description_araby_tech_bad_1	One should have the freedom to practice and believe in what their heart desires.	false
+technologies_short_description_araby_tech_bad_2	What secrets lies in the blood scrawl.	false
+technologies_short_description_araby_tech_bad_3	A read to twist your soul.	false
+technologies_short_description_araby_tech_bad_4	This will give you more than nightmares.	false
+technologies_short_description_araby_tech_bad_5	It ends with a bang.	false
+technologies_short_description_araby_tech_bad_6	A portal to a nightmarish world and we welcome it.	false
+technologies_short_description_araby_tech_bad_7	Chaos is a pathway to many abilities some consider to be unnatural.	false
+technologies_short_description_araby_tech_bad_8	Who are we to deny those who wish to talk to their dearly departed.	false
+technologies_short_description_araby_tech_neu_1	True power lies in the anceint runes of Nehekhara.	false
+technologies_short_description_araby_tech_neu_2	Through selective breeding we can rear Elephants that rival even Norscan Mammoths.	false
+technologies_short_description_araby_tech_neu_3	We will decorate our camp with their entrails.	false
+technologies_short_description_araby_tech_neu_4	We are the line between those that seek to destroy us and our families.	false
+technologies_short_description_araby_tech_neu_5	They won't know what hit them.	false
+technologies_short_description_araby_tech_neu_6	There is much honour and tradition in the Arabyan bow.	false
+technologies_onscreen_name_araby_tech_good_1	Teachings of the Wise	false
+technologies_onscreen_name_araby_tech_good_2	Sacred Scriptures	false
+technologies_onscreen_name_araby_tech_good_3	Abrogation of Slavery	false
+technologies_onscreen_name_araby_tech_good_4	Tribal Rights	false
+technologies_onscreen_name_araby_tech_good_5	Study of the Divine	false
+technologies_onscreen_name_araby_tech_good_6	Study of the Giants	false
+technologies_onscreen_name_araby_tech_good_7	Academia	false
+technologies_onscreen_name_araby_tech_good_8	Golden Age	false
+technologies_onscreen_name_araby_tech_bad_1	Temporal Freedom	false
+technologies_onscreen_name_araby_tech_bad_2	Forbidden Tomes	false
+technologies_onscreen_name_araby_tech_bad_3	Liber Malefic	false
+technologies_onscreen_name_araby_tech_bad_4	Liber Mortis	false
+technologies_onscreen_name_araby_tech_bad_5	Liber Tormentum	false
+technologies_onscreen_name_araby_tech_bad_6	Mirror of Nightmares	false
+technologies_onscreen_name_araby_tech_bad_7	Sufferance of Chaos	false
+technologies_onscreen_name_araby_tech_bad_8	Mortem Clemency	false
+technologies_onscreen_name_araby_tech_neu_1	Runic Studies	false
+technologies_onscreen_name_araby_tech_neu_2	Pure Breeds	false
+technologies_onscreen_name_araby_tech_neu_3	Savage Ways	false
+technologies_onscreen_name_araby_tech_neu_4	Rank & File	false
+technologies_onscreen_name_araby_tech_neu_5	Shock & Awe	false
+technologies_onscreen_name_araby_tech_neu_6	Way of the Bow	false
+technologies_onscreen_name_araby_tech_neu_eco_1	Archaeology	false
+technologies_onscreen_name_araby_tech_neu_eco_2	Algoritmi	false
+technologies_onscreen_name_araby_tech_neu_eco_3	Hassan Order	false
+technologies_onscreen_name_araby_tech_neu_eco_4	Kryptós Analýein	false
+technologies_onscreen_name_araby_tech_neu_eco_5	Cartography	false
+technologies_onscreen_name_araby_tech_neu_eco_6	Kitab at-Tasrif	false
+technologies_short_description_araby_tech_neu_eco_1	We can learn much from the study of our forefathers and the Priest Kings.	false
+technologies_short_description_araby_tech_neu_eco_2	Any problem can be solved through the application of algorithms.	false
+technologies_short_description_araby_tech_neu_eco_3	Legendary order of assassins, renowned and feared across Araby.	false
+technologies_short_description_araby_tech_neu_eco_4	Our foes hidden agendas will be exposed.	false
+technologies_short_description_araby_tech_neu_eco_5	We know these lands like the back of our hands, wait what's that.	false
+technologies_short_description_araby_tech_neu_eco_6	Encyclopedia of medical texts that will serve our peoples for eons.	false
+technologies_onscreen_name_araby_tech_neu_0	Camel Barding	false
+technologies_short_description_araby_tech_neu_0	The camel is a mighty creature that can bear the weight of more than just cargo.	false
+technologies_onscreen_name_araby_tech_neu_eco_0	Water Clock	false
+technologies_short_description_araby_tech_neu_eco_0	No time to say hello-goodbye, I'm late, I'm late, I'm late!	false
+technologies_onscreen_name_grudge_tech_1	Nomad Guides	false
+technologies_short_description_grudge_tech_1	The nomads will show us how to survive in this desolate land.	false
+technologies_onscreen_name_grudge_tech_2	Barbarian Guides	false
+technologies_short_description_grudge_tech_2	The Barbarians will show us how to survive in this frozen land.	false
+technologies_onscreen_name_grudge_tech_3	Dawi Guides	false
+technologies_short_description_grudge_tech_3	The Dawi will show us how to traverse mountains.	false
+technologies_onscreen_name_grudge_tech_4	Baggage Train	false
+technologies_short_description_grudge_tech_4	A baggage train will allow our camp to grow.	false

@@ -1,0 +1,18 @@
+Loc PackedFile	1
+key	text	tooltip
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_primary_detail	Wrath of the Nehekharan Kings	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_secondary_detail	Glorious leader, it seems our excavation hasn't gone unnoticed, the diggers have disturbed some long forgotten prince and now the dead rise up to ensure his peace.	true
+dilemmas_localised_description_ovn_dilemma_arb_excavation	My most glorious leader, an excavation has uncovered a great tomb with many riches, should we begin securing the treasures?	true
+dilemmas_localised_title_ovn_dilemma_arb_excavation	Great Tomb Uncovered	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_arb_excavationFIRST	Excavate the Tomb	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_arb_excavationSECOND	Leave Tomb Intact	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_2_primary_detail	Khagul's Revenge	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_2_secondary_detail	A Norscan throng pillages through Nehekhara, while a norscan this far south is rare, rumour has it this one is all too familiar with the lands and is here to enact revenge for his fallen master Valgar the Butcher.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_3_primary_detail	Ratmen Tomb Keepers	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_3_secondary_detail	Our archaeological dig has been hampered by Ratmen attacks, peculiarly it's seems these rats are actually trying to defend the Nehekharan Tombs.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_4_primary_detail	Tilean Plunderers	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_4_secondary_detail	Disgusting Tilean's mean to plunder the lost Nehekharan wonders for their own personal gain and see us as nothing more than a barbarian obstacle.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_5_primary_detail	Teilancarr's Treasure Hunters	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_5_secondary_detail	Elves draped in dark clothing have been spotted nearby, no doubt seeking powerful Nehekharan items for their own ruinous power.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_6_primary_detail	Blood Ritual	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_6_secondary_detail	We have stumbled across some hideous ritual involving blood, entrails and pentagrams but that seems to the least of our problem. We think whatever they were trying to do might have actually worked.	true

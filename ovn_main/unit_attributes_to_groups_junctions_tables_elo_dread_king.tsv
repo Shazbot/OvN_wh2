@@ -1,0 +1,7 @@
+unit_attributes_to_groups_junctions_tables	2
+attribute	attribute_group
+fatigue_immune	undead_grail_knights
+causes_fear	undead_grail_knights
+causes_terror	undead_grail_knights
+undead	undead_grail_knights
+hide_forest	undead_grail_knights

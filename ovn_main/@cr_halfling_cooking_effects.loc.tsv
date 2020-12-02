@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_ovn_effect_foraging_find_ingredient_dummy	Chance of finding a cooking ingredient.	true
+effects_description_ovn_faction_trait_mootland_feature	Has access to the Kitchen	true
+effects_description_ovn_pooled_resource_mtl_seasong_buildings	Culinary Salt Production: %+n Pouches	true

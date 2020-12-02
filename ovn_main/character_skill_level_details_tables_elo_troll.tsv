@@ -1,0 +1,24 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	elo_skill_troll_food_rats		9
+		x	1	elo_skill_troll_food_dwarfs		9
+		x	1	elo_skill_troll_food_humans		9
+		x	1	elo_skill_troll_food_elves		9
+		x	1	elo_skill_troll_food_green		9
+		x	1	elo_skill_troll_food_lizard		9
+		x	1	elo_skill_troll_food_undead		9
+		x	1	elo_skill_troll_food_chaos		9
+		x	1	elo_skill_troll_food_beast		9
+		x	1	elo_skill_troll_frostblood		4
+		x	1	elo_skill_troll_riverblood		4
+		x	1	elo_skill_troll_stoneblood		4
+		x	1	elo_skill_throgg_herold		11
+		x	1	elo_skill_throgg_march		17
+		x	1	elo_skill_throgg_scourge		14
+		x	1	reworked_cyclopean_fiends		24
+		x	1	reworked_king_of_trolls		14
+		x	1	reworked_mutant_regeneration		11
+		x	1	elo_leader_river		14
+		x	1	elo_eloquent_troll		11
+		x	1	resevoir_stone_hammer		18
+		x	1	ugma_trinkets		14

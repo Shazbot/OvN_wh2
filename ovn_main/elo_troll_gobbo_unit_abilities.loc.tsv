@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_tooltip_text_elo_so_hungry	Nothing revitalizes Trolls like a little snack. A gobbo or two nearby just come in handy when your Trolls need additional motivation.	true
+unit_abilities_onscreen_name_elo_so_hungry	Sooo Hungry!	true
+unit_abilities_tooltip_text_troll_mocking_laughter	Night Trolls are known to make noises sounding like mocking laughter while tearing their enemies apart. Those who witness these sounds can be easily intimidated by them.	true
+unit_abilities_onscreen_name_troll_mocking_laughter	Mocking Laughter	true

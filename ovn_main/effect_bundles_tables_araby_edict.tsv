@@ -1,0 +1,6 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+araby_edict_1		Army March	province	1	edict_state_troop_levy.png	false
+araby_edict_3		Stability	province	1	edict_host_festag.png	false
+araby_edict_2		The Sultan Demands	province	1	edict_def_increase_slave_production_quota.png	false
+araby_edict_4		Sultan Call	province	1	edict_council_of_burgomeisters.png	false

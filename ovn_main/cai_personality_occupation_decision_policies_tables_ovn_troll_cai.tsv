@@ -1,0 +1,3 @@
+cai_personality_occupation_decision_policies_tables	0
+food_excess_cap	food_shortage_cap	id	min_attitude	squalor_cap
+6	-2	ovn_troll_random	-30	-4

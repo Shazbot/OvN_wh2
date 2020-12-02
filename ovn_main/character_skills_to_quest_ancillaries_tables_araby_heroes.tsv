@@ -1,0 +1,4 @@
+character_skills_to_quest_ancillaries_tables	1
+ancillary	skill	use_quest_for_prefix
+roy_anc_mount_arb_nomad_assassin	roy_skill_nomad_mount_assassin	false
+roy_anc_mount_arb_nomad_horse_jezzail	roy_skill_nomad_jezzail	false

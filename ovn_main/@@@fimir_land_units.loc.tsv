@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+land_units_onscreen_name_ovn_finmor	Finmor	true
+unit_description_short_texts_text_ovn_finmor	The Finmor usually command small bands of Shearls or just use them as slaves in their communities.	true
+land_units_onscreen_name_ovn_finmor_belakor	Followers of Be'lakor (Finmor)	true
+unit_description_short_texts_text_ovn_finmor_belakor	Devoted to the Dark Master Be'Lakor, these fanatics worship their god blindly.	true
+land_units_onscreen_name_wh_dlc08_nor_cha_fimir_balefiend_beast	Fimir Balefiend (Beasts)	true
+land_units_onscreen_name_wh_dlc08_nor_cha_fimir_balefiend_death	Fimir Balefiend (Death)	true
+agent_subtypes_onscreen_name_override_wh_dlc08_nor_cha_fimir_balefiend_beast	Fimir Balefiend (Beasts)	true
+agent_subtypes_description_text_override_wh_dlc08_nor_cha_fimir_balefiend_beast	Balefiends revel in the instability they create between worlds, urging the Dark Gods to favour the Fimir once again.	true
+agent_subtypes_onscreen_name_override_wh_dlc08_nor_cha_fimir_balefiend_death	Fimir Balefiend (Death)	true
+agent_subtypes_description_text_override_wh_dlc08_nor_cha_fimir_balefiend_death	Balefiends revel in the instability they create between worlds, urging the Dark Gods to favour the Fimir once again.	true

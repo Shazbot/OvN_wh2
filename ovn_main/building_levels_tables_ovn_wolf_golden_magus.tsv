@@ -1,0 +1,33 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+arb_flaming_scimitar_main_1	arb_flaming_scimitar_main	0	1	800	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	0	true	0		true	0	0
+arb_flaming_scimitar_main_2	arb_flaming_scimitar_main	1	1	1600	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	2	true	1		true	0	0
+arb_flaming_scimitar_main_3	arb_flaming_scimitar_main	2	1	3200	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	4	true	2		true	0	0
+arb_flaming_scimitar_main_4	arb_flaming_scimitar_main	3	1	4800	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	6	true	3		true	0	0
+arb_flaming_scimitar_main_5	arb_flaming_scimitar_main	4	1	7200	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	8	true	4		true	0	0
+arb_flaming_scimitar_barracks_1	arb_flaming_scimitar_barracks	0	1	1000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_barracks	false	0.0	0	true	0		true	0	0
+arb_flaming_scimitar_barracks_2	arb_flaming_scimitar_barracks	1	1	2000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_barracks	false	0.0	0	true	2		true	0	0
+arb_flaming_scimitar_barracks_3	arb_flaming_scimitar_barracks	2	1	4000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_barracks	false	0.0	0	true	4		true	0	0
+arb_flaming_scimitar_support_monsters_1	arb_flaming_scimitar_support_monsters	0	1	1000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_support_monsters	false	0.0	0	true	1		true	0	0
+arb_flaming_scimitar_support_monsters_2	arb_flaming_scimitar_support_monsters	1	1	3000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_support_monsters	false	0.0	0	true	3		true	0	0
+arb_flaming_scimitar_support_monsters_3	arb_flaming_scimitar_support_monsters	2	1	4000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_support_monsters	false	0.0	0	true	4		true	0	0
+arb_flaming_scimitar_support_mages_1	arb_flaming_scimitar_support_mages	0	1	2000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_support_mages	false	0.0	0	true	2		true	0	0
+arb_flaming_scimitar_support_mages_2	arb_flaming_scimitar_support_mages	1	1	4000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_support_mages	false	0.0	0	true	4		true	0	0
+arb_flaming_scimitar_structure_movement_1	arb_flaming_scimitar_structure_movement	0	1	500	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_movement	false	0.0	0	true	0		true	0	0
+arb_flaming_scimitar_structure_movement_2	arb_flaming_scimitar_structure_movement	1	1	1000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_movement	false	0.0	0	true	1		true	0	0
+arb_flaming_scimitar_structure_movement_3	arb_flaming_scimitar_structure_movement	2	1	3000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_movement	false	0.0	0	true	3		true	0	0
+arb_flaming_scimitar_structure_upkeep_1	arb_flaming_scimitar_structure_upkeep	0	1	1000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_upkeep	false	0.0	0	true	1		true	0	0
+arb_flaming_scimitar_structure_upkeep_2	arb_flaming_scimitar_structure_upkeep	1	1	2000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_upkeep	false	0.0	0	true	2		true	0	0
+arb_flaming_scimitar_structure_upkeep_3	arb_flaming_scimitar_structure_upkeep	2	1	4000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_upkeep	false	0.0	0	true	4		true	0	0
+arb_flaming_scimitar_structure_replenishment_1	arb_flaming_scimitar_structure_replenishment	0	1	500	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_replenishment	false	0.0	0	true	0		true	0	0
+arb_flaming_scimitar_structure_replenishment_2	arb_flaming_scimitar_structure_replenishment	1	1	2000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_replenishment	false	0.0	0	true	2		true	0	0
+arb_flaming_scimitar_structure_replenishment_3	arb_flaming_scimitar_structure_replenishment	2	1	3000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_replenishment	false	0.0	0	true	3		true	0	0
+arb_flaming_scimitar_structure_growth_1	arb_flaming_scimitar_structure_growth	0	1	500	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_growth	false	0.0	0	true	0		true	0	0
+arb_flaming_scimitar_structure_growth_2	arb_flaming_scimitar_structure_growth	1	1	1000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_growth	false	0.0	0	true	1		true	0	0
+arb_flaming_scimitar_structure_growth_3	arb_flaming_scimitar_structure_growth	2	1	3000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_structure_growth	false	0.0	0	true	3		true	0	0
+arb_flaming_scimitar_defense_bombardment_1	arb_flaming_scimitar_defense_bombardment	0	1	2000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_defense_bombardment	false	0.0	0	true	2		true	0	0
+arb_flaming_scimitar_defense_magical_bombardment_1	arb_flaming_scimitar_defense_magical_bombardment	0	1	3000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_defense_magical_bombardment	false	0.0	0	true	3		true	0	0
+arb_flaming_scimitar_defense_magical_bombardment_2	arb_flaming_scimitar_defense_magical_bombardment	1	1	4000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_defense_magical_bombardment	false	0.0	0	true	4		true	0	0
+arb_flaming_scimitar_unique_minaret_1	arb_flaming_scimitar_unique_minaret	0	1	5000	0		false	0	0	0	0	false				true	arb_flaming_scimitar_unique_minaret	false	0.0	0	true	4		true	0	0
+arb_golden_magus_special_galleon_graveyard_1	arb_golden_magus_special_galleon_graveyard	1	1	5000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	true	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0
+arb_golden_magus_special_galleon_graveyard_ruin	arb_golden_magus_special_galleon_graveyard	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	false	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0

@@ -1,0 +1,15 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_wh2_main_effect_enable_nor_vanguard_monsters	Attribute: Vanguard Deployment for Skin Wolves, Fimir Warlord & all Fimir units	true
+effects_description_wh2_main_effect_nor_fimir_trolls_rank7_melee_damage	Weapon strength: %+n% for Norscan Trolls & all Fimir units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_fimir_trolls_rank7_charge_bonus	Charge bonus: %+n for Norscan Trolls & all Fimir units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_fimir_trolls_rank7_melee_attack	Melee attack: %+n for Norscan Trolls & all Fimir units {{tr:rank7}}	true
+effects_description_wh2_dlc11_effect_skill_melee_attack_increase_nor_fimir_giant_mammoth	Melee attack: %+n for all Fimir, Norscan Giant, Feral Mammoth, and War Mammoth units	true
+effects_description_wh_dlc08_effect_tech_recruitment_cost_reduction_trolls_fimirs	Recruitment cost: %+n% for all Norscan Troll, Norscan Ice Troll & all Fimir units	true
+effects_description_wh2_dlc11_effect_skill_melee_defence_increase_nor_fimir_giant_mammoth	Melee defence: %+n for all Fimir, Norscan Giant, Feral Mammoth, and War Mammoth units	true
+effects_description_wh_dlc08_effect_skill_upkeep_reduction_trolls_fimirs	Upkeep: %+n% for all Norscan Troll, Norscan Ice Troll & all Fimir units	true
+effects_description_wh_dlc08_effect_skill_morale_increase_fimirs	Leadership: %+n for all Fimir units	true
+effects_description_wh_dlc08_effect_tech_melee_damage_increase_trolls_fimirs	Weapon strength: %+n% for all Norscan Troll, Norscan Ice Troll & all Fimir units	true
+effects_description_wh_dlc08_effect_tech_unit_stat_melee_defence_fimirs	Melee defence: %+n for all Fimir units	true
+effects_description_wh_dlc08_effect_skill_replenishment_trolls_fimirs	Casualty replenishment rate: %+n% for all Norscan Troll, Norscan Ice Troll & all Fimir units	true
+effects_description_wh_dlc08_effect_tech_charge_speed_increase_trolls_fimirs	Charge bonus: %+n% for all Norscan Troll, Norscan Ice Troll & all Fimir units	true

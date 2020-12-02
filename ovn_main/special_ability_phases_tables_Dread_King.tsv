@@ -1,0 +1,9 @@
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+-1.0	positive	spawn_ushabti_dread_king		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	true	true	true	0.0	
+-1.0	negative	Dread_Aura		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_dlc09_abilities_curse_of_djaf	wh2_dlc09_ability_curse_of_djaf	-1.0	false	true	true	0.0	
+30.0	positive	Summon_Black_Grail_Kinghts_1		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh2_dlc10_lord_passive_blood_frenzy_1	-1.0	false	true	true	0.0	
+30.0	positive	Summon_Black_Grail_Kinghts_2		false	false	false	-0.1	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh2_dlc10_lord_passive_blood_frenzy_2	-1.0	false	true	true	0.0	
+30.0	positive	Summon_Black_Grail_Kinghts_3		false	false	false	-0.2	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh2_dlc10_lord_passive_blood_frenzy_3	-1.0	false	true	true	0.0	
+-1.0	positive	elo_necromantic_anchor		false	false	false	-0.1	0.0	0.0	1.0	2	0.0	0	-1	2	true	0.0	0.0	true	0		wh_main_generic_hp_regen_passive		-1.0	false	true	true	0.0	
+15.0	negative	contact_phase_mummy_curse		false	false	false	0.2	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_dlc09_abilities_befalling_curse		-1.0	false	true	true	0.0	

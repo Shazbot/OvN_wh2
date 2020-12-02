@@ -1,0 +1,7 @@
+cdir_events_mission_option_junctions_tables	2
+id	mission_key	option_key	value
+1665200477	pj_grudgebringers_targets_1	VAR_CHANCE	100
+1665200478	pj_grudgebringers_targets_2	VAR_CHANCE	100
+1665200479	pj_grudgebringers_targets_3	VAR_CHANCE	100
+1665200480	pj_grudgebringers_targets_4	VAR_CHANCE	100
+1665200481	pj_grudgebringers_targets_5	VAR_CHANCE	100

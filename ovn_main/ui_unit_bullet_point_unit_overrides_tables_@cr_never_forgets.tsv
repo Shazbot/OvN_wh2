@@ -1,0 +1,12 @@
+ui_unit_bullet_point_unit_overrides_tables	0
+bullet_point	unit_key
+anti_infantry	wh_main_arb_mon_elephant
+terror	wh_main_arb_mon_elephant
+anti_infantry	wh_main_arb_mon_war_elephant
+armour_piercing	wh_main_arb_mon_war_elephant
+armoured	wh_main_arb_mon_war_elephant
+terror	wh_main_arb_mon_war_elephant
+anti_infantry	wh_main_arb_cha_sheikh_2
+armour_piercing	wh_main_arb_cha_sheikh_2
+armoured	wh_main_arb_cha_sheikh_2
+terror	wh_main_arb_cha_sheikh_2

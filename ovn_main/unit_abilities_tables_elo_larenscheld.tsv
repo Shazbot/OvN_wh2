@@ -1,0 +1,6 @@
+unit_abilities_tables	16
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+larenscheld_ghost_on_death	false	wh2_main_character_abilities_arcane_vassal		wh_type_augment		wh_main_anc_group_rare	false	false	character		false
+larenscheld_bombardment	true	wh_main_item_abilities_skull_of_katam		wh_type_augment		wh_main_anc_group_rare	true	false	bound		false
+larenscheld_ghost_on_death_upgraded	true	wh_main_hero_abilities_slippery		wh_type_augment		wh_main_anc_group_unique	true	false	character		false
+larenscheld_change_at_will	true	wh_main_hero_abilities_slippery		wh_type_augment		wh_main_anc_group_unique	true	false	character		false

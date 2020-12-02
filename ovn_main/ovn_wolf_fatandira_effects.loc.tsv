@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_arb_fatandira_innate_nomad_discount	Upkeep: %+n% for all Arabyan Nomad units	true
+effects_description_arb_fatandira_innate_nomad_ammo	Ammunition: %n% for all ranged Arabyan Nomad units	true
+effects_description_arb_fatandira_enable_aimed_shot	Ability: "Aimed Shot"	true
+effects_description_arb_fatandira_enable_aimed_shot_cooldown	Cooldown: %+n% to "Aimed Shot"	true
+effects_description_arb_fatandira_nomad_speed	Speed: %+n% for all Arabyan Nomad units	true
+effects_description_arb_fatandira_nomad_ranged_damage	Missile strength: %+n% for all ranged Arabyan Nomad units	true
+effects_description_arb_fatandira_enable_sand_feint	Ability: "Sand Feint"	true
+effects_description_arb_fatandira_enable_warhorse_mount	Unlocks mount: Warhorse	true
+effects_description_arb_fatandira_enable_roc_mount	Unlocks mount: Saqir	true
+effects_description_arb_fatandira_enable_blades_demise	Ability: "Blades of Honourable Demise"	true

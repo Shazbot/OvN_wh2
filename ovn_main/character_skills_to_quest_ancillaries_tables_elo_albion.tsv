@@ -1,0 +1,5 @@
+character_skills_to_quest_ancillaries_tables	1
+ancillary	skill	use_quest_for_prefix
+anc_morrigan_staff	morrigan_legendary_staff	false
+elo_staff_of_dural_durak	elo_staff_of_dural_durak	false
+elo_amulet_old_ones	elo_amulet_old_ones	false

@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+units_custom_battle_mounts_localised_description_ovn_hlf_master_chef_0ovn_hlf_master_chef_1	Some Master Chefs choose to carry their kitchen onto the battlefield in a chuck wagon.	true
+units_custom_battle_mounts_localised_description_ovn_hlf_moot_general_0ovn_hlf_moot_general_2	Many Halfling commanders choose to ride the largest Moot Cockerel specimens into battle.	true
+units_custom_battle_mounts_localised_description_ovn_hlf_sheriff_0ovn_hlf_sheriff_1	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	true
+units_custom_battle_mounts_mount_name_ovn_hlf_master_chef_0ovn_hlf_master_chef_1	Chuck Wagon	true
+units_custom_battle_mounts_mount_name_ovn_hlf_moot_general_0ovn_hlf_moot_general_2	Battle Cockerel	true
+units_custom_battle_mounts_mount_name_ovn_hlf_sheriff_0ovn_hlf_sheriff_1	Battle Swine	true

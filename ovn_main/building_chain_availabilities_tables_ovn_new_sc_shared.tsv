@@ -1,0 +1,12 @@
+building_chain_availabilities_tables	1
+set_id	culture	faction	id	sub_culture	campaign
+wh_main_bas_nor	wh_main_chs_chaos		250519880	wh_main_sc_nor_warp	main_warhammer
+wh_main_bas_nor	wh_main_chs_chaos		250519881	wh_main_sc_nor_warp	wh2_main_great_vortex
+wh_main_bas_nor	wh_main_chs_chaos		250519882	wh_main_sc_nor_fimir	main_warhammer
+wh_main_bas_nor	wh_main_chs_chaos		250519883	wh_main_sc_nor_fimir	wh2_main_great_vortex
+wh_main_bas_nor	wh_main_chs_chaos		250519884	wh_main_sc_nor_troll	main_warhammer
+wh_main_bas_nor	wh_main_chs_chaos		250519885	wh_main_sc_nor_troll	wh2_main_great_vortex
+wh_main_bas_teb			250519886	wh_main_sc_emp_araby	main_warhammer
+wh_main_bas_teb			250519887	wh_main_sc_emp_araby	wh2_main_great_vortex
+wh2_main_bas_lzd			250519888	wh_main_sc_lzd_amazon	main_warhammer
+wh2_main_bas_lzd			250519889	wh_main_sc_lzd_amazon	wh2_main_great_vortex

@@ -1,0 +1,12 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+arb_fatandira_innate_nomad_discount	military_spending.png	4	military_spending.png	battle	false
+arb_fatandira_innate_nomad_ammo	ammo.png	4	ammo.png	battle	true
+arb_fatandira_enable_aimed_shot	general_ability.png	4	general_ability.png	battle	true
+arb_fatandira_enable_aimed_shot_cooldown	magic_cooldown.png	60	magic_cooldown.png	battle	false
+arb_fatandira_nomad_ranged_damage	ranged_damage.png	4	ranged_damage.png	battle	true
+arb_fatandira_nomad_speed	battle_movement.png	4	battle_movement.png	battle	true
+arb_fatandira_enable_sand_feint	general_ability.png	4	general_ability.png	battle	true
+arb_fatandira_enable_warhorse_mount	mount.png	50	mount.png	both	true
+arb_fatandira_enable_roc_mount	mount.png	50	mount.png	both	true
+arb_fatandira_enable_blades_demise	general_ability.png	4	general_ability.png	battle	true

@@ -1,0 +1,5 @@
+special_ability_phase_displays_tables	1
+active_vfx	banner_vfx	entity_vfx	key	entity_vfx_attach_type
+	wh_main_generic_banner_buff	wh2_main_plague_wither_entity_debuff	horrible_stench	
+	wh_main_generic_entity_buff_defence	wh_main_generic_entity_buff_defence	rock_solid	
+	wh_main_generic_entity_buff_defence	wh_main_generic_entity_buff_defence	death_stench	

@@ -1,0 +1,28 @@
+Loc PackedFile	1
+key	text	tooltip
+building_culture_variants_name_wh_main_emp_industry_basic_2wh_main_emp_empirewh_main_sc_emp_empirewh2_main_emp_the_moot	Tobacco Farm	false
+building_culture_variants_name_wh_main_emp_industry_basic_3wh_main_emp_empirewh_main_sc_emp_empirewh2_main_emp_the_moot	Tobacco Plantation	false
+building_culture_variants_name_wh_main_emp_industry_basic_1wh_main_emp_empirewh_main_sc_emp_empirewh2_main_emp_the_moot	Tobacco Plot	false
+building_culture_variants_name_wh_main_emp_tavern_1wh_main_emp_empirewh_main_sc_emp_empirewh2_main_emp_the_moot	Soup Kitchen	false
+building_culture_variants_name_wh_main_emp_tavern_2wh_main_emp_empirewh_main_sc_emp_empirewh2_main_emp_the_moot	Pie Shop	false
+building_culture_variants_name_wh_main_emp_tavern_3wh_main_emp_empirewh_main_sc_emp_empirewh2_main_emp_the_moot	Grand Pub	false
+building_culture_variants_name_wh_main_emp_forges_1wh2_main_emp_the_moot	Hot-Pot Catapult Workshop	false
+building_culture_variants_name_wh_main_emp_forges_2wh2_main_emp_the_moot	Kathleen Soup Tank Workshop	false
+building_short_description_texts_short_description_ovn_kath	Halflings scoff at the old slingshots they called catapults, now they are replaced by the real thing.	false
+building_short_description_texts_short_description_ovn_kath2	A workshop to tinker with thier prized possession and maybe fashion a few catapults. 	false
+building_culture_variants_name_wh_main_emp_worship_1wh2_main_emp_the_moot	Shrine of Sigmar	false
+building_culture_variants_name_wh_main_emp_worship_2wh2_main_emp_the_moot	Temple of Sigmar	false
+building_culture_variants_name_wh_main_emp_worship_3wh2_main_emp_the_moot	PLACEHOLDER	false
+building_short_description_texts_short_description_ovn_food_1	Soup, soup, a tasty soup, soup, a spicy carrot and coriander (Chilli chowder). Crouton, crouton, crunchy friends in a liquid broth, I am gazpacho, Oh, I am a summer soup – Traditional Halfling Folk Song	false
+building_short_description_texts_short_description_ovn_food_2	While soup is arguably the most popular Halfling dish, pies baked in a buttery crispy crust... buttery flavoured crust, flaky I mean flaky crust are a very close second.	false
+building_short_description_texts_short_description_ovn_food_3	A place of food galore and pints of beer, that's right, it comes in pints.	false
+building_short_description_texts_short_description_ovn_cig_1	Small tobacco plots dot the land, their owners keep most of the crop while selling any excess at the local markets.	false
+building_short_description_texts_short_description_ovn_cig_2	Larger in production, tobacco farms are able to cater to the townsfolk who live in the towns across the Moot including its capital Eicheschatten.	false
+building_short_description_texts_short_description_ovn_cig_3	Large scale tobacco cultivation uses large swathes of land damaging local countryside. Through economy of scales they are able to service all of the Empire and beyond, making tobacco a lucrative cash crop.	false
+building_culture_variants_name_ovn_hlf_welf_1wh2_main_emp_the_moot	Tangled Grove of Altern	true
+building_culture_variants_name_ovn_hlf_welf_2wh2_main_emp_the_moot	Grove of Altern	true
+building_culture_variants_name_ovn_hlf_welf_3wh2_main_emp_the_moot	Sacred Grove of Altern	true
+building_culture_variants_name_ovn_hlf_cigwh2_main_emp_the_moot	Gipfel Tobacco Barn	true
+building_short_description_texts_short_description_ovn_hlf_welf	The Halflings have always been attuned with nature but to shy away from industry and embrace the land is truly a wonderful sight.	true
+building_short_description_texts_short_description_ovn_hlf_cig	Halflings have long cultivated tobacco producing the finest tobaccy throughout the Old World. Gipfel is very much at the heart of this burgeoning industry.	true
+building_culture_variants_name_wh_main_emp_wizards_1wh2_main_emp_the_moot	Wizard's Conclave	false

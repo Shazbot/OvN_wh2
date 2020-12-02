@@ -1,0 +1,12 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+icon_stat_charge_bonus.png	obo_hero_wh_dlc05_skill_wef_army_buff_charge_bonus_charge_speed	Let the enemy feel the fury of nature, embodied in these warriors as they crash through their lines.	Striking Branches	0	false	false	false	0.0	0
+icon_stat_armour.png	obo_hero_wh_dlc05_skill_wef_army_buff_melee_armour	Armour as hard as the ancient bark of the forest, it repels blows that would rend others asunder.	Shield of the Forest	0	false	false	false	0.0	0
+icon_stat_attack.png	obo_hero_wh_dlc05_skill_wef_army_buff_melee_attack_defence	All of Athel Loren shouts with a fury as old as the ages, and the enemy knows its power.	The Forest's Roar	0	false	false	false	0.0	0
+icon_stat_damage.png	obo_hero_wh_dlc05_skill_wef_army_buff_melee_damage	The warrior strikes with the strength of a swinging tree limb; few can stand against such strength.	Swinging Boughs	0	false	false	false	0.0	0
+icon_stat_ammo.png	obo_hero_wh_dlc05_skill_wef_army_buff_ranged_ammunition	What is a ranger without an arrow? Who can be the best without dozens?	Nature's Quiver 	0	false	false	false	0.0	0
+icon_stat_speed.png	obo_hero_wh_dlc05_skill_wef_army_buff_ranged_battle_speed	The Asrai are fleet of foot, with centuries of darting from branch to branch, and never a missed step.	Shifting Winds	0	false	false	false	0.0	0
+icon_stat_ranged_damage.png	obo_hero_wh_dlc05_skill_wef_army_buff_ranged_extra_reload	A ranger should give no reprieve to the foe. Arrows must fall like a deluge, as deadly as lightning.	Rain of Spines	0	false	false	false	0.0	0
+icon_stat_ranged_damage.png	obo_hero_wh_dlc05_skill_wef_army_buff_ranged_missile_damage	Let each bolt be imbued with the strength of Kurnous, and bring death to all his enemies.	Bolts of the Forest	0	false	false	false	0.0	0
+wh_main_hero_passive_extra_powder.png	obo_skill_ability_extra_powder	Because you can never have too much.	Extra Powder	0	false	false	false	0.0	0
+grudge_firearms_ammo.png	obo_skill_ability_more_powder	"Where's that powder monkey? Get him up 'ere now!"	More Powder!	0	false	false	false	0.0	0

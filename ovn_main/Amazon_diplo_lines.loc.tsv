@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Amazon_Dip_Acceptance_Negative_01	With my reservations, we agree.	false
+diplomacy_strings_string_Amazon_Dip_Acceptance_Negative_02	Best start running. Let's see how far you make it…	false
+diplomacy_strings_string_Amazon_Dip_Acceptance_Negative_03	Fine, now leave this sacred ground!	false
+diplomacy_strings_string_Amazon_Dip_Demand_Payments_Negative_01	You have taken something of ours. Return it now!	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Negative_01	Show some wisdom in your consideration of this.	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Negative_02	The Priestesses extend a branch. Do you accept or break it?	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Negative_03	A pause in the slaughter. Think, than act.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Negative_01	As unreasonable as a Skeggi berserker.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Negative_02	A fool to attempt to bargain with fools.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Negative_03	I expected nothing more.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Neg_01	Do not overstay your welcome, the jungle can be a cruel mistress.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Neg_02	Leave now, before you become so many bones lying in the jungle.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Neg_03	I Penethesilea, have slain thoses twice your size.	false
+diplomacy_strings_string_Amazon_Dip_Acceptance_Positive_01	Priestesses blessings. We agree to this.	false
+diplomacy_strings_string_Amazon_Dip_Acceptance_Positive_03	By the Great Mother, we accept.	false
+diplomacy_strings_string_Amazon_Dip_Demand_Payments_Positive_01	The time has come for you to offer tribute.	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Positive_01	Consider this carefully. Your life hangs in the balance.	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Positive_02	We await your response.	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Positive_03	From the Goddess to your ears. Listen well.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Positive_01	This, we cannot accept.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Positive_02	The priestesses warn us away from this.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Positive_03	We have forseen, this does not bode well for either of us.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Pos_01	I Penethesilea, welcome you to our camp, but do not overstay that welcome.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Pos_02	It is rare for the Amazons to welcome outsiders, do not betray our trust.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Pos_03	Did you stumble here by choice or by luck I wonder?	false
+diplomacy_strings_string_Amazon_Dip_Acceptance_Neutral_01	This is agreeable, but barely.	false
+diplomacy_strings_string_Amazon_Dip_Acceptance_Neutral_02	You dance with vipers. Careful not to get bitten.	false
+diplomacy_strings_string_Amazon_Dip_Accept_State_Gift_01	This is acceptable tribute.	false
+diplomacy_strings_string_Amazon_Dip_Accept_State_Gift_02	Your offering will be presented before the Great Mother.	false
+diplomacy_strings_string_Amazon_Dip_Accept_State_Gift_03	It cannot compare to anything we have, but the gesture is welcome.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Accept_01	So… you can be reasoned with.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Accept_02	Wisdom is so rare to find in outsiders.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Accept_03	With arrows aimed at you, what choice did you really have?	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Cancel_Treaty_01	What whimsy lead you to breaking this?	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Cancel_Treaty_02	Shortsighted. Driven by impulse and not wisdom.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Cancel_Treaty_03	We have forseen that this will be the start of your downfall.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Reject_01	A fateful decision. Will you make it out of the jungle to regret it?	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Reject_02	Don't get lost on your way out, even the plants here are hungry.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_Reject_03	The mighty jungle will be your undoing.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_War_01	Jarl Sigursen thought he could best us, now he has no head.	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_War_02	By Kalith! Not one of you will leave the jungle alive!	false
+diplomacy_strings_string_Amazon_Dip_Acknowledge_War_03	Protect the temples! Kill the interlopers!	false
+diplomacy_strings_string_Amazon_Dip_Cancel_Treaty_01	We have forseen, this does not bode well for either of us to continue.	false
+diplomacy_strings_string_Amazon_Dip_Cancel_Treaty_02	The priestesses choose a different path.	false
+diplomacy_strings_string_Amazon_Dip_Cancel_Treaty_03	We do not need this anymore. Do not ask for our reasons.	false
+diplomacy_strings_string_Amazon_Dip_Demand_Join_War_01	Help us drive out the invaders! The invaders must die!	false
+diplomacy_strings_string_Amazon_Dip_Demand_Join_War_02	Together we shall bring death to our enemies!	false
+diplomacy_strings_string_Amazon_Dip_Demand_Join_War_03	Two predators can take down greater prey together.	false
+diplomacy_strings_string_Amazon_Dip_Demand_Payments_Neutral_01	Unknowingly, you have something of ours. Return it.	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Neutral_01	We come bearing an offer.	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Neutral_02	The priestesses have an offer. Do you accept?	false
+diplomacy_strings_string_Amazon_Dip_Generic_Offer_Neutral_03	Here are the terms. Do with them as you will.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Neutral_01	The Amazons have no want for your placations.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Neutral_02	No, that is final.	false
+diplomacy_strings_string_Amazon_Dip_Rejection_Neutral_03	Do not push this further. No.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Cooperation_01	You tred in dangerous places. Let us show you the way.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Cooperation_02	We heard you from far away. Stumbling and brutish. Amusing. Let us help.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Cooperation_03	Fool! You nearly disturbed a Spikethorn. We'll teach you how to survive.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Peace_01	The tide of prophecy takes us away from war.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Peace_02	The Great Mother, Kalith, seeks peace for her children.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Peace_03	The jungle sleeps. Our fury is satiated.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Join_War_01	Together we shall be an unstoppable tide of savage rage!	false
+diplomacy_strings_string_Amazon_Dip_Offer_Join_War_02	Defending your home is a noble cause. We wish to help you in this.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Join_War_03	These ones have trespassed against us as well. We will help settle the score.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Gift_01	These coins mean nothing. Take them and leave.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Gift_02	The blessing of Amex filled our coffers. Let us fill yours.	false
+diplomacy_strings_string_Amazon_Dip_Offer_Gift_03	Gold flows like the waters of the Amaxon - from our hands to yours.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Neu_01	More adventurers seeking to plunder our temples. Why should we not kill you where you stand?	false
+diplomacy_strings_string_Amazon_Dip_Greet_Neu_02	At long last you behold the mighty Amazons. Speak now, or we will be the last thing you ever see.	false
+diplomacy_strings_string_Amazon_Dip_Greet_Neu_03	Do not speak with your foreign silver tongue or we will cut it from your mouth.	false
+diplomacy_strings_string_Amazon_Dip_Reject_Peace_01	No! The crimes you have committed against us cannot be soothed by peace. Only blood and war!	false
+diplomacy_strings_string_Amazon_Dip_Reject_Peace_02	We shall drive all of you outsiders from our jungle homes! Never!	false
+diplomacy_strings_string_Amazon_Dip_Reject_Peace_03	Not until you shudder in fear at the mere mention of my name.	false
+diplomacy_strings_string_Amazon_Dip_Reject_Join_Confederation_01	HA! No.	false
+diplomacy_strings_string_Amazon_Dip_Reject_Join_Confederation_02	We have no need of your trappings. No.	false
+diplomacy_strings_string_Amazon_Dip_Reject_Join_Confederation_03	Join? With you? I think not.	false
+diplomacy_strings_string_Amazon_Dip_War_01	We shall visit a thousand painful deaths upon you!	false
+diplomacy_strings_string_Amazon_Dip_War_02	The earth of the jungle shall be your grave!	false
+diplomacy_strings_string_Amazon_Dip_War_03	The rising tide cannot be stopped! The fury of Kalith cannot be denied!	false

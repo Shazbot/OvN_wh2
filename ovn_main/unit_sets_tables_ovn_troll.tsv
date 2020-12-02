@@ -1,0 +1,18 @@
+unit_sets_tables	2
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+elo_troll_monster	false	-1	-1	
+elo_raw_might	true	7	9	
+elo_northern_scourge	true	7	9	
+elo_danger_below	true	7	9	
+elo_mountain_masters	true	7	9	
+elo_small_mean	true	7	9	
+elo_bane_forest	true	7	9	
+elo_troll_monster_local	false	-1	-1	
+sickness_host	false	-1	-1	
+elo_all_trolls	false	-1	-1	
+children_chaos	false	-1	-1	
+unnatural_resilience	false	-1	-1	
+menace_land	false	-1	-1	
+ice_snow	false	-1	-1	
+all_troll_fimir	false	-1	-1	
+river_trolls	false	-1	-1	

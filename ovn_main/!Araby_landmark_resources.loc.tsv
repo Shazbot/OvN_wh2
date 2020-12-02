@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+resources_onscreen_text_res_ivory	Ivory	true
+resources_description_res_ivory	Ivory from the mighty elephants.	true
+effects_description_landmark_effect_produce_res_ivory	Ivory resource production: %n sacks.	true

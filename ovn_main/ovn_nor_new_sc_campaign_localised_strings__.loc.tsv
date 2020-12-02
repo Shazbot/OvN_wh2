@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+campaign_localised_strings_string_cannot_occupy_wh_main_sc_nor_warp	[[col:red]]Your race cannot occupy settlements of this type.\\n\\nYou can only occupy settlements in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_cannot_colonise_wh_main_sc_nor_warp	[[col:red]]Your race cannot colonise ruins of this type.\\n\\nYou can only colonise ruins in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_cannot_occupy_wh_main_sc_nor_fimir	[[col:red]]Your race cannot occupy settlements of this type.\\n\\nYou can only occupy settlements in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_cannot_colonise_wh_main_sc_nor_fimir	[[col:red]]Your race cannot colonise ruins of this type.\\n\\nYou can only colonise ruins in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_cannot_occupy_wh_main_sc_nor_troll	[[col:red]]Your race cannot occupy settlements of this type.\\n\\nYou can only occupy settlements in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_cannot_colonise_wh_main_sc_nor_troll	[[col:red]]Your race cannot colonise ruins of this type.\\n\\nYou can only colonise ruins in Norsca and coastal settlements.[[/col]]	true

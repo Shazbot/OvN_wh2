@@ -1,0 +1,26 @@
+technologies_tables	5
+key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+albion_tech_war_1		1	tech_dlc03_bst_gods_4	0	0	0	0	false	false	"placeholder.tga"	777111001	false	false	true
+albion_tech_war_2		1	wh_main_chs_culling_of_the_weak	0	0	0	0	false	false	"placeholder.tga"	777111002	false	false	true
+albion_tech_war_3		1	tech_dlc07_brt_economy_other_fletchers	0	0	0	0	false	false	"placeholder.tga"	777111003	false	false	true
+albion_tech_war_4		1	wh_main_emp_warhorse_breeding	0	0	0	0	false	false	"placeholder.tga"	777111004	false	false	true
+albion_tech_war_5		1	tech_dlc08_nor_champions_of_war	0	0	0	0	false	false	"placeholder.tga"	777111005	false	false	true
+albion_tech_war_truth_1		1	tech_dlc08_nor_blood_fuelled_hunger	0	0	0	0	false	false	"placeholder.tga"	777111006	false	false	true
+albion_tech_war_truth_2		1	tech_dlc13_emp_wulfhart_1	0	0	0	0	false	false	"placeholder.tga"	777111007	false	false	true
+albion_tech_war_truth_3		1	wh_main_emp_improved_light_cavalry_armour	0	0	0	0	false	false	"placeholder.tga"	777111008	false	false	true
+albion_tech_war_truth_4		1	tech_dlc08_nor_ice_blooded_strength	0	0	0	0	false	false	"placeholder.tga"	777111009	false	false	true
+albion_tech_truth_1		1	tech_dlc03_bst_hate_2	0	0	0	0	false	false	"placeholder.tga"	777111010	false	false	true
+albion_tech_truth_2		1	tech_dlc13_emp_purge_4	0	0	0	0	false	false	"placeholder.tga"	777111011	false	false	true
+albion_tech_truth_3		1	tech_dlc03_bst_chaos_5	0	0	0	0	false	false	"placeholder.tga"	777111012	false	false	true
+albion_tech_truth_4		1	wh_dlc05_wood_elves_the_ancients	0	0	0	0	false	false	"placeholder.tga"	777111013	false	false	true
+albion_tech_truth_5		1	wh_dlc05_wood_elves_khaine	0	0	0	0	false	false	"placeholder.tga"	777111014	false	false	true
+albion_tech_truth_peace_1		1	tech_dlc07_brt_economy_trade_2	0	0	0	0	false	false	"placeholder.tga"	777111015	false	false	true
+albion_tech_truth_peace_2		1	tech_dlc08_nor_secrets_of_war_n_coin	0	0	0	0	false	false	"placeholder.tga"	777111016	false	false	true
+albion_tech_truth_peace_3		1	wh_dlc05_wood_elves_atharti	0	0	0	0	false	false	"placeholder.tga"	777111017	false	false	true
+albion_tech_truth_peace_4		1	wh_dlc05_wood_elves_hoeth	0	0	0	0	false	false	"placeholder.tga"	777111018	false	false	true
+albion_tech_peace_1		1	tech_dlc08_nor_secrets_of_grain_n_grape	0	0	0	0	false	false	"placeholder.tga"	777111019	false	false	true
+albion_tech_peace_2		1	tech_dlc07_brt_economy_other_carpenters	0	0	0	0	false	false	"placeholder.tga"	777111020	false	false	true
+albion_tech_peace_3		1	wh_main_vmp_blood_hunts	0	0	0	0	false	false	"placeholder.tga"	777111021	false	false	true
+albion_tech_peace_4		1	tech_dlc09_the_quickening	0	0	0	0	false	false	"placeholder.tga"	777111022	false	false	true
+albion_tech_peace_5		1	wh2_hef_tech_court_advisors	0	0	0	0	false	false	"placeholder.tga"	777111023	false	false	true
+albion_tech_ultimate		1	tech_dlc08_nor_secrets_of_the_ancients	0	0	0	0	false	false	"placeholder.tga"	777111024	false	false	true

@@ -1,0 +1,6 @@
+agent_subtype_subculture_overrides_tables	5
+associated_unit_override	subculture	subtype	agent	icon
+	wh_main_sc_emp_araby	arb_magician_desert	wizard	
+roy_arb_cha_nomad	wh_main_sc_emp_araby	roy_arb_nomad	spy	ui/campaign ui/agents/ovn_arb_spy.png
+roy_arb_cha_champion	wh_main_sc_emp_araby	roy_arb_champion	champion	ui/campaign ui/agents/wh_main_emp_champion.png
+	wh_main_sc_emp_araby	emp_warrior_priest	dignitary	

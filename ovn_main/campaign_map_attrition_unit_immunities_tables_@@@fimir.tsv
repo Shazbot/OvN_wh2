@@ -1,0 +1,12 @@
+campaign_map_attrition_unit_immunities_tables	0
+attrition	unit
+chaos_territory	ovn_finmor
+chaos_territory	ovn_finmor_belakor
+disease	ovn_finmor
+disease	ovn_finmor_belakor
+swamp	ovn_finmor
+swamp	ovn_finmor_belakor
+non_vampire_territory	ovn_finmor
+non_vampire_territory	ovn_finmor_belakor
+nurgle_plague	ovn_finmor
+nurgle_plague	ovn_finmor_belakor

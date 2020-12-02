@@ -1,0 +1,15 @@
+unit_sets_tables	2
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+hlf_thieves	false	-1	-1	
+hlf_melee_units	false	-1	-1	
+hlf_ranged_units	false	-1	-1	
+hlf_cav_units	false	-1	-1	
+hlf_warden_units	false	-1	-1	
+hlf_ranger_units	false	-1	-1	
+ovn_soup_art	false	-1	-1	
+ovn_halfling_welf	false	-1	-1	
+ovn_halfling_hlf_r7	true	7	9	
+ovn_halfling_ogre_r7	true	7	9	
+ovn_halfling_welf_r7	true	7	9	
+ovn_soup_art_r7	true	7	9	
+elo_ogres	false	-1	-1	

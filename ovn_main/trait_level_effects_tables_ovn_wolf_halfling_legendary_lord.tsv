@@ -1,0 +1,4 @@
+trait_level_effects_tables	0
+trait_level	effect	effect_scope	value
+hlf_glibfoot_defeated_trait	wh_dlc03_effect_tech_movement_speed_all	general_to_force_own	10.0
+hlf_glibfoot_defeated_trait	wh_main_effect_economy_gdp_mod_all	character_to_region_own_provincewide	10.0

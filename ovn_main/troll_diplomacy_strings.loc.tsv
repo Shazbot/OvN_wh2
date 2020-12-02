@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Troll_Dip_Acceptance_Negative_01	You’re lucky we don’t eat your face off	false
+diplomacy_strings_string_Troll_Dip_Acceptance_Negative_02	If it gets us back to the Dark Reservoir so be it	false
+diplomacy_strings_string_Troll_Dip_Acceptance_Negative_03	We'll not eat you… just yet.	false
+diplomacy_strings_string_Troll_Dip_Demand_Payments_Negative_01	Give us treasure or we eat you	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Negative_01	You would be smart to accept this.	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Negative_02	If you can see reason for a moment?	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Negative_03	MMURRRRRRRRRRRRRRRRRRRRGH! 	false
+diplomacy_strings_string_Troll_Dip_Rejection_Negative_01	And they say trolls are stupid.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Negative_02	My patience wears thin… food.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Negative_03	You’re as thick as Gorgal if you think we’ll help you	false
+diplomacy_strings_string_Troll_Dip_Greet_Neg_01	Are you stupid? coming here!	false
+diplomacy_strings_string_Troll_Dip_Greet_Neg_02	Must we? You're looking tasty…	false
+diplomacy_strings_string_Troll_Dip_Greet_Neg_03	You've got one minute. Then it's meal time.	false
+diplomacy_strings_string_Troll_Dip_Acceptance_Positive_01	My guts got a good feeling about this	false
+diplomacy_strings_string_Troll_Dip_Acceptance_Positive_03	This is good. Tribe Ugma accepts.	false
+diplomacy_strings_string_Troll_Dip_Demand_Payments_Positive_01	I am Chief of all the Trolls, not King and you know which is more important, right?	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Positive_01	I’m gonna make you an offer you can’t refuse.	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Positive_02	This is better than a fish gut rub down.	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Positive_03	Look I like you so here’s what I’m gonna do.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Positive_01	You smell like dung, lovely.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Positive_02	We’re eating now, maybe another time.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Positive_03	Nah not interested, maybe if you throw in some booty and fish guts?	false
+diplomacy_strings_string_Troll_Dip_Greet_Pos_01	We like you	false
+diplomacy_strings_string_Troll_Dip_Greet_Pos_02	Want us to smash someone’s head in?	false
+diplomacy_strings_string_Troll_Dip_Greet_Pos_03	Chief Ugma is happy to see you	false
+diplomacy_strings_string_Troll_Dip_Acceptance_Neutral_01	My guts still iffy on this one	false
+diplomacy_strings_string_Troll_Dip_Acceptance_Neutral_02	Hmm…. Fine.	false
+diplomacy_strings_string_Troll_Dip_Accept_State_Gift_01	We’ll add it to the rest of the sparkly stuff	false
+diplomacy_strings_string_Troll_Dip_Accept_State_Gift_02	This will make a nice throne for my arse.	false
+diplomacy_strings_string_Troll_Dip_Accept_State_Gift_03	We take stuff. No give back.	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Accept_01	You’ve just saved yourself from a world of pain.	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Accept_02	You’re not as thick as you look!	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Accept_03	Excellent! Care for some leftovers?	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Cancel_Treaty_01	Fool me once, shame on you. Fool me twice, watch it! I'm huge!	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Cancel_Treaty_02	You think to dupe me?	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Cancel_Treaty_03	Those who trick me rarely do so twice.	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Reject_01	Deny me, are you blind to my power?	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Reject_02	I think I need to smash some sense into your thick skull.	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_Reject_03	I had expected more from you.	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_War_01	It’s feeding time!	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_War_02	We will eat you, then your wives and save your plump children for desert!	false
+diplomacy_strings_string_Troll_Dip_Acknowledge_War_03	I'll crush you personally!	false
+diplomacy_strings_string_Troll_Dip_Cancel_Treaty_01	I can no longer agree to this.	false
+diplomacy_strings_string_Troll_Dip_Cancel_Treaty_02	Fake deal, sad	false
+diplomacy_strings_string_Troll_Dip_Cancel_Treaty_03	Huh, we never had a deal	false
+diplomacy_strings_string_Troll_Dip_Demand_Join_War_01	These fellas need a good thumping.	false
+diplomacy_strings_string_Troll_Dip_Demand_Join_War_02	We'll smash them together!	false
+diplomacy_strings_string_Troll_Dip_Demand_Join_War_03	Join in the simpler things!	false
+diplomacy_strings_string_Troll_Dip_Demand_Payments_Neutral_01	Give stuff or we eat you.	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Neutral_01	Accept this and we’ll throw in all the fish guts you could ever want!	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Neutral_02	Don’t make me angry, you wouldn’t like me when I’m angry!	false
+diplomacy_strings_string_Troll_Dip_Generic_Offer_Neutral_03	You could be useful to me…	false
+diplomacy_strings_string_Troll_Dip_Rejection_Neutral_01	Even the dullest Troll can see this is a bad offer.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Neutral_02	And they call us ugly.	false
+diplomacy_strings_string_Troll_Dip_Rejection_Neutral_03	That stench isn’t us, it’s this rotten deal.	false
+diplomacy_strings_string_Troll_Dip_Offer_Cooperation_01	Together we are stronger.	false
+diplomacy_strings_string_Troll_Dip_Offer_Cooperation_02	More friends means more food for all!	false
+diplomacy_strings_string_Troll_Dip_Offer_Cooperation_03	For glory, spoils and food!	false
+diplomacy_strings_string_Troll_Dip_Offer_Peace_01	The tribe is full. Time to rest now.	false
+diplomacy_strings_string_Troll_Dip_Offer_Peace_02	I don’t remember us being at war, call it quits?	false
+diplomacy_strings_string_Troll_Dip_Offer_Peace_03	You call this war, this isn’t war, this is just a bit of rough housing	false
+diplomacy_strings_string_Troll_Dip_Offer_Join_War_01	You need a hand? A club perhaps?	false
+diplomacy_strings_string_Troll_Dip_Offer_Join_War_02	That looks fun. I want in!	false
+diplomacy_strings_string_Troll_Dip_Offer_Join_War_03	Don't hog all the food for yourself!	false
+diplomacy_strings_string_Troll_Dip_Offer_Gift_01	This is but a fraction of what we hold at the Dark Reservoir	false
+diplomacy_strings_string_Troll_Dip_Offer_Gift_02	My treasure pile is overflowing. Have some.	false
+diplomacy_strings_string_Troll_Dip_Offer_Gift_03	We had some leftovers. Would you like them?	false
+diplomacy_strings_string_Troll_Dip_Greet_Neu_01	I am Chief Ugma. I lead these trolls.	false
+diplomacy_strings_string_Troll_Dip_Greet_Neu_02	Welcome. Ha HA! I never get tired of that surprised look.	false
+diplomacy_strings_string_Troll_Dip_Greet_Neu_03	We could eat you! but we won’t because you’re alright	false
+diplomacy_strings_string_Troll_Dip_Reject_Peace_01	My guts still empty!	false
+diplomacy_strings_string_Troll_Dip_Reject_Peace_02	You should have made war with that fairy Throgg!	false
+diplomacy_strings_string_Troll_Dip_Reject_Peace_03	I'm strong, you're weak. Figure it out.	false
+diplomacy_strings_string_Troll_Dip_Reject_Join_Confederation_01	And they call us stupid	false
+diplomacy_strings_string_Troll_Dip_Reject_Join_Confederation_02	I lead these trolls. Not you!	false
+diplomacy_strings_string_Troll_Dip_Reject_Join_Confederation_03	No, I think not.	false
+diplomacy_strings_string_Troll_Dip_War_01	I’m going to tear you limb from limb!	false
+diplomacy_strings_string_Troll_Dip_War_02	Time to smash and eat!	false
+diplomacy_strings_string_Troll_Dip_War_03	It's time to crush!	false

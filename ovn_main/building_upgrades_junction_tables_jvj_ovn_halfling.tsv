@@ -1,0 +1,6 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_half_barracks_1	ovn_half_barracks_2
+ovn_half_barracks_2	ovn_half_barracks_3
+ovn_half_tavern_1	ovn_half_tavern_2
+ovn_half_tavern_2	ovn_half_tavern_3

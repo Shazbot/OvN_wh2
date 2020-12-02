@@ -1,0 +1,24 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ovn_hlf_glibfoot	emp_characters
+false				halfling_thief	hlf_thieves
+false				halfling_inf	hlf_melee_units
+false				halfling_warfoot	hlf_melee_units
+false				halfling_spear	hlf_melee_units
+false				halfling_cook	hlf_melee_units
+false				halfling_thief	hlf_melee_units
+false				halfling_cook_ror	hlf_melee_units
+false				halfling_militia	hlf_melee_units
+false				halfling_milittia_great	hlf_melee_units
+false				halfling_warden_great	hlf_melee_units
+false				hlf_roast_pig	hlf_melee_units
+false				halfling_archer	hlf_ranged_units
+false				halfling_milittia_arch	hlf_ranged_units
+false				halfling_cock	hlf_ranged_units
+false				half_pig	hlf_cav_units
+false				ovn_mtl_cav_swine_riders_0	hlf_cav_units
+false				ovn_mtl_cav_poultry_riders_0	hlf_cav_units
+false				halfling_inf	hlf_warden_units
+false				halfling_warden_great	hlf_warden_units
+false				halfling_archer	hlf_ranger_units
+false				halfling_cock	hlf_ranger_units

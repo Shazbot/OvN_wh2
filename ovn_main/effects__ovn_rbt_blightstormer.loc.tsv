@@ -1,0 +1,7 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_ovn_effect_agent_enable_recruitment_rbt_blightstormer	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Blightstormers	true
+effects_description_ovn_effect_agent_cap_increase_rbt_blightstormer	Hero capacity: %+n for Blightstormers	true
+effects_description_ovn_effect_agent_recruitment_xp_rbt_blightstormer	Hero recruit rank: %+n for Blightstormers	true
+effects_description_ovn_effect_agent_action_success_chance_rbt_blightstormer	Hero action success chance: %+n% for Blightstormers	true
+effects_description_ovn_effect_agent_action_cost_mod_rbt_blightstormer	Hero action cost: %+n% for Blightstormers	true

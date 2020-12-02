@@ -1,0 +1,4 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_bullet_point_enums_tooltip_missile_weakness	This unit is weak to ranged missile fire.	true
+ui_unit_bullet_point_enums_onscreen_name_missile_weakness	Missile Weakness	true

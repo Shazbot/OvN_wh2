@@ -1,0 +1,4 @@
+special_ability_to_auto_deactivate_flags_tables	0
+deactivate_flag	special_ability
+other_abilities_none_on_wind_up	lore_passive_ice_cold
+other_abilities_none_on_wind_up	lore_passive_ice_winter

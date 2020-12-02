@@ -1,0 +1,11 @@
+ui_unit_bullet_point_unit_overrides_tables	0
+bullet_point	unit_key
+armoured	Dread_King
+spellcaster	Dread_King
+armoured	elo_hand_of_nagash
+spellcaster	elo_hand_of_nagash
+armour_piercing	elo_hand_of_nagash
+armoured	elo_hand_of_nagash_chariot
+spellcaster	elo_hand_of_nagash_chariot
+armour_piercing	elo_hand_of_nagash_chariot
+anti_infantry	elo_hand_of_nagash_chariot

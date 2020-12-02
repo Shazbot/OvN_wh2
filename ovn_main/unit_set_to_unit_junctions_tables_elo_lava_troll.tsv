@@ -1,0 +1,6 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				elo_lava_trolls	elo_mountain_masters
+false				elo_lava_trolls	unnatural_resilience
+false				elo_lava_trolls	all_troll_fimir
+false				elo_lava_trolls	elo_troll_monster

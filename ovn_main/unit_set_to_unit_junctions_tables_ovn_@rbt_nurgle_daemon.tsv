@@ -1,0 +1,7 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				rbt_nurgle_daemon	chs_all
+false				rbt_nurgle_daemon	rbt_nurgle_daemon
+false				rbt_nurgle_daemon	mp_set_rbt_nurgle_daemon
+false				rbt_nurgle_daemon	wh2_dlc11_chs_chosen_spawn_chaos_warriors
+false				rbt_nurgle_daemon	wh2_dlc11_chs_vets_trolls_spawn_dragon_ogre_shaggoth_giant

@@ -1,0 +1,13 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_enable_ghost_on_death	Ability: "Lingering Essence"	true
+effects_description_enable_larenscheld_bombardment	Ability: "Hail of Skulls"	true
+effects_description_enable_ghost_on_death_upgraded	Ability: "Mind over Body"	true
+effects_description_disable_ghost_on_death	Replaces: "Lingering Essence"	true
+effects_description_elo_ghost_vampire_novice	Abilities: "Invocation of Nehek & Gaze of Nagash" for Larenscheld's ghost form	true
+effects_description_elo_ghost_vampire_advanced	Abilities: "Vanhel's Dance Macabre & Raise Dead" for Larenscheld's ghost form	true
+effects_description_elo_ghost_vampire_expert	Abilities: "Curse of Years and Wind of Death" for Larenscheld's ghost form	true
+effects_description_elo_ghost_vampire_master	Enables overcast for all spells for Larenscheld's ghost form	true
+effects_description_elo_ghost_master_of_dead	Ability: "Master of the Dead" for Larenscheld's ghost form	true
+effects_description_larenscheld_change_at_will	Ability: "Change at Will"	true
+effects_description_luthor_the_hunchback_dummy	Grants the unique follower "Luthor the Hunchback"	true

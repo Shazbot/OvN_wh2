@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	lzd_amazon	lzd_amazon	lzd_amazon	lzd_amazon
+	jag_amazon	jag_amazon	jag_amazon	jag_amazon

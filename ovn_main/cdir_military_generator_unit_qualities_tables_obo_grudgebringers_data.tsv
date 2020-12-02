@@ -1,0 +1,4 @@
+cdir_military_generator_unit_qualities_tables	1
+group_key	quality	unit_key
+Default_land_magic	10	morgan_bernhardt
+Default_land_magic	10	vladimir_stormbringer

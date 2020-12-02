@@ -1,0 +1,14 @@
+units_custom_battle_mounts_tables	1
+base_unit	icon_name	mounted_unit
+albion_truthsayer_beast	ui/campaign ui/mounts/mount_warhorse.png	albion_truthsayer_beast_horse
+albion_truthsayer_life	ui/campaign ui/mounts/mount_warhorse.png	albion_truthsayer_life_horse
+albion_truthsayer_light	ui/campaign ui/mounts/mount_warhorse.png	albion_truthsayer_light_horse
+albion_truthsayer_truth	ui/campaign ui/mounts/mount_warhorse.png	albion_truthsayer_truth_horse
+albion_warleader	ui/campaign ui/mounts/mount_warhorse.png	albion_warleader_horse
+albion_warleader	ui/campaign ui/mounts/mount_chaos_chariot.png	albion_warleader_chariot
+albion_chief	ui/campaign ui/mounts/mount_warhorse.png	albion_chief_horse
+albion_chief	ui/campaign ui/mounts/mount_chaos_chariot.png	albion_chief_chariot
+albion_morrigan	ui/campaign ui/mounts/mount_great_eagle.png	albion_morrigan_bird
+albion_wyrd_druid	ui/campaign ui/mounts/mount_warhorse.png	albion_wyrd_druid_horse
+bl_elo_dural_durak	ui/campaign ui/mounts/mount_warhorse.png	bl_elo_dural_durak_horse
+bl_elo_dural_durak	ui/campaign ui/mounts/mount_chaos_chariot.png	bl_elo_dural_durak_chariot

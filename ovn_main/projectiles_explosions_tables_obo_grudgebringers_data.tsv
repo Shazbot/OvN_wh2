@@ -1,0 +1,9 @@
+projectiles_explosions_tables	18
+key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	shrapnel	explosion_particle_effect	fuse_distance_from_target	explosion_particle_effect_on_ground	explosion_audio	contact_phase_effect	ignition_amount	is_magical	detonation_damage_ap	camera_shake	detonation_force	fuse_fixed_time	affects_allies
+grudge_wh_main_dwf_blasting_charge_explosion	percussive	shockwave	10.0	0.0	13.0	55.0		wh_main_generic_explosion_mine	0.0		wh_blasting_charge		25.0	false	10.0	wh_main_unit_explosion_light	200.0	1.0	true
+grudge_wh_main_emp_mortar_explosion	percussive	shockwave	10.0	0.0	11.0	200.0		wh_main_generic_spherical_explosion_large	0.0		wh_mortar		0.0	false	30.0	wh_main_unit_explosion_medium	260.0	-1.0	true
+spell_ice_magic_ice_shards	percussive	shockwave	3.0	1.0	5.0	30.0		wh2_main_high_soul_quench_explosion	0.0		wh2_main_spell_high_magic_soul_quench		0.0	true	0.0	wh_main_unit_explosion_light	70.0	-1.0	true
+spell_ice_magic_ice_shards_upgraded	percussive	shockwave	5.0	1.0	5.0	50.0		wh2_main_high_soul_quench_explosion	0.0		wh2_main_spell_high_magic_soul_quench		0.0	true	0.0	wh_main_unit_explosion_light	90.0	-1.0	true
+spell_ice_hailstorm	percussive	shockwave	13.0	1.0	18.0	50.0			0.0		wh_comet_of_cas		0.0	true	48.0	wh_main_unit_explosion_heavy	500.0	-1.0	true
+grudge_spell_fire_fireball	percussive	shockwave	2.0	1.0	11.0	4.0		wh_main_generic_spherical_explosion_large	0.0		wh_main_spell_fire_fireball		1.0	true	0.0	wh_main_unit_explosion_light	450.0	-1.0	true
+grudge_abilities_lord_of_the_storm	percussive	shockwave	5.0	0.0	11.0	0.0		wh_main_abilities_lord_of_the_storm_explosion	0.0		wh_lord_of_the_storm		0.0	false	8.0	wh_main_unit_explosion_medium	450.0	-1.0	true

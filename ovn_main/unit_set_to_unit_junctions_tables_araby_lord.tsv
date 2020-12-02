@@ -1,0 +1,4 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ovn_araby_ll	emp_characters
+false				ovn_araby_ll_2	emp_characters

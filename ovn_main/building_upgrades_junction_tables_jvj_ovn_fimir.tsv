@@ -1,0 +1,4 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_fimir_income_1	ovn_fimir_income_2
+ovn_fimir_income_2	ovn_fimir_income_3

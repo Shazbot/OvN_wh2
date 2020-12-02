@@ -1,0 +1,14 @@
+Loc PackedFile	1
+key	text	tooltip
+building_chains_chain_tooltip_ovn_Animal_Rearing	Animal Rearing	false
+building_culture_variants_name_ovn_Animal_Rearing_1wh2_main_emp_the_moot	Pig Pen	false
+building_culture_variants_name_ovn_Animal_Rearing_2wh2_main_emp_the_moot	Barnyard	false
+building_culture_variants_name_ovn_half_industry_2wh2_main_emp_the_moot	Tobacco Farm	false
+building_culture_variants_name_ovn_half_industry_3wh2_main_emp_the_moot	Tobacco Plantation	false
+building_culture_variants_name_ovn_half_industry_1wh2_main_emp_the_moot	Tobacco Plot	false
+building_short_description_texts_short_description_ovn_Animal_Rearing_1	Pigs under halfling care grow so fat and hearty that in dire times they can be ridden into battle. Some muse the pigs fight with such unexpected fury as only to avoid the plate.	false
+building_short_description_texts_short_description_ovn_Animal_Rearing_2	War horses are far too unwieldy to a halfling and ponies too gentle. As such specially trained cockerels are reared for the halfings to charge into war on.	false
+building_chains_chain_tooltip_ovn_half_dragon	Dragons	false
+building_culture_variants_name_ovn_half_dragonwh2_main_emp_the_moot	Dragon Egg Smuggler	false
+building_short_description_texts_short_description_ovn_half_dragon	Tricksy little halfings snatch the eggs and are long gone before the mother even realises. As they tumble down the mountains with their prize, her shrieks and wails can be heard across the mountain tops. This trade has it detractors who see it as a cruel practice.	false
+building_chains_chain_tooltip_ovn_half_industry	Tobacco	false

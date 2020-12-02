@@ -1,0 +1,6 @@
+frontend_factions_tables	3
+faction	video	sort_order
+wh2_dlc09_tmb_the_sentinels	front_end_faction_select/tmb_faction	0
+wh_dlc08_nor_goromadny_tribe	Warhammer/faction_select_nor_norsca	0
+wh_dlc08_nor_naglfarlings	Warhammer/faction_select_chs	0
+wh_main_vmp_rival_sylvanian_vamps	Warhammer/faction_select_vmp	0

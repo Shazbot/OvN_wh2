@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_onscreen_name_hlf_glibfoot_adv_continues	And the Adventure Continues!	true
+unit_abilities_tooltip_text_hlf_glibfoot_adv_continues	“A good story, you don't really write. It was always there. You just uncover it.”	true
+unit_abilities_onscreen_name_hlf_glibfoot_for_the_moot	For the Moot!	false
+unit_abilities_tooltip_text_hlf_glibfoot_for_the_moot	Through his perseverance and determination, Glibfoot's tall tales have now become a reality, and as such he now inspires the Halflings following him to deeds of legend.	false
+unit_abilities_onscreen_name_hlf_glibfoot_hyshia_charged_shot	Hyshia	false
+unit_abilities_tooltip_text_hlf_glibfoot_hyshia_charged_shot	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	false
+unit_abilities_onscreen_name_hlf_glibfoot_willowblade_ability	Cipher Blade	false
+unit_abilities_tooltip_text_hlf_glibfoot_willowblade_ability	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	false
+unit_abilities_onscreen_name_hlf_glibfoot_thief_tactics	Thief Tactics	false
+unit_abilities_tooltip_text_hlf_glibfoot_thief_tactics	"It's TREASURE HUNTER, not thief!"	false

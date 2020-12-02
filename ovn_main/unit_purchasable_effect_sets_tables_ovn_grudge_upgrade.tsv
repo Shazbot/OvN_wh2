@@ -1,0 +1,24 @@
+unit_purchasable_effect_sets_tables	1
+unit	purchasable_effect	is_exclusive
+grudgebringer_cannon	ovn_grudge_armour	true
+grudgebringer_cannon	ovn_grudge_can	true
+helmgart_bowmen	ovn_grudge_armour	true
+dargrimm_firebeard_dwarf_warriors	ovn_grudge_armour	true
+urblab_rotgut_mercenary_ogres	ovn_grudge_armour	true
+galed_elf_archers	ovn_grudge_armour	true
+black_avangers	ovn_grudge_armour	true
+carlsson_guard	ovn_grudge_armour	true
+vannheim_75th	ovn_grudge_armour	true
+grudgebringer_infantry	ovn_grudge_armour	true
+grudgebringer_infantry	ovn_grudge_inf	true
+grudgebringer_crossbow	ovn_grudge_armour	true
+grudgebringer_crossbow	ovn_grudge_cross	true
+keelers_longbows	ovn_grudge_armour	true
+azguz_bloodfist_dwarf_warriors	ovn_grudge_armour	true
+treeman_knarlroot	ovn_grudge_armour	true
+elrod_wood_elf_glade_guards	ovn_grudge_armour	true
+carlsson_cavalry	ovn_grudge_armour	true
+countess_guard	ovn_grudge_armour	true
+treeman_gnarl_fist	ovn_grudge_armour	true
+ragnar_wolves	ovn_grudge_armour	true
+ceridan	ovn_grudge_armour	true

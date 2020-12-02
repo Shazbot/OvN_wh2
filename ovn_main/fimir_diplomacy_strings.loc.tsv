@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Fimir_Dip_Acceptance_Negative_01	For our survival, yes.	false
+diplomacy_strings_string_Fimir_Dip_Acceptance_Negative_02	Though I have misgivings, the Meargh deems it so.	false
+diplomacy_strings_string_Fimir_Dip_Acceptance_Negative_03	They will think me a Shearl. We agree.	false
+diplomacy_strings_string_Fimir_Dip_Demand_Payments_Negative_01	We ask for this. If no, we will take what we need.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Negative_01	With lowered tails, we offer this.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Negative_02	You are fit for sacrifice, nothing more, but here is something.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Negative_03	Daemons are summoned. Consider this carefully…	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Negative_01	We will come for your women-folk!	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Negative_02	The Meargh bids us no. 	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Negative_03	You talk too much. Talk, talk, talk! We rot while you chatter!	false
+diplomacy_strings_string_Fimir_Dip_Greet_Neg_01	The mists choke your vision and dulls your senses. Do you truly feel safe?	false
+diplomacy_strings_string_Fimir_Dip_Greet_Neg_02	You stumble into our realm. Lost and confused.	false
+diplomacy_strings_string_Fimir_Dip_Greet_Neg_03	Begone from here! These swamps are not for your kind.	false
+diplomacy_strings_string_Fimir_Dip_Acceptance_Positive_01	The Meargh agrees to these terms.	false
+diplomacy_strings_string_Fimir_Dip_Acceptance_Positive_03	To survive, to endure, yes.	false
+diplomacy_strings_string_Fimir_Dip_Demand_Payments_Positive_01	Slaves and sacrifices are needed. Fimúl's eye demands it.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Positive_01	We offer this in Fimúl's name.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Positive_02	The Fimir come bearing an offer. Will you accept?	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Positive_03	For safety and survival. Will you accept, yesssss?	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Positive_01	Sadly no. The Meargh says no.	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Positive_02	We cannot agree to this, tribe friend.	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Positive_03	Fimúlneid does not wish this.	false
+diplomacy_strings_string_Fimir_Dip_Acceptance_Neutral_01	This is what I do. I plant stories in ground, watch them grow into truth.	false
+diplomacy_strings_string_Fimir_Dip_Acceptance_Neutral_02	Brave to deal with Bog Daemons.	false
+diplomacy_strings_string_Fimir_Dip_Accept_State_Gift_01	We will make fine Belly-Plate from this.	false
+diplomacy_strings_string_Fimir_Dip_Accept_State_Gift_02	We accept in Fimúlneid's name.	false
+diplomacy_strings_string_Fimir_Dip_Accept_State_Gift_03	The tribe always has need of sacrifices.	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Accept_01	We will chant your name around the fire!	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Accept_02	The tribe will remember this great act!	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Accept_03	You have the Meargh’s appreciation	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Cancel_Treaty_01	And thus you abandon us, just as the four did.	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Cancel_Treaty_02	We continue alone, as always.	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Cancel_Treaty_03	Betrayal! The tribe won't forget this.	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Reject_01	Fimúlneid curse you!	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Reject_02	Pathetic, we will survive long after you rot in the ground.	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_Reject_03	This matters little. We have long endured alone.	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_War_01	We will destroy you, Fimúlneid wills it!	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_War_02	Rally the Fimm! We must fight to endure!	false
+diplomacy_strings_string_Fimir_Dip_Acknowledge_War_03	Summon the Dirach. War calls!	false
+diplomacy_strings_string_Fimir_Dip_Cancel_Treaty_01	This no longer benefits the tribe.	false
+diplomacy_strings_string_Fimir_Dip_Cancel_Treaty_02	The Meargh deems this ended.	false
+diplomacy_strings_string_Fimir_Dip_Cancel_Treaty_03	This is lost to the mists.	false
+diplomacy_strings_string_Fimir_Dip_Demand_Join_War_01	Our tribe is in danger. Aid us!	false
+diplomacy_strings_string_Fimir_Dip_Demand_Join_War_02	Though we wish to be left alone, we need help.	false
+diplomacy_strings_string_Fimir_Dip_Demand_Join_War_03	The tribe marches for our survival. Will you join?	false
+diplomacy_strings_string_Fimir_Dip_Demand_Payments_Neutral_01	Gold! Gold is power! Power to punish other Fimir! Power to rule!	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Neutral_01	The Meargh asks the tribe to offer you this.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Neutral_02	We offer this in Fimúl's name.	false
+diplomacy_strings_string_Fimir_Dip_Generic_Offer_Neutral_03	The mists extend their offer. Do you accept?	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Neutral_01	MmmMMMMMMmmm!!	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Neutral_02	Forget us. Leave us be.	false
+diplomacy_strings_string_Fimir_Dip_Rejection_Neutral_03	You have nothing of use to us. Begone.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Cooperation_01	Together we are stronger, no?	false
+diplomacy_strings_string_Fimir_Dip_Offer_Cooperation_02	We desire sacrifices and more. An agreement?	false
+diplomacy_strings_string_Fimir_Dip_Offer_Cooperation_03	For our survival, cooperation?	false
+diplomacy_strings_string_Fimir_Dip_Offer_Peace_01	Please, come to the castle. Please. Show them you want peace. Show them you will not harm us. Please, please, please…	false
+diplomacy_strings_string_Fimir_Dip_Offer_Peace_02	A wise shepherd does not cull the entire herd, only what it needs to survive.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Peace_03	We dwindle. The Meargh calls for mercy.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Join_War_01	Fimúlneid rises. Together we shall endure.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Join_War_02	The eye commands we help you.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Join_War_03	Together we will make ruin of our foes and cover their lands in mist.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Gift_01	The tribe offers gifts. Do you accept?	false
+diplomacy_strings_string_Fimir_Dip_Offer_Gift_02	The swamps have many treasures known to us. Forgotten things.	false
+diplomacy_strings_string_Fimir_Dip_Offer_Gift_03	The Meargh extends an offering.	false
+diplomacy_strings_string_Fimir_Dip_Greet_Neu_01	You call us Bog Daemons, we are Fimir. Now talk? Talk.	false
+diplomacy_strings_string_Fimir_Dip_Greet_Neu_02	You have found us in the mists. Now what?	false
+diplomacy_strings_string_Fimir_Dip_Greet_Neu_03	We have existed for for many ages. We mean to keep it that way.	false
+diplomacy_strings_string_Fimir_Dip_Reject_Peace_01	No peace. The Dirach call for your destruction!	false
+diplomacy_strings_string_Fimir_Dip_Reject_Peace_02	Ware the mists, they call for your death.	false
+diplomacy_strings_string_Fimir_Dip_Reject_Peace_03	The Fimm desire battle. No!	false
+diplomacy_strings_string_Fimir_Dip_Reject_Join_Confederation_01	No. We must continue alone.	false
+diplomacy_strings_string_Fimir_Dip_Reject_Join_Confederation_02	The Meargh says no. That is all.	false
+diplomacy_strings_string_Fimir_Dip_Reject_Join_Confederation_03	We will survive alone. As we have for millenia.	false
+diplomacy_strings_string_Fimir_Dip_War_01	The eye commands it.	false
+diplomacy_strings_string_Fimir_Dip_War_02	We'll take sacrifices, slaves and more!	false
+diplomacy_strings_string_Fimir_Dip_War_03	The swamps shall swallow your meagre lands!	false
+diplomacy_strings_string_Fimir_Dip_Greet_Pos_01	I speak for the Meargh. Talk	false
+diplomacy_strings_string_Fimir_Dip_Greet_Pos_02	We welcome you in the name of the fiery eye.	false
+diplomacy_strings_string_Fimir_Dip_Greet_Pos_03	From the mists you emerge. Speak.	false

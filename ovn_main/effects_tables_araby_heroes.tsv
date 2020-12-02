@@ -1,0 +1,17 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+roy_effect_agent_enable_recruitment_arb_champion	captain.png	60	captain.png	campaign	true
+roy_effect_agent_cap_increase_arb_champion	captain.png	60	captain.png	campaign	true
+roy_effect_agent_recruitment_xp_arb_champion	experience.png	101	experience.png	campaign	true
+roy_effect_agent_enable_recruitment_arb_nomad	assassin.png	60	assassin.png	campaign	true
+roy_effect_agent_cap_increase_arb_nomad	assassin.png	60	assassin.png	campaign	true
+roy_effect_agent_recruitment_xp_arb_nomad	experience.png	101	experience.png	campaign	true
+roy_effect_enable_arb_strike_from_the_shadows	general_ability.png	101	general_ability.png	battle	true
+roy_effect_enable_arb_doppelgang	general_ability.png	101	general_ability.png	battle	true
+ovn_araby_tech_slaves_units_ws	weapon_damage.png	108	weapon_damage.png	battle	true
+ovn_araby_tech_slaves_units_morale	morale.png	61	morale.png	battle	true
+ovn_araby_tech_elite_guard_recruit_rank	experience.png	102	experience.png	campaign	true
+ovn_araby_tech_camel_charge_bonus	charge.png	106	charge.png	battle	true
+roy_effect_agent_action_success_chance_arb_nomad	assassin.png	101	assassin.png	campaign	true
+roy_effect_agent_action_cost_mod_arb_nomad	treasury.png	101	treasury.png	campaign	false
+roy_effect_agent_action_success_chance_arb_champion	captain.png	101	captain.png	campaign	true

@@ -1,0 +1,4 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+ovn_araby_ll_mount	mount.png	50	mount.png	both	true
+Mount_Elephant	mount.png	50	mount.png	both	true

@@ -1,0 +1,160 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_elo_warrior_culture	Warrior Culture	true
+character_skills_localised_description_elo_warrior_culture	Every able member of the tribes of Albion is trained in the use of at least one weapon to be able to fend of the daily dangers of the blighted lands.	true
+character_skills_localised_name_elo_guardians_land	Warleader's Guardians	true
+character_skills_localised_description_elo_guardians_land	Only the best and most accomplished warriors may join the ranks of the Hearthguard and become the personal guards of Chieftains and Warleaders.	true
+character_skills_localised_name_elo_monster_support	Monsters of the Mysty Isle	true
+character_skills_localised_description_elo_monster_support	Many deadly abominations lure in the mists which shroud Albion, ready to defend it from any intruders.	true
+character_skills_localised_name_elo_noble_saveages	Savage Warriors	true
+character_skills_localised_description_elo_noble_saveages	Primitive they may be, but their unrivaled wildness and savage might easily makes up for the lack of refinement.	true
+character_skills_localised_name_elo_ranged_specialists	Death from Afar	true
+character_skills_localised_description_elo_ranged_specialists	The hunt is part of the daily life of most inhabitants of Albion and the hunters joining the armies have steady arms and good eyes, sharpened by years of experience.	true
+character_skills_localised_name_elo_fast_raiders	Fast Raiders	true
+character_skills_localised_description_elo_fast_raiders	Hit before the enemy can defend themselves, be gone before they can hit back.	true
+character_skills_localised_name_elo_fast_reflexes	Trained Reflexes	true
+character_skills_localised_description_elo_fast_reflexes	Experienced warriors of Albion sometimes dodge missiles with seemingly unnatural reflexes gained from the experience of countless skirmishes.	true
+character_skills_localised_name_elo_protective_charms	Protective Charmes	true
+character_skills_localised_description_elo_protective_charms	The primitive, often savage looking talismans still seem to have some protective effects.	true
+character_skills_localised_name_elo_albion_warcry	Warcry	true
+character_skills_localised_description_elo_albion_warcry	A mighty Warcrie at the right time can motivate warriors to fight harder and with renewed tenacity.	true
+character_skills_localised_name_elo_champions_r7	Champions of Albion	true
+character_skills_localised_description_elo_champions_r7	Hardened in many battles against the constant threats emerging from the bogs of the island, these veterans have superior skills compared to inexperienced troops.	true
+character_skills_localised_name_elo_hunters_r7	Deadly Hunters	true
+character_skills_localised_description_elo_hunters_r7	The best way to kill a foe is a well aimed arrow or boulder, killing them before they even know what happened.	true
+character_skills_localised_name_elo_riders_r7	Merciless Barbarians	true
+character_skills_localised_description_elo_riders_r7	With a combination of speed, agility and brutal savagery the defenders of Albion often seem more like a wave of flesh and steel, breaking their enemies in the charge and washing them away in a tide of blood.	true
+character_skills_localised_name_elo_monsters_r7	Defenders of Myth	true
+character_skills_localised_description_elo_monsters_r7	Druids with magical powers and mystical beasts belong to the most feared members of any Albion warband, and rightly so.	true
+character_skills_localised_name_warleader_mount_skill	Albion Warhorse	true
+character_skills_localised_description_warleader_mount_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_warleader_chariot_skill	Albion Chariot	true
+character_skills_localised_description_warleader_chariot_skill	Chariot races are a favourite passtime of young Albion nobility - the experience gained serves them well on the battlefield too.	true
+character_skills_localised_name_endless_conflict	Endless Conflict	true
+character_skills_localised_description_endless_conflict	There is no true peace on Albion. The tribes constantly fight Fimir, the dangers of the blighted island or each other for the sparse resources. Their warriors don't tire easily.	true
+character_skills_localised_name_sessair_leader	Warleader of the Sessair	true
+character_skills_localised_description_sessair_leader	This Warleader emerged from the Sessair tribe and has been shaped by their aggressive, savage fighting style and tactics.	true
+character_skills_localised_name_sessair_troops	Sessair Warriors	true
+character_skills_localised_description_sessair_troops	Most of the human warriors of the warband have been drawn from the Sessair tribe and fight in the style unique to the Sessair.	true
+character_skills_localised_name_fir_leader	Warleader of the Fir Domain	true
+character_skills_localised_description_fir_leader	This Warleader emerged from the Fir Domain and has been shaped by their adaptable, shield based tactics.	true
+character_skills_localised_name_fir_troops	Fir Warriors	true
+character_skills_localised_description_fir_troops	The warriors of the Fir Domain are making up the majority of the shielded troops of this army, bringing their famous howling shields along with them.	true
+character_skills_localised_name_filian_leader	Falian Warleader	true
+character_skills_localised_description_filian_leader	This Warleader emerged from the Falian tribe and has been shaped by their way of fighting.	true
+character_skills_localised_name_filian_troops	Falian Warriors	true
+character_skills_localised_description_filian_troops	The warriors of the Falians prefer stealth over pure might and have little consideration for concepts like honour. A kill with a blade in the dark counts just as much as a victory in a duel.	true
+character_skills_localised_name_finian_leader	Finian Warleader	true
+character_skills_localised_description_finian_leader	This Warleader emerged from the Finian tribe and has been shaped by their focus on defense.	true
+character_skills_localised_name_finian_troops	Finian Warriors	true
+character_skills_localised_description_finian_troops	The warriors of the Finians favor defense over offense, often aiming to simply endure an enemy assault and outlast their opponents.	true
+character_skills_localised_name_teachings_old_ones	Teachings of the Old Ones	true
+character_skills_localised_description_teachings_old_ones	The first Truthsayers have been taught by the Old Ones themselves. Precious little is left of these original teachings, but even a fraction of this magical knowledge is still potent.	true
+character_skills_localised_name_oral_tradition	Oral Tradition	true
+character_skills_localised_description_oral_tradition	Truthsayers don't write down their knowledge. The secrets are passed from the master's mouth to the pupil's ear, which introduces mistakes and missunderstandings. This causes the magic of the Truthsayers to be less reliable, but some changes introduced this way have unexpected benefitial side-effects.	true
+character_skills_localised_name_swamp_monsters	Terrors from the Swamps	true
+character_skills_localised_description_swamp_monsters	Truthsayers have mastered the ability to call ever more terrifying constructs of rotten wood, mud and bones from the swamps to bolster their ranks.	true
+character_skills_localised_name_ancient_allies	Ancient Allies	true
+character_skills_localised_description_ancient_allies	It is said that the Giants of Albion were the last gift of the Old Ones to the Truthsayers. Both the tribes and the giants have long since forgotten the truth about the Old Ones, but the alliance still holds strong.	true
+character_skills_localised_name_mount_horse_truthsayer_beasts_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_beasts_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_shadows_fen	Experienced Ambusher	true
+character_skills_localised_description_shadows_fen	Often outnumbered and outmatched in terms of  individual strength, the warriors of Albions are skilled ambushers.	true
+character_skills_localised_name_mount_horse_truthsayer_light_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_light_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_mount_horse_truthsayer_life_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_life_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_truth_spell_gift_life_lord	Gift of Life	true
+character_skills_localised_description_truth_spell_gift_life_lord	Dying Warriors are granted a second chance as the spell of the truthsayer mends their deadly wounds and allows them to return to battle.	true
+character_skills_localised_name_truth_spell_wings_fate_lord	Wings of Fate	true
+character_skills_localised_description_truth_spell_wings_fate_lord	The Truthsayer conjures a flock of magic bird which will fly straight into the enemy formations, bringing doom to those they collide with.	true
+character_skills_localised_name_truth_spell_valor_lord	Blessing of Valor	false
+character_skills_localised_description_truth_spell_valor_lord	The mage calls upon the gods of hunting and battle to grant his allies additional strength and skill.	false
+character_skills_localised_name_truth_spell_voice_command_lord	Voice of Command	false
+character_skills_localised_description_truth_spell_voice_command_lord	The booming voice of the truthsayer fills the mind of an enemy, robbing them of the concentration necessary to operate ranged weapons.	false
+character_skills_localised_name_truthsayer_lore_attribute	Mists of Albion	false
+character_skills_localised_description_truth_truthsayer_lore_attribute	The magic of Albion conjures the famous mists of its homeland, enveloping allied warriors, protecting them from projectiles.	false
+character_skills_localised_name_truth_spell_boon_courage_lord	Boon of Courage	false
+character_skills_localised_description_truth_spell_boon_courage_lord	The voice of the truthsayer is heard in the minds of his warriors, invoking their sense of honor and giving them unwavering hope even in the most desperate of situations.	false
+character_skills_localised_name_truth_spell_protection_lord	Light of Protection	false
+character_skills_localised_description_truth_spell_protection_lord	A barrier of shimmering light protects the warriors from magic and flame alike.	false
+character_skills_localised_name_mount_horse_truthsayer_truth_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_truth_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_truthsayer_innate_priest_danu	Priest of the Earthmother	true
+character_skills_localised_description_truthsayer_innate_priest_danu	The Druids are not only mages, but also religious leaders. This one follows Danu, the goddess of the earth.	true
+character_skills_localised_name_truthsayer_innate_priest_lugh	Priest of the Sun God	true
+character_skills_localised_description_truthsayer_innate_priest_lugh	The Druids are not only mages, but also religious leaders. This one follows Lugh, the god of the sun.	true
+character_skills_localised_name_truthsayer_innate_priest_carnun	Priest of the Horned God	true
+character_skills_localised_description_truthsayer_innate_priest_carnun	The Druids are not only mages, but also religious leaders. This one follows Carnun, the god of the hunt.	true
+character_skills_localised_name_warleader_swamp_guard	Nemesis of the Fimir	true
+character_skills_localised_description_warleader_swamp_guard	The bogs of Albion are always contested. Those who keep the Fimir from crawling out of their holes deserve the highest respect.	true
+character_skills_localised_name_warleader_raider	Famous Raider	true
+character_skills_localised_description_warleader_raider	The tribes of Albion raid each other all the time. Those who are successful can gain the favour of their tribe....and the hate of the others.	true
+character_skills_localised_name_warleader_killer	Killer of Men	true
+character_skills_localised_description_warleader_killer	The inhabitants of Albion fight not only monsters but often enough they fight each others or intruders from the outside. Some display an outright disturbing talent fighting this type of foe.	true
+character_skills_localised_name_warleader_wanderer	Wanderer	true
+character_skills_localised_description_warleader_wanderer	Albion is a dangerous land, most of its inhabitants will never stray too far from their tribe to avoid the dangers of the blighted landscape. Those who brave the dangerous wilds and return to tell the tale have the potential to become legends.	true
+character_skills_localised_name_chief_mount_skill	Albion Warhorse	true
+character_skills_localised_description_chief_mount_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_chief_hunter	Monster Hunter	true
+character_skills_localised_description_chief_hunter	Dangerous monsters are no rarity on Albion. This esteemed warrior is trying to change that.	true
+character_skills_localised_name_chief_leader	Second in Command	true
+character_skills_localised_description_chief_leader	A Warleader in the making, this warrior already has the presence of a great general, motivating his men to endure in times of strife.	true
+character_skills_localised_name_chief_bodyguard	Bodyguard	true
+character_skills_localised_description_chief_bodyguard	If you want to attack the general, you have to go through this mighty warrior first!	true
+character_skills_localised_name_chief_chariot_skill	Albion Chariot	true
+character_skills_localised_description_chief_chariot_skill	Chariot races are a favourite passtime of young Albion nobility - the experience gained serves them well on the battlefield too.	true
+character_skills_localised_name_wyrd_mount_skill	Albion Warhorse	true
+character_skills_localised_description_wyrd_mount_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	true
+character_skills_localised_name_warrior_shaman	Shamanic Warrior	true
+character_skills_localised_description_warrior_shaman	Priortizing the path of the Warrior, this Wyrd Druid is a better fighter than others - but his abilities to weave magic suffered in return.	true
+character_skills_localised_name_wyrd_spellbinder	Spellbinder	true
+character_skills_localised_description_wyrd_spellbinder	Adorned with similar runes as the famous Ogham stones, the body of this Druid binds magic to protect those around him from the harms it can bring.	true
+character_skills_localised_name_wyrd_channeler	Channeler of the Wyrd	true
+character_skills_localised_description_wyrd_channeler	There is much to be gained by letting the strange power of the Wyrd run free through the Druids body, but there is also a prize to pay.	true
+character_skills_localised_name_morrigan_innate	Raven Queen	true
+character_skills_localised_description_morrigan_innate	Wherever Morrigan goes, clouds of her loyal ravens follow for they know that a feast awaits them.	true
+character_skills_localised_name_morrigan_raven_skill	Dubh'neach	true
+character_skills_localised_description_morrigan_raven_skill	Sometimes Morrigan is seen riding a giant raven named Dubh'neach into battle. This raven is the only one of its kind that is known to the inhabitants of Albion, his origin a mystery only Morrigan herself knows the answer to.	true
+character_skills_localised_name_morrigan_legendary_staff	Seann'darach	true
+character_skills_localised_description_morrigan_legendary_staff	Morrigan is rarely ever seen without this staff which looks like a mere branch of a random tree. But those who know what to look for easily notice that it brims with magical power.	true
+character_skills_localised_name_morrigan_wings_bound	Ravenmother	true
+character_skills_localised_description_morrigan_wings_bound	Ravens will always heed Morrigan's call, even if it costs their lives.	true
+character_skills_localised_name_morrigan_magical_being	Magical Being	true
+character_skills_localised_description_morrigan_magical_being	Although Morrigan is surrounded by mystery, there is one thing everyone agrees on: She is no mere human. Even deadly wounds can't hold her down and ravens follow her willingly into battle.	true
+character_skills_localised_name_morrigan_maidens	Morrigan's Handmaidens	true
+character_skills_localised_description_morrigan_maidens	Every unbound woman may leave their tribe and wander into the wilderness to pledge themselves to Morrigan. What exactly happens to this women is unknown, but Morrigan is sometimes accompanied by grim female warriors of great skill.	true
+character_skills_localised_name_morrigan_unleashed	Goddess Unleashed	true
+character_skills_localised_description_morrigan_unleashed	No one knows the full extend of her powers, but all agree it may be better not to see her unleash it.	true
+character_skills_localised_name_morrigan_mage	Experienced Mage	true
+character_skills_localised_description_morrigan_mage	Morrigan wields her magic with the ease and grace of long experience and deep knowledge.	true
+character_skills_localised_name_morrigan_darkened_skies	Darkened Skies	true
+character_skills_localised_description_morrigan_darkened_skies	Clouds of Ravens fill the skies in anticipation of a feast. Only fools would take to the skies under these circumstances.	true
+character_skills_localised_name_morrigan_omen_of_victory	Omen of Victory	true
+character_skills_localised_description_morrigan_omen_of_victory	Morrigan's appearence on the battlefield is seen as an omen of immenent victory in an important battle, her presence encouraging her allies and filling her enemies with dispair.	true
+character_skills_localised_name_elo_staff_of_dural_durak	Staff of Dural Durak	false
+character_skills_localised_description_elo_staff_of_dural_durak	When Dural Durak casts spells, this staff of his own creation twists the Winds of Magic in a way that disturbs the efforts of enemy casters.	false
+character_skills_localised_name_elo_amulet_old_ones	Amulet of the Old Ones	false
+character_skills_localised_description_elo_amulet_old_ones	One of the last functioning artifacts of the Old Ones remaining in the hands of the tribes of Albion, this amulet can save the life of its wearer once per battle with a surge of magical energy.	false
+character_skills_localised_name_dural_mount_horse	Albion Warhorse	false
+character_skills_localised_description_dural_mount_horse	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford riding into battle.	false
+character_skills_localised_name_dural_mount_chariot	Albion Chariot	false
+character_skills_localised_description_dural_mount_chariot	Chariot races are a favourite passtime of young Albion nobility - the experience gained serves them well on the battlefield too.	false
+character_skills_localised_name_dural_innate_first_truthsayer	First of the Truthsayers	false
+character_skills_localised_description_dural_innate_first_truthsayer	As leader of the Truthsayers, Dural Durak is highly skilled in magic and respected both for his wisdom and his leadership in times of strife.	false
+character_skills_localised_name_dural_mentor	Mentor	false
+character_skills_localised_description_dural_mentor	The future will be shaped by the next generation. And the next generation is shaped by us.	false
+character_skills_localised_name_dural_giant_friend	Friend of Giants	false
+character_skills_localised_description_dural_giant_friend	Dural Durak has befriended many of the giants of Albion. They will rush to his aid if needed.	false
+character_skills_localised_name_dural_control_bogs	From the Swamps	false
+character_skills_localised_description_dural_control_bogs	Druids are proficient in making undead constructs from rotting wood, the remains of unfortunate souls who perished in the bogs and shards of ogham stones, but some are better at this than others.	false
+character_skills_localised_name_dural_healer	Druid Healer	false
+character_skills_localised_description_dural_healer	Not only magic, but also medicine are part of a Truthsayer's education.	false
+character_skills_localised_name_dural_heir_old_ones	Heir of the Old Ones	false
+character_skills_localised_description_dural_heir_old_ones	Precious little is left from the knowledge that the Old Ones taught the Truthsayers. And most of that knowledge is in Dural's hands.	false
+character_skills_localised_name_dural_true_master	True Master of Albion	false
+character_skills_localised_description_dural_true_master	The Swamps itself heed Dural's call and the mists follow his will. He is the true ruler of the isle.	false
+character_skills_localised_name_dural_loremaster	Loremaster of the Lore of Truthsayers	false
+character_skills_localised_description_dural_loremaster	The greatest Druid in existance, no other Truthsayer can rival Dural Durak.	false
+character_skills_localised_name_dural_leader_circle	The Circle of Truthsayers	false
+character_skills_localised_description_dural_leader_circle	Dural Durak can call upon his Circle of Truthsayers, mighty druids in their own right who expertly wield the winds of magic to aid the armies of Albion.	false

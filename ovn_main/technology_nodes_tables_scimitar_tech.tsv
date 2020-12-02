@@ -1,0 +1,32 @@
+technology_nodes_tables	3
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+		2	scimitar_tech_good_1	araby_tech_good_1	ovn_scimitar_tech	0	400	0	0		
+		1	scimitar_tech_good_2	araby_tech_good_2	ovn_scimitar_tech	1	800	0	0		
+		1	scimitar_tech_good_3	araby_tech_good_3	ovn_scimitar_tech	2	1000	0	0		
+		2	scimitar_tech_good_4	araby_tech_good_4	ovn_scimitar_tech	2	1000	0	0		
+		3	scimitar_tech_good_5	araby_tech_good_5	ovn_scimitar_tech	2	1000	0	0		
+		2	scimitar_tech_good_6	araby_tech_good_6	ovn_scimitar_tech	3	1600	0	0		
+		3	scimitar_tech_good_7	araby_tech_good_7	ovn_scimitar_tech	3	1600	0	0		
+		4	scimitar_tech_good_8	araby_tech_good_8	ovn_scimitar_tech	3	1800	0	0		
+		7	scimitar_tech_bad_1	araby_tech_bad_1	ovn_scimitar_tech	0	500	0	0		
+		8	scimitar_tech_bad_2	araby_tech_bad_2	ovn_scimitar_tech	1	900	0	0		
+		6	scimitar_tech_bad_3	araby_tech_bad_3	ovn_scimitar_tech	2	1200	0	0		
+		7	scimitar_tech_bad_4	araby_tech_bad_4	ovn_scimitar_tech	2	1200	0	0		
+		8	scimitar_tech_bad_5	araby_tech_bad_5	ovn_scimitar_tech	2	1200	0	0		
+		5	scimitar_tech_bad_6	araby_tech_bad_6	ovn_scimitar_tech	3	2000	0	0		
+		6	scimitar_tech_bad_7	araby_tech_bad_7	ovn_scimitar_tech	3	1600	0	0		
+		7	scimitar_tech_bad_8	araby_tech_bad_8	ovn_scimitar_tech	3	1600	0	0		
+		2	scimitar_tech_neu_1	araby_tech_neu_1	ovn_scimitar_tech	5	800	0	0		
+		1	scimitar_tech_neu_0	araby_tech_neu_0	ovn_scimitar_tech	6	800	0	0		
+		3	scimitar_tech_neu_2	araby_tech_neu_2	ovn_scimitar_tech	5	800	0	0		
+		4	scimitar_tech_neu_3	araby_tech_neu_3	ovn_scimitar_tech	6	800	0	0		
+		5	scimitar_tech_neu_4	araby_tech_neu_4	ovn_scimitar_tech	6	600	0	0		
+		6	scimitar_tech_neu_5	araby_tech_neu_5	ovn_scimitar_tech	5	800	0	0		
+		7	scimitar_tech_neu_6	araby_tech_neu_6	ovn_scimitar_tech	5	500	0	0		
+		2	scimitar_tech_neu_eco_1	araby_tech_neu_eco_1	ovn_scimitar_tech	8	800	0	0		
+		1	scimitar_tech_neu_eco_0	araby_tech_neu_eco_0	ovn_scimitar_tech	7	800	0	0		
+		3	scimitar_tech_neu_eco_2	araby_tech_neu_eco_2	ovn_scimitar_tech	8	800	0	0		
+		4	scimitar_tech_neu_eco_3	araby_tech_neu_eco_3	ovn_scimitar_tech	7	800	0	0		
+		5	scimitar_tech_neu_eco_4	araby_tech_neu_eco_4	ovn_scimitar_tech	7	600	0	0		
+		6	scimitar_tech_neu_eco_5	araby_tech_neu_eco_5	ovn_scimitar_tech	8	800	0	0		
+		7	scimitar_tech_neu_eco_6	araby_tech_neu_eco_6	ovn_scimitar_tech	8	500	0	0		

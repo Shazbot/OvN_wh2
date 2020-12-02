@@ -1,0 +1,4 @@
+special_ability_to_auto_deactivate_flags_tables	0
+deactivate_flag	special_ability
+engaged_in_melee	ovn_mystic_mist
+morale_is_lower_than_half_of_base_morale	ovn_mystic_mist

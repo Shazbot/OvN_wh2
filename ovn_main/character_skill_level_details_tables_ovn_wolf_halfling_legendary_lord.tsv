@@ -1,0 +1,6 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	wh2_main_skill_hlf_glibfoot_unique_0		11
+		x	1	wh2_main_skill_hlf_glibfoot_unique_2		11
+		x	1	wh2_main_skill_anc_hyshia		11
+		x	1	wh2_main_skill_anc_willowblade		12

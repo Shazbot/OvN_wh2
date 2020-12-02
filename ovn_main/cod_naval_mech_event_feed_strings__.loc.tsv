@@ -1,0 +1,15 @@
+Loc PackedFile	1
+key	text	tooltip
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_inner_lost_primary_detail	Control of the Eastern Shores Weakens	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_inner_lost_secondary_detail	We have lost a region off the eastern shores of Lustria, we must take it back at all costs.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_outer_lost_primary_detail	Eatine Under Siege	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_outer_lost_secondary_detail	A settlement in Eatine has fallen to our enemies, we must act now.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_title	Admiral of the Lustrian Coast	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_united_primary_detail	Clear Oceans	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_united_secondary_detail	Asuryan's blessings, you have done what most thought impossible, tame the Eastern Shores of Lustria. You have upheld your familes great name Stormrider, we wait to see what great feat you face next.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_invasion_primary_detail	Invasion Spotted!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_invasion_secondary_detail	A large force has been spotted from the Crow's nest, man the decks and prepare our defences!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_unit_gained_primary_detail	Dragonship Ingranion Docked	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_unit_gained_secondary_detail	Lord Finrian, admiral of the Dragonship Ingranion has successfully navigated through the treacherous seas leaving a trail of floating scoundrels behind them. They have brought us fresh supplies and some of the finest Asuryan marines, but no sooner had they docked had they set sail, returning to Eatine.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_beast_invasion_primary_detail	We Are Not Alone!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_beast_invasion_secondary_detail	We have found several Sentinels savaged with others still unaccounted for, be alert, for something lurks in the shadows and it has a taste for Asur-flesh!	true

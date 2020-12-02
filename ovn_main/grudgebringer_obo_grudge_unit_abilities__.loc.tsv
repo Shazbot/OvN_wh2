@@ -1,0 +1,93 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_tooltip_text_grudge_character_abilities_volley_of_high_arrows	By which an unexpected shower of pointy death rains down upon the unfortunate targets. Ouch!	true
+unit_abilities_tooltip_text_grudge_character_abilities_volley_of_dark_arrows	By which an unexpected shower of pointy death rains down upon the unfortunate targets. Ouch!	true
+unit_abilities_tooltip_text_grudge_hero_abilities_arrow_of_kurnous	By which an unexpected shower of pointy death rains down upon the unfortunate targets. Ouch!	true
+unit_abilities_onscreen_name_grudge_character_abilities_volley_of_high_arrows	Hail of Arrows	true
+unit_abilities_onscreen_name_grudge_character_abilities_volley_of_dark_arrows	Hellrain	true
+unit_abilities_onscreen_name_grudge_hero_abilities_arrow_of_kurnous	Rage of the Forest	true
+unit_abilities_onscreen_name_grudge_hero_abilities_shrapnel_shot	Shrapnel Shot	true
+unit_abilities_onscreen_name_grudge_hero_abilities_pepperpot	Pepperpot	true
+unit_abilities_tooltip_text_grudge_hero_abilities_shrapnel_shot	If the enemy infantry is near, give 'em a punch.	true
+unit_abilities_tooltip_text_grudge_hero_abilities_pepperpot	There are too many of them! Load our mortar with a bunch of dwarven grenades!	true
+unit_abilities_onscreen_name_spell_ice_shield_of_cold	Shield of Cold	true
+unit_abilities_tooltip_text_spell_ice_shield_of_cold	This spell creates a frozen shield that protects the chosen friendly regiment from any damage.	true
+unit_abilities_onscreen_name_spell_ice_shield_of_cold_upgraded	Shield of Cold Reinforced	true
+unit_abilities_tooltip_text_spell_ice_shield_of_cold_upgraded	This spell creates a frozen shield that protects the chosen friendly regiment from any damage.	true
+unit_abilities_onscreen_name_spell_ice_frost_blade	Frost Blade	true
+unit_abilities_tooltip_text_spell_ice_frost_blade	A sparkling blade of ice forms in the target's hand, a precise magical weapon.	true
+unit_abilities_onscreen_name_spell_ice_frost_blade_upgraded	Frost Blade Reinforced	true
+unit_abilities_tooltip_text_spell_ice_frost_blade_upgraded	A sparkling blade of ice forms in the target's hand, a precise magical weapon.	true
+unit_abilities_onscreen_name_spell_ice_crisping_cold	Crisping Cold	true
+unit_abilities_tooltip_text_spell_ice_crisping_cold	An unnatural cold invigorates friendly forces, making their movements faster and more accurate.	true
+unit_abilities_onscreen_name_spell_ice_crisping_cold_upgraded	Crisping Cold Advanced	true
+unit_abilities_tooltip_text_spell_ice_crisping_cold_upgraded	An unnatural cold invigorates friendly forces, making their movements faster and more accurate.	true
+unit_abilities_onscreen_name_spell_ice_shattering_frost	Shattering Frost	true
+unit_abilities_tooltip_text_spell_ice_shattering_frost	The sudden frost shakles movements of the target, shattering it's armour and turning it to a crumbly glass	true
+unit_abilities_onscreen_name_spell_ice_shattering_frost_upgraded	Shattering Frost Advanced	true
+unit_abilities_tooltip_text_spell_ice_shattering_frost_upgraded	The sudden frost shakles movements of the target, shattering it's armour and turning it to a crumbly glass	true
+unit_abilities_onscreen_name_spell_ice_chill	Chill	true
+unit_abilities_tooltip_text_spell_ice_chill	Touch leaves a gleaming frost behind. The air within the immediate area drops to freezing for the duration of the spell	true
+unit_abilities_onscreen_name_spell_ice_chill_upgraded	Petrifying Chill	true
+unit_abilities_tooltip_text_spell_ice_chill_upgraded	Touch leaves a gleaming frost behind. The air within the immediate area drops to freezing for the duration of the spell	true
+unit_abilities_onscreen_name_lore_passive_ice_cold	Unnatural Cold	true
+unit_abilities_tooltip_text_lore_passive_ice_cold	The bond of ice wizard with nature is so powerful, that cold winds hinder enemy movements every time he casts a spell	true
+unit_abilities_onscreen_name_spell_ice_blinding_blizzard	Blinding Blizzard	true
+unit_abilities_tooltip_text_spell_ice_blinding_blizzard	A rapid snow blizzard emerges in enemy ranks blinding enemy soldiers and interfering their fire.	true
+unit_abilities_onscreen_name_spell_ice_blinding_blizzard_upgraded	Blinding Tempest	true
+unit_abilities_tooltip_text_spell_ice_blinding_blizzard_upgraded	A rapid snow blizzard emerges in enemy ranks blinding enemy soldiers and interfering their fire.	true
+unit_abilities_onscreen_name_lore_passive_ice_winter	Winter Rage	true
+unit_abilities_tooltip_text_lore_passive_ice_winter	When Ice Mage cast a spell the winter itself comes to help him, halving enemy's magic resistance.	true
+unit_abilities_onscreen_name_spell_ice_ice_shards	Ice Shards	true
+unit_abilities_tooltip_text_spell_ice_ice_shards	Sharp icicles spring from the mage's hand in the direction of the target, causing multiple wounds as they pierce and impale their targets.	true
+unit_abilities_onscreen_name_spell_ice_ice_shards_upgraded	Sharp Ice Shards	true
+unit_abilities_tooltip_text_spell_ice_ice_shards_upgraded	Sharp icicles spring from the mage's hand in the direction of the target, causing multiple wounds as they pierce and impale their targets.	true
+unit_abilities_onscreen_name_spell_ice_storm_strike	Storm Strike	true
+unit_abilities_tooltip_text_spell_ice_storm_strike	Channels mighty flows of magic into a howling gale of cold. Anyone between the caster and his target is slashed by wind-whipped ice shards.	true
+unit_abilities_onscreen_name_spell_ice_storm_strike_upgraded	Storm Strike Advanced	true
+unit_abilities_tooltip_text_spell_ice_storm_strike_upgraded	Channels mighty flows of magic into a howling gale of cold. Anyone between the caster and his target is slashed by wind-whipped ice shards.	true
+unit_abilities_onscreen_name_spell_ice_chill_blast	Chill Blast	true
+unit_abilities_tooltip_text_spell_ice_chill_blast	With a single breath, the caster blows a freezing gale at anyone in front of him within 48 yards	true
+unit_abilities_onscreen_name_spell_ice_chill_blast_upgraded	Chill Blast Advanced	true
+unit_abilities_tooltip_text_spell_ice_chill_blast_upgraded	With a single breath, the caster blows a freezing gale at anyone in front of him within 48 yards	true
+unit_abilities_onscreen_name_spell_ice_ice_blizzard	Ice Blizzard	true
+unit_abilities_tooltip_text_spell_ice_ice_blizzard	A swirling flurry of snow and ice rises from the land, freezing and blinding all in its path.	true
+unit_abilities_onscreen_name_spell_ice_ice_blizzard_upgraded	Ice Storm	true
+unit_abilities_tooltip_text_spell_ice_ice_blizzard_upgraded	A swirling flurry of snow and ice rises from the land, freezing and blinding all in its path.	true
+unit_abilities_onscreen_name_spell_ice_tempest	Biting Wind	true
+unit_abilities_tooltip_text_spell_ice_tempest	A furious blizzard stirs up around a nearby enemy target, stopping them in their tracks. The troops are temporarily immobilized by the strong winds and biting cold, rendering them unable to move and causing severe damage.	true
+unit_abilities_onscreen_name_spell_ice_tempest_upgraded	Biting Wind Advanced	true
+unit_abilities_tooltip_text_spell_ice_tempest_upgraded	A furious blizzard stirs up around a nearby enemy target, stopping them in their tracks. The troops are temporarily immobilized by the strong winds and biting cold, rendering them unable to move and causing severe damage.	true
+unit_abilities_onscreen_name_spell_ice_hailstorm	Hailstorm	true
+unit_abilities_tooltip_text_spell_ice_hailstorm	Channels Ice Magic upwards, forming large chunks of ice that fall to the ground with horrifying speed.	true
+unit_abilities_onscreen_name_spell_ice_hailstorm_upgraded	Hailstorm Advanced	true
+unit_abilities_tooltip_text_spell_ice_hailstorm_upgraded	Channels Ice Magic upwards, forming large chunks of ice that fall to the ground with horrifying speed.	true
+unit_abilities_onscreen_name_grudge_ballistics_calibration1	True Born Sniper	true
+unit_abilities_onscreen_name_grudge_ballistics_calibration2	True Born Sniper	true
+unit_abilities_onscreen_name_grudge_ballistics_calibration3	True Born Sniper	true
+unit_abilities_onscreen_name_grudge_explosion1	Highly Explosive Shells	true
+unit_abilities_onscreen_name_grudge_apexplosion1	Shrapnel Shells	true
+unit_abilities_onscreen_name_grudge_explosion2	Highly Explosive Shells	true
+unit_abilities_onscreen_name_grudge_apexplosion2	Shrapnel Shells	true
+unit_abilities_onscreen_name_grudge_explosion3	Highly Explosive Shells	true
+unit_abilities_onscreen_name_grudge_apexplosion3	Shrapnel Shells	true
+unit_abilities_tooltip_text_grudge_weapon_abilities_the_reikland_runefang	Forged by a great Dwarf runesmith as a gift to the Empire, this sword has powerful Dwarf runes carved upon its blade. The sword strikes with such force it penetrates all armour, and any undead troops hit by the sword suffer twice the normal damage.	true
+unit_abilities_onscreen_name_grudge_weapon_abilities_the_reikland_runefang	Grudgebringers' Runefang	true
+unit_abilities_tooltip_text_grudge_weapon_abilities_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. In addition a fireball may be cast from the sword.	true
+unit_abilities_onscreen_name_grudge_weapon_abilities_grudgebringer_sword	Grudgebringer Sword	true
+unit_abilities_tooltip_text_grudge_weapon_abilities_hellfire_sword	This sword is enchanted with the energy of Bright magic. Its magical power may be cast when the wielder is in melee, unleashing a fiery blast which wounds any troops in the vicinity.	true
+unit_abilities_onscreen_name_grudge_weapon_abilities_hellfire_sword	Hellfire Sword	true
+unit_abilities_tooltip_text_grudge_weapon_abilities_storm_sword	This mighty sword channels the energy of Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast, summoning multiple lightning bolts from the sky which strike the enemy regiment.	true
+unit_abilities_onscreen_name_grudge_weapon_abilities_storm_sword	Storm Sword	true
+unit_abilities_tooltip_text_grudge_item_abilities_horn_of_urgok	This enchanted horn has the power to panic enemies and calm friendly troops with a single blast. When sounded, all enemy regiments within earshot may flee and all fleeing friendly regiments within range will rally themselves.	true
+unit_abilities_onscreen_name_grudge_item_abilities_horn_of_urgok	Horn of Urgok	true
+unit_abilities_tooltip_text_grudge_item_abilities_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	true
+unit_abilities_onscreen_name_grudge_item_abilities_banner_of_wrath	Banner of Wrath	true
+unit_abilities_tooltip_text_grudge_item_abilities_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	true
+unit_abilities_onscreen_name_grudge_item_abilities_banner_of_arcane_warding	Banner of Arcane Warding	true
+unit_abilities_tooltip_text_grudge_item_abilities_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channeling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	true
+unit_abilities_onscreen_name_grudge_item_abilities_spelleater_shield	Spelleater Shield	true
+unit_abilities_tooltip_text_grudge_ability_swiftness_of_itzl	The charge of these warriors is so powerful that almost nobody can stop their charge, except the ""Living Mountain"" himself of course.	true
+unit_abilities_onscreen_name_grudge_ability_swiftness_of_itzl	Unstoppable Charge	true
+unit_abilities_tooltip_text_grudge_ability_skv_verminous_valour	Come to me, men! This maybe our final battle, but our enemies will pay a high price for our lives!	true
+unit_abilities_onscreen_name_grudge_ability_skv_verminous_valour	Decisive Battle	true

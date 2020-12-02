@@ -1,0 +1,17 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_hlf_glibfoot_hlf_thieves	Recruitment Rank: %+n for Press-Ganged Thieves	false
+effects_description_hlf_glibfoot_reduce_inf_upkeep	Upkeep: %+n% for all melee Halfling units	false
+effects_description_hlf_glibfoot_morale_inf	Leadership: %+n for all melee Halfling units	false
+effects_description_ovn_glibfoot_enable_adv_continues	Ability: "And the Adventure Continues!"	true
+effects_description_hlf_glibfoot_inf_xp_inc	Recruit rank: %+n for Halfling Melee Infantry units	false
+effects_description_hlf_glibfoot_ranged_xp_inc	Recruit rank: %+n for Halfling Ranged Infantry units	false
+effects_description_hlf_glibfoot_cav_xp_inc	Recruit rank: %+n for Halfling Cavalry units	false
+effects_description_hlf_glibfoot_warden_xp_inc	Recruit rank: %+n for Halfling Warden units	false
+effects_description_hlf_glibfoot_rangers_xp_inc	Recruit rank: %+n for Halfling Ranger units	false
+effects_description_hlf_glibfoot_warden_melee_inc	Melee attack: %+n for Halfling Warden units	false
+effects_description_hlf_glibfoot_rangers_ranged_inc	Missile attack: %+n for Halfling Ranger units	false
+effects_description_ovn_glibfoot_enable_for_the_moot	Ability: "For the Moot!"	true
+effects_description_ovn_glibfoot_enable_hyshia_charged_shot	Ability: "Hyshia"	true
+effects_description_ovn_glibfoot_enable_willowblade_ability	Ability: "Cipher Blade"	true
+effects_description_ovn_glibfoot_enable_thief_tactics_ability	Ability: "Thief Tactics"	true

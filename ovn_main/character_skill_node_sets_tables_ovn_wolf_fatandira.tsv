@@ -1,0 +1,3 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh_main_skill_node_set_arb_fatandira		false	false	arb_fatandira

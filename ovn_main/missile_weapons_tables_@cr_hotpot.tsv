@@ -1,0 +1,4 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+ovn_mtl_hotpot	false	ovn_mtl_hotpot_projectile	flame_cannon	false
+ovn_mtl_hotpot_ror	false	ovn_mtl_hotpot_ror_projectile	flame_cannon	false

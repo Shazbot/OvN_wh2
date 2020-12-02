@@ -1,0 +1,21 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+character_general_ability.png	Ancient_Necromancer		Ancient_Necromancer	3	false	false	false	0.0	0
+character_general_ability.png	Mighty_Warrior_tmb		Mighty_Warrior_tmb	6	false	false	false	0.0	0
+character_general_ability.png	Lord_Of_The_Undead_tmb		Lord_Of_The_Undead_tmb	8	false	false	false	0.0	0
+character_general_ability.png	Dark_Lord_Of_Nagash		Dark_Lord_Of_Nagash	10	false	false	false	0.0	0
+character_general_ability.png	Dread_Aura		Dread_Aura	13	false	false	false	0.0	0
+mount_zombie_dragon.png	dread_zombie_dragon	It is to the Plain of Bones that a Vampire Lord travels to claim a Zombie Dragon as their mount.	Zombie Dragon	15	false	false	false	0.0	0
+item_weapon.png	Soulreaper		Soulreaper	10	false	false	false	0.0	0
+trait_vampire_counts.png	dread_king_trait			0	true	false	false	5.0	0
+character_general_ability.png	elo_hand_vortex		elo_hand_vortex	0	false	false	false	0.0	0
+mount_skeleton_chariot.png	mount_chariot_hand_of_nagash		mount_chariot_hand_of_nagash	0	false	false	false	0.0	0
+item_enchanted_item.png	elo_hand_punished_one		elo_hand_punished_one	0	false	false	false	0.0	0
+item_weapon.png	elo_hungering_blade		elo_hungering_blade	0	false	false	false	0.0	0
+character_general_ability.png	elo_hand_judge_executioner		elo_hand_judge_executioner	0	false	false	false	0.0	0
+campaign_public_order.png	elo_terror_land		elo_terror_land	0	false	false	false	0.0	0
+battle_attack.png	elo_dark_charioteer		elo_dark_charioteer	0	false	false	false	0.0	0
+character_movement.png	elo_undead_traveler		elo_undead_traveler	0	false	false	false	0.0	0
+character_attack.png	elo_undead_warrior		elo_undead_warrior	0	false	false	false	0.0	0
+campaign_siege_attack.png	elo_hand_destroyer		elo_hand_destroyer	0	false	false	false	0.0	0
+trait_vampire_counts.png	elo_hand_of_nagash_trait		elo_hand_of_nagash_trait	0	true	false	false	0.0	0

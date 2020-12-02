@@ -1,0 +1,4 @@
+special_ability_to_auto_deactivate_flags_tables	0
+deactivate_flag	special_ability
+engaged_in_melee	hlf_master_chef_regeneration_passive_aura
+morale_is_broken_or_lower	hlf_master_chef_regeneration_passive_aura

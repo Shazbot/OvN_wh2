@@ -1,0 +1,4 @@
+technologies_tables	5
+key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+araby_tech_good_9		1	tech_dlc12_brt_decrees	0	0	0	0	false	false	"placeholder.tga"	328800076	false	false	true
+araby_tech_bad_9		1	wh2_def_tech_recruit_convicts	0	0	0	0	false	false	"placeholder.tga"	328800077	false	false	true

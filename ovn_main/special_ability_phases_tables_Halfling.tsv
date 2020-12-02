@@ -1,0 +1,10 @@
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+-1.0	positive	ovn_feast		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+-1.0	positive	ovn_thief		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+15.0	positive	ovn_take_bite		false	false	false	-0.1	0.0	0.0	0.5	10	0.0	0	-1	10	false	0.0	0.0	false	0		wh_main_generic_hp_regen	wh_main_item_abilities_potion_of_healing	-1.0	false	true	true	0.0	
+-1.0	positive	ovn_fight_eat		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack	wh_ability_positive_aoe	-1.0	false	true	true	0.0	
+20.0	positive	ovn_dont_abandon		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	ammo_supply		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack		-1.0	false	true	true	0.01	
+-1.0	positive	equipment_maintanance		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack		-1.0	false	true	true	0.0	
+-1.0	positive	smokeleaf_smokescreen		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_dlc15_ability_envelop_in_mist		-1.0	false	true	true	0.0	

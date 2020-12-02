@@ -1,0 +1,4 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_cd_slave		wh_main_set_norsca_economy	false
+ovn_cd_work		wh_main_set_norsca_military_recruitment	false

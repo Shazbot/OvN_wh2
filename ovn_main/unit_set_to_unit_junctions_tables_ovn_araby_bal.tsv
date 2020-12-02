@@ -1,0 +1,5 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				akp_brt_ballista	brt_trebuchets
+false				akp_brt_ballista	wh2_dlc11_brt_vets_peasant_bowmen_mounted_yeomen_archers_trebuchet
+false				akp_brt_ballista	wh_dlc07_peasant_economy_unit_set

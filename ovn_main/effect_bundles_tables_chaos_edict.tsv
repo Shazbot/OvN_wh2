@@ -1,0 +1,7 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+chaos_edict_1		For The Chaos Gods	province	1	edict_def_sacrifices_for_khaine.png	false
+chaos_edict_2		Prepare For War	province	1	edict_def_enforce_tribute_payments.png	false
+chaos_edict_3		Corruption	province	1	edict_skv_efficient_scheming.png	false
+chaos_edict_4		Increase Slave Production	province	1	edict_def_increase_slave_production_quota.png	false
+chaos_edict_5		Efficient Planning	province	1	edict_def_demand_highborn_hostages.png	false

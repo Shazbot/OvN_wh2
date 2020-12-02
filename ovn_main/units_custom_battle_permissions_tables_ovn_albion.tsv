@@ -1,0 +1,51 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_nor_albion	false	elo_albion_gryphon	true	true				false
+wh2_main_nor_albion	false	elo_fenbeast	true	true				false
+wh2_main_nor_albion	false	elo_albion_warriors	true	true				false
+wh2_main_nor_albion	false	elo_youngbloods	true	true				false
+wh2_main_nor_albion	false	elo_woadraider	true	true				false
+wh2_main_nor_albion	false	elo_bloodhounds	true	true				false
+wh2_main_nor_albion	false	albion_giant	true	true				false
+wh2_main_nor_albion	false	druid_neophytes	true	true				false
+wh2_main_nor_albion	false	albion_stonethrower	true	true				false
+wh2_main_nor_albion	false	albion_huntresses	true	true				false
+wh2_main_nor_albion	false	elo_albion_warriors_spears	true	true				false
+wh2_main_nor_albion	false	elo_albion_warriors_2h	true	true				false
+wh2_main_nor_albion	false	albion_riders	true	true				false
+wh2_main_nor_albion	false	albion_riders_javelins	true	true				false
+wh2_main_nor_albion	false	albion_hearthguard	true	true				false
+wh2_main_nor_albion	false	albion_hearthguard_halberd	true	true				false
+wh2_main_nor_albion	false	albion_hearthguard_2h	true	true				false
+wh2_main_nor_albion	false	albion_swordmaiden	true	true				false
+wh2_main_nor_albion	false	albion_chariot	true	true				false
+wh2_main_nor_albion	true	albion_truthsayer_beast	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_beast_horse	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_life	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_life_horse	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_light	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_light_horse	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_truth	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	true	albion_truthsayer_truth_horse	true	true	ui/portraits/portholes/no_culture/albion_truthsayer.png		wh_dlc05_emp_cha_wizard_life_0	false
+wh2_main_nor_albion	false	albion_centaurs	true	true				false
+wh2_main_nor_albion	false	albion_fenhulk	true	true				false
+wh2_main_nor_albion	true	albion_warleader	true	true	ui/portraits/portholes/no_culture/albion_warleader.png		wh_dlc08_nor_cha_marauder_chieftain_0	false
+wh2_main_nor_albion	true	albion_warleader_horse	true	true	ui/portraits/portholes/no_culture/albion_warleader.png		wh_dlc08_nor_cha_marauder_chieftain_0	false
+wh2_main_nor_albion	true	albion_warleader_chariot	true	true	ui/portraits/portholes/no_culture/albion_warleader.png		wh_dlc08_nor_cha_marauder_chieftain_0	false
+wh2_main_nor_albion	false	albion_chief	true	true	ui/portraits/portholes/no_culture/albion_chief.png		wh_dlc08_nor_cha_marauder_chieftain_0	false
+wh2_main_nor_albion	false	albion_chief_horse	true	true	ui/portraits/portholes/no_culture/albion_chief.png		wh_dlc08_nor_cha_marauder_chieftain_0	false
+wh2_main_nor_albion	false	albion_chief_chariot	true	true	ui/portraits/portholes/no_culture/albion_chief.png		wh_dlc08_nor_cha_marauder_chieftain_0	false
+wh2_main_nor_albion	true	albion_morrigan	true	true	ui/portraits/portholes/no_culture/albion_morrigan.png		albion_morrigan	false
+wh2_main_nor_albion	true	albion_morrigan_bird	true	true	ui/portraits/portholes/no_culture/albion_morrigan.png		albion_morrigan	false
+wh2_main_nor_albion	false	albion_half_giants	true	true				false
+wh2_main_nor_albion	false	albion_wyrd_druid	true	true	ui/portraits/portholes/no_culture/albion_wyrd_druid.png		wh_main_chs_cha_chaos_sorcerer_metal_0	false
+wh2_main_nor_albion	false	albion_wyrd_druid_horse	true	true	ui/portraits/portholes/no_culture/albion_wyrd_druid.png		wh_main_chs_cha_chaos_sorcerer_metal_0	false
+wh2_main_nor_albion	false	ovn_alb_inf_stone_throw_giant	true	true				false
+wh2_main_nor_albion	false	alb_cav_noble	true	true				false
+wh2_main_nor_albion	false	alb_cav_noble_spear	true	true				false
+wh2_main_nor_albion	false	alb_viridian_champ	true	true				false
+wh2_main_nor_albion	false	albion_riders_spear	true	true				false
+wh2_main_nor_albion	true	bl_elo_dural_durak	true	true	ui/portraits/portholes/no_culture/dural_durak.png		bl_elo_dural_durak	false
+wh2_main_nor_albion	true	bl_elo_dural_durak_horse	true	true	ui/portraits/portholes/no_culture/dural_durak.png		bl_elo_dural_durak	false
+wh2_main_nor_albion	true	bl_elo_dural_durak_chariot	true	true	ui/portraits/portholes/no_culture/dural_durak.png		bl_elo_dural_durak	false
+wh2_main_nor_albion	false	ovn_barrow_wight	true	true				true

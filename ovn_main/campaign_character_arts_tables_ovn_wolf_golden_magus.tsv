@@ -1,0 +1,3 @@
+campaign_character_arts_tables	7
+art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	id	religion	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
+arb_golden_magus	0	0		none	arb_golden_magus			ovn_campaign_arb_ship_flaming_scimitar_army	ovn_campaign_arb_ship_flaming_scimitar_army	cam_hu1_empire_staff_and_sword	cam_light_ship_05	cam_light_ship_05	889387935		0	0	0

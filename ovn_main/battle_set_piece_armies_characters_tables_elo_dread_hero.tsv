@@ -1,0 +1,3 @@
+battle_set_piece_armies_characters_tables	7
+character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+1	elo_dread_centurion	2147345100		100	2147345172	elo_dread_centurion	champion	elo_dread_centurion	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmp_wight_king_sword_campaign_01_0.png	190901	wh_main_skill_node_set_all_champion	true

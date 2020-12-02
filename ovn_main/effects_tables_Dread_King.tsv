@@ -1,0 +1,11 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+spawn_ushabti_dread_king	general_ability.png	6	general_ability.png	both	true
+Dread_Aura	general_ability.png	6	general_ability.png	both	true
+Summon_Black_Grail_Kinghts	general_ability.png	600	general_ability.png	both	true
+hidden_no_sepulchral_stalkers		0		campaign	false
+elo_hand_punished_one	general_ability.png	6	general_ability.png	battle	true
+elo_hungering_blade	general_ability.png	6	general_ability.png	battle	true
+elo_hand_vortex	general_ability.png	6	general_ability.png	battle	true
+elo_hand_judge_executioner	general_ability.png	6	general_ability.png	battle	true
+dk_hon_spawn	wight_king.png	0	wight_king.png	campaign	true

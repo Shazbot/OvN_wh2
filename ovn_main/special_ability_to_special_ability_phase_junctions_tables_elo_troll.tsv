@@ -1,0 +1,14 @@
+special_ability_to_special_ability_phase_junctions_tables	1
+order	phase	special_ability
+1	horrible_stench	horrible_stench
+1	rock_solid	rock_solid
+1	death_stench	death_stench
+1	run_and_shakeoff	run_and_shakeoff
+1	order_protect	order_protect
+1	order_squish	order_squish
+1	order_aim_higher	order_aim_higher
+1	order_catch	order_catch
+1	difficult_to_spot	difficult_to_spot
+1	stunted_regeneration	stunted_regeneration
+1	sickness_host	sickness_host
+1	temper_tantrum	temper_tantrum

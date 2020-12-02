@@ -1,0 +1,34 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_hlf_fieldwarden_halfling_hero	Halfling of the People	true
+character_skills_localised_description_hlf_fieldwarden_halfling_hero	Fieldwardens are esteemed figures in Halfling society, they know everyone and everyone knows them. Their sole presence can instill courage in the heart of fellow Halflings.	true
+character_skills_localised_name_hlf_fieldwarden_friendly_competition	Friendly Competition	true
+character_skills_localised_description_hlf_fieldwarden_friendly_competition	The presence of a Fieldwarden often leads nearby Halflings to try and outdo eachother in an effort to impress the Fieldwarden.	true
+character_skills_localised_name_hlf_fieldwarden_border_patrol	Border Patrols	true
+character_skills_localised_description_hlf_fieldwarden_border_patrol	Lone Fieldwardens are often posted in the forests and hills at the borders of the Moot in order to stop any covert enemy incursions.	true
+character_skills_localised_name_hlf_fieldwarden_moot_warden	Defender of the Moot	true
+character_skills_localised_description_hlf_fieldwarden_moot_warden	"And stay out, unless you want the next one to hit something more sensitive!"	true
+character_skills_localised_name_hlf_master_chef_skill_3_0_regeneration_passive_aura	The Art of Cooking	true
+character_skills_localised_description_hlf_master_chef_skill_3_0_regeneration_passive_aura	A true  master of his craft, the dishes of the Master Chef are so potent that they can alter the course of battle. Yes, with food, these are Haflings we're talking about.	true
+character_skills_localised_name_hlf_master_chef_skill_3_1_earth_blood	Beef & Beer Pie	true
+character_skills_localised_description_hlf_master_chef_skill_3_1_earth_blood	The smell of Halfling pies actually could raise the dead from the grave. Might even be why the Undead keep invading.	true
+character_skills_localised_name_hlf_master_chef_skill_3_2_cook_aura	The Feast is Coming!	true
+character_skills_localised_description_hlf_master_chef_skill_3_2_cook_aura	Doesn't matter if you're a Halfling, an Ogre or something else, the promise of good grub is worth fighting for.	true
+character_skills_localised_name_hlf_master_chef_skill_3_3_hot_spices	Hot Spices	true
+character_skills_localised_description_hlf_master_chef_skill_3_3_hot_spices	Recently imported from Lustria, these curious red thin peppers emit a pugnant smell even from a good distance.	true
+character_skills_localised_name_hlf_moot_general_skill_1_3_defense_moot	In Defense of the Moot	true
+character_skills_localised_description_hlf_moot_general_skill_1_3_defense_moot	The Halflings of the Moot are a peaceful and pastoral people, but their bravery in defence of their homeland against Undead and Greenskin incursions should not be doubted	true
+character_skills_localised_name_hlf_moot_general_skill_1_3_pure_good	For All That Is Pure and Good	true
+character_skills_localised_description_hlf_moot_general_skill_1_3_pure_good	"They have mistaken our love of peace for weakness! To battle, for the Moot!"	true
+character_skills_localised_name_hlf_master_chef_skill_3_4_flush_soup	Spill the Soup!	true
+character_skills_localised_description_hlf_master_chef_skill_3_4_flush_soup	On a desperate situation, the Master Chef will spill a pot containing the famously explosive "Hot Pot" stew recipe on nearby enemies.... and himself.	true
+character_skills_localised_name_hlf_unique_ward	Smallfolk Luck	true
+character_skills_localised_description_hlf_unique_ward	Halfings seem to be preternaturally lucky and oddly resistant to even the most dark, dangerous magic.	true
+character_skills_localised_description_hlf_master_chef_skill_0_0_mount_wagon	Some Master Chefs choose to carry their kitchen onto the battlefield in a chuck wagon.	false
+character_skills_localised_description_hlf_moot_general_skill_0_0_mount_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	false
+character_skills_localised_description_hlf_moot_general_skill_0_0_mount_poultry	Many Halfling commanders choose to ride the largest Moot Cockerel specimens into battle.	false
+character_skills_localised_description_hlf_sheriff_skill_0_0_mount_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	false
+character_skills_localised_name_hlf_master_chef_skill_0_0_mount_wagon	Chuck Wagon	false
+character_skills_localised_name_hlf_moot_general_skill_0_0_mount_pig	Battle Swine	false
+character_skills_localised_name_hlf_moot_general_skill_0_0_mount_poultry	Battle Cockerel	false
+character_skills_localised_name_hlf_sheriff_skill_0_0_mount_pig	Battle Swine	false

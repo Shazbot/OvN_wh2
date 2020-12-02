@@ -1,0 +1,3 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	Sultan_Jaffar				false	true	Sultan_Jaffar	1.0

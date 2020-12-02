@@ -1,0 +1,6 @@
+effect_bonus_value_unit_ability_junctions_tables	0
+effect	bonus_value_id	unit_ability
+enable_stink	enable	horrible_stench
+enable_death_stench	enable	death_stench
+disable_horrible_stench	disable	horrible_stench
+enable_mon_strength	enable	wh2_dlc13_lord_abilities_monstrous_strength

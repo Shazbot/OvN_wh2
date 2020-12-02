@@ -1,0 +1,10 @@
+land_units_officers_tables	4
+key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+wh_main_dwf_dwarf_tank_turret							front	wh_main_dwf_dwarftank_turret
+ovn_halfling_moot_general_poultry_mount							front	ovn_halfling_moot_general_poultry_mount
+ovn_halfling_master_chef_wagon_off							back	ovn_halfling_master_chef_wagon_mount
+ovn_halfling_sheriff_pig_mount							front	ovn_halfling_sheriff_pig_mount
+ovn_hlf_ll							front	
+ovn_mtl_chuckwagon_officer							back	ovn_mtl_chuckwagon_riders
+wh_main_mtl_soupcart_officer							front	wh_main_mtl_soupcart_riders
+ovn_mtl_cav_swine_rider_officer							front	ovn_mtl_cav_swine_riders

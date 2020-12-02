@@ -1,0 +1,62 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_albion_enable_warcry	Ability: "Warcry"	true
+effects_description_albion_disable_rally	Replaces: "Rally"	true
+effects_description_enable_frenzy_albion_warriors	Ability: "Frenzy" for human (non-hero/lord) units	true
+effects_description_enable_howling_shields	Ability: "Howling Shields" for all shielded units	true
+effects_description_enable_opportunist_albion	Ability: "Opportunist Attacker" for human (non-hero/lord) units	true
+effects_description_truth_miscast_gift_life_upgraded	Miscast base chance: %+n% for Gift of Life Upgraded	true
+effects_description_truth_reduce_wom_gift_upgraded	Winds of Magic cost: %n for Gift of Life Upgraded	true
+effects_description_truth_enable_gift_upgraded	Overcast Spell: "Gift of Life"	true
+effects_description_truth_reduce_wom_gift	Winds of Magic cost: %n for Gift of Life	true
+effects_description_truth_cooldown_gift	Cooldown: %+n% to Gift of Life	true
+effects_description_truth_enable_gift	Spell: "Gift of Life"	true
+effects_description_enable_wh2_main_lore_passive_truthsayer	Passive Ability: "Mists of Albion"	true
+effects_description_miscast_truth_boon_courage_upgraded	Miscast base chance: %+n% for Boon of Courage Upgraded	true
+effects_description_wom_truth_boon_courage_upgraded	Winds of Magic cost: %n for Boon of Courage Upgraded	true
+effects_description_enable_truth_boon_courage_upgraded	Overcast Spell: "Boon of Courage"	true
+effects_description_wom_truth_boon_courage	Winds of Magic cost: %n for Boon of Courage	true
+effects_description_cooldown_truth_boon_courage	Cooldown: %+n% to Boon of Courage	true
+effects_description_enable_truth_boon_courage	Spell: "Boon of Courage"	true
+effects_description_miscast_truth_valor_upgraded	Miscast base chance: %+n% for Blessing of Valor Upgraded	true
+effects_description_wom_truth_valor_upgraded	Winds of Magic cost: %n forBlessing of Valor Upgraded	true
+effects_description_enable_truth_valor_upgraded	Overcast Spell: "Blessing of Valor"	true
+effects_description_wom_truth_valor	Winds of Magic cost: %n for Blessing of Valor	true
+effects_description_cooldown_truth_valor	Cooldown: %+n% to Blessing of Valor	true
+effects_description_enable_truth_valor	Spell: "Blessing of Valor"	true
+effects_description_miscast_truth_protection_upgraded	Miscast base chance: %+n% for Light of Protection Upgraded	true
+effects_description_wom_truth_protection_upgraded	Winds of Magic cost: %n for Light of Protection Upgraded	true
+effects_description_enable_truth_protection_upgraded	Overcast Spell: "Light of Protection"	true
+effects_description_wom_truth_protection	Winds of Magic cost: %n for Light of Protection	true
+effects_description_cooldown_truth_protection	Cooldown: %+n% to Light of Protection	true
+effects_description_enable_truth_protection	Spell: "Light of Protection"	true
+effects_description_miscast_truth_voice_command_upgraded	Miscast base chance: %+n% for Voice of Command Upgraded	true
+effects_description_wom_truth_voice_command_upgraded	Winds of Magic cost: %n for Voice of Command Upgraded	true
+effects_description_enable_truth_voice_command_upgraded	Overcast Spell: "Voice of Command"	true
+effects_description_wom_truth_voice_command	Winds of Magic cost: %n for Voice of Command	true
+effects_description_cooldown_truth_voice_command	Cooldown: %+n% to Voice of Command	true
+effects_description_enable_truth_voice_command	Spell: "Voice of Command"	true
+effects_description_miscast_truth_wings_fate_upgraded	Miscast base chance: %+n% for Wings of Fate Upgraded	true
+effects_description_wom_truth_wings_fate_upgraded	Winds of Magic cost: %n for Wings of Fate Upgraded	true
+effects_description_enable_truth_wings_fate_upgraded	Overcast Spell: "Wings of Fate"	true
+effects_description_wom_truth_wings_fate	Winds of Magic cost: %n for Wings of Fate	true
+effects_description_cooldown_truth_wings_fate	Cooldown: %+n% to Wings of Fate	true
+effects_description_enable_truth_wings_fate	Spell: "Wings of Fate"	true
+effects_description_albion_enable_bound_flock_of_doom	Bound Spell: "Flock of Doom"	true
+effects_description_enable_truth_wings_fate_bound	Bound Spell: "Wings of Fate"	true
+effects_description_enable_darkened_skies	Ability: "Darkened Skies"	true
+effects_description_enable_omen_of_doom	Ability: "Omen of Doom"	true
+effects_description_enable_omen_of_war	Ability: "Omen of War"	true
+effects_description_enable_murder_of_crows	Ability: "Murder of Crows"	true
+effects_description_enable_berserk_sword	Passive Ability: "Berserker" for Swordmaidens	true
+effects_description_enable_hawkish_hunter	Ability: "Eagle's Eyes" for Huntresses	true
+effects_description_enable_murder_of_crows_upgraded	Ability: "Goddess of Ravens"	true
+effects_description_disable_murder_of_crows	Replaces: "Murder of Crows"	true
+effects_description_elo_staff_of_dural_durak	Ability: "Staff of Dural Durak"	true
+effects_description_elo_amulet_old_ones	Ability: "Amulet of Old Ones"	true
+effects_description_elo_giant_mdmg	Weapon Strength: +%n% for Giants and Half Giants	true
+effects_description_elo_giant_mattk	Melee Attack: +%n for Giants and Half Giants	true
+effects_description_elo_giant_upkeep	Upkeep: %n% for Giants and Half Giants	true
+effects_description_elo_summon_fenbeasts	Ability: "Call of the Fens" 	true
+effects_description_lesser_shield_of_the_old_ones	Ability: "Imperfect Shield of the Old Ones"	true
+effects_description_enable_wh_dlc08_unit_passive_from_the_mist	Ability: "From the Mists" for all units	true

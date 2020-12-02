@@ -1,0 +1,21 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+enable_ghost_on_death	general_ability.png	1	general_ability.png	battle	true
+enable_larenscheld_bombardment	general_ability.png	1	general_ability.png	battle	true
+enable_ghost_on_death_upgraded	general_ability.png	1	general_ability.png	battle	true
+disable_ghost_on_death	general_ability.png	1	general_ability.png	battle	false
+larenscheld_ghost_matt	melee.png	1	melee.png	battle	true
+larenscheld_ghost_mdef	defence.png	1	defence.png	battle	true
+larenscheld_ghost_vsmall	bonus_vs_small.png	1	bonus_vs_small.png	battle	true
+larenscheld_ghost_ward	resistance_ward_save.png	1	resistance_ward_save.png	battle	true
+larenscheld_ghost_vlarge	bonus_vs_large.png	1	bonus_vs_large.png	battle	true
+larenscheld_ghost_armour	armour.png	1	armour.png	battle	true
+larenscheld_ghost_morale	morale.png	1	morale.png	battle	true
+larenscheld_ghost_wps	weapon_damage.png	1	weapon_damage.png	battle	true
+elo_ghost_vampire_novice	spell_ability.png	4	spell_ability.png	battle	true
+elo_ghost_vampire_advanced	spell_ability.png	4	spell_ability.png	battle	true
+elo_ghost_vampire_expert	spell_ability.png	4	spell_ability.png	battle	true
+elo_ghost_vampire_master	spell_ability.png	4	spell_ability.png	battle	true
+elo_ghost_master_of_dead	general_ability.png	600	general_ability.png	battle	true
+larenscheld_change_at_will	general_ability.png	600	general_ability.png	battle	true
+luthor_the_hunchback_dummy	general_ability.png	600	general_ability.png	battle	true

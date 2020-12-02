@@ -1,0 +1,18 @@
+agent_recruitment_categories_tables	1
+key	order	icon_file_path
+troll_lord	1	UI\Common UI\unit_category_icons\warhammer2\monstrous_infantry.png
+troll_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\monstrous_infantry.png
+tmb_liche	3	UI\Common UI\unit_category_icons\necromancer.png
+nor_wolf_werekin	4	UI\Common UI\unit_category_icons\war_beast.png
+fimir_lord	5	UI\Common UI\unit_category_icons\warhammer2\monstrous_infantry.png
+araby_lord	1	UI\Common UI\unit_category_icons\warhammer2\commander.png
+araby_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
+albion_warleader	1	UI\Common UI\unit_category_icons\warhammer2\infantry_sword.png
+albion_truthsayer	2	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png
+albion_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
+halfling_lord	4	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png
+dread_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
+dread_liche	2	UI\Common UI\unit_category_icons\warhammer2\infantry_sword.png
+grudge_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
+cod_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
+legendary_lords	0	UI\Common UI\unit_category_icons\commander.png

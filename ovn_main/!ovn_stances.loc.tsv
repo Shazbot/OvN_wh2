@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_description_ovn_fimir_mist_stance	The army is wreathed in a light mist to shield their movement and aid their attack.	true
+effect_bundles_localised_title_ovn_fimir_mist_stance	Stance: Mist Wreath	true
+effect_bundles_localised_description_ovn_fimir_mist_ambush_stance	The Fimir conjure swirling mists from which to trap their enemies.	true
+effect_bundles_localised_title_ovn_fimir_mist_ambush_stance	Stance: Mist Trap	true
+effect_bundles_localised_description_ovn_stance_army_raiding_camp	Sets up a defensive camp, allowing for recruitment and replenishment, whilst raiding wealth from the local region.	true
+effect_bundles_localised_title_ovn_stance_army_raiding_camp	Stance: Raiding Camp	true

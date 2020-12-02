@@ -1,0 +1,11 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_wh2_dlc11_effect_skill_weapon_damage_increase_emp_greatswords_demigryphs	Weapon strength: %+n% for Greatswords, Demigryph Knights, Halfling Infantry & Ogres	true
+effects_description_wh2_dlc11_effect_skill_armour_increase_emp_greatswords_demigryphs	Armour: %+n for Greatswords, Demigryph Knights, Halfling Infantry & Ogres	true
+effects_description_wh2_dlc11_effect_skill_ammo_increase_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	Ammunition: %+n% for Free Company Militia, Crossbowmen, Huntsmen, Archers, Handgunners, Pistoliers, Outriders & Halfling Rangers	true
+effects_description_wh2_dlc11_effect_skill_missile_damage_increase_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	Missile damage: %+n% for Free Company Militia, Crossbowmen, Huntsmen, Archers, Handgunners, Pistoliers, Outriders & Halfling Rangers	true
+building_short_description_texts_short_description_wh2_main_special_blood_keep	At the foot of the Grey Mountains, a heavy garrison protected the passage to the Keep. It was the first to fall when imperial armies attacked long ago.	true
+building_culture_variants_name_wh2_main_special_blood_keep	Blood Keep Entryway	true
+names_name_2147357339	Harkon	true
+names_name_2147357322	Walach	true
+names_name_710127888	Dread King	true

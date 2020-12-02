@@ -1,0 +1,6 @@
+campaign_map_settlements_tables	4
+settlement_id	climate_type	citybar_height_offset
+settlement:wh_main_ice_tooth_mountains_icedrake_fjord	climate_frozen	0
+settlement:wh_main_vanaheim_mountains_pack_ice_bay	climate_frozen	0
+settlement:wh2_main_albion_albion	climate_island	0
+settlement:wh2_main_albion_isle_of_wights	climate_island	0

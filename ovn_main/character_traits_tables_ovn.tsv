@@ -1,0 +1,4 @@
+character_traits_tables	2
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+ovn_harkon_lord_trait	1	false	1	vampire_counts	1	
+dk_trait_name_dummy	1	true	99	personality	0	

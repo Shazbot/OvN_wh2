@@ -1,0 +1,7 @@
+cooking_recipe_required_ingredients_tables	0
+ingredient	recipe	primary
+ovn_walnut	ovn_food_special_dish_1	false
+ovn_tomatoe	ovn_food_special_dish_2	false
+ovn_emmer	ovn_food_special_dish_3	false
+ovn_salmon	ovn_food_special_dish_4	false
+ovn_juniper	ovn_food_special_dish_5	false

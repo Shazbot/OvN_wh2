@@ -1,0 +1,11 @@
+cdir_military_generator_unit_qualities_tables	1
+group_key	quality	unit_key
+Default_land_magic	10	roy_arb_cha_nomad
+Default_land_magic	10	roy_arb_cha_nomad_horse
+Default_land_magic	10	roy_arb_cha_champion
+Default_land_magic	10	roy_arb_cha_champion_horse
+Default_land_magic	10	roy_arb_cha_champion_warhorse
+Default_land_magic	12	roy_arb_cha_champion_elephant
+Default_land_command	10	roy_arb_cha_lord_horse
+Default_land_magic	10	roy_arb_cha_nomad_assassin
+Default_land_magic	10	roy_arb_cha_nomad_assassin_summoned

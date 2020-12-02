@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_onscreen_name_roy_unit_active_arb_strike_from_the_shadows	Strike from the Shadows	true
+unit_abilities_tooltip_text_roy_unit_active_arb_strike_from_the_shadows	The Hashishin are master assassins.	true
+unit_abilities_onscreen_name_roy_unit_active_arb_doppelgang	Doppelgang	false
+unit_abilities_tooltip_text_roy_unit_active_arb_doppelgang	Now you see him, now you don’t… and now you’re seeing double.	false

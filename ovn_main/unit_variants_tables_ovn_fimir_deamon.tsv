@@ -1,0 +1,5 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	kho_bloodletter	kho_bloodletter	kho_bloodletter	kho_bloodletter
+	Great_Deamon1_unit	Great_Deamon1_unit	Great_Deamon1_unit	Great_Deamon
+	ovn_finmor_belakor	ovn_finmor_belakor	ovn_finmor_belakor	ovn_finmor_belakor

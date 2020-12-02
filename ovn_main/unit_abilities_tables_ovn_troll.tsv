@@ -1,0 +1,18 @@
+unit_abilities_tables	16
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+reckless_taste	false	reckless_taste		wh_type_bombardment		wh_main_anc_group_common	false	false	unit		false
+elo_so_hungry	false	wh2_dlc15_hero_abilities_mither		wh_type_direct_damage		wh_main_anc_group_common	true	false	unit		false
+thiz_iz_troll	false			wh_type_direct_damage		wh_main_anc_group_common	false	true	unit		false
+troll_mocking_laughter	false	wh2_dlc10_lord_abilities_gaze_of_khaine		wh_type_hex		wh_main_anc_group_common	false	false	unit		false
+horrible_stench	false	wh2_main_character_passive_aura_of_pestilence		wh_type_hex		wh_main_anc_group_uncommon	false	false	unit		false
+rock_solid	false	wh_main_spell_metal_glittering_robe		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
+death_stench	false	wh2_main_spell_plague_pestilent_breath		wh_type_hex		wh_main_anc_group_uncommon	false	false	unit		false
+run_and_shakeoff	true	wh_dlc03_character_abilities_call_of_violence		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	character		false
+order_protect	true	wh_dlc08_nor_guardian		wh_type_ward_save		wh_main_anc_group_uncommon	false	false	unit		false
+order_squish	true	wh2_main_unit_passive_too_horrible_to_die		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
+order_aim_higher	true	wh_main_weapon_abilities_filth_mace		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
+order_catch	true	wh_main_unit_abilities_unholy_vigour		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
+difficult_to_spot	false	wh_dlc07_hero_passive_sacred_guardian		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
+stunted_regeneration	false	wh_main_unit_passive_regeneration		wh_type_regeneration		wh_main_anc_group_uncommon	false	false	unit		false
+sickness_host	false	wh2_main_character_passive_aura_of_pestilence		wh_type_hex		wh_main_anc_group_uncommon	false	false	unit		false
+temper_tantrum	false	wh_dlc03_unit_abilities_slaughterers_call		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false

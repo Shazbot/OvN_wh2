@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_subtype_subculture_overrides_onscreen_name_albion_chiefwh_main_sc_nor_albionchampion	Chieftain	true
+agent_subtype_subculture_overrides_description_albion_chiefwh_main_sc_nor_albionchampion	A Chieftan is a mighty warrior who gained leadership of a whole clan or tribe. In war, they serve as officers of a Warleader. New Warleaders usually emerge from the ranks of the mightiest Chieftains.	true
+agent_subtype_subculture_overrides_description_albion_wyrd_druidwh_main_sc_nor_albionwizard	Wyrd Druids have walked the Path of the Truthsayers, but either failed or left this path on their own. Despite only being able to cast simpler spells, they are still highly valued and often employed by chieftains as their personal advisors.	true
+agent_subtype_subculture_overrides_onscreen_name_albion_wyrd_druidwh_main_sc_nor_albionwizard	Wyrd Druid	true
+agent_subtype_subculture_overrides_onscreen_name_arb_magician_desertwh_main_sc_emp_arabywizard	Sorcerer	true
+agent_subtype_subculture_overrides_description_arb_magician_desertwh_main_sc_emp_arabywizard	The great sorcerers of Araby - mystics of the southern deserts and court magicians of the Sultans 	true
+agent_subtype_subculture_overrides_onscreen_name_emp_warrior_priestwh_main_sc_emp_arabydignitary	Foreign Priest	true
+agent_subtype_subculture_overrides_description_emp_warrior_priestwh_main_sc_emp_arabydignitary	Though there is no institution or want for the barbarian teachings of the north, the more foolhardy of their ranks still come professing about "Sigmar", thankfully it is a rare sight.	true

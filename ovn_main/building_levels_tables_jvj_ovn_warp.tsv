@@ -1,0 +1,10 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+ovn_warp_military_1	ovn_warp_military	0	1	1000	0		false	0	0	0	0	false				true	ovn_warp_military	false	0.0	0	true	1		true	0	0
+ovn_warp_military_2	ovn_warp_military	1	2	2000	0		false	0	0	0	0	false				true	ovn_warp_military	false	0.0	0	true	2		true	0	0
+ovn_warp_military_3	ovn_warp_military	2	4	4000	0		false	0	0	0	0	false				true	ovn_warp_military	false	0.0	0	true	3		true	0	0
+ovn_warp_military_4	ovn_warp_military	4	5	6000	0		false	0	0	0	0	false				true	ovn_warp_military	false	0.0	0	true	4		true	0	0
+ovn_warp_stables_1	ovn_warp_stables	0	1	1000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	1		true	0	0
+ovn_warp_stables_2	ovn_warp_stables	1	2	2000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	2		true	0	0
+ovn_warp_stables_3	ovn_warp_stables	2	4	4000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	3		true	0	0
+ovn_warp_stables_4	ovn_warp_stables	3	5	6000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	4		true	0	0

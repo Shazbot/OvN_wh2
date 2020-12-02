@@ -1,0 +1,9 @@
+building_sets_tables	3
+key	icon	sort_order	colour_r	colour_g	colour_b
+arb_flaming_scimitar_newhorde	placeholder	0	255	255	255
+arb_flaming_scimitar_main	placeholder	0	62	61	56
+arb_flaming_scimitar_defence	UI/Buildings/Icons/vampire_coast_cat_defence.png	5	91	73	47
+arb_flaming_scimitar_structure	UI/Buildings/Icons/vampire_coast_cat_ship_structure.png	4	62	71	57
+arb_flaming_scimitar_military	UI/Buildings/Icons/vampire_coast_cat_recruitment.png	2	120	20	20
+arb_flaming_scimitar_support	UI/Buildings/Icons/grudge_empire_money.png	3	75	65	88
+arb_flaming_scimitar_unique	UI/Buildings/Icons/vampire_coast_cat_ship_unique.png	6	100	20	60

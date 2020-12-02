@@ -1,0 +1,4 @@
+Loc PackedFile	1
+key	text	tooltip
+special_ability_phases_onscreen_name_lzd_amazon_poison	[[col:red]][[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Serpent Venom![[/col]]	true
+special_ability_phases_onscreen_name_jag_amazon_poison	[[col:red]][[img:ui/skins/default/modifier_icon_armour_break.png]][[/img]]Macauhitl Shock![[/col]]	true

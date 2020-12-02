@@ -1,0 +1,10 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+ovn_spell_desert_mirage.png	ovn_skill_magic_desert_mirage	The caster summons a mirage to distract enemies.	Mirage	0	false	false	false	0.0	0
+ovn_lore_passive_blessing_of_the_elements.png	ovn_skill_magic_desert_blessing_of_the_elements	The caster imbues entire army with magic attack while casting.	Blessing of the Elements	0	false	false	false	0.0	0
+ovn_spell_desert_sunstrike.png	ovn_skill_magic_desert_sunstrike	The caster shoots sun beams at the enemy.	Sunstrike	0	false	false	false	0.0	0
+wh2_dlc09_lord_abilities_sand_storm.png	ovn_skill_magic_desert_sandstorm	The caster summons a sandstorm to damage and debuff enemies.	Sandstorm	0	false	false	false	0.0	0
+ovn_spell_desert_quicksand.png	ovn_skill_magic_desert_quicksand	The caster turns the ground to quicksand, immobalizing enemies.	Quicksand	0	false	false	false	0.0	0
+ovn_spell_desert_burning_hands.png	ovn_skill_magic_desert_burning_hands	The caster blasts enemies with fire.	Burning Hands	0	false	false	false	0.0	0
+ovn_spell_desert_curse_of_the_djinn.png	ovn_skill_magic_desert_curse_of_the_djinn	The caster debuffs enemies.	Curse of the Djinn	0	false	false	false	0.0	0
+ovn_spell_desert_mirage.png	ovn_skill_magic_desert_mirage_dummy	The caster summons a mirage to distract enemies.	Mirage [HIDDEN]	0	false	false	false	0.0	0

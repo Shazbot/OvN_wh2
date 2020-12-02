@@ -1,0 +1,5 @@
+ui_unit_groupings_tables	1
+icon	key	parent_group
+arb_camelry_tifle	missile_camelry_rifle	missile_cavalry_chariots
+arb_camelry_bow	missile_camelry_bow	missile_cavalry_chariots
+arb_camelry	camelry	cavalry_chariots

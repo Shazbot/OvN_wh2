@@ -1,0 +1,20 @@
+cdir_events_dilemma_payloads_tables	2
+choice_key	dilemma_key	id	payload_key	value
+FIRST	ovn_dilemma_grudge_occupy	906951700996	TREASURY	AMOUNT[-625]
+FIRST	ovn_dilemma_grudge_occupy	906951700997	grudge_hire_dummy	DURATION[1]
+SECOND	ovn_dilemma_grudge_occupy	906951700556	TREASURY	AMOUNT[-500]
+SECOND	ovn_dilemma_grudge_occupy	906951700557	grudge_replacements	DURATION[3]
+THIRD	ovn_dilemma_grudge_occupy	906951700558	grudge_camp_followers	DURATION[4]
+SECOND	ovn_chaos_gipfel	906951700560	TREASURY	AMOUNT[2000]
+SECOND	ovn_chaos_gipfel	906951700561	ovn_chaos_gipfel	DURATION[6]
+FIRST	ovn_chaos_gipfel	906951700562	ovn_chaos_gipfel_deny	DURATION[6]
+THIRD	ovn_dilemma_grudge_occupy	906951700563	TREASURY	AMOUNT[-375]
+FOURTH	ovn_dilemma_grudge_occupy	906951700564	TREASURY	AMOUNT[0]
+THIRD	ovn_dilemma_grudge_occupy	906951700565	ADD_ANCILLARY	RANDOM_ANCILLARY;TARGET_OWNING_FACTION
+FIRST	ovn_dilemma_rotblood_skit	906951700566	ovn_dilemma_rotblood_skit	DURATION[5]
+SECOND	ovn_dilemma_rotblood_skit	906951700567	ovn_dilemma_rotblood_skit	DURATION[5]
+THIRD	ovn_dilemma_rotblood_skit	906951700568	ovn_dilemma_rotblood_skit	DURATION[5]
+FIRST	ovn_dilemma_arb_excavation	906951700569	ADD_ANCILLARY	RANDOM_ANCILLARY;TARGET_OWNING_FACTION
+FIRST	ovn_dilemma_arb_excavation	906951700570	TREASURY	AMOUNT[5000]
+FIRST	ovn_dilemma_alb_alt_leader	906951700571	ovn_dilemma_alb_current_leader	DURATION[1]
+SECOND	ovn_dilemma_alb_alt_leader	906951700572	ovn_dilemma_alb_alt_leader	DURATION[1]

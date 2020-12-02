@@ -1,0 +1,7 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+true				ovn_arb_cav_jezzail_camel	all_units_excluding_guerrilla_deployment
+false				ovn_arb_cav_jezzail_camel	mp_cap_missile_cav_chariots
+true				ovn_arb_cav_archer_camel	all_units_excluding_guerrilla_deployment
+false				ovn_arb_cav_archer_camel	mp_cap_missile_cav_chariots
+true				ovn_arb_cav_lancer_camel	all_units_excluding_guerrilla_deployment

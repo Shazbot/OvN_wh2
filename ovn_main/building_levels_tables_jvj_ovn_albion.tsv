@@ -1,0 +1,14 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+ovn_albion_military_1	ovn_albion_military	0	1	1000	0		false	0	0	0	0	false				true	ovn_albion_military	true	0.0	0	true	1		true	0	0
+ovn_albion_military_2	ovn_albion_military	1	2	2000	0		false	0	0	0	0	false				true	ovn_albion_military	true	0.0	0	true	2		true	0	0
+ovn_albion_military_3	ovn_albion_military	2	3	4000	0		false	0	0	0	0	false				true	ovn_albion_military	true	0.0	0	true	3		true	0	0
+ovn_albion_outpost_military_1	ovn_albion_outpost_military	0	1	500	0		false	0	0	0	0	false				true	ovn_albion_outpost_military	false	0.0	0	true	1		true	0	0
+ovn_albion_outpost_military_2	ovn_albion_outpost_military	1	2	1000	0		false	0	0	0	0	false				true	ovn_albion_outpost_military	false	0.0	0	true	2		true	0	0
+ovn_albion_outpost_military_3	ovn_albion_outpost_military	2	3	1500	0		false	0	0	0	0	false				true	ovn_albion_outpost_military	false	0.0	0	true	3		true	0	0
+ovn_albion_outpost_stables_1	ovn_albion_outpost_stables	0	1	500	0		false	0	0	0	0	false				true	ovn_albion_outpost_stables	false	0.0	0	true	1		true	0	0
+ovn_albion_outpost_stables_2	ovn_albion_outpost_stables	1	2	1000	0		false	0	0	0	0	false				true	ovn_albion_outpost_stables	false	0.0	0	true	2		true	0	0
+ovn_albion_outpost_stables_3	ovn_albion_outpost_stables	2	3	1500	0		false	0	0	0	0	false				true	ovn_albion_outpost_stables	false	0.0	0	true	3		true	0	0
+ovn_albion_stables_1	ovn_albion_stables	0	2	1000	0		false	0	0	0	0	false				true	ovn_albion_stables	true	0.0	0	true	1		true	0	0
+ovn_albion_stables_2	ovn_albion_stables	1	3	2000	0		false	0	0	0	0	false				true	ovn_albion_stables	true	0.0	0	true	2		true	0	0
+ovn_albion_stables_3	ovn_albion_stables	2	4	3000	0		false	0	0	0	0	false				true	ovn_albion_stables	true	0.0	0	true	3		true	0	0

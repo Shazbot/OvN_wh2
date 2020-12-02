@@ -1,0 +1,5 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_Animal_Rearing_1	ovn_Animal_Rearing_2
+ovn_half_industry_1	ovn_half_industry_2
+ovn_half_industry_2	ovn_half_industry_3

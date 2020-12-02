@@ -1,0 +1,5 @@
+unit_set_unit_attribute_junctions_tables	0
+key	unit_attribute	unit_set
+elo_toostupid_psy	immune_to_psychology	dlc08_nor_trolls
+elo_scourge_fat	fatigue_immune	elo_northern_scourge
+elo_danger_gue	guerrilla_deploy	elo_danger_below

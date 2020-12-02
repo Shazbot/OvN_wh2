@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_tooltip_text_elo_hand_terror_past	An ancient scourge of the living has been unleashed and only the mindless can escape the creeping feeling of desperation and horror caused by the Hand of Nagash.	true
+unit_abilities_onscreen_name_elo_hand_terror_past	Ancient Horror	true
+unit_abilities_tooltip_text_elo_hand_judge_executioner	To be honest it is mostly executioner. Everyone who stands against Nagash is guilty by default.	false
+unit_abilities_onscreen_name_elo_hand_judge_executioner	Jury, Judge and Executioner	false
+unit_abilities_tooltip_text_elo_hand_vortex	Focussing the winds of death around him, the Hand of Nagash can unleash a devestating wave of destruction.	false
+unit_abilities_onscreen_name_elo_hand_vortex	Call of Death	false
+unit_abilities_tooltip_text_elo_hand_punished_one	The Hand of Nagash has strapped the torso of a most hated foe to his halberd. Though the name of this unlucky person is lost to time, it is said that the terror and pain of his last moments still radiates from his tortured remains.	false
+unit_abilities_onscreen_name_elo_hand_punished_one	The Punished One	false
+unit_abilities_tooltip_text_elo_hungering_blade	When the Hand of Nagash fades, the forbidden runes of this Blade activate, using the life of his enemies to preserve his unholy existance.	false
+unit_abilities_onscreen_name_elo_hungering_blade	The Hungering Blade	false

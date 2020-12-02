@@ -1,0 +1,31 @@
+Loc PackedFile	1
+key	text	tooltip
+mct_lost_factions_mod_title	OvN Lost Factions	true
+mct_lost_factions_mod_desc	"Lost Factions" adds new and interesting races to the campaign map and are playable with Mixu's Unlocker (Which is a required mod).	true
+mct_lost_factions_enable_txt	Enable AI led Lost Factions	true
+mct_lost_factions_enable_tt	Enables individual options for all AI led lost factions or disables all AI led Lost Factions.	true
+mct_lost_factions_section_options	Enable or disable AI led factions individually	true
+mct_lost_factions_amazon_txt	Amazons	true
+mct_lost_factions_amazon_tt	Enables or disables AI led Amazons.	true
+mct_lost_factions_araby_txt	Araby	true
+mct_lost_factions_araby_tt	Enables or disables AI led Araby factions.	true
+mct_lost_factions_blood_dragon_txt	Blood Dragons	true
+mct_lost_factions_blood_dragon_tt	Enables or disables AI led Blood Dragons.	true
+mct_lost_factions_citadel_txt	Citadel of Dusk	true
+mct_lost_factions_citadel_tt	Enables or disables AI led Citadel of Dusk.	true
+mct_lost_factions_halflings_txt	Halflings	true
+mct_lost_factions_halflings_tt	Enables or disables AI led Halflings.	true
+mct_lost_factions_trollz_txt	Trolls	true
+mct_lost_factions_trollz_tt	Enables or disables AI led Trolls.	true
+mct_lost_factions_treeblood_txt	Harbinger of Doom (Fimir)	true
+mct_lost_factions_treeblood_tt	Enables or disables AI led KHarbinger of Doom faction.	true
+mct_lost_factions_albion_txt	Albion	true
+mct_lost_factions_albion_tt	Enables or disables AI led Albion factions.	true
+mct_lost_factions_fimir_txt	Servants of Fimulneid (Fimir)	true
+mct_lost_factions_fimir_tt	Enables or disables AI led Servants of Fimulneid faction.	true
+mct_lost_factions_grudgebringers_txt	Grudgebringers	true
+mct_lost_factions_grudgebringers_tt	Enables or disables AI led Grudgebringers.	true
+mct_lost_factions_dreadking_txt	Dread King	true
+mct_lost_factions_dreadking_tt	Enables or disables AI led Dread King faction.	true
+mct_lost_factions_rotblood_txt	Rotblood Tribe	false
+mct_lost_factions_rotblood_tt	Enables or disables AI led Rotblood Tribe.	false

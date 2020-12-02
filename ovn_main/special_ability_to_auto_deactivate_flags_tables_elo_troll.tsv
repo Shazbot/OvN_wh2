@@ -1,0 +1,7 @@
+special_ability_to_auto_deactivate_flags_tables	0
+deactivate_flag	special_ability
+health_below_50%_base	rock_solid
+morale_is_broken_or_lower	rock_solid
+engaged_in_melee	run_and_shakeoff
+unit_is_not_in_forest	difficult_to_spot
+enemies_in_intercept_range	difficult_to_spot

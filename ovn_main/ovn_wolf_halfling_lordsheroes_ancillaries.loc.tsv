@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_master_chef_wagon	Some Master Chefs choose to carry their kitchen onto the battlefield in a chuck wagon.	true
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_moot_general_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	true
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_moot_general_poultry	Many Halfling commanders choose to ride the largest Moot Cockerel specimens into battle.	true
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_sheriff_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_master_chef_wagon	Chuck Wagon	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_moot_general_pig	Battle Swine	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_moot_general_poultry	Battle Cockerel	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_sheriff_pig	Battle Swine	true

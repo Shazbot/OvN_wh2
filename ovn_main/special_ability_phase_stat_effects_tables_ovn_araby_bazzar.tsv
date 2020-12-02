@@ -1,0 +1,8 @@
+special_ability_phase_stat_effects_tables	3
+phase	value	stat	how
+ovn_arb_baz_wep_08_matyr_shard_ability	1.9	stat_melee_damage_base	mult
+ovn_arb_baz_wep_08_matyr_shard_ability	44.0	stat_melee_attack	add
+ovn_arb_baz_wep_10_vengeful_sword_heal	1.8	stat_melee_damage_base	mult
+ovn_arb_baz_arm_09_faith_shield_ability	-12.0	stat_melee_attack	add
+ovn_arb_baz_arm_09_faith_shield_ability	0.5	stat_melee_damage_base	mult
+ovn_arb_baz_escape	10.0	stat_morale	add

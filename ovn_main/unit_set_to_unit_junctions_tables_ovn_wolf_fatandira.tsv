@@ -1,0 +1,10 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				arb_fatandira	emp_characters
+false				arb_fatandira_warhorse	emp_characters
+false				OtF_khemri_rangers	arb_archers_mounted_nomads
+false				ovn_jag	arb_archers_mounted_nomads
+false				ovn_jag_ror	arb_archers_mounted_nomads
+false				ovn_arb_cav_lancer_camel	arb_archers_mounted_nomads
+false				ovn_arb_cav_archer_camel	arb_archers_mounted_nomads
+false				ovn_arb_cav_jezzail_camel	arb_archers_mounted_nomads

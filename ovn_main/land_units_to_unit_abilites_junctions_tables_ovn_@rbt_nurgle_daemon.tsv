@@ -1,0 +1,5 @@
+land_units_to_unit_abilites_junctions_tables	0
+ability	land_unit
+bacr_unit_passive_unstable_mark_ii_daemon	rbt_nurgle_daemon
+bacr_unit_passive_unstable_daemon	rbt_nurgle_daemon
+wh_main_unit_passive_regeneration	rbt_nurgle_daemon

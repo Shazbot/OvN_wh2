@@ -1,0 +1,30 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_nor_trollz	false	elo_armoured_icetrolls	true	true				false
+wh2_main_nor_trollz	false	wh_dlc01_chs_mon_trolls_1	true	true				false
+wh2_main_nor_trollz	false	elo_southern_trolls	true	true				false
+wh2_main_nor_trollz	false	elo_red_avalanche	true	true				false
+wh2_main_nor_trollz	false	elo_river_trolls	true	true				false
+wh2_main_nor_trollz	false	elo_mountain_trolls	true	true				false
+wh2_main_nor_trollz	false	elo_shipwreckers	true	true				false
+wh2_main_nor_trollz	false	elo_kin	true	true				false
+wh2_main_nor_trollz	true	elo_cha_troll_lord	true	true	ui/portraits/portholes/no_culture/elo_cha_troll_lord_01.png	elo_cha_troll_lord_01	wh_dlc01_chs_cha_chaos_lord_2	false
+wh2_main_nor_trollz	false	elo_forest_trolls	true	true				false
+wh2_main_nor_trollz	false	elo_bile_trolls	true	true				false
+wh2_main_nor_trollz	false	elo_snow_troll	true	true				false
+wh2_main_nor_trollz	false	wh_main_grn_cha_goblin_big_boss_0	true	true	ui/portraits/portholes/wh_main_grn_greenskins/grn_goblin_bigboss_campaign_01_0.png	wh_main_uniform_grn_goblin_big_boss_campaign_01	wh_main_grn_cha_goblin_big_boss_0	false
+wh2_main_nor_trollz	false	wh_main_grn_cha_goblin_big_boss_1	true	true	ui/portraits/portholes/wh_main_grn_greenskins/grn_goblin_bigboss_campaign_01_0.png	wh_main_uniform_grn_goblin_big_boss_campaign_01	wh_main_grn_cha_goblin_big_boss_1	false
+wh2_main_nor_trollz	false	wh_main_grn_cha_goblin_big_boss_2	true	true	ui/portraits/portholes/wh_main_grn_greenskins/grn_goblin_bigboss_campaign_01_0.png	wh_main_uniform_grn_goblin_big_boss_campaign_01	wh_main_grn_cha_goblin_big_boss_2	false
+wh2_main_nor_trollz	false	wh_main_grn_cha_night_goblin_shaman	true	true	ui/portraits/portholes/wh_main_grn_greenskins/grn_night_goblin_shaman_campaign_01_0.png	wh_main_uniform_grn_night_goblin_shaman_campaign_01	wh_main_grn_cha_night_goblin_shaman	false
+wh2_main_nor_trollz	true	elo_chief_ugma	true	true	ui/portraits/portholes/no_culture/elo_chief_ugma.png		elo_chief_ugma	true
+wh2_main_nor_trollz	false	wh2_dlc15_grn_mon_river_trolls_0_no_scrap	true	true				false
+wh2_main_nor_trollz	false	wh2_dlc15_grn_mon_stone_trolls_0_no_scrap	true	true				false
+wh2_main_nor_trollz	false	wh2_dlc15_grn_cha_river_troll_hag_0	true	true	ui/portraits/portholes/wh_main_grn_greenskins/grn_troll_hag_campaign_01_0.png	wh2_dlc15_grn_river_troll_hag_campaign_01	wh2_dlc15_grn_cha_river_troll_hag_0	false
+wh2_main_nor_trollz	false	ovn_troll_mon_wyvern	true	true				false
+wh2_main_nor_trollz	false	elo_carrion_gobbo_bow	true	true				false
+wh2_main_nor_trollz	false	elo_carrion_squig_hoppers	true	true				false
+wh2_main_nor_trollz	false	elo_carrion_gobbo_melee	true	true				false
+wh2_main_nor_trollz	false	elo_night_trolls_ror	true	true				false
+wh2_main_nor_trollz	false	wh2_dlc15_grn_mon_river_trolls_ror_0	true	true				false
+wh2_main_nor_trollz	false	ovn_trl_inf_stone_throw_troll	true	true				false
+wh2_main_nor_trollz	false	elo_lava_trolls	true	true				false

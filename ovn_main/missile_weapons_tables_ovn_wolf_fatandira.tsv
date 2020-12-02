@@ -1,0 +1,3 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+arb_fatandira_bow	false	arb_fatandira_bow_arrow	bow_LH	false

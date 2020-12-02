@@ -1,0 +1,4 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	ak_fake_skill_point_dump		16
+		x	1	aky_chief_wolf_terrorgheist		19

@@ -1,0 +1,3 @@
+battle_set_piece_armies_characters_tables	7
+character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+1	belakor	247258464	wh_dlc05_lore_shadows	100	247258465	belakor	general	belakor		8070	wh_dlc07_skill_node_set_chs_sorcerer_lord_shadows	true

@@ -1,0 +1,4 @@
+warscape_animated_tables	2
+key	texture_filename_base	category
+arb_ship	warmachines\tex	animation
+arb_ship_destruct	warmachines\tex	animation

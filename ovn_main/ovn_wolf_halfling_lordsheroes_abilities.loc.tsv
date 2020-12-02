@@ -1,0 +1,15 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_onscreen_name_hlf_master_chef_regeneration_passive_aura	Stir the Pot	true
+unit_abilities_tooltip_text_hlf_master_chef_regeneration_passive_aura	So long as the Master Chef is out of combat, he will keep cooking revitalising food for his fellow Halflings. 	true
+unit_abilities_onscreen_name_hlf_master_chef_earth_blood	Beef & Beer Pie	true
+unit_abilities_tooltip_text_hlf_master_chef_earth_blood	"A little bit of Rhya’s fancy"	true
+unit_abilities_onscreen_name_hlf_master_chef_earth_blood_upgraded	Rumster’s Special	true
+unit_abilities_tooltip_text_hlf_master_chef_earth_blood_upgraded	The Rumster Clan of Halflings are known to make anything put in a pie taste good... even each other	true
+unit_abilities_onscreen_name_hlf_master_chef_hot_spices	Hot Spices	true
+unit_abilities_tooltip_text_hlf_master_chef_hot_spices	"One of the longshanks brought these mean little buggers from Lustria... Why don't you have a taste?"	true
+unit_abilities_onscreen_name_hlf_master_chef_flush_soup	Spill the Soup!	true
+unit_abilities_tooltip_text_hlf_master_chef_flush_soup	"So you want to get my food? WELL, CHOKE ON IT!"	true
+unit_abilities_onscreen_name_hlf_master_chef_epinephrine	Epinephrine	true
+unit_abilities_tooltip_text_hlf_master_chef_epinephrine	Go live forever!	true
+special_ability_phases_onscreen_name_hlf_master_chef_contact_poisoned	[[col:red]][[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Deadly Poison Arrow！\\n[[img:icon_hp]][[/img]]Sustained Damage[[/col]]	true

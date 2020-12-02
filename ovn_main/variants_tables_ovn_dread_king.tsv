@@ -1,0 +1,29 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+dread_wh2_dlc09_tmb_skeleton_armoured_sword_shield		dread_tmb_skeleton_armoured_sword_shield	hu1\tmb\tmb_skeleton_warriors_armored\imposter\tmb_skeleton_armoured_sword_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_skeleton_spear_shield		dread_tmb_skeleton_spear_shield	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_spear_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_skeleton_sword_shield		dread_tmb_skeleton_sword_shield	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_sword_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_tomb_guard_halberd_shield		dread_tmb_tomb_guard_halberd_shield	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_halberd_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_tomb_guard_sword_shield		dread_tmb_tomb_guard	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_skeleton_sword_bow		dread_tmb_skeleton_sword_bow	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_warriors_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+elo_dread_centurion		elo_dread_centurion		1.1	1.1	0.05	
+elo_dread_centurion_horse		elo_dread_centurion_horse		1.1	1.1	0.05	
+elo_dread_centurion_barded_horse		elo_dread_centurion_barded_horse		1.1	1.1	0.05	
+dread_chariot_driver		dread_chariot_driver		1.0	1.0	0.0	
+elo_dread_centurion_chariot		elo_dread_centurion_chariot		1.0	1.0	0.0	
+dread_legion_barded_skeletal_steed		dread_legion_barded_skeletal_steed		1.0	1.0	0.0	
+dread_chariot_steed		dread_chariot_steed		1.0	1.0	0.0	
+elo_tomb_guardian		elo_tomb_guardian		1.1	1.1	0.05	
+elo_tomb_guardian_2h_waepons		elo_tomb_guardian_2h_waepons		1.1	1.1	0.05	
+elo_tomb_guardian_spears		elo_tomb_guardian_spears		1.1	1.1	0.05	
+elo_liche_general		elo_liche_general		1.1	1.1	0.0	
+elo_tomb_guardian_archers		elo_tomb_guardian_archers		1.1	1.1	0.0	
+elo_dread_larenscheld		elo_dread_larenscheld		1.1	1.1	0.0	
+elo_dread_larenscheld_wright		vmp_ghost_cairnwraith		1.1	1.1	0.0	
+elo_dread_larenscheld_wright_perfect		elo_dread_ghost_larenscheld		1.1	1.1	0.0	
+Dread_King		dread_king		1.3	1.3	0.0	
+Dread_King_2	VariantMeshes\wh_variantmodels\dr1\vmp\vmp_zombie_dragon\tech	dread_king		1.0	1.0	0.0	
+black_grail_knights_tmb		black_grail_knights_tmb		1.0	1.0	0.0	
+ovn_dkl_skeleton_giant		dkl_skeleton_giant		1.0	1.0	0.0	
+elo_hand_of_nagash		elo_hand_of_nagash		1.2	1.2	0.0	
+elo_dread_mummy		elo_dread_mummy		1.0	1.0	0.05	

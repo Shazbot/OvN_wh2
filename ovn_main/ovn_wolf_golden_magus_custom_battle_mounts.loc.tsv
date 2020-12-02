@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+units_custom_battle_mounts_mount_name_arb_golden_magusarb_golden_magus_camel	Camel	true
+units_custom_battle_mounts_localised_description_arb_golden_magusarb_golden_magus_camel	Though vigorous and spry for his old age, the Golden Magus often rides to battle on one of his many camels - out of flamboyance if anything else.	true
+units_custom_battle_mounts_mount_name_arb_golden_magusarb_golden_magus_skiff	Djinn Skiff	false
+units_custom_battle_mounts_localised_description_arb_golden_magusarb_golden_magus_skiff	Much like the Magus' infamous flagship, this enchanted skiff is proof of his mastery over the Djinn. Held "afloat" on the air by servile Lesser Tempest Djinn oarsmen, this is one of the Golden Magus' favourite ways to ride to battle.	false

@@ -1,0 +1,7 @@
+agent_subtype_subculture_overrides_tables	5
+associated_unit_override	subculture	subtype	agent	icon
+	wh_main_sc_nor_fimir	wh_dlc08_nor_fimir_balefiend_fire	dignitary	
+	wh_main_sc_nor_fimir	grn_goblin_great_shaman	wizard	
+	wh_main_sc_nor_troll	grn_goblin_great_shaman	wizard	
+	wh_main_sc_nor_troll	wh2_dlc15_grn_river_troll_hag	runesmith	
+	wh_main_sc_nor_fimir	wh2_dlc15_grn_river_troll_hag	runesmith	

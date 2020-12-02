@@ -1,0 +1,39 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_ovn_effect_ability_enable_blessing_of_the_elements	Passive ability: "Blessing of the Elements"	true
+effects_description_ovn_effect_magic_desert_enable_mirage	Spell: "Mirage"	true
+effects_description_ovn_effect_magic_desert_enable_mirage_upgraded	Overcast spell: "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_mirage	Cooldown: %+n% to "Mirage"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_mirage_upgraded	Miscast base chance: %+n% for "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_mirage	Winds of Magic cost: %n for "Mirage"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_mirage_upgraded	Winds of Magic cost: %n for "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike	Spell: "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_cooldown_sunstrike	Cooldown: %+n% to "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike_upgraded	Overcast spell: "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sunstrike_upgraded	Miscast base chance: %+n% for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike	Winds of Magic cost: %n for "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike_upgraded	Winds of Magic cost: %n for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm	Spell: "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_cooldown_sandstorm	Cooldown: %+n% to "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm_upgraded	Overcast spell: "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sandstorm_upgraded	Miscast base chance: %+n% for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm	Winds of Magic cost: %n for "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm_upgraded	Winds of Magic cost: %n for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand	Spell: "Quicksand"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand_upgraded	Overcast spell: "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_quicksand	Cooldown: %+n% to "Quicksand"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_quicksand_upgraded	Miscast base chance: %+n% for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand	Winds of Magic cost: %n for "Quicksand"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand_upgraded	Winds of Magic cost: %n for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands	Spell: "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands_upgraded	Overcast spell: "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_burning_hands	Cooldown: %+n% to "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_burning_hands_upgraded	Miscast base chance: %+n% for "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands	Winds of Magic cost: %n for "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands_upgraded	Winds of Magic cost: %n for "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn	Spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn_upgraded	Overcast spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_cooldown_curse_of_the_djinn	Cooldown: %+n% to "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_curse_of_the_djinn_upgraded	Miscast base chance: %+n% for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn	Winds of Magic cost: %n for "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn_upgraded	Winds of Magic cost: %n for "Curse of the Djinn Upgraded"	true

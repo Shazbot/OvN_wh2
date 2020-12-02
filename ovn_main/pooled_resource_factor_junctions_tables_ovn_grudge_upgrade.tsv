@@ -1,0 +1,4 @@
+pooled_resource_factor_junctions_tables	0
+unique_id	factor	resource
+ovn_grudge_loot	wh2_dlc12_resource_factor_loot	ovn_grudge_res
+ovn_grudge_upgrade	wh2_dlc15_resource_factor_unit_upgrade	ovn_grudge_res

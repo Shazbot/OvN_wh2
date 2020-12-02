@@ -1,0 +1,22 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+ovn_araby_tech_camel_armour	armour.png	4	armour.png	battle	true
+ovn_araby_tech_gunpowder_missle_dam	ranged_damage.png	4	ranged_damage.png	battle	true
+ovn_araby_tech_gunpowder_rel	ranged_damage.png	4	ranged_damage.png	battle	true
+ovn_araby_tech_state_inf_md	defence.png	4	defence.png	battle	true
+ovn_araby_tech_state_inf_arm	armour.png	4	armour.png	battle	true
+ovn_araby_tech_nomad_units_ma	melee.png	4	melee.png	battle	true
+ovn_araby_tech_nomad_units_sp	battle_movement.png	4	battle_movement.png	battle	true
+ovn_araby_tech_bow_units	ranged_damage.png	4	ranged_damage.png	battle	true
+ovn_araby_nomads_r7_mor	morale.png	4	morale.png	battle	true
+ovn_araby_nomads_r7_charge	charge.png	4	charge.png	battle	true
+ovn_araby_state_inf_r7_ma	melee.png	4	melee.png	battle	true
+ovn_araby_state_inf_r7_mor	morale.png	4	morale.png	battle	true
+ovn_araby_beasts_r7_mor	morale.png	4	morale.png	battle	true
+ovn_araby_beasts_r7_charge	charge.png	4	charge.png	battle	true
+ovn_araby_magic_r7	resistance_ward_save.png	4	resistance_ward_save.png	battle	true
+ovn_araby_tech_corasir_units_ma	melee.png	4	melee.png	battle	true
+ovn_araby_tech_corasir_units_upkeep	military_spending.png	4	military_spending.png	campaign	false
+ovn_araby_tech_slaves_units_ma	melee.png	4	melee.png	battle	true
+ovn_araby_tech_slave_units_cost	military_spending.png	4	military_spending.png	campaign	false
+ovn_araby_slave_production	slaves.png	4	military_spending.png	campaign	true

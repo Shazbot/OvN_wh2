@@ -1,0 +1,38 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_groupings_onscreen_grudgebringer_infantry	Heavy Infantry	true
+ui_unit_groupings_tooltip_grudgebringer_infantry	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_grudgebringer_cannon	Cannons	true
+ui_unit_groupings_tooltip_grudgebringer_cannon	Top of his marksmanship class at the Nuln Atillery College for a record three years running, Wolfgang 'Sureshot' Swartzkopf instills a winning confidence in the rest of his crew. After proving himself in the field he had a short stint as a lecturer in ballistics before being offered service with the mighty Great Cannon regiment.	true
+ui_unit_groupings_onscreen_grudgebringer_crossbow	Heavy Crossbowmen	true
+ui_unit_groupings_tooltip_grudgebringer_crossbow	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_grudgebringer_cavalry	Heavy Cavalry	true
+ui_unit_groupings_tooltip_grudgebringer_cavalry	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_keelers_longbows	Elite Archers	true
+ui_unit_groupings_tooltip_keelers_longbows	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_helmgart_bowmen	Elite Archers	true
+ui_unit_groupings_tooltip_helmgart_bowmen	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_dargrimm_firebeard_dwarf_warriors	Dwarf Axe Warriors	true
+ui_unit_groupings_tooltip_dargrimm_firebeard_dwarf_warriors	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_azguz_bloodfist_dwarf_warriors	Dwarf Axe Warriors	true
+ui_unit_groupings_tooltip_azguz_bloodfist_dwarf_warriors	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_urblab_rotgut_mercenary_ogres	Monstrous Infantry - Ogres	true
+ui_unit_groupings_tooltip_urblab_rotgut_mercenary_ogres	These massive creatures stand twice as tall as a man 	true
+ui_unit_groupings_onscreen_galed_elf_archers	Elite Archers	true
+ui_unit_groupings_tooltip_galed_elf_archers	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_elrod_wood_elf_glade_guards	Spear Infantry	true
+ui_unit_groupings_tooltip_elrod_wood_elf_glade_guards	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_treeman_knarlroot	Monster -Treeman	true
+ui_unit_groupings_tooltip_treeman_knarlroot	These extremely large creatures are incredibly strong and tough	true
+ui_unit_groupings_onscreen_black_avangers	Sword Infantry	true
+ui_unit_groupings_tooltip_black_avangers	Sword Infantry	true
+ui_unit_groupings_onscreen_carlsson_guard	Sword Infantry	true
+ui_unit_groupings_tooltip_carlsson_guard	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_carlsson_cavalry	Sword Cavalry	true
+ui_unit_groupings_tooltip_carlsson_cavalry	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_countess_guard	Halberdiers	true
+ui_unit_groupings_tooltip_countess_guard	These warriors are highly experienced and proficient fighters	true
+ui_unit_groupings_onscreen_vannheim_75th	Heavy Cavalry	true
+ui_unit_groupings_tooltip_vannheim_75th	Siegfried Vannheim is a well renowned mercenary captain	true
+ui_unit_groupings_onscreen_treeman_gnarl_fist	Monster -Treeman	true
+ui_unit_groupings_tooltip_treeman_gnarl_fist	These extremely large creatures are incredibly strong and tough	true

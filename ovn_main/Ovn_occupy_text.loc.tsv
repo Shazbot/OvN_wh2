@@ -1,0 +1,49 @@
+Loc PackedFile	1
+key	text	tooltip
+culture_settlement_occupation_options_tooltip_2205198900	Clear Ruins||You will be presented with a puzzle to solve; you will be rewarded if you successfully decipher it. Though your quest for such trinkets will bring the annoyance of the Dark Gods.	true
+culture_settlement_occupation_options_tooltip_2205198901	Root Corruption||Take this land in the name of the Dark Gods!	true
+culture_settlement_occupation_options_tooltip_2205198902	Do Nothing||Leave the settlement as it stands, as any craven fool would!	true
+culture_settlement_occupation_options_tooltip_2205198903	Subjugate & Enslave||You gain wealth from looting, but buildings in the settlement are damaged. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	true
+culture_settlement_occupation_options_tooltip_2205198904	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos alter is risen in it’s place, spewing corruption upon the land - much to our dark lords delight.	true
+culture_settlement_occupation_options_tooltip_2205198905	Root Corruption||With no regions under your control, you have the option to settle your army here.	true
+culture_settlement_occupation_options_tooltip_2205198906	Pillage & Enslave||You do not capture the settlement but instead steal wealth and damage buildings. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	true
+culture_settlement_occupation_options_tooltip_2205198907	Scavenge Ruins||You will be presented with a puzzle to solve; though I doubt a dim-witted troll like yourself can decipher it and reap the reward.	true
+culture_settlement_occupation_options_tooltip_2205198908	Make Sty||These ruins will make a good place to dump in.	true
+culture_settlement_occupation_options_tooltip_2205198909	Do Nothing||Leave the settlement as it stands.	true
+culture_settlement_occupation_options_tooltip_2205198910	Devour & Make Sty||You eat the locals and gain wealth from looting, but buildings in the settlement are damaged. All captives are eaten, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	true
+culture_settlement_occupation_options_tooltip_2205198911	Ground to Dust||All buildings are smashed and the occupants massacred and eaten.	true
+culture_settlement_occupation_options_tooltip_2205198912	Make Sty||With no dumpings grounds, you have the option to dump here.	true
+culture_settlement_occupation_options_tooltip_2205198913	Pillage & Devour||You do not capture the settlement but instead steal wealth, eat the locals and damage buildings. All captives are eaten, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	true
+culture_settlement_occupation_options_tooltip_2205198914	Scavenge Ruins||You will be presented with a puzzle to solve; with Fimúl's Eye we will reap its rewards.	true
+culture_settlement_occupation_options_tooltip_2205198915	Nest||Settle here and though it is a little bright and dry this is something we will soon remedy.	true
+culture_settlement_occupation_options_tooltip_2205198916	Do Nothing||Leave the settlement as it stands, as any craven cyclops would!	true
+culture_settlement_occupation_options_tooltip_2205198917	Enshroud||You gain wealth from looting, but buildings in the settlement are damaged. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	true
+culture_settlement_occupation_options_tooltip_2205198918	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos alter is risen in it’s place, spewing corruption upon the land, all in Fimúlneid’s name!	true
+culture_settlement_occupation_options_tooltip_2205198919	Resettle||With no regions we must settle, Fimúlneid commands it.	true
+culture_settlement_occupation_options_tooltip_2205198920	Pillage & Enslave||You do not capture the settlement but instead steal wealth and damage buildings. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	true
+culture_settlement_occupation_options_tooltip_2205198921	Study Ruins||You will be presented with a puzzle to solve; you will be rewarded if you successfully decipher it.	false
+culture_settlement_occupation_options_tooltip_2205198922	Settle||Your people have a new home.	false
+culture_settlement_occupation_options_tooltip_2205198923	Do Nothing||Leave the settlement as it stands.	false
+culture_settlement_occupation_options_tooltip_2205198924	Collect Tithe & Occupy||You gain wealth from the tithe, but buildings in the settlement are damaged. All captives are converted, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	false
+culture_settlement_occupation_options_tooltip_2205198925	Cleanse with Fire||All buildings are destroyed and the settlement is torched.	false
+culture_settlement_occupation_options_tooltip_2205198926	Resettle||With no regions currently under your control, you have the option to settle your people here.	false
+culture_settlement_occupation_options_tooltip_2205198927	Demand Offerings||You do not capture the settlement but instead take offerings in the form of gold and damage buildings. All captives are converted, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	false
+culture_settlement_occupation_options_tooltip_2205198928	Purify & Settle||{{tr:occupation_decision_occupy}}	false
+culture_settlement_occupation_options_tooltip_2205198932	Salvage Old-Ones Gifts||You will be presented with a puzzle to solve; you will be rewarded if you successfully decipher it.	false
+culture_settlement_occupation_options_tooltip_2205198933	Settle||Your people have a new home.	false
+culture_settlement_occupation_options_tooltip_2205198934	Do Nothing||Leave the settlement as it stands.	false
+culture_settlement_occupation_options_tooltip_2205198935	Cleanse||You gain wealth from the cleanse, but buildings in the settlement are damaged. All captives are sacrificed, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	false
+culture_settlement_occupation_options_tooltip_2205198936	Return to Gaia||All buildings are destroyed and the settlement is torched.	false
+culture_settlement_occupation_options_tooltip_2205198937	Resettle||With no regions currently under your control, you have the option to settle your people here.	false
+culture_settlement_occupation_options_tooltip_2205198938	Demand Offerings||You do not capture the settlement but instead take offerings in the form of gold and damage buildings. All captives are converted, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	false
+culture_settlement_occupation_options_tooltip_2205198939	Guardianship||{{tr:occupation_decision_occupy}}	false
+culture_settlement_occupation_options_tooltip_2205198940	Study Ruins||You will be presented with a puzzle to solve; you will be rewarded if you successfully decipher it.	false
+culture_settlement_occupation_options_tooltip_2205198941	Settle||Your people have a new home.	false
+culture_settlement_occupation_options_tooltip_2205198942	Do Nothing||Leave the settlement as it stands.	false
+culture_settlement_occupation_options_tooltip_2205198943	Loot & Occupy||You gain wealth from looting, but buildings in the settlement are damaged. All captives are converted, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	false
+culture_settlement_occupation_options_tooltip_2205198944	Raze||All buildings are destroyed and the settlement is torched.	false
+culture_settlement_occupation_options_tooltip_2205198945	Resettle||With no regions currently under your control, you have the option to settle your people here.	false
+culture_settlement_occupation_options_tooltip_2205198946	Demand Offerings||You do not capture the settlement but instead take offerings in the form of gold and damage buildings. All captives are converted, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	false
+culture_settlement_occupation_options_tooltip_2205198947	Occupy||{{tr:occupation_decision_occupy}}	false
+culture_settlement_occupation_options_tooltip_2205198948	Jehad||This land once belonged to our people, we reclaim it in the name of Araby, in the name of our gods!	false
+culture_settlement_occupation_options_tooltip_2205198949	Endow To Numas||Place the settlement under the control of our gracious masters.	true

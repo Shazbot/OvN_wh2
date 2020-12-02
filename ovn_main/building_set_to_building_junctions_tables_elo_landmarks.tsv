@@ -1,0 +1,6 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+elo_great_ogham		wh2_main_set_landmark	false
+elo_forge_old_ones		wh2_main_set_landmark	false
+elo_citadel_lead		wh2_main_set_landmark	false
+elo_dragon_crag		wh2_main_set_landmark	false

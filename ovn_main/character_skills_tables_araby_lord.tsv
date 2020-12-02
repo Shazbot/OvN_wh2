@@ -1,0 +1,35 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+item_talisman.png	Talisman	Talisman	Talisman	1	false	false	false	0.0	0
+mount_deathclaw.png	Mount	Mount	Mount	1	false	false	false	0.0	0
+item_weapon.png	sword	sword	sword	1	false	false	false	0.0	0
+item_armour.png	Helm	Helm	Helm	1	false	false	false	0.0	0
+character_diplomacy.png	Order_Buff	ORC HATE	Campaign Buff	0	false	false	false	0.0	0
+character_chaos_corruption.png	Chaos_Buff		Public Order Buff	0	false	false	false	0.0	0
+character_diplomacy.png	Araby_Lord_Buff		Ambush Master	0	true	false	false	5.0	0
+campaign_canopic_jars.png	Djinn		Public Order Buff	0	false	false	false	0.0	0
+mount_mammoth.png	Mount_Elephant	Mount	Mount	0	false	false	false	0.0	0
+battle_damage.png	ovn_buff_araby_nomads			0	false	false	false	0.0	0
+battle_ranged_damage.png	ovn_buff_araby_gunpowder			0	false	false	false	0.0	0
+battle_damage.png	ovn_araby_nomads_r7			0	false	false	false	0.0	0
+battle_defence.png	ovn_araby_state_inf_r7			0	false	false	false	0.0	0
+battle_attack.png	ovn_araby_beasts_r7	cav, camels,  elephants, giants, scorpion, promethean		0	false	false	false	0.0	0
+battle_ward_save.png	ovn_araby_magic_r7			0	false	false	false	0.0	0
+battle_ammo.png	ovn_buff_araby_bows			0	false	false	false	0.0	0
+battle_defence.png	ovn_buff_araby_state_inf			0	false	false	false	0.0	0
+character_attack.png	ovn_araby_ll_innate_02		Ambush Master	0	true	false	false	5.0	0
+campaign_pirate_cove.png	ovn_araby_ll_innate_03		Ambush Master	0	true	false	false	5.0	0
+campaign_slaves.png	ovn_araby_ll_innate_04		Ambush Master	0	true	false	false	5.0	0
+character_magic.png	ovn_araby_ll_innate_05		Ambush Master	0	true	false	false	5.0	0
+trait_araby.png	ovn_araby_ll_innate_06		Ambush Master	0	true	false	false	5.0	0
+wh2_main_unit_abilities_concealment_bombs.png	ovn_araby_ll_innate_07		Ambush Master	0	true	false	false	5.0	0
+mount_mammoth.png	ovn_araby_ll_innate_08		Ambush Master	0	true	false	false	5.0	0
+character_ranged_damage.png	ovn_araby_ll_innate_09		Ambush Master	0	true	false	false	5.0	0
+trait_araby.png	ovn_araby_ll_innate_10		Ambush Master	0	true	false	false	5.0	0
+item_arcane_item.png	rattlesnake_staff			0	false	false	false	0.0	0
+wh2_dlc09_lord_abilities_sand_storm.png	ovn_araby_tank_01			0	false	false	false	0.0	0
+character_armour.png	ovn_araby_tank_02			0	false	false	false	0.0	0
+character_morale.png	ovn_araby_tank_03			0	false	false	false	0.0	0
+wh2_main_lord_abilities_feint_and_reposte.png	ovn_araby_duel_01			0	false	false	false	0.0	0
+character_subterfuge.png	ovn_araby_duel_02			0	false	false	false	0.0	0
+wh2_main_unit_abilities_concealment_bombs.png	ovn_araby_duel_03			0	false	false	false	0.0	0

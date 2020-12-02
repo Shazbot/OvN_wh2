@@ -1,0 +1,4 @@
+mounts_tables	10
+key	animation	entity	audio_armour_type	variant	voiceover
+arb_fatandira_warhorse	hr1_warhorse	albion_warhorse_noble_entity	leather	arb_fatandira_warhorse	wh_main_vo_culture_Horse
+arb_fatandira_roc	bi1_eagle	wh_dlc05_wef_mon_great_eagle_blood	body	arb_fatandira_roc	wh_main_vo_culture_Hawk

@@ -1,0 +1,9 @@
+cdir_military_generator_unit_qualities_tables	1
+group_key	quality	unit_key
+Default_land_cavalry_melee	30	alb_cav_noble
+Default_land_cavalry_melee	30	alb_cav_noble_spear
+Default_land_infantry_melee	20	alb_viridian_champ
+Default_land_cavalry_melee	15	albion_riders_spear
+Default_land_command	10	bl_elo_dural_durak
+Default_land_command	10	bl_elo_dural_durak_horse
+Default_land_command	10	bl_elo_dural_durak_chariot

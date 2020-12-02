@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_bullet_point_enums_tooltip_troll_fodder	If Trolls feel down, frightened or have otherwise low morale they will devour this unit to stay in the fight longer.	true
+ui_unit_bullet_point_enums_onscreen_name_troll_fodder	Troll Fodder	true
+ui_unit_bullet_point_enums_tooltip_mocking_laughter	Night Trolls are known for their mocking laughter while they tear apart their opponents, intimidating their enemies that way.	true
+ui_unit_bullet_point_enums_onscreen_name_mocking_laughter	Mocking Laughter	true

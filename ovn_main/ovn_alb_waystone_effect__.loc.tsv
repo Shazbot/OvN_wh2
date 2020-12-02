@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_wh_main_effect_ovn_Waystone_1_dummy	Invasion Threat: Low	true
+effects_description_wh_main_effect_ovn_Waystone_2_dummy	Invasion Threat: Medium	true
+effects_description_wh_main_effect_ovn_Waystone_3_dummy	Invasion Threat: High	true
+effects_description_wh_main_effect_ovn_Waystone_global_dummy	The threat of the Dark Emissaries is extinguished.	true

@@ -1,0 +1,15 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_arb_golden_magus_enable_master_djinn	Ability: "Master of the Djinn"	true
+effects_description_arb_golden_magus_wishmaster_djinn_exp	Recruit rank: %+n for Arabyan Flying Carpets, Genies & Ifreets	true
+effects_description_arb_golden_magus_enable_burning_scimitar	Ability: "The Flaming Scimitar"	true
+effects_description_ovn_glibfoot_enable_adv_continues	Ability: "And the Adventure Continues!"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_enable	Army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_disable	Remove army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_hurricane_blades_enable	Army ability: "Hurricane of Blades"	true
+effects_description_arb_golden_magus_flaming_scimitar_royal_djinn_enable	Army ability: "Summon the Sultan of Flame"	true
+effects_description_arb_golden_magus_innate_djinn_upkeep	Upkeep: %+n% for Arabyan Flying Carpets, Genies & Ifreets	true
+effects_description_arb_golden_magus_diplomatic_relations_sartosa	Diplomatic relations: %+n with the faction of [[img:cst_pirates_of_sartosa]][[/img]]Pirates of Sartosa	true
+effects_description_arb_golden_magus_ship_growth	Flagship growth: %+n	true
+effects_description_arb_golden_magus_camel_mount	Unlocks mount: Camel	true
+effects_description_arb_golden_magus_skiff_mount	Unlocks mount: Djinn Skiff	true

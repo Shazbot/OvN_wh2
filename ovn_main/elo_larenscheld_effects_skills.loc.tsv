@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_larenscheld_ghost_matt	Melee Attack: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_mdef	Melee Defence: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_vsmall	Bonus vs Infantry: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_ward	Ward Save: %+n% for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_vlarge	Bonus vs Large: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_armour	Armour: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_morale	Leadership: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_wps	Weapon Strength: %+n for Larenscheld's ghost form	true

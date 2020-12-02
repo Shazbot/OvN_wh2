@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_description_grudge_bundle_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	true
+effect_bundles_localised_title_grudge_bundle_banner_of_arcane_warding	Banner of Arcane Warding	true
+effect_bundles_localised_description_grudge_bundle_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	true
+effect_bundles_localised_title_grudge_bundle_banner_of_wrath	Banner of Wrath	true
+effect_bundles_localised_description_grudge_bundle_banner_of_defiance	This powerful banner infuses the bearer's regiment with extra courage, making them braver and more determined. A regiment bearing this banner will never break from hand-to-hand combat and is immune to fear.	true
+effect_bundles_localised_title_grudge_bundle_banner_of_defiance	Banner of Defiance	true

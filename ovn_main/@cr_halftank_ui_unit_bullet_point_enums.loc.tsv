@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_bullet_point_enums_onscreen_name_soup_cannon	Soup Cannon	true
+ui_unit_bullet_point_enums_tooltip_soup_cannon	This unit shoots [[img:ui/battle ui/ability_icons/wh_main_unit_contact_souped.png]][[/img]]soup at enemy units, debuffing their [[img:icon_melee_attack]][[/img]]melee attack and [[img:icon_armour]][[/img]]armour for a long time.	true
+ui_unit_bullet_point_enums_onscreen_name_poor_ranged_damage	Poor Ranged Damage	true
+ui_unit_bullet_point_enums_tooltip_poor_ranged_damage	This unit's projectile does low[[img:ui/skins/default/icon_stat_ranged_damage.png]][[/img]]damage.	true

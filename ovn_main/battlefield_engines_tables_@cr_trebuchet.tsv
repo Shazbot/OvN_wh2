@@ -1,0 +1,3 @@
+battlefield_engines_tables	19
+destroyed_model	destruction_animation	engine_type	gun_animation_table	key	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	first_person	destruct_model	destruct_anim	destruct_meta
+warmachines\engines\arb_trebuchet\arb_trebuchet_01_destroyed.rigid_model_v2	brt_trebuchet_destruct	Generic_3_Crew	wm_trebuchet01	ovn_arb_art_trebuchet	wh_main_brt_trebuchet	arb_trebuchet	wh_main_brt_art_trebuchet						brt_field_trebuchet			

@@ -1,0 +1,4 @@
+cdir_military_generator_unit_qualities_tables	1
+group_key	quality	unit_key
+Default_land_command	10	elo_liche_general
+Default_land_infantry_missile_heavy	25	elo_tomb_guardian_archers

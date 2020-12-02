@@ -1,0 +1,3 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+araby_nomad_ranger_bow	false	araby_nomad_ranger_arrow	bow	false

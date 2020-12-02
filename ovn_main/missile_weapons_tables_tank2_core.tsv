@@ -1,0 +1,5 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+wh_main_dwf_dwarf_tank_cannon_ball	false	wh_dwf_dwarf_tank_cannon_ball	cannon	false
+wh_main_dwf_dwarf_tank_steam_gun	false	wh_dwf_dwarf_tank_steam_shot	steamgun_tank	true
+hotpot	false	hotpot	cannon	false

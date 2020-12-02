@@ -1,0 +1,4 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	ovn_araby_ll				false	true	ovn_araby_ll	1.1
+general	ovn_araby_ll_2				false	true	ovn_araby_ll	1.1

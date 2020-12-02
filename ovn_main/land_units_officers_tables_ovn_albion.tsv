@@ -1,0 +1,7 @@
+land_units_officers_tables	4
+key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+albion_chariot_officer							front	albion_chariot_officer
+albion_chariot_officer_lord							front	albion_chariot_officer_lord
+albion_chariot_officer_chief							front	albion_chariot_officer_chief
+albion_morrigan_bird_officer	albion_morrigan_bird_rider						front	
+bl_elo_dural_durak_chariot							front	bl_elo_dural_durak_chariot

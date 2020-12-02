@@ -1,0 +1,8 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	elo_dread_centurion_horse		3
+		x	1	dread_legion_barded_skeletal_steed		6
+		x	1	dread_chariot_skeletal_steed		9
+		x	1	dread_we_are_legion		9
+		x	1	dread_eternal_march		9
+		x	1	dread_blessing_nagash		9

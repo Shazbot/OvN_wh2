@@ -1,0 +1,5 @@
+ancillaries_tables	16
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped
+ovn_bd_crimson_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false
+ovn_bd_blood_chalice	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	1		false
+ovn_anc_magic_standard_blood_dragon	wh2_main_anc_magic_standard_the_blood_banner	.	true	false	false	1	0	9999			true	false	false	general	16	30	30	50	true		ovn_anc_magic_standard_blood_dragon	200	0	banner	false

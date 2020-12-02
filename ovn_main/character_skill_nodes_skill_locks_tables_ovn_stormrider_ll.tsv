@@ -1,0 +1,4 @@
+character_skill_nodes_skill_locks_tables	0
+character_skill	character_skill_node	level
+ovn_as_ulthuan_Buff	wh_main_skill_node_hef_stormrider_unique_13	1
+ovn_as_lustira_Buff	wh_main_skill_node_hef_stormrider_unique_14	1

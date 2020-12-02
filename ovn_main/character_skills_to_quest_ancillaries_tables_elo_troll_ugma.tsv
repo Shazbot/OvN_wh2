@@ -1,0 +1,4 @@
+character_skills_to_quest_ancillaries_tables	1
+ancillary	skill	use_quest_for_prefix
+anc_adventurer_trinkets	ugma_trinkets	false
+anc_resevoir_stone	resevoir_stone_hammer	false

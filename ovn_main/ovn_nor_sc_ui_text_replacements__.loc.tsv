@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_text_replacements_localised_text_wh_event_feed_string_conquest_province_secured_description_wh_main_sc_nor_albion	We have attained complete control of this [[url:script_link_campaign_provinces]][[tooltip:{{tt:tooltip_campaign_provinces}}]]province[[/tooltip]][[/url]].	true
+ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_description_wh_main_sc_nor_albion	The more warbands you field, the harder it becomes to maintain them all. As supply lines become more complex, gold and supplies will ‘go missing’ -  the chieftains having little idea where they may have gone...	true
+wh_main_sc_nor_albion	WHAT AND WHERE DIS. The men and monsters of the north have long sought to overthrow the civilisations of the south, but have always been thrown back to their frozen wastelands. But no more! Now, under your control, the Norscan hordes have been unleashed upon the Old World. The Chaos Gods gaze admiringly falls upon the leader of this cataclysmic event: you!	true
+ui_text_replacements_localised_text_chaos_champion_name_wh_main_sc_nor_albion	YOUR CHAMP UI TEXT REP	true
+ui_text_replacements_localised_text_cannot_build_exceeds_maximum_settlement_level_wh_main_sc_nor_albion	[[col:red]]The settlement chain in this region cannot be built to a high enough tier to construct this building.[[/col]]	true
+ui_text_replacements_localised_text_building_required_tech_tooltip_wh_main_sc_nor_albion	In order to research this technology, this settlement must be captured and held for a turn.	true

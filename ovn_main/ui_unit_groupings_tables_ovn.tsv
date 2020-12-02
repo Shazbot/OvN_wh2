@@ -1,0 +1,6 @@
+ui_unit_groupings_tables	1
+icon	key	parent_group
+cavalry	ovn_heavy_cav	cavalry_chariots
+wh_dlc08_nor_chaos_war_mammoth	ovn_elephant	monster_beasts
+infantry_sword	ovn_shock_infantry	infantry
+wh2_main_lore_plague	ovn_rbt_ch_blightstormer	heroes_agents

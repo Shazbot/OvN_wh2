@@ -1,0 +1,9 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				arb_golden_magus	emp_characters
+false				arb_golden_magus_camel	emp_characters
+false				arb_golden_magus_skiff	emp_characters
+false				arb_golden_magus_skiff	wh2_mp_single_entity_monsters
+false				ovn_arb_mon_genie_summoned	wh2_mp_single_entity_monsters
+false				arb_sultan_of_flame	wh2_mp_single_entity_monsters
+false				arb_sultan_of_flame	mp_set_wh2_dlc14_campaign_exclusive

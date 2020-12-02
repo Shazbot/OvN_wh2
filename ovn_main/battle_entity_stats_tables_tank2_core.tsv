@@ -1,0 +1,4 @@
+battle_entity_stats_tables	2
+key	primary_melee_weapon	primary_missile_weapon
+wh_main_dwf_dwarf_tank_turret		wh_main_dwf_dwarf_tank_steam_gun
+ovn_mon_mammoth_rider		wh_main_brt_longbow

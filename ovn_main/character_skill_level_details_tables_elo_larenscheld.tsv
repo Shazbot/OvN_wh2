@@ -1,0 +1,6 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	elo_skill_death		5
+		x	1	elo_true_wraith		14
+		x	1	elo_death_beyond		19
+		x	1	luthor_the_hunchback		11

@@ -1,0 +1,6 @@
+frontend_faction_effect_groups_tables	0
+campaign	faction_leader	group_key	ui_section
+	wh2_main_political_party_nor_albion	ovn_albion	faction_traits
+	wh2_main_political_party_nor_albion	ovn_albion	lord_traits
+	wh2_main_political_party_vor_nor_albion	ovn_albion_vor	faction_traits
+	wh2_main_political_party_vor_nor_albion	ovn_albion_vor	lord_traits

@@ -1,0 +1,3 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_text_replacements_localised_text_hp_campaign_description_loyalty	[[img:icon_loyalty]][[/img]]Loyalty is a measure of the willingness of a [[img:icon_general]][[/img]][[sl:campaign_lords]]Lord[[/sl]] of the [[sl:campaign_dark_elves]]Dark Elves[[/sl]], [[sl:campaign_skaven]]Skaven[[/sl]], Trolls or [[sl:campaign_vampire_coast]]Vampire Coast[[/sl]] to follow the leader of his or her [[sl:campaign_factions]]faction[[/sl]]. Should a Lord’s loyalty reach 0 they will rebel, taking their [[sl:campaign_armies]]army[[/sl]] with them to form a new faction or as trolls abandon your faction..	true

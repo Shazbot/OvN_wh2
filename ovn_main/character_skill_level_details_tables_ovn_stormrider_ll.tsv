@@ -1,0 +1,8 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	ovn_as_starblade		9
+		x	1	ovn_as_armour		7
+		x	1	ovn_as_Hoeth_Talisman		5
+		x	1	skill_sharpclaw		11
+			1	ovn_as_lustira_Buff		13
+			1	ovn_as_ulthuan_Buff		6

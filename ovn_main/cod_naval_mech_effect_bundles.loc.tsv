@@ -1,0 +1,70 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_cod_threat_vhigh_dummy	Amanar Alert: Threat Level Severe & Supplies Barren	false
+effects_description_cod_threat_high_dummy	Nadrur Alert: Threat Level High & Supplies Low	false
+effects_description_cod_threat_vlow_dummy	Histo Alert: Threat Level Fanciful & Supplies Plentiful	false
+effects_description_cod_threat_low_dummy	Ildra Alert: Threat Level Low & Supplies Stable	false
+effect_bundles_localised_description_ovn_cod_naval_defender_all_1	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 69%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_10	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 100%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_2	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 72%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_3	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 76%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_4	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 79%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_5	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 82%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_6	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 86%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_7	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 89%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_8	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 93%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_all_9	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 96%)[[/col]]\\n\\n[[col:green]]Supplies flow freely from Eatine to our outposts[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_1	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 31%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_10	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 1%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_2	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 28%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_3	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 24%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_4	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 21%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_5	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 18%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_6	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 14%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_7	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 11%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_8	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 7%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_inner_9	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 4%)[[/col]]\\n\\n[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_1	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 65%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_10	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 35%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_2	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 62%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_3	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 59%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_4	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 55%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_5	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 52%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_6	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 48%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_7	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 45%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_8	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 41%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_description_ovn_cod_naval_defender_outer_9	{{tr:ovn_cod_naval_defender_message}}\\n\\n[[col:yellow]](Naval Supply Line Stability: 38%)[[/col]]\\n\\n[[col:yellow]]Habours of Eatine have fallen to our enemies[[/col]]\\n\\nCurrent faction effects:	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_1	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_10	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_2	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_3	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_4	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_5	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_6	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_7	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_8	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_all_9	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_1	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_10	Naval Supply Line: [[col:red]]Blockaded[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_2	Naval Supply Line: [[col:red]]Rampant Piracy[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_3	Naval Supply Line: [[col:red]]Rampant Piracy[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_4	Naval Supply Line: [[col:red]]Rampant Piracy[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_5	Naval Supply Line: [[col:red]]Mutinous[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_6	Naval Supply Line: [[col:red]]Mutinous[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_7	Naval Supply Line: [[col:red]]Mutinous[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_8	Naval Supply Line: [[col:red]]Blockaded[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_inner_9	Naval Supply Line: [[col:red]]Blockaded[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_1	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_10	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_2	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_3	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_4	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_5	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_6	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_7	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_8	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_title_ovn_cod_naval_defender_outer_9	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_description_ovn_cod_power_of_authority	An Asuryan Legend has recently visited this region. Those lucky enough to have witnessed their presence are left in awe.	true
+effect_bundles_localised_title_ovn_cod_power_of_authority	Asuryan Legend in our midst!	true
+effect_bundles_localised_description_cod_influence	Word of your recent conquest, further securing the trade routes, has reached the Phoenix Court, gaining respect and influence.	true
+effect_bundles_localised_title_cod_influence	Mentioned in Dispatches	true

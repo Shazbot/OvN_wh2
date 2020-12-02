@@ -1,0 +1,8 @@
+ui_unit_bullet_point_unit_overrides_tables	0
+bullet_point	unit_key
+anti_infantry	ovn_finmor
+anti_infantry	ovn_finmor_belakor
+belakor_blessed	ovn_finmor_belakor
+finmor	ovn_finmor
+finmor	ovn_finmor_belakor
+frenzy	ovn_finmor_belakor

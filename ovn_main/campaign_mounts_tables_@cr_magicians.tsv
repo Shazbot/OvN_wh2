@@ -1,0 +1,3 @@
+campaign_mounts_tables	8
+animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
+cam_hr1_pegasus	ovn_cam_mnt_arb_magic_carpet	wh_arb_magic_carpet	1.0	vo_culture_None	false	0	false

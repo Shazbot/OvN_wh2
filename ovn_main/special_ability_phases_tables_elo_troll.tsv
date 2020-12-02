@@ -1,0 +1,14 @@
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+-1.0	negative	horrible_stench		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_main_character_passive_aura_of_pestilence		-1.0	false	false	true	0.0	
+-1.0	positive	rock_solid		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_metal_glittering_robe		-1.0	false	true	false	0.0	
+-1.0	negative	death_stench		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_main_character_passive_aura_of_pestilence		-1.0	false	false	true	0.0	
+30.0	positive	run_and_shakeoff		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_dlc10_waaagh		-1.0	false	true	true	0.0	
+-1.0	positive	order_protect		false	false	false	0.0	0.0	60000.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	order_squish		false	false	false	0.0	0.0	60000.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	false	0.0	
+-1.0	positive	order_aim_higher		false	false	false	0.0	0.0	60000.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	false	0.0	
+-1.0	positive	order_catch		false	false	true	0.0	0.0	60000.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	false	0.0	
+-1.0	positive	difficult_to_spot		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	false	0.0	
+-1.0	positive	stunted_regeneration		false	false	false	0.0	0.0	0.0	0.5	1	0.0	0	0	1	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+-1.0	negative	sickness_host		false	false	false	0.2	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_main_character_passive_aura_of_pestilence		-1.0	false	true	true	0.0	
+40.0	positive	temper_tantrum		true	false	false	-0.3	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	

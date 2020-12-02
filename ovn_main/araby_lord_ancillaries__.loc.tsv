@@ -1,0 +1,14 @@
+Loc PackedFile	1
+key	text	tooltip
+ancillaries_colour_text_sword	A fine-blade presented to Arabyan Warriors who have proved themselves in battle, gaining them respect from all.	true
+ancillaries_colour_text_Helm	It is said that Armour fashioned from the carapace of the Dune Scorpion is stronger and lighter than any metal variety.	true
+ancillaries_colour_text_Talisman	This strange mystical amulet allows its wearer magical powers but it is a heavy burden some can not bear.	true
+ancillaries_colour_text_Mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such is the reknown of these majestic beasts. 	true
+ancillaries_onscreen_name_sword	Falcon Scimitar	true
+ancillaries_onscreen_name_Helm	Scorpion Carapace Armour	true
+ancillaries_onscreen_name_Talisman	Crescent Amulet	true
+ancillaries_onscreen_name_Mount	Griffon	true
+ancillaries_onscreen_name_Mount_Elephant	Royal Elephant	true
+ancillaries_colour_text_Mount_Elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	true
+ancillaries_onscreen_name_rattlesnake_staff	Rattlesnake Staff	true
+ancillaries_colour_text_rattlesnake_staff	Those proven proficient in magic are gifted the Rattlesnake Staff by the Wizard Caliph, it is the mark of any good Arabyan sorcerer.	true

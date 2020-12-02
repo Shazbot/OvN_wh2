@@ -1,0 +1,18 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+hlf_book.png	wh2_main_skill_hlf_glibfoot_unique_0	 		11	false	false	false	0.0	0
+wh_main_lord_abilities_hold_the_line.png	wh2_main_skill_hlf_glibfoot_unique_2			11	false	false	false	0.0	0
+trait_mootland.png	wh2_main_skill_innate_hlf_glibfoot		'Scourge of Orcs & Goblins'	0	true	false	false	5.0	0
+character_diplomacy.png	wh2_main_skill_hlf_glibfoot_unique_1_1			0	false	false	false	0.0	0
+character_ranged_damage.png	wh2_main_skill_hlf_glibfoot_unique_1_2			0	false	false	false	0.0	0
+campaign_subterranean.png	wh2_main_skill_hlf_glibfoot_unique_1_3			0	false	false	false	0.0	0
+character_charge.png	wh2_main_skill_hlf_glibfoot_unique_1_4			0	false	false	false	0.0	0
+hlf_glibfoot_adv_continues.png	wh2_main_skill_hlf_glibfoot_unique_1_5			0	false	false	false	0.0	0
+character_attack.png	wh2_main_skill_hlf_glibfoot_unique_3_1			0	false	false	false	0.0	0
+wh2_hef_isha.png	wh2_main_skill_hlf_glibfoot_unique_3_2			0	false	false	false	0.0	0
+character_morale.png	wh2_main_skill_hlf_glibfoot_unique_3_3			0	false	false	false	0.0	0
+character_replenishment.png	wh2_main_skill_hlf_glibfoot_unique_3_4			0	false	false	false	0.0	0
+hlf_glibfoot_for_the_moot.png	wh2_main_skill_hlf_glibfoot_unique_3_5			0	false	false	false	0.0	0
+item_weapon.png	wh2_main_skill_anc_hyshia			11	false	false	false	0.0	0
+item_enchanted_item.png	wh2_main_skill_anc_willowblade			12	false	false	false	0.0	0
+hlf_glibfoot_thief_tactics.png	wh2_main_skill_hlf_glibfoot_combat_0			0	false	false	false	0.0	0

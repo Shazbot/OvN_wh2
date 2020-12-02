@@ -1,0 +1,5 @@
+campaign_settlement_display_buildings_tables	7
+model_id	key	building_bmd	port_bmd	construction_bmd	damaged_bmd	destroyed_bmd	port_construction_bmd	port_walled_bmd	wall_bmd	on_sea_bmd
+grudge_main_1	250519190	prefabs\campaign\cst_encampment.bmd								
+grudge_main_2	250519191	prefabs\campaign\cst_encampment.bmd								
+grudge_main_3	250519192	prefabs\campaign\cst_encampment.bmd								

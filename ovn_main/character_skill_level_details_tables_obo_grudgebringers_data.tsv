@@ -1,0 +1,35 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	grudge_skill_missile_ward		6
+		x	1	grudge_skill_magic_ward		6
+		x	1	grudge_skill_bst_champion_defensive_1		7
+		x	1	grudge_skill_bst_champion_offensive_1		7
+		x	1	grudge_skill_bernhardt_bonus_vs_men		9
+		x	1	grudge_skill_bernhardt_bonus_vs_dwarves		9
+		x	1	grudge_skill_bernhardt_bonus_vs_undead		9
+		x	1	grudge_skill_bernhardt_bonus_vs_chaos		9
+		x	1	grudge_skill_bernhardt_bonus_vs_beastmen		9
+		x	1	grudge_skill_bernhardt_bonus_vs_skaven		9
+		x	1	grudge_skill_bernhardt_bonus_vs_greenskins		9
+		x	1	grudge_skill_bernhardt_bonus_vs_dark_elves		9
+		x	1	grudge_skill_bernhardt_bonus_vs_lizardmen		9
+		x	1	grudge_skill_bernhardt_bonus_vs_high_elves		9
+		x	1	grudge_skill_bernhardt_bonus_vs_wood_elves		9
+		x	1	grudge_skill_fire_ward		11
+		x	1	grudge_skill_regiment_size		14
+		x	2	grudge_skill_regiment_size		19
+		x	3	grudge_skill_regiment_size		24
+		x	1	grudge_skill_horn_of_urgok		9
+		x	1	grudge_skill_hellfire_sword		9
+		x	1	grudge_skill_storm_sword		9
+		x	1	grudge_skill_runefang		9
+		x	1	grudge_skill_enchanted_shield		7
+		x	1	grudge_skill_shield_of_ptolos		9
+		x	1	grudge_skill_spelleater_shield		9
+		x	1	grudge_skill_dragonhelm		9
+		x	1	grudge_skill_wand_of_jet		9
+		x	1	grudge_skill_banner_of_arcane_warding		9
+		x	1	grudge_skill_banner_of_wrath		11
+		x	1	grudge_skill_banner_of_defiance		13
+		x	1	grudge_skill_shadow_of_the_horned_rat		14
+		x	1	grudge_skill_dark_omen		16

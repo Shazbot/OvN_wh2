@@ -1,0 +1,8 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+alb_resource_marble		wh2_main_set_resource	false
+alb_resource_wood		wh2_main_set_resource	false
+alb_resource_gold		wh2_main_set_resource	false
+alb_resource_iron		wh2_main_set_resource	false
+alb_resource_pottery		wh2_main_set_resource	false
+alb_resource_medicine		wh2_main_set_resource	false

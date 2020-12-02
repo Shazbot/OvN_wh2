@@ -1,0 +1,4 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+militia_crossbow	false	militia_crossbow	crossbow	false
+crossbow_light_halfling	false	crossbow_light_halfling	crossbow	false

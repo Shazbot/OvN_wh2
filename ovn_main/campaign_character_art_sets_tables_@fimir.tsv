@@ -1,0 +1,5 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+dignitary	wh_dlc08_art_set_nor_fimir_balefiend_01				false	true	wh_dlc08_nor_fimir_balefiend_fire	1.0
+dignitary	wh_dlc08_art_set_nor_fimir_balefiend_02				false	true	wh_dlc08_nor_fimir_balefiend_fire	1.0
+dignitary	wh_dlc08_art_set_nor_fimir_balefiend_03				false	true	wh_dlc08_nor_fimir_balefiend_shadow	1.0

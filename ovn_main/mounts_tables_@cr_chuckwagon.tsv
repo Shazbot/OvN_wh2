@@ -1,0 +1,4 @@
+mounts_tables	10
+key	animation	entity	audio_armour_type	variant	voiceover
+ovn_mtl_mnt_warpony_draught	hr1_warhorse	ovn_mtl_mnt_warpony_draught	body	ovn_mtl_warpony_draught	wh_main_vo_culture_Horse
+ovn_mtl_mnt_warpony_barded_draught	hr1_warhorse	wh_main_cavalry_slow_blood	plate	ovn_mtl_warpony_armoured_draught	wh_main_vo_culture_Horse

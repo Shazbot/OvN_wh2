@@ -1,0 +1,5 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+elo_enable_lands_nagash	general_ability.png	1	general_ability.png	battle	true
+dread_legion_archers_cap	unit_capacity.png	100	unit_capacity.png	campaign	true
+elo_enable_call_legions	spell_ability.png	100	spell_ability.png	battle	true

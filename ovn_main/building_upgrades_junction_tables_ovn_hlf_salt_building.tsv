@@ -1,0 +1,4 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_hlf_resource_salt_1	ovn_hlf_resource_salt_2
+ovn_hlf_resource_salt_2	ovn_hlf_resource_salt_3

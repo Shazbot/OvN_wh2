@@ -1,0 +1,5 @@
+videos_tables	7
+video_name	video_type	audio_tracks	script_ref
+front_end_selection_movies/jaffar_frontend	FULLSCREEN_INTRO	1	0
+front_end_selection_movies/fimir_frontend	FULLSCREEN_INTRO	1	0
+front_end_selection_movies/belakor_frontend	FULLSCREEN_INTRO	1	0

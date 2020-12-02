@@ -1,0 +1,5 @@
+provincial_initiative_records_tables	3
+effect_bundle	key	order	icon_path	campaign_vfx_id	religion_restriction
+Troll_edict_2	Troll_edict_2	1	UI/Campaign UI/edicts/wh_main_edict_repress_mortals.png		
+Troll_edict_3	Troll_edict_3	2	UI/Campaign UI/edicts/skv_efficient_scheming.png		
+Troll_edict_1	Troll_edict_1	3	UI/Campaign UI/edicts/def_demand_highborn_hostages.png		

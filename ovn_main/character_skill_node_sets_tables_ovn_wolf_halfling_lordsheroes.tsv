@@ -1,0 +1,6 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh_main_skill_node_set_ovn_hlf_moot_general		false	false	ovn_hlf_moot_general
+spy			wh_main_skill_node_set_ovn_hlf_fieldwarden		false	false	ovn_hlf_fieldwarden
+dignitary			wh_main_skill_node_set_hlf_master_chef		false	false	ovn_hlf_master_chef
+champion			wh_main_skill_node_set_hlf_sheriff		false	false	ovn_hlf_sheriff

@@ -1,0 +1,9 @@
+campaign_map_attrition_unit_immunities_tables	0
+attrition	unit
+chaos_territory	rbt_nurgle_daemon
+disease	rbt_nurgle_daemon
+horde_infighting	rbt_nurgle_daemon
+mountain	rbt_nurgle_daemon
+non_vampire_territory	rbt_nurgle_daemon
+nurgle_plague	rbt_nurgle_daemon
+snow	rbt_nurgle_daemon

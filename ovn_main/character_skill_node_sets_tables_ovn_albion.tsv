@@ -1,0 +1,11 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			node_set_warleader	wh_main_sc_nor_albion	false	false	albion_warleader
+general			node_set_truth_beasts	wh_main_sc_nor_albion	false	false	albion_truthsayer_beast
+general			node_set_truth_light	wh_main_sc_nor_albion	false	false	albion_truthsayer_light
+general			node_set_truth_life	wh_main_sc_nor_albion	false	false	albion_truthsayer_life
+general			node_set_truth_truth	wh_main_sc_nor_albion	false	false	albion_truthsayer_truth
+champion			node_set_albion_chief	wh_main_sc_nor_albion	false	false	albion_chief
+wizard			node_set_albion_wizard	wh_main_sc_nor_albion	false	false	albion_wyrd_druid
+general			node_set_morrigan	wh_main_sc_nor_albion	false	false	albion_morrigan
+general			node_set_dural_durak	wh_main_sc_nor_albion	false	false	bl_elo_dural_durak

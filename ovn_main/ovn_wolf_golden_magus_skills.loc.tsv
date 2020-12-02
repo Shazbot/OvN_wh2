@@ -1,0 +1,36 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_arb_golden_magus_innate	Eminent Elementalist	true
+character_skills_localised_description_arb_golden_magus_innate	The Golden Magus' mastery over the elements of air, fire and water is exceptional, specially for a human. His powers come from his most prized posessions, 3 Royal Djinns from who he draws his magical might from. 	true
+character_skills_localised_name_arb_golden_magus_aether_tether	Aethyric Tether	false
+character_skills_localised_description_arb_golden_magus_aether_tether	The secret of the Golden Magus' sorcerous might resides in his connection, or "aethyric tether" with 3 magic urns in his possession. Imprisoned inside are 3 powerful elemental spirits, siphoned of their power for the Magus' benefit.	false
+character_skills_localised_name_arb_golden_magus_old_gold	Old but Gold	false
+character_skills_localised_description_arb_golden_magus_old_gold	For someone who cultivates the image of an elderly eccentric scholar, the Golden Magus is surprisingly spry, fast and adept at combat.	false
+character_skills_localised_name_arb_golden_magus_sphere_changer	In the Changer's Sphere	false
+character_skills_localised_description_arb_golden_magus_sphere_changer	Some whisper that the Magus is in complete thrall of the malignant Architect of Fate. Nonsense, of course, but like with all good rumours, there's might be a grain of truth to it...	false
+character_skills_localised_name_arb_golden_magus_sultan_seas	Sultan of the Seas	false
+character_skills_localised_description_arb_golden_magus_sultan_seas	Beneath all the eccentricity and gaudiness hides a callous corsair, eager to bring more magical treasures to his collection, more slaves to his servitude, more concubines to his harem and more power to himself.	false
+character_skills_localised_name_arb_golden_magus_master_sorcerer	Master of Sorcery	false
+character_skills_localised_description_arb_golden_magus_master_sorcerer	The Golden Magus can impart much knowledge onto those aspirants willing to learn the sorcerous arts - if they can stand the eccentric nature of his lessons and the Magus' ever so condescending manners.	false
+character_skills_localised_name_arb_golden_magus_master_djinn	Master of the Djinn	false
+character_skills_localised_description_arb_golden_magus_master_djinn	The Golden Magus is an expert in the art of binding the elemental spirits known as "djinns" to his will. Stored in the Magus' flagship are thousands of warded urns, each contaning a potent djinn ready and willing to obey his every command.	false
+character_skills_localised_name_arb_golden_magus_wishmaster	Wishmaster	false
+character_skills_localised_description_arb_golden_magus_wishmaster	The Magus has enslaved many a djinn to his will, to such degree that they cannot reject any of his wishes and comands. Djinns though are capricious and free-spirited entities, and their service should not be taken for granted.	false
+character_skills_localised_name_arb_golden_magus_anc_fire_scimitar	The Flaming Scimitar	false
+character_skills_localised_description_arb_golden_magus_anc_fire_scimitar	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	false
+character_skills_localised_name_arb_golden_magus_anc_auric_robe	Auric Robes	false
+character_skills_localised_description_arb_golden_magus_anc_auric_robe	The Magus' ostentatious golden robes are not just a flamboyant show of wealth, they possess potent enchantments that the Magus discovered in a parchment at the ruined city of Bel-Aliad. Besides providing protection from harm, these wards are curiously nocive to the Undead.	false
+character_skills_localised_name_arb_golden_magus_anc_camel	Camel	false
+character_skills_localised_description_arb_golden_magus_anc_camel	Though vigorous for his old age, the Golden Magus often rides to battle on one of his many camels - out of flamboyance if anything else.	false
+character_skills_localised_name_arb_golden_magus_anc_djinskiff	Djinn Skiff	false
+character_skills_localised_description_arb_golden_magus_anc_djinskiff	Much like the Magus' infamous flagship, this enchanted skiff is proof of his mastery over the Djinn. Held "afloat" on the air by servile Lesser Tempest Djinn oarsmen, this is one of the Golden Magus' favourite ways to ride to battle.	false
+character_skills_localised_name_arb_golden_magus_ship_growth	Sea's Bounty	true
+character_skills_localised_description_arb_golden_magus_ship_growth	From the sea we take, to the sea we give.	true
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_5	For the Moot!	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_5	“There's power in stories. That's all history is: the best tales. The ones that last. Might as well be mine.”	false
+character_skills_localised_name_wh2_main_skill_anc_hyshia	Hyshia	false
+character_skills_localised_description_wh2_main_skill_anc_hyshia	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	false
+character_skills_localised_name_wh2_main_skill_anc_willowblade	Cipher Blade	false
+character_skills_localised_description_wh2_main_skill_anc_willowblade	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_combat_0	Thief Tactics	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_combat_0	The Halflings' natural skill for "borrowing" is widely known, but Glibfoot's expertise in stealth and thievery are one of the few things about him that are actually legendary.	false

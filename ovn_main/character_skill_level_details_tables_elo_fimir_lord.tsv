@@ -1,0 +1,7 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	wh_dlc08_skill_nor_throgg_battle_cyclopean_fiends	wh_main_sc_nor_fimir	14
+		x	1	fimir_worthless_slaves		9
+		x	1	fimir_warrior_elite		9
+		x	1	fimir_untamed_monsters		9
+		x	1	elo_fimir_from_mists		14

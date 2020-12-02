@@ -1,0 +1,22 @@
+cdir_events_dilemma_choice_details_tables	1
+choice_key	dilemma_key	associated_audio_trigger
+FIRST	ovn_dilemma_grudge_occupy	
+SECOND	ovn_dilemma_grudge_occupy	
+THIRD	ovn_dilemma_grudge_occupy	
+FOURTH	ovn_dilemma_grudge_occupy	
+FIRST	ovn_dilemma_sabaar_occupy	
+SECOND	ovn_dilemma_sabaar_occupy	
+FIRST	ovn_dilemma_zandri_occupy	
+SECOND	ovn_dilemma_zandri_occupy	
+THIRD	ovn_dilemma_zandri_occupy	
+FOURTH	ovn_dilemma_zandri_occupy	
+FIRST	ovn_chaos_gipfel	
+SECOND	ovn_chaos_gipfel	
+FIRST	ovn_dilemma_rotblood_skit	
+SECOND	ovn_dilemma_rotblood_skit	
+THIRD	ovn_dilemma_rotblood_skit	
+FOURTH	ovn_dilemma_rotblood_skit	
+FIRST	ovn_dilemma_arb_excavation	
+SECOND	ovn_dilemma_arb_excavation	
+FIRST	ovn_dilemma_alb_alt_leader	
+SECOND	ovn_dilemma_alb_alt_leader	

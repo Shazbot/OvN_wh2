@@ -1,0 +1,34 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+ovn_cod_naval_defender_all_1			faction	1	cod_naval_defender_good.png	true
+ovn_cod_naval_defender_all_10			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_2			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_3			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_4			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_5			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_6			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_7			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_8			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_all_9			faction	1	cod_naval_defender_vgood.png	true
+ovn_cod_naval_defender_inner_1			faction	1	cod_naval_defender_ok.png	true
+ovn_cod_naval_defender_inner_10			faction	1	cod_naval_defender_block.png	true
+ovn_cod_naval_defender_inner_2			faction	1	cod_naval_defender_bad.png	true
+ovn_cod_naval_defender_inner_3			faction	1	cod_naval_defender_bad.png	true
+ovn_cod_naval_defender_inner_4			faction	1	cod_naval_defender_bad.png	true
+ovn_cod_naval_defender_inner_5			faction	1	cod_naval_defender_vbad.png	true
+ovn_cod_naval_defender_inner_6			faction	1	cod_naval_defender_vbad.png	true
+ovn_cod_naval_defender_inner_7			faction	1	cod_naval_defender_vbad.png	true
+ovn_cod_naval_defender_inner_8			faction	1	cod_naval_defender_block.png	true
+ovn_cod_naval_defender_inner_9			faction	1	cod_naval_defender_block.png	true
+ovn_cod_naval_defender_outer_1			faction	1	cod_naval_defender_vok.png	true
+ovn_cod_naval_defender_outer_10			faction	1	cod_naval_defender_ok.png	true
+ovn_cod_naval_defender_outer_2			faction	1	cod_naval_defender_vok.png	true
+ovn_cod_naval_defender_outer_3			faction	1	cod_naval_defender_vok.png	true
+ovn_cod_naval_defender_outer_4			faction	1	cod_naval_defender_vok.png	true
+ovn_cod_naval_defender_outer_5			faction	1	cod_naval_defender_vok.png	true
+ovn_cod_naval_defender_outer_6			faction	1	cod_naval_defender_ok.png	true
+ovn_cod_naval_defender_outer_7			faction	1	cod_naval_defender_ok.png	true
+ovn_cod_naval_defender_outer_8			faction	1	cod_naval_defender_ok.png	true
+ovn_cod_naval_defender_outer_9			faction	1	cod_naval_defender_ok.png	true
+ovn_cod_power_of_authority			region	1	morale.png	false
+cod_influence			faction	1	diplomacy.png	false

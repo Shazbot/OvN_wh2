@@ -1,0 +1,15 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+arb_golden_magus_enable_master_djinn	general_ability.png	600	general_ability.png	battle	true
+arb_golden_magus_wishmaster_djinn_exp	experience.png	15	experience.png	campaign	true
+arb_golden_magus_enable_burning_scimitar	general_ability.png	600	general_ability.png	battle	true
+arb_flaming_scimitar_newhorde		0		campaign	true
+arb_golden_magus_flaming_scimitar_bolts_of_burning_enable	effect_artillery_default.png	600	effect_artillery_default.png	battle	true
+arb_golden_magus_flaming_scimitar_hurricane_blades_enable	effect_artillery_default.png	600	effect_artillery_default.png	battle	true
+arb_golden_magus_flaming_scimitar_bolts_of_burning_disable	effect_artillery_default.png	600	effect_artillery_default.png	battle	true
+arb_golden_magus_flaming_scimitar_royal_djinn_enable	effect_artillery_default.png	600	effect_artillery_default.png	battle	true
+arb_golden_magus_innate_djinn_upkeep	military_spending.png	105	military_spending.png	campaign	false
+arb_golden_magus_diplomatic_relations_sartosa	diplomacy.png	2	diplomacy.png	campaign	true
+arb_golden_magus_ship_growth	growth.png	140	growth.png	campaign	true
+arb_golden_magus_camel_mount	mount.png	50	mount.png	both	true
+arb_golden_magus_skiff_mount	mount.png	50	mount.png	both	true

@@ -1,0 +1,13 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	dread_zombie_dragon		15
+		x	1	Ancient_Necromancer		3
+		x	1	Mighty_Warrior_tmb		6
+		x	1	Lord_Of_The_Undead_tmb		8
+		x	1	Dark_Lord_Of_Nagash		10
+		x	1	Dread_Aura		13
+		x	1	Soulreaper		10
+		x	1	elo_terror_land		14
+		x	1	mount_chariot_hand_of_nagash		2
+		x	1	elo_hand_punished_one		2
+		x	1	elo_hungering_blade		2

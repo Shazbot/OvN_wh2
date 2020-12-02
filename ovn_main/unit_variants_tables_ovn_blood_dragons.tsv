@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	dismounted_blood_knights	dismounted_blood_knights	dismounted_blood_knights	dismounted_blood_knights
+	dismounted_blood_knights_shield	dismounted_blood_knights_shield	dismounted_blood_knights_shield	dismounted_blood_knights_shield

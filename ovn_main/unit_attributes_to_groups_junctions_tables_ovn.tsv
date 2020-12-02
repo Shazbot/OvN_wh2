@@ -1,0 +1,15 @@
+unit_attributes_to_groups_junctions_tables	2
+attribute	attribute_group
+guerrilla_deploy	amazon_att
+stalk	amazon_att
+strider	amazon_att
+stalk	amazon_att2
+causes_fear	amazon_att2
+strider	jezzail
+stalk	jezzail
+guerrilla_deploy	jezzail
+hide_forest	jezzail
+hide_forest	genie
+strider	genie
+causes_fear	genie
+causes_terror	genie

@@ -1,0 +1,7 @@
+building_upgrades_junction_tables	0
+from	to
+ovn_fimir_mil_1	ovn_fimir_mil_2
+ovn_fimir_mil_2	ovn_fimir_mil_3
+ovn_fimir_mil_3	ovn_fimir_mil_4
+ovn_fimir_beast_1	ovn_fimir_beast_2
+ovn_fimir_beast_2	ovn_fimir_beast_3

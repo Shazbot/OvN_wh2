@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_bullet_point_enums_tooltip_demonic_flesh	Bel'akor's body is unnaturally resilient to all kinds of damage. It will be difficult to bring this monster down.	true
+ui_unit_bullet_point_enums_onscreen_name_demonic_flesh	Demonic Flesh	true
+ui_unit_bullet_point_enums_tooltip_uncontrollable_rage	It takes much of Bel'akor's concentration to suppress the unholy rage boiling within him. If he is pushed too far, he will rampage through the enemies lines with wild abandon.	true
+ui_unit_bullet_point_enums_onscreen_name_uncontrollable_rage	Uncontrollable Rage	true

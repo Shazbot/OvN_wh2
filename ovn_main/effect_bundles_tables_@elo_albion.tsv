@@ -1,0 +1,3 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+wh2_main_lord_trait_nor_albion	<-Placeholder->	Masters of a Blighted Land	faction	1	disaster.png	false

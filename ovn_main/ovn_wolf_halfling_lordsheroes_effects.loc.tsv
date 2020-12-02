@@ -1,0 +1,23 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_wh_main_effect_agent_enable_recruitment_fieldwarden	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Fieldwarden	true
+effects_description_wh_main_effect_agent_cap_increase_spy_fieldwarden	Hero capacity: %+n for Fieldwarden	true
+effects_description_wh_main_effect_agent_cap_increase_fieldwarden_level	Hero recruit rank: %+n for Fieldwarden	true
+effects_description_wh_main_effect_agent_enable_recruitment_master_chef	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Master Chef	true
+effects_description_wh_main_effect_agent_cap_increase_dignatary_master_chef	Hero capacity: %+n for Master Chef	true
+effects_description_wh_main_effect_agent_cap_increase_master_chef_level	Hero recruit rank: %+n for Master Chef	true
+effects_description_hlf_master_chef_enable_regeneration_passive_aura	Passive ability: "Stir the Pot"	true
+effects_description_hlf_master_chef_enable_ability_earth_blood	Ability: "Beef & Beer Pie"	true
+effects_description_hlf_master_chef_disable_ability_earth_blood	Replaces: "Beef & Beer Pie"	true
+effects_description_hlf_master_chef_enable_ability_earth_blood_upgraded	Ability: "Rumster's Special"	true
+effects_description_hlf_master_chef_uses_ability_earth_blood_upgraded	Ability number of uses: %+n for "Rumster's Special"	true
+effects_description_ovn_feast_aura_enable	Aura: "The Feast is Coming!"	true
+effects_description_hlf_master_chef_enable_hot_spices_aura	Aura: "Hot Spices"	true
+effects_description_wh_main_effect_agent_enable_recruitment_sheriff	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sheriff	true
+effects_description_wh_main_effect_agent_cap_increase_champion-sheriff	Hero capacity: %+n for Sheriff	true
+effects_description_wh_main_effect_agent_cap_increase_sheriff_level	Hero recruit rank: %+n for Sheriff	true
+effects_description_hlf_master_chef_enable_flush_soup	Ability: "Spill the Soup!"	true
+effects_description_hlf_master_chef_enable_wagon_mount	Mount: Chuck Wagon	true
+effects_description_hlf_moot_general_enable_pig_mount	Mount: Battle Swine	true
+effects_description_hlf_moot_general_enable_poultry_mount	Mount: Battle Cockerel	true
+effects_description_hlf_sheriff_enable_pig_mount	Mount: Battle Swine	true

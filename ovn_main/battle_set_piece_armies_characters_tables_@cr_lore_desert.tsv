@@ -1,0 +1,6 @@
+battle_set_piece_armies_characters_tables	7
+character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+1	ovn_arb_cha_magician_life_0	999983023	wh_dlc05_lore_life	100	999983087	ovn_arb_cha_magician_life_0	wizard	arb_magician_life	ui/portraits/portholes/no_culture/araby_wiz_life.png	1325400312		true
+1	ovn_arb_cha_magician_desert_0	999983024	ovn_lore_desert	100	999983088	ovn_arb_cha_magician_desert_0	wizard	arb_magician_desert	ui/portraits/portholes/no_culture/araby_wiz.png	1325400313		true
+1	ovn_arb_cha_magician_fire_0	999983025	wh_main_lore_fire	100	999983089	ovn_arb_cha_magician_fire_0	wizard	arb_magician_fire	ui/portraits/portholes/no_culture/araby_wiz_fire.png	1325400314		true
+1	ovn_arb_cha_magician_heavens_0	999983026	wh_main_lore_heavens	100	999983090	ovn_arb_cha_magician_heavens_0	wizard	arb_magician_heavens	ui/portraits/portholes/no_culture/araby_wiz_sky.png	1325400315		true

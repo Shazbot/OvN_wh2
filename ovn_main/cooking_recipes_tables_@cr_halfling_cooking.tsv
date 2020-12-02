@@ -1,0 +1,17 @@
+cooking_recipes_tables	3
+faction_effects	faction_leader_effects	icon	key	resource_cost	vo_trigger
+ovn_food_dish_1		ui/skins/default/hlf_recipe_meat_pie.png	ovn_food_dish_1	ovn_cooking_cost	
+ovn_food_dish_2		ui/skins/default/hlf_recipe_savory_roast.png	ovn_food_dish_2	ovn_cooking_cost	
+ovn_food_dish_3		ui/skins/default/hlf_recipe_salad.png	ovn_food_dish_3	ovn_cooking_cost	
+ovn_food_dish_4		ui/skins/default/hlf_recipe_fruit_salad.png	ovn_food_dish_4	ovn_cooking_cost	
+ovn_food_dish_5		ui/skins/default/hlf_recipe_soup.png	ovn_food_dish_5	ovn_cooking_cost	
+ovn_food_dish_6		ui/skins/default/hlf_recipe_sweet_roast.png	ovn_food_dish_6	ovn_cooking_cost	
+ovn_food_dish_7		ui/skins/default/hlf_recipe_fruit_pie.png	ovn_food_dish_7	ovn_cooking_cost	
+ovn_food_dish_8		ui/skins/default/hlf_recipe_veggie_pie.png	ovn_food_dish_8	ovn_cooking_cost	
+ovn_food_dish_9		ui/skins/default/hlf_recipe_bread.png	ovn_food_dish_9	ovn_cooking_cost	
+ovn_food_dish_10		ui/skins/default/hlf_recipe_compote.png	ovn_food_dish_10	ovn_cooking_cost	
+ovn_food_special_dish_1		ui/skins/default/hlf_recipe_baklava.png	ovn_food_special_dish_1	ovn_cooking_cost	
+ovn_food_special_dish_2		ui/skins/default/hlf_recipe_spaghetti.png	ovn_food_special_dish_2	ovn_cooking_cost	
+ovn_food_special_dish_3		ui/skins/default/hlf_recipe_magic_fruitcake.png	ovn_food_special_dish_3	ovn_cooking_cost	
+ovn_food_special_dish_4		ui/skins/default/hlf_recipe_sushi.png	ovn_food_special_dish_4	ovn_cooking_cost	
+ovn_food_special_dish_5		ui/skins/default/hlf_recipe_gimlet.png	ovn_food_special_dish_5	ovn_cooking_cost	

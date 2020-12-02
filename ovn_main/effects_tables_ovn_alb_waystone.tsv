@@ -1,0 +1,6 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+wh_main_effect_ovn_Waystone_1_dummy	effect_rite.png	301	effect_rite.png	campaign	false
+wh_main_effect_ovn_Waystone_2_dummy	effect_rite.png	301	effect_rite.png	campaign	false
+wh_main_effect_ovn_Waystone_3_dummy	effect_rite.png	301	effect_rite.png	campaign	false
+wh_main_effect_ovn_Waystone_global_dummy	effect_rite.png	301	effect_rite.png	campaign	true

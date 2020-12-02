@@ -1,0 +1,4 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				wh_main_arb_cav_magic_carpet_0	mp_cap_missile_cav_chariots
+false				wh_main_arb_cav_magic_carpet_0	mp_set_flying_unit

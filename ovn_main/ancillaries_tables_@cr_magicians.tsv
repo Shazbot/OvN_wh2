@@ -1,0 +1,10 @@
+ancillaries_tables	16
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped
+ovn_anc_mount_arb_magician_life_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_life_2		1	1		false
+ovn_anc_mount_arb_magician_life_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_life_1		1	1		false
+ovn_anc_mount_arb_magician_desert_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_desert_2		1	1		false
+ovn_anc_mount_arb_magician_desert_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_desert_1		1	1		false
+ovn_anc_mount_arb_magician_fire_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_fire_2		1	1		false
+ovn_anc_mount_arb_magician_fire_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_fire_1		1	1		false
+ovn_anc_mount_arb_magician_heavens_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_heavens_2		1	1		false
+ovn_anc_mount_arb_magician_heavens_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_heavens_1		1	1		false

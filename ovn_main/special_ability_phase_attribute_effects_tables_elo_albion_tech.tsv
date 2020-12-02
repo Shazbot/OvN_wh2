@@ -1,0 +1,5 @@
+special_ability_phase_attribute_effects_tables	1
+attribute	phase	attribute_type
+unbreakable	elo_albion_holy_warriors_unbreakable	positive
+causes_fear	elo_albion_holy_warriors_unbreakable	positive
+fatigue_immune	elo_albion_protectors_world	positive

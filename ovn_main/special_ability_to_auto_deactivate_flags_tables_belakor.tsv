@@ -1,0 +1,7 @@
+special_ability_to_auto_deactivate_flags_tables	0
+deactivate_flag	special_ability
+health_above_75%	Violent_rise_to_power_1
+health_above_50%	Violent_rise_to_power_2
+health_above_25%	Violent_rise_to_power_3
+health_above_20%	uncontrollable_rage
+morale_is_higher_than_half_of_base_morale	uncontrollable_rage

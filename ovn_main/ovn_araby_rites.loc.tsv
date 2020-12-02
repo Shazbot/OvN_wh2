@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+rituals_display_name_ovn_arb_baz_worship_01_djinn	Cult of Djinns	true
+rituals_description_ovn_arb_baz_worship_01_djinn	The Cult of the Djinns is the predominant religion in Araby, headed by the Caliphs, and very popular with the arabyan people. Their idols can be found in every temple and home, because they ain't never had a protectors like them.	true
+campaign_group_rituals_unlock_text_ovn_arb_baz_worship_01_djinn	[[col:dark_r]]This rite will unlock after reaching rank 7 with any character.[[/col]]	true

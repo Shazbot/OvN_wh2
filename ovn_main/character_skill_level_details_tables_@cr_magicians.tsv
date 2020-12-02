@@ -1,0 +1,11 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	ovn_skill_arb_all_unique_ward_of_the_one		7
+		x	1	ovn_skill_arb_magician_unique_magician_life_magic_carpet		6
+		x	1	ovn_skill_arb_magician_unique_magician_life_djinn_vessel		10
+		x	1	ovn_skill_arb_magician_unique_magician_desert_magic_carpet		6
+		x	1	ovn_skill_arb_magician_unique_magician_desert_djinn_vessel		10
+		x	1	ovn_skill_arb_magician_unique_magician_fire_magic_carpet		6
+		x	1	ovn_skill_arb_magician_unique_magician_fire_djinn_vessel		10
+		x	1	ovn_skill_arb_magician_unique_magician_heavens_magic_carpet		6
+		x	1	ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel		10

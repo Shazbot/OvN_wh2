@@ -1,0 +1,6 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_grudge_settlement_recruit		wh_main_set_empire_military_recruitment	false
+ovn_grudge_settlement_smith		wh_main_set_empire_military_support	false
+ovn_grudge_settlement_income		wh_main_set_empire_economy	false
+ovn_grudge_settlement_growth		wh_main_set_empire_economy	false

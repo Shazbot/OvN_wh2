@@ -1,0 +1,239 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Araby_Dip_Acceptance_Negative_01	The Desert Spirits advise me otherwise, but I will accept your proposal.	false
+diplomacy_strings_string_Araby_Dip_Acceptance_Negative_02	You have my word, but not my confidence. Now go away!	false
+diplomacy_strings_string_Araby_Dip_Acceptance_Negative_03	I hope spirits don't punish me for this.	false
+diplomacy_strings_string_Araby_Dip_Demand_Payments_Negative_01	You can't imagine the riches of Araby, how do you intend to possess them?	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Negative_01	What kind of arrogance leads you to demand something from the great Jaffar?	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Negative_02	Slavery seems to me a better destination for you, stranger.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Negative_03	Araby does not kneel before anyone, leave, or I will lose my patience.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Negative_01	By the seven fathers of Mu'Allid! No!	false
+diplomacy_strings_string_Araby_Dip_Rejection_Negative_02	May your soul be flayed by the Djinns!	false
+diplomacy_strings_string_Araby_Dip_Rejection_Negative_03	My executioners will be happy to give you an answer.	false
+diplomacy_strings_string_Araby_Dip_Greet_Neg_01	The arabyans have little patience, I advise you to speak quickly.	false
+diplomacy_strings_string_Araby_Dip_Greet_Neg_02	The punishment of the desert awaits you if your words do not please me.	false
+diplomacy_strings_string_Araby_Dip_Greet_Neg_03	How dare you crawl before Al-Haikk's throne, filth?	false
+diplomacy_strings_string_Araby_Dip_Acceptance_Positive_01	Our alliance will be like an oasis between the sea of dunes.	false
+diplomacy_strings_string_Araby_Dip_Acceptance_Positive_03	Your gods smile at you, friend, the throne of Araby is with you.	false
+diplomacy_strings_string_Araby_Dip_Demand_Payments_Positive_01	An insignificant payment, but if you settle for this, good for you.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Positive_01	Rejoice, the jewel of the desert has given you its blessing.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Positive_02	It is a pleasure to help an ally. Soon we will share the spoils of war.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Positive_03	Our empires will grow together, as brothers, as one.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Positive_01	The Spirits are furious, and I must not oppose their will.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Positive_02	Dark are these days. We will not answer your pleas.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Positive_03	My heart grieves but I will have to refuse.	false
+diplomacy_strings_string_Araby_Dip_Greet_Pos_01	The palaces of Araby give you a warm welcome, ally.	false
+diplomacy_strings_string_Araby_Dip_Greet_Pos_02	The Al-Haikk throne welcomes his friends with luxuries, enjoy whatever you want.	false
+diplomacy_strings_string_Araby_Dip_Greet_Pos_03	Drink, food, concubines, all our wealth is at your disposal, friend.	false
+diplomacy_strings_string_Araby_Dip_Acceptance_Neutral_01	My emirs are agree with that.	false
+diplomacy_strings_string_Araby_Dip_Acceptance_Neutral_02	May the Djinns be witnesses of our pact.	false
+diplomacy_strings_string_Araby_Dip_Accept_State_Gift_01	Araby's coffers overflow with wealth, but we will never refuse a gift.	false
+diplomacy_strings_string_Araby_Dip_Accept_State_Gift_02	Power and wealth, what a man seeks, what a man needs.	false
+diplomacy_strings_string_Araby_Dip_Accept_State_Gift_03	May this gold bless our eternal alliance.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Accept_01	I see that cunning lives inside you. Welcome you!	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Accept_02	I will have them prepare tialva and arag. We must celebrate!	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Accept_03	Our future will be glorious. The world will tremble as we pass.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Cancel_Treaty_01	Disappointment is what I feel, friend. I considered you wiser.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Cancel_Treaty_02	The weak cannot survive under the punishment of the desert.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Cancel_Treaty_03	The Spirits are furious, you better leave my presence.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Reject_01	If you have gods, you better start praying now.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Reject_02	Your insolence is an insult. If you think you can reject me, fate will torment you.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_Reject_03	You better leave, our scimitars are thirsty.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_War_01	A distant power calls me, and soon the world will know its strength.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_War_02	Against the powers that I will unleash, no one can oppose.	false
+diplomacy_strings_string_Araby_Dip_Acknowledge_War_03	I am Jaffar, remember that name, it will be the last thing your people will hear.	false
+diplomacy_strings_string_Araby_Dip_Cancel_Treaty_01	I think our presence here should not be prolonged.	false
+diplomacy_strings_string_Araby_Dip_Cancel_Treaty_02	Dark days are approaching, because darker are the hearts of men.	false
+diplomacy_strings_string_Araby_Dip_Cancel_Treaty_03	What am I going to ally with weak vermin? Without your strength you are nothing	false
+diplomacy_strings_string_Araby_Dip_Demand_Join_War_01	By Kasoun's fiery sword, war call us!	false
+diplomacy_strings_string_Araby_Dip_Demand_Join_War_02	Wealth and glory await us, the whole world will be our kingdom.	false
+diplomacy_strings_string_Araby_Dip_Demand_Join_War_03	Come on friend, follow me to war, how much you want, there you will find it.	false
+diplomacy_strings_string_Araby_Dip_Demand_Payments_Neutral_01	The tribute is necessary for those who can only serve.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Neutral_01	Ancient is our civilization, wise are our advisers. Attend to their requests.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Neutral_02	Feel honored, because you are in the presence of the sovereign Jaffar.	false
+diplomacy_strings_string_Araby_Dip_Generic_Offer_Neutral_03	When I rule the world, you will be my most loyal vassal.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Neutral_01	I don't know who you think you are dealing with, but my kingdom does not break for anyone.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Neutral_02	Terrible is my anger, I just pray that you won't wake it.	false
+diplomacy_strings_string_Araby_Dip_Rejection_Neutral_03	Pathetic, simply pathetic.	false
+diplomacy_strings_string_Araby_Dip_Offer_Cooperation_01	We have common interests, submit the world to our will.	false
+diplomacy_strings_string_Araby_Dip_Offer_Cooperation_02	If the winds of war rise, only cowards are left behind.	false
+diplomacy_strings_string_Araby_Dip_Offer_Cooperation_03	Our banners will cover the skies. Follow me, allies.	false
+diplomacy_strings_string_Araby_Dip_Offer_Peace_01	Enough blood has been spilled, my people crave calm.	false
+diplomacy_strings_string_Araby_Dip_Offer_Peace_02	The gods are saddened by this massacre, it is time to return to the desired peace.	false
+diplomacy_strings_string_Araby_Dip_Offer_Peace_03	Do you really want to continue with this nonsense? It is not typical of someone as noble as you.	false
+diplomacy_strings_string_Araby_Dip_Offer_Join_War_01	Our names will go down in history as emperors and conquerors. You don't want such glory?	false
+diplomacy_strings_string_Araby_Dip_Offer_Join_War_02	The drums of war resonate, but a distant whisper cries out for revenge.	false
+diplomacy_strings_string_Araby_Dip_Offer_Join_War_03	May our hordes cover the dunes. We march to war!	false
+diplomacy_strings_string_Araby_Dip_Offer_Gift_01	Just a small gift, because gold is simple water in Araby.	false
+diplomacy_strings_string_Araby_Dip_Offer_Gift_02	These jewels are the most precious treasures of our mountains. I hope you know how to appreciate them.	false
+diplomacy_strings_string_Araby_Dip_Offer_Gift_03	The golden springs of our palaces shine like an oasis, because that is the Araby wealth.	false
+diplomacy_strings_string_Araby_Dip_Greet_Neu_01	You have arrived in Araby, the land of gold and sand, speak now.	false
+diplomacy_strings_string_Araby_Dip_Greet_Neu_02	I am Jaffar, ruler of the sand, scourge of the Al Nehekharin, the great sorcerer. Talk now, traveler.	false
+diplomacy_strings_string_Araby_Dip_Greet_Neu_03	You arrive before the throne of Al-Haikk, stranger, make your pleas.	false
+diplomacy_strings_string_Araby_Dip_Reject_Peace_01	My people crave war, and it won't be me who will stop them.	false
+diplomacy_strings_string_Araby_Dip_Reject_Peace_02	You will only have peace when the chains surround your hands!	false
+diplomacy_strings_string_Araby_Dip_Reject_Peace_03	Never! Only death will bring us peace!	false
+diplomacy_strings_string_Araby_Dip_Reject_Join_Confederation_01	Araby is old and sovereign, we don't need to join you.	false
+diplomacy_strings_string_Araby_Dip_Reject_Join_Confederation_02	We will rule sovereigns. We will rule forever.	false
+diplomacy_strings_string_Araby_Dip_Reject_Join_Confederation_03	Your power does not compare to our magnificence. Go away.	false
+diplomacy_strings_string_Araby_Dip_War_01	The sands rise. You will know the name of Araby!	false
+diplomacy_strings_string_Araby_Dip_War_02	The day has come. The wrath of the desert will shake this world.	false
+diplomacy_strings_string_Araby_Dip_War_03	In the name of the Djinns, my anger will reach every corner of this world.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Negative_01	Thanks the mercy of the Sultan of the Seas, because today I will let you go alive.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Negative_02	My scimitar still burns, you better not betray me.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Negative_03	My Djinns can wipe out entire worlds, I hope you don't forget.	false
+diplomacy_strings_string_Scimitar_Dip_Demand_Payments_Negative_01	If you want riches, you just have to travel the seas and get them.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Negative_01	I'm the great Gilded King of Copher reborn, do you think I'm going to obey you?	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Negative_02	He will not want me to accept this.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Negative_03	You're a fool if you think I need something from you.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Negative_01	Great urns I keep in my cellars. Leave if you don't want to contemplate their power.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Negative_02	I have the absolute power of the spirits, do you want to take it away from me?	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Negative_03	Fire, wind, water. Every element obeys me. You better not provoke my anger.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Neg_01	How dare you present yourself in front of the Flaming Scimitar? The spirits urge me to destroy you.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Neg_02	The Sultan of the Flames only grants hell to his enemies. Should I do the same?	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Neg_03	You better talk carefully, my Sea Nymphs dwell in the abyss, and want to take you with them.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Positive_01	All the oceans will tremble before the Sultan of the Seas and his allies.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Positive_03	It is an honor for me to count on your support.	false
+diplomacy_strings_string_Scimitar_Dip_Demand_Payments_Positive_01	This ship is full of unparalleled wealth, take their gold if you wish, friend.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Positive_01	From Sartosa to Lustria, our legend will be eternal.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Positive_02	I see the legends about your wisdom were true, friend.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Positive_03	He will be glad of this, I am sure.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Positive_01	Terrible winds rise today, we must not fight them.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Positive_02	We must not fight fate, it is indomitable, uncontrollable.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Positive_03	If you knew what I see in the future, you would be more cautious in your actions.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Pos_01	The best spices and the most beautiful concubines await us. Come, ally.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Pos_02	The Flaming Scimitar is a pleasure barge, feel free to enjoy as much as you want.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Pos_03	I am willing to share with you my wisdom, friend, even the most terrible secrets.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Neutral_01	Maybe fate has united us for some strange reason.	false
+diplomacy_strings_string_Scimitar_Dip_Acceptance_Neutral_02	My captains advise me to accept this agreement. It is a pleasure for me to collaborate.	false
+diplomacy_strings_string_Scimitar_Dip_Accept_State_Gift_01	Shining gold is how much my corsairs are looking for, but my curiosity want lost and distant secrets.	false
+diplomacy_strings_string_Scimitar_Dip_Accept_State_Gift_02	I thank you deeply, the Flaming Scimitar wineries will be filled with these gifts.	false
+diplomacy_strings_string_Scimitar_Dip_Accept_State_Gift_03	This gold is a pact, an alliance between men. I promise to bring you the finest silk from Cathay on my next trip.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Accept_01	I knew that my hope was not vain with your people.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Accept_02	My ship's sails fill with fresh wind, it's a good omen.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Accept_03	You will not regret this act in all eternity, I promise you.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Cancel_Treaty_01	Djinns know ancient secrets, you may regret this.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Cancel_Treaty_02	Do you dare to challenge me? The Sultan of the Seas is not afraid of anyone.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Cancel_Treaty_03	I will consider this as an act of sad betrayal.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Reject_01	I dominate powers that escape your understanding, be careful with your actions.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Reject_02	Many consider me a simple merchant. They do not know the magnitude of their error.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_Reject_03	I can perceive your soul, I can perceive your craving for betrayal.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_War_01	The Efreets are eager to roar, their fiery song will fill the world with flames.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_War_02	The Flaming Scimitar is ready, everyone who opposes us will end up under the endless sea.	false
+diplomacy_strings_string_Scimitar_Dip_Acknowledge_War_03	He knows how this will end, he knows how you will die.	false
+diplomacy_strings_string_Scimitar_Dip_Cancel_Treaty_01	You don't know how sorry I am, but times must change.	false
+diplomacy_strings_string_Scimitar_Dip_Cancel_Treaty_02	What in the past was glory, is only a distant memory.	false
+diplomacy_strings_string_Scimitar_Dip_Cancel_Treaty_03	Time has revealed your weakness, your true nature.	false
+diplomacy_strings_string_Scimitar_Dip_Demand_Join_War_01	The terrible winds of the Tempest Djinns will destroy our enemies.	false
+diplomacy_strings_string_Scimitar_Dip_Demand_Join_War_02	Believe my promise, destiny is in our favor.	false
+diplomacy_strings_string_Scimitar_Dip_Demand_Join_War_03	Follow us! They will only be puppets when we finish their strength.	false
+diplomacy_strings_string_Scimitar_Dip_Demand_Payments_Neutral_01	Gold is beautiful music for me, the metal that rules the world.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Neutral_01	As patriarch of the Colleges of Magic, my wisdom is second to none.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Neutral_02	The Flaming Scimitar rises before you, say your message.	false
+diplomacy_strings_string_Scimitar_Dip_Generic_Offer_Neutral_03	An infinity of magic jars I keep in my ship. Each of them keeps the power of a god.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Neutral_01	I have contemplated the most fearsome horrors in the world. I'm not going to fear someone like you.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Neutral_02	Any of my captains is more capable and brave than you. I invite you to leave.	false
+diplomacy_strings_string_Scimitar_Dip_Rejection_Neutral_03	Do you see those skeletons of hideous sea-monsters? I have submitted to the sea itself. Doesn't your pretention seem arrogant?	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Cooperation_01	The curses of my ever-burning blade want to go into combat. Let's not make them wait	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Cooperation_02	Everything they hide has ceased to be secret. His conspiracies are empty.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Cooperation_03	It is time to show you the unstoppable force of destiny.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Peace_01	My beloved friend, why does this terrible violence devour us?	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Peace_02	Wouldn't you think of continuing a war with a poor merchant?	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Peace_03	In every corner of the world my brothers hide, and each one of them will seek revenge if I fall.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Join_War_01	I have seen the future! And only glory and power will we get.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Join_War_02	This has to happen, because it is his will, the eternal wheel of destiny.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Join_War_03	The Raging Tempest will push us to our victory.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Gift_01	From our friendship, this gold belongs to you.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Gift_02	Silks, exotic spices, narcotic incense, concubines. Your wishes will be fulfilled here.	false
+diplomacy_strings_string_Scimitar_Dip_Offer_Gift_03	The Flaming Scimitar gives you its blessing, all the wealth you can imagine.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Neu_01	I am Golden Magus, the Sultan of the Seas, it is a pleasure to receive you.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Neu_02	I am the great Gilded King of Copher reborn, sovereign of the seas and the sands. Speak up, stranger.	false
+diplomacy_strings_string_Scimitar_Dip_Greet_Neu_03	Before the Flaming Scimitar you are, I am Magus, lord of all seas.	false
+diplomacy_strings_string_Scimitar_Dip_Reject_Peace_01	His will is very different from peace, he only longs for the future.	false
+diplomacy_strings_string_Scimitar_Dip_Reject_Peace_02	Your pleas do not fill my heart. I see no reason to forgive your life.	false
+diplomacy_strings_string_Scimitar_Dip_Reject_Peace_03	You will only have one peace. The one that he grants you, if you are that lucky.	false
+diplomacy_strings_string_Scimitar_Dip_Reject_Join_Confederation_01	My reign over the seas is supreme, no one can equal me.	false
+diplomacy_strings_string_Scimitar_Dip_Reject_Join_Confederation_02	I will have to resuscitate, sadly, the rivers of destiny do not recover that place.	false
+diplomacy_strings_string_Scimitar_Dip_Reject_Join_Confederation_03	Your power is worthy of admiration, but no sovereign will rule over the Flaming Scimitar.	false
+diplomacy_strings_string_Scimitar_Dip_War_01	My powers are infinite, my knowledge is unparalleled. You can never oppose me.	false
+diplomacy_strings_string_Scimitar_Dip_War_02	The Efreets will calcine your soul, the Desert Spirits will fall on your people, and the Sea-Nymphs will take all your hope.	false
+diplomacy_strings_string_Scimitar_Dip_War_03	Only one fate I see for you. Chained in the ports of Lashiek, serving forever.	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Negative_01	I will surely regret making this deal.	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Negative_02	I swear on the sands not to betray you, I hope not to regret it.	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Negative_03	For your sake, I hope your wisdom overcomes your foolishness. My people is not as lenient as I am.	false
+diplomacy_strings_string_Scythan_Dip_Demand_Payments_Negative_01	The relics of the Scythans will never end up in foreign hands.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Negative_01	I suggest you accept this deal, you have little choice.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Negative_02	For the good of your people, accept this treaty.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Negative_03	Innocent people should not suffer foolish leaders. Accept this deal for their sake.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Negative_01	Fool! The Scythans kneel to no master but our benefactor.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Negative_02	Never! Woe to those who think of us a simple, gullible people.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Negative_03	You have no authority or permission to be here. Leave my realm. Now.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Neg_01	My men are eager to welcome you as you deserve. Don't provoke my anger, stranger.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Neg_02	I will forever defend ther Scythan people, with my life if necessary. Never forget it.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Neg_03	You are not deserving of the hospitality of the Scythans. Away with you!	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Positive_01	A fair deal, with a fair ruler.	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Positive_03	I'm always eager to trade with a friend of the Scythans.	false
+diplomacy_strings_string_Scythan_Dip_Demand_Payments_Positive_01	Help us now and reap the benefits in the future. The Scythans are a grateful people.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Positive_01	Please, accept the gifts of the Scythan paople.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Positive_02	I can tell you are a ruler who does the best for their people. You will surely see the good in this deal.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Positive_03	Come! Let us unite our strenght against the Forces of Darkness!	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Positive_01	I'm sorry. not this time, friend.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Positive_02	A generous deal, but I must reject it.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Positive_03	Maybe in the future, for now, I plead you to wait.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Pos_01	Come, rest at our camp. The hospitality of the Scythans is well known.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Pos_02	Please, come to my tent, we have... much to discuss.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Pos_03	You are a guest and a friend of the Scythan people. I trust you'll appreciate what this means.	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Neutral_01	For the good of my people, I accept.	false
+diplomacy_strings_string_Scythan_Dip_Acceptance_Neutral_02	I trust you to uphold your part of the deal.	false
+diplomacy_strings_string_Scythan_Dip_Accept_State_Gift_01	In the name of the Scythans, I accept this gift.	false
+diplomacy_strings_string_Scythan_Dip_Accept_State_Gift_02	Thank you, this will help my people.	false
+diplomacy_strings_string_Scythan_Dip_Accept_State_Gift_03	I never forget those who have been generous to me.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Accept_01	I'm glad we could come to an agreement.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Accept_02	Good, You'll find I can be very generous to my friends.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Accept_03	We always honour our alliances, my oath is as solid as iron.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Cancel_Treaty_01	Cursed traitor! I should've known better.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Cancel_Treaty_02	Oathbreaker! You are not to be trusted.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Cancel_Treaty_03	I knew we couldn't trust on foreigners.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Reject_01	You dare to scorn the good will of the Scythans? Fool.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Reject_02	Your mind has grown dark. You will regret that response.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_Reject_03	Very well then. Leave my camp. NOW.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_War_01	You are making a mistake. Our steeds will trample over your corpse.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_War_02	Fine. Your people could do wih a wiser ruler anyway.	false
+diplomacy_strings_string_Scythan_Dip_Acknowledge_War_03	I will forever defend my people. FOREVER!	false
+diplomacy_strings_string_Scythan_Dip_Cancel_Treaty_01	I see no benefit to the Scythans in the continuation of this deal.	false
+diplomacy_strings_string_Scythan_Dip_Cancel_Treaty_02	No more treaties with tyrants.	false
+diplomacy_strings_string_Scythan_Dip_Cancel_Treaty_03	Your words will decieve us no more.	false
+diplomacy_strings_string_Scythan_Dip_Demand_Join_War_01	Join us in our war. We can forge a better world together.	false
+diplomacy_strings_string_Scythan_Dip_Demand_Join_War_02	Come, join us in battle, the tightest bond with a Scythan is found in battle.	false
+diplomacy_strings_string_Scythan_Dip_Demand_Join_War_03	Join me in battle now and and be showered in riches later.	false
+diplomacy_strings_string_Scythan_Dip_Demand_Payments_Neutral_01	Please, do this for the safety of both our peoples.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Neutral_01	I trust you will see the good in keeping relations up with me.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Neutral_02	I can be very generous to my friends. Remember that.	false
+diplomacy_strings_string_Scythan_Dip_Generic_Offer_Neutral_03	A proof of Scythan kindness. Be a good guest and accept it.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Neutral_01	I don't see how this deal will help my people.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Neutral_02	Do not underestimate me, or the Scythan people.	false
+diplomacy_strings_string_Scythan_Dip_Rejection_Neutral_03	The desert welcomes fools like you with open arms.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Cooperation_01	Be a friend to the Scythans and have a loyal ally forever.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Cooperation_02	The Forces of Dakrness will tremble at our combined might!	false
+diplomacy_strings_string_Scythan_Dip_Offer_Cooperation_03	Come, let us make a better world for our peoples, together.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Peace_01	No more bloodshed. Please, this must end.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Peace_02	Do you not see what this war is doing to both our peoples? End this.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Peace_03	Let us end this pointless brawl, and let me return to take care of my people.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Join_War_01	The Scythans ride with you.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Join_War_02	The reign of darkness ends here. I am with you.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Join_War_03	As I swore in my oath, I will ride with you, always.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Gift_01	You've been good to the Scythans. Accept this.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Gift_02	Let it not be said that Prince Fatandira is not generous.	false
+diplomacy_strings_string_Scythan_Dip_Offer_Gift_03	Please, use this gifts for the greater good of your people.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Neu_01	The Scythans greet you, stranger.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Neu_02	I'm Prince Fatandira. I offer you the hospitality of my tent.	false
+diplomacy_strings_string_Scythan_Dip_Greet_Neu_03	Come, you'll see my realm is both prosperous and enlightened.	false
+diplomacy_strings_string_Scythan_Dip_Reject_Peace_01	Fool! You will fall.	false
+diplomacy_strings_string_Scythan_Dip_Reject_Peace_02	The Scythans will end you!	false
+diplomacy_strings_string_Scythan_Dip_Reject_Peace_03	Ilyria’s teats! What a fool!	false
+diplomacy_strings_string_Scythan_Dip_Reject_Join_Confederation_01	No. The Scythans will ride forever free.	false
+diplomacy_strings_string_Scythan_Dip_Reject_Join_Confederation_02	The Scythans are not simple traitors. Our oath is eternal.	false
+diplomacy_strings_string_Scythan_Dip_Reject_Join_Confederation_03	I shall never kneel.	false
+diplomacy_strings_string_Scythan_Dip_War_01	Tyrant! For the good of your people, you need to be brought down!	false
+diplomacy_strings_string_Scythan_Dip_War_02	Your people need proper guidance.	false
+diplomacy_strings_string_Scythan_Dip_War_03	You have betrayed the trust of Fatandira, and now you will pay!	false

@@ -1,0 +1,6 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+grudge_main_emp_cannon	false	grudge_cannon_ball	great_cannon	false
+wh_main_gru_crossbow	false	wh_gru_crossbow_bolt	crossbow	false
+ovn_jezzail	false	ovn_jezzail_bullet	repeater_rifle	false
+ovn_jezzail_ror	false	ovn_jezzail_bullet_ror	repeater_rifle	false

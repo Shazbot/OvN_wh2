@@ -1,0 +1,8 @@
+technology_node_links_tables	2
+child_key	initial_descent_tiers	parent_key	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset
+araby_tech_good_9	0	araby_tech_good_2	1	3	0.0	0.0
+araby_tech_bad_9	0	araby_tech_bad_2	3	1	0.0	0.0
+scimitar_tech_good_9	0	scimitar_tech_good_2	1	3	0.0	0.0
+scimitar_tech_bad_9	0	scimitar_tech_bad_2	3	1	0.0	0.0
+scythan_tech_good_9	0	scythan_tech_good_2	1	3	0.0	0.0
+scythan_tech_bad_9	0	scythan_tech_bad_2	3	1	0.0	0.0

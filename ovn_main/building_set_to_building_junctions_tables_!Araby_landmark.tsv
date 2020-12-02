@@ -1,0 +1,11 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_arb_haikk		wh2_main_set_landmark	false
+ovn_arb_bel		wh2_main_set_landmark	false
+ovn_arb_fyrus		wh2_main_set_landmark	false
+ovn_arb_Sabar		wh2_main_set_landmark	false
+ovn_arb_Madrasat		wh2_main_set_landmark	false
+ovn_arb_Sartosa		wh2_main_set_landmark	false
+ovn_arb_Magritta		wh2_main_set_landmark	false
+ovn_arb_Crypt		wh2_main_set_landmark	false
+ovn_arb_Twilight		wh2_main_set_landmark	false
