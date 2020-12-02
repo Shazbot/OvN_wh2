@@ -19,7 +19,7 @@ character_skills_localised_description_magic_ice_frost_blade	A sparkling blade o
 character_skills_localised_name_magic_ice_crisping_cold	Crisping Cold	false
 character_skills_localised_description_magic_ice_crisping_cold	An unnatural cold invigorates friendly forces, making their movements faster and more accurate.	false
 character_skills_localised_name_magic_ice_shattering_frost	Shattering Frost	false
-character_skills_localised_description_magic_ice_shattering_frost	The sudden frost shakles movements of the target, shattering it's armour and turning it to a crumbly glass	false
+character_skills_localised_description_magic_ice_shattering_frost	The sudden frost shackles movements of the target, shattering it's armour and turning it to a crumbly glass	false
 character_skills_localised_name_magic_ice_chill	Chill	false
 character_skills_localised_description_magic_ice_chill	Touch leaves a gleaming frost behind. The air within the immediate area drops to freezing for the duration of the spell	false
 character_skills_localised_name_skill_all_magic_ice_cold	Unnatural Cold	false
@@ -124,7 +124,7 @@ character_skills_localised_description_grudge_skill_defence_side2	A good mercena
 character_skills_localised_description_grudge_skill_defence_side3	A good mercenary trains always.	false
 character_skills_localised_description_grudge_skill_defence_starter	A good mercenary trains always.	false
 character_skills_localised_description_grudge_skill_armour_main1	Specially crafted to allow for the best protection and manoeuvrability.	false
-character_skills_localised_description_grudge_skill_armour_main2	Forged by the greatest dwarven smiths.	false
+character_skills_localised_description_grudge_skill_armour_main2	Forged by the greatest dwarfen smiths.	false
 character_skills_localised_description_grudge_skill_armour_side1	Good armour for veteran mercenary.	false
 character_skills_localised_description_grudge_skill_armour_side2	Good armour for veteran mercenary.	false
 character_skills_localised_description_grudge_skill_armour_side3	Good armour for veteran mercenary.	false
@@ -136,7 +136,7 @@ character_skills_localised_description_grudge_skill_speed_side2	A good mercenary
 character_skills_localised_description_grudge_skill_speed_side3	A good mercenary trains always.	false
 character_skills_localised_description_grudge_skill_speed_starter	A good mercenary trains always.	false
 character_skills_localised_description_grudge_skill_charge_main1	This one achieved a true mastery in the art of war	false
-character_skills_localised_description_grudge_skill_charge_main2	The one who reach unachievable mastery is called paragon.	false
+character_skills_localised_description_grudge_skill_charge_main2	The one to reach unachievable mastery is called paragon.	false
 character_skills_localised_description_grudge_skill_charge_side1	A good mercenary trains always.	false
 character_skills_localised_description_grudge_skill_charge_side2	A good mercenary trains always.	false
 character_skills_localised_description_grudge_skill_charge_side3	A good mercenary trains always.	false
@@ -146,8 +146,8 @@ character_skills_localised_description_grudge_skill_heroic_killing_blow	There ar
 character_skills_localised_description_grudge_skill_foe-seeker	From one bloodied, lifeless corpse to the next, this one is always looking for the next adversary to best.	false
 character_skills_localised_description_grudge_skill_slippery	This one can't be cornered or pinned, he just slips away.	false
 character_skills_localised_description_grudge_skill_faiths_bastion	The faith of this one is so strong that protects him from any harm.	false
-character_skills_localised_description_grudge_skill_stand_your_ground	Best attack is defence.	false
-character_skills_localised_description_grudge_skill_feint_and_riposte	Every stroke is precisely made and finds it's mark perfectly.	false
+character_skills_localised_description_grudge_skill_stand_your_ground	The best attack is defence.	false
+character_skills_localised_description_grudge_skill_feint_and_riposte	Every stroke is precisely made and finds its mark perfectly.	false
 character_skills_localised_description_grudge_skill_rally	Rally to my banner, and we shall bathe the plains with the blood of our enemies!	false
 character_skills_localised_description_grudge_skill_rune_of_hearth_&_home	Invoking the Rune of Hearth and Home stirs a Dwarf's pride in his Hold, Clan and Ancestors.	false
 character_skills_localised_description_grudge_skill_rune_of_oath_&_steel	Armour inscribed with the Rune of Oath & Steel will not bend or buckle.	false
@@ -155,14 +155,14 @@ character_skills_localised_description_grudge_skill_damping	The Dwarfs' natural 
 character_skills_localised_description_grudge_skill_strike_the_runes	A Runesmith may 'strike the runes' - a metaphor for refusing to let them cool, which reduces their potency.	false
 character_skills_localised_description_grudge_skill_forgefire	The fire of a runesmith's forge burn brighter and hotter, it's blessing upon an ally's weapons increase their potency.	false
 character_skills_localised_description_grudge_skill_rune_of_wrath_&_ruin	The Rune of Wrath&Ruin causes the earth to crack, venting forth fire and sulphur.	false
-character_skills_localised_description_grudge_skill_rune_of_striking	The Rune of Striking causes weapon to hit the foe's most vulnerable area with an uncanny precision.	false
+character_skills_localised_description_grudge_skill_rune_of_striking	The Rune of Striking causes a weapon to hit the foe's most vulnerable area with uncanny precision.	false
 character_skills_localised_description_grudge_skill_rune_of_might	A dwarf, wielding a weapon bearing the Rune of Might can fell a giant.	false
-character_skills_localised_description_grudge_skill_rune_of_parrying	A weapon with this rune moves to block incoming attacks, making it's wielder extremely hard to hit.	false
-character_skills_localised_description_grudge_skill_rune_of_fury	A weapon holding thhis rune almost jumping out of their wielder's hands towards the foe.	false
+character_skills_localised_description_grudge_skill_rune_of_parrying	A weapon with this rune moves to block incoming attacks, making its wielder extremely hard to hit.	false
+character_skills_localised_description_grudge_skill_rune_of_fury	A weapon holding this rune almost jumping out of their wielder's hands towards the foe.	false
 character_skills_localised_description_grudge_skill_rune_of_negation	This powerful rune protects any ally in range from magic.	false
-character_skills_localised_description_grudge_skill_morale1	The iron will and indomitable presence of this leader ensures that his followers will remain steadfast against the peril they face.	false
+character_skills_localised_description_grudge_skill_morale1	The iron will and indomitable presence of this leader ensure that his followers will remain steadfast against the peril they face.	false
 character_skills_localised_description_grudge_skill_morale2	Such is this one's conviction that others have no choice but to believe.	false
-character_skills_localised_description_grudge_skill_morale3	Nothing can break his persistance.	false
+character_skills_localised_description_grudge_skill_morale3	Nothing can break his persistence.	false
 character_skills_localised_description_grudge_skill_hold_the_line	Those in command of the ranks will issue their commands with a ferocious bark, expecting instant obedience.	false
 character_skills_localised_description_grudge_skill_soothsaying	Speaking words of power or faith can alter perceptions on the battlefield.	false
 character_skills_localised_description_grudge_skill_self_augury	An omen, a sign - this being knows things and any who follow will share their glory.	false
@@ -249,7 +249,7 @@ character_skills_localised_description_grudge_skill_bst_champion_offensive_2	Off
 character_skills_localised_name_grudge_skill_mercenary	Mercenary	false
 character_skills_localised_description_grudge_skill_mercenary	Till green and inexperienced this one serves for a penny, but at higher levels his service costs much more.	false
 character_skills_localised_name_grudge_skill_regiment_size	Hardened Regimental Commander	false
-character_skills_localised_description_grudge_skill_regiment_size	Increases the the unit size of Bernhardt's personal cavalry unit.	false
+character_skills_localised_description_grudge_skill_regiment_size	Increases the unit size of Bernhardt's personal cavalry unit.	false
 character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_men	Masterful Tactics vs Men	false
 character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_dwarves	Masterful Tactics vs Dwarves	false
 character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_undead	Masterful Tactics vs Undead	false
@@ -274,7 +274,7 @@ character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_dark_elve
 character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_lizardmen	Countless battles teach mercenaries to fight with different kinds of enemies.	false
 character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_high_elves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
 character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_wood_elves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
-character_skills_localised_description_grudge_skill_swiftness_of_itzl	Nobody can intervene the charge of this men, when they have their target.	false
+character_skills_localised_description_grudge_skill_swiftness_of_itzl	Nobody can intervene the charge of this man when he has his target.	false
 character_skills_localised_description_grudge_skill_verminous_valour	The leader calls his allies to the last, decisive battle.	false
 character_skills_localised_name_grudge_skill_fire_ward	Immunity to Fire	false
 character_skills_localised_description_grudge_skill_fire_ward	This skill grants the character immunity to fire.	false
@@ -292,15 +292,15 @@ character_skills_localised_name_grudge_skill_wand_of_jet	Wand of Jet	false
 character_skills_localised_name_grudge_skill_banner_of_arcane_warding	Banner of Arcane Warding	false
 character_skills_localised_name_grudge_skill_banner_of_wrath	Banner of Wrath	false
 character_skills_localised_name_grudge_skill_banner_of_defiance	Banner of Defiance	false
-character_skills_localised_description_grudge_skill_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. In addition a fireball may be cast from the sword.	false
+character_skills_localised_description_grudge_skill_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. Also, a fireball may be cast from the sword.	false
 character_skills_localised_description_grudge_skill_hellfire_sword	This sword is enchanted with the energy of Bright magic. Its magical power may be cast when the wielder is in melee, unleashing a fiery blast which wounds any troops in the vicinity.	false
 character_skills_localised_description_grudge_skill_storm_sword	This mighty sword channels the energy of Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast, summoning multiple lightning bolts from the sky which strike the enemy regiment.	false
 character_skills_localised_description_grudge_skill_runefang	Forged by a great Dwarf runesmith as a gift to the Empire, this sword has powerful Dwarf runes carved upon its blade. The sword strikes with such force it penetrates all armour, and any undead troops hit by the sword suffer twice the normal damage.	false
 character_skills_localised_description_grudge_skill_enchanted_shield	The Enchanted Shield provides the bearer's regiment with an extra level of armour. This item can only be utilised by troops who are normally able to use a shield.	false
 character_skills_localised_description_grudge_skill_shield_of_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs. The patterns magically distract arrows and bolts, sending them spinning off course. The bearer's regiment will be protected against missiles from bows, crossbows, war engines and so on. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
-character_skills_localised_description_grudge_skill_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channeling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
+character_skills_localised_description_grudge_skill_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channelling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
 character_skills_localised_description_grudge_skill_dragonhelm	This magic helmet protects the bearer's regiment from the effects of fire or flame attacks. The magical powers are so effective that almost all such attacks will be ineffective.	false
-character_skills_localised_description_grudge_skill_wand_of_jet	This powerful wand channels the energy of the winds of magic, providing the bearer with extra magical powers. Any spell in the bearer's repertoire can be cast for less magic points than it would normally cost, to a minimum of one point.	false
+character_skills_localised_description_grudge_skill_wand_of_jet	This powerful wand channels the energy of the winds of magic, providing the bearer with extra magical powers. Any spell in the bearer's repertoire can be cast for fewer magic points than it would normally cost, to a minimum of one point.	false
 character_skills_localised_description_grudge_skill_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	false
 character_skills_localised_description_grudge_skill_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	false
 character_skills_localised_description_grudge_skill_banner_of_defiance	This powerful banner infuses the bearer's regiment with extra courage, making them braver and more determined. A regiment bearing this banner will never break from hand-to-hand combat and is immune to fear.	false

@@ -3,8 +3,8 @@ key	text	tooltip
 dilemmas_localised_description_ovn_chaos_gipfel	Imperial traders and citizens have vanished with some last seen heading to the village Gipfel. Witch Hunters dispatched by Volkmar have reported to us that the place reeks of Chaos. The village leader Dagobert Heathland ensures us however this is merely an imperial ploy to sabotage our industry.	true
 dilemmas_localised_title_ovn_chaos_gipfel	Harvest Vanishing	true
 cdir_events_dilemma_choice_details_localised_choice_label_ovn_chaos_gipfelFIRST	Root out the Heretics!	true
-cdir_events_dilemma_choice_details_localised_choice_label_ovn_chaos_gipfelSECOND	Tis just Tall Tales	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_chaos_gipfelSECOND	'Tis just Tall Tales	true
 effect_bundles_localised_title_ovn_chaos_gipfel	Thriving Industry	true
-effect_bundles_localised_description_ovn_chaos_gipfel	The Mootland economy thrives, though folks look a little paler than usually.	true
+effect_bundles_localised_description_ovn_chaos_gipfel	The Mootland economy thrives, though folks look a little paler than usual.	true
 effect_bundles_localised_title_ovn_chaos_gipfel_deny	Ruined Industry	true
 effect_bundles_localised_description_ovn_chaos_gipfel_deny	Gipfel is ruined and the effects reverberate throughout the Moot.	true

@@ -21,7 +21,7 @@ unit_abilities_tooltip_text_difficult_to_spot	These Trolls are camouflaged in fo
 unit_abilities_onscreen_name_stunted_regeneration	Weakened Regeneration	true
 unit_abilities_tooltip_text_stunted_regeneration	The regenerative ability of Bile Trolls is mostly occupied by keeping their many afflictions at bay. This means that wounds Bile Trolls receive are healing much slower compared to other Trolls.	true
 unit_abilities_onscreen_name_sickness_host	Host to Terrifying Afflictions	true
-unit_abilities_tooltip_text_sickness_host	Bile Trolls are feared by all, even by their famously stupid kin. They aren't feared for their combat prowess though, instead no one wants to get near them and risk infection - not even their allies.	true
+unit_abilities_tooltip_text_sickness_host	Bile Trolls are feared by all, even by their famously stupid kin. They aren't feared for their combat prowess though, instead, no one wants to get near them and risk infection - not even their allies.	true
 unit_abilities_onscreen_name_temper_tantrum	Reckless Rampage	true
 unit_abilities_tooltip_text_temper_tantrum	This is what happens if an already angry Troll feels provoked, frustrated, threatened or bored.	true
 unit_abilities_tooltip_text_burning_aura_of_ouch	Lava Trolls are filled with unbearable heat. Those getting too close are affected by this heat, their flesh burning in the presence of this twisted troll species.	true

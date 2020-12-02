@@ -22,9 +22,9 @@ effects_description_ovn_arb_baz_arm_09_faith_shield_ability	Passive ability: "Di
 unit_abilities_tooltip_text_ovn_arb_baz_arm_08_gorgon_shield_ability	Filled with dread, their bodies freeze for none can withstand the Gorgon's glare.	true
 unit_abilities_onscreen_name_ovn_arb_baz_arm_08_gorgon_shield_ability	Gorgon's Glare	true
 effects_description_ovn_arb_baz_arm_08_gorgon_shield_ability	Ability: "Gorgon's Glare"	true
-effect_bundles_localised_description_ovn_arb_baz_worship_01_djinn	The Cult of the Djinns is the predominant religion in Araby, headed by the Caliphs, and very popular with the arabyan people. Their idols can be found in every temple and home, because they ain't never had a protectors like them.	true
+effect_bundles_localised_description_ovn_arb_baz_worship_01_djinn	The Cult of the Djinns is the predominant religion in Araby, headed by the Caliphs, and very popular with the Arabyan people. Their idols can be found in every temple and home, because they ain't never had protectors like them.	true
 effect_bundles_localised_title_ovn_arb_baz_worship_01_djinn	Cult of Djinns	true
 effects_description_smokeleaf_smokescreen	Ability: "Tobacco Smokescreen"	true
-unit_abilities_tooltip_text_ovn_arb_baz_escape	It's as if they have melted away into the Arabyan dunes, no where to be seen.	true
+unit_abilities_tooltip_text_ovn_arb_baz_escape	It's as if they have melted away into the Arabyan dunes, nowhere to be seen.	true
 unit_abilities_onscreen_name_ovn_arb_baz_escape	Enveloped by the Dune	true
 effects_description_ovn_arb_baz_escape	Ability: "Enveloped by the Dune"	true

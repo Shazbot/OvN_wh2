@@ -8,13 +8,13 @@ unit_abilities_tooltip_text_arb_golden_magus_burning_scimitar_ability	One of the
 unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_bolts_of_burning	Magical Support: Piercing Bolts of Ruin	false
 unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_bolts_of_burning	Orders the Flaming Scimitar's Fire Efreets to unleash a barrage of burning bolts upon your enemies.	false
 unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_hurricane_blades	Magical Support: Hurricane of Blades	false
-unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_hurricane_blades	Orders the Flaming Scimitar's Temest Djinns to conjure a potent torrent of curved windswords upon the battlefield.	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_hurricane_blades	Orders the Flaming Scimitar's Tempest Djinns to conjure a potent torrent of curved windswords upon the battlefield.	false
 unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_royal_djinn	Summon the Sultan of Flame	false
 unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_royal_djinn	"The power! THE ABSOLUTE POWER!"	false
 unit_abilities_onscreen_name_arb_golden_magus_skiff_scirocco	Sirocco	false
 unit_abilities_tooltip_text_arb_golden_magus_skiff_scirocco	The dusty and unforgivable wind of the south, it brings with it the fury and the sweltering heat of the desert.	false
 unit_abilities_onscreen_name_arb_golden_magus_skiff_mistral	Mistral	false
-unit_abilities_tooltip_text_arb_golden_magus_skiff_mistral	The cool and protective wind of the north, it blows away the evil and wrongess in the skies and shields all from harm.	false
+unit_abilities_tooltip_text_arb_golden_magus_skiff_mistral	The cool and protective wind of the north, it blows away the evil and wrongness in the skies and shields all from harm.	false
 unit_abilities_onscreen_name_arb_sultan_flame_bound_firestorm	Flame Storm	false
 unit_abilities_tooltip_text_arb_sultan_flame_bound_firestorm	A column of churning fire erupts from the battlefield, causing much destruction!    	false
 unit_abilities_onscreen_name_arb_sultan_flame_bound_fireburst	Flame Burst	false

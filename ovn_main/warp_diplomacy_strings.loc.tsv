@@ -2,7 +2,7 @@ Loc PackedFile	1
 key	text	tooltip
 diplomacy_strings_string_Warp_Dip_Accept_State_Gift_01	No souls, pity, this will have to do.	false
 diplomacy_strings_string_Warp_Dip_Accept_State_Gift_02	The Society of Harmonious Growth and Splendour will make great use of this. 	false
-diplomacy_strings_string_Warp_Dip_Accept_State_Gift_03	You have Nurgles favour.	false
+diplomacy_strings_string_Warp_Dip_Accept_State_Gift_03	You have Nurgle's favour.	false
 diplomacy_strings_string_Warp_Dip_Acceptance_Negative_01	We accept, may your wounds fester and decay.	false
 diplomacy_strings_string_Warp_Dip_Acceptance_Negative_02	I’d sooner cleave you in two but the superiors have spoken.	false
 diplomacy_strings_string_Warp_Dip_Acceptance_Negative_03	AHHHHHH! Rot-Father no longer eases my pain.	false
@@ -34,7 +34,7 @@ diplomacy_strings_string_Warp_Dip_Demand_Payments_Positive_01	The Society of Har
 diplomacy_strings_string_Warp_Dip_Generic_Offer_Negative_01	Though it displeases Rot-Father, it must be done.	false
 diplomacy_strings_string_Warp_Dip_Generic_Offer_Negative_02	We only do this so it may help us kill that Ubersreik lot.	false
 diplomacy_strings_string_Warp_Dip_Generic_Offer_Negative_03	Many disagreed we should offer you this. Their heads are now stakes and their entrails decorate our palisades.	false
-diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_01	Nurgles work done in Nurgles way will never lack Nurgles plague.	false
+diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_01	Nurgle's work done in Nurgle's way will never lack Nurgle's plague.	false
 diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_02	Rot-Father will meet you where you are in order to take you where he wants you to go.	false
 diplomacy_strings_string_Warp_Dip_Generic_Offer_Neutral_03	The Lord of Decay does not give us everything we want, but he does fulfill his promises, leading us to him.	false
 diplomacy_strings_string_Warp_Dip_Generic_Offer_Positive_01	Let the Fly Lords promises rot away your problems.	false
@@ -54,7 +54,7 @@ diplomacy_strings_string_Warp_Dip_Offer_Cooperation_02	Together we will spread r
 diplomacy_strings_string_Warp_Dip_Offer_Cooperation_03	Your potential is the sum of all the possibilities Nurgle has for your life.	false
 diplomacy_strings_string_Warp_Dip_Offer_Gift_01	Always, everywhere Nurgle is present, and always he seeks to discover himself to each one	false
 diplomacy_strings_string_Warp_Dip_Offer_Gift_02	There is no one who is insignificant in the purpose of the Rot-Father.	false
-diplomacy_strings_string_Warp_Dip_Offer_Gift_03	Take this in Rotbloods name, may is serve our Dark Pact.	false
+diplomacy_strings_string_Warp_Dip_Offer_Gift_03	Take this in Rotbloods name, may it serve our Dark Pact.	false
 diplomacy_strings_string_Warp_Dip_Offer_Join_War_01	We wish to prove ourselves, as all Rotbloods do!	false
 diplomacy_strings_string_Warp_Dip_Offer_Join_War_02	The ones I seek come to me! Stealers of slaves, torchers of food, defilers of Lords… they will suffer for it all!	false
 diplomacy_strings_string_Warp_Dip_Offer_Join_War_03	We have use of their souls.	false

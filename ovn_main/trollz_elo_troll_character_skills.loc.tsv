@@ -1,6 +1,6 @@
 Loc PackedFile	1
 key	text	tooltip
-character_skills_localised_description_elo_skill_conduit	Not all Trolls are created equally, a rare few possess some intelligence and are able to lead thier own tribe.	true
+character_skills_localised_description_elo_skill_conduit	Not all Trolls are created equally, a rare few possess some intelligence and are able to lead their own tribe.	true
 character_skills_localised_description_elo_skill_fedbywar	A Troll Horde always hungers and the first to battle are the first to feed.	true
 character_skills_localised_name_elo_skill_fedbywar	Fed by War	true
 character_skills_localised_name_elo_skill_toostupid	Too Stupid to Care	true
@@ -11,31 +11,31 @@ character_skills_localised_description_elo_skill_bloodlust	Born for bloody fight
 character_skills_localised_name_elo_skill_bloodlust	Bloodlust	true
 character_skills_localised_name_elo_skill_hitharder	Hit Harder	true
 character_skills_localised_description_elo_skill_hitharder	Hitting as hard as possible without getting tired fast is the pinnacle of Troll fighting techniques!	true
-character_skills_localised_description_elo_skill_troll_innate01	This Troll and his horde eat their enemies. And wounded comrades. Well actually they eat about everything.	true
+character_skills_localised_description_elo_skill_troll_innate01	This Troll and his horde eat their enemies. And wounded comrades. Well, actually they eat about everything.	true
 character_skills_localised_name_elo_skill_troll_innate01	Motivated by Hunger but Insatiable	true
 character_skills_localised_description_elo_skill_troll_innate02	Stronger than most others of his kind, but easy to enrage.	true
 character_skills_localised_name_elo_skill_troll_innate02	Mighty but Choleric	true
 character_skills_localised_name_elo_skill_troll_innate03	Destructive	true
 character_skills_localised_description_elo_skill_troll_innate03	Hates every kind of structure and will destroy them. Yours as well as the enemies.	true
-character_skills_localised_name_elo_skill_troll_innate04	Obidient but Stupid as a Rock	true
+character_skills_localised_name_elo_skill_troll_innate04	Obedient but Stupid as a Rock	true
 character_skills_localised_description_elo_skill_troll_innate04	Does everything the boss commands him to do. But whenever something unexpected happens, it all falls apart.	true
 character_skills_localised_name_elo_skill_troll_innate05	Intimidating but all Show	true
-character_skills_localised_description_elo_skill_troll_innate05	Makes a lot of noise, looks scary, but actually as brave as the average skaven.	true
-character_skills_localised_name_elo_skill_troll_innate06	Completly Broken	true
-character_skills_localised_description_elo_skill_troll_innate06	The boss took control of this one so often that what little mind the troll had is completly gone. Even the dumbest troll notices that something is not right with this one.	true
-character_skills_localised_name_elo_skill_troll_innate07	Strong Willed	true
-character_skills_localised_description_elo_skill_troll_innate07	It is not easy to force this Troll to do anything. Everytime the boss is not checking on him, he goes off to do whatever comes to his mind.	true
+character_skills_localised_description_elo_skill_troll_innate05	Makes a lot of noise, looks scary, but actually as brave as the average Skaven.	true
+character_skills_localised_name_elo_skill_troll_innate06	Completely Broken	true
+character_skills_localised_description_elo_skill_troll_innate06	The boss took control of this one so often that what little mind the troll had is completely gone. Even the dumbest troll notices that something is not right with this one.	true
+character_skills_localised_name_elo_skill_troll_innate07	Strong-Willed	true
+character_skills_localised_description_elo_skill_troll_innate07	It is not easy to force this Troll to do anything. Every time the boss is not checking on him, he goes off to do whatever comes to his mind.	true
 character_skills_localised_name_elo_skill_troll_food_rats	All You Can Eat: Skaven	true
-character_skills_localised_description_elo_skill_troll_food_rats	Easy to scare, numerous and really everywhere. As long as one doesn't get tired of swinging their club around, no troll needs to go hungry!	true
-character_skills_localised_description_elo_skill_troll_food_humans	The classics never get old. For preperation they just need to be squished well and voila, another troll meal ready.	true
+character_skills_localised_description_elo_skill_troll_food_rats	Easy to scare, numerous and everywhere, really. As long as one doesn't get tired of swinging their club around, no troll needs to go hungry!	true
+character_skills_localised_description_elo_skill_troll_food_humans	The classics never get old. For preparation they just need to be squished well and voila, another troll meal ready.	true
 character_skills_localised_name_elo_skill_troll_food_humans	Home Cooking: Humans	true
-character_skills_localised_description_elo_skill_troll_food_dwarfs	They need to be peeled out of their hard shell before consumption but have a unique intense taste.	true
+character_skills_localised_description_elo_skill_troll_food_dwarfs	They need to be peeled out of their hard shell before consumption but have a uniquely intense taste.	true
 character_skills_localised_name_elo_skill_troll_food_dwarfs	Crustaceans: Dwarfs	true
-character_skills_localised_description_elo_skill_troll_food_elves	Having tasted one of those, most trolls immideatly want another. They just need to endure being showered with pointy sticks.	true
+character_skills_localised_description_elo_skill_troll_food_elves	Having tasted one of those, most trolls immediately want another. They just need to endure being showered with pointy sticks.	true
 character_skills_localised_name_elo_skill_troll_food_elves	Haute Cuisine: Elves	true
 character_skills_localised_name_elo_skill_troll_food_undead	Dry Aged Meat: Undead	true
 character_skills_localised_description_elo_skill_troll_food_undead	Some trolls enjoy the soft texture of aged meat and sucking out the marrow of the bones. They just need to be brave enough to approach the living dead.	true
-character_skills_localised_description_elo_skill_troll_food_green	They often come running towards trolls, yelling and waving their sharp metal, so they are easy to collect. They also come in a smaller snack sized variant for the smaller hunger.	true
+character_skills_localised_description_elo_skill_troll_food_green	They often come running towards trolls, yelling and waving their sharp metal, so they are easy to collect. They also come in a smaller snack-sized variant for the smaller hunger.	true
 character_skills_localised_name_elo_skill_troll_food_green	Junk Food: Greenskins	true
 character_skills_localised_name_elo_skill_troll_food_beast	Gamey Food: Beastmen	true
 character_skills_localised_description_elo_skill_troll_food_beast	Combining the taste of wild animal and humans, some trolls are hooked on beastmen meat. They just need to be fast enough to catch them and match their wildness to best them.	true
@@ -47,7 +47,7 @@ character_skills_localised_description_elo_skill_troll_innate08	Intelligence is 
 character_skills_localised_name_elo_skill_troll_innate08	Touched by Khorne	true
 character_skills_localised_description_elo_skill_troll_innate09	Grandfather Nurgle generously spreads his gifts throughout the mortal world, even to such unworthy beings as Trolls.	true
 character_skills_localised_name_elo_skill_troll_innate09	Touched by Nurgle	true
-character_skills_localised_description_elo_skill_troll_innate10	Even a Troll can catch the eye of the Prince of Excess - mostly because of their indulgance into gluttony.	true
+character_skills_localised_description_elo_skill_troll_innate10	Even a Troll can catch the eye of the Prince of Excess - mostly because of their indulgence into gluttony.	true
 character_skills_localised_name_elo_skill_troll_innate10	Touched by Slaneesh	true
 character_skills_localised_description_elo_skill_troll_frostblood	Either by lineage or by mutation, this Troll has some Frost Troll in him, enabling him to channel the frost of their Norscan home.	true
 character_skills_localised_name_elo_skill_troll_frostblood	Frost Troll Blood	true
@@ -65,11 +65,11 @@ character_skills_localised_name_elo_skill_throgg_herold	Bringer of Destruction	t
 character_skills_localised_description_elo_skill_throgg_herold	The bosses ultimate goal is the destruction of all and any civilization. He has not much love for what it offers and will only begrudgingly use whatever the Norse towns offer to further his cause.	true
 character_skills_localised_name_elo_skill_throgg_tactican	Troll Strategist	true
 character_skills_localised_description_elo_skill_throgg_tactican	The boss repeatedly outmaneuvers the best generals in the world, especially when they underestimate him.	true
-character_skills_localised_name_elo_skill_throgg_eat	Man Eater	true
+character_skills_localised_name_elo_skill_throgg_eat	Man-Eater	true
 character_skills_localised_description_elo_skill_throgg_eat	Battle time is feeding time!	true
-character_skills_localised_name_elo_skill_throgg_veterans	Battlehardened Kin	true
-character_skills_localised_description_elo_skill_throgg_veterans	Even a troll will somehow improve if they survive enough battles. Fighting under the bosses leadership makes this even suprisingly likely.	true
-character_skills_localised_description_elo_skill_throgg_looter	Different from all other trolls, the boss knows what is valueable and worth keeping and what is junk.	true
+character_skills_localised_name_elo_skill_throgg_veterans	Battle-Hardened Kin	true
+character_skills_localised_description_elo_skill_throgg_veterans	Even a troll will somehow improve if they survive enough battles. Fighting under the bosses leadership makes this even surprisingly likely.	true
+character_skills_localised_description_elo_skill_throgg_looter	Different from all other trolls, the boss knows what is valuable and worth keeping and what is junk.	true
 character_skills_localised_name_elo_skill_throgg_looter	Knowledgable Looter	true
 character_skills_localised_description_elo_skill_throgg_monsterlord	The time of humans comes to an end. They have served their purpose as monsters flock to the bosses army. Only the dumb and greedy among humans will stay and fight for him.	true
 character_skills_localised_name_elo_skill_throgg_monsterlord	Lord of the Monster Horde	true
@@ -81,16 +81,16 @@ character_skills_localised_description_elo_skill_troll_intimidation	Instead of l
 character_skills_localised_name_elo_skill_troll_intimidation	Intimidating	true
 character_skills_localised_name_elo_skill_throgg_march	March of Eternal Winter	true
 character_skills_localised_description_elo_skill_throgg_march	Where the boss goes, the land is warped by the power of Chaos - something the boss enjoys. And so he pushes his Horde ever onwards into foreign lands, to further the coming of his ice age.	true
-character_skills_localised_description_elo_skill_troll_innate11	Grabs and keeps whatever arouses his interest. Sadly, he has absolutly no sense for value. However, what the loot lacks in quality it makes up for in quantity.	true
+character_skills_localised_description_elo_skill_troll_innate11	Grabs and keeps whatever arouses his interest. Sadly, he has absolutely no sense for value. However, what the loot lacks in quality it makes up for in quantity.	true
 character_skills_localised_name_elo_skill_troll_innate11	Mindless Hoarder	true
 character_skills_localised_name_elo_skill_troll_innate12	Dumb Luck	true
-character_skills_localised_description_elo_skill_troll_innate12	Strolls right into cannonfire, is clumsy in combat and makes all the wrong choices. Still gets more often away with it than he has any right to.	true
+character_skills_localised_description_elo_skill_troll_innate12	Strolls right into cannon fire, is clumsy in combat and makes all the wrong choices. Still gets more often away with it than he has any right to.	true
 character_skills_localised_name_elo_throgg_inhumane	Inhumane Stength	true
 character_skills_localised_description_elo_throgg_inhumane	What trolls lack in elegance and grace they make up for in ferocity and pure strength.	true
 character_skills_localised_name_snow_troll_troll_boss	Troll Boss	true
 character_skills_localised_description_snow_troll_troll_boss	Big, mean and tough enough to make other monsters around him do...something. Sometimes even what he wants them to do.	true
 character_skills_localised_name_snow_troll_maneater	Man-eater	true
-character_skills_localised_description_snow_troll_maneater	Seeing a monster devouring their comrades - and mounts and sometimes spare equipment which looks remotly edible - is quite unsettling for most soldiers.	true
+character_skills_localised_description_snow_troll_maneater	Seeing a monster devouring their comrades - and mounts and sometimes spare equipment which looks remotely edible - is quite unsettling for most soldiers.	true
 character_skills_localised_name_snow_troll_big_angry	Big and Angry	true
 character_skills_localised_description_snow_troll_big_angry	Why is the food fighting back so much? This Troll wants to eat NOW! So he'll whack the food even harder until it stops moving so much!	true
 character_skills_localised_name_snow_troll_mountain_wanderer	Mountain Wanderer	true
@@ -99,7 +99,7 @@ character_skills_localised_name_snow_troll_tantrum	Reckless Rampage	true
 character_skills_localised_description_snow_troll_tantrum	One of the main emotions of a snow troll in battle is anger. And if he was pocked by sharp pointy things often enough, he gets much angrier.	true
 character_skills_localised_name_elo_skill_conduit	Troll Chief	true
 character_skills_localised_name_elo_skill_throgg_raw_might	Always Hungry	false
-character_skills_localised_description_elo_skill_throgg_raw_might	Hunger is a the most effective way to make trolls take part in battles. The hungrier the troll, the more fighting he is willing to do.	false
+character_skills_localised_description_elo_skill_throgg_raw_might	Hunger is the most effective way to make trolls take part in battles. The hungrier the troll, the more fighting he is willing to do.	false
 character_skills_localised_name_elo_skill_mountain_masters	Horrors of the Mountains	false
 character_skills_localised_description_elo_skill_mountain_masters	The Mountains are home not only to the steadfast Dawi, but also to the horrors that hunt them.	false
 character_skills_localised_description_elo_skill_throgg_blight	The lands of weak mankind are teeming with Trolls, many of which are tougher, meaner and hungrier than the average troll. These trolls make fine recruits for the army.	false
@@ -114,23 +114,23 @@ character_skills_localised_description_elo_skill_troll_ice_snow	These Trolls see
 character_skills_localised_name_reworked_cyclopean_fiends	Ugma's Fiends	false
 character_skills_localised_description_reworked_cyclopean_fiends	The most feared and savage trolls march alongside Ugma to bring ruin over their foes.	false
 character_skills_localised_name_reworked_king_of_trolls	King of Trolls	false
-character_skills_localised_description_reworked_king_of_trolls	The boss leads ever growing hordes of his kin against the weak forces of the South.	false
+character_skills_localised_description_reworked_king_of_trolls	The boss leads ever-growing hordes of his kin against the weak forces of the South.	false
 character_skills_localised_name_reworked_mutant_regeneration	Mutant Regeneration	false
 character_skills_localised_description_reworked_mutant_regeneration	Troll flesh heals incredibly fast, allowing them to recover from almost any wound in no time.	false
 character_skills_localised_name_elo_troll_toll	Troll Toll	false
 character_skills_localised_description_elo_troll_toll	Only beta trolls hide under bridges!	false
 character_skills_localised_name_elo_leader_river	River Troll Chieftain	false
-character_skills_localised_description_elo_leader_river	Considering that Chief Ugma is a River Troll himself, it might not be too suprising that he is especially experienced in leading others of his kind.	false
+character_skills_localised_description_elo_leader_river	Considering that Chief Ugma is a River Troll himself, it might not be too surprising that he is especially experienced in leading others of his kind.	false
 character_skills_localised_name_elo_eloquent_troll	Eloquent Troll	false
-character_skills_localised_description_elo_eloquent_troll	Chief Ugma loves to mock his enemies in their own language. It is suprisingly disturbing to hear a supposedly dumb Troll taunt in perfect Reikspiel.	false
+character_skills_localised_description_elo_eloquent_troll	Chief Ugma loves to mock his enemies in their own language. It is surprisingly disturbing to hear a supposedly dumb Troll taunt in perfect Reikspiel.	false
 character_skills_localised_name_creature_water	Burning Hatred	false
-character_skills_localised_description_creature_water	Many trolls hate the Dwarfs and side with the Greenskins out of convinience. Ugma hates both sides of the conflict equally.	false
+character_skills_localised_description_creature_water	Many trolls hate the Dwarfs and side with the Greenskins out of convenience. Ugma hates both sides of the conflict equally.	false
 character_skills_localised_name_ugma_warpstone_touched	Warpstone-touched	false
 character_skills_localised_description_ugma_warpstone_touched	Intelligence is not the only change the contact with warpstone caused in Chief Ugma. It also made him much tougher than the average troll.	false
 character_skills_localised_name_ugma_strongest_river	The Strongest River Troll	false
 character_skills_localised_description_ugma_strongest_river	No other River Troll can compare to Ugma. He is the toughest, meanest and strongest River Troll around. He even his stench is worse!	false
 character_skills_localised_name_ugma_trinkets	Ugma's Trophies and Trinkets	false
-character_skills_localised_description_ugma_trinkets	Ugma likes to collect treasures. He carries an assortment of small trinkets with him, taken from adventurers he has bested. Some of these trophies are magical and imbue the troll with benefitial effects.	false
+character_skills_localised_description_ugma_trinkets	Ugma likes to collect treasures. He carries an assortment of small trinkets with him, taken from adventurers he has bested. Some of these trophies are magical and imbue the troll with beneficial effects.	false
 character_skills_localised_name_resevoir_stone_hammer	Karak Azgal Stone Hammer	false
 character_skills_localised_description_resevoir_stone_hammer	Chief Ugma's oversized hammer has probably been taken from the statue of a Dwarf hero or ancestor god in the fallen Karak Azgal. Chief Umga doesn't seem to care though, all that matters is that the hammer has the right size and doesn't break.	false
 character_skills_localised_name_ugma_innate	Chieftain of Karak Azgal	false

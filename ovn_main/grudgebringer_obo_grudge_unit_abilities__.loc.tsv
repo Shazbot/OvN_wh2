@@ -23,9 +23,9 @@ unit_abilities_tooltip_text_spell_ice_crisping_cold	An unnatural cold invigorate
 unit_abilities_onscreen_name_spell_ice_crisping_cold_upgraded	Crisping Cold Advanced	true
 unit_abilities_tooltip_text_spell_ice_crisping_cold_upgraded	An unnatural cold invigorates friendly forces, making their movements faster and more accurate.	true
 unit_abilities_onscreen_name_spell_ice_shattering_frost	Shattering Frost	true
-unit_abilities_tooltip_text_spell_ice_shattering_frost	The sudden frost shakles movements of the target, shattering it's armour and turning it to a crumbly glass	true
+unit_abilities_tooltip_text_spell_ice_shattering_frost	The sudden frost shackles movements of the target, shattering it's armour and turning it to a crumbly glass	true
 unit_abilities_onscreen_name_spell_ice_shattering_frost_upgraded	Shattering Frost Advanced	true
-unit_abilities_tooltip_text_spell_ice_shattering_frost_upgraded	The sudden frost shakles movements of the target, shattering it's armour and turning it to a crumbly glass	true
+unit_abilities_tooltip_text_spell_ice_shattering_frost_upgraded	The sudden frost shackles movements of the target, shattering it's armour and turning it to a crumbly glass	true
 unit_abilities_onscreen_name_spell_ice_chill	Chill	true
 unit_abilities_tooltip_text_spell_ice_chill	Touch leaves a gleaming frost behind. The air within the immediate area drops to freezing for the duration of the spell	true
 unit_abilities_onscreen_name_spell_ice_chill_upgraded	Petrifying Chill	true
@@ -73,7 +73,7 @@ unit_abilities_onscreen_name_grudge_explosion3	Highly Explosive Shells	true
 unit_abilities_onscreen_name_grudge_apexplosion3	Shrapnel Shells	true
 unit_abilities_tooltip_text_grudge_weapon_abilities_the_reikland_runefang	Forged by a great Dwarf runesmith as a gift to the Empire, this sword has powerful Dwarf runes carved upon its blade. The sword strikes with such force it penetrates all armour, and any undead troops hit by the sword suffer twice the normal damage.	true
 unit_abilities_onscreen_name_grudge_weapon_abilities_the_reikland_runefang	Grudgebringers' Runefang	true
-unit_abilities_tooltip_text_grudge_weapon_abilities_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. In addition a fireball may be cast from the sword.	true
+unit_abilities_tooltip_text_grudge_weapon_abilities_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. Also, a fireball may be cast from the sword.	true
 unit_abilities_onscreen_name_grudge_weapon_abilities_grudgebringer_sword	Grudgebringer Sword	true
 unit_abilities_tooltip_text_grudge_weapon_abilities_hellfire_sword	This sword is enchanted with the energy of Bright magic. Its magical power may be cast when the wielder is in melee, unleashing a fiery blast which wounds any troops in the vicinity.	true
 unit_abilities_onscreen_name_grudge_weapon_abilities_hellfire_sword	Hellfire Sword	true
@@ -85,9 +85,9 @@ unit_abilities_tooltip_text_grudge_item_abilities_banner_of_wrath	This hallowed 
 unit_abilities_onscreen_name_grudge_item_abilities_banner_of_wrath	Banner of Wrath	true
 unit_abilities_tooltip_text_grudge_item_abilities_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	true
 unit_abilities_onscreen_name_grudge_item_abilities_banner_of_arcane_warding	Banner of Arcane Warding	true
-unit_abilities_tooltip_text_grudge_item_abilities_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channeling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	true
+unit_abilities_tooltip_text_grudge_item_abilities_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channelling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	true
 unit_abilities_onscreen_name_grudge_item_abilities_spelleater_shield	Spelleater Shield	true
 unit_abilities_tooltip_text_grudge_ability_swiftness_of_itzl	The charge of these warriors is so powerful that almost nobody can stop their charge, except the ""Living Mountain"" himself of course.	true
 unit_abilities_onscreen_name_grudge_ability_swiftness_of_itzl	Unstoppable Charge	true
-unit_abilities_tooltip_text_grudge_ability_skv_verminous_valour	Come to me, men! This maybe our final battle, but our enemies will pay a high price for our lives!	true
+unit_abilities_tooltip_text_grudge_ability_skv_verminous_valour	Come to me, men! This may be our final battle, but our enemies will pay a high price for our lives!	true
 unit_abilities_onscreen_name_grudge_ability_skv_verminous_valour	Decisive Battle	true

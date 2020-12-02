@@ -3,7 +3,7 @@ key	text	tooltip
 ui_unit_groupings_onscreen_grudgebringer_infantry	Heavy Infantry	true
 ui_unit_groupings_tooltip_grudgebringer_infantry	These warriors are highly experienced and proficient fighters	true
 ui_unit_groupings_onscreen_grudgebringer_cannon	Cannons	true
-ui_unit_groupings_tooltip_grudgebringer_cannon	Top of his marksmanship class at the Nuln Atillery College for a record three years running, Wolfgang 'Sureshot' Swartzkopf instills a winning confidence in the rest of his crew. After proving himself in the field he had a short stint as a lecturer in ballistics before being offered service with the mighty Great Cannon regiment.	true
+ui_unit_groupings_tooltip_grudgebringer_cannon	Top of his marksmanship class at the Nuln Artillery College for a record three years running, Wolfgang 'Sureshot' Swartzkopf instils winning confidence in the rest of his crew. After proving himself in the field he had a short stint as a lecturer in ballistics before being offered service with the mighty Great Cannon regiment.	true
 ui_unit_groupings_onscreen_grudgebringer_crossbow	Heavy Crossbowmen	true
 ui_unit_groupings_tooltip_grudgebringer_crossbow	These warriors are highly experienced and proficient fighters	true
 ui_unit_groupings_onscreen_grudgebringer_cavalry	Heavy Cavalry	true
