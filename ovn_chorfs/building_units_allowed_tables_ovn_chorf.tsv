@@ -122,12 +122,6 @@ wh_main_nor_outpost_stables_4	hobgoblin_archers	0	534199216	0		false
 wh_main_nor_outpost_stables_4	hobgoblin_bolt_thrower	0	534199217	0		false
 wh_main_nor_outpost_stables_4	hobgoblin_wolf_bow_raider	0	534199218	0		false
 wh_main_nor_outpost_stables_4	hobgoblin_sneaky_gits	0	534199219	0		false
-wh_main_nor_outpost_garrison_2	infernal_guard	0	534199220	0		false
-wh_main_nor_outpost_garrison_3	infernal_guard	0	534199221	0		false
-wh_main_nor_outpost_garrison_3	infernal_guard_great_weapons	0	534199222	0		false
-wh_main_nor_outpost_garrison_4	infernal_guard	0	534199223	0		false
-wh_main_nor_outpost_garrison_4	infernal_guard_great_weapons	0	534199224	0		false
-wh_main_nor_outpost_garrison_4	infernal_guard_deathmask_naphta	0	534199225	0		false
 ovn_vorag_0	bull_centaur_render	0	534199226	0		false
 ovn_vorag_0	k'daai_fireborn	0	534199227	0		false
 ovn_vorag_0	bull_centaur_ba'hal	0	534199228	0		false
@@ -161,7 +155,6 @@ wh_main_nor_outpost_military_4	chaos_dwarf_warriors_quarrellers	0	534199255	0		f
 wh_main_nor_outpost_military_3	chaos_dwarf_warriors_rifles	0	534199256	0		false
 wh_main_nor_outpost_military_4	chaos_dwarf_warriors_rifles	0	534199257	0		false
 wh_main_nor_outpost_military_4	chaos_dwarf_annihilators	0	534199258	0		false
-wh_main_nor_outpost_military_3	chaos_dwarf_annihilators	0	534199259	0		false
 wh_main_nor_outpost_military_2	chaos_dwarf_warriors	0	534199260	0		false
 wh_main_nor_outpost_military_3	chaos_dwarf_warriors	0	534199261	0		false
 wh_main_nor_outpost_military_4	chaos_dwarf_warriors	0	534199262	0		false
