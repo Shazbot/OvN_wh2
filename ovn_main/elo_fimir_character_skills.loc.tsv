@@ -1,7 +1,7 @@
 Loc PackedFile	1
 key	text	tooltip
 character_skills_localised_name_fimir_sacrifices	Deadly Fodder	true
-character_skills_localised_description_fimir_sacrifices	Little more is expected of these creatures than to die for their betters on the battlefield. However many who have underestimated their ferocity have fallen prey to their crude weapons.	true
+character_skills_localised_description_fimir_sacrifices	Little more is expected of these creatures than to die for their betters on the battlefield. However, many who have underestimated their ferocity have fallen prey to their crude weapons.	true
 character_skills_localised_name_fimir_riders_doggos	Swift Raiders	true
 character_skills_localised_description_fimir_riders_doggos	Fimir aren't the fastest creatures, but they know about the value of mobility on the battlefield. Therefore they tame the faster, corrupted and dangerous creatures of their swampland homes to gain a tactical advantage.	true
 character_skills_localised_name_fimir_bog_monsters	Creatures of the Bogs	true
@@ -15,13 +15,13 @@ character_skills_localised_description_fimir_r7_warriors	Few can hope to overcom
 character_skills_localised_name_fimir_r7_elite_monsters	Deadly Devourers	true
 character_skills_localised_description_fimir_r7_elite_monsters	Starved monsters, driven by hatred and hunger. They will fight with reckless abandon against the foes of the Fimir.	true
 character_skills_localised_name_fimir_r7_fast_beasts	Experienced Raiders	true
-character_skills_localised_description_fimir_r7_fast_beasts	Fimir are not famous for their hit and run tactics, partly because only few who encountered them live to tell the tale.	true
+character_skills_localised_description_fimir_r7_fast_beasts	Fimir are not famous for their hit and run tactics, partly because only a few who encounter them live to tell the tale.	true
 character_skills_localised_name_fimir_r7_elite_giants	Heralds of Doom	true
 character_skills_localised_description_fimir_r7_elite_giants	Nothing brings fear to the heart like the trembling of the ground these abominations cause with every step.	true
 character_skills_localised_name_fimir_worthless_slaves	Worthless Slaves	true
 character_skills_localised_description_fimir_worthless_slaves	They have no worth. Their lives have no worth. They merely exist to die for the dark gods. Now drown your enemies in a tide of bodies.	true
 character_skills_localised_name_fimir_warrior_elite	Warrior Elite	true
-character_skills_localised_description_fimir_warrior_elite	The elite of the Fimir warrior caste is superior in skill. Luckily for the civilized races the Fimir usually can't afford to have many warriors of this might at the same time.	true
+character_skills_localised_description_fimir_warrior_elite	The elite of the Fimir warrior caste is superior in skill. Luckily for the civilized races, the Fimir usually can't afford to have many warriors of this might at the same time.	true
 character_skills_localised_name_fimir_untamed_monsters	Untamed Monstrosities	true
 character_skills_localised_description_fimir_untamed_monsters	The Fimir may leave the will of the monsters they captured unbroken and release them ahead of the army to cause havoc. This tactic maintains their natural ferocity but makes them difficult to control.	true
 character_skills_localised_name_elo_fimir_from_mists	From the Mists	true
@@ -36,12 +36,12 @@ character_skills_localised_name_elo_belakor_cav	Unholy Vanguard	false
 character_skills_localised_description_elo_belakor_cav	The dark riders, beasts and humans alike, will be the first to bring death to Bel'akor's enemies.	false
 character_skills_localised_name_elo_belakor_chaos_infantry	Dark Blessings	false
 character_skills_localised_description_elo_belakor_chaos_infantry	Those who follow Bel'akor with dedication and skill will be rewarded with power that elevates them above mere mortals in battle.	false
-character_skills_localised_name_elo_belakor_conjured_monsters	Conjured Monstrosoties	false
+character_skills_localised_name_elo_belakor_conjured_monsters	Conjured Monstrosities	false
 character_skills_localised_description_elo_belakor_conjured_monsters	The power of Chaos can be used to summon terrifying beasts to bolster the ranks of this dark army.	false
 character_skills_localised_name_elo_belakor_conscripted_beasts	Savage Beasts	false
 character_skills_localised_description_elo_belakor_conscripted_beasts	The corrupted monsters of the north have been captured, broken and are now herded towards the enemy.	false
 character_skills_localised_name_elo_belakor_r7_fimir_all	Might of the Fimir	false
-character_skills_localised_description_elo_belakor_r7_fimir_all	Battlehardened Fimir can overcome any resistance with their sheer might and endurance.	false
+character_skills_localised_description_elo_belakor_r7_fimir_all	Battle-hardened Fimir can overcome any resistance with their sheer might and endurance.	false
 character_skills_localised_name_elo_belakor_ranged_r7	Ranged Death	false
 character_skills_localised_description_elo_belakor_ranged_r7	Hails of javelins and bolts of dark magic will rain down on every fool who dares to oppose us!	false
 character_skills_localised_name_elo_belakor_cav_bog_r7	Twisted Abominations	false

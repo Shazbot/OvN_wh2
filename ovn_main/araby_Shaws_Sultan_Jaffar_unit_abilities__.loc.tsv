@@ -8,8 +8,8 @@ unit_abilities_onscreen_name_claws_of_forest	Summon a forest djinn	false
 unit_abilities_onscreen_name_summon_djinn_fighter	Summon Unchained Ifreet	true
 unit_abilities_tooltip_text_summon_djinn_fighter	This Djinn has given in to the burning power of Aqshy, though those that burn so bright do not burn long.	true
 unit_abilities_onscreen_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
-unit_abilities_tooltip_text_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan srcerer.Whilst it is unknown whether his madness sprang from isolation,too many attemt at creating intoxicating elixirs or the honeyed promises of whispering daemons.There can be np doubt he was utterly insane.	true
+unit_abilities_tooltip_text_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer.Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be no doubt he was utterly insane.	true
 unit_abilities_onscreen_name_arb_jaffar_serpent_djinn	Serpent Staff	false
-unit_abilities_tooltip_text_arb_jaffar_serpent_djinn	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the abattlefield.	false
+unit_abilities_tooltip_text_arb_jaffar_serpent_djinn	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	false
 unit_abilities_onscreen_name_arb_jaffar_aura_will	Will of Jaffar	false
-unit_abilities_tooltip_text_arb_jaffar_aura_will	Jaffar's natural gravitas coupled with his sorcerous might produce an oppresive aura of dread and authority around him that none under his command can resist.	false
+unit_abilities_tooltip_text_arb_jaffar_aura_will	Jaffar's natural gravitas coupled with his sorcerous might produce an oppressive aura of dread and authority around him that none under his command can resist.	false

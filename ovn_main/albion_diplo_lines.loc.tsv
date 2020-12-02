@@ -21,9 +21,9 @@ diplomacy_strings_string_Albion_Dip_Generic_Offer_Positive_02	Our goals align, w
 diplomacy_strings_string_Albion_Dip_Generic_Offer_Positive_03	Friends of Albion, we shall prosper together	false
 diplomacy_strings_string_Albion_Dip_Rejection_Positive_01	I have read the birds flight. This offer stands under a bad omen.	false
 diplomacy_strings_string_Albion_Dip_Rejection_Positive_02	Lugh, the sun god, requires us to choose another way.	false
-diplomacy_strings_string_Albion_Dip_Rejection_Positive_03	Unfortunately we can’t agree to that.	false
+diplomacy_strings_string_Albion_Dip_Rejection_Positive_03	Unfortunately, we can’t agree to that.	false
 diplomacy_strings_string_Albion_Dip_Greet_Pos_01	A thousand welcomes, friend.	false
-diplomacy_strings_string_Albion_Dip_Greet_Pos_02	The druid council, welcomes you dear friend.	false
+diplomacy_strings_string_Albion_Dip_Greet_Pos_02	The druid council welcomes you, dear friend.	false
 diplomacy_strings_string_Albion_Dip_Greet_Pos_03	May you live as long as you want, and never want as long as you live!	false
 diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_01	The tribes can live with this.	false
 diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_02	We shall seal this deal before the altars of our gods.	false
@@ -63,11 +63,11 @@ diplomacy_strings_string_Albion_Dip_Offer_Peace_02	The ancient enemy benefits fr
 diplomacy_strings_string_Albion_Dip_Offer_Peace_03	War weakens us all.	false
 diplomacy_strings_string_Albion_Dip_Offer_Join_War_01	The White Cliffs need defending. Will you aid us?	false
 diplomacy_strings_string_Albion_Dip_Offer_Join_War_02	The Ogham stones topple. Help us right them.	false
-diplomacy_strings_string_Albion_Dip_Offer_Join_War_03	A darkness clouds the druids minds. Something is coming…	false
+diplomacy_strings_string_Albion_Dip_Offer_Join_War_03	Darkness clouds the druids' minds. Something is coming…	false
 diplomacy_strings_string_Albion_Dip_Offer_Gift_01	A gift to ease relations.	false
 diplomacy_strings_string_Albion_Dip_Offer_Gift_02	We know of the stories about the treasures of Albion.	false
-diplomacy_strings_string_Albion_Dip_Offer_Gift_03	What remains of many shipwreaks. Take it back.	false
-diplomacy_strings_string_Albion_Dip_Greet_Neu_01	The Truthsayers listen. Speak truth and we'll decide.	false
+diplomacy_strings_string_Albion_Dip_Offer_Gift_03	What remains of many shipwrecks. Take it back.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neu_01	The Truthsayers listen. Speak the truth and we'll decide.	false
 diplomacy_strings_string_Albion_Dip_Greet_Neu_02	The mists parted and, like the storms, you flood our land. Speak.	false
 diplomacy_strings_string_Albion_Dip_Greet_Neu_03	May you have warm words on this cold evening	false
 diplomacy_strings_string_Albion_Dip_Reject_Peace_01	Such an affront cannot be resolved with mere words.	false
@@ -78,4 +78,4 @@ diplomacy_strings_string_Albion_Dip_Reject_Join_Confederation_02	Our ways are no
 diplomacy_strings_string_Albion_Dip_Reject_Join_Confederation_03	Only the Truthsayers may know our secrets. No outsiders shall learn them.	false
 diplomacy_strings_string_Albion_Dip_War_01	The auguries speak of war! We rally our people to defend our homeland!	false
 diplomacy_strings_string_Albion_Dip_War_02	We see the mark of Chaos upon you! For the sake of the world, you must be stopped!	false
-diplomacy_strings_string_Albion_Dip_War_03	Dark Emmissaries have whispered lies to you. You aid Chaos without even realising it. No more!	false
+diplomacy_strings_string_Albion_Dip_War_03	Dark Emissaries have whispered lies to you. You aid Chaos without even realising it. No more!	false

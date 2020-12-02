@@ -1,7 +1,7 @@
 Loc PackedFile	1
 key	text	tooltip
 character_skills_localised_description_Talisman	This strange mystical amulet allows its wearer magical powers but it is a heavy burden some can not bear.	true
-character_skills_localised_description_Mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such the reknown of these majestic beasts. 	true
+character_skills_localised_description_Mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such the renown of these majestic beasts. 	true
 character_skills_localised_description_sword	A fine-blade presented to Arabyan Warriors who have proved themselves in battle, gaining them respect from all.	true
 character_skills_localised_description_Helm	It is said that Armour fashioned from the carapace of the Dune Scorpion is stronger and lighter than any metal variety.	true
 character_skills_localised_description_Order_Buff	They try to protect the innocent and drive evil from the lands and while the northern men can't see past their own prejudices but there are others in this world who fight for good.	true
@@ -13,7 +13,7 @@ character_skills_localised_name_Helm	Scorpion Carapace Armour	true
 character_skills_localised_name_Order_Buff	Protector of Order	true
 character_skills_localised_name_Chaos_Buff	Machinator	true
 character_skills_localised_name_Araby_Lord_Buff	Aithopian Prince	true
-character_skills_localised_description_Araby_Lord_Buff	From a far flung tribe, their power and wealth is a great asset.	true
+character_skills_localised_description_Araby_Lord_Buff	From a far-flung tribe, their power and wealth is a great asset.	true
 character_skills_localised_name_Djinn	Djinn Hunter	true
 character_skills_localised_description_Djinn	A sorcerer of skill can bend Djinn to their will, the spirit fighting with every ounce of its strength against its master's enemies, making the magical jars they come from highly sought after.	true
 character_skills_localised_name_Mount_Elephant	Royal Elephant	true
@@ -21,7 +21,7 @@ character_skills_localised_description_Mount_Elephant	Elephants are unstoppable 
 character_skills_localised_name_ovn_buff_araby_nomads	The Nomads Way	false
 character_skills_localised_description_ovn_buff_araby_nomads	The longer one spends with the "savages" the easier it is to rile them up in battle.	false
 character_skills_localised_name_ovn_buff_araby_gunpowder	Blackpowder Alchemist	false
-character_skills_localised_description_ovn_buff_araby_gunpowder	Some shun the shameful blackpowder, not you though, you revel in it.	false
+character_skills_localised_description_ovn_buff_araby_gunpowder	Some shun the shameful black powder, not you though, you revel in it.	false
 character_skills_localised_name_ovn_araby_nomads_r7	Arisen from the Dunes	false
 character_skills_localised_description_ovn_araby_nomads_r7	You have seen many brothers fall in battle, for that is what the nomads are, my brothers.	false
 character_skills_localised_name_ovn_araby_state_inf_r7	Royal Decree	false
@@ -31,9 +31,9 @@ character_skills_localised_description_ovn_araby_beasts_r7	They call him the bea
 character_skills_localised_name_ovn_araby_magic_r7	Sorcerer	false
 character_skills_localised_description_ovn_araby_magic_r7	You are wise in the ways of magic and have much to teach others.	false
 character_skills_localised_name_ovn_buff_araby_bows	Bow Master	false
-character_skills_localised_description_ovn_buff_araby_bows	The bow is weapon that never jams, a weapon you can always trust.	false
+character_skills_localised_description_ovn_buff_araby_bows	The bow is a weapon that never jams, a weapon you can always trust.	false
 character_skills_localised_name_ovn_buff_araby_state_inf	Sultan's Royal Armoury	false
-character_skills_localised_description_ovn_buff_araby_state_inf	Warriors of great armies are decorate in ornate armour taken from the Sultan's personal armory.	false
+character_skills_localised_description_ovn_buff_araby_state_inf	Warriors of great armies are decorated in ornate armour taken from the Sultan's personal armory.	false
 character_skills_localised_name_ovn_araby_ll_innate_02	Warrior of Araby	true
 character_skills_localised_description_ovn_araby_ll_innate_02	A great man, master of war, risen through the ranks and rewarded with the Crescent Seal giving them the authority to lead a great Arabyan War Throng.	true
 character_skills_localised_name_ovn_araby_ll_innate_03	Corsair Captain	true
@@ -45,13 +45,13 @@ character_skills_localised_description_ovn_araby_ll_innate_05	An apprentice from
 character_skills_localised_name_ovn_araby_ll_innate_06	Nomad Warchief	true
 character_skills_localised_description_ovn_araby_ll_innate_06	Born in the dunes, some will never see him as their equal.	true
 character_skills_localised_name_ovn_araby_ll_innate_07	Alchemist	true
-character_skills_localised_description_ovn_araby_ll_innate_07	Smoke and loud bangs emanate day and night from this ones tent.	true
+character_skills_localised_description_ovn_araby_ll_innate_07	Smoke and loud bangs emanate day and night from this one's tent.	true
 character_skills_localised_name_ovn_araby_ll_innate_08	Tuareg Beastmaster	true
 character_skills_localised_description_ovn_araby_ll_innate_08	He has more in common with the beasts than his fellow man.	true
 character_skills_localised_name_ovn_araby_ll_innate_09	Al-Raheem Bowmaster	true
 character_skills_localised_description_ovn_araby_ll_innate_09	He demands all under his command train with the bow.	true
 character_skills_localised_name_ovn_araby_ll_innate_10	Muktarhin Hero	true
-character_skills_localised_description_ovn_araby_ll_innate_10	A hero, feared and renowned in much of Araby.	true
+character_skills_localised_description_ovn_araby_ll_innate_10	A hero feared and renowned in much of Araby.	true
 character_skills_localised_name_rattlesnake_staff	Rattlesnake Staff	true
 character_skills_localised_description_rattlesnake_staff	Those proven proficient in magic are gifted the Rattlesnake Staff by the Wizard Caliph, it is the mark of any good Arabyan sorcerer.	true
 character_skills_localised_name_ovn_araby_tank_01	Hardened by the Desert	true

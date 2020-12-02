@@ -19,7 +19,7 @@ cooking_ingredients_display_text_ovn_maize	Jungle Maize	true
 cooking_ingredients_flavour_text_ovn_maize	"Corn that grows in the wild jungles of Lustria."	true
 cooking_ingredients_display_unlock_text_ovn_maize	Found in Lustria.	true
 cooking_ingredients_display_text_ovn_barley	Chilled Barley	true
-cooking_ingredients_flavour_text_ovn_barley	"A strain of barley able to flourish in the frozen lands of the Dark Elfs."	true
+cooking_ingredients_flavour_text_ovn_barley	"A strain of barley able to flourish in the frozen lands of the Dark Elves."	true
 cooking_ingredients_display_unlock_text_ovn_barley	Found in Naggoroth.	true
 cooking_ingredients_display_text_ovn_beef	Auroch Beef	true
 cooking_ingredients_flavour_text_ovn_beef	"Beef from the great Aurochs of the Old World."	true
@@ -28,7 +28,7 @@ cooking_ingredients_display_text_ovn_salmon	Clawfin Salmon	true
 cooking_ingredients_flavour_text_ovn_salmon	"Salmon native to the Sea of Claws."	true
 cooking_ingredients_display_unlock_text_ovn_salmon	Found in Norsca.	true
 cooking_ingredients_display_text_ovn_lamb	Arabyan Lamb	true
-cooking_ingredients_flavour_text_ovn_lamb	"For generations Arabyan shepherds have tended to a unique breed of lamb."	true
+cooking_ingredients_flavour_text_ovn_lamb	"For generations, Arabyan shepherds have tended to a unique breed of lamb."	true
 cooking_ingredients_display_unlock_text_ovn_lamb	Found in the Southlands.	true
 cooking_ingredients_display_text_ovn_calamari	Warded Squid	true
 cooking_ingredients_flavour_text_ovn_calamari	"A species of squid found within the Inner Sea."	true
@@ -52,10 +52,10 @@ cooking_ingredients_display_text_ovn_cumin	Southern Cumin	true
 cooking_ingredients_flavour_text_ovn_cumin	"Seeds from a species of kammun found rarely in the Southlands."	true
 cooking_ingredients_display_unlock_text_ovn_cumin	Found in the Southlands.	true
 cooking_ingredients_display_text_ovn_marjoram	Aromatic Marjoram	true
-cooking_ingredients_flavour_text_ovn_marjoram	"A sweet smelling and ancient herb, native to Ulthuan."	true
+cooking_ingredients_flavour_text_ovn_marjoram	"A sweet-smelling and ancient herb, native to Ulthuan."	true
 cooking_ingredients_display_unlock_text_ovn_marjoram	Found on Ulthuan.	true
 cooking_ingredients_display_text_ovn_cardamom	Eastern Cardamom	true
-cooking_ingredients_flavour_text_ovn_cardamom	"A smoky tasting spice, originating from the Dark Lands. "	true
+cooking_ingredients_flavour_text_ovn_cardamom	"A smoky-tasting spice, originating from the Dark Lands. "	true
 cooking_ingredients_display_unlock_text_ovn_cardamom	Found in the Dark Lands.	true
 cooking_ingredients_display_text_ovn_vanilla	Lustrian Vanilla	true
 cooking_ingredients_flavour_text_ovn_vanilla	"Dried pods from a Vanilla orchid, native to Lustria."	true
@@ -70,7 +70,7 @@ cooking_ingredients_display_text_ovn_kale	Kraken Sea Kale	true
 cooking_ingredients_flavour_text_ovn_kale	"Sea kale found along the coasts of the Kraken Sea."	true
 cooking_ingredients_display_unlock_text_ovn_kale	Found in Norsca.	true
 cooking_ingredients_display_text_ovn_lentil	Desert Lentil	true
-cooking_ingredients_flavour_text_ovn_lentil	"A rare species of lentil, found within the deserts of Araby."	true
+cooking_ingredients_flavour_text_ovn_lentil	"A rare species of lentil found within the deserts of Araby."	true
 cooking_ingredients_display_unlock_text_ovn_lentil	Found in the Southlands.	true
 cooking_ingredients_display_text_ovn_olive	Enchanted Olive	true
 cooking_ingredients_flavour_text_ovn_olive	"A strain of olive imbued with the winds of magic."	true
@@ -78,8 +78,8 @@ cooking_ingredients_display_unlock_text_ovn_olive	Found on Ulthuan.	true
 cooking_ingredients_display_text_ovn_onion	Ash Garlic	true
 cooking_ingredients_flavour_text_ovn_onion	"The ashy soils of the Dark Lands can sometimes host this pungent variety of garlic."	true
 cooking_ingredients_display_unlock_text_ovn_onion	Found in the Dark Lands.	true
-cooking_ingredients_display_text_ovn_tomatoe	Tropical Tomatoe	true
-cooking_ingredients_flavour_text_ovn_tomatoe	"A species of tomatoe that grows in warm, wet climates."	true
+cooking_ingredients_display_text_ovn_tomatoe	Tropical Tomato	true
+cooking_ingredients_flavour_text_ovn_tomatoe	"A species of tomato that grows in warm, wet climates."	true
 cooking_ingredients_display_unlock_text_ovn_tomatoe	Found in Lustria.	true
 cooking_ingredients_display_text_ovn_potatoe	Sundered Potatoe	true
 cooking_ingredients_flavour_text_ovn_potatoe	"A relict crop that dates back to the era before the Sundering."	true
@@ -103,5 +103,5 @@ cooking_ingredients_display_text_ovn_pitaya	Heirloom Pitaya	true
 cooking_ingredients_flavour_text_ovn_pitaya	"A relict crop found in Lustria, said to originate from the era of the Old Ones."	true
 cooking_ingredients_display_unlock_text_ovn_pitaya	Found in Lustria.	true
 cooking_ingredients_display_text_ovn_cranberry	Bewitched Cranberry	true
-cooking_ingredients_flavour_text_ovn_cranberry	"A suprisingly tasty berry that grows in the stinking bogs of Naggaroth."	true
+cooking_ingredients_flavour_text_ovn_cranberry	"A surprisingly tasty berry that grows in the stinking bogs of Naggaroth."	true
 cooking_ingredients_display_unlock_text_ovn_cranberry	Found in Naggoroth.	true

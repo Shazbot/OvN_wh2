@@ -6,7 +6,7 @@ unit_abilities_tooltip_text_war_fury_2	Albion's warriors are known for their moo
 unit_abilities_onscreen_name_war_fury_2	War Fury II	true
 unit_abilities_tooltip_text_woad_paint	Woad Paint is applied by druids. It uses the excess magic of the area to protect the warrior whose skin is painted with it. The stronger the winds of magic in an area, the more effective the paint will be.	true
 unit_abilities_onscreen_name_woad_paint	Woad Paint	true
-unit_abilities_tooltip_text_devestating_charge	As long as this unit isn't injured too much, they are able to savagely charge their enemies with devestating effect.	true
+unit_abilities_tooltip_text_devestating_charge	As long as this unit isn't injured too much, they are able to savagely charge their enemies with devastating effect.	true
 unit_abilities_onscreen_name_devestating_charge	Devastating Charge	true
 unit_abilities_tooltip_text_wh2_main_lore_passive_truthsayer	The magic of Albion conjures the famous mists of its homeland, enveloping allied warriors, protecting them from projectiles.	true
 unit_abilities_onscreen_name_wh2_main_lore_passive_truthsayer	Mists of Albion	true
@@ -59,16 +59,16 @@ unit_abilities_onscreen_name_murder_crows_upgraded	Goddess of Ravens	false
 unit_abilities_tooltip_text_morrigan_hunters_dmg	It is said that Huntresses who follow Morrigan have to hunt an eagle to obtain its eyes for themselves, allowing them to hit the most difficult targets from afar.	false
 unit_abilities_onscreen_name_morrigan_hunters_dmg	Eagle's Eyes	false
 unit_abilities_onscreen_name_elo_albion_holy_warriors_unbreakable	Holy Zeal	false
-unit_abilities_tooltip_text_elo_albion_holy_warriors_unbreakable	These warriors pur their trust into their gods and will attack relentlessly without fear unless they are decimated enough to lose some of that trust in divine protection.	false
+unit_abilities_tooltip_text_elo_albion_holy_warriors_unbreakable	These warriors put their trust into their gods and will attack relentlessly without fear unless they are decimated enough to lose some of that trust in divine protection.	false
 unit_abilities_onscreen_name_albion_protectors_world	Protectors of the World	false
 unit_abilities_tooltip_text_elo_albion_protectors_world	If we can't save the world, no one can.	false
 unit_abilities_onscreen_name_lesser_shield_of_the_old_ones	Imperfect Shield of the Old Ones	false
 unit_abilities_tooltip_text_lesser_shield_of_the_old_ones	Dural Durak has more insight into the secrets of the Old Ones than any other human alive, but even his knowledge is but an incomplete reflection of the truth, tainted by the passing of the ages.	false
 unit_abilities_onscreen_name_elo_staff_of_dural_durak	Staff of Dural Durak	false
-unit_abilities_tooltip_text_elo_staff_of_dural_durak	The Staff of Dural Durak twist the winds of magic in a unique way, making it difficult for enemy casters to utilize them.	false
+unit_abilities_tooltip_text_elo_staff_of_dural_durak	The Staff of Dural Durak twists the winds of magic in a unique way, making it difficult for enemy casters to utilize them.	false
 unit_abilities_onscreen_name_elo_summon_fenbeasts	Call of the Fens	false
-unit_abilities_tooltip_text_elo_summon_fenbeasts	Usually it takes preparation and a lengthy ritual to produce fenbeasts, but Dural Durak is able to create them during battles when needed. None of the other Truthsayers knows how.	false
+unit_abilities_tooltip_text_elo_summon_fenbeasts	Usually, it takes preparation and a lengthy ritual to produce fenbeasts, but Dural Durak is able to create them during battles when needed. None of the other Truthsayers knows how.	false
 unit_abilities_onscreen_name_elo_amulet_old_ones	Amulet of the Old Ones	false
-unit_abilities_tooltip_text_elo_amulet_old_ones	One of the few surviving artifacts of the Old Ones still in the hands of the people of Albion, this amulet unleashes a wave of magic into the air, healing its wearer and saturating the area with magic. After each activation, the item has to rest for a longer time until it has recharged enough to be used again.	false
-unit_abilities_tooltip_text_elo_albion_freedom	Through sheer willpower they will continue fighting with their body ravaged by wounds until the independance of Albion is protected and secured.	false
+unit_abilities_tooltip_text_elo_amulet_old_ones	One of the few surviving artifacts of the Old Ones still in the hands of the people of Albion, this amulet unleashes a wave of magic into the air, healing its wearer and saturating the area with magic. After each activation, the item has to rest for a long time until it has recharged enough to be used again.	false
+unit_abilities_tooltip_text_elo_albion_freedom	Through sheer willpower, they will continue fighting with their body ravaged by wounds until the independence of Albion is protected and secured.	false
 unit_abilities_onscreen_name_elo_albion_freedom	Freedom!	false

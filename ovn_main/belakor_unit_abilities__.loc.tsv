@@ -1,7 +1,7 @@
 Loc PackedFile	1
 key	text	tooltip
 unit_abilities_onscreen_name_whispers_in_the_darkness	Whispers In The Darkness	true
-unit_abilities_tooltip_text_whispers_in_the_darkness	The sound of the darkness seaping into the minds of those who come face to face with the Father in Shadow.	true
+unit_abilities_tooltip_text_whispers_in_the_darkness	The sound of the darkness seeping into the minds of those who come face to face with the Father in Shadow.	true
 unit_abilities_onscreen_name_Violent_rise_to_power_1	Violent Rise To Power I	true
 unit_abilities_onscreen_name_Violent_rise_to_power_2	Violent Rise To Power II	true
 unit_abilities_onscreen_name_Violent_rise_to_power_3	Violent Rise To Power III	true
@@ -10,4 +10,4 @@ unit_abilities_tooltip_text_master_of_the_shadow_1	Bel'akor is an ancient being 
 unit_abilities_onscreen_name_master_of_the_shadow_2	Grand Master Of The Shadow	true
 unit_abilities_tooltip_text_master_of_the_shadow_2	Bel'akor is an ancient being of magic and chaos. The winds are bending to his every whim.	true
 unit_abilities_onscreen_name_uncontrollable_rage	Uncontrollable Rage	true
-unit_abilities_tooltip_text_uncontrollable_rage	Bel'akor can barely contain his rage. Once his concentration wavers, he is prone to rampage through his enemies with unholy fury.	true
+unit_abilities_tooltip_text_uncontrollable_rage	Bel'akor can barely contain his rage. Once his concentration wavers, he is prone to rampage through his enemies with an unholy fury.	true

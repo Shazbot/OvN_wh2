@@ -6,7 +6,7 @@ event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_outer_lost_secondary_detail	A settlement in Eatine has fallen to our enemies, we must act now.	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_title	Admiral of the Lustrian Coast	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_united_primary_detail	Clear Oceans	true
-event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_united_secondary_detail	Asuryan's blessings, you have done what most thought impossible, tame the Eastern Shores of Lustria. You have upheld your familes great name Stormrider, we wait to see what great feat you face next.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_united_secondary_detail	Asuryan's blessings, you have done what most thought impossible, tame the Eastern Shores of Lustria. You have upheld your families great name Stormrider, we wait to see what great feat you face next.	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_invasion_primary_detail	Invasion Spotted!	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_invasion_secondary_detail	A large force has been spotted from the Crow's nest, man the decks and prepare our defences!	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_unit_gained_primary_detail	Dragonship Ingranion Docked	true

@@ -18,12 +18,12 @@ building_chains_chain_tooltip_alb_resource_iron	resource	false
 building_culture_variants_name_alb_resource_ironwh2_main_nor_albion	Open Iron Pit	false
 building_chains_chain_tooltip_alb_resource_marble	resource	false
 building_culture_variants_name_alb_resource_marblewh2_main_nor_albion	Open Marble Pit	false
-building_short_description_texts_short_description_ovn_albion_wood	Like most races those from Albion are no stranger to felling trees to use in construction.	true
+building_short_description_texts_short_description_ovn_albion_wood	Like most races, those from Albion are no stranger to felling trees to use in construction.	true
 building_short_description_texts_short_description_ovn_albion_wood2	Most Albion architecture is based around mud buildings with thatched roofing with wood reserved for their more grandiose buildings.	true
 building_short_description_texts_short_description_ovn_albion_wood3	With a glut of wood available, common log cabins can be seen sprouting up amongst the common folk.	true
-building_short_description_texts_short_description_ovn_albion_gold	Albion lacks the technolgy to properly mine, so with crude pick axes they work on above ground seams of gold.	true
-building_short_description_texts_short_description_ovn_albion_iron	Albion lacks the technolgy to properly mine, so with crude pick axes they work on above ground seams of iron.	true
-building_short_description_texts_short_description_ovn_albion_marble	Albion lacks the technolgy to properly mine, so with crude pick axes they work on above ground seams of marble.	true
+building_short_description_texts_short_description_ovn_albion_gold	Albion lacks the technology to properly mine, so with crude pickaxes they work on above-ground seams of gold.	true
+building_short_description_texts_short_description_ovn_albion_iron	Albion lacks the technology to properly mine, so with crude pickaxes they work on above-ground seams of gold.	true
+building_short_description_texts_short_description_ovn_albion_marble	Albion lacks the technology to properly mine, so with crude pickaxes they work on above-ground seams of gold.	true
 building_short_description_texts_short_description_ovn_albion_medicine	The wise elderly women of Albion, who know the old ways forage for herbs which will cure all manner of ills.	true
 building_culture_variants_name_wh2_dlc15_special_settlement_massif_orcal_norsca_1wh2_main_nor_albion	Occupied Massif Orcal (Warrior Gathering)	false
 building_culture_variants_name_wh2_dlc15_special_settlement_massif_orcal_norsca_2wh2_main_nor_albion	Occupied Massif Orcal (Warband Camp)	false

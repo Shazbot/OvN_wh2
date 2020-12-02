@@ -2,8 +2,8 @@ Loc PackedFile	1
 key	text	tooltip
 ancillaries_onscreen_name_Serpent_Staff	Serpent Staff	true
 ancillaries_onscreen_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
-ancillaries_colour_text_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the abattlefield.	true
-ancillaries_colour_text_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan srcerer.Whilst it is unknown whether his madness sprang from isolation,too many attemt at creating intoxicating elixirs or the honeyed promises of whispering daemons.There can be np doubt he was utterly insane.	true
+ancillaries_colour_text_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	true
+ancillaries_colour_text_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer. Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be np doubt he was utterly insane.	true
 ancillaries_onscreen_name_arb_jaffar_camel	Camel	false
 ancillaries_colour_text_arb_jaffar_camel	Jaffar is a vainglorious man, it is no wonder then that the prestigious camel is one of his favourite mounts to ride into battle.	false
 ancillaries_onscreen_name_arb_jaffar_elephant	Royal Elephant	false

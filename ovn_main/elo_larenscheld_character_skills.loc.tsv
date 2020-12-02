@@ -1,19 +1,19 @@
 Loc PackedFile	1
 key	text	tooltip
 character_skills_localised_name_larenscheld_innate	Eternal Reward	true
-character_skills_localised_description_larenscheld_innate	Gunther Larenscheld has awoken one of Nagash's most loyal Lieutanants, the Dread King, in exchange for eternal life. Now he has received the promised reward - even in death, his spirit will not leave the mortal world.	true
+character_skills_localised_description_larenscheld_innate	Gunther Larenscheld has awoken one of Nagash's most loyal Lieutenants, the Dread King, in exchange for eternal life. Now he has received the promised reward - even in death, his spirit will not leave the mortal world.	true
 character_skills_localised_name_elo_skill_death	Supernatural Prowess	false
 character_skills_localised_description_elo_skill_death	Without the limitations of a body, Larenscheld is a much more competent fighter in death than he ever could be in life. 	false
 character_skills_localised_name_elo_vengeful_spirit	Vengeful Haunting	false
 character_skills_localised_description_elo_vengeful_spirit	Larenscheld's ghost haunts the living, stalking the enemies soldiers.	false
 character_skills_localised_name_elo_lifetaker_spirit	Lifedestroying Haunting	false
-character_skills_localised_description_elo_lifetaker_spirit	Larenscheld specializes in killing the biggest enemies to extingiuish their more potent life force in the name of Nagash.	false
+character_skills_localised_description_elo_lifetaker_spirit	Larenscheld specializes in killing the biggest enemies to extinguish their more potent life force in the name of Nagash.	false
 character_skills_localised_name_elo_necromantic_spectre	Necromantic Spectre	false
 character_skills_localised_description_elo_necromantic_spectre	Nagash allows Larenscheld's spirit to channel the winds of magic, enabling him to keep casting spells even in his ghost form.	false
 character_skills_localised_name_elo_wraith_liche	Wraith Liche	false
 character_skills_localised_description_elo_wraith_liche	Master of the dead in life, still master of the dead in death.	false
 character_skills_localised_name_elo_death_beyond	Death from Beyond	false
-character_skills_localised_description_elo_death_beyond	Larenscheld opens a portal through which vengeful spirits in the form of etheral skulls appear. They are crashing down on the world of the living, causing widespread destruction.	false
+character_skills_localised_description_elo_death_beyond	Larenscheld opens a portal through which vengeful spirits in the form of ethereal skulls appear. They are crashing down on the world of the living, causing widespread destruction.	false
 character_skills_localised_name_elo_ghost_ward	Indestructible Presence	false
 character_skills_localised_description_elo_ghost_ward	All the difficulties to finally achieve immortality make Larenscheld cling to his unlife with an iron will forged by desperation and hardship.	false
 character_skills_localised_name_elo_change_at_will	Change at Will	false

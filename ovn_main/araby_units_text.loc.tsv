@@ -12,9 +12,9 @@ unit_description_short_texts_text_OtF_khemri_archers	Arabyans place great faith 
 unit_description_short_texts_text_OtF_khemri_kepra_guard	Dervishers are fanatical, religious warriors all too willing to die for their god.	true
 unit_description_short_texts_text_OtF_khemri_spearmen	These humble infantrymen form the solid foundation of any Arabyan army.	true
 unit_description_short_texts_text_OtF_khemri_swordsmen	These soldiers are often individuals brought up and trained as warriors or guards.	true
-unit_description_short_texts_text_OtF_khemri_elite_guard	Guards are well-equipped with steel armor, keen tulwars and fine silk clothing. The loyalty of these troops is famous and they are amply rewarded with riches, luxuries, and prestige as a result.	true
+unit_description_short_texts_text_OtF_khemri_elite_guard	Guards are well-equipped with steel armour, keen tulwars and fine silk clothing. The loyalty of these troops is famous and they are amply rewarded with riches, luxuries, and prestige as a result.	true
 unit_description_short_texts_text_OtF_khemri_rangers	Lords of the Dune, many foes fall to furtive arrows before the rangers melt back into the sand.	true
-unit_description_short_texts_text_ovn_yeoman	It's said these spear-armed cavalrymen were born in the saddle making them a useful harrassing force against infantry and cavalry alike. 	true
+unit_description_short_texts_text_ovn_yeoman	It's said these spear-armed cavalrymen were born in the saddle making them a useful harassing force against infantry and cavalry alike. 	true
 unit_description_short_texts_text_ovn_yeomanarchers	These nomadic horse archers can pepper an enemy before moving in for close-combat.	true
 unit_description_short_texts_text_ovn_corsairs	Scourge of the Great Ocean they plunder the shores of Tilea and Estalia with wanton abandon. 	true
 unit_description_short_texts_text_ovn_elephant	War elephants are a wave of flesh, unleashed against the unwary.	true
@@ -35,9 +35,9 @@ land_units_onscreen_name_ovn_ifreet	Khimar al-Nar	true
 unit_description_short_texts_text_ovn_slave	Bought as slaves, and often trained from boyhood these soldiers make formidable opponents though their loyalty is naturally questionable.	true
 unit_description_short_texts_text_ovn_glad	Pit-Fighters were usually slaves, criminals or prisoners of war but freemen also enlisted in search of gold and glory. Superbly-trained heavy infantry with little fear of death.	true
 unit_description_short_texts_text_ovn_jez	Armed with long-barrelled arquebus of Arabyan design, the endless deserts have taught these men the value of marksmanship and an accurate firearm. 	true
-unit_description_short_texts_text_ovn_ifreet	An ancient beast, harbinger of fiery doom bound to a Magician's service, whom are said to love the smell of naptha in the morning.	true
+unit_description_short_texts_text_ovn_ifreet	An ancient beast, harbinger of fiery doom bound to a Magician's service, who are said to love the smell of naptha in the morning.	true
 land_units_onscreen_name_ovn_scor	Giant Scorpion	true
-unit_description_short_texts_text_ovn_scor	Overshadowed by their abominable undead cousins, they stike equal fear into their foes who meet claw and pincer.	true
+unit_description_short_texts_text_ovn_scor	Overshadowed by their abominable undead cousins, they strike equal fear into their foes who meet claw and pincer.	true
 ui_unit_groupings_onscreen_ovn_scor	Giant Scorpion	true
 ui_unit_groupings_tooltip_ovn_scor	Swift and deadly, they have a potent sting and powerful pincers that can slice a man in half.	true
 unit_description_short_texts_text_ovn_elephant_ror	The Ravager Elephant is said to rival those of Norsca's Mammoths	true
@@ -49,16 +49,16 @@ unit_description_short_texts_text_ovn_cat_knights	Very heavily armoured and equi
 land_units_onscreen_name_ovn_cat_knights_ror	Royal Sipahis	true
 unit_description_short_texts_text_ovn_cat_knights_ror	Armoured like turtles, brave as lions, with swords like wasp stings…	true
 land_units_onscreen_name_ovn_knights_ror	Al Muktar's Desert Dogs	true
-unit_description_short_texts_text_ovn_knights_ror	A famous mercenary band that hail from the arid-deserts of great Araby.	true
+unit_description_short_texts_text_ovn_knights_ror	A famous mercenary band that hails from the arid-deserts of great Araby.	true
 land_units_onscreen_name_ovn_jag	Jaguar Champions	true
 unit_description_short_texts_text_ovn_jag	Jaguar Champions are fearsome nomads, who through great skill and courage are allowed to wear uniforms made from jaguar skins.	true
 land_units_onscreen_name_ovn_jag_ror	Muktarhin Champions	true
-unit_description_short_texts_text_ovn_jag_ror	The Muktarhin are a near legendary warriors such is their repute even the infamous Al Muktar’s Desert Dogs carry the Black Banner of the Muktarhin wailing "Mighty are the Muktarhin!"	true
-unit_description_short_texts_text_ovn_bom_ror	Made in an age long ago, this monstrous cannon is maintained by unnatural powers and is said to send its crew insane. This, coupled with the peoples hatred of gunpowder, has seen it hidden and disused for centuries.	true
+unit_description_short_texts_text_ovn_jag_ror	The Muktarhin are near-legendary warriors. Such is their repute even the infamous Al Muktar’s Desert Dogs carry the Black Banner of the Muktarhin wailing "Mighty are the Muktarhin!"	true
+unit_description_short_texts_text_ovn_bom_ror	Made in an age long ago, this monstrous cannon is maintained by unnatural powers and is said to send its crew insane. This, coupled with the peoples' hatred of gunpowder, has seen it hidden and disused for centuries.	true
 land_units_onscreen_name_ovn_bom_ror	Howling Basilic Bombard	true
 land_units_onscreen_name_scythan_swordsmen	Scythan Swordsmen	true
 land_units_onscreen_name_sr_ogre_arb	Arabyan Ogres	true
-unit_description_short_texts_text_sr_ogre_arb	The brutish ogres are a powerful ally to have on the battlefield, that is, until they flee at the first sign of trouble.	true
+unit_description_short_texts_text_sr_ogre_arb	The brutish ogres are a powerful ally to have on the battlefield, that is until they flee at the first sign of trouble.	true
 land_units_onscreen_name_ovn_khemri_spearmen_summoned_0	Spearmen Mirage	true
 land_units_onscreen_name_ovn_khemri_spearmen_summoned_1	Spearmen Mirage (Upgraded)	true
 unit_description_short_texts_text_OtF_khemri_spearmen_summon	All is not what it seems...	true

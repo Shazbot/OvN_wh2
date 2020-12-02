@@ -9,7 +9,7 @@ unit_abilities_onscreen_name_elo_liche_call_the_legions_overcast	Call the Legion
 unit_abilities_tooltip_text_elo_necromantic_anchor	The towering frame of a skeletal giant can be seen far and wide on the battlefield. As such they are perfectly suited to serve as a conduit to channel the dark magic from the necromancer to his troops, anchoring them in the mortal world.	true
 unit_abilities_onscreen_name_elo_necromantic_anchor	Necromantic Anchor	true
 unit_abilities_onscreen_name_larenscheld_ghost_on_death	Lingering Essence	false
-unit_abilities_tooltip_text_larenscheld_ghost_on_death	Larenscheld resurrected the Dread King in exchange for immortality - and he received it, in a way. However it came in a different form than he expected.	false
+unit_abilities_tooltip_text_larenscheld_ghost_on_death	Larenscheld resurrected the Dread King in exchange for immortality - and he received it, in a way. However, it came in a different form than he expected.	false
 unit_abilities_onscreen_name_larenscheld_bombardment	Skull Bombardment	false
 unit_abilities_tooltip_text_larenscheld_bombardment	Larenscheld has been granted the ability to call forth vengeful spirits in the shape of skulls from the realms beyond the mortal veil to torment the living.	false
 unit_abilities_onscreen_name_larenscheld_ghost_on_death_upgraded	Wraith Liche	false

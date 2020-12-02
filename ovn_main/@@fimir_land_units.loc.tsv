@@ -3,9 +3,9 @@ key	text	tooltip
 land_units_onscreen_name_ovn_shearl	Fimir Shearls	true
 unit_description_short_texts_text_ovn_shearl	The slave caste of the Fimir. While lower in ranks, Shearls are still a fearsome foe.	true
 unit_description_short_texts_text_ovn_mistmor	Tall as a troll and easily as strong, Mistmor are prized as defenders of Fimir settlements.	true
-unit_description_short_texts_text_ovn_death_quest	Fanatic worshippers of daemonic powers. Their clans destroyed, they raid and pillage with sole purpose of killing and reproducing in cruel ways.	true
+unit_description_short_texts_text_ovn_death_quest	Fanatic worshippers of daemonic powers. Their clans destroyed, they raid and pillage with the sole purpose of killing and reproducing in cruel ways.	true
 unit_description_short_texts_text_ovn_gharnus_demon	Rumors tell of creatures living near a haunted, icy lake in the northern part of Albion. The native folks call them Gharnu's Demon-Friends.  	true
-unit_description_short_texts_text_ovn_killing_eye	When Killing Eye clan was left without leader, the retinues of Fimm warriors set out to seek a new Meargh or their ultimate annihilation.	true
+unit_description_short_texts_text_ovn_killing_eye	When Killing Eye clan was left without a leader, the retinues of Fimm warriors set out to seek a new Meargh or their ultimate annihilation.	true
 land_units_onscreen_name_ovn_fimm	Fimm Guards	true
 land_units_onscreen_name_ovn_fianna_fimm	Fianna Fimm	true
 land_units_onscreen_name_ovn_killing_eye	Killing Eye (Fimm Death-Quest)	true
@@ -16,4 +16,4 @@ unit_description_short_texts_text_ovn_fimm_guard	Of the Fimm warrior caste only 
 unit_description_short_texts_text_ovn_fimm_unused	The Guards are sometimes found leading bands of Orcs and Goblins, but are dangerous enough even when encountered singly.	true
 unit_description_short_texts_text_ovn_fianna_fimm	The Fianna are the elite of the Fimm Warriors, hand-picked, sometimes at birth, sometimes as a result of some great deed.	true
 land_units_onscreen_name_ovn_marsh_hounds	Marsh Hounds	true
-unit_description_short_texts_text_ovn_marsh_hounds	They terrorize the swamps, stalking livestock and lonely travelers until the deamonic hounds are summoned by the Fimir, where they know they will dine well on battlefield carcasses.	true
+unit_description_short_texts_text_ovn_marsh_hounds	They terrorize the swamps, stalking livestock and lonely travelers until the daemonic hounds are summoned by the Fimir, where they know they will dine well on battlefield carcasses.	true

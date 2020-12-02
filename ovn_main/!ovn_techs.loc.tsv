@@ -29,14 +29,14 @@ technologies_onscreen_name_tech_ovn_troll_9	Ascendancy	false
 technologies_short_description_tech_ovn_troll_9	I think therefore I smash.	false
 technologies_short_description_araby_tech_good_1	We must open our minds to new ways.	false
 technologies_short_description_araby_tech_good_2	Learn from your past to better your future.	false
-technologies_short_description_araby_tech_good_3	Indentured servants don't count right?	false
+technologies_short_description_araby_tech_good_3	Indentured servants don't count, right?	false
 technologies_short_description_araby_tech_good_4	Together we stand and fight, as equals, as brothers.	false
 technologies_short_description_araby_tech_good_5	Wisdom beats brutes.	false
 technologies_short_description_araby_tech_good_6	They are not beasts, they're simply misunderstood.	false
 technologies_short_description_araby_tech_good_7	Our future lies in the mind, protected by the sword.	false
-technologies_short_description_araby_tech_good_8	We will be envy of our successors and will go down as the greatest of our people. 	false
+technologies_short_description_araby_tech_good_8	We will be the envy of our successors and will go down as the greatest of our people. 	false
 technologies_short_description_araby_tech_bad_1	One should have the freedom to practice and believe in what their heart desires.	false
-technologies_short_description_araby_tech_bad_2	What secrets lies in the blood scrawl.	false
+technologies_short_description_araby_tech_bad_2	What secrets lie in the blood scrawl.	false
 technologies_short_description_araby_tech_bad_3	A read to twist your soul.	false
 technologies_short_description_araby_tech_bad_4	This will give you more than nightmares.	false
 technologies_short_description_araby_tech_bad_5	It ends with a bang.	false
@@ -44,7 +44,7 @@ technologies_short_description_araby_tech_bad_6	A portal to a nightmarish world 
 technologies_short_description_araby_tech_bad_7	Chaos is a pathway to many abilities some consider to be unnatural.	false
 technologies_short_description_araby_tech_bad_8	Who are we to deny those who wish to talk to their dearly departed.	false
 technologies_short_description_araby_tech_neu_1	True power lies in the anceint runes of Nehekhara.	false
-technologies_short_description_araby_tech_neu_2	Through selective breeding we can rear Elephants that rival even Norscan Mammoths.	false
+technologies_short_description_araby_tech_neu_2	Through selective breeding, we can rear Elephants that rival even Norscan Mammoths.	false
 technologies_short_description_araby_tech_neu_3	We will decorate our camp with their entrails.	false
 technologies_short_description_araby_tech_neu_4	We are the line between those that seek to destroy us and our families.	false
 technologies_short_description_araby_tech_neu_5	They won't know what hit them.	false
@@ -92,6 +92,6 @@ technologies_short_description_grudge_tech_1	The nomads will show us how to surv
 technologies_onscreen_name_grudge_tech_2	Barbarian Guides	false
 technologies_short_description_grudge_tech_2	The Barbarians will show us how to survive in this frozen land.	false
 technologies_onscreen_name_grudge_tech_3	Dawi Guides	false
-technologies_short_description_grudge_tech_3	The Dawi will show us how to traverse mountains.	false
+technologies_short_description_grudge_tech_3	The Dawi will show us how to traverse the mountains.	false
 technologies_onscreen_name_grudge_tech_4	Baggage Train	false
 technologies_short_description_grudge_tech_4	A baggage train will allow our camp to grow.	false

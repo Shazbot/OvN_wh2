@@ -1,13 +1,13 @@
 Loc PackedFile	1
 key	text	tooltip
 character_skills_localised_name_Serpent_Staff	Serpent Staff	true
-character_skills_localised_description_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the abattlefield.	true
+character_skills_localised_description_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	true
 character_skills_localised_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
-character_skills_localised_description_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer. Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons.There can be no doubt he was utterly mad.	true
+character_skills_localised_description_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer. Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be no doubt he was utterly mad.	true
 character_skills_localised_name_Desert_Wind	Desert Wind	true
-character_skills_localised_description_Desert_Wind	The forces of araby move like the desert wind.	true
-character_skills_localised_name_unyeilding_stride	Unyeilding Stride	true
-character_skills_localised_description_unyeilding_stride	Moving across the sands of araby tirelessly.	true
+character_skills_localised_description_Desert_Wind	The forces of Araby move like the desert wind.	true
+character_skills_localised_name_unyeilding_stride	Unyielding Stride	true
+character_skills_localised_description_unyeilding_stride	Moving across the sands of Araby tirelessly.	true
 character_skills_localised_name_Sand_Dwellers	Sand Dwellers	true
 character_skills_localised_description_Sand_Dwellers	Knowing the terrain gives the warriors a great advantage	true
 character_skills_localised_name_Friend_Of_Evil	Conspirator of Evil	true

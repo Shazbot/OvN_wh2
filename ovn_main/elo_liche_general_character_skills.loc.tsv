@@ -1,6 +1,6 @@
 Loc PackedFile	1
 key	text	tooltip
-character_skills_localised_description_liche_immortality	The liche has discarded their life to achieve an existance as an immortal undead. As long as their will remains unbroken, they are almost impossible to destroy permanently.	true
+character_skills_localised_description_liche_immortality	The liche has discarded their life to achieve an existence as an immortal undead. As long as their will remains unbroken, they are almost impossible to destroy permanently.	true
 character_skills_localised_name_liche_immortality	Immortality in Death	true
 character_skills_localised_description_mount_barded_skeletal_steed_liche	The fragile bones are protected by legion armour.	true
 character_skills_localised_name_mount_barded_skeletal_steed_liche	Barded Skeletal Steed	true
@@ -14,7 +14,7 @@ character_skills_localised_description_elo_liche_necromancer	Necromancers follow
 character_skills_localised_name_elo_liche_necromancer	Origin: Necromancer	true
 character_skills_localised_description_elo_follower_nagash	Through his disciples, Nagash increases his influence on the world of the living. And where Nagash has influence, the dead will not find any rest.	true
 character_skills_localised_name_elo_follower_nagash	Disciple of Nagash	true
-character_skills_localised_description_elo_liche_general_legion	In life he marched ahead as one of the generals of the Dread Legion and even in death the soldiers heed his commands.	true
+character_skills_localised_description_elo_liche_general_legion	In life, he marched ahead as one of the generals of the Dread Legion and even in death the soldiers heed his commands.	true
 character_skills_localised_name_elo_liche_general_legion	Origin: General of the Legion	true
 character_skills_localised_description_elo_call_the_legions	Countless Legions lay beneath the sands, waiting for Nagash or his servants to call them back to battle the living.	true
 character_skills_localised_name_elo_call_the_legions	Call the Legions	true

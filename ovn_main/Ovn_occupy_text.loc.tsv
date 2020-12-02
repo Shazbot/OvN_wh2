@@ -4,7 +4,7 @@ culture_settlement_occupation_options_tooltip_2205198900	Clear Ruins||You will b
 culture_settlement_occupation_options_tooltip_2205198901	Root Corruption||Take this land in the name of the Dark Gods!	true
 culture_settlement_occupation_options_tooltip_2205198902	Do Nothing||Leave the settlement as it stands, as any craven fool would!	true
 culture_settlement_occupation_options_tooltip_2205198903	Subjugate & Enslave||You gain wealth from looting, but buildings in the settlement are damaged. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	true
-culture_settlement_occupation_options_tooltip_2205198904	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos alter is risen in it’s place, spewing corruption upon the land - much to our dark lords delight.	true
+culture_settlement_occupation_options_tooltip_2205198904	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos alter is risen in its place, spewing corruption upon the land - much to our dark lord's delight.	true
 culture_settlement_occupation_options_tooltip_2205198905	Root Corruption||With no regions under your control, you have the option to settle your army here.	true
 culture_settlement_occupation_options_tooltip_2205198906	Pillage & Enslave||You do not capture the settlement but instead steal wealth and damage buildings. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	true
 culture_settlement_occupation_options_tooltip_2205198907	Scavenge Ruins||You will be presented with a puzzle to solve; though I doubt a dim-witted troll like yourself can decipher it and reap the reward.	true
@@ -18,8 +18,8 @@ culture_settlement_occupation_options_tooltip_2205198914	Scavenge Ruins||You wil
 culture_settlement_occupation_options_tooltip_2205198915	Nest||Settle here and though it is a little bright and dry this is something we will soon remedy.	true
 culture_settlement_occupation_options_tooltip_2205198916	Do Nothing||Leave the settlement as it stands, as any craven cyclops would!	true
 culture_settlement_occupation_options_tooltip_2205198917	Enshroud||You gain wealth from looting, but buildings in the settlement are damaged. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	true
-culture_settlement_occupation_options_tooltip_2205198918	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos alter is risen in it’s place, spewing corruption upon the land, all in Fimúlneid’s name!	true
-culture_settlement_occupation_options_tooltip_2205198919	Resettle||With no regions we must settle, Fimúlneid commands it.	true
+culture_settlement_occupation_options_tooltip_2205198918	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos alter is risen in its place, spewing corruption upon the land, all in Fimúlneid’s name!	true
+culture_settlement_occupation_options_tooltip_2205198919	Resettle||With no regions, we must settle, Fimúlneid commands it.	true
 culture_settlement_occupation_options_tooltip_2205198920	Pillage & Enslave||You do not capture the settlement but instead steal wealth and damage buildings. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	true
 culture_settlement_occupation_options_tooltip_2205198921	Study Ruins||You will be presented with a puzzle to solve; you will be rewarded if you successfully decipher it.	false
 culture_settlement_occupation_options_tooltip_2205198922	Settle||Your people have a new home.	false
