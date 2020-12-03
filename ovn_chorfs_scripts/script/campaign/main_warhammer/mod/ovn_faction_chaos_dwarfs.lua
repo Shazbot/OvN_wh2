@@ -7,7 +7,7 @@ local function sr_chaos_dwarfs()
 					return context.string == "character_panel"
 			end,
 			function()
-					if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+					if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 					local agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "champion", "label")
 					if agent_label then

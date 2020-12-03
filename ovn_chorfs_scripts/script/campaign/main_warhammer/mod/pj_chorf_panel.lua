@@ -104,7 +104,7 @@ core:add_listener(
 		return true
 	end,
 	function(context)
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		---@type CA_UNIT
 		local unit = context:unit()
@@ -119,7 +119,7 @@ core:add_listener(
 			if not unit_to_give[unit:unit_key()]  then return end
 
 			cm:add_unit_to_faction_mercenary_pool(
-				cm:get_faction(cm:get_local_faction()),
+				cm:get_faction(cm:get_local_faction_name()),
 					unit:unit_key(),
 					0, -- unit count
 					0, -- replenishment
@@ -138,7 +138,7 @@ core:add_listener(
 
 local function give_unit(unit_key)
 	cm:add_unit_to_faction_mercenary_pool(
-		cm:get_faction(cm:get_local_faction(true)),
+		cm:get_faction(cm:get_local_faction_name(true)),
 		unit_key,
 		1, -- unit count
 		0, -- replenishment
@@ -153,7 +153,7 @@ local function give_unit(unit_key)
 end
 
 local function unclock_ror(unit_key)
-	cm:remove_event_restricted_unit_record_for_faction(unit_key, cm:get_local_faction(true))
+	cm:remove_event_restricted_unit_record_for_faction(unit_key, cm:get_local_faction_name(true))
 end
 
 local tree_to_other_bonuses = {
@@ -454,7 +454,7 @@ local function get_cost(index)
 end
 
 local function faction_has_enough_slaves(num_slaves_req)
-	local f = cm:get_faction(cm:get_local_faction(true))
+	local f = cm:get_faction(cm:get_local_faction_name(true))
 	return num_slaves_req <= f:num_faction_slaves()
 end
 
@@ -815,7 +815,7 @@ core:add_listener(
 		return context.string:starts_with("pj_chorf_panel_tier_")
 	end,
 	function(context)
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		local comp = UIComponent(context.component)
 		if comp:Opacity() ~= 0 then return end
@@ -855,7 +855,7 @@ core:add_listener(
 	'ComponentLClickUp',
 	true,
 	function(context)
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		if context.string ~= "pj_button_chorf_panel" then return end
 
@@ -880,7 +880,7 @@ core:add_listener(
 	'ComponentLClickUp',
 	true,
 	function(context)
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		if context.string ~= "button_ok" then return end
 
@@ -929,7 +929,7 @@ local function upgrade_clicked(tree_name, tree_index)
 	local slaves_cost = get_cost(tree_index)
 	if not faction_has_enough_slaves(slaves_cost) then return end
 
-	cm:modify_faction_slaves_in_a_faction(cm:get_local_faction(true), -slaves_cost)
+	cm:modify_faction_slaves_in_a_faction(cm:get_local_faction_name(true), -slaves_cost)
 	tree_to_unlocked_tier[tree_name] = tree_to_unlocked_tier[tree_name] + 1
 
 	for _, fun in ipairs(tree_to_other_bonuses[tree_name][tree_index+1]) do
@@ -946,7 +946,7 @@ local function upgrade_clicked(tree_name, tree_index)
 			end
 		end
 		if not is_bundle_empty then
-			cm:apply_custom_effect_bundle_to_faction(upkeep_bundle, cm:get_faction(cm:get_local_faction()))
+			cm:apply_custom_effect_bundle_to_faction(upkeep_bundle, cm:get_faction(cm:get_local_faction_name()))
 		end
 	end
 
@@ -964,7 +964,7 @@ core:add_listener(
 		return context.string:starts_with("pj_chorf_panel_tier_") or context.string:starts_with("pj_chorf_panel_locked_tier_")
 	end,
 	function(context)
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		local s = context.string
 		local prefix = context.string:starts_with("pj_chorf_panel_tier_") and "pj_chorf_panel_tier_" or "pj_chorf_panel_locked_tier_"
@@ -990,7 +990,7 @@ end
 
 cm:add_first_tick_callback(
 	function()
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 		create_slave_tribute_button()
 	end
 )
@@ -1123,7 +1123,7 @@ core:add_listener(
 				local _, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i)
 				---@type CA_MILITARY_FORCE
 				local mf = cm:get_military_force_by_cqi(mf_cqi)
-				if faction_name == cm:get_local_faction(true)
+				if faction_name == cm:get_local_faction_name(true)
 					and faction_name == "wh2_main_ovn_chaos_dwarfs"
 					and mf and not mf:is_null_interface() then
 					adjust_mf_units(mf, defender_cb)
@@ -1137,7 +1137,7 @@ core:add_listener(
 				local _, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
 				---@type CA_MILITARY_FORCE
 				local mf = cm:get_military_force_by_cqi(mf_cqi)
-				if faction_name == cm:get_local_faction(true)
+				if faction_name == cm:get_local_faction_name(true)
 					and faction_name == "wh2_main_ovn_chaos_dwarfs"
 					and mf and not mf:is_null_interface() then
 					adjust_mf_units(mf, attacker_cb)
@@ -1176,7 +1176,7 @@ core:add_listener(
 		return context.string == "units_recruitment"
 	end,
 	function()
-		if cm:get_local_faction(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		local ig_units = {
 			"infernal_guard_recruitable",
