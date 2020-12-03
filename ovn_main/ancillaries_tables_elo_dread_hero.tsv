@@ -1,5 +1,5 @@
-ancillaries_tables	16
-key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped
-dread_chariot_skeletal_steed	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_chariot		1	1		false
-dread_legion_barded_skeletal_steed	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_barded_horse		1	1		false
-elo_dread_centurion_horse	wh_main_anc_mount_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_horse		1	1		false
+ancillaries_tables	18
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed
+dread_chariot_skeletal_steed	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_chariot		1	1		false	false	false
+dread_legion_barded_skeletal_steed	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_barded_horse		1	1		false	false	false
+elo_dread_centurion_horse	wh_main_anc_mount_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_horse		1	1		false	false	false

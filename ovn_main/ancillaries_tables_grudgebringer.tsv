@@ -1,5 +1,5 @@
-ancillaries_tables	16
-key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped
-chalcidar_orb	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	1		false
-malach_sword	wh_main_anc_weapon	.	true	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false
-ovn_anc_magic_standard_ptolos	grudge_item_shield_of_ptolos	.	true	false	false	1	0	9999			true	false	false	general	16	30	30	50	true		ovn_anc_magic_standard_ptolos	200	0	banner	false
+ancillaries_tables	18
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed
+chalcidar_orb	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	1		false	false	false
+malach_sword	wh_main_anc_weapon	.	true	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+ovn_anc_magic_standard_ptolos	grudge_item_shield_of_ptolos	.	true	false	false	1	0	9999			true	false	false	general	16	30	30	50	true		ovn_anc_magic_standard_ptolos	200	0	banner	false	false	false

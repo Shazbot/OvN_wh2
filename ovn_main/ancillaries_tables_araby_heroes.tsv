@@ -1,9 +1,9 @@
-ancillaries_tables	16
-key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped
-roy_anc_mount_arb_nomad_horse	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_horse		1	1		false
-roy_anc_mount_arb_champion_horse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_horse		1	1		false
-roy_anc_mount_arb_champion_warhorse	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_warhorse		1	1		false
-roy_anc_mount_arb_champion_elephant	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_elephant		1	1		false
-roy_anc_mount_arb_lord_horse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_lord_horse		1	1		false
-roy_anc_mount_arb_nomad_assassin	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_assassin		100	1		false
-roy_anc_mount_arb_nomad_horse_jezzail	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_horse_jezzail		200	1		false
+ancillaries_tables	18
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed
+roy_anc_mount_arb_nomad_horse	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_horse		1	1		false	false	false
+roy_anc_mount_arb_champion_horse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_horse		1	1		false	false	false
+roy_anc_mount_arb_champion_warhorse	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_warhorse		1	1		false	false	false
+roy_anc_mount_arb_champion_elephant	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_elephant		1	1		false	false	false
+roy_anc_mount_arb_lord_horse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_lord_horse		1	1		false	false	false
+roy_anc_mount_arb_nomad_assassin	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_assassin		100	1		false	false	false
+roy_anc_mount_arb_nomad_horse_jezzail	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_horse_jezzail		200	1		false	false	false
