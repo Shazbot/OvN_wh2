@@ -42,7 +42,7 @@ core:add_listener(
 	'pj_moot_edicts_rename_on_mouseover',
 	'ComponentMouseOn',
 	function(context)
-		if cm:get_local_faction(true) ~= "wh2_main_emp_the_moot" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_emp_the_moot" then return end
 
 		local component_id = context.string
 		return component_id == "button_wh_main_edict_state_troop_levy"
@@ -56,6 +56,6 @@ core:add_listener(
 	end,
 	true
 )
-end 
+end
 
 cm:add_first_tick_callback(function() ovn_edict_rename() end)

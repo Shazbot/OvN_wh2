@@ -57,7 +57,7 @@ local function sr_chaos()
 		end
 
                 if rotblood_tribe:is_human() then
-                    
+
 						cm:create_force_with_general(
 							"wh_dlc08_nor_naglfarlings",
 							"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc01_chs_inf_forsaken_0",
@@ -77,7 +77,7 @@ local function sr_chaos()
 								cm:set_character_immortality("character_cqi:" .. cqi, true)
 							end
 						)
-					
+
 				else
 					cm:transfer_region_to_faction("wh2_main_chrace_elisia", "wh_dlc08_nor_naglfarlings")
 					cm:transfer_region_to_faction("wh_main_blightwater_kradtommen", "wh_dlc08_nor_naglfarlings")
@@ -153,21 +153,21 @@ local function sr_chaos()
 							cm:set_character_immortality("character_cqi:" .. cqi, true)
 						end
                     )
-                
+
 					if cm:get_faction("wh2_dlc12_lzd_cult_of_sotek"):is_human() then
 						local xahutec_region = cm:model():world():region_manager():region_by_key("wh2_main_northern_great_jungle_xahutec")
 						cm:instantly_set_settlement_primary_slot_level(xahutec_region:settlement(), 1)
 					end
-					
+
 					if cm:get_faction("wh_main_emp_empire"):is_human() then
 						cm:transfer_region_to_faction("wh_main_reikland_helmgart", "wh_dlc08_nor_naglfarlings")
 					end
-                    
+
                 end
-				
+
 				cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
                 cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
-                
+
                 local aos_region = cm:model():world():region_manager():region_by_key("wh_main_mountains_of_hel_altar_of_spawns")
                 cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
 
@@ -238,10 +238,10 @@ function ovn_rotblood_skit_reinforcements()
         "generate_rotblood_skit_dilemma_listener",
         "FactionTurnStart",
         function(context)
-            return context:faction():name() == "wh_dlc08_nor_naglfarlings" 
+            return context:faction():name() == "wh_dlc08_nor_naglfarlings"
         end,
 		function(context)
-			local faction_name_str = cm:get_local_faction()
+			local faction_name_str = cm:get_local_faction_name()
 			local faction_name = cm:get_faction(faction_name_str)
             local turn = cm:model():turn_number();
             local cooldown = 9
@@ -250,43 +250,43 @@ function ovn_rotblood_skit_reinforcements()
 
                 core:add_listener(
                     "rotblood_skit_dilemma_listener",
-                    "DilemmaChoiceMadeEvent", 
-                    function(context) return context:dilemma():starts_with("ovn_dilemma_rotblood_skit") end, 
+                    "DilemmaChoiceMadeEvent",
+                    function(context) return context:dilemma():starts_with("ovn_dilemma_rotblood_skit") end,
                     function(context)
-                        local faction_name_str = cm:get_local_faction()
+                        local faction_name_str = cm:get_local_faction_name()
                         local faction_name = cm:get_faction(faction_name_str)
                         local choice = context:choice()
                         if choice == 0 then
                             local rb_tele_location = "wh_main_blightwater_kradtommen"
                             local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, rb_tele_location, false, false, 45)
                             if faction_name:has_faction_leader() and faction_name:faction_leader():has_military_force() then
-                                cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)                  
+                                cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)
                             end
-                    
+
                     elseif choice == 1 then
                         local rb_tele_location = "wh2_main_northern_great_jungle_xahutec"
                         local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, rb_tele_location, false, false, 45)
                         if faction_name:has_faction_leader() and faction_name:faction_leader():has_military_force() then
                             cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)
                         end
-                    
+
                     elseif choice == 2 then
                         local rb_tele_location = "wh_main_ostermark_mordheim"
                         local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, rb_tele_location, false, false, 45)
                         if faction_name:has_faction_leader() and faction_name:faction_leader():has_military_force() then
                             cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)
                         end
-                    
+
                     end
-    
+
                     end,
                     false
                     )
-        
+
                 cm:trigger_dilemma("wh_dlc08_nor_naglfarlings" , "ovn_dilemma_rotblood_skit")
 
                 end
-                end,			
+                end,
                 true
                 );
 end
@@ -316,7 +316,7 @@ function chshordespawn()
 						cm:apply_effect_bundle_to_characters_force("wh2_main_sr_fervour", cqi, -1, true)
 					end
 				)
-			
+
 
 			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_dwf_karak_azul", true, true)
 
@@ -328,7 +328,7 @@ function chshordespawn()
 				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_grn_greenskins", true, true)
 			end
 
-		
+
 		elseif 2 == cm:random_number(75, 1) then
 			----  Kingdom of Beasts Spawn: Option 1B
 
@@ -345,7 +345,7 @@ function chshordespawn()
 						cm:apply_effect_bundle_to_characters_force("wh2_main_sr_fervour", cqi, -1, true)
 					end
 				)
-			
+
 
 			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_dlc09_tmb_lybaras", true, true)
 
@@ -429,11 +429,11 @@ function chshordespawn()
 				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire", true, true)
 			end
 
-		
+
 		elseif 6 == cm:random_number(75, 1) then
 			----  West Kislev Spawn: Option 3B
 
-			
+
 				cm:create_force(
 					"wh_dlc08_nor_naglfarlings",
 					"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
@@ -445,7 +445,7 @@ function chshordespawn()
 						cm:apply_effect_bundle_to_characters_force("wh2_main_sr_fervour", cqi, -1, true)
 					end
 				)
-			
+
 			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_ksl_kislev", true, true)
 
 		end
@@ -476,7 +476,7 @@ function chshordespawn()
 				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_main_lzd_hexoatl", true, true)
 			end
 
-		
+
 		elseif 8 == cm:random_number(75, 1) then
 			----  East Ulthuan Sea Spawn: Option 4B
 

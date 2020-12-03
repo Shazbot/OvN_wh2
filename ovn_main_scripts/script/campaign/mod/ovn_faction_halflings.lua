@@ -24,7 +24,7 @@ local function halflings_init()
         return context.string == "character_panel"
     end,
     function()
-        if cm:get_local_faction(true) ~= "wh2_main_emp_the_moot" then return end
+        if cm:get_local_faction_name(true) ~= "wh2_main_emp_the_moot" then return end
 
         local agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "champion", "label")
         if agent_label then
@@ -47,7 +47,7 @@ local function halflings_init()
             "halfling_gift_listener",
             "CharacterPerformsSettlementOccupationDecision",
             function(context)
-                return context:character():faction():name() == faction_key 
+                return context:character():faction():name() == faction_key
                 and context:occupation_decision() == "2205198931"
             end,
             function(context)
@@ -58,12 +58,12 @@ local function halflings_init()
                 end
             end,
             true
-        )           
+        )
     end;
 end
 
 cm:add_first_tick_callback(
-    function() 
+    function()
         halflings_init()
     end
 )

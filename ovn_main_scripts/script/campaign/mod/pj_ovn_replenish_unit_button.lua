@@ -170,7 +170,7 @@ mod.update_UI = function()
 
 	local too_many_unit_cards_selected = mod.get_num_unit_cards_selected() > 1
 
-	local local_faction = cm:get_faction(cm:get_local_faction(true))
+	local local_faction = cm:get_faction(cm:get_local_faction_name(true))
 
 	if retrain_button then
 		local new_tooltip_text = "Fully replenish the unit.\nMust be near an Empire settlement."
@@ -282,7 +282,7 @@ mod.replenish_unit = function()
 
 	local unit_cost = unit_to_upgrade:get_unit_custom_battle_cost()
 	local replenish_cost = round((1-unit_to_upgrade:percentage_proportion_of_full_strength()/100)*unit_cost)
-	cm:treasury_mod(cm:get_local_faction(true), -replenish_cost)
+	cm:treasury_mod(cm:get_local_faction_name(true), -replenish_cost)
 
 	cm:set_unit_hp_to_unary_of_maximum(unit_to_upgrade, 1)
 
@@ -300,7 +300,7 @@ mod.first_tick_cb = function()
 	'pj_ovn_replenish_unit_button_on_clicked_retrain_button',
 	'ComponentLClickUp',
 	function(context)
-		return context.string:starts_with("pj_ovn_replenish_unit_button_") and cm:whose_turn_is_it() == cm:get_local_faction(true)
+		return context.string:starts_with("pj_ovn_replenish_unit_button_") and cm:whose_turn_is_it() == cm:get_local_faction_name(true)
 	end,
 	function(context)
 		if not mod.commander_cqi then
@@ -339,7 +339,7 @@ mod.first_tick_cb = function()
 		'pj_ovn_replenish_unit_button_on_mouse_over_LandUnit',
 		'ComponentMouseOn',
 		function(context)
-			if cm:get_local_faction(true) ~= "wh2_main_emp_grudgebringers" then return false end
+			if cm:get_local_faction_name(true) ~= "wh2_main_emp_grudgebringers" then return false end
 
 			if not mod.commander_cqi or context.string:starts_with("Agent ") then
 				mod.hide_retrain_buttons()
@@ -393,14 +393,14 @@ mod.first_tick_cb = function()
 		'pj_ovn_replenish_unit_button_on_character_selected',
 		'CharacterSelected',
 		function()
-			return cm:get_local_faction(true) == "wh2_main_emp_grudgebringers"
+			return cm:get_local_faction_name(true) == "wh2_main_emp_grudgebringers"
 		end,
 		function(context)
 			---@type CA_CHAR
 			local char = context:character()
 
-			local is_player_char = char:faction():name() == cm:get_local_faction(true)
-				and cm:whose_turn_is_it() == cm:get_local_faction(true)
+			local is_player_char = char:faction():name() == cm:get_local_faction_name(true)
+				and cm:whose_turn_is_it() == cm:get_local_faction_name(true)
 			if not is_player_char then
 				mod.hide_retrain_buttons()
 				mod.commander_cqi = nil

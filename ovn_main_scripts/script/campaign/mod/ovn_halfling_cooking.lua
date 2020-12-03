@@ -29,7 +29,7 @@ local function remove_component(uic_obj)
     end
 
     killer:DestroyChildren()
-end 
+end
 
 local function ui_init()
     local topbar = find_uicomponent("layout", "resources_bar", "topbar_list_parent")
@@ -68,7 +68,7 @@ local function ui_init()
         core:add_listener(
             "halfling_close_panel",
             "ShortcutTriggered",
-            function(context) 
+            function(context)
                 return context.string == "escape_menu"
             end,
             function(context)
@@ -97,8 +97,8 @@ local function ui_init()
         local fx = (px * 0.72) + x
 
         effect_list:SetDockOffset(fx, y * 1.25)
-        
-        
+
+
         -- double made for no reason --TODO make it for a reason?
         local tt = find_uicomponent("hlfng_cauldron", "left_colum", "ingredients_holder", "component_tooltip2")
         --tt:SetVisible(false)
@@ -130,7 +130,7 @@ local function ui_init()
 
         for i,v in ipairs(offsets) do
             local slot = find_uicomponent(slot_holder, "main_ingredient_slot_"..tostring(i))
-            
+
             local px, py = core:get_screen_resolution()
 
             local slotx, sloty = slot:Position()
@@ -181,7 +181,7 @@ local function ui_init()
                 root:CreateComponent("hlfng_cauldron", "ui/campaign ui/hlfng_cauldron_panel")
 
                 test_open()
-                
+
                 close_listener()
             end
         end,
@@ -339,9 +339,9 @@ local function add_ingredient(region_obj, char_obj)
 
     local continent_key = ""
     continent_key = province_continent_lookup[region_obj:province_name()]
-    
+
     local ingredients_list = ingredients_by_continent[continent_key]
-    
+
     local faction_cooking_info = cm:model():world():cooking_system():faction_cooking_info(faction_obj)
 
     -- 100%, 80%, 60%, 40%, 20%
@@ -356,7 +356,7 @@ local function add_ingredient(region_obj, char_obj)
     if ingredient_key == "" then
         return false
     end
-    
+
     -- fail if it selects an ingredient we already have
     if faction_cooking_info:is_ingredient_unlocked(ingredient_key) then
         return false
@@ -406,7 +406,7 @@ local function init()
         end,
         function(context)
 			local character = context:character();
-			
+
 			local region_obj = character:region();
 
 			add_ingredient(region_obj, character);
@@ -416,7 +416,7 @@ local function init()
 end
 
 cm:add_first_tick_callback(function()
-    if cm:get_local_faction(true) == faction_key then
+    if cm:get_local_faction_name(true) == faction_key then
         ui_init()
     end
 

@@ -1,11 +1,11 @@
 cm:add_first_tick_callback(function()
-    if cm:get_local_faction(true) == "wh2_main_ovn_chaos_dwarfs" 
-    or cm:get_local_faction(true) == "wh2_main_arb_aswad_scythans" 
-    or cm:get_local_faction(true) == "wh2_main_arb_caliphate_of_araby" 
-    or cm:get_local_faction(true) == "wh2_main_arb_flaming_scimitar" 
-    or cm:get_local_faction(true) == "wh2_main_wef_treeblood" 
-    or cm:get_local_faction(true) == "wh_dlc08_nor_naglfarlings" 
-    or cm:get_local_faction(true) == "wh_dlc08_nor_goromadny_tribe" 
+    if cm:get_local_faction_name(true) == "wh2_main_ovn_chaos_dwarfs"
+    or cm:get_local_faction_name(true) == "wh2_main_arb_aswad_scythans"
+    or cm:get_local_faction_name(true) == "wh2_main_arb_caliphate_of_araby"
+    or cm:get_local_faction_name(true) == "wh2_main_arb_flaming_scimitar"
+    or cm:get_local_faction_name(true) == "wh2_main_wef_treeblood"
+    or cm:get_local_faction_name(true) == "wh_dlc08_nor_naglfarlings"
+    or cm:get_local_faction_name(true) == "wh_dlc08_nor_goromadny_tribe"
     then
 
         local button_slaves = find_uicomponent(
@@ -13,7 +13,7 @@ cm:add_first_tick_callback(function()
             "layout", "faction_buttons_docker", "button_group_management", "button_slaves"
         )
         if button_slaves then
-            local icon_path = effect.get_skinned_image_path("icon_button_slaves.png") 
+            local icon_path = effect.get_skinned_image_path("icon_button_slaves.png")
             button_slaves:SetImagePath(icon_path, 0)
             icon_path = effect.get_skinned_image_path("button_round_large_selected_inactive.png")
             button_slaves:SetImagePath(icon_path, 1)
@@ -34,7 +34,7 @@ cm:add_first_tick_callback(function()
             icon_path = effect.get_skinned_image_path("spell_dial_frame.png")
             button_slaves:SetImagePath(icon_path, 9)
         end
-    
+
         core:add_listener(
             "pj_chorfs_fix_slaves_panel_slaves_buttons",
             "PanelOpenedCampaign",

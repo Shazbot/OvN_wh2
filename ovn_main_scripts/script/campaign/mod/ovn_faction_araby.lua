@@ -1,10 +1,10 @@
 local function setup_diplo()
 	cm:force_diplomacy("faction:wh2_main_arb_caliphate_of_araby", "culture:wh_main_brt_bretonnia", "military alliance", false, false, true)
     cm:force_diplomacy("faction:wh2_main_arb_caliphate_of_araby", "culture:wh_main_brt_bretonnia", "defensive alliance", false, false, true)
-    
+
 	cm:force_diplomacy("faction:wh2_main_arb_aswad_scythans", "culture:wh_main_brt_bretonnia", "military alliance", false, false, true)
     cm:force_diplomacy("faction:wh2_main_arb_aswad_scythans", "culture:wh_main_brt_bretonnia", "defensive alliance", false, false, true)
-    
+
 	cm:force_diplomacy("faction:wh2_main_arb_flaming_scimitar", "culture:wh_main_brt_bretonnia", "military alliance", false, false, true)
 	cm:force_diplomacy("faction:wh2_main_arb_flaming_scimitar", "culture:wh_main_brt_bretonnia", "defensive alliance", false, false, true)
 
@@ -28,7 +28,7 @@ local function setup_arb_excavations()
     function(context) return context:faction():is_human()
     end,
     function(context)
-        local faction_name_str = cm:get_local_faction()
+        local faction_name_str = cm:get_local_faction_name()
         local faction = context:faction();
         local region_list = faction:region_list();
         for i = 0, region_list:num_items() - 1 do
@@ -54,7 +54,7 @@ local function setup_arb_excavations()
         ["Buy Talismans"] = "mortuary_cult_title_frame_d.png",
         ["Buy Arcane Items"] = "mortuary_cult_title_frame_e.png",
     }
-    
+
     core:remove_listener('pj_araby_bazaar_change_header_image')
     core:add_listener(
         'pj_araby_bazaar_change_header_image',
@@ -64,19 +64,19 @@ local function setup_arb_excavations()
             local ui_root = core:get_ui_root()
             local pt = find_uicomponent(ui_root, "mortuary_cult", "panel_title")
             if not pt then return end
-    
+
             local tooltip_text = UIComponent(context.component):GetTooltipText()
-    
+
             local image_path = tooltip_to_image_path[tooltip_text]
             if not image_path then return end
-    
+
             pt:SetImagePath("ui/skins/ovn_araby/"..image_path)
         end,
         true
     )
 
         random_army_manager:new_force("ovn_arb_excavation_tomb_king_force");
-        random_army_manager:add_mandatory_unit("ovn_arb_excavation_tomb_king_force", "wh2_dlc09_tmb_inf_tomb_guard_1", 3); 
+        random_army_manager:add_mandatory_unit("ovn_arb_excavation_tomb_king_force", "wh2_dlc09_tmb_inf_tomb_guard_1", 3);
         random_army_manager:add_mandatory_unit("ovn_arb_excavation_tomb_king_force", "wh2_dlc09_tmb_inf_skeleton_archers_0", 3);
         random_army_manager:add_mandatory_unit("ovn_arb_excavation_tomb_king_force", "wh2_dlc09_tmb_veh_khemrian_warsphinx_0", 1);
         random_army_manager:add_mandatory_unit("ovn_arb_excavation_tomb_king_force", "wh2_pro06_tmb_mon_bone_giant_0", 1);
@@ -111,11 +111,11 @@ local function setup_arb_excavations()
     random_army_manager:add_unit("ovn_arb_excavation_chaos_force", "wh_main_chs_inf_chaos_warriors_0", 4);
 
     random_army_manager:new_force("ovn_arb_excavation_skaven_force");
-    random_army_manager:add_mandatory_unit("ovn_arb_excavation_skaven_force", "wh2_dlc12_skv_inf_warplock_jezzails_0", 1); 
+    random_army_manager:add_mandatory_unit("ovn_arb_excavation_skaven_force", "wh2_dlc12_skv_inf_warplock_jezzails_0", 1);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_art_plagueclaw_catapult", 2);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_inf_stormvermin_0", 2);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_skaven_force", "wh2_dlc12_skv_inf_ratling_gun_0", 1);
-    random_army_manager:add_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_art_warp_lightning_cannon", 1); 
+    random_army_manager:add_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_art_warp_lightning_cannon", 1);
     random_army_manager:add_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_inf_plague_monk_censer_bearer", 1);
     random_army_manager:add_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_inf_poison_wind_globadiers", 1);
     random_army_manager:add_unit("ovn_arb_excavation_skaven_force", "wh2_dlc14_skv_inf_eshin_triads_0", 1);
@@ -131,12 +131,12 @@ local function setup_arb_excavations()
     random_army_manager:add_unit("ovn_arb_excavation_skaven_force", "wh2_main_skv_inf_clanrats_1", 3);
 
     random_army_manager:new_force("ovn_arb_excavation_dark_elves_force");
-    random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_har_ganeth_executioners_0", 2); 
+    random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_har_ganeth_executioners_0", 2);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_dlc10_def_inf_sisters_of_slaughter", 2);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_darkshards_1", 1);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_art_reaper_bolt_thrower", 1);
-    random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_0", 3); 
-    random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_1", 3); 
+    random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_0", 3);
+    random_army_manager:add_mandatory_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_1", 3);
     random_army_manager:add_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_witch_elves_0", 1);
     random_army_manager:add_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_harpies", 1);
     random_army_manager:add_unit("ovn_arb_excavation_dark_elves_force", "wh2_main_def_inf_shades_2", 1);
@@ -170,14 +170,14 @@ local function setup_arb_excavations()
 	random_army_manager:add_unit("ovn_arb_excavation_tilea_force", "wh_main_emp_inf_swordsmen", 4);
 	random_army_manager:add_unit("ovn_arb_excavation_tilea_force", "wh_dlc04_emp_inf_flagellants_0", 2);
     random_army_manager:add_unit("ovn_arb_excavation_tilea_force", "wh2_dlc13_emp_inf_archers_0", 3);
-    
+
     random_army_manager:new_force("ovn_arb_excavation_norsca_force");
-    random_army_manager:add_mandatory_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_fimir_1", 2); 
+    random_army_manager:add_mandatory_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_fimir_1", 2);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_war_mammoth_2", 1);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_inf_marauder_champions_0", 2);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_skinwolves_1", 1);
     random_army_manager:add_mandatory_unit("ovn_arb_excavation_norsca_force", "wh_main_chs_art_hellcannon", 1);
-    random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_war_mammoth_1", 1); 
+    random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_war_mammoth_1", 1);
     random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_main_nor_cav_marauder_horsemen_1", 2);
     random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_mon_norscan_giant_0", 1);
     random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_inf_marauder_champions_1", 2);
@@ -195,7 +195,7 @@ local function setup_arb_excavations()
         function(context) return context:faction():is_human()
         end,
         function(context)
-            local faction_name_str = cm:get_local_faction()
+            local faction_name_str = cm:get_local_faction_name()
             local faction = context:faction();
 			local region_list = faction:region_list();
 			for i = 0, region_list:num_items() - 1 do
@@ -205,18 +205,18 @@ local function setup_arb_excavations()
             if region:building_exists("ovn_Nehekharan") then
              if cm:random_number(20, 1) ==  1 then
 
-             
+
                 core:add_listener(
                     "arb_excavation_dilemma_listener",
-                    "DilemmaChoiceMadeEvent", 
-                    function(context) return context:dilemma():starts_with("ovn_dilemma_arb_excavation") end, 
+                    "DilemmaChoiceMadeEvent",
+                    function(context) return context:dilemma():starts_with("ovn_dilemma_arb_excavation") end,
                     function(context)
-                        local faction_name_str = cm:get_local_faction()
+                        local faction_name_str = cm:get_local_faction_name()
                         local choice = context:choice()
                         if choice == 0 then
                             if cm:random_number(2, 1) == 1 then
                             arb_excavation_invasion_start(current_region_name)
-                      
+
                         end
                     end
 
@@ -233,9 +233,9 @@ local function setup_arb_excavations()
 		true
     );
 
-        elseif cm:random_number(20, 1) ==  2 then  
-        arb_excavation_invasion_start(current_region_name) 
- 
+        elseif cm:random_number(20, 1) ==  2 then
+        arb_excavation_invasion_start(current_region_name)
+
     end
     end
 
@@ -244,7 +244,7 @@ local function setup_arb_excavations()
 function arb_excavation_invasion_start(region)
 
 
-    local faction_name_str = cm:get_local_faction()
+    local faction_name_str = cm:get_local_faction_name()
     local faction_name = cm:get_faction(faction_name_str)
     local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, region, false, false, 45)
     local location = {x = w, y = z};
@@ -255,48 +255,48 @@ function arb_excavation_invasion_start(region)
     local experience_amount
     local turn_number = cm:model():turn_number();
 
-        if cm:model():turn_number() < 25 then 
+        if cm:model():turn_number() < 25 then
             upa = {8, 9}
             experience_amount = cm:random_number(3,1)
-        elseif cm:model():turn_number() < 45 and cm:model():turn_number() > 10 then 
+        elseif cm:model():turn_number() < 45 and cm:model():turn_number() > 10 then
             upa = {15, 18}
             experience_amount = cm:random_number(5,2)
-        elseif cm:model():turn_number() < 69 and cm:model():turn_number() > 24 then 
+        elseif cm:model():turn_number() < 69 and cm:model():turn_number() > 24 then
             upa = {16, 18}
             experience_amount = cm:random_number(7,4)
-        elseif cm:model():turn_number() > 70 then 
+        elseif cm:model():turn_number() > 70 then
             upa = {17, 19}
             experience_amount = cm:random_number(12,7)
         end
-    
-        if random_number == 1 or random_number == 7 or random_number == 8 or random_number == 9 or random_number == 10 then 
+
+        if random_number == 1 or random_number == 7 or random_number == 8 or random_number == 9 or random_number == 10 then
             faction = "wh2_dlc09_tmb_tombking_qb1"
             army = random_army_manager:generate_force("ovn_arb_excavation_tomb_king_force", upa, false);
-            cm:change_custom_faction_name("wh2_dlc09_tmb_tombking_qb1", "Tomb Guardians")          
-        elseif random_number == 2 then 
+            cm:change_custom_faction_name("wh2_dlc09_tmb_tombking_qb1", "Tomb Guardians")
+        elseif random_number == 2 then
             faction = "wh_main_nor_norsca_qb1"
             army = random_army_manager:generate_force("ovn_arb_excavation_norsca_force", upa, false);
-            cm:change_custom_faction_name("wh_main_nor_norsca_qb1", "Khagul's Raiders")                
-        elseif random_number == 3 then 
+            cm:change_custom_faction_name("wh_main_nor_norsca_qb1", "Khagul's Raiders")
+        elseif random_number == 3 then
             faction = "wh2_main_skv_skaven_qb1"
-            army = random_army_manager:generate_force("ovn_arb_excavation_skaven_force", upa, false);   
-            cm:change_custom_faction_name("wh2_main_skv_skaven_qb1", "Clan Skab")             
-        elseif random_number == 4 then 
+            army = random_army_manager:generate_force("ovn_arb_excavation_skaven_force", upa, false);
+            cm:change_custom_faction_name("wh2_main_skv_skaven_qb1", "Clan Skab")
+        elseif random_number == 4 then
             faction = "wh_main_emp_empire_qb1"
-            army = random_army_manager:generate_force("ovn_arb_excavation_tilea_force", upa, false); 
-            cm:change_custom_faction_name("wh_main_emp_empire_qb1", "Tilean Adventurers")              
-        elseif random_number == 5 then 
+            army = random_army_manager:generate_force("ovn_arb_excavation_tilea_force", upa, false);
+            cm:change_custom_faction_name("wh_main_emp_empire_qb1", "Tilean Adventurers")
+        elseif random_number == 5 then
             faction = "wh2_main_def_dark_elves_qb1"
             army = random_army_manager:generate_force("ovn_arb_excavation_dark_elves_force", upa, false);
-            cm:change_custom_faction_name("wh2_main_def_dark_elves_qb1", "Teilancarr's Corsairs")          
-        elseif random_number == 6 then 
+            cm:change_custom_faction_name("wh2_main_def_dark_elves_qb1", "Teilancarr's Corsairs")
+        elseif random_number == 6 then
             faction = "wh_main_chs_chaos_qb1"
             army = random_army_manager:generate_force("ovn_arb_excavation_chaos_force", upa, false);
-            cm:change_custom_faction_name("wh_main_chs_chaos_qb1", "Nehekharan Blood Cult")          
-        end       
-    
+            cm:change_custom_faction_name("wh_main_chs_chaos_qb1", "Nehekharan Blood Cult")
+        end
+
         local arb_excavation_invasion = invasion_manager:new_invasion("arb_excavation_invasion_"..region.."_"..turn_number, faction, army, location);
-    
+
          arb_excavation_invasion:set_target("REGION", region, faction_name_str);
          arb_excavation_invasion:apply_effect("wh_main_bundle_military_upkeep_free_force", -1);
          arb_excavation_invasion:add_character_experience(experience_amount, true);
@@ -314,7 +314,7 @@ function arb_excavation_invasion_start(region)
                 "event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_secondary_detail",
                 true,
                 2505
-                );   
+                );
             elseif random_number == 2 then
                 cm:show_message_event(
                     human_factions[i],
@@ -323,7 +323,7 @@ function arb_excavation_invasion_start(region)
 					"event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_2_secondary_detail",
 					true,
 					2505
-					);   
+					);
                 elseif random_number == 3 then
                     cm:show_message_event(
                         human_factions[i],
@@ -332,7 +332,7 @@ function arb_excavation_invasion_start(region)
                         "event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_3_secondary_detail",
                         true,
                         2505
-                        );   
+                        );
                 elseif random_number == 4 then
                         cm:show_message_event(
                             human_factions[i],
@@ -341,7 +341,7 @@ function arb_excavation_invasion_start(region)
                         "event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_4_secondary_detail",
                         true,
                         2505
-                        );   
+                        );
                 elseif random_number == 5 then
                     cm:show_message_event(
                         human_factions[i],
@@ -350,7 +350,7 @@ function arb_excavation_invasion_start(region)
                         "event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_5_secondary_detail",
                         true,
                         2505
-                        );   
+                        );
                 elseif random_number == 6 then
                     cm:show_message_event(
                         human_factions[i],
@@ -363,8 +363,8 @@ function arb_excavation_invasion_start(region)
                 end
                 end
 
-    
-   
+
+
 end
 
 local function araby_init()
