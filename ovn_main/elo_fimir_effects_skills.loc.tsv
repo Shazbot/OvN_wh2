@@ -1,7 +1,7 @@
 Loc PackedFile	1
 key	text	tooltip
-effects_description_elo_fimir_rusher_sp	Speed: %+n% for Zoats, Hounds and Marsh Reavers	true
-effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Zoats, Hounds and Marsh Reavers	true
+effects_description_elo_fimir_rusher_sp	Speed: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
+effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
 effects_description_elo_fimir_first_wave_ma	Melee Attack: %+n for Boglars, Shearls and Deathquest	true
 effects_description_elo_fimir_first_wave_wps	Weapon Strength: %+n% for Boglars, Shearls and Deathquest	true
 effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeasts and Troll units	true
@@ -16,9 +16,9 @@ effects_description_elo_fimir_r7_warriors_phyres	Physical Resistance: %+n% for B
 effects_description_elo_fimir_r7_auxillaries_missres	Missile Resistance: %+n% for Fenbeasts and Troll units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_auxillaries_md	Melee Defence: %+n for Fenbeasts and Troll units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeasts and Troll units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Zoats, Hounds and Marsh Reavers {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Zoats, Hounds and Marsh Reavers {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Zoats, Hounds and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
 effects_description_elo_fimir_r7_giants_ward	Ward Save: %+n% for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
 effects_description_elo_fimir_r7_giants_wps	Weapon Strength: %+n% for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
 effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
@@ -28,9 +28,9 @@ effects_description_fimir_warrior_elite_xp	Recruitment Rank: %+n for Fimir Warri
 effects_description_fimir_warrior_elite_md	Melee Defence: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
 effects_description_fimir_warrior_elite_up	Upkeep: %+n% for Fimir Warriors, Fimm Guard and Fianna Fimm	true
 effects_description_fimir_warrior_elite_cost	Recruitment Cost: %+n%  for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_fimir_untamed_monsters_frenzy	Passive Ability: "Frenzy" for Zoats, Giants and Troll units	true
-effects_description_fimir_untamed_monsters_guerilla	Enables Guerilla Deployment for Zoats, Giants and Troll units	true
-effects_description_fimir_untamed_monsters_rampage	Enables Rampage for Zoats, Giants and Troll units	true
+effects_description_fimir_untamed_monsters_frenzy	Passive Ability: "Frenzy" for Glacial Dragon Ogre, Giants and Troll units	true
+effects_description_fimir_untamed_monsters_guerilla	Enables Guerilla Deployment for Glacial Dragon Ogre, Giants and Troll units	true
+effects_description_fimir_untamed_monsters_rampage	Enables Rampage for Glacial Dragon Ogre, Giants and Troll units	true
 effects_description_elo_fimir_witness_me	Ability: "Under the Eyes of the Gods"	true
 effects_description_fimir_warrior_elite_wps	Weapon Strength: %+n% for Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm	true
 effects_description_fimir_warrior_elite_armour	Armour: %+n for Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm	true
@@ -54,13 +54,13 @@ effects_description_elo_fimir_trolls_armour	Armour: %+n for Troll units	true
 effects_description_elo_swamp_riders_speed	Speed: %+n% for Marsh Reavers	true
 effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Marsh Reavers	true
 effects_description_elo_swamp_riders_charge	Charge: %+n% for Marsh Reavers	true
-effects_description_elo_fen_big_dwellers_xp	Recruitment Rank: %+n for Giants, Mistmor and Chaos Zoats	true
-effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Giants, Mistmor and Chaos Zoats	true
-effects_description_elo_fen_big_dwellers_ward	Ward Save: %+n% for Giants, Mistmor and Chaos Zoats	true
-effects_description_elo_fen_monster_rulers_matt	Melee Attack: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Chaos Zoats	true
-effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Chaos Zoats	true
-effects_description_elo_fen_monster_rulers_resmis	Missile Resistance: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Chaos Zoats	true
-effects_description_elo_fen_monster_rulers_cost	Recruitment Cost: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Chaos Zoats	true
+effects_description_elo_fen_big_dwellers_xp	Recruitment Rank: %+n for Giants, Mistmor and Glacial Dragon Ogre	true
+effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Giants, Mistmor and Glacial Dragon Ogre	true
+effects_description_elo_fen_big_dwellers_ward	Ward Save: %+n% for Giants, Mistmor and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_matt	Melee Attack: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_resmis	Missile Resistance: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_cost	Recruitment Cost: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
 effects_description_elo_fen_lord_heroes	Abilities: "Warpfireball" and "Windblast" for all Lords and Heroes	true
 effects_description_elo_fen_lord_heroes_ward	Ward Save: %+n% for all Lords and Heroes	true
 effects_description_elo_belakor_fimir_demons_md	Melee Defence: %+n for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
@@ -82,13 +82,13 @@ effects_description_elo_belakor_riders_chaos_wps	Weaponstrength: %+n% for Maraud
 effects_description_elo_belakor_armoured_warriors_imm_psy	Enable Immune to Psychology for Chaos Warriors and Chosen	true
 effects_description_elo_belakor_armoured_warriors_md	Melee Defence: %+n for Chaos Warriors and Chosen	true
 effects_description_elo_belakor_armoured_warriors_ld	Leadership: %+n for Chaos Warriors and Chosen	true
-effects_description_elo_belakor_corrupted_giants_speed	Speed: %+n% for Chaos Giants, Chaos Zoats and Frost Wyrms	true
-effects_description_elo_belakor_corrupted_giants_vsinf	Bonus vs. Infantry: %+n for Chaos Giants, Chaos Zoats and Frost Wyrms	true
-effects_description_elo_belakor_corrupted_giants_cb	Charge: %+n for Chaos Giants, Chaos Zoats and Frost Wyrms	true
-effects_description_elo_belakor_twisted_corrupted_cost	Recruitment Cost: %+n%  for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Chaos Zoats, Frostwyrms and Chosen	true
-effects_description_elo_belakor_twisted_corrupted_wps	Weapon Strength: %+n%  for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Chaos Zoats, Frostwyrms and Chosen	true
-effects_description_elo_belakor_twisted_corrupted_armour	Armour: %+n for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Chaos Zoats, Frostwyrms and Chosen	true
-effects_description_elo_belakor_corrupted_giants_fatigue_res	Enables Fatigue Resistance for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Chaos Zoats, Frostwyrms and Chosen	true
+effects_description_elo_belakor_corrupted_giants_speed	Speed: %+n% for Chaos Giants, Glacial Dragon Ogre and Frost Wyrms	true
+effects_description_elo_belakor_corrupted_giants_vsinf	Bonus vs. Infantry: %+n for Chaos Giants, Glacial Dragon Ogre and Frost Wyrms	true
+effects_description_elo_belakor_corrupted_giants_cb	Charge: %+n for Chaos Giants, Glacial Dragon Ogre and Frost Wyrms	true
+effects_description_elo_belakor_twisted_corrupted_cost	Recruitment Cost: %+n%  for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_twisted_corrupted_wps	Weapon Strength: %+n%  for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_twisted_corrupted_armour	Armour: %+n for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_corrupted_giants_fatigue_res	Enables Fatigue Resistance for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
 effects_description_elo_belakor_here_to_die_md	Melee Defence: %+n for Marauders, Boglars, Shearls and Fimir Death Quest	true
 effects_description_elo_belakor_here_to_die_armour	Armour: %+n for Marauders, Boglars, Shearls and Fimir Death Quest	true
 effects_description_elo_belakor_ranged_ammo	Ammunition: %+n%  for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
@@ -99,17 +99,17 @@ effects_description_elo_belakor_chaos_infantry_dmg	Weapon Strength: %+n%  for Ch
 effects_description_elo_belakor_chaos_infantry_ma	Melee Attack: %+n for Chaos Warriors, Plaguebearers, Bloodletters, Forsaken and Chosen	true
 effects_description_elo_belakor_conjured_monsters_md	Melee Attack: %+n for Fenbeasts, Fenhulks, Chaos Spawn and Bloodthirsters	true
 effects_description_elo_belakor_conjured_monsters_ma	Melee Defence: %+n for Fenbeasts, Fenhulks, Chaos Spawn and Bloodthirsters	true
-effects_description_elo_belakor_conscripted_beasts_speed	Speed: %+n% for Marsh Hounds, Chaos Zoats, Frost Wyrm and Giants	true
-effects_description_elo_belakor_conscripted_beasts_cb	Charge: %+n for Marsh Hounds, Chaos Zoats, Frost Wyrm and Giants	true
+effects_description_elo_belakor_conscripted_beasts_speed	Speed: %+n% for Marsh Hounds, Glacial Dragon Ogre, Frost Wyrm and Giants	true
+effects_description_elo_belakor_conscripted_beasts_cb	Charge: %+n for Marsh Hounds, Glacial Dragon Ogre, Frost Wyrm and Giants	true
 effects_description_elo_belakor_r7_fimir_all_wps	Weapon Strength: %+n%  for all melee Fimir units  {{tr:rank7}}	true
 effects_description_elo_belakor_r7_fimir_all_misres	Missile Resistance: %+n% for all melee Fimir units {{tr:rank7}}	true
 effects_description_elo_belakor_r7_fimir_all_ma	Melee Attack: %+n for all melee Fimir units {{tr:rank7}}	true
 effects_description_elo_belakor_ranged_r7_ammo	Ammunition: %+n%  for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices, Marauder Cavalry and Hellcannons {{tr:rank7}}	true
 effects_description_elo_belakor_ranged_r7_reload	Reload:: %+n%  for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices, Marauder Cavalry and Hellcannons {{tr:rank7}}	true
 effects_description_elo_belakor_ranged_r7_rdmg	Missile Damage: %+n%  for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices, Marauder Cavalry and Hellcannons {{tr:rank7}}	true
-effects_description_elo_belakor_cav_bog_r7_phys_res	Physical Resistance: %+n% for Boglars, Chaos Giants, Chaos Zoats, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
-effects_description_elo_belakor_cav_bog_r7_ma	Melee Attack: %+n for Boglars, Chaos Giants, Chaos Zoats, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
-effects_description_elo_belakor_cav_bog_r7_cb	Charge: %+n for Boglars, Chaos Giants, Chaos Zoats, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
+effects_description_elo_belakor_cav_bog_r7_phys_res	Physical Resistance: %+n% for Boglars, Chaos Giants, Glacial Dragon Ogre, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
+effects_description_elo_belakor_cav_bog_r7_ma	Melee Attack: %+n for Boglars, Chaos Giants, Glacial Dragon Ogre, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
+effects_description_elo_belakor_cav_bog_r7_cb	Charge: %+n for Boglars, Chaos Giants, Glacial Dragon Ogre, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
 effects_description_elo_champions_chaos_r7_wps	Weapon Strength: %+n%  for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units  {{tr:rank7}}	false
 effects_description_elo_champions_chaos_r7_md	Melee Defence: %+n  for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units  {{tr:rank7}}	false
 effects_description_elo_champions_chaos_r7_magicres	Magic Resistance: %+n%  for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units  {{tr:rank7}}	false
