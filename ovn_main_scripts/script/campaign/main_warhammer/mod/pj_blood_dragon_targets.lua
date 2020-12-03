@@ -20,7 +20,7 @@ local num_targets = 5
 local blood_kiss_resource_payload = "faction_pooled_resource_transaction{resource vmp_blood_kiss;factor wh2_dlc11_vmp_resource_factor_other;amount 1;}";
 
 local function generate_targets(rogues_disallowed)
-	local local_faction = cm:model():world():faction_by_key(cm:get_local_faction(true));
+	local local_faction = cm:model():world():faction_by_key(cm:get_local_faction_name(true));
 	local random_factions = assassination_pick_random_factions(nil, "all", nil);
 
 	local forces = {}
@@ -83,7 +83,7 @@ local function get_n_by_distance(forces, n, dist)
 		if not (force.subculture == "wh_dlc05_sc_wef_wood_elves" and included_subcultures[force.subculture])
 			and (cm:random_number(3)==1 or not included_subcultures[force.subculture])
 			and force.distance < dist
-			and force.faction ~= cm:get_local_faction(true)
+			and force.faction ~= cm:get_local_faction_name(true)
 		then
 			table.insert(chosen, force)
 			included_subcultures[force.subculture] = true
@@ -97,7 +97,7 @@ local function get_n_by_distance(forces, n, dist)
 end
 
 local function give_new_targets(turn_num, rogues_disallowed)
-	local faction_name = cm:get_local_faction()
+	local faction_name = cm:get_local_faction_name()
 
 	local forces = generate_targets(rogues_disallowed)
 
@@ -172,7 +172,7 @@ cm:add_first_tick_callback_new(
 	function()
 		cm:callback(
 			function()
-				if cm:get_local_faction(true) ~= "wh_main_vmp_rival_sylvanian_vamps" then return end
+				if cm:get_local_faction_name(true) ~= "wh_main_vmp_rival_sylvanian_vamps" then return end
 				local turn_num = cm:model():turn_number()
 				give_new_targets(turn_num, true)
 			end,
