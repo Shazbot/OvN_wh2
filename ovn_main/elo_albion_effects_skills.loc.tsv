@@ -4,8 +4,8 @@ effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands.	true
 effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands.	true
 effects_description_elo_elite_mdef	Melee Defence: %+n  for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_elite_matt	Melee Attack: %+n for Hearthguard, Highlanders and Viridian Lords	true
-effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Half-Giants, Albion Barrow Wights and Fenhulks.	true
-effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Albion Barrow Wights and Fenhulks.	true
+effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks.	true
+effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks.	true
 effects_description_elo_savage_matt	Melee Attack: %+n for Woadraiders, Druid Neophytes and Swordmaidens.	true
 effects_description_elo_savage_dmg	Weapon Strength: %+n% for Woadraiders, Druid Neophytes and Swordmaidens.	true
 effects_description_elo_allrange_ammo	Ammunition: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins).	true
@@ -21,9 +21,9 @@ effects_description_elo_hunters_r7_misres	Missile Resistance: %+n% for for Stone
 effects_description_elo_riders_r7_mattk	Melee Attack: %+n for Woadraiders, Swordmaidens, Centaurs, Hunting Dogs and Aonbarr Horse Warriors {{tr:rank7}}	true
 effects_description_elo_riders_r7_charge	Charge Bonus: %+n for Woadraiders, Swordmaidens, Albion Chariots, Hunting Dogs and Aonbarr Horse Warriors {{tr:rank7}}	true
 effects_description_elo_riders_r7_dmg	Weapon Strength: %+n% for Woadraiders, Swordmaidens, Albion Chariots, Hunting Dogs and Aonbarr Horse Warriors {{tr:rank7}}	true
-effects_description_elo_monsters_r7_mattk	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
-effects_description_elo_monsters_r7_dmg	Weapon Strength: %+n%  for Fenbeasts, Giants, Half-Giants, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
-effects_description_elo_monsters_r7_charge	Charge Bonus: %+n for Fenbeasts, Giants, Half-Giants, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
+effects_description_elo_monsters_r7_mattk	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
+effects_description_elo_monsters_r7_dmg	Weapon Strength: %+n%  for Fenbeasts, Giants, Half-Giants, Zoats, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
+effects_description_elo_monsters_r7_charge	Charge Bonus: %+n for Fenbeasts, Giants, Half-Giants, Zoats, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
 effects_description_sessair_troops_mattk	Melee Attack: %+n for all human (non-hero/lord) units	true
 effects_description_sessair_troops_wps	Weapon Strength: %+n% for all human (non-hero/lord) units	true
 effects_description_sessair_troops_antiIn	Anti-Infantry: %+n for all human (non-hero/lord) units	true

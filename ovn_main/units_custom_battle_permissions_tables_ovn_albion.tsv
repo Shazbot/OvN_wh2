@@ -49,3 +49,4 @@ wh2_main_nor_albion	true	bl_elo_dural_durak	true	true	ui/portraits/portholes/no_
 wh2_main_nor_albion	true	bl_elo_dural_durak_horse	true	true	ui/portraits/portholes/no_culture/dural_durak.png		bl_elo_dural_durak	false
 wh2_main_nor_albion	true	bl_elo_dural_durak_chariot	true	true	ui/portraits/portholes/no_culture/dural_durak.png		bl_elo_dural_durak	false
 wh2_main_nor_albion	false	ovn_barrow_wight	true	true				true
+wh2_main_nor_albion	false	wh2_dlc16_wef_mon_zoats	true	true				false

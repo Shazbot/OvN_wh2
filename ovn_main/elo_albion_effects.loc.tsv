@@ -11,9 +11,9 @@ effects_description_disable_war_fury_2	Removes "War Fury 2" from all units that 
 effects_description_elo_elite_warband_wps	Weapon Strength: %+n% for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_noble_cav_chariot_armour	Armour: %+n for Noble Cavalary and Chariots	true
 effects_description_elo_noble_cav_chariot_vigour	Vigour Loss: %+n% for Noble Cavalary and Chariots	true
-effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Albion Barrow Wights and Centaurs	true
-effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Albion Barrow Wights and Centaurs	true
-effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
 effects_description_albion_monsters_fen_anti_small	Bonus vs Infantry: %+n for Fenbeasts and Fenhulks	true
 effects_description_albion_monsters_fen_mdef	Melee Defence: %+n for Fenbeasts and Fenhulks	true
 effects_description_albion_monsters_fen_mattk	Melee Attack: %+n for Fenbeasts and Fenhulks	true
