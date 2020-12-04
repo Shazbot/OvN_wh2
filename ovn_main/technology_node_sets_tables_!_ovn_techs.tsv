@@ -2,5 +2,3 @@ technology_node_sets_tables	2
 campaign_key	faction_key	culture	subculture	key	technology_category	colour_r	colour_g	colour_b
 	wh2_main_amz_amazons			ovn_amazons_tech	rom_roman_mil_top	255	255	255
 	wh2_main_arb_caliphate_of_araby			ovn_araby_tech	rom_roman_mil_top	255	255	255
-	wh2_main_arb_flaming_scimitar			ovn_scimitar_tech	rom_roman_mil_top	255	255	255
-	wh2_main_arb_aswad_scythans			ovn_scythans_tech	rom_roman_mil_top	255	255	255

@@ -1,8 +1,6 @@
 technology_nodes_tables	3
 campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
 	wh2_main_amz_amazons	-2	ovn_amazons_tech_dummy_tech	tech_dwf_civ_5_0	ovn_amazons_tech	0	999999	0	0		
-	wh2_dlc11_cst_vampire_coast_qb1	0	ovn_scimitar_tech_dummy_tech	tech_dwf_civ_5_0	ovn_scimitar_tech	0	999999	0	0		
-	wh2_dlc11_cst_vampire_coast_qb1	0	ovn_scythans_tech_dummy_tech	tech_dwf_civ_5_0	ovn_scythans_tech	0	999999	0	0		
 	wh2_main_emp_grudgebringers	7	grudge_tech_1	grudge_tech_1	emp_civ_reworkd	4	500	1000	0		
 	wh2_main_emp_grudgebringers	8	grudge_tech_2	grudge_tech_2	emp_civ_reworkd	4	500	1000	0		
 	wh2_main_emp_grudgebringers	7	grudge_tech_3	grudge_tech_3	emp_civ_reworkd	5	500	1000	0		
