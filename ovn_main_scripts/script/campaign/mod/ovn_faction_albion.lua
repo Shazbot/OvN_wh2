@@ -1,197 +1,192 @@
-local function setup_diplo()
+local function albion_init()
 
-local ovn_albion_anc_pool = {
-"albion_hunting_dog",
-"albion_lone_huntress",
-"albion_woad_raider",
-"albion_tame_raven",
-"albion_druid_advisor",
-"albion_chief",
-"albion_old_warrior",
-"albion_scavanger",
-"albion_woman",
-"fenbeast_follower",
-"hearthguard_follower",
-"druid_neophyte",
-"albion_hardened_warrior",
-"albion_scary_banner",
-"anc_albion_triskele_banner",
-"anc_danu_banner",
-"anc_albion_hunter_banner",
-"anc_albion_staff_of_light",
-"anc_albion_talisman_triskele",
-"anc_albion_hammer_giant",
-"anc_albion_sun_shield",
-"anc_hunter_spear",
-"anc_dagger_shadow",
-"anc_albion_chainmail",
-"anc_albion_helmet_leader",
-"anc_albion_talisman_danu",
-"anc_albion_talisman_belakor",
-"anc_albion_scepter_old_ones",
-"anc_albion_staff_of_darkness",
-"anc_albion_hound_statue",
-"anc_albion_skull_trophies"
-}
+	local ovn_albion_anc_pool = {
+		"albion_hunting_dog",
+		"albion_lone_huntress",
+		"albion_woad_raider",
+		"albion_tame_raven",
+		"albion_druid_advisor",
+		"albion_chief",
+		"albion_old_warrior",
+		"albion_scavanger",
+		"albion_woman",
+		"fenbeast_follower",
+		"hearthguard_follower",
+		"druid_neophyte",
+		"albion_hardened_warrior",
+		"albion_scary_banner",
+		"anc_albion_triskele_banner",
+		"anc_danu_banner",
+		"anc_albion_hunter_banner",
+		"anc_albion_staff_of_light",
+		"anc_albion_talisman_triskele",
+		"anc_albion_hammer_giant",
+		"anc_albion_sun_shield",
+		"anc_hunter_spear",
+		"anc_dagger_shadow",
+		"anc_albion_chainmail",
+		"anc_albion_helmet_leader",
+		"anc_albion_talisman_danu",
+		"anc_albion_talisman_belakor",
+		"anc_albion_scepter_old_ones",
+		"anc_albion_staff_of_darkness",
+		"anc_albion_hound_statue",
+		"anc_albion_skull_trophies"
+	}
 
-local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
-local anc_key = ovn_albion_anc_pool[random_number]
+	local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
+	local anc_key = ovn_albion_anc_pool[random_number]
+
+	core:add_listener(
+		"albion_anc_random_drop",
+		"CharacterTurnStart",
+		function(context)
+	return context:character():faction():name() == "wh2_main_nor_albion" end,
+		function(context)
+			local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
+			local anc_key = ovn_albion_anc_pool[random_number]
+			local current_char = context:character()
+			if not current_char:character_type("colonel") then
+			effect.ancillary(anc_key, 5, context)
+			end
+	end,
+	true)
 
     core:add_listener(
-     "albion_anc_random_drop",
-     "CharacterTurnStart",
-     function(context)
-    return context:character():faction():name() == "wh2_main_nor_albion" end,
-     function(context)
-        local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
-        local anc_key = ovn_albion_anc_pool[random_number]
-        local current_char = context:character()
-        if not current_char:character_type("colonel") then
-        effect.ancillary(anc_key, 5, context)
-        end
-    end,
-    true)
+				"albion_anc_win_battle_drop",
+				"CharacterCompletedBattle",
+				function(context)
+						local char = context:character()
+						return context:character():faction():name() == "wh2_main_nor_albion"
+						and char:won_battle()
+						and not char:is_wounded()
+						and not char:routed_in_battle()
+				end,
+				function(context)
+						effect.ancillary(anc_key, 8, context)
+				end,
+				true
+		);
 
-    core:add_listener(
-        "albion_anc_win_battle_drop",
-        "CharacterCompletedBattle",
-            function(context)
-                local char = context:character()
-                return context:character():faction():name() == "wh2_main_nor_albion"
-                and char:won_battle()
-                and not char:is_wounded()
-                and not char:routed_in_battle()
-            end,
-            function(context)
-                     effect.ancillary(anc_key, 8, context)
+		if cm:get_faction("wh2_main_nor_albion"):is_human() then
+				if cm:model():turn_number() < 3 then
+						core:add_listener(
+								"ovn_dilemma_alb_alt_leader_listener_trigger",
+								"FactionTurnStart",
+								function(context) return context:faction():name() == "wh2_main_nor_albion" and context:faction():is_human() and cm:model():turn_number() == 2
+								end,
+								function(context)
+										local faction_name_str = "wh2_main_nor_albion"
 
-            end,
-            true
-            );
+												core:add_listener(
+														"ovn_dilemma_alb_alt_leader_listener",
+														"DilemmaChoiceMadeEvent",
+														function(context) return context:dilemma():starts_with("ovn_dilemma_alb_alt_leader") end,
+														function(context)
+																local choice = context:choice()
+																if choice == 1 then
+																		if cm:model():campaign_name("main_warhammer") then
+																				cm:create_force_with_general(
+																				"wh2_main_nor_albion",
+																				"elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
+																				"wh2_main_great_desert_of_araby_el-kalabad",
+																				321,
+																				547,
+																				"general",
+																				"bl_elo_dural_durak",
+																				"names_name_77777202",
+																				"",
+																				"names_name_77777201",
+																				"",
+																				true,
+																				function(cqi)
+																				cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777202", true);
+																				cm:set_character_unique("character_cqi:" .. cqi, true)
+																		end)
 
-            if cm:get_faction("wh2_main_nor_albion"):is_human() then
-            if cm:model():turn_number() < 3 then
+																				else
 
+																				cm:create_force_with_general(
+																				"wh2_main_nor_albion",
+																				"elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
+																				"wh2_main_vor_coast_of_araby_al_haikk",
+																				655,
+																				656,
+																				"general",
+																				"bl_elo_dural_durak",
+																				"names_name_77777202",
+																				"",
+																				"names_name_77777201",
+																				"",
+																				true,
+																				function(cqi)
+																				cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777202", true);
+																				cm:set_character_unique("character_cqi:" .. cqi, true)
+																		end)
 
-                core:add_listener(
-                    "ovn_dilemma_alb_alt_leader_listener_trigger",
-                    "FactionTurnStart",
-                    function(context) return context:faction():is_human() and cm:model():turn_number() == 2
-                    end,
-                    function(context)
-                        local faction_name_str = cm:get_local_faction_name()
+																		end
 
-                            core:add_listener(
-                                "ovn_dilemma_alb_alt_leader_listener",
-                                "DilemmaChoiceMadeEvent",
-                                function(context) return context:dilemma():starts_with("ovn_dilemma_alb_alt_leader") end,
-                                function(context)
-                                    local choice = context:choice()
-                                    if choice == 1 then
-                                        if cm:model():campaign_name("main_warhammer") then
-                                            cm:create_force_with_general(
-                                            "wh2_main_nor_albion",
-                                            "elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
-                                            "wh2_main_great_desert_of_araby_el-kalabad",
-                                            321,
-                                            547,
-                                            "general",
-                                            "bl_elo_dural_durak",
-                                            "names_name_77777202",
-                                            "",
-                                            "names_name_77777201",
-                                            "",
-                                            true,
-                                            function(cqi)
-                                            cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777202", true);
-                                            cm:set_character_unique("character_cqi:" .. cqi, true)
-                                        end)
+																		elseif choice == 0 then
 
-                                            else
+																		if cm:model():campaign_name("main_warhammer") then
+																		cm:create_force_with_general(
+																		"wh2_main_nor_albion",
+																		"elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
+																		"wh2_main_great_desert_of_araby_el-kalabad",
+																		321,
+																		547,
+																		"general",
+																		"albion_morrigan",
+																		"names_name_77777001",
+																		"",
+																		"names_name_77777002",
+																		"",
+																		true,
+																		function(cqi)
+																		cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777001", true);
+																		cm:set_character_unique("character_cqi:" .. cqi, true)
+																end)
 
-                                            cm:create_force_with_general(
-                                            "wh2_main_nor_albion",
-                                            "elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
-                                            "wh2_main_vor_coast_of_araby_al_haikk",
-                                            655,
-                                            656,
-                                            "general",
-                                            "bl_elo_dural_durak",
-                                            "names_name_77777202",
-                                            "",
-                                            "names_name_77777201",
-                                            "",
-                                            true,
-                                            function(cqi)
-                                            cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777202", true);
-                                            cm:set_character_unique("character_cqi:" .. cqi, true)
-                                        end)
+																		else
 
-                                        end
+																		cm:create_force_with_general(
+																		"wh2_main_nor_albion",
+																		"elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
+																		"wh2_main_vor_coast_of_araby_al_haikk",
+																		655,
+																		656,
+																		"general",
+																		"albion_morrigan",
+																		"names_name_77777001",
+																		"",
+																		"names_name_77777002",
+																		"",
+																		true,
+																		function(cqi)
+																		cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777001", true);
+																		cm:set_character_unique("character_cqi:" .. cqi, true)
+																end)
 
-                                        elseif choice == 0 then
+																		end
 
-                                        if cm:model():campaign_name("main_warhammer") then
-                                        cm:create_force_with_general(
-                                        "wh2_main_nor_albion",
-                                        "elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
-                                        "wh2_main_great_desert_of_araby_el-kalabad",
-                                        321,
-                                        547,
-                                        "general",
-                                        "albion_morrigan",
-                                        "names_name_77777001",
-                                        "",
-                                        "names_name_77777002",
-                                        "",
-                                        true,
-                                        function(cqi)
-                                        cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777001", true);
-                                        cm:set_character_unique("character_cqi:" .. cqi, true)
-                                    end)
+														end
 
-                                        else
+														end,
+														false
+														)
 
-                                        cm:create_force_with_general(
-                                        "wh2_main_nor_albion",
-                                        "elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
-                                        "wh2_main_vor_coast_of_araby_al_haikk",
-                                        655,
-                                        656,
-                                        "general",
-                                        "albion_morrigan",
-                                        "names_name_77777001",
-                                        "",
-                                        "names_name_77777002",
-                                        "",
-                                        true,
-                                        function(cqi)
-                                        cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777001", true);
-                                        cm:set_character_unique("character_cqi:" .. cqi, true)
-                                    end)
+												cm:trigger_dilemma(faction_name_str, "ovn_dilemma_alb_alt_leader")
 
-                                        end
+								end,
+								true
+						);
 
-                                end
-
-                                end,
-                                false
-                                )
-
-                            cm:trigger_dilemma(faction_name_str, "ovn_dilemma_alb_alt_leader")
-
-                    end,
-                    true
-                );
-
-            end
-        elseif cm:model():turn_number() < 3 then
-
-
+				end
+		elseif cm:model():turn_number() < 3 then
             core:add_listener(
                     "ovn_dilemma_alb_alt_leader_listener_trigger",
                     "FactionTurnStart",
-                    function(context) return context:faction():is_human() and cm:model():turn_number() == 2
+                    function(context) return context:faction():name() == "wh2_main_nor_albion" and context:faction():is_human() and cm:model():turn_number() == 2
                     end,
                     function(context)
 
@@ -546,9 +541,8 @@ end
 
 function albion_mist_invasion_start(region)
 
- if cm:get_faction("wh2_main_nor_albion"):is_human() then
-    local faction_name_str = cm:get_local_faction_name()
-    local faction_name = cm:get_faction(faction_name_str)
+local faction_name_str = "wh2_main_nor_albion"
+ if cm:get_faction(faction_name_str):is_human() then
     local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, region, false, false, 50)
     local location = {x = w, y = z};
     local faction
@@ -557,9 +551,6 @@ function albion_mist_invasion_start(region)
     local random_number = cm:random_number(6, 1)
     local experience_amount
     local turn_number = cm:model():turn_number();
-
-
-
 
         if cm:model():turn_number() < 25 then
             upa = {8, 10}
@@ -641,10 +632,6 @@ function albion_mist_invasion_start(region)
 
 
    end
-end
-
-local function albion_init()
-    setup_diplo()
 end
 
 cm:add_first_tick_callback(

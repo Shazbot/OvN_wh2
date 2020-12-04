@@ -238,10 +238,10 @@ function ovn_rotblood_skit_reinforcements()
         "generate_rotblood_skit_dilemma_listener",
         "FactionTurnStart",
         function(context)
-            return context:faction():name() == "wh_dlc08_nor_naglfarlings"
+            return context:faction():name() == "wh_dlc08_nor_naglfarlings" and context:faction():is_human()
         end,
 		function(context)
-			local faction_name_str = cm:get_local_faction_name()
+			local faction_name_str = "wh_dlc08_nor_naglfarlings"
 			local faction_name = cm:get_faction(faction_name_str)
             local turn = cm:model():turn_number();
             local cooldown = 9
@@ -253,7 +253,7 @@ function ovn_rotblood_skit_reinforcements()
                     "DilemmaChoiceMadeEvent",
                     function(context) return context:dilemma():starts_with("ovn_dilemma_rotblood_skit") end,
                     function(context)
-                        local faction_name_str = cm:get_local_faction_name()
+                        local faction_name_str = "wh_dlc08_nor_naglfarlings"
                         local faction_name = cm:get_faction(faction_name_str)
                         local choice = context:choice()
                         if choice == 0 then

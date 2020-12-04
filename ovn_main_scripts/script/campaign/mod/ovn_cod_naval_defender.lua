@@ -2,7 +2,7 @@
 
 local cod_ll_popularity_regions = {};
 local power_of_authority_vfx = {full = "scripted_effect7", half = "scripted_effect8"};
-local cod_naval_defender_faction = "wh2_main_hef_citadel_of_dusk";
+local cod_naval_defender_faction_key = "wh2_main_hef_citadel_of_dusk";
 local cod_naval_defender_effect = "";
 local cod_naval_defender_level = 1;
 local cod_naval_action_level = 0;
@@ -60,8 +60,8 @@ local cod_regions = {
 
 function add_cod_naval_listeners()
 	out("#### Adding cod_naval Listeners ####");
-	local cod_naval = cm:model():world():faction_by_key(cod_naval_defender_faction);
-	if cod_naval:is_human() == true then
+	local cod_naval = cm:model():world():faction_by_key(cod_naval_defender_faction_key);
+	if cod_naval:is_human() then
 
 	-- POWER OF AUTHORITY
 	core:add_listener(
@@ -79,7 +79,7 @@ function add_cod_naval_listeners()
 			local current_char = context:character();
 			local region = current_char:region();
 
-			if region:is_abandoned() == false and region:owning_faction():name() == cod_naval_defender_faction then
+			if region:is_abandoned() == false and region:owning_faction():name() == cod_naval_defender_faction_key then
 				local region_key = region:name();
 				cm:remove_effect_bundle_from_region("ovn_cod_power_of_authority", region_key);
 				cm:apply_effect_bundle_to_region("ovn_cod_power_of_authority", region_key, 10);
@@ -140,7 +140,7 @@ function add_cod_naval_listeners()
 		"cod_naval_action_region_update",
 		"CharacterPerformsSettlementOccupationDecision",
 		function(context)
-			return context:character():faction():is_human()
+			return context:character():faction():is_human() and context:character():faction():name() == cod_naval_defender_faction_key
 		end,
 		function(context)
 			if cod_regions["all"] then
@@ -176,7 +176,7 @@ function add_cod_naval_listeners()
 			"cod_naval_defender_update_listener",
 			"FactionTurnStart",
 			function(context)
-				return context:faction():name() == cod_naval_defender_faction;
+				return context:faction():name() == cod_naval_defender_faction_key;
 			end,
 			function(context)
 				local campaign_key = "main_warhammer";
@@ -201,8 +201,8 @@ function add_cod_naval_listeners()
                 if turn % cooldown == 0 then
 				cod_naval_defender_initialize_invasion_and_supply()
 				end
-				cod_naval_defender_remove_effects(cod_naval_defender_faction);
-				cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction, 0);
+				cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
+				cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 			end,
 			true
 		);
@@ -249,26 +249,26 @@ function cod_naval_defender_initialize(new_game)
 		end
 	end
 
-	cod_naval_defender_remove_effects(cod_naval_defender_faction);
+	cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 
 	if cod_regions[campaign_key]["inner_lost"] > 0 then
 		if new_game == true then
 			cod_naval_defender_level = 1;
 		end
 		cod_naval_defender_effect = "ovn_cod_naval_defender_inner";
-		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction, 0);
+		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 	elseif cod_regions[campaign_key]["outer_lost"] > 0 then
 		if new_game == true then
 			cod_naval_defender_level = 1;
 		end
 		cod_naval_defender_effect = "ovn_cod_naval_defender_outer";
-		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction, 0);
+		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 	else
 		if new_game == true then
 			cod_naval_defender_level = 1;
 		end
 		cod_naval_defender_effect = "ovn_cod_naval_defender_all";
-		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction, 0);
+		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 	end
 
 	--- COD NAVAL DEFENDER INVASION RAM
@@ -423,7 +423,7 @@ function cod_naval_defender_update(region)
 				out("\tNo changes made");
 			end
 
-			cod_naval_defender_remove_effects(cod_naval_defender_faction);
+			cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 
 			if cod_regions[campaign_key]["inner_lost"] > 0 then
 				if cod_naval_defender_effect == "ovn_cod_naval_defender_all" or cod_naval_defender_effect == "ovn_cod_naval_defender_outer" then
@@ -453,7 +453,7 @@ function cod_naval_defender_update(region)
 				cod_naval_defender_effect = "ovn_cod_naval_defender_all";
 			end
 
-			cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction, 0);
+			cm:apply_effect_bundle(cod_naval_defender_effect.."_"..cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 		end
 	end
 end
@@ -476,7 +476,7 @@ end
 function cod_naval_defender_show_event(region, event_type)
 	if event_type == "united" then
 		cm:show_message_event(
-			cod_naval_defender_faction,
+			cod_naval_defender_faction_key,
 			"event_feed_strings_text_".."ovn_event_feed_string_scripted_event_cod_naval_defender_title",
 			"event_feed_strings_text_".."ovn_event_feed_string_scripted_event_cod_naval_defender_united_primary_detail",
 			"event_feed_strings_text_".."ovn_event_feed_string_scripted_event_cod_naval_defender_united_secondary_detail",
@@ -488,7 +488,7 @@ function cod_naval_defender_show_event(region, event_type)
 		local y = region:settlement():logical_position_y();
 
 		cm:show_message_event_located(
-			cod_naval_defender_faction,
+			cod_naval_defender_faction_key,
 			"event_feed_strings_text_".."ovn_event_feed_string_scripted_event_cod_naval_defender_title",
 			"event_feed_strings_text_".."ovn_event_feed_string_scripted_event_cod_naval_defender_"..event_type.."_primary_detail",
 			"event_feed_strings_text_".."ovn_event_feed_string_scripted_event_cod_naval_defender_"..event_type.."_secondary_detail",
@@ -545,7 +545,7 @@ end
 
 function cod_naval_defender_initialize_invasion_and_supply()
 
-	local faction_name_str = cm:get_local_faction_name()
+	local faction_name_str = cod_naval_defender_faction_key
     local faction = cm:get_faction(faction_name_str);
 	local high_roll = cm:random_number(4, 1) -- 25% Chance
 	local standard_roll = cm:random_number(6, 1) -- 16.67% Chance
@@ -610,7 +610,7 @@ end
 
 function cod_invasion_start()
 
-local faction_name_str = cm:get_local_faction_name()
+local faction_name_str = cod_naval_defender_faction_key
 local faction_name = cm:get_faction(faction_name_str)
 local char_faction_leader = cm:get_faction(faction_name_str):faction_leader()
 local character_str = cm:char_lookup_str(char_faction_leader)
@@ -698,7 +698,7 @@ end
 
 function cod_beast_invasion_start()
 
-	local faction_name_str = cm:get_local_faction_name()
+	local faction_name_str = cod_naval_defender_faction_key
 	local faction_name = cm:get_faction(faction_name_str)
 	local char_faction_leader = cm:get_faction(faction_name_str):faction_leader()
 	local character_str = cm:char_lookup_str(char_faction_leader)

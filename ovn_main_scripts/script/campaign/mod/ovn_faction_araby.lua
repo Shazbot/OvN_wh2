@@ -16,19 +16,32 @@ local function setup_diplo()
 
 end
 
+local araby_faction_names_lookup = {
+	wh2_main_arb_flaming_scimitar = true,
+	wh2_main_arb_aswad_scythans = true,
+	wh2_main_arb_caliphate_of_araby = true,
+}
+
+local function is_faction_an_araby_faction(faction)
+	return not not araby_faction_names_lookup[faction:name()]
+end
+
 local function setup_arb_excavations()
 
-    if cm:get_faction("wh2_main_arb_flaming_scimitar"):is_human()
-    or cm:get_faction("wh2_main_arb_aswad_scythans"):is_human()
-    or cm:get_faction("wh2_main_arb_caliphate_of_araby"):is_human() then
+    if not (cm:get_faction("wh2_main_arb_flaming_scimitar"):is_human()
+			or cm:get_faction("wh2_main_arb_aswad_scythans"):is_human()
+			or cm:get_faction("wh2_main_arb_caliphate_of_araby"):is_human())
+		then
+			return
+		end
 
     core:add_listener(
     "araby_slave_BuildingExists",
     "FactionTurnStart",
-    function(context) return context:faction():is_human()
+    function(context) return context:faction():is_human() and is_faction_an_araby_faction(context:faction())
     end,
     function(context)
-        local faction_name_str = cm:get_local_faction_name()
+        local faction_name_str = context:faction():name()
         local faction = context:faction();
         local region_list = faction:region_list();
         for i = 0, region_list:num_items() - 1 do
@@ -189,62 +202,50 @@ local function setup_arb_excavations()
     random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_dlc08_nor_inf_marauder_berserkers_0", 1);
     random_army_manager:add_unit("ovn_arb_excavation_norsca_force", "wh_main_nor_inf_chaos_marauders_0", 4);
 
-        core:add_listener(
-		"arb_excavation_BuildingExists",
-		"FactionTurnStart",
-        function(context) return context:faction():is_human()
+		core:add_listener(
+				"arb_excavation_BuildingExists",
+				"FactionTurnStart",
+        function(context) return context:faction():is_human() and is_faction_an_araby_faction(context:faction())
         end,
         function(context)
-            local faction_name_str = cm:get_local_faction_name()
+            local faction_name_str = context:faction():name()
             local faction = context:faction();
-			local region_list = faction:region_list();
-			for i = 0, region_list:num_items() - 1 do
+						local region_list = faction:region_list();
+						for i = 0, region_list:num_items() - 1 do
                 local region = region_list:item_at(i);
                 local current_region_name = region:name();
 
-            if region:building_exists("ovn_Nehekharan") then
-             if cm:random_number(20, 1) ==  1 then
+								if region:building_exists("ovn_Nehekharan") then
+										if cm:random_number(20, 1) ==  1 then
+												core:add_listener(
+														"arb_excavation_dilemma_listener",
+														"DilemmaChoiceMadeEvent",
+														function(context) return context:dilemma():starts_with("ovn_dilemma_arb_excavation") end,
+														function(context)
+																local faction_name_str = cm:whose_turn_is_it()
+																local choice = context:choice()
+																if choice == 0 then
+																		if cm:random_number(2, 1) == 1 then
+																				arb_excavation_invasion_start(current_region_name)
+																		end
+																end
+														end,
+														false
+												)
 
-
-                core:add_listener(
-                    "arb_excavation_dilemma_listener",
-                    "DilemmaChoiceMadeEvent",
-                    function(context) return context:dilemma():starts_with("ovn_dilemma_arb_excavation") end,
-                    function(context)
-                        local faction_name_str = cm:get_local_faction_name()
-                        local choice = context:choice()
-                        if choice == 0 then
-                            if cm:random_number(2, 1) == 1 then
-                            arb_excavation_invasion_start(current_region_name)
-
-                        end
-                    end
-
-                    end,
-                    false
-                    )
-
-                cm:trigger_dilemma(faction_name_str, "ovn_dilemma_arb_excavation")
-
-        end
-        end
-        end
+												cm:trigger_dilemma(faction_name_str, "ovn_dilemma_arb_excavation")
+										end
+								end
+						end
         end,
-		true
-    );
-
-        elseif cm:random_number(20, 1) ==  2 then
-        arb_excavation_invasion_start(current_region_name)
-
-    end
-    end
-
-
+				true
+				);
+end
 
 function arb_excavation_invasion_start(region)
 
 
-    local faction_name_str = cm:get_local_faction_name()
+    local faction_name_str = cm:whose_turn_is_it()
     local faction_name = cm:get_faction(faction_name_str)
     local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, region, false, false, 45)
     local location = {x = w, y = z};

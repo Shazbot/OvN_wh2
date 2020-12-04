@@ -357,7 +357,7 @@ local function araby_setup()
 			"wh_main_religion_untainted",
 			0.5
 		)
-		
+
 		local faction_key = "wh2_main_arb_flaming_scimitar" -- factions key
 		local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
 
@@ -750,7 +750,7 @@ local function treeblood_setup()
 			cm:instantly_set_settlement_primary_slot_level(albion_region:settlement(), 3)
 			local wight_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_isle_of_wights")
 			cm:instantly_set_settlement_primary_slot_level(wight_region:settlement(), 2)
-		
+
 		else
 		cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_wef_treeblood")
 		cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_wef_treeblood")
@@ -1024,8 +1024,8 @@ local function dreadking_setup()
 	local dread_king_faction_leader_cqi = dread_king:faction_leader():command_queue_index()
 
 	if dread_king and (dread_king:is_human() or not mct or settings_table.dreadking and settings_table.enable) then
-	
-		cm:force_add_trait(cm:char_lookup_str(dread_king_faction_leader_cqi), "dk_trait_name_dummy", false)	
+
+		cm:force_add_trait(cm:char_lookup_str(dread_king_faction_leader_cqi), "dk_trait_name_dummy", false)
 
 		add_cqi_to_murdered_list(dread_king_faction_leader_cqi)
 
@@ -1059,28 +1059,28 @@ local function dreadking_setup()
 	end
 end
 
+local mct_options_list = {
+	"enable",
+	"amazon",
+	"araby",
+	"blood_dragon",
+	"citadel",
+	"halflings",
+	"trollz",
+	"treeblood",
+	"albion",
+	"fimir",
+	"grudgebringers",
+	"dreadking"
+} --:vector<string>
+
 local function new_game_startup()
 	if mct then
 		local lost_factions_mod = mct:get_mod_by_key("lost_factions")
 		settings_table = lost_factions_mod:get_settings()
 		-- lock mct options
-		local options_list = {
-			"enable",
-			"amazon",
-			"araby",
-			"blood_dragon",
-			"citadel",
-			"halflings",
-			"trollz",
-			"treeblood",
-			"albion",
-			"fimir",
-			"grudgebringers",
-			"dreadking"
-		} --:vector<string>
-		for i = 1, #options_list do
-			local lost_factions_mod = mct:get_mod_by_key("lost_factions")
-			local option = lost_factions_mod:get_option_by_key(options_list[i])
+		for i = 1, #mct_options_list do
+			local option = lost_factions_mod:get_option_by_key(mct_options_list[i])
 			option:set_read_only(true)
 		end
 	end
@@ -1135,14 +1135,6 @@ local function new_game_startup()
 	end
 
 	cm:callback(stagger_functions, 0)
-
-	-- kill all of the faction leaders that have to go
-	cm:callback(
-		function()
-			kill_people()
-		end,
-		2.5
-	)
 
 	-- turn on event feeds
 	cm:callback(
