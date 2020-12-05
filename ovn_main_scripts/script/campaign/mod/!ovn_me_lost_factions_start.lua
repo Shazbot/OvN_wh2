@@ -36,7 +36,7 @@ local function spawn_new_forces()
 				i
 			)
 
-			i = i + 0.1
+			i = i + 0.2
 		end
 	end
 end
@@ -1117,6 +1117,7 @@ local function new_game_startup()
 		fimir_setup,
 		grudgebringers_setup,
 		dreadking_setup,
+		ovn_sr_chaos,
 		-- kill all of the faction leaders that have to go
 		kill_people,
 		-- spawn new forces for all da factions
@@ -1136,7 +1137,7 @@ local function new_game_startup()
 			next_start_function()
 	end
 
-	cm:callback(stagger_functions, 0)
+	cm:callback(stagger_functions, 1.5)
 
 	-- turn on event feeds
 	cm:callback(
@@ -1155,7 +1156,7 @@ local function new_game_startup()
 			cm:disable_event_feed_events(false, "", "", "character_wounded")
 			cm:disable_event_feed_events(false, "", "", "character_dies_in_action")
 		end,
-		6
+		7
 	)
 end
 

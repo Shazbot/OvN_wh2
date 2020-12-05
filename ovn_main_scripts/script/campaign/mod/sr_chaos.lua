@@ -188,7 +188,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 	setup_cwd_and_fimir_raze_region_monitor()
 end
 
-local function sr_chaos()
+function ovn_sr_chaos()
 	if cm:model():campaign_name("main_warhammer") then
 		cm:force_diplomacy("subculture:wh_main_sc_nor_warp", "culture:wh_main_chs_chaos", "all", true, true, true)
 		local rotblood_tribe = cm:get_faction("wh_dlc08_nor_naglfarlings")
@@ -623,14 +623,3 @@ function setup_cwd_and_fimir_raze_region_monitor() -- Applies Chaos corruption v
 		true
 	)
 end
-
-cm:add_first_tick_callback(
-	function()
-		cm:callback(
-			function()
-				sr_chaos()
-			end,
-			1.5
-		)
-	end
-)
