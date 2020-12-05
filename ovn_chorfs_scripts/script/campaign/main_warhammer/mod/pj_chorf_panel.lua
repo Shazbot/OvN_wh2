@@ -855,9 +855,8 @@ core:add_listener(
 	'ComponentLClickUp',
 	true,
 	function(context)
-		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
-
 		if context.string ~= "pj_button_chorf_panel" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		-- this is dumb, but we're manually deselecting our button since it's actually a toggle button after we copied it
 		cm:repeat_callback(function()
@@ -880,9 +879,8 @@ core:add_listener(
 	'ComponentLClickUp',
 	true,
 	function(context)
-		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
-
 		if context.string ~= "button_ok" then return end
+		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		local chorf_panel = digForComponent(core:get_ui_root(), "pj_chorf_panel", 1)
 		if not chorf_panel then return end

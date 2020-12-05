@@ -18,10 +18,6 @@ local function sr_chaos()
 		if rotblood_tribe and (rotblood_tribe:is_human() or not mct or rotblood_value and enable_value) then
 			if cm:is_new_game() then
 
-				local faction_key = "wh_dlc08_nor_naglfarlings" -- factions key
-				local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
-
-					--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
 		local max_units = 1 -- int32 max_units
@@ -42,7 +38,7 @@ local function sr_chaos()
 
 		for _, unit in ipairs(units) do
 			cm:add_unit_to_faction_mercenary_pool(
-				faction_name,
+				rotblood_tribe,
 				unit,
 				unit_count,
 				rcp,

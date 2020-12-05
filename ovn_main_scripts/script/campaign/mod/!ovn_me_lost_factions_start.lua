@@ -26,7 +26,7 @@ local function spawn_new_force(data)
 end
 
 local function spawn_new_forces()
-	local i = 0.1
+	local i = 0
 	for _, data in pairs(new_forces) do
 		if data and table_contains(factions, data.faction_key) then
 			cm:callback(
@@ -36,7 +36,7 @@ local function spawn_new_forces()
 				i
 			)
 
-			i = i + 0.1
+			i = i + 0.15
 		end
 	end
 end
@@ -45,10 +45,18 @@ end
 local murdered = {}
 
 local function kill_people()
+	out("OvN needs to kill "..tostring(#murdered).." characters!")
+	local ii = 0
 	for i = 1, #murdered do
 		local str = "character_cqi:" .. murdered[i]
-		cm:set_character_immortality(str, false)
-		cm:kill_character_and_commanded_unit(str, true, false)
+		cm:callback(
+			function()
+				cm:set_character_immortality(str, false)
+				cm:kill_character_and_commanded_unit(str, true, false)
+			end,
+			ii
+		)
+		ii = ii + 0.05
 	end
 end
 
@@ -154,7 +162,7 @@ local function amazon_setup()
 	end
 end
 
-local function araby_setup()
+local function araby_diplomacy_setup()
 	-------- Araby Race (All 3 Factions) Diplomacy Extras ------
 
 	cm:apply_effect_bundle("sr_arab_bundle", "wh2_main_skv_clan_mors", -1)
@@ -170,11 +178,12 @@ local function araby_setup()
 	----------------------Buff Knights of Origo---------------
 	--cm:transfer_region_to_faction("wh2_main_atalan_mountains_martek", "wh2_main_brt_knights_of_origo")
 	--cm:heal_garrison(cm:get_region("wh2_main_atalan_mountains_martek"):cqi())
+end
 
 	--------------------------------------------------------------
 	----------------------- ARABY CALIPHATE-----------------------
 	--------------------------------------------------------------
-
+local function araby_caliphate_setup()
 	local flame = cm:get_faction("wh2_main_arb_caliphate_of_araby")
 	local flame_faction_leader_cqi = flame:faction_leader():command_queue_index()
 
@@ -201,9 +210,7 @@ local function araby_setup()
 		cm:heal_garrison(kalabad_region:cqi())
 
 		local faction_key = "wh2_main_arb_caliphate_of_araby" -- factions key
-		local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
 
-		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
 		local max_units = 1 -- int32 max_units
@@ -224,7 +231,7 @@ local function araby_setup()
 
 		for _, unit in ipairs(units) do
 			cm:add_unit_to_faction_mercenary_pool(
-				faction_name,
+				flame,
 				unit,
 				unit_count,
 				rcp,
@@ -240,11 +247,12 @@ local function araby_setup()
 
 		table.insert(factions, faction_key)
 	end
+end
 
 	--------------------------------------------------------------
 	----------------------- SCYTHANS -----------------------------
 	--------------------------------------------------------------
-
+local function araby_scythans_setup()
 	local scythans = cm:get_faction("wh2_main_arb_aswad_scythans")
 	local scythans_faction_leader_cqi = scythans:faction_leader():command_queue_index()
 
@@ -294,11 +302,7 @@ local function araby_setup()
 		end
 
 		local faction_key = "wh2_main_arb_aswad_scythans" -- factions key
-		local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
 
-		--local ovn_amz = cm:get_faction("wh2_main_amz_amazons")
-
-		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
 		local max_units = 1 -- int32 max_units
@@ -319,7 +323,7 @@ local function araby_setup()
 
 		for _, unit in ipairs(units) do
 			cm:add_unit_to_faction_mercenary_pool(
-				faction_name,
+				scythans,
 				unit,
 				unit_count,
 				rcp,
@@ -335,11 +339,12 @@ local function araby_setup()
 
 		table.insert(factions, faction_key)
 	end
+end
 
 	--------------------------------------------------------------
 	-------------- FLAMING SCIMITAR  -----------------------------
 	--------------------------------------------------------------
-
+local function araby_scimitar_setup()
 	local scimitar = cm:get_faction("wh2_main_arb_flaming_scimitar")
 	local scimitar_faction_leader_cqi = scimitar:faction_leader():command_queue_index()
 
@@ -359,11 +364,7 @@ local function araby_setup()
 		)
 
 		local faction_key = "wh2_main_arb_flaming_scimitar" -- factions key
-		local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
 
-		--local ovn_amz = cm:get_faction("wh2_main_amz_amazons")
-
-		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
 		local max_units = 1 -- int32 max_units
@@ -384,7 +385,7 @@ local function araby_setup()
 
 		for _, unit in ipairs(units) do
 			cm:add_unit_to_faction_mercenary_pool(
-				faction_name,
+				scimitar,
 				unit,
 				unit_count,
 				rcp,
@@ -401,6 +402,7 @@ local function araby_setup()
 		table.insert(factions, faction_key)
 	end
 end
+
 --[[------------------------------------------------------------
 -------------------- SILVER PRINCESS -------------------------
 --------------------------------------------------------------
@@ -765,11 +767,7 @@ local function treeblood_setup()
 		end
 
 		local faction_key = "wh2_main_wef_treeblood" -- factions key
-		local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
 
-		--local ovn_amz = cm:get_faction("wh2_main_amz_amazons")
-
-		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
 		local max_units = 1 -- int32 max_units
@@ -789,7 +787,7 @@ local function treeblood_setup()
 
 		for _, unit in ipairs(units) do
 			cm:add_unit_to_faction_mercenary_pool(
-				faction_name,
+				tree,
 				unit,
 				unit_count,
 				rcp,
@@ -876,11 +874,7 @@ local function fimir_setup()
 		cm:instantly_set_settlement_primary_slot_level(baersonlings_region:settlement(), 2)
 
 		local faction_key = "wh_dlc08_nor_goromadny_tribe" -- factions key
-		local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
 
-		--local ovn_amz = cm:get_faction("wh2_main_amz_amazons")
-
-		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
 		local max_units = 1 -- int32 max_units
@@ -899,7 +893,7 @@ local function fimir_setup()
 
 		for _, unit in ipairs(units) do
 			cm:add_unit_to_faction_mercenary_pool(
-				faction_name,
+				fimir,
 				unit,
 				unit_count,
 				rcp,
@@ -1106,7 +1100,10 @@ local function new_game_startup()
 		apply_diplo_bonuses,
 		-- spawn new forces for all da factions
 		amazon_setup,
-		araby_setup,
+		araby_diplomacy_setup,
+		araby_caliphate_setup,
+		araby_scythans_setup,
+		araby_scimitar_setup,
 		citadel_setup,
 		halflings_setup,
 		trollz_setup,
