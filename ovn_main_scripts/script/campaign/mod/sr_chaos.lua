@@ -18,42 +18,41 @@ local function sr_chaos()
 		if rotblood_tribe and (rotblood_tribe:is_human() or not mct or rotblood_value and enable_value) then
 			if cm:is_new_game() then
 
-		local unit_count = 1 -- card32 count
-		local rcp = 20 -- float32 replenishment_chance_percentage
-		local max_units = 1 -- int32 max_units
-		local murpt = 0.1 -- float32 max_units_replenished_per_turn
-		local xp_level = 0 -- card32 xp_level
-		local frr = "" -- (may be empty) String faction_restricted_record
-		local srr = "" -- (may be empty) String subculture_restricted_record
-		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"wh_pro04_chs_art_hellcannon_ror_0",
-			"wh_pro04_chs_cav_chaos_knights_ror_0",
-			"wh_pro04_chs_inf_chaos_warriors_ror_0",
-			"wh_pro04_chs_inf_forsaken_ror_0",
-			"wh_pro04_chs_mon_chaos_spawn_ror_0",
-			"wh_pro04_chs_mon_dragon_ogre_ror_0",
-			"wh_pro04_nor_inf_chaos_marauders_ror_0"
-		}
+				local unit_count = 1 -- card32 count
+				local rcp = 20 -- float32 replenishment_chance_percentage
+				local max_units = 1 -- int32 max_units
+				local murpt = 0.1 -- float32 max_units_replenished_per_turn
+				local xp_level = 0 -- card32 xp_level
+				local frr = "" -- (may be empty) String faction_restricted_record
+				local srr = "" -- (may be empty) String subculture_restricted_record
+				local trr = "" -- (may be empty) String tech_restricted_record
+				local units = {
+					"wh_pro04_chs_art_hellcannon_ror_0",
+					"wh_pro04_chs_cav_chaos_knights_ror_0",
+					"wh_pro04_chs_inf_chaos_warriors_ror_0",
+					"wh_pro04_chs_inf_forsaken_ror_0",
+					"wh_pro04_chs_mon_chaos_spawn_ror_0",
+					"wh_pro04_chs_mon_dragon_ogre_ror_0",
+					"wh_pro04_nor_inf_chaos_marauders_ror_0"
+				}
 
-		for _, unit in ipairs(units) do
-			cm:add_unit_to_faction_mercenary_pool(
-				rotblood_tribe,
-				unit,
-				unit_count,
-				rcp,
-				max_units,
-				murpt,
-				xp_level,
-				frr,
-				srr,
-				trr,
-				true
-			)
-		end
+				for _, unit in ipairs(units) do
+					cm:add_unit_to_faction_mercenary_pool(
+						rotblood_tribe,
+						unit,
+						unit_count,
+						rcp,
+						max_units,
+						murpt,
+						xp_level,
+						frr,
+						srr,
+						trr,
+						true
+					)
+				end
 
-                if rotblood_tribe:is_human() then
-
+        if rotblood_tribe:is_human() then
 						cm:create_force_with_general(
 							"wh_dlc08_nor_naglfarlings",
 							"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc01_chs_inf_forsaken_0",
@@ -73,7 +72,6 @@ local function sr_chaos()
 								cm:set_character_immortality("character_cqi:" .. cqi, true)
 							end
 						)
-
 				else
 					cm:transfer_region_to_faction("wh2_main_chrace_elisia", "wh_dlc08_nor_naglfarlings")
 					cm:transfer_region_to_faction("wh_main_blightwater_kradtommen", "wh_dlc08_nor_naglfarlings")
@@ -158,51 +156,55 @@ local function sr_chaos()
 					if cm:get_faction("wh_main_emp_empire"):is_human() then
 						cm:transfer_region_to_faction("wh_main_reikland_helmgart", "wh_dlc08_nor_naglfarlings")
 					end
+			end
 
-                end
+			cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
+			cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
 
-				cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
-                cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
+			local aos_region = cm:model():world():region_manager():region_by_key("wh_main_mountains_of_hel_altar_of_spawns")
+			cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
 
-                local aos_region = cm:model():world():region_manager():region_by_key("wh_main_mountains_of_hel_altar_of_spawns")
-                cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
+			local oldleader = rotblood_tribe:faction_leader():command_queue_index()
 
+			cm:callback(
+				function()
+					cm:kill_character(oldleader, true, true)
+				end,
+				0
+			)
+			cm:force_make_peace("wh_dlc08_nor_wintertooth", "wh_dlc08_nor_naglfarlings")
 
-				local oldleader = cm:get_faction("wh_dlc08_nor_naglfarlings"):faction_leader():command_queue_index()
+			---- Start Event Message Pop Up
 
-				cm:kill_character(oldleader, true, true)
-				cm:force_make_peace("wh_dlc08_nor_wintertooth", "wh_dlc08_nor_naglfarlings")
+			core:add_listener(
+				"chshordestartmesslistner",
+				"FactionRoundStart",
+				function(context)
+					return context:faction():is_human() and cm:model():turn_number() == 15
+				end,
+				function()
+					chshordestartmess()
+				end,
+				false
+			)
 
-				---- Start Event Message Pop Up
+			---- Chaos Army Spawn Script listener
+			if rotblood_tribe:is_human() then
+						ovn_rotblood_skit_reinforcements()
+			else
+					core:add_listener(
+							"chshordespawnlistener2",
+							"FactionRoundStart",
+							function(context)
+									return context:faction():name() == "wh_dlc08_nor_naglfarlings" and cm:model():turn_number() > 16
+							end,
+							function()
+									chshordespawn()
+							end,
+							true
+					)
+			end
 
-				core:add_listener(
-					"chshordestartmesslistner",
-					"FactionRoundStart",
-					function(context)
-						return context:faction():is_human() and cm:model():turn_number() == 15
-					end,
-					function()
-						chshordestartmess()
-					end,
-					false
-				)
-
-				---- Chaos Army Spawn Script listener
-				if rotblood_tribe:is_human() then
-                ovn_rotblood_skit_reinforcements()
-                else
-                    core:add_listener(
-                        "chshordespawnlistener2",
-                        "FactionRoundStart",
-                        function(context)
-                            return context:faction():name() == "wh_dlc08_nor_naglfarlings" and cm:model():turn_number() > 16
-                        end,
-                        function()
-                            chshordespawn()
-                        end,
-                        true
-                    )
-                end
 				setup_cwd_and_fimir_raze_region_monitor()
 			else -- AKA NOT A NEW GAME - Chaos Army Spawn Script listener loaded on saved game
 

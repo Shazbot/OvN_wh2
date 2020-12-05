@@ -36,7 +36,7 @@ local function spawn_new_forces()
 				i
 			)
 
-			i = i + 0.15
+			i = i + 0.1
 		end
 	end
 end
@@ -46,7 +46,7 @@ local murdered = {}
 
 local function kill_people()
 	out("OvN needs to kill "..tostring(#murdered).." characters!")
-	local ii = 0
+	local ii = 1 -- start with a 1 sec delay because we're creating forces before this
 	for i = 1, #murdered do
 		local str = "character_cqi:" .. murdered[i]
 		cm:callback(
@@ -56,7 +56,7 @@ local function kill_people()
 			end,
 			ii
 		)
-		ii = ii + 0.05
+		ii = ii + 0.1
 	end
 end
 
@@ -1150,7 +1150,7 @@ local function new_game_startup()
 			cm:disable_event_feed_events(false, "", "", "character_wounded")
 			cm:disable_event_feed_events(false, "", "", "character_dies_in_action")
 		end,
-		5
+		6
 	)
 end
 
