@@ -46,18 +46,24 @@ local murdered = {}
 
 local function kill_people()
 	out("OvN needs to kill "..tostring(#murdered).." characters!")
-	local ii = 1 -- start with a 1 sec delay because we're creating forces before this
-	for i = 1, #murdered do
+	local cutoff = math.ceil(#murdered/2)
+
+	for i = 1, cutoff do
 		local str = "character_cqi:" .. murdered[i]
-		cm:callback(
-			function()
-				cm:set_character_immortality(str, false)
-				cm:kill_character_and_commanded_unit(str, true, false)
-			end,
-			ii
-		)
-		ii = ii + 0.1
+		cm:set_character_immortality(str, false)
+		cm:kill_character_and_commanded_unit(str, true, false)
 	end
+
+	cm:callback(
+		function()
+			for i = cutoff+1, #murdered do
+				local str = "character_cqi:" .. murdered[i]
+					cm:set_character_immortality(str, false)
+					cm:kill_character_and_commanded_unit(str, true, false)
+			end
+		end,
+		0
+	)
 end
 
 local function add_cqi_to_murdered_list(cqi)
@@ -1098,7 +1104,6 @@ local function new_game_startup()
 
 	local start_functions = {
 		apply_diplo_bonuses,
-		-- spawn new forces for all da factions
 		amazon_setup,
 		araby_diplomacy_setup,
 		araby_caliphate_setup,
@@ -1112,10 +1117,10 @@ local function new_game_startup()
 		fimir_setup,
 		grudgebringers_setup,
 		dreadking_setup,
-		-- spawn new forces for all da factions
-		spawn_new_forces,
 		-- kill all of the faction leaders that have to go
 		kill_people,
+		-- spawn new forces for all da factions
+		spawn_new_forces,
 	}
 
 	-- stagger startup logic accross ticks
