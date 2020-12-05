@@ -680,18 +680,18 @@ local function trollz_setup()
 	if troll and (troll:is_human() or not mct or settings_table.trollz and settings_table.enable)then
 
 		local char_cqi = cm:get_faction("wh2_main_dwf_greybeards_prospectors"):faction_leader():command_queue_index()
-        cm:teleport_to(cm:char_lookup_str(char_cqi), 439, 40, true)
+		cm:teleport_to(cm:char_lookup_str(char_cqi), 439, 40, true)
 
 		cm:transfer_region_to_faction("wh_main_southern_badlands_agrul_migdhal", "wh2_main_nor_trollz")
-		cm:heal_garrison(cm:get_region("wh_main_southern_badlands_agrul_migdhal"):cqi())
 
-		local agrul_region = cm:model():world():region_manager():region_by_key("wh_main_southern_badlands_agrul_migdhal")
+		local agrul_region = cm:get_region("wh_main_southern_badlands_agrul_migdhal")
+		cm:heal_garrison(agrul_region:cqi())
 		cm:instantly_set_settlement_primary_slot_level(agrul_region:settlement(), 2)
 
 		cm:transfer_region_to_faction("wh2_main_atalan_mountains_eye_of_the_panther", "wh2_main_nor_trollz")
 		cm:heal_garrison(cm:get_region("wh2_main_atalan_mountains_eye_of_the_panther"):cqi())
 
-		if not cm:get_faction("wh2_main_nor_trollz"):is_human() then
+		if not troll:is_human() then
 			cm:transfer_region_to_faction("wh_main_vanaheim_mountains_troll_fjord", "wh2_main_nor_trollz")
 			cm:transfer_region_to_faction("wh2_main_misty_hills_wreckers_point", "wh2_main_nor_trollz")
 			cm:transfer_region_to_faction("wh_main_rib_peaks_grom_peak", "wh2_main_nor_trollz")
@@ -756,20 +756,20 @@ local function treeblood_setup()
 
 			local albion_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_albion")
 			cm:instantly_set_settlement_primary_slot_level(albion_region:settlement(), 3)
+
 			local wight_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_isle_of_wights")
 			cm:instantly_set_settlement_primary_slot_level(wight_region:settlement(), 2)
-
 		else
-		cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_wef_treeblood")
-		cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_wef_treeblood")
-		cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_wef_treeblood")
+			cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_wef_treeblood")
+			cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_wef_treeblood")
+			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_wef_treeblood")
 
-		local serpent_region = cm:model():world():region_manager():region_by_key("wh_main_helspire_mountains_serpent_jetty")
-		cm:instantly_set_settlement_primary_slot_level(serpent_region:settlement(), 2)
+			local serpent_region = cm:model():world():region_manager():region_by_key("wh_main_helspire_mountains_serpent_jetty")
+			cm:instantly_set_settlement_primary_slot_level(serpent_region:settlement(), 2)
 
-		cm:heal_garrison(cm:get_region("wh2_main_albion_citadel_of_lead"):cqi())
-		cm:heal_garrison(cm:get_region("wh_main_helspire_mountains_serpent_jetty"):cqi())
-		cm:heal_garrison(cm:get_region("wh_main_the_wasteland_aarnau"):cqi())
+			cm:heal_garrison(cm:get_region("wh2_main_albion_citadel_of_lead"):cqi())
+			cm:heal_garrison(serpent_region:cqi())
+			cm:heal_garrison(cm:get_region("wh_main_the_wasteland_aarnau"):cqi())
 		end
 
 		local faction_key = "wh2_main_wef_treeblood" -- factions key
@@ -865,10 +865,8 @@ local function fimir_setup()
 
 	if fimir and (fimir:is_human() or not mct or settings_table.fimir and settings_table.enable) then
 		cm:transfer_region_to_faction("wh2_main_marshes_of_madness_floating_village", "wh_dlc08_nor_goromadny_tribe")
-		cm:heal_garrison(cm:get_region("wh2_main_marshes_of_madness_floating_village"):cqi())
-
-		local floating_region =
-			cm:model():world():region_manager():region_by_key("wh2_main_marshes_of_madness_floating_village")
+		local floating_region = cm:get_region("wh2_main_marshes_of_madness_floating_village")
+		cm:heal_garrison(floating_region:cqi())
 		cm:instantly_set_settlement_primary_slot_level(floating_region:settlement(), 2)
 
 		local frozen_region = cm:model():world():region_manager():region_by_key("wh_main_goromandy_mountains_frozen_landing")
@@ -1102,6 +1100,26 @@ local function new_game_startup()
 	spawn_new_force(grudgebringers)
 	blood_dragon_setup()
 
+	local start_functions_names = {
+		"apply_diplo_bonuses",
+		"amazon_setup",
+		"araby_diplomacy_setup",
+		"araby_caliphate_setup",
+		"araby_scythans_setup",
+		"araby_scimitar_setup",
+		"citadel_setup",
+		"halflings_setup",
+		"trollz_setup",
+		"treeblood_setup",
+		"albion_setup",
+		"fimir_setup",
+		"grudgebringers_setup",
+		"dreadking_setup",
+		"ovn_sr_chaos",
+		"kill_people",
+		"spawn_new_forces",
+	}
+
 	local start_functions = {
 		apply_diplo_bonuses,
 		amazon_setup,
@@ -1127,14 +1145,20 @@ local function new_game_startup()
 	-- stagger startup logic accross ticks
 	local start_functions_index = 1
 	local function stagger_functions()
-		local next_start_function = start_functions[start_functions_index]
+			local next_start_function = start_functions[start_functions_index]
+			local next_start_function_name = start_functions_names[start_functions_index]
 			if not next_start_function then
 				return
 			end
 
 			start_functions_index = start_functions_index + 1
 			cm:callback(stagger_functions, 0)
+			local start_timestamp = os.clock();
+
 			next_start_function()
+
+			local calltime = os.clock() - start_timestamp;
+			out("OVN START FUNCTION "..next_start_function_name.." TOOK "..tostring(calltime))
 	end
 
 	cm:callback(stagger_functions, 1.5)
