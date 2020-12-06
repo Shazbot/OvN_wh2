@@ -121,8 +121,6 @@ local function amazon_setup()
 		end
 
 		if vfs.exists("script/campaign/mod/amazons_missions.lua") then
-			local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
-
 			cm:create_force_with_general(
 				"wh2_main_amz_amazons",
 				"roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged",
@@ -432,11 +430,10 @@ local function blood_dragon_setup()
 	local blood_dragons_leader_cqi = blood_dragons:faction_leader():command_queue_index()
 
 	if cm:get_faction("wh_main_vmp_vampire_counts"):is_human() or cm:get_faction("wh_main_vmp_schwartzhafen"):is_human() then
-	add_cqi_to_murdered_list(blood_dragons_leader_cqi)
+		add_cqi_to_murdered_list(blood_dragons_leader_cqi)
 	end
 
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
-		--add_cqi_to_murdered_list(blood_dragons_leader_cqi)
 		cm:set_character_immortality(cm:char_lookup_str(blood_dragons_leader_cqi), false)
 
 		if blood_dragons:is_human() then
@@ -461,7 +458,8 @@ local function blood_dragon_setup()
 			"wh_main_southern_grey_mountains_karak_norn"
 		)
 
-		cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh_main_vmp_rival_sylvanian_vamps")
+		-- this was moved to new_game_startup to make sure we don't auto-lose the game with no armies and regions
+		-- cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh_main_vmp_rival_sylvanian_vamps")
 
 		local karaknorn_region = cm:model():world():region_manager():region_by_key("wh_main_southern_grey_mountains_karak_norn")
 		local karaknorn_settlement = karaknorn_region:settlement()
@@ -1097,8 +1095,16 @@ local function new_game_startup()
 	cm:disable_event_feed_events(true, "", "", "character_wounded")
 	cm:disable_event_feed_events(true, "", "", "character_dies_in_action")
 
-	spawn_new_force(grudgebringers)
-	blood_dragon_setup()
+	local grudebringers_string = "wh2_main_emp_grudgebringers"
+	local gru = cm:get_faction(grudebringers_string)
+	if gru and (gru:is_human() or not mct or settings_table.grudgebringers and settings_table.enable) then
+		spawn_new_force(grudgebringers)
+	end
+
+	local blood_dragons = cm:get_faction("wh_main_vmp_rival_sylvanian_vamps")
+	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
+		cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh_main_vmp_rival_sylvanian_vamps")
+	end
 
 	local start_functions_names = {
 		"apply_diplo_bonuses",
@@ -1116,6 +1122,7 @@ local function new_game_startup()
 		"grudgebringers_setup",
 		"dreadking_setup",
 		"ovn_sr_chaos",
+		"blood_dragon_setup",
 		"kill_people",
 		"spawn_new_forces",
 	}
@@ -1136,6 +1143,7 @@ local function new_game_startup()
 		grudgebringers_setup,
 		dreadking_setup,
 		ovn_sr_chaos,
+		blood_dragon_setup,
 		-- kill all of the faction leaders that have to go
 		kill_people,
 		-- spawn new forces for all da factions
