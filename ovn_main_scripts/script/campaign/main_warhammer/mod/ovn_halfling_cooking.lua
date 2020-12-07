@@ -190,7 +190,9 @@ local function ui_init()
 end
 
 -- table matching province to their continent (not a science)
+-- this is just for Mortal Empires, btw
 local province_continent_lookup = {
+	--dark lands + silver road
     ["wh2_main_dragon_isles"] = "dark_lands",
 	["wh2_main_gnoblar_country"] = "dark_lands",
 	["wh2_main_the_broken_teeth"] = "dark_lands",
@@ -200,6 +202,7 @@ local province_continent_lookup = {
 	["wh_main_desolation_of_nagash"] = "dark_lands",
 	["wh_main_eastern_badlands"] = "dark_lands",
 	["wh_main_the_silver_road"] = "dark_lands",
+	--lustria
 	["wh2_main_headhunters_jungle"] = "lustria",
 	["wh2_main_huahuan_desert"] = "lustria",
 	["wh2_main_isthmus_of_lustria"] = "lustria",
@@ -212,6 +215,7 @@ local province_continent_lookup = {
 	["wh2_main_the_creeping_jungle"] = "lustria",
 	["wh2_main_vampire_coast"] = "lustria",
 	["wh2_main_volcanic_islands"] = "lustria",
+	--naggaroth
 	["wh2_main_aghol_wastelands"] = "naggaroth",
 	["wh2_main_blackspine_mountains"] = "naggaroth",
 	["wh2_main_deadwood"] = "naggaroth",
@@ -226,6 +230,7 @@ local province_continent_lookup = {
 	["wh2_main_the_clawed_coast"] = "naggaroth",
 	["wh2_main_the_road_of_skulls"] = "naggaroth",
 	["wh2_main_titan_peaks"] = "naggaroth",
+	--norsca
 	["wh2_main_albion"] = "norsca",
 	["wh2_main_hell_pit"] = "norsca",
 	["wh_main_gianthome_mountains"] = "norsca",
@@ -236,6 +241,7 @@ local province_continent_lookup = {
 	["wh_main_mountains_of_naglfari"] = "norsca",
 	["wh_main_trollheim_mountains"] = "norsca",
 	["wh_main_vanaheim_mountains"] = "norsca",
+	--empire/bretonnia/teb/some badlands
 	["wh2_main_fort_bergbres"] = "old_world",
 	["wh2_main_fort_helmgart"] = "old_world",
 	["wh2_main_fort_soll"] = "old_world",
@@ -290,6 +296,7 @@ local province_continent_lookup = {
 	["wh_main_wydrioth"] = "old_world",
 	["wh_main_yn_edri_eternos"] = "old_world",
 	["wh_main_zhufbar"] = "old_world",
+	--southlands+some badlands
 	["wh2_main_ash_river"] = "southlands",
 	["wh2_main_atalan_mountains"] = "southlands",
 	["wh2_main_charnel_valley"] = "southlands",
@@ -308,6 +315,7 @@ local province_continent_lookup = {
 	["wh2_main_southlands_worlds_edge_mountains"] = "southlands",
 	["wh_main_blightwater"] = "southlands",
 	["wh_main_southern_badlands"] = "southlands",
+	--ulthuan
 	["wh2_main_avelorn"] = "ulthuan",
 	["wh2_main_caledor"] = "ulthuan",
 	["wh2_main_chrace"] = "ulthuan",
@@ -321,7 +329,14 @@ local province_continent_lookup = {
 	["wh2_main_saphery"] = "ulthuan",
 	["wh2_main_tiranoc"] = "ulthuan",
 	["wh2_main_unicorn_gate"] = "ulthuan",
-	["wh2_main_yvresse"] = "ulthuan"
+	["wh2_main_yvresse"] = "ulthuan",
+	--added in twilight and twilight dlc
+	["wh2_main_lustria_glade"] = "lustria",
+	["wh2_main_old_world_glade"] = "old_world",
+	["wh2_main_naggaroth_glade"] = "naggaroth",
+	["wh2_main_badlands_glade"] = "old_world",
+	["wh2_main_northern_dark_lands"] = "dark_lands",
+	["wh2_main_southern_dark_lands"] = "dark_lands"
 }
 
 local ingredients_by_continent = {
