@@ -96,18 +96,18 @@ local unit_to_give = {
 }
 
 -- remove units we gave via the mercenary pool
-core:remove_listener("pj_regional_unit_renaaaaame_on_unit_trained")
+core:remove_listener("pj_chorf_panel_on_unit_trained")
 core:add_listener(
-	"pj_regional_unit_renaaaaame_on_unit_trained",
+	"pj_chorf_panel_on_unit_trained",
 	"UnitTrained",
 	function()
 		return true
 	end,
 	function(context)
-		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
-
 		---@type CA_UNIT
 		local unit = context:unit()
+
+		if unit:faction():name() ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
 		if unit:has_force_commander() then
 			local fc = unit:force_commander()
@@ -119,7 +119,7 @@ core:add_listener(
 			if not unit_to_give[unit:unit_key()]  then return end
 
 			cm:add_unit_to_faction_mercenary_pool(
-				cm:get_faction(cm:get_local_faction_name()),
+				unit:faction(),
 					unit:unit_key(),
 					0, -- unit count
 					0, -- replenishment
@@ -138,7 +138,7 @@ core:add_listener(
 
 local function give_unit(unit_key)
 	cm:add_unit_to_faction_mercenary_pool(
-		cm:get_faction(cm:get_local_faction_name(true)),
+		cm:get_faction("wh2_main_ovn_chaos_dwarfs"),
 		unit_key,
 		1, -- unit count
 		0, -- replenishment
@@ -450,7 +450,7 @@ local tree_to_bonuses = {
 }
 
 local function get_cost(index)
-	return 100 + (index*50)
+	return 100 + (index*75)
 end
 
 local function faction_has_enough_slaves(num_slaves_req)
@@ -921,14 +921,26 @@ local function play_rite()
 	end
 end
 
-local function upgrade_clicked(tree_name, tree_index)
-	if tree_to_unlocked_tier[tree_name] ~= tree_index then return end
+core:remove_listener("pj_chorf_panel_upgrade_clicked_trigger")
+core:add_listener("pj_chorf_panel_upgrade_clicked_trigger",
+"UITrigger",
+function(context)
+    return context:trigger():starts_with("pj_chorf_panel_upgrade_clicked|")
+end,
+function(context)
+    local hash_without_prefix = context:trigger():gsub("pj_chorf_panel_upgrade_clicked|", "")
+
+    local args = {}
+    hash_without_prefix:gsub("([^|]+)", function(w)
+        if (type(w)=="string") then
+            table.insert(args, w)
+        end
+    end)
+
+	local faction_key, tree_name, tree_index = args[1], args[2], args[3]
 
 	local slaves_cost = get_cost(tree_index)
-	if not faction_has_enough_slaves(slaves_cost) then return end
-
-	cm:modify_faction_slaves_in_a_faction(cm:get_local_faction_name(true), -slaves_cost)
-	tree_to_unlocked_tier[tree_name] = tree_to_unlocked_tier[tree_name] + 1
+	cm:modify_faction_slaves_in_a_faction(faction_key, -slaves_cost)
 
 	for _, fun in ipairs(tree_to_other_bonuses[tree_name][tree_index+1]) do
 		fun()
@@ -944,14 +956,34 @@ local function upgrade_clicked(tree_name, tree_index)
 			end
 		end
 		if not is_bundle_empty then
-			cm:apply_custom_effect_bundle_to_faction(upkeep_bundle, cm:get_faction(cm:get_local_faction_name()))
+			cm:apply_custom_effect_bundle_to_faction(upkeep_bundle, cm:get_faction(faction_key))
 		end
 	end
 
-	core:remove_listener('pj_chorf_panel_on_mouse_over_restore_opacity')
-	draw_moving_parts()
+	if cm:get_local_faction_name(true) == faction_key then
+		core:remove_listener('pj_chorf_panel_on_mouse_over_restore_opacity')
+		draw_moving_parts()
 
-	play_rite()
+		play_rite()
+	end
+end,
+true
+)
+
+local function upgrade_clicked(tree_name, tree_index)
+	if tree_to_unlocked_tier[tree_name] ~= tree_index then return end
+
+	local slaves_cost = get_cost(tree_index)
+	if not faction_has_enough_slaves(slaves_cost) then return end
+
+	tree_to_unlocked_tier[tree_name] = tree_to_unlocked_tier[tree_name] + 1
+
+	local faction_key = cm:get_local_faction_name(true)
+
+	CampaignUI.TriggerCampaignScriptEvent(
+		cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
+		"pj_chorf_panel_upgrade_clicked|"..tostring(faction_key).."|"..tostring(tree_name).."|"..tostring(tree_index)
+	)
 end
 
 core:remove_listener('pj_chorf_panel_on_component_left_clicked')
@@ -1104,6 +1136,33 @@ local adjust_mf_units = function(mf, hp_cb)
 	end
 end
 
+core:remove_listener("pj_chorf_panel_heal_infernals_trigger")
+core:add_listener("pj_chorf_panel_heal_infernals_trigger",
+"UITrigger",
+function(context)
+    return context:trigger():starts_with("pj_chorf_panel_heal_infernals|")
+end,
+function(context)
+	local hash_without_prefix = context:trigger():gsub("pj_chorf_panel_heal_infernals|", "")
+
+	local args = {}
+	hash_without_prefix:gsub("([^|]+)", function(w)
+			if (type(w)=="string") then
+					table.insert(args, w)
+			end
+	end)
+
+	local mf_cqi, attacker_defender_str = tonumber(args[1]), args[2]
+
+	local heal_cb = adjust_health_winner
+	if attacker_defender_str == "adjust_health_loser" then
+		heal_cb = adjust_health_loser
+	end
+
+	local mf = cm:get_military_force_by_cqi(mf_cqi)
+	adjust_mf_units(mf, heal_cb)
+end)
+
 --- healing infernal guard units after battle
 core:remove_listener("pj_chorf_panel_on_battle_completed_cb")
 core:add_listener(
@@ -1116,7 +1175,7 @@ core:add_listener(
 		local is_winner_attacker = cm:pending_battle_cache_attacker_victory()
 
 		if cm:pending_battle_cache_num_defenders() >= 1 then
-			local defender_cb = is_winner_attacker and adjust_health_loser or adjust_health_winner
+			local defender_cb = is_winner_attacker and "adjust_health_loser" or "adjust_health_winner"
 			for i = 1, cm:pending_battle_cache_num_defenders() do
 				local _, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i)
 				---@type CA_MILITARY_FORCE
@@ -1124,13 +1183,16 @@ core:add_listener(
 				if faction_name == cm:get_local_faction_name(true)
 					and faction_name == "wh2_main_ovn_chaos_dwarfs"
 					and mf and not mf:is_null_interface() then
-					adjust_mf_units(mf, defender_cb)
+					CampaignUI.TriggerCampaignScriptEvent(
+						cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
+						"pj_chorf_panel_heal_infernals|"..tostring(mf:command_queue_index()).."|"..tostring(defender_cb)
+					)
 				end
 			end
 		end
 
 		if cm:pending_battle_cache_num_attackers() >= 1 then
-			local attacker_cb = is_winner_attacker and adjust_health_winner or adjust_health_loser
+			local attacker_cb = is_winner_attacker and "adjust_health_winner" or "adjust_health_loser"
 			for i = 1, cm:pending_battle_cache_num_attackers() do
 				local _, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
 				---@type CA_MILITARY_FORCE
@@ -1138,7 +1200,10 @@ core:add_listener(
 				if faction_name == cm:get_local_faction_name(true)
 					and faction_name == "wh2_main_ovn_chaos_dwarfs"
 					and mf and not mf:is_null_interface() then
-					adjust_mf_units(mf, attacker_cb)
+					CampaignUI.TriggerCampaignScriptEvent(
+						cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
+						"pj_chorf_panel_heal_infernals|"..tostring(mf:command_queue_index()).."|"..tostring(attacker_cb)
+					)
 				end
 			end
 		end
