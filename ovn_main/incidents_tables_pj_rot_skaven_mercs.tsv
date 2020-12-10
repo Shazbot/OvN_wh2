@@ -1,0 +1,3 @@
+incidents_tables	5
+generate	key	ui_image	prioritised	event_category
+false	pj_rot_warpstone_incident	generic	false	Event

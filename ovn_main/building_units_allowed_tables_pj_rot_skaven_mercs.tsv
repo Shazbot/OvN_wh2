@@ -1,0 +1,20 @@
+building_units_allowed_tables	4
+building	unit	xp	key	conditions	faction	enabled
+ovn_warp_skaven_mercs	wh2_dlc12_skv_inf_ratling_gun_0	0	1260581623	0		false
+ovn_warp_skaven_mercs	wh2_dlc12_skv_inf_warplock_jezzails_0	0	1260581624	0		false
+ovn_warp_skaven_mercs	wh2_dlc12_skv_veh_doom_flayer_0	0	1260581625	0		false
+ovn_warp_skaven_mercs	wh2_dlc14_skv_inf_eshin_triads_0	0	1260581626	0		false
+ovn_warp_skaven_mercs	wh2_dlc14_skv_inf_poison_wind_mortar_0	0	1260581627	0		false
+ovn_warp_skaven_mercs	wh2_dlc14_skv_inf_warp_grinder_0	0	1260581628	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_art_plagueclaw_catapult	0	1260581629	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_art_warp_lightning_cannon	0	1260581630	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_inf_death_globe_bombardiers	0	1260581631	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_inf_death_runners_0	0	1260581632	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_inf_plague_monk_censer_bearer	0	1260581633	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_inf_plague_monks	0	1260581634	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_inf_poison_wind_globadiers	0	1260581635	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_inf_warpfire_thrower	0	1260581636	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_mon_hell_pit_abomination	0	1260581637	0		false
+ovn_warp_skaven_mercs	wh2_main_skv_veh_doomwheel	0	1260581638	0		false
+ovn_warp_skaven_mercs	wh2_dlc16_skv_mon_brood_horror_0	0	1260581639	0		false
+ovn_warp_skaven_mercs	wh2_dlc16_skv_mon_rat_ogre_mutant	0	1260581640	0		false

@@ -1,0 +1,3 @@
+building_culture_variants_tables	4
+building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
+ovn_warp_skaven_mercs		wh_main_PLACEHOLDER	pj_rot_skaven_mercs		wh_dlc08_nor_naglfarlings	false	ovn_warp_skaven_mercs	true

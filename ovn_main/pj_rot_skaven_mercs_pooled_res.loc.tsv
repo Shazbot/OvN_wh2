@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+pooled_resources_description_pj_rot_warpstone	The Warden’s Supplies are used to upgrade your facilities in the secret citadel of Athel Tamarha which in turn will improve your capability to defend Yvresse. [[img:icon_warden_supplies]][[/img]]Supplies are gained from carrying out certain actions against prisoners in Athel Tamarha or by inducting [[img:icon_lord]][[/img]]Lords and [[img:icon_hero]][[/img]]Heroes into your special group of Mistwalkers.	true
+pooled_resources_positive_factors_display_name_pj_rot_warpstone	Gained	true
+pooled_resources_display_name_pj_rot_warpstone	Warpstone	true
+pooled_resources_negative_factors_display_name_pj_rot_warpstone	Lost	true

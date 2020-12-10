@@ -1,0 +1,4 @@
+cdir_events_incident_option_junctions_tables	2
+id	incident_key	option_key	value
+724561337	pj_rot_warpstone_incident	GEN_TARGET_NONE	
+724561338	pj_rot_warpstone_incident	VAR_CHANCE	100
