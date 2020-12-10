@@ -70,8 +70,6 @@ mod.increase_resources_networked = function(num_resources)
 		rotblood_faction:command_queue_index(),
 		"pj_ovn_rotbloods_warpstone_mercs_resource_mod|"..tostring(num_resources)
 	)
-
-	mod.refresh_resource_value_in_ui()
 end
 
 core:remove_listener("pj_ovn_rotbloods_warpstone_mercs_resource_mod_trigger")
@@ -94,6 +92,8 @@ function(context)
 	local rotblood_faction = cm:get_faction(rotblood_faction_key)
 
 	cm:pooled_resource_mod(rotblood_faction:command_queue_index(), "pj_rot_warpstone", "wh2_main_resource_factor_other", num_resources)
+
+	mod.refresh_resource_value_in_ui()
 end,
 true
 )
@@ -460,6 +460,14 @@ core:add_listener(
 
 cm:add_saving_game_callback(
 	function(context)
+		local rotblood_faction = cm:get_faction(rotblood_faction_key)
+		if rotblood_faction and not rotblood_faction:is_null_interface() then
+			local warpstone_res = rotblood_faction:pooled_resource("pj_rot_warpstone")
+			if warpstone_res and not warpstone_res:is_null_interface() then
+				mod.player_res.warpstone = warpstone_res:value()
+			end
+		end
+
 		cm:save_named_value("pj_ovn_rotbloods_warpstone_mercs_player_res", mod.player_res, context)
 		cm:save_named_value("pj_ovn_rotbloods_warpstone_mercs_num_times_purchased", mod.num_times_purchased, context)
 	end
@@ -689,8 +697,17 @@ core:add_listener(
 -- add unit wh2_main_skv_inf_stormvermin_0 30
 -- add unit wh2_main_skv_inf_clanrats_0 30
 
+--- Change value of warpstone pooled resource:
 -- local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS
 -- local rotblood_faction_key = "wh_dlc08_nor_naglfarlings"
 -- local rotblood_faction = cm:get_faction(rotblood_faction_key)
 -- cm:pooled_resource_mod(rotblood_faction:command_queue_index(), "pj_rot_warpstone", "wh2_main_resource_factor_other", 100)
 -- mod.refresh_resource_value_in_ui()
+
+--- Print value of warpstone pooled resource:
+-- local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS
+-- local rotblood_faction_key = "wh_dlc08_nor_naglfarlings"
+-- local rotblood_faction = cm:get_faction(rotblood_faction_key)
+-- local warpstone_res = rotblood_faction:pooled_resource("pj_rot_warpstone")
+-- if not warpstone_res or warpstone_res:is_null_interface() then return end
+-- dout(warpstone_res:value())
