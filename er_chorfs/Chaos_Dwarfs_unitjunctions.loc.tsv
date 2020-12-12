@@ -21,7 +21,7 @@ character_skills_localised_description_aadarkcraftskill7	Mastery of crafting arm
 character_skills_localised_name_aarelentlessskill7	Relentless Barrage	true
 character_skills_localised_description_aarelentlessskill7	Load, shoot, march!	true
 character_skills_localised_name_aamercenaryskill7	Loyalty of the Unbound	true
-character_skills_localised_description_aamercenaryskill7	Veteren mercenaries and slaves can become as valuable as any chaos warrior.	true
+character_skills_localised_description_aamercenaryskill7	Veteran mercenaries and slaves can become as valuable as any chaos warrior.	true
 character_skills_localised_name_aacdrangedskill1	Rapid Reloading	true
 character_skills_localised_description_aacdrangedskill1	Load, aim, fire, repeat. The process becomes second nature to those well experienced with ranged weapons.	true
 character_skills_localised_name_aacdrangedskill2	Marksman	true
@@ -29,7 +29,7 @@ character_skills_localised_description_aacdrangedskill2	Knowing where to aim is 
 character_skills_localised_name_aacdrangedskill3	Over Loader	true
 character_skills_localised_description_aacdrangedskill3	Always best to err on the side of caution when it comes to bullets, bolts and arrows.	true
 character_skills_localised_name_aacdlordrunepre	Daemonic Rune Forging	true
-character_skills_localised_description_aacdlordrunepre	The Dawi-Zharr have corrupted the old ways of runic inscription, and are capable of binding dark magik and demons into their twisted runes.	true
+character_skills_localised_description_aacdlordrunepre	The Dawi-Zharr have corrupted the old ways of runic inscription, and are capable of binding dark magic and demons into their twisted runes.	true
 character_skills_localised_name_aacdlordrune1	Rune of Volcanic Destruction	true
 character_skills_localised_description_aacdlordrune1	A hellish icon that brings the bearer visions of smouldering ruination, and the blessings of the fires of the daemonforges.	true
 character_skills_localised_name_aacdlordrune2	Rune of Daemonic Rage	true
@@ -76,36 +76,36 @@ effects_description_ads_hashutrange_rank7	Reload time reduction: %+n% for Quarre
 effects_description_ads_hashutreload_rank7	Range: %+n% for Quarrellers, Devastators, Annihilators, Infernal Guard (Naptha), Hobgoblin Enforcers, Bolt Throwers, Wolf Raider Archers and Artillery units {{tr:rank7}}	true
 effects_description_ads_hashutphysres_rank7	Physical Resistance: %+n% for Great Taurus, K'daai and Bull Centaur units {{tr:rank7}}	true
 effects_description_ads_relentlessmissres_rank7	Missile Resistance: %+n% for all Chaos Dwarf and Hobgoblin units {{tr:rank7}}	true
-effects_description_ads_darkcraftdamage_rank7	Weapon Strength: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes, Immortals, Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders, Hobhound Ravagers, Kollossus and Iron Daemon units {{tr:rank7}}	true
+effects_description_ads_darkcraftdamage_rank7	Weapon Strength: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes, Immortals, Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders, Hobhound Ravagers, Kollossus and Iron Daemon units {{tr:rank7}}	true
 effects_description_ads_mercenarymagicres_rank7	Magic Resistance: %+n% for Lammasu, Black Orc Mercenaries and Slave units {{tr:rank7}}	true
 effects_description_ads_mercenaryattack_rank7	Melee Attack: %+n for Lammasu, Black Orc Mercenaries and Slave units {{tr:rank7}}	true
 effects_description_ads_mercenaryspeed_rank7	Move Speed: %+n% for Lammasu, Black Orc Mercenaries and Slave units {{tr:rank7}}	true
 effects_description_ads_chorfdefense_rank7	Melee Defence: %+n for all Chaos Dwarf units {{tr:rank7}}	true
-effects_description_ads_chaosdwarf_damage	Weapon Strength: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_damage	Weapon Strength: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_damage_ranged	Weapon Strength: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_recruit	Recruit Cost: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_recruit	Recruit Cost: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_recruit_ranged	Recruit Cost: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_exp	Recruit Rank: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_exp	Recruit Rank: %+n for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_exp_ranged	Recruit Rank: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_range	Range: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_range	Range: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_range_ranged	Range: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_defence	Melee Defence: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_defence	Melee Defence: %+n for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_defence_ranged	Melee Defence: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_morale	Leadership: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_morale	Leadership: %+n for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_morale_ranged	Leadership: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_reload	Reload time reduction: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_reload	Reload time reduction: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_reload_ranged	Reload time reduction: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_armour	Armour: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_armour	Armour: %+n for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_armour_ranged	Armour: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_attack	Melee Attack: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_attack	Melee Attack: %+n for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_attack_ranged	Melee Attack: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_rangedmg	Missile damage: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_rangedmg	Missile damage: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_rangedmg_ranged	Missile damage: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
 effects_description_ads_chaosdwarf_ammo	Ammunition: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
 effects_description_ads_chaosdwarf_ammo_ranged	Ammunition: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_speed	Move Speed: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_speed	Move Speed: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_speed_ranged	Move Speed: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
-effects_description_ads_chaosdwarf_upkeep	Upkeep: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_upkeep	Upkeep: %+n% for Chaos Dwarf Warriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
 effects_description_ads_chaosdwarf_upkeep_ranged	Upkeep: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
 effects_description_ads_slave_upkeep	Upkeep: %+n% for Slave units	true
 effects_description_ads_slave_damage	Weapon Strength: %+n% for Slave units	true
@@ -186,7 +186,7 @@ effects_description_ads_cdallies_morale	Leadership: %+n for Black Orc Mercenarie
 effects_description_ads_cdallies_exp	Recruit Rank: %+n for Black Orc Mercenaries and Lammasu units	true
 effects_description_ads_cdmonsters_upkeep	Upkeep: %+n% for Lammasu, Lava Trolls and Great Taurus units	true
 effects_description_ads_cdmonsters_physres	Physical Resistance: %+n% for Lammasu, Lava Trolls and Great Taurus units	true
-effects_description_ads_cdwarrioronly_upkeep	Upkeep: %+n% for Chaos Dwarf Warrriors and Chaos Dwarf Warriors (Great Weapons) units	true
+effects_description_ads_cdwarrioronly_upkeep	Upkeep: %+n% for Chaos Dwarf Warriors and Chaos Dwarf Warriors (Great Weapons) units	true
 effects_description_ads_cdwarrioronly_attack	Melee Attack: %+n for Chaos Dwarf Warriors and Chaos Dwarf Warriors (Great Weapons) units	true
 effects_description_ads_cdwarrioronly_exp	Recruit Rank: %+n for Chaos Dwarf Warriors and Chaos Dwarf Warriors (Great Weapons) units	true
 effects_description_ads_immortalonly_upkeep	Upkeep: %+n% for Immortals	true
