@@ -16,4 +16,5 @@ id	priority	unit	unit_group
 92112205	2	halfling_archer	ovn_halfling_landmark
 92112206	2	sr_ogre	ovn_halfling_landmark
 92112207	2	sr_ogre	ovn_halfling_landmark
-92112208	2	wh2_dlc13_emp_inf_huntsmen_0	ovn_halfling_landmark
+92112208	2	ovn_hlf_moot_general_0	ovn_halfling_landmark
+93111500	2	ovn_hlf_master_chef_0	ovn_halfling_landmark
