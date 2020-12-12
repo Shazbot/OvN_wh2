@@ -1,0 +1,6 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+er_effect_enable_mount_petrified_sorcerer_0	mount.png	50	mount.png	both	false
+er_effect_enable_mount_petrified_sorcerer_1	mount.png	50	mount.png	both	false
+er_effect_enable_mount_petrified_sorcerer_2	mount.png	50	mount.png	both	false
+er_effect_disable_all_magic_abilities	spell_ability.png	50	spell_ability.png	both	false

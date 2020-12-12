@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_er_effect_enable_mount_petrified_sorcerer_0	Mount: Early Statue	true
+effects_description_er_effect_enable_mount_petrified_sorcerer_1	Mount: Partial Statue	true
+effects_description_er_effect_enable_mount_petrified_sorcerer_2	Mount: Completed Statue	true
+effects_description_er_effect_disable_all_magic_abilities	Disable all magical abilities	true

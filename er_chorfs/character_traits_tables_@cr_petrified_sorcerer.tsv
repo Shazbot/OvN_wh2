@@ -1,0 +1,3 @@
+character_traits_tables	2
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+er_trait_chd_sorcerer_petrification	1	false	1	trait_bad	1	
