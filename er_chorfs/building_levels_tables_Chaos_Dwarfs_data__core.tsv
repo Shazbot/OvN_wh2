@@ -1,0 +1,17 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+chs_chaos_dwarfs	chs_chaos_dwarfs	0	1	1000	0		false	0	0	0	0	false				true	chs_chaos_dwarfs	false	0.0	0	true	0		true	0	0
+chs_chaos_dwarfs_2	chs_chaos_dwarfs	1	1	3000	0		false	0	0	0	0	false				true	chs_chaos_dwarfs	false	0.0	1	true	1		true	0	0
+chs_chaos_dwarfs_3	chs_chaos_dwarfs	2	1	5000	0		false	0	0	0	0	false				true	chs_chaos_dwarfs	false	0.0	2	true	2		true	0	0
+chs_chaos_dwarfs_4	chs_chaos_dwarfs	3	1	7000	0		false	0	0	0	0	false				true	chs_chaos_dwarfs	false	0.0	2	true	3		true	0	0
+chs_chaos_dwarfs_5	chs_chaos_dwarfs	4	1	10000	0		false	0	0	0	0	false				true	chs_chaos_dwarfs	false	0.0	3	true	4		true	0	0
+chs_bull_centaur1	chs_bull_centaur	0	1	2500	0		false	0	0	0	0	false				true	chs_bull_centaur	false	0.0	2	true	2		true	0	0
+chs_bull_centaur2	chs_bull_centaur	1	1	4500	0		false	0	0	0	0	false				true	chs_bull_centaur	false	0.0	1	true	3		true	0	0
+chs_bull_centaur3	chs_bull_centaur	2	1	7500	0		false	0	0	0	0	false				true	chs_bull_centaur	false	0.0	2	true	4		true	0	0
+chs_war_machines1	chs_war_machines	0	1	5000	0		false	0	0	0	0	false				true	chs_war_machines	false	0.0	3	true	3		true	0	0
+chs_war_machines2	chs_war_machines	1	1	10000	0		false	0	0	0	0	false				true	chs_war_machines	false	0.0	2	true	4		true	0	0
+chs_hobgoblins1	chs_hobgoblins	0	1	750	0		false	0	0	0	0	false				true	chs_hobgoblins	false	0.0	0	true	0		true	0	0
+chs_hobgoblins2	chs_hobgoblins	1	1	1500	0		false	0	0	0	0	false				true	chs_hobgoblins	false	0.0	1	true	1		true	0	0
+chs_hobgoblins3	chs_hobgoblins	2	1	2500	0		false	0	0	0	0	false				true	chs_hobgoblins	false	0.0	1	true	2		true	0	0
+chs_infernal1	chs_infernal	0	1	4500	0		false	0	0	0	0	false				true	chs_infernal	false	0.0	3	true	3		true	0	0
+chs_infernal2	chs_infernal	1	1	9000	0		false	0	0	0	0	false				true	chs_infernal	false	0.0	2	true	4		true	0	0

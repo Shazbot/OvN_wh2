@@ -1,0 +1,12 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	wh_main_chs_cha_dwarf_lord				false	true	wh_main_chs_cha_dwarf_lord	1.0
+general	wh_main_chs_cha_dwarf_lord_1				false	true	wh_main_chs_cha_dwarf_lord	1.0
+general	wh_main_chs_cha_dwarf_lord_shadow				false	true	wh_main_chs_cha_dwarf_lord_shadow	1.0
+general	wh_main_chs_cha_dwarf_lord_shadow_1				false	true	wh_main_chs_cha_dwarf_lord_shadow	1.0
+wizard	wh_main_chs_cha_dwarf_sorcerer_death				false	true	wh_main_chs_cha_dwarf_sorcerer_death	1.0
+wizard	wh_main_chs_cha_dwarf_sorcerer_fire				false	true	wh_main_chs_cha_dwarf_sorcerer_fire	1.0
+wizard	wh_main_chs_cha_dwarf_sorcerer_metal				false	true	wh_main_chs_cha_dwarf_sorcerer_metal	1.0
+champion	wh_main_chs_cha_dwarf_castellan				false	true	wh_main_chs_cha_dwarf_castellan	1.0
+spy	hobgoblin_khan				false	true	hobgoblin_khan	1.1
+general	wh_main_chs_cha_bull_lord				false	true	wh_main_chs_cha_bull_lord	1.0

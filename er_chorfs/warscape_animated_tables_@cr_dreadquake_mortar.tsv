@@ -1,0 +1,4 @@
+warscape_animated_tables	2
+key	texture_filename_base	category
+chd_dreadquake_mortar	warmachines\tex	animation
+chd_dreadquake_mortar_destruct	warmachines\tex	animation

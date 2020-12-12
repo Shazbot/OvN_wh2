@@ -1,0 +1,10 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh_main_skill_node_set_chs_cha_dwarf_lord		false	false	wh_main_chs_cha_dwarf_lord
+general			wh_main_skill_node_set_chs_cha_dwarf_lord_shadow		false	false	wh_main_chs_cha_dwarf_lord_shadow
+wizard			wh_main_skill_node_set_chs_cha_dwarf_sorcerer_death		false	false	wh_main_chs_cha_dwarf_sorcerer_death
+wizard			wh_main_skill_node_set_chs_cha_dwarf_sorcerer_fire		false	false	wh_main_chs_cha_dwarf_sorcerer_fire
+wizard			wh_main_skill_node_set_chs_cha_dwarf_sorcerer_metal		false	false	wh_main_chs_cha_dwarf_sorcerer_metal
+champion			wh2_main_skill_node_set_chs_cha_dwarf_castellan		false	false	wh_main_chs_cha_dwarf_castellan
+spy			wh2_main_skill_node_set_chs_hobgoblin_khan		false	false	hobgoblin_khan
+general			wh_main_skill_node_set_chs_cha_bull_lord		false	false	wh_main_chs_cha_bull_lord

@@ -1,0 +1,10 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+iron_daemon	false	iron_daemon	repeater_gun	false
+iron_daemon_turret	false	iron_daemon_turret	repeater_gun	true
+wh_main_chaos_dwf_rifle	false	wh_chaos_dwf_rifle_bullet	repeater_gun	false
+ak_mod_grn_art_spear_chukka	false	ak_mod_grn_art_spear_chukka	bolt_large	false
+deathshrieker_rocket_launcher	false	deathshrieker_rocket_launcher	rocket_battery	false
+magma_cannon	false	magma_cannon	flame_cannon	false
+chaos_dwarf_lord_rifle	false	chaos_dwarf_lord_rifle_bullet	repeater_gun	false
+wh_main_chd_cinderblast_bomb	false	wh_chd_cinderblast_bomb		false

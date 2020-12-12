@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_groupings_onscreen_bull_centaurs	Bull Centaurs	true
+ui_unit_groupings_onscreen_chs_hobgoblin_khan	Melee Specialist	true
+ui_unit_groupings_onscreen_wh_main_chs_cha_bull_lord	Bull Centaur	true
+ui_unit_groupings_onscreen_bull_centaurs_great_weapons	Bull Centaurs Great Weapons	true
+ui_unit_groupings_tooltip_bull_centaurs	Brutal and bloodthirsty beasts, striding into battle to wreak havoc.	true
+ui_unit_groupings_tooltip_chs_hobgoblin_khan	A successful and feared killer risen to prominence.	true
+ui_unit_groupings_tooltip_wh_main_chs_cha_bull_lord	Brutal and bloodthirsty beasts, striding into battle to wreak havoc.	true
+ui_unit_groupings_tooltip_bull_centaurs_great_weapons	These monsters smash their foes to pieces with huge, armour-rending weapons.	true

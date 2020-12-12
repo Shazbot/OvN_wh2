@@ -1,0 +1,6 @@
+ui_unit_bullet_point_unit_overrides_tables	0
+bullet_point	unit_key
+anti_infantry	cr_chd_mon_siege_giant
+armour_piercing	cr_chd_mon_siege_giant
+terror	cr_chd_mon_siege_giant
+siege_giant	cr_chd_mon_siege_giant

@@ -1,0 +1,9 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	aacdlordrunepre		9
+		x	1	aacdlordrune1		14
+		x	1	aacdlordrune2		14
+		x	1	aacdlordrune3		14
+		x	1	aacdlordrune4		14
+		x	1	aabullcentuniqskill1		9
+		x	1	aahobgoblineliteskill0		9

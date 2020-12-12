@@ -1,0 +1,48 @@
+variants_tables	5
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation
+k'daai_fireborn		cd_k'daai		1.0	1.5	0.05
+k'daai_destroyer		cd_k'daai_destroyer		1.0	2.0	0.0
+bull_centaur_render		cd_bull_centaur_renders		1.0	1.0	0.05
+bull_centaur_render_great_weapons		cd_bull_centaur_taur'ruk		1.0	1.15	0.05
+bull_centaur_ba'hal		cd_bull_centaur_ba'hal		1.0	1.1	0.05
+bull_centaur_ba'hal_guardians		cd_bull_centaur_ba'hal_guardians		1.0	1.1	0.05
+infernal_guard		cd_infernal_guard		1.0	1.0	0.05
+infernal_guard_great_weapons		cd_infernal_guard_great_weapons		1.0	1.0	0.05
+infernal_guard_acolytes		cd_acolytes		1.0	1.0	0.05
+infernal_guard_zealot		cd_zealot		1.0	1.0	0.05
+infernal_guard_deathmask_naphta		cd_deathmask_naphta		1.0	1.0	0.05
+chaos_dwarf_warriors		cd_warriors		1.0	1.0	0.05
+chaos_dwarf_warriors_horde		cd_warriors_horde		1.0	1.0	0.05
+chaos_dwarf_warriors_great_weapons		cd_warriors_great_weapons		1.0	1.0	0.05
+chaos_dwarf_warriors_rifles		cd_warriors_pyrelocks		1.0	1.0	0.05
+hobgoblin_cuthroats		grn_hobgoblins		1.0	1.05	0.05
+hobgoblin_sneaky_gits		grn_hobgoblin_sneaky_git		1.0	1.05	0.05
+hobgoblin_archers		grn_hobgoblin_bowmen		1.0	1.05	0.05
+goblin_slaves		grn_goblin_slaves		1.0	0.8	0.05
+orc_slaves		grn_orc_slaves		1.0	0.9	0.05
+hobgoblin_wolf_bow_raider	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	grn_hobgoblin_bowmen		1.05	1.05	0.05
+hobgoblin_bolt_thrower		cd_bolt_thrower		1.0	1.0	0.0
+deathshrieker_rocket_launcher		cd_artillery_crew		1.0	1.0	0.05
+magma_cannon		chs_chaos_dwarf_artillery_crew		1.0	1.0	0.05
+iron_daemon_turret		cd_iron_daemon		1.0	1.0	0.0
+slave_ogre		cd_slave_ogres		1.0	1.9	0.05
+immortals		cd_immortals		1.0	1.0	0.05
+granite_guard		cd_granite_guard		1.0	1.0	0.05
+black_orc_slaves_dual		black_orc_slaves_dual		1.0	1.0	0.05
+hobgoblin_bolt_thrower_crew		grn_hobgoblin_artillery_crew		1.0	1.05	0.05
+lava_troll		cd_lava_troll		1.0	1.0	0.05
+magma_beasts		cd_magma_beasts		1.0	1.0	0.05
+kollossus		cd_kollossus		1.0	5.8	0.0
+ironsworn		cd_ironsworn		1.0	1.0	0.05
+wh_main_chs_cha_dwarf_lord		cd_castellan_warmaster		1.0	1.15	0.0
+wh_main_chs_cha_dwarf_sorcerer_death		cd_sorcerer		1.0	1.15	0.0
+drazhoath_the_ashen		cd_drazhoath_the_ashen		1.0	1.15	0.0
+zhatan_the_black		cd_zhatan_the_black		1.0	1.15	0.0
+rykarth_the_unbreakable		cd_rykarth_the_unbreakable		1.0	1.15	0.0
+wh_main_chs_cha_dwarf_lord_shadow		cd_sorcerer_prophet		1.0	1.15	0.0
+wh_main_chs_cha_dwarf_castellan		cd_castellan		1.0	1.15	0.0
+wh_main_chs_cha_dwarf_sorcerer_fire		cd_sorcerer		1.0	1.15	0.0
+wh_main_chs_cha_dwarf_sorcerer_metal		cd_sorcerer		1.0	1.15	0.0
+hobgoblin_khan		grn_hobgoblins_boss_swords		1.0	1.25	0.0
+hobgoblin_khan_wolf	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	grn_hobgoblins_boss_spears		1.15	1.25	0.0
+wh_main_chs_cha_bull_lord		bull_lord		1.0	1.2	0.0

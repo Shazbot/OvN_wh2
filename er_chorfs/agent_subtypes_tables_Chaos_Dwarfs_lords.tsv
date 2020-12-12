@@ -1,0 +1,10 @@
+agent_subtypes_tables	18
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	audio_vo_culture_override
+wh_main_chs_cha_dwarf_lord	true	false		wh_main_chs_cha_dwarf_lord	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	true	true	chs_lord		
+wh_main_chs_cha_dwarf_lord_shadow	true	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	wh_main_chs_cha_dwarf_lord_shadow	wh_dlc01_vo_actor_Chaos_SorcererLord	true	-1	false	true	true	true	chs_sorcerer_lord	wh_dlc05_lore_shadows	
+wh_main_chs_cha_dwarf_sorcerer_fire	true	true	ui/campaign ui/agents/wh_main_lore_fire.png	wh_main_chs_cha_dwarf_sorcerer_fire	wh_main_vo_actor_Chaos_Sorcerer	true	-1	false	true	true	true			
+wh_main_chs_cha_dwarf_sorcerer_metal	true	true	ui/campaign ui/agents/wh_main_lore_metal.png	wh_main_chs_cha_dwarf_sorcerer_metal	wh_main_vo_actor_Chaos_Sorcerer	true	-1	false	true	true	true			
+wh_main_chs_cha_dwarf_sorcerer_death	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh_main_chs_cha_dwarf_sorcerer_death	wh_main_vo_actor_Chaos_Sorcerer	true	-1	false	true	true	true			
+wh_main_chs_cha_dwarf_castellan	true	false	ui/campaign ui/agents/wh_main_chs_champion.png	wh_main_chs_cha_dwarf_castellan	wh_main_vo_actor_Chaos_ExhaltedHero	true	-1	false	true	true	true			
+hobgoblin_khan	true	false	ui/campaign ui/agents/wh_main_grn_spy.png	hobgoblin_khan	wh_main_vo_actor_Goblin_BigBoss	true	-1	false	true	true	true			
+wh_main_chs_cha_bull_lord	true	false		wh_main_chs_cha_bull_lord	wh_dlc03_vo_actor_Beastlord	true	-1	false	true	true	true	chs_lord		

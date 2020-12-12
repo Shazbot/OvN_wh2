@@ -1,0 +1,7 @@
+mercenary_pool_to_groups_junctions_tables	1
+group	initial_unit_count	key	pool	faction_requirement	subculture_requirement	tech_requirement
+ironsworn	1	33322910	wh_dlc01_chs_units_of_renown_pool		wh_main_sc_chs_chaos	
+bull_centaur_ba'hal_guardians	1	33322911	wh_dlc01_chs_units_of_renown_pool		wh_main_sc_chs_chaos	
+chaos_dwarf_warriors_horde	1	33322912	wh_dlc01_chs_units_of_renown_pool		wh_main_sc_chs_chaos	
+granite_guard	1	33322913	wh_dlc01_chs_units_of_renown_pool		wh_main_sc_chs_chaos	
+magma_beasts	1	33322914	wh_dlc01_chs_units_of_renown_pool		wh_main_sc_chs_chaos	

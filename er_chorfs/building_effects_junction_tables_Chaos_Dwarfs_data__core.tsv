@@ -1,0 +1,13 @@
+building_effects_junction_tables	3
+building	effect	effect_scope	value	value_damaged	value_ruined
+chs_chaos_dwarfs_2	wh_main_effect_economy_gdp_culture	force_to_force_building	150.0	75.0	0.0
+chs_chaos_dwarfs_3	wh_main_effect_force_army_campaign_experience_base_artillery	force_to_force_own	1.0	1.0	0.0
+chs_chaos_dwarfs	wh_main_effect_economy_gdp_culture	force_to_force_building	100.0	50.0	0.0
+chs_chaos_dwarfs_3	wh_main_effect_economy_gdp_culture	force_to_force_building	200.0	100.0	0.0
+chs_chaos_dwarfs_4	wh_main_effect_economy_gdp_culture	force_to_force_building	250.0	125.0	0.0
+chs_chaos_dwarfs_5	wh_main_effect_economy_gdp_culture	force_to_force_building	300.0	150.0	0.0
+chs_chaos_dwarfs_4	wh_main_effect_force_army_campaign_experience_base_artillery	force_to_force_own	2.0	1.0	0.0
+chs_chaos_dwarfs_5	wh_main_effect_force_army_campaign_experience_base_artillery	force_to_force_own	3.0	1.0	0.0
+chs_chaos_dwarfs_5	wh_main_effect_force_all_campaign_post_battle_loot_mod	force_to_force_own	10.0	5.0	0.0
+chs_chaos_dwarfs_5	wh_main_effect_force_all_campaign_sacking_income	force_to_force_own	10.0	5.0	0.0
+chs_chaos_dwarfs_4	wh_main_effect_force_all_campaign_sacking_income	force_to_force_own	5.0	2.0	0.0

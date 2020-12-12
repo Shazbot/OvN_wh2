@@ -1,0 +1,6 @@
+projectiles_explosions_tables	18
+key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	shrapnel	explosion_particle_effect	fuse_distance_from_target	explosion_particle_effect_on_ground	explosion_audio	contact_phase_effect	ignition_amount	is_magical	detonation_damage_ap	camera_shake	detonation_force	fuse_fixed_time	affects_allies
+dreadquake_mortar	percussive	shockwave	24.0	10.0	12.0	150.0		wh_dlc06_kamakaze_squig_explosion	0.0		wh_mortar		0.0	false	132.0	wh_main_unit_explosion_heavy	260.0	-1.0	true
+deathshrieker_rocket_launcher	percussive	shockwave	5.0	1.0	5.0	20.0	doom_rocket	wh_main_generic_spherical_explosion_small	0.0		wh_rocket		1.0	false	40.0	wh_main_unit_explosion_medium	200.0	-1.0	true
+magma_cannon	percussive	shockwave	7.0	0.0	12.0	90.0		wh_main_weapon_flamethrower_explosion	0.0		wh_fireball	wh_main_unit_contact_morale	1.0	false	45.0	wh_main_unit_explosion_medium	180.0	-1.0	true
+wh_main_chd_cinderblast_explosion	percussive	shockwave	4.0	0.0	13.0	25.0		wh_main_generic_explosion_mine	0.0		wh_blasting_charge		0.0	false	10.0	wh_main_unit_explosion_light	200.0	-1.0	true

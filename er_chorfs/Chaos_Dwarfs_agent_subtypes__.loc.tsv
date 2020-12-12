@@ -1,0 +1,18 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_dwarf_lord	Chaos Dwarf Overlord	true
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_bull_lord	Bull Centaur Lord	true
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_dwarf_castellan	Infernal Castellan	true
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_dwarf_lord_shadow	Sorcerer - Prophet (Shadows)	true
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_dwarf_sorcerer_death	Daemonsmith (Death)	true
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_dwarf_sorcerer_fire	Daemonsmith (Fire)	true
+agent_subtypes_onscreen_name_override_wh_main_chs_cha_dwarf_sorcerer_metal	Daemonsmith (Metal)	true
+agent_subtypes_onscreen_name_override_hobgoblin_khan	Hobgoblin Khan	true
+agent_subtypes_description_text_override_wh_main_chs_cha_dwarf_lord	It is said that in the veins of such aristocratic Chaos Dwarfs flows the very blood of the dark god Hashut himself.	true
+agent_subtypes_description_text_override_wh_main_chs_cha_bull_lord	The bigger and nastier Bull Centaurs lead the stampede into battle.	true
+agent_subtypes_description_text_override_wh_main_chs_cha_dwarf_castellan	The captains of the Infernal Guard of Azgorh are known to be cruel and to drill their troops ceaselessly. 	true
+agent_subtypes_description_text_override_wh_main_chs_cha_dwarf_sorcerer_death	The sinister Daemonsmiths forge their instruments of war through arcane rituals and evil sorcery, binding the very essence of Chaos into their armaments.	true
+agent_subtypes_description_text_override_wh_main_chs_cha_dwarf_sorcerer_fire	The sinister Daemonsmiths forge their instruments of war through arcane rituals and evil sorcery, binding the very essence of Chaos into their armaments.	true
+agent_subtypes_description_text_override_wh_main_chs_cha_dwarf_sorcerer_metal	The sinister Daemonsmiths forge their instruments of war through arcane rituals and evil sorcery, binding the very essence of Chaos into their armaments.	true
+agent_subtypes_description_text_override_wh_main_chs_cha_dwarf_lord_shadow	The High Priests of the Dawi Zharr have embraced the art of sorcery through their foul devotion to the worship of Chaos and pacts made with ancient, despicable Daemons.	true
+agent_subtypes_description_text_override_hobgoblin_khan	Occasionally the spiteful infighting within the ranks of the Hobgoblins will give birth to a successful and feared killer who will rise to prominence and be known as Khan.	true

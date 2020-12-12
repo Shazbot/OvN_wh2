@@ -1,0 +1,3 @@
+ai_usage_groups_tables	7
+key	melee	ranged_indirect	ranged_direct	fast	flanker	support	flying	high_value	gate_crusher	bomber	shock	use_skirmish	harasser	stalker
+ranged_indirect_highvalue	false	true	true	false	false	false	false	true	false	false	false	true	false	false

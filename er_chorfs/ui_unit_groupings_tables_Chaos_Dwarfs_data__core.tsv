@@ -1,0 +1,6 @@
+ui_unit_groupings_tables	1
+icon	key	parent_group
+wh_dlc03_bst_centigor	bull_centaurs	cavalry_chariots
+wh_dlc03_bst_centigor_great_weapon	bull_centaurs_great_weapons	cavalry_chariots
+wh_dlc03_bst_centigor	wh_main_chs_cha_bull_lord	commander
+wh_main_grn_spy	chs_hobgoblin_khan	heroes_agents

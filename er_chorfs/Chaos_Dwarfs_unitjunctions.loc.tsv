@@ -1,0 +1,208 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_aaslaveandcdskill	Dawi-Zharr Legion	true
+character_skills_localised_name_aahobgobbcentskill	Dark Mountain Denizens	true
+character_skills_localised_description_aaslaveandcdskill	The Dark Father's dominance is absolute.	true
+character_skills_localised_description_aahobgobbcentskill	The horrid and twisted creatures that stir both in and on the mountains of the Dawi-Zharr.	true
+character_skills_localised_name_aakdaimachinesskill	Kin of the Daemonforge	true
+character_skills_localised_description_aakdaimachinesskill	The hellish factories and dark forges of the Dawi-Zharr produce and attract a variety of monstrosities.	true
+character_skills_localised_name_aaalliesattackskill	Dark Blessings to the Faithless	true
+character_skills_localised_description_aaalliesattackskill	Mercenaries and slaves to the dark gods can be deserving of their blessings as any other.	true
+character_skills_localised_name_aaartillplusskill	Dawi-Zharr Regiment Training	true
+character_skills_localised_description_aaartillplusskill	Masters of ranged arms the Dawi-Zharr's expertise in volley fire techniques and manoeuvres are both feared and respected by many.	true
+character_skills_localised_name_aaslavhobgobskill	Fear and Fervour	true
+character_skills_localised_description_aaslavhobgobskill	When punishment for failure is worse than death, many will seek to die trying for success instead.	true
+character_skills_localised_name_aadwarfhobgobskill	Daemonforged Arms	true
+character_skills_localised_description_aadwarfhobgobskill	The hellish factories and dark forges of the Dawi-Zharr produce high quality ranged weapons of all kinds.	true
+character_skills_localised_name_aahashutwrathskill	Servants of Hashut	true
+character_skills_localised_description_aahashutwrathskill	The march of the Dawi-Zharr war machine is a dreadful sight to behold.	true
+character_skills_localised_name_aadarkcraftskill7	Twisted Dawi-Zharr Craft	true
+character_skills_localised_description_aadarkcraftskill7	Mastery of crafting arms and armour most wicked and corrupt.	true
+character_skills_localised_name_aarelentlessskill7	Relentless Barrage	true
+character_skills_localised_description_aarelentlessskill7	Load, shoot, march!	true
+character_skills_localised_name_aamercenaryskill7	Loyalty of the Unbound	true
+character_skills_localised_description_aamercenaryskill7	Veteren mercenaries and slaves can become as valuable as any chaos warrior.	true
+character_skills_localised_name_aacdrangedskill1	Rapid Reloading	true
+character_skills_localised_description_aacdrangedskill1	Load, aim, fire, repeat. The process becomes second nature to those well experienced with ranged weapons.	true
+character_skills_localised_name_aacdrangedskill2	Marksman	true
+character_skills_localised_description_aacdrangedskill2	Knowing where to aim is half of the job.	true
+character_skills_localised_name_aacdrangedskill3	Over Loader	true
+character_skills_localised_description_aacdrangedskill3	Always best to err on the side of caution when it comes to bullets, bolts and arrows.	true
+character_skills_localised_name_aacdlordrunepre	Daemonic Rune Forging	true
+character_skills_localised_description_aacdlordrunepre	The Dawi-Zharr have corrupted the old ways of runic inscription, and are capable of binding dark magik and demons into their twisted runes.	true
+character_skills_localised_name_aacdlordrune1	Rune of Volcanic Destruction	true
+character_skills_localised_description_aacdlordrune1	A hellish icon that brings the bearer visions of smouldering ruination, and the blessings of the fires of the daemonforges.	true
+character_skills_localised_name_aacdlordrune2	Rune of Daemonic Rage	true
+character_skills_localised_description_aacdlordrune2	A cursed icon that possesses the imbued with an unflinching and undying rage.	true
+character_skills_localised_name_aacdlordrune3	Rune of Shadows and Ash	true
+character_skills_localised_description_aacdlordrune3	Shifting shadows and the occasional cloud of ash constantly obscure the bearer of this rune.	true
+character_skills_localised_name_aacdlordrune4	Rune of Godly Favour	true
+character_skills_localised_description_aacdlordrune4	The dedicated forging of such powerful runic armour in itself is an act known to grant great favour with the Dark Father.	true
+character_skills_localised_name_aabullcentuniqskill1	Warlord of Hashut	true
+character_skills_localised_description_aabullcentuniqskill1	Bringer of Hashut's wrath.	true
+character_skills_localised_name_aabullcentuniqskill2	Revenge of the Betrayed	true
+character_skills_localised_description_aabullcentuniqskill2	The children of the Dark Father will seek his vengeance eternally.	true
+character_skills_localised_name_aabullcentuniqskill3	Gifts of the Favoured	true
+character_skills_localised_description_aabullcentuniqskill3	Bull Centaurs are often considered the chosen of Hashut, and as such gain his favour in many ways.	true
+character_skills_localised_name_aabullcentuniqskill4	Bull's Charge	true
+character_skills_localised_description_aabullcentuniqskill4	A penchant for killing via trampling under hoof.	true
+character_skills_localised_name_aabullcentuniqskill5	Ravenous Fury	true
+character_skills_localised_description_aabullcentuniqskill5	Ever vengeful and merciless, for the greatest spoils are found in destruction.	true
+character_skills_localised_name_aabullcentuniqskill6	Terrible Dominion	true
+character_skills_localised_description_aabullcentuniqskill6	Ascending in the ranks of the legion brings great respect, fear and infamy.	true
+character_skills_localised_name_aabullcentuniqskill7	Mutations of Malice	true
+character_skills_localised_description_aabullcentuniqskill7	Fearsome blessings of strength that often come with extra fangs or horns.	true
+character_skills_localised_name_aabullcentuniqskill8	Shifting Legion	true
+character_skills_localised_description_aabullcentuniqskill8	Able to move a horde in ways and at speeds unlike any Chaos Dwarf leader, Bull Centaurs excel at catching enemies off guard.	true
+character_skills_localised_name_aabullcentuniqskill9	Pacts of the Changed	true
+character_skills_localised_description_aabullcentuniqskill9	The loyalty that gifts of change buy is almost incomprehensible by the innocent.	true
+character_skills_localised_name_aabullcentuniqskill91	Blessings of Fortitude	true
+character_skills_localised_description_aabullcentuniqskill91	Hashut protects his champions well, all the better to spread his dominion.	true
+character_skills_localised_name_aahobgoblineliteskill0	Veteran Scouter	true
+character_skills_localised_name_aahobgoblineliteskill1	Master Cutthroat	true
+character_skills_localised_name_aahobgoblineliteskill2	Monster Tamer	true
+character_skills_localised_name_aahobgoblineliteskill3	High Khan	true
+character_skills_localised_name_aahobgoblineliteskill4	Champion of Slaves	true
+character_skills_localised_description_aahobgoblineliteskill0	Scouting just becomes second nature to those experienced in it.	true
+character_skills_localised_description_aahobgoblineliteskill1	Often tasked with suicidal assassination missions, many Hobgolins spend their time training for ways to live through such tasks.	true
+character_skills_localised_description_aahobgoblineliteskill2	Hobgoblins are capable of enslaving or taming monsters of various types, learning how to lose the least amount of soldiers in the process is the key.	true
+character_skills_localised_description_aahobgoblineliteskill3	Respected and feared... By other Hobgoblins of course.	true
+character_skills_localised_description_aahobgoblineliteskill4	Often having been slaves themselves, Hobgoblins are known to employ various tactics in the Dawi Zharr armies.	true
+effects_description_ads_hashutammo_rank7	Ammunition: %+n% for Quarrellers, Devastators, Annihilators, Infernal Guard (Naptha), Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units {{tr:rank7}}	true
+effects_description_ads_hashutdamage_rank7	Weapon Strength: %+n% for Great Taurus, K'daai and Bull Centaur units {{tr:rank7}}	true
+effects_description_ads_hashutspeed_rank7	Move Speed: %+n% for Quarrellers, Devastators, Annihilators, Infernal Guard (Naptha), Hobgoblin Enforcers, Bolt Throwers, Wolf Raider Archers and Artillery units {{tr:rank7}}	true
+effects_description_ads_hashutattack_rank7	Melee Attack: %+n for Great Taurus, K'daai and Bull Centaur units {{tr:rank7}}	true
+effects_description_ads_hashutrange_rank7	Reload time reduction: %+n% for Quarrellers, Devastators, Annihilators, Infernal Guard (Naptha), Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units {{tr:rank7}}	true
+effects_description_ads_hashutreload_rank7	Range: %+n% for Quarrellers, Devastators, Annihilators, Infernal Guard (Naptha), Hobgoblin Enforcers, Bolt Throwers, Wolf Raider Archers and Artillery units {{tr:rank7}}	true
+effects_description_ads_hashutphysres_rank7	Physical Resistance: %+n% for Great Taurus, K'daai and Bull Centaur units {{tr:rank7}}	true
+effects_description_ads_relentlessmissres_rank7	Missile Resistance: %+n% for all Chaos Dwarf and Hobgoblin units {{tr:rank7}}	true
+effects_description_ads_darkcraftdamage_rank7	Weapon Strength: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes, Immortals, Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders, Hobhound Ravagers, Kollossus and Iron Daemon units {{tr:rank7}}	true
+effects_description_ads_mercenarymagicres_rank7	Magic Resistance: %+n% for Lammasu, Black Orc Mercenaries and Slave units {{tr:rank7}}	true
+effects_description_ads_mercenaryattack_rank7	Melee Attack: %+n for Lammasu, Black Orc Mercenaries and Slave units {{tr:rank7}}	true
+effects_description_ads_mercenaryspeed_rank7	Move Speed: %+n% for Lammasu, Black Orc Mercenaries and Slave units {{tr:rank7}}	true
+effects_description_ads_chorfdefense_rank7	Melee Defence: %+n for all Chaos Dwarf units {{tr:rank7}}	true
+effects_description_ads_chaosdwarf_damage	Weapon Strength: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_damage_ranged	Weapon Strength: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_recruit	Recruit Cost: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_recruit_ranged	Recruit Cost: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_exp	Recruit Rank: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_exp_ranged	Recruit Rank: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_range	Range: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_range_ranged	Range: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_defence	Melee Defence: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_defence_ranged	Melee Defence: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_morale	Leadership: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_morale_ranged	Leadership: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_reload	Reload time reduction: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_reload_ranged	Reload time reduction: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_armour	Armour: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_armour_ranged	Armour: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_attack	Melee Attack: %+n for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_attack_ranged	Melee Attack: %+n for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_rangedmg	Missile damage: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_rangedmg_ranged	Missile damage: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_ammo	Ammunition: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_ammo_ranged	Ammunition: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_speed	Move Speed: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_speed_ranged	Move Speed: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_chaosdwarf_upkeep	Upkeep: %+n% for Chaos Dwarf Warrriors, Infernal Guard, Berzerkers, Acolytes and Immortal units	true
+effects_description_ads_chaosdwarf_upkeep_ranged	Upkeep: %+n% for Quarrellers, Devastators, Annihilators and Infernal Guard (Naptha) units	true
+effects_description_ads_slave_upkeep	Upkeep: %+n% for Slave units	true
+effects_description_ads_slave_damage	Weapon Strength: %+n% for Slave units	true
+effects_description_ads_slave_recruit	Recruit Cost: %+n% for Slave units	true
+effects_description_ads_slave_speed	Move Speed: %+n% for Slave units	true
+effects_description_ads_slave_attack	Melee Attack: %+n for Slave units	true
+effects_description_ads_slave_charge	Charge Bonus: %+n for Slave units	true
+effects_description_ads_slave_morale	Leadership: %+n for Slave units	true
+effects_description_ads_slave_defence	Melee Defence: %+n for Slave units	true
+effects_description_ads_slave_exp	Recruit Rank: %+n for Slave units	true
+effects_description_ads_bullcent_upkeep	Upkeep: %+n% for Bull Centaur units	true
+effects_description_ads_bullcent_damage	Weapon Strength: %+n% for Bull Centaur units	true
+effects_description_ads_bullcent_recruit	Recruit Cost: %+n% for Bull Centaur units	true
+effects_description_ads_bullcent_exp	Recruit Rank: %+n for Bull Centaur units	true
+effects_description_ads_bullcent_defence	Melee Defence: %+n for Bull Centaur units	true
+effects_description_ads_bullcent_speed	Move Speed: %+n% for Bull Centaur units	true
+effects_description_ads_bullcent_morale	Leadership: %+n for Bull Centaur units	true
+effects_description_ads_bullcent_attack	Melee Attack: %+n for Bull Centaur units	true
+effects_description_ads_bullcent_armour	Armour: %+n for Bull Centaur units	true
+effects_description_ads_bullcent_charge	Charge Bonus: %+n for Bull Centaur units	true
+effects_description_ads_hobgob_upkeep	Upkeep: %+n% for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_defence	Melee Defence: %+n for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_recruit	Recruit Cost: %+n% for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_range	Range: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgob_speed	Move Speed: %+n% for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_charge	Charge Bonus: %+n for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_morale	Leadership: %+n for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_damage	Weapon Strength: %+n% for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_attack	Melee Attack: %+n for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_exp	Recruit Rank: %+n for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units\\n	true
+effects_description_ads_hobgob_reload	Reload time reduction: %+n% for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgob_rangedmg	Missile damage: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgob_ammo	Ammunition: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_upkeep	Upkeep: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_defence	Melee Defence: %+n for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_recruit	Recruit Cost: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_range	Range: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_speed	Move Speed: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_charge	Charge Bonus: %+n for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_morale	Leadership: %+n for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_damage	Weapon Strength: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_attack	Melee Attack: %+n for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_exp	Recruit Rank: %+n for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_reload	Reload time reduction: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_rangedmg	Missile damage: %+n% for Hobgoblin Enforcer, Hobgoblin Bolt Thrower, and Hobgoblin Wolf Archer units	true
+effects_description_ads_hobgobranged_ammo	Ammunition: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgobranged_armour	Armour: %+n for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units	true
+effects_description_ads_hobgob_armour	Armour: %+n for Hobgoblin Cutthroats, Sneaky Gits, Wolf Raiders and Hobhound Ravager units	true
+effects_description_ads_hobgobranged_speed_rank7	Move Speed: %+n% for Hobgoblin Enforcers, Bolt Throwers and Wolf Raider Archer units {{tr:rank7}}	true
+effects_description_ads_cdartillery_upkeep	Upkeep: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdartillery_speed	Move Speed: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdartillery_recruit	Recruit Cost: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdartillery_range	Range: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdartillery_reload	Reload time reduction: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdartillery_rangedmg	Missile damage: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdartillery_ammo	Ammunition: %+n% for Chaos Dwarf Artillery units	true
+effects_description_ads_cdwarmachine_upkeep	Upkeep: %+n% for Iron Daemon, Kollossus and Chaos Siege Giant units	true
+effects_description_ads_cdwarmachine_charge	Charge Bonus: %+n for Iron Daemon, Kollossus and Chaos Siege Giant units	true
+effects_description_ads_cdwarmachine_damage	Weapon Strength: %+n% for Iron Daemon, Kollossus and Chaos Siege Giant units	true
+effects_description_ads_cdwarmachine_recruit	Recruit Cost: %+n% for Iron Daemon, Kollossus and Chaos Siege Giant units	true
+effects_description_ads_cdwarmachine_attack	Melee Attack: %+n for Iron Daemon, Kollossus and Chaos Siege Giant units	true
+effects_description_ads_fireborn_upkeep	Upkeep: %+n% for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_damage	Weapon Strength: %+n% for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_armour	Armour: %+n for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_recruit	Recruit Cost: %+n% for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_attack	Melee Attack: %+n for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_speed	Move Speed: %+n% for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_charge	Charge Bonus: %+n for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_defence	Melee Defence: %+n for Great Taurus and K'daai units	true
+effects_description_ads_fireborn_morale	Leadership: %+n for Great Taurus and K'daai units	true
+effects_description_ads_cdallies_upkeep	Upkeep: %+n% for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_damage	Weapon Strength: %+n% for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_recruit	Recruit Cost: %+n% for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_defence	Melee Defence: %+n for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_charge	Charge Bonus: %+n for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_attack	Melee Attack: %+n for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_morale	Leadership: %+n for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdallies_exp	Recruit Rank: %+n for Black Orc Mercenaries and Lammasu units	true
+effects_description_ads_cdmonsters_upkeep	Upkeep: %+n% for Lammasu, Lava Trolls and Great Taurus units	true
+effects_description_ads_cdmonsters_physres	Physical Resistance: %+n% for Lammasu, Lava Trolls and Great Taurus units	true
+effects_description_ads_cdwarrioronly_upkeep	Upkeep: %+n% for Chaos Dwarf Warrriors and Chaos Dwarf Warriors (Great Weapons) units	true
+effects_description_ads_cdwarrioronly_attack	Melee Attack: %+n for Chaos Dwarf Warriors and Chaos Dwarf Warriors (Great Weapons) units	true
+effects_description_ads_cdwarrioronly_exp	Recruit Rank: %+n for Chaos Dwarf Warriors and Chaos Dwarf Warriors (Great Weapons) units	true
+effects_description_ads_immortalonly_upkeep	Upkeep: %+n% for Immortals	true
+effects_description_ads_immortalonly_morale	Leadership: %+n for Immortals	true
+effects_description_ads_immortalonly_armour	Armour: %+n for Immortals	true
+effects_description_ads_infernalonly_armour	Armour: %+n for Infernal Guard units	true
+effects_description_ads_infernalonly_defence	Melee Defence: %+n for Infernal Guard units	true
+effects_description_ads_deathshriekeronly_range	Range: %+n% for Deathshrieker Rocket Launchers	true
+effects_description_ads_deathshriekeronly_reload	Reload time reduction: %+n% for Deathshrieker Rocket Launchers	true
+effects_description_ads_deathshriekeronly_damage	Missile damage: %+n% for Deathshrieker Rocket Launchers	true
+effects_description_deco_effect_agent_recruitment_cdcastell	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Chaos Dwarf Castellan	true
+effects_description_deco_effect_agent_recruitmentxp_cdcastell	Hero recruit rank: %+n for Chaos Dwarf Castellans	true
+effects_description_deco_effect_agent_cap_increase_cdcastell	Hero capacity: %+n for Chaos Dwarf Castellans	true
+effects_description_deco_effect_agent_enable_recruitment_chs_spy	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Hobgoblin Khan	true
+effects_description_deco_effect_agent_cap_increase_chs_spy	Hero capacity: %+n for Hobgoblin Khans	true
+effects_description_deco_effect_agent_recruitment_xp_chs_spy	Hero recruit rank: %+n for Hobgoblin Khans	true
+effects_description_deco_effect_agent_recruitment_cdsorchero	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Chaos Dwarf Sorcerer	true
+effects_description_deco_effect_agent_recruitmentxp_cdsorchero	Hero recruit rank: %+n for Chaos Dwarf Sorcerers	true
+effects_description_deco_effect_agent_cap_increase_cdsorchero	Hero capacity: %+n for Chaos Dwarf Sorcerers	true

@@ -1,0 +1,6 @@
+missile_weapons_tables	11
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+bazuka_rocket_launcher	false	bazuka_rocket_launcher	rocket_battery	false
+cd_tanit_lammasu_breath	false	cd_tanit_lammasu_breath	dragons_breath	false
+cd_tanit_great_taurus_breath	false	cd_tanit_great_taurus_breath	dragons_breath	false
+cd_tanit_hobyar_arrow	false	cd_tanit_hobyar_arrow	bow	false

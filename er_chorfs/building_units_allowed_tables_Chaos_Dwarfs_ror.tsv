@@ -1,0 +1,11 @@
+building_units_allowed_tables	4
+building	unit	xp	key	conditions	faction	enabled
+chs_infernal2	ironsworn	0	775199100	0		false
+chs_chaos_dwarfs_2	chaos_dwarf_warriors_horde	0	775199101	0		false
+chs_chaos_dwarfs_3	chaos_dwarf_warriors_horde	0	775199102	0		false
+chs_chaos_dwarfs_4	chaos_dwarf_warriors_horde	0	775199103	0		false
+chs_chaos_dwarfs_5	chaos_dwarf_warriors_horde	0	775199104	0		false
+chs_chaos_dwarfs_5	granite_guard	0	775199105	0		false
+chs_chaos_dwarfs_4	magma_beasts	0	775199106	0		false
+chs_chaos_dwarfs_5	magma_beasts	0	775199107	0		false
+chs_bull_centaur3	bull_centaur_ba'hal_guardians	0	775199108	0		false

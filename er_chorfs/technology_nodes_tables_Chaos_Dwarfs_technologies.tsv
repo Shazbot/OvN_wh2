@@ -1,0 +1,35 @@
+technology_nodes_tables	3
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+		3	tech_chs_branch_1_1	tech_chs_branch_1_1	chs_mil	1	500	0	0		
+		6	tech_chs_branch_1_2	tech_chs_branch_1_2	chs_mil	1	500	0	0		
+		7	tech_chs_branch_1_3	tech_chs_branch_1_3	chs_mil	1	500	0	0		
+		4	tech_chs_branch_1_391	tech_chs_branch_1_391	chs_mil	1	500	0	0		
+		5	tech_chs_branch_1_392	tech_chs_branch_1_392	chs_mil	1	500	0	0		
+		3	tech_chs_branch_2_1	tech_chs_branch_2_1	chs_mil	3	1000	0	0		
+		4	tech_chs_branch_2_2	tech_chs_branch_2_2	chs_mil	3	1000	0	0		
+		5	tech_chs_branch_2_3	tech_chs_branch_2_3	chs_mil	3	1000	0	0		
+		6	tech_chs_branch_2_393	tech_chs_branch_2_393	chs_mil	3	1000	0	0		
+		7	tech_chs_branch_2_4	tech_chs_branch_2_4	chs_mil	3	1000	0	0		
+		3	tech_chs_branch_3_1	tech_chs_branch_3_1	chs_mil	5	1500	0	0		
+		4	tech_chs_branch_3_2	tech_chs_branch_3_2	chs_mil	5	1500	0	0		
+		5	tech_chs_branch_3_394	tech_chs_branch_3_394	chs_mil	5	1500	0	0		
+		6	aachaosdwarftech1	aachaosdwarftech1	chs_mil	5	1500	0	0		
+		7	aachaosdwarftech2	aachaosdwarftech2	chs_mil	5	1500	0	0		
+		8	tech_chs_branch_3_3	tech_chs_branch_3_3	chs_mil	5	1500	0	0		
+		9	tech_chs_branch_3_4	tech_chs_branch_3_4	chs_mil	5	1500	0	0		
+		10	tech_chs_branch_3_5	tech_chs_branch_3_5	chs_mil	5	1500	0	0		
+		3	tech_chs_branch_4_1	tech_chs_branch_4_1	chs_mil	7	2000	0	0		
+		4	tech_chs_branch_4_2	tech_chs_branch_4_2	chs_mil	7	2000	0	0		
+		5	aachaosdwarftech3	aachaosdwarftech3	chs_mil	7	2000	0	0		
+		6	aachaosdwarftech4	aachaosdwarftech4	chs_mil	7	2000	0	0		
+		7	aachaosdwarftech7	aachaosdwarftech7	chs_mil	7	2000	0	0		
+		8	tech_chs_branch_4_3	tech_chs_branch_4_3	chs_mil	7	2000	0	0		
+		9	tech_chs_branch_4_4	tech_chs_branch_4_4	chs_mil	7	2000	0	0		
+		10	tech_chs_branch_4_5	tech_chs_branch_4_5	chs_mil	7	2000	0	0		
+		3	tech_chs_branch_5_1	tech_chs_branch_5_1	chs_mil	9	2500	0	0		
+		4	tech_chs_branch_5_2	tech_chs_branch_5_2	chs_mil	9	2500	0	0		
+		5	tech_chs_branch_5_3	tech_chs_branch_5_3	chs_mil	9	2500	0	0		
+		6	aachaosdwarftech5	aachaosdwarftech5	chs_mil	9	2500	0	0		
+		7	tech_chs_branch_5_4	tech_chs_branch_5_4	chs_mil	9	2500	0	0		
+		8	tech_chs_branch_5_5	tech_chs_branch_5_5	chs_mil	9	2500	0	0		
+		9	aachaosdwarftech6	aachaosdwarftech6	chs_mil	9	2500	0	0		

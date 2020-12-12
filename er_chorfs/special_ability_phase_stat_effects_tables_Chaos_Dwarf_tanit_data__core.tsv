@@ -1,0 +1,5 @@
+special_ability_phase_stat_effects_tables	3
+phase	value	stat	how
+tanit_cd_unit_contact_shellshocked	0.6	scalar_speed	mult
+tanit_cd_unit_contact_shellshocked	0.8	stat_morale	mult
+cd_tanit_mount_passive_blazing_body	-20.0	stat_weakness_flame	add

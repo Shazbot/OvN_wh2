@@ -1,0 +1,3 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	wh_main_chd_veh_dreadquake_mortar_crew	dreadquake_mortar	cr_dreadquake_mortar	dreadquake_mortar

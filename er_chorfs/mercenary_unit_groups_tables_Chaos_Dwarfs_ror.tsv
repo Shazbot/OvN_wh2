@@ -1,0 +1,7 @@
+mercenary_unit_groups_tables	1
+chance_to_replenish	key	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+100.0	ironsworn	1	ironsworn	true	0.1
+100.0	bull_centaur_ba'hal_guardians	1	bull_centaur_ba'hal_guardians	true	0.1
+100.0	chaos_dwarf_warriors_horde	1	chaos_dwarf_warriors_horde	true	0.1
+100.0	granite_guard	1	granite_guard	true	0.1
+100.0	magma_beasts	1	magma_beasts	true	0.1

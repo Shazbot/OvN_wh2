@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_deco_effect_agent_cap_increase_cdsorchero	Hero capacity: %+n for Daemonsmiths	true
+effects_description_deco_effect_agent_recruitment_cdsorchero	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Daemonsmith	true
+effects_description_deco_effect_agent_recruitmentxp_cdsorchero	Hero recruit rank: %+n for Daemonsmiths	true
+effects_description_deco_effect_agent_cap_increase_cdcastell	Hero capacity: %+n for Infernal Castellans	true
+effects_description_deco_effect_agent_recruitment_cdcastell	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Infernal Castellan	true
+effects_description_deco_effect_agent_recruitmentxp_cdcastell	Hero recruit rank: %+n Infernal Castellans	true
+effects_description_wh_dlc08_effect_upkeep_chs_lord	Upkeep: %+n% for Chaos Lord, Chaos Dwarf Overlord, Chaos Sorcerer Lord and Sorcerer-Prophet	true
+effects_description_deco_effect_agent_enable_recruitment_chs_spy	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Hobgoblin Khan	true
+effects_description_deco_effect_agent_cap_increase_chs_spy	Hero capacity: %+n for Hobgoblin Khans	true
+effects_description_deco_effect_agent_recruitment_xp_chs_spy	Hero recruit rank: %+n for Hobgoblin Khans	true

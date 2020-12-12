@@ -1,0 +1,66 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_taurus	Great Taurus	true
+character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_taurus_zhatan	Great Taurus	true
+character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_lammasu	Lammasu	true
+character_skills_localised_name_wh_main_skill_chs_cha_drazhoath_cinderbreath	Cinderbreath	true
+character_skills_localised_description_wh_main_skill_chs_cha_dwarf_lord_taurus	None but the highest and most powerful servants of Hashut can hope to master these hellish monsters.	true
+character_skills_localised_description_wh_main_skill_chs_cha_dwarf_lord_taurus_zhatan	None but the highest and most powerful servants of Hashut can hope to master these hellish monsters.	true
+character_skills_localised_description_wh_main_skill_chs_cha_dwarf_lord_lammasu	Chaos Dwarf Sorcerers have used Lammasu as steeds for thousands of years.	true
+character_skills_localised_description_wh_main_skill_chs_cha_drazhoath_cinderbreath	In battle Drazhoath leads his war hosts mounted upon the Great Taurus Cinderbreath, bringing fire and ruin down upon the enemy. 	true
+character_skills_localised_name_aalegendaryskill1	The Graven Sceptre	true
+character_skills_localised_description_aalegendaryskill1	This black iron mace is inscribed with the ancient names of the founding masters of the Black Fortress, and has been balefully blessed by prophets to Hashut.	true
+character_skills_localised_name_aalegendaryskill2	Daemonspite Crucible	true
+character_skills_localised_description_aalegendaryskill2	Forged from meteoric iron and blighted gold, this blood soaked and soul binding artifact is said to have been the twisted handiwork of the legendary sorcerer Azgorh.	true
+character_skills_localised_name_aalegendaryskill3	Armour of Gazrakh	true
+character_skills_localised_description_aalegendaryskill3	This masterwork of Dawi-Zharr smithing is able to withstand attacks of immense power with and ease that would make any dwarf envious.	true
+character_skills_localised_name_aalegendaryskill4	Hellshard Amulet	true
+character_skills_localised_description_aalegendaryskill4	This hypnotically intricate black crystal amulet amplifies a thousand fold any hatred contained within the bearers heart, and channels that hatred into a dissonant aura of despair.	true
+character_skills_localised_name_aalegendaryskill5	Hammer of Zharr	true
+character_skills_localised_description_aalegendaryskill5	An unholy and horrific relic of the Black Fortress, this massive warhammer has seen many foes, and many wielders.	true
+character_skills_localised_name_aalegendaryskill6	Blackshard Armour	true
+character_skills_localised_description_aalegendaryskill6	This suit of obsidian armour is fused with the remains of the long dead sorcerer, Zharbhark Hellion, imbuing the wearer's flesh with a stonelike resiliance.	true
+character_skills_localised_name_aalegendaryskill7	Dark Renown	true
+character_skills_localised_description_aalegendaryskill7	First sent to the Black Fortress in effective exile, Drazhoath fell out of political power and standing, but has since risen to become its new lord through his innate cunning and bitter, ruthless ambition.	true
+character_skills_localised_name_aalegendaryskill8	Captain of the Immortals	true
+character_skills_localised_description_aalegendaryskill8	Tasked with overseeing all internal disputes and grievances within the ranks of the Immortals, Rykarth is swift and unscrupulous with capital punishments, though there is always time for some torture.	true
+character_skills_localised_name_aalegendaryskill9	Slave Tyrant	true
+character_skills_localised_description_aalegendaryskill9	No greenskin would dare run amok in the presence of the Commander of the Tower of Zharr, lest they risk incurring whatever horrid torture Zhatan might be imagining.	true
+character_skills_localised_name_aadrazspecial1	Dark Father's Favourite	true
+character_skills_localised_name_aadrazspecial2	Vengeance Incarnate	true
+character_skills_localised_name_aadrazspecial3	Beacon of Greatness	true
+character_skills_localised_name_aadrazspecial4	Chosen Sons	true
+character_skills_localised_name_aadrazspecial5	Voice of Hashut	true
+character_skills_localised_name_aadrazspecial6	Prophet of Ash and Ruin	true
+character_skills_localised_description_aadrazspecial1	Hashut's favour falls most on Drazhoath, for he is the chosen prophet.	true
+character_skills_localised_description_aadrazspecial2	Bringer of the Dark Father's vengeance, and seer of his ruinous plan.	true
+character_skills_localised_description_aadrazspecial3	Drazhoath's greatness draws in the mightiest of the Dawi-Zharr corrupted kin.	true
+character_skills_localised_description_aadrazspecial4	Bull Centaurs that fight with Drazhoath are of a different ilk, born of the darkest magics.	true
+character_skills_localised_description_aadrazspecial5	As the chosen prophet, Drazhoath's voice booms louder than any cannon.	true
+character_skills_localised_description_aadrazspecial6	Great clouds of ash or soot seem to follow Drazhoath wherever he goes, as though he were a walking volcano.	true
+character_skills_localised_name_aarykspecial1	Mage Bane	true
+character_skills_localised_name_aarykspecial2	Baneful Aura	true
+character_skills_localised_name_aarykspecial3	Shield of the Dawi-Zharr	true
+character_skills_localised_name_aarykspecial4	Hashut's Infernal Gifts	true
+character_skills_localised_name_aarykspecial5	Daemonforged Desires	true
+character_skills_localised_name_aarykspecial6	Unbroken and Unbound	true
+character_skills_localised_description_aarykspecial1	Rykarth's very presence causes the winds of magic to recede from him like an ebbing tide.	true
+character_skills_localised_description_aarykspecial2	The aura that protects Rykarth from magics can grow so strong as to bestow the protection to those around him.	true
+character_skills_localised_description_aarykspecial3	Accepting only the finest Dawi-Zharr warriors from the best trainers, just being a part of Rykarth's shield is a prestigious title amongst the fire dwarfs.	true
+character_skills_localised_description_aarykspecial4	Only the finest arms and armour are fit for Rykarth's purpose.	true
+character_skills_localised_description_aarykspecial5	The lure of the ungodly gifts from the dark father forges extends beyond any weapon or piece of armour.	true
+character_skills_localised_description_aarykspecial6	A paragon of the resiliance and destructive power of the Dawi-Zharr, his followers and troops have reached a state of demi-god like worship.	true
+character_skills_localised_name_aazhatspecial1	Feared Overlord	true
+character_skills_localised_name_aazhatspecial2	Iron Hand	true
+character_skills_localised_name_aazhatspecial3	Vicious Lashmaster	true
+character_skills_localised_name_aazhatspecial4	Master of Mercenaries	true
+character_skills_localised_name_aazhatspecial5	Abhorrent Tactician	true
+character_skills_localised_name_aazhatspecial6	Bringer of Dark Fates	true
+character_skills_localised_name_aazhatspecial7	Glory to Ghorth the Cruel	true
+character_skills_localised_description_aazhatspecial1	Submission to the Dark Father or infernal oblivion. That is the choice Zhatan the Black offers, though most would find it not much of one.	true
+character_skills_localised_description_aazhatspecial2	A strong network of (relatively) healthy slaves requires a level of personal management that is beneath many overlords.	true
+character_skills_localised_description_aazhatspecial3	Through fear or hatred, Zhatan inspires a certain kind of fervour amongst slaves in battle.	true
+character_skills_localised_description_aazhatspecial4	Zhatan long ago learned the value of compensating his mercenaries well, more than loyalty can be bought through the corruption of avarice.	true
+character_skills_localised_description_aazhatspecial5	Employing tactics despised by even the cruelest of warlords, Zhatan is capable of turning peasants on their king through sheer fear.	true
+character_skills_localised_description_aazhatspecial6	Zhatan's infamy proceeds him by many a mile, and the sight of his vile war machines on the horizon exceeds all rumors.	true
+character_skills_localised_description_aazhatspecial7	"Let it be known that Zhatan plunders to the west and returns with slaves for his master, Ghorth the Cruel."	true

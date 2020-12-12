@@ -1,0 +1,7 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	ironsworn	ironsworn	ironsworn	ironsworn
+	chaos_dwarf_warriors_horde	chaos_dwarf_warriors_horde	chaos_dwarf_warriors_horde	chaos_dwarf_warriors_horde
+	bull_centaur_ba'hal_guardians	bull_centaur_ba'hal_guardians	bull_centaur_ba'hal_guardians	bull_centaur_ba'hal_guardians
+	granite_guard	granite_guard	granite_guard	granite_guard
+	magma_beasts	magma_beasts	magma_beasts	magma_beasts

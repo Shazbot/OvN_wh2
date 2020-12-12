@@ -1,0 +1,27 @@
+Loc PackedFile	1
+key	text	tooltip
+building_culture_variants_name_chs_chaos_dwarfswh_main_chs_chaos	Tower of Gorgoth 	true
+building_culture_variants_name_chs_chaos_dwarfs_2wh_main_chs_chaos	Plain of Zharr	true
+building_culture_variants_name_chs_chaos_dwarfs_3wh_main_chs_chaos	Daemonforge	true
+building_culture_variants_name_chs_chaos_dwarfs_4wh_main_chs_chaos	Desolation of Azgorh	true
+building_culture_variants_name_chs_chaos_dwarfs_5wh_main_chs_chaos	Temple of Hashut	true
+building_culture_variants_name_chs_bull_centaur1wh_main_chs_chaos	Mountainside Shrines	true
+building_culture_variants_name_chs_bull_centaur2wh_main_chs_chaos	Spires of Hashut	true
+building_culture_variants_name_chs_bull_centaur3wh_main_chs_chaos	Volcanic Lairs	true
+building_short_description_texts_short_description_chs_bull_centaur1	Bull Centaurs protect that which is claimed under the dominion of Hashut.	true
+building_short_description_texts_short_description_chs_bull_centaur2	Dawi-Zharr sometimes create landmarks of their own to guide their forces and impose on the enemy their dominance.	true
+building_short_description_texts_short_description_chs_bull_centaur3	Forboding and inhospitable to many, lair and mine systems within volcanoes ensures a certain level of protection to those who can stand it.	true
+building_culture_variants_name_chs_war_machines1wh_main_chs_chaos	Blasted Forges	true
+building_culture_variants_name_chs_war_machines2wh_main_chs_chaos	Infernal Factory	true
+building_short_description_texts_short_description_chs_war_machines1	Mine, smelt, mold and forge. A simple process that can require centuries of mastery.	true
+building_short_description_texts_short_description_chs_war_machines2	The Dawi-Zharr are as industrious as they are cruel, their great factories work endlessly to craft their twisted war machines.	true
+building_culture_variants_name_chs_hobgoblins1wh_main_chs_chaos	Hobgoblin Shanties	true
+building_culture_variants_name_chs_hobgoblins2wh_main_chs_chaos	Wolf Taming Camps	true
+building_culture_variants_name_chs_hobgoblins3wh_main_chs_chaos	Nomadic Outposts	true
+building_short_description_texts_short_description_chs_hobgoblins1	Hobgoblins often set up easy to move shanty towns in har to reach places.	true
+building_short_description_texts_short_description_chs_hobgoblins2	Wolf riders rarely break or breed wolves themselves, they leave such dangerous tasks for others.	true
+building_short_description_texts_short_description_chs_hobgoblins3	Larger hobgobln hordes take the shanty approach to their watch posts, able to be pulled apart and moved with great haste upon spotting approaching foes.	true
+building_culture_variants_name_chs_infernal1wh_main_chs_chaos	Hellish Forts	true
+building_culture_variants_name_chs_infernal2wh_main_chs_chaos	Fortress of Hashut	true
+building_short_description_texts_short_description_chs_infernal1	The Infernal Guard take up residence in only the harshest of blasted landscapes, and their fortifications match the forboding settings.	true
+building_short_description_texts_short_description_chs_infernal2	A dark obelisk on the horizon, eternally billowing smoke, and eerily lit at night by the red glow of forgefires.	true

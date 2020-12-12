@@ -1,0 +1,11 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+deco_effect_agent_enable_recruitment_chs_spy	goblin_big_boss.png	3	goblin_big_boss.png	campaign	true
+deco_effect_agent_cap_increase_chs_spy	goblin_big_boss.png	102	goblin_big_boss.png	campaign	true
+deco_effect_agent_recruitment_xp_chs_spy	goblin_big_boss.png	104	goblin_big_boss.png	campaign	true
+deco_effect_agent_recruitment_cdcastell	exalted_hero.png	4	exalted_hero.png	campaign	true
+deco_effect_agent_recruitmentxp_cdcastell	exalted_hero.png	5	exalted_hero.png	campaign	true
+deco_effect_agent_cap_increase_cdcastell	exalted_hero.png	6	exalted_hero.png	campaign	true
+deco_effect_agent_recruitment_cdsorchero	wizard.png	7	wizard.png	campaign	true
+deco_effect_agent_recruitmentxp_cdsorchero	wizard.png	8	wizard.png	campaign	true
+deco_effect_agent_cap_increase_cdsorchero	wizard.png	9	wizard.png	campaign	true

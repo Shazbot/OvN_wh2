@@ -1,0 +1,33 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ironsworn	aachaosdwarftag
+false				ironsworn	aachaosdwarftag_rank7
+false				ironsworn	chs_all
+false				ironsworn	mp_set_chs_inf_chosen_0
+false				ironsworn	wh2_main_ror_units_all
+false				chaos_dwarf_warriors_horde	aachaosdwarftag_ranged
+false				chaos_dwarf_warriors_horde	chs_all
+false				chaos_dwarf_warriors_horde	wh2_main_ror_units_all
+false				chaos_dwarf_warriors_horde	aachaosdwarftag_rank7_ranged
+false				bull_centaur_ba'hal_guardians	aabullcentplustag
+false				bull_centaur_ba'hal_guardians	chs_all
+false				bull_centaur_ba'hal_guardians	monsters
+false				bull_centaur_ba'hal_guardians	aabullcentplustag_rank7
+false				bull_centaur_ba'hal_guardians	mp_set_chs_mon_dragon_ogre_shaggoth
+false				bull_centaur_ba'hal_guardians	wh2_main_ror_units_all
+false				magma_beasts	chs_all
+false				magma_beasts	chs_trolls
+false				magma_beasts	monsters
+false				magma_beasts	units_with_hp_regen
+false				magma_beasts	wh2_dlc11_chs_dragon_ogre_shaggoth_trolls_giant
+false				magma_beasts	wh2_dlc11_chs_vets_trolls_spawn_dragon_ogre_shaggoth_giant
+false				magma_beasts	mp_set_chs_mon_chaos_trolls_0
+false				magma_beasts	aacdmonstersonly
+false				magma_beasts	mp_set_chs_mon_chaos_trolls_0
+false				magma_beasts	wh2_main_ror_units_all
+false				granite_guard	aachaosdwarftag
+false				granite_guard	chs_all
+false				granite_guard	aachaosdwarftag_rank7
+false				granite_guard	mp_set_chs_inf_chosen_1
+false				granite_guard	aaimmortalonly
+false				granite_guard	wh2_main_ror_units_all

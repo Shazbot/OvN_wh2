@@ -1,0 +1,12 @@
+ancillaries_tables	16
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped
+wh_main_anc_mount_chs_great_taurus	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_chs_cha_dwarf_lord_1		1	1		false
+wh_main_anc_mount_chs_great_taurus_zhatan	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	zhatan_the_black_1		1	1		false
+wh_main_anc_mount_chs_lammasu	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_chs_cha_dwarf_lord_shadow_1		1	1		false
+wh_main_anc_mount_chs_cinderbreath	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	drazhoath_the_ashen_1		1	1		false
+wh_main_anc_drazsceprte_ll1	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh_main_anc_drazcrucib_ll1	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false
+wh_main_anc_rykarmour_ll1	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false
+wh_main_anc_rykamulet_ll1	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
+wh_main_anc_zhathammer_ll1	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh_main_anc_zhatarmour_ll1	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false

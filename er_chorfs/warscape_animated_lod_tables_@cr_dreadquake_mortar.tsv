@@ -1,0 +1,4 @@
+warscape_animated_lod_tables	1
+key	filename	range	animated
+955258196	warmachines\engines\chd_dreadquake_mortar\chd_dreadquake_mortar_01.wsmodel	0.0	chd_dreadquake_mortar
+955258197	warmachines\engines\chd_dreadquake_mortar\chd_dreadquake_mortar_destroyed_01.rigid_model_v2	0.0	chd_dreadquake_mortar_destruct

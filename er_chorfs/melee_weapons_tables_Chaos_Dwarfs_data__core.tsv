@@ -1,0 +1,28 @@
+melee_weapons_tables	22
+bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage
+0	0	0	iron_daemon	70	120	0	4.0	axe	unarmed	very_large	5	1.0	50	10.0	true		5	4	4.0	
+0	0	0	wh_main_chaos_dwf_axe	23	9	0	1.0	axe	axe		1	1.0	10	0.0	false		0	10	4.3	
+0	0	0	wh_main_chaos_dwf_axe_great	9	25	0	1.0	axe	axe		1	1.0	14	0.0	false		0	10	4.3	
+0	0	0	wh_main_chaos_dwf_fireglaive	11	27	0	2.0	spear	spear		1	1.0	14	10.0	false		0	10	4.3	
+0	26	0	wh_dlc01_chs_halberd_chaos_dwarfs	15	40	0	2.0	spear	halberd		1	1.0	14	0.0	true		0	10	4.3	
+0	12	0	wh_dlc03_bst_ba'hal_spear	8	26	0	2.0	spear	halberd		5	1.0	10	0.0	false		0	10	4.6	
+0	12	0	wh_dlc03_bst_ba'hal_guardians	10	28	0	2.0	spear	halberd		5	1.0	10	0.0	true		0	10	4.6	
+0	0	0	wh_dlc03_bst_taur'ruk_great_axe	20	65	0	2.0	axe	axe	medium	4	1.0	50	0.0	false		0	10	4.0	
+0	0	0	wh_main_grn_choppa_dual_bl_slaves	30	13	0	1.0	sword	sword		1	1.0	14	0.0	false		0	10	3.9	
+0	0	8	wh_main_vmp_scythe_cairn_fireborn	8	38	0	1.0	axe	axe	medium	4	1.0	10	10.0	false	wh_main_unit_contact_morale	0	10	4.3	
+0	0	0	wh_dlc03_bst_axe_gorebull_destroyer	140	280	0	3.0	axe	axe	large	4	1.2	350	10.0	false		0	10	4.0	
+0	0	0	wh_dlc03_bst_taurus	260	165	0	4.0	axe	claw	large	5	1.0	150	10.0	false	wh_main_unit_contact_morale	0	3	3.6	
+0	0	0	wh_dlc03_bst_lammasu	270	130	0	4.0	axe	claw	large	5	1.0	150	0.0	false		0	3	3.6	
+0	0	0	wh_main_club_kollossus	150	300	0	6.0	axe	club_huge	large	12	2.0	500	0.0	false	wh_dlc06_unit_contact_sundered_armour	0	10	4.0	
+0	0	0	wh_main_club_lava	25	65	0	2.0	axe	club_medium	medium	4	1.0	80	10.0	false		0	10	3.8	
+0	0	0	wh_main_club_magma	75	20	0	2.0	axe	club_medium	medium	4	1.0	80	10.0	false		0	10	3.8	
+0	0	0	wh_main_dwf_ironsworn_axe	25	10	0	1.0	axe	axe		1	1.0	10	0.0	true		0	10	4.3	
+0	0	0	chaos_dwarf_lord	125	275	0	3.0	axe	axe	medium	8	1.0	150	0.0	false		0	10	4.0	
+0	0	0	chaos_dwarf_lord_1	125	295	0	4.0	axe	claw	large	8	1.0	150	10.0	false		0	3	3.6	
+0	0	0	drazhoath_the_ashen	290	160	0	3.0	axe	axe	medium	8	1.0	150	10.0	false		0	10	4.0	
+0	0	20	drazhoath_the_ashen_1	140	340	0	4.0	axe	claw	large	10	1.0	150	10.0	false		0	5	3.6	
+0	0	0	zhatan_the_black_1	185	335	0	4.0	axe	claw	large	8	1.0	150	10.0	true		0	3	3.6	
+0	0	0	chaos_dwarf_lord_shadow_1	250	110	0	4.0	axe	claw	large	8	1.0	150	0.0	false		0	3	3.6	
+0	0	12	wh_main_chd_slayer_axe_dual	32	16	0	1.0	axe	axe		1	0.3	10	0.0	false		0	10	4.3	
+0	0	0	wh_main_chs_cha_bull_lord	300	150	0	3.0	spear	club_huge	medium	6	1.0	150	0.0	false		0	10	4.0	
+0	0	0	wh_main_club_siege_giant	125	425	0	6.0	axe	club_huge	large	11	1.7	800	0.0	false		0	10	4.0	

@@ -1,0 +1,6 @@
+units_custom_battle_mounts_tables	1
+base_unit	icon_name	mounted_unit
+wh_main_chs_cha_dwarf_lord	ui/campaign ui/mounts/mount_manticore.png	wh_main_chs_cha_dwarf_lord_1
+drazhoath_the_ashen	ui/campaign ui/mounts/mount_manticore.png	drazhoath_the_ashen_1
+zhatan_the_black	ui/campaign ui/mounts/mount_manticore.png	zhatan_the_black_1
+wh_main_chs_cha_dwarf_lord_shadow	ui/campaign ui/mounts/mount_manticore.png	wh_main_chs_cha_dwarf_lord_shadow_1

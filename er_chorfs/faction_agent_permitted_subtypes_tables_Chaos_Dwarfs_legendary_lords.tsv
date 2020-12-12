@@ -1,0 +1,5 @@
+faction_agent_permitted_subtypes_tables	0
+agent	faction	subtype
+general	wh_main_chs_chaos	drazhoath_the_ashen
+general	wh_main_chs_chaos	rykarth_the_unbreakable
+general	wh_main_chs_chaos	zhatan_the_black

@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_bullet_point_enums_onscreen_name_ogre_charge	Ogre Charge	true
+ui_unit_bullet_point_enums_tooltip_ogre_charge	Given the chance, an Ogre will barge into combat and slam on the enemy, using its great lumbering mass as a weapon.	true
+ui_unit_bullet_point_enums_onscreen_name_darkforged	Darkforged Weapon	true
+ui_unit_bullet_point_enums_tooltip_darkforged	The Daemonsmiths have infused twisted runes and malign spirits in these weapons.	true
+ui_unit_bullet_point_enums_onscreen_name_siege_giant	Siege Giant	true
+ui_unit_bullet_point_enums_tooltip_siege_giant	Most effective in sieges, the Chaos Siege Giants can bring down even the most fortified gates and walls.	true
+ui_unit_bullet_point_enums_onscreen_name_honeyed	Honeyed Words	true
+ui_unit_bullet_point_enums_tooltip_honeyed	The Lammasu can call out other creatures to do its bidding.	true

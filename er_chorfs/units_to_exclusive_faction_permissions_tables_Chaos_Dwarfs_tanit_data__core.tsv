@@ -1,0 +1,4 @@
+units_to_exclusive_faction_permissions_tables	0
+key	faction	allowed
+wh_pro04_chs_art_hellcannon_ror_0	wh2_main_ovn_chaos_dwarfs	true
+wh_pro04_chs_art_hellcannon_ror_0	wh2_main_chs_chaos_dwarfs	true

@@ -1,0 +1,3 @@
+area_of_effect_displays_tables	8
+spline	key	decal	vfx_central	vfx_ring	spline_width	spline_col_r	spline_col_g	spline_col_b	spline_oor_col_r	spline_oor_col_g	spline_oor_col_b	spline_vertical	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time
+	wh_main_abilities_dreadquake_steam		wh_main_machine_steam_central		2.0	255	255	255	255	255	255	false	50.0	64		false	5	false

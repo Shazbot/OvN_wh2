@@ -1,0 +1,5 @@
+campaign_mounts_tables	8
+animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
+cam_bc3_manticore	wh_main_cam_mnt_chs_great_taurus	great_taurus	0.65	wh_main_vo_culture_Manticore	false	0	false
+cam_bc3_manticore	wh_main_cam_mnt_chs_cinderbreath	cinderbreath	0.65	wh_main_vo_culture_Manticore	false	0	false
+cam_bc3_manticore	wh_main_cam_mnt_chs_lammasu	lammasu	0.6	wh_main_vo_culture_Manticore	false	0	false

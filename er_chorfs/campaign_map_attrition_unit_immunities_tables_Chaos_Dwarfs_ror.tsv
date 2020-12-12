@@ -1,0 +1,17 @@
+campaign_map_attrition_unit_immunities_tables	0
+attrition	unit
+chaos_territory	ironsworn
+chaos_territory	granite_guard
+wasteland	ironsworn
+wasteland	granite_guard
+horde_infighting	ironsworn
+horde_infighting	granite_guard
+chaos_territory	bull_centaur_ba'hal_guardians
+chaos_territory	magma_beasts
+chaos_territory	chaos_dwarf_warriors_horde
+wasteland	bull_centaur_ba'hal_guardians
+wasteland	magma_beasts
+wasteland	chaos_dwarf_warriors_horde
+horde_infighting	bull_centaur_ba'hal_guardians
+horde_infighting	magma_beasts
+horde_infighting	chaos_dwarf_warriors_horde

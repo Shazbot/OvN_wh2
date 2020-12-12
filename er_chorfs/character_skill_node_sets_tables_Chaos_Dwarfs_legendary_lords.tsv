@@ -1,0 +1,5 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh_main_skill_node_set_chs_cha_drazhoath_the_ashen		false	false	drazhoath_the_ashen
+general			wh_main_skill_node_set_chs_cha_rykarth_the_unbreakable		false	false	rykarth_the_unbreakable
+general			wh_main_skill_node_set_chs_cha_zhatan_the_black		false	false	zhatan_the_black

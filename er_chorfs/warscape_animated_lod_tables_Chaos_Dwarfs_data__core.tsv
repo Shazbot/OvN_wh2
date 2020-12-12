@@ -1,0 +1,7 @@
+warscape_animated_lod_tables	1
+key	filename	range	animated
+2141258743	warmachines\engines\dwf_flame_cannon\dwf_flame_cannop.rigid_model_v2	0.0	dwf_flame_cannop
+2141258744	warmachines\engines\emp_steam_tank\iron_daemon.rigid_model_v2	0.0	iron_daemon
+2141258745	warmachines\engines\dwf_cannon\deathshrieker.rigid_model_v2	0.0	deathshrieker
+2141258746	warmachines/engines/dwf_bolt_thrower/cdf_bolt_thrower.rigid_model_v2	0.0	cdf_bolt_thrower
+2141258747	warmachines/engines/emp_mortar/cdf_mortar.rigid_model_v2	0.0	cdf_mortar

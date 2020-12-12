@@ -1,0 +1,3 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	cr_chd_mon_siege_giant	cr_chd_mon_siege_giant	cr_chd_siege_giants	siege_giant

@@ -1,0 +1,5 @@
+campaign_character_arts_tables	7
+art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	id	religion	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
+drazhoath_the_ashen	0	0		none	drazhoath_the_ashen			wh_main_campaign_chs_ship_light	wh_main_campaign_chs_ship_heavy	cam_hu3_dwarf_axe_and_shield	cam_light_ship_04	cam_heavy_ship_04	1998588200		0	0	0
+rykarth_the_unbreakable	0	0		none	rykarth_the_unbreakable			wh_main_campaign_chs_ship_light	wh_main_campaign_chs_ship_heavy	cam_hu3_dwarf_2handed_axe_ungrim	cam_light_ship_04	cam_heavy_ship_04	1998588201		0	0	0
+zhatan_the_black	0	0		none	zhatan_the_black			wh_main_campaign_chs_ship_light	wh_main_campaign_chs_ship_heavy	cam_hu3_dwarf_2handed_axe_ungrim	cam_light_ship_04	cam_heavy_ship_04	1998588202		0	0	0

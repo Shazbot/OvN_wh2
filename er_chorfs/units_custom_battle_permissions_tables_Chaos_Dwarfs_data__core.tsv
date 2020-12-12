@@ -1,0 +1,50 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_chs_chaos_dwarfs	false	wh_main_chs_art_hellcannon	true	true				false
+wh2_main_chs_chaos_dwarfs	false	k'daai_fireborn	true	true				false
+wh2_main_chs_chaos_dwarfs	false	k'daai_destroyer	true	true				false
+wh2_main_chs_chaos_dwarfs	false	bull_centaur_render	true	true				false
+wh2_main_chs_chaos_dwarfs	false	bull_centaur_render_great_weapons	true	true				false
+wh2_main_chs_chaos_dwarfs	false	great_taurus	true	true				false
+wh2_main_chs_chaos_dwarfs	false	lammasu	true	true				false
+wh2_main_chs_chaos_dwarfs	false	infernal_guard	true	true				false
+wh2_main_chs_chaos_dwarfs	false	infernal_guard_great_weapons	true	true				false
+wh2_main_chs_chaos_dwarfs	false	infernal_guard_acolytes	true	true				false
+wh2_main_chs_chaos_dwarfs	false	infernal_guard_zealot	true	true				false
+wh2_main_chs_chaos_dwarfs	false	chaos_dwarf_warriors	true	true				false
+wh2_main_chs_chaos_dwarfs	false	chaos_dwarf_warriors_horde	true	true				false
+wh2_main_chs_chaos_dwarfs	false	chaos_dwarf_warriors_great_weapons	true	true				false
+wh2_main_chs_chaos_dwarfs	false	chaos_dwarf_warriors_rifles	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_cuthroats	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_sneaky_gits	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_archers	true	true				false
+wh2_main_chs_chaos_dwarfs	false	goblin_slaves	true	true				false
+wh2_main_chs_chaos_dwarfs	false	orc_slaves	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_wolf_bow_raider	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_bolt_thrower	true	true				false
+wh2_main_chs_chaos_dwarfs	false	deathshrieker_rocket_launcher	true	true				false
+wh2_main_chs_chaos_dwarfs	false	magma_cannon	true	true				false
+wh2_main_chs_chaos_dwarfs	false	iron_daemon	true	true				false
+wh2_main_chs_chaos_dwarfs	false	slave_ogre	true	true				false
+wh2_main_chs_chaos_dwarfs	false	immortals	true	true				false
+wh2_main_chs_chaos_dwarfs	false	granite_guard	true	true				false
+wh2_main_chs_chaos_dwarfs	false	black_orc_slaves_dual	true	true				false
+wh2_main_chs_chaos_dwarfs	false	bull_centaur_ba'hal	true	true				false
+wh2_main_chs_chaos_dwarfs	false	bull_centaur_ba'hal_guardians	true	true				false
+wh2_main_chs_chaos_dwarfs	false	infernal_guard_deathmask_naphta	true	true				false
+wh2_main_chs_chaos_dwarfs	false	lava_troll	true	true				false
+wh2_main_chs_chaos_dwarfs	false	magma_beasts	true	true				false
+wh2_main_chs_chaos_dwarfs	false	wh_main_chs_cha_dwarf_sorcerer_fire	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/chaos_dwarf_daemonsmith_02.png	wh_main_chs_cha_dwarf_sorcerer_fire		false
+wh2_main_chs_chaos_dwarfs	false	kollossus	true	true				false
+wh2_main_chs_chaos_dwarfs	false	ironsworn	true	true				false
+wh2_main_chs_chaos_dwarfs	false	wh_main_chs_cha_dwarf_sorcerer_death	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/chaos_dwarf_daemonsmith_03.png	wh_main_chs_cha_dwarf_sorcerer_death		false
+wh2_main_chs_chaos_dwarfs	false	wh_main_chs_cha_dwarf_sorcerer_metal	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/chaos_dwarf_daemonsmith_01.png	wh_main_chs_cha_dwarf_sorcerer_metal		false
+wh2_main_chs_chaos_dwarfs	false	wh_main_chs_cha_dwarf_castellan	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/chaos_dwarf_castellan.png	wh_main_chs_cha_dwarf_castellan		false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_khan	true	true	ui/portraits/portholes/wh_main_grn_greenskins/hobgoblin_khan.png	hobgoblin_khan		false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_khan_wolf	true	true	ui/portraits/portholes/wh_main_grn_greenskins/hobgoblin_khan.png	hobgoblin_khan_wolf		false
+wh2_main_chs_chaos_dwarfs	false	chaos_dwarf_warriors_quarrellers	true	true				false
+wh2_main_chs_chaos_dwarfs	false	chaos_dwarf_annihilators	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_hobhound_ravagers	true	true				false
+wh2_main_chs_chaos_dwarfs	false	hobgoblin_wolf_spears	true	true				false
+wh2_main_chs_chaos_dwarfs	false	wh_pro04_chs_art_hellcannon_ror_0	true	true				false
+wh2_main_chs_chaos_dwarfs	false	cr_chd_mon_siege_giant	true	true				false

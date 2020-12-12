@@ -1,0 +1,9 @@
+campaign_mercenary_unit_character_level_restrictions_tables	1
+character_level	unit	faction_override
+30	wh_pro04_chs_art_hellcannon_ror_0	wh2_main_chs_chaos_dwarfs
+10	chaos_dwarf_warriors_horde	
+23	ironsworn	
+30	granite_guard	
+13	magma_beasts	
+20	bull_centaur_ba'hal_guardians	
+30	wh_pro04_chs_art_hellcannon_ror_0	wh2_main_ovn_chaos_dwarfs

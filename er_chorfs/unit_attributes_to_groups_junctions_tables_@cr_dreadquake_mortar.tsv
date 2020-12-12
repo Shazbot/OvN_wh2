@@ -1,0 +1,5 @@
+unit_attributes_to_groups_junctions_tables	2
+attribute	attribute_group
+cant_run	wh_cantRun_mountedFireMove_unbreakable
+mounted_fire_move	wh_cantRun_mountedFireMove_unbreakable
+unbreakable	wh_cantRun_mountedFireMove_unbreakable

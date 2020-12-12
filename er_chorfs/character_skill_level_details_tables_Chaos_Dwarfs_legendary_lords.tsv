@@ -1,0 +1,16 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	wh_main_skill_chs_cha_dwarf_lord_taurus		17
+		x	1	wh_main_skill_chs_cha_dwarf_lord_lammasu		17
+		x	1	wh_main_skill_chs_cha_drazhoath_cinderbreath		17
+		x	1	wh_main_skill_chs_cha_dwarf_lord_taurus_zhatan		17
+		x	1	aalegendaryskill1		21
+		x	1	aalegendaryskill2		13
+		x	1	aalegendaryskill3		9
+		x	1	aalegendaryskill4		17
+		x	1	aalegendaryskill5		13
+		x	1	aalegendaryskill6		21
+		x	1	aadrazspecial1		9
+		x	1	aarykspecial1		9
+		x	1	aazhatspecial1		9
+		x	1	aazhatspecial7		17

@@ -1,0 +1,7 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+chs_chaos_dwarfs		wh_main_set_chaos_military_support	false
+chs_bull_centaur		wh_main_set_chaos_military_support	false
+chs_war_machines		wh_main_set_chaos_military_support	false
+chs_hobgoblins		wh_main_set_chaos_military_support	false
+chs_infernal		wh_main_set_chaos_military_support	false

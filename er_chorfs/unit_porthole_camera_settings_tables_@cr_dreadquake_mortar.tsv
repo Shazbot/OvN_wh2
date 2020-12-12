@@ -1,0 +1,3 @@
+unit_porthole_camera_settings_tables	2
+distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
+13.0	28.0	chd_dreadquake_mortar	190.0	200.0	-0.7	2.4	0.0	Porthole/advisor/default_porthole.lighting

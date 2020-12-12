@@ -1,0 +1,3 @@
+agent_culture_details_tables	9
+agent	culture	associated_unit	key	season	level	agent_recruited_movie	gender	icon	small_icon	recruitable_in_ui
+spy	wh_main_chs_chaos		1239435257		0		m		ui/campaign ui/agents/wh_main_grn_spy.png	true

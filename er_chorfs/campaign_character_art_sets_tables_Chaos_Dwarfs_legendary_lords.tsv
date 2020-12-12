@@ -1,0 +1,7 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	drazhoath_the_ashen				false	true	drazhoath_the_ashen	1.0
+general	drazhoath_the_ashen_1				false	true	drazhoath_the_ashen	1.0
+general	rykarth_the_unbreakable				false	true	rykarth_the_unbreakable	1.0
+general	zhatan_the_black				false	true	zhatan_the_black	1.0
+general	zhatan_the_black_1				false	true	zhatan_the_black	1.0

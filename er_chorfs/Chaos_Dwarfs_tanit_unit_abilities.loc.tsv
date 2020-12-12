@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_onscreen_name_cd_tanit_unit_abilities_great_taurus_breath	Flaming Breath	true
+unit_abilities_tooltip_text_cd_tanit_unit_abilities_great_taurus_breath	With each snorting exhale, flame erupts out of the beast's flared nostrils, and an oily smoke curls from its gaping maws.	true
+unit_abilities_onscreen_name_cd_tanit_unit_abilities_lammasu_breath	Sorcerous Exhalation	true
+unit_abilities_tooltip_text_cd_tanit_unit_abilities_lammasu_breath	The Lammasu breathes out whirling tendrils of magic, as it lives and breathes the very stuff of sorcery.	true
+unit_abilities_onscreen_name_cd_tanit_mount_passive_blazing_body	Blazing Body	true
+unit_abilities_tooltip_text_cd_tanit_mount_passive_blazing_body	This creature burns with a terrific intensity, its whole body wreathed in fire and choking smoke. Indeed, so angrily and hot does its skin burn, that swords and axes become molten and blunt on contact.	true
+unit_abilities_onscreen_name_cd_tanit_bound_spell_honeyed_words	Honeyed Words	true
+unit_abilities_tooltip_text_cd_tanit_bound_spell_honeyed_words	The Lammasu calls out to a creature of the Dark Lands with an insidious charisma, leaving it befuddled and suggestible to its cunning manipulations.	true

@@ -1,0 +1,10 @@
+variants_tables	5
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation
+great_taurus	VariantMeshes/wh_variantmodels/bc3/chd/chd_great_taurus/tech	cd_great_taurus_update		1.0	1.3	0.0
+great_taurus2	VariantMeshes/wh_variantmodels/bc3/chd/chd_great_taurus/tech	cd_great_taurus_update2		1.0	1.3	0.0
+cinderbreath	VariantMeshes/wh_variantmodels/bc3/chd/chd_great_taurus/tech	cd_cinderbreath		1.0	1.4	0.0
+lammasu	VariantMeshes/wh_variantmodels/bc3/chd/chd_great_taurus/tech	cd_lammasu_update		1.0	1.2	0.0
+wh_main_chs_cha_dwarf_lord_mnt		cd_castellan_warmaster_mnt		1.0	1.0	0.0
+zhatan_the_black_mnt		cd_zhatan_the_black_mnt		1.0	1.0	0.0
+drazhoath_the_ashen_mnt		cd_drazhoath_the_ashen_mnt		1.0	1.0	0.0
+wh_main_chs_cha_dwarf_lord_shadow_mnt		cd_sorcerer_prophet_mnt		1.0	1.0	0.0
