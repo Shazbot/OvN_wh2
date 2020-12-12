@@ -1,4 +1,4 @@
-special_ability_phases_tables	31
-duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies
--1.0	negative	cd_tanit_mount_passive_blazing_body		false	false	false	0.0	0.0	0.0	1.0	0	1.0	3	5	0	false	0.0	0.0	false	0		wh_main_spell_fire_cascading_fire_cloak	wh_main_spell_fire_cascading_fire_cloak	-1.0	false	true	true
-10.0	negative	tanit_cd_unit_contact_shellshocked		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	true	true
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+-1.0	negative	cd_tanit_mount_passive_blazing_body		false	false	false	0.0	0.0	0.0	1.0	0	1.0	3	5	0	false	0.0	0.0	false	0		wh_main_spell_fire_cascading_fire_cloak	wh_main_spell_fire_cascading_fire_cloak	-1.0	false	true	true	0.0	
+10.0	negative	tanit_cd_unit_contact_shellshocked		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
