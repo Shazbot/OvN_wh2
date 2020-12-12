@@ -9,13 +9,19 @@ local function sr_chaos_dwarfs()
 			function()
 					if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
 
-					local agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "champion", "label")
-					if agent_label then
-							agent_label:SetStateText("Infernal Castellan")
+					local ui_root = core:get_ui_root()
+					local list_box = find_uicomponent(ui_root, "character_panel", "agent_parent", "list_clip", "holder", "list_box")
+
+					if not list_box then return end
+
+					local champion_label = find_uicomponent(list_box, "champion", "label")
+					if champion_label then
+							champion_label:SetStateText("Infernal Castellan")
 					end
-					agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "wizard", "label")
-					if agent_label then
-							agent_label:SetStateText("Daemonsmith")
+
+					local wizard_label = find_uicomponent(list_box, "wizard", "label")
+					if wizard_label then
+							wizard_label:SetStateText("Daemonsmith")
 					end
 			end,
 			true

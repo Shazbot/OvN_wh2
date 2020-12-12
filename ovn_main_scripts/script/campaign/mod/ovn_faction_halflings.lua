@@ -18,29 +18,34 @@ local function halflings_init()
     setup_diplo()
 
     core:add_listener(
-    "pj_moot_rename_chorf_agents",
-    "PanelOpenedCampaign",
-    function(context)
-        return context.string == "character_panel"
-    end,
-    function()
-        if cm:get_local_faction_name(true) ~= "wh2_main_emp_the_moot" then return end
+				"pj_moot_rename_chorf_agents",
+				"PanelOpenedCampaign",
+				function(context)
+						return context.string == "character_panel"
+				end,
+				function()
+						if cm:get_local_faction_name(true) ~= "wh2_main_emp_the_moot" then return end
 
-        local agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "champion", "label")
-        if agent_label then
-            agent_label:SetStateText("Hero")
-        end
-        agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "spy", "label")
-        if agent_label then
-            agent_label:SetStateText("Protector")
-        end
-        agent_label = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent", "button_group_agents", "dignitary", "label")
-        if agent_label then
-            agent_label:SetStateText("Guardian")
-        end
-    end,
-    true
-)
+						local ui_root = core:get_ui_root()
+						local list_box = find_uicomponent(ui_root, "character_panel", "agent_parent", "list_clip", "holder", "list_box")
+
+						if not list_box then return end
+
+						local agent_label = find_uicomponent(list_box, "champion", "label")
+						if agent_label then
+								agent_label:SetStateText("Hero")
+						end
+						agent_label = find_uicomponent(list_box, "spy", "label")
+						if agent_label then
+								agent_label:SetStateText("Protector")
+						end
+						agent_label = find_uicomponent(list_box, "dignitary", "label")
+						if agent_label then
+								agent_label:SetStateText("Guardian")
+						end
+				end,
+				true
+		)
 
     if faction_obj:is_human() then
         core:add_listener(
