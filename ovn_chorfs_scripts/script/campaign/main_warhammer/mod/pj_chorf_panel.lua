@@ -222,8 +222,6 @@ local tree_to_other_bonuses = {
 		{
 			function()
 				unclock_ror("infernal_guard")
-				unclock_ror("infernal_guard_deathmask_naphta")
-				unclock_ror("infernal_guard_great_weapons")
 				give_unit("infernal_guard")
 			end
 		},
@@ -233,10 +231,15 @@ local tree_to_other_bonuses = {
 				give_unit("infernal_guard_great_weapons")
 			end
 		},
-		{},
 		{
 			function()
-				unclock_ror("ironsworn")
+				unclock_ror("infernal_guard_great_weapons")
+			end
+		},
+		{
+			function()
+				give_unit("infernal_guard_deathmask_naphta")
+				unclock_ror("infernal_guard_deathmask_naphta")
 			end
 		},
 		{
@@ -244,6 +247,7 @@ local tree_to_other_bonuses = {
 				if starting_lord ~= "pj_chorf_panel_starting_lord_ash" then
 					cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467590", "names_name_995467593", "", "", 18, true, "general", "drazhoath_the_ashen", true, "")
 				end
+				unclock_ror("ironsworn")
 				cm:set_saved_value("pj_chorf_panel_heal_infernals_after_battle", true)
 			end
 		}
@@ -329,17 +333,19 @@ local tree_to_effect_bonuses = {
 			{"pj_chorfs_infernals_xp", "faction_to_province_own_unseen", 1}
 		},
 		{
+			{"pj_chorfs_unlock_infernals_fireglaive", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_xp", "faction_to_province_own_unseen", 1},
 			{"wh_main_effect_agent_recruitment_xp_champion_chaos", "faction_to_province_own_unseen", 1},
 			{"wh_main_effect_agent_cap_increase_champion_exalted_hero", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_fatigue", "faction_to_force_own", -20},
 		},
 		{
+			{"pj_chorfs_unlock_infernals_naptha", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_upkeep", "faction_to_force_own_unseen", -5},
 			{"pj_chorfs_infernals_md", "faction_to_force_own", 5},
-			{"pj_chorf_panel_unlock_ror_ironsworn", "faction_to_faction_own_unseen", 1},
 		},
 		{
+			{"pj_chorf_panel_unlock_ror_ironsworn", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_heal", "faction_to_faction_own_unseen", 1},
 		}
 	},
@@ -432,18 +438,21 @@ local tree_to_bonuses = {
 			"Upkeep: -5% for Infernal Guard units",
 		},
 		{
+			"Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings",
 			"Hero capacity: +1 for Infernal Castellans",
 			"Hero recruit rank: +1 for Infernal Castellans",
 			"Recruit Rank: +1 for Infernal Guard units",
 			"Vigour loss reduction: +20% for Infernal Guard units",
 		},
 		{
-			"Unlocks Regiment of Renown: Infernal Ironsworn (Infernal Guard)",
+			"Receive a unit of Infernal Guard (Naptha Bombs)",
+			"Allows access to the Infernal Guard (Naptha Bombs) units throught recruitment buildings",
 			"Upkeep: -5% for Infernal Guard units",
 			"Melee defence: +5 for Infernal Guard units",
 		},
 		{
 			"Unlocks Legendary Lord: Drazhoath the Ashen",
+			"Unlocks Regiment of Renown: Infernal Ironsworn (Infernal Guard)",
 			"Infernal Guard units replenish 20% health after battle",
 		},
 	},
