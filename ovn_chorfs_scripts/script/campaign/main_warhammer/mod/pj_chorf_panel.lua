@@ -253,7 +253,7 @@ local tree_to_other_bonuses = {
 local tree_to_effect_bonuses = {
 	zhatan = {
 		{
-			{"ads_slave_upkeep", "faction_to_faction_own_unseen", -8},
+			{"ads_slave_upkeep", "faction_to_force_own_unseen", -8},
 		},
 		{
 			{"wh_main_effect_agent_enable_recruitment_wizard_chaos", "faction_to_province_own_unseen", 1},
@@ -286,7 +286,7 @@ local tree_to_effect_bonuses = {
 	},
 	immortal = {
 		{
-			{"ads_chaosdwarf_upkeep", "faction_to_faction_own_unseen", -5},
+			{"ads_chaosdwarf_upkeep", "faction_to_force_own_unseen", -5},
 			{"wh_main_effect_public_order_global", "faction_to_province_own", 1},
 		},
 		{
@@ -295,17 +295,17 @@ local tree_to_effect_bonuses = {
 			{"wh_main_effect_public_order_global", "faction_to_province_own", 1},
 		},
 		{
-			{"pj_chorfs_acolytes_upkeep", "faction_to_faction_own_unseen", -5},
+			{"pj_chorfs_acolytes_upkeep", "faction_to_force_own_unseen", -5},
 			{"wh_main_effect_public_order_global", "faction_to_province_own", 1},
 		},
 		{
-			{"pj_chorfs_immortals_upkeep", "faction_to_faction_own_unseen", -5},
+			{"pj_chorfs_immortals_upkeep", "faction_to_force_own_unseen", -5},
 			{"wh_main_effect_unit_recruitment_points", "faction_to_province_own_unseen", 1},
 			{"wh_main_faction_xp_increase_generals", "province_to_province_own_factionwide", 1},
 		},
 		{
-			{"pj_chorfs_immortals_upkeep", "faction_to_faction_own_unseen", -5},
-			{"pj_chorfs_acolytes_upkeep", "faction_to_faction_own_unseen", -5},
+			{"pj_chorfs_immortals_upkeep", "faction_to_force_own_unseen", -5},
+			{"pj_chorfs_acolytes_upkeep", "faction_to_force_own_unseen", -5},
 			{"wh_dlc05_effect_global_recruitment_duration_all", "faction_to_faction_own_unseen", -1}
 		},
 		{
@@ -315,8 +315,8 @@ local tree_to_effect_bonuses = {
 	},
 	draz = {
 		{
-			{"pj_chorfs_infernals_upkeep", "faction_to_faction_own_unseen", -5},
-			{"pj_chorfs_infernals_xp", "faction_to_faction_own_unseen", 1},
+			{"pj_chorfs_infernals_upkeep", "faction_to_force_own_unseen", -5},
+			{"pj_chorfs_infernals_xp", "faction_to_province_own_unseen", 1},
 			{"pj_chorfs_unlock_infernals", "faction_to_faction_own_unseen", 1}
 		},
 		{
@@ -325,17 +325,17 @@ local tree_to_effect_bonuses = {
 			{"wh_main_effect_agent_enable_recruitment_champion_chaos", "faction_to_province_own_unseen", 1}
 		},
 		{
-			{"pj_chorfs_infernals_upkeep", "faction_to_faction_own_unseen", -5},
-			{"pj_chorfs_infernals_xp", "faction_to_faction_own_unseen", 1}
+			{"pj_chorfs_infernals_upkeep", "faction_to_force_own_unseen", -5},
+			{"pj_chorfs_infernals_xp", "faction_to_province_own_unseen", 1}
 		},
 		{
-			{"pj_chorfs_infernals_xp", "faction_to_faction_own_unseen", 1},
+			{"pj_chorfs_infernals_xp", "faction_to_province_own_unseen", 1},
 			{"wh_main_effect_agent_recruitment_xp_champion_chaos", "faction_to_province_own_unseen", 1},
 			{"wh_main_effect_agent_cap_increase_champion_exalted_hero", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_fatigue", "faction_to_force_own", -20},
 		},
 		{
-			{"pj_chorfs_infernals_upkeep", "faction_to_faction_own_unseen", -5},
+			{"pj_chorfs_infernals_upkeep", "faction_to_force_own_unseen", -5},
 			{"pj_chorfs_infernals_md", "faction_to_force_own", 5},
 			{"pj_chorf_panel_unlock_ror_ironsworn", "faction_to_faction_own_unseen", 1},
 		},
