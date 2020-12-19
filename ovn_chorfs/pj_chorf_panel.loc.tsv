@@ -14,3 +14,5 @@ character_trait_levels_onscreen_name_pj_trait_chorf_lord	Son of Zharr-Naggrund	t
 campaign_localised_strings_string_pj_chorf_panel_infernals_lock	[[col:red]]The Infernal Guard units will unlock only if you curry favor with the Lord of the Black Fortress.[[/col]]	true
 campaign_localised_strings_string_pj_chorf_panel_ror_lock_ghorth	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Zharr-Naggrund.[[/col]]	true
 campaign_localised_strings_string_pj_chorf_panel_ror_lock_zharr	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Ghorth the Cruel.[[/col]]	true
+effects_description_pj_chorfs_unlock_infernals_fireglaive	Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings	true
+effects_description_pj_chorfs_unlock_infernals_naptha	Allows access to the Infernal Guard (Naptha Bombs) units throught recruitment buildings	true
