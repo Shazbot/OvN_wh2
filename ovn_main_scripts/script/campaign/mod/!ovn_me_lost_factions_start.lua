@@ -109,6 +109,10 @@ local function amazon_setup()
 
 	add_cqi_to_murdered_list(amazon_faction_leader_cqi)
 
+	if effect.get_localised_string("land_units_onscreen_name_roy_amz_inf_eagle_warriors") == "" then
+		return
+	end
+
 	if amazon and (amazon:is_human() or not mct or settings_table.amazon and settings_table.enable) then
 		-- give Tlanxla to Amazons, do some work for them
 		cm:transfer_region_to_faction("wh2_main_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
@@ -120,47 +124,25 @@ local function amazon_setup()
 			cm:transfer_region_to_faction("wh2_main_jungles_of_green_mists_wellsprings_of_eternity", "wh2_dlc12_skv_clan_mange")
 		end
 
-		if vfs.exists("script/campaign/mod/amazons_missions.lua") then
-			cm:create_force_with_general(
-				"wh2_main_amz_amazons",
-				"roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged",
-				"wh2_main_great_desert_of_araby_el-kalabad",
-				76,
-				160,
-				"general",
-				"roy_amz_penthesilea",
-				"names_name_3508823034",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:add_agent_experience("character_cqi:" .. cqi, 2000)
-					cm:set_character_immortality("character_cqi:" .. cqi, true)
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-				end
-			)
-		else
-			cm:create_force_with_general(
-				"wh2_main_amz_amazons",
-				"lzd_amazon,lzd_amazon,lzd_amazon,jag_amazon,jag_amazon,wh2_main_lzd_mon_carnosaur_0,wh2_main_lzd_cav_cold_ones_feral_0,wh2_main_lzd_cav_cold_ones_feral_0",
-				"wh2_main_great_desert_of_araby_el-kalabad",
-				76,
-				160,
-				"general",
-				"dlc05_wef_glade_lord_fem",
-				"names_name_999982307",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:add_agent_experience("character_cqi:" .. cqi, 2000)
-					cm:set_character_immortality("character_cqi:" .. cqi, true)
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-				end
-			)
-		end
+		cm:create_force_with_general(
+			"wh2_main_amz_amazons",
+			"roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged",
+			"wh2_main_great_desert_of_araby_el-kalabad",
+			76,
+			160,
+			"general",
+			"roy_amz_penthesilea",
+			"names_name_3508823034",
+			"",
+			"",
+			"",
+			true,
+			function(cqi)
+				cm:add_agent_experience("character_cqi:" .. cqi, 2000)
+				cm:set_character_immortality("character_cqi:" .. cqi, true)
+				cm:set_character_unique("character_cqi:" .. cqi, true)
+			end
+		)
 
 		table.insert(factions, faction_key)
 	end

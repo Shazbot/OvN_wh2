@@ -93,6 +93,10 @@ local function amazon_setup()
 
 	add_cqi_to_murdered_list(amazon_faction_leader_cqi)
 
+	if effect.get_localised_string("land_units_onscreen_name_roy_amz_inf_eagle_warriors") == "" then
+		return
+	end
+
 	if amazon and (amazon:is_human() or not mct or settings_table.amazon and settings_table.enable) then
 		cm:transfer_region_to_faction("wh2_main_vor_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
 		local tlanxla_region = cm:model():world():region_manager():region_by_key("wh2_main_vor_the_creeping_jungle_tlanxla")
@@ -567,7 +571,7 @@ local function dreadking_setup()
 	if dread_king and (dread_king:is_human() or not mct or settings_table.dreadking and settings_table.enable) then
 		local galbaraz_region = cm:model():world():region_manager():region_by_key("wh2_main_vor_southern_badlands_galbaraz")
 
-		cm:force_add_trait(cm:char_lookup_str(dread_king_faction_leader_cqi), "dk_trait_name_dummy", false)	
+		cm:force_add_trait(cm:char_lookup_str(dread_king_faction_leader_cqi), "dk_trait_name_dummy", false)
 
 		add_cqi_to_murdered_list(dread_king_faction_leader_cqi)
 		if dread_king:is_human() then

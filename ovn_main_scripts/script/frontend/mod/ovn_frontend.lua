@@ -27,8 +27,26 @@ local ovn_info = {
 
 };
 
+--- Hide the amazons if the Expanded Roster Amazons submod isn't present.
+local function hide_amazons()
+	if effect.get_localised_string("land_units_onscreen_name_roy_amz_inf_eagle_warriors") == "" then
+		local list_box = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "top_docker", "lord_select_list", "list", "list_clip", "list_box")
+		for i=0, list_box:ChildCount()-1 do
+			local comp = UIComponent(list_box:Find(i))
+			if comp:Id() == "Penthesilea" then
+				comp:SetVisible(false)
+
+				-- also hide the divider that is the next component after the amazons
+				local comp_next = UIComponent(list_box:Find(i+1))
+				comp_next:SetVisible(false)
+				break
+			end
+		end
+	end
+end
+
 function ovn_movie_replacer()
-	local portrait_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame");	
+	local portrait_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame");
 	local custom_image = portrait_frame:Find("ovn_custom_image");
 	if custom_image then
 		return UIComponent(custom_image);
@@ -56,9 +74,11 @@ core:add_listener(
 			return
 		end
 
-		for i = 0, faction_list:ChildCount() - 1 do	
+		hide_amazons()
+
+		for i = 0, faction_list:ChildCount() - 1 do
 			local child = UIComponent(faction_list:Find(i));
-			
+
 			core:add_listener(
 				"ovn_frontend_lord_button_clicked",
 				"ComponentLClickUp",
@@ -67,33 +87,33 @@ core:add_listener(
 				end,
 				function(context)
 					local startpos_id = child:GetProperty("lord_key");
-					
+
 					local custom_image = ovn_movie_replacer();
 					local is_custom_ll = ovn_startpos_id_check(startpos_id)
-					
 
-					
+
+
 					if not is_custom_ll then
-						custom_image:SetOpacity(0);	
+						custom_image:SetOpacity(0);
 					else
 						custom_image:SetImagePath("ui/portraits/frontend/"..is_custom_ll..".png", 0);
 						custom_image:SetOpacity(255);
 					end
-					
-					local movie_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame", "movie_frame");		
+
+					local movie_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame", "movie_frame");
 
 					local x, y = movie_frame:Position();
-						
+
 					custom_image:MoveTo(x, y);
 
 					custom_image:PropagatePriority(movie_frame:Priority());
-							
+
 					custom_image:SetCanResizeHeight(true)
 					custom_image:SetCanResizeWidth(true)
 					custom_image:Resize(464, 624)
 					custom_image:SetCanResizeHeight(false)
 					custom_image:SetCanResizeWidth(false)
-										
+
 				end,
 				true
 			);
