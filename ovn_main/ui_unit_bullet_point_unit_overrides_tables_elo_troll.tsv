@@ -43,3 +43,7 @@ anti_large	elo_snow_troll
 regeneration	elo_snow_troll
 armour_piercing	elo_snow_troll
 big_angry	elo_snow_troll
+regeneration	elo_warpstone_trolls
+anti_infantry	elo_warpstone_trolls
+warpstone_solid	elo_warpstone_trolls
+contaminating_attacks	elo_warpstone_trolls

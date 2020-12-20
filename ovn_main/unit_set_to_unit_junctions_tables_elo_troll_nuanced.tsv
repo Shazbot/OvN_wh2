@@ -97,3 +97,9 @@ false				wh2_dlc15_grn_mon_river_trolls_ror_0	elo_danger_below
 false				wh2_dlc15_grn_mon_river_trolls_ror_0	menace_land
 false				wh2_dlc15_grn_mon_river_trolls_ror_0	all_troll_fimir
 false				wh2_dlc15_grn_mon_river_trolls_ror_0	river_trolls
+false				elo_warpstone_trolls	elo_mountain_masters
+false				elo_warpstone_trolls	elo_all_trolls
+false				elo_warpstone_trolls	unnatural_resilience
+false				elo_warpstone_trolls	all_troll_fimir
+false				elo_shipwreckers	menace_land
+false				elo_warpstone_trolls	wh2_main_ror_units_all

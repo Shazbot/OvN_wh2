@@ -27,3 +27,4 @@ temper_tantrum	15.0	stat_melee_attack	add
 temper_tantrum	2.0	stat_melee_damage_ap	mult
 temper_tantrum	2.0	stat_melee_damage_base	mult
 temper_tantrum	15.0	stat_resistance_physical	add
+warpstone_solid	40.0	stat_resistance_all	add

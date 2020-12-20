@@ -5,3 +5,5 @@ morale_is_broken_or_lower	rock_solid
 engaged_in_melee	run_and_shakeoff
 unit_is_not_in_forest	difficult_to_spot
 enemies_in_intercept_range	difficult_to_spot
+health_below_50%_base	warpstone_solid
+morale_is_broken_or_lower	warpstone_solid

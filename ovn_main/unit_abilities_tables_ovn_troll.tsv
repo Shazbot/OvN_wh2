@@ -16,3 +16,4 @@ difficult_to_spot	false	wh_dlc07_hero_passive_sacred_guardian		wh_type_augment		
 stunted_regeneration	false	wh_main_unit_passive_regeneration		wh_type_regeneration		wh_main_anc_group_uncommon	false	false	unit		false
 sickness_host	false	wh2_main_character_passive_aura_of_pestilence		wh_type_hex		wh_main_anc_group_uncommon	false	false	unit		false
 temper_tantrum	false	wh_dlc03_unit_abilities_slaughterers_call		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
+warpstone_solid	false	wh2_main_item_passive_warpstone_armour		wh_type_augment		wh_main_anc_group_rare	false	false	unit		false

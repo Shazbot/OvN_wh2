@@ -26,3 +26,5 @@ unit_abilities_onscreen_name_temper_tantrum	Reckless Rampage	true
 unit_abilities_tooltip_text_temper_tantrum	This is what happens if an already angry Troll feels provoked, frustrated, threatened or bored.	true
 unit_abilities_tooltip_text_burning_aura_of_ouch	Lava Trolls are filled with unbearable heat. Those getting too close are affected by this heat, their flesh burning in the presence of this twisted troll species.	true
 unit_abilities_onscreen_name_burning_aura_of_ouch	Burning Presence	true
+unit_abilities_tooltip_text_warpstone_solid	The twisted effects of their warpstone changed skin made the skin of these creatures highly resistant to any damage, especially magic. They don't feel pain and will not run before the their unnatural armour is broken.	true
+unit_abilities_onscreen_name_warpstone_solid	Warpstone Skin	true

@@ -4,3 +4,4 @@ chance_to_replenish	key	max_count	unit_record	use_partial_replenishment	max_repl
 100.0	elo_shipwreckers	1	elo_shipwreckers	true	0.1
 100.0	elo_kin	1	elo_kin	true	0.1
 100.0	elo_night_trolls_ror	1	elo_night_trolls_ror	true	0.1
+100.0	elo_warpstone_trolls	1	elo_warpstone_trolls	true	0.1

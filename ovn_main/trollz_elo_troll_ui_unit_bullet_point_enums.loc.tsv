@@ -20,3 +20,7 @@ ui_unit_bullet_point_enums_tooltip_no_regeneration	The regenerative abilities of
 ui_unit_bullet_point_enums_onscreen_name_no_regeneration	No Regeneration	true
 ui_unit_bullet_point_enums_tooltip_burning_aura	Lava Trolls radiate heat. Those who come too close to engage these monsters in melee are often burned by their proximity to the Lava Trolls alone.	true
 ui_unit_bullet_point_enums_onscreen_name_burning_aura	Burning Aura	true
+ui_unit_bullet_point_enums_tooltip_warpstone_solid	Somehow Warpstone has fused to the skin of these creatures, making them resilient to all types of damage. And those who feel no pain will not retreat easily - at least as long as their protective shell persists.	true
+ui_unit_bullet_point_enums_onscreen_name_warpstone_solid	Warpstone Infused Skin	true
+ui_unit_bullet_point_enums_tooltip_contaminating_attacks	The weapons made of crude, unrefined warpstone cause weird, unnatural effects on closeby targets, greatly increasing their desire to avoid being engaged in combat with monsters wielding them.	true
+ui_unit_bullet_point_enums_onscreen_name_contaminating_attacks	Contaminating Attacks	true

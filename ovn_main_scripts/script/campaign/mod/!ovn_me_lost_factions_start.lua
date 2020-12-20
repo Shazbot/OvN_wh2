@@ -695,6 +695,7 @@ local function trollz_setup()
 			"elo_kin",
 			"elo_night_trolls_ror",
 			"wh2_dlc15_grn_mon_river_trolls_ror_0",
+            "elo_warpstone_trolls",
 
 		}
 

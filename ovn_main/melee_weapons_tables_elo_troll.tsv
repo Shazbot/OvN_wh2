@@ -8,3 +8,4 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	35	0	snow_troll_hammer	45	225	0	3.0	axe	club_huge	large	4	1.0	250	0.0	false	wh_dlc08_unit_contact_frostbite	0	10	4.0	
 0	0	0	ugma_club	200	250	0	2.0	axe	club_huge	large	6	1.0	250	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
 0	0	20	chaos_stone_troll_club	44	58	0	2.0	axe	club_medium	medium	4	1.0	100	0.0	false		0	10	4.0	
+0	0	20	warpstone_club	44	58	0	2.0	axe	club_medium	medium	4	1.0	100	0.0	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.0	
