@@ -111,49 +111,25 @@ local function amazon_setup()
 
 		local faction_key = "wh2_main_amz_amazons" -- factions key
 
-		if vfs.exists("script/campaign/mod/amazons_missions.lua") then
-			local faction_name = cm:model():world():faction_by_key(faction_key) -- FACTION_SCRIPT_INTERFACE faction
-
-			cm:create_force_with_general(
-				"wh2_main_amz_amazons",
-				"roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged",
-				"wh2_main_vor_the_creeping_jungle_tlanxla",
-				135,
-				285,
-				"general",
-				"roy_amz_penthesilea",
-				"names_name_3508823034",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:add_agent_experience("character_cqi:" .. cqi, 2000)
-					cm:set_character_immortality("character_cqi:" .. cqi, true)
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-				end
-			)
-		else
-			cm:create_force_with_general(
-				"wh2_main_amz_amazons",
-				"lzd_amazon,lzd_amazon,lzd_amazon,jag_amazon,jag_amazon,wh2_main_lzd_mon_carnosaur_0,wh2_main_lzd_cav_cold_ones_feral_0,wh2_main_lzd_cav_cold_ones_feral_0",
-				"wh2_main_vor_the_creeping_jungle_tlanxla",
-				135,
-				285,
-				"general",
-				"dlc05_wef_glade_lord_fem",
-				"names_name_999982307",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:add_agent_experience("character_cqi:" .. cqi, 2000)
-					cm:set_character_immortality("character_cqi:" .. cqi, true)
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-				end
-			)
-		end
+		cm:create_force_with_general(
+			"wh2_main_amz_amazons",
+			"roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged",
+			"wh2_main_vor_the_creeping_jungle_tlanxla",
+			135,
+			285,
+			"general",
+			"roy_amz_penthesilea",
+			"names_name_3508823034",
+			"",
+			"",
+			"",
+			true,
+			function(cqi)
+				cm:add_agent_experience("character_cqi:" .. cqi, 2000)
+				cm:set_character_immortality("character_cqi:" .. cqi, true)
+				cm:set_character_unique("character_cqi:" .. cqi, true)
+			end
+		)
 
 		table.insert(factions, faction_key)
 	end
