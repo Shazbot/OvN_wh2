@@ -1,0 +1,5 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+harad_almuktar_desert_dogs		OVNXTEB_almuktar_desert_dogs	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+teb_muktar_muktar		OVNXTEB_harad_al_muktar_officer		1.0	1.0	0.0	hu1\imposter\humanoid_imposter
+harad_al_muktar_officer		OVNXTEB_teb_muktar_muktar		1.0	1.0	0.05	
