@@ -14,7 +14,7 @@ local new_forces = {
             name3 = "names_name_999982323",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("character_cqi:"..cqi, 2000)
                     cm:set_character_unique("character_cqi:"..cqi, true);
@@ -35,7 +35,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("faction:wh2_main_arb_aswad_scythans,forename:999982308", 2000)
                     cm:set_character_immortality("faction:wh2_main_arb_aswad_scythans,forename:999982308", true)
@@ -56,7 +56,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("character_cqi:"..cqi, 2000)
                     cm:set_character_immortality("character_cqi:"..cqi, true)
@@ -77,7 +77,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                     cm:add_agent_experience("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", 2000)
@@ -100,7 +100,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
@@ -119,7 +119,7 @@ local new_forces = {
             name3 = "names_name_247258465",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("faction:wh2_main_wef_treeblood,forename:247258464", 2000)
                     --cm:set_character_immortality("faction:wh2_main_wef_treeblood,forename:247258464", true);
@@ -140,7 +140,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("faction:wh_dlc08_nor_goromadny_tribe,forename:999982314", 2000)
                     cm:set_character_immortality("faction:wh_dlc08_nor_goromadny_tribe,forename:999982314", true);
@@ -161,31 +161,13 @@ local new_forces = {
             name3 = "names_name_247259236",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     local str = "character_cqi:"..cqi
                     cm:add_agent_experience(str, 2000)
                     cm:set_character_immortality(str, true)
                     cm:add_unit_model_overrides(str, "Dread_King");
                     cm:set_character_unique("character_cqi:"..cqi, true);
-                end
-        },
-
-        wh2_main_nor_albion = {
-            faction_key = "wh2_main_nor_albion",
-            unit_list = "elo_youngbloods,elo_albion_warriors,elo_albion_warriors_spears",
-            region_key = "wh2_main_great_desert_of_araby_el-kalabad",
-            x = 330,
-            y = 566,
-            type = "general",
-            subtype = "albion_warleader",
-            name1 = "names_name_77777054",
-            name2 = "",
-            name3 = "names_name_77777083",
-            name4 = "",
-            make_faction_leader = false,
-            callback = 
-                function(cqi)
                 end
         },
 
@@ -202,7 +184,7 @@ local new_forces = {
             name3 = "names_name_77779002",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 7, true);
                     cm:set_character_unique("character_cqi:"..cqi, true);
@@ -221,7 +203,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = false,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 0, true);
                 end
@@ -240,7 +222,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 0, true);
                 end
@@ -250,7 +232,7 @@ local new_forces = {
             faction_key = "wh2_main_rogue_troll_skullz",
             unit_list = "elo_mountain_trolls,elo_forest_trolls,wh_main_grn_mon_trolls,elo_river_trolls",
             region_key = "wh_main_talabecland_kappelburg",
-            x = 530, 
+            x = 530,
             y = 545,
             type = "general",
             subtype = "elo_cha_troll_lord",
@@ -259,13 +241,13 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = false,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 0, true);
                 end
         },
 
-    
+
         wh2_rogue_troll3 = {
             faction_key = "wh2_main_rogue_troll_skullz",
             unit_list = "elo_mountain_trolls,wh_main_grn_mon_trolls,elo_forest_trolls,elo_snow_troll",
@@ -279,7 +261,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = false,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 0, true);
                 end
@@ -298,7 +280,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = false,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 0, true);
                 end
@@ -317,7 +299,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = false,
-            callback = 
+            callback =
                 function(cqi)
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", cqi, 0, true);
                 end
@@ -336,13 +318,13 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("faction:wh2_main_emp_the_moot,forname:999982316", 2000)
                     cm:set_character_immortality("faction:wh2_main_emp_the_moot,forename:999982316", true);
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
-        }   
+        }
     },
 
     ["wh2_main_great_vortex"] = {
@@ -359,7 +341,7 @@ local new_forces = {
             name3 = "names_name_247259236",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:add_agent_experience("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", 2000)
                     cm:set_character_immortality("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", true)
@@ -367,7 +349,7 @@ local new_forces = {
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
         },
-        
+
         wh2_main_arb_caliphate_of_araby = {
             faction_key = "wh2_main_arb_caliphate_of_araby",
             unit_list = "ovn_cat_knights,ovn_jez,wh_main_arb_cav_magic_carpet_0,OtF_khemri_swordsmen,OtF_khemri_archers,ovn_arb_art_grand_bombard",
@@ -381,7 +363,7 @@ local new_forces = {
             name3 = "names_name_999982323",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                     cm:add_agent_experience("faction:wh2_main_arb_caliphate_of_araby,forename:247258412", 2000)
@@ -394,7 +376,7 @@ local new_forces = {
             unit_list = "ovn_arb_cav_lancer_camel,ovn_arb_cav_lancer_camel,ovn_arb_cav_archer_camel,wh_main_arb_mon_war_elephant,OtF_khemri_rangers,ovn_scor",
             region_key = "wh2_main_vor_coast_of_araby_al_haikk",
             x = 700,
-            y = 265, 
+            y = 265,
             type = "general",
             subtype = "arb_fatandira",
             name1 = "names_name_999982308",
@@ -402,7 +384,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                     cm:add_agent_experience("faction:wh2_main_arb_aswad_scythans,forename:999982308", 2000)
@@ -416,14 +398,14 @@ local new_forces = {
             region_key = "wh2_main_vor_coast_of_araby_al_haikk",
             x = 277,
             y = 310,
-            type = "general",	
+            type = "general",
             subtype = "arb_golden_magus",
             name1 = "names_name_999982318",
             name2 = "",
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                     cm:add_agent_experience("faction:wh2_main_arb_flaming_scimitar,forename:999982318", 2000)
@@ -444,7 +426,7 @@ local new_forces = {
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                     cm:add_agent_experience("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", 2000)
@@ -459,38 +441,20 @@ local new_forces = {
             unit_list = "wh2_dlc10_hef_inf_the_storm_riders_ror_0,wh2_main_hef_inf_spearmen_0,wh2_main_hef_inf_swordmasters_of_hoeth_0,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,wh2_main_hef_mon_great_eagle",
             region_key = "wh2_main_vor_cothique_mistnar",
             x = 330,
-            y = 57,   
-            type = "general",	
+            y = 57,
+            type = "general",
             subtype = "ovn_stormrider",
             name1 = "names_name_999982321",
             name2 = "",
             name3 = "",
             name4 = "",
             make_faction_leader = true,
-            callback = 
+            callback =
                 function(cqi)
                 cm:set_character_unique("character_cqi:"..cqi, true);
                 end
         },
 
-        wh2_main_nor_albion = {
-            faction_key = "wh2_main_nor_albion",
-            unit_list = "elo_youngbloods,elo_albion_warriors,elo_albion_warriors_spears",
-            region_key = "wh2_main_vor_coast_of_araby_al_haikk",
-            x = 655,
-            y = 660,
-            type = "general",
-            subtype = "albion_warleader",
-            name1 = "names_name_77777054",
-            name2 = "",
-            name3 = "names_name_77777083",
-            name4 = "",
-            make_faction_leader = false,
-            callback = 
-                function(cqi)
-                end
-        } 
-        
     }
 }
 

@@ -10,7 +10,7 @@ local your_cool_lords_me = {
 	["1624764695"] = "golden_magus",
 	["882030"] = "chorfs",
 	["2140783503"] = "blood_dragons",
-	["937413525"] = "albion",
+	-- ["937413525"] = "albion",
 	["32930744"] = "ugma",
 	["1409023687"] = "fimir_servants",
 	["209967969"] = "fimir_killing_eye",
@@ -25,7 +25,7 @@ local your_cool_lords_vortex = {
 	["2119533354"] = "jaffar",
 	["365146035"] = "hassan_hame",
 	["1242187756"] = "golden_magus",
-	["794782611"] = "albion",
+	-- ["794782611"] = "albion",
 }
 
 -- unit name should be the land units key (not main units!), it's used to get the unit's name and nothing else
@@ -121,11 +121,11 @@ end
 ---	Create the frontend unit card
 -----------------------------------------------
 local function create_unit_card_for_frontend(unit_key, unit_card, id)
-	local parent = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "lord_details_panel", "units", "start_units", "card_holder")		
+	local parent = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "lord_details_panel", "units", "start_units", "card_holder")
     if not is_uicomponent(parent) then script_error("[parent] expected to be a UIComponent, wrong type!") return end
 
     -- create the UI Component
-    local uic = core:get_or_create_component("your_cool_prefix_"..unit_key.."_"..id, "ui/campaign ui/region_info_pip", parent)
+    local uic = core:get_or_create_component("ovn_unit_card_"..id, "ui/templates/custom_image", parent)
 
     -- check that it worked
     if not uic then
@@ -134,13 +134,13 @@ local function create_unit_card_for_frontend(unit_key, unit_card, id)
     end
 
 	local unit_name = effect.get_localised_string("land_units_onscreen_name_"..unit_key)
-	
+
 	uic:SetVisible(true)
-    uic:SetImagePath("ui/units/icons/"..unit_card..".png")
+    uic:SetImagePath("ui/units/icons/"..unit_card..".png", 4)
     uic:Resize(50, 110)
     uic:SetOpacity(255)
 	uic:SetTooltipText(unit_name, true)
-	
+
 	parent:Adopt(uic:Address())
 end
 
@@ -152,42 +152,42 @@ core:add_listener(
 	function(context) return context.string == "sp_grand_campaign" end,
 	function(context)
 		local uic_grand_campaign = find_uicomponent("sp_grand_campaign")
-		
+
 		if not uic_grand_campaign then
 			script_error("ERROR: add_unit_card_listener() couldn't find uic_grand_campaign, how can this be?");
 			return false;
 		end;
-		
+
 		local faction_list = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "top_docker", "lord_select_list", "list", "list_clip", "list_box")
 		if not faction_list then
 			return
 		end
-            	
-		for i = 0, faction_list:ChildCount() - 1 do	
-			local child = UIComponent(faction_list:Find(i))		
+
+		for i = 0, faction_list:ChildCount() - 1 do
+			local child = UIComponent(faction_list:Find(i))
 			core:add_listener(
 				"pj_ovn_frontend_on_lord_click",
 				"ComponentLClickUp",
 				function(context)
 					return child == UIComponent(context.component);
 				end,
-				function(context)			
+				function(context)
 					local startpos_id = child:GetProperty("lord_key")
 
 					local is_this_your_frontend_dude = startpos_id_check(startpos_id)
 					if is_this_your_frontend_dude then
-						core:add_listener("pj_ovn_frontend_on_lord_clicked_cb", "RealTimeTrigger", function(context) return context.string == "pj_ovn_frontend_clicked_ovn_lord_cb" end, 
+						core:add_listener("pj_ovn_frontend_on_lord_clicked_cb", "RealTimeTrigger", function(context) return context.string == "pj_ovn_frontend_clicked_ovn_lord_cb" end,
 						function(context)
-							local units = starting_units[is_this_your_frontend_dude]					
+							local units = starting_units[is_this_your_frontend_dude]
 							if units ~= nil then
-								create_unit_card_for_frontend(units.starting_unit_1, units.unit_card_1, 1)						
-								create_unit_card_for_frontend(units.starting_unit_2, units.unit_card_2, 2)						
-								create_unit_card_for_frontend(units.starting_unit_3, units.unit_card_3, 3)						
-							end	
-						end, 
+								create_unit_card_for_frontend(units.starting_unit_1, units.unit_card_1, 1)
+								create_unit_card_for_frontend(units.starting_unit_2, units.unit_card_2, 2)
+								create_unit_card_for_frontend(units.starting_unit_3, units.unit_card_3, 3)
+							end
+						end,
 						false)
-						
-						real_timer.register_singleshot("pj_ovn_frontend_clicked_ovn_lord_cb", 0)		
+
+						real_timer.register_singleshot("pj_ovn_frontend_clicked_ovn_lord_cb", 0)
 					end
 				end,
 				true
