@@ -9,8 +9,6 @@ effects_description_pj_chorfs_infernals_md	Melee defence: %+n for Infernal Guard
 effects_description_pj_chorfs_infernals_heal	Infernal Guard units replenish 20%% health after battle	true
 campaign_localised_strings_string_pj_chorf_panel_ror_lock	[[col:red]]This Regiment of Renown will unlock only if you curry favor with the Lord of the Black Fortress.[[/col]]	true
 effects_description_pj_chorfs_unlock_infernals	Allows access to the Infernal Guard units through recruitment buildings	true
-character_trait_levels_colour_text_pj_trait_chorf_lord	A Chaos Dwarf lord with a chance to prove himself in these distant lands, or perish should he not be worthy.	true
-character_trait_levels_onscreen_name_pj_trait_chorf_lord	Son of Zharr-Naggrund	true
 campaign_localised_strings_string_pj_chorf_panel_infernals_lock	[[col:red]]The Infernal Guard units will unlock only if you curry favor with the Lord of the Black Fortress.[[/col]]	true
 campaign_localised_strings_string_pj_chorf_panel_ror_lock_ghorth	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Zharr-Naggrund.[[/col]]	true
 campaign_localised_strings_string_pj_chorf_panel_ror_lock_zharr	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Ghorth the Cruel.[[/col]]	true
