@@ -132,29 +132,35 @@ local function albion_mist_invasion_start(region, x, y)
     albion_mist_invasion:start_invasion(true);
 
     if region == "wh2_main_albion_albion" then
-        cm:show_message_event(
+        cm:show_message_event_located(
             "wh2_main_nor_albion",
             "event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_primary_detail",
             "",
             "event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_secondary_detail",
+						x,
+						y,
             true,
             2501
         );
     elseif region == "wh2_main_albion_citadel_of_lead" then
-        cm:show_message_event(
+        cm:show_message_event_located(
             "wh2_main_nor_albion",
             "event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_primary_detail",
             "",
             "event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_secondary_detail",
+						x,
+						y,
             true,
             2501
         );
     elseif region == "wh2_main_albion_isle_of_wights" then
-        cm:show_message_event(
+        cm:show_message_event_located(
             "wh2_main_nor_albion",
             "event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_primary_detail",
             "",
             "event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_secondary_detail",
+						x,
+						y,
             true,
             2501
         );
