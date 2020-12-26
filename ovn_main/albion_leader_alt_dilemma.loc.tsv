@@ -6,7 +6,6 @@ cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_alb_alt_le
 cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_alb_alt_leaderSECOND	Dural Durak Shall Lead	true
 effects_description_ovn_dilemma_alb_current_leader	Phantom Queen shall lead our forces	true
 effects_description_ovn_dilemma_alb_alt_leader	Dural Durak shall lead our forces	true
-effects_description_ovn_alb_choose_leader_dummy	Choose who should lead Albion on turn two	true
 effect_bundles_localised_title_ovn_dilemma_alb_current_leader	Queen of War	true
 effect_bundles_localised_description_ovn_dilemma_alb_current_leader	The Phantom Queen will strike fear into our enemies hearts with her magic, but atop her raven must prove elusive and keep away from danger. The most wise Durak can see to the Waystones tumultuous repair.	true
 effect_bundles_localised_title_ovn_dilemma_alb_alt_leader	Druid of War	true
