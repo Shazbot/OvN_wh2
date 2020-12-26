@@ -38,13 +38,42 @@ local ovn_albion_anc_pool = {
 	"anc_albion_skull_trophies"
 }
 
-local function albion_mist_invasion_start(region)
-    if not cm:get_faction(albion_faction_key):is_human() then
-        return
-    end
+local invasion_queue = {}
 
-    local w, z = cm:find_valid_spawn_location_for_character_from_settlement(albion_faction_key, region, false, false, 50)
-    local location = {x = w, y = z};
+local function albion_mist_invasion_queue(region)
+	local x, y = cm:find_valid_spawn_location_for_character_from_settlement(albion_faction_key, region, false, false, 50)
+
+	if x == -1 then
+		return
+	end
+
+	table.insert(invasion_queue, {
+		start_turn = cm:model():turn_number(),
+		region = region,
+		x = x,
+		y = y
+	})
+
+	cm:add_interactable_campaign_marker("ovn_invasion_"..tostring(#invasion_queue), "ovn_albion_invasion_marker_2", x, y, 0, albion_faction_key, "")
+
+	cm:show_message_event_located(
+		"wh2_main_nor_albion",
+		"event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_incoming_primary_detail",
+		"",
+		"event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_incoming_secondary_detail",
+		x,
+		y,
+		true,
+		2501
+	)
+end
+
+local function albion_mist_invasion_start(region, x, y)
+		if not cm:get_faction(albion_faction_key):is_human() then
+			return
+		end
+
+    local location = {x = x, y = y};
     local faction
     local army
     local upa -- units per army
@@ -99,6 +128,7 @@ local function albion_mist_invasion_start(region)
     albion_mist_invasion:apply_effect("wh_main_reduced_movement_range_60", 3);
     albion_mist_invasion:add_character_experience(experience_amount, true);
     albion_mist_invasion:add_unit_experience(experience_amount);
+		albion_mist_invasion:add_aggro_radius(25, {albion_faction_key}, 1)
     albion_mist_invasion:start_invasion(true);
 
     if region == "wh2_main_albion_albion" then
@@ -129,6 +159,28 @@ local function albion_mist_invasion_start(region)
             2501
         );
     end
+end
+
+local function handle_invasion_queue()
+	if not cm:get_faction(albion_faction_key):is_human() then
+		return
+	end
+
+	local current_turn_number = cm:model():turn_number()
+
+	for i=#invasion_queue, 1, -1 do
+		local invasion_data = invasion_queue[i]
+		local marker_id = "ovn_invasion_"..tostring(#invasion_queue)
+
+		if current_turn_number - invasion_data.start_turn >= 2 then
+			table.remove(invasion_data, i)
+			albion_mist_invasion_start(invasion_data.region, invasion_data.x, invasion_data.y)
+			cm:remove_interactable_campaign_marker(marker_id)
+		elseif current_turn_number - invasion_data.start_turn >= 1 then
+			cm:remove_interactable_campaign_marker(marker_id)
+			cm:add_interactable_campaign_marker(marker_id, "ovn_albion_invasion_marker_1", invasion_data.x, invasion_data.y, 0, albion_faction_key, "")
+		end
+	end
 end
 
 local function init_albion_invasion_forces()
@@ -266,10 +318,11 @@ local function init_albion_mist_mechanic()
         function(context) return context:faction():name() == "wh2_main_nor_albion"
         end,
         function(context)
+						handle_invasion_queue()
 
             out("TEST 1 OVN" )
             local faction = context:faction();
-			local region_list = faction:region_list();
+						local region_list = faction:region_list();
 
             local alb_region = cm:get_region(ALBION_REGION_KEY);
             local lead_region = cm:get_region(COL_REGION_KEY);
@@ -277,24 +330,24 @@ local function init_albion_mist_mechanic()
 
             local albion_faction = cm:get_faction(albion_faction_key);
 
-			for i = 0, region_list:num_items() - 1 do
+						for i = 0, region_list:num_items() - 1 do
                 local region = region_list:item_at(i);
                 local current_region_name = region:name();
 
                 if region:building_exists("ovn_Waystone_1") then
                     cm:create_storm_for_region(current_region_name, 1, 1, "ovn_albion_mist");
                     if cm:random_number(20, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions") then
-                        albion_mist_invasion_start(current_region_name)
+                        albion_mist_invasion_queue(current_region_name)
                     end
                 elseif region:building_exists("ovn_Waystone_2") then
                     cm:create_storm_for_region(current_region_name, 1, 1, "ovn_albion_mist");
                     if cm:random_number(15, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions") then
-                        albion_mist_invasion_start(current_region_name)
+                        albion_mist_invasion_queue(current_region_name)
                     end
                 elseif region:building_exists("ovn_Waystone_3") then
                     cm:create_storm_for_region(current_region_name, 1, 1, "ovn_albion_mist");
                     if cm:random_number(10, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions")then
-                        albion_mist_invasion_start(current_region_name)
+                        albion_mist_invasion_queue(current_region_name)
                     end
                 end
 
@@ -314,9 +367,9 @@ local function init_albion_mist_mechanic()
                     cm:apply_effect_bundle("albion_global_mist_4", "wh2_main_nor_albion", -1);
 
                     if not cm:get_saved_value("disable_albion_mist_invasions") then
-                        albion_mist_invasion_start(ALBION_REGION_KEY)
-                        albion_mist_invasion_start(COL_REGION_KEY)
-                        albion_mist_invasion_start(IOW_REGION_KEY)
+                        albion_mist_invasion_queue(ALBION_REGION_KEY)
+                        albion_mist_invasion_queue(COL_REGION_KEY)
+                        albion_mist_invasion_queue(IOW_REGION_KEY)
 
                         if albion_faction:faction_leader():character_subtype("bl_elo_dural_durak") then
                             cm:spawn_character_to_pool(
@@ -437,4 +490,16 @@ cm:add_first_tick_callback(
     function()
         albion_init()
     end
+)
+
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("pj_chorf_panel_tree_unlocks", invasion_queue, context)
+	end
+)
+
+cm:add_loading_game_callback(
+	function(context)
+		invasion_queue = cm:load_named_value("pj_chorf_panel_tree_unlocks", invasion_queue, context)
+	end
 )
