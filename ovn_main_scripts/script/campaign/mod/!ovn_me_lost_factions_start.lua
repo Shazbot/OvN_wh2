@@ -817,14 +817,13 @@ local function albion_setup()
 
 			cm:create_force(
 				"wh_dlc08_nor_naglfarlings",
-				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0",
+				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_main_chs_inf_chaos_marauders_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				333,
 				570,
 				true,
 				function(cqi)
 					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
-					cm:disable_movement_for_character("character_cqi:" .. cqi)
 				end
 			)
 		else
@@ -872,8 +871,8 @@ local function albion_setup()
 				"wh2_main_nor_albion",
 				"elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
 				"wh2_main_great_desert_of_araby_el-kalabad",
-				321,
-				547,
+				330,
+				566,
 				"general",
 				"bl_elo_dural_durak",
 				"names_name_77777202",
@@ -891,8 +890,8 @@ local function albion_setup()
 				"wh2_main_nor_albion",
 				"elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
 				"wh2_main_great_desert_of_araby_el-kalabad",
-				321,
-				547,
+				330,
+				566,
 				"general",
 				"albion_morrigan",
 				"names_name_77777001",
