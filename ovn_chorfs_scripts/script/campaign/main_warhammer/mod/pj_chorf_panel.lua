@@ -93,6 +93,7 @@ local unit_to_give = {
 	["immortals"] = true,
 	["infernal_guard"] = true,
 	["infernal_guard_great_weapons"] = true,
+	["infernal_guard_deathmask_naphta"] = true,
 }
 
 -- remove units we gave via the mercenary pool
