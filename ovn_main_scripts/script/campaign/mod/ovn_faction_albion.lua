@@ -179,7 +179,7 @@ local function handle_invasion_queue()
 		local marker_id = "ovn_invasion_"..tostring(#invasion_queue)
 
 		if current_turn_number - invasion_data.start_turn >= 2 then
-			table.remove(invasion_data, i)
+			table.remove(invasion_queue, i)
 			albion_mist_invasion_start(invasion_data.region, invasion_data.x, invasion_data.y)
 			cm:remove_interactable_campaign_marker(marker_id)
 		elseif current_turn_number - invasion_data.start_turn >= 1 then
@@ -209,110 +209,120 @@ local function init_albion_invasion_forces()
 	random_army_manager:add_unit("ovn_albion_mist_vamp_coast_force", "wh2_dlc11_cst_inf_zombie_deckhands_mob_0", 3);
 	random_army_manager:add_unit("ovn_albion_mist_vamp_coast_force", "wh2_dlc11_cst_mon_fell_bats", 2);
 
-    random_army_manager:new_force("ovn_albion_mist_norsca_force");
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_fimir_1", 2);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_war_mammoth_2", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_champions_0", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "elo_woadraider", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_skinwolves_1", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_art_hellcannon_battery", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_war_mammoth_1", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_main_nor_cav_marauder_horsemen_1", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_centaurs", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_giant", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "ovn_alb_inf_stone_throw_giant", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_champions_1", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_hunters_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_fimir_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_frost_wyrm_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_norscan_ice_trolls_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_huntresses", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_riders", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_berserkers_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_main_nor_inf_chaos_marauders_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_norsca_force", "elo_woadraider", 2);
+	random_army_manager:new_force("ovn_albion_mist_norsca_force");
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_fimir_1", 2);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_war_mammoth_2", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_champions_0", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "elo_woadraider", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_skinwolves_1", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_art_hellcannon_battery", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_war_mammoth_1", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_main_nor_cav_marauder_horsemen_1", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_centaurs", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_giant", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "ovn_alb_inf_stone_throw_giant", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_champions_1", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_hunters_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_fimir_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_frost_wyrm_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_mon_norscan_ice_trolls_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_huntresses", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "albion_riders", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_dlc08_nor_inf_marauder_berserkers_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "wh_main_nor_inf_chaos_marauders_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_norsca_force", "elo_woadraider", 2);
 
-    random_army_manager:new_force("ovn_albion_mist_skaven_force");
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_dlc12_skv_inf_warplock_jezzails_0", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_art_plagueclaw_catapult", 2);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_stormvermin_0", 2);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_dlc12_skv_inf_ratling_gun_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_art_warp_lightning_cannon", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_plague_monk_censer_bearer", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_poison_wind_globadiers", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_dlc14_skv_inf_eshin_triads_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_gutter_runners_1", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_night_runners_1", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_warpfire_thrower", 1);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_stormvermin_1", 2);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_mon_rat_ogres", 2);
-    random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_veh_doomwheel", 1);
+	random_army_manager:new_force("ovn_albion_mist_skaven_force");
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_dlc12_skv_inf_warplock_jezzails_0", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_art_plagueclaw_catapult", 2);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_stormvermin_0", 2);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_skaven_force", "wh2_dlc12_skv_inf_ratling_gun_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_art_warp_lightning_cannon", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_plague_monk_censer_bearer", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_poison_wind_globadiers", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_dlc14_skv_inf_eshin_triads_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_gutter_runners_1", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_night_runners_1", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_warpfire_thrower", 1);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_stormvermin_1", 2);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_mon_rat_ogres", 2);
+	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_veh_doomwheel", 1);
 	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_dlc12_skv_veh_doom_flayer_0", 1);
 	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_skavenslaves_0", 4);
 	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_skavenslave_slingers_0", 2);
 	random_army_manager:add_unit("ovn_albion_mist_skaven_force", "wh2_main_skv_inf_clanrats_1", 3);
 
 	random_army_manager:new_force("ovn_albion_mist_greenskin_force");
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_art_doom_diver_catapult", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_art_goblin_rock_lobber", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_orc_big_uns", 2);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_night_goblin_fanatics", 2);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_mon_arachnarok_spider_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_mon_trolls", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_mon_giant", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_forest_goblin_spider_riders_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_forest_goblin_spider_riders_1", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_orc_boar_boy_big_uns", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_savage_orc_boar_boy_big_uns", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_goblin_wolf_riders_1", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_dlc06_grn_inf_squig_herd_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_dlc06_grn_inf_nasty_skulkers_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_night_goblin_archers", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_night_goblins", 1);
-    random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_goblin_archers", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_art_doom_diver_catapult", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_art_goblin_rock_lobber", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_orc_big_uns", 2);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_night_goblin_fanatics", 2);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_mon_arachnarok_spider_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_mon_trolls", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_mon_giant", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_forest_goblin_spider_riders_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_forest_goblin_spider_riders_1", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_orc_boar_boy_big_uns", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_savage_orc_boar_boy_big_uns", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_cav_goblin_wolf_riders_1", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_dlc06_grn_inf_squig_herd_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_dlc06_grn_inf_nasty_skulkers_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_night_goblin_archers", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_night_goblins", 1);
+	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_inf_goblin_archers", 1);
 	random_army_manager:add_unit("ovn_albion_mist_greenskin_force", "wh_main_grn_art_goblin_rock_lobber", 1);
 
 	random_army_manager:new_force("ovn_albion_mist_dark_elves_force");
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_har_ganeth_executioners_0", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc10_def_inf_sisters_of_slaughter", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_darkshards_1", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_art_reaper_bolt_thrower", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_0", 2);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_1", 2);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_witch_elves_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_harpies", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_shades_2", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_mon_war_hydra", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_black_guard_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc10_def_cav_doomfire_warlocks_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_cav_cold_one_knights_1", 2);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_cav_cold_one_chariot", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_mon_black_dragon", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc10_def_mon_kharibdyss_0", 1);
-    random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc14_def_mon_bloodwrack_medusa_0", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_har_ganeth_executioners_0", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc10_def_inf_sisters_of_slaughter", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_darkshards_1", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_art_reaper_bolt_thrower", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_0", 2);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_black_ark_corsairs_1", 2);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_witch_elves_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_harpies", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_shades_2", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_mon_war_hydra", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_inf_black_guard_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc10_def_cav_doomfire_warlocks_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_cav_cold_one_knights_1", 2);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_cav_cold_one_chariot", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_main_def_mon_black_dragon", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc10_def_mon_kharibdyss_0", 1);
+	random_army_manager:add_unit("ovn_albion_mist_dark_elves_force", "wh2_dlc14_def_mon_bloodwrack_medusa_0", 1);
 
-    random_army_manager:new_force("ovn_albion_mist_chaos_force");
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_inf_chosen_2", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "elo_fenbeast", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "albion_fenhulk", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "albion_giant", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "albion_hearthguard", 1);
-    random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "wh_main_chs_art_hellcannon", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_mon_dragon_ogre_shaggoth", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_mon_trolls_1", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_inf_chosen_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_centaurs", 2);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "elo_albion_warriors_2h", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_main_chs_cav_chaos_chariot", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "ovn_alb_inf_stone_throw_giant", 2);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_riders", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_main_chs_cav_chaos_knights_0", 2);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_riders_javelins", 1);
-    random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_riders_spear", 1);
+	random_army_manager:new_force("ovn_albion_mist_chaos_force");
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_inf_chosen_2", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "elo_fenbeast", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "albion_fenhulk", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "albion_giant", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "albion_hearthguard", 1);
+	random_army_manager:add_mandatory_unit("ovn_albion_mist_chaos_force", "wh_main_chs_art_hellcannon", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_mon_dragon_ogre_shaggoth", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_mon_trolls_1", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_inf_chosen_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_centaurs", 2);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "elo_albion_warriors_2h", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_main_chs_cav_chaos_chariot", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "ovn_alb_inf_stone_throw_giant", 2);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_riders", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_main_chs_cav_chaos_knights_0", 2);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_riders_javelins", 1);
+	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_riders_spear", 1);
 	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_main_chs_mon_chaos_spawn", 2);
 	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_dlc01_chs_inf_forsaken_0", 2);
 	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "wh_main_chs_inf_chaos_warriors_0", 4);
 	random_army_manager:add_unit("ovn_albion_mist_chaos_force", "albion_huntresses", 2);
+end
+
+local function remove_albion_mist_bundles(albion_faction)
+	for i = 1, 4 do
+		local effect_bundle = "albion_global_mist_".. i;
+
+		if albion_faction:has_effect_bundle(effect_bundle) then
+				cm:remove_effect_bundle(effect_bundle, "wh2_main_nor_albion");
+		end
+	end
 end
 
 local function init_albion_mist_mechanic()
@@ -362,13 +372,7 @@ local function init_albion_mist_mechanic()
                 if alb_region:building_exists("ovn_Waystone_3")
                 and lead_region:building_exists("ovn_Waystone_3")
                 and wight_region:building_exists("ovn_Waystone_3") then
-                    for i = 1, 4 do
-                        local effect_bundle = "albion_global_mist_".. i;
-
-                        if albion_faction:has_effect_bundle(effect_bundle) then
-                            cm:remove_effect_bundle(effect_bundle, "wh2_main_nor_albion");
-                        end
-                    end
+                    remove_albion_mist_bundles(albion_faction)
 
                     cm:apply_effect_bundle("albion_global_mist_4", "wh2_main_nor_albion", -1);
 
@@ -412,35 +416,18 @@ local function init_albion_mist_mechanic()
                 elseif (alb_region:building_exists("ovn_Waystone_3") or alb_region:building_exists("ovn_Waystone_2"))
                 and (lead_region:building_exists("ovn_Waystone_3") or lead_region:building_exists("ovn_Waystone_2"))
                 and (wight_region:building_exists("ovn_Waystone_3") or wight_region:building_exists("ovn_Waystone_2")) then
-                    for i = 1, 4 do
-                        local effect_bundle = "albion_global_mist_".. i;
-
-                        if albion_faction:has_effect_bundle(effect_bundle) then
-                            cm:remove_effect_bundle(effect_bundle, "wh2_main_nor_albion");
-                        end
-                    end
+                    remove_albion_mist_bundles(albion_faction)
 
                     cm:apply_effect_bundle("albion_global_mist_3", "wh2_main_nor_albion", -1);
                 elseif (alb_region:building_exists("ovn_Waystone_3") or alb_region:building_exists("ovn_Waystone_2") or alb_region:building_exists("ovn_Waystone_1"))
                 and (lead_region:building_exists("ovn_Waystone_3") or lead_region:building_exists("ovn_Waystone_2") or lead_region:building_exists("ovn_Waystone_1"))
                 and (wight_region:building_exists("ovn_Waystone_3") or wight_region:building_exists("ovn_Waystone_2") or wight_region:building_exists("ovn_Waystone_1")) then
-                    for i = 1, 4 do
-                        local effect_bundle = "albion_global_mist_".. i;
+										remove_albion_mist_bundles(albion_faction)
 
-                        if albion_faction:has_effect_bundle(effect_bundle) then
-                            cm:remove_effect_bundle(effect_bundle, "wh2_main_nor_albion");
-                        end
-                        end
                     cm:apply_effect_bundle("albion_global_mist_2", "wh2_main_nor_albion", -1);
                 else
                     out("TEST 3 OVN" )
-                    for i = 1, 4 do
-                        local effect_bundle = "albion_global_mist_".. i;
-
-                        if albion_faction:has_effect_bundle(effect_bundle) then
-                            cm:remove_effect_bundle(effect_bundle, "wh2_main_nor_albion");
-                        end
-                    end
+                    remove_albion_mist_bundles(albion_faction)
 
                     cm:apply_effect_bundle("albion_global_mist_1", "wh2_main_nor_albion", -1);
                 end
