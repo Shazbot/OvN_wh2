@@ -7,6 +7,9 @@ local settings_table --:map<string, WHATEVER>
 
 local factions = {}
 
+--- We make sure we don't start spawning people before we killed all the vanilla armies.
+local done_killing_people = false
+
 local function spawn_new_force(data)
 	cm:create_force_with_general(
 		data.faction_key,
@@ -26,6 +29,11 @@ local function spawn_new_force(data)
 end
 
 local function spawn_new_forces()
+	if not done_killing_people then
+		cm:callback(spawn_new_forces, 0)
+		return
+	end
+
 	local i = 0
 	for _, data in pairs(new_forces) do
 		if data and table_contains(factions, data.faction_key) then
@@ -60,7 +68,8 @@ local function kill_people()
 				local str = "character_cqi:" .. murdered[i]
 					cm:set_character_immortality(str, false)
 					cm:kill_character_and_commanded_unit(str, true, false)
-			end
+				end
+				done_killing_people = true
 		end,
 		0
 	)

@@ -33,6 +33,8 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 		)
 	end
 
+	local oldleader = rotblood_tribe:faction_leader():command_queue_index()
+
 	if rotblood_tribe:is_human() then
 			cm:create_force_with_general(
 				"wh_dlc08_nor_naglfarlings",
@@ -144,8 +146,6 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 
 	local aos_region = cm:model():world():region_manager():region_by_key("wh_main_mountains_of_hel_altar_of_spawns")
 	cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
-
-	local oldleader = rotblood_tribe:faction_leader():command_queue_index()
 
 	cm:callback(
 		function()
