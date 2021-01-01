@@ -59,20 +59,23 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 			cm:transfer_region_to_faction("wh2_main_chrace_elisia", "wh_dlc08_nor_naglfarlings")
 			cm:transfer_region_to_faction("wh_main_blightwater_kradtommen", "wh_dlc08_nor_naglfarlings")
 			cm:transfer_region_to_faction("wh2_main_northern_great_jungle_xahutec", "wh_dlc08_nor_naglfarlings")
+			cm:transfer_region_to_faction("wh_main_hochland_brass_keep", "wh_dlc08_nor_naglfarlings")
 
 			cm:force_religion_factors("wh_main_blightwater_kradtommen", "wh_main_religion_chaos", 1)
 			cm:force_religion_factors("wh2_main_northern_great_jungle_xahutec", "wh_main_religion_chaos", 1)
 			cm:force_religion_factors("wh2_main_chrace_elisia", "wh_main_religion_chaos", 1)
+			cm:force_religion_factors("wh_main_hochland_brass_keep", "wh_main_religion_untainted", 0.7, "wh_main_religion_chaos", 0.3)
 
-			cm:heal_garrison(cm:get_region("wh_main_blightwater_kradtommen"):cqi())
 			cm:heal_garrison(cm:get_region("wh2_main_northern_great_jungle_xahutec"):cqi())
 			cm:heal_garrison(cm:get_region("wh2_main_chrace_elisia"):cqi())
 
-			local grimhold_region = cm:model():world():region_manager():region_by_key("wh_main_blightwater_kradtommen")
+			local grimhold_region = cm:get_region("wh_main_blightwater_kradtommen")
 			cm:instantly_set_settlement_primary_slot_level(grimhold_region:settlement(), 1)
+			cm:heal_garrison(grimhold_region:cqi())
 
-			local brasskeep_region = cm:model():world():region_manager():region_by_key("wh_main_hochland_brass_keep")
+			local brasskeep_region = cm:get_region("wh_main_hochland_brass_keep")
 			cm:instantly_set_settlement_primary_slot_level(brasskeep_region:settlement(), 2)
+			cm:heal_garrison(brasskeep_region:cqi())
 
 			cm:force_change_cai_faction_personality("wh_dlc08_nor_naglfarlings", "wh_norsca_default_hard")
 
@@ -140,6 +143,9 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 				cm:transfer_region_to_faction("wh_main_reikland_helmgart", "wh_dlc08_nor_naglfarlings")
 			end
 	end
+
+	cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire", true, true)
+	cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire_separatists", true, true)
 
 	cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
 	cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
