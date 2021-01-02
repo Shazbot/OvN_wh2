@@ -398,35 +398,22 @@ local function araby_scimitar_setup()
 	end
 end
 
---[[------------------------------------------------------------
--------------------- SILVER PRINCESS -------------------------
---------------------------------------------------------------
-
-local function silver_setup()
-	local silver = cm:get_faction("wh2_dlc11_cst_vampire_coast_rebels")
-	local silver_faction_leader_cqi = silver:faction_leader():command_queue_index()
-
-	if silver and (silver:is_human() or not mct or settings_table.silver and settings_table.enable) then
-		add_cqi_to_murdered_list(silver_faction_leader_cqi)
-		table.insert(factions, "wh2_dlc11_cst_vampire_coast_rebels")
-	end
-end]]
-
 --------------------------------------------------------------
 --------------------- BLOOD DRAGONS --------------------------
 --------------------------------------------------------------
 
 local function blood_dragon_setup()
 	local blood_dragons = cm:get_faction("wh_main_vmp_rival_sylvanian_vamps")
-	local blood_dragons_leader_cqi = blood_dragons:faction_leader():command_queue_index()
+	local blood_dragons_leader = blood_dragons:faction_leader()
 
-	if cm:get_faction("wh_main_vmp_vampire_counts"):is_human() or cm:get_faction("wh_main_vmp_schwartzhafen"):is_human() then
-		add_cqi_to_murdered_list(blood_dragons_leader_cqi)
+	if blood_dragons_leader and not blood_dragons_leader:is_null_interface() then
+		local blood_dragons_leader_cqi = blood_dragons:faction_leader():command_queue_index()
+		if cm:get_faction("wh_main_vmp_vampire_counts"):is_human() or cm:get_faction("wh_main_vmp_schwartzhafen"):is_human() then
+			add_cqi_to_murdered_list(blood_dragons_leader_cqi)
+		end
 	end
 
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
-		cm:set_character_immortality(cm:char_lookup_str(blood_dragons_leader_cqi), false)
-
 		if blood_dragons:is_human() then
 			core:add_listener(
 				"blood_dragon_missions",
