@@ -468,7 +468,7 @@ local function albion_setup()
 			cm:create_force_with_general(
 				"wh2_main_nor_albion",
 				"elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
-				"wh2_main_great_desert_of_araby_el-kalabad",
+				"wh2_main_vor_coast_of_araby_al_haikk",
 				321,
 				547,
 				"general",
@@ -487,7 +487,7 @@ local function albion_setup()
 			cm:create_force_with_general(
 				"wh2_main_nor_albion",
 				"elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
-				"wh2_main_great_desert_of_araby_el-kalabad",
+				"wh2_main_vor_coast_of_araby_al_haikk",
 				321,
 				547,
 				"general",
