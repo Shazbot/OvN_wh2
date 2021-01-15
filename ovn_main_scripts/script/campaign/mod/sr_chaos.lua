@@ -141,11 +141,10 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 
 			if cm:get_faction("wh_main_emp_empire"):is_human() then
 				cm:transfer_region_to_faction("wh_main_reikland_helmgart", "wh_dlc08_nor_naglfarlings")
+				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire", true, true)
+				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire_separatists", true, true)
 			end
 	end
-
-	cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire", true, true)
-	cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire_separatists", true, true)
 
 	cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
 	cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
