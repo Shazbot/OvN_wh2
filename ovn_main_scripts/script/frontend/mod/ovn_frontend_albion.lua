@@ -175,9 +175,9 @@ core:add_listener(
 			if is_this_albion then
 				-- child:SetTooltipText('{{tt:ui/mousillon/mixu_tooltip_campaign_select_lord}}', true)
 
-				core:remove_listener("mallobaude_hovered_on")
+				core:remove_listener("ovn_albion_hovered_on")
 				core:add_listener(
-					"mallobaude_hovered_on",
+					"ovn_albion_hovered_on",
 					"ComponentMouseOn",
 					function(context)
 						local startpos_id = child:GetProperty("lord_key")
@@ -222,7 +222,7 @@ core:add_listener(
 				end,
 				function(context)
 					local portrait_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame")
-					local custom_image = core:get_or_create_component("mixu_custom_image_mousillino", "ui/campaign ui/region_info_pip", portrait_frame)
+					local custom_image = core:get_or_create_component("ovn_custom_image_albion", "ui/campaign ui/region_info_pip", portrait_frame)
 
 					if not custom_image then
 						script_error("UIC was not able to be made or found!")
@@ -300,7 +300,7 @@ core:add_listener(
 		end
 
 		local portrait_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame")
-		local custom_image = core:get_or_create_component("mixu_custom_image_mousillino", "ui/campaign ui/region_info_pip", portrait_frame)
+		local custom_image = core:get_or_create_component("ovn_custom_image_albion", "ui/campaign ui/region_info_pip", portrait_frame)
 		update_frontend_lord_picture(custom_image, current_starting_lord, true, lord_select_icon)
 
 		core:add_listener("ovn_albion_frontend_button", "RealTimeTrigger", function(context) return context.string == "ovn_albion_frontend_button" end,
