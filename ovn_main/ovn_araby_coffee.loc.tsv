@@ -1,0 +1,11 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_ovn_resource_production_coffee	Coffee beans production: %n sacks per turn	true
+resources_onscreen_text_ovn_coffee	Coffee beans	true
+resources_description_ovn_coffee	Coffee comes from Araby, and has become popular in Tilea and the Empire, both as a drink and as a display of wealth.	true
+building_short_description_texts_short_description_ovn_araby_coffee_3	Vast coffee fields worked on by slaves. Designated for export into Tilean and the Empire.	true
+building_short_description_texts_short_description_ovn_araby_coffee_2	Coffee fields worked on by local farmers.	true
+building_short_description_texts_short_description_ovn_araby_coffee_1	Small plots of coffee fields.	true
+building_culture_variants_name_ovn_araby_coffee_3wh_main_sc_emp_araby	Large coffee plantation	true
+building_culture_variants_name_ovn_araby_coffee_2wh_main_sc_emp_araby	Coffee farm	true
+building_culture_variants_name_ovn_araby_coffee_1wh_main_sc_emp_araby	Small coffee plots	true

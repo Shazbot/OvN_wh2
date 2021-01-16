@@ -1,0 +1,5 @@
+building_effects_junction_tables	3
+building	effect	effect_scope	value	value_damaged	value_ruined
+ovn_araby_coffee_1	ovn_resource_production_coffee	building_to_building_own	3.0	1.0	0.0
+ovn_araby_coffee_2	ovn_resource_production_coffee	building_to_building_own	6.0	2.0	0.0
+ovn_araby_coffee_3	ovn_resource_production_coffee	building_to_building_own	10.0	3.0	0.0
