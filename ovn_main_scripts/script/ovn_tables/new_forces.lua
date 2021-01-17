@@ -106,44 +106,44 @@ local new_forces = {
                 end
         },
 
-        wh2_main_wef_treeblood = {
-            faction_key = "wh2_main_wef_treeblood",
+        wh2_main_nor_harbingers_of_doom = {
+            faction_key = "wh2_main_nor_harbingers_of_doom",
             unit_list = "kho_bloodletter,ovn_shearl,wh_main_chs_inf_chaos_marauders_0,ovn_fimm,ovn_boglar,ovn_boglar,elo_fenbeast",
             region_key = "wh2_main_great_desert_of_araby_el-kalabad",
             x = 330,
             y = 600,
             type = "general",
             subtype = "belakor",
-            name1 = "names_name_247258464",
+            name1 = "names_name_882014",
             name2 = "",
-            name3 = "names_name_247258465",
+            name3 = "names_name_882015",
             name4 = "",
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh2_main_wef_treeblood,forename:247258464", 2000)
-                    --cm:set_character_immortality("faction:wh2_main_wef_treeblood,forename:247258464", true);
+                    cm:add_agent_experience("faction:wh2_main_nor_harbingers_of_doom,forename:247258464", 2000)
+                    --cm:set_character_immortality("faction:wh2_main_nor_harbingers_of_doom,forename:247258464", true);
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
         },
 
-        wh_dlc08_nor_goromadny_tribe = {
-            faction_key = "wh_dlc08_nor_goromadny_tribe",
+        wh2_main_nor_servants_of_fimulneid = {
+            faction_key = "wh2_main_nor_servants_of_fimulneid",
             unit_list = "wh_dlc08_nor_mon_fimir_1,ovn_shearl,wh2_dlc15_grn_mon_river_trolls_0_no_scrap,ovn_fimm,ovn_boglar,ovn_boglar,ovn_boglar,elo_fenbeast",
             region_key = "wh2_main_great_desert_of_araby_el-kalabad",
             x = 653,
             y = 170,
             type = "general",
             subtype = "aky_chief_fimir_great_weapons",
-            name1 = "names_name_999982314",
+            name1 = "names_name_306846499",
             name2 = "",
             name3 = "",
             name4 = "",
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh_dlc08_nor_goromadny_tribe,forename:999982314", 2000)
-                    cm:set_character_immortality("faction:wh_dlc08_nor_goromadny_tribe,forename:999982314", true);
+                    cm:add_agent_experience("faction:wh2_main_nor_servants_of_fimulneid,forename:999982314", 2000)
+                    cm:set_character_immortality("faction:wh2_main_nor_servants_of_fimulneid,forename:999982314", true);
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
         },

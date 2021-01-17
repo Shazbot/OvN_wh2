@@ -403,7 +403,7 @@ end
 --------------------------------------------------------------
 
 local function blood_dragon_setup()
-	local blood_dragons = cm:get_faction("wh_main_vmp_rival_sylvanian_vamps")
+	local blood_dragons = cm:get_faction("wh2_main_vmp_blood_dragons")
 	local blood_dragons_leader = blood_dragons:faction_leader()
 
 	if blood_dragons_leader and not blood_dragons_leader:is_null_interface() then
@@ -422,9 +422,9 @@ local function blood_dragon_setup()
 					return context:faction():is_human() and cm:model():turn_number() == 2
 				end,
 				function(context)
-					cm:trigger_mission("wh_main_vmp_rival_sylvanian_vamps", "ovn_blood_dragons_me_take_nuln", true)
-					cm:trigger_mission("wh_main_vmp_rival_sylvanian_vamps", "ovn_blood_dragons_me_take_templehof", true)
-					cm:trigger_mission("wh_main_vmp_rival_sylvanian_vamps", "ovn_blood_dragons_me_take_altdorf", true)
+					cm:trigger_mission("wh2_main_vmp_blood_dragons", "ovn_blood_dragons_me_take_nuln", true)
+					cm:trigger_mission("wh2_main_vmp_blood_dragons", "ovn_blood_dragons_me_take_templehof", true)
+					cm:trigger_mission("wh2_main_vmp_blood_dragons", "ovn_blood_dragons_me_take_altdorf", true)
 				end,
 				false
 			)
@@ -437,7 +437,7 @@ local function blood_dragon_setup()
 		)
 
 		-- this was moved to new_game_startup to make sure we don't auto-lose the game with no armies and regions
-		-- cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh_main_vmp_rival_sylvanian_vamps")
+		-- cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh2_main_vmp_blood_dragons")
 
 		local karaknorn_region = cm:model():world():region_manager():region_by_key("wh_main_southern_grey_mountains_karak_norn")
 		local karaknorn_settlement = karaknorn_region:settlement()
@@ -467,16 +467,16 @@ local function blood_dragon_setup()
 
 		if not vfs.exists("script/export_helpers_ordo_draconis_why.lua") then
 			cm:create_force_with_general(
-				"wh_main_vmp_rival_sylvanian_vamps",
+				"wh2_main_vmp_blood_dragons",
 				"wh_dlc02_vmp_cav_blood_knights_0,wh_dlc02_vmp_cav_blood_knights_0,dismounted_blood_knights_shield,wh_main_vmp_inf_skeleton_warriors_1",
 				"wh2_main_land_of_assassins_sorcerers_islands",
 				510,
 				380,
 				"general",
 				"wh2_dlc11_vmp_bloodline_blood_dragon",
-				"names_name_2147345180",
+				"names_name_986134575",
 				"",
-				"names_name_2147345188",
+				"names_name_1693654477",
 				"",
 				true,
 				function(cqi)
@@ -487,10 +487,10 @@ local function blood_dragon_setup()
 				end
 			)
 
-			cm:force_declare_war("wh_main_vmp_rival_sylvanian_vamps", "wh_main_emp_wissenland", false, false)
+			cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_wissenland", false, false)
 		end
 
-		table.insert(factions, "wh_main_vmp_rival_sylvanian_vamps")
+		table.insert(factions, "wh2_main_vmp_blood_dragons")
 	end
 end
 
@@ -720,7 +720,7 @@ end
 --------------------------------------------------------------
 
 local function treeblood_setup()
-	local tree = cm:get_faction("wh2_main_wef_treeblood")
+	local tree = cm:get_faction("wh2_main_nor_harbingers_of_doom")
 	local tree_faction_leader_cqi = tree:faction_leader():command_queue_index()
 
 	add_cqi_to_murdered_list(tree_faction_leader_cqi)
@@ -728,7 +728,7 @@ local function treeblood_setup()
 	if tree and (tree:is_human() or not mct or settings_table.treeblood and settings_table.enable) then
 
 		if tree:is_human() then
-			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_wef_treeblood")
+			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_nor_harbingers_of_doom")
 			cm:heal_garrison(cm:get_region("wh2_main_albion_citadel_of_lead"):cqi())
 
 			local albion_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_albion")
@@ -737,9 +737,9 @@ local function treeblood_setup()
 			local wight_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_isle_of_wights")
 			cm:instantly_set_settlement_primary_slot_level(wight_region:settlement(), 2)
 		else
-			cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_wef_treeblood")
-			cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_wef_treeblood")
-			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_wef_treeblood")
+			cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_nor_harbingers_of_doom")
+			cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_nor_harbingers_of_doom")
+			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_nor_harbingers_of_doom")
 
 			local serpent_region = cm:model():world():region_manager():region_by_key("wh_main_helspire_mountains_serpent_jetty")
 			cm:instantly_set_settlement_primary_slot_level(serpent_region:settlement(), 2)
@@ -749,7 +749,7 @@ local function treeblood_setup()
 			cm:heal_garrison(cm:get_region("wh_main_the_wasteland_aarnau"):cqi())
 		end
 
-		local faction_key = "wh2_main_wef_treeblood" -- factions key
+		local faction_key = "wh2_main_nor_harbingers_of_doom" -- factions key
 
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
@@ -809,10 +809,10 @@ local function albion_setup()
 
 		if albion:is_human() then
 			cm:instantly_set_settlement_primary_slot_level(fimir_albion_region:settlement(), 3)
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_main_nor_albion", false, false)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_nor_albion", false, false)
 
 			cm:create_force(
-				"wh_dlc08_nor_naglfarlings",
+				"wh2_main_nor_rotbloods",
 				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_main_chs_inf_chaos_marauders_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				333,
@@ -910,13 +910,13 @@ end
 --------------------------------------------------------------
 
 local function fimir_setup()
-	local fimir = cm:get_faction("wh_dlc08_nor_goromadny_tribe")
+	local fimir = cm:get_faction("wh2_main_nor_servants_of_fimulneid")
 	local fimir_faction_leader_cqi = fimir:faction_leader():command_queue_index()
 
 	add_cqi_to_murdered_list(fimir_faction_leader_cqi)
 
 	if fimir and (fimir:is_human() or not mct or settings_table.fimir and settings_table.enable) then
-		cm:transfer_region_to_faction("wh2_main_marshes_of_madness_floating_village", "wh_dlc08_nor_goromadny_tribe")
+		cm:transfer_region_to_faction("wh2_main_marshes_of_madness_floating_village", "wh2_main_nor_servants_of_fimulneid")
 		local floating_region = cm:get_region("wh2_main_marshes_of_madness_floating_village")
 		cm:heal_garrison(floating_region:cqi())
 		cm:instantly_set_settlement_primary_slot_level(floating_region:settlement(), 2)
@@ -929,7 +929,7 @@ local function fimir_setup()
 		cm:instantly_set_settlement_primary_slot_level(baersonlings_region:settlement(), 1)
 		cm:instantly_set_settlement_primary_slot_level(baersonlings_region:settlement(), 2)
 
-		local faction_key = "wh_dlc08_nor_goromadny_tribe" -- factions key
+		local faction_key = "wh2_main_nor_servants_of_fimulneid" -- factions key
 
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
@@ -1155,9 +1155,9 @@ local function new_game_startup()
 		spawn_new_force(grudgebringers)
 	end
 
-	local blood_dragons = cm:get_faction("wh_main_vmp_rival_sylvanian_vamps")
+	local blood_dragons = cm:get_faction("wh2_main_vmp_blood_dragons")
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
-		cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh_main_vmp_rival_sylvanian_vamps")
+		cm:transfer_region_to_faction("wh_main_southern_grey_mountains_karak_norn", "wh2_main_vmp_blood_dragons")
 	end
 
 	local start_functions_names = {
