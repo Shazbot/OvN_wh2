@@ -8,3 +8,4 @@ ovn_spell_desert_quicksand.png	ovn_skill_magic_desert_quicksand	The caster turns
 ovn_spell_desert_burning_hands.png	ovn_skill_magic_desert_burning_hands	The caster blasts enemies with fire.	Burning Hands	0	false	false	false	0.0	0
 ovn_spell_desert_curse_of_the_djinn.png	ovn_skill_magic_desert_curse_of_the_djinn	The caster debuffs enemies.	Curse of the Djinn	0	false	false	false	0.0	0
 ovn_spell_desert_mirage.png	ovn_skill_magic_desert_mirage_dummy	The caster summons a mirage to distract enemies.	Mirage [HIDDEN]	0	false	false	false	0.0	0
+wh2_dlc09_lord_abilities_sand_storm.png	ovn_skill_magic_desert_sandstorm_lord	The caster summons a sandstorm to damage and debuff enemies.	Sandstorm	0	false	false	false	0.0	0
