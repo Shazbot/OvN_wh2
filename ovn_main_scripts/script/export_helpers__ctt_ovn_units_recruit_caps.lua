@@ -61,7 +61,7 @@ local ctt_ovn = {
     {"ovn_southlander", "arb_special", 1},
     {"OtF_khemri_kepra_guard", "arb_special", 1},
     {"OtF_khemri_rangers", "arb_special", 1},
-    {"ovn_arb_cav_lancer_camel", "arb_special", 1}, 
+    {"ovn_arb_cav_lancer_camel", "arb_special", 1},
     {"ovn_arb_cav_archer_camel", "arb_special", 1},
     {"wh_main_arb_cav_magic_carpet_0", "arb_special", 1},
     {"ovn_jez", "arb_special", 2},
@@ -101,7 +101,7 @@ local ctt_ovn = {
     ---------------------------------------------------------------
     --CHAOS DWARFS
     ---------------------------------------------------------------
-    
+
     {"goblin_slaves", "wrp_core"},
     {"hobgoblin_cuthroats", "wrp_core"},
     {"hobgoblin_sneaky_gits", "wrp_core"},
@@ -142,7 +142,11 @@ local ctt_ovn = {
     {"magma_beasts", "wrp_special", 2},
     {"bull_centaur_ba'hal_guardians", "wrp_special", 2},
     {"elo_lava_trolls", "wrp_special", 2},
-    
+
+		{"infernal_guard_acolytes", "wrp_special", 1},
+		{"kollossus", "wrp_special", 2},
+		{"infernal_guard_zealot", "wrp_special", 1},
+
 
     ---------------------------------------------------------------
     --CITADEL OF DUSK
@@ -261,7 +265,7 @@ local ctt_ovn = {
 
     {"halfling_militia", "emp_core"},
     {"halfling_milittia_arch", "emp_core"},
-    {"halfling_milittia_great", "emp_core"}, 
+    {"halfling_milittia_great", "emp_core"},
     {"halfling_spear", "emp_core"},
     {"elo_bloodhounds", "emp_core"},
     {"half_pig", "emp_core"},
@@ -269,7 +273,7 @@ local ctt_ovn = {
     {"halfling_cook", "emp_special", 1},
     {"halfling_inf", "emp_special", 1},
     {"halfling_thief", "emp_special", 1},
-    {"halfling_warden_great", "emp_special", 1}, 
+    {"halfling_warden_great", "emp_special", 1},
     {"ovn_mtl_cav_poultry_riders_0", "emp_special", 1},
     {"ovn_mtl_cav_swine_riders_0", "emp_special", 1},
     {"sr_ogre", "emp_special", 2},
@@ -279,13 +283,13 @@ local ctt_ovn = {
     {"wh_main_mtl_veh_soupcart", "emp_rare", 2},
     {"hlf_baby_dragon", "emp_rare", 2},
 
-    {"halfling_warfoot", "emp_special", 1}, 
+    {"halfling_warfoot", "emp_special", 1},
     {"halfling_cock", "emp_special", 1},
-    {"halfling_cook_ror", "emp_special", 1}, 
+    {"halfling_cook_ror", "emp_special", 1},
     {"sr_ogre_ror", "emp_special", 2},
     {"halfling_cat_ror", "emp_rare", 1},
     {"ovn_mtl_art_hotpot_ror", "emp_rare", 1},
-    
+
     {"wh2_dlc10_hef_inf_dryads_0", "emp_core"},
     {"wh2_dlc10_hef_mon_treekin_0", "emp_special", 2},
     {"wh2_dlc10_hef_mon_treeman_0", "emp_rare", 3},
@@ -378,7 +382,7 @@ local ctt_ovn = {
     {"elo_warpstone_trolls", "trl_special", 3},
     {"elo_night_trolls_ror", "trl_rare", 1},
     {"elo_kin", "trl_rare", 2},
-    
+
     {"elo_river_trolls_erengrad", "trl_core"},
     {"elo_forest_trolls_erengrad", "trl_special", 1},
     {"elo_armoured_icetrolls_erengrad", "trl_special", 2},
@@ -388,12 +392,12 @@ local ctt_ovn = {
     ---------------------------------------------------------------
     --VAMPIRES COUNTS
     ---------------------------------------------------------------
-    
+
     {"dismounted_blood_knights_shield", "vmp_rare", 1},
     {"dismounted_blood_knights", "vmp_rare", 1},
     {"ovn_vmp_mon_skeleton_giant", "vmp_rare", 2}
-    
-} --:vector<{string, string, number?}> 
+
+} --:vector<{string, string, number?}>
 
 local prefix_to_subculture = {
     bst = "wh_dlc03_sc_bst_beastmen",
@@ -419,7 +423,7 @@ local prefix_to_subculture = {
     arb = "wh_main_sc_emp_araby",
     alb = "wh_main_sc_nor_albion"
 }--:map<string, string>
-    
+
 
 
 local groups = {} --:map<string, boolean>
