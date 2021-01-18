@@ -10,3 +10,8 @@ difficulty_handicap	faction_key	personality_group	campaign_key	player_faction	pl
 -2	wh2_main_nor_servants_of_fimulneid	wh_group_norsca_start_aggressive_hard	main_warhammer			
 -3	wh2_main_nor_rotbloods	wh_group_norsca_start_aggressive_hard	main_warhammer			
 -3	wh2_main_nor_servants_of_fimulneid	wh_group_norsca_start_aggressive_hard	main_warhammer			
+-2	wh2_main_vmp_blood_dragons	wh_group_vampires_default_hard	main_warhammer			
+-2	wh2_main_vmp_blood_dragons	wh_group_vampires_default_hard_against_vampire_factions	main_warhammer	wh_main_vmp_vampire_counts		
+-3	wh2_main_vmp_blood_dragons	wh_group_vampires_default_hard	main_warhammer			
+-3	wh2_main_vmp_blood_dragons	wh_group_vampires_default_hard_against_vampire_factions	main_warhammer	wh_main_vmp_vampire_counts		
+1	wh2_main_vmp_blood_dragons	wh_group_vampires_default_easy	main_warhammer			
