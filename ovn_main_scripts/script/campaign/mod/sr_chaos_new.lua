@@ -33,7 +33,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 		)
 	end
 
-	local oldleader = rotblood_tribe:faction_leader():command_queue_index()
+	local old_leader_cqi = rotblood_tribe:faction_leader():command_queue_index()
 
 	if rotblood_tribe:is_human() then
 			cm:create_force_with_general(
@@ -44,7 +44,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 				700,
 				"general",
 				"chs_lord",
-				"names_name_1734900068",
+				"names_name_999982317",
 				"",
 				"",
 				"",
@@ -122,7 +122,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 				537,
 				"general",
 				"chs_lord",
-				"names_name_1734900068",
+				"names_name_999982317",
 				"",
 				"",
 				"",
@@ -149,12 +149,17 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 	cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
 	cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
 
-	local aos_region = cm:model():world():region_manager():region_by_key("wh_main_mountains_of_hel_altar_of_spawns")
+	local aos_region = cm:get_region("wh_main_mountains_of_hel_altar_of_spawns")
+	cm:transfer_region_to_faction("wh_main_mountains_of_hel_altar_of_spawns", "wh2_main_nor_rotbloods")
+	cm:heal_garrison(aos_region:cqi())
+
 	cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
 
 	cm:callback(
 		function()
-			cm:kill_character(oldleader, true, true)
+			local str = "character_cqi:"..old_leader_cqi
+			cm:set_character_immortality(str, false)
+			cm:kill_character(old_leader_cqi, true, true)
 		end,
 		0
 	)
@@ -162,20 +167,20 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 
 	---- Start Event Message Pop Up
 	core:add_listener(
-		"chshordestartmesslistner",
+		"new_chshordestartmesslistner",
 		"FactionRoundStart",
 		function(context)
 			return context:faction():is_human() and cm:model():turn_number() == 15
 		end,
 		function()
-			chshordestartmess()
+			new_chshordestartmess()
 		end,
 		false
 	)
 
 	---- Chaos Army Spawn Script listener
 	if rotblood_tribe:is_human() then
-				ovn_rotblood_skit_reinforcements()
+				ovn_rotblood_skit_reinforcements_new()
 	else
 			core:add_listener(
 					"chshordespawnlistener2",
@@ -190,10 +195,10 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 			)
 	end
 
-	setup_cwd_and_fimir_raze_region_monitor()
+	new_setup_cwd_and_fimir_raze_region_monitor()
 end
 
-function ovn_sr_chaos()
+function new_ovn_sr_chaos()
 	if cm:model():campaign_name("main_warhammer") then
 		cm:force_diplomacy("subculture:wh_main_sc_nor_warp", "culture:wh_main_chs_chaos", "all", true, true, true)
 		local rotblood_tribe = cm:get_faction("wh2_main_nor_rotbloods")
@@ -216,7 +221,7 @@ function ovn_sr_chaos()
 				sr_chaos_new_game_setup(rotblood_tribe)
 			else -- AKA NOT A NEW GAME - Chaos Army Spawn Script listener loaded on saved game
 					if rotblood_tribe:is_human() then
-							ovn_rotblood_skit_reinforcements()
+							ovn_rotblood_skit_reinforcements_new()
 					else
 							core:add_listener(
 									"chshordespawnlistener2",
@@ -225,19 +230,19 @@ function ovn_sr_chaos()
 											return context:faction():name() == "wh2_main_nor_rotbloods" and cm:model():turn_number() > 16
 									end,
 									function()
-											chshordespawn()
+											new_chshordespawn()
 									end,
 									true
 							)
 					end
 
-					setup_cwd_and_fimir_raze_region_monitor()
+					new_setup_cwd_and_fimir_raze_region_monitor()
 			end
 		end
 	end
 end
 
-function ovn_rotblood_skit_reinforcements()
+function ovn_rotblood_skit_reinforcements_new()
 
     core:add_listener(
         "generate_rotblood_skit_dilemma_listener",
@@ -296,7 +301,7 @@ function ovn_rotblood_skit_reinforcements()
                 );
 end
 
-function chshordespawn()
+function new_chshordespawn()
 	local kradtommen_region = cm:get_region("wh_main_blightwater_kradtommen")
 	local mordheim_region = cm:get_region("wh_main_ostermark_mordheim")
 	local xahutec_region = cm:get_region("wh2_main_northern_great_jungle_xahutec")
@@ -308,7 +313,7 @@ function chshordespawn()
 		----  Badlands Spawn: Option 1A
 		if 1 == cm:random_number(75, 1) then
 
-				chshordespawnmess()
+				new_chshordespawnmess()
 
 				cm:create_force(
 					"wh2_main_nor_rotbloods",
@@ -337,7 +342,7 @@ function chshordespawn()
 		elseif 2 == cm:random_number(75, 1) then
 			----  Kingdom of Beasts Spawn: Option 1B
 
-				chshordespawnmess()
+				new_chshordespawnmess()
 
 				cm:create_force(
 					"wh2_main_nor_rotbloods",
@@ -365,7 +370,7 @@ function chshordespawn()
 	if mordheim_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		----  Sylvania Spawn: Option 2A
 		if 3 == cm:random_number(75, 1) then
-			chshordespawnmess()
+			new_chshordespawnmess()
 
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
@@ -387,7 +392,7 @@ function chshordespawn()
 
 		elseif 4 == cm:random_number(75, 1) then
 			----  North Worlds Edge Mountains Spawn: Option 2B
-			chshordespawnmessgrn()
+			new_chshordespawnmessgrn()
 
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
@@ -414,7 +419,7 @@ function chshordespawn()
 	if brass_keep_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		----  Brass Keep Spawn: Option 3A
 		if 5 == cm:random_number(75, 1) then
-			chshordespawnmessvalten()
+			new_chshordespawnmessvalten()
 
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
@@ -461,7 +466,7 @@ function chshordespawn()
 		if 7 == cm:random_number(75, 1) then
 			----  Xauhutec Spawn: Option 4A
 
-			chshordespawnmessliz()
+			new_chshordespawnmessliz()
 
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
@@ -485,7 +490,7 @@ function chshordespawn()
 		elseif 8 == cm:random_number(75, 1) then
 			----  East Ulthuan Sea Spawn: Option 4B
 
-			chshordespawnmessdelf()
+			new_chshordespawnmessdelf()
 
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
@@ -505,7 +510,7 @@ function chshordespawn()
 end
 end
 
-function chshordestartmess()
+function new_chshordestartmess()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -520,7 +525,7 @@ function chshordestartmess()
 	end
 end
 
-function chshordespawnmess()
+function new_chshordespawnmess()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -535,7 +540,7 @@ function chshordespawnmess()
 	end
 end
 
-function chshordespawnmessvalten()
+function new_chshordespawnmessvalten()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -550,7 +555,7 @@ function chshordespawnmessvalten()
 	end
 end
 
-function chshordespawnmessdwf()
+function new_chshordespawnmessdwf()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -565,7 +570,7 @@ function chshordespawnmessdwf()
 	end
 end
 
-function chshordespawnmessgrn()
+function new_chshordespawnmessgrn()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -580,7 +585,7 @@ function chshordespawnmessgrn()
 	end
 end
 
-function chshordespawnmessliz()
+function new_chshordespawnmessliz()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -595,7 +600,7 @@ function chshordespawnmessliz()
 	end
 end
 
-function chshordespawnmessdelf()
+function new_chshordespawnmessdelf()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -610,7 +615,7 @@ function chshordespawnmessdelf()
 	end
 end
 
-function setup_cwd_and_fimir_raze_region_monitor() -- Applies Chaos corruption via an effect bundle to a region that is razed by an army belonging to CWD & Fimir
+function new_setup_cwd_and_fimir_raze_region_monitor() -- Applies Chaos corruption via an effect bundle to a region that is razed by an army belonging to CWD & Fimir
 	core:add_listener(
 		"cwd_and_fimir_raze_region_monitor",
 		"CharacterRazedSettlement",

@@ -10,11 +10,15 @@ local your_cool_lords_me = {
 	["1624764695"] = "golden_magus",
 	["882030"] = "chorfs",
 	["2140783503"] = "blood_dragons",
+	["549163715"] = "blood_dragons",
 	-- ["937413525"] = "albion",
 	["32930744"] = "ugma",
 	["1409023687"] = "fimir_servants",
+	["1267543494"] = "fimir_servants",
 	["209967969"] = "fimir_killing_eye",
+	["924962720"] = "fimir_killing_eye",
 	["1397230572"] = "rotblood",
+	["1668499673"] = "rotblood",
 }
 
 local your_cool_lords_vortex = {

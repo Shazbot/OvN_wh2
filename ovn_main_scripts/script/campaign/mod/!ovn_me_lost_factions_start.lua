@@ -408,9 +408,7 @@ local function blood_dragon_setup()
 
 	if blood_dragons_leader and not blood_dragons_leader:is_null_interface() then
 		local blood_dragons_leader_cqi = blood_dragons:faction_leader():command_queue_index()
-		if cm:get_faction("wh_main_vmp_vampire_counts"):is_human() or cm:get_faction("wh_main_vmp_schwartzhafen"):is_human() then
 			add_cqi_to_murdered_list(blood_dragons_leader_cqi)
-		end
 	end
 
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
@@ -474,9 +472,9 @@ local function blood_dragon_setup()
 				380,
 				"general",
 				"wh2_dlc11_vmp_bloodline_blood_dragon",
-				"names_name_986134575",
+				"names_name_2147345180",
 				"",
-				"names_name_1693654477",
+				"names_name_2147345188",
 				"",
 				true,
 				function(cqi)
@@ -721,9 +719,12 @@ end
 
 local function treeblood_setup()
 	local tree = cm:get_faction("wh2_main_nor_harbingers_of_doom")
-	local tree_faction_leader_cqi = tree:faction_leader():command_queue_index()
 
-	add_cqi_to_murdered_list(tree_faction_leader_cqi)
+	local tree_faction_leader = tree:faction_leader()
+	if tree_faction_leader and not tree_faction_leader:is_null_interface() then
+		local tree_faction_leader_cqi = tree_faction_leader:command_queue_index()
+			add_cqi_to_murdered_list(tree_faction_leader_cqi)
+	end
 
 	if tree and (tree:is_human() or not mct or settings_table.treeblood and settings_table.enable) then
 
@@ -911,9 +912,12 @@ end
 
 local function fimir_setup()
 	local fimir = cm:get_faction("wh2_main_nor_servants_of_fimulneid")
-	local fimir_faction_leader_cqi = fimir:faction_leader():command_queue_index()
 
-	add_cqi_to_murdered_list(fimir_faction_leader_cqi)
+	local fimir_faction_leader = fimir:faction_leader()
+	if fimir_faction_leader and not fimir_faction_leader:is_null_interface() then
+		local fimir_faction_leader_cqi = fimir_faction_leader:command_queue_index()
+		add_cqi_to_murdered_list(fimir_faction_leader_cqi)
+	end
 
 	if fimir and (fimir:is_human() or not mct or settings_table.fimir and settings_table.enable) then
 		cm:transfer_region_to_faction("wh2_main_marshes_of_madness_floating_village", "wh2_main_nor_servants_of_fimulneid")
@@ -1176,6 +1180,7 @@ local function new_game_startup()
 		"grudgebringers_setup",
 		"dreadking_setup",
 		"ovn_sr_chaos",
+		"new_ovn_sr_chaos",
 		"blood_dragon_setup",
 		"kill_people",
 		"spawn_new_forces",
@@ -1197,6 +1202,7 @@ local function new_game_startup()
 		grudgebringers_setup,
 		dreadking_setup,
 		ovn_sr_chaos,
+		new_ovn_sr_chaos,
 		blood_dragon_setup,
 		-- kill all of the faction leaders that have to go
 		kill_people,
