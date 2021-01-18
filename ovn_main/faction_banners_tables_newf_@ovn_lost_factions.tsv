@@ -1,0 +1,6 @@
+faction_banners_tables	0
+key	primary_blue	primary_green	primary_red	secondary_blue	secondary_green	secondary_red	symbol	tertiary_blue	tertiary_green	tertiary_red
+wh2_main_vmp_blood_dragons	15	115	200	15	115	171		115	171	209
+wh2_main_nor_rotbloods	0	0	0	0	90	0		252	252	252
+wh2_main_nor_harbingers_of_doom	0	135	100	0	225	225		15	15	15
+wh2_main_nor_servants_of_fimulneid	30	40	170	0	225	225		15	15	15

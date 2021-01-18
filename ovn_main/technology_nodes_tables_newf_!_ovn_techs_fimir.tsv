@@ -1,0 +1,37 @@
+technology_nodes_tables	3
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+	wh2_main_nor_servants_of_fimulneid	10	elo_fimir_slave_eco_1	elo_fimir_slave_eco_1	nor_mil	2	300	0	0		
+	wh2_main_nor_servants_of_fimulneid	12	elo_fimir_slave_eco_2	elo_fimir_slave_eco_2	nor_mil	2	500	0	0		
+	wh2_main_nor_servants_of_fimulneid	14	elo_fimir_slave_eco_3	elo_fimir_slave_eco_3	nor_mil	2	800	0	0		
+	wh2_main_nor_servants_of_fimulneid	16	elo_fimir_slave_eco_4	elo_fimir_slave_eco_4	nor_mil	2	1200	0	0		
+	wh2_main_nor_servants_of_fimulneid	18	elo_fimir_slave_eco_5	elo_fimir_slave_eco_5	nor_mil	2	1500	0	0		
+	wh2_main_nor_servants_of_fimulneid	10	elo_fimir_culture_1	elo_fimir_culture_1	nor_mil	1	300	0	0		
+	wh2_main_nor_servants_of_fimulneid	12	elo_fimir_culture_2	elo_fimir_culture_2	nor_mil	1	500	0	0		
+	wh2_main_nor_servants_of_fimulneid	14	elo_fimir_culture_3	elo_fimir_culture_3	nor_mil	1	800	0	0		
+	wh2_main_nor_servants_of_fimulneid	16	elo_fimir_culture_4	elo_fimir_culture_4	nor_mil	1	1200	0	0		
+	wh2_main_nor_servants_of_fimulneid	18	elo_fimir_culture_5	elo_fimir_culture_5	nor_mil	1	1500	0	0		
+	wh2_main_nor_servants_of_fimulneid	10	elo_fimir_military_1	elo_fimir_military_1	nor_mil	3	300	0	0		
+	wh2_main_nor_servants_of_fimulneid	12	elo_fimir_military_2	elo_fimir_military_2	nor_mil	3	500	0	0		
+	wh2_main_nor_servants_of_fimulneid	14	elo_fimir_military_3	elo_fimir_military_3	nor_mil	3	800	0	0		
+	wh2_main_nor_servants_of_fimulneid	16	elo_fimir_military_4	elo_fimir_military_4	nor_mil	3	1200	0	0		
+	wh2_main_nor_servants_of_fimulneid	18	elo_fimir_military_5	elo_fimir_military_5	nor_mil	3	1500	0	0		
+	wh2_main_nor_servants_of_fimulneid	10	elo_fimir_magic_1	elo_fimir_magic_1	nor_mil	4	300	0	0		
+	wh2_main_nor_servants_of_fimulneid	12	elo_fimir_magic_2	elo_fimir_magic_2	nor_mil	4	500	0	0		
+	wh2_main_nor_servants_of_fimulneid	14	elo_fimir_magic_3	elo_fimir_magic_3	nor_mil	4	800	0	0		
+	wh2_main_nor_servants_of_fimulneid	16	elo_fimir_magic_4	elo_fimir_magic_4	nor_mil	4	1200	0	0		
+	wh2_main_nor_servants_of_fimulneid	18	elo_fimir_magic_5	elo_fimir_magic_5	nor_mil	4	1500	0	0		
+	wh2_main_nor_servants_of_fimulneid	10	elo_fimir_chaos_loyalist_1	elo_fimir_chaos_loyalist_1	nor_mil	5	300	0	0		
+	wh2_main_nor_servants_of_fimulneid	12	elo_fimir_chaos_loyalist_2	elo_fimir_chaos_loyalist_2	nor_mil	5	500	0	0		
+	wh2_main_nor_servants_of_fimulneid	14	elo_fimir_chaos_loyalist_3	elo_fimir_chaos_loyalist_3	nor_mil	5	800	0	0		
+	wh2_main_nor_servants_of_fimulneid	16	elo_fimir_chaos_loyalist_4	elo_fimir_chaos_loyalist_4	nor_mil	5	1200	0	0		
+	wh2_main_nor_servants_of_fimulneid	18	elo_fimir_chaos_loyalist_5	elo_fimir_chaos_loyalist_5	nor_mil	5	1500	0	0		
+	wh2_main_nor_servants_of_fimulneid	10	elo_fimir_swamp_creatures_1	elo_fimir_swamp_creatures_1	nor_mil	6	300	0	0		
+	wh2_main_nor_servants_of_fimulneid	12	elo_fimir_swamp_creatures_2	elo_fimir_swamp_creatures_2	nor_mil	6	500	0	0		
+	wh2_main_nor_servants_of_fimulneid	14	elo_fimir_swamp_creatures_3	elo_fimir_swamp_creatures_3	nor_mil	6	800	0	0		
+	wh2_main_nor_servants_of_fimulneid	16	elo_fimir_swamp_creatures_4	elo_fimir_swamp_creatures_4	nor_mil	6	1200	0	0		
+	wh2_main_nor_servants_of_fimulneid	18	elo_fimir_swamp_creatures_5	elo_fimir_swamp_creatures_5	nor_mil	6	1500	0	0		
+	wh2_main_nor_servants_of_fimulneid	20	elo_fimir_culture_eco	elo_fimir_culture_eco	nor_mil	2	100	10000	0		
+	wh2_main_nor_servants_of_fimulneid	20	elo_fimir_eco_military	elo_fimir_eco_military	nor_mil	3	100	10000	0		
+	wh2_main_nor_servants_of_fimulneid	20	elo_fimir_military_magic	elo_fimir_military_magic	nor_mil	4	100	10000	0		
+	wh2_main_nor_servants_of_fimulneid	20	elo_fimir_magic_loyalist	elo_fimir_magic_loyalist	nor_mil	5	100	10000	0		
+	wh2_main_nor_servants_of_fimulneid	20	elo_fimir_loyalist_creatures	elo_fimir_loyalist_creatures	nor_mil	6	100	10000	0		

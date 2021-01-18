@@ -1,0 +1,6 @@
+frontend_faction_groups_to_factions_tables	1
+faction_group	faction_key	is_major_faction	sort_order	show_in_frontend
+destruction	wh2_main_vmp_blood_dragons	false	160	false
+destruction	wh2_main_nor_servants_of_fimulneid	false	168	false
+destruction	wh2_main_nor_harbingers_of_doom	false	193	false
+destruction	wh2_main_nor_rotbloods	false	209	false
