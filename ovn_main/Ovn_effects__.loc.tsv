@@ -118,3 +118,11 @@ effects_description_ovn_chs_dark_god_blessing	Passive ability: "Dark Ones Blessi
 effects_description_ovn_no_add_army_upkeep_dummy	Does not pay additional Army Upkeep	true
 effects_description_ovn_albion_waystone_geomancy	Empowers the network of Waystones	true
 effects_description_ovn_grudge_replenish_dummy	Replenish units in full for gold when near to owned or imperial settlements.	true
+effect_bundles_localised_title_wh2_main_lord_trait_nor_harbingers_of_doom	From Hell They Come	true
+effect_bundles_localised_description_wh2_main_lord_trait_nor_harbingers_of_doom	All shall bow before their Dark Master, even the Gods!	true
+effect_bundles_localised_title_wh2_main_lord_trait_nor_servants_of_fimulneid	From The Mist They Come	true
+effect_bundles_localised_description_wh2_main_lord_trait_nor_servants_of_fimulneid	We come for your women folk, resistance is futile!	true
+effect_bundles_localised_title_wh2_main_lord_trait_nor_rotbloods	Pillage and Raid	false
+effect_bundles_localised_description_wh2_main_lord_trait_nor_rotbloods	Father to a murdered son, husband to a murdered wife. And I will have my vengeance, in this life or the next.	false
+effect_bundles_localised_title_wh2_main_lord_trait_vmp_blood_dragons	Fallen Order	true
+effect_bundles_localised_description_wh2_main_lord_trait_vmp_blood_dragons	Once a noble house fallen to evil ways, their cruel and surreal beliefs drive them on as mindlessly as their minions.	true
