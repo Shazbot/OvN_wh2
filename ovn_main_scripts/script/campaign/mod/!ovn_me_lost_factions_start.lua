@@ -1113,6 +1113,22 @@ local function dreadking_setup()
 	end
 end
 
+--- Removed this once all traces of these factions are removed from OvN.
+local function kill_twin_factions()
+	local goromadny_tribe = cm:get_faction("wh_dlc08_nor_goromadny_tribe")
+	if goromadny_tribe then
+		add_cqi_to_murdered_list(goromadny_tribe:faction_leader():cqi())
+	end
+
+	local naglfarlings = cm:get_faction("wh_dlc08_nor_naglfarlings")
+	if naglfarlings then
+		add_cqi_to_murdered_list(naglfarlings:faction_leader():cqi())
+	end
+
+	cm:transfer_region_to_faction("wh_main_goromandy_mountains_baersonlings_camp", "wh2_main_nor_servants_of_fimulneid")
+	cm:transfer_region_to_faction("wh_main_goromandy_mountains_frozen_landing", "wh2_main_nor_servants_of_fimulneid")
+end
+
 local mct_options_list = {
 	"enable",
 	"amazon",
@@ -1182,6 +1198,7 @@ local function new_game_startup()
 		"ovn_sr_chaos",
 		"new_ovn_sr_chaos",
 		"blood_dragon_setup",
+		"kill_twin_factions",
 		"kill_people",
 		"spawn_new_forces",
 	}
@@ -1204,6 +1221,7 @@ local function new_game_startup()
 		ovn_sr_chaos,
 		new_ovn_sr_chaos,
 		blood_dragon_setup,
+		kill_twin_factions,
 		-- kill all of the faction leaders that have to go
 		kill_people,
 		-- spawn new forces for all da factions
