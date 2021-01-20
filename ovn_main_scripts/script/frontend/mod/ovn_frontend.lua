@@ -29,31 +29,6 @@ local ovn_info = {
 
 };
 
-local vanilla_ovn_faction_to_hide_ids = {
-	["1397230572"] = "wip", -- ME -- Rotblood Tribe
-	["209967969"] = "fimir", -- Formerly Treeblood
-	["1409023687"] = "wip", -- other fimir faction fimelend
-	["2140783503"] = "walach",
-}
-
---- Hide the amazons if the Expanded Roster Amazons submod isn't present.
-local function hide_vanilla_ovn_factions()
-	if effect.get_localised_string("land_units_onscreen_name_roy_amz_inf_eagle_warriors") == "" then
-		local list_box = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "top_docker", "lord_select_list", "list", "list_clip", "list_box")
-		for i=0, list_box:ChildCount()-1 do
-			local comp = UIComponent(list_box:Find(i))
-			local startpos_id = comp:GetProperty("lord_key");
-			if vanilla_ovn_faction_to_hide_ids[startpos_id] then
-				comp:SetVisible(false)
-
-				-- also hide the divider that is the next component after the amazons
-				local comp_next = UIComponent(list_box:Find(i+1))
-				-- comp_next:SetVisible(false)
-			end
-		end
-	end
-end
-
 --- Hide the amazons if the Expanded Roster Amazons submod isn't present.
 local function hide_amazons()
 	if effect.get_localised_string("land_units_onscreen_name_roy_amz_inf_eagle_warriors") == "" then
@@ -102,7 +77,6 @@ core:add_listener(
 		end
 
 		hide_amazons()
-		hide_vanilla_ovn_factions()
 
 		for i = 0, faction_list:ChildCount() - 1 do
 			local child = UIComponent(faction_list:Find(i));
