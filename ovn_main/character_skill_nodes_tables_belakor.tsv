@@ -4,27 +4,27 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	timeless_rage	wh_main_skill_node_set_chs_belakor		0.0	wh_main_skill_node_belakor_unique_04	5.0		0	0	true
 	chaos_incarnate	wh_main_skill_node_set_chs_belakor		0.0	wh_main_skill_node_belakor_unique_05	6.0		0	0	true
 	wh_main_skill_chs_lord_battle_hearts_of_iron	wh_main_skill_node_set_chs_belakor		0.0	wh_main_skill_node_belakor_lone	8.0		0	0	true
-	wh_dlc08_skill_chs_lord_unique_belakor_0	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	1.0	wh_dlc08_skill_chs_lord_unique_belakor_0	0.0		0	0	true
-	wh_dlc08_skill_chs_lord_unique_belakor_1	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	1.0	wh_dlc08_skill_chs_lord_unique_belakor_1	1.0		0	0	true
-	wh_dlc08_skill_chs_lord_unique_belakor_2	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	1.0	wh_dlc08_skill_chs_lord_unique_belakor_2	2.0		0	0	true
-	wh_dlc08_skill_chs_lord_unique_belakor_3	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	1.0	wh_dlc08_skill_chs_lord_unique_belakor_3	3.0		0	0	true
-	wh_dlc08_skill_chs_lord_unique_belakor_4	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	1.0	wh_dlc08_skill_chs_lord_unique_belakor_4	4.0		0	0	true
-	wh_dlc08_skill_chs_lord_unique_belakor_5	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	1.0	wh_dlc08_skill_chs_lord_unique_belakor_5	5.0		0	0	true
+	wh_dlc08_skill_chs_lord_unique_belakor_0	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_0	0.0		0	0	true
+	wh_dlc08_skill_chs_lord_unique_belakor_1	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_1	1.0		0	0	true
+	wh_dlc08_skill_chs_lord_unique_belakor_2	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_2	2.0		0	0	true
+	wh_dlc08_skill_chs_lord_unique_belakor_3	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_3	3.0		0	0	true
+	wh_dlc08_skill_chs_lord_unique_belakor_4	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_4	4.0		0	0	true
+	wh_dlc08_skill_chs_lord_unique_belakor_5	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_5	5.0		0	0	true
 	wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_chs_belakor		1.0	wh_dlc08_skill_chs_lord_unique_belakor_7	7.0		1	0	false
-	wh_main_skill_chs_lord_battle_dominating_presence	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_01	0.0		0	0	true
-	elo_belakor_here_to_die	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_02	1.0		0	0	true
-	elo_belakor_ranged	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_03	2.0		0	0	true
-	elo_belakor_cav	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_04	3.0		0	0	true
-	elo_belakor_chaos_infantry	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_05	4.0		0	0	true
-	elo_belakor_conjured_monsters	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_06	5.0		0	0	true
-	elo_belakor_conscripted_beasts	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_07	6.0		0	0	true
-	fimir_swamp_warriors	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_07_2	7.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_08	8.0		0	6	true
-	elo_belakor_r7_fimir_all	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_09	9.0		0	0	true
-	elo_belakor_ranged_r7	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_10	10.0		0	0	true
-	elo_belakor_cav_bog_r7	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_11	11.0		0	0	true
-	elo_champions_chaos_r7	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_12	12.0		0	0	true
-	wh_main_skill_chs_lord_battle_stand_or_die	wh_main_skill_node_set_chs_belakor	wh2_main_wef_treeblood	4.0	wh_main_skill_node_chs_belakor_battle_13	13.0		0	1	true
+	wh_main_skill_chs_lord_battle_dominating_presence	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_01	0.0		0	0	true
+	elo_belakor_here_to_die	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_02	1.0		0	0	true
+	elo_belakor_ranged	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_03	2.0		0	0	true
+	elo_belakor_cav	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_04	3.0		0	0	true
+	elo_belakor_chaos_infantry	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_05	4.0		0	0	true
+	elo_belakor_conjured_monsters	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_06	5.0		0	0	true
+	elo_belakor_conscripted_beasts	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_07	6.0		0	0	true
+	fimir_swamp_warriors	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_07_2	7.0		0	0	true
+	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_08	8.0		0	6	true
+	elo_belakor_r7_fimir_all	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_09	9.0		0	0	true
+	elo_belakor_ranged_r7	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_10	10.0		0	0	true
+	elo_belakor_cav_bog_r7	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_11	11.0		0	0	true
+	elo_champions_chaos_r7	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_12	12.0		0	0	true
+	wh_main_skill_chs_lord_battle_stand_or_die	wh_main_skill_node_set_chs_belakor		4.0	wh_main_skill_node_chs_belakor_battle_13	13.0		0	1	true
 	wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_set_chs_belakor		5.0	wh_main_skill_node_chs_belakor_campaign_01	0.0		0	0	true
 	wh_main_skill_chs_lord_campaign_despoilers	wh_main_skill_node_set_chs_belakor		5.0	wh_main_skill_node_chs_belakor_campaign_02	1.0		0	0	true
 	wh_main_skill_chs_lord_campaign_serve_or_die	wh_main_skill_node_set_chs_belakor		5.0	wh_main_skill_node_chs_belakor_campaign_03	2.0		0	0	true
