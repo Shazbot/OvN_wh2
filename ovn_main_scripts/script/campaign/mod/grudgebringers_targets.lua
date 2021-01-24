@@ -29,7 +29,7 @@ local disallowed_subcultures = {
 }
 
 local function generate_targets(rogues_disallowed)
-	local local_faction = cm:model():world():faction_by_key(cm:get_local_faction_name(true));
+	local local_faction = cm:get_faction("wh2_main_emp_grudgebringers")
 	local random_factions = assassination_pick_random_factions(nil, "all", nil);
 
 	local forces = {}
@@ -92,7 +92,7 @@ local function get_n_by_distance(forces, n, dist)
 		if not disallowed_subcultures[force.subculture]
 			and (cm:random_number(3)==1 or not included_subcultures[force.subculture])
 			and force.distance < dist
-			and force.faction ~= cm:get_local_faction_name(true)
+			and force.faction ~= "wh2_main_emp_grudgebringers"
 		then
 			table.insert(chosen, force)
 			included_subcultures[force.subculture] = true
@@ -106,7 +106,7 @@ local function get_n_by_distance(forces, n, dist)
 end
 
 local function give_new_targets(turn_num, rogues_disallowed)
-	local faction_name = cm:get_local_faction_name()
+	local faction_name = "wh2_main_emp_grudgebringers"
 
 	local forces = generate_targets(rogues_disallowed)
 
@@ -180,7 +180,9 @@ cm:add_first_tick_callback_new(
 	function()
 		cm:callback(
 			function()
-				if cm:get_local_faction_name(true) ~= "wh2_main_emp_grudgebringers" then return end
+				local grudgebringers = cm:get_faction("wh2_main_emp_grudgebringers")
+				if not grudgebringers or not grudgebringers:is_human() then return end
+
 				local turn_num = cm:model():turn_number()
 				give_new_targets(turn_num, true)
 			end,
