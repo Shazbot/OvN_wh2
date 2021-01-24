@@ -1,0 +1,3 @@
+effect_bundles_to_effects_junctions_tables	2
+effect_bundle_key	effect_key	effect_scope	value	advancement_stage
+ovn_blood_dragons_gain_blood_dragon	ovn_blood_dragons_gain_blood_dragon	faction_to_sea_region_own	1.0	start_turn_completed
