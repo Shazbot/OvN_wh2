@@ -1,0 +1,5 @@
+slot_template_to_building_superchain_junctions_tables	0
+building_superchain	id	slot_template
+ovn_hlf_under_food	50830203	ovn_restaurant
+ovn_hlf_under_drinks	50830204	ovn_restaurant
+ovn_hlf_under_other	50830205	ovn_restaurant

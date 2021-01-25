@@ -1,0 +1,3 @@
+character_skill_nodes_tables	5
+campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+	ovn_create_restaurant_hidden	wh_main_skill_node_set_hlf_master_chef		8.0	wh_main_skill_node_set_hlf_master_chef_campaign_action_restaurant_dummy	1.0		1	0	false

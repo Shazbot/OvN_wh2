@@ -1,0 +1,12 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+ovn_hlf_under_set_menu			money	false	ovn_hlf_under_food		1	
+ovn_hlf_under_pick_menu			money	false	ovn_hlf_under_food		2	
+ovn_hlf_under_buffet_menu			money	false	ovn_hlf_under_food		3	
+ovn_hlf_under_special_menu			money	false	ovn_hlf_under_food		4	
+ovn_hlf_under_drinks_wine			money	false	ovn_hlf_under_drinks		5	
+ovn_hlf_under_drinks_cofee			money	false	ovn_hlf_under_drinks		7	
+ovn_hlf_under_barn			money	false	ovn_hlf_under_other		9	
+ovn_hlf_under_revelry			money	false	ovn_hlf_under_other		1	
+ovn_hlf_under_security			money	false	ovn_hlf_under_other		1	
+ovn_hlf_under_fence			money	false	ovn_hlf_under_other		1	

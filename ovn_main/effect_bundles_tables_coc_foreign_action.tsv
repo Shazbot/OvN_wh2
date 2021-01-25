@@ -1,0 +1,3 @@
+effect_bundles_tables	2
+key	localised_description	localised_title	bundle_target	priority	ui_icon
+ovn_create_restaurant_cooldown	A Vampire Coven has been established recently, more time is required until we can efficiently establish another.	Vampire Coven Established	faction	1	edict_host_festag.png

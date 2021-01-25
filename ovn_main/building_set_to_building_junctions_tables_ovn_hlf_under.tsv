@@ -1,0 +1,12 @@
+building_set_to_building_junctions_tables	0
+building_chain	building_level	building_set	exclude
+ovn_hlf_under_set_menu		ovn_hlf_under_set_food	false
+ovn_hlf_under_pick_menu		ovn_hlf_under_set_food	false
+ovn_hlf_under_buffet_menu		ovn_hlf_under_set_food	false
+ovn_hlf_under_special_menu		ovn_hlf_under_set_food	false
+ovn_hlf_under_drinks_wine		ovn_hlf_under_set_drinks	false
+ovn_hlf_under_drinks_cofee		ovn_hlf_under_set_drinks	false
+ovn_hlf_under_barn		ovn_hlf_under_set_other	false
+ovn_hlf_under_revelry		ovn_hlf_under_set_other	false
+ovn_hlf_under_security		ovn_hlf_under_set_other	false
+ovn_hlf_under_fence		ovn_hlf_under_set_other	false

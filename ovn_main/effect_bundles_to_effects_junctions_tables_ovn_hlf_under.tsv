@@ -1,0 +1,3 @@
+effect_bundles_to_effects_junctions_tables	2
+effect_bundle_key	effect_key	effect_scope	value	advancement_stage
+ovn_create_restaurant_cooldown	ovn_create_restaurant_disable	faction_to_character_own_agents	-999999.0	start_turn_completed

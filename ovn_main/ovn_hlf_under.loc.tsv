@@ -1,0 +1,15 @@
+Loc PackedFile	1
+key	text	tooltip
+culture_settlement_occupation_options_tooltip_5165439	Establish Restaurant||There comes a time in every Halfling's life he gets an itch to leave the Moot and establish his own resturant. Most Halflings, however, ignore this urge.	true
+agent_actions_localised_action_name_ovn_create_restaurant	{{tr:ovn_create_restaurant}}	true
+agent_actions_localised_action_description_ovn_create_restaurant	[[col:yellow]]Establishes a Halfling Restaurant in the target settlement.[[/col]]	true
+character_skills_localised_name_ovn_create_restaurant_hidden	Actions [HIDDEN]	true
+character_skills_localised_description_ovn_create_restaurant_hidden	 	true
+effect_bundles_localised_title_ovn_create_restaurant_cooldown	Restaurant Established	true
+effect_bundles_localised_description_ovn_create_restaurant_cooldown	A Restaurant has been established recently, more time is required until we can efficiently establish another.	true
+effects_description_ovn_create_restaurant_enable	[hidden]	true
+effects_description_ovn_create_restaurant_cost_mod	[[col:yellow]]{{tr:vmp_agent_action_dignitary_establish_vampire_coven}}[[/col]] action: %+n% cost to perform action	true
+effects_description_ovn_create_restaurant_cost_mod_hidden	[hidden]	true
+effects_description_ovn_create_restaurant_disable	Cannot establish further Chaos Cults	true
+ui_text_replacements_localised_text_ovn_create_restaurant	Establish Restaurant	true
+effects_description_ovn_restaurant_exclusive_food_chains	The three Foodstuffs building chains with menu types are mutually exclusive!	true

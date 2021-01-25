@@ -1,0 +1,18 @@
+building_culture_variants_tables	4
+building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
+ovn_hlf_under_set_menu_1		wh_main_PLACEHOLDER	wood_elves_food			false	ovn_hlf_under_set_menu_1	true
+ovn_hlf_under_set_menu_2		wh_main_PLACEHOLDER	wood_elves_food			false	ovn_hlf_under_set_menu_2	true
+ovn_hlf_under_set_menu_3		wh_main_PLACEHOLDER	wood_elves_food			false	ovn_hlf_under_set_menu_3	true
+ovn_hlf_under_pick_menu_1		wh_main_PLACEHOLDER	dwarf_pastures			false	ovn_hlf_under_pick_menu_1	true
+ovn_hlf_under_pick_menu_2		wh_main_PLACEHOLDER	dwarf_pastures			false	ovn_hlf_under_pick_menu_2	true
+ovn_hlf_under_pick_menu_3		wh_main_PLACEHOLDER	dwarf_pastures			false	ovn_hlf_under_pick_menu_3	true
+ovn_hlf_under_buffet_menu_1		wh_main_PLACEHOLDER	lizardmen_farm			false	ovn_hlf_under_buffet_menu_1	true
+ovn_hlf_under_buffet_menu_2		wh_main_PLACEHOLDER	lizardmen_farm			false	ovn_hlf_under_buffet_menu_2	true
+ovn_hlf_under_buffet_menu_3		wh_main_PLACEHOLDER	lizardmen_farm			false	ovn_hlf_under_buffet_menu_3	true
+ovn_hlf_under_special_menu_1		wh_main_PLACEHOLDER	chaos_trolls			false	ovn_hlf_under_special_menu_1	true
+ovn_hlf_under_drinks_cofee		wh_main_PLACEHOLDER	ovn_araby_coffee			false	ovn_hlf_under_drinks_cofee	true
+ovn_hlf_under_drinks_wine		wh_main_PLACEHOLDER	cst_resource_wine			false	ovn_hlf_under_drinks_wine	true
+ovn_hlf_under_barn_1		wh_main_PLACEHOLDER	greenskins_walls			false	ovn_hlf_under_barn_1	true
+ovn_hlf_under_revelry_1		wh_main_PLACEHOLDER	empire_orchards			false	ovn_hlf_under_revelry_1	true
+ovn_hlf_under_security_1		wh_main_PLACEHOLDER	wh_main_emp_academy			false	ovn_hlf_under_security_1	true
+ovn_hlf_under_fence_1		wh_main_PLACEHOLDER	cst_income			false	ovn_hlf_under_fence_1	true

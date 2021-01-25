@@ -1,0 +1,4 @@
+campaign_building_level_factorial_effect_junctions_tables	2
+building_level	factorial_effect	key	value	scope
+ovn_hlf_under_fence_1	skaven_discoverability_buildings_settlement	354583321	20	EFS_ONLY_OWNER
+ovn_hlf_under_special_menu_1	skaven_discoverability_buildings_settlement	354583322	20	EFS_ONLY_OWNER
