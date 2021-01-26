@@ -36,3 +36,6 @@ character_skills_localised_description_warrhak_skullcrusher_trait	Warrhak Skullc
 unit_description_short_texts_text_wh_main_unit_short_text_warrhak_skullcrusher	Warrhak Skullcrusher is a cruel Chaos Dwarf Overlord, in command of a slave gathering expedition into the Southern Badlands.	true
 character_skills_localised_name_warrhak_skullcrusher_ammo	Over Loader	true
 character_skills_localised_description_warrhak_skullcrusher_ammo	Always best to err on the side of caution when it comes to bullets, bolts and arrows.	true
+effects_description_pj_xp_gain_increase_dwarfs	Double experience gain for units when fighting against Dwarfs	true
+ui_unit_bullet_point_enums_onscreen_name_pj_warrhak_blunderbuss	Blunderbuss	true
+ui_unit_bullet_point_enums_tooltip_pj_warrhak_blunderbuss	Warrhak's blunderbuss has limited ammunition but can bring ruin on packed enemy formations.	true
