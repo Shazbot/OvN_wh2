@@ -33,8 +33,6 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 		)
 	end
 
-	local old_leader_cqi = rotblood_tribe:faction_leader():command_queue_index()
-
 	if rotblood_tribe:is_human() then
 			cm:create_force_with_general(
 				"wh2_main_nor_rotbloods",
@@ -155,14 +153,6 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 
 	cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
 
-	cm:callback(
-		function()
-			local str = "character_cqi:"..old_leader_cqi
-			cm:set_character_immortality(str, false)
-			cm:kill_character(old_leader_cqi, true, true)
-		end,
-		0
-	)
 	cm:force_make_peace("wh_dlc08_nor_wintertooth", "wh2_main_nor_rotbloods")
 
 	---- Start Event Message Pop Up
@@ -215,6 +205,18 @@ function new_ovn_sr_chaos()
 			enable_value = enable_option:get_finalized_setting()
 			enable_option:set_read_only(true)
 		end
+
+		if not rotblood_tribe then return end
+
+		local old_leader_cqi = rotblood_tribe:faction_leader():command_queue_index()
+		cm:callback(
+			function()
+				local str = "character_cqi:"..old_leader_cqi
+				cm:set_character_immortality(str, false)
+				cm:kill_character(old_leader_cqi, true, true)
+			end,
+			0
+		)
 
 		if rotblood_tribe and (rotblood_tribe:is_human() or not mct or rotblood_value and enable_value) then
 			if cm:is_new_game() then
