@@ -21,6 +21,21 @@ local digForComponent = function(startingComponent, componentName, max_depth)
 	return digForComponent_iter(startingComponent, componentName, max_depth, 1)
 end
 
+local function find_ui_component_str(starting_comp, str)
+	local has_starting_comp = str ~= nil
+	if not has_starting_comp then
+		str = starting_comp
+	end
+	local fields = {}
+	local pattern = string.format("([^%s]+)", " > ")
+	string.gsub(str, pattern, function(c)
+		if c ~= "root" then
+			fields[#fields+1] = c
+		end
+	end)
+	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
+end
+
 local function binding_iter(binding)
 	local pos = 0
 	local num_items = binding:num_items()
@@ -137,6 +152,24 @@ core:add_listener(
 	true
 )
 
+local just_gave_free_unit = false
+
+--- Highlight the mercenaries of renown UI button or turn highlighting off.
+local function toggle_renown_button_highlight(toggle_on)
+	local button_group_army = find_ui_component_str("root > layout > hud_center_docker > hud_center > small_bar > button_group_army")
+	if button_group_army and button_group_army:Visible() then
+		local button_renown = find_uicomponent(button_group_army, "button_renown")
+		if button_renown then
+			if toggle_on then
+				button_renown:StartPulseHighlight(5)
+				return true
+			else
+				button_renown:StopPulseHighlight()
+			end
+		end
+	end
+end
+
 local function give_unit(unit_key)
 	cm:add_unit_to_faction_mercenary_pool(
 		cm:get_faction("wh2_main_ovn_chaos_dwarfs"),
@@ -151,6 +184,11 @@ local function give_unit(unit_key)
 		"",
 		false
 	)
+
+	local succesfully_applied_highlight = toggle_renown_button_highlight(true)
+	if not succesfully_applied_highlight then
+		just_gave_free_unit = true
+	end
 end
 
 local function unclock_ror(unit_key)
@@ -230,11 +268,11 @@ local tree_to_other_bonuses = {
 		{
 			function()
 				give_unit("infernal_guard_great_weapons")
+				unclock_ror("infernal_guard_great_weapons")
 			end
 		},
 		{
 			function()
-				unclock_ror("infernal_guard_great_weapons")
 			end
 		},
 		{
@@ -434,12 +472,12 @@ local tree_to_bonuses = {
 			"Hero recruit rank: +1 for Infernal Castellans",
 		},
 		{
+			"Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings",
 			"Receive a unit of Infernal Guard (Fireglaive)",
 			"Recruit Rank: +1 for Infernal Guard units",
 			"Upkeep: -5% for Infernal Guard units",
 		},
 		{
-			"Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings",
 			"Hero capacity: +1 for Infernal Castellans",
 			"Hero recruit rank: +1 for Infernal Castellans",
 			"Recruit Rank: +1 for Infernal Guard units",
@@ -1234,8 +1272,8 @@ cm:add_loading_game_callback(
 )
 
 -- fix a missing icon for the event restricted infernal guard units
-local function fix_missing_ui_icon(ig)
-	local component = digForComponent(ig, "disabled_script")
+local function fix_missing_ui_icon(unit_component)
+	local component = find_uicomponent(unit_component, "disabled_script")
 	if component and component:Visible() then
 		component:SetImagePath("ui/skins/default/bullet_point_locked.png", 0)
 	end
@@ -1259,10 +1297,18 @@ core:add_listener(
 
 		local recruitment_listbox = find_uicomponent(core:get_ui_root(), "units_panel", "main_units_panel", "recruitment_docker", "recruitment_options", "recruitment_listbox")
 
-		for _, component_key in ipairs(ig_units) do
-			local ig = digForComponent(recruitment_listbox, component_key)
-			if ig then
-				fix_missing_ui_icon(ig)
+		for _, intermediate_id in ipairs({"global", "local1", "local2"}) do
+			local intermediate_parent = find_uicomponent(recruitment_listbox, intermediate_id)
+			if intermediate_parent then
+				for _, unit_key in ipairs(ig_units) do
+					local unit_comp = find_ui_component_str(intermediate_parent, "unit_list > listview > list_clip > list_box > "..unit_key)
+					if unit_comp then
+						if unit_comp:CurrentState() == "inactive" then
+							fix_missing_ui_icon(unit_comp)
+							unit_comp:SetTooltipText("[[col:red]]Cannot recruit unit.\nCurry favor with the Lord of the Black Fortress to unlock this unit.[[/col]]", true)
+						end
+					end
+				end
 			end
 		end
 	end,
@@ -1292,4 +1338,26 @@ core:add_listener(
 			update_settings(mct)
 	end,
 	true
+)
+
+--- Highlight the mercenaries of renown UI button when we give the player a free unit.
+core:remove_listener("pj_chorf_panel_CharacterSelected_renown_highlight")
+core:add_listener(
+"pj_chorf_panel_CharacterSelected_renown_highlight",
+"CharacterSelected",
+function(context)
+	return context:character():character_type_key() == "general"
+end,
+function(context)
+	cm:callback(
+		function()
+			toggle_renown_button_highlight(just_gave_free_unit)
+			if just_gave_free_unit then
+				just_gave_free_unit = false
+			end
+		end,
+		0
+	)
+end,
+true
 )
