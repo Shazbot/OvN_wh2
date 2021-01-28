@@ -101,6 +101,10 @@ local tree_to_img = {
 	draz = "ui/pj_chorf_panel/tier3.png",
 }
 
+--- Moved to first tick so we can fill with loc values.
+local tree_to_bonuses = {
+}
+
 local unit_to_give = {
 	["slave_ogre"] = true,
 	["bull_centaur_render"] = true,
@@ -390,112 +394,112 @@ local tree_to_effect_bonuses = {
 	},
 }
 
-local tree_to_bonuses = {
-	zhatan = {
-		{
-			"Receive a unit of Slave Ogres",
-			"Upkeep: -8% for slave units",
-		},
-		{
-			"Unlocks Hero recruitment: Daemonsmith",
-			"Hero recruit rank: +1 for Daemonsmiths",
-			"Hero capacity: +1 for Daemonsmiths"
-		},
-		{
-			"Unlocks Regiment of Renown: Korakagrakk's Magma Beasts (Lava Trolls)",
-			"Winds of Magic power reserve: +4",
-			"Winds of Magic starting amount: +2",
-		},
-		{
-			"Unlocks Regiment of Renown: Guardians of the Tower of Zharr (Bull Centaurs Ba'hal)",
-			"Hero capacity: +1 for Daemonsmiths",
-			"Hero recruit rank: +1 for Daemonsmiths",
-			"Winds of Magic power reserve: +4",
-			"Winds of Magic starting amount: +2",
-		},
-		{
-			"Unlocks Regiment of Renown: The Soul of Damnation (Hellcannon)",
-			"Hero capacity: +1 for Daemonsmiths",
-			"Hero recruit rank: +1 for Daemonsmiths",
-			"Winds of Magic power reserve: +4",
-			"Winds of Magic starting amount: +2",
-		},
-		{
-			"Unlocks Legendary Lord: Zhatan the Black",
-			"Winds of Magic power reserve: +4",
-			"Winds of Magic starting amount: +2",
-		},
-	},
-	immortal = {
-		{
-			"Receive a unit of Bull Centaur Renders",
-			"Upkeep: -5% for all units",
-			"{{tr:public_order_effect}}: +1"
-		},
-		{
-			"Unlocks Regiment of Renown: Varzhnak's Horde (Chaos Dwarf Quarrellers)",
-			"Lord recruit rank: +1",
-			"{{tr:public_order_effect}}: +1",
-		},
-		{
-			"Receive a unit of Acolytes of Hashut",
-			"Upkeep: -5% for Acolytes of Hashut",
-			"{{tr:public_order_effect}}: +1",
-		},
-		{
-			"Receive a unit of Immortals",
-			"Local recruitment capacity: +1",
-			"Lord recruit rank: +1",
-			"Upkeep: -5% for Immortals",
-		},
-		{
-			"Global recruitment duration: -1 turn for all units",
-			"Upkeep: -5% for Acolytes of Hashut",
-			"Upkeep: -5% for Immortals",
-		},
-		{
-			"Unlocks Legendary Lord: Rykarth the Unbreakable",
-			"Unlocks Regiment of Renown: The Granite Guard (Immortals)",
-			"Lord recruit rank: +1",
-		},
-	},
-	draz = {
-		{
-			"Allows access to the Infernal Guard units throught recruitment buildings",
-			"Receive a unit of Infernal Guard",
-			"Recruit Rank: +1 for Infernal Guard units",
-			"Upkeep: -5% for Infernal Guard units",
-		},
-		{
-			"Unlocks Hero recruitment: Infernal Castellan",
-			"Hero capacity: +1 for Infernal Castellans",
-			"Hero recruit rank: +1 for Infernal Castellans",
-		},
-		{
-			"Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings",
-			"Receive a unit of Infernal Guard (Fireglaive)",
-			"Recruit Rank: +1 for Infernal Guard units",
-			"Upkeep: -5% for Infernal Guard units",
-		},
-		{
-			"Hero capacity: +1 for Infernal Castellans",
-			"Hero recruit rank: +1 for Infernal Castellans",
-			"Recruit Rank: +1 for Infernal Guard units",
-			"Vigour loss reduction: +20% for Infernal Guard units",
-		},
-		{
-			"Receive a unit of Infernal Guard (Naptha Bombs)",
-			"Allows access to the Infernal Guard (Naptha Bombs) units throught recruitment buildings",
-			"Upkeep: -5% for Infernal Guard units",
-			"Melee defence: +5 for Infernal Guard units",
-		},
-		{
-			"Unlocks Legendary Lord: Drazhoath the Ashen",
-			"Unlocks Regiment of Renown: Infernal Ironsworn (Infernal Guard)",
-			"Infernal Guard units replenish 20% health after battle",
-		},
-	},
-}
+-- local tree_to_bonuses = {
+-- 	zhatan = {
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_1"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_2"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_3"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_4"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_5"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_6"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_7"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_8"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_9"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_10"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_11"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_12"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_13"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_14"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_15"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_16"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_17"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_18"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_19"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_20"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_21"),
+-- 		},
+-- 	},
+-- 	immortal = {
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_22"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_23"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_24"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_25"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_26"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_27"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_28"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_29"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_30"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_31"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_32"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_33"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_34"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_35"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_36"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_37"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_38"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_39"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_40"),
+-- 		},
+-- 	},
+-- 	draz = {
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_41"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_42"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_43"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_44"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_45"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_46"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_47"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_48"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_49"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_50"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_51"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_52"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_53"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_54"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_55"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_56"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_57"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_58"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_59"),
+-- 		},
+-- 		{
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_60"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_61"),
+-- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_62"),
+-- 		},
+-- 	},
+-- }
 
 local function get_cost(index)
 	return 100 + (index*75)
@@ -507,31 +511,30 @@ local function faction_has_enough_slaves(num_slaves_req)
 end
 
 local function get_tooltip(tree_name, index)
-	local favor_giver = tree_to_favor[tree_name]
-
 	local is_unlocked = tree_to_unlocked_tier[tree_name] > index
 	local is_too_far_up = tree_to_unlocked_tier[tree_name]+1 <= index
 
-	local tooltip = "Slave tribute for "..favor_giver.."\n\n"
+	local tooltip = effect.get_localised_string("pj_chorf_panel_script_tree_tribute_for_"..tree_name).."\n\n"
 	if is_unlocked then
-		tooltip = tooltip.."[[col:green]]You have fulfilled this tribute![[/col]]"
+		tooltip = tooltip..effect.get_localised_string("pj_chorf_panel_script_tree_tribute_fulfilled")
 	elseif is_too_far_up then
-		tooltip = tooltip.."[[col:red]]You must fulfill previous tributes first![[/col]]"
+		tooltip = tooltip..effect.get_localised_string("pj_chorf_panel_script_tree_tribute_fulfill_previous")
 	else
-		if not faction_has_enough_slaves(get_cost(index))  then
-			tooltip = tooltip
-				.."[[col:red]]Not enough slaves to fullfill this tribute:\n"
-				.."Requires "..get_cost(index).."[[img:icon_slaves]][[/img]]"
-				.."[[/col]]"
+		if not faction_has_enough_slaves(get_cost(index)) then
+			local not_enough_slaves_loc = effect.get_localised_string("pj_chorf_panel_script_tree_other_1")
+			not_enough_slaves_loc = not_enough_slaves_loc:gsub("SLAVE_COST_REPLACEMENT", get_cost(index))
+			tooltip = tooltip..not_enough_slaves_loc
 		else
-			tooltip = tooltip.."[[col:green]]Click to dispatch slave tribute of "..get_cost(index).."[[img:icon_slaves]][[/img]][[/col]]"
+			local has_enough_slaves_loc = effect.get_localised_string("pj_chorf_panel_script_tree_other_2")
+			has_enough_slaves_loc = has_enough_slaves_loc:gsub("SLAVE_COST_REPLACEMENT", get_cost(index))
+			tooltip = tooltip..has_enough_slaves_loc
 		end
 	end
 	tooltip = tooltip.."\n"
 	if is_unlocked then
-		tooltip = tooltip.."\nAttention of "..favor_giver.." has earned you:\n"
+		tooltip = tooltip.."\n"..effect.get_localised_string("pj_chorf_panel_script_earned_"..tree_name).."\n"
 	else
-		tooltip = tooltip.."\nAttention of "..favor_giver.." will earn you:\n"
+		tooltip = tooltip.."\n"..effect.get_localised_string("pj_chorf_panel_script_will_earn_"..tree_name).."\n"
 	end
 	for i, bonus in ipairs(tree_to_bonuses[tree_name][index+1]) do
 		tooltip = tooltip.."".."[[col:green]]"..bonus.."[[/col]]\n"
@@ -710,7 +713,7 @@ local function draw_panel()
 		end
 	end
 	if header_ash then
-		header_ash:SetStateText("The Black Fortress")
+		header_ash:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_1"))
 		header_ash:PropagatePriority(200)
 		header_ash:SetImagePath("ui/pj_chorf_panel/panel_title.png", 0)
 		ash:Adopt(header_ash:Address())
@@ -728,10 +731,8 @@ local function draw_panel()
 			header_ash:Adopt(header_ash_tooltip:Address())
 			move_rel(header_ash_tooltip, header_ash, panel_w*0.08, 0)
 			header_ash_tooltip:SetTooltipText(
-				"The Black Fortress||"
-			.."The dark, burning spire of the Black Fortress stands sentinel over the River Ruin at the southern edge of the Mountains of Mourn and guards borders of the Chaos Dwarf empire."
-			.."\nDeep in the hellish caverns beneath the Black Fortress are the barracks of the Infernal Guard, an elite warrior-cult sworn to defence of the dark citadel and carrying out of the will of the Lord of the Black Fortress without question."
-			, true
+				effect.get_localised_string("pj_chorf_panel_script_inline_14"),
+				true
 			)
 		end
 	end
@@ -744,7 +745,7 @@ local function draw_panel()
 		end
 	end
 	if header_zhatan then
-		header_zhatan:SetStateText("Hellforges of Ghorth")
+		header_zhatan:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_2"))
 		header_zhatan:SetImagePath("ui/pj_chorf_panel/panel_title.png", 0)
 		zhatan:Adopt(header_zhatan:Address())
 		move_rel(header_zhatan, panel_back_top3, 15, -panel_h*0.02)
@@ -759,10 +760,8 @@ local function draw_panel()
 			header_zhatan:Adopt(header_zhatan_tooltip:Address())
 			move_rel(header_zhatan_tooltip, header_zhatan, panel_w*0.08, 0)
 			header_zhatan_tooltip:SetTooltipText(
-				"Hellforges of Ghorth||"
-			.."Ghorth the Cruel is a Chaos Dwarf Sorcerer-Prophet, the second most potent of the coven after Astragoth Ironhand, and hence one of the strongest voices in the conclave of Sorcerers that gather in the Temple of Hashut."
-			.."\nBut Ghorth yearns to be ever more powerful, and will not rest until he is the master of all of Zharr-Naggrund."
-			, true
+				effect.get_localised_string("pj_chorf_panel_script_inline_15"),
+				true
 			)
 		end
 	end
@@ -775,7 +774,7 @@ local function draw_panel()
 		end
 	end
 	if header_immortal then
-		header_immortal:SetStateText("Zharr-Naggrund")
+		header_immortal:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_3"))
 		header_immortal:SetImagePath("ui/pj_chorf_panel/panel_title.png", 0)
 		immortal:Adopt(header_immortal:Address())
 		move_rel(header_immortal, panel_back_top2, 25, -panel_h*0.02)
@@ -790,11 +789,8 @@ local function draw_panel()
 			header_immortal:Adopt(header_immortal_tooltip:Address())
 			move_rel(header_immortal_tooltip, header_immortal, panel_w*0.08, 0)
 			header_immortal_tooltip:SetTooltipText(
-				"Zharr-Naggrund||"
-			.."The Tower of Zharr-Naggrund is the capital city of the Chaos Dwarfs and lies in the heart of their empire. It is the only city of the Chaos Dwarf, and the centre of their dark enterprise."
-			.."\nIt is a terrible obsidian ziggurat that throbs with the labor of a thousand massive furnaces and workshops, and is pierced by screams of victims sacrificed in molten cauldrons to Hashut’s greater glory."
-			.."\nAt the pinnacle of the city is the Temple of Hashut, where the Sorcerer-Prophets, the greatest of the Chaos Dwarf Daemonsmiths, gather to rule over the Dawi Zharr."
-			, true
+				effect.get_localised_string("pj_chorf_panel_script_inline_16"),
+				true
 			)
 		end
 	end
@@ -807,11 +803,11 @@ local function draw_panel()
 		pj_parchment:SetImagePath("ui/pj_chorf_panel/trans.png", 1)
 		pj_parchment:SetImagePath("ui/pj_chorf_panel/trans.png", 2)
 		pj_parchment:SetImagePath("ui/pj_chorf_panel/parchment_divider_title.png", 0)
-		pj_parchment:SetStateText("Drazhoath the Ashen")
+		pj_parchment:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_4"))
 		pj_parchment:Resize(300, pj_parchment:Height())
 		pj_parchment:SetOpacity(200)
 		move_rel(pj_parchment, panel_back_top, 115, 690)
-		pj_parchment:SetTooltipText("Drazhoath the Ashen||Drazhoath the Ashen is the Lord of the Black Fortress and commander of the fell Legion of Azgorh, an army operating in the southren Dark Lands. Drazhoath was exiled to the Black Fortress as a minor hell-smith long, long ago. He has since prospered in the Black Fortress, and has grown rich and powerful. And yet, he ever dreams of returning triumphant to Zharr-Naggrund.", true)
+		pj_parchment:SetTooltipText(effect.get_localised_string("pj_chorf_panel_script_inline_5"), true)
 	end
 
 	local pj_parchment_immortals = digForComponent(chorf_panel, "pj_parchment_immortals")
@@ -822,11 +818,11 @@ local function draw_panel()
 		pj_parchment_immortals:SetImagePath("ui/pj_chorf_panel/parchment_divider_title.png", 0)
 		pj_parchment_immortals:SetImagePath("ui/pj_chorf_panel/trans.png", 1)
 		pj_parchment_immortals:SetImagePath("ui/pj_chorf_panel/trans.png", 2)
-		pj_parchment_immortals:SetStateText("Rykarth the Unbreakable")
+		pj_parchment_immortals:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_6"))
 		pj_parchment_immortals:Resize(300, pj_parchment_immortals:Height())
 		pj_parchment_immortals:SetOpacity(200)
 		move_rel(pj_parchment_immortals, panel_back_top2, 120, 690)
-		pj_parchment_immortals:SetTooltipText("Rykarth the Unbreakable||Rykarth the Unbreakable is the captain of the Immortals, elite units tasked with guarding high-ranked Chaos Dwarfs High Priests and Overlords. Rykarth carries out the will of the rulers of Zharr-Naggrund.", true)
+		pj_parchment_immortals:SetTooltipText(effect.get_localised_string("pj_chorf_panel_script_inline_7"), true)
 	end
 
 	local pj_parchment_zhatan = digForComponent(chorf_panel, "pj_parchment_zhatan")
@@ -837,17 +833,17 @@ local function draw_panel()
 		pj_parchment_zhatan:SetImagePath("ui/pj_chorf_panel/parchment_divider_title.png", 0)
 		pj_parchment_zhatan:SetImagePath("ui/pj_chorf_panel/trans.png", 1)
 		pj_parchment_zhatan:SetImagePath("ui/pj_chorf_panel/trans.png", 2)
-		pj_parchment_zhatan:SetStateText("Zhatan the Black")
+		pj_parchment_zhatan:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_8"))
 		pj_parchment_zhatan:Resize(300, pj_parchment_zhatan:Height())
 		pj_parchment_zhatan:SetOpacity(200)
 		move_rel(pj_parchment_zhatan, panel_back_top3, 120, 690)
-		pj_parchment_zhatan:SetTooltipText("Zhatan the Black||Zhatan the Black is the Chaos Dwarf Commander of the Tower of Zharr and leads the vast armies of Ghorth the Cruel. Under his command, his master had never had want for slaves.", true)
+		pj_parchment_zhatan:SetTooltipText(effect.get_localised_string("pj_chorf_panel_script_inline_9"), true)
 	end
 
 	local header = digForComponent(chorf_panel, "header")
 	local tx_header = digForComponent(header, "tx_header")
 	if tx_header then
-		tx_header:SetStateText("Slave Tribute")
+		tx_header:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_10"))
 		tx_header:SetImagePath("ui/pj_chorf_panel/panel_title.png", 0)
 	end
 
@@ -963,7 +959,7 @@ local function play_rite()
 			local rite_text = find_uicomponent(uic_child, "tx_rite_reformed")
 			if rite_text then
 				rite_text:SetDockOffset(-15, 0)
-				rite_text:SetStateText("Slave tribute sent!")
+				rite_text:SetStateText(effect.get_localised_string("pj_chorf_panel_script_inline_11"))
 			end
 		end
 	end
@@ -1063,15 +1059,8 @@ local function create_slave_tribute_button()
 	end
 
 	pj_button_chorf_panel:SetImagePath("ui/pj_chorf_panel/skull.png", 0)
-	pj_button_chorf_panel:SetTooltipText("Slave Tribute||Send slave trains back to the Plain of Zharrduk as tribute to the Dawi-Zharr lords.", true)
+	pj_button_chorf_panel:SetTooltipText(effect.get_localised_string("pj_chorf_panel_script_inline_12"), true)
 end
-
-cm:add_first_tick_callback(
-	function()
-		if cm:get_local_faction_name(true) ~= "wh2_main_ovn_chaos_dwarfs" then return end
-		create_slave_tribute_button()
-	end
-)
 
 local function spawn_starting_lord(subtype, forename, surname)
 	cm:create_force_with_general(
@@ -1093,58 +1082,6 @@ local function spawn_starting_lord(subtype, forename, surname)
 		end
 	)
 end
-
-cm:add_first_tick_callback(
-	function()
-		if not cm:is_new_game() then return end
-		local forename = "names_name_1611617482"
-		local surname = "names_name_760507122"
-		local subtype = "warrhak_skullcrusher"
-
-		local chorf_faction_name = "wh2_main_ovn_chaos_dwarfs"
-		if not cm:model():world():faction_exists(chorf_faction_name) then return end
-
-		local chorf_faction = cm:get_faction(chorf_faction_name)
-		if not chorf_faction or chorf_faction:is_null_interface() then return end
-
-		if not chorf_faction:is_human() then
-			cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467592", "names_name_995467595", "", "", 18, true, "general", "zhatan_the_black", true, "")
-			cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467591", "names_name_995467594", "", "", 18, true, "general", "rykarth_the_unbreakable", true, "")
-			cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467590", "names_name_995467593", "", "", 18, true, "general", "drazhoath_the_ashen", true, "")
-			spawn_starting_lord(subtype, forename, surname)
-			return
-		end
-
-		-- infernal guard units
-		cm:add_event_restricted_unit_record_for_faction("infernal_guard", chorf_faction_name, "pj_chorf_panel_infernals_lock")
-		cm:add_event_restricted_unit_record_for_faction("infernal_guard_deathmask_naphta", chorf_faction_name, "pj_chorf_panel_infernals_lock")
-		cm:add_event_restricted_unit_record_for_faction("infernal_guard_great_weapons", chorf_faction_name, "pj_chorf_panel_infernals_lock")
-
-		-- ror units
-		cm:add_event_restricted_unit_record_for_faction("ironsworn", chorf_faction_name, "pj_chorf_panel_ror_lock")
-		cm:add_event_restricted_unit_record_for_faction("chaos_dwarf_warriors_horde", chorf_faction_name, "pj_chorf_panel_ror_lock_zharr")
-		cm:add_event_restricted_unit_record_for_faction("granite_guard", chorf_faction_name, "pj_chorf_panel_ror_lock_zharr")
-		cm:add_event_restricted_unit_record_for_faction("magma_beasts", chorf_faction_name, "pj_chorf_panel_ror_lock_ghorth")
-		cm:add_event_restricted_unit_record_for_faction("bull_centaur_ba'hal_guardians", chorf_faction_name, "pj_chorf_panel_ror_lock_ghorth")
-		cm:add_event_restricted_unit_record_for_faction("wh_pro04_chs_art_hellcannon_ror_0", chorf_faction_name, "pj_chorf_panel_ror_lock_ghorth")
-
-		if starting_lord == "pj_chorf_panel_starting_lord_zhatan" then
-			forename = "names_name_995467592"
-			surname = "names_name_995467595"
-			subtype = "zhatan_the_black"
-		elseif starting_lord == "pj_chorf_panel_starting_lord_immortal" then
-			forename = "names_name_995467591"
-			surname = "names_name_995467594"
-			subtype = "rykarth_the_unbreakable"
-		elseif starting_lord == "pj_chorf_panel_starting_lord_ash" then
-			forename = "names_name_995467590"
-			surname = "names_name_995467593"
-			subtype = "drazhoath_the_ashen"
-		end
-
-		spawn_starting_lord(subtype, forename, surname)
-	end
-)
 
 local infernal_guard_units = {
 	["infernal_guard"] = true,
@@ -1305,7 +1242,7 @@ core:add_listener(
 					if unit_comp then
 						if unit_comp:CurrentState() == "inactive" then
 							fix_missing_ui_icon(unit_comp)
-							unit_comp:SetTooltipText("[[col:red]]Cannot recruit unit.\nCurry favor with the Lord of the Black Fortress to unlock this unit.[[/col]]", true)
+							unit_comp:SetTooltipText(effect.get_localised_string("pj_chorf_panel_script_inline_13"), true)
 						end
 					end
 				end
@@ -1360,4 +1297,175 @@ function(context)
 	)
 end,
 true
+)
+
+local function fill_loc_values()
+	tree_to_bonuses = {
+		zhatan = {
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_1"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_2"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_3"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_4"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_5"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_6"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_7"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_8"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_9"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_10"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_11"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_12"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_13"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_14"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_15"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_16"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_17"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_18"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_19"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_20"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_21"),
+			},
+		},
+		immortal = {
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_22"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_23"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_24"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_25"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_26"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_27"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_28"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_29"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_30"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_31"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_32"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_33"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_34"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_35"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_36"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_37"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_38"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_39"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_40"),
+			},
+		},
+		draz = {
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_41"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_42"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_43"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_44"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_45"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_46"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_47"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_48"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_49"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_50"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_51"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_52"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_53"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_54"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_55"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_56"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_57"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_58"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_59"),
+			},
+			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_60"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_61"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_62"),
+			},
+		},
+	}
+end
+
+local function new_game_setup()
+	local forename = "names_name_1611617482"
+	local surname = "names_name_760507122"
+	local subtype = "warrhak_skullcrusher"
+
+	local chorf_faction_name = "wh2_main_ovn_chaos_dwarfs"
+	if not cm:model():world():faction_exists(chorf_faction_name) then return end
+
+	local chorf_faction = cm:get_faction(chorf_faction_name)
+	if not chorf_faction or chorf_faction:is_null_interface() then return end
+
+	if not chorf_faction:is_human() then
+		cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467592", "names_name_995467595", "", "", 18, true, "general", "zhatan_the_black", true, "")
+		cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467591", "names_name_995467594", "", "", 18, true, "general", "rykarth_the_unbreakable", true, "")
+		cm:spawn_character_to_pool("wh2_main_ovn_chaos_dwarfs", "names_name_995467590", "names_name_995467593", "", "", 18, true, "general", "drazhoath_the_ashen", true, "")
+		spawn_starting_lord(subtype, forename, surname)
+		return
+	end
+
+	-- infernal guard units
+	cm:add_event_restricted_unit_record_for_faction("infernal_guard", chorf_faction_name, "pj_chorf_panel_infernals_lock")
+	cm:add_event_restricted_unit_record_for_faction("infernal_guard_deathmask_naphta", chorf_faction_name, "pj_chorf_panel_infernals_lock")
+	cm:add_event_restricted_unit_record_for_faction("infernal_guard_great_weapons", chorf_faction_name, "pj_chorf_panel_infernals_lock")
+
+	-- ror units
+	cm:add_event_restricted_unit_record_for_faction("ironsworn", chorf_faction_name, "pj_chorf_panel_ror_lock")
+	cm:add_event_restricted_unit_record_for_faction("chaos_dwarf_warriors_horde", chorf_faction_name, "pj_chorf_panel_ror_lock_zharr")
+	cm:add_event_restricted_unit_record_for_faction("granite_guard", chorf_faction_name, "pj_chorf_panel_ror_lock_zharr")
+	cm:add_event_restricted_unit_record_for_faction("magma_beasts", chorf_faction_name, "pj_chorf_panel_ror_lock_ghorth")
+	cm:add_event_restricted_unit_record_for_faction("bull_centaur_ba'hal_guardians", chorf_faction_name, "pj_chorf_panel_ror_lock_ghorth")
+	cm:add_event_restricted_unit_record_for_faction("wh_pro04_chs_art_hellcannon_ror_0", chorf_faction_name, "pj_chorf_panel_ror_lock_ghorth")
+
+	if starting_lord == "pj_chorf_panel_starting_lord_zhatan" then
+		forename = "names_name_995467592"
+		surname = "names_name_995467595"
+		subtype = "zhatan_the_black"
+	elseif starting_lord == "pj_chorf_panel_starting_lord_immortal" then
+		forename = "names_name_995467591"
+		surname = "names_name_995467594"
+		subtype = "rykarth_the_unbreakable"
+	elseif starting_lord == "pj_chorf_panel_starting_lord_ash" then
+		forename = "names_name_995467590"
+		surname = "names_name_995467593"
+		subtype = "drazhoath_the_ashen"
+	end
+
+	spawn_starting_lord(subtype, forename, surname)
+end
+
+cm:add_first_tick_callback(
+	function()
+		if cm:get_local_faction_name(true) == "wh2_main_ovn_chaos_dwarfs" then
+			fill_loc_values()
+			create_slave_tribute_button()
+		end
+
+		if cm:is_new_game() then
+			new_game_setup()
+		end
+	end
 )

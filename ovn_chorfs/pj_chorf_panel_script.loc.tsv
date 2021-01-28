@@ -1,0 +1,93 @@
+Loc PackedFile	1
+key	text	tooltip
+pj_chorf_panel_script_inline_1	The Black Fortress	false
+pj_chorf_panel_script_inline_2	Hellforges of Ghorth	false
+pj_chorf_panel_script_inline_3	Zharr-Naggrund	false
+pj_chorf_panel_script_inline_4	Drazhoath the Ashen	false
+pj_chorf_panel_script_inline_5	Drazhoath the Ashen||Drazhoath the Ashen is the Lord of the Black Fortress and commander of the fell Legion of Azgorh, an army operating in the southren Dark Lands. Drazhoath was exiled to the Black Fortress as a minor hell-smith long, long ago. He has since prospered in the Black Fortress, and has grown rich and powerful. And yet, he ever dreams of returning triumphant to Zharr-Naggrund.	false
+pj_chorf_panel_script_inline_6	Rykarth the Unbreakable	false
+pj_chorf_panel_script_inline_7	Rykarth the Unbreakable||Rykarth the Unbreakable is the captain of the Immortals, elite units tasked with guarding high-ranked Chaos Dwarfs High Priests and Overlords. Rykarth carries out the will of the rulers of Zharr-Naggrund.	false
+pj_chorf_panel_script_inline_8	Zhatan the Black	false
+pj_chorf_panel_script_inline_9	Zhatan the Black||Zhatan the Black is the Chaos Dwarf Commander of the Tower of Zharr and leads the vast armies of Ghorth the Cruel. Under his command, his master had never had want for slaves.	false
+pj_chorf_panel_script_inline_10	Slave Tribute	false
+pj_chorf_panel_script_inline_11	Slave tribute sent!	false
+pj_chorf_panel_script_inline_12	Slave Tribute||Send slave trains back to the Plain of Zharrduk as tribute to the Dawi-Zharr lords.	false
+pj_chorf_panel_script_inline_13	[[col:red]]Cannot recruit unit.\\nCurry favor with the Lord of the Black Fortress to unlock this unit.[[/col]]	false
+pj_chorf_panel_script_inline_14	The Black Fortress||The dark, burning spire of the Black Fortress stands sentinel over the River Ruin at the southern edge of the Mountains of Mourn and guards borders of the Chaos Dwarf empire.\\nDeep in the hellish caverns beneath the Black Fortress are the barracks of the Infernal Guard, an elite warrior-cult sworn to defence of the dark citadel and carrying out of the will of the Lord of the Black Fortress without question.	false
+pj_chorf_panel_script_inline_15	Hellforges of Ghorth||Ghorth the Cruel is a Chaos Dwarf Sorcerer-Prophet, the second most potent of the coven after Astragoth Ironhand, and hence one of the strongest voices in the conclave of Sorcerers that gather in the Temple of Hashut.\\nBut Ghorth yearns to be ever more powerful, and will not rest until he is the master of all of Zharr-Naggrund.	false
+pj_chorf_panel_script_inline_16	Zharr-Naggrund||The Tower of Zharr-Naggrund is the capital city of the Chaos Dwarfs and lies in the heart of their empire. It is the only city of the Chaos Dwarf, and the centre of their dark enterprise.\\nIt is a terrible obsidian ziggurat that throbs with the labor of a thousand massive furnaces and workshops, and is pierced by screams of victims sacrificed in molten cauldrons to Hashut’s greater glory.\\nAt the pinnacle of the city is the Temple of Hashut, where the Sorcerer-Prophets, the greatest of the Chaos Dwarf Daemonsmiths, gather to rule over the Dawi Zharr.	false
+pj_chorf_panel_script_tree_rewards_1	Receive a unit of Slave Ogres	false
+pj_chorf_panel_script_tree_rewards_2	Upkeep: -8% for slave units	false
+pj_chorf_panel_script_tree_rewards_3	Unlocks Hero recruitment: Daemonsmith	false
+pj_chorf_panel_script_tree_rewards_4	Hero recruit rank: +1 for Daemonsmiths	false
+pj_chorf_panel_script_tree_rewards_5	Hero capacity: +1 for Daemonsmiths	false
+pj_chorf_panel_script_tree_rewards_6	Unlocks Regiment of Renown: Korakagrakk's Magma Beasts (Lava Trolls)	false
+pj_chorf_panel_script_tree_rewards_7	Winds of Magic power reserve: +4	false
+pj_chorf_panel_script_tree_rewards_8	Winds of Magic starting amount: +2	false
+pj_chorf_panel_script_tree_rewards_9	Unlocks Regiment of Renown: Guardians of the Tower of Zharr (Bull Centaurs Ba'hal)	false
+pj_chorf_panel_script_tree_rewards_10	Hero capacity: +1 for Daemonsmiths	false
+pj_chorf_panel_script_tree_rewards_11	Hero recruit rank: +1 for Daemonsmiths	false
+pj_chorf_panel_script_tree_rewards_12	Winds of Magic power reserve: +4	false
+pj_chorf_panel_script_tree_rewards_13	Winds of Magic starting amount: +2	false
+pj_chorf_panel_script_tree_rewards_14	Unlocks Regiment of Renown: The Soul of Damnation (Hellcannon)	false
+pj_chorf_panel_script_tree_rewards_15	Hero capacity: +1 for Daemonsmiths	false
+pj_chorf_panel_script_tree_rewards_16	Hero recruit rank: +1 for Daemonsmiths	false
+pj_chorf_panel_script_tree_rewards_17	Winds of Magic power reserve: +4	false
+pj_chorf_panel_script_tree_rewards_18	Winds of Magic starting amount: +2	false
+pj_chorf_panel_script_tree_rewards_19	Unlocks Legendary Lord: Zhatan the Black	false
+pj_chorf_panel_script_tree_rewards_20	Winds of Magic power reserve: +4	false
+pj_chorf_panel_script_tree_rewards_21	Winds of Magic starting amount: +2	false
+pj_chorf_panel_script_tree_rewards_22	Receive a unit of Bull Centaur Renders	false
+pj_chorf_panel_script_tree_rewards_23	Upkeep: -5% for all units	false
+pj_chorf_panel_script_tree_rewards_24	{{tr:public_order_effect}}: +1	false
+pj_chorf_panel_script_tree_rewards_25	Unlocks Regiment of Renown: Varzhnak's Horde (Chaos Dwarf Quarrellers)	false
+pj_chorf_panel_script_tree_rewards_26	Lord recruit rank: +1	false
+pj_chorf_panel_script_tree_rewards_27	{{tr:public_order_effect}}: +1	false
+pj_chorf_panel_script_tree_rewards_28	Receive a unit of Acolytes of Hashut	false
+pj_chorf_panel_script_tree_rewards_29	Upkeep: -5% for Acolytes of Hashut	false
+pj_chorf_panel_script_tree_rewards_30	{{tr:public_order_effect}}: +1	false
+pj_chorf_panel_script_tree_rewards_31	Receive a unit of Immortals	false
+pj_chorf_panel_script_tree_rewards_32	Local recruitment capacity: +1	false
+pj_chorf_panel_script_tree_rewards_33	Lord recruit rank: +1	false
+pj_chorf_panel_script_tree_rewards_34	Upkeep: -5% for Immortals	false
+pj_chorf_panel_script_tree_rewards_35	Global recruitment duration: -1 turn for all units	false
+pj_chorf_panel_script_tree_rewards_36	Upkeep: -5% for Acolytes of Hashut	false
+pj_chorf_panel_script_tree_rewards_37	Upkeep: -5% for Immortals	false
+pj_chorf_panel_script_tree_rewards_38	Unlocks Legendary Lord: Rykarth the Unbreakable	false
+pj_chorf_panel_script_tree_rewards_39	Unlocks Regiment of Renown: The Granite Guard (Immortals)	false
+pj_chorf_panel_script_tree_rewards_40	Lord recruit rank: +1	false
+pj_chorf_panel_script_tree_rewards_41	Allows access to the Infernal Guard units throught recruitment buildings	false
+pj_chorf_panel_script_tree_rewards_42	Receive a unit of Infernal Guard	false
+pj_chorf_panel_script_tree_rewards_43	Recruit Rank: +1 for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_44	Upkeep: -5% for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_45	Unlocks Hero recruitment: Infernal Castellan	false
+pj_chorf_panel_script_tree_rewards_46	Hero capacity: +1 for Infernal Castellans	false
+pj_chorf_panel_script_tree_rewards_47	Hero recruit rank: +1 for Infernal Castellans	false
+pj_chorf_panel_script_tree_rewards_48	Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings	false
+pj_chorf_panel_script_tree_rewards_49	Receive a unit of Infernal Guard (Fireglaive)	false
+pj_chorf_panel_script_tree_rewards_50	Recruit Rank: +1 for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_51	Upkeep: -5% for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_52	Hero capacity: +1 for Infernal Castellans	false
+pj_chorf_panel_script_tree_rewards_53	Hero recruit rank: +1 for Infernal Castellans	false
+pj_chorf_panel_script_tree_rewards_54	Recruit Rank: +1 for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_55	Vigour loss reduction: +20% for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_56	Receive a unit of Infernal Guard (Naptha Bombs)	false
+pj_chorf_panel_script_tree_rewards_57	Allows access to the Infernal Guard (Naptha Bombs) units throught recruitment buildings	false
+pj_chorf_panel_script_tree_rewards_58	Upkeep: -5% for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_59	Melee defence: +5 for Infernal Guard units	false
+pj_chorf_panel_script_tree_rewards_60	Unlocks Legendary Lord: Drazhoath the Ashen	false
+pj_chorf_panel_script_tree_rewards_61	Unlocks Regiment of Renown: Infernal Ironsworn (Infernal Guard)	false
+pj_chorf_panel_script_tree_rewards_62	Infernal Guard units replenish 20% health after battle	false
+pj_chorf_panel_script_tree_other_1	[[col:red]]Not enough slaves to fullfill this tribute:\\nRequires SLAVE_COST_REPLACEMENT[[img:icon_slaves]][[/img]][[/col]]	false
+pj_chorf_panel_script_tree_other_2	[[col:green]]Click to dispatch slave tribute of SLAVE_COST_REPLACEMENT[[img:icon_slaves]][[/img]][[/col]]	false
+pj_chorf_panel_script_tree_tribute_for_draz	Slave tribute for The Black Fortress	false
+pj_chorf_panel_script_tree_tribute_for_immortal	Slave tribute for Zharr-Naggrund	false
+pj_chorf_panel_script_tree_tribute_for_zhatan	Slave tribute for Ghorth the Cruel	false
+pj_chorf_panel_script_tree_tribute_fulfilled	[[col:green]]You have fulfilled this tribute![[/col]]	false
+pj_chorf_panel_script_tree_tribute_fulfill_previous	[[col:red]]You must fulfill previous tributes first![[/col]]	false
+pj_chorf_panel_script_earned_draz	Attention of The Black Fortress has earned you:	false
+pj_chorf_panel_script_earned_immortal	Attention of Zharr-Naggrund has earned you:	false
+pj_chorf_panel_script_earned_zhatan	Attention of Ghorth the Cruel has earned you:	false
+pj_chorf_panel_script_will_earn_draz	Attention of The Black Fortress will earn you:	false
+pj_chorf_panel_script_will_earn_immortal	Attention of Zharr-Naggrund will earn you:	false
+pj_chorf_panel_script_will_earn_zhatan	Attention of Ghorth the Cruel will earn you:	false
