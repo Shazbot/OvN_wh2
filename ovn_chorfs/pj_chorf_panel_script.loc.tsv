@@ -91,3 +91,7 @@ pj_chorf_panel_script_earned_zhatan	Attention of Ghorth the Cruel has earned you
 pj_chorf_panel_script_will_earn_draz	Attention of The Black Fortress will earn you:	false
 pj_chorf_panel_script_will_earn_immortal	Attention of Zharr-Naggrund will earn you:	false
 pj_chorf_panel_script_will_earn_zhatan	Attention of Ghorth the Cruel will earn you:	false
+pj_chorf_ui_infernal_castellan_label	Infernal Castellan	false
+pj_chorf_ui_infernal_castellan_tooltip	Clad in Blackshard armour graven with dark runes that celebrate their cruel victories, Infernal Castellans march at the head of their Infernal Guards ranks.	false
+pj_chorf_ui_daemonsmith_label	Daemonsmith	false
+pj_chorf_ui_daemonsmith_tooltip	The sinister Daemonsmiths forge their instruments of war through arcane rituals and evil sorcery, binding the very essence of Chaos into their armaments.	false
