@@ -1,6 +1,13 @@
 Loc PackedFile	1
 key	text	tooltip
 unit_description_short_texts_text_ovn_hlf_wolf_moot_general_desc	Halfling commanders lead with hope in one hand and the promise of food in the other. It is surprisingly effective.	true
-unit_description_short_texts_text_ovn_hlf_wolf_fieldwarden_desc	Esteemed figures in Halfling society, the Fieldwardens keep the Moot safe from threats inside and outside.	true
-unit_description_short_texts_text_ovn_hlf_wolf_master_chef_desc	Master Chefs are the greatest cooks in Halfling society, which might as well mean that they are its high priests.	true
-unit_description_short_texts_text_ovn_hlf_wolf_sheriff_desc	Halfling Sheriffs are both local militia leaders and law enforcement... for most of their time.	true
+unit_description_short_texts_text_ovn_hlf_wolf_fieldwarden_desc	Esteemed figures in Halfling society, Fieldwardens keep the Moot safe from threats inside and outside.	true
+unit_description_short_texts_text_ovn_hlf_wolf_master_chef_desc	Master Chefs are the greatest cooks in Halfling society, which might as well mean they are its high priests.	true
+unit_description_short_texts_text_ovn_hlf_wolf_sheriff_desc	Halfling Sheriffs are both local militia leaders and law enforcement... most of their time.	true
+agent_subtypes_description_text_override_ovn_hlf_moot_general	Halfling commanders lead with hope in one hand and the promise of food in the other. It is surprisingly effective.	true
+agent_subtypes_description_text_override_ovn_hlf_fieldwarden	Esteemed figures in Halfling society, Fieldwardens keep the Moot safe from threats inside and outside.	true
+agent_subtypes_description_text_override_ovn_hlf_master_chef	Master Chefs are the greatest cooks in Halfling society, which might as well mean they are its high priests.	true
+agent_subtypes_description_text_override_ovn_hlf_sheriff	Halfling Sheriffs are both local militia leaders and law enforcement... most of their time.	true
+ovn_hlf_ui_champion_label	Heroes	false
+ovn_hlf_ui_spy_label	Protectors	false
+ovn_hlf_ui_dignitary_label	Guardians	false
