@@ -8,7 +8,14 @@ if campaign_manager then
 
 	campaign_manager.add_first_tick_callback = function(self, fun)
 		return orig_ftc(self, function()
-			pcall(fun)
+			local success, result = pcall(fun)
+			if not success then
+				out("BIG FAT SCRIPT ERROR")
+				out(tostring(result))
+				out(tostring(debug.traceback()))
+				return false
+			end
+			return result
 		end)
 	end
 
