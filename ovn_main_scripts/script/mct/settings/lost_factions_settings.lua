@@ -10,7 +10,7 @@ enable:set_default_value(true)
 enable:set_text(loc_prefix.."enable_txt", true)
 enable:set_tooltip_text(loc_prefix.."enable_tt", true)
 
-lost_factions:add_new_section("lost_factions_options", loc_prefix.."section_options", true) 
+lost_factions:add_new_section("lost_factions_options", loc_prefix.."section_options", true)
 
 local options_list = {
     "amazon",
@@ -35,8 +35,8 @@ for _, option in ipairs(options_list) do
 end
 
 enable:add_option_set_callback(
-    function(option) 
-        local val = option:get_selected_setting() 
+    function(option)
+        local val = option:get_selected_setting()
         --# assume val: boolean
         local options = options_list
 
@@ -52,10 +52,10 @@ lost_factions:add_new_section("lost_factions_options_chorfs", "Chaos Dwarfs")
 ------ CHORF PANEL ------
 local chorf_starting_lord = lost_factions:add_new_option("pj_chorf_panel_starting_lord", "dropdown")
 
-chorf_starting_lord:add_dropdown_value("pj_chorf_panel_starting_lord_default", "Default", "Start the campaign with an upstart Chaos Dwarf general.", true)
+chorf_starting_lord:add_dropdown_value("pj_chorf_panel_starting_lord_default", "Default", "Start the campaign with Warrhak Skullcrusher.", true)
 chorf_starting_lord:add_dropdown_value("pj_chorf_panel_starting_lord_ash", "Drazhoath the Ashen", "Start the campaign with Drazhoath the Ashen.", false)
 chorf_starting_lord:add_dropdown_value("pj_chorf_panel_starting_lord_immortal", "Rykarth the Unbreakable", "Start the campaign with Rykarth the Unbreakable.", false)
 chorf_starting_lord:add_dropdown_value("pj_chorf_panel_starting_lord_zhatan", "Zhatan the Black", "Start the campaign with Zhatan the Black.", false)
 
-chorf_starting_lord:set_text("Starting Lord")
-chorf_starting_lord:set_tooltip_text("Choose your starting lord.")
+chorf_starting_lord:set_text("Change Starting Lord")
+chorf_starting_lord:set_tooltip_text("Choose your starting Legendary Lord. Default is the recommended campaign experience.")

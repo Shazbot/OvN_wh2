@@ -178,13 +178,15 @@ mod.refresh_resource_value_in_ui = function()
 
 	mod.player_res.warpstone = res_value
 
-	local localized_tooltip = "Warpstone"
+	local localized_tooltip = effect.get_localised_string("pj_ovn_rotbloods_warpstone_mercs_res_name")
 	local stockpiled_localized_tooltip = effect.get_localised_string("effects_description_pj_ovn_rotbloods_warpstone_mercs_warpstone")
 	localized_tooltip = localized_tooltip.."\n\n"
 		..string.gsub(stockpiled_localized_tooltip, "%%n", mod.player_res["warpstone"])
 	local stockpiled_localized_tooltip = effect.get_localised_string("effects_description_pj_ovn_rotbloods_warpstone_mercs_warpstone_per_turn")
 	localized_tooltip = localized_tooltip.."\n"
 		..string.gsub(stockpiled_localized_tooltip, "%%n", mod.player_res_per_turn["warpstone"])
+	localized_tooltip = localized_tooltip.."\n\n"
+		..effect.get_localised_string("pj_ovn_rotbloods_warpstone_mercs_res_tooltip_desc")
 
 	prestige_effect:SetTooltipText(localized_tooltip, true)
 end
