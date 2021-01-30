@@ -585,7 +585,7 @@ mod.handle_battle_rewards = function(context)
 				is_rootblood_attacker = true
 			end
 			local attacker = cm:model():world():faction_by_key(attacker_name)
-			if not attacker then return end
+			if not attacker or attacker:is_null_interface() then return end
 
 			if attacker:subculture() == "wh2_main_sc_skv_skaven" then
 				is_skaven_present = true
@@ -599,7 +599,7 @@ mod.handle_battle_rewards = function(context)
 				is_rootblood_attacker = false
 			end
 			local defender = cm:model():world():faction_by_key(defender_name)
-			if not defender then return end
+			if not defender or defender:is_null_interface() then return end
 
 			if defender:subculture() == "wh2_main_sc_skv_skaven" then
 				is_skaven_present = true
