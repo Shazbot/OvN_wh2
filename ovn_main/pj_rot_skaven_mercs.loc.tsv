@@ -8,3 +8,5 @@ effect_bundles_localised_title_pj_ovn_rotbloods_warpstone_mercs_res	Warpstone st
 effects_description_pj_ovn_rotbloods_warpstone_mercs_warpstone	Warpstone stockpiled: %n	true
 effects_description_pj_ovn_rotbloods_warpstone_mercs_warpstone_per_turn	Warpstone per turn: +%n	true
 pj_ovn_rotbloods_warpstone_mercs_res_tooltip_warpstone	Warpstone required: 	true
+pj_ovn_rotbloods_warpstone_mercs_res_name	Warpstone	true
+pj_ovn_rotbloods_warpstone_mercs_res_tooltip_desc	Gain warpstone by defeating skaven armies or by holding Skavenblight, Hellpit or Mordheim.	true
