@@ -120,3 +120,15 @@ belakor_lord_battle_13_new	0	belakor_lord_battle_09_new	1	1	0.0	0.0	SUBSET_REQUI
 belakor_lord_battle_13_new	0	belakor_lord_battle_10_new	1	1	0.0	0.0	SUBSET_REQUIRED
 belakor_lord_battle_13_new	0	belakor_lord_battle_11_new	1	1	0.0	0.0	SUBSET_REQUIRED
 belakor_lord_battle_13_new	0	belakor_lord_battle_12_new	1	1	0.0	0.0	SUBSET_REQUIRED
+fimir_lord_battle_07_belakor_new	0	fimir_lord_battle_06_7_belakor_new	1	1	0.0	0.0	SUBSET_REQUIRED
+fimir_lord_battle_06_7_belakor_new	0	fimir_lord_battle_01	1	1	0.0	0.0	REQUIRED
+belakor_sorcerer_death_battle_07_7_new	0	wh_main_skill_node_chs_sorcerer_lord_death_battle_01	1	1	0.0	0.0	REQUIRED
+belakor_sorcerer_death_battle_08_new	0	belakor_sorcerer_death_battle_07_7_new	1	1	0.0	0.0	SUBSET_REQUIRED
+belakor_sorcerer_shadow_battle_07_7_new	0	wh_dlc07_skill_node_chs_sorcerer_lord_shadow_battle_01	1	1	0.0	0.0	REQUIRED
+belakor_sorcerer_shadow_battle_08_new	0	belakor_sorcerer_shadow_battle_07_7_new	1	1	0.0	0.0	SUBSET_REQUIRED
+belakor_sorcerer_metal_battle_07_7_new	0	wh_main_skill_node_chs_sorcerer_lord_metal_battle_01	1	1	0.0	0.0	REQUIRED
+belakor_sorcerer_metal_battle_08_new	0	belakor_sorcerer_metal_battle_07_7_new	1	1	0.0	0.0	SUBSET_REQUIRED
+belakor_sorcerer_fire_battle_07_7_new	0	wh_main_skill_node_chs_sorcerer_lord_fire_battle_01	1	1	0.0	0.0	REQUIRED
+belakor_sorcerer_fire_battle_08_new	0	belakor_sorcerer_fire_battle_07_7_new	1	1	0.0	0.0	SUBSET_REQUIRED
+belakor_lord_battle_07_7_new	0	wh_main_skill_node_chs_lord_battle_01	1	1	0.0	0.0	REQUIRED
+belakor_lord_battle_08_new	0	belakor_lord_battle_07_7_new	1	1	0.0	0.0	SUBSET_REQUIRED
