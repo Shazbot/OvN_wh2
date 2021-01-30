@@ -408,7 +408,8 @@ local function blood_dragon_setup()
 
 	if blood_dragons_leader and not blood_dragons_leader:is_null_interface() then
 		local blood_dragons_leader_cqi = blood_dragons:faction_leader():command_queue_index()
-			add_cqi_to_murdered_list(blood_dragons_leader_cqi)
+		add_cqi_to_murdered_list(blood_dragons_leader_cqi)
+		out("OVN: OLD BLOOD DRAGONS FACTION LEADER TO KILL CQI: "..tostring(blood_dragons_leader_cqi))
 	end
 
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
@@ -464,25 +465,36 @@ local function blood_dragon_setup()
 		end
 
 		if not vfs.exists("script/export_helpers_ordo_draconis_why.lua") then
-			cm:create_force_with_general(
-				"wh2_main_vmp_blood_dragons",
-				"wh_dlc02_vmp_cav_blood_knights_0,wh_dlc02_vmp_cav_blood_knights_0,dismounted_blood_knights_shield,wh_main_vmp_inf_skeleton_warriors_1",
-				"wh2_main_land_of_assassins_sorcerers_islands",
-				510,
-				380,
-				"general",
-				"wh2_dlc11_vmp_bloodline_blood_dragon",
-				"names_name_2147345180",
-				"",
-				"names_name_2147345188",
-				"",
-				true,
-				function(cqi)
-					local str = "character_cqi:" .. cqi
-					cm:set_character_unique(str, true)
-					cm:add_agent_experience(str, 2000)
-					cm:force_add_trait(str, "ovn_harkon_lord_trait", true)
-				end
+			cm:callback(
+				--- There is a strange timing issue where the blood_dragons_leader_cqi CQI
+				--- is the same as the CQI of the guy we spawn below.
+				--- That's why it's wrapped in a callback.
+				--- Alternatively we can just kill the blood_dragons_leader_cqi instead of
+				--- putting him in add_cqi_to_murdered_list.
+				function()
+					cm:create_force_with_general(
+						"wh2_main_vmp_blood_dragons",
+						"wh_dlc02_vmp_cav_blood_knights_0,wh_dlc02_vmp_cav_blood_knights_0,dismounted_blood_knights_shield,wh_main_vmp_inf_skeleton_warriors_1",
+						"wh2_main_land_of_assassins_sorcerers_islands",
+						510,
+						380,
+						"general",
+						"wh2_dlc11_vmp_bloodline_blood_dragon",
+						"names_name_2147345180",
+						"",
+						"names_name_2147345188",
+						"",
+						true,
+						function(cqi)
+							out("OVN: WALLACH HARKON CQI IS "..tostring(cqi))
+							local str = "character_cqi:" .. cqi
+							cm:set_character_unique(str, true)
+							cm:add_agent_experience(str, 2000)
+							cm:force_add_trait(str, "ovn_harkon_lord_trait", true)
+						end
+					)
+				end,
+				1
 			)
 
 			cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_wissenland", false, false)
