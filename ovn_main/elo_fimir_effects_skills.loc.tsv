@@ -89,12 +89,12 @@ effects_description_elo_belakor_twisted_corrupted_cost	Recruitment Cost: %+n%  f
 effects_description_elo_belakor_twisted_corrupted_wps	Weapon Strength: %+n%  for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
 effects_description_elo_belakor_twisted_corrupted_armour	Armour: %+n for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
 effects_description_elo_belakor_corrupted_giants_fatigue_res	Enables Fatigue Resistance for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
-effects_description_elo_belakor_here_to_die_md	Melee Defence: %+n for Marauders, Boglars, Shearls and Fimir Death Quest	true
-effects_description_elo_belakor_here_to_die_armour	Armour: %+n for Marauders, Boglars, Shearls and Fimir Death Quest	true
-effects_description_elo_belakor_ranged_ammo	Ammunition: %+n%  for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
-effects_description_elo_belakor_ranged_rdmg	Missile Damage: %+n%  for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
-effects_description_elo_belakor_cav_cb	Charge: %+n for Marauder Cavalry, Chaos Chariots, Chaos Knights and Marsh Reavers	true
-effects_description_elo_belakor_cav_ma	Melee Attack: %+n for Marauder Cavalry, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_here_to_die_md	Melee Defence: %+n for Marauders, Albion Warbands, Boglars, Shearls and Fimir Death Quest	true
+effects_description_elo_belakor_here_to_die_armour	Armour: %+n for Marauders, Albion Warbands, Boglars, Shearls and Fimir Death Quest	true
+effects_description_elo_belakor_ranged_ammo	Ammunition: %+n%  for Marauder Hunters, Albion Javelineers, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
+effects_description_elo_belakor_ranged_rdmg	Missile Damage: %+n%  for Marauder Hunters, Albion Javelineers, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
+effects_description_elo_belakor_cav_cb	Charge: %+n for Marauder Cavalry, Albion Cavalry, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_cav_ma	Melee Attack: %+n for Marauder Cavalry, Albion Cavalry, Chaos Chariots, Chaos Knights and Marsh Reavers	true
 effects_description_elo_belakor_chaos_infantry_dmg	Weapon Strength: %+n%  for Chaos Warriors, Plaguebearers, Bloodletters, Forsaken and Chosen	true
 effects_description_elo_belakor_chaos_infantry_ma	Melee Attack: %+n for Chaos Warriors, Plaguebearers, Bloodletters, Forsaken and Chosen	true
 effects_description_elo_belakor_conjured_monsters_md	Melee Attack: %+n for Fenbeasts, Fenhulks, Chaos Spawn and Bloodthirsters	true
