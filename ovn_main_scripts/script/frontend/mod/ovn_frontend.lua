@@ -1,14 +1,14 @@
 
 local ovn_info = {
 	["1624764695"] = "ovn_arb_flaming_scimitar", --"ovn_arb_scimitar"
-	["1721501317"] = "ovn_arb_scythan",--"ovn_arb_scythans"
-	["365146035"] = "ovn_arb_scythan",--"ovn_vor_arb_scythans"
+	-- ["1721501317"] = "ovn_arb_scythan",--"ovn_arb_scythans" THESE HAVE THEIR OWN VIDEOS NOW
+	-- ["365146035"] = "ovn_arb_scythan",--"ovn_vor_arb_scythans"THESE HAVE THEIR OWN VIDEOS NOW
 	["1242187756"] = "ovn_arb_flaming_scimitar",--"ovn_vor_arb_scimitar"
 	["642513778"] = "wh2_main_political_party_emp_grudgebringers",
 	["572093174"] = "wh2_main_political_party_vor_emp_grudgebringers",
 	["40619453"] = "ovn_emp_the_moot",
-	--["250682859"] = "ovn_arb_araby", THESE HAVE THERE OWN VIDEOS NOW
-	--["2119533354"] = "ovn_vor_arb_araby", THESE HAVE THERE OWN VIDEOS NOW
+	--["250682859"] = "ovn_arb_araby", THESE HAVE THEIR OWN VIDEOS NOW
+	--["2119533354"] = "ovn_vor_arb_araby", THESE HAVE THEIR OWN VIDEOS NOW
 	["848881665"] = "dreadking", -- vortex
 	["1041928997"] = "dreadking", -- me
 --	["1409023687"] = "wip", -- other fimir faction fimelend
