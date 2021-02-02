@@ -24,3 +24,5 @@ uied_component_texts_localised_string_hlfng_button_down_Tooltip_59001f	Cook the 
 uied_component_texts_localised_string_hlfng_button_down_off_Tooltip_59001f	Cook the selected ingredients into a meal! This will use 50 pouches of [[img:icon_halfling_salt]][[/img]]Culinary Salt	true
 uied_component_texts_localised_string_hlfng_button_hover_Tooltip_59001f	Cook the selected ingredients into a meal! This will use 50 pouches of [[img:icon_halfling_salt]][[/img]]Culinary Salt	true
 uied_component_texts_localised_string_template_head_undiscovered_Tooltip_270038	This meal has not been cooked.	true
+ovn_hlf_cooking_script_hlf_cooking_main_tooltip	The Kitchen||Choose a delicacy for the Grand Cauldron chefs to prepare.	false
+ovn_hlf_cooking_script_hlf_cooking_num_turns	Number of turns until you can choose a new meal.	false
