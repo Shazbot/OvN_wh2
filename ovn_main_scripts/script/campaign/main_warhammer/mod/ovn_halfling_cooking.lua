@@ -66,7 +66,6 @@ local function update_main_hlf_cooking_button()
 	if not cooking_interface.active_dish then return end
 	local active_dish = cooking_interface:active_dish()
 
-	local mcc = find_ui_component_str("root > layout > faction_buttons_docker > button_group_management > button_mortuary_cult > label_mortuary_cult_count")
 	local counter = find_ui_component_str(main_hlf_cooking_button, "ovn_hlf_cooking_counter")
 	if not counter then
 		local localized_main_tooltip = effect.get_localised_string("ovn_hlf_cooking_script_hlf_cooking_main_tooltip")
@@ -74,6 +73,7 @@ local function update_main_hlf_cooking_button()
 
 		main_hlf_cooking_button:SetTooltipText(localized_main_tooltip, true)
 
+		local mcc = find_ui_component_str(button_group_management, "button_mortuary_cult > label_mortuary_cult_count")
 		counter = UIComponent(mcc:CopyComponent("ovn_hlf_cooking_counter"))
 		counter:SetTooltipText(localized_num_turns, true)
 		main_hlf_cooking_button:Adopt(counter:Address())
@@ -100,6 +100,25 @@ local function ui_init()
         find_uicomponent(uic, "trait"):SetVisible(false)
     end
 
+		local function close_panel()
+			cm:callback(
+				function()
+					update_main_hlf_cooking_button()
+				end,
+				1
+			)
+
+			local panel = find_uicomponent("hlfng_cauldron")
+			local dummy = core:get_or_create_component("script_dummy", "ui/campaign ui/script_dummy")
+			dummy:Adopt(panel:Address())
+			dummy:DestroyChildren()
+
+			-- reenable the esc key
+			cm:steal_escape_key(false)
+
+			core:remove_listener("halfling_close_panel")
+		end
+
     local function close_listener()
         core:add_listener(
             "halfling_close_panel",
@@ -112,17 +131,7 @@ local function ui_init()
                 return false
             end,
             function(context)
-                local panel = find_uicomponent("hlfng_cauldron")
-                local dummy = core:get_or_create_component("script_dummy", "ui/campaign ui/script_dummy")
-                dummy:Adopt(panel:Address())
-                dummy:DestroyChildren()
-
-                -- reenable the esc key
-                cm:steal_escape_key(false)
-
-                core:remove_listener("halfling_close_panel")
-
-								update_main_hlf_cooking_button()
+								close_panel()
             end,
             false
         )
@@ -134,15 +143,7 @@ local function ui_init()
                 return context.string == "escape_menu"
             end,
             function(context)
-                local panel = find_uicomponent("hlfng_cauldron")
-                local dummy = core:get_or_create_component("script_dummy", "ui/campaign ui/script_dummy")
-                dummy:Adopt(panel:Address())
-                dummy:DestroyChildren()
-
-                -- reenable the esc key
-                cm:steal_escape_key(false)
-
-                core:remove_listener("halfling_close_panel")
+								close_panel()
             end,
             false
         )
