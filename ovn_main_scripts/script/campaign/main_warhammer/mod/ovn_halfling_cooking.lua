@@ -1,5 +1,20 @@
 -- Heavily based on Vandy's "Queek's Burrow" mod
 
+local function find_ui_component_str(starting_comp, str)
+	local has_starting_comp = str ~= nil
+	if not has_starting_comp then
+		str = starting_comp
+	end
+	local fields = {}
+	local pattern = string.format("([^%s]+)", " > ")
+	string.gsub(str, pattern, function(c)
+		if c ~= "root" then
+			fields[#fields+1] = c
+		end
+	end)
+	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
+end
+
 local faction_key = "wh2_main_emp_the_moot"
 
 local function remove_component(uic_obj)
@@ -168,22 +183,26 @@ local function ui_init()
         )
     end
 
+		local function open_cooking_panel()
+			local root = core:get_ui_root()
+			local test = find_uicomponent("hlfng_cauldron")
+			if not is_uicomponent(test) then
+					root:CreateComponent("hlfng_cauldron", "ui/campaign ui/hlfng_cauldron_panel")
+
+					test_open()
+
+					close_listener()
+			end
+		end
+
     core:add_listener(
         "halfling_button_pressed",
         "ComponentLClickUp",
         function(context)
-            return context.string == "hlfng_headtaking"
+            return context.string == "hlfng_headtaking" or context.string == "ovn_hlf_cooking_button"
         end,
         function(context)
-            local root = core:get_ui_root()
-            local test = find_uicomponent("hlfng_cauldron")
-            if not is_uicomponent(test) then
-                root:CreateComponent("hlfng_cauldron", "ui/campaign ui/hlfng_cauldron_panel")
-
-                test_open()
-
-                close_listener()
-            end
+					open_cooking_panel()
         end,
         true
     )
@@ -430,10 +449,97 @@ local function init()
     );
 end
 
+local function update_main_zoo_button()
+	local ui_root = core:get_ui_root()
+
+	local faction = cm:get_faction(cm:get_local_faction_name(true))
+
+	local button_group_management = find_uicomponent(core:get_ui_root(), "layout", "faction_buttons_docker", "button_group_management")
+	if not button_group_management then return end
+
+	local main_zoo_button = find_uicomponent(button_group_management, "ovn_hlf_cooking_button")
+	if not main_zoo_button then
+		main_zoo_button = UIComponent(button_group_management:CreateComponent("ovn_hlf_cooking_button", "ui/templates/round_large_button"))
+		button_group_management:Layout()
+	end
+	if not main_zoo_button then return end
+	main_zoo_button:SetVisible(true)
+
+	local cooking_interface = cm:model():world():cooking_system():faction_cooking_info(faction)
+	if not cooking_interface.active_dish then return end
+	local active_dish = cooking_interface:active_dish()
+
+	local mcc = find_ui_component_str("root > layout > faction_buttons_docker > button_group_management > button_mortuary_cult > label_mortuary_cult_count")
+	local counter = find_ui_component_str(main_zoo_button, "pj_zoo_counter")
+	if not counter then
+		local localized_main_tooltip = effect.get_localised_string("pj_zoo_script_zoo_main_tooltip")
+		local localized_num_turns = effect.get_localised_string("pj_zoo_script_zoo_num_turns")
+
+		main_zoo_button:SetTooltipText(localized_main_tooltip, true)
+
+		counter = UIComponent(mcc:CopyComponent("pj_zoo_counter"))
+		counter:SetTooltipText(localized_num_turns, true)
+		main_zoo_button:Adopt(counter:Address())
+	end
+	main_zoo_button:SetImagePath("ui/hlf_cooking4.png", 0)
+
+	if active_dish.is_null_interface then
+		main_zoo_button:StartPulseHighlight()
+		counter:SetStateText(tostring(0))
+		counter:SetVisible(true)
+	else
+		main_zoo_button:StopPulseHighlight()
+		counter:SetStateText(tostring(active_dish:remaining_duration()))
+		counter:SetVisible(true)
+	end
+end
+
+core:remove_listener('ovn_hlf_on_faction_turn_start_cooking')
+core:add_listener(
+	'ovn_hlf_on_faction_turn_start_cooking',
+	'FactionTurnStart',
+	function(context)
+		---@type CA_FACTION
+		local faction = context:faction()
+		return faction:name() == faction_key
+	end,
+	function()
+		local local_faction_name = cm:get_local_faction_name(true)
+		if local_faction_name ~= faction_key then return end
+
+		update_main_zoo_button()
+	end,
+	true
+)
+
+core:remove_listener("ovn_hlf_on_groms_cauldron_panel_closed")
+core:add_listener(
+	"ovn_hlf_on_groms_cauldron_panel_closed",
+	"PanelClosedCampaign",
+	function(context)
+		return context.string == "groms_cauldron"
+	end,
+	function()
+		local local_faction_name = cm:get_local_faction_name(true)
+		if local_faction_name ~= faction_key then return end
+
+		update_main_zoo_button()
+	end,
+	true
+)
+
 cm:add_first_tick_callback(function()
     if cm:get_local_faction_name(true) == faction_key then
         ui_init()
+				update_main_zoo_button()
     end
 
     init()
 end)
+
+--- Directly set up stuff if hot-reloading during dev.
+--- We're checking for presence of execute external lua file in the traceback.
+if debug.traceback():find('pj_loadfile') then
+	ui_init()
+	update_main_zoo_button()
+end
