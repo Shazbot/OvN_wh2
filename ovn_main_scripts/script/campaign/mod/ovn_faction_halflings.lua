@@ -1,8 +1,7 @@
 local function setup_diplo()
-
     cm:force_diplomacy("faction:wh2_main_emp_the_moot", "faction:wh_main_emp_empire", "all", true, true, true);
     if cm:get_faction("wh2_main_emp_the_moot"):is_human() then
-    cm:force_diplomacy("faction:wh2_main_emp_the_moot", "faction:wh_main_emp_empire", "war", false, false, true);
+			cm:force_diplomacy("faction:wh2_main_emp_the_moot", "faction:wh_main_emp_empire", "war", false, false, true);
     end
 end
 
@@ -16,6 +15,46 @@ local function halflings_init()
     end
 
     setup_diplo()
+
+		--- kill the qb faction after the new campaign starting battle
+		core:remove_listener("ovn_hlf_after_starting_battle")
+		core:add_listener(
+			"ovn_hlf_after_starting_battle",
+			"BattleCompleted",
+			true,
+			function(context)
+				local starting_fight_faction_key = "wh_main_vmp_vampire_counts_qb3"
+
+				local has_been_fought = cm:model():pending_battle():has_been_fought()
+				if not has_been_fought then return end -- don't do stuff if the player retreated
+
+				if cm:pending_battle_cache_num_attackers() >= 1 then
+					for i = 1, cm:pending_battle_cache_num_attackers() do
+						local this_char_cqi, this_mf_cqi, current_faction_name = cm:pending_battle_cache_get_attacker(i);
+						if current_faction_name == starting_fight_faction_key then
+							cm:disable_event_feed_events(true, "","","diplomacy_faction_destroyed");
+							cm:disable_event_feed_events(true, "wh_event_category_character", "", "");
+							cm:kill_character(this_char_cqi, true, true)
+							cm:callback(function() cm:disable_event_feed_events(false, "","","diplomacy_faction_destroyed") end, 3);
+							cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 3);
+						end
+					end
+				end
+				if cm:pending_battle_cache_num_defenders() >= 1 then
+					for i = 1, cm:pending_battle_cache_num_defenders() do
+						local this_char_cqi, this_mf_cqi, current_faction_name = cm:pending_battle_cache_get_defender(i);
+						if current_faction_name == starting_fight_faction_key then
+							cm:disable_event_feed_events(true, "","","diplomacy_faction_destroyed");
+							cm:disable_event_feed_events(true, "wh_event_category_character", "", "");
+							cm:kill_character(this_char_cqi, true, true)
+							cm:callback(function() cm:disable_event_feed_events(false, "","","diplomacy_faction_destroyed") end, 3);
+							cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 3);
+						end
+					end
+				end
+			end,
+			true
+		)
 
 		core:remove_listener("pj_moot_rename_hlf_agents")
 		core:add_listener(
