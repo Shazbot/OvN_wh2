@@ -163,7 +163,7 @@ local function toggle_renown_button_highlight(toggle_on)
 	local button_group_army = find_ui_component_str("root > layout > hud_center_docker > hud_center > small_bar > button_group_army")
 	if button_group_army and button_group_army:Visible() then
 		local button_renown = find_uicomponent(button_group_army, "button_renown")
-		if button_renown then
+		if button_renown and button_renown:Visible() then
 			if toggle_on then
 				button_renown:StartPulseHighlight(5)
 				return true
@@ -394,115 +394,12 @@ local tree_to_effect_bonuses = {
 	},
 }
 
--- local tree_to_bonuses = {
--- 	zhatan = {
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_1"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_2"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_3"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_4"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_5"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_6"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_7"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_8"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_9"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_10"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_11"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_12"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_13"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_14"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_15"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_16"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_17"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_18"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_19"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_20"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_21"),
--- 		},
--- 	},
--- 	immortal = {
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_22"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_23"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_24"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_25"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_26"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_27"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_28"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_29"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_30"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_31"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_32"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_33"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_34"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_35"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_36"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_37"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_38"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_39"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_40"),
--- 		},
--- 	},
--- 	draz = {
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_41"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_42"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_43"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_44"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_45"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_46"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_47"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_48"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_49"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_50"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_51"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_52"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_53"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_54"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_55"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_56"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_57"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_58"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_59"),
--- 		},
--- 		{
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_60"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_61"),
--- 			effect.get_localised_string("pj_chorf_panel_script_tree_rewards_62"),
--- 		},
--- 	},
--- }
-
-local function get_cost(index)
-	return 100 + (index*75)
+local function get_cost()
+	local total_unlocked_tiers = 0
+	for _, unlocked_tiers_in_tree in pairs(tree_to_unlocked_tier) do
+		total_unlocked_tiers = total_unlocked_tiers + unlocked_tiers_in_tree
+	end
+	return 100 + (total_unlocked_tiers*75)
 end
 
 local function faction_has_enough_slaves(num_slaves_req)
@@ -520,13 +417,13 @@ local function get_tooltip(tree_name, index)
 	elseif is_too_far_up then
 		tooltip = tooltip..effect.get_localised_string("pj_chorf_panel_script_tree_tribute_fulfill_previous")
 	else
-		if not faction_has_enough_slaves(get_cost(index)) then
+		if not faction_has_enough_slaves(get_cost()) then
 			local not_enough_slaves_loc = effect.get_localised_string("pj_chorf_panel_script_tree_other_1")
-			not_enough_slaves_loc = not_enough_slaves_loc:gsub("SLAVE_COST_REPLACEMENT", get_cost(index))
+			not_enough_slaves_loc = not_enough_slaves_loc:gsub("SLAVE_COST_REPLACEMENT", get_cost())
 			tooltip = tooltip..not_enough_slaves_loc
 		else
 			local has_enough_slaves_loc = effect.get_localised_string("pj_chorf_panel_script_tree_other_2")
-			has_enough_slaves_loc = has_enough_slaves_loc:gsub("SLAVE_COST_REPLACEMENT", get_cost(index))
+			has_enough_slaves_loc = has_enough_slaves_loc:gsub("SLAVE_COST_REPLACEMENT", get_cost())
 			tooltip = tooltip..has_enough_slaves_loc
 		end
 	end
@@ -983,7 +880,7 @@ function(context)
 
 	local faction_key, tree_name, tree_index = args[1], args[2], args[3]
 
-	local slaves_cost = get_cost(tree_index)
+	local slaves_cost = get_cost()
 	cm:modify_faction_slaves_in_a_faction(faction_key, -slaves_cost)
 
 	for _, fun in ipairs(tree_to_other_bonuses[tree_name][tree_index+1]) do
@@ -1017,7 +914,7 @@ true
 local function upgrade_clicked(tree_name, tree_index)
 	if tree_to_unlocked_tier[tree_name] ~= tree_index then return end
 
-	local slaves_cost = get_cost(tree_index)
+	local slaves_cost = get_cost()
 	if not faction_has_enough_slaves(slaves_cost) then return end
 
 	tree_to_unlocked_tier[tree_name] = tree_to_unlocked_tier[tree_name] + 1
@@ -1288,8 +1185,8 @@ end,
 function(context)
 	cm:callback(
 		function()
-			toggle_renown_button_highlight(just_gave_free_unit)
-			if just_gave_free_unit then
+			local succesfully_applied_highlight = toggle_renown_button_highlight(just_gave_free_unit)
+			if succesfully_applied_highlight and just_gave_free_unit then
 				just_gave_free_unit = false
 			end
 		end,
