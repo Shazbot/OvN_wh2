@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\halflings_head_07.rigid_model_v2" />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_longbeards\head\hlf_warriors_longbeard_head_02.rigid_model_v2"  />
+    </SLOT>
+
+	<SLOT name="hat" probability ="0.95" >
+<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/halfling_ranger_hats1.variantmeshdefinition" />
+<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/halfling_ranger_hats2.variantmeshdefinition" />
+<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/halfling_ranger_hats3.variantmeshdefinition" />
+	</SLOT>
+
+
+	<SLOT name="mouth" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_rangers\head\ovn_rangers_mouth_1.rigid_model_v2"/>
+	</SLOT>
+</VARIANT_MESH>
