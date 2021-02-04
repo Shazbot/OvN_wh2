@@ -1,0 +1,45 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\chs\belakor\belakor_torso.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\chs\belakor\belakor_head.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\chs\belakor\belakor_legs.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="wings" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\chs\belakor\belakor_wings.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\bst\bst_beastlord\head\bst_beastlordinv_head_01.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\chs\belakor\belakor_shield.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_2" attach_point="be_prop_5" />
+	<SLOT name="stump_neck" attach_point="spine_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6/dlc02_blood_pack/dlc02_stump_neck_hu6.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_left_arm" attach_point="clav_left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6/dlc02_blood_pack/dlc02_stump_left_arm_hu6.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_right_arm" attach_point="clav_right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6/dlc02_blood_pack/dlc02_stump_right_arm_hu6.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_waist" attach_point="root" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6/dlc02_blood_pack/dlc02_stump_waist_hu6.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_severed_head" attach_point="head_0" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6/dlc02_blood_pack/dlc02_stump_head_hu6.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

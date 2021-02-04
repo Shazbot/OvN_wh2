@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="helm" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_ghost_hexwraith/vmp_dread_king_head_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

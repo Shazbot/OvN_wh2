@@ -1,0 +1,81 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/halfling_rinf_head.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/halfling_rinf_head1.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/halfling_rangerh1.variantmeshdefinition" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_rangers\head\ovn_rangers_head_01.rigid_model_v2" />
+    </SLOT>
+	<SLOT name="torso" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_artillerymen\torso\war_artillerymen_body_01.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_artillerymen\torso\war_artillerymen_body_02.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_artillerymen\torso\war_artillerymen_body_03.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+    </SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\body\war_slayers_body_01.rigid_model_v2"  >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA></VARIANT_MESH>
+
+	<SLOT name="backpack" probability ="0.5" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_miners\head\hlf_miners_backpack.rigid_model_v2"  />
+	</SLOT>
+
+	</SLOT>
+		<SLOT name="cape" probability ="0.75" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_rangers\cape\hlf_rangers_cape_01.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="belt" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\legs\dwf_slayers_belt_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\legs\dwf_slayers_belt_02.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\legs\arc_slayers_legs1.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\legs\arc_slayers_legs2.rigid_model_v2"  />
+	</SLOT>
+
+	<SLOT name="stump_neck" attach_point="spine_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dlc02_blood_pack/dlc02_stump_neck_hu3.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_left_arm" attach_point="clav_left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dlc02_blood_pack/dlc02_stump_left_arm_hu3.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_right_arm" attach_point="clav_right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dlc02_blood_pack/dlc02_stump_right_arm_hu3.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_waist" attach_point="root" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dlc02_blood_pack/dlc02_stump_waist_hu3.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_severed_head" attach_point="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dlc02_blood_pack/dlc02_stump_head_hu3.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu3\hlf\hlf_props/hob_knife1.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu3\hlf\hlf_props/hob_knife2.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\bst\bst_props\war_shield_01.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:wood</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\bst\bst_props\war_shield_02.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:wood</META_DATA></VARIANT_MESH>
+
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dwf/dwf_props/hlf_warriors_shield_02_s.rigid_model_v2"  >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\bst\bst_props\war_shield_02.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:wood</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" >
+	</SLOT>
+	<SLOT name="weapon_4" attach_point="be_prop_4" >
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

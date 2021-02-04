@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+    
+	<SLOT name="dummy" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/ksl_dummy.rigid_model_v2" />
+	</SLOT>
+
+    <SLOT name="head" >
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_keffiyeh_muktar.wsmodel" />
+	</SLOT>
+    
+	<SLOT name="agal" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_agal_muktar.wsmodel" />
+	</SLOT>
+
+    <SLOT name="beard" probability ="0.7" >
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_wizard\light\head\emp_wizard_light_beard_01.rigid_model_v2"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+	</SLOT>
+    
+</VARIANT_MESH>

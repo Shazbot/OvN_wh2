@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\akml\vmp\vmp_terrorgheist\grn_wyvern_1.wsmodel" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_dragon_small_wyvern_LH</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="body1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels\akml\vmp\vmp_terrorgheist/vmp_terrorgheist_body_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

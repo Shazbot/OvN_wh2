@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_longbeards\head\hlf_warriors_longbeard_head_03.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_runesmith\head\hlf_runesmith_head_02.rigid_model_v2" />
+    </SLOT>
+
+	<SLOT name="hat" probability ="0.95" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_peasant_hood_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_free_company_hat_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_peasant_hood_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_peasant_hood_03.wsmodel" />
+	</SLOT>

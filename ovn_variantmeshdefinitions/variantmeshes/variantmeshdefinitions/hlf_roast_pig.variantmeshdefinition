@@ -1,0 +1,41 @@
+<VARIANT_MESH>
+	<SLOT name="throne" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu3\hlf\hlf_roast_pig/hob_pig.rigid_model_v2" />
+	</SLOT>
+
+	<SLOT name="front left" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\hlf\hlf_roast_pig/hob_fl.wsmodel" />
+	</SLOT>
+	<SLOT name="front right" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\hlf\hlf_roast_pig/hob_fr.wsmodel" />
+	</SLOT>
+	<SLOT name="back left" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\hlf\hlf_roast_pig/hob_bl.wsmodel" />
+	</SLOT>
+	<SLOT name="back right" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\hlf\hlf_roast_pig/hob_br.wsmodel" />
+	</SLOT>
+
+	<SLOT name="front left shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_lord_shield_front_left_012.rigid_model_v2" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="front right shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_lord_shield_front_right_012.rigid_model_v2" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="back left shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_lord_shield_back_left_012.rigid_model_v2" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="back right shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\throne01\dwf_anvil_of_doom\dwf_lord_shield_back_right_012.rigid_model_v2" >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_vfx_5" />
+	<SLOT name="weapon_1" attach_point="be_prop_rider_4" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_rune_smith_hammer_1h_011.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:hammer</META_DATA></VARIANT_MESH>
+
+	</SLOT>
+</VARIANT_MESH>

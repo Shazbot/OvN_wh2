@@ -1,0 +1,14 @@
+<VARIANT_MESH> 
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/arb_golden_magus_base.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/sword/arb_golden_magus_sword_01.wsmodel">
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_golden_magus/weapons/arb_golden_magus_lamp_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

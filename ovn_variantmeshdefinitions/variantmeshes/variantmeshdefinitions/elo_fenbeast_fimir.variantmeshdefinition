@@ -1,0 +1,26 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/head/fen_beast_wood_head_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/head/fen_beast_wood_head_02.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/head/fen_beast_wood_head_03.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="torso" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/torso/fen_beast_wood_torso_01.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_treekin</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/torso/fen_beast_wood_torso_02.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_treekin</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/torso/fen_beast_wood_torso_03.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_treekin</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/torso/fen_beast_wood_torso_04.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_treekin</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/fenbeast_left.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/fenbeast_right.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/legs/fen_beast_wood_legs_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/legs/fen_beast_wood_legs_02.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/wef/wef_treekin/legs/fen_beast_wood_legs_03.rigid_model_v2"  />
+	</SLOT>
+</VARIANT_MESH>

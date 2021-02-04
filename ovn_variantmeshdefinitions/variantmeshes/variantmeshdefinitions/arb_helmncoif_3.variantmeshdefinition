@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="helm" >
+            <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_helm3.wsmodel" />
+            <VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />	
+	</SLOT>
+    
+	<SLOT name="helmcloth" probability="0.8" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_headcloth1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_headcloth2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_headcloth3.wsmodel" />
+	</SLOT>
+
+	<SLOT name="helmcloth" probability="0.8" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_headcloth1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_headcloth2.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

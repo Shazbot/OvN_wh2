@@ -1,0 +1,46 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\head\ws_river_troll_head_01.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\head\ws_river_troll_head_02.wsmodel"  />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\body\ws_river_troll_body_01.wsmodel"  >
+			<META_DATA>audio_entity_type:wh_troll</META_DATA>
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="left wrist rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\body\ws_river_troll_wrist_rope_left_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="right wrist rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\body\ws_river_troll_wrist_rope_right_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="left ankle rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\body\ws_river_troll_ankle_rope_left_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="right ankle rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\body\ws_river_troll_ankle_rope_right_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="belt" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\body\ws_river_troll_belt.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="necklace" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4b/grn/ws_river_troll/body/ws_river_troll_necklace_01.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4b/grn/ws_river_troll/body/ws_river_troll_necklace_02.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\trl_bone_club2.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:axe_huge</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_1" />
+	<SLOT name="weapon_3" attach_point="be_prop_1" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_1" />
+</VARIANT_MESH>

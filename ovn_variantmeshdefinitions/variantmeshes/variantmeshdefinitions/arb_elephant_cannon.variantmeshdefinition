@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="cannon" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/steamtank01turret01/arb/arb_elephant_cannon/arb_elephant_cannon_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,25 @@
+<VARIANT_MESH>
+    
+    <SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_turban_01.wsmodel" />
+	</SLOT>
+    
+    <SLOT name="head" >
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_head_02.wsmodel"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_head_04.wsmodel"  />
+	</SLOT>
+
+    <SLOT name="eyepatch" probability ="0.5">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_captains\head\emp_captains_eye_bandage_01.rigid_model_v2" />
+		<VARIANT_MESH/>
+	</SLOT>
+
+	<SLOT name="body" >
+	<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_body.wsmodel" >
+        <META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_body_2.wsmodel" >
+        <META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+
+
+</VARIANT_MESH>

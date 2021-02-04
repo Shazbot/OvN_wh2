@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+
+	<SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb\arb_southlanders\arb_southlander_lion_headdress_01.wsmodel"  />
+	</SLOT>
+
+	<SLOT name="head" >
+	<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_flagellants/head/ovn_flagellants_tattersouls_head_05.rigid_model_v2" />
+	</SLOT>
+
+
+</VARIANT_MESH>

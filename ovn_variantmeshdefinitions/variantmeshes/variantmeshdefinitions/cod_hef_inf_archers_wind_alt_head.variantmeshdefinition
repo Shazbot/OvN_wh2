@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+
+<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/head/hef_archers_head_03.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_shadow_warrior/hef_shadow_warrior_grey_head_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_spearmen/head/hef_spearmen_head_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="cape" probability ="0.5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_shadow_warrior/hef_shadow_warrior_grey_cape_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_shadow_warrior/hef_shadow_warrior_grey_cape_02.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

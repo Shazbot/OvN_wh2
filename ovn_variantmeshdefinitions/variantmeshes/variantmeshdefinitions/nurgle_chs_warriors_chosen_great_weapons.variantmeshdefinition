@@ -1,0 +1,24 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/nurgle_chs_warriors_chosen_base.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_props\JvJ_nurgle_chs_chosen_axe_2h_01.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_props\JvJ_nurgle_chs_chosen_axe_2h_02.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_props\JvJ_nurgle_chs_chosen_axe_2h_03.wsmodel"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+	                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\gh1\vmp\vmp_props\JvJ_nurgle_vmp_cairn_wraith_scythe_2h_01.wsmodel"  imposter_model="VariantMeshes\wh_variantmodels\gh1\vmp\vmp_props\vmp_cairn_wraith_scythe_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\gh1\vmp\vmp_props\JvJ_nurgle_vmp_cairn_wraith_scythe_2h_02.wsmodel"  imposter_model="VariantMeshes\wh_variantmodels\gh1\vmp\vmp_props\vmp_cairn_wraith_scythe_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\gh1\vmp\vmp_props\JvJ_nurgle_vmp_cairn_wraith_scythe_2h_03.wsmodel"  imposter_model="VariantMeshes\wh_variantmodels\gh1\vmp\vmp_props\vmp_cairn_wraith_scythe_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>                                     
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" />
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

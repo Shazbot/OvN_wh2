@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_camel_rider/head/arb_keffiyeh_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_camel_rider/head/arb_keffiyeh_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_camel_rider/head/arb_keffiyeh_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_camel_rider/head/arb_keffiyeh_04.wsmodel" />
+	</SLOT>
+	<SLOT name="agal" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_camel_rider/head/arb_agal_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

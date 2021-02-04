@@ -1,0 +1,49 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\forest_troll_01.rigid_model_v2"  >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_troll</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="horns" >
+                                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\chs\chs_troll\head\forest_troll_horns_01.rigid_model_v2" />
+                                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\chs\chs_troll\head\forest_troll_horns_02.rigid_model_v2" />
+                                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\chs\chs_troll\head\forest_troll_horns_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="left wrist rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_left_wrist_rope_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="right wrist rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_right_wrist_rope_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="left ankle rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_left_ankle_rope_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="right ankle rope" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_right_ankle_rope_01.wsmodel"  />
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="necklace" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_necklace_accessories_01.wsmodel"  >
+			<SLOT name="necklace accessories1" >
+				<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_necklace_accessories_02.wsmodel"  />
+				<VARIANT_MESH/>
+			</SLOT>
+			<SLOT name="necklace accessories2" >
+				<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_necklace_bone_01 .wsmodel"  imposter_model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_necklace_bone_01 .wsmodel" />
+				<VARIANT_MESH/>
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH/>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\forest_troll_club.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:axe_huge</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_1" />
+	<SLOT name="weapon_3" attach_point="be_prop_1" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_1" />
+</VARIANT_MESH>

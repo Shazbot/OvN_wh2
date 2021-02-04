@@ -1,0 +1,28 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_s_head1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_s_head2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_s_head3.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_s_head4.wsmodel" />
+	</SLOT>
+
+	<SLOT name="body" >
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_wizard/acolyte/body/emp_arabic_light_body_01.rigid_model_v2" >
+<META_DATA>audio_entity_type:wh_human_male_LH</META_DATA>		<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>	
+	</SLOT>
+
+
+	<SLOT name="hat" probability ="0.35" >
+	<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_props/arb_fez_01.wsmodel" />
+	</SLOT>
+
+
+	<SLOT name="beard" probability ="0.65" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_wizard\light\head\emp_wizard_light_beard_01.rigid_model_v2"  />
+<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_free_company/sultan_beard_company_head_01.rigid_model_v2" />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+	</SLOT>
+
+</VARIANT_MESH>

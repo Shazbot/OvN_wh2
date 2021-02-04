@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\kho\kho_bloodletter\kho_bloodletter_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\kho\kho_bloodletter\kho_bloodletter_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\kho\kho_bloodletter\kho_bloodletter_head_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\kho\kho_bloodletter\kho_bloodletter_body_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\kho\kho_bloodletter\kho_bloodletter_body_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6\kho\kho_bloodletter\kho_bloodletter_body_03.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

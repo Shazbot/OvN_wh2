@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+
+<SLOT name="head" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\halflings_head_04.rigid_model_v2"/>
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\halflings_head_05.rigid_model_v2"/>
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\halflings_head_06.rigid_model_v2"/>
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\halflings_head_07.rigid_model_v2"/>
+</SLOT>
+
+	<SLOT name="hat" probability ="0.95" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\ovn_ogr_ogre_helmet_02.rigid_model_v2" />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\hobbitpot1.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\hobbitpot2.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\hobbitpot3.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_greatswords_hat_01.wsmodel" />
+	</SLOT>
+
+	<SLOT name="mouth" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_rangers\head\ovn_rangers_mouth_1.rigid_model_v2"/>	</SLOT>
+
+</VARIANT_MESH>

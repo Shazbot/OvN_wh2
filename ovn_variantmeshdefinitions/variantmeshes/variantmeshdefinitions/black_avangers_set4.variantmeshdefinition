@@ -1,0 +1,15 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_free_company/emp_free_company_head_04.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="body" >
+				<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_free_company/gr2_free_company_torso_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_free_company/gr2_free_company_torso_02.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_state_troops\legs\gr2_state_troops_legs_01.rigid_model_v2"   />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_state_troops\legs\gr2_state_troops_legs_02.rigid_model_v2"   />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_state_troops\legs\gr2_state_troops_legs_03.rigid_model_v2"   />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_state_troops\legs\gr2_state_troops_legs_04.rigid_model_v2"   />
+	</SLOT>
+</VARIANT_MESH>

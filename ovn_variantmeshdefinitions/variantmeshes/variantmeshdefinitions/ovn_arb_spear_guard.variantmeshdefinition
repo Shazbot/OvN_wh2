@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ovn_arb_head_helm_1.variantmeshdefinition" />
+	</SLOT>
+	
+
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_wizard\bright\body\ovn_bright_wizard_body_01.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_human_male_LH</META_DATA>	<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+</VARIANT_MESH>

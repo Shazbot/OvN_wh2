@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="1h spear" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1\alb\alb_props/alb_spear_1h_01.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:spear</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1\alb\alb_props/alb_spear_1h_02.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:spear</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

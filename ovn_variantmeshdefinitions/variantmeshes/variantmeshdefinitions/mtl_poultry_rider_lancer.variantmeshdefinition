@@ -1,0 +1,62 @@
+<VARIANT_MESH>
+	<SLOT name="hat" >
+		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/hat/mtl_free_company_hat_01.rigid_model_v2" />
+		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/hat/mtl_free_company_hat_02.rigid_model_v2" />
+		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/hat/mtl_free_company_hat_05.rigid_model_v2" />
+		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/hat/mtl_greatswords_hat_01.rigid_model_v2" />
+		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/hat/mtl_greatswords_hat_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/head/mtl_poultry_rider_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/head/mtl_poultry_rider_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/head/mtl_poultry_rider_head_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="torso" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/torso/mtl_poultry_rider_torso_01.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/torso/mtl_poultry_rider_torso_02.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/torso/mtl_poultry_rider_torso_03.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:wh_dwarf_default</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/legs/mtl_poultry_rider_legs_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/legs/mtl_poultry_rider_legs_02.rigid_model_v2" />
+	</SLOT>
+
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/lance/mtl_poultry_rider_lance_01.rigid_model_v2"  >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_melee_weapon_type:lance</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/lance/mtl_poultry_rider_lance_02.rigid_model_v2"  >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_melee_weapon_type:lance</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/lance/mtl_poultry_rider_lance_03.rigid_model_v2"  >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_melee_weapon_type:lance</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7b/mtl/mtl_poultry_rider/lance/mtl_poultry_rider_lance_04.rigid_model_v2"  >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_melee_weapon_type:lance</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7b\mtl\mtl_poultry_rider\shield/mtl_poultry_rider_shield_02.rigid_model_v2"  >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7b\mtl\mtl_poultry_rider\shield/mtl_poultry_rider_shield_03.rigid_model_v2"  >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

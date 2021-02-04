@@ -1,0 +1,20 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_hulk_head_02.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_hulk_head_03.wsmodel"  />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_body_r_01.wsmodel"  >
+			<META_DATA>audio_entity_type:wh_spawn</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="right arm" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_arm_r_01.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_arm_r_02.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_arm_r_03.wsmodel"  />
+	</SLOT>
+	<SLOT name="left arm" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_arm_l_01.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_arm_l_02.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hc02\chs\chs_chaos_spawn\fen_beast_arm_l_03.wsmodel"  />
+	</SLOT>
+</VARIANT_MESH>

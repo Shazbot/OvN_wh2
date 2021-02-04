@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_camel\arb_camel_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_wef_stag</META_DATA>
+			<META_DATA>audio_armour_type:leather</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_camel\arb_camel_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_wef_stag</META_DATA>
+			<META_DATA>audio_armour_type:leather</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="saddle" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_camel\arb_camel_saddle_01.wsmodel" />
+	</SLOT>
+	<SLOT name="hat" probability ="0.04">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_camel\arb_camel_fez_01.wsmodel" />
+	</SLOT>
+
+	<SLOT name="barding" probability ="0.6">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_camel\arb_camel_barding_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

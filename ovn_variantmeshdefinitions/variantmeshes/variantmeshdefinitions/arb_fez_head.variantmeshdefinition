@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_flagellants/head/ovn_flagellants_tattersouls_head_05.rigid_model_v2" />
+	</SLOT>
+
+
+	<SLOT name="hat" probability ="0.5" >
+	<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_props/arb_fez_01.wsmodel" />
+	</SLOT>
+
+	<SLOT name="beard" probability ="0.75" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_wizard\light\head\emp_wizard_light_beard_01.rigid_model_v2"  />
+	</SLOT>
+
+</VARIANT_MESH>

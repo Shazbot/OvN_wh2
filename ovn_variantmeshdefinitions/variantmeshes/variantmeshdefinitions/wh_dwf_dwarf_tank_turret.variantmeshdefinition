@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="body">
+		<VARIANT_MESH model="warmachines\engines\emp_steam_tank\dwf_steam_tank01_turret01.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

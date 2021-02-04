@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/arb/wsmodel/arb_scy_horse_white.wsmodel" >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA></VARIANT_MESH>
+	</SLOT>
+
+
+	<SLOT name="armour" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/arb/wsmodel/arb_ll_horse.wsmodel" />
+	</SLOT>
+
+</VARIANT_MESH>

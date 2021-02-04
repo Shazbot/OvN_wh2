@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+	<SLOT name="litter" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\grail01\arb\arb_djinn_vessel\arb_djinn_vessel_01.wsmodel"  />
+	</SLOT>
+	<SLOT name="litter bearers" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/grail01/arb/arb_djinn_vessel/arb_djinn_vessel_carriers_01.wsmodel"  >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

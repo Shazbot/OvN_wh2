@@ -1,0 +1,26 @@
+<VARIANT_MESH>
+
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\din_coif.rigid_model_v2"  />
+	</SLOT>
+
+
+<SLOT name="helmet1a" probability ="0.65" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />	
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />		
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />	
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_din_helm1.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_din_helm1.rigid_model_v2"  />
+</SLOT>
+
+<SLOT name="body" >
+	<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\din_torso_nolegs.rigid_model_v2"  />
+	
+	</SLOT>
+
+	<SLOT name="legs" >
+	<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_free_company/emp_free_company_legs_03.rigid_model_v2" />
+	</SLOT>
+	
+
+</VARIANT_MESH>

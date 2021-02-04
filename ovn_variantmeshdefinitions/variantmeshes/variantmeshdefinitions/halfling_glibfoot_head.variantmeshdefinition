@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+    <SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_glit_hat_01.wsmodel" />
+	</SLOT>
+    
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_runesmith\head\hlf_glit_head_01.wsmodel" />
+    </SLOT>
+    
+    

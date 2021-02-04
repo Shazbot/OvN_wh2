@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_03.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_03.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\mat_ogr_ogres_head_04.rigid_model_v2" />
+    </SLOT>
+	<SLOT name="helmet" probability ="0.05" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\mat_ogr_ogre_helmet_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\dwf_hammerers_helmet_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\mat_ogr_ogre_helmet_02.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\dwf_hammerers_helmet_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\mat_ogr_ogre_helmet_03.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\dwf_hammerers_helmet_01.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

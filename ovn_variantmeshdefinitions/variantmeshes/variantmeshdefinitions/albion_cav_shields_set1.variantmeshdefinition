@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/alb/alb_props/alb_cav_shield_01.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:wood</META_DATA>
+		</VARIANT_MESH>
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/alb/alb_props/alb_cav_shield_02.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:wood</META_DATA>
+		</VARIANT_MESH>
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/alb/alb_props/alb_cav_shield_03.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:wood</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

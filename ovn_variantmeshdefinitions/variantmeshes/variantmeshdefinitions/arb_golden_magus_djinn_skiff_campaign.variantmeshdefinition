@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="boat" >
+		<VARIANT_MESH model="warmachines/chariot/arb_golden_magus_ship/arb_golden_magus_ship_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

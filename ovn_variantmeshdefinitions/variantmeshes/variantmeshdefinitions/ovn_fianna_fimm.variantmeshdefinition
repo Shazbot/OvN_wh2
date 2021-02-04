@@ -1,0 +1,30 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ovn_fianna_fimm_base.VariantMeshDefinition" />
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_props\grn_azhag_sword_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_props\grn_azhag_axe_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1c/chs/chs_props/chs_marauder_champion_mace_2h_01.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_props/nor_mist_stalkers_mace_1h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_props/nor_mist_stalkers_mace_1h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+
+
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_01.wsmodel" />
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_02.wsmodel" />
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_01.wsmodel" />
+	</SLOT>
+
+</VARIANT_MESH>

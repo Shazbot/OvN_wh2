@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+
+	<SLOT name="body" >
+	<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\din_torso_nolegs.rigid_model_v2"  />
+	</SLOT>
+
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/brt/brt_men_at_arms/legs/brt_men_at_arms_legs_01.rigid_model_v2"  />
+	<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/brt/brt_men_at_arms/legs/brt_men_at_arms_legs_02.rigid_model_v2"  />
+
+	</SLOT>
+
+</VARIANT_MESH>

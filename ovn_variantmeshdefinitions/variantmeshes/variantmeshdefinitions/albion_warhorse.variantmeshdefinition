@@ -1,0 +1,15 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\chs\chs_warhorse\alb_warhorse_body_03.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\chs\chs_warhorse\alb_warhorse_body_02.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\chs\chs_warhorse\alb_warhorse_body_03.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\chs\chs_warhorse\alb_warhorse_body_01.rigid_model_v2" >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="helmet" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\chs\chs_warhorse\alb_warhorse_helmet_01.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

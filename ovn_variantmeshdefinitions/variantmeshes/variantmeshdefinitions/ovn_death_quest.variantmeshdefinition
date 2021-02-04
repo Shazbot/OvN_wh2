@@ -1,0 +1,38 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/body/nor_fimir_balefiend_body_22.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/body/nor_fimir_balefiend_body_23.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/body/nor_fimir_balefiend_body_24.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_21.wsmodel" >		
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_24.wsmodel" >
+
+
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/legs/nor_fimir_balefiend_legs_22.wsmodel" >		
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/legs/nor_fimir_balefiend_legs_23.wsmodel" >		
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+	<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_props\grn_black_orc_axe_2h_01.rigid_model_v2"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_props\grn_black_orc_axe_2h_02.rigid_model_v2"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_props\grn_black_orc_axe_2h_03.rigid_model_v2"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+
+
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_01.wsmodel" />
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_02.wsmodel" />
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_01.wsmodel" />
+<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/fim/fim_props/shield/fim_offhand_shield_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

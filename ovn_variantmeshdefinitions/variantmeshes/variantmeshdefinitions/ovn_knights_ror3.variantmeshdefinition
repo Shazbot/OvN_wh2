@@ -1,0 +1,25 @@
+<VARIANT_MESH>
+    
+	<SLOT name="dummy" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/ksl_dummy.rigid_model_v2" />
+	</SLOT>
+
+	<SLOT name="head" >
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_headwrap_muktar.wsmodel" />
+	</SLOT>
+    
+
+	<SLOT name="helm" >
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_muktar.wsmodel" >
+            <SLOT name="spikes" probability = "0.75" >
+                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_spike1_muktar.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_spike2_muktar.wsmodel"  />
+            </SLOT>
+            <SLOT name="neckguard" >
+                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_cloth_muktar.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_mail.wsmodel"  />
+            </SLOT>   
+        </VARIANT_MESH>	
+	</SLOT>
+    
+</VARIANT_MESH>

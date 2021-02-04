@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="shield" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_props\gru_lord_shield_02.rigid_model_v2"  >
+	</SLOT>
+</VARIANT_MESH>

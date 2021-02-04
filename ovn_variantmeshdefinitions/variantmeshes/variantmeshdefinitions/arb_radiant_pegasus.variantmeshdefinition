@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_radiant_pegasus\arb_radiant_pegasus_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_horse_pegasus</META_DATA>
+			<META_DATA>audio_armour_type:leather</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="wings" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hr1\arb\arb_radiant_pegasus\arb_radiant_pegasus_wings_01.wsmodel" >
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

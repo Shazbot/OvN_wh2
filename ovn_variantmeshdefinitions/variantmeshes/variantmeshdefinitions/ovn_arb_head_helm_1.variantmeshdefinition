@@ -1,0 +1,16 @@
+<VARIANT_MESH>	
+
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\din_coif.rigid_model_v2"  />
+	</SLOT>
+
+
+<SLOT name="helmet1a" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />	
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />		
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_helm1.rigid_model_v2"  />	
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_din_helm1.rigid_model_v2"  />
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\cri_din_helm1.rigid_model_v2"  />
+</SLOT>
+
+</VARIANT_MESH>

@@ -1,0 +1,62 @@
+<VARIANT_MESH>
+	<SLOT name="helmet" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_hair_01.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_hair_02.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_hair_03.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_head_01fan.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_head_02fan.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_head_03fan.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="moustache" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_moustache_01.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_moustache_02.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu1c\alb\alb_heads\alb_moustache_03.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\ber_marauder_berserkers_body_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\chs_marauder_berserkers_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_chaos_marauder</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\ber_marauder_berserkers_body_02.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\chs_marauder_berserkers_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_chaos_marauder</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\ber_marauder_berserkers_body_03.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\chs_marauder_berserkers_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_chaos_marauder</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\ber_marauder_berserkers_body_04.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\body\chs_marauder_berserkers_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_chaos_marauder</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\chs\chs_marauders\legs\ber_marauder_legs_01.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\nor\nor_props\ber_sword_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu1c\nor\nor_props\nor_wulfrik_sword_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1c\nor\nor_props\ber_sword_01.rigid_model_v2"  imposter_model="VariantMeshes\wh_variantmodels\hu1c\nor\nor_props\nor_wulfrik_sword_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_neck" attach_point="spine_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1c/dlc02_blood_pack/dlc02_stump_neck_hu1c.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_left_arm" attach_point="clav_left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1c/dlc02_blood_pack/dlc02_stump_left_arm_hu1c.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_right_arm" attach_point="clav_right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1c/dlc02_blood_pack/dlc02_stump_right_arm_hu1c.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_waist" attach_point="root" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1c/dlc02_blood_pack/dlc02_stump_waist_hu1c.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_severed_head" attach_point="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1c/dlc02_blood_pack/dlc02_stump_head_hu1c.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

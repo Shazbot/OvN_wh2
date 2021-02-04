@@ -1,0 +1,31 @@
+<VARIANT_MESH>
+    
+    <SLOT name="hat"  probability ="0.6">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_turban.wsmodel" >
+        <SLOT name="fancy" probability = "0.70" >
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_turban_feather.wsmodel"  />
+        </SLOT>
+        <SLOT name="cap" probability = "0.50" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_turban_cap.wsmodel"  />
+        </SLOT>
+        </VARIANT_MESH>		        
+	</SLOT>
+    
+    
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head3.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head4.wsmodel" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_head1_beard.wsmodel" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_head2_beard.wsmodel" />
+	</SLOT>
+    
+	<SLOT name="body" >
+	<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_body.wsmodel" >
+        <META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_corsair_body_2.wsmodel" >
+        <META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+    
+</VARIANT_MESH>

@@ -1,0 +1,18 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/akml/nor/nor_fimir_warriors/body/nor_fimir_warriors_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/akml/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_01.wsmodel" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/akml/nor/nor_fimir_warriors/legs/nor_fimir_warriors_legs_01.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/akml/nor/nor_props/nor_fimir_chief_warriors_mace_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:Medium_Metal_Fist</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

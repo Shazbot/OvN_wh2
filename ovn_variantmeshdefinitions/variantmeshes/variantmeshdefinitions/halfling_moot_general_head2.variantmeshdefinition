@@ -1,0 +1,18 @@
+<VARIANT_MESH>
+
+<SLOT name="head" >
+<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\head\halflings_head_07.rigid_model_v2"/>
+</SLOT>
+
+	<SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_free_company_hat_01.wsmodel" />
+	</SLOT>
+
+
+	<SLOT name="mouth" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_rangers\head\ovn_rangers_mouth_1.rigid_model_v2"/>
+	</SLOT>
+
+</VARIANT_MESH>
+
+
