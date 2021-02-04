@@ -399,7 +399,7 @@ local function get_cost()
 	for _, unlocked_tiers_in_tree in pairs(tree_to_unlocked_tier) do
 		total_unlocked_tiers = total_unlocked_tiers + unlocked_tiers_in_tree
 	end
-	return 100 + (total_unlocked_tiers*75)
+	return 100 + (total_unlocked_tiers*100)
 end
 
 local function faction_has_enough_slaves(num_slaves_req)
