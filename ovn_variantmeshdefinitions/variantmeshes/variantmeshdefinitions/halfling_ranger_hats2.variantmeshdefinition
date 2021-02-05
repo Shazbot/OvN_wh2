@@ -2,7 +2,6 @@
 	<SLOT name="hat" >
 <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_free_company_hat_04.wsmodel" />
 <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_free_company_hat_05.wsmodel" />
-<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_glit_hat_01.wsmodel" />
 <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_greatswords_hat_01.wsmodel" />
 <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_greatswords_hat_03.wsmodel" />
 	</SLOT>
