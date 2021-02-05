@@ -62,6 +62,8 @@ local function sr_chaos_dwarfs()
 					function(cqi)
 					end
 				)
+
+				cm:force_declare_war("wh2_dlc15_dwf_clan_helhein", "wh2_main_ovn_chaos_dwarfs", false, false)
 			else
 				-- if not played by a human give them the Mount Greyhag region
 				cm:transfer_region_to_faction("wh2_main_the_wolf_lands_mount_greyhag", "wh2_main_ovn_chaos_dwarfs")
