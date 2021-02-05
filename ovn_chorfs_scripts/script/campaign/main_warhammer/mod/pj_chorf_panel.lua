@@ -1366,3 +1366,46 @@ cm:add_first_tick_callback(
 		end
 	end
 )
+
+--- Give some levels to the LLs received from the panel.
+local panel_legendary_lord_subtypes = {
+	"rykarth_the_unbreakable",
+	"zhatan_the_black",
+	"drazhoath_the_ashen",
+}
+
+core:remove_listener("ovn_chorfs_on_char_selected_LL_xp_boost")
+core:add_listener(
+	"ovn_chorfs_on_char_selected_LL_xp_boost",
+	"CharacterCreated",
+	true,
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+
+		if char:faction():name() ~= "wh2_main_ovn_chaos_dwarfs" then return end
+		if char:is_faction_leader() then return end
+
+		local is_char_subtype_panel_legendary_lord = false
+		for _, subtype in ipairs(panel_legendary_lord_subtypes) do
+			is_char_subtype_panel_legendary_lord = is_char_subtype_panel_legendary_lord or char:character_subtype(subtype)
+		end
+		if not is_char_subtype_panel_legendary_lord then return end
+
+		if char:rank() ~= 1 then return end
+
+		local char_str = cm:char_lookup_str(char)
+		local xp_boost_tier = cm:get_saved_value("ovn_chorfs_legendary_lords_xp_boost_tier")
+		if not xp_boost_tier then
+			cm:set_saved_value("ovn_chorfs_legendary_lords_xp_boost_tier", 1)
+			cm:add_agent_experience(char_str, 4200)
+		elseif xp_boost_tier == 1 then
+			cm:set_saved_value("ovn_chorfs_legendary_lords_xp_boost_tier", 2)
+			cm:add_agent_experience(char_str, 11510)
+		elseif xp_boost_tier == 2 then
+			cm:set_saved_value("ovn_chorfs_legendary_lords_xp_boost_tier", 3)
+			cm:add_agent_experience(char_str, 19400)
+		end
+	end,
+	true
+)
