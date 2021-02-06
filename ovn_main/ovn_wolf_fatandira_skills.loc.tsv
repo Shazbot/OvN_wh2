@@ -26,3 +26,5 @@ character_skills_localised_name_arb_fatandira_anc_roc	Saqir	false
 character_skills_localised_description_arb_fatandira_anc_roc	Given to Fatandira as a gift by the Scythans, Saqir is a mighty specimen of Desert Roc, giant and intelligent birds of prey that fly high above the deserts of Araby. The animal quickly bonded with her, and now they soar the battlefield together.	false
 character_skills_localised_name_arb_fatandira_anc_scythan_armour	Cuirass of the Brave Queen	true
 character_skills_localised_description_arb_fatandira_anc_scythan_armour	This ancient magical lamellar cuirass is said to have belonged to a legendary warrior queen of the Scythans who killed one of the great Priest Kings of Ancient Nehekhara in battle. The Scythans, believing Fatandira to be a reincarnation of that queen, have granted to her this ancient artifact.	true
+character_skills_localised_description_arb_scythan_tomb_king_units	Those proved in battle may take a sacred vow to their god Tutankhanut and serve as his mortal champion.	true
+character_skills_localised_name_arb_scythan_tomb_king_units	Vow to Tutankhanut	true

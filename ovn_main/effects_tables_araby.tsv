@@ -20,3 +20,7 @@ ovn_araby_tech_corasir_units_upkeep	military_spending.png	4	military_spending.pn
 ovn_araby_tech_slaves_units_ma	melee.png	4	melee.png	battle	true
 ovn_araby_tech_slave_units_cost	military_spending.png	4	military_spending.png	campaign	false
 ovn_araby_slave_production	slaves.png	4	military_spending.png	campaign	true
+ovn_scythan_tk_md	defence.png	4	defence.png	battle	true
+ovn_scythan_tk_ma	melee.png	4	melee.png	battle	true
+ovn_scythan_tk_arm	armour.png	4	melee.png	battle	true
+ovn_scythan_numas_diplo	diplomacy.png	2	diplomacy.png	campaign	true

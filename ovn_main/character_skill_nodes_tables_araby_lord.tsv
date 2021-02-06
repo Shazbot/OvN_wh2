@@ -61,7 +61,8 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	wh_main_skill_all_magic_fire_09_piercing_bolts_of_burning	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_10	11.0		0	4	true
 	Order_Buff	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_13	6.0		0	0	true
 	Chaos_Buff	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_14	7.0		0	0	true
-	wh_main_skill_brt_lord_battle_basic_training	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_15	9.0		0	0	true
+	arb_scythan_tomb_king_units	wh_main_skill_node_set_ovn_araby_ll	wh2_main_arb_aswad_scythans	0.0	wh_main_skill_node_ovn_araby_ll_unique_17	9.0		0	0	true
+	wh_main_skill_brt_lord_battle_basic_training	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_15	8.0		0	0	true
 	wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_16	10.0		0	0	true
 	ovn_skill_arb_lord_mount_horse	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_03	3.0		0	0	true
 	Mount	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_04	4.0		0	0	true
