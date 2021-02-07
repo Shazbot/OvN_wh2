@@ -1,3 +1,10 @@
 victory_types_tables	2
 victory_type	tree_y	tree_x	length_type	icon
+ovn_victory_type_short	0	0	short	short
 ovn_victory_type_long	1	0	long	long
+ovn_victory_type_ultimate	2	0	ultimate	long
+ovn_victory_type_military	3	0	long	long
+ovn_victory_type_economic	4	0	long	long
+ovn_victory_type_cultural	5	0	long	long
+ovn_type_mp_coop	0	0	short	short
+ovn_type_mp_versus	0	0	short	short

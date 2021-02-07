@@ -76,13 +76,13 @@ technologies_onscreen_name_scythan_tech_neu_8	Devoted of Tutankhanut	false
 technologies_onscreen_name_araby_tech_neu_eco_1	Archaeology	false
 technologies_onscreen_name_araby_tech_neu_eco_2	Algoritmi	false
 technologies_onscreen_name_araby_tech_neu_eco_3	Hassan Order	false
-technologies_onscreen_name_araby_tech_neu_eco_4	Kryptós Analýein	false
+technologies_onscreen_name_araby_tech_neu_eco_4	Hashishin Teachings	false
 technologies_onscreen_name_araby_tech_neu_eco_5	Cartography	false
 technologies_onscreen_name_araby_tech_neu_eco_6	Kitab at-Tasrif	false
 technologies_short_description_araby_tech_neu_eco_1	We can learn much from the study of our forefathers and the Priest Kings.	false
 technologies_short_description_araby_tech_neu_eco_2	Any problem can be solved through the application of algorithms.	false
 technologies_short_description_araby_tech_neu_eco_3	Legendary order of assassins, renowned and feared across Araby.	false
-technologies_short_description_araby_tech_neu_eco_4	Our foes hidden agendas will be exposed.	false
+technologies_short_description_araby_tech_neu_eco_4	How to strike man and beast from the shadows, it may not be honourable but it is often fatal.	false
 technologies_short_description_araby_tech_neu_eco_5	We know these lands like the back of our hands, wait what's that.	false
 technologies_short_description_scythan_tech_neu_7	From slaves to beggars, all can now be laid to rest in the Necropolis so that they may serve their God for all eternity.	false
 technologies_short_description_scythan_tech_neu_8	Let us renew our undying pledge to Tutankhanut as our nomad forefathers once did.	false
@@ -99,3 +99,7 @@ technologies_onscreen_name_grudge_tech_3	Dawi Guides	false
 technologies_short_description_grudge_tech_3	The Dawi will show us how to traverse the mountains.	false
 technologies_onscreen_name_grudge_tech_4	Baggage Train	false
 technologies_short_description_grudge_tech_4	A baggage train will allow our camp to grow.	false
+technologies_short_description_araby_tech_good_9	Though the Askar have a strong sense of camaraderie with their leader, having a ceremony for those worthy can make them utterly devoted. 	false
+technologies_short_description_araby_tech_bad_9	Our foes hidden agendas will be exposed.	false
+technologies_onscreen_name_araby_tech_good_9	Oath of Loyalty	false
+technologies_onscreen_name_araby_tech_bad_9	Kryptós Analýein	false

@@ -51,3 +51,5 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 		5	araby_tech_neu_eco_4	araby_tech_neu_eco_4	ovn_araby_tech	7	600	0	0		
 		6	araby_tech_neu_eco_5	araby_tech_neu_eco_5	ovn_araby_tech	8	800	0	0		
 		7	araby_tech_neu_eco_6	araby_tech_neu_eco_6	ovn_araby_tech	8	500	0	0		
+	wh2_main_arb_caliphate_of_araby	0	araby_tech_good_9	araby_tech_good_9	ovn_araby_tech	1	1000	0	0		
+	wh2_main_arb_caliphate_of_araby	9	araby_tech_bad_9	araby_tech_bad_9	ovn_araby_tech	1	1200	0	0		

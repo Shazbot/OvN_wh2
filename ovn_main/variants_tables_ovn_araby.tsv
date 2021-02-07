@@ -59,6 +59,7 @@ ovn_arb_slave_off		ovn_arb_slave_off		1.05	1.05	0.05
 ovn_arb_jez_off		ovn_arb_jez_off		1.05	1.05	0.05	
 scythan_swordsmen		ovn_arb_scy_swordsmen		1.0	1.0	0.05	
 scythan_archers		ovn_arb_scy_archers		1.0	1.0	0.05	
+scythan_ranger		ovn_arb_scy_rangers		1.0	1.0	0.05	
 scythan_spearmen		ovn_arb_scy_spearmen		1.0	1.0	0.05	
 scythan_knights		ovn_arb_scy_knights		1.0	1.0	0.05	
 sr_ogre_arb		araby_mercenary_ogres		1.0	1.6	0.05	
