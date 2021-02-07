@@ -2,3 +2,5 @@ Loc PackedFile	1
 key	text	tooltip
 unit_abilities_onscreen_name_wh_main_unit_passive_relentless	Relentless	true
 unit_abilities_tooltip_text_wh_main_unit_passive_relentless	Chaos Dwarfs are implacable when on the attack, and are scornful of the ability of anyone or anything to stop them.	true
+unit_abilities_onscreen_name_wh_main_unit_passive_backstabberz	Backstabbers	true
+unit_abilities_tooltip_text_wh_main_unit_passive_backstabberz	Hobgoblins are expert at taking advantage of opportunities in battle, the second an opponent is on their heels is the best moment to strike.	true

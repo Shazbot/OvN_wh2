@@ -1,7 +1,7 @@
 Loc PackedFile	1
 key	text	tooltip
-character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_taurus	Great Taurus	true
-character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_taurus_zhatan	Great Taurus	true
+character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_taurus	Bale Taurus	true
+character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_taurus_zhatan	Bale Taurus	true
 character_skills_localised_name_wh_main_skill_chs_cha_dwarf_lord_lammasu	Lammasu	true
 character_skills_localised_name_wh_main_skill_chs_cha_drazhoath_cinderbreath	Cinderbreath	true
 character_skills_localised_description_wh_main_skill_chs_cha_dwarf_lord_taurus	None but the highest and most powerful servants of Hashut can hope to master these hellish monsters.	true
@@ -64,3 +64,5 @@ character_skills_localised_description_aazhatspecial4	Zhatan long ago learned th
 character_skills_localised_description_aazhatspecial5	Employing tactics despised by even the cruelest of warlords, Zhatan is capable of turning peasants on their king through sheer fear.	true
 character_skills_localised_description_aazhatspecial6	Zhatan's infamy proceeds him by many a mile, and the sight of his vile war machines on the horizon exceeds all rumors.	true
 character_skills_localised_description_aazhatspecial7	"Let it be known that Zhatan plunders to the west and returns with slaves for his master, Ghorth the Cruel."	true
+character_skills_localised_name_wh_main_skill_chs_hobgoblin_khan_wolf	Giant Wolf	true
+character_skills_localised_description_wh_main_skill_chs_hobgoblin_khan_wolf	"Da Khan getz da biggest barka', nuff sed."	true

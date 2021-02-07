@@ -155,9 +155,7 @@ false				hobgoblin_wolf_bow_raider	mp_cap_missile_cav_chariots
 false				infernal_guard_deathmask_naphta	mp_cap_missile_cav_chariots
 false				infernal_guard_deathmask_naphta	aainfernalonly
 false				k'daai_fireborn	mp_set_bst_mon_chaos_spawn
-false				deathshrieker_rocket_launcher	mp_set_chs_art_hellcannon
 false				iron_daemon	mp_set_chs_art_hellcannon
-false				magma_cannon	mp_set_chs_art_hellcannon
 false				goblin_slaves	mp_set_chs_inf_chaos_marauders_0
 false				hobgoblin_cuthroats	mp_set_chs_inf_chaos_marauders_0
 false				hobgoblin_sneaky_gits	mp_set_chs_inf_chaos_marauders_0
@@ -177,13 +175,10 @@ false				infernal_guard_great_weapons	mp_set_chs_inf_chosen_1
 false				infernal_guard_great_weapons	aainfernalonly
 false				infernal_guard_acolytes	mp_set_chs_inf_chosen_2
 false				infernal_guard_acolytes	aainfernalonly
-false				lava_troll	mp_set_chs_mon_chaos_trolls_0
 false				slave_ogre	mp_set_chs_mon_chaos_trolls_0
 false				bull_centaur_ba'hal	mp_set_chs_mon_dragon_ogre_shaggoth
 false				bull_centaur_render	mp_set_chs_mon_dragon_ogre_shaggoth
 false				bull_centaur_render_great_weapons	mp_set_chs_mon_dragon_ogre_shaggoth
-false				k'daai_destroyer	mp_set_chs_mon_giant
-false				kollossus	mp_set_chs_mon_giant
 false				great_taurus	mp_set_flying_unit
 false				great_taurus	aacdmonstersonly
 false				lammasu	mp_set_flying_unit

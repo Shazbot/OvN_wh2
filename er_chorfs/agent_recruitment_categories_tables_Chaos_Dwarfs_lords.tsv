@@ -2,3 +2,4 @@ agent_recruitment_categories_tables	1
 key	order	icon_file_path
 chaos_dwarf_legendary	4	UI\Common UI\unit_category_icons\commander.png
 chaos_dwarf_lord	5	UI\Common UI\unit_category_icons\missile_infantry_rifle.png
+chaos_dwarf_hobgoblin	6	UI\Common UI\unit_category_icons\wh_main_lore_lil_waaagh.png

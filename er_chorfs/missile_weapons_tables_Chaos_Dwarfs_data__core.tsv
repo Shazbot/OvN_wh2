@@ -8,3 +8,6 @@ deathshrieker_rocket_launcher	false	deathshrieker_rocket_launcher	rocket_battery
 magma_cannon	false	magma_cannon	flame_cannon	false
 chaos_dwarf_lord_rifle	false	chaos_dwarf_lord_rifle_bullet	repeater_gun	false
 wh_main_chd_cinderblast_bomb	false	wh_chd_cinderblast_bomb		false
+chorf_overlord_rifle	false	chorf_overlord_rifle	repeater_gun	false
+chorf_prophet_rifle	false	chorf_prophet_rifle	repeater_gun	false
+adshobgoblin_greatkhanbow	false	adshobgoblin_greatkhanbow	bow	false

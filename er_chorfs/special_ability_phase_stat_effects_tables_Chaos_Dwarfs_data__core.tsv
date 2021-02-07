@@ -1,3 +1,5 @@
 special_ability_phase_stat_effects_tables	3
 phase	value	stat	how
 wh_main_unit_passive_relentless	1.1	scalar_speed	mult
+wh_main_unit_passive_backstabberz	1.1	stat_melee_damage_base	mult
+wh_main_unit_passive_backstabberz	3.0	stat_melee_attack	add

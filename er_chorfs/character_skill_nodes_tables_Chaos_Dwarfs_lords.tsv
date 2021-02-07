@@ -374,7 +374,7 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	wh_main_skill_all_spy_self_survivalist_2	wh2_main_skill_node_set_chs_hobgoblin_khan		1.0	wh2_main_skill_node_chs_hobgoblin_khan_self_09	8.0		0	0	true
 	wh_main_skill_all_spy_self_cornered_rat	wh2_main_skill_node_set_chs_hobgoblin_khan		1.0	wh2_main_skill_node_chs_hobgoblin_khan_self_10	9.0		0	0	true
 	wh_main_skill_all_spy_self_slippery	wh2_main_skill_node_set_chs_hobgoblin_khan		1.0	wh2_main_skill_node_chs_hobgoblin_khan_self_11	10.0		0	4	true
-	wh_main_skill_grn_spy_unique_goblin_big_boss_giant_wolf	wh2_main_skill_node_set_chs_hobgoblin_khan		0.0	wh2_main_skill_node_chs_hobgoblin_khan_unique_01	0.0		0	0	true
+	wh_main_skill_chs_hobgoblin_khan_wolf	wh2_main_skill_node_set_chs_hobgoblin_khan		0.0	wh2_main_skill_node_chs_hobgoblin_khan_unique_01	0.0		0	0	true
 	aahobgoblineliteskill0	wh2_main_skill_node_set_chs_hobgoblin_khan		0.0	wh2_main_skill_node_chs_hobgoblin_khan_eliteskill0	4.0		0	0	true
 	aahobgoblineliteskill1	wh2_main_skill_node_set_chs_hobgoblin_khan		0.0	wh2_main_skill_node_chs_hobgoblin_khan_eliteskill1	5.0		0	0	true
 	aahobgoblineliteskill2	wh2_main_skill_node_set_chs_hobgoblin_khan		0.0	wh2_main_skill_node_chs_hobgoblin_khan_eliteskill2	6.0		0	0	true

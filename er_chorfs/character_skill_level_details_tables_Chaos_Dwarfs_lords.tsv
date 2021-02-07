@@ -7,3 +7,10 @@ campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_r
 		x	1	aacdlordrune4		14
 		x	1	aabullcentuniqskill1		9
 		x	1	aahobgoblineliteskill0		9
+		x	1	wh_main_skill_chs_hobgoblin_khan_wolf		3
+		x	1	wh_main_skill_chs_hobgoblin_greatkhan_wolf		1
+		x	1	wh_main_skill_chs_hobgoblin_sorcerer_wolf		1
+		x	1	ads_greatkhanunique1		14
+		x	1	ads_greatkhanunique2		9
+		x	1	ads_greatkhanunique3		4
+		x	1	ads_greatkhanunique4		19

@@ -1,10 +1,10 @@
-variants_tables	5
-variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation
-chaos_dwarf_warriors_quarrellers		chaos_dwarf_warriors_quarrellers		1.0	1.0	0.05
-chaos_dwarf_annihilators		chaos_dwarf_annihilators		1.0	1.0	0.05
-hobgoblin_hobyars		hobgoblin_hobyars		1.0	1.1	0.05
-hobgoblin_hobhound_ravagers		hobgoblin_hobhound_ravagers		1.1	1.1	0.05
-cd_tanit_hobhound		chs_warhounds		1.1	1.1	0.05
-hobgoblin_wolf_spears		hobgoblin_wolf_spears		1.05	1.05	0.05
-chaos_dwarf_charioteer		cd_charioteer		1.0	1.0	0.05
-cr_chd_siege_giants		chd_siege_giant		1.0	1.0	0.0
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+chaos_dwarf_warriors_quarrellers		chaos_dwarf_warriors_quarrellers		1.0	1.0	0.05	
+chaos_dwarf_annihilators		chaos_dwarf_annihilators		1.0	1.0	0.05	
+hobgoblin_hobyars		hobgoblin_hobyars		1.0	1.1	0.05	
+hobgoblin_hobhound_ravagers		hobgoblin_hobhound_ravagers		1.1	1.1	0.05	
+cd_tanit_hobhound		chs_warhounds		1.1	1.1	0.05	
+hobgoblin_wolf_spears		hobgoblin_wolf_spears		1.05	1.05	0.05	
+chaos_dwarf_charioteer		cd_charioteer		1.0	1.0	0.05	
+cr_chd_siege_giants		chd_siege_giant		1.0	1.0	0.0	

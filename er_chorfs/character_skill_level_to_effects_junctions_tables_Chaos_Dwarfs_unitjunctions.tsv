@@ -88,8 +88,6 @@ aaslavhobgobskill	ads_hobgob_morale	general_to_force_own	3	8.0
 aaslavhobgobskill	ads_slave_charge	general_to_force_own	1	6.0
 aaslavhobgobskill	ads_slave_charge	general_to_force_own	2	9.0
 aaslavhobgobskill	ads_slave_charge	general_to_force_own	3	12.0
-aaslavhobgobskill	ads_hobgob_morale	general_to_force_own	2	4.0
-aaslavhobgobskill	ads_hobgob_morale	general_to_force_own	3	8.0
 aaslavhobgobskill	ads_slave_morale	general_to_force_own	2	4.0
 aaslavhobgobskill	ads_slave_morale	general_to_force_own	3	8.0
 aaslavhobgobskill	ads_cdallies_charge	general_to_force_own	1	6.0

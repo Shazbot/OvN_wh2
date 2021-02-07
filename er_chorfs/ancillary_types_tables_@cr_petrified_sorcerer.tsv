@@ -1,3 +1,6 @@
 ancillary_types_tables	0
 type	ui_icon
 er_anc_mount_petrified_statue	ui/campaign ui/mounts/mount_stone.png
+wh_main_anc_mount_chs_hobgoblin_khan_wolf	ui/campaign ui/mounts/mount_giant_wolf.png
+wh_main_anc_mount_chs_hobgoblin_greatkhan_wolf	ui/campaign ui/mounts/mount_giant_wolf.png
+wh_main_anc_mount_chs_hobgoblin_sorcerer_wolf	ui/campaign ui/mounts/mount_giant_wolf.png

@@ -1,0 +1,13 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+wh2_dlc15_skill_grn_da_boss_loons.png	ads_greatkhanuniquebase	ads_greatkhanuniquebase	ads_greatkhanuniquebase	0	false	false	false	5.0	0
+wh2_dlc15_skill_grn_dont_even_try_it.png	ads_greatkhanunique1	ads_greatkhanunique1	ads_greatkhanunique1	14	false	false	false	5.0	0
+wh2_dlc15_skill_grn_smash_em_faster.png	ads_greatkhanunique2	ads_greatkhanunique2	ads_greatkhanunique2	9	false	false	false	5.0	0
+wh2_dlc15_skill_grn_they_needs_stabbin.png	ads_greatkhanunique3	ads_greatkhanunique3	ads_greatkhanunique3	4	false	false	false	5.0	0
+wh_main_lord_passive_get_on_wiv_it.png	ads_greatkhanunique4	ads_greatkhanunique4	ads_greatkhanunique4	19	false	false	false	5.0	0
+battle_attack.png	ads_greatkhanbattleupkeep1	ads_greatkhanbattleupkeep1	ads_greatkhanbattleupkeep1	0	false	false	false	5.0	0
+battle_ward_save.png	ads_greatkhanbattleupkeep2	ads_greatkhanbattleupkeep2	ads_greatkhanbattleupkeep2	0	false	false	false	5.0	0
+battle_defence.png	ads_greatkhanbattleupkeep3	ads_greatkhanbattleupkeep3	ads_greatkhanbattleupkeep3	0	false	false	false	5.0	0
+battle_morale.png	ads_greatkhanbattleupkeep4	ads_greatkhanbattleupkeep4	ads_greatkhanbattleupkeep4	0	false	false	false	5.0	0
+mount_giant_wolf.png	wh_main_skill_chs_hobgoblin_greatkhan_wolf	"Da Khan getz da biggest barka', nuff sed."	Giant Wolf	3	false	false	false	0.0	0
+mount_giant_wolf.png	wh_main_skill_chs_hobgoblin_sorcerer_wolf	"Da Khan getz da biggest barka', nuff sed."	Giant Wolf	3	false	false	false	0.0	0

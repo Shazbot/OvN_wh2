@@ -8,3 +8,5 @@ wh_main_chs_cha_dwarf_sorcerer_death	true	true	ui/campaign ui/agents/wh_main_lor
 wh_main_chs_cha_dwarf_castellan	true	false	ui/campaign ui/agents/wh_main_chs_champion.png	wh_main_chs_cha_dwarf_castellan	wh_main_vo_actor_Chaos_ExhaltedHero	true	-1	false	true	true	true				false
 hobgoblin_khan	true	false	ui/campaign ui/agents/wh_main_grn_spy.png	hobgoblin_khan	wh_main_vo_actor_Goblin_BigBoss	true	-1	false	true	true	true				false
 wh_main_chs_cha_bull_lord	true	false		wh_main_chs_cha_bull_lord	wh_dlc03_vo_actor_Beastlord	true	-1	false	true	true	true	chs_lord			false
+hobgoblin_greatkhan	true	false		hobgoblin_greatkhan	wh_main_vo_actor_Goblin_BigBoss	true	-1	false	true	true	true	chaos_dwarf_hobgoblin			false
+hobgoblin_greatsorcerer	true	true		hobgoblin_greatsorcerer	wh_main_vo_actor_Goblin_GreatShaman	true	-1	false	true	true	true	chaos_dwarf_hobgoblin			false

@@ -57,3 +57,13 @@ land_units_onscreen_name_hobgoblin_khan	Hobgoblin Khan	true
 land_units_concealed_name_hobgoblin_khan		true
 land_units_onscreen_name_hobgoblin_khan_wolf	Hobgoblin Khan	true
 land_units_concealed_name_hobgoblin_khan_wolf		true
+land_units_concealed_name_hobgoblin_greatsorcerer		true
+land_units_concealed_name_hobgoblin_greatkhan		true
+land_units_onscreen_name_hobgoblin_greatsorcerer	Hobgoblin Pelt Shaman	true
+agent_subtypes_onscreen_name_override_hobgoblin_greatsorcerer	Hobgoblin Pelt Shaman	true
+agent_subtypes_description_text_override_hobgoblin_greatsorcerer	Only a few Khans grow strong enough to lead an army of Hobgoblins; even less those that manage to command Chaos Dwarf warriors as well.	true
+character_skill_node_sets_enc_title_wh2_main_skill_node_set_chs_hobgoblin_greatkhan	Great Khan Skills	true
+land_units_onscreen_name_hobgoblin_greatkhan	Hobgoblin Great Khan	true
+agent_subtypes_onscreen_name_override_hobgoblin_greatkhan	Hobgoblin Great Khan	true
+agent_subtypes_description_text_override_hobgoblin_greatkhan	Only a few Khans grow strong enough to lead an army of Hobgoblins; even less those that manage to command Chaos Dwarf warriors as well.	true
+character_skill_node_sets_enc_title_wh2_main_skill_node_set_chs_hobgoblin_greatsorcerer	Hobgoblin Pelt Shaman Skills	true

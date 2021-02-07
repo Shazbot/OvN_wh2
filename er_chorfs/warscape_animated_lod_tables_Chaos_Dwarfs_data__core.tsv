@@ -5,3 +5,5 @@ key	filename	range	animated
 2141258745	warmachines\engines\dwf_cannon\deathshrieker.rigid_model_v2	0.0	deathshrieker
 2141258746	warmachines/engines/dwf_bolt_thrower/cdf_bolt_thrower.rigid_model_v2	0.0	cdf_bolt_thrower
 2141258747	warmachines/engines/emp_mortar/cdf_mortar.rigid_model_v2	0.0	cdf_mortar
+556750752	warmachines\engines\grn_spear_chukka\grn_spear_chukka_01.wsmodel	0.0	grn_spear_chukka
+556750753	warmachines\engines\grn_spear_chukka\grn_spear_chukka_01_destruct.wsmodel	0.0	grn_spear_chukka_destruct
