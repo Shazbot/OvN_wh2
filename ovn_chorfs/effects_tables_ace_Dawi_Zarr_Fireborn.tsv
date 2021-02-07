@@ -1,3 +1,4 @@
 effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
 ads_fireborn_exp	experience.png	310	experience.png	campaign	true
+ovn_chorfs_effect_hobgoblin_lords_recruitment_rank	experience.png	310	experience.png	campaign	true
