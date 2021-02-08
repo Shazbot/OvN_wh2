@@ -161,11 +161,9 @@ ovn_arb_tavern_3	roy_effect_agent_recruitment_xp_arb_nomad	province_to_province_
 ovn_arb_worship_1	wh_main_effect_agent_enable_recruitment_wizard_arb_1	province_to_province_own	1.0	1.0	0.0
 ovn_arb_worship_1	wh_main_effect_agent_cap_increase_wizard_arb_1	faction_to_faction_own_unseen	1.0	1.0	0.0
 ovn_arb_worship_1	wh_main_effect_religion_conversion_untainted	region_to_region_own	6.0	3.0	0.0
-ovn_arb_worship_1	wh2_main_effect_slave_public_order_modifier	province_to_province_own_unseen	10.0	5.0	0.0
 ovn_arb_worship_2	wh_main_effect_agent_cap_increase_wizard_arb_2	faction_to_faction_own_unseen	2.0	1.0	0.0
 ovn_arb_worship_2	wh_main_effect_agent_enable_recruitment_wizard_arb_2	province_to_province_own	1.0	1.0	0.0
 ovn_arb_worship_2	wh_main_effect_religion_conversion_untainted	region_to_region_own	9.0	4.0	0.0
-ovn_arb_worship_2	wh2_main_effect_slave_public_order_modifier	province_to_province_own_unseen	25.0	15.0	0.0
 ovn_arb_tavern_1	wh_main_effect_public_order_base	province_to_province_own_unseen	3.0	2.0	0.0
 ovn_arb_tavern_2	wh_main_effect_public_order_base	province_to_province_own_unseen	5.0	3.0	0.0
 ovn_arb_tavern_3	wh_main_effect_public_order_base	province_to_province_own_unseen	8.0	5.0	0.0
