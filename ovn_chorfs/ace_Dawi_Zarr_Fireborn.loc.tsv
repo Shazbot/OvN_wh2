@@ -2,3 +2,9 @@ Loc PackedFile	1
 key	text	tooltip
 effects_description_ovn_chorfs_effect_hobgoblin_lords_recruitment_rank	Lord recruit rank: %+n for Hobgoblin Great Khan and Hobgoblin Pelt Shaman	true
 effects_description_ads_fireborn_exp	Recruit Rank: %+n for Great Taurus and K'daai units	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer_chorfs	Hero capacity: %+n for Daemonsmiths	true
+effects_description_wh_main_effect_agent_recruitment_xp_champion_chaos_chorfs	Hero recruit rank: %+n for Infernal Castellans	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_chaos_chorfs	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Daemonsmith	true
+effects_description_wh_main_effect_agent_cap_increase_champion_exalted_hero_chorfs	Hero capacity: %+n for Infernal Castellans	true
+effects_description_wh_main_effect_agent_recruitment_xp_wizard_chaos_chorfs	Hero recruit rank: %+n for Daemonsmiths	true
+effects_description_wh_main_effect_agent_enable_recruitment_champion_chaos_chorfs	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Infernal Castellan	true

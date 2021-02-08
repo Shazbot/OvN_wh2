@@ -301,11 +301,12 @@ local tree_to_effect_bonuses = {
 	zhatan = {
 		{
 			{"ads_slave_upkeep", "faction_to_force_own_unseen", -8},
+			{"ovn_chorfs_effect_hobgoblin_lords_recruitment_rank",	"faction_to_province_own_unseen", 2},
 		},
 		{
-			{"wh_main_effect_agent_enable_recruitment_wizard_chaos", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_recruitment_xp_wizard_chaos", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer", "faction_to_faction_own_unseen", 1}
+			{"wh_main_effect_agent_enable_recruitment_wizard_chaos_chorfs", "faction_to_province_own_unseen", 1},
+			{"wh_main_effect_agent_recruitment_xp_wizard_chaos_chorfs", "faction_to_province_own_unseen", 1},
+			{"wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer_chorfs", "faction_to_faction_own_unseen", 1}
 		},
 		{
 			{"wh_main_effect_military_force_winds_of_magic_depletion_mod_other", "faction_to_force_own", 4},
@@ -313,15 +314,15 @@ local tree_to_effect_bonuses = {
 			{"pj_chorf_panel_unlock_ror_magma_beasts", "faction_to_faction_own_unseen", 1},
 		},
 		{
-			{"wh_main_effect_agent_recruitment_xp_wizard_chaos", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer", "faction_to_faction_own_unseen", 1},
+			{"wh_main_effect_agent_recruitment_xp_wizard_chaos_chorfs", "faction_to_province_own_unseen", 1},
+			{"wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer_chorfs", "faction_to_faction_own_unseen", 1},
 			{"wh_main_effect_military_force_winds_of_magic_depletion_mod_other", "faction_to_force_own", 4},
 			{"wh_main_effect_military_force_winds_of_magic_starting_mod", "faction_to_force_own", 2},
 			{"pj_chorf_panel_unlock_ror_bull_centaur_ba'hal_guardians", "faction_to_faction_own_unseen", 1},
 		},
 		{
-			{"wh_main_effect_agent_recruitment_xp_wizard_chaos", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer", "faction_to_faction_own_unseen", 1},
+			{"wh_main_effect_agent_recruitment_xp_wizard_chaos_chorfs", "faction_to_province_own_unseen", 1},
+			{"wh_main_effect_agent_cap_increase_wizard_chaos_sorcerer_chorfs", "faction_to_faction_own_unseen", 1},
 			{"wh_main_effect_military_force_winds_of_magic_depletion_mod_other", "faction_to_force_own", 4},
 			{"wh_main_effect_military_force_winds_of_magic_starting_mod", "faction_to_force_own", 2},
 			{"pj_chorf_panel_unlock_ror_wh_pro04_chs_art_hellcannon_ror_0", "faction_to_faction_own_unseen", 1},
@@ -367,9 +368,9 @@ local tree_to_effect_bonuses = {
 			{"pj_chorfs_unlock_infernals", "faction_to_faction_own_unseen", 1}
 		},
 		{
-			{"wh_main_effect_agent_recruitment_xp_champion_chaos", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_cap_increase_champion_exalted_hero", "faction_to_faction_own_unseen", 1},
-			{"wh_main_effect_agent_enable_recruitment_champion_chaos", "faction_to_province_own_unseen", 1}
+			{"wh_main_effect_agent_recruitment_xp_champion_chaos_chorfs", "faction_to_province_own_unseen", 1},
+			{"wh_main_effect_agent_cap_increase_champion_exalted_hero_chorfs", "faction_to_faction_own_unseen", 1},
+			{"wh_main_effect_agent_enable_recruitment_champion_chaos_chorfs", "faction_to_province_own_unseen", 1}
 		},
 		{
 			{"pj_chorfs_infernals_upkeep", "faction_to_force_own_unseen", -5},
@@ -378,8 +379,8 @@ local tree_to_effect_bonuses = {
 		{
 			{"pj_chorfs_unlock_infernals_fireglaive", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_xp", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_recruitment_xp_champion_chaos", "faction_to_province_own_unseen", 1},
-			{"wh_main_effect_agent_cap_increase_champion_exalted_hero", "faction_to_faction_own_unseen", 1},
+			{"wh_main_effect_agent_recruitment_xp_champion_chaos_chorfs", "faction_to_province_own_unseen", 1},
+			{"wh_main_effect_agent_cap_increase_champion_exalted_hero_chorfs", "faction_to_faction_own_unseen", 1},
 			{"pj_chorfs_infernals_fatigue", "faction_to_force_own", -20},
 		},
 		{
@@ -1202,6 +1203,7 @@ local function fill_loc_values()
 			{
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_1"),
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_2"),
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_63"),
 			},
 			{
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_3"),
