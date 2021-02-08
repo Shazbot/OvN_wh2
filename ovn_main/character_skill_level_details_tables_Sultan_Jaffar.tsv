@@ -2,9 +2,9 @@ character_skill_level_details_tables	0
 campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
 		x	1	Serpent_Staff		7
 		x	1	Black_Book_Of_Ibn_Naggazar		15
-		x	1	Desert_Wind		2
+		x	1	Desert_Wind		0
 		x	1	unyeilding_stride		4
-		x	1	Sand_Dwellers		8
+		x	1	Sand_Dwellers		5
 		x	1	Friend_Of_Evil		12
 		x	1	arb_jaffar_anc_camel		2
 		x	1	arb_jaffar_anc_elephant		13

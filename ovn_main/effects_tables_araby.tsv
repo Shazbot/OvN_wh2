@@ -2,7 +2,7 @@ effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
 ovn_araby_tech_camel_armour	armour.png	4	armour.png	battle	true
 ovn_araby_tech_gunpowder_missle_dam	ranged_damage.png	4	ranged_damage.png	battle	true
-ovn_araby_tech_gunpowder_rel	ranged_damage.png	4	ranged_damage.png	battle	true
+ovn_araby_tech_gunpowder_rel	icon_stat_reload_time_force.png	4	icon_stat_reload_time_force.png	battle	true
 ovn_araby_tech_state_inf_md	defence.png	4	defence.png	battle	true
 ovn_araby_tech_state_inf_arm	armour.png	4	armour.png	battle	true
 ovn_araby_tech_nomad_units_ma	melee.png	4	melee.png	battle	true
@@ -24,3 +24,6 @@ ovn_scythan_tk_md	defence.png	4	defence.png	battle	true
 ovn_scythan_tk_ma	melee.png	4	melee.png	battle	true
 ovn_scythan_tk_arm	armour.png	4	melee.png	battle	true
 ovn_scythan_numas_diplo	diplomacy.png	2	diplomacy.png	campaign	true
+ovn_araby_elephant_scor_mor	morale.png	4	morale.png	battle	true
+ovn_araby_magic_prom_mr	resistance_magic.png	4	resistance_magic.png	battle	true
+ovn_araby_magic_prom_ma	melee.png	4	melee.png	battle	true
