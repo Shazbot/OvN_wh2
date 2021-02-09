@@ -24,3 +24,4 @@ sm_radious_horde_reborn_chaos_resource_building_timber		wh2_main_set_resource	fa
 sm_radious_horde_reborn_chaos_resource_building_timber		wh2_main_set_resource	false
 ovn_cd_boss		wh_main_set_norsca_military_recruitment	false
 ovn_cd_Walls		wh_main_set_norsca_defence	false
+ovn_cd_heroes		wh_main_set_norsca_military_recruitment	false

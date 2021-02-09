@@ -1,3 +1,5 @@
 Loc PackedFile	1
 key	text	tooltip
 building_culture_variants_name_ovn_chs_agent_1wh2_main_ovn_chaos_dwarfs	Corrupted Altar of Heroes	true
+building_culture_variants_name_ovn_chs_agent_chorfs_1wh2_main_ovn_chaos_dwarfs	Corrupted Shrine of Heroes	true
+building_chains_chain_tooltip_ovn_cd_heroes	Corrupted Shrine	true

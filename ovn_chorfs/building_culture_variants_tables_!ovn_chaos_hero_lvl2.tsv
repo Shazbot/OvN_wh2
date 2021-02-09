@@ -1,3 +1,4 @@
 building_culture_variants_tables	4
 building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
 ovn_chs_agent_1		wh_main_PLACEHOLDER	chaos_trophies		wh2_main_ovn_chaos_dwarfs	false	ovn_chs_agent	true
+ovn_chs_agent_chorfs_1		wh_main_PLACEHOLDER	chaos_trophies		wh2_main_ovn_chaos_dwarfs	false	ovn_chs_agent	true

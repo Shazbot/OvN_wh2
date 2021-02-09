@@ -13,3 +13,4 @@ sm_radious_horde_reborn_chaos_resource_building_salt			money	false	sm_radious_ho
 sm_radious_horde_reborn_chaos_resource_building_timber			money	false	sm_radious_horde_reborn_chaos_resource_building_timber		0	
 ovn_cd_boss			military	false	wh2_main_sch_military1_barracks		7	
 ovn_cd_Walls			military	false	ovn_cd_Walls		7	
+ovn_cd_heroes			military	false	wh_main_sch_human_worship		7	

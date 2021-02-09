@@ -1,3 +1,5 @@
+local chorf_faction_key = "wh2_main_ovn_chaos_dwarfs"
+
 local function sr_chaos_dwarfs()
 	if cm:model():campaign_name("main_warhammer") then
 		core:add_listener(
@@ -91,4 +93,55 @@ local function sr_chaos_dwarfs()
 		end
 	end
 end
-cm:add_first_tick_callback(function() sr_chaos_dwarfs() end)
+
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
+local building_key_from_to_lookup = {
+	["ovn_chs_agent"] = "ovn_chs_agent_chorfs_1",
+}
+
+local function replace_old_buildings()
+	if not cm:model():campaign_name("main_warhammer") then return end
+
+	local f = cm:get_faction(chorf_faction_key)
+	if not f or f:is_null_interface() then return end
+
+	---@type CA_REGION
+	for region in binding_iter(f:region_list()) do
+		---@type CA_SLOT
+		for slot in binding_iter(region:slot_list()) do
+			if slot and slot:has_building() then
+				local key_to = building_key_from_to_lookup[slot:building():name()]
+				if key_to then
+					cm:region_slot_instantly_dismantle_building(slot)
+
+					cm:region_slot_instantly_upgrade_building(slot, key_to)
+					cm:callback(
+						function()
+							cm:region_slot_instantly_repair_building(slot)
+						end,
+						0
+					)
+				end
+			end
+		end
+	end
+end
+
+cm:add_first_tick_callback(
+	function()
+		sr_chaos_dwarfs()
+		replace_old_buildings()
+	end
+)
