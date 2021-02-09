@@ -1,8 +1,8 @@
 building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
-ovn_ash_ridge	ovn_ash_ridge	0	4	4500	0		false	0	0	0	0	false				true	ovn_ash_ridge	false	0.0	0	true	3		true	0	0
+ovn_ash_ridge	ovn_ash_ridge	0	4	6000	0		false	0	0	0	0	false				true	ovn_ash_ridge	false	0.0	0	true	3		true	0	0
 ovn_darkhold	ovn_darkhold	0	4	5500	0		false	0	0	0	0	false				true	ovn_darkhold	false	0.0	0	true	3		true	0	0
-ovn_vorag	ovn_vorag	1	4	6000	0		false	0	0	0	0	false				true	ovn_vorag	false	0.0	0	true	4		true	0	0
+ovn_vorag	ovn_vorag	1	4	9000	0		false	0	0	0	0	false				true	ovn_vorag	false	0.0	0	true	4		true	0	0
 ovn_greyhag	ovn_greyhag	0	5	6000	0		false	0	0	0	0	false				true	ovn_greyhag	false	0.0	0	true	3		true	0	0
-ovn_flayed_rock	ovn_flayed_rock	0	5	6000	0		false	0	0	0	0	false				true	ovn_flayed_rock	false	0.0	0	true	4		true	0	0
-ovn_vorag_0	ovn_vorag	0	3	4000	0		false	0	0	0	0	false				true	ovn_vorag	false	0.0	0	true	3		true	0	0
+ovn_flayed_rock	ovn_flayed_rock	0	5	7000	0		false	0	0	0	0	false				true	ovn_flayed_rock	false	0.0	0	true	4		true	0	0
+ovn_vorag_0	ovn_vorag	0	3	6000	0		false	0	0	0	0	false				true	ovn_vorag	false	0.0	0	true	3		true	0	0
