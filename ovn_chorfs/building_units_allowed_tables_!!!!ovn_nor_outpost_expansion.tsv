@@ -3,16 +3,6 @@ building	unit	xp	key	conditions	faction	enabled
 ovn_nor_outpost_major_human_5	goblin_slaves	0	345252577	0		false
 ovn_nor_outpost_major_human_5	orc_slaves	0	345252522	0		false
 ovn_nor_outpost_major_human_5	slave_ogre	0	341252500	0		false
-ovn_cd_boss_1	great_taurus	0	123433556	0		false
-ovn_cd_boss_2	k'daai_destroyer	0	234885544	0		false
-ovn_cd_boss_1	lava_troll	0	123774245	0		false
-ovn_cd_boss_2	lammasu	0	978465245	0		false
-ovn_cd_boss_1	bull_centaur_render	0	678324670	0		false
-ovn_cd_boss_2	bull_centaur_render_great_weapons	0	342340034	0		false
-ovn_cd_boss_2	great_taurus	0	144464568	0		false
-ovn_cd_boss_2	lava_troll	0	235499902	0		false
-ovn_cd_boss_2	bull_centaur_render	0	453677722	0		false
 ovn_nor_outpost_major_human_5_coast	goblin_slaves	0	456882233	0		false
 ovn_nor_outpost_major_human_5_coast	orc_slaves	0	679896997	0		false
 ovn_nor_outpost_major_human_5_coast	slave_ogre	0	135423466	0		false
-ovn_cd_boss_2	cr_chd_mon_siege_giant	0	125577892	0		false
