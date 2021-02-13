@@ -1,0 +1,5 @@
+land_units_officers_tables	4
+key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+dread_wh2_dlc09_tmb_chariot_archer_officer							front	dread_wh2_dlc09_tmb_chariot_riders_archers
+dread_wh2_dlc09_tmb_chariot_officer							front	dread_wh2_dlc09_tmb_chariot_riders
+dread_wh2_dlc09_tmb_warsphinx_officer							front	dread_wh2_dlc09_tmb_warsphinx_riders

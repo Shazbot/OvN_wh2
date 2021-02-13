@@ -12,3 +12,7 @@ id	priority	unit	unit_group
 92112213	1	ovn_prometheans	ovn_prometheans
 93112500	2	OtF_khemri_archers	ovn_araby3
 93112501	5	ovn_slave	ovn_araby3
+3453673256	1	OtF_khemri_elite_guard	OtF_khemri_elite_guard
+3453673257	1	OtF_khemri_elite_guard	ovn_kasbah
+3453673258	1	OtF_khemri_elite_guard	ovn_kasbah
+3453673259	1	ovn_cat_knights	ovn_kasbah

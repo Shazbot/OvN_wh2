@@ -7,4 +7,4 @@ ovn_arb_nomad_1	ovn_arb_nomad	0	1	1200	0		false	0	0	0	0	false				true	ovn_arb_no
 ovn_arb_nomad_2	ovn_arb_nomad	1	2	2400	0		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	3		true	0	0
 ovn_arb_nomad_3	ovn_arb_nomad	2	3	4600	0		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	4		true	0	0
 ovn_arb_nomad_4	ovn_arb_nomad	3	5	9000	50		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	5		true	0	0
-ovn_arb_xp	ovn_arb_xp	0	2	900	75		false	0	0	0	0	false				true	ovn_arb_xp	false	0.0	0	true	2		true	0	0
+ovn_arb_xp	ovn_arb_xp	0	2	900	50		false	0	0	0	0	false				true	ovn_arb_xp	false	0.0	0	true	2		true	0	0

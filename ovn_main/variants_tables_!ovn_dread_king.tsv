@@ -1,0 +1,4 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+dread_wh2_dlc09_tmb_skeleton_charioteer_whip		dread_tmb_skeleton_charioteer_whip		1.0	1.0	0.05	
+dread_wh2_dlc09_tmb_skeleton_halberd		dread_tmb_skeleton_halberd	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_halberd_imposter	1.0	1.0	0.0	hu1\imposter\humanoid_imposter

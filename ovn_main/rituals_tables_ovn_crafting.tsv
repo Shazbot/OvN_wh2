@@ -37,7 +37,7 @@ false	ovn_arb_crafting_enchanted_items_10	0	ovn_arb_crafting_enchanted_items_10	
 false	ovn_arb_crafting_enchanted_items_11	0	ovn_arb_crafting_enchanted_items_11	9001	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_enchanted_items_unique		false	
 false	ovn_arb_crafting_enchanted_items_12	0	ovn_arb_crafting_enchanted_items_12	9001	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_enchanted_items_unique		false	
 false	ovn_arb_crafting_talismans_01	0	ovn_arb_crafting_talismans_01	0	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_cheap		false	
-false	ovn_arb_crafting_talismans_02	0	ovn_arb_crafting_talismans_02	0	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_talismans_common		false	
+false	ovn_arb_crafting_talismans_02	0	ovn_arb_crafting_talismans_02	9001	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_talismans_common		false	
 false	ovn_arb_crafting_talismans_03	0	ovn_arb_crafting_talismans_03	0	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_talismans_uncommon		false	
 false	ovn_arb_crafting_talismans_04	0	ovn_arb_crafting_talismans_04	0	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_talismans_common		false	
 false	ovn_arb_crafting_talismans_05	0	ovn_arb_crafting_talismans_05	0	CRAFTING_RITUAL	0	0			0	false		ovn_arb_crafting_talismans_common		false	
