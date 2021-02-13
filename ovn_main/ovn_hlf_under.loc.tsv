@@ -10,6 +10,6 @@ effect_bundles_localised_description_ovn_create_restaurant_cooldown	A Restaurant
 effects_description_ovn_create_restaurant_enable	[hidden]	true
 effects_description_ovn_create_restaurant_cost_mod	[[col:yellow]]{{tr:vmp_agent_action_dignitary_establish_vampire_coven}}[[/col]] action: %+n% cost to perform action	true
 effects_description_ovn_create_restaurant_cost_mod_hidden	[hidden]	true
-effects_description_ovn_create_restaurant_disable	Cannot establish further Chaos Cults	true
+effects_description_ovn_create_restaurant_disable	Cannot establish further Halfling Restaurants	true
 ui_text_replacements_localised_text_ovn_create_restaurant	Establish Restaurant	true
 effects_description_ovn_restaurant_exclusive_food_chains	The three Foodstuffs building chains with menu types are mutually exclusive!	true
