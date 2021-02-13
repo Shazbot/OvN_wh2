@@ -567,7 +567,7 @@ local function set_up_moot_turn_one_fight()
 	local first_region_name = cm:model():world():region_manager():region_list():item_at(0):name()
 	cm:create_force_with_general(
 		starting_fight_faction_key,
-		"wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_veh_black_coach,wh_main_vmp_mon_crypt_horrors,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_mon_fell_bats,wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie",
+		"wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_veh_black_coach,wh_main_vmp_mon_crypt_horrors,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_mon_fell_bats,wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_cav_black_knights_0",
 		first_region_name,
 		622,
 		417,
@@ -610,6 +610,18 @@ local function halflings_setup()
 		end
 
 		cm:heal_garrison(moot_region:cqi())
+
+		cm:create_agent(
+			"wh2_main_emp_the_moot",
+			"dignitary",
+			"ovn_hlf_master_chef",
+			616,
+			408,
+			false,
+			function(cqi)
+				cm:replenish_action_points(cm:char_lookup_str(cqi))
+			end
+		)
 
 		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
@@ -774,6 +786,14 @@ local function treeblood_setup()
 
 			local wight_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_isle_of_wights")
 			cm:instantly_set_settlement_primary_slot_level(wight_region:settlement(), 2)
+
+			local belakor_spawn_data = new_forces["wh2_main_nor_harbingers_of_doom"]
+			if belakor_spawn_data then
+				belakor_spawn_data.x = 326
+				belakor_spawn_data.y = 571
+			end
+
+			cm:force_declare_war("wh2_main_nor_harbingers_of_doom", "wh2_main_nor_albion", false, false)
 		else
 			cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_nor_harbingers_of_doom")
 			cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_nor_harbingers_of_doom")
@@ -901,9 +921,16 @@ local function albion_setup()
 		end
 
 		if is_durak_starting_lord then
+			local starting_army = "elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes"
+
+			local human_factions = cm:get_human_factions()
+			if table_contains(human_factions, "wh2_main_nor_harbingers_of_doom") then
+				starting_army = "elo_albion_warriors,"..starting_army
+			end
+
 			cm:create_force_with_general(
 				"wh2_main_nor_albion",
-				"elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes",
+				starting_army,
 				"wh2_main_great_desert_of_araby_el-kalabad",
 				330,
 				566,
@@ -920,9 +947,16 @@ local function albion_setup()
 				end
 			)
 		else
+			local starting_army = "elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear"
+
+			local human_factions = cm:get_human_factions()
+			if table_contains(human_factions, "wh2_main_nor_harbingers_of_doom") then
+				starting_army = "elo_albion_warriors,"..starting_army
+			end
+
 			cm:create_force_with_general(
 				"wh2_main_nor_albion",
-				"elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear",
+				starting_army,
 				"wh2_main_great_desert_of_araby_el-kalabad",
 				330,
 				566,
