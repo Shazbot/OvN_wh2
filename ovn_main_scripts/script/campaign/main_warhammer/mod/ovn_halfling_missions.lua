@@ -167,7 +167,7 @@ core:add_listener(
 
 			cm:complete_scripted_mission_objective(valid_mission_key, valid_mission_key, true)
 
-			mod.trigger_battle(faction_key, mf)
+			mod.trigger_battle(faction_key, mf, num_max_units_in_force)
 		end
 	end,
 	true
@@ -193,7 +193,7 @@ end
 
 ---@param faction_key string
 ---@param military_force CA_MILITARY_FORCE
-mod.trigger_battle = function(faction_key, military_force)
+mod.trigger_battle = function(faction_key, military_force, units_in_force_to_fight)
 	local subculture = mod.faction_to_subculture[faction_key]
 	if not subculture then return end
 
@@ -204,7 +204,7 @@ mod.trigger_battle = function(faction_key, military_force)
 		military_force:command_queue_index(),
 		faction_key,
 		subculture,
-		1,
+		units_in_force_to_fight,
 		power,
 		true,
 		true,
@@ -320,26 +320,6 @@ function forced_battle:trigger_battle(attacker_force, target_force, opt_target_x
 	Forced_Battle_Manager.active_battle = self.key
 	Forced_Battle_Manager:setup_battle_completion_listener()
 end
-
-
-
--- local military_force = cm:get_local_faction():faction_leader():military_force()
--- Forced_Battle_Manager:trigger_forced_battle_against_generated_ai_army(
--- 	military_force:command_queue_index(),
--- 			"wh2_main_hef_high_elves_qb3",
-
--- "wh2_main_sc_hef_high_elves",
--- 	1,
--- 	5,
--- 	true,
--- 	true,
--- 	false,
--- 	nil,
--- 	nil,
--- 	nil,
--- 	5,
--- 	nil
--- 	)
 
 mod.ingredients_by_continent = {
 	["old_world"] = { "ovn_spelt", "ovn_beef", "ovn_fennel", "ovn_lettuce", "ovn_apple" },
@@ -816,6 +796,4 @@ cm:add_loading_game_callback(
 	end
 )
 
--- mission_key_to_force_cqi = {}
--- mod.give_new_targets(1, true)
 -- mod.give_new_targets(1, true)
