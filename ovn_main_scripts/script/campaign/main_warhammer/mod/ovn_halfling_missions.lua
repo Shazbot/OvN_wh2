@@ -39,6 +39,9 @@ core:add_listener(
 	end,
 	function(context)
 		local title = find_ui_component_str("root > events > event_mission > quest_details > quest_list_details > tab_details_child > objectives > dy_title")
+		if not title then
+			title = find_ui_component_str("root > quest_details > quest_list_details > tab_details_child > objectives > dy_title")
+		end
 		if not title then return end
 
 		local title_text = title:GetStateText()
@@ -66,7 +69,12 @@ core:add_listener(
 	end,
 	function()
 		local quest_list_details = find_ui_component_str("root > events > event_mission > quest_details > quest_list_details")
-		if not quest_list_details then return end
+		if not quest_list_details then
+			quest_list_details = find_ui_component_str("root > quest_details > quest_list_details")
+		end
+		if not quest_list_details then
+			return
+		end
 
 		local title = find_ui_component_str(quest_list_details, "tab_details_child > objectives > dy_title")
 		if not title then return end
@@ -76,7 +84,6 @@ core:add_listener(
 		if not mission_key then return end
 
 		local events = find_ui_component_str(quest_list_details, "tab_details_child > objectives > objective > dy_objective")
-		events:SetStateText("Move a small force (10 units max) to the region below and enter forage stance once there.")
 		events:SetStateText(effect.get_localised_string("ovn_hlf_missions_"..tostring(mod.mission_key_to_force_type[mission_key]).."_units"))
 
 		local stamp_complete = find_ui_component_str(quest_list_details, "stamp_complete")
@@ -92,10 +99,11 @@ core:add_listener(
 		local pj_obj_button = find_ui_component_str(obj, "target_window > pj_obj_button")
 		if not pj_obj_button then
 			pj_obj_button = UIComponent(target_window:CreateComponent("pj_obj_button", "ui/templates/round_small_button"))
+			pj_obj_button:SetTooltipText(effect.get_localised_string("ovn_hlf_missions_extend_mission"), true)
+			pj_obj_button:SetImagePath(effect.get_skinned_image_path("icon_check.png"), 0)
 		end
 		pj_obj_button:SetDockingPoint(1)
 		pj_obj_button:SetDockOffset(185,25)
-		pj_obj_button:SetImagePath(effect.get_skinned_image_path("icon_check.png"), 0)
 	end,
 	true
 )
@@ -130,6 +138,17 @@ core:add_listener(
 		end
 
 		if not valid_mission_key then
+			return
+		end
+
+		local force_type = mod.mission_key_to_force_type[valid_mission_key]
+		if not force_type then return end
+
+		local num_max_units_in_force = mod.force_type_to_max_units[force_type]
+		if not num_max_units_in_force then return end
+
+		if num_max_units_in_force < mf:unit_list():num_items() then
+			cm:trigger_incident("wh2_main_emp_the_moot", "ovn_hlf_missions_army_too_big", true)
 			return
 		end
 
@@ -550,7 +569,7 @@ local province_continent_lookup = {
 	["wh2_main_southern_dark_lands"] = "dark_lands"
 }
 
-mod.region_to_continent_lookup = {}
+mod.region_to_continent_lookup = mod.region_to_continent_lookup or {}
 
 mod.create_lookups = function()
 	---@type CA_REGION
@@ -632,6 +651,12 @@ local force_types = {
 	"twenty",
 }
 
+mod.force_type_to_max_units = {
+	["ten"] = 10,
+	["fifteen"] = 15,
+	["twenty"] = 20,
+}
+
 mod.give_new_targets = function(turn_num, rogues_disallowed)
 	local faction_name = blood_dragons_faction_name
 
@@ -643,9 +668,11 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 
 		local mission_key = "ovn_halfling_ingredient_quest_"..i
 
+		local is_time_extension = false
 		if mod.mission_key_to_extend and mission_key == mod.mission_key_to_extend and mod.region_key_for_extension then
 			region_key = mod.region_key_for_extension
 			mod.mission_key_to_extend = nil
+			is_time_extension = true
 		end
 
 		if not mod.mission_key_to_force_cqi[mission_key] then
@@ -679,7 +706,9 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 			cm:trigger_custom_mission_from_string(cm:get_local_faction_name(true), mission);
 
 			mod.mission_key_to_force_cqi[mission_key] = region_key
-			mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
+			if not is_time_extension then
+				mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
+			end
 		end
 	end
 end
