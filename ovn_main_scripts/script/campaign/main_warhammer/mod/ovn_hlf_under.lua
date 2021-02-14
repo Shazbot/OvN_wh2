@@ -154,7 +154,7 @@ local function apply_campaign_ui_changes()
 					if icon_holder and not restaurant_icon then
 						restaurant_icon = UIComponent(icon_holder:CreateComponent("ovn_restoraunt_icon", "ui/templates/custom_image"))
 						restaurant_icon:SetImagePath("ui/skins/warhammer2/restaurant_48.png", 4)
-						restaurant_icon:SetTooltipText("Restaurant||This region contains a Halfling restaurant.", true)
+						restaurant_icon:SetTooltipText(effect.get_localised_string("ovn_hlf_under_region_restaurant_tooltip"), true)
 						restaurant_icon:SetCanResizeWidth(true)
 						restaurant_icon:SetCanResizeHeight(true)
 						restaurant_icon:Resize(40, 40)
@@ -179,6 +179,36 @@ core:add_listener(
 	end,
 	function()
 		apply_campaign_ui_changes()
+	end,
+	true
+)
+
+core:remove_listener("ovn_hlf_under_on_settlement_selected_enable_lord_recruitment")
+core:add_listener(
+	"ovn_hlf_under_on_settlement_selected_enable_lord_recruitment",
+	"SettlementSelected",
+	function(context)
+		return true
+	end,
+	function(context)
+		---@type CA_GARRISON_RESIDENCE
+		local garrison = context:garrison_residence()
+
+		local faction = context:garrison_residence():faction()
+		local faction_name = faction:name()
+		if faction_name ~= "wh2_main_emp_the_moot" then return end
+
+		for fsm in binding_iter(faction:foreign_slot_managers()) do
+			if fsm:region():name() == garrison:region():name() then
+				cm:callback(function()
+					local button_create_army = find_ui_component_str("root > layout > hud_center_docker > hud_center > small_bar > button_group_settlement > button_create_army")
+					if not button_create_army then return end
+					button_create_army:SetState("active")
+				end,0)
+
+				break
+			end
+		end
 	end,
 	true
 )
