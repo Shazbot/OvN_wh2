@@ -30,12 +30,14 @@ local function find_ui_component_str(starting_comp, str)
 	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
 end
 
+local halfling_faction_name = "wh2_main_emp_the_moot"
+
 core:remove_listener('ovn_hlf_missions_on_event_opened')
 core:add_listener(
 	'ovn_hlf_missions_on_event_opened',
 	'ComponentLClickUp',
 	function(context)
-		return context.string == "pj_obj_button" -- RENAME THIS
+		return context.string == "pj_mission_obj_button" -- RENAME THIS
 	end,
 	function(context)
 		local title = find_ui_component_str("root > events > event_mission > quest_details > quest_list_details > tab_details_child > objectives > dy_title")
@@ -96,14 +98,14 @@ core:add_listener(
 
 		local obj = find_ui_component_str(quest_list_details, "tab_details_child > objectives > objective")
 		local target_window = find_ui_component_str(obj, "target_window")
-		local pj_obj_button = find_ui_component_str(obj, "target_window > pj_obj_button")
-		if not pj_obj_button then
-			pj_obj_button = UIComponent(target_window:CreateComponent("pj_obj_button", "ui/templates/round_small_button"))
-			pj_obj_button:SetTooltipText(effect.get_localised_string("ovn_hlf_missions_extend_mission"), true)
-			pj_obj_button:SetImagePath(effect.get_skinned_image_path("icon_check.png"), 0)
+		local pj_mission_obj_button = find_ui_component_str(obj, "target_window > pj_mission_obj_button")
+		if not pj_mission_obj_button then
+			pj_mission_obj_button = UIComponent(target_window:CreateComponent("pj_mission_obj_button", "ui/templates/round_small_button"))
+			pj_mission_obj_button:SetTooltipText(effect.get_localised_string("ovn_hlf_missions_extend_mission"), true)
+			pj_mission_obj_button:SetImagePath(effect.get_skinned_image_path("icon_check.png"), 0)
 		end
-		pj_obj_button:SetDockingPoint(1)
-		pj_obj_button:SetDockOffset(185,25)
+		pj_mission_obj_button:SetDockingPoint(1)
+		pj_mission_obj_button:SetDockOffset(185,25)
 	end,
 	true
 )
@@ -166,7 +168,6 @@ core:add_listener(
 			if not faction_key then return end
 
 			cm:complete_scripted_mission_objective(valid_mission_key, valid_mission_key, true)
-
 
 			local uim = cm:get_campaign_ui_manager();
 			uim:override("retreat"):lock();
@@ -406,11 +407,6 @@ core:add_listener(
 	true
 )
 
-
-
-OVN_HLF_MISSIONS = OVN_HLF_MISSIONS or {}
-local mod = OVN_HLF_MISSIONS
-
 -- table matching province to their continent (not a science)
 -- this is just for Mortal Empires, btw
 local province_continent_lookup = {
@@ -600,24 +596,6 @@ mod.create_lookups = function()
 	}
 end
 
-local table_clone = nil
-table_clone = function(t)
-	local clone = {}
-
-	for key, value in pairs(t) do
-		if type(value) ~= "table" then
-			clone[key] = value
-		else
-			clone[key] = table_clone(value)
-		end
-	end
-
-	return clone
-end
-
-------------- FIX THIS
-local blood_dragons_faction_name = "wh2_main_emp_the_moot"
-
 mod.mission_key_to_force_cqi = mod.mission_key_to_force_cqi or {}
 mod.mission_key_to_force_type = mod.mission_key_to_force_type or {}
 
@@ -650,7 +628,7 @@ mod.force_type_to_max_units = {
 }
 
 mod.give_new_targets = function(turn_num, rogues_disallowed)
-	local faction_name = blood_dragons_faction_name
+	local faction_name = halfling_faction_name
 
 	for i, continent in ipairs(mod.continents) do
 		local region_key = get_random_region_in_continent(continent, faction_name)
@@ -700,7 +678,7 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 					};
 				};
 			]]
-			cm:trigger_custom_mission_from_string(cm:get_local_faction_name(true), mission);
+			cm:trigger_custom_mission_from_string(halfling_faction_name, mission);
 
 			mod.mission_key_to_force_cqi[mission_key] = region_key
 			if not is_time_extension then
@@ -714,8 +692,8 @@ cm:add_first_tick_callback(
 	function()
 		cm:callback(
 			function()
-				local blood_dragons = cm:get_faction(blood_dragons_faction_name)
-				if not blood_dragons or not blood_dragons:is_human() then
+				local halflings = cm:get_faction(halfling_faction_name)
+				if not halflings or not halflings:is_human() then
 					return
 				end
 
@@ -743,7 +721,7 @@ core:add_listener(
 	"ovn_hlf_missions_on_MissionFailed",
 	"MissionFailed",
 	function(context)
-		return context:faction():name() == blood_dragons_faction_name
+		return context:faction():name() == halfling_faction_name
 	end,
 	function(context)
 		local mission_key = context:mission():mission_record_key()
@@ -759,7 +737,7 @@ core:add_listener(
 	"ovn_hlf_missions_on_MissionCancelled",
 	"MissionCancelled",
 	function(context)
-		return context:faction():name() == blood_dragons_faction_name
+		return context:faction():name() == halfling_faction_name
 	end,
 	function(context)
 		local mission_key = context:mission():mission_record_key()
@@ -775,7 +753,7 @@ core:add_listener(
 	"ovn_hlf_missions_on_MissionSucceeded",
 	"MissionSucceeded",
 	function(context)
-		return context:faction():name() == blood_dragons_faction_name
+		return context:faction():name() == halfling_faction_name
 	end,
 	function(context)
 		local mission_key = context:mission():mission_record_key()
@@ -789,8 +767,8 @@ core:add_listener(
 			function()
 				local faction = cm:get_faction(faction_key)
 				if not faction then return end
-				if faction:has_effect_bundle("ovn_blood_dragons_gain_blood_dragon") then
-					cm:remove_effect_bundle("ovn_blood_dragons_gain_blood_dragon", faction:name())
+				if faction:has_effect_bundle("ovn_hlf_missions_unlock_ingredient") then
+					cm:remove_effect_bundle("ovn_hlf_missions_unlock_ingredient", faction:name())
 				end
 			end,
 			1
