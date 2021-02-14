@@ -1,0 +1,28 @@
+Loc PackedFile	1
+key	text	tooltip
+mission_text_text_hlf_collect_all_ingredients_description	Collect all the ingredients.	false
+mission_text_text_hlf_collect_all_ingredients_heading	The Great Culinary Quest	false
+missions_localised_description_ovn_halfling_ingredient_quest_1	The Halfling ruling body, the General Moot decrees an ingredient must be collected.	true
+missions_localised_title_ovn_halfling_ingredient_quest_1	Ingredient Hunt: The Dark Lands	true
+missions_localised_description_ovn_halfling_ingredient_quest_2	Tales of a hitherto unseen cooking ingredient from Lustria have reached the Moot. And you can actually survive eating it! Procure it at all cost!	true
+missions_localised_title_ovn_halfling_ingredient_quest_2	Ingredient Hunt: Lustria	true
+missions_localised_description_ovn_halfling_ingredient_quest_3	There is an ingredient to be found in the land of the moody elves. Onwards!	true
+missions_localised_title_ovn_halfling_ingredient_quest_3	Ingredient Hunt: Naggaroth	true
+missions_localised_description_ovn_halfling_ingredient_quest_4	The Grand Cauldron bubbles, but the broth remains undone for weeks. A special ingredient is required! Raid the North and empty their pantries!	true
+missions_localised_title_ovn_halfling_ingredient_quest_4	Ingredient Hunt: Norsca	true
+missions_localised_description_ovn_halfling_ingredient_quest_5	An ingredient under our very noses! We must find a use for it in our kitchens!	true
+missions_localised_title_ovn_halfling_ingredient_quest_5	Ingredient Hunt: The Old World	true
+missions_localised_description_ovn_halfling_ingredient_quest_6	Below the lands of bones and sand (not useful) there is a new cooking ingredient (useful)! For the Moot!	true
+missions_localised_title_ovn_halfling_ingredient_quest_6	Ingredient Hunt: Southlands	true
+missions_localised_description_ovn_halfling_ingredient_quest_7	We must sail into the West! And return with new cooking ingredients!	true
+missions_localised_title_ovn_halfling_ingredient_quest_7	Ingredient Hunt: Ulthuan	true
+ovn_hlf_missions_ten_units	Move a scouting force (10 units max) to the region below and enter forage stance once there.	false
+ovn_hlf_missions_fifteen_units	Move a fighting force (15 units max) to the region below and enter forage stance once there.	false
+ovn_hlf_missions_twenty_units	Move an army (20 units max) to the region below and enter forage stance once there.	false
+incidents_localised_description_ovn_hlf_missions_ingredient_unlocked	You have discovered a new ingredient! The whole of Moot erupts in impromptu festivities (that would have happend anyway, to be fair)!	true
+incidents_localised_title_ovn_hlf_missions_ingredient_unlocked	A New Ingredient	true
+effect_bundles_localised_title_ovn_hlf_missions_unlock_ingredient	Cooking Ingredient Battle	true
+effect_bundles_localised_description_ovn_hlf_missions_unlock_ingredient	As luck would have it, the intrepid halfling heroes will have to fight a battle for the cooking ingredient!	true
+ovn_hlf_missions_extend_mission	Request a time extension||Extend the time until this mission expires.	false
+incidents_localised_description_ovn_hlf_missions_army_too_big	The brigands scatter before the approaching Halflings and you gather the ingredients. But at next camp the army gets hungry and eats all the ingredients you're collected! Next time bring a smaller force with you!	true
+incidents_localised_title_ovn_hlf_missions_army_too_big	Army Too Large	true
