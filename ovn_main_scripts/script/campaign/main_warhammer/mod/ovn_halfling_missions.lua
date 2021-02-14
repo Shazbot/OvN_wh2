@@ -45,7 +45,14 @@ core:add_listener(
 		local mission_key = mod.title_string_to_mission_key[title_text]
 		if not mission_key then return end
 
+		mod.mission_key_to_extend = mission_key
+		mod.region_key_for_extension = mod.mission_key_to_force_cqi[mission_key]
 		cm:complete_scripted_mission_objective(mission_key, mission_key, false)
+
+		local tab_events = find_ui_component_str("root > layout > bar_small_top > TabGroup > tab_events")
+		if tab_events then
+			tab_events:SimulateLClick()
+		end
 	end,
 	true
 )
@@ -76,6 +83,9 @@ core:add_listener(
 		if not stamp_complete or stamp_complete:Visible() then return end
 		local stamp_failed = find_ui_component_str(quest_list_details, "stamp_failed")
 		if not stamp_failed or stamp_failed:Visible() then return end
+
+		local accept_holder = find_ui_component_str("root > events > button_set > accept_holder")
+		if accept_holder and accept_holder:Visible() then return end
 
 		local obj = find_ui_component_str(quest_list_details, "tab_details_child > objectives > objective")
 		local target_window = find_ui_component_str(obj, "target_window")
@@ -119,11 +129,9 @@ core:add_listener(
 			end
 		end
 
-		dout(mod.mission_key_to_force_cqi)
 		if not valid_mission_key then
 			return
 		end
-
 
 		local active_stance = mf:active_stance()
 		if active_stance == "MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMP" then
@@ -358,17 +366,12 @@ core:add_listener(
 		if not player_force_cqi then return end
 		player_force_cqi = tonumber(player_force_cqi)
 
-		dout("BATTLE")
-		dout(player_force_cqi)
 		local is_winner_attacker = cm:pending_battle_cache_attacker_victory()
 
-		dout("is_winner_attacker", is_winner_attacker)
 		if is_winner_attacker then
 			if cm:pending_battle_cache_num_attackers() >= 1 then
 				for i = 1, cm:pending_battle_cache_num_attackers() do
 					local _, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
-					dout(mf_cqi)
-					dout(faction_name)
 					if faction_name == "wh2_main_emp_the_moot" and mf_cqi == player_force_cqi then
 						mod.unlock_ingredient()
 						break
@@ -376,13 +379,10 @@ core:add_listener(
 				end
 			end
 		else
-			dout("DEFENDERS:")
 			if cm:pending_battle_cache_num_defenders() >= 1 then
 				for i = 1, cm:pending_battle_cache_num_defenders() do
 					local _, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i)
 					if faction_name == "wh2_main_emp_the_moot" and mf_cqi == player_force_cqi then
-						dout(mf_cqi)
-						dout(faction_name)
 						mod.unlock_ingredient()
 						break
 					end
@@ -635,7 +635,6 @@ local force_types = {
 mod.give_new_targets = function(turn_num, rogues_disallowed)
 	local faction_name = blood_dragons_faction_name
 
-	dout(mod.continents)
 	for i, continent in ipairs(mod.continents) do
 		local region_key = get_random_region_in_continent(continent, faction_name)
 		if not region_key then
@@ -643,6 +642,12 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 		end
 
 		local mission_key = "ovn_halfling_ingredient_quest_"..i
+
+		if mod.mission_key_to_extend and mission_key == mod.mission_key_to_extend and mod.region_key_for_extension then
+			region_key = mod.region_key_for_extension
+			mod.mission_key_to_extend = nil
+		end
+
 		if not mod.mission_key_to_force_cqi[mission_key] then
 		-- if true then
 
