@@ -172,7 +172,7 @@ core:add_listener(
 			local uim = cm:get_campaign_ui_manager();
 			uim:override("retreat"):lock();
 
-			mod.trigger_battle(faction_key, mf, num_max_units_in_force)
+			mod.trigger_battle(faction_key, mf, num_max_units_in_force-1)
 		end
 	end,
 	true
@@ -621,6 +621,14 @@ local force_types = {
 	"twenty",
 }
 
+local force_types_early_game = {
+	"ten",
+	"ten",
+	"fifteen",
+	"fifteen",
+	"twenty",
+}
+
 mod.force_type_to_max_units = {
 	["ten"] = 10,
 	["fifteen"] = 15,
@@ -695,7 +703,11 @@ mod.give_new_targets = function()
 
 			mod.mission_key_to_force_cqi[mission_key] = region_key
 			if not is_time_extension then
-				mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
+				if cm:turn_number() < 35 then
+					mod.mission_key_to_force_type[mission_key] = force_types_early_game[cm:random_number(#force_types_early_game)]
+				else
+					mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
+				end
 			end
 		end
 	end
