@@ -627,8 +627,12 @@ mod.force_type_to_max_units = {
 	["twenty"] = 20,
 }
 
-mod.give_new_targets = function(turn_num, rogues_disallowed)
+mod.give_new_targets = function()
 	local faction_name = halfling_faction_name
+	local halfling_faction = cm:get_faction(halfling_faction_name)
+	if not halfling_faction or halfling_faction:is_null_interface() then return end
+
+	local cooking_interface = cm:model():world():cooking_system():faction_cooking_info(halfling_faction)
 
 	for i, continent in ipairs(mod.continents) do
 		local region_key = get_random_region_in_continent(continent, faction_name)
@@ -645,7 +649,16 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 			is_time_extension = true
 		end
 
-		if not mod.mission_key_to_force_cqi[mission_key] then
+		local ingredients_in_continent = mod.ingredients_by_continent[continent]
+
+		local valid_ingredient_choices = {}
+		for _, ingredient in ipairs(ingredients_in_continent) do
+			if not cooking_interface:is_ingredient_unlocked(ingredient) then
+				table.insert(valid_ingredient_choices, ingredient)
+			end
+		end
+
+		if not mod.mission_key_to_force_cqi[mission_key] and #valid_ingredient_choices > 0 then
 		-- if true then
 
 			local mission_time_limit = cm:random_number(22, 15)
@@ -699,8 +712,7 @@ cm:add_first_tick_callback(
 
 				mod.create_lookups()
 
-				local turn_num = cm:model():turn_number()
-				mod.give_new_targets(turn_num, true)
+				mod.give_new_targets()
 			end,
 			4
 		)
@@ -710,9 +722,7 @@ cm:add_first_tick_callback(
 local function overwrite_mission(mission_key)
 	if mod.mission_key_to_force_cqi[mission_key] then
 		mod.mission_key_to_force_cqi[mission_key] = nil
-		local turn_num = cm:model():turn_number()
-		local rogues_disallowed = turn_num < 20
-		mod.give_new_targets(turn_num, rogues_disallowed)
+		mod.give_new_targets()
 	end
 end
 
@@ -791,4 +801,4 @@ cm:add_loading_game_callback(
 	end
 )
 
--- mod.give_new_targets(1, true)
+-- mod.give_new_targets()
