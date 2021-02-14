@@ -670,12 +670,17 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 		if not mod.mission_key_to_force_cqi[mission_key] then
 		-- if true then
 
+			local mission_time_limit = cm:random_number(22, 15)
+			if is_time_extension then
+				mission_time_limit = 20
+			end
+
 			local mission = [[
 				mission
 				{
 						key ]]..mission_key..[[;
 						issuer CLAN_ELDERS;
-						turn_limit ]]..cm:random_number(25, 16)..[[;
+						turn_limit ]]..mission_time_limit..[[;
 						primary_objectives_and_payload
 						{
 							objective
