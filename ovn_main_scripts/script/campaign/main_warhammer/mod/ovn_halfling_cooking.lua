@@ -1,5 +1,7 @@
 -- Heavily based on Vandy's "Queek's Burrow" mod
 
+local check_victory_conditions
+
 local function find_ui_component_str(starting_comp, str)
 	local has_starting_comp = str ~= nil
 	if not has_starting_comp then
@@ -445,6 +447,7 @@ local function add_ingredient(region_obj, char_obj)
     end
 
     cm:unlock_cooking_ingredient(faction_obj, ingredient_key)
+		check_victory_conditions()
 
     if faction_obj:is_human() then
         local loc_prefix = "event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_"
@@ -497,6 +500,22 @@ local function init()
     );
 end
 
+check_victory_conditions = function()
+	local faction_obj = cm:get_faction(faction_key)
+	local faction_cooking_info = cm:model():world():cooking_system():faction_cooking_info(faction_obj)
+
+	local are_all_ingredients_unlocked = true
+	for _, continent_ingredient_list in pairs(ingredients_by_continent) do
+		for _, ingredient in ipairs(continent_ingredient_list) do
+			are_all_ingredients_unlocked = are_all_ingredients_unlocked and faction_cooking_info:is_ingredient_unlocked(ingredient)
+		end
+	end
+
+	if are_all_ingredients_unlocked then
+		cm:complete_scripted_mission_objective("wh_main_long_victory", "ovn_hlf_collect_all_ingredients", true);
+	end
+end
+
 core:remove_listener('ovn_hlf_on_faction_turn_start_cooking')
 core:add_listener(
 	'ovn_hlf_on_faction_turn_start_cooking',
@@ -511,6 +530,7 @@ core:add_listener(
 		if local_faction_name ~= faction_key then return end
 
 		update_main_hlf_cooking_button()
+		check_victory_conditions()
 	end,
 	true
 )
