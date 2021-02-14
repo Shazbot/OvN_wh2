@@ -183,36 +183,6 @@ core:add_listener(
 	true
 )
 
-core:remove_listener("ovn_hlf_under_on_settlement_selected_enable_lord_recruitment")
-core:add_listener(
-	"ovn_hlf_under_on_settlement_selected_enable_lord_recruitment",
-	"SettlementSelected",
-	function(context)
-		return true
-	end,
-	function(context)
-		---@type CA_GARRISON_RESIDENCE
-		local garrison = context:garrison_residence()
-
-		local faction = context:garrison_residence():faction()
-		local faction_name = faction:name()
-		if faction_name ~= "wh2_main_emp_the_moot" then return end
-
-		for fsm in binding_iter(faction:foreign_slot_managers()) do
-			if fsm:region():name() == garrison:region():name() then
-				cm:callback(function()
-					local button_create_army = find_ui_component_str("root > layout > hud_center_docker > hud_center > small_bar > button_group_settlement > button_create_army")
-					if not button_create_army then return end
-					button_create_army:SetState("active")
-				end,0)
-
-				break
-			end
-		end
-	end,
-	true
-)
-
 cm:add_first_tick_callback(function()
 	local local_faction_key = cm:get_local_faction_name(true)
 	if local_faction_key ~= "wh2_main_emp_the_moot" then return end
