@@ -138,6 +138,8 @@ core:add_listener(
 			local faction_key = factions[cm:random_number(#factions)]
 			if not faction_key then return end
 
+			cm:complete_scripted_mission_objective(valid_mission_key, valid_mission_key, true)
+
 			mod.trigger_battle(faction_key, mf)
 		end
 	end,
@@ -641,24 +643,8 @@ mod.give_new_targets = function(turn_num, rogues_disallowed)
 		end
 
 		local mission_key = "ovn_halfling_ingredient_quest_"..i
-		-- if not mod.mission_key_to_force_cqi[mission_key] then
-		if true then
-
-			-- local grudge_mission = mission_manager:new(
-			-- 	faction_name,
-			-- 	mission_key
-			-- );
-
-			-- grudge_mission:add_condition("override_text mission_text_text_wh2_dlc15_obejctive_grom_mission_extra");
-			-- grudge_mission:add_condition("script_key prophecies_0");
-			-- grudge_mission:add_new_scripted_objective("mission_text_text_wh2_dlc15_obejctive_grom_mission_extra", "ResearchCompleted", function(context) return true; end, "prophecies_0")
-			-- grudge_mission:add_new_objective("MOVE_TO_REGION");
-			-- grudge_mission:add_condition("region "..region_key);
-			-- grudge_mission:add_payload("money 111");
-			-- -- grudge_mission:set_should_cancel_before_issuing(true);
-			-- -- grudge_mission:set_turn_limit(cm:random_number(25, 16));
-			-- grudge_mission:trigger();
-
+		if not mod.mission_key_to_force_cqi[mission_key] then
+		-- if true then
 
 			local mission = [[
 				mission
