@@ -154,7 +154,7 @@ local function apply_campaign_ui_changes()
 					if icon_holder and not restaurant_icon then
 						restaurant_icon = UIComponent(icon_holder:CreateComponent("ovn_restoraunt_icon", "ui/templates/custom_image"))
 						restaurant_icon:SetImagePath("ui/skins/warhammer2/restaurant_48.png", 4)
-						restaurant_icon:SetTooltipText("Restaurant||This region contains a Halfling restaurant.", true)
+						restaurant_icon:SetTooltipText(effect.get_localised_string("ovn_hlf_under_region_restaurant_tooltip"), true)
 						restaurant_icon:SetCanResizeWidth(true)
 						restaurant_icon:SetCanResizeHeight(true)
 						restaurant_icon:Resize(40, 40)
