@@ -167,6 +167,10 @@ core:add_listener(
 
 			cm:complete_scripted_mission_objective(valid_mission_key, valid_mission_key, true)
 
+
+			local uim = cm:get_campaign_ui_manager();
+			uim:override("retreat"):lock();
+
 			mod.trigger_battle(faction_key, mf, num_max_units_in_force)
 		end
 	end,
@@ -364,6 +368,14 @@ core:add_listener(
 		local player_force_cqi = cm:get_saved_value("ovn_hlf_missions_player_force_cqi")
 		if not player_force_cqi then return end
 		player_force_cqi = tonumber(player_force_cqi)
+
+		local uim = cm:get_campaign_ui_manager();
+		uim:override("retreat"):unlock();
+
+		if not cm:model():pending_battle():has_been_fought() then
+			cm:set_saved_value("ovn_hlf_missions_player_force_cqi", false)
+			return
+		end
 
 		local is_winner_attacker = cm:pending_battle_cache_attacker_victory()
 
