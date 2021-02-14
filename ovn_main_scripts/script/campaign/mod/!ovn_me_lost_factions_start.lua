@@ -863,6 +863,8 @@ local function albion_setup()
 		cm:force_religion_factors("wh2_main_albion_albion", "wh_main_religion_untainted", 0.75, "wh_main_religion_chaos", 0.25)
 		cm:force_diplomacy("faction:wh2_main_nor_albion", "all", "all", true, true, true)
 
+		cm:force_diplomacy("faction:wh2_main_nor_albion", "culture:wh2_main_hef_high_elves", "vassal", false, false, true);
+
 		local fimir_albion_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_citadel_of_lead")
 
 		if albion:is_human() then
