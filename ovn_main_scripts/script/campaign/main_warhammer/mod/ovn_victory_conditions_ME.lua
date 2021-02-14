@@ -21,7 +21,7 @@ function ovn_victory_conditions()
 							type CONTROL_N_REGIONS_FROM;
 							total 9;
 							region wh_main_reikland_altdorf;
-							region wh_main_southern_oblast_kislev;	
+							region wh_main_southern_oblast_kislev;
 							region wh2_main_great_mortis_delta_black_pyramid_of_nagash;
 							region wh_main_lyonesse_mousillon;
 							region wh_main_eastern_sylvania_castle_drakenhof;
@@ -29,12 +29,12 @@ function ovn_victory_conditions()
 							region wh_main_southern_grey_mountains_karak_norn;
 							region wh_main_northern_grey_mountains_blackstone_post;
 							region wh_main_yn_edri_eternos_the_oak_of_ages;
-						}						
+						}
 						objective
 						{
 							type DO_NOT_LOSE_REGION;
 							region wh2_main_great_mortis_delta_black_pyramid_of_nagash;
-						}	
+						}
 						objective
 						{
 							type OWN_N_UNITS;
@@ -54,7 +54,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{		
+					{
 						objective
 						{
 							type DESTROY_FACTION;
@@ -65,7 +65,7 @@ function ovn_victory_conditions()
 							type CONTROL_N_REGIONS_FROM;
 							total 9;
 							region wh_main_reikland_altdorf;
-							region wh_main_southern_oblast_kislev;	
+							region wh_main_southern_oblast_kislev;
 							region wh2_main_great_mortis_delta_black_pyramid_of_nagash;
 							region wh_main_lyonesse_mousillon;
 							region wh_main_eastern_sylvania_castle_drakenhof;
@@ -73,7 +73,7 @@ function ovn_victory_conditions()
 							region wh_main_southern_grey_mountains_karak_norn;
 							region wh_main_northern_grey_mountains_blackstone_post;
 							region wh_main_yn_edri_eternos_the_oak_of_ages;
-						}					
+						}
 						objective
 						{
 							type DO_NOT_LOSE_REGION;
@@ -104,7 +104,7 @@ function ovn_victory_conditions()
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{							
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -123,14 +123,14 @@ function ovn_victory_conditions()
 							faction wh2_dlc12_skv_clan_fester;
 							faction wh2_main_skv_clan_gnaw;
 							faction wh2_dlc12_skv_clan_mange;
-							faction wh2_main_skv_clan_pestilens;      
-							faction wh2_main_grn_blue_vipers;    
-							faction wh2_dlc11_cst_vampire_coast;                
-							faction wh2_dlc11_def_the_blessed_dread;                								
+							faction wh2_main_skv_clan_pestilens;
+							faction wh2_main_grn_blue_vipers;
+							faction wh2_dlc11_cst_vampire_coast;
+							faction wh2_dlc11_def_the_blessed_dread;
 							faction wh2_dlc13_emp_the_huntmarshals_expedition;
 							faction wh2_main_nor_skeggi;
 							confederation_valid;
-						}		
+						}
 						objective
 						{
 							type CAPTURE_X_BATTLE_CAPTIVES;
@@ -167,7 +167,7 @@ function ovn_victory_conditions()
 							faction wh2_main_amz_amazons;
 							total 3;
 							building_level roy_amz_smithy_2;
-						}								
+						}
 						payload
 						{
 							game_victory;
@@ -182,7 +182,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -229,7 +229,7 @@ function ovn_victory_conditions()
 							unit roy_amz_ror_cold_one_riders;
 							unit roy_amz_ror_sunstaff_kalim;
 							unit roy_amz_ror_anakondas_amazons;
-							unit roy_amz_ror_starblade_warriors;								
+							unit roy_amz_ror_starblade_warriors;
 							unit roy_amz_inf_jungle_stalkers_ror;
 						}
 						objective
@@ -260,7 +260,7 @@ function ovn_victory_conditions()
 					}
 				}
 			]]}
-			
+
 			cm:trigger_custom_mission_from_string("wh2_main_amz_amazons", mission[1]);
 			cm:trigger_custom_mission_from_string("wh2_main_amz_amazons", mission[2]);
 
@@ -288,10 +288,10 @@ function ovn_victory_conditions()
 							province wh2_main_shifting_sands;
 							province wh_main_southern_badlands;
 							province wh2_main_charnel_valley;
-							province wh2_main_southlands_worlds_edge_mountains;			
+							province wh2_main_southlands_worlds_edge_mountains;
 							province wh2_main_coast_of_araby;
 							province wh2_main_great_desert_of_araby;
-							province wh2_main_land_of_the_dervishes;	
+							province wh2_main_land_of_the_dervishes;
 						}
 						objective
 						{
@@ -301,9 +301,9 @@ function ovn_victory_conditions()
 							faction wh2_dlc14_brt_chevaliers_de_lyonesse;
 							faction wh2_main_brt_thegans_crusaders;
 							faction wh2_main_brt_knights_of_the_flame;
-							faction wh2_main_brt_knights_of_origo;										
+							faction wh2_main_brt_knights_of_origo;
 							confederation_valid;
-						}	
+						}
 						objective
 						{
 							type ASSASSINATE_X_CHARACTERS;
@@ -316,12 +316,12 @@ function ovn_victory_conditions()
 							additive;
 							unit wh2_dlc09_tmb_veh_skeleton_chariot_0;
 							unit wh2_dlc09_tmb_cav_necropolis_knights_0;
-							unit wh2_dlc09_tmb_mon_ushabti_0;							
+							unit wh2_dlc09_tmb_mon_ushabti_0;
 							unit wh2_dlc09_tmb_inf_nehekhara_warriors_0;
-							unit wh2_dlc09_tmb_inf_tomb_guard_1;	
+							unit wh2_dlc09_tmb_inf_tomb_guard_1;
 							unit ovn_scor;
 							unit ovn_arb_cav_scorpion;
-							unit wh_main_grn_mon_giant;	
+							unit wh_main_grn_mon_giant;
 						}
 						objective
 						{
@@ -330,9 +330,9 @@ function ovn_victory_conditions()
 							additive;
 							unit ovn_yeomanarchers;
 							unit OtF_khemri_rangers;
-							unit ovn_jez;							
+							unit ovn_jez;
 							unit ovn_arb_cav_lancer_camel;
-							unit ovn_arb_cav_archer_camel;							
+							unit ovn_arb_cav_archer_camel;
 							unit ovn_arb_cav_jezzail_camel;
 						}
 						objective
@@ -348,7 +348,7 @@ function ovn_victory_conditions()
 							faction wh2_main_arb_aswad_scythans;
 							total 1;
 							building_level ovn_Nehekharan;
-						}	
+						}
 						payload
 						{
 							game_victory;
@@ -363,7 +363,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{			
+					{
 						objective
 						{
 							type CAPTURE_REGIONS;
@@ -380,10 +380,10 @@ function ovn_victory_conditions()
 							province wh2_main_heart_of_the_jungle;
 							province wh2_main_charnel_valley;
 							province wh2_main_great_desert_of_araby;
-							province wh2_main_southlands_worlds_edge_mountains;			
-							province wh2_main_coast_of_araby;								
+							province wh2_main_southlands_worlds_edge_mountains;
+							province wh2_main_coast_of_araby;
 							province wh2_main_land_of_assassins;
-							province wh2_main_land_of_the_dervishes;									
+							province wh2_main_land_of_the_dervishes;
 							province wh2_main_land_of_the_dead;
 							province wh2_main_great_mortis_delta;
 							province wh2_main_atalan_mountains;
@@ -397,14 +397,14 @@ function ovn_victory_conditions()
 							faction wh2_dlc14_brt_chevaliers_de_lyonesse;
 							faction wh2_main_brt_thegans_crusaders;
 							faction wh2_main_brt_knights_of_the_flame;
-							faction wh2_main_brt_knights_of_origo;								
+							faction wh2_main_brt_knights_of_origo;
 							confederation_valid;
 						}
 						objective
 						{
 							type ASSASSINATE_X_CHARACTERS;
 							total 25;
-						}		
+						}
 						objective
 						{
 							type OWN_N_UNITS;
@@ -412,9 +412,9 @@ function ovn_victory_conditions()
 							additive;
 							unit wh2_dlc09_tmb_veh_skeleton_chariot_0;
 							unit wh2_dlc09_tmb_cav_necropolis_knights_0;
-							unit wh2_dlc09_tmb_mon_ushabti_0;							
+							unit wh2_dlc09_tmb_mon_ushabti_0;
 							unit wh2_dlc09_tmb_inf_nehekhara_warriors_0;
-							unit wh2_dlc09_tmb_inf_tomb_guard_1;	
+							unit wh2_dlc09_tmb_inf_tomb_guard_1;
 							unit ovn_scor;
 							unit ovn_arb_cav_scorpion;
 							unit wh_main_grn_mon_giant;
@@ -426,9 +426,9 @@ function ovn_victory_conditions()
 							additive;
 							unit ovn_yeomanarchers;
 							unit OtF_khemri_rangers;
-							unit ovn_jez;							
+							unit ovn_jez;
 							unit ovn_arb_cav_lancer_camel;
-							unit ovn_arb_cav_archer_camel;							
+							unit ovn_arb_cav_archer_camel;
 							unit ovn_arb_cav_jezzail_camel;
 						}
 						objective
@@ -444,7 +444,7 @@ function ovn_victory_conditions()
 							faction wh2_main_arb_aswad_scythans;
 							total 1;
 							building_level ovn_Nehekharan;
-						}	
+						}
 						payload
 						{
 							game_victory;
@@ -465,7 +465,7 @@ function ovn_victory_conditions()
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -488,14 +488,14 @@ function ovn_victory_conditions()
 							faction wh2_main_brt_knights_of_origo;
 							faction wh_main_grn_top_knotz;
 							faction wh2_dlc09_tmb_followers_of_nagash;
-							faction wh2_main_lzd_tlaqua;               
+							faction wh2_main_lzd_tlaqua;
 							faction wh2_dlc09_tmb_rakaph_dynasty;
 							confederation_valid;
 						}
 						objective
 						{
 							type OWN_N_UNITS;
-							total 5;					
+							total 5;
 							unit wh_main_arb_mon_war_elephant;
 						}
 						objective
@@ -563,14 +563,14 @@ function ovn_victory_conditions()
 							faction wh2_dlc09_tmb_followers_of_nagash;
 							faction wh2_main_lzd_tlaqua;
 							faction wh2_dlc09_tmb_rakaph_dynasty;
-							faction wh2_main_dwf_greybeards_prospectors;								
+							faction wh2_main_dwf_greybeards_prospectors;
 							faction wh2_dlc09_tmb_the_sentinels;
 							confederation_valid;
 						}
 						objective
 						{
 							type OWN_N_UNITS;
-							total 10;					
+							total 10;
 							unit wh_main_arb_mon_war_elephant;
 						}
 						objective
@@ -614,7 +614,7 @@ function ovn_victory_conditions()
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -635,7 +635,7 @@ function ovn_victory_conditions()
 						objective
 						{
 							type OWN_N_UNITS;
-							total 5;					
+							total 5;
 							unit ovn_prometheans;
 						}
 						objective
@@ -690,7 +690,7 @@ function ovn_victory_conditions()
 						objective
 						{
 							type OWN_N_UNITS;
-							total 10;					
+							total 10;
 							unit ovn_prometheans;
 						}
 						objective
@@ -711,7 +711,7 @@ function ovn_victory_conditions()
 					}
 				}
 			]]}
-			
+
 			cm:trigger_custom_mission_from_string("wh2_main_arb_flaming_scimitar", mission[1]);
 			cm:trigger_custom_mission_from_string("wh2_main_arb_flaming_scimitar", mission[2]);
 
@@ -738,7 +738,7 @@ function ovn_victory_conditions()
 							type CONTROL_N_REGIONS_FROM;
 							total 9;
 							region wh_main_reikland_altdorf;
-							region wh_main_southern_oblast_kislev;	
+							region wh_main_southern_oblast_kislev;
 							region wh2_main_great_mortis_delta_black_pyramid_of_nagash;
 							region wh_main_lyonesse_mousillon;
 							region wh_main_eastern_sylvania_castle_drakenhof;
@@ -747,12 +747,12 @@ function ovn_victory_conditions()
 							region wh_main_northern_grey_mountains_blackstone_post;
 							region wh_main_yn_edri_eternos_the_oak_of_ages;
 							region wh_main_zhufbar_zhufbar;
-						}						
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 30;
-						}														
+						}
 						payload
 						{
 							game_victory;
@@ -767,7 +767,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{	
+					{
 						objective
 						{
 							type DESTROY_FACTION;
@@ -775,13 +775,13 @@ function ovn_victory_conditions()
 							faction wh_main_vmp_vampire_counts;
 							faction wh2_main_skv_clan_skyre;
 							faction wh2_dlc15_skv_clan_ferrik;
-						}					
+						}
 						objective
 						{
 							type CONTROL_N_REGIONS_FROM;
 							total 9;
 							region wh_main_reikland_altdorf;
-							region wh_main_southern_oblast_kislev;	
+							region wh_main_southern_oblast_kislev;
 							region wh2_main_great_mortis_delta_black_pyramid_of_nagash;
 							region wh_main_lyonesse_mousillon;
 							region wh_main_eastern_sylvania_castle_drakenhof;
@@ -795,7 +795,7 @@ function ovn_victory_conditions()
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 75;
-						}														
+						}
 						payload
 						{
 							game_victory;
@@ -817,6 +817,12 @@ function ovn_victory_conditions()
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
 					{
+						objective
+						{
+							type SCRIPTED;
+							script_key ovn_hlf_collect_all_ingredients;
+							override_text mission_text_text_hlf_collect_all_ingredients_description;
+						}
 						objective
 						{
 							type OWN_N_PROVINCES;
@@ -855,18 +861,18 @@ function ovn_victory_conditions()
 						objective
 						{
 							type OWN_N_UNITS;
-							total 6;					
+							total 6;
 							unit halfling_cook;
 							unit hlf_roast_pig;
 						}
 						objective
 						{
 							type OWN_N_UNITS;
-							total 3;					
+							total 3;
 							unit wh_main_mtl_veh_soupcart;
 							unit halfling_cook_ror;
 							unit sr_ogre_ror;
-						}						
+						}
 						objective
 						{
 							type SEARCH_RUINS;
@@ -886,14 +892,14 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CONTROL_N_REGIONS_FROM;
 							total 10;
 							region wh_main_stirland_the_moot;
 							region wh_main_reikland_altdorf;
-							region wh_main_wissenland_nuln;	
+							region wh_main_wissenland_nuln;
 							region wh_main_middenland_middenheim;
 							region wh_main_talabecland_talabheim;
 							region wh_main_stirland_wurtbad;
@@ -901,7 +907,7 @@ function ovn_victory_conditions()
 							region wh_main_ostland_wolfenburg;
 							region wh_main_hochland_hergig;
 							region wh_main_nordland_salzenmund;
-							region wh_main_averland_averheim;							
+							region wh_main_averland_averheim;
 							region wh_main_southern_oblast_kislev;
 						}
 						objective
@@ -941,20 +947,20 @@ function ovn_victory_conditions()
 						objective
 						{
 							type OWN_N_UNITS;
-							total 10;					
+							total 10;
 							unit halfling_cook;
 							unit hlf_roast_pig;
 						}
 						objective
 						{
 							type OWN_N_UNITS;
-							total 5;					
+							total 5;
 							unit wh_main_mtl_veh_soupcart;
 							unit halfling_cook_ror;
 							unit halfling_cat_ror;
 							unit halfling_cock;
 							unit sr_ogre_ror;
-						}							
+						}
 						objective
 						{
 							type SEARCH_RUINS;
@@ -973,7 +979,7 @@ function ovn_victory_conditions()
 
 		--Albion
 		elseif cm:get_faction("wh2_main_nor_albion"):is_human() then
-	
+
 	--		objective
 	--		{
 	--			override_text mission_text_text_mis_activity_archaon_spawned;
@@ -993,7 +999,7 @@ function ovn_victory_conditions()
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{						
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -1006,7 +1012,7 @@ function ovn_victory_conditions()
 							faction wh_main_chs_chaos;
 							faction wh_dlc03_bst_beastmen_chaos;
 							region wh_main_chaos_wastes;
-						}						
+						}
 						objective
 						{
 							type DESTROY_FACTION;
@@ -1048,7 +1054,7 @@ function ovn_victory_conditions()
 							faction wh_main_chs_chaos;
 							faction wh_dlc03_bst_beastmen_chaos;
 							region wh_main_chaos_wastes;
-						}						
+						}
 						objective
 						{
 							type DESTROY_FACTION;
@@ -1099,12 +1105,12 @@ function ovn_victory_conditions()
 							faction wh_main_grn_red_fangs;
 							faction wh_main_grn_broken_nose;
 							faction wh_main_dwf_karak_azul;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 50;
-						}						
+						}
 						payload
 						{
 							game_victory;
@@ -1119,7 +1125,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CAPTURE_REGIONS;
@@ -1132,12 +1138,12 @@ function ovn_victory_conditions()
 							faction wh_main_grn_red_fangs;
 							faction wh_main_grn_broken_nose;
 							faction wh_main_dwf_karak_azul;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 85;
-						}						
+						}
 						payload
 						{
 							game_victory;
@@ -1159,7 +1165,7 @@ function ovn_victory_conditions()
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{						
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -1170,12 +1176,12 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_nor_albion;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 50;
-						}	
+						}
 						payload
 						{
 							game_victory;
@@ -1206,7 +1212,7 @@ function ovn_victory_conditions()
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 80;
-						}	
+						}
 						payload
 						{
 							game_victory;
@@ -1226,7 +1232,7 @@ function ovn_victory_conditions()
 			--	province wh2_main_albion;
 			--	total 100;
 			--}
-			
+
 			local mission = {[[
 				 mission
 				{
@@ -1234,7 +1240,7 @@ function ovn_victory_conditions()
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{						
+					{
 						objective
 						{
 							type CONTROL_N_PROVINCES_INCLUDING;
@@ -1245,12 +1251,12 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_nor_albion;
-						}						
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 50;
-						}	
+						}
 						payload
 						{
 							game_victory;
@@ -1281,7 +1287,7 @@ function ovn_victory_conditions()
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 80;
-						}	
+						}
 						payload
 						{
 							game_victory;
@@ -1341,7 +1347,7 @@ function ovn_victory_conditions()
 			cm:trigger_custom_mission_from_string("wh_main_vmp_rival_sylvanian_vamps", mission);
 
 		elseif cm:get_faction("wh2_main_vmp_blood_dragons"):is_human() then
-		
+
 			local mission = [[
 				 mission
 				{
@@ -1411,12 +1417,12 @@ function ovn_victory_conditions()
 							type DESTROY_FACTION;
 							faction wh_main_emp_empire;
 							faction wh2_dlc13_emp_golden_order;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 50;
-						}						
+						}
 						payload
 						{
 							game_victory;
@@ -1431,7 +1437,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CONTROL_N_REGIONS_FROM;
@@ -1449,12 +1455,12 @@ function ovn_victory_conditions()
 							faction wh2_dlc13_emp_golden_order;
 							faction wh_main_emp_hochland;
 							faction wh_main_emp_middenland;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 80;
-						}						
+						}
 						payload
 						{
 							game_victory;
@@ -1491,12 +1497,12 @@ function ovn_victory_conditions()
 							type DESTROY_FACTION;
 							faction wh_main_emp_empire;
 							faction wh2_dlc13_emp_golden_order;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 50;
-						}						
+						}
 						payload
 						{
 							game_victory;
@@ -1511,7 +1517,7 @@ function ovn_victory_conditions()
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
-					{								
+					{
 						objective
 						{
 							type CONTROL_N_REGIONS_FROM;
@@ -1529,12 +1535,12 @@ function ovn_victory_conditions()
 							faction wh2_dlc13_emp_golden_order;
 							faction wh_main_emp_hochland;
 							faction wh_main_emp_middenland;
-						}	
+						}
 						objective
 						{
 							type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
 							total 80;
-						}						
+						}
 						payload
 						{
 							game_victory;
@@ -1545,7 +1551,7 @@ function ovn_victory_conditions()
 
 			cm:trigger_custom_mission_from_string("wh2_main_nor_rotbloods", mission[1]);
 			cm:trigger_custom_mission_from_string("wh2_main_nor_rotbloods", mission[2]);
-			
+
 		--Fimir servants
 		elseif cm:get_faction("wh_dlc08_nor_goromadny_tribe"):is_human() then
 
@@ -1638,7 +1644,7 @@ function ovn_victory_conditions()
 			]]
 
 			cm:trigger_custom_mission_from_string("wh2_main_nor_servants_of_fimulneid", mission);
-			
+
 		--Citadel of Dusk
 		elseif cm:get_faction("wh2_main_hef_citadel_of_dusk"):is_human() then
 
