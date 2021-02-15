@@ -1,0 +1,17 @@
+building_culture_variants_tables	4
+building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
+chs_chaos_dwarfs_2	wh_main_chs_chaos	wh_main_PLACEHOLDER	infernal_guard			true	chs_chaos_dwarfs_2	true
+chs_chaos_dwarfs_3	wh_main_chs_chaos	wh_main_PLACEHOLDER	artillery			true	chs_chaos_dwarfs_3	true
+chs_chaos_dwarfs_4	wh_main_chs_chaos	wh_main_PLACEHOLDER	feasting_grounds			true	chs_chaos_dwarfs_4	true
+chs_chaos_dwarfs_5	wh_main_chs_chaos	wh_main_PLACEHOLDER	temple_of_hashut			true	chs_chaos_dwarfs_5	true
+chs_chaos_dwarfs	wh_main_chs_chaos	wh_main_PLACEHOLDER	slaves			true	chs_chaos_dwarfs	true
+chs_bull_centaur1	wh_main_chs_chaos	wh_main_PLACEHOLDER	temple_of_hashut			true	chs_bull_centaur1	true
+chs_bull_centaur2	wh_main_chs_chaos	wh_main_PLACEHOLDER	temple_of_hashut			true	chs_bull_centaur2	true
+chs_bull_centaur3	wh_main_chs_chaos	wh_main_PLACEHOLDER	temple_of_hashut			true	chs_bull_centaur3	true
+chs_war_machines1	wh_main_chs_chaos	wh_main_PLACEHOLDER	artillery			true	chs_war_machines1	true
+chs_war_machines2	wh_main_chs_chaos	wh_main_PLACEHOLDER	artillery			true	chs_war_machines2	true
+chs_hobgoblins1	wh_main_chs_chaos	wh_main_PLACEHOLDER	feasting_grounds			true	chs_hobgoblins1	true
+chs_hobgoblins2	wh_main_chs_chaos	wh_main_PLACEHOLDER	feasting_grounds			true	chs_hobgoblins2	true
+chs_hobgoblins3	wh_main_chs_chaos	wh_main_PLACEHOLDER	feasting_grounds			true	chs_hobgoblins3	true
+chs_infernal1	wh_main_chs_chaos	wh_main_PLACEHOLDER	infernal_guard			true	chs_infernal1	true
+chs_infernal2	wh_main_chs_chaos	wh_main_PLACEHOLDER	infernal_guard			true	chs_infernal2	true
