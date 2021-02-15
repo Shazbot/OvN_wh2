@@ -11,4 +11,4 @@ ovn_cd_Walls			military	false	wh_main_sch_dwarf_walls		7
 ovn_cd_slave			money	false	wh2_main_sch_infrastructure1_farm		11	
 ovn_chorf_slaves			money	false	wh2_main_sch_infrastructure2_industry		9	
 ovn_chorf_worship			money	false	wh2_main_sch_support2_worship		8	
-ovn_chorf_loot			money	false	wh2_main_sch_infrastructure6_other		10	
+ovn_chorf_loot			money	false	wh2_main_sch_infrastructure3_order		10	

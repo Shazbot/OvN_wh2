@@ -54,3 +54,6 @@ ovn_chorf_stables_3	deco_effect_agent_cap_increase_chs_spy	faction_to_faction_ow
 ovn_chorf_stables_3	deco_effect_agent_enable_recruitment_chs_spy	province_to_province_own	1.0	1.0	0.0
 ovn_chorf_stables_4	deco_effect_agent_cap_increase_chs_spy	faction_to_faction_own_unseen	2.0	1.0	0.0
 ovn_chorf_stables_4	deco_effect_agent_enable_recruitment_chs_spy	province_to_province_own	1.0	1.0	0.0
+ovn_chorf_loot_1	wh_main_effect_province_growth_building	region_to_province_own	10.0	5.0	0.0
+ovn_chorf_loot_2	wh_main_effect_province_growth_building	region_to_province_own	20.0	10.0	0.0
+ovn_chorf_loot_3	wh_main_effect_province_growth_building	region_to_province_own	30.0	15.0	0.0
