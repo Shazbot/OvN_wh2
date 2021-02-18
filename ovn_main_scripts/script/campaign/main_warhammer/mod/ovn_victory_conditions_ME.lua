@@ -15,6 +15,7 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_emp_grudgebringers;
+							confederation_valid;
 						}
 						objective
 						{
@@ -59,6 +60,7 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_emp_grudgebringers;
+							confederation_valid;
 						}
 						objective
 						{
@@ -100,7 +102,7 @@ function ovn_victory_conditions()
 			local mission = {[[
 				mission
 				{
-					victory_type vco_victory_type_short;
+					victory_type ovn_victory_type_short;
 					key wh_main_short_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
@@ -178,7 +180,7 @@ function ovn_victory_conditions()
 			[[
 				 mission
 				{
-					victory_type vco_victory_type_long;
+					victory_type ovn_victory_type_long;
 					key wh_main_long_victory;
 					issuer CLAN_ELDERS;
 					primary_objectives_and_payload
@@ -631,6 +633,7 @@ function ovn_victory_conditions()
 							faction wh2_dlc12_skv_clan_fester;
 							faction wh2_main_hef_order_of_loremasters;
 							faction wh2_dlc11_def_the_blessed_dread;
+							confederation_valid;
 						}
 						objective
 						{
@@ -686,6 +689,7 @@ function ovn_victory_conditions()
 							faction wh2_dlc11_cst_rogue_grey_point_scuttlers;
 							faction wh2_dlc11_cst_rogue_terrors_of_the_dark_straights;
 							faction wh2_dlc11_cst_rogue_the_churning_gulf_raiders;
+							confederation_valid;
 						}
 						objective
 						{
@@ -732,6 +736,7 @@ function ovn_victory_conditions()
 							faction wh_main_vmp_vampire_counts;
 							faction wh2_main_skv_clan_skyre;
 							faction wh2_dlc15_skv_clan_ferrik;
+							confederation_valid;
 						}
 						objective
 						{
@@ -775,6 +780,7 @@ function ovn_victory_conditions()
 							faction wh_main_vmp_vampire_counts;
 							faction wh2_main_skv_clan_skyre;
 							faction wh2_dlc15_skv_clan_ferrik;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1019,6 +1025,7 @@ function ovn_victory_conditions()
 							faction wh2_main_nor_harbingers_of_doom;
 							faction wh2_main_nor_rotbloods;
 							faction wh_dlc08_nor_norsca;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1063,6 +1070,7 @@ function ovn_victory_conditions()
 							faction wh_dlc08_nor_norsca;
 							faction wh_dlc08_nor_wintertooth;
 							faction wh_dlc08_nor_vanaheimlings;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1105,6 +1113,7 @@ function ovn_victory_conditions()
 							faction wh_main_grn_red_fangs;
 							faction wh_main_grn_broken_nose;
 							faction wh_main_dwf_karak_azul;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1138,6 +1147,7 @@ function ovn_victory_conditions()
 							faction wh_main_grn_red_fangs;
 							faction wh_main_grn_broken_nose;
 							faction wh_main_dwf_karak_azul;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1176,6 +1186,7 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_nor_albion;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1207,6 +1218,7 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_nor_albion;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1251,6 +1263,7 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_nor_albion;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1282,6 +1295,7 @@ function ovn_victory_conditions()
 						{
 							type DESTROY_FACTION;
 							faction wh2_main_nor_albion;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1417,6 +1431,7 @@ function ovn_victory_conditions()
 							type DESTROY_FACTION;
 							faction wh_main_emp_empire;
 							faction wh2_dlc13_emp_golden_order;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1455,6 +1470,7 @@ function ovn_victory_conditions()
 							faction wh2_dlc13_emp_golden_order;
 							faction wh_main_emp_hochland;
 							faction wh_main_emp_middenland;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1497,6 +1513,7 @@ function ovn_victory_conditions()
 							type DESTROY_FACTION;
 							faction wh_main_emp_empire;
 							faction wh2_dlc13_emp_golden_order;
+							confederation_valid;
 						}
 						objective
 						{
@@ -1535,6 +1552,7 @@ function ovn_victory_conditions()
 							faction wh2_dlc13_emp_golden_order;
 							faction wh_main_emp_hochland;
 							faction wh_main_emp_middenland;
+							confederation_valid;
 						}
 						objective
 						{
