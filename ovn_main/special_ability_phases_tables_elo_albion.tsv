@@ -30,3 +30,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 10.0	negative	elo_staff_of_dural_durak		false	false	false	0.0	0.0	10.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 1.1	positive	elo_amulet_old_ones		false	false	false	0.0	0.0	0.0	1.0	1100	0.0	0	0	1100	false	15.0	50.0	false	0		wh2_main_unit_passive_rebirth		-1.0	false	true	true	0.0	
 10.0	positive	elo_albion_freedom		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	elo_champion_of_albion		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	
+60.0	positive	elo_albion_bologs		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+1.0	positive	elo_hengus_blessing		false	false	false	0.0	0.0	0.0	1.0	100	0.0	0	0	100	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+-1.0	positive	elo_albion_something_prove		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	

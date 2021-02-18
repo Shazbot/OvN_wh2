@@ -1,0 +1,3 @@
+projectile_shrapnels_tables	0
+key	projectile	amount	launch_type	sector_angle
+boulder_shrapnel_cachtorr	boulder_shrapnel_cachtorr	12	hemisphere	0.0

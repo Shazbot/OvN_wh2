@@ -2,7 +2,7 @@ Loc PackedFile	1
 key	text	tooltip
 land_units_onscreen_name_elo_fenbeast	Fenbeasts	true
 land_units_onscreen_name_elo_albion_cha_queen	Warrior Queen Gweanleth	true
-land_units_onscreen_name_elo_albion_warriors	Warband	true
+land_units_onscreen_name_elo_albion_warriors	Albion Warband	true
 land_units_onscreen_name_elo_youngbloods	Youngbloods	true
 land_units_onscreen_name_elo_woadraider	Woad Raiders	true
 land_units_onscreen_name_elo_bloodhounds	Bloodhounds	true
@@ -11,15 +11,15 @@ land_units_onscreen_name_albion_stonethrower	Albion Stonethrower	true
 land_units_onscreen_name_albion_giant	Albion Giant	true
 land_units_onscreen_name_albion_pixies	Pixie Swarm	true
 land_units_onscreen_name_albion_huntresses	Huntresses	true
-land_units_onscreen_name_elo_albion_warriors_spears	Warband (Spears)	true
-land_units_onscreen_name_elo_albion_warriors_2h	Warband (Great Weapons)	true
+land_units_onscreen_name_elo_albion_warriors_spears	Albion Warband (Spears)	true
+land_units_onscreen_name_elo_albion_warriors_2h	Albion Warband (Great Weapons)	true
 land_units_onscreen_name_albion_riders	Aonbarr Horse Warriors	true
 land_units_onscreen_name_albion_riders_javelins	Aonbarr Horse Warriors (Javelins)	true
 land_units_onscreen_name_albion_hearthguard	Hearthguard	true
 land_units_onscreen_name_albion_hearthguard_halberd	Hearthguard (Halberds)	true
 land_units_onscreen_name_albion_hearthguard_2h	Highlanders	true
-land_units_onscreen_name_albion_swordmaiden	Swordmaidens	true
-land_units_onscreen_name_albion_chariot	War Chariot	true
+land_units_onscreen_name_albion_swordmaiden	Albion Swordmaidens	true
+land_units_onscreen_name_albion_chariot	Albion Chariot	true
 land_units_onscreen_name_albion_truthsayer_beast	Truthsayer (Beasts)	true
 land_units_onscreen_name_albion_truthsayer_beast_horse	Truthsayer (Beasts)	true
 land_units_onscreen_name_albion_truthsayer_life	Truthsayer (Life)	true
@@ -42,3 +42,13 @@ land_units_onscreen_name_albion_half_giants	Half-Giants	true
 land_units_onscreen_name_albion_wyrd_druid	Wyrd Druid	true
 land_units_onscreen_name_albion_wyrd_druid_horse	Wyrd Druid	true
 land_units_onscreen_name_ovn_barrow_wight	Albion Barrow Wights	true
+land_units_onscreen_name_albion_shieldmaiden_ror	Oracle's Maidenguard (Swordmaidens)	true
+land_units_onscreen_name_albion_bologs_giant_ror	Bologs (Albion Giant)	true
+land_units_onscreen_name_elo_fly_infested_rotwood	Fly-Infested Rotwood (Fenbeasts)	true
+land_units_onscreen_name_albion_woadraider_sworn_ror	The Bloodsworn (Woad Raiders)	true
+land_units_onscreen_name_alb_cav_noble_first_ror	The Firstborn Sons (Noble Cavalry)	true
+land_units_onscreen_name_albion_warriors_lugh	Warriors of Lugh (Albion Warband)	true
+land_units_onscreen_name_albion_huntresses_warden_ror	Wardens of the Bloodswamps (Huntresses)	true
+land_units_onscreen_name_albion_centaur_hunter_ror	Hunters of the Great Plains (Centaurs)	true
+land_units_onscreen_name_albion_cachtorr_stonethrower	Cachtorr (Stonethrower Giant)	true
+land_units_onscreen_name_albion_highlander_ror	Defenders of Carn Mallog (Highlanders)	true

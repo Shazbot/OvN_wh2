@@ -37,3 +37,7 @@ lesser_shield_of_the_old_ones	true	wh2_main_character_abilities_shield_of_the_ol
 elo_staff_of_dural_durak	true	wh_main_item_abilities_skull_wand_of_kaloth		wh_type_area_of_hexes		wh_main_anc_group_unique	true	false	item		false
 elo_amulet_old_ones	true	wh2_main_unit_abilities_revivification_crystal		wh_type_augment		wh_main_anc_group_unique	true	false	item		false
 elo_albion_freedom	false	wh_dlc08_hero_passive_frenzied_assault		wh_type_augment		wh_main_anc_group_uncommon	false	false	character		false
+elo_champion_of_albion	false	champion_albion		wh_type_augment		wh_main_anc_group_unique	false	false	unit		false
+elo_albion_bologs	false	bologs_bologs_bologs		wh_type_augment		wh_main_anc_group_unique	false	false	unit		false
+elo_hengus_blessing	false	wh_dlc05_character_passive_blessed_by_the_mage_queen		wh_type_augment		wh_main_anc_group_rare	false	false	unit		false
+elo_albion_something_prove	false	wh_main_character_passive_benediction		wh_type_augment		wh_main_anc_group_unique	false	false	unit		false

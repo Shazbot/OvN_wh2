@@ -40,3 +40,13 @@ murder_crows_upgraded	-10.0	stat_melee_attack	add
 morrigan_hunters_dmg	2.0	scalar_missile_damage_ap	mult
 lesser_shield_of_the_old_ones	6.0	stat_morale	add
 lesser_shield_of_the_old_ones	15.0	stat_resistance_all	add
+elo_champion_of_albion	4.0	stat_morale	add
+elo_albion_bologs	20.0	stat_melee_attack	add
+elo_albion_bologs	20.0	stat_melee_defence	add
+elo_albion_bologs	1.25	scalar_speed	mult
+elo_albion_bologs	1.25	stat_melee_damage_base	mult
+elo_albion_bologs	1.25	stat_melee_damage_ap	mult
+elo_albion_bologs	1.25	scalar_splash_attack_power	mult
+elo_albion_bologs	20.0	stat_charge_bonus	add
+elo_albion_something_prove	8.0	stat_melee_damage_ap	add
+elo_albion_something_prove	4.0	stat_morale	add

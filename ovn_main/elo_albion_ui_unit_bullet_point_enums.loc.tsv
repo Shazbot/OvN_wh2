@@ -4,7 +4,11 @@ ui_unit_bullet_point_enums_tooltip_woad_paint	Woad Paint is made and applied by 
 ui_unit_bullet_point_enums_onscreen_name_woad_paint	Woad Paint	true
 ui_unit_bullet_point_enums_tooltip_disciplined	Having mastered their temper, they no longer suffer from the mood swings so common in the warbands of Albion, allowing them to utilize their war fury without any drawbacks.	true
 ui_unit_bullet_point_enums_onscreen_name_disciplined	Disciplined	true
-ui_unit_bullet_point_enums_tooltip_devestating_charge	As long as they aren't too injured or weakened, the charge of this unit will be savage, uncompromising and simply devastating.	false
-ui_unit_bullet_point_enums_onscreen_name_devestating_charge	Devastating Charge	false
-ui_unit_bullet_point_enums_tooltip_incredible_will	Even if the body is broken, Highlanders will attempt to fight on for some seconds, forcing their body to keep on moving by sheer willpower alone.	false
-ui_unit_bullet_point_enums_onscreen_name_incredible_will	Unbreakable Will	false
+ui_unit_bullet_point_enums_tooltip_devestating_charge	As long as they aren't too injured or weakend, the charge of this unit will be savage, uncompromising and simply devestating.	true
+ui_unit_bullet_point_enums_onscreen_name_devestating_charge	Devastating Charge	true
+ui_unit_bullet_point_enums_tooltip_incredible_will	Even if the body is broken, Highlanders will attempt to fight on for some seconds, forcing their body to keep on moving by sheer willpower alone.	true
+ui_unit_bullet_point_enums_onscreen_name_incredible_will	Unbreakable Will	true
+ui_unit_bullet_point_enums_tooltip_something_prove	These warriors have focused on proving their worth on the battlefield. As long as their will is unbroken, they will push themselves beyond their limits.	true
+ui_unit_bullet_point_enums_onscreen_name_something_prove	Something to Prove	true
+ui_unit_bullet_point_enums_tooltip_servants_lugh	These warriors have dedicated themselves to the Sun God who in turn imbues their weapons with flame and grants protection against fire, or so it is believed by the inhabitants. It may also be connected to a secret rite of initiation, overseen by the Truthsayers.	true
+ui_unit_bullet_point_enums_onscreen_name_servants_lugh	Servants of the Sun God	true

@@ -1,0 +1,12 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_nor_albion	false	albion_shieldmaiden_ror	true	true				false
+wh2_main_nor_albion	false	albion_bologs_giant_ror	true	true				false
+wh2_main_nor_albion	false	elo_fly_infested_rotwood	true	true				false
+wh2_main_nor_albion	false	albion_woadraider_sworn_ror	true	true				false
+wh2_main_nor_albion	false	alb_cav_noble_first_ror	true	true				false
+wh2_main_nor_albion	false	albion_warriors_lugh	true	true				false
+wh2_main_nor_albion	false	albion_huntresses_warden_ror	true	true				false
+wh2_main_nor_albion	false	albion_centaur_hunter_ror	true	true				false
+wh2_main_nor_albion	false	albion_cachtorr_stonethrower	true	true				false
+wh2_main_nor_albion	false	albion_highlander_ror	true	true				false

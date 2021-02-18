@@ -6,5 +6,9 @@ ui_unit_groupings_onscreen_ovn_elephant	Elephant	true
 ui_unit_groupings_tooltip_ovn_elephant		true
 ui_unit_groupings_onscreen_ovn_shock_infantry	Shock Infantry	true
 ui_unit_groupings_tooltip_ovn_shock_infantry		true
-ui_unit_groupings_onscreen_ovn_rbt_ch_blightstormer	Wizard	true
-ui_unit_groupings_tooltip_ovn_rbt_ch_blightstormer		true
+ui_unit_groupings_onscreen_ovn_druids	Druidic Infantry	true
+ui_unit_groupings_tooltip_ovn_druids	Druids can do both, fight in melee and unleash their bound spells on the battlefield.	true
+ui_unit_groupings_onscreen_ovn_centaur_great_weapons	Monstrous Great Weapon Cavalry	true
+ui_unit_groupings_tooltip_ovn_centaur_great_weapons	Centaurs are fast and deadly in melee.	true
+ui_unit_groupings_onscreen_ovn_fenbeasts	Undead Monstrous Construct	true
+ui_unit_groupings_tooltip_ovn_fenbeasts	Fenbeasts are durable magic undead constructs, able to cause and endure a lot of damage.	true
