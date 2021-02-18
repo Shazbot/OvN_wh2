@@ -1,0 +1,3 @@
+battle_vortexs_tables	16
+change_max_angle	contact_effect	damage	damage_ap	duration	expansion_speed	goal_radius	infinite_height	move_change_freq	movement_speed	start_radius	vortex_key	ignition_amount	is_magical	composite_scene	detonation_force	launch_source	building_collision	launch_vfx	height_off_ground	delay	num_vortexes	composite_scene_blood	affects_allies	launch_source_offset	composite_scene_group	delay_between_vortexes
+120		0	7	13.0	-15.0	15.0	true	1.0	0.0	15.0	fim_meargh_skattach_staff_balor_ability	0.0	true	composite_scene\spells_and_abilities\skattach_staff.csc	200.0	target_centre	1.ignore		0.0	0.0	1		true	0.0		1.0

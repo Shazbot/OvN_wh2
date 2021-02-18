@@ -1,0 +1,5 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	fim_meargh_skattach_ancient_leadership		7
+		x	1	fim_meargh_skattach_anc_staff_balor		10
+		x	1	fim_meargh_skattach_anc_hellmother_crown		12

@@ -5,7 +5,6 @@ ovn_arb_camel_rider_jezzail		arb_camel_rider_jezzail	hu1/emp/low_poly/emp_outrid
 ovn_arb_camel_rider_archer		arb_camel_rider_archer	hu1\brt\brt_men_at_arms\low_poly\brt_men_at_arms_archer_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 ovn_arb_camel_rider_lancer		arb_camel_rider_lancer	hu1\brt\brt_men_at_arms\low_poly\brt_spearmen_at_arms_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 ovn_arb_elephant_cannon		arb_elephant_cannon		1.0	1.0	0.0	
-ovn_arb_war_elephant_ror	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_ror	arb_war_elephant		0.8	0.8	0.0	
 ovn_arb_genie		arb_genie		1.0	4.0	0.0	
 ovn_arb_sea_nymph		arb_sea_nymph		1.0	4.0	0.0	
 ovn_arb_desert_spirit		arb_desert_spirit		1.0	4.0	0.0	
@@ -114,3 +113,5 @@ ovn_cat_horse_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech
 arb_mirage_spearmen		arb_mirage_spearmen	hu1\emp\low_poly\emp_state_troops_spear_shield_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 ovn_araby_ll_2		ovn_araby_ll_2		1.02	1.15	0.05	
 wh_main_arb_sheikh_2_mounted		ovn_araby_ll_2		1.0	1.0	0.0	
+ovn_arb_war_elephant_ror	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_ror	arb_cannon_elephant		0.805	0.805	0.0	
+arb_kasabar_elephant	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_war	arb_kasabar_elephant		0.815	0.815	0.0	
