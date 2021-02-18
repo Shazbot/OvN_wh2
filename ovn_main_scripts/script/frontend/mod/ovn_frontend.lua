@@ -125,8 +125,32 @@ core:add_listener(
 );
 end
 
+-- add a warning to lower UI scale if factions are missing from the factions dropdown
+local function add_mp_campaign_warning()
+	core:remove_listener("ovn_frontend_CampaignTransitionListener_mp_campaign")
+	core:add_listener(
+		"ovn_frontend_CampaignTransitionListener_mp_campaign",
+		"FrontendScreenTransition",
+		function(context) return context.string == "mp_grand_campaign" end,
+		function(context)
+			local header = find_uicomponent(core:get_ui_root(), "mp_grand_campaign", "dock_area", "main_panel", "panel_title", "panel_heading")
+			if not header then return end
+			local new_header = find_uicomponent(core:get_ui_root(), "mp_grand_campaign", "dock_area", "main_panel", "panel_title", "pj_mp_header")
+			if not new_header then
+				new_header = UIComponent(header:CopyComponent("pj_mp_header"))
+			end
+			if not new_header then return end
+			local h_x, h_y = header:Position()
+			new_header:MoveTo(h_x, h_y-50)
+			new_header:SetStateText("[[col:red]]IF FACTIONS ARE MISSING FROM THE DROPDOWN LOWER YOUR UI SCALE[[/col]]")
+		end,
+		true
+	)
+end
+
 core:add_ui_created_callback(
 	function(context)
 		ovn_frontend()
+		add_mp_campaign_warning()
 	end
 )
