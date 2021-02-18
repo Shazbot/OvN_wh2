@@ -101,6 +101,12 @@ local function update_starting_lord_button(should_be_visible)
 		-- local blurb = effect.get_localised_string("campaign_localised_strings_string_mixu_frontend_starting_lord_change_blurb")
 		txt:SetStateText("Change the starting lord")
 	end
+
+	local screen_w, screen_h = core:get_screen_resolution()
+	local _, uic_y = uic:Position()
+	if uic_y+100 >= screen_h then
+		uic:SetDockOffset(0, 0)
+	end
 end
 
 local function update_faction_effects(starting_lord)
