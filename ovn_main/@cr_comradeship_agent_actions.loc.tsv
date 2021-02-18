@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_actions_localised_action_name_ovn_agent_action_spy_hinder_settlement_damage_building	{{tr:agent_action_name_damage_building}}	true
+agent_actions_localised_action_description_ovn_agent_action_spy_hinder_settlement_damage_building	[[col:yellow]]Inflicts damage upon a building in the target settlement.[[/col]]	true
+agent_actions_localised_action_name_ovn_agent_action_spy_hinder_agent_wound	{{tr:agent_action_name_wound}}	true
+agent_actions_localised_action_description_ovn_agent_action_spy_hinder_agent_wound	[[col:yellow]]Wounds the target [[img:icon_hero]][[/img]]Hero.[[/col]]	true
+agent_actions_localised_action_name_ovn_agent_action_spy_hinder_settlement_assault_units	{{tr:agent_action_name_assault_units}}	true
+agent_actions_localised_action_description_ovn_agent_action_spy_hinder_settlement_assault_units	[[col:yellow]]Inflicts damage upon all units in the target army.[[/col]]	true
+agent_actions_localised_action_name_ovn_agent_action_champion_assist_army_enhance_mobility	{{tr:agent_action_name_increase_mobility}}	true
+agent_actions_localised_action_description_ovn_agent_action_champion_assist_army_enhance_mobility	[[col:yellow]]Increases the campaign movement range of the parent army by %n%.[[/col]]	true
+agent_actions_localised_action_name_ovn_agent_action_champion_hinder_settlement_steal_technology	{{tr:agent_action_name_steal_technology}}	true
+agent_actions_localised_action_description_ovn_agent_action_champion_hinder_settlement_steal_technology	[[col:yellow]]Reduces research time by %n% for 3 turns.[[/col]]	true

@@ -1,0 +1,5 @@
+campaign_agent_subtype_factorial_effect_junctions_tables	2
+agent_subtype	factorial_effect	key	value	scope
+ovn_com_aragand_the_layabout	skaven_discoverability_characters	11123512	10	EFS_ONLY_OWNER
+ovn_com_legles_the_elf	skaven_discoverability_characters	11123513	10	EFS_ONLY_OWNER
+ovn_com_giblit_the_dwarf	skaven_discoverability_characters	11123514	10	EFS_ONLY_OWNER

@@ -1,0 +1,7 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+ovn_com_cha_olorin_the_grey_wizard		com_olorin_the_grey_wizard		1.0	1.15	0.05	
+ovn_com_cha_aragand_the_layabout		com_aragand_the_layabout		1.0	1.15	0.05	
+ovn_com_cha_aragand_the_layabout_sober		com_aragand_the_layabout_sober		1.0	1.15	0.05	
+ovn_com_cha_legles_the_elf		com_legles_the_elf		1.0	1.15	0.05	
+ovn_com_cha_giblit_the_dwarf		com_giblit_the_dwarf		1.0	1.15	0.05	

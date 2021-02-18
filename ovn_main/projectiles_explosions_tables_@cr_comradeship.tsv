@@ -1,0 +1,6 @@
+projectiles_explosions_tables	18
+key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	shrapnel	explosion_particle_effect	fuse_distance_from_target	explosion_particle_effect_on_ground	explosion_audio	contact_phase_effect	ignition_amount	is_magical	detonation_damage_ap	camera_shake	detonation_force	fuse_fixed_time	affects_allies
+ovn_com_firework_rocket	fuse	shockwave	6.0	1.0	10.0	52.0	ovn_com_firework_rocket_shrapnel	wh_main_generic_spherical_explosion_large	55.0		wh_rocket		1.0	true	26.0	wh_main_unit_explosion_light	150.0	-1.0	true
+ovn_com_firework_rocket_shrapnel	percussive	shockwave	6.0	1.0	10.0	52.0		wh_main_generic_spherical_explosion_small	-1.0		wh_rocket		1.0	true	26.0	wh_main_unit_explosion_light	150.0	1.0	true
+ovn_com_firework_rocket_upgraded	fuse	shockwave	6.0	1.0	10.0	52.0	ovn_com_firework_rocket_upgraded_shrapnel	wh_main_generic_spherical_explosion_large	55.0		wh_rocket	wh2_dlc11_unit_contact_disrupted	1.0	true	26.0	wh_main_unit_explosion_light	150.0	-1.0	true
+ovn_com_firework_rocket_upgraded_shrapnel	percussive	shockwave	6.0	1.0	10.0	52.0		wh_main_generic_spherical_explosion_small	-1.0		wh_rocket	wh2_dlc11_unit_contact_disrupted	1.0	true	26.0	wh_main_unit_explosion_light	150.0	1.0	true

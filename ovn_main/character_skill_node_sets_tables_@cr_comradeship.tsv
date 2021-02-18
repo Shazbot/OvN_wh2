@@ -1,0 +1,6 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			ovn_skill_node_set_olorin_the_grey_wizard		false	false	ovn_com_olorin_the_grey_wizard
+champion			ovn_skill_node_set_aragand_the_layabout		false	false	ovn_com_aragand_the_layabout
+spy			ovn_skill_node_set_legles_the_elf		false	false	ovn_com_legles_the_elf
+champion			ovn_skill_node_set_giblit_the_dwarf		false	false	ovn_com_giblit_the_dwarf

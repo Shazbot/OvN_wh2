@@ -1,0 +1,7 @@
+Loc PackedFile	1
+key	text	tooltip
+missions_localised_description_ovn_hlf_comradeship	The Comradeship is a group of adventurous heroes who assist the Halflings of the Moot. They are incorrigible wanderers all, but they will always answer the call of a good Mootland meal.	true
+missions_localised_title_ovn_hlf_comradeship	The Comradeship	true
+effect_bundles_localised_title_ovn_hlf_comradeship_unlock	The Comradeship Returns	true
+effect_bundles_localised_description_ovn_hlf_comradeship_unlock	And what about very old friends?	true
+mission_text_override_ovn_hlf_comradeship	Collect at least 12 cooking ingredients!	false

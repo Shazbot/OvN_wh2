@@ -1,0 +1,4 @@
+projectile_shrapnels_tables	0
+key	projectile	amount	launch_type	sector_angle
+ovn_com_firework_rocket_shrapnel	ovn_com_firework_rocket_shrapnel	6	sector	75.0
+ovn_com_firework_rocket_upgraded_shrapnel	ovn_com_firework_rocket_upgraded_shrapnel	6	sector	75.0
