@@ -567,7 +567,7 @@ local function set_up_moot_turn_one_fight()
 	local first_region_name = cm:model():world():region_manager():region_list():item_at(0):name()
 	cm:create_force_with_general(
 		starting_fight_faction_key,
-		"wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_veh_black_coach,wh_main_vmp_mon_crypt_horrors,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_mon_fell_bats,wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_cav_black_knights_0",
+		"wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_veh_black_coach,wh_main_vmp_mon_crypt_horrors,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_mon_fell_bats,wh_main_vmp_inf_zombie,wh_main_vmp_mon_dire_wolves",
 		first_region_name,
 		622,
 		417,
