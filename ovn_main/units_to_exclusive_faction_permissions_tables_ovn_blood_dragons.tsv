@@ -1,4 +1,2 @@
 units_to_exclusive_faction_permissions_tables	0
 key	faction	allowed
-dismounted_blood_knights	wh_main_vmp_rival_sylvanian_vamps	true
-dismounted_blood_knights_shield	wh_main_vmp_rival_sylvanian_vamps	true

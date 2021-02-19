@@ -1,15 +1,11 @@
 faction_banners_tables	0
 key	primary_blue	primary_green	primary_red	secondary_blue	secondary_green	secondary_red	symbol	tertiary_blue	tertiary_green	tertiary_red
 wh2_main_amz_amazons	64	211	245	0	0	0		64	211	234
-wh_main_vmp_rival_sylvanian_vamps	15	115	200	15	115	171		115	171	209
 wh2_main_arb_caliphate_of_araby	190	210	205	50	85	50		0	0	115
 wh2_main_emp_grudgebringers	0	0	100	125	193	218		100	0	0
 wh2_main_arb_aswad_scythans	5	5	5	0	215	250		5	5	5
 wh2_main_arb_flaming_scimitar	80	200	230	105	55	25		105	55	25
-wh_dlc08_nor_naglfarlings	0	0	0	0	90	0		252	252	252
 wh2_main_emp_the_moot	50	100	50	35	35	155		35	75	35
 wh2_main_nor_trollz	210	210	210	210	210	210		210	210	210
-wh2_main_wef_treeblood	0	135	100	0	225	225		15	15	15
 wh2_main_nor_albion	60	80	140	225	220	200		140	30	30
 wh2_main_rogue_troll_skullz	80	115	128	15	55	15		145	145	145
-wh_dlc08_nor_goromadny_tribe	30	40	170	0	225	225		15	15	15

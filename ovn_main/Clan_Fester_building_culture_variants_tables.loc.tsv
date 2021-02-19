@@ -1,9 +1,6 @@
 Loc PackedFile	1
 key	text	tooltip
 building_chains_chain_tooltip_ovn_Clan_Fester	Skaven	false
-building_culture_variants_name_ovn_Clan_Fester_1wh_dlc08_nor_naglfarlings	Clan Fester Burrow	false
-building_culture_variants_name_ovn_Clan_Fester_2wh_dlc08_nor_naglfarlings	Clan Fester Nest	false
-building_culture_variants_name_ovn_Clan_Fester_3wh_dlc08_nor_naglfarlings	Clan Fester Hive	false
 building_short_description_texts_short_description_Clan_Fester_1	As part of the Pactsworn, the Skaven and Rotbloods combine their forces to bring ruin to their enemies.	false
 building_short_description_texts_short_description_Clan_Fester_2	As the Skaven are allowed to burrow deeper and wider they bring with them the rank and file.	false
 building_short_description_texts_short_description_Clan_Fester_3	As the Pactsworn bears its rotten fruits the Rottblood can now bring to bear the fiercest of Skaven. 	false

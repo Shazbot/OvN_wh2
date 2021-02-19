@@ -2,10 +2,6 @@ custom_loading_screen_components_tables	0
 component_id	custom_loading_screen_key	image_path
 background	 wh2_main_tmb_the_sentinels	ui/loading_ui/load_images/dread_king_load.png
 custom_quote	 wh2_main_tmb_the_sentinels	
-background	wh_dlc08_nor_naglfarlings	ui/loading_ui/load_images/rotblood_load.png
-custom_quote	wh_dlc08_nor_naglfarlings	
-background	wh_dlc08_nor_goromadny_tribe	ui/loading_ui/load_images/fimir_load.png
-custom_quote	wh_dlc08_nor_goromadny_tribe	
 background	wh_main_vmp_templehof	ui/loading_ui/load_images/blooddragons_load.png
 custom_quote	wh_main_vmp_templehof	
 background	wh2_main_vor_tmb_the_sentinels	ui/loading_ui/load_images/dread_king_load.png

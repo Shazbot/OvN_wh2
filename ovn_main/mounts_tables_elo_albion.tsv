@@ -1,5 +1,0 @@
-mounts_tables	10
-key	animation	entity	audio_armour_type	variant	voiceover
-albion_warhorse	hr1_warhorse	albion_warhorse_entity	leather	albion_warhorse	wh_main_vo_culture_Horse
-albion_warhorse_chariot	hr1_warhorse	albion_warhorse_chariot	leather	albion_warhorse	wh_main_vo_culture_Horse
-morrigan_midnight	bi1_eagle	wh_dlc05_wef_mon_great_eagle_blood	body	morrigan_midnight	wh_main_vo_culture_Eagle

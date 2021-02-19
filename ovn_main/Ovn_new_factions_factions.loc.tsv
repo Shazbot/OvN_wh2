@@ -41,11 +41,6 @@ factions_defend_desc_wh2_main_emp_the_moot	You are defending against Mootland!	t
 factions_screen_adjective_wh2_main_emp_the_moot	Mootland	true
 factions_screen_name_wh2_main_emp_the_moot	Mootland	true
 factions_screen_name_when_rebels_wh2_main_emp_the_moot	Styreland Rebels	true
-factions_attack_desc_wh2_main_wef_treeblood	You are attacking the Harbingers of Doom!	true
-factions_defend_desc_wh2_main_wef_treeblood	You are defending against the Harbingers of Doom!	true
-factions_screen_adjective_wh2_main_wef_treeblood	Harbingers of Doom	true
-factions_screen_name_wh2_main_wef_treeblood	Harbingers of Doom	true
-factions_screen_name_when_rebels_wh2_main_wef_treeblood	Swamp Scorpion Rebels	true
 factions_screen_name_wh2_main_nor_albion	Truthsayers Council	true
 factions_defend_desc_wh2_main_nor_albion	You are defending against the Truthsayers Council!	true
 factions_attack_desc_wh2_main_nor_albion	You are attacking the Truthsayers Council!	true
