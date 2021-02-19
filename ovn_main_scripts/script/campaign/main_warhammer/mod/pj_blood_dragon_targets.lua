@@ -269,13 +269,6 @@ end
 local function give_new_targets(turn_num, rogues_disallowed)
 	local faction_name = blood_dragons_faction_name
 
-	--- We can remove this after we remove using this faction as blood dragons in the mod.
-	local rival_vamps_key = "wh_main_vmp_rival_sylvanian_vamps"
-	local rival_vamps = cm:get_faction(rival_vamps_key)
-	if rival_vamps and rival_vamps:is_human() then
-		faction_name = rival_vamps_key
-	end
-
 	local forces = generate_targets(faction_name, rogues_disallowed)
 	if not forces then return end
 
@@ -391,8 +384,7 @@ core:add_listener(
 	"pj_blood_dragon_targets_on_MissionFailed",
 	"MissionFailed",
 	function(context)
-		return context:faction():name() == "wh_main_vmp_rival_sylvanian_vamps"
-			or context:faction():name() == "wh2_main_vmp_blood_dragons"
+		return context:faction():name() == "wh2_main_vmp_blood_dragons"
 	end,
 	function(context)
 		local mission_key = context:mission():mission_record_key()
@@ -408,8 +400,7 @@ core:add_listener(
 	"pj_blood_dragon_targets_on_MissionCancelled",
 	"MissionCancelled",
 	function(context)
-		return context:faction():name() == "wh_main_vmp_rival_sylvanian_vamps"
-			or context:faction():name() == "wh2_main_vmp_blood_dragons"
+		return context:faction():name() == "wh2_main_vmp_blood_dragons"
 	end,
 	function(context)
 		local mission_key = context:mission():mission_record_key()
@@ -425,8 +416,7 @@ core:add_listener(
 	"pj_blood_dragon_targets_on_MissionSucceeded",
 	"MissionSucceeded",
 	function(context)
-		return context:faction():name() == "wh_main_vmp_rival_sylvanian_vamps"
-			or context:faction():name() == "wh2_main_vmp_blood_dragons"
+		return context:faction():name() == "wh2_main_vmp_blood_dragons"
 	end,
 	function(context)
 		local mission_key = context:mission():mission_record_key()

@@ -1,7 +1,197 @@
-function ovn_sr_chaos()
+local function sr_chaos_new_game_setup(rotblood_tribe)
+	local unit_count = 1 -- card32 count
+	local rcp = 20 -- float32 replenishment_chance_percentage
+	local max_units = 1 -- int32 max_units
+	local murpt = 0.1 -- float32 max_units_replenished_per_turn
+	local xp_level = 0 -- card32 xp_level
+	local frr = "" -- (may be empty) String faction_restricted_record
+	local srr = "" -- (may be empty) String subculture_restricted_record
+	local trr = "" -- (may be empty) String tech_restricted_record
+	local units = {
+		"wh_pro04_chs_art_hellcannon_ror_0",
+		"wh_pro04_chs_cav_chaos_knights_ror_0",
+		"wh_pro04_chs_inf_chaos_warriors_ror_0",
+		"wh_pro04_chs_inf_forsaken_ror_0",
+		"wh_pro04_chs_mon_chaos_spawn_ror_0",
+		"wh_pro04_chs_mon_dragon_ogre_ror_0",
+		"wh_pro04_nor_inf_chaos_marauders_ror_0"
+	}
+
+	for _, unit in ipairs(units) do
+		cm:add_unit_to_faction_mercenary_pool(
+			rotblood_tribe,
+			unit,
+			unit_count,
+			rcp,
+			max_units,
+			murpt,
+			xp_level,
+			frr,
+			srr,
+			trr,
+			true
+		)
+	end
+
+	if rotblood_tribe:is_human() then
+			cm:create_force_with_general(
+				"wh2_main_nor_rotbloods",
+				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc01_chs_inf_forsaken_0",
+				"wh2_main_kingdom_of_beasts_serpent_coast",
+				583,
+				700,
+				"general",
+				"chs_lord",
+				"names_name_999982317",
+				"",
+				"",
+				"",
+				true,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("ovn_Nurgh", cqi, -1, true)
+					cm:set_character_unique("character_cqi:" .. cqi, true)
+					cm:set_character_immortality("character_cqi:" .. cqi, true)
+				end
+			)
+	else
+			cm:transfer_region_to_faction("wh2_main_chrace_elisia", "wh2_main_nor_rotbloods")
+			cm:transfer_region_to_faction("wh_main_blightwater_kradtommen", "wh2_main_nor_rotbloods")
+			cm:transfer_region_to_faction("wh2_main_northern_great_jungle_xahutec", "wh2_main_nor_rotbloods")
+			cm:transfer_region_to_faction("wh_main_hochland_brass_keep", "wh2_main_nor_rotbloods")
+
+			cm:force_religion_factors("wh_main_blightwater_kradtommen", "wh_main_religion_chaos", 1)
+			cm:force_religion_factors("wh2_main_northern_great_jungle_xahutec", "wh_main_religion_chaos", 1)
+			cm:force_religion_factors("wh2_main_chrace_elisia", "wh_main_religion_chaos", 1)
+			cm:force_religion_factors("wh_main_hochland_brass_keep", "wh_main_religion_untainted", 0.7, "wh_main_religion_chaos", 0.3)
+
+			cm:heal_garrison(cm:get_region("wh2_main_northern_great_jungle_xahutec"):cqi())
+			cm:heal_garrison(cm:get_region("wh2_main_chrace_elisia"):cqi())
+
+			local grimhold_region = cm:get_region("wh_main_blightwater_kradtommen")
+			cm:instantly_set_settlement_primary_slot_level(grimhold_region:settlement(), 1)
+			cm:heal_garrison(grimhold_region:cqi())
+
+			local brasskeep_region = cm:get_region("wh_main_hochland_brass_keep")
+			cm:instantly_set_settlement_primary_slot_level(brasskeep_region:settlement(), 2)
+			cm:heal_garrison(brasskeep_region:cqi())
+
+			cm:force_change_cai_faction_personality("wh2_main_nor_rotbloods", "wh_norsca_default_hard")
+
+			cm:create_force(
+				"wh2_main_nor_rotbloods",
+				"wh_dlc01_chs_inf_chaos_warriors_2,wh_main_chs_cav_chaos_knights_0,wh_dlc01_chs_inf_forsaken_0,wh_main_chs_mon_trolls",
+				"wh2_main_kingdom_of_beasts_serpent_coast",
+				740,
+				194,
+				true,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("ovn_Slaa", cqi, -1, true)
+				end
+			)
+
+			cm:create_force(
+				"wh2_main_nor_rotbloods",
+				"wh_dlc01_chs_inf_chaos_warriors_2,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc01_chs_inf_forsaken_0",
+				"wh2_main_kingdom_of_beasts_serpent_coast",
+				640,
+				470,
+				true,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("ovn_Tzeen", cqi, -1, true)
+				end
+			)
+
+			cm:create_force(
+				"wh2_main_nor_rotbloods",
+				"wh_main_chs_inf_chaos_warriors_0,wh_dlc01_chs_inf_chaos_warriors_2,wh_main_chs_mon_chaos_spawn,wh_dlc01_chs_inf_forsaken_0",
+				"wh2_main_kingdom_of_beasts_serpent_coast",
+				170,
+				155,
+				true,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("ovn_Khar", cqi, -1, true)
+				end
+			)
+			cm:create_force_with_general(
+				"wh2_main_nor_rotbloods",
+				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0",
+				"wh2_main_kingdom_of_beasts_serpent_coast",
+				563,
+				537,
+				"general",
+				"chs_lord",
+				"names_name_999982317",
+				"",
+				"",
+				"",
+				true,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("ovn_Nurgh", cqi, -1, true)
+					cm:set_character_unique("character_cqi:" .. cqi, true)
+					cm:set_character_immortality("character_cqi:" .. cqi, true)
+				end
+			)
+
+			if cm:get_faction("wh2_dlc12_lzd_cult_of_sotek"):is_human() then
+				local xahutec_region = cm:model():world():region_manager():region_by_key("wh2_main_northern_great_jungle_xahutec")
+				cm:instantly_set_settlement_primary_slot_level(xahutec_region:settlement(), 1)
+			end
+
+			if cm:get_faction("wh_main_emp_empire"):is_human() then
+				cm:transfer_region_to_faction("wh_main_reikland_helmgart", "wh2_main_nor_rotbloods")
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_emp_empire", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_emp_empire_separatists", true, true)
+			end
+	end
+
+	cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
+	cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
+
+	local aos_region = cm:get_region("wh_main_mountains_of_hel_altar_of_spawns")
+	cm:transfer_region_to_faction("wh_main_mountains_of_hel_altar_of_spawns", "wh2_main_nor_rotbloods")
+	cm:heal_garrison(aos_region:cqi())
+
+	cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
+
+	cm:force_make_peace("wh_dlc08_nor_wintertooth", "wh2_main_nor_rotbloods")
+
+	---- Start Event Message Pop Up
+	core:add_listener(
+		"new_chshordestartmesslistner",
+		"FactionRoundStart",
+		function(context)
+			return context:faction():is_human() and cm:model():turn_number() == 15
+		end,
+		function()
+			new_chshordestartmess()
+		end,
+		false
+	)
+
+	---- Chaos Army Spawn Script listener
+	if rotblood_tribe:is_human() then
+				ovn_rotblood_skit_reinforcements_new()
+	else
+			core:add_listener(
+					"chshordespawnlistener2",
+					"FactionRoundStart",
+					function(context)
+							return context:faction():name() == "wh2_main_nor_rotbloods" and cm:model():turn_number() > 16
+					end,
+					function()
+							chshordespawn()
+					end,
+					true
+			)
+	end
+
+	new_setup_cwd_and_fimir_raze_region_monitor()
+end
+
+function new_ovn_sr_chaos()
 	if cm:model():campaign_name("main_warhammer") then
 		cm:force_diplomacy("subculture:wh_main_sc_nor_warp", "culture:wh_main_chs_chaos", "all", true, true, true)
-		local rotblood_tribe = cm:get_faction("wh_dlc08_nor_naglfarlings")
+		local rotblood_tribe = cm:get_faction("wh2_main_nor_rotbloods")
 
 		local mct = core:get_static_object("mod_configuration_tool")
 		local rotblood_value
@@ -16,40 +206,54 @@ function ovn_sr_chaos()
 			enable_option:set_read_only(true)
 		end
 
+		if not rotblood_tribe then return end
+
+		local old_leader_cqi = rotblood_tribe:faction_leader():command_queue_index()
+		cm:callback(
+			function()
+				local str = "character_cqi:"..old_leader_cqi
+				cm:set_character_immortality(str, false)
+				cm:kill_character(old_leader_cqi, true, true)
+			end,
+			0
+		)
+
 		if rotblood_tribe and (rotblood_tribe:is_human() or not mct or rotblood_value and enable_value) then
-			if not cm:is_new_game() then -- AKA NOT A NEW GAME - Chaos Army Spawn Script listener loaded on saved game
+			if cm:is_new_game() then
+				sr_chaos_new_game_setup(rotblood_tribe)
+			else -- AKA NOT A NEW GAME - Chaos Army Spawn Script listener loaded on saved game
 					if rotblood_tribe:is_human() then
-							ovn_rotblood_skit_reinforcements()
+							ovn_rotblood_skit_reinforcements_new()
 					else
 							core:add_listener(
 									"chshordespawnlistener2",
 									"FactionRoundStart",
 									function(context)
-											return context:faction():name() == "wh_dlc08_nor_naglfarlings" and cm:model():turn_number() > 16
+											return context:faction():name() == "wh2_main_nor_rotbloods" and cm:model():turn_number() > 16
 									end,
 									function()
-											chshordespawn()
+											new_chshordespawn()
 									end,
 									true
 							)
 					end
 
-					setup_cwd_and_fimir_raze_region_monitor()
+					new_setup_cwd_and_fimir_raze_region_monitor()
 			end
 		end
 	end
 end
 
-function ovn_rotblood_skit_reinforcements()
+function ovn_rotblood_skit_reinforcements_new()
 
     core:add_listener(
         "generate_rotblood_skit_dilemma_listener",
         "FactionTurnStart",
         function(context)
-            return context:faction():name() == "wh_dlc08_nor_naglfarlings" and context:faction():is_human()
+            return context:faction():name() == "wh2_main_nor_rotbloods" and context:faction():is_human()
         end,
 		function(context)
-			local faction_name_str = "wh_dlc08_nor_naglfarlings"
+			local faction_name_str = "wh2_main_nor_rotbloods"
 			local faction_name = cm:get_faction(faction_name_str)
             local turn = cm:model():turn_number();
             local cooldown = 9
@@ -61,28 +265,28 @@ function ovn_rotblood_skit_reinforcements()
                     "DilemmaChoiceMadeEvent",
                     function(context) return context:dilemma():starts_with("ovn_dilemma_rotblood_skit") end,
                     function(context)
-                        local faction_name_str = "wh_dlc08_nor_naglfarlings"
+                        local faction_name_str = "wh2_main_nor_rotbloods"
                         local faction_name = cm:get_faction(faction_name_str)
                         local choice = context:choice()
                         if choice == 0 then
                             local rb_tele_location = "wh_main_blightwater_kradtommen"
                             local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, rb_tele_location, false, false, 45)
                             if faction_name:has_faction_leader() and faction_name:faction_leader():has_military_force() then
-                                cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)
+                                cm:teleport_to("faction:wh2_main_nor_rotbloods,forename:999982317", w, z, false)
                             end
 
                     elseif choice == 1 then
                         local rb_tele_location = "wh2_main_northern_great_jungle_xahutec"
                         local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, rb_tele_location, false, false, 45)
                         if faction_name:has_faction_leader() and faction_name:faction_leader():has_military_force() then
-                            cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)
+                            cm:teleport_to("faction:wh2_main_nor_rotbloods,forename:999982317", w, z, false)
                         end
 
                     elseif choice == 2 then
                         local rb_tele_location = "wh_main_ostermark_mordheim"
                         local w, z = cm:find_valid_spawn_location_for_character_from_settlement(faction_name_str, rb_tele_location, false, false, 45)
                         if faction_name:has_faction_leader() and faction_name:faction_leader():has_military_force() then
-                            cm:teleport_to("faction:wh_dlc08_nor_naglfarlings,forename:999982317", w, z, false)
+                            cm:teleport_to("faction:wh2_main_nor_rotbloods,forename:999982317", w, z, false)
                         end
 
                     end
@@ -91,7 +295,7 @@ function ovn_rotblood_skit_reinforcements()
                     false
                     )
 
-                cm:trigger_dilemma("wh_dlc08_nor_naglfarlings" , "ovn_dilemma_rotblood_skit")
+                cm:trigger_dilemma("wh2_main_nor_rotbloods" , "ovn_dilemma_rotblood_skit")
 
                 end
                 end,
@@ -99,7 +303,7 @@ function ovn_rotblood_skit_reinforcements()
                 );
 end
 
-function chshordespawn()
+function new_chshordespawn()
 	local kradtommen_region = cm:get_region("wh_main_blightwater_kradtommen")
 	local mordheim_region = cm:get_region("wh_main_ostermark_mordheim")
 	local xahutec_region = cm:get_region("wh2_main_northern_great_jungle_xahutec")
@@ -107,14 +311,14 @@ function chshordespawn()
 
 	----  CWD HOLD KRADTOMMEN - Settlement 1
 
-	if kradtommen_region:owning_faction():name() == "wh_dlc08_nor_naglfarlings" then
+	if kradtommen_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		----  Badlands Spawn: Option 1A
 		if 1 == cm:random_number(75, 1) then
 
-				chshordespawnmess()
+				new_chshordespawnmess()
 
 				cm:create_force(
-					"wh_dlc08_nor_naglfarlings",
+					"wh2_main_nor_rotbloods",
 					"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 					"wh2_main_kingdom_of_beasts_serpent_coast",
 					767,
@@ -126,24 +330,24 @@ function chshordespawn()
 				)
 
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_dwf_karak_azul", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_dwf_karak_azul", true, true)
 
 			if cm:get_faction("wh_main_dwf_dwarfs"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_dwf_dwarfs", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_dwf_dwarfs", true, true)
 			end
 
 			if cm:get_faction("wh_main_grn_greenskins"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_grn_greenskins", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_grn_greenskins", true, true)
 			end
 
 
 		elseif 2 == cm:random_number(75, 1) then
 			----  Kingdom of Beasts Spawn: Option 1B
 
-				chshordespawnmess()
+				new_chshordespawnmess()
 
 				cm:create_force(
-					"wh_dlc08_nor_naglfarlings",
+					"wh2_main_nor_rotbloods",
 					"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 					"wh2_main_kingdom_of_beasts_serpent_coast",
 					809,
@@ -155,23 +359,23 @@ function chshordespawn()
 				)
 
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_dlc09_tmb_lybaras", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_dlc09_tmb_lybaras", true, true)
 
 			if cm:get_faction("wh2_main_lzd_last_defenders"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_main_lzd_last_defenders", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_lzd_last_defenders", true, true)
 			end
 
 		end
 	end
 
 	----  CWD HOLD Mordheim - Settlement 2
-	if mordheim_region:owning_faction():name() == "wh_dlc08_nor_naglfarlings" then
+	if mordheim_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		----  Sylvania Spawn: Option 2A
 		if 3 == cm:random_number(75, 1) then
-			chshordespawnmess()
+			new_chshordespawnmess()
 
 			cm:create_force(
-				"wh_dlc08_nor_naglfarlings",
+				"wh2_main_nor_rotbloods",
 				"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				696,
@@ -182,18 +386,18 @@ function chshordespawn()
 				end
 			)
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_vmp_vampire_counts", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_vmp_vampire_counts", true, true)
 
 			if cm:get_faction("wh_main_dwf_dwarfs"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_dwf_dwarfs", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_dwf_dwarfs", true, true)
 			end
 
 		elseif 4 == cm:random_number(75, 1) then
 			----  North Worlds Edge Mountains Spawn: Option 2B
-			chshordespawnmessgrn()
+			new_chshordespawnmessgrn()
 
 			cm:create_force(
-				"wh_dlc08_nor_naglfarlings",
+				"wh2_main_nor_rotbloods",
 				"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				775,
@@ -204,23 +408,23 @@ function chshordespawn()
 				end
 			)
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_dwf_karak_kadrin", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_dwf_karak_kadrin", true, true)
 
 			if cm:get_faction("wh_main_dwf_dwarfs"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_dwf_dwarfs", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_dwf_dwarfs", true, true)
 			end
 
 		end
 	end
 
 	----  CWD HOLD Brass Keep - Settlement 3
-	if brass_keep_region:owning_faction():name() == "wh_dlc08_nor_naglfarlings" then
+	if brass_keep_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		----  Brass Keep Spawn: Option 3A
 		if 5 == cm:random_number(75, 1) then
-			chshordespawnmessvalten()
+			new_chshordespawnmessvalten()
 
 			cm:create_force(
-				"wh_dlc08_nor_naglfarlings",
+				"wh2_main_nor_rotbloods",
 				"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				563,
@@ -231,10 +435,10 @@ function chshordespawn()
 				end
 			)
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_middenland", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_emp_middenland", true, true)
 
 			if cm:get_faction("wh_main_emp_empire"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_emp_empire", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_emp_empire", true, true)
 			end
 
 
@@ -243,7 +447,7 @@ function chshordespawn()
 
 
 				cm:create_force(
-					"wh_dlc08_nor_naglfarlings",
+					"wh2_main_nor_rotbloods",
 					"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 					"wh2_main_kingdom_of_beasts_serpent_coast",
 					610,
@@ -254,20 +458,20 @@ function chshordespawn()
 					end
 				)
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh_main_ksl_kislev", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh_main_ksl_kislev", true, true)
 
 		end
 	end
 
 	----  CWD HOLD Xahutec - Settlement 4
-	if xahutec_region:owning_faction():name() == "wh_dlc08_nor_naglfarlings" then
+	if xahutec_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		if 7 == cm:random_number(75, 1) then
 			----  Xauhutec Spawn: Option 4A
 
-			chshordespawnmessliz()
+			new_chshordespawnmessliz()
 
 			cm:create_force(
-				"wh_dlc08_nor_naglfarlings",
+				"wh2_main_nor_rotbloods",
 				"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				170,
@@ -278,20 +482,20 @@ function chshordespawn()
 				end
 			)
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_main_lzd_itza", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_lzd_itza", true, true)
 
 			if cm:get_faction("wh2_main_lzd_hexoatl"):is_human() then
-				cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_main_lzd_hexoatl", true, true)
+				cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_lzd_hexoatl", true, true)
 			end
 
 
 		elseif 8 == cm:random_number(75, 1) then
 			----  East Ulthuan Sea Spawn: Option 4B
 
-			chshordespawnmessdelf()
+			new_chshordespawnmessdelf()
 
 			cm:create_force(
-				"wh_dlc08_nor_naglfarlings",
+				"wh2_main_nor_rotbloods",
 				"wh_main_chs_cav_chaos_knights_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_1,wh_main_chs_art_hellcannon,wh_main_chs_mon_giant,wh_dlc06_chs_feral_manticore,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_mon_chaos_spawn,wh2_main_skv_mon_rat_ogres,wh_main_chs_cav_chaos_knights_0,wh2_main_skv_inf_clanrats_1,wh_dlc01_chs_inf_chaos_warriors_2,wh2_main_skv_inf_stormvermin_1,wh_dlc01_chs_inf_forsaken_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				160,
@@ -302,13 +506,13 @@ function chshordespawn()
 				end
 			)
 
-			cm:force_declare_war("wh_dlc08_nor_naglfarlings", "wh2_main_hef_eataine", true, true)
+			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_hef_eataine", true, true)
 
 	end
 end
 end
 
-function chshordestartmess()
+function new_chshordestartmess()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -323,7 +527,7 @@ function chshordestartmess()
 	end
 end
 
-function chshordespawnmess()
+function new_chshordespawnmess()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -338,7 +542,7 @@ function chshordespawnmess()
 	end
 end
 
-function chshordespawnmessvalten()
+function new_chshordespawnmessvalten()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -353,7 +557,7 @@ function chshordespawnmessvalten()
 	end
 end
 
-function chshordespawnmessdwf()
+function new_chshordespawnmessdwf()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -368,7 +572,7 @@ function chshordespawnmessdwf()
 	end
 end
 
-function chshordespawnmessgrn()
+function new_chshordespawnmessgrn()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -383,7 +587,7 @@ function chshordespawnmessgrn()
 	end
 end
 
-function chshordespawnmessliz()
+function new_chshordespawnmessliz()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -398,7 +602,7 @@ function chshordespawnmessliz()
 	end
 end
 
-function chshordespawnmessdelf()
+function new_chshordespawnmessdelf()
 	local human_factions = cm:get_human_factions()
 
 	for i = 1, #human_factions do
@@ -413,7 +617,7 @@ function chshordespawnmessdelf()
 	end
 end
 
-function setup_cwd_and_fimir_raze_region_monitor() -- Applies Chaos corruption via an effect bundle to a region that is razed by an army belonging to CWD & Fimir
+function new_setup_cwd_and_fimir_raze_region_monitor() -- Applies Chaos corruption via an effect bundle to a region that is razed by an army belonging to CWD & Fimir
 	core:add_listener(
 		"cwd_and_fimir_raze_region_monitor",
 		"CharacterRazedSettlement",

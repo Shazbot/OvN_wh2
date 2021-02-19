@@ -1,9 +1,9 @@
-PJ_OVN_ROTBLOOD_WARPSTONE_MERCS = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS or {}
-local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS
+PJ_OVN_ROTBLOOD_WARPSTONE_MERCS_NEW = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS_NEW or {}
+local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS_NEW
 
 mod.res_bundle_key = "pj_ovn_rotbloods_warpstone_mercs_res"
 
-local rotblood_faction_key = "wh_dlc08_nor_naglfarlings"
+local rotblood_faction_key = "wh2_main_nor_rotbloods"
 
 local function find_ui_component_str(starting_comp, str)
 	local has_starting_comp = str ~= nil
@@ -68,18 +68,18 @@ mod.increase_resources_networked = function(num_resources)
 	local rotblood_faction = cm:get_faction(rotblood_faction_key)
 	CampaignUI.TriggerCampaignScriptEvent(
 		rotblood_faction:command_queue_index(),
-		"pj_ovn_rotbloods_warpstone_mercs_resource_mod|"..tostring(num_resources)
+		"pj_ovn_rotbloods_new_warpstone_mercs_resource_mod|"..tostring(num_resources)
 	)
 end
 
-core:remove_listener("pj_ovn_rotbloods_warpstone_mercs_resource_mod_trigger")
-core:add_listener("pj_ovn_rotbloods_warpstone_mercs_resource_mod_trigger",
+core:remove_listener("pj_ovn_rotbloods_new_warpstone_mercs_resource_mod_trigger")
+core:add_listener("pj_ovn_rotbloods_new_warpstone_mercs_resource_mod_trigger",
 "UITrigger",
 function(context)
-    return context:trigger():starts_with("pj_ovn_rotbloods_warpstone_mercs_resource_mod|")
+    return context:trigger():starts_with("pj_ovn_rotbloods_new_warpstone_mercs_resource_mod|")
 end,
 function(context)
-    local hash_without_prefix = context:trigger():gsub("pj_ovn_rotbloods_warpstone_mercs_resource_mod|", "")
+    local hash_without_prefix = context:trigger():gsub("pj_ovn_rotbloods_new_warpstone_mercs_resource_mod|", "")
 
     local args = {}
     hash_without_prefix:gsub("([^|]+)", function(w)
@@ -111,9 +111,9 @@ mod.calculate_per_turn_resources = function(faction)
 	mod.player_res_per_turn.warpstone = warpstone
 end
 
-core:remove_listener("pj_ovn_rotbloods_warpstone_mercs_on_garrison_occupied")
+core:remove_listener("pj_ovn_rotbloods_new_warpstone_mercs_on_garrison_occupied")
 core:add_listener(
-	"pj_ovn_rotbloods_warpstone_mercs_on_garrison_occupied",
+	"pj_ovn_rotbloods_new_warpstone_mercs_on_garrison_occupied",
 	"GarrisonOccupiedEvent",
 	function()
 		return true
@@ -135,9 +135,9 @@ core:add_listener(
 	true
 )
 
-core:remove_listener('pj_ovn_rotbloods_warpstone_mercs_on_faction_turn_start')
+core:remove_listener('pj_ovn_rotbloods_new_warpstone_mercs_on_faction_turn_start')
 core:add_listener(
-	'pj_ovn_rotbloods_warpstone_mercs_on_faction_turn_start',
+	'pj_ovn_rotbloods_new_warpstone_mercs_on_faction_turn_start',
 	'FactionTurnStart',
 	function()
 		return true
@@ -205,9 +205,9 @@ mod.init_ui = function()
 	prestige_text:SetStateText(0)
 end
 
-core:remove_listener('pj_ovn_rotbloods_warpstone_mercs_on_faction_turn_end')
+core:remove_listener('pj_ovn_rotbloods_new_warpstone_mercs_on_faction_turn_end')
 core:add_listener(
-	'pj_ovn_rotbloods_warpstone_mercs_on_faction_turn_end',
+	'pj_ovn_rotbloods_new_warpstone_mercs_on_faction_turn_end',
 	'FactionTurnEnd',
 	function()
 		return true
@@ -237,8 +237,8 @@ cm:add_first_tick_callback(function()
 	mod.calculate_per_turn_resources(faction)
 	mod.refresh_resource_value_in_ui()
 
-	real_timer.unregister("pj_ovn_rotbloods_warpstone_mercs_campaign_ui_tweaks_real_timer")
-	real_timer.register_repeating("pj_ovn_rotbloods_warpstone_mercs_campaign_ui_tweaks_real_timer", 0)
+	real_timer.unregister("pj_ovn_rotbloods_new_warpstone_mercs_campaign_ui_tweaks_real_timer")
+	real_timer.register_repeating("pj_ovn_rotbloods_new_warpstone_mercs_campaign_ui_tweaks_real_timer", 0)
 end)
 
 if debug.traceback():find('pj_loadfile') then
@@ -249,8 +249,8 @@ if debug.traceback():find('pj_loadfile') then
 	mod.calculate_per_turn_resources(faction)
 	mod.refresh_resource_value_in_ui()
 
-	real_timer.unregister("pj_ovn_rotbloods_warpstone_mercs_campaign_ui_tweaks_real_timer")
-	real_timer.register_repeating("pj_ovn_rotbloods_warpstone_mercs_campaign_ui_tweaks_real_timer", 0)
+	real_timer.unregister("pj_ovn_rotbloods_new_warpstone_mercs_campaign_ui_tweaks_real_timer")
+	real_timer.register_repeating("pj_ovn_rotbloods_new_warpstone_mercs_campaign_ui_tweaks_real_timer", 0)
 end
 
 mod.player_res = mod.player_res or {
@@ -387,9 +387,9 @@ local function handle_unit_components()
 	end
 end
 
-core:remove_listener("pj_ovn_rotbloods_warpstone_mercs_reserves_on_panel_opened")
+core:remove_listener("pj_ovn_rotbloods_new_warpstone_mercs_reserves_on_panel_opened")
 core:add_listener(
-	"pj_ovn_rotbloods_warpstone_mercs_reserves_on_panel_opened",
+	"pj_ovn_rotbloods_new_warpstone_mercs_reserves_on_panel_opened",
 	"PanelOpenedCampaign",
 	function(context)
 		return context.string == "units_recruitment" or context.string == "mercenary_recruitment"
@@ -407,9 +407,9 @@ core:add_listener(
 
 mod.unit_to_unit_img = mod.unit_to_unit_img or {}
 
-core:remove_listener('pj_ovn_rotbloods_warpstone_mercs_on_component_clicked')
+core:remove_listener('pj_ovn_rotbloods_new_warpstone_mercs_on_component_clicked')
 core:add_listener(
-	'pj_ovn_rotbloods_warpstone_mercs_on_component_clicked',
+	'pj_ovn_rotbloods_new_warpstone_mercs_on_component_clicked',
 	'ComponentLClickUp',
 	true,
 	function(context)
@@ -470,15 +470,15 @@ cm:add_saving_game_callback(
 			end
 		end
 
-		cm:save_named_value("pj_ovn_rotbloods_warpstone_mercs_player_res", mod.player_res, context)
-		cm:save_named_value("pj_ovn_rotbloods_warpstone_mercs_num_times_purchased", mod.num_times_purchased, context)
+		cm:save_named_value("pj_ovn_rotbloods_new_warpstone_mercs_player_res", mod.player_res, context)
+		cm:save_named_value("pj_ovn_rotbloods_new_warpstone_mercs_num_times_purchased", mod.num_times_purchased, context)
 	end
 )
 
 cm:add_loading_game_callback(
 	function(context)
-		mod.player_res = cm:load_named_value("pj_ovn_rotbloods_warpstone_mercs_player_res", mod.player_res, context)
-		mod.num_times_purchased = cm:load_named_value("pj_ovn_rotbloods_warpstone_mercs_num_times_purchased", mod.player_res, context)
+		mod.player_res = cm:load_named_value("pj_ovn_rotbloods_new_warpstone_mercs_player_res", mod.player_res, context)
+		mod.num_times_purchased = cm:load_named_value("pj_ovn_rotbloods_new_warpstone_mercs_num_times_purchased", mod.player_res, context)
 	end
 )
 
@@ -525,10 +525,10 @@ mod.apply_campaign_ui_changes = function()
 end
 
 core:add_listener(
-	"pj_ovn_rotbloods_warpstone_mercs_campaign_ui_tweaks_real_timer_cb",
+	"pj_ovn_rotbloods_new_warpstone_mercs_campaign_ui_tweaks_real_timer_cb",
 	"RealTimeTrigger",
 	function(context)
-			return context.string == "pj_ovn_rotbloods_warpstone_mercs_campaign_ui_tweaks_real_timer"
+			return context.string == "pj_ovn_rotbloods_new_warpstone_mercs_campaign_ui_tweaks_real_timer"
 	end,
 	function()
 		mod.apply_campaign_ui_changes()
@@ -536,9 +536,9 @@ core:add_listener(
 	true
 )
 
-core:remove_listener("pj_ovn_rotbloods_warpstone_mercs_on_unit_trained")
+core:remove_listener("pj_ovn_rotbloods_new_warpstone_mercs_on_unit_trained")
 core:add_listener(
-	"pj_ovn_rotbloods_warpstone_mercs_on_unit_trained",
+	"pj_ovn_rotbloods_new_warpstone_mercs_on_unit_trained",
 	"UnitTrained",
 	function()
 		return true
@@ -585,7 +585,7 @@ mod.handle_battle_rewards = function(context)
 				is_rootblood_attacker = true
 			end
 			local attacker = cm:model():world():faction_by_key(attacker_name)
-			if not attacker then return end
+			if not attacker or attacker:is_null_interface() then return end
 
 			if attacker:subculture() == "wh2_main_sc_skv_skaven" then
 				is_skaven_present = true
@@ -599,7 +599,7 @@ mod.handle_battle_rewards = function(context)
 				is_rootblood_attacker = false
 			end
 			local defender = cm:model():world():faction_by_key(defender_name)
-			if not defender then return end
+			if not defender or defender:is_null_interface() then return end
 
 			if defender:subculture() == "wh2_main_sc_skv_skaven" then
 				is_skaven_present = true
@@ -682,9 +682,9 @@ mod.handle_battle_rewards = function(context)
 	end
 end
 
-core:remove_listener("pj_ovn_rotbloods_warpstone_mercs_BattleCompleted")
+core:remove_listener("pj_ovn_rotbloods_new_warpstone_mercs_BattleCompleted")
 core:add_listener(
-	"pj_ovn_rotbloods_warpstone_mercs_BattleCompleted",
+	"pj_ovn_rotbloods_new_warpstone_mercs_BattleCompleted",
 	"BattleCompleted",
 	true,
 	function(context)
@@ -700,15 +700,15 @@ core:add_listener(
 -- add unit wh2_main_skv_inf_clanrats_0 30
 
 --- Change value of warpstone pooled resource:
--- local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS
--- local rotblood_faction_key = "wh_dlc08_nor_naglfarlings"
+-- local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS_NEW
+-- local rotblood_faction_key = "wh2_main_nor_rotbloods"
 -- local rotblood_faction = cm:get_faction(rotblood_faction_key)
 -- cm:pooled_resource_mod(rotblood_faction:command_queue_index(), "pj_rot_warpstone", "wh2_main_resource_factor_other", 100)
 -- mod.refresh_resource_value_in_ui()
 
 --- Print value of warpstone pooled resource:
--- local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS
--- local rotblood_faction_key = "wh_dlc08_nor_naglfarlings"
+-- local mod = PJ_OVN_ROTBLOOD_WARPSTONE_MERCS_NEW
+-- local rotblood_faction_key = "wh2_main_nor_rotbloods"
 -- local rotblood_faction = cm:get_faction(rotblood_faction_key)
 -- local warpstone_res = rotblood_faction:pooled_resource("pj_rot_warpstone")
 -- if not warpstone_res or warpstone_res:is_null_interface() then return end

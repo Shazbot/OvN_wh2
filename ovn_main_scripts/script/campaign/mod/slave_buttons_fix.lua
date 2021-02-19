@@ -3,9 +3,9 @@ cm:add_first_tick_callback(function()
     or cm:get_local_faction_name(true) == "wh2_main_arb_aswad_scythans"
     or cm:get_local_faction_name(true) == "wh2_main_arb_caliphate_of_araby"
     or cm:get_local_faction_name(true) == "wh2_main_arb_flaming_scimitar"
-    or cm:get_local_faction_name(true) == "wh2_main_wef_treeblood"
-    or cm:get_local_faction_name(true) == "wh_dlc08_nor_naglfarlings"
-    or cm:get_local_faction_name(true) == "wh_dlc08_nor_goromadny_tribe"
+		or cm:get_local_faction_name(true) == "wh2_main_nor_servants_of_fimulneid"
+		or cm:get_local_faction_name(true) == "wh2_main_nor_rotbloods"
+		or cm:get_local_faction_name(true) == "wh2_main_nor_harbingers_of_doom"
     then
 
         local button_slaves = find_uicomponent(

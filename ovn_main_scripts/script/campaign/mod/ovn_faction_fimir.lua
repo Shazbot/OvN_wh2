@@ -5,9 +5,7 @@ core:add_listener(
     "fimir_region_mist",
     "FactionTurnStart",
     function(context)
-			return context:faction():name() == "wh_dlc08_nor_goromadny_tribe"
-				or context:faction():name() == "wh2_main_wef_treeblood"
-				or context:faction():name() == "wh2_main_nor_servants_of_fimulneid"
+			return context:faction():name() == "wh2_main_nor_servants_of_fimulneid"
 				or context:faction():name() == "wh2_main_nor_harbingers_of_doom"
     end,
     function(context)
