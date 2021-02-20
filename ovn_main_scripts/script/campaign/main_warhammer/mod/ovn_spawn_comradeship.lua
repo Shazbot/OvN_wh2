@@ -28,7 +28,7 @@ local comradeship_mission = [[
 local function spawn_the_comradeship()
 	local faction_key = "wh2_main_emp_the_moot";
 	local faction_obj = cm:get_faction(faction_key);
-	
+
 	if not faction_obj or faction_obj:is_null_interface() then
 		--ModLog("faction doesn't exist in this campaign or has already died")
 		return false
@@ -116,7 +116,7 @@ local function spawn_the_comradeship()
 					812
 				)
 			end;
-			
+
 			cm:set_saved_value("ovn_comradeship_been_spawned", true);
 		end
 	);
@@ -128,7 +128,7 @@ local function handle_human_halfling_comradeship_unlocking()
 	if not faction or faction:is_null_interface() or faction:is_dead() then return end
 
 	local faction_cooking_info = cm:model():world():cooking_system():faction_cooking_info(faction)
-				
+
 	OVN_HLF_MISSIONS.ingredients_by_continent = OVN_HLF_MISSIONS.ingredients_by_continent or {}
 
 	local num_ingredients_unlocked = 0
@@ -176,7 +176,8 @@ cm:add_first_tick_callback(function()
 		function()
 			local faction = cm:get_faction(faction_key)
 			if not faction or faction:is_null_interface() or faction:is_dead() then return end
-			
+			if cm:get_saved_value("ovn_comradeship_been_spawned") then return end
+
 			if faction:is_human() then
 				handle_human_halfling_comradeship_unlocking()
 			else
