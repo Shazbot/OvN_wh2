@@ -1289,7 +1289,6 @@ local function new_game_startup()
 		"fimir_setup",
 		"grudgebringers_setup",
 		"dreadking_setup",
-		"ovn_sr_chaos",
 		"new_ovn_sr_chaos",
 		"blood_dragon_setup",
 		"kill_people",
@@ -1311,7 +1310,6 @@ local function new_game_startup()
 		fimir_setup,
 		grudgebringers_setup,
 		dreadking_setup,
-		ovn_sr_chaos,
 		new_ovn_sr_chaos,
 		blood_dragon_setup,
 		-- kill all of the faction leaders that have to go
