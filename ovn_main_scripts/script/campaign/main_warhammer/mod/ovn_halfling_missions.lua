@@ -110,9 +110,6 @@ core:add_listener(
 	true
 )
 
-real_timer.unregister("ovn_hlf_missions_real_repeat")
-real_timer.register_repeating("ovn_hlf_missions_real_repeat", 0)
-
 core:remove_listener("ovn_hlf_missions_on_MissionF11ailed")
 core:add_listener(
 	"ovn_hlf_missions_on_MissionF11ailed",
@@ -723,8 +720,10 @@ cm:add_first_tick_callback(
 				end
 
 				mod.create_lookups()
-
 				mod.give_new_targets()
+
+				real_timer.unregister("ovn_hlf_missions_real_repeat")
+				real_timer.register_repeating("ovn_hlf_missions_real_repeat", 0)
 			end,
 			4
 		)
@@ -812,5 +811,12 @@ cm:add_loading_game_callback(
 		mod.mission_key_to_force_type = cm:load_named_value("ovn_hlf_missions_mission_key_to_force_type", mod.mission_key_to_force_type, context)
 	end
 )
+
+--- We'll call first_tick_cb directly if hot-reloading during dev.
+--- We're checking for presence of execute external lua file in the traceback.
+if debug.traceback():find('pj_loadfile') then
+	real_timer.unregister("ovn_hlf_missions_real_repeat")
+	real_timer.register_repeating("ovn_hlf_missions_real_repeat", 0)
+end
 
 -- mod.give_new_targets()
