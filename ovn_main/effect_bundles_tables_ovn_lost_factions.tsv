@@ -16,7 +16,6 @@ wh2_main_lord_trait_amz_amazons			faction	1	character.png	false
 wh2_main_lord_trait_nor_albion			faction	1	character.png	false
 wh2_main_lord_trait_nor_trollz			faction	1	character.png	false
 wh2_main_lord_trait_wef_laurelorn			faction	1	character.png	false
-wh2_main_lord_trait_wef_treeblood			faction	1	character.png	false
 ovn_faction_trait_araby			faction	1	food.png	false
 ovn_faction_trait_amazon			faction	1	food.png	false
 ovn_faction_trait_trollz			faction	1	food.png	false
@@ -24,8 +23,4 @@ ovn_faction_trait_albion			faction	1	food.png	false
 ovn_faction_trait_belakor			faction	1	food.png	false
 wh2_main_sr_fervour	fervour	fervour	force	1	disaster.png	false
 ovn_faction_trait_grudge			faction	1	food.png	false
-wh2_main_lord_trait_nor_goromadny_tribe	ph	ph	faction	1	disaster.png	false
-wh2_main_lord_trait_nor_naglfarlings	ph	ph	faction	1	disaster.png	false
 wh2_main_lord_trait_tmb_the_sentinels	ph	ph	faction	1	disaster.png	false
-wh_main_lord_trait_vmp_templehof	ph	ph	faction	1	disaster.png	false
-wh2_main_lord_trait_nor_naglfarlings			faction	1	character.png	false
