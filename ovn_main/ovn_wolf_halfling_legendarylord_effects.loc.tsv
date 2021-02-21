@@ -15,3 +15,4 @@ effects_description_ovn_glibfoot_enable_for_the_moot	Ability: "For the Moot!"	tr
 effects_description_ovn_glibfoot_enable_hyshia_charged_shot	Ability: "Hyshia"	true
 effects_description_ovn_glibfoot_enable_willowblade_ability	Ability: "Cipher Blade"	true
 effects_description_ovn_glibfoot_enable_thief_tactics_ability	Ability: "Thief Tactics"	true
+effects_description_hlf_reduce_all_units_upkeep	Upkeep: %+n% for all Halfling units	false

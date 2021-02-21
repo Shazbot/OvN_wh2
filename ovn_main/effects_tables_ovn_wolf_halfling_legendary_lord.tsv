@@ -15,3 +15,4 @@ ovn_glibfoot_enable_for_the_moot	general_ability.png	600	general_ability.png	bat
 ovn_glibfoot_enable_hyshia_charged_shot	general_ability.png	600	general_ability.png	battle	true
 ovn_glibfoot_enable_willowblade_ability	general_ability.png	600	general_ability.png	battle	true
 ovn_glibfoot_enable_thief_tactics_ability	general_ability.png	600	general_ability.png	battle	true
+hlf_reduce_all_units_upkeep	military_spending.png	105	military_spending.png	campaign	false

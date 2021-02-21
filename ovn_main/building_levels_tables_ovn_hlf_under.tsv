@@ -16,3 +16,4 @@ ovn_hlf_under_barn_1	ovn_hlf_under_barn	0	2	300	0		false	0	0	0	0	false				true	w
 ovn_hlf_under_revelry_1	ovn_hlf_under_revelry	0	2	300	50		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0.0	0	true	2		true	0	0
 ovn_hlf_under_security_1	ovn_hlf_under_security	0	2	500	75		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0.0	0	true	2		true	0	0
 ovn_hlf_under_fence_1	ovn_hlf_under_fence	0	2	300	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0.0	0	true	2		true	0	0
+ovn_hlf_under_barn_2	ovn_hlf_under_barn	1	2	600	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0.0	0	true	3		true	0	0

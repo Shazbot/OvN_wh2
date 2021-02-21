@@ -45,3 +45,5 @@ building_chains_chain_tooltip_ovn_hlf_under_set_menu	Six-Course Menu	true
 building_chains_chain_tooltip_ovn_hlf_under_pick_menu	À La Carte Menu	true
 building_chains_chain_tooltip_ovn_hlf_under_buffet_menu	Buffet	true
 building_chains_chain_tooltip_ovn_hlf_under_special_menu	Special Menu	true
+building_short_description_texts_short_description_ovn_hlf_under_barn_2	An extra wing was added to fit in more Halfling beds.	false
+building_culture_variants_name_ovn_hlf_under_barn_2	Extended Barn	false
