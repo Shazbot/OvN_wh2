@@ -37,7 +37,7 @@ core:add_listener(
 	'ovn_hlf_missions_on_event_opened',
 	'ComponentLClickUp',
 	function(context)
-		return context.string == "pj_mission_obj_button" -- RENAME THIS
+		return context.string == "pj_mission_obj_button" or context.string == "pj_mission_army_size_button"
 	end,
 	function(context)
 		local title = find_ui_component_str("root > events > event_mission > quest_details > quest_list_details > tab_details_child > objectives > dy_title")
@@ -50,7 +50,12 @@ core:add_listener(
 		local mission_key = mod.title_string_to_mission_key[title_text]
 		if not mission_key then return end
 
-		mod.mission_key_to_extend = mission_key
+		if context.string == "pj_mission_obj_button" then
+			mod.mission_key_to_extend = mission_key
+		else
+			mod.mission_key_to_change_army_size = mission_key
+		end
+
 		mod.region_key_for_extension = mod.mission_key_to_force_cqi[mission_key]
 		cm:complete_scripted_mission_objective(mission_key, mission_key, false)
 
@@ -106,6 +111,15 @@ core:add_listener(
 		end
 		pj_mission_obj_button:SetDockingPoint(1)
 		pj_mission_obj_button:SetDockOffset(185,25)
+
+		local pj_mission_army_size_button = find_ui_component_str(obj, "target_window > pj_mission_army_size_button")
+		if not pj_mission_army_size_button then
+			pj_mission_army_size_button = UIComponent(target_window:CreateComponent("pj_mission_army_size_button", "ui/templates/round_small_button"))
+			pj_mission_army_size_button:SetTooltipText(effect.get_localised_string("ovn_hlf_missions_change_mission_army_size"), true)
+			pj_mission_army_size_button:SetImagePath(effect.get_skinned_image_path("icon_formation.png"), 0)
+		end
+		pj_mission_army_size_button:SetDockingPoint(1)
+		pj_mission_army_size_button:SetDockOffset(185+40,25)
 	end,
 	true
 )
@@ -648,10 +662,16 @@ mod.give_new_targets = function()
 		local mission_key = "ovn_halfling_ingredient_quest_"..i
 
 		local is_time_extension = false
-		if mod.mission_key_to_extend and mission_key == mod.mission_key_to_extend and mod.region_key_for_extension then
+		local is_army_size_changed = false
+		if mod.region_key_for_extension then
 			region_key = mod.region_key_for_extension
-			mod.mission_key_to_extend = nil
-			is_time_extension = true
+			if mod.mission_key_to_extend and mission_key == mod.mission_key_to_extend then
+				mod.mission_key_to_extend = nil
+				is_time_extension = true
+			elseif mod.mission_key_to_change_army_size and mission_key == mod.mission_key_to_change_army_size then
+				mod.mission_key_to_change_army_size = nil
+				is_army_size_changed = true
+			end
 		end
 
 		local ingredients_in_continent = mod.ingredients_by_continent[continent]
@@ -699,11 +719,30 @@ mod.give_new_targets = function()
 			cm:trigger_custom_mission_from_string(halfling_faction_name, mission);
 
 			mod.mission_key_to_force_cqi[mission_key] = region_key
-			if not is_time_extension then
+			if not is_time_extension and not is_army_size_changed then
 				if cm:turn_number() < 35 then
 					mod.mission_key_to_force_type[mission_key] = force_types_early_game[cm:random_number(#force_types_early_game)]
 				else
 					mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
+				end
+			end
+			if is_army_size_changed then
+				local current_force_type = mod.mission_key_to_force_type[mission_key]
+				local current_force_type_index = 0
+
+				for i, force_type in ipairs(force_types) do
+					if force_type == current_force_type then
+						current_force_type_index = i
+						break
+					end
+				end
+				local new_force_type_index = current_force_type_index + 1
+				if new_force_type_index > #force_types then
+					new_force_type_index = 1
+				end
+
+				if new_force_type_index ~= 0 then
+					mod.mission_key_to_force_type[mission_key] = force_types[new_force_type_index]
 				end
 			end
 		end
