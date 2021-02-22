@@ -17,13 +17,13 @@ local ovn_info = {
 	["937413525"] = "morrigan", --me
 	["794782611"] = "morrigan", --vor
 	["32930744"] = "chief_ugma",
-	["2140783503"] = "walach",
+	-- ["2140783503"] = "walach",
 	["549163715"] = "walach",
 --	["209967969"] = "fimir", -- Formerly Treeblood
 	["2052227504"] = "amazons", -- vortex
 	["1407394331"] = "amazons", -- ME
 	["882030"] = "chorf", -- ME
-	["1397230572"] = "wip", -- ME -- Rotblood Tribe
+	-- ["1397230572"] = "wip", -- ME -- Rotblood Tribe
 	["1668499673"] = "wip", -- ME -- Rotblood Tribe
 
 
