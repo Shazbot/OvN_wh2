@@ -32,6 +32,40 @@ end
 
 local halfling_faction_name = "wh2_main_emp_the_moot"
 
+core:remove_listener("ovn_hlf_missions_ui_trigger")
+core:add_listener("ovn_hlf_missions_ui_trigger",
+	"UITrigger",
+	function(context)
+			return context:trigger():starts_with("ovn_hlf_missions|")
+	end,
+	function(context)
+		local hash_without_prefix = context:trigger():gsub("ovn_hlf_missions|", "")
+
+		local args = {}
+		hash_without_prefix:gsub("([^|]+)", function(w)
+				if (type(w)=="string") then
+						table.insert(args, w)
+				end
+		end)
+
+		local mission_key_to_extend, mission_key_to_change_army_size = args[1], args[2]
+
+		local mission_key = ""
+		if mission_key_to_extend ~= "NONE" then
+			mission_key = mission_key_to_extend
+			mod.mission_key_to_extend = mission_key_to_extend
+		elseif mission_key_to_change_army_size ~= "NONE" then
+			mission_key = mission_key_to_change_army_size
+			mod.mission_key_to_change_army_size = mission_key_to_change_army_size
+		else
+			return
+		end
+
+		cm:complete_scripted_mission_objective(mission_key, mission_key, false)
+	end,
+	true
+)
+
 core:remove_listener('ovn_hlf_missions_on_event_opened')
 core:add_listener(
 	'ovn_hlf_missions_on_event_opened',
@@ -50,14 +84,23 @@ core:add_listener(
 		local mission_key = mod.title_string_to_mission_key[title_text]
 		if not mission_key then return end
 
+		local mission_key_to_extend = "NONE"
+		local mission_key_to_change_army_size = "NONE"
+
 		if context.string == "pj_mission_obj_button" then
 			mod.mission_key_to_extend = mission_key
+			mission_key_to_extend = mission_key
 		else
 			mod.mission_key_to_change_army_size = mission_key
+			mission_key_to_change_army_size = mission_key
 		end
 
 		mod.region_key_for_extension = mod.mission_key_to_force_cqi[mission_key]
-		cm:complete_scripted_mission_objective(mission_key, mission_key, false)
+
+		CampaignUI.TriggerCampaignScriptEvent(
+			cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
+			"ovn_hlf_missions|"..tostring(mission_key_to_extend).."|"..tostring(mission_key_to_change_army_size)
+		)
 
 		local tab_events = find_ui_component_str("root > layout > bar_small_top > TabGroup > tab_events")
 		if tab_events then
