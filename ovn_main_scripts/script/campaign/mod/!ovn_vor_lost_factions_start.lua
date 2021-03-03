@@ -707,21 +707,6 @@ local function grudgebringers_setup()
 
 		cm:force_declare_war("wh2_dlc09_tmb_the_sentinels", "wh2_main_emp_grudgebringers", false, false)
 
-		-- give Wulfhart a Halflings lord!
-		cm:spawn_character_to_pool(
-			"wh2_dlc13_emp_the_huntmarshals_expedition",
-			"names_name_999982320",
-			"",
-			"",
-			"",
-			18,
-			true,
-			"general",
-			"ovn_hlf_ll",
-			false,
-			""
-		)
-
 		table.insert(factions, faction_key)
 	end
 end

@@ -144,9 +144,6 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 			end
 	end
 
-	cm:transfer_region_to_faction("wh_main_mountains_of_hel_aeslings_conclave", "wh_dlc08_nor_helspire_tribe")
-	cm:heal_garrison(cm:get_region("wh_main_mountains_of_hel_aeslings_conclave"):cqi())
-
 	local aos_region = cm:get_region("wh_main_mountains_of_hel_altar_of_spawns")
 	cm:transfer_region_to_faction("wh_main_mountains_of_hel_altar_of_spawns", "wh2_main_nor_rotbloods")
 	cm:heal_garrison(aos_region:cqi())

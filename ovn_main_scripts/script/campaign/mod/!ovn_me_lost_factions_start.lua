@@ -670,21 +670,6 @@ local function halflings_setup()
 			)
 		end
 
-		--Halfling Lord for the Empire
-		cm:spawn_character_to_pool(
-			"wh_main_emp_empire",
-			"names_name_999982320",
-			"",
-			"",
-			"",
-			18,
-			true,
-			"general",
-			"ovn_hlf_ll",
-			false,
-			""
-		)
-
 		table.insert(factions, "wh2_main_emp_the_moot")
 	end
 end
@@ -1035,13 +1020,6 @@ local function fimir_setup()
 		cm:heal_garrison(floating_region:cqi())
 		cm:instantly_set_settlement_primary_slot_level(floating_region:settlement(), 2)
 
-		local frozen_region = cm:model():world():region_manager():region_by_key("wh_main_goromandy_mountains_frozen_landing")
-		cm:instantly_set_settlement_primary_slot_level(frozen_region:settlement(), 1)
-
-		local baersonlings_region =
-			cm:model():world():region_manager():region_by_key("wh_main_goromandy_mountains_baersonlings_camp")
-		cm:instantly_set_settlement_primary_slot_level(baersonlings_region:settlement(), 1)
-		cm:instantly_set_settlement_primary_slot_level(baersonlings_region:settlement(), 2)
 
 		local faction_key = "wh2_main_nor_servants_of_fimulneid" -- factions key
 
@@ -1077,6 +1055,12 @@ local function fimir_setup()
 			)
 		end
 
+        if not fimir:is_human() then
+            cm:transfer_region_to_faction("wh_main_mountains_of_naglfari_naglfari_plain", "wh2_main_nor_servants_of_fimulneid")
+            local naglfari_region = cm:get_region("wh_main_mountains_of_naglfari_naglfari_plain")
+            cm:heal_garrison(naglfari_region:cqi())
+        end
+            
 		table.insert(factions, faction_key)
 	end
 end
