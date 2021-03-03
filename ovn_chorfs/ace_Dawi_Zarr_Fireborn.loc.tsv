@@ -8,3 +8,4 @@ effects_description_wh_main_effect_agent_enable_recruitment_wizard_chaos_chorfs	
 effects_description_wh_main_effect_agent_cap_increase_champion_exalted_hero_chorfs	Hero capacity: %+n for Infernal Castellans	true
 effects_description_wh_main_effect_agent_recruitment_xp_wizard_chaos_chorfs	Hero recruit rank: %+n for Daemonsmiths	true
 effects_description_wh_main_effect_agent_enable_recruitment_champion_chaos_chorfs	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Infernal Castellan	true
+effects_description_ovn_chorfs_effect_bull_centaur_lords_recruitment_rank	Lord recruit rank: %+n for Bull Centaur Lords	true

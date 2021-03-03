@@ -4,8 +4,8 @@ ovn_chorf_military			military	false	wh2_main_sch_military1_barracks		1
 ovn_chorf_stables			military	false	wh2_main_sch_military2_stables		2	
 ovn_chorf_creatures			military	false	wh2_main_sch_military4_monsters		4	
 ovn_chorf_workshop			military	false	wh2_main_sch_support1_smith		3	
-ovn_chorf_agent			military	false	wh2_main_sch_support3_wizards		5	
-ovn_chorf_experience			military	false	wh2_main_sch_support4_other		6	
+ovn_chorf_agent			military	false	wh2_main_sch_support5_extra		5	
+ovn_chorf_experience			military	false	wh2_main_sch_infrastructure4_energy		6	
 ovn_cd_garrison			military	false	wh_main_sch_human_garrison		7	
 ovn_cd_Walls			military	false	wh_main_sch_dwarf_walls		7	
 ovn_cd_slave			money	false	wh2_main_sch_infrastructure1_farm		11	
