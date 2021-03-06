@@ -73,6 +73,15 @@ local function albion_mist_invasion_start(region, x, y)
 			return
 		end
 
+		x, y = cm:find_valid_spawn_location_for_character_from_position(
+			albion_faction_key,
+			x,
+			y,
+			true
+		)
+
+		if x == -1 then return end
+
     local location = {x = x, y = y};
     local faction
     local army
