@@ -36,8 +36,6 @@ effects_description_wh_main_effect_agent_cap_increase_wizard_arb_1	Hero capacity
 effects_description_wh_main_effect_agent_cap_increase_wizard_arb_2	Hero capacity: %+n for Sorcerers	true
 effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_1	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
 effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_2	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
-effect_bundles_localised_title_wh2_main_lord_trait_nor_naglfarlings	Pillage and Raid	false
-effect_bundles_localised_description_wh2_main_lord_trait_nor_naglfarlings	Father to a murdered son, husband to a murdered wife. And I will have my vengeance, in this life or the next.	false
 ovn_effect_agent_cap_increase_champion_goblin_big_boss	Hero capacity: %+n for Goblin Big Boss	true
 effects_description_ovn_effect_agent_enable_recruitment_champion_greenskins	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Goblin Big Boss	true
 effect_bundles_localised_title_ovn_Tzeen	Champion of Tzeentch	true
