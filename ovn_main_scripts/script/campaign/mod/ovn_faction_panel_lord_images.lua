@@ -26,7 +26,7 @@ local faction_key_to_img_name = {
 	["wh2_main_vmp_blood_dragons"] = "walach",
 	["wh2_main_amz_amazons"] = "amazons",
 	["wh2_main_ovn_chaos_dwarfs"] = "chorf",
-	["wh2_main_nor_rotbloods"] = "wip",
+	["wh2_main_nor_rotbloods"] = "ribspreader",
 }
 
 --- If a faction has multiple LLs we can use the character subtype.

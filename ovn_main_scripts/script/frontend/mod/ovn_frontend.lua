@@ -24,9 +24,7 @@ local ovn_info = {
 	["1407394331"] = "amazons", -- ME
 	["882030"] = "chorf", -- ME
 	-- ["1397230572"] = "wip", -- ME -- Rotblood Tribe
-	["1668499673"] = "wip", -- ME -- Rotblood Tribe
-
-
+	["1668499673"] = "ribspreader", -- ME -- Rotblood Tribe
 };
 
 --- Hide the amazons if the Expanded Roster Amazons submod isn't present.
