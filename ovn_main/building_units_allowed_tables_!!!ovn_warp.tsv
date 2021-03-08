@@ -69,6 +69,6 @@ ovn_Clan_Fester_3	wh2_main_skv_inf_clanrat_spearmen_1	0	23427663	0		false
 ovn_warp_military_2	rbt_nurgle_daemon	0	260589535	0		true
 ovn_warp_military_3	rbt_nurgle_daemon	0	260589536	0		true
 ovn_warp_military_4	rbt_nurgle_daemon	0	260589537	0		true
-ovn_warp_military_2	wh_dlc08_nor_inf_marauder_berserkers_0	0	260589537	0		true
-ovn_warp_military_3	wh_dlc08_nor_inf_marauder_berserkers_0	0	260589538	0		true
-ovn_warp_military_2	wh_dlc08_nor_inf_marauder_berserkers_0	0	260589539	0		true
+ovn_warp_military_2	wh_dlc08_nor_inf_marauder_berserkers_0	0	260589538	0		false
+ovn_warp_military_3	wh_dlc08_nor_inf_marauder_berserkers_0	0	260589539	0		false
+ovn_warp_military_4	wh_dlc08_nor_inf_marauder_berserkers_0	0	260589540	0		false
