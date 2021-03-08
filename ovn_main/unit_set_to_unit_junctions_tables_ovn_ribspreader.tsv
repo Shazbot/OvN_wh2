@@ -1,0 +1,15 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ribspreader	chs_all
+false				ribspreader	chs_lords
+false				ribspreader_mammoth	wh2_mp_single_entity_monsters
+false				ribspreader_mammoth	chs_all
+false				ribspreader_mammoth	chs_lords
+false				elo_bile_trolls	elo_bile_trolls
+false				wh_dlc01_chs_inf_forsaken_0	ribspreader_chaos_vanguard
+false				wh_dlc06_chs_inf_aspiring_champions_0	ribspreader_chaos_vanguard
+false				wh_main_chs_inf_chaos_marauders_0	ribspreader_chaos_vanguard
+false				wh_main_chs_inf_chaos_marauders_1	ribspreader_chaos_vanguard
+false				wh_pro04_chs_inf_forsaken_ror_0	ribspreader_chaos_vanguard
+false				wh_dlc08_nor_inf_marauder_berserkers_0	ribspreader_chaos_vanguard
+false				wh_pro04_nor_inf_marauder_berserkers_ror_0	ribspreader_chaos_vanguard

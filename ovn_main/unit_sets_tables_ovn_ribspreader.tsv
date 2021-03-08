@@ -1,0 +1,4 @@
+unit_sets_tables	2
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+elo_bile_trolls	false	-1	-1	
+ribspreader_chaos_vanguard	false	-1	-1	

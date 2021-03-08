@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	ribspreader	ribspreader	ribspreader	ribspreader
+	ribspreader_campaign	ribspreader_mammoth	ribspreader_campaign	a_character_placeholder

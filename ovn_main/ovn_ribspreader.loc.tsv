@@ -1,0 +1,55 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_subtypes_onscreen_name_override_ribspreader	Legendary Lord	true
+agent_subtypes_description_text_override_ribspreader	Bödvarr Ribspreader is the chieftain of the Rotblood Tribe, savage in conduct and devout in worship of Nurgle.	true
+land_units_concealed_name_ribspreader		true
+land_units_onscreen_name_ribspreader	Bödvarr Ribspreader	true
+character_skill_node_sets_enc_title_wh_main_skill_node_set_ribspreader	Bödvarr Ribspreader Skills	true
+character_skills_localised_name_ribspreader_mammoth_skill	War Mammoth	true
+character_skills_localised_description_ribspreader_mammoth_skill	Tainted and savage they may be, but these behemoths remain willing to bear high-status Marauders into battle, trampling flat everything foolish enough to get in their way.	true
+character_skills_localised_name_ribspreader_special_0	Mark Of Nurgle	true
+character_skills_localised_description_ribspreader_special_0	The Rotblood chieftain is handsomely blessed by the Rotfather.	true
+character_skills_localised_name_ribspreader_special_1	Honor The Stromdorf Pact	true
+character_skills_localised_description_ribspreader_special_1	A pack had been forged with the Skaven of Clan Fester in the Empire city of Stromdorf, and Bödvarr will see it fullfilled. The Skittergate will open, and the civilized lands shall burn.	true
+character_skills_localised_name_ribspreader_special_2	Rotblood Bile Trolls	true
+character_skills_localised_description_ribspreader_special_2	Some Bile Trolls speciments are less virulent than the norm, and Bödvarr relies heavily on those.	true
+character_skills_localised_name_ribspreader_special_3	The Northmen Come	true
+character_skills_localised_description_ribspreader_special_3	Bödvarr surrounds himself with those Rotblood Berserkers who know no fear but that of seeing their chieftain's displeasure.	true
+character_skills_localised_name_ribspreader_special_2_1	Blessings Of Nurgle	true
+character_skills_localised_description_ribspreader_special_2_1	The Rotfather thinks fondly of his Rotblood children, and the flesh of Rotblood men is marred heavily by his benediction.	true
+effects_description_pj_frenzy_versus_dwarfs	Attribute: Causes Frenzy when fighting against Dwarfs	true
+character_skills_localised_name_ribspreader_trait	Rotblood Chieftain	true
+character_skills_localised_description_ribspreader_trait	Bödvarr Ribspreader is a civilized man's nightmare made manifest, the worst of what the North can spew forth.	true
+unit_description_short_texts_text_wh_main_unit_short_text_ribspreader	Bödvarr Ribspreader is the chieftain of the Rotblood Tribe, savage in conduct and devout in worship of Nurgle.	true
+effects_description_ribspreader_army_buffs	At the start of every battle there is a chance for each unit under Bödvarr's command to receive Nurgle's blessing of Perfect Vigour, Immune to Psychology, Encourage and Cause Fear.	true
+unit_abilities_onscreen_name_ribspreader_bile_troll_passive	Rotblood's Host to Terrifying Afflictions	true
+unit_abilities_tooltip_text_ribspreader_bile_troll_passive	Bile Trolls are feared by all, even by their famously stupid kin. They aren't feared for their combat prowess though, instead, no one wants to get near them and risk infection.	true
+effects_description_ribspreader_berzerkers_speed	Speed: %+n% for Marauder Berserkers	true
+effects_description_ribspreader_berzerkers_vs_inf	Bonus vs. Infantry: %+n for Marauder Berserkers	true
+effects_description_ribspreader_berzerkers_charge	Charge: %+n for Marauder Berserkers	true
+effects_description_ribspreader_berzerkers_morale	Leadership: %+n for Marauder Berserkers	true
+effects_description_ribspreader_enable_bile_troll_passive	Replaces the Bile Troll Ability "Host to Terrifying Afflictions" with a milder version that doesn't affect allies.	true
+unit_abilities_onscreen_name_ribspreader_disable_sickness_host	Rotblood's Host to Terrifying Afflictions	true
+unit_abilities_tooltip_text_ribspreader_disable_sickness_host	Bile Trolls are feared by all, even by their famously stupid kin. They aren't feared for their combat prowess though, instead, no one wants to get near them and risk infection.	true
+ancillaries_colour_text_ribspreader_mammoth	Tainted and savage they may be, but these behemoths remain willing to bear high-status Marauders into battle, trampling flat everything foolish enough to get in their way.	true
+ancillaries_onscreen_name_ribspreader_mammoth	War Mammoth	true
+land_units_concealed_name_ribspreader_mammoth		true
+land_units_onscreen_name_ribspreader_mammoth	Bödvarr Ribspreader	true
+unit_abilities_tooltip_text_ribspreader_summon_allies	Bödvarr is aided by his Marauder Champion huskarls.	true
+unit_abilities_onscreen_name_ribspreader_summon_allies	I Will Face You Alone	true
+effects_description_ribspreader_summon_allies	Passive ability: "I Will Face You Alone"	true
+character_skills_localised_name_ribspreader_special_4	I Will Face You Alone	true
+character_skills_localised_description_ribspreader_special_4	Well he would, but Bödvarr's Champions will not have their chieftain take all the glory!	true
+effects_description_ribspreader_skaven_pact	Recieve 4[[img:ui/skins/wh2_main_skaven/icon_ritual_currency.png]][[/img]] per turn.	true
+unit_description_historical_texts_text_wh_main_unit_short_text_ribspreader	Bödvarr Ribspreader is the chieftain of the Rotblood Tribe, savage in conduct and devout in worship of Nurgle.	true
+unit_abilities_additional_ui_effects_localised_text_ribspreader_summon_allies_ui_effect	[[col:green]][[img:icon_arrow_up]][[/img]] Summons a unit of Marauder Champions (Great Weapons)[[/col]]	true
+ancillaries_onscreen_name_ribspreader_weapon	Bödvarr's Greataxe	true
+ancillaries_colour_text_ribspreader_weapon	Stories tell that Bödvarr's Greataxe had been dipped in Nurgle's bubbling cauldron itself. But tales aside, where this pestilent weapon strikes iron rusts and flesh festers.	true
+character_skills_localised_name_ribspreader_weapon_skill	Bödvarr's Greataxe	true
+character_skills_localised_description_ribspreader_weapon_skill	Stories tell that Bödvarr's Greataxe had been dipped in Nurgle's bubbling cauldron itself. But tales aside, where this pestilent weapon strikes iron rusts and flesh festers.	true
+effects_description_ribspreader_chaos_vanguard_armour	Armour: %+n for Chaos Marauders, Marauder Berserkers, Aspiring Champions, and Forsaken units	true
+effects_description_ribspreader_chaos_vanguard_md	Melee defence: %+n for Chaos Marauders, Marauder Berserkers, Aspiring Champions, and Forsaken units	true
+character_skills_localised_name_ribspreader_chaos_vanguard	Chaos Vanguard	true
+character_skills_localised_description_ribspreader_chaos_vanguard	To the Northmen, there is no greater honour than to fight and perish under the gaze of the Gods.	true
+character_skills_localised_name_ribspreader_battle_ranged_elite	Ranged Supremacy	true
+character_skills_localised_description_ribspreader_battle_ranged_elite	Cull the weak of the enemy from a distance so the worthy may fight in peace.	true

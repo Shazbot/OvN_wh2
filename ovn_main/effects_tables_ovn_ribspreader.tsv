@@ -1,0 +1,12 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+ribspreader_army_buffs	trait_chaos.png	1	trait_chaos.png	campaign	true
+ribspreader_skaven_pact	religion_skaven.png	1	religion_skaven.png	campaign	true
+ribspreader_berzerkers_speed	battle_movement.png	101	battle_movement.png	battle	true
+ribspreader_berzerkers_vs_inf	bonus_vs_small.png	55	bonus_vs_small.png	battle	true
+ribspreader_berzerkers_charge	charge.png	100	charge.png	battle	true
+ribspreader_berzerkers_morale	morale.png	61	morale.png	battle	true
+ribspreader_enable_bile_troll_passive	plague.png	200	plague.png	battle	true
+ribspreader_summon_allies	bonus_vs_small.png	55	bonus_vs_small.png	battle	true
+ribspreader_chaos_vanguard_md	defence.png	111	defence.png	battle	true
+ribspreader_chaos_vanguard_armour	armour.png	110	armour.png	battle	true

@@ -1,0 +1,3 @@
+unit_set_unit_ability_junctions_tables	0
+key	unit_ability	unit_set
+ribspreader_enable_bile_troll_passive	ribspreader_disable_sickness_host	elo_bile_trolls

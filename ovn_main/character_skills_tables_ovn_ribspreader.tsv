@@ -1,0 +1,13 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+mount_mammoth.png	ribspreader_mammoth_skill			17	false	false	false	0.0	0
+ovn_mark_of_nurgle.png	ribspreader_special_0			8	false	false	false	0.0	0
+wh2_dlc14_skill_skv_snikch_sabotage_and_unrest.png	ribspreader_special_1			0	false	false	false	0.0	0
+wh2_dlc15_skill_river_troll_hag_mither.png	ribspreader_special_2			0	false	false	false	0.0	0
+wh_dlc08_berserk.png	ribspreader_special_3			0	false	false	false	0.0	0
+wh2_dlc12_lord_abilities_unlimited_power.png	ribspreader_special_2_1			0	false	false	false	0.0	0
+trait_chaos.png	ribspreader_trait			0	true	false	false	5.0	0
+wh_dlc08_lord_abilities_fight_or_die.png	ribspreader_special_4			0	false	false	false	0.0	0
+item_weapon.png	ribspreader_weapon_skill			10	false	false	false	0.0	0
+battle_defence.png	ribspreader_chaos_vanguard	To the Northmen, there is no greater honour than to fight and perish under the gaze of the Gods.	Chaos Vanguard	0	false	false	false	0.0	0
+battle_ranged_damage.png	ribspreader_battle_ranged_elite	Impossible foresight is granted to a few among the ranks of the Ruinous armies, allowing them to land the critical blow upon their foes.	Guided by Tzeentch	0	false	false	false	0.0	0
