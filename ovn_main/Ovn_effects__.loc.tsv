@@ -35,7 +35,7 @@ effects_description_ovn_hlf_effect_religion_conversion_chaos_technologies	Chaos 
 effects_description_wh_main_effect_agent_cap_increase_wizard_arb_1	Hero capacity: %+n for Sorcerers	true
 effects_description_wh_main_effect_agent_cap_increase_wizard_arb_2	Hero capacity: %+n for Sorcerers	true
 effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_1	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
-5	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_2	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
 ovn_effect_agent_cap_increase_champion_goblin_big_boss	Hero capacity: %+n for Goblin Big Boss	true
 effects_description_ovn_effect_agent_enable_recruitment_champion_greenskins	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Goblin Big Boss	true
 effect_bundles_localised_title_ovn_Tzeen	Champion of Tzeentch	true
@@ -121,7 +121,7 @@ effect_bundles_localised_description_wh2_main_lord_trait_nor_harbingers_of_doom	
 effect_bundles_localised_title_wh2_main_lord_trait_nor_servants_of_fimulneid	From The Mist They Come	true
 effect_bundles_localised_description_wh2_main_lord_trait_nor_servants_of_fimulneid	We come for your women folk, resistance is futile!	true
 effect_bundles_localised_title_wh2_main_lord_trait_nor_rotbloods	Pillage and Raid	false
-effect_bundles_localised_description_wh2_main_lord_trait_nor_rotbloods	Father to a murdered son, husband to a murdered wife. And I will have my vengeance, in this life or the next.	false
+effect_bundles_localised_description_wh2_main_lord_trait_nor_rotbloods	The Rotblood Tribe will see the Southren lands burn!	false
 effect_bundles_localised_title_wh2_main_lord_trait_vmp_blood_dragons	Fallen Order	true
 effect_bundles_localised_description_wh2_main_lord_trait_vmp_blood_dragons	Once a noble house fallen to evil ways, their cruel and surreal beliefs drive them on as mindlessly as their minions.	true
 effects_description_ovn_scythan_tk_md	Melee Defence: %+n for all Scythan Tomb King units	false
