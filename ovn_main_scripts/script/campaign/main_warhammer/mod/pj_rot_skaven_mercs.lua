@@ -108,6 +108,10 @@ mod.calculate_per_turn_resources = function(faction)
 		warpstone = warpstone + mod.get_num_res_from_region_key(region_key, mod.region_to_num_warpstone)
 	end
 
+	if faction:faction_leader():has_skill("ribspreader_special_1") then
+		warpstone = warpstone + 4
+	end
+
 	mod.player_res_per_turn.warpstone = warpstone
 end
 
@@ -693,6 +697,39 @@ core:add_listener(
 	true
 );
 
+core:remove_listener("ovn_ribspreader_check_warpstone_skill_unlock")
+core:add_listener(
+	"ovn_ribspreader_check_warpstone_skill_unlock",
+	"CharacterSkillPointAllocated",
+	function(context)
+		local skill = context:skill_point_spent_on();
+		return skill == "ribspreader_special_1"
+	end,
+	function()
+		local local_faction_key = cm:get_local_faction_name(true)
+		if local_faction_key ~= rotblood_faction_key then return end
+
+		local faction = cm:get_faction(local_faction_key)
+
+		mod.calculate_per_turn_resources(faction)
+		mod.refresh_resource_value_in_ui()
+	end,
+	true
+)
+
+core:remove_listener("ovn_ribspreader_check_nurgle_blessings_unlock")
+core:add_listener(
+	"ovn_ribspreader_check_nurgle_blessings_unlock",
+	"CharacterSkillPointAllocated",
+	function(context)
+		local skill = context:skill_point_spent_on();
+		return skill == "ribspreader_special_2_1"
+	end,
+	function()
+		core:svr_save_bool("ovn_ribspreader_unlocked_nurgle_army_blessings", true)
+	end,
+	true
+)
 
 --- Stuff that helps when debugging:
 -- spawn wh2_main_skv_warlord wh2_main_skv_clan_mors wh2_main_skv_inf_stormvermin_0,wh2_main_skv_inf_stormvermin_0

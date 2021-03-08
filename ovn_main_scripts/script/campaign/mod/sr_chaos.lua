@@ -34,25 +34,39 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 	end
 
 	if rotblood_tribe:is_human() then
-			cm:create_force_with_general(
-				"wh2_main_nor_rotbloods",
-				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc01_chs_inf_forsaken_0",
-				"wh2_main_kingdom_of_beasts_serpent_coast",
-				583,
-				700,
-				"general",
-				"chs_lord",
-				"names_name_999982317",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:apply_effect_bundle_to_characters_force("ovn_Nurgh", cqi, -1, true)
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-					cm:set_character_immortality("character_cqi:" .. cqi, true)
-				end
-			)
+		cm:create_force_with_general(
+			"wh2_main_nor_rotbloods",
+			"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc08_nor_inf_marauder_berserkers_0",
+			"wh2_main_kingdom_of_beasts_serpent_coast",
+			583,
+			700,
+			"general",
+			"ribspreader",
+			"names_name_999982317",
+			"",
+			"",
+			"",
+			true,
+			function(cqi)
+				cm:set_character_unique("character_cqi:" .. cqi, true)
+				cm:set_character_immortality("character_cqi:" .. cqi, true)
+
+				local x, y = cm:find_valid_spawn_location_for_character_from_character("wh2_main_nor_rotbloods", cm:char_lookup_str(cqi), true)
+				if x == -1 then return end
+
+				cm:create_agent(
+					"wh2_main_nor_rotbloods",
+					"wizard",
+					"rbt_blightstormer",
+					x,
+					y,
+					false,
+					function(cqi)
+						cm:replenish_action_points(cm:char_lookup_str(cqi))
+					end
+				)
+			end
+		)
 	else
 			cm:transfer_region_to_faction("wh2_main_chrace_elisia", "wh2_main_nor_rotbloods")
 			cm:transfer_region_to_faction("wh_main_blightwater_kradtommen", "wh2_main_nor_rotbloods")
@@ -114,19 +128,18 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 			)
 			cm:create_force_with_general(
 				"wh2_main_nor_rotbloods",
-				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0",
+				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc08_nor_inf_marauder_berserkers_0",
 				"wh2_main_kingdom_of_beasts_serpent_coast",
 				563,
 				537,
 				"general",
-				"chs_lord",
+				"ribspreader",
 				"names_name_999982317",
 				"",
 				"",
 				"",
 				true,
 				function(cqi)
-					cm:apply_effect_bundle_to_characters_force("ovn_Nurgh", cqi, -1, true)
 					cm:set_character_unique("character_cqi:" .. cqi, true)
 					cm:set_character_immortality("character_cqi:" .. cqi, true)
 				end
