@@ -1,3 +1,4 @@
 effect_bonus_value_unit_ability_junctions_tables	0
 effect	bonus_value_id	unit_ability
 ribspreader_summon_allies	enable	ribspreader_summon_allies
+ribspreader_plague_of_rust	enable	ribspreader_plague_of_rust
