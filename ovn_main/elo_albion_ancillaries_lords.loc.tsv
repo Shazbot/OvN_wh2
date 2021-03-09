@@ -94,3 +94,9 @@ effect_bundles_localised_title_dural_mount_chariot	Albion Chariot	false
 effect_bundles_localised_description_dural_mount_chariot	The chariots built in Albion might look crude to more civilized folk, but they are well constructed and surprisingly dangerous on the field.	false
 ancillaries_onscreen_name_elo_staff_of_dural_durak	Staff of Dural Durak	true
 ancillaries_colour_text_elo_staff_of_dural_durak	When Dural Durak casts spells, this staff of his own creation twists the Winds of Magic in a way that disturbs the efforts of enemy casters.	true
+effect_bundles_localised_description_anc_albion_hunter_banner	Only in times of war would hunters bother to carry a banner.	false
+effect_bundles_localised_title_anc_albion_hunter_banner	Hunter's Banner	false
+effect_bundles_localised_description_albion_scary_banner	This grizzly banner is a reminder of the more savage aspects of the culture of Albion. It is decorated with skulls and bones of slain foes, both beast and human alike.	false
+effect_bundles_localised_title_albion_scary_banner	The Banner of Trophies	false
+effect_bundles_localised_description_anc_danu_banner	Those who fight under the Banner of the Earth goddess benefit from her protection.	true
+effect_bundles_localised_title_anc_danu_banner	Banner of Danu	true
