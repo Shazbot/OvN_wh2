@@ -2,3 +2,8 @@ character_skill_utilization_hints_junctions_tables	0
 hint	key
 USEFUL_ALWAYS	ribspreader_mammoth_skill
 USEFUL_ALWAYS	ribspreader_weapon_skill
+USEFUL_ALWAYS	ribspreader_special_0
+USEFUL_ALWAYS	ribspreader_special_2
+USEFUL_ALWAYS	ribspreader_special_3
+USEFUL_ALWAYS	ribspreader_special_2_1
+USEFUL_ALWAYS	ribspreader_special_4
