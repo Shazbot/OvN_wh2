@@ -66,3 +66,5 @@ character_skills_localised_name_ovn_araby_duel_02	Cloaked Janbiya	true
 character_skills_localised_description_ovn_araby_duel_02	Just in case...	true
 character_skills_localised_name_ovn_araby_duel_03	Smoke Dance	true
 character_skills_localised_description_ovn_araby_duel_03	They twist and turn like a fierce sandstorm.	true
+character_skills_localised_name_ovn_buff_araby_vamp_coast	Sea Dogs	false
+character_skills_localised_description_ovn_buff_araby_vamp_coast	The Golden Magus had fought against the Vampire Coast bitterly, and now makes use of their necromantic arts against them.	false

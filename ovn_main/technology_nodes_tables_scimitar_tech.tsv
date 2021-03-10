@@ -32,3 +32,5 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 	wh2_main_arb_flaming_scimitar	7	scimitar_tech_neu_eco_6	araby_tech_neu_eco_6	ovn_araby_tech	8	500	0	0		
 	wh2_main_arb_flaming_scimitar	0	scimitar_tech_good_9	araby_tech_good_9	ovn_araby_tech	1	1000	0	0		
 	wh2_main_arb_flaming_scimitar	9	scimitar_tech_bad_9	araby_tech_bad_9	ovn_araby_tech	1	1200	0	0		
+	wh2_main_arb_flaming_scimitar	8	scimitar_tech_neu_7	scimitar_tech_neu_7	ovn_araby_tech	6	500	0	0		
+	wh2_main_arb_flaming_scimitar	8	scimitar_tech_neu_8	scimitar_tech_neu_8	ovn_araby_tech	7	500	0	0		

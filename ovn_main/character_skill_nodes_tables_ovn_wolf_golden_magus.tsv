@@ -10,12 +10,12 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	ovn_buff_araby_gunpowder	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_1_4	4.0		0	0	true
 	ovn_buff_araby_bows	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_1_5	5.0		0	0	true
 	ovn_buff_araby_state_inf	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_1_6	6.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_2	7.0		0	6	true
-	ovn_araby_nomads_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_1	8.0		0	0	true
-	ovn_araby_state_inf_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_2	9.0		0	0	true
-	ovn_araby_beasts_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_3	10.0		0	0	true
-	ovn_araby_magic_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_4	11.0		0	0	true
-	wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_4	12.0		0	1	true
+	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_2	8.0		0	6	true
+	ovn_araby_nomads_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_1	9.0		0	0	true
+	ovn_araby_state_inf_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_2	10.0		0	0	true
+	ovn_araby_beasts_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_3	11.0		0	0	true
+	ovn_araby_magic_r7	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_3_4	12.0		0	0	true
+	wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_4	13.0		0	1	true
 	wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_set_arb_golden_magus		5.0	wh2_main_skill_node_arb_golden_magus_campaign_0	0.0		0	0	true
 	arb_golden_magus_ship_growth	wh_main_skill_node_set_arb_golden_magus		5.0	wh2_main_skill_node_arb_golden_magus_campaign_1_1	1.0		0	0	true
 	wh2_dlc11_skill_cst_campaign_9	wh_main_skill_node_set_arb_golden_magus		5.0	wh2_main_skill_node_arb_golden_magus_campaign_1_2	2.0		0	0	true
@@ -50,3 +50,4 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	arb_golden_magus_anc_camel	wh_main_skill_node_set_arb_golden_magus		0.0	wh2_main_skill_node_arb_golden_magus_mount_1	4.0		0	0	true
 	arb_golden_magus_anc_djinskiff	wh_main_skill_node_set_arb_golden_magus		0.0	wh2_main_skill_node_arb_golden_magus_mount_2	5.0		0	0	true
 	wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_arb_golden_magus		0.0	wh_main_skill_node_set_arb_golden_magus_immortality	7.0		1	0	false
+	ovn_buff_araby_vamp_coast	wh_main_skill_node_set_arb_golden_magus		4.0	wh2_main_skill_node_arb_golden_magus_army_1_7	7.0		0	0	true

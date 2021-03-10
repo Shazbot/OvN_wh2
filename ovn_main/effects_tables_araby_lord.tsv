@@ -2,3 +2,5 @@ effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
 ovn_araby_ll_mount	mount.png	50	mount.png	both	true
 Mount_Elephant	mount.png	50	mount.png	both	true
+ovn_buff_araby_vamp_coast_ws	weapon_damage.png	108	weapon_damage.png	battle	true
+ovn_buff_araby_vamp_coast_charge	charge.png	101	charge.png	battle	true

@@ -51,3 +51,5 @@ scythan_tech_neu_7		1	tech_dlc09_hero_cap_tomb_prince	0	0	0	0	false	false	"place
 scythan_tech_neu_8		1	tech_dlc09_the_ossuary_dirge	0	0	0	0	false	false	"placeholder.tga"	250519927	false	false	true
 araby_tech_good_9		1	tech_dlc12_brt_decrees	0	0	0	0	false	false	"placeholder.tga"	328800076	false	false	true
 araby_tech_bad_9		1	tech_dlc07_brt_economy_other_1	0	0	0	0	false	false	"placeholder.tga"	328800077	false	false	true
+scimitar_tech_neu_7		1	tech_cst_command_05	0	0	0	0	false	false	"placeholder.tga"	250519926	false	false	true
+scimitar_tech_neu_8		1	tech_cst_command_07	0	0	0	0	false	false	"placeholder.tga"	250519927	false	false	true

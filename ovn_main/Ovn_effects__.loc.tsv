@@ -131,3 +131,8 @@ effects_description_ovn_scythan_numas_diplo	Diplomatic relations: %+n with the S
 effects_description_ovn_araby_elephant_scor_mor	Leadership: %+n for all Elephant and Scorpion units	true
 effects_description_ovn_araby_magic_prom_mr	Magic Resistance: %+n% for Arabyan Flying Carpets, Dervishers, Genie, Khimar al-Nar & Promethean Hatchlings	true
 effects_description_ovn_araby_magic_prom_ma	Melee Attack: %+n for Arabyan Flying Carpets, Dervishers, Genie, Khimar al-Nar & Promethean Hatchlings	true
+effects_description_ovn_buff_araby_vamp_coast_charge	Charge bonus: %+n for Bloated Corpses, Animated Hulks, Necrofex Colossus, Corsairs and Promethean Hatchlings units	true
+effects_description_ovn_buff_araby_vamp_coast_ws	Weapon strength: %+n% for Bloated Corpses, Animated Hulks, Necrofex Colossus, Corsairs and Promethean Hatchlings units	true
+effects_description_ovn_scimitar_coast_md	Melee Defence: %+n for Corsairs and Promethean Hatchlings units	false
+effects_description_ovn_scimitar_coast_ma	Melee Attack: %+n for Corsairs and Promethean Hatchlings units	false
+effects_description_ovn_scimitar_coast_armour	Armour: %+n for all Vampire Coast units	true

@@ -27,3 +27,6 @@ ovn_scythan_numas_diplo	diplomacy.png	2	diplomacy.png	campaign	true
 ovn_araby_elephant_scor_mor	morale.png	4	morale.png	battle	true
 ovn_araby_magic_prom_mr	resistance_magic.png	4	resistance_magic.png	battle	true
 ovn_araby_magic_prom_ma	melee.png	4	melee.png	battle	true
+ovn_scimitar_coast_md	defence.png	4	defence.png	battle	true
+ovn_scimitar_coast_ma	melee.png	4	melee.png	battle	true
+ovn_scimitar_coast_armour	armour.png	4	melee.png	battle	true

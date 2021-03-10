@@ -7,3 +7,8 @@ false				arb_golden_magus_skiff	wh2_mp_single_entity_monsters
 false				ovn_arb_mon_genie_summoned	wh2_mp_single_entity_monsters
 false				arb_sultan_of_flame	wh2_mp_single_entity_monsters
 false				arb_sultan_of_flame	mp_set_wh2_dlc14_campaign_exclusive
+false				wh2_dlc11_cst_mon_bloated_corpse_0	scimitar_vamp_coast_units
+false				wh2_dlc11_cst_mon_animated_hulks_0	scimitar_vamp_coast_units
+false				wh2_dlc11_cst_mon_necrofex_colossus_0	scimitar_vamp_coast_units
+false				ovn_corsairs	scimitar_sea_units
+false				ovn_prometheans	scimitar_sea_units

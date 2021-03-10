@@ -67,3 +67,6 @@ wh2_main_arb_flaming_scimitar	false	wh_main_arb_mon_elephant	true	true				false
 wh2_main_arb_flaming_scimitar	false	wh_main_arb_mon_war_elephant	true	true				false
 wh2_main_arb_flaming_scimitar	true	wh_main_arb_cha_sheikh_2	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_araby_ll	ovn_araby_ll	false
 wh2_main_arb_flaming_scimitar	false	ovn_arb_cav_scorpion	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh2_dlc11_cst_mon_necrofex_colossus_0	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh2_dlc11_cst_mon_animated_hulks_0	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh2_dlc11_cst_mon_bloated_corpse_0	true	true				false
