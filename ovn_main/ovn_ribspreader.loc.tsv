@@ -57,3 +57,4 @@ effects_description_ovn_enable_attribute_fatigue_res	Attribute: Strong Vigour	tr
 unit_abilities_tooltip_text_ribspreader_plague_of_rust	Bödvarr slaughters in Rotfather's name, and in the heat of a worthy battle he can level his greataxe at an enemy to turn his armour into rust.	true
 unit_abilities_onscreen_name_ribspreader_plague_of_rust	Nurgle's Gentle Touch	true
 effects_description_ribspreader_plague_of_rust	Ability: "Nurgle's Gentle Touch"	true
+effects_description_ovn_army_enable_the_menace_below_dummy	Army ability: "The Menace Below"	true

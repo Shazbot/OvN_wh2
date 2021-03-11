@@ -1,7 +1,7 @@
 effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
 ribspreader_army_buffs	trait_chaos.png	1	trait_chaos.png	campaign	true
-ribspreader_skaven_pact	religion_skaven.png	1	religion_skaven.png	campaign	true
+ribspreader_skaven_pact	icon_ritual_currency_skv_bundle.png	1	icon_ritual_currency_skv_bundle.png	campaign	true
 ribspreader_berzerkers_speed	battle_movement.png	101	battle_movement.png	battle	true
 ribspreader_berzerkers_vs_inf	bonus_vs_small.png	55	bonus_vs_small.png	battle	true
 ribspreader_berzerkers_charge	charge.png	100	charge.png	battle	true
@@ -12,3 +12,4 @@ ribspreader_chaos_vanguard_md	defence.png	111	defence.png	battle	true
 ribspreader_chaos_vanguard_armour	armour.png	110	armour.png	battle	true
 ovn_enable_attribute_fatigue_res	ovn_fatigue_res.png	101	ovn_fatigue_res.png	battle	true
 ribspreader_plague_of_rust	spell_ability.png	3	spell_ability.png	battle	true
+ovn_army_enable_the_menace_below_dummy	religion_skaven.png	1	religion_skaven.png	battle	true
