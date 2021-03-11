@@ -260,11 +260,11 @@ wh_main_special_settlement_miragliano_3_emp	OtF_khemri_spearmen	0	1260681774	0		
 wh_main_special_settlement_miragliano_4_emp	OtF_khemri_spearmen	0	1260681775	0		false
 wh_main_special_settlement_miragliano_5_emp	OtF_khemri_spearmen	0	1260681776	0		false
 ovn_arb_industry_basic_1	ovn_slave	0	1260681777	0		true
-arb_flaming_scimitar_main_5	wh2_dlc11_cst_mon_necrofex_colossus_0	0	1260681778	0		false
+arb_flaming_scimitar_main_5	hous_nec	0	1260681778	0		false
 arb_flaming_scimitar_structure_growth_2	wh2_dlc11_cst_mon_animated_hulks_0	0	1260681779	0		false
 arb_flaming_scimitar_structure_growth_2	wh2_dlc11_cst_mon_bloated_corpse_0	0	1260681780	0		false
-wh2_main_special_settlement_colony_major_other_5	wh2_dlc11_cst_mon_necrofex_colossus_0	0	1260681781	0		false
-wh_main_emp_settlement_major_5_coast	wh2_dlc11_cst_mon_necrofex_colossus_0	0	1260681782	0		false
+wh2_main_special_settlement_colony_major_other_5	hous_nec	0	1260681781	0		false
+wh_main_emp_settlement_major_5_coast	hous_nec	0	1260681782	0		false
 wh_main_teb_port_3	wh2_dlc11_cst_mon_animated_hulks_0	0	1260681783	0		false
 wh_main_teb_port_3	wh2_dlc11_cst_mon_bloated_corpse_0	0	1260681784	0		false
-wh2_main_special_settlement_the_awakening_emp_5	wh2_dlc11_cst_mon_necrofex_colossus_0	0	1260681785	0		false
+wh2_main_special_settlement_the_awakening_emp_5	hous_nec	0	1260681785	0		false

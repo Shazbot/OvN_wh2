@@ -208,4 +208,15 @@ false				ovn_corsairs	ovn_buff_araby_vamp_coast
 false				ovn_prometheans	ovn_buff_araby_vamp_coast
 false				wh2_dlc11_cst_mon_bloated_corpse_0	ovn_buff_araby_vamp_coast
 false				wh2_dlc11_cst_mon_animated_hulks_0	ovn_buff_araby_vamp_coast
-false				wh2_dlc11_cst_mon_necrofex_colossus_0	ovn_buff_araby_vamp_coast
+false				hous_nec	ovn_buff_araby_vamp_coast
+false				hous_nec	mp_cap_ranged_units
+false				hous_nec	mp_set_cst_mon_necrofex_colossus
+false				hous_nec	wh2_dlc11_cst_all_large_units
+false				hous_nec	wh2_dlc11_cst_all_monsters
+false				hous_nec	wh2_dlc11_cst_all_single_monster
+false				hous_nec	wh2_dlc11_cst_army_chain_giant_monster
+false				hous_nec	wh2_dlc11_cst_mon_necrofex_colossus_0
+false				hous_nec	wh2_dlc11_cst_necrofex_colossus
+false				hous_nec	wh2_dlc11_cst_prometheans_leviathon_colossus
+false				hous_nec	wh2_dlc11_cst_rite_vanguard_monsters
+false				hous_nec	wh2_mp_single_entity_monsters
