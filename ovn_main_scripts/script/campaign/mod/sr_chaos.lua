@@ -1,3 +1,5 @@
+local rotbloods_faction_key = "wh2_main_nor_rotbloods"
+
 local function sr_chaos_new_game_setup(rotblood_tribe)
 	local unit_count = 1 -- card32 count
 	local rcp = 20 -- float32 replenishment_chance_percentage
@@ -645,3 +647,98 @@ function new_setup_cwd_and_fimir_raze_region_monitor() -- Applies Chaos corrupti
 		true
 	)
 end
+
+local sorc_agent_art_set_ids = {
+	"nurgle_chs_ch_sorcerer_campaign_01",
+	"nurgle_chs_ch_sorcerer_campaign_02",
+	"nurgle_chs_ch_sorcerer_campaign_03",
+	"nurgle_chs_ch_sorcerer_campaign_04",
+}
+
+local sorcerer_lord_art_set_ids = {
+	"nurgle_chs_ch_sorcerer_lord_campaign_01",
+	"nurgle_chs_ch_sorcerer_lord_campaign_02",
+	"nurgle_chs_ch_sorcerer_lord_campaign_03",
+	"nurgle_chs_ch_sorcerer_lord_campaign_04",
+}
+
+local chaos_lord_art_set_ids = {
+	"nurgle_chs_ch_chaos_lord_campaign_01",
+	"nurgle_chs_ch_chaos_lord_campaign_02",
+	"nurgle_chs_ch_chaos_lord_campaign_03",
+}
+
+local exalted_hero_art_set_ids = {
+	"nurgle_chs_ch_exalted_hero_campaign_01",
+	"nurgle_chs_ch_exalted_hero_campaign_02",
+	"nurgle_chs_ch_exalted_hero_campaign_03",
+	"nurgle_chs_ch_exalted_hero_campaign_04",
+	"nurgle_chs_ch_exalted_hero_campaign_05",
+}
+
+local forced_art_sets = {}
+
+---@param char CA_CHAR
+local function handle_rotblood_character_art_set(char)
+	if char:faction():name() ~= rotbloods_faction_key then return end
+
+	local subtype = char:character_subtype_key()
+	local fam_cqi = char:family_member():command_queue_index()
+
+	if forced_art_sets[fam_cqi] then return end
+
+	local art_set_ids = nil
+	if subtype == "chs_exalted_hero" then
+		art_set_ids = exalted_hero_art_set_ids
+	elseif subtype == "chs_lord" then
+		art_set_ids = chaos_lord_art_set_ids
+	elseif string.find(subtype, "sorcerer_lord") then
+		art_set_ids = sorcerer_lord_art_set_ids
+	elseif string.find(subtype, "chs_chaos_sorcerer") then
+		art_set_ids = sorc_agent_art_set_ids
+	end
+
+	if not art_set_ids then return end
+
+	local new_art_set = art_set_ids[cm:random_number(#art_set_ids)]
+
+	forced_art_sets[fam_cqi] = new_art_set
+	cm:add_unit_model_overrides(cm:char_lookup_str(char), new_art_set);
+end
+
+core:remove_listener("ovn_rotbloods_force_art_set_on_character_created")
+core:add_listener(
+	"ovn_rotbloods_force_art_set_on_character_created",
+	"CharacterCreated",
+	true,
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+		handle_rotblood_character_art_set(char)
+	end,
+	true
+)
+
+core:remove_listener("ovn_rotbloods_force_art_set_on_replaced_general")
+core:add_listener(
+	"ovn_rotbloods_force_art_set_on_replaced_general",
+	"CharacterReplacingGeneral",
+	true,
+	function(context)
+		local char = context:character()
+		handle_rotblood_character_art_set(char)
+	end,
+	true
+);
+
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("ovn_rotbloods_forced_art_sets", forced_art_sets, context)
+	end
+)
+
+cm:add_loading_game_callback(
+	function(context)
+		forced_art_sets = cm:load_named_value("ovn_rotbloods_forced_art_sets", forced_art_sets, context)
+	end
+)
