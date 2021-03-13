@@ -21,3 +21,6 @@ Default_land_infantry_melee	20	sr_ogre_ror
 Default_land_aura	14	halfling_cook_ror
 Default_land_artillery	8	halfling_cat
 Default_land_artillery	9	halfling_cat_ror
+Default_land_artillery	10	ovn_mtl_art_hotpot
+Default_land_artillery	10	ovn_mtl_art_hotpot_ror
+Default_land_support	8	elo_supply_wagon

@@ -4,7 +4,7 @@ Default_land_monster	20	elo_fenbeast
 Default_land_infantry_melee	3	elo_albion_warriors
 Default_land_infantry_missile	4	elo_youngbloods
 Default_land_infantry_melee	8	elo_woadraider
-Default_land_infantry_missile	1	elo_bloodhounds
+Default_land_cavalry_melee	1	elo_bloodhounds
 Default_land_monster	25	albion_giant
 Default_land_infantry_missile	10	druid_neophytes
 Default_land_artillery	4	albion_stonethrower
@@ -39,5 +39,4 @@ Default_land_cavalry_melee	12	alb_cav_noble
 Default_land_cavalry_melee	15	alb_cav_noble_spear
 Default_land_infantry_melee	20	alb_viridian_champ
 Default_land_monster	10	elo_albion_gryphon
-Default_land_support	15	ovn_trl_inf_stone_throw_troll
 Default_land_infantry_melee	15	ovn_barrow_wight

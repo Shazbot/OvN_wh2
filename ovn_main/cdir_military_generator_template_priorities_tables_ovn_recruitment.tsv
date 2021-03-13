@@ -1,0 +1,15 @@
+cdir_military_generator_template_priorities_tables	1
+config_key	priority	template_key	leader_only
+ovn_araby_jaffar	50	ovn_araby_jaffar_land	false
+ovn_araby_magus	50	ovn_araby_magus_land	false
+ovn_araby_fatandira	50	ovn_araby_fatandira_land	false
+ovn_araby_jaffar	600	ovn_araby_jaffar	true
+ovn_araby_magus	600	ovn_araby_magus	true
+ovn_araby_fatandira	600	ovn_araby_fatandira	true
+ovn_trollz	50	ovn_trollz	false
+ovn_halflings	50	ovn_halflings	false
+ovn_fimir_meargh	50	ovn_fimir_meargh	false
+ovn_fimir_belakor	50	ovn_fimir_belakor	false
+ovn_albion	50	ovn_albion	false
+ovn_grudgebringers	50	ovn_grudgebringers	false
+ovn_dreadking	50	ovn_dreadking	false
