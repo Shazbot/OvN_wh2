@@ -40,7 +40,7 @@ ovn_slave		ovn_slave		1.0	1.0	0.05
 ovn_ifreet		ovn_ifreet		1.0	1.0	0.05	
 ovn_jez		ovn_jez		1.0	1.0	0.05	
 ovn_glad		ovn_glad		1.0	1.0	0.05	
-savage_giant		arb_savage_giant		1.0	1.0	0.05	
+arb_giant		arb_savage_giant		1.0	1.0	0.05	
 ovn_elephantmount		ovn_elephantmount		1.0	1.0	0.05	
 ovn_scor		ovn_scor		1.0	0.6	0.05	
 ovn_knights_ror		ovn_knights_ror		1.0	1.0	0.05	
@@ -115,6 +115,3 @@ ovn_araby_ll_2		ovn_araby_ll_2		1.02	1.15	0.05
 wh_main_arb_sheikh_2_mounted		ovn_araby_ll_2		1.0	1.0	0.0	
 ovn_arb_war_elephant_ror	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_ror	arb_cannon_elephant		0.805	0.805	0.0	
 arb_kasabar_elephant	VariantMeshes/wh_variantmodels/hq3/arb/arb_war_elephant/tech_war	arb_kasabar_elephant		0.815	0.815	0.0	
-hous_nec	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	cst_necrofex_colossus		1.0	1.0	0.0	
-hous_nec_rider		hous_nec		1.0	1.0	0.05	
-hous_crow		hous_nec2		1.0	1.0	0.0	
