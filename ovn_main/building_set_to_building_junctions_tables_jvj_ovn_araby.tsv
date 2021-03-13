@@ -5,3 +5,4 @@ ovn_arb_industry_basic		wh_main_set_empire_economy	false
 ovn_arb_stables		wh_main_set_empire_military_recruitment	false
 ovn_arb_tavern		wh_main_set_empire_economy	false
 ovn_arb_worship		wh_main_set_empire_military_support	false
+ovn_araby_walls		wh_main_set_empire_defence	false

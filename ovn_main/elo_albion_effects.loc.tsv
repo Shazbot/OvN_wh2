@@ -7,7 +7,7 @@ effects_description_wyrd_enable	Enable Recruitment of Wyrd Druids	true
 effects_description_elo_warband_cost	Recruitment Cost: %+n% for Albion Warband units	true
 effects_description_elo_ranged_reload	Reload Speed: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
 effects_description_elo_ranged_xp	Recruitment Rank: %+n  for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
-effects_description_disable_war_fury_2	Removes "War Fury 2" from all units that have it.	true
+effects_description_disable_war_fury_2	Removes "War Fury 2" from all units that have it	true
 effects_description_elo_elite_warband_wps	Weapon Strength: %+n% for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_noble_cav_chariot_armour	Armour: %+n for Noble Cavalary and Chariots	true
 effects_description_elo_noble_cav_chariot_vigour	Vigour Loss: %+n% for Noble Cavalary and Chariots	true
@@ -21,7 +21,7 @@ effects_description_enable_zeal_holy_albion	Ability "Holy Zeal" for Sword Maiden
 effects_description_elo_albion_upkeep_all	Upkeep: %+n% for all units	true
 effects_description_elo_hunting_parties_upkeep	Upkeep: %+n% for Huntresses and Bloodhounds	true
 effects_description_elo_wooden_structures_cost	Recruitment Cost: %+n% for Stonethrowers and Chariots	true
-effects_description_elo_albion_protectors_world	Ability "Protectors of the World" for all units.	true
+effects_description_elo_albion_protectors_world	Ability: "Protectors of the World" for all units	true
 effects_description_elo_druid_circle_banish	Bound Spell: "Banishment" for Druid Neophytes	false
 effects_description_elo_druid_circle_xp	Recruitment Rank: %+n for Druid Neophytes	false
 effects_description_elo_druid_circle_mdef	Melee Defence: %+n for Druid Neophytes	false

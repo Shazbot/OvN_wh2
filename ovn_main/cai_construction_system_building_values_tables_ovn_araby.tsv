@@ -5,3 +5,4 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		ovn_arb_stables_1	ovn_arb_stables_3			cai_military_group				4	4	60	60	60	60	0	0	0	0	60	60	60	60	0	0	50	50	
 		ovn_arb_tavern_1	ovn_arb_tavern_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
 		ovn_arb_worship_1	ovn_arb_worship_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	30	30	30	30	0	0	20	20	
+		ovn_araby_walls_1	ovn_araby_walls_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	300	180	

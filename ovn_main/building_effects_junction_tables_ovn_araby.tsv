@@ -198,3 +198,15 @@ ovn_araby_coffee_3	ovn_resource_production_coffee	building_to_building_own	10.0	
 ovn_araby_coffee_1	wh_main_effect_economy_gdp_culture	building_to_building_own	75.0	35.0	0.0
 ovn_araby_coffee_2	wh_main_effect_economy_gdp_culture	building_to_building_own	100.0	60.0	0.0
 ovn_araby_coffee_3	wh_main_effect_economy_gdp_culture	building_to_building_own	150.0	85.0	0.0
+ovn_araby_walls_1	wh_main_effect_agent_action_success_chance_enemy_building	region_to_character_enemy	-10.0	-5.0	0.0
+ovn_araby_walls_1	wh_main_effect_force_army_battle_unit_morale_siege_defence	region_to_force_own	2.0	2.0	0.0
+ovn_araby_walls_1	wh_main_effect_force_army_campaign_siege_defend_holdout_time	region_to_region_own	1.0	1.0	0.0
+ovn_araby_walls_1	wh_main_effect_tower_projectile_emp_2	region_to_region_own	2.0	2.0	2.0
+ovn_araby_walls_2	wh_main_effect_agent_action_success_chance_enemy_building	region_to_character_enemy	-15.0	-8.0	0.0
+ovn_araby_walls_2	wh_main_effect_force_army_battle_unit_morale_siege_defence	region_to_force_own	4.0	4.0	0.0
+ovn_araby_walls_2	wh_main_effect_force_army_campaign_siege_defend_holdout_time	region_to_region_own	2.0	2.0	0.0
+ovn_araby_walls_2	wh_main_effect_tower_projectile_emp_3	region_to_region_own	3.0	3.0	3.0
+ovn_araby_walls_3	wh_main_effect_agent_action_success_chance_enemy_building	region_to_character_enemy	-20.0	-10.0	0.0
+ovn_araby_walls_3	wh_main_effect_force_army_battle_unit_morale_siege_defence	region_to_force_own	6.0	6.0	0.0
+ovn_araby_walls_3	wh_main_effect_force_army_campaign_siege_defend_holdout_time	region_to_region_own	3.0	3.0	0.0
+ovn_araby_walls_3	wh_main_effect_tower_projectile_emp_4	region_to_region_own	4.0	4.0	4.0

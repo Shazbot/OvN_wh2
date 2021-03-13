@@ -373,8 +373,57 @@ local function araby_init()
     setup_arb_excavations()
 end
 
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
+local building_key_from_to_lookup = {
+	["wh_main_teb_walls_1"] = "ovn_araby_walls_1",
+	["wh_main_teb_walls_2"] = "ovn_araby_walls_2",
+	["wh_main_teb_walls_3"] = "ovn_araby_walls_3",
+	["wh_main_teb_walls_4"] = "ovn_araby_walls_3",
+}
+
+local function replace_old_buildings()
+	for faction_key, _ in pairs(araby_faction_names_lookup) do
+		local f = cm:get_faction(faction_key)
+		if f and not f:is_null_interface() then
+			---@type CA_REGION
+			for region in binding_iter(f:region_list()) do
+				---@type CA_SLOT
+				for slot in binding_iter(region:slot_list()) do
+					if slot and slot:has_building() then
+						local key_to = building_key_from_to_lookup[slot:building():name()]
+						if key_to then
+							cm:region_slot_instantly_dismantle_building(slot)
+
+							cm:region_slot_instantly_upgrade_building(slot, key_to)
+							cm:callback(
+								function()
+									cm:region_slot_instantly_repair_building(slot)
+								end,
+								0
+							)
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
 cm:add_first_tick_callback(
     function()
         araby_init()
+				replace_old_buildings()
     end
 )

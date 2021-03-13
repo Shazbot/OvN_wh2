@@ -31,3 +31,4 @@ arb_flaming_scimitar_defense_bombardment			military	false	arb_flaming_scimitar_d
 arb_flaming_scimitar_unique_minaret			military	false	arb_flaming_scimitar_unique_minaret		1	
 arb_flaming_scimitar_defense_magical_bombardment			military	false	arb_flaming_scimitar_defense_magical_bombardment		2	
 arb_golden_magus_special_galleon_graveyard			money	false	wh2_dlc11_sch_special_settlement_galleons_graveyard		0	
+ovn_araby_walls			military	true	wh_main_sch_teb_walls		0	

@@ -1,17 +1,17 @@
 Loc PackedFile	1
 key	text	tooltip
-effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands.	true
-effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands.	true
+effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands	true
+effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands	true
 effects_description_elo_elite_mdef	Melee Defence: %+n  for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_elite_matt	Melee Attack: %+n for Hearthguard, Highlanders and Viridian Lords	true
-effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks.	true
-effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks.	true
-effects_description_elo_savage_matt	Melee Attack: %+n for Woadraiders, Druid Neophytes and Swordmaidens.	true
-effects_description_elo_savage_dmg	Weapon Strength: %+n% for Woadraiders, Druid Neophytes and Swordmaidens.	true
-effects_description_elo_allrange_ammo	Ammunition: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins).	true
-effects_description_elo_allrange_dmg	Missile Damage: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins).	true
-effects_description_elo_riders_charge	Charge Bonus: %+n Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs.	true
-effects_description_elo_riders_speed	Battle Speed: %+n% Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs.	true
+effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks	true
+effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks	true
+effects_description_elo_savage_matt	Melee Attack: %+n for Woadraiders, Druid Neophytes and Swordmaidens	true
+effects_description_elo_savage_dmg	Weapon Strength: %+n% for Woadraiders, Druid Neophytes and Swordmaidens	true
+effects_description_elo_allrange_ammo	Ammunition: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
+effects_description_elo_allrange_dmg	Missile Damage: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
+effects_description_elo_riders_charge	Charge Bonus: %+n Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs	true
+effects_description_elo_riders_speed	Battle Speed: %+n% Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs	true
 effects_description_elo_champions_r7_mattk	Melee Attack: %+n for Albion Warbands, Hearthguard, Highlanders and Viridian Lords {{tr:rank7}}	true
 effects_description_elo_champions_r7_arm	Armour: %+n for Albion Warbands, Hearthguard, Highlanders and Viridian Lords {{tr:rank7}}	true
 effects_description_elo_champions_r7_phyres	Physical Resistance: %+n% for Albion Warbands, Hearthguard, Highlanders and Viridian Lords {{tr:rank7}}	true
