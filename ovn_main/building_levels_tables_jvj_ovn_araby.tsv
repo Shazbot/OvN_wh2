@@ -17,3 +17,6 @@ ovn_arb_worship_2	ovn_arb_worship	1	4	6000	0		false	0	0	0	0	false				true	ovn_ar
 ovn_araby_walls_1	ovn_araby_walls	0	3	2500	0		false	0	0	0	0	false				true	ovn_araby_walls	false	0.0	0	true	2		true	0	0
 ovn_araby_walls_2	ovn_araby_walls	1	4	5000	0		false	0	0	0	0	false				true	ovn_araby_walls	false	0.0	0	true	3		true	0	0
 ovn_araby_walls_3	ovn_araby_walls	2	5	7500	0		false	0	0	0	0	false				true	ovn_araby_walls	false	0.0	0	true	4		true	0	0
+ovn_araby_coffee_1	ovn_araby_ch_coffee	0	1	500	0		false	0	0	0	0	false				true	ovn_araby_coffee	false	0.0	0	true	1		true	0	0
+ovn_araby_coffee_2	ovn_araby_ch_coffee	1	2	750	0		false	0	0	0	0	false				true	ovn_araby_coffee	false	0.0	0	true	2		true	0	0
+ovn_araby_coffee_3	ovn_araby_ch_coffee	2	3	1000	0		false	0	0	0	0	false				true	ovn_araby_coffee	false	0.0	0	true	3		true	0	0
