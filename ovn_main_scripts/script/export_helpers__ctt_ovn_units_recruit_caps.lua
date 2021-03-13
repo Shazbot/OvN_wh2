@@ -23,6 +23,7 @@ local ctt_ovn = {
     {"albion_riders_javelins", "alb_core"},
     {"albion_riders_spear", "alb_core"},
     {"elo_bloodhounds", "alb_core"},
+    {"ovn_barrow_wight", "alb_special", 1},
     {"albion_hearthguard", "alb_special", 1},
     {"albion_hearthguard_halberd", "alb_special", 1},
     {"albion_hearthguard_2h", "alb_special", 1},
@@ -42,6 +43,17 @@ local ctt_ovn = {
     {"ovn_alb_inf_stone_throw_giant", "alb_rare", 2},
     {"albion_stonethrower", "alb_rare", 2},
     {"albion_fenhulk", "alb_rare", 3},
+
+    {"albion_warriors_lugh", "alb_core"},
+    {"albion_woadraider_sworn_ror", "alb_special", 1},
+    {"albion_shieldmaiden_ror", "alb_special", 1},
+    {"albion_highlander_ror", "alb_special", 1},
+    {"albion_huntresses_warden_ror", "alb_core"},
+    {"alb_cav_noble_first_ror", "alb_special", 1},
+    {"albion_centaur_hunter_ror", "alb_special", 1},
+    {"elo_fly_infested_rotwood", "alb_rare", 1},
+    {"albion_bologs_giant_ror", "alb_rare", 2},
+    {"albion_cachtorr_stonethrower", "alb_rare", 2},
 
     ---------------------------------------------------------------
     --ARABY
@@ -68,7 +80,6 @@ local ctt_ovn = {
     {"ovn_cat_knights", "arb_special", 2},
     {"ovn_arb_cav_jezzail_camel", "arb_special", 2},
     {"sr_ogre_arb", "arb_special", 2},
-    {"ovn_prometheans", "arb_special", 2},
     {"ovn_ifreet", "arb_rare", 1},
     {"ovn_scor", "arb_rare", 1},
     {"akp_brt_ballista", "arb_rare", 1},
@@ -79,6 +90,11 @@ local ctt_ovn = {
     {"wh_main_arb_mon_elephant", "arb_rare", 2},
     {"wh_main_arb_mon_war_elephant", "arb_rare", 2},
     {"wh_main_grn_mon_giant", "arb_rare", 2},
+
+    {"ovn_prometheans", "arb_special", 2},
+    {"wh2_dlc11_cst_mon_animated_hulks_0", "arb_special", 1},
+    {"wh2_dlc11_cst_mon_bloated_corpse_0", "arb_core"},
+    {"hous_nec", "arb_rare", 3},
 
     {"ovn_knights_ror", "arb_core"},
     {"ovn_jag_ror", "arb_special", 1},
@@ -120,6 +136,8 @@ local ctt_ovn = {
     {"hobgoblin_hobhound_ravagers", "wrp_special", 1},
     {"bull_centaur_render", "wrp_special", 1},
     {"hobgoblin_bolt_thrower", "wrp_special", 1},
+    {"infernal_guard_zealot", "wrp_special", 1},
+    {"infernal_guard_acolytes", "wrp_special", 2},
     {"infernal_guard_deathmask_naphta", "wrp_special", 2},
     {"chaos_dwarf_annihilators", "wrp_special", 2},
     {"slave_ogre", "wrp_special", 2},
@@ -143,9 +161,7 @@ local ctt_ovn = {
     {"bull_centaur_ba'hal_guardians", "wrp_special", 2},
     {"elo_lava_trolls", "wrp_special", 2},
 
-		{"infernal_guard_acolytes", "wrp_special", 1},
 		{"kollossus", "wrp_special", 2},
-		{"infernal_guard_zealot", "wrp_special", 1},
 
 
     ---------------------------------------------------------------
@@ -327,7 +343,7 @@ local ctt_ovn = {
     {"wh_main_chs_cav_chaos_knights_0", "wrp_special", 2},
     {"wh_main_chs_cav_chaos_knights_1", "wrp_special", 2},
     {"wh_dlc08_nor_cav_marauder_horsemasters_0", "wrp_special", 2},
-    {"wh_dlc01_chs_mon_dragon_ogre", "wrp_rare", 1},
+    {"wh_dlc01_chs_mon_dragon_ogre", "chs_special", 2},
     {"wh_dlc01_chs_mon_dragon_ogre_shaggoth", "wrp_rare", 2},
     {"wh_main_chs_mon_chaos_spawn", "wrp_rare", 2},
     {"wh_main_chs_mon_giant", "wrp_rare", 2},
