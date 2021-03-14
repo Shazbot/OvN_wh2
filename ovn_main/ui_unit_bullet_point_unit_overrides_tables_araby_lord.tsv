@@ -8,3 +8,9 @@ melee_expert	ovn_araby_ll_mount
 armoured	ovn_araby_ll_mount
 armour_piercing	ovn_araby_ll_mount
 very_fast	ovn_araby_ll_mount
+melee_expert	ovn_araby_ll_2
+armoured	ovn_araby_ll_2
+shielded	ovn_araby_ll_2
+melee_expert	ovn_araby_ll_2_mount
+armoured	ovn_araby_ll_2_mount
+shielded	ovn_araby_ll_2_mount
