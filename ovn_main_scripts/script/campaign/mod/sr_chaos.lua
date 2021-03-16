@@ -742,3 +742,63 @@ cm:add_loading_game_callback(
 		forced_art_sets = cm:load_named_value("ovn_rotbloods_forced_art_sets", forced_art_sets, context)
 	end
 )
+
+local building_key_from_to_lookup = {
+	["wh_main_nor_beasts_1"] = "ovn_rot_monsters_1",
+	["wh_main_nor_creatures_1"] = "ovn_rot_monsters_2",
+	["wh_main_nor_creatures_2"] = "ovn_rot_monsters_3",
+	["wh_main_nor_creatures_3"] = "ovn_rot_monsters_4",
+	["ovn_warp_military_1"] = "ovn_rot_military_1",
+	["ovn_warp_military_2"] = "ovn_rot_military_2",
+	["ovn_warp_military_3"] = "ovn_rot_military_3",
+	["ovn_warp_military_4"] = "ovn_rot_military_4",
+	["ovn_warp_stables_1"] = "ovn_rot_stables_1",
+	["ovn_warp_stables_2"] = "ovn_rot_stables_2",
+	["ovn_warp_stables_3"] = "ovn_rot_stables_3",
+	["ovn_warp_stables_4"] = "ovn_rot_stables_4",
+}
+
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
+local function replace_old_buildings()
+	local f = cm:get_faction(rotbloods_faction_key)
+	if f and not f:is_null_interface() then
+		---@type CA_REGION
+		for region in binding_iter(f:region_list()) do
+			---@type CA_SLOT
+			for slot in binding_iter(region:slot_list()) do
+				if slot and slot:has_building() then
+					local key_to = building_key_from_to_lookup[slot:building():name()]
+					if key_to then
+						cm:region_slot_instantly_dismantle_building(slot)
+
+						cm:region_slot_instantly_upgrade_building(slot, key_to)
+						cm:callback(
+							function()
+								cm:region_slot_instantly_repair_building(slot)
+							end,
+							0
+						)
+					end
+				end
+			end
+		end
+	end
+end
+
+cm:add_first_tick_callback(
+    function()
+				replace_old_buildings()
+    end
+)

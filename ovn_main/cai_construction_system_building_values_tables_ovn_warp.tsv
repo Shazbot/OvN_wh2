@@ -3,3 +3,6 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		ovn_warp_military_1	ovn_warp_military_4			cai_military_group				0	0	0	0	0	0	0	0	0	0	35	35	35	35	0	0	50	50	
 		ovn_warp_stables_1	ovn_warp_stables_4			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
 		ovn_evil_income_1	ovn_evil_income_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100	
+		ovn_rot_stables_1	ovn_rot_stables_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_rot_military_1	ovn_warp_military_4			cai_military_group				0	0	0	0	0	0	0	0	0	0	35	35	35	35	0	0	50	50	
+		ovn_rot_monsters_1	ovn_rot_monsters_4			cai_military_group				0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	50	50	

@@ -8,3 +8,17 @@ ovn_warp_stables_1	ovn_warp_stables	0	1	1000	0		false	0	0	0	0	false				true	ovn_
 ovn_warp_stables_2	ovn_warp_stables	1	2	2000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	2		true	0	0
 ovn_warp_stables_3	ovn_warp_stables	2	4	4000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	3		true	0	0
 ovn_warp_stables_4	ovn_warp_stables	3	5	6000	0		false	0	0	0	0	false				true	ovn_warp_stables	false	0.0	0	true	4		true	0	0
+ovn_rot_stables_1	ovn_rot_stables	0	1	1000	0		false	0	0	0	0	false				true	ovn_rot_stables	false	0.0	0	true	1		true	0	0
+ovn_rot_stables_2	ovn_rot_stables	1	2	2000	0		false	0	0	0	0	false				true	ovn_rot_stables	false	0.0	0	true	2		true	0	0
+ovn_rot_stables_3	ovn_rot_stables	2	4	4000	0		false	0	0	0	0	false				true	ovn_rot_stables	false	0.0	0	true	3		true	0	0
+ovn_rot_stables_4	ovn_rot_stables	3	5	6000	0		false	0	0	0	0	false				true	ovn_rot_stables	false	0.0	0	true	4		true	0	0
+ovn_rot_stables_5	ovn_rot_stables	4	6	6000	0		false	0	0	0	0	false				true	ovn_rot_stables	false	0.0	0	true	5		true	0	0
+ovn_rot_military_1	ovn_rot_military	0	1	1000	0		false	0	0	0	0	false				true	ovn_rot_military	false	0.0	0	true	1		true	0	0
+ovn_rot_military_2	ovn_rot_military	1	2	2000	0		false	0	0	0	0	false				true	ovn_rot_military	false	0.0	0	true	2		true	0	0
+ovn_rot_military_3	ovn_rot_military	2	4	4000	0		false	0	0	0	0	false				true	ovn_rot_military	false	0.0	0	true	3		true	0	0
+ovn_rot_military_4	ovn_rot_military	3	5	6000	0		false	0	0	0	0	false				true	ovn_rot_military	false	0.0	0	true	4		true	0	0
+ovn_rot_military_5	ovn_rot_military	4	6	6000	0		false	0	0	0	0	false				true	ovn_rot_military	false	0.0	0	true	5		true	0	0
+ovn_rot_monsters_1	ovn_rot_monsters	0	1	1000	0		false	0	0	0	0	false				true	ovn_rot_monsters	true	0.0	0	true	1		true	0	0
+ovn_rot_monsters_2	ovn_rot_monsters	1	2	2000	0		false	0	0	0	0	false				true	ovn_rot_monsters	true	0.0	0	true	3		true	0	0
+ovn_rot_monsters_3	ovn_rot_monsters	2	3	3000	0		false	0	0	0	0	false				true	ovn_rot_monsters	true	0.0	0	true	4		true	0	0
+ovn_rot_monsters_4	ovn_rot_monsters	3	4	4000	0		false	0	0	0	0	false				true	ovn_rot_monsters	true	0.0	0	true	5		true	0	0

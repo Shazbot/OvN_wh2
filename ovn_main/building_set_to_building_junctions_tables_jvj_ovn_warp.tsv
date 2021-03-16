@@ -2,3 +2,6 @@ building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
 ovn_warp_military		wh_main_set_norsca_military_recruitment	false
 ovn_warp_stables		wh_main_set_norsca_military_recruitment	false
+ovn_rot_stables		wh_main_set_norsca_military_recruitment	false
+ovn_rot_military		wh_main_set_norsca_military_recruitment	false
+ovn_rot_monsters		wh_main_set_norsca_military_recruitment	false
