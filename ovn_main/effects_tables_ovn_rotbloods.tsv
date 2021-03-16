@@ -1,0 +1,11 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+rot_charge_speed_increase_trolls	charge.png	121	charge.png	battle	true
+rot_melee_attack_increase_warhounds	melee.png	109	melee.png	battle	true
+rot_melee_damage_increase_trolls	weapon_damage.png	108	weapon_damage.png	battle	true
+rot_recruitment_cost_reduction_trolls	treasury.png	106	treasury.png	campaign	false
+rot_unit_stat_melee_defence_warhounds	defence.png	101	defence.png	battle	true
+rot_armour_increase_marauder_chariots_cavalry	armour.png	110	armour.png	battle	true
+rot_charge_speed_increase_marauder_chariots_cavalry	charge.png	121	charge.png	battle	true
+rot_melee_defence_increase_marauder_chariots_cavalry	defence.png	109	defence.png	battle	true
+rot_movement_speed_increase_marauder_chariots_cavalry	battle_movement.png	115	battle_movement.png	battle	true

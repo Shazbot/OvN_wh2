@@ -1,0 +1,29 @@
+Loc PackedFile	1
+key	text	tooltip
+technologies_long_description_rot_tech_mon_2	The northlands exist in the shadow of terrible energies. When the world was young, mysterious beings known only as the Old Ones sited a gateway to the stars above the world's poles. Unknown to them this portal drew other, less benevolent entities, now worshipped as the Dark Gods. A cataclysm occurred, unseen by mortal eyes, and the gateway was destroyed. But not entirely. There remains, in the farthest north, a place where all reason, all life, breaks down: the Realm of Chaos. Those strong enough to serve its fickle rulers and endure the changes it carves into living flesh share a fraction of that unearthly power, and those best suited to do so are monstrous creatures who know no other Gods and have always called the northlands home.	true
+technologies_onscreen_name_rot_tech_mon_2	Chaos Surge	true
+technologies_short_description_rot_tech_mon_2	Nowhere else but under the shadow of Chaos are such brutish and degenerate killers nurtured and bred.	true
+technologies_short_description_rot_tech_mon_1	The eerie green glow of the Dark Moon calls out all manner of feral monstrosities from the Norscan wilderness.	true
+technologies_onscreen_name_rot_tech_mon_1	Baying to Morrslieb	true
+technologies_long_description_rot_tech_mon_1	When the Old Ones' northern polar gateway collapsed, and the Realm of Chaos broke through, some of the arcane structures of the gates themselves intruded into the mortal realm. Star-Metal rained down and Warpstone, the lethal substance that is magic and change made manifest, came into being. A massive accretion of Warpstone formed in the sky, and became a sickly-green, weird moon, which men have named Morrslieb. Certain creatures of the north feel drawn to this corrupted moon, and when these sharp-toothed hunters bay at it, raising their heads to give blood-curdling howls in its baleful light, they feel its energy course through their flesh and sinews, urging them to greater ferocity and destruction in the name of the Dark Gods.	true
+effects_description_rot_recruitment_cost_reduction_trolls	Recruitment cost: %+n% for all Troll units	true
+effects_description_rot_melee_damage_increase_trolls	Weapon strength: %+n% for all Troll units	true
+effects_description_rot_unit_stat_melee_defence_warhounds	Melee defence: %+n for all Warhound units	true
+effects_description_rot_melee_attack_increase_warhounds	Melee attack: %+n for all Warhound units	true
+effects_description_rot_charge_speed_increase_trolls	Charge bonus: %+n% for all Troll units	true
+effects_description_rot_charge_speed_increase_marauder_chariots_cavalry	Charge bonus: %+n% for all Marauder Cavalry and all Chariot units	true
+effects_description_rot_movement_speed_increase_marauder_chariots_cavalry	Speed: %+n for all Marauder Cavalry and all Chariot units	true
+effects_description_rot_armour_increase_marauder_chariots_cavalry	Armour: %+n for all Marauder Cavalry and all Chariot units	true
+effects_description_rot_melee_defence_increase_marauder_chariots_cavalry	Melee defence: %+n for all Marauder Cavalry and all Chariot units	true
+technologies_long_description_rot_nor_marauders_06	A mounted warrior has many advantages: greater speed to rush into battle, greater height to strike from, and the brute power of his mount, making him able to chase down and trample more enemies. But for the mount to be effective they must be shod, hooves hardened and protected with metal shoes that in their turn increase the steed's ability to inflict damage on those they run down. A badly-fitted shoe can be the undoing of a rider, ending their chance to bring glory and bloodshed for the Gods before the fight has even begun. A well-fitted shoe requires the right tools, wielded by experts.	true
+technologies_long_description_rot_nor_marauders_05	As for a warrior, so for his steed. When a Marauder lays into his foes, his armour lets him absorb their blows and strike back without distraction. When he rides into battle, his mount must have similar protection, lest the enemy cut the beast out from under him. Covering the mount's vitals with barding protects it, so the ruthless warrior riding on its back or in the chariot behind may strike deeper into enemy lines, cutting down and trampling all who stand in his way, the better to soak the land in their blood to glorify the Gods.	true
+technologies_short_description_rot_nor_marauders_05	With the right armour, a Marauder’s mare can trample several enemy lines before taking significant damage.	true
+technologies_onscreen_name_rot_nor_marauders_06	Horsemaster's Clinchers	true
+technologies_onscreen_name_rot_nor_marauders_05	Crafter's Barding	true
+technologies_short_description_rot_nor_marauders_06	The correct expertise and equipment enables the Marauders' swift, blood-fed steeds to be ridden at their greatest speeds.	true
+technologies_long_description_rot_nor_other_17	Though the Vampire Counts have little in the way of plunder, their arcane knowledge may still serve the Ruinous Powers. They understand the ways of preserving and using the dead, and of raising armies that do not tire or falter, mindless warriors who will not stop until hacked into useless lumps of decaying flesh. Their lore also honours the Skin Wolves, and that knowledge is of use when dealing with the were creatures who lend their claws and fangs to the fight, and travel with the armies of the north. 	true
+technologies_onscreen_name_rot_nor_other_17	Secrets of Necromancy	true
+technologies_short_description_rot_nor_other_17	The Vampires and Undead, while despicable, are masters of subterfuge and know the secrets of mortal convalescence.	true
+technologies_long_description_rot_nor_nw_07	 	true
+technologies_short_description_rot_nor_nw_07	Take from the reptiles all they hold dear - their precious secrets.	true
+technologies_onscreen_name_rot_nor_nw_07	Secrets of the Ancients	true

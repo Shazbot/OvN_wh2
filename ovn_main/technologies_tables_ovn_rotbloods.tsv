@@ -1,0 +1,8 @@
+technologies_tables	5
+key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+rot_tech_mon_1	wh_main_chs_port	1	tech_dlc08_nor_baying_to_morrslieb	0	0	0	0	false	false	"placeholder.tga"	534215732	false	false	true
+rot_tech_mon_2	wh_main_chs_port	1	tech_dlc08_nor_chaos_surge	0	0	0	0	false	false	"placeholder.tga"	1769752286	false	false	true
+rot_nor_marauders_05	wh_main_chs_port	1	tech_dlc08_nor_crafters_barding	0	0	0	0	false	false	"placeholder.tga"	708046885	false	false	true
+rot_nor_marauders_06	wh_main_chs_port	1	tech_dlc08_nor_horsemasters_clinchers_2	0	0	0	0	false	false	"placeholder.tga"	312368942	false	false	true
+rot_nor_other_17	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_necromancy	0	0	0	0	false	false	"placeholder.tga"	629388111	false	false	true
+rot_nor_nw_07	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_the_ancients	0	0	0	0	false	false	"placeholder.tga"	2013431002	false	false	true
