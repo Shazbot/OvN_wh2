@@ -1,7 +1,7 @@
 building_chain_availabilities_tables	1
 set_id	culture	faction	id	sub_culture	campaign
-ovn_bas_rotbloods	wh_main_chs_chaos		250519880	wh_main_sc_nor_warp	main_warhammer
-ovn_bas_rotbloods	wh_main_chs_chaos		250519881	wh_main_sc_nor_warp	wh2_main_great_vortex
+wh_main_bas_nor	wh_main_chs_chaos		250519880	wh_main_sc_nor_warp	main_warhammer
+wh_main_bas_nor	wh_main_chs_chaos		250519881	wh_main_sc_nor_warp	wh2_main_great_vortex
 wh_main_bas_nor	wh_main_chs_chaos		250519882	wh_main_sc_nor_fimir	main_warhammer
 wh_main_bas_nor	wh_main_chs_chaos		250519883	wh_main_sc_nor_fimir	wh2_main_great_vortex
 wh_main_bas_nor	wh_main_chs_chaos		250519884	wh_main_sc_nor_troll	main_warhammer
@@ -12,3 +12,5 @@ wh2_main_bas_lzd			250519888	wh_main_sc_lzd_amazon	main_warhammer
 wh2_main_bas_lzd			250519889	wh_main_sc_lzd_amazon	wh2_main_great_vortex
 ovn_bas_halflings		wh2_main_emp_the_moot	250519890		main_warhammer
 ovn_bas_halflings		wh2_main_emp_the_moot	250519891		wh2_main_great_vortex
+ovn_bas_rotbloods		wh2_main_nor_rotbloods	250519892		main_warhammer
+ovn_bas_rotbloods		wh2_main_nor_rotbloods	250519893		wh2_main_great_vortex
