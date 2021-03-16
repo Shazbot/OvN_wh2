@@ -233,9 +233,18 @@ core:add_listener(
 
 cm:add_first_tick_callback(function()
 	local local_faction_key = cm:get_local_faction_name(true)
-	if local_faction_key ~= rotblood_faction_key then return end
-
 	local faction = cm:get_faction(local_faction_key)
+
+	if not faction or faction:is_null_interface() then return end
+
+	local faction_leader = faction:faction_leader()
+	if faction_leader and not faction_leader:is_null_interface()
+		and faction_leader:has_skill("ribspreader_special_2_1")
+	then
+		core:svr_save_bool("ovn_ribspreader_unlocked_nurgle_army_blessings", true)
+	end
+
+	if local_faction_key ~= rotblood_faction_key then return end
 
 	mod.init_ui()
 	mod.calculate_per_turn_resources(faction)
