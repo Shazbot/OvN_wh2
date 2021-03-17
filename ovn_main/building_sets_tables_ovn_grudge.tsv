@@ -1,8 +1,0 @@
-building_sets_tables	3
-key	icon	sort_order	colour_r	colour_g	colour_b
-wh_main_emp_cha_grudge_newhorde	placeholder	0	255	255	255
-wh_main_emp_cha_grudge_recruit	UI/Buildings/Icons/empire_cat_recruitment.png	2	120	20	20
-wh_main_emp_cha_grudge_worship	UI/Buildings/Icons/empire_cat_support.png	3	75	65	88
-wh_main_emp_cha_grudge_settlement	placeholder	0	62	61	56
-wh_main_emp_cha_grudge_structure	UI/Buildings/Icons/skaven_cat_under_empire_food.png	4	62	71	57
-wh_main_emp_cha_grudge_equipment	UI/Buildings/Icons/grudge_empire_money.png	5	200	180	60

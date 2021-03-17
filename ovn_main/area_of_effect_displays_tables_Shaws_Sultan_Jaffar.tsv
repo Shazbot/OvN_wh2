@@ -1,8 +1,0 @@
-area_of_effect_displays_tables	8
-spline	key	decal	vfx_central	vfx_ring	spline_width	spline_col_r	spline_col_g	spline_col_b	spline_oor_col_r	spline_oor_col_g	spline_oor_col_b	spline_vertical	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time
-	ground_arua_evil_sultan		ground_arua_evil_sultan		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ground_arua_ethereal_embers		wh2_dlc12_abilities_invocation_of_djinn_impact		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ground_arua_for_summoned_djinn		fire_for_djinn_effect		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ground_arua_for_summoned_djinn_2		fire_for_djinn_effect_2		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	fire_trail_for_summoned_djinn		fire_for_djinn_effect_3		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ground_arua_djinn_effect		ground_arua_djinn_effect	ground_arua_djinn_effect	2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false

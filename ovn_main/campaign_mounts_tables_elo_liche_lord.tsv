@@ -1,4 +1,0 @@
-campaign_mounts_tables	8
-animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-cam_hr1_warhorse	elo_liche_general_barded_steed	dread_legion_barded_skeletal_steed	1.0	wh_main_vo_culture_Skeletal_horse	true	0	false
-cam_wm_tomb_chariot_01	elo_liche_general_chariot	wh2_dlc09_tmb_general_chariot_campaign	1.0	wh2_dlc09_vo_culture_Tomb_Kings	true	0	false

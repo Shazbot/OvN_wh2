@@ -1,5 +1,0 @@
-campaign_mounts_tables	8
-animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-cam_bi1_eagle	wh_dlc05_cam_mnt_wef_great_eagle	morrigan_midnight	0.6	wh_main_vo_culture_Eagle	false	0	false
-cam_hr1_warhorse	albion_warhorse	albion_warhorse	1.0	wh_main_vo_culture_Horse	true	0	false
-cam_wm_marauder_chariot	albion_warhorse_chariot	wh_campaign_nor_marauder_chariot	1.0	wh_main_vo_culture_Horse	false	0	false

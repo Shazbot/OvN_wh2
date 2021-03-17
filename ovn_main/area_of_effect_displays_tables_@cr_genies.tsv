@@ -1,7 +1,0 @@
-area_of_effect_displays_tables	8
-spline	key	decal	vfx_central	vfx_ring	spline_width	spline_col_r	spline_col_g	spline_col_b	spline_oor_col_r	spline_oor_col_g	spline_oor_col_b	spline_vertical	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time
-	ovn_unit_passive_genie_deco		ovn_unit_genie_deco		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ovn_unit_passive_sea_nymph_deco		ovn_unit_sea_nymph_deco		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ovn_unit_passive_desert_spirit_deco		ovn_unit_desert_spirit_deco		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ovn_unit_passive_fire_efreet_deco		ovn_unit_fire_efreet_deco		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false
-	ovn_unit_passive_tempest_djinn_deco		ovn_unit_tempest_djinn_deco		2.0	255	255	255	255	255	255	false	0.0	1		false	-1	false

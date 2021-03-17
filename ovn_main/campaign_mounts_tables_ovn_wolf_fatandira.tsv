@@ -1,4 +1,0 @@
-campaign_mounts_tables	8
-animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-cam_hr1_warhorse	cam_fatandira_warhorse	arb_fatandira_warhorse_campaign	1.0	wh_main_vo_culture_Horse	true	0	false
-cam_bi1_eagle	cam_fatandira_roc	arb_fatandira_roc	0.6	wh_main_vo_culture_Hawk	true	0	false

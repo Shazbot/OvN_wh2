@@ -1,4 +1,0 @@
-campaign_mounts_tables	8
-animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-cam_hr1_warhorse	ovn_cam_arb_camel	ovn_arb_camel	1.0	wh_main_vo_culture_Horse	false	0	false
-cam_hr1_warhorse	ovn_cam_arb_barded_warhorse	ovn_cat_horse	1.0	wh_main_vo_culture_Horse	false	0	false

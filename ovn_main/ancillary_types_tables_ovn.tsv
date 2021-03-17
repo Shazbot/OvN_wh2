@@ -1,0 +1,37 @@
+ancillary_types_tables	0
+type	ui_icon
+wh_main_anc_mount_magic_carpet	ui/campaign ui/mounts/mount_magic_carpet.png
+wh_main_anc_mount_djinn_vessel	ui/campaign ui/mounts/mount_djinn_vessel.png
+albion_lone_huntress	ui/campaign ui/ancillaries/albion_anc_huntress.png
+albion_woad_raider	ui/campaign ui/ancillaries/albion_anc_norsca_woad_raider.png
+albion_tame_raven	ui/campaign ui/ancillaries/anc_albion_raven_companion.png
+albion_druid_advisor	ui/campaign ui/ancillaries/albion_druid_advisor.png
+albion_chief	ui/campaign ui/ancillaries/albion_anc_tribe_man.png
+albion_old_warrior	ui/campaign ui/ancillaries/albion_anc_old_man.png
+albion_scavanger	ui/campaign ui/ancillaries/albion_man2.png
+albion_woman	ui/campaign ui/ancillaries/albion_tribe_woman.png
+hearthguard_follower	ui/campaign ui/ancillaries/albion_anc_hearthguard.png
+druid_neophyte	ui/campaign ui/ancillaries/albion_neophyte.png
+albion_scary_banner	ui/campaign ui/ancillaries/albion_anc_banner_trophies.png
+anc_albion_triskele_banner	ui/campaign ui/ancillaries/anc_albion_triskele_banner.png
+anc_danu_banner	ui/campaign ui/ancillaries/albion_anc_knot_banner.png
+anc_albion_hunter_banner	ui/campaign ui/ancillaries/albion_anc_hunters_banner.png
+grudge_item_horn_of_urgok	ui/campaign ui/ancillaries/grudge_horn_of_urgok.png
+grudge_item_grudgebringer_sword	ui/campaign ui/ancillaries/grudge_grudgebringer_sword.png
+grudge_item_hellfire_sword	ui/campaign ui/ancillaries/grudge_hellsword.png
+grudge_item_storm_sword	ui/campaign ui/ancillaries/grudge_storm_sword.png
+grudge_item_runefang	ui/campaign ui/ancillaries/grudge_runefang.png
+grudge_item_enchanted_shield	ui/campaign ui/ancillaries/grudge_enchanted_shield.png
+grudge_item_shield_of_ptolos	ui/campaign ui/ancillaries/grudge_shield_of_ptolos.png
+grudge_item_spelleater_shield	ui/campaign ui/ancillaries/grudge_spelleater_shield.png
+grudge_item_dragonhelm	ui/campaign ui/ancillaries/grudge_dragonhelm.png
+grudge_item_wand_of_jet	ui/campaign ui/ancillaries/grudge_wand_of_jet.png
+grudge_item_banner_of_arcane_warding	ui/campaign ui/ancillaries/grudge_banner_of_arcane.png
+grudge_item_banner_of_wrath	ui/campaign ui/ancillaries/grudge_banner_of_wrath.png
+grudge_item_banner_of_defiance	ui/campaign ui/ancillaries/grudge_banner_of_defiance.png
+ovn_anc_follower_halfling_housewife	ui/campaign ui/ancillaries/ovn_anc_halfling_housewife.png
+ovn_anc_arb_camel	ui/campaign ui/mounts/ovn_cam_arb_camel5.png
+wh_main_anc_mount_djinnskiff	ui/campaign ui/mounts/mount_djinnskiff.png
+ovn_hlf_mount_bpig	ui/campaign ui/mounts/mount_bpig.png
+ovn_hlf_mount_cockarel	ui/campaign ui/mounts/mount_cockarel.png
+ovn_hlf_mount_cwagon	ui/campaign ui/mounts/mount_cwagon.png
