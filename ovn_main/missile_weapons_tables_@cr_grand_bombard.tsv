@@ -1,4 +1,0 @@
-missile_weapons_tables	11
-key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-ovn_arb_grand_bombard	false	ovn_arb_grand_bombard_projectile	great_cannon	false
-ovn_arb_grand_bombard_ror	false	ovn_arb_grand_bombard_projectile_ror	great_cannon	false

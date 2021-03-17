@@ -1,9 +1,0 @@
-missile_weapons_tables	11
-key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-javelins_anti_shield	false	javelins_anti_shield	javelin	false
-stonethrower_rock	false	stonethrower_rock		false
-albion_hunting_bow	false	albion_hunting_bow	bow	false
-albion_riders_javelins	false	albion_riders_javelins	javelin	false
-albion_warden_bow	false	albion_warden_bow	bow	false
-centaur_hunter_axes	false	centaur_hunter_axes		false
-giant_boulder_cachtorr	false	giant_boulder_cachtorr		false

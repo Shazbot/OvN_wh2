@@ -26,7 +26,7 @@ ovn_warp_military_4	ovn_effect_agent_recruitment_xp_rbt_blightstormer	province_t
 ovn_rot_military_2	wh_main_effect_religion_conversion_chaos	region_to_region_own	1.0	0.0	0.0
 ovn_rot_military_3	wh_main_effect_religion_conversion_chaos	region_to_region_own	2.0	1.0	0.0
 ovn_rot_military_4	wh_main_effect_religion_conversion_chaos	region_to_region_own	3.0	2.0	0.0
-ovn_chs_agent	ovn_effect_agent_enable_recruitment_rbt_blightstormer	province_to_province_own_unseen	1.0	1.0	1.0
+ovn_chs_agent	ovn_effect_agent_enable_recruitment_rbt_blightstormer	province_to_province_own	1.0	1.0	1.0
 ovn_chs_agent	ovn_effect_agent_cap_increase_rbt_blightstormer	faction_to_faction_own_unseen	1.0	1.0	1.0
 ovn_chs_agent	ovn_effect_agent_recruitment_xp_rbt_blightstormer	province_to_province_own_unseen	1.0	1.0	0.0
 ovn_rot_military_5	wh_main_effect_religion_conversion_chaos	region_to_region_own	4.0	2.0	0.0

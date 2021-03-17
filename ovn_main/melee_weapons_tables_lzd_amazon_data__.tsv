@@ -1,5 +1,0 @@
-melee_weapons_tables	22
-bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage
-0	0	5	amazon_spear	16	12	0	1.0	sword	sword	small	2	0.33	10	0.0	false	wh_main_unit_contact_poison	0	8	2.5	
-0	15	0	amazon_spear2	25	9	0	1.7	axe	club_huge	medium	4	0.8	10	0.0	false	jag_amazon_poison	0	14	3.0	
-0	0	0	ovn_ifreet	290	155	0	4.0	axe	claw	large	5	1.0	150	20.0	true		0	3	3.6	

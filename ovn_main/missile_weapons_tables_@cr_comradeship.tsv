@@ -1,4 +1,0 @@
-missile_weapons_tables	11
-key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-ovn_com_firework_rocket	false	ovn_com_firework_rocket	rocket_battery	false
-ovn_com_firework_rocket_upgraded	false	ovn_com_firework_rocket_upgraded	rocket_battery	false

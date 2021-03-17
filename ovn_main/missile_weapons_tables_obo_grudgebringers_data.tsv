@@ -1,6 +1,0 @@
-missile_weapons_tables	11
-key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-grudge_wh_main_dwf_cannon	false	grudge_wh_dwf_cannon_ball	cannon	false
-grudge_wh_main_emp_cannon	false	grudge_wh_emp_great_cannon_ball	great_cannon	false
-grudge_wh_main_emp_mortar	false	grudge_wh_emp_mortar_shell	mortar	false
-grudge_wh_dlc05_wef_waywatchers_bow	false	wh_dlc05_wef_waywatchers_arrow	bow	false
