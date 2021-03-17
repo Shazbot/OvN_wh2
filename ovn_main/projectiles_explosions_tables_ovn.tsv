@@ -1,0 +1,26 @@
+projectiles_explosions_tables	18
+key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	shrapnel	explosion_particle_effect	fuse_distance_from_target	explosion_particle_effect_on_ground	explosion_audio	contact_phase_effect	ignition_amount	is_magical	detonation_damage_ap	camera_shake	detonation_force	fuse_fixed_time	affects_allies
+reckless_taste	percussive	shockwave	7.0	1.5	1.0	120.0		wh_main_soup_projectile_splash	0.0				1.0	false	15.0	wh_main_unit_explosion_light	0.0	3.0	true
+bone_explosion	percussive	shockwave	3.0	0.0	12.0	20.0			0.0		none	wh_dlc06_unit_contact_discouraged	0.0	false	25.0	wh_main_unit_explosion_medium	220.0	-1.0	true
+ovn_com_firework_rocket	fuse	shockwave	6.0	1.0	10.0	52.0	ovn_com_firework_rocket_shrapnel	wh_main_generic_spherical_explosion_large	55.0		wh_rocket		1.0	true	26.0	wh_main_unit_explosion_light	150.0	-1.0	true
+ovn_com_firework_rocket_shrapnel	percussive	shockwave	6.0	1.0	10.0	52.0		wh_main_generic_spherical_explosion_small	-1.0		wh_rocket		1.0	true	26.0	wh_main_unit_explosion_light	150.0	1.0	true
+ovn_com_firework_rocket_upgraded	fuse	shockwave	6.0	1.0	10.0	52.0	ovn_com_firework_rocket_upgraded_shrapnel	wh_main_generic_spherical_explosion_large	55.0		wh_rocket	wh2_dlc11_unit_contact_disrupted	1.0	true	26.0	wh_main_unit_explosion_light	150.0	-1.0	true
+ovn_com_firework_rocket_upgraded_shrapnel	percussive	shockwave	6.0	1.0	10.0	52.0		wh_main_generic_spherical_explosion_small	-1.0		wh_rocket	wh2_dlc11_unit_contact_disrupted	1.0	true	26.0	wh_main_unit_explosion_light	150.0	1.0	true
+wh_main_mtl_soup_projectile	percussive	shockwave	7.0	0.0	13.0	3.0		wh_main_soup_projectile_splash	0.0		wh2_dlc13_oil_flask	wh_main_unit_contact_souped	1.0	false	1.0	wh_main_unit_explosion_light	200.0	1.0	true
+ovn_mtl_hotpot_ror_projectile	percussive	shockwave	7.0	0.0	13.0	3.0		ovn_mtl_hotpot_ror_projectile_splash	0.0		wh2_dlc13_oil_flask	wh_main_unit_contact_souped	1.0	false	1.0	wh_main_unit_explosion_light	200.0	1.0	true
+giant_boulder_explosion	percussive	shockwave	8.0	0.0	10.0	70.0		wh_main_impact_large_rock	0.0		wh_large_rock		0.0	false	110.0	wh_main_unit_explosion_heavy	250.0	-1.0	true
+stonethrower_explosion	percussive	shockwave	4.0	0.0	12.0	15.0			0.0		wh_large_rock		0.0	false	90.0	wh_main_unit_explosion_medium	180.0	-1.0	true
+giant_boulder_explosion_cachtorr	percussive	shockwave	8.0	0.0	10.0	70.0	boulder_shrapnel_cachtorr	wh_main_impact_large_rock	0.0		wh_large_rock		0.0	false	110.0	wh_main_unit_explosion_heavy	250.0	-1.0	true
+boulder_shrapnel_explosion	percussive	shockwave	4.0	0.0	10.0	10.0		wh_main_impact_small_rock	0.0		wh_large_rock		0.0	false	30.0	wh_main_unit_explosion_light	50.0	-1.0	true
+gobbos_get_eaten	percussive	shockwave	13.0	1.0	12.0	1000.0			0.0				0.0	false	300.0		150.0	-1.0	true
+ovn_baby_dragon_breath_explo	percussive	shockwave	5.0	0.0	11.0	20.0			0.0		wh2_dragon_breath_fire		1.0	false	10.0	wh_main_unit_explosion_medium	170.0	-1.0	true
+larenscheld_skull_explo	percussive	shockwave	4.0	1.0	12.0	16.0		wh2_main_abilities_soul_storm_explosion	0.0		wh2_main_ability_soul_storm		0.0	true	36.0	wh_main_unit_explosion_light	400.0	-1.0	true
+grudge_wh_main_dwf_blasting_charge_explosion	percussive	shockwave	10.0	0.0	13.0	55.0		wh_main_generic_explosion_mine	0.0		wh_blasting_charge		25.0	false	10.0	wh_main_unit_explosion_light	200.0	1.0	true
+grudge_wh_main_emp_mortar_explosion	percussive	shockwave	10.0	0.0	11.0	200.0		wh_main_generic_spherical_explosion_large	0.0		wh_mortar		0.0	false	30.0	wh_main_unit_explosion_medium	260.0	-1.0	true
+spell_ice_magic_ice_shards	percussive	shockwave	3.0	1.0	5.0	30.0		wh2_main_high_soul_quench_explosion	0.0		wh2_main_spell_high_magic_soul_quench		0.0	true	0.0	wh_main_unit_explosion_light	70.0	-1.0	true
+spell_ice_magic_ice_shards_upgraded	percussive	shockwave	5.0	1.0	5.0	50.0		wh2_main_high_soul_quench_explosion	0.0		wh2_main_spell_high_magic_soul_quench		0.0	true	0.0	wh_main_unit_explosion_light	90.0	-1.0	true
+spell_ice_hailstorm	percussive	shockwave	13.0	1.0	18.0	50.0			0.0		wh_comet_of_cas		0.0	true	48.0	wh_main_unit_explosion_heavy	500.0	-1.0	true
+grudge_spell_fire_fireball	percussive	shockwave	2.0	1.0	11.0	4.0		wh_main_generic_spherical_explosion_large	0.0		wh_main_spell_fire_fireball		1.0	true	0.0	wh_main_unit_explosion_light	450.0	-1.0	true
+grudge_abilities_lord_of_the_storm	percussive	shockwave	5.0	0.0	11.0	0.0		wh_main_abilities_lord_of_the_storm_explosion	0.0		wh_lord_of_the_storm		0.0	false	8.0	wh_main_unit_explosion_medium	450.0	-1.0	true
+wh_main_dwf_dwarf_tank_steam_gun	percussive	shockwave	5.0	0.0	11.0	100.0			0.0		none		1.0	false	18.0	wh_main_unit_explosion_medium	170.0	-1.0	true
+wh_main_dwf_dwarftank_main_explosion	percussive	shockwave	7.0	0.0	11.0	60.0		wh_main_generic_spherical_explosion_large	0.0		wh_mortar		0.0	false	16.0	wh_main_unit_explosion_medium	200.0	-1.0	true

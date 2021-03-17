@@ -1,4 +1,0 @@
-projectiles_explosions_tables	18
-key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	shrapnel	explosion_particle_effect	fuse_distance_from_target	explosion_particle_effect_on_ground	explosion_audio	contact_phase_effect	ignition_amount	is_magical	detonation_damage_ap	camera_shake	detonation_force	fuse_fixed_time	affects_allies
-wh_main_dwf_dwarf_tank_steam_gun	percussive	shockwave	5.0	0.0	11.0	100.0			0.0		none		1.0	false	18.0	wh_main_unit_explosion_medium	170.0	-1.0	true
-wh_main_dwf_dwarftank_main_explosion	percussive	shockwave	7.0	0.0	11.0	60.0		wh_main_generic_spherical_explosion_large	0.0		wh_mortar		0.0	false	16.0	wh_main_unit_explosion_medium	200.0	-1.0	true

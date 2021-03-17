@@ -1,3 +1,0 @@
-projectile_bombardments_tables	6
-arrival_window	bombardment_key	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
-0.05	hlf_master_chef_flush_soup	1	reckless_taste	0.0	0.001	at_target	empty	10		75	false

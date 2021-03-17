@@ -1,3 +1,0 @@
-projectile_bombardments_tables	6
-arrival_window	bombardment_key	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
-2.0	reckless_taste	5	reckless_taste	10.0	1.0	launch_and_explode	empty	10		75	true

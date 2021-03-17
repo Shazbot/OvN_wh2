@@ -1,3 +1,0 @@
-projectile_bombardments_tables	6
-arrival_window	bombardment_key	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
-3.0	larenscheld_bombardment	80	elo_skull_barrage	20.0	2.0	above_target	wh2_dlc10_bloodfrenzy_3	150	wh2_main_ability_soul_rain	75	true
