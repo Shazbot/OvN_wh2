@@ -1,3 +1,0 @@
-pooled_resources_tables	5
-key	maximum	minimum	persistent_factors	ai_ignored	default_factor	optional_icon_path
-ovn_grudge_res	50000	0	false	true	wh2_main_resource_factor_other	icon_income.png

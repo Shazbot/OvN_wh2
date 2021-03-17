@@ -1,7 +1,0 @@
-battle_set_piece_armies_characters_tables	7
-character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-1	Sultan_Jaffar	882000	wh_main_lore_jaffar	100	882001	Sultan_Jaffar	general	Sultan_Jaffar	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	7078		true
-1	ovn_araby_ll	999982308	ovn_lore_desert	100		ovn_araby_ll	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll.png	290598903		true
-1	ovn_hlf_ll	999982316	wh_dlc05_lore_shadows	100		ovn_hlf_ll	general	ovn_hlf_ll	ui/portraits/portholes/no_culture/ovn_hlf_ll.png	290598904		true
-1	ovn_grudge	3110890001	wh_dlc05_lore_shadows	100	3110890002	morgan_bernhardt	general	morgan_bernhardt	ui/portraits/portholes/wh_main_brt_bretonnia/brt_lords_campaign_01_0.png	311089016		true
-1	ovn_araby_ll_2	999982309		100		ovn_araby_ll_2	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll_2.png	290588884		true

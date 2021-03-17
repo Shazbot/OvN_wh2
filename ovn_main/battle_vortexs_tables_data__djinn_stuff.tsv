@@ -1,3 +1,0 @@
-battle_vortexs_tables	16
-change_max_angle	contact_effect	damage	damage_ap	duration	expansion_speed	goal_radius	infinite_height	move_change_freq	movement_speed	start_radius	vortex_key	ignition_amount	is_magical	composite_scene	detonation_force	launch_source	building_collision	launch_vfx	height_off_ground	delay	num_vortexes	composite_scene_blood	affects_allies	launch_source_offset	composite_scene_group	delay_between_vortexes
-0		24	65	1.7	26.0	10.0	false	0.0	105.0	10.0	wh2_dlc12_army_abilities_great_invocation_of_djinn	0.0	false	composite_scene/spells_and_abilities/invocation_of_djinn_impacts.csc	90.0	target_near_edge	1.ignore		0.0	2.5	1		true	24.0		1.0

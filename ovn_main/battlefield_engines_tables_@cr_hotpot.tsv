@@ -1,4 +1,0 @@
-battlefield_engines_tables	19
-destroyed_model	destruction_animation	engine_type	gun_animation_table	key	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	first_person	destruct_model	destruct_anim	destruct_meta
-warmachines\engines\mtl_hotpot\mtl_hotpot_01_destroyed.wsmodel	mtl_hotpot_destruct	Generic_3_Crew	wm_bolt_thrower02	ovn_mtl_art_hotpot	ovn_mtl_hotpot	mtl_hotpot	ovn_mtl_art_hotpot						wh_dlc06_dwf_art_bolt_thrower			
-warmachines\engines\mtl_hotpot\mtl_hotpot_ror_01_destroyed.wsmodel	mtl_hotpot_ror_destruct	Generic_3_Crew	wm_bolt_thrower02	ovn_mtl_art_hotpot_ror	ovn_mtl_hotpot_ror	mtl_hotpot_ror	ovn_mtl_art_hotpot_ror						wh_dlc06_dwf_art_bolt_thrower			

@@ -1,4 +1,0 @@
-battle_set_piece_armies_characters_tables	7
-character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-1	elo_liche_general	1078273109		100	2080915970	elo_liche_general	general	elo_liche_general	ui/portraits/portholes/no_culture/elo_liche_general.png	65658901		true
-1	elo_hand_of_nagash	247259237		100	247259238	elo_hand_of_nagash	general	elo_hand_of_nagash		2101874		true

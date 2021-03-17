@@ -1,6 +1,0 @@
-battle_vortexs_tables	16
-change_max_angle	contact_effect	damage	damage_ap	duration	expansion_speed	goal_radius	infinite_height	move_change_freq	movement_speed	start_radius	vortex_key	ignition_amount	is_magical	composite_scene	detonation_force	launch_source	building_collision	launch_vfx	height_off_ground	delay	num_vortexes	composite_scene_blood	affects_allies	launch_source_offset	composite_scene_group	delay_between_vortexes
-170		7	4	14.0	22.0	12.0	true	1.0	4.0	12.0	ovn_spell_desert_sandstorm	0.0	true	composite_scene\spells_and_abilities\ovn_desert_sandstorm.csc	200.0	target_centre	1.ignore		0.0	0.0	1		true	0.0		1.0
-170		7	4	28.0	22.0	12.0	true	1.0	4.0	12.0	ovn_spell_desert_sandstorm_upgraded	0.0	true	composite_scene\spells_and_abilities\ovn_desert_sandstorm.csc	200.0	target_centre	1.ignore		0.0	0.0	1		true	0.0		1.0
-0		20	0	2.0	6.0	12.0	false	0.0	24.0	0.1	ovn_spell_desert_burning_hands	1.0	true	composite_scene\spells_and_abilities\wh2_main_abilities_sunfang.csc	100.0	target_near_edge	1.ignore		0.0	0.0	1		true	24.0		1.0
-0		20	10	2.0	6.0	12.0	false	0.0	24.0	0.1	ovn_spell_desert_burning_hands_upgraded	1.0	true	composite_scene\spells_and_abilities\wh2_main_abilities_sunfang.csc	100.0	target_near_edge	1.ignore		0.0	0.0	1		true	24.0		1.0

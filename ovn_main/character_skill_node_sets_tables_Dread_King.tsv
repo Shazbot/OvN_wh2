@@ -1,4 +1,0 @@
-character_skill_node_sets_tables	2
-agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
-general			wh2_main_skill_node_set_tmb_Dread_King		false	false	Dread_King
-general			elo_hand_of_nagash		false	false	elo_hand_of_nagash

@@ -1,8 +1,0 @@
-building_chains_tables	6
-key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
-ovn_fimir_income			money	false	wh_main_sch_norsca_outpost_income		7	
-ovn_fimir_agent			military	false	wh2_main_sch_military2_stables		7	
-ovn_fimir_mil			military	false	wh2_main_sch_military1_barracks		7	
-ovn_fimir_nor			military	false	wh_main_sch_norsca_military		7	
-ovn_fimir_beast			military	false	wh2_main_sch_military4_monsters		7	
-ovn_fimir_agrul_migdhal_landmark			money	false	ovn_fimir_agrul_migdhal_landmark		7	

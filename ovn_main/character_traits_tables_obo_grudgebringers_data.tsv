@@ -1,7 +1,0 @@
-character_traits_tables	2
-key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
-grudge_trait_name_dummy_vladimir_stormbringer	1	true	99	personality	0	
-grudge_trait_name_dummy_luther_flamestrike	1	true	99	personality	0	
-grudge_trait_name_dummy_alloy	1	true	99	personality	0	
-grudge_trait_name_dummy_gunther	1	true	99	personality	0	
-grudge_trait_name_dummy_ubersbrom	1	true	99	personality	0	

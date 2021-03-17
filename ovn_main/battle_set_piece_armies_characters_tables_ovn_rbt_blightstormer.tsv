@@ -1,3 +1,0 @@
-battle_set_piece_armies_characters_tables	7
-character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-1	ovn_rbt_blightstormer	2147359797	wh2_main_lore_plague	100	1725206863	ovn_rbt_ch_blightstormer	wizard	rbt_blightstormer	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	3023082		true

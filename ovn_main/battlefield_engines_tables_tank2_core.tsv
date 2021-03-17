@@ -1,3 +1,0 @@
-battlefield_engines_tables	19
-destroyed_model	destruction_animation	engine_type	gun_animation_table	key	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	first_person	destruct_model	destruct_anim	destruct_meta
-warmachines\engines\emp_steam_tank\emp_steam_tank_destroyed_01.rigid_model_v2	emp_steam_tank_destruct	Generic_No_Crew_Rotate	wm_steam_tank01	wh_main_dwf_veh_dwarf_tank		dwf_dwarf_tank	wh_main_vehicle_steam_tank				warmachines\engines\emp_steam_tank\tech		emp_steamtank			

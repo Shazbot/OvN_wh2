@@ -1,5 +1,0 @@
-battle_set_piece_armies_characters_tables	7
-character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-1	aky_chief_fimir_great_weapons_0	164295142		100	1513022302	aky_chief_fimir_great_weapons_0	general	aky_chief_fimir_great_weapons	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_fimir_great_weapons_0.png	1326263180		true
-1	aky_chief_wolf_werekin_0	1091358184		100	1132597213	aky_chief_wolf_werekin_0	general	aky_chief_wolf_werekin	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_wolf_werekin_0.png	1531994451		true
-1	aky_chief_wolf_werekin_1_terrorgheist_0	1091358184		100	1132597213	aky_chief_wolf_werekin_1_terrorgheist	general	aky_chief_wolf_werekin	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_wolf_werekin_0.png	1531994451		true

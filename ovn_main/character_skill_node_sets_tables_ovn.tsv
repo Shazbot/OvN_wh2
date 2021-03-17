@@ -1,0 +1,49 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			ovn_skill_node_set_olorin_the_grey_wizard		false	false	ovn_com_olorin_the_grey_wizard
+champion			ovn_skill_node_set_aragand_the_layabout		false	false	ovn_com_aragand_the_layabout
+spy			ovn_skill_node_set_legles_the_elf		false	false	ovn_com_legles_the_elf
+champion			ovn_skill_node_set_giblit_the_dwarf		false	false	ovn_com_giblit_the_dwarf
+wizard			ovn_skill_node_set_arb_magician_life		false	false	arb_magician_life
+wizard			ovn_skill_node_set_arb_magician_desert		false	false	arb_magician_desert
+wizard			ovn_skill_node_set_arb_magician_fire		false	false	arb_magician_fire
+wizard			ovn_skill_node_set_arb_magician_heavens		false	false	arb_magician_heavens
+general			wh2_main_skill_node_set_tmb_Dread_King		false	false	Dread_King
+general			elo_hand_of_nagash		false	false	elo_hand_of_nagash
+general			wh_main_skill_node_set_sultan_jaffar		false	false	Sultan_Jaffar
+general			aky_chief_fimir_great_weapons_skills		false	false	aky_chief_fimir_great_weapons
+general			aky_chief_wolf_werekin_skills		false	false	aky_chief_wolf_werekin
+spy			wh2_main_skill_node_set_arb_roy_nomad		false	false	roy_arb_nomad
+champion			wh2_main_skill_node_set_arb_roy_champion		false	false	roy_arb_champion
+general			wh_main_skill_node_set_ovn_araby_ll		false	false	ovn_araby_ll
+general			wh_main_skill_node_set_chs_belakor		false	false	belakor
+champion			node_set_dread_centurion	wh2_dlc09_sc_tmb_tomb_kings	false	false	elo_dread_centurion
+general			elo_liche_general		false	false	elo_liche_general
+general			elo_troll_lord		false	false	elo_cha_troll_lord
+general			elo_chief_ugma		false	false	elo_chief_ugma
+general			wh_main_skill_node_set_ovn_hlf_ll		false	false	ovn_hlf_ll
+general			morgan_bernhardt		false	false	morgan_bernhardt
+wizard			vladimir_stormbringer		false	false	vladimir_stormbringer
+general			node_set_warleader	wh_main_sc_nor_albion	false	false	albion_warleader
+general			node_set_truth_beasts	wh_main_sc_nor_albion	false	false	albion_truthsayer_beast
+general			node_set_truth_light	wh_main_sc_nor_albion	false	false	albion_truthsayer_light
+general			node_set_truth_life	wh_main_sc_nor_albion	false	false	albion_truthsayer_life
+general			node_set_truth_truth	wh_main_sc_nor_albion	false	false	albion_truthsayer_truth
+champion			node_set_albion_chief	wh_main_sc_nor_albion	false	false	albion_chief
+wizard			node_set_albion_wizard	wh_main_sc_nor_albion	false	false	albion_wyrd_druid
+general			node_set_morrigan	wh_main_sc_nor_albion	false	false	albion_morrigan
+general			node_set_dural_durak	wh_main_sc_nor_albion	false	false	bl_elo_dural_durak
+general			wh_main_skill_node_fim_meargh_skattach		false	false	fim_meargh_skattach
+general			wh_main_skill_node_set_nor_lord	wh_main_sc_nor_warp	false	false	
+general			wh_main_skill_node_set_nor_lord	wh_main_sc_nor_fimir	false	false	
+general			wh_main_skill_node_set_nor_lord	wh_main_sc_nor_troll	false	false	
+wizard			wh2_main_skill_node_set_ovn_rbt_blightstormer		false	false	rbt_blightstormer
+general			wh_main_skill_node_set_ribspreader		false	false	ribspreader
+general			wh_main_skill_node_set_emp_stormrider		false	false	ovn_stormrider
+general			wh_main_skill_node_set_arb_fatandira		false	false	arb_fatandira
+general			wh_main_skill_node_set_arb_golden_magus		false	false	arb_golden_magus
+general			wh_main_skill_node_set_hlf_glibfoot		false	false	ovn_hlf_glibfoot
+general			wh_main_skill_node_set_ovn_hlf_moot_general		false	false	ovn_hlf_moot_general
+spy			wh_main_skill_node_set_ovn_hlf_fieldwarden		false	false	ovn_hlf_fieldwarden
+dignitary			wh_main_skill_node_set_hlf_master_chef		false	false	ovn_hlf_master_chef
+champion			wh_main_skill_node_set_hlf_sheriff		false	false	ovn_hlf_sheriff

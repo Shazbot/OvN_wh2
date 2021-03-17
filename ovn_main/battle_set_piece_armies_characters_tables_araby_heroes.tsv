@@ -1,5 +1,0 @@
-battle_set_piece_armies_characters_tables	7
-character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-1	roy_arb_cha_nomad	3508823146		100	3508823147	roy_arb_cha_nomad	spy	roy_arb_nomad	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	32823075		true
-1	roy_arb_cha_champion	3508823148		100	3508823149	roy_arb_cha_champion	champion	roy_arb_champion	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	32823068		true
-1	roy_arb_cha_nomad_assassin	3508823146		100	3508823147	roy_arb_cha_nomad_assassin	spy	roy_arb_nomad	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	32823076		true

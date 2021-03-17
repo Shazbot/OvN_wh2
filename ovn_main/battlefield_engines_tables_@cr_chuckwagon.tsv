@@ -1,3 +1,0 @@
-battlefield_engines_tables	19
-destroyed_model	destruction_animation	engine_type	gun_animation_table	key	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	first_person	destruct_model	destruct_anim	destruct_meta
-warmachines\carriage\mtl_chuckwagon\mtl_chuckwagon_destroyed_01.wsmodel	mtl_chuckwagon_destruct	Generic_No_Crew_Rotate	wm_war_altar01	ovn_mtl_veh_chuckwagon		mtl_chuckwagon	ovn_vehicle_chuckwagon			ap_draughtposition	warmachines\carriage\mtl_chuckwagon\tech					

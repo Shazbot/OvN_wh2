@@ -1,3 +1,0 @@
-battle_vortexs_tables	16
-change_max_angle	contact_effect	damage	damage_ap	duration	expansion_speed	goal_radius	infinite_height	move_change_freq	movement_speed	start_radius	vortex_key	ignition_amount	is_magical	composite_scene	detonation_force	launch_source	building_collision	launch_vfx	height_off_ground	delay	num_vortexes	composite_scene_blood	affects_allies	launch_source_offset	composite_scene_group	delay_between_vortexes
-0	wh_main_unit_contact_souped	12	0	1.0	15.0	15.0	false	0.0	0.0	0.1	hlf_master_chef_flush_soup	0.0	true	composite_scene\spells_and_abilities\empty.csc	100.0	target_centre	1.ignore	wh_main_soup_projectile_splash	0.0	1.5	1		false	0.0		1.0
