@@ -72,7 +72,7 @@ wh2_main_nor_rotbloods	false	wh_main_nor_cav_marauder_horsemen_0	true	true				fa
 wh2_main_nor_rotbloods	false	wh_main_nor_cav_marauder_horsemen_1	true	true				false
 wh2_main_nor_rotbloods	false	wh_dlc08_nor_inf_marauder_hunters_0	true	true				false
 wh2_main_nor_rotbloods	false	wh_dlc08_nor_inf_marauder_hunters_1	true	true				false
-wh2_main_nor_rotbloods	false	wh_main_chs_inf_chaos_marauders_0	true	true				false
+wh2_main_nor_rotbloods	false	wh_main_nor_inf_chaos_marauders_0	true	true				false
 wh2_main_nor_rotbloods	false	wh_dlc06_chs_inf_aspiring_champions_0	true	true				false
 wh2_main_nor_rotbloods	false	wh_pro04_chs_art_hellcannon_ror_0	true	true				false
 wh2_main_nor_rotbloods	false	wh_pro04_chs_cav_chaos_knights_ror_0	true	true				false
