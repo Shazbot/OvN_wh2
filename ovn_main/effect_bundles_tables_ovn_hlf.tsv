@@ -1,0 +1,5 @@
+effect_bundles_tables	3
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
+ovn_hlf_comradeship_unlock	"No ‘shroom more bitter, dis stickier than a Squig’s bum!"	Indigo Milk Caps	faction	1	treasure_map.png	false
+ovn_hlf_missions_unlock_ingredient	"No ‘shroom more bitter, dis stickier than a Squig’s bum!"	Indigo Milk Caps	faction	1	random_food_ingredient.png	false
+ovn_create_restaurant_cooldown	A Vampire Coven has been established recently, more time is required until we can efficiently establish another.	Vampire Coven Established	faction	1	edict_host_festag.png	true

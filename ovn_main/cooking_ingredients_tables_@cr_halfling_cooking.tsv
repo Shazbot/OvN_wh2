@@ -1,4 +1,4 @@
-cooking_ingredients_tables	2
+cooking_ingredients_tables	3
 faction_effects	faction_leader_effects	group	icon	key	vo_trigger
 ovn_food_cereals_1		ovn_cereals	ui/skins/default/halfling_ingredients_spelt.png	ovn_spelt	
 ovn_food_cereals_2		ovn_cereals	ui/skins/default/halfling_ingredients_rye.png	ovn_rye	

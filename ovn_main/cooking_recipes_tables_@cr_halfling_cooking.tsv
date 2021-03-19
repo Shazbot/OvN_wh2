@@ -1,4 +1,4 @@
-cooking_recipes_tables	3
+cooking_recipes_tables	4
 faction_effects	faction_leader_effects	icon	key	resource_cost	vo_trigger
 ovn_food_dish_1		ui/skins/default/hlf_recipe_meat_pie.png	ovn_food_dish_1	ovn_cooking_cost	
 ovn_food_dish_2		ui/skins/default/hlf_recipe_savory_roast.png	ovn_food_dish_2	ovn_cooking_cost	

@@ -1,11 +1,11 @@
-special_ability_groups_tables	8
-ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group
-ovn_lore_desert	UI\Battle UI\ability_icons\ovn_lore_passive_blessing_of_the_elements.png	0	25	false	171	129	65	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	false
-elo_lore_truthsayer	UI\Battle UI\ability_icons\truthsayer_lore.png	0	11	false	114	278	98	lore_truth	Play_WH_UI_Ability_Click_Generic_Life	false
-elo_lore_morrigan	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	23	false	135	25	131	lore_morrigan	Play_WH_UI_Ability_Click_Generic_Beasts	true
-elo_lore_wyrd	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	11	false	114	278	98	lore_truth	Play_WH_UI_Ability_Click_Generic_Life	true
-iz_troll	UI\Battle UI\ability_icons\wh2_dlc15_hero_abilities_mither.png	0	11	false	0	0	0			true
-wh_main_lore_cold_witchering	UI\Battle UI\ability_icons\grudge_lore_cold_witchering_large.png	0	3	false	60	60	152	lore_cold_witchering	Play_WH_UI_Ability_Click_Generic_Heavens	false
-wh_main_lore_winter_rage	UI\Battle UI\ability_icons\grudge_lore_winter_rage_large.png	0	3	false	43	43	83	lore_winter_rage	Play_WH_UI_Ability_Click_Generic_Heavens	false
-ovn_lore_golden_magus	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true
-wh_main_lore_jaffar	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	119	1	11	lore_shadow	Play_WH_UI_Ability_Click_Generic_Shadow	true
+special_ability_groups_tables	9
+ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group	show_lore_icon
+ovn_lore_desert	UI\Battle UI\ability_icons\ovn_lore_passive_blessing_of_the_elements.png	0	25	false	171	129	65	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	false	true
+elo_lore_truthsayer	UI\Battle UI\ability_icons\truthsayer_lore.png	0	11	false	114	278	98	lore_truth	Play_WH_UI_Ability_Click_Generic_Life	false	true
+elo_lore_morrigan	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	23	false	135	25	131	lore_morrigan	Play_WH_UI_Ability_Click_Generic_Beasts	true	true
+elo_lore_wyrd	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	11	false	114	278	98	lore_truth	Play_WH_UI_Ability_Click_Generic_Life	true	true
+iz_troll	UI\Battle UI\ability_icons\wh2_dlc15_hero_abilities_mither.png	0	11	false	0	0	0			true	true
+wh_main_lore_cold_witchering	UI\Battle UI\ability_icons\grudge_lore_cold_witchering_large.png	0	3	false	60	60	152	lore_cold_witchering	Play_WH_UI_Ability_Click_Generic_Heavens	false	true
+wh_main_lore_winter_rage	UI\Battle UI\ability_icons\grudge_lore_winter_rage_large.png	0	3	false	43	43	83	lore_winter_rage	Play_WH_UI_Ability_Click_Generic_Heavens	false	true
+ovn_lore_golden_magus	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true	true
+wh_main_lore_jaffar	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	119	1	11	lore_shadow	Play_WH_UI_Ability_Click_Generic_Shadow	true	true
