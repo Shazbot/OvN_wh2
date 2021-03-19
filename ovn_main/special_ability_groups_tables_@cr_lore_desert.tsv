@@ -1,3 +1,0 @@
-special_ability_groups_tables	8
-ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group
-ovn_lore_desert	UI\Battle UI\ability_icons\ovn_lore_passive_blessing_of_the_elements.png	0	25	false	171	129	65	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	false

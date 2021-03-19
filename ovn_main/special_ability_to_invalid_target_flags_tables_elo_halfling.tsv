@@ -1,6 +1,0 @@
-special_ability_to_invalid_target_flags_tables	0
-invalid_target	special_ability
-morale_is_broken_or_lower	ovn_fight_eat
-morale_is_broken_or_lower	ovn_take_bite
-morale_is_higher_than_broken	ovn_dont_abandon
-engaged_in_melee	ammo_supply

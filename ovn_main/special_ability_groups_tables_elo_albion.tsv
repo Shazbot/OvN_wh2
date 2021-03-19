@@ -1,5 +1,0 @@
-special_ability_groups_tables	8
-ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group
-elo_lore_truthsayer	UI\Battle UI\ability_icons\truthsayer_lore.png	0	11	false	114	278	98	lore_truth	Play_WH_UI_Ability_Click_Generic_Life	false
-elo_lore_morrigan	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	23	false	135	25	131	lore_morrigan	Play_WH_UI_Ability_Click_Generic_Beasts	true
-elo_lore_wyrd	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	11	false	114	278	98	lore_truth	Play_WH_UI_Ability_Click_Generic_Life	true

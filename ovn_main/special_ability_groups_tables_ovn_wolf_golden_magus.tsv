@@ -1,3 +1,0 @@
-special_ability_groups_tables	8
-ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group
-ovn_lore_golden_magus	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true
