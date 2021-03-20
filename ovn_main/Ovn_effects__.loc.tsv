@@ -49,8 +49,6 @@ effect_bundles_localised_description_ovn_Nurgh	This warrior has been ordained Ch
 effect_bundles_localised_title_ovn_troll_devour	Well-Fed	true
 effect_bundles_localised_description_ovn_troll_devour	We iz full for now!	true
 effects_description_ovn_warp_champion	Access to the Skittergate which allows your lord to teleport across the world, when the Skaven have found enough Warpfuel that is	false
-effect_bundles_localised_title_wh2_main_lord_trait_nor_goromadny_tribe	From The Mist They Come	true
-effect_bundles_localised_description_wh2_main_lord_trait_nor_goromadny_tribe	We come for your women folk, resistance is futile!	true
 effect_bundles_localised_title_wh2_main_lord_trait_nor_trollz	Too Stupid To Care	true
 effect_bundles_localised_description_wh2_main_lord_trait_nor_trollz	We eat, we smash, we eat what we smash, what else is there?	true
 effect_bundles_localised_title_ovn_annoy_chaos_gods_2	Curse of the Dark Gods	true
@@ -76,8 +74,6 @@ effect_bundles_localised_title_wh_main_lord_trait_vmp_templehof	Fallen Order	tru
 effect_bundles_localised_description_wh_main_lord_trait_vmp_templehof	Once a noble house fallen to evil ways, their cruel and surreal beliefs drive them on as mindlessly as their minions.	true
 effects_description_ovn_blood_dragon_ward	Ward save: %+n% for Blood Knights	true
 effects_description_ovn_grudgebringer_ward	Ward save: %+n% for Grudgebringer Cavalry, Grudgebringer Infantry, Grudgebringer Crossbowmen & Grudgebringer Cannon.	true
-effect_bundles_localised_title_wh2_main_lord_trait_wef_treeblood	From Hell They Come	true
-effect_bundles_localised_description_wh2_main_lord_trait_wef_treeblood	All shall bow before their Dark Master, even the Gods!	true
 effects_description_ovn_araby_tech_camel_armour	Armour: %+n for all Camel units	true
 effects_description_ovn_araby_tech_gunpowder_missle_dam	Missile strength: %+n% for Grand Bombards, Jezzails, Camel Jezzails, Manganiq, Arradah & Gajnal Juggernaut	true
 effects_description_ovn_araby_tech_gunpowder_rel	Reload time reduction: %+n% for Grand Bombards, Jezzails, Camel Jezzails, Manganiq, Arradah & Gajnal Juggernaut	true
