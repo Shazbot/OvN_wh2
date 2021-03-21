@@ -21,7 +21,7 @@ if campaign_manager then
 
 	local orig_cb = campaign_manager.callback
 
-	campaign_manager.callback = function(self, fun, delay)
+	campaign_manager.callback = function(self, fun, ...)
 		local new_fun = function(...)
 			local success, result = pcall(fun, ...)
 			if not success then
@@ -33,13 +33,13 @@ if campaign_manager then
 			return result
 		end
 
-		orig_cb(self, new_fun, delay)
+		orig_cb(self, new_fun, ...)
 	end
 end
 
 local orig_al = core.add_listener
 
-core.add_listener = function(self, listener_name, event_name, conditional, callback, is_repeating)
+core.add_listener = function(self, listener_name, event_name, conditional, callback, ...)
 	local new_conditional =
 			type(conditional) == "function"
 			and function(...)
@@ -64,5 +64,5 @@ core.add_listener = function(self, listener_name, event_name, conditional, callb
 		end
 		return result
 	end
-	return orig_al(self, listener_name, event_name, new_conditional, new_callback, is_repeating)
+	return orig_al(self, listener_name, event_name, new_conditional, new_callback, ...)
 end
