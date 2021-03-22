@@ -769,9 +769,6 @@ local function treeblood_setup()
 			local albion_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_albion")
 			cm:instantly_set_settlement_primary_slot_level(albion_region:settlement(), 3)
 
-			local wight_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_isle_of_wights")
-			cm:instantly_set_settlement_primary_slot_level(wight_region:settlement(), 2)
-
 			local belakor_spawn_data = new_forces["wh2_main_nor_harbingers_of_doom"]
 			if belakor_spawn_data then
 				belakor_spawn_data.x = 326
@@ -782,12 +779,10 @@ local function treeblood_setup()
 		else
 			cm:transfer_region_to_faction("wh_main_helspire_mountains_serpent_jetty", "wh2_main_nor_harbingers_of_doom")
 			cm:transfer_region_to_faction("wh_main_the_wasteland_aarnau", "wh2_main_nor_harbingers_of_doom")
-			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_nor_harbingers_of_doom")
 
 			local serpent_region = cm:model():world():region_manager():region_by_key("wh_main_helspire_mountains_serpent_jetty")
 			cm:instantly_set_settlement_primary_slot_level(serpent_region:settlement(), 2)
 
-			cm:heal_garrison(cm:get_region("wh2_main_albion_citadel_of_lead"):cqi())
 			cm:heal_garrison(serpent_region:cqi())
 			cm:heal_garrison(cm:get_region("wh_main_the_wasteland_aarnau"):cqi())
 		end
@@ -841,6 +836,8 @@ local function albion_setup()
 
 	add_cqi_to_murdered_list(albion_faction_leader_cqi)
 
+	local harbingers_of_doom = cm:get_faction("wh2_main_nor_harbingers_of_doom")
+
 	if albion and (albion:is_human() or not mct or settings_table.albion and settings_table.enable) then
 		cm:transfer_region_to_faction("wh2_main_albion_albion", "wh2_main_nor_albion")
 		cm:heal_garrison(cm:get_region("wh2_main_albion_albion"):cqi())
@@ -850,12 +847,14 @@ local function albion_setup()
 
 		cm:force_diplomacy("faction:wh2_main_nor_albion", "culture:wh2_main_hef_high_elves", "vassal", false, false, true);
 
-		local fimir_albion_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_citadel_of_lead")
+		if not harbingers_of_doom or not harbingers_of_doom:is_human() then
+			local citadel_of_lead = cm:get_region("wh2_main_albion_citadel_of_lead")
+			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_nor_albion")
+			cm:heal_garrison(citadel_of_lead:cqi())
+		end
 
 		if albion:is_human() then
-			cm:instantly_set_settlement_primary_slot_level(fimir_albion_region:settlement(), 3)
 			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_nor_albion", false, false)
-
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
 				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_main_chs_inf_chaos_marauders_0",
@@ -867,8 +866,6 @@ local function albion_setup()
 					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
 				end
 			)
-		else
-			cm:transfer_region_to_faction("wh2_main_albion_isle_of_wights", "wh2_main_nor_albion")
 		end
 
 		local is_durak_starting_lord = core:svr_load_bool("ovn_albion_dural_durak_is_leader")
@@ -1060,7 +1057,7 @@ local function fimir_setup()
             local naglfari_region = cm:get_region("wh_main_mountains_of_naglfari_naglfari_plain")
             cm:heal_garrison(naglfari_region:cqi())
         end
-            
+
 		table.insert(factions, faction_key)
 	end
 end
