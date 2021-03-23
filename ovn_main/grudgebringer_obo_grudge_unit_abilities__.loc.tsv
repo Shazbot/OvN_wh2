@@ -9,7 +9,7 @@ unit_abilities_onscreen_name_grudge_hero_abilities_arrow_of_kurnous	Rage of the 
 unit_abilities_onscreen_name_grudge_hero_abilities_shrapnel_shot	Shrapnel Shot	true
 unit_abilities_onscreen_name_grudge_hero_abilities_pepperpot	Pepperpot	true
 unit_abilities_tooltip_text_grudge_hero_abilities_shrapnel_shot	If the enemy infantry is near, give 'em a punch.	true
-unit_abilities_tooltip_text_grudge_hero_abilities_pepperpot	There are too many of them! Load our mortar with a bunch of dwarven grenades!	true
+unit_abilities_tooltip_text_grudge_hero_abilities_pepperpot	There are too many of them! Load our mortar with a bunch of dwarfen grenades!	true
 unit_abilities_onscreen_name_spell_ice_shield_of_cold	Shield of Cold	true
 unit_abilities_tooltip_text_spell_ice_shield_of_cold	This spell creates a frozen shield that protects the chosen friendly regiment from any damage.	true
 unit_abilities_onscreen_name_spell_ice_shield_of_cold_upgraded	Shield of Cold Reinforced	true
