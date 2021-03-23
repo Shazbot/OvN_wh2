@@ -236,7 +236,7 @@ mod.get_attacking_force_power = function()
 	local turn_number = cm:turn_number()
 	local turn_mod = 0
 
-	turn_mod = math.floor(turn_number/10) + 1
+	turn_mod = math.floor(turn_number/15)
 
 	local difficulty = cm:get_difficulty()
 
