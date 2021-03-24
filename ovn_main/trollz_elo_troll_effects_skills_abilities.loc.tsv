@@ -8,5 +8,5 @@ effects_description_enable_tantrum	Ability: "Reckless Rampage"	true
 effects_description_sickness_host	Ability: "Host to Terrifying Afflictions"	true
 effects_description_enable_stink	Ability: "Stink Baaaad!"	true
 effects_description_enable_death_stench	Ability: "Stench of Death!"	false
-effects_description_disable_horrible_stench	Replaces: "Stink Baaaad!"	false
+effects_description_disable_horrible_stench	Replaces: "Overwhelming Odor"	false
 effects_description_enable_mon_strength	Ability: "Monstrous Strength"	false

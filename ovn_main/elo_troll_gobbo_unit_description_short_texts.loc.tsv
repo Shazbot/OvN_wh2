@@ -1,4 +1,6 @@
 Loc PackedFile	1
 key	text	tooltip
-unit_description_short_texts_text_elo_carrion_gobbo_bow	The Goblins of the Carrion Tribe have been subdued by Ugma and are used as scouts, forced to find food or be eaten instead. They are largely ignored by the Trolls as long as they find enough food, so many still prefer this arrangement over serving orcs.	true
+unit_description_short_texts_text_elo_carrion_gobbo_bow	Wandering goblins can sometimes be found trailing Troll tribes in hope of picking clean any discarded carcasses. Ugma pressed these gobbos into service and they make for good scouts and archers keeping scavengers away.	true
+unit_description_short_texts_text_elo_carrion_gobbo_squig	The Goblins of the Carrion Tribe are largely ignored by the Trolls as long as they find enough food, something the squig hoppers have no difficulty in.  At any rate it's a much better deal than you'd get under an orc.	true
+unit_description_short_texts_text_elo_carrion_gobbo	The number of goblins under Ugma's service grew so large he ordained them as the Carrion Tribe, with a new sense of belonging these outcasts gladly make up the chaff for Ugma's armies	true
 unit_description_short_texts_text_elo_night_trolls_ror	These terrifying creatures are similar in appearance to their kin the Stone Trolls but of a much darker complexion. They are attributed in myth to utter a deep guttural sound, akin to mocking laughter before they tear their prey to pieces."	true
