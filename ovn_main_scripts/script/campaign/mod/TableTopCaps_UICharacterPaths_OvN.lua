@@ -1,26 +1,18 @@
-local rm = _G.rm
+local rm = core:get_static_object("recruitment_manager") 
 
 local ovn_subcultures = {
-    "wh_main_sc_nor_warp",
-    "wh_main_sc_nor_fimir",
-    "wh_main_sc_nor_troll",
-    "wh_main_sc_lzd_amazon",
-    "wh_main_sc_emp_araby",
-    "wh_main_sc_nor_albion"
+  "wh_main_sc_nor_warp",
+  "wh_main_sc_nor_fimir",
+  "wh_main_sc_nor_troll",
+  "wh_main_sc_lzd_amazon",
+  "wh_main_sc_emp_araby",
+  "wh_main_sc_nor_albion"
 } 
+
 local ship_subtypes = {
     "arb_golden_magus"
 }
-cm.first_tick_callbacks[#cm.first_tick_callbacks+1] = function(context) 
-  if not not rm then
-    for i = 1, #default_cultures do
-      rm:add_subculture_path_filter(ovn_subcultures [i], "NormalFaction")
-    end
-    for i = 1, #ship_subtypes do
-      rm:add_subtype_path_filter(ship_subtypes[i], "CharBoundHordeWithGlobal")
-    end
-  end
-end
+
 
 local prefix_to_subculture = {
     wrp = "wh_main_sc_nor_warp",
@@ -31,13 +23,11 @@ local prefix_to_subculture = {
     alb = "wh_main_sc_nor_albion"
 }
 
-for prefix, subculture in pairs(prefix_to_subculture) do
-    rm:set_group_prefix_for_subculture(subculture, prefix)
-end
+
 
 local main_unit_to_land_units = {
-    ["ovn_boglar_no_garrison"] = "ovn_boglar_no_garrison",
-    ["ovn_shearl_no_garrison"] = "ovn_shearl_no_garrison",
+    ["ovn_boglar_no_garrison"] = "ovn_boglar",
+    ["ovn_shearl_no_garrison"] = "ovn_shearl",
     ["wh_dlc01_chs_inf_chaos_warriors_2_no_garrison"] = "wh_dlc01_chs_inf_chaos_warriors_2",
     ["wh_main_chs_inf_chaos_warriors_1_no_garrison"] = "wh_main_chs_inf_chaos_warriors_1",
     ["wh_main_nor_cav_marauder_horsemen_0_no_garrison"] = "wh_main_nor_cav_marauder_horsemen_0",
@@ -49,8 +39,21 @@ local main_unit_to_land_units = {
     ["ovn_troll_mon_wyvern"] = "wh2_dlc15_grn_mon_wyvern_waaagh_0"
 }--:map<string, string>
 
-rm:add_post_setup_callback(function()
-    for main_unit_key, land_unit_key in pairs(main_unit_to_land_units) do
-        rm:get_unit(main_unit_key):set_land_unit(land_unit_key)
+
+
+if not not rm then
+  rm:add_post_setup_callback(function()
+    for prefix, subculture in pairs(prefix_to_subculture) do
+      rm:set_group_prefix_for_subculture(subculture, prefix)
     end
-end)
+    for i = 1, #ovn_subcultures do
+      rm:add_subculture_path_filter(ovn_subcultures [i], "NormalFaction")
+    end
+    for i = 1, #ship_subtypes do
+      rm:add_subtype_path_filter(ship_subtypes[i], "CharBoundHordeWithGlobal")
+    end
+    for main_unit_key, land_unit_key in pairs(main_unit_to_land_units) do
+      rm:get_unit(main_unit_key):set_land_unit(land_unit_key)
+    end
+  end)
+end
