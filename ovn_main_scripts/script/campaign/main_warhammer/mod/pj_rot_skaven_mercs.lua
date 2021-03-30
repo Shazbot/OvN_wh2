@@ -292,6 +292,9 @@ local data = {
 			wh2_main_skv_veh_doomwheel = 40,
 			wh2_dlc16_skv_mon_brood_horror_0 = 40,
 			wh2_dlc16_skv_mon_rat_ogre_mutant = 40,
+			CTT_skv_inf_death_globe_bombardiers = 20,
+			CTT_skv_inf_warpfire_thrower = 20,
+			CTT_skv_inf_ratling_gun_0 = 30,
 		},
 	},
 }
@@ -316,6 +319,9 @@ mod.num_times_purchased = mod.num_times_purchased or
 	wh2_main_skv_veh_doomwheel = 0,
 	wh2_dlc16_skv_mon_brood_horror_0 = 0,
 	wh2_dlc16_skv_mon_rat_ogre_mutant = 0,
+	CTT_skv_inf_death_globe_bombardiers = 0,
+	CTT_skv_inf_warpfire_thrower = 0,
+	CTT_skv_inf_ratling_gun_0 = 0,
 }
 
 local function handle_unit_component(unit_component, num_res_req, is_valid, banner_path, localized_tooltip, unit_key)
