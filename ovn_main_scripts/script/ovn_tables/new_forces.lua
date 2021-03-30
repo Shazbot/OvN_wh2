@@ -87,25 +87,6 @@ local new_forces = {
                 end
         },]]
 
-        wh2_main_hef_citadel_of_dusk = {
-            faction_key = "wh2_main_hef_citadel_of_dusk",
-            unit_list = "wh2_dlc10_hef_inf_the_storm_riders_ror_0,wh2_main_hef_inf_spearmen_0,wh2_main_hef_inf_swordmasters_of_hoeth_0,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,wh2_main_hef_mon_great_eagle",
-            region_key = "wh2_main_land_of_assassins_sorcerers_islands",
-            x = 215,
-            y = 15,
-            type = "general",
-            subtype = "ovn_stormrider",
-            name1 = "names_name_999982321",
-            name2 = "",
-            name3 = "",
-            name4 = "",
-            make_faction_leader = true,
-            callback =
-                function(cqi)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
-                end
-        },
-
         wh2_main_nor_harbingers_of_doom = {
             faction_key = "wh2_main_nor_harbingers_of_doom",
             unit_list = "kho_bloodletter,ovn_shearl,wh_main_chs_inf_chaos_marauders_0,ovn_fimm,ovn_boglar,ovn_boglar,elo_fenbeast",
@@ -435,26 +416,6 @@ local new_forces = {
                     -- MODEL OVERRIDE NECESSCARY OR WILL DEFAULT TO BRIGHT WIZARD
                 end
         },
-
-        wh2_main_hef_citadel_of_dusk = {
-            faction_key = "wh2_main_hef_citadel_of_dusk",
-            unit_list = "wh2_dlc10_hef_inf_the_storm_riders_ror_0,wh2_main_hef_inf_spearmen_0,wh2_main_hef_inf_swordmasters_of_hoeth_0,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,wh2_main_hef_mon_great_eagle",
-            region_key = "wh2_main_vor_cothique_mistnar",
-            x = 330,
-            y = 57,
-            type = "general",
-            subtype = "ovn_stormrider",
-            name1 = "names_name_999982321",
-            name2 = "",
-            name3 = "",
-            name4 = "",
-            make_faction_leader = true,
-            callback =
-                function(cqi)
-                cm:set_character_unique("character_cqi:"..cqi, true);
-                end
-        },
-
     }
 }
 

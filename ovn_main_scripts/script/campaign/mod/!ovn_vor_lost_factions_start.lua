@@ -390,6 +390,25 @@ local function citadel_setup()
 			end
 		)
 
+		cm:create_force_with_general(
+			"wh2_main_hef_citadel_of_dusk",
+			"wh2_dlc10_hef_inf_the_storm_riders_ror_0,wh2_main_hef_inf_spearmen_0,wh2_main_hef_inf_swordmasters_of_hoeth_0,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,wh2_main_hef_mon_great_eagle",
+			"wh2_main_vor_cothique_mistnar",
+			330,
+			57,
+			"general",
+			"ovn_stormrider",
+			"names_name_999982321",
+			"",
+			"",
+			"",
+			true,
+			function(cqi)
+				local str = "character_cqi:" .. cqi
+				cm:set_character_unique(str, true)
+			end
+		)
+
 		--local unit_key = "chosen_asur_lions" -- String unit_record
 		local unit_count = 1 -- card32 count
 		local rcp = 0 -- float32 replenishment_chance_percentage

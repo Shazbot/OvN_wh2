@@ -521,6 +521,25 @@ local function citadel_setup()
 			"wh2_main_headhunters_jungle_mangrove_coast"
 		)
 
+		cm:create_force_with_general(
+			"wh2_main_hef_citadel_of_dusk",
+			"wh2_dlc10_hef_inf_the_storm_riders_ror_0,wh2_main_hef_inf_spearmen_0,wh2_main_hef_inf_swordmasters_of_hoeth_0,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,wh2_main_hef_mon_great_eagle",
+			"wh2_main_land_of_assassins_sorcerers_islands",
+			215,
+			15,
+			"general",
+			"ovn_stormrider",
+			"names_name_999982321",
+			"",
+			"",
+			"",
+			true,
+			function(cqi)
+				local str = "character_cqi:" .. cqi
+				cm:set_character_unique(str, true)
+			end
+		)
+
 		--cm:transfer_region_to_faction("wh2_main_cothique_tor_koruali", "wh2_main_skv_clan_gnaw")
 		--cm:heal_garrison(cm:get_region("wh2_main_cothique_tor_koruali"):cqi())
 
