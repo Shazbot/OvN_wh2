@@ -1,0 +1,8 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_arb_caliphate_of_araby	false	wh_main_arb_cav_magic_carpet_0	true	true				false
+wh2_main_arb_aswad_scythans	false	wh_main_arb_cav_magic_carpet_0	true	true				false
+wh2_main_arb_flaming_scimitar	false	wh_main_arb_cav_magic_carpet_0	true	true				false
+wh2_main_arb_caliphate_of_araby	false	ovn_arb_cav_flying_carpet_ror	true	true				false
+wh2_main_arb_aswad_scythans	false	ovn_arb_cav_flying_carpet_ror	true	true				false
+wh2_main_arb_flaming_scimitar	false	ovn_arb_cav_flying_carpet_ror	true	true				false

@@ -1,0 +1,6 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh_main_skill_node_set_arb_vizier_fire		false	false	arb_vizier_fire_0
+general			wh_main_skill_node_set_arb_vizier_life		false	false	arb_vizier_life_0
+general			wh_main_skill_node_set_arb_vizier_heavens		false	false	arb_vizier_heavens_0
+general			wh_main_skill_node_set_arb_vizier_desert		false	false	arb_vizier_desert_0

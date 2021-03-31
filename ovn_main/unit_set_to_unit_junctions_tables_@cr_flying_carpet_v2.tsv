@@ -1,0 +1,11 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				wh_main_arb_cav_magic_carpet_0	mp_cap_missile_cav_chariots
+false				wh_main_arb_cav_magic_carpet_0	mp_set_flying_unit
+false				wh_main_arb_cav_magic_carpet_0	ovn_araby_magic_r7
+false				wh_main_arb_cav_magic_carpet_0	ovn_araby_magic_prom
+false				ovn_arb_cav_flying_carpet_ror	mp_cap_missile_cav_chariots
+false				ovn_arb_cav_flying_carpet_ror	mp_set_flying_unit
+false				ovn_arb_cav_flying_carpet_ror	wh2_main_ror_units_all
+false				ovn_arb_cav_flying_carpet_ror	ovn_araby_magic_r7
+false				ovn_arb_cav_flying_carpet_ror	ovn_araby_magic_prom

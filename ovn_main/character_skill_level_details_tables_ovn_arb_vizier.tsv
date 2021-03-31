@@ -1,0 +1,13 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	arb_vizier_administrator		9
+		x	1	arb_vizier_scholar		9
+		x	1	arb_vizier_schemer		9
+		x	1	arb_vizier_life_magic_carpet		12
+		x	1	arb_vizier_life_camel		6
+		x	1	arb_vizier_fire_magic_carpet		12
+		x	1	arb_vizier_fire_camel		6
+		x	1	arb_vizier_heavens_magic_carpet		12
+		x	1	arb_vizier_heavens_camel		6
+		x	1	arb_vizier_desert_magic_carpet		12
+		x	1	arb_vizier_desert_camel		6

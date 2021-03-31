@@ -1,0 +1,13 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+campaign_military_spending.png	arb_vizier_administrator			10	false	false	false	0.0	0
+character_magic.png	arb_vizier_scholar			10	false	false	false	0.0	0
+campaign_chaos_corruption.png	arb_vizier_schemer			10	false	false	false	0.0	0
+mount_magic_carpet.png	arb_vizier_life_magic_carpet			6	false	false	false	0.0	0
+mount_arb_camel.png	arb_vizier_life_camel			10	false	false	false	0.0	0
+mount_magic_carpet.png	arb_vizier_desert_magic_carpet			6	false	false	false	0.0	0
+mount_arb_camel.png	arb_vizier_desert_camel			10	false	false	false	0.0	0
+mount_magic_carpet.png	arb_vizier_fire_magic_carpet			6	false	false	false	0.0	0
+mount_arb_camel.png	arb_vizier_fire_camel			10	false	false	false	0.0	0
+mount_magic_carpet.png	arb_vizier_heavens_magic_carpet			6	false	false	false	0.0	0
+mount_arb_camel.png	arb_vizier_heavens_camel			10	false	false	false	0.0	0

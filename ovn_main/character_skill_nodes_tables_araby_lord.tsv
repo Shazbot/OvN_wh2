@@ -47,18 +47,7 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	wh_main_skill_all_all_self_deadly_onslaught	wh_main_skill_node_set_ovn_araby_ll		1.0	wh_main_skill_node_ovn_araby_ll_self_11	10.0		0	0	true
 	sword	wh_main_skill_node_set_ovn_araby_ll		1.0	wh_main_skill_node_ovn_araby_ll_self_12	11.0		0	4	true
 	rattlesnake_staff	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_01	1.0		0	0	true
-	Djinn	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_02	2.0		0	0	true
 	Talisman	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_05	0.0		0	0	true
-	ovn_skill_magic_desert_mirage	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_01	0.0		0	0	true
-	ovn_skill_magic_desert_sunstrike	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_02	1.0		0	0	true
-	ovn_skill_magic_desert_sandstorm	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_03	2.0		0	0	true
-	ovn_skill_magic_desert_quicksand	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_04	3.0		0	0	true
-	ovn_skill_magic_desert_burning_hands	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_05	4.0		0	4	true
-	wh_main_skill_all_magic_fire_01_fireball	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_06	5.0		0	0	true
-	wh_main_skill_all_magic_fire_10_flame_storm	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_07	8.0		0	0	true
-	wh_main_skill_all_magic_fire_05_the_burning_head	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_08	9.0		0	0	true
-	wh_main_skill_all_magic_fire_03_flaming_sword_of_rhuin	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_09	10.0		0	0	true
-	wh_main_skill_all_magic_fire_09_piercing_bolts_of_burning	wh_main_skill_node_set_ovn_araby_ll		2.0	wh_main_skill_node_ovn_araby_ll_magic_10	11.0		0	4	true
 	Order_Buff	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_13	6.0		0	0	true
 	Chaos_Buff	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_14	7.0		0	0	true
 	arb_scythan_tomb_king_units	wh_main_skill_node_set_ovn_araby_ll	wh2_main_arb_aswad_scythans	0.0	wh_main_skill_node_ovn_araby_ll_unique_17	9.0		0	0	true
@@ -67,14 +56,4 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	ovn_skill_arb_lord_mount_horse	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_03	3.0		0	0	true
 	Mount	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_04	4.0		0	0	true
 	Mount_Elephant	wh_main_skill_node_set_ovn_araby_ll		0.0	wh_main_skill_node_ovn_araby_ll_unique_06	5.0		0	0	true
-	wh_dlc05_skill_magic_life_wizard_awakening_of_the_wood	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_01_b	0.0		0	0	true
-	wh_dlc05_skill_magic_life_wizard_shield_of_thorns	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_02_b	1.0		0	0	true
-	wh_dlc05_skill_magic_life_wizard_earth_blood	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_03_b	2.0		0	0	true
-	wh_dlc05_skill_magic_life_wizard_flesh_to_stone	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_04_b	3.0		0	0	true
-	wh_dlc05_skill_magic_life_wizard_regrowth	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_05_b	4.0		0	4	true
-	wh_main_skill_all_magic_heavens_01_harmonic_convergence	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_06_b	5.0		0	0	true
-	wh_main_skill_all_magic_heavens_02_wind_blast	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_07_b	8.0		0	0	true
-	wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_08_b	9.0		0	0	true
-	wh_main_skill_all_magic_heavens_05_urannons_thunderbolt	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_09_b	10.0		0	0	true
-	wh_main_skill_all_magic_heavens_10_chain_lightning	wh_main_skill_node_set_ovn_araby_ll		3.0	wh_main_skill_node_ovn_araby_ll_magic_10_b	11.0		0	4	true
 	ovn_buff_araby_vamp_coast	wh_main_skill_node_set_ovn_araby_ll	wh2_main_arb_flaming_scimitar	4.0	wh_main_skill_node_ovn_araby_ll_battle_07	7.0		0	0	true

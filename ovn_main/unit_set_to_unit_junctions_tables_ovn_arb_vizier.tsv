@@ -1,0 +1,18 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				arb_vizier_fire_0	emp_characters
+false				arb_vizier_fire_1	emp_characters
+false				arb_vizier_fire_2	emp_characters
+false				arb_vizier_fire_2	flying_units
+false				arb_vizier_life_0	emp_characters
+false				arb_vizier_life_1	emp_characters
+false				arb_vizier_life_2	emp_characters
+false				arb_vizier_life_2	flying_units
+false				arb_vizier_heavens_0	emp_characters
+false				arb_vizier_heavens_1	emp_characters
+false				arb_vizier_heavens_2	emp_characters
+false				arb_vizier_heavens_2	flying_units
+false				arb_vizier_desert_0	emp_characters
+false				arb_vizier_desert_1	emp_characters
+false				arb_vizier_desert_2	emp_characters
+false				arb_vizier_desert_2	flying_units

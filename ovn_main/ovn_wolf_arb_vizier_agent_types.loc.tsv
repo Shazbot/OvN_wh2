@@ -1,0 +1,7 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_recruitment_categories_onscreen_name_arb_vizier	Grand Vizier	false
+agent_subtypes_onscreen_name_override_arb_vizier_fire_0	Grand Vizier (Fire)	false
+agent_subtypes_onscreen_name_override_arb_vizier_life_0	Grand Vizier (Life)	false
+agent_subtypes_onscreen_name_override_arb_vizier_heavens_0	Grand Vizier (Heavens)	false
+agent_subtypes_onscreen_name_override_arb_vizier_desert_0	Grand Vizier (Desert)	false

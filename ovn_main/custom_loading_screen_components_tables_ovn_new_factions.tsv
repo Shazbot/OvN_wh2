@@ -4,18 +4,18 @@ background	ovn_amz_amazons	ui/loading_ui/load_images/amazon_load.png
 custom_quote	ovn_amz_amazons	
 background	ovn_vor_amz_amazons	ui/loading_ui/load_images/amazon_load.png
 custom_quote	ovn_vor_amz_amazons	
-background	ovn_arb_aswad_scythans	ui/loading_ui/load_images/scythan_load.png
-custom_quote	ovn_arb_aswad_scythans	
-background	ovn_vor_arb_aswad_scythans	ui/loading_ui/load_images/scythan_load.png
-custom_quote	ovn_vor_arb_aswad_scythans	
-background	ovn_arb_caliphate_of_araby	ui/loading_ui/load_images/araby_load.png
-custom_quote	ovn_arb_caliphate_of_araby	
-background	ovn_vor_arb_caliphate_of_araby	ui/loading_ui/load_images/araby_load.png
-custom_quote	ovn_vor_arb_caliphate_of_araby	
-background	ovn_arb_flaming_scimitar	ui/loading_ui/load_images/scimitar_load.png
-custom_quote	ovn_arb_flaming_scimitar	
-background	ovn_vor_arb_flaming_scimitar	ui/loading_ui/load_images/scimitar_load.png
-custom_quote	ovn_vor_arb_flaming_scimitar	
+background	ovn_arb_scythans	ui/loading_ui/load_images/scythan_load.png
+custom_quote	ovn_arb_scythans	
+background	ovn_vor_arb_scythans	ui/loading_ui/load_images/scythan_load.png
+custom_quote	ovn_vor_arb_scythans	
+background	ovn_arb_araby	ui/loading_ui/load_images/araby_load.png
+custom_quote	ovn_arb_araby	
+background	ovn_vor_arb_araby	ui/loading_ui/load_images/araby_load.png
+custom_quote	ovn_vor_arb_araby	
+background	ovn_arb_scimitar	ui/loading_ui/load_images/scimitar_load.png
+custom_quote	ovn_arb_scimitar	
+background	ovn_vor_arb_scimitar	ui/loading_ui/load_images/scimitar_load.png
+custom_quote	ovn_vor_arb_scimitar	
 background	ovn_emp_grudgebringers	ui/loading_ui/load_images/grudge_load.png
 custom_quote	ovn_emp_grudgebringers	
 background	ovn_emp_the_moot	ui/loading_ui/load_images/halfling_load.png

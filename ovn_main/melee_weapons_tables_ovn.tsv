@@ -45,7 +45,7 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	8	ovn_small_scorpion_claws	45	110	0	5.0	axe	claw	medium	4	1.0	550	0.0	false	wh_main_unit_contact_poison	0	10	3.7	
 0	0	12	ovn_large_scorpion_claws	95	250	0	7.0	axe	claw	medium	5	1.0	650	0.0	false	wh_main_unit_contact_poison	0	10	3.7	
 0	0	34	ovn_small_tusks	40	100	0	8.0	axe	claw	large	10	1.0	175	0.0	false		4	2	3.5	
-0	0	0	roy_arb_champion_sword	250	132	0	3.0	sword	sword	medium	8	1.0	150	0.0	false		0	10	4.0	
+0	0	0	roy_arb_champion_sword	110	260	0	3.0	axe	axe	medium	6	1.0	100	0.0	false		0	10	4.0	
 0	0	0	roy_arb_nomad_sword	235	110	0	3.0	sword	sword	medium	3	1.0	100	0.0	false		0	10	4.0	
 0	18	0	roy_arb_nomad_camel_spear	200	140	0	3.0	spear	spear	medium	5	1.0	100	0.0	false		0	10	4.0	
 0	0	0	roy_arb_nomad_sword_assassin	140	210	0	3.0	sword	sword	medium	3	1.0	100	0.0	false	wh_main_unit_contact_poison	0	10	4.0	

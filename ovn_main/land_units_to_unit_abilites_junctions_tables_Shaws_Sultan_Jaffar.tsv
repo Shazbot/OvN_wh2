@@ -2,7 +2,6 @@ land_units_to_unit_abilites_junctions_tables	0
 ability	land_unit
 ground_arua_evil_sultan	Sultan_Jaffar
 ground_arua_ethereal_embers	Djinn_fire
-ground_arua_djinn_effect	Sultan_Jaffar
 ground_arua_for_summoned_djinn	Djinn_fire
 ground_arua_for_summoned_djinn_2	Djinn_fire
 fire_trail_for_summoned_djinn	Djinn_fire

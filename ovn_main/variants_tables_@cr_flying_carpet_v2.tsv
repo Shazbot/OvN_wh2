@@ -1,0 +1,9 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+ovn_arb_flying_carpet	VariantMeshes/wh_variantmodels/fc1/arb/arb_flying_carpet/tech/	arb_flying_carpet		1.0	1.0	0.0	
+ovn_arb_flying_carpet_rider		arb_flying_carpet_rider		1.0	1.0	0.05	
+ovn_arb_flying_carpet_rider_ror		arb_flying_carpet_rider_ror		1.0	1.0	0.05	
+ovn_arb_ch_magician_life_carpet		arb_magician_life		1.0	1.15	0.0	
+ovn_arb_ch_magician_desert_carpet		arb_magician_desert		1.0	1.15	0.0	
+ovn_arb_ch_magician_fire_carpet		arb_magician_fire		1.0	1.15	0.0	
+ovn_arb_ch_magician_heavens_carpet		arb_magician_heavens		1.0	1.15	0.0	

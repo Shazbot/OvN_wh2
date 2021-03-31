@@ -1,0 +1,10 @@
+ancillaries_tables	18
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed
+wh_main_anc_mount_arb_vizier_fire_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_fire_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_fire_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_fire_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_life_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_life_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_life_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_life_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_heavens_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_heavens_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_heavens_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_heavens_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_desert_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_desert_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_desert_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_desert_1		1	1		false	false	false

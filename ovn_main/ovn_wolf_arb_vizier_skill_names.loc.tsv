@@ -1,0 +1,24 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_arb_vizier_administrator	Loyal Administrator	true
+character_skills_localised_description_arb_vizier_administrator	Despite the slander that envious men like to spread, most Grand Viziers in Araby are loyal servants to their lieges and dedicated administrators of their assigned provinces.	true
+character_skills_localised_name_arb_vizier_scholar	Dedicated Scholar	true
+character_skills_localised_description_arb_vizier_scholar	Many Grand Viziers reach their lofty positions thanks to both their knowledge in the magical arts and their advances in the sciences, for in Araby there's little difference between the study of the natural world and the supernatural world.	true
+character_skills_localised_name_arb_vizier_schemer	Scheming Megalomaniac	true
+character_skills_localised_description_arb_vizier_schemer	The rumours about the dubious moral integrity of Arabyan Grand Viziers are not entirely unfounded, for there are many among them who abuse their privileges to indulge in the study of the Dark Arts.	true
+character_skills_localised_name_arb_vizier_fire_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_fire_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_arb_vizier_life_camel	Camel	false
+character_skills_localised_description_arb_vizier_life_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_arb_vizier_desert_camel	Camel	false
+character_skills_localised_description_arb_vizier_desert_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_arb_vizier_heavens_camel	Camel	false
+character_skills_localised_description_arb_vizier_heavens_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_arb_vizier_life_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_life_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_arb_vizier_desert_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_desert_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_arb_vizier_heavens_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_heavens_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_arb_vizier_fire_camel	Camel	false
+character_skills_localised_description_arb_vizier_fire_camel	The mount of any self-respecting Arabyan gentleman.	false
