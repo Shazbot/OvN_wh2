@@ -435,8 +435,6 @@ core:add_listener(
 		local local_faction_key = cm:get_local_faction_name(true)
 		if local_faction_key ~= rotblood_faction_key then return end
 
-		local local_faction_obj = cm:get_faction(local_faction_key)
-
 		if context.string:starts_with("QueuedLandUnit") then
 			local comp = UIComponent(context.component)
 			local icon_path = comp:GetImagePath(0)
@@ -467,6 +465,11 @@ core:add_listener(
 					local unit_icon = find_uicomponent(comp, "unit_icon")
 					local icon_path = unit_icon:GetImagePath(0)
 					mod.unit_to_unit_img[unit_key] = icon_path
+
+					-- if the user is clicking the unit card pin we don't want to do anything
+					local pin = find_uicomponent(comp, "pin_parent", "button_pin")
+					if pin and string.find(pin:CurrentState(), "hover") then return end
+
 					if comp:CurrentState() ~= "active" then return end
 					mod.player_res[res_key] = mod.player_res[res_key] - num_res_req
 					mod.num_times_purchased[unit_key] = (mod.num_times_purchased[unit_key] or 0)+1
@@ -563,12 +566,14 @@ core:add_listener(
 		return true
 	end,
 	function(context)
-		local local_faction_key = cm:get_local_faction_name(true)
-		if local_faction_key ~= rotblood_faction_key then return end
+		local rotbloods = cm:get_faction(rotblood_faction_key)
+		if not rotbloods or not rotbloods:is_human() then return end
 
 		---@type CA_UNIT
 		local unit = context:unit()
 		local unit_key = unit:unit_key()
+
+		if unit:faction() ~= rotbloods then return end
 
 		local num_times_purchased = mod.num_times_purchased[unit_key]
 		if num_times_purchased then
