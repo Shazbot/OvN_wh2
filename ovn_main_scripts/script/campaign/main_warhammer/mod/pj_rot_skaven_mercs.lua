@@ -139,6 +139,62 @@ core:add_listener(
 	true
 )
 
+mod.ai_merc_gifts_cooldown = 8
+
+mod.ai_skaven_merc_units = {
+	"wh2_dlc12_skv_inf_ratling_gun_0",
+	"wh2_dlc12_skv_inf_warplock_jezzails_0",
+	"wh2_dlc12_skv_veh_doom_flayer_0",
+	"wh2_dlc14_skv_inf_eshin_triads_0",
+	"wh2_dlc14_skv_inf_poison_wind_mortar_0",
+	"wh2_dlc14_skv_inf_warp_grinder_0",
+	"wh2_main_skv_art_plagueclaw_catapult",
+	"wh2_main_skv_art_warp_lightning_cannon",
+	"wh2_main_skv_inf_death_globe_bombardiers",
+	"wh2_main_skv_inf_death_runners_0",
+	"wh2_main_skv_inf_plague_monk_censer_bearer",
+	"wh2_main_skv_inf_plague_monks",
+	"wh2_main_skv_inf_poison_wind_globadiers",
+	"wh2_main_skv_inf_warpfire_thrower",
+	"wh2_main_skv_mon_hell_pit_abomination",
+	"wh2_main_skv_veh_doomwheel",
+	"wh2_dlc16_skv_mon_brood_horror_0",
+	"wh2_dlc16_skv_mon_rat_ogre_mutant",
+}
+
+---@param rotbloods_faction CA_FACTION
+mod.handle_ai_skaven_mercs = function(rotbloods_faction)
+	local num_regions = rotbloods_faction:region_list():num_items()
+
+	local current_turn_num = cm:model():turn_number()
+	if current_turn_num % mod.ai_merc_gifts_cooldown ~= 0 then
+		return
+	end
+
+	local new_units_to_gift = {}
+
+	for _=1, num_regions do
+		local unit_key = mod.ai_skaven_merc_units[cm:random_number(#mod.ai_skaven_merc_units)]
+		new_units_to_gift[unit_key] = new_units_to_gift[unit_key] and new_units_to_gift[unit_key]+1 or 1
+	end
+
+	for unit_key, num_units in pairs(new_units_to_gift) do
+		cm:add_unit_to_faction_mercenary_pool(
+			rotbloods_faction,
+			unit_key,
+			num_units, -- unit count
+			0, -- replenishment
+			100, -- max_units
+			0, -- max_units_replenished_per_turn
+			0, -- xplevel
+			"",
+			"",
+			"",
+			false
+		)
+	end
+end
+
 core:remove_listener('pj_ovn_rotbloods_new_warpstone_mercs_on_faction_turn_start')
 core:add_listener(
 	'pj_ovn_rotbloods_new_warpstone_mercs_on_faction_turn_start',
@@ -149,10 +205,12 @@ core:add_listener(
 	function(context)
 		---@type CA_FACTION
 		local faction = context:faction()
+		if faction:name() ~= rotblood_faction_key then return end
+
 		if not faction:is_human() then
+			mod.handle_ai_skaven_mercs(faction)
 			return
 		end
-		if faction:name() ~= rotblood_faction_key then return end
 
 		mod.calculate_per_turn_resources(faction)
 
