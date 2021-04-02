@@ -7,6 +7,19 @@ local settings_table --:map<string, WHATEVER>
 
 local factions = {}
 
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
 --- We make sure we don't start spawning people before we killed all the vanilla armies.
 local done_killing_people = false
 
@@ -855,6 +868,14 @@ local function albion_setup()
 
 	add_cqi_to_murdered_list(albion_faction_leader_cqi)
 
+	-- kill all the vanaheimling characters on Albion
+	local vanaheimlings = cm:get_faction("wh_dlc08_nor_vanaheimlings")
+	if vanaheimlings then
+		for char in binding_iter(vanaheimlings:character_list()) do
+			add_cqi_to_murdered_list(char:command_queue_index())
+		end
+	end
+
 	local harbingers_of_doom = cm:get_faction("wh2_main_nor_harbingers_of_doom")
 
 	if albion and (albion:is_human() or not mct or settings_table.albion and settings_table.enable) then
@@ -872,20 +893,7 @@ local function albion_setup()
 			cm:heal_garrison(citadel_of_lead:cqi())
 		end
 
-		if albion:is_human() then
-			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_nor_albion", false, false)
-			cm:create_force(
-				"wh2_main_nor_rotbloods",
-				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_main_chs_inf_chaos_marauders_0",
-				"wh2_main_kingdom_of_beasts_serpent_coast",
-				333,
-				570,
-				true,
-				function(cqi)
-					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
-				end
-			)
-		end
+		cm:force_declare_war("wh2_twa03_def_rakarth", "wh2_main_nor_albion", false, false)
 
 		local is_durak_starting_lord = core:svr_load_bool("ovn_albion_dural_durak_is_leader")
 
@@ -923,59 +931,52 @@ local function albion_setup()
 			end
 		end
 
-		if is_durak_starting_lord then
-			local starting_army = "elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes"
+		local subtype = "bl_elo_dural_durak"
+		local forename = "names_name_77777202"
+		local surname = "names_name_77777201"
+		local starting_army = "elo_youngbloods,albion_centaurs,albion_giant,elo_albion_warriors,albion_hearthguard,druid_neophytes"
 
-			local human_factions = cm:get_human_factions()
-			if table_contains(human_factions, "wh2_main_nor_harbingers_of_doom") then
-				starting_army = "elo_albion_warriors,"..starting_army
-			end
-
-			cm:create_force_with_general(
-				"wh2_main_nor_albion",
-				starting_army,
-				"wh2_main_great_desert_of_araby_el-kalabad",
-				330,
-				566,
-				"general",
-				"bl_elo_dural_durak",
-				"names_name_77777202",
-				"",
-				"names_name_77777201",
-				"",
-				true,
-				function(cqi)
-					cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777202", true);
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-				end
-			)
-		else
-			local starting_army = "elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear"
-
-			local human_factions = cm:get_human_factions()
-			if table_contains(human_factions, "wh2_main_nor_harbingers_of_doom") then
-				starting_army = "elo_albion_warriors,"..starting_army
-			end
-
-			cm:create_force_with_general(
-				"wh2_main_nor_albion",
-				starting_army,
-				"wh2_main_great_desert_of_araby_el-kalabad",
-				330,
-				566,
-				"general",
-				"albion_morrigan",
-				"names_name_77777001",
-				"",
-				"names_name_77777002",
-				"",
-				true,
-				function(cqi)
-					cm:set_character_immortality("faction:wh2_main_nor_albion,forename:77777001", true);
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-				end
-			)
+		if not is_durak_starting_lord then
+			subtype = "albion_morrigan"
+			forename = "names_name_77777001"
+			surname = "names_name_77777002"
+			starting_army = "elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear"
 		end
+
+		local x = 317
+		local y = 548
+
+		-- Be'lakor starts in the north Albion settlement, so make the ALbion LL his turn 1 fight
+		local human_factions = cm:get_human_factions()
+		if table_contains(human_factions, "wh2_main_nor_harbingers_of_doom") then
+			x = 330
+			y = 566
+		end
+
+		-- if Albion is human make the Rakarth fight easier for him
+		if albion:is_human() then
+			starting_army = starting_army..",elo_albion_warriors,elo_bloodhounds"
+		end
+
+		cm:create_force_with_general(
+			"wh2_main_nor_albion",
+			starting_army,
+			"wh2_main_great_desert_of_araby_el-kalabad",
+			x,
+			y,
+			"general",
+			subtype,
+			forename,
+			"",
+			surname,
+			"",
+			true,
+			function(cqi)
+				local char_lookup_str = "character_cqi:" .. cqi
+				cm:set_character_immortality(char_lookup_str, true)
+				cm:set_character_unique(char_lookup_str, true)
+			end
+		)
 
 		local unit_count = 1 -- card32 count
 		local rcp = 20 -- float32 replenishment_chance_percentage
@@ -1262,6 +1263,7 @@ local function new_game_startup()
 	cm:disable_event_feed_events(true, "", "", "character_ancillary_lost")
 	cm:disable_event_feed_events(true, "", "", "character_wounded")
 	cm:disable_event_feed_events(true, "", "", "character_dies_in_action")
+	cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed")
 
 	local grudebringers_string = "wh2_main_emp_grudgebringers"
 	local gru = cm:get_faction(grudebringers_string)
@@ -1355,6 +1357,7 @@ local function new_game_startup()
 			cm:disable_event_feed_events(false, "", "", "character_ancillary_lost")
 			cm:disable_event_feed_events(false, "", "", "character_wounded")
 			cm:disable_event_feed_events(false, "", "", "character_dies_in_action")
+			cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed")
 		end,
 		7
 	)

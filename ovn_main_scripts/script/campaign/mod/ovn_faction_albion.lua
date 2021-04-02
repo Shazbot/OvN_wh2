@@ -345,7 +345,6 @@ local function init_albion_mist_mechanic()
         function(context)
 						handle_invasion_queue()
 
-            out("TEST 1 OVN" )
             local faction = context:faction();
 						local region_list = faction:region_list();
 
@@ -375,8 +374,6 @@ local function init_albion_mist_mechanic()
                         albion_mist_invasion_queue(current_region_name)
                     end
                 end
-
-                out("TEST 2 OVN" )
 
                 if alb_region:building_exists("ovn_Waystone_3")
                 and lead_region:building_exists("ovn_Waystone_3")
@@ -435,7 +432,6 @@ local function init_albion_mist_mechanic()
 
                     cm:apply_effect_bundle("albion_global_mist_2", "wh2_main_nor_albion", -1);
                 else
-                    out("TEST 3 OVN" )
                     remove_albion_mist_bundles(albion_faction)
 
                     cm:apply_effect_bundle("albion_global_mist_1", "wh2_main_nor_albion", -1);
