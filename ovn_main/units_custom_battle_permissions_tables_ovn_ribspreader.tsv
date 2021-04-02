@@ -1,4 +1,0 @@
-units_custom_battle_permissions_tables	8
-faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
-wh2_main_nor_rotbloods	true	ribspreader	true	true	ui/portraits/portholes/ribspreader/ribspreader.png	ribspreader	ribspreader	false
-wh2_main_nor_rotbloods	true	ribspreader_mammoth	true	true	ui/portraits/portholes/ribspreader/ribspreader.png	ribspreader_campaign	ribspreader	false

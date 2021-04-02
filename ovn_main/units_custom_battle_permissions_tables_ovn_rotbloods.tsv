@@ -90,3 +90,23 @@ wh2_main_nor_rotbloods	false	wh2_main_skv_mon_rat_ogres	true	true				false
 wh2_main_nor_rotbloods	false	rbt_nurgle_daemon	true	true				false
 wh2_main_nor_rotbloods	false	ovn_rbt_ch_blightstormer	true	true	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	ovn_rbt_blightstormer	ovn_rbt_blightstormer	false
 wh2_main_nor_rotbloods	false	wh_dlc08_nor_inf_marauder_berserkers_0	true	true				false
+wh2_main_nor_rotbloods	false	wh2_dlc12_skv_inf_ratling_gun_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc12_skv_inf_warplock_jezzails_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc12_skv_veh_doom_flayer_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc14_skv_inf_eshin_triads_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc14_skv_inf_poison_wind_mortar_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc14_skv_inf_warp_grinder_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_art_plagueclaw_catapult	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_art_warp_lightning_cannon	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_inf_death_globe_bombardiers	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_inf_death_runners_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_inf_plague_monk_censer_bearer	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_inf_plague_monks	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_inf_poison_wind_globadiers	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_inf_warpfire_thrower	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_mon_hell_pit_abomination	true	true				true
+wh2_main_nor_rotbloods	false	wh2_main_skv_veh_doomwheel	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc16_skv_mon_brood_horror_0	true	true				true
+wh2_main_nor_rotbloods	false	wh2_dlc16_skv_mon_rat_ogre_mutant	true	true				true
+wh2_main_nor_rotbloods	true	ribspreader	true	true	ui/portraits/portholes/ribspreader/ribspreader.png	ribspreader	ribspreader	false
+wh2_main_nor_rotbloods	true	ribspreader_mammoth	true	true	ui/portraits/portholes/ribspreader/ribspreader.png	ribspreader_campaign	ribspreader	false
