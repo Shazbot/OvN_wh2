@@ -13,12 +13,12 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	ovn_araby_beasts_r7	wh_main_skill_node_set_arb_vizier_fire		4.0	wh_skill_node_arb_vizier_fire_army_3_3	10.0		0	0	true
 	ovn_araby_magic_r7	wh_main_skill_node_set_arb_vizier_fire		4.0	wh_skill_node_arb_vizier_fire_army_3_4	11.0		0	0	true
 	wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_arb_vizier_fire		4.0	wh_skill_node_arb_vizier_fire_army_4	12.0		0	1	true
-	arb_vizier_fire_camel	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_mount_1	0.0		0	0	true
-	arb_vizier_fire_magic_carpet	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_mount_2	1.0		0	0	true
-	Order_Buff	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_generic_1	3.0		0	0	true
-	Chaos_Buff	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_generic_2	4.0		0	0	true
-	ovn_skill_arb_all_unique_ward_of_the_one	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_generic_3	6.0		0	0	true
+	arb_vizier_fire_camel	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_mount_1	2.0		0	0	true
+	arb_vizier_fire_magic_carpet	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_mount_2	3.0		0	0	true
+	ovn_skill_arb_all_unique_ward_of_the_one	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_generic_3	4.0		0	0	true
 	wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_generic_4	5.0		0	0	true
+	Order_Buff	wh_main_skill_node_set_arb_vizier_fire		1.0	wh_skill_node_arb_vizier_fire_generic_1	4.0		0	0	true
+	Chaos_Buff	wh_main_skill_node_set_arb_vizier_fire		1.0	wh_skill_node_arb_vizier_fire_generic_2	5.0		0	0	true
 	wh_main_skill_all_magic_fire_01_fireball	wh_main_skill_node_set_arb_vizier_fire		2.0	wh_skill_node_arb_vizier_fire_magic_01	0.0		0	0	true
 	wh_main_skill_all_magic_fire_04_kindleflame	wh_main_skill_node_set_arb_vizier_fire		2.0	wh_skill_node_arb_vizier_fire_magic_02	1.0		0	0	true
 	wh2_main_skill_all_magic_fire_02_cascading_fire-cloak_lord	wh_main_skill_node_set_arb_vizier_fire		2.0	wh_skill_node_arb_vizier_fire_magic_03	2.0		0	0	true
@@ -54,3 +54,6 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	ovn_araby_ll_innate_08	wh_main_skill_node_set_arb_vizier_fire		6.0	wh_skill_node_arb_vizier_fire_innate_08	7.0		0	0	false
 	ovn_araby_ll_innate_09	wh_main_skill_node_set_arb_vizier_fire		6.0	wh_skill_node_arb_vizier_fire_innate_09	8.0		0	0	false
 	ovn_araby_ll_innate_10	wh_main_skill_node_set_arb_vizier_fire		6.0	wh_skill_node_arb_vizier_fire_innate_10	9.0		0	0	false
+	ovn_araby_ll_innate_05	wh_main_skill_node_set_arb_vizier_fire		6.0	wh_skill_node_arb_vizier_fire_innate_05	4.0		0	0	false
+	Talisman	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_talisman	0.0		0	0	true
+	rattlesnake_staff	wh_main_skill_node_set_arb_vizier_fire		0.0	wh_skill_node_arb_vizier_fire_rattlesnake_staff	1.0		0	0	true

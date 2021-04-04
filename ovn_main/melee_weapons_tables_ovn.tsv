@@ -126,6 +126,6 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	0	fim_skattach_staff	90	320	0	1.0	spear	staff	large	4	1.0	100	0.0	true	wh_dlc06_unit_contact_sundered_armour	0	10	4.0	
 0	25	0	ribspreader	125	300	0	3.0	axe	axe	medium	8	1.0	150	0.0	false		0	10	4.0	
 0	0	20	arb_fatandira_dual_khopesh	120	180	0	3.0	sword	sword	medium	8	1.0	100	0.0	false		0	10	4.0	
-90	0	0	arb_golden_magus_flaming_scimitar	210	0	0	3.0	sword	staff	medium	5	1.0	100	10.0	false		0	10	4.0	
+0	0	0	arb_golden_magus_flaming_scimitar	210	90	0	3.0	sword	staff	medium	5	1.0	100	10.0	false		0	10	4.0	
 0	0	20	arb_golden_magus_djinn_skiff	105	155	0	5.0	sword	staff	large	5	1.0	100	0.0	false		3	2	4.8	
 0	0	15	hlf_sheriff_bigstick	225	150	0	3.0	axe	club_medium	medium	7	1.0	150	0.0	false		0	10	4.0	
