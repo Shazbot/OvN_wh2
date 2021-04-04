@@ -55,5 +55,3 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	ovn_araby_ll_innate_09	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_09	8.0		0	0	false
 	ovn_araby_ll_innate_10	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_10	9.0		0	0	false
 	ovn_araby_ll_innate_05	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_05	4.0		0	0	false
-	Talisman	wh_main_skill_node_set_arb_vizier_desert		0.0	wh_skill_node_arb_vizier_desert_talisman	0.0		0	0	true
-	rattlesnake_staff	wh_main_skill_node_set_arb_vizier_desert		0.0	wh_skill_node_arb_vizier_desert_rattlesnake_staff	1.0		0	0	true
