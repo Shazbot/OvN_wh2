@@ -63,4 +63,4 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	dread_zombie_dragon	wh2_main_skill_node_set_tmb_Dread_King		0.0	dread_kings_unique_mount_01	5.0		0	0	true
 	Soulreaper	wh2_main_skill_node_set_tmb_Dread_King		1.0	dread_kings_unique_weapon_01	5.0		0	0	true
 	wh2_main_skill_all_immortality_lord	wh2_main_skill_node_set_tmb_Dread_King		1.0	dread_king_immortal_01	6.0		1	0	false
-	dread_king_trait	wh2_main_skill_node_set_tmb_Dread_King		0.0	dread_king_trait	7.0		0	0	false
+	dread_king_trait	wh2_main_skill_node_set_tmb_Dread_King		0.0	dread_king_trait	7.0		1	0	false
