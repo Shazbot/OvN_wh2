@@ -1,5 +1,0 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-general	belakor	wh_main_chs_chaos			false	true	belakor	1.0
-dignitary	wh_dlc08_nor_cha_fimir_balefiend_death				false	true	wh_dlc08_nor_cha_fimir_balefiend_death	1.0
-dignitary	wh_dlc08_nor_cha_fimir_balefiend_beast				false	true	wh_dlc08_nor_cha_fimir_balefiend_beast	1.0

@@ -1,6 +1,0 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-wizard	ovn_art_set_arb_magician_life				false	true	arb_magician_life	1.0
-wizard	ovn_art_set_arb_magician_desert				false	true	arb_magician_desert	1.0
-wizard	ovn_art_set_arb_magician_fire				false	true	arb_magician_fire	1.0
-wizard	ovn_art_set_arb_magician_heavens				false	true	arb_magician_heavens	1.0

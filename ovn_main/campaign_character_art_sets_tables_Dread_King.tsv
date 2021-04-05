@@ -1,4 +1,0 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-general	Dread_King	wh2_dlc09_tmb_tomb_kings		wh2_dlc09_tmb_the_sentinels	false	true	Dread_King	1.0
-general	elo_hand_of_nagash	wh2_dlc09_tmb_tomb_kings		wh2_dlc09_tmb_the_sentinels	false	true	elo_hand_of_nagash	1.0

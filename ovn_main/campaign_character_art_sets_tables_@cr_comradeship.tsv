@@ -1,6 +1,0 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-general	ovn_art_set_com_olorin_the_grey_wizard	wh_main_emp_empire			false	true	ovn_com_olorin_the_grey_wizard	1.0
-champion	ovn_art_set_com_aragand_the_layabout	wh_main_emp_empire			false	true	ovn_com_aragand_the_layabout	1.0
-spy	ovn_art_set_com_legles_the_elf	wh_main_emp_empire			false	true	ovn_com_legles_the_elf	1.0
-champion	ovn_art_set_com_giblit_the_dwarf	wh_main_emp_empire			false	true	ovn_com_giblit_the_dwarf	1.0

@@ -1,5 +1,0 @@
-ancillaries_tables	18
-key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed
-ovn_wolf_anc_mount_hlf_moot_general_poultry	ovn_hlf_mount_cockarel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_hlf_moot_general_2		1	1		false	false	false
-ovn_wolf_anc_mount_hlf_master_chef_wagon	ovn_hlf_mount_cwagon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_hlf_master_chef_1		1	1		false	false	false
-ovn_wolf_anc_mount_hlf_sheriff_pig	ovn_hlf_mount_bpig	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_hlf_sheriff_1		1	1		false	false	false

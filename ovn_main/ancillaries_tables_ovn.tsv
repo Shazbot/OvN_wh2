@@ -1,0 +1,90 @@
+ancillaries_tables	18
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed
+dread_chariot_skeletal_steed	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_chariot		1	1		false	false	false
+dread_legion_barded_skeletal_steed	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_barded_horse		1	1		false	false	false
+elo_dread_centurion_horse	wh_main_anc_mount_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_dread_centurion_horse		1	1		false	false	false
+luthor_the_hunchback	wh_main_anc_vampire_counts_necromancer	.	false	false	false	1	0	9999			true	false	false	general	16	30	30	50	true			200	1	follower	false	false	false
+mount_barded_skeletal_steed_liche	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_liche_general_barded_steed		1	1		false	false	false
+mount_chariot_liche	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_liche_general_chariot		1	1		false	false	false
+mount_warsphinx_liche	wh2_dlc09_anc_mount_khemrian_warsphinx	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_liche_general_warsphinx		1	1		false	false	false
+mount_chariot_hand_of_nagash	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_hand_of_nagash_chariot		1	1		false	false	false
+elo_hand_punished_one	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			9000	1		false	false	false
+elo_hungering_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			9000	1		false	false	false
+anc_adventurer_trinkets	wh_main_anc_talisman	.	false	false	false	1	0	9999			true	false	false	talisman	16	30	30	50	true			200	1		false	false	false
+anc_resevoir_stone	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+chalcidar_orb	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	1		false	false	false
+malach_sword	wh_main_anc_weapon	.	true	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+ovn_anc_magic_standard_ptolos	grudge_item_shield_of_ptolos	.	true	false	false	1	0	9999			true	false	false	general	16	30	30	50	true		ovn_anc_magic_standard_ptolos	200	0	banner	false	false	false
+hlf_staff	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+hlf_robe	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	1		false	false	false
+ovn_anc_follower_halfling_housewife	ovn_anc_follower_halfling_housewife	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	true	false	false
+ovn_anc_weapon_glammyding	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
+ovn_anc_talisman_bottomless_hat_of_rabbit	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
+ovn_anc_arcane_item_cathay_fireworks	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
+ovn_anc_weapon_aragands_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
+ovn_anc_enchanted_item_pig_swill	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false
+ovn_anc_talisman_friendship_bracelet_legles	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
+ovn_anc_enchanted_item_ring_of_concealment	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false
+ovn_anc_talisman_friendship_bracelet_giblit	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
+ovn_anc_enchanted_item_bimbos_book	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
+ovn_anc_mount_arb_magician_life_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_life_2		1	1		false	false	false
+ovn_anc_mount_arb_magician_life_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_life_1		1	1		false	false	false
+ovn_anc_mount_arb_magician_desert_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_desert_2		1	1		false	false	false
+ovn_anc_mount_arb_magician_desert_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_desert_1		1	1		false	false	false
+ovn_anc_mount_arb_magician_fire_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_fire_2		1	1		false	false	false
+ovn_anc_mount_arb_magician_fire_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_fire_1		1	1		false	false	false
+ovn_anc_mount_arb_magician_heavens_magic_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_heavens_2		1	1		false	false	false
+ovn_anc_mount_arb_magician_heavens_djinn_vessel	wh_main_anc_mount_djinn_vessel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_arb_cha_magician_heavens_1		1	1		false	false	false
+dread_zombie_dragon	wh_main_anc_mount_zombie_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	Dread_King_2		1	1		false	false	false
+Soulreaper	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
+Serpent_Staff	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false
+Black_Book_Of_Ibn_Naggazar	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			true	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false
+arb_jaffar_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	Sultan_Jaffar_camel		1	1		false	false	false
+arb_jaffar_elephant	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	Sultan_Jaffar_elephant		1	1		false	false	false
+aky_chief_wolf_terrorgheist	wh_dlc04_anc_mount_terrorgheist	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	aky_chief_wolf_werekin_1_terrorgheist		1	1		false	false	false
+roy_anc_mount_arb_nomad_horse	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_horse		1	1		false	false	false
+roy_anc_mount_arb_champion_horse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_horse		1	1		false	false	false
+roy_anc_mount_arb_champion_warhorse	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_warhorse		1	1		false	false	false
+roy_anc_mount_arb_champion_elephant	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_champion_elephant		1	1		false	false	false
+roy_anc_mount_arb_lord_horse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_lord_horse		1	1		false	false	false
+roy_anc_mount_arb_nomad_assassin	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_assassin		100	1		false	false	false
+roy_anc_mount_arb_nomad_horse_jezzail	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	roy_arb_cha_nomad_horse_jezzail		200	1		false	false	false
+sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+Helm	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	1		false	false	false
+Talisman	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	1		false	false	false
+Mount	wh_main_anc_mount_imperial_griffon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_araby_ll_mount		1	1		false	false	false
+Mount_Elephant	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_arb_cha_sheikh_2		1	1		false	false	false
+rattlesnake_staff	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false
+the_blade_of_shadows	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	0		false	false	false
+ovn_bd_crimson_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+ovn_bd_blood_chalice	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	1		false	false	false
+ovn_anc_magic_standard_blood_dragon	wh2_main_anc_magic_standard_the_blood_banner	.	true	false	false	1	0	9999			true	false	false	general	16	30	30	50	true		ovn_anc_magic_standard_blood_dragon	200	0	banner	false	false	false
+fim_meargh_skattach_staff_balor	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+fim_meargh_skattach_hellmother_crown	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false
+ribspreader_mammoth	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ribspreader_mammoth		1	1		false	false	false
+ribspreader_weapon	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+ovn_as_starblade	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+ovn_as_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			true	false	false	armour	16	30	30	50	true			200	1		false	false	false
+ovn_as_Hoeth_Talisman	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	1		false	false	false
+anc_sharpclaw	wh_main_anc_mount_imperial_griffon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_stormrider_mount		1	1		false	false	false
+arb_fatandira_warhorse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_fatandira_warhorse		1	1		false	false	false
+arb_fatandira_roc	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_fatandira_roc		1	1		false	false	false
+arb_fatandira_blades_demise	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+arb_fatandira_scythan_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false
+arb_golden_magus_fire_scimitar	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+arb_golden_magus_auric_robe	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false
+arb_golden_magus_camel_mount	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_golden_magus_camel		1	1		false	false	false
+arb_golden_magus_djinnskiff_mount	wh_main_anc_mount_djinnskiff	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_golden_magus_skiff		1	1		false	false	false
+hlf_glibfoot_hyshia	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false
+hlf_glibfoot_willowblade	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	1		false	false	false
+ovn_wolf_anc_mount_hlf_moot_general_poultry	ovn_hlf_mount_cockarel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_hlf_moot_general_2		1	1		false	false	false
+ovn_wolf_anc_mount_hlf_master_chef_wagon	ovn_hlf_mount_cwagon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_hlf_master_chef_1		1	1		false	false	false
+ovn_wolf_anc_mount_hlf_sheriff_pig	ovn_hlf_mount_bpig	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ovn_hlf_sheriff_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_fire_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_fire_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_fire_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_fire_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_life_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_life_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_life_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_life_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_heavens_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_heavens_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_heavens_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_heavens_1		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_desert_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_desert_2		1	1		false	false	false
+wh_main_anc_mount_arb_vizier_desert_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_desert_1		1	1		false	false	false
