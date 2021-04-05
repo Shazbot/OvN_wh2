@@ -1,6 +1,0 @@
-custom_loading_screen_components_tables	0
-component_id	custom_loading_screen_key	image_path
-background	wh2_main_nor_rotbloods	ui/loading_ui/load_images/rotblood_load.png
-custom_quote	wh2_main_nor_rotbloods	
-background	wh2_main_nor_servants_of_fimulneid	ui/loading_ui/load_images/fimir_load.png
-custom_quote	wh2_main_nor_servants_of_fimulneid	

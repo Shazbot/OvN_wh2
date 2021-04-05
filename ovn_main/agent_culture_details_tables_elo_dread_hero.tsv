@@ -1,3 +1,0 @@
-agent_culture_details_tables	9
-agent	culture	associated_unit	key	season	level	agent_recruited_movie	gender	icon	small_icon	recruitable_in_ui
-champion	wh2_dlc09_tmb_tomb_kings	elo_dread_centurion	190901		0		m	UI/units/icons/wh_main_dwf_cha_greybeard.png	ui/campaign ui/agents/wh_main_vmp_champion.png	true

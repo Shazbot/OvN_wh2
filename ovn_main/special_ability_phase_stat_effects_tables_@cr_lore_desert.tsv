@@ -1,5 +1,0 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-ovn_spell_desert_curse_of_the_djinn	-24.0	stat_armour	add
-ovn_spell_desert_curse_of_the_djinn_upgraded	-30.0	stat_resistance_magic	add
-ovn_spell_desert_curse_of_the_djinn_upgraded	-24.0	stat_armour	add

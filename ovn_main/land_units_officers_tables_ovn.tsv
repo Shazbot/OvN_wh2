@@ -1,0 +1,65 @@
+land_units_officers_tables	4
+key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+dread_wh2_dlc09_tmb_chariot_archer_officer							front	dread_wh2_dlc09_tmb_chariot_riders_archers
+dread_wh2_dlc09_tmb_chariot_officer							front	dread_wh2_dlc09_tmb_chariot_riders
+dread_wh2_dlc09_tmb_warsphinx_officer							front	dread_wh2_dlc09_tmb_warsphinx_riders
+albion_chariot_officer							front	albion_chariot_officer
+albion_chariot_officer_lord							front	albion_chariot_officer_lord
+albion_chariot_officer_chief							front	albion_chariot_officer_chief
+albion_morrigan_bird_officer	albion_morrigan_bird_rider						front	
+bl_elo_dural_durak_chariot							front	bl_elo_dural_durak_chariot
+ovn_arb_inf_off	ovn_arb_inf_off	ovn_arb_inf_sgt					front	
+ovn_arb_slave_off	ovn_arb_slave_off	ovn_arb_slave_off					back	
+ovn_arb_cav_off	ovn_arb_cav_off						front	
+ovn_arb_jez_off	ovn_arb_jez_off						front	
+ovn_arb_war_elephant_ror_officer							front	ovn_arb_war_elephant_ror_riders
+ovn_arb_cha_magician_life_officer	ovn_arb_cha_magician_life				ovn_arb_inf_djinn_vessel_sea		back	
+ovn_arb_cha_magician_desert_officer	ovn_arb_cha_magician_desert				ovn_arb_inf_djinn_vessel_desert		back	
+ovn_arb_cha_magician_fire_officer	ovn_arb_cha_magician_fire				ovn_arb_inf_djinn_vessel_fire		back	
+ovn_arb_cha_magician_heavens_officer	ovn_arb_cha_magician_heavens				ovn_arb_inf_djinn_vessel_tempest		back	
+wh_main_arb_elephant_officer							front	wh_main_arb_elephant_riders
+wh_main_arb_war_elephant_officer							front	wh_main_arb_war_elephant_riders
+wh_main_arb_royal_war_elephant_officer							front	wh_main_arb_royal_war_elephant_riders
+ovn_arb_cav_scorpion_officer							front	ovn_arb_cav_scorpion_riders
+arb_golden_magus_skiff_officer							front	arb_golden_magus_skiff_officer
+ovn_araby_ll							front	
+arb_jaffar_elephant_officer							front	arb_jaffar_elephant_riders
+housie_nec_officer							front	housie_nec_riders
+ovn_arb_flying_carpet_officer							front	ovn_arb_flying_carpet_riders
+ovn_arb_flying_carpet_ror_officer							front	ovn_arb_flying_carpet_ror_riders
+ovn_arb_cha_magician_life_officer_carpet	ovn_arb_cha_magician_life_rider						front	
+ovn_arb_cha_magician_desert_officer_carpet	ovn_arb_cha_magician_desert_rider						front	
+ovn_arb_cha_magician_fire_officer_carpet	ovn_arb_cha_magician_fire_rider						front	
+ovn_arb_cha_magician_heavens_officer_carpet	ovn_arb_cha_magician_heavens_rider						front	
+ovn_vizier_life_officer	ovn_vizier_life_rider						front	
+ovn_vizier_desert_officer	ovn_vizier_desert_rider						front	
+ovn_vizier_fire_officer	ovn_vizier_fire_rider						front	
+ovn_vizier_heavens_officer	ovn_vizier_heavens_rider						front	
+ovn_stormrider							front	
+dread_chariot_officer							front	dread_chariot_officer
+liche_chariot_officer							front	liche_chariot_officer
+warsphinx_rider_liche_general	warsphinx_rider_liche_general						front	
+Dread_King_2	Dread_King_2						front	
+elo_hand_of_nagash_officer							front	elo_hand_of_nagash_officer
+ovn_fim_cav_bog_beast_officer							front	ovn_fim_cav_bog_beast_riders
+wh_main_emp_officer_morgan_bernhardt	wh_main_emp_officer_morgan_bernhardt						front	
+wh_main_emp_officer_eric_ragnar	wh_main_emp_officer_eric_ragnar						front	
+grudgebringer_infantry_officer	grudgebringer_infantry_officer						front	
+grudgebringer_cannon_officer	grudgebringer_cannon_officer						front	
+grudgebringer_cavalry_officer	grudgebringer_cavalry_officer						front	
+azguz_bloodfist_dwarf_warriors_officer	azguz_bloodfist_dwarf_warriors_officer						front	
+dargrimm_firebeard_dwarf_warriors_officer	dargrimm_firebeard_dwarf_warriors_officer						front	
+black_avangers_officer	black_avangers_officer						front	
+grudgebringer_crossbow_officer	grudgebringer_crossbow_officer						front	
+carlsson_cavalry_officer	carlsson_cavalry_officer						front	
+countess_guard_officer	countess_guard_officer	countess_guard_officer1					front	
+vannheim_75th_officer	vannheim_75th_officer						front	
+wh_main_dwf_dwarf_tank_turret							front	wh_main_dwf_dwarftank_turret
+ovn_halfling_moot_general_poultry_mount							front	ovn_halfling_moot_general_poultry_mount
+ovn_halfling_master_chef_wagon_off							back	ovn_halfling_master_chef_wagon_mount
+ovn_hlf_ll							front	
+ovn_mtl_chuckwagon_officer							back	ovn_mtl_chuckwagon_riders
+wh_main_mtl_soupcart_officer							front	wh_main_mtl_soupcart_riders
+ribspreader_mammoth_rider	ribspreader_mammoth_rider						front	
+arb_fatandira_roc_officer	arb_fatandira_roc						front	
+arb_fatandira_horse_officer	arb_fatandira_horse						front	

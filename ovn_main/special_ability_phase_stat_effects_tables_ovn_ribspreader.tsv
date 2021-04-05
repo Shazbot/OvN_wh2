@@ -1,6 +1,0 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-ribspreader_bile_troll_passive	-7.0	stat_morale	add
-ribspreader_bile_troll_passive	-10.0	stat_resistance_physical	add
-ribspreader_bile_troll_passive	0.85	scalar_speed	mult
-ribspreader_bile_troll_passive	-10.0	stat_resistance_magic	add

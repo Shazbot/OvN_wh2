@@ -1,4 +1,0 @@
-cdir_events_incident_option_junctions_tables	2
-id	incident_key	option_key	value
-1587296327	ovn_hlf_comradeship	VAR_CHANCE	100
-1587296328	ovn_hlf_comradeship	GEN_TARGET_NONE	

@@ -1,0 +1,20 @@
+warscape_animated_tables	2
+key	texture_filename_base	category
+mtl_chuckwagon	warmachines\tex	animation
+mtl_chuckwagon_destruct	warmachines\tex	animation
+arb_grand_bombard	warmachines\tex	animation
+mtl_soupcart	warmachines\tex	animation
+mtl_halftank	warmachines\tex	animation
+mtl_hotpot	warmachines\tex	animation
+mtl_hotpot_destruct	warmachines\tex	animation
+mtl_hotpot_ror	warmachines\tex	animation
+mtl_hotpot_ror_destruct	warmachines\tex	animation
+arb_trebuchet	warmachines\tex	animation
+wm_stonethrower_albion	warmachines\tex	animation
+dread_legion_chariot_01	warmachines\tex	animation
+hand_of_nagash_chariot	warmachines\tex	animation
+hand_of_nagash_chariot_destruct	warmachines\tex	animation
+akp_brt_ballista	warmachines\tex	animation
+arb_ship	warmachines\tex	animation
+arb_ship_destruct	warmachines\tex	animation
+dwf_dwarf_tank	warmachines\tex	animation

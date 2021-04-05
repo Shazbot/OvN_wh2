@@ -1,4 +1,0 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-elo_so_hungry	30.0	stat_morale	add
-troll_mocking_laughter	-8.0	stat_morale	add

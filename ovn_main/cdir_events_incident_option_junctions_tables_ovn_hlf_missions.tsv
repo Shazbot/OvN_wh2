@@ -1,6 +1,0 @@
-cdir_events_incident_option_junctions_tables	2
-id	incident_key	option_key	value
-1587296323	ovn_hlf_missions_ingredient_unlocked	VAR_CHANCE	100
-1587296324	ovn_hlf_missions_ingredient_unlocked	GEN_TARGET_NONE	
-1587296325	ovn_hlf_missions_army_too_big	VAR_CHANCE	100
-1587296326	ovn_hlf_missions_army_too_big	GEN_TARGET_NONE	

@@ -1,7 +1,0 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-ovn_hlf_glibfoot_adv_continues	8.0	stat_morale	add
-ovn_hlf_glibfoot_adv_continues	1.12	scalar_speed	mult
-hlf_glibfoot_willowblade_ability	-30.0	stat_armour	add
-hlf_glibfoot_willowblade_ability	-40.0	stat_melee_defence	add
-hlf_glibfoot_thief_tactics	1.24	scalar_speed	mult

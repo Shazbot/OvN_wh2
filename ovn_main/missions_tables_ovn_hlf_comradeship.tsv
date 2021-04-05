@@ -1,3 +1,0 @@
-missions_tables	6
-generate	key	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
-true	ovn_hlf_comradeship	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false

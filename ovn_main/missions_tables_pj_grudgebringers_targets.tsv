@@ -1,7 +1,0 @@
-missions_tables	6
-generate	key	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
-false	pj_grudgebringers_targets_1			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_2			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_3			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_4			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_5			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false

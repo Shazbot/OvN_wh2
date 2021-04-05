@@ -1,4 +1,0 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-wh_main_unit_contact_souped	-5.0	stat_melee_attack	add
-wh_main_unit_contact_souped	-10.0	stat_armour	add

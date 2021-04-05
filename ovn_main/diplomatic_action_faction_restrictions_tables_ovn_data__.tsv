@@ -1,6 +1,0 @@
-diplomatic_action_faction_restrictions_tables	0
-can_make_client_states	can_make_confederations	can_make_vassals	faction
-false	false	true	wh2_main_emp_the_moot
-false	false	true	wh2_main_nor_albion
-false	false	false	wh2_main_emp_grudgebringers
-false	false	true	wh2_dlc09_tmb_the_sentinels

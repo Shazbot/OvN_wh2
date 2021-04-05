@@ -1,6 +1,0 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-elo_fimir_witness_me	1.15	stat_charge_bonus	mult
-elo_fimir_witness_me	1.2	stat_melee_damage_ap	mult
-elo_fimir_witness_me	1.2	stat_melee_damage_base	mult
-elo_fimir_witness_me	10.0	stat_melee_attack	add
