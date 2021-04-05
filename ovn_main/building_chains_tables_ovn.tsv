@@ -112,7 +112,7 @@ ovn_Clan_Fester			military	false	wh2_main_sch_military4_monsters		3
 ovn_chs_agent			military	false	wh_main_sch_human_worship		7	
 ovn_rot_stables			military	false	wh2_main_sch_military2_stables		2	
 ovn_rot_military			military	false	wh2_main_sch_military1_barracks		1	
-ovn_rot_monsters			military	false	wh_main_sch_norsca_creatures		4	
+ovn_rot_monsters			military	false	wh2_main_sch_support1_smith		4	
 ovn_troll_Bridges			money	false	wh2_main_sch_infrastructure2_industry		7	
 ovn_troll_Wyvern			military	false	wh2_main_sch_military1_barracks		7	
 ovn_troll_creatures			military	false	wh_main_sch_norsca_creatures		4	
