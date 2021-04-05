@@ -30,3 +30,4 @@ ovn_araby_magic_prom_ma	melee.png	4	melee.png	battle	true
 ovn_scimitar_coast_md	defence.png	4	defence.png	battle	true
 ovn_scimitar_coast_ma	melee.png	4	melee.png	battle	true
 ovn_scimitar_coast_armour	armour.png	4	melee.png	battle	true
+ovn_fester_diplo	diplomacy.png	2	diplomacy.png	campaign	true
