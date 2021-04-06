@@ -1,0 +1,408 @@
+Loc PackedFile	1
+key	text	tooltip
+ancillaries_colour_text_dread_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares. They are Undead stallions clad in baroque barding.	true
+ancillaries_onscreen_name_dread_barded_nightmare	Barded Nightmare	true
+ancillaries_colour_text_dread_zombie_dragon	Animated by Dark Magic, a zombie dragon is an unholy parody of a once-noble beast now borne aloft by great tattered wings, its body covered with thick, withered hide.	true
+ancillaries_onscreen_name_dread_zombie_dragon	Zombie Dragon	true
+ancillaries_colour_text_Soulreaper	Claiming the souls of the living, trapped inside the sword. once filled allows the summoning of great warriors	true
+ancillaries_onscreen_name_Soulreaper	Soulreaper	true
+ancillaries_onscreen_name_roy_anc_mount_arb_lord_horse	Barded Warhorse	true
+ancillaries_colour_text_roy_anc_mount_arb_lord_horse	A Sheikh will often require a reliable stallion to transport him across the battlefield to where he is needed most.	true
+ancillaries_onscreen_name_roy_anc_mount_arb_nomad_horse	Camel	true
+ancillaries_onscreen_name_roy_anc_mount_arb_champion_horse	Warhorse	true
+ancillaries_onscreen_name_roy_anc_mount_arb_champion_warhorse	Barded Warhorse	true
+ancillaries_onscreen_name_roy_anc_mount_arb_champion_elephant	Elephant	true
+ancillaries_onscreen_name_roy_anc_mount_arb_nomad_assassin	Mark of the Hashishin	true
+ancillaries_onscreen_name_roy_anc_mount_arb_nomad_horse_jezzail	Camel (Jezzail)	true
+ancillaries_colour_text_roy_anc_mount_arb_nomad_horse	One major advantage the camel provides for these mounted archers is simply a better angle for their arrows to aim true than from their horse counterparts. Albeit, mounted archery on a camel is no easy task! 	true
+ancillaries_colour_text_roy_anc_mount_arb_champion_horse	An officer will often require a reliable stallion to transport him across the battlefield to where he is needed most.	true
+ancillaries_colour_text_roy_anc_mount_arb_champion_warhorse	The barded steeds of the nobles are the greatest chargers from a nation that prides itself on its equestrian pedigree.	true
+ancillaries_colour_text_roy_anc_mount_arb_champion_elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	true
+ancillaries_colour_text_roy_anc_mount_arb_nomad_assassin	After years of service and loyalty, a Hashishi will receive the mark of the brotherhood.	true
+ancillaries_colour_text_roy_anc_mount_arb_nomad_horse_jezzail	Armed with long-barrelled arquebus of Arabyan design, the endless deserts have taught these men the value of marksmanship and an accurate firearm. 	true
+ancillaries_onscreen_name_Serpent_Staff	Serpent Staff	true
+ancillaries_onscreen_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
+ancillaries_colour_text_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	true
+ancillaries_colour_text_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer. Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be np doubt he was utterly insane.	true
+ancillaries_onscreen_name_arb_jaffar_camel	Camel	false
+ancillaries_colour_text_arb_jaffar_camel	Jaffar is a vainglorious man, it is no wonder then that the prestigious camel is one of his favourite mounts to ride into battle.	false
+ancillaries_onscreen_name_arb_jaffar_elephant	Royal Elephant	false
+ancillaries_colour_text_arb_jaffar_elephant	From on top the howdah of a mighty Arabyan Royal Elephant, Sultan Jaffar gazes down upon the battlefield with only imperious cruelty and disdain in his eyes.	false
+ancillaries_colour_text_sword	A fine-blade presented to Arabyan Warriors who have proved themselves in battle, gaining them respect from all.	true
+ancillaries_colour_text_Helm	It is said that Armour fashioned from the carapace of the Dune Scorpion is stronger and lighter than any metal variety.	true
+ancillaries_colour_text_Talisman	This strange mystical amulet allows its wearer magical powers but it is a heavy burden some can not bear.	true
+ancillaries_colour_text_Mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such is the renown of these majestic beasts. 	true
+ancillaries_onscreen_name_sword	Falcon Scimitar	true
+ancillaries_onscreen_name_Helm	Scorpion Carapace Armour	true
+ancillaries_onscreen_name_Talisman	Crescent Amulet	true
+ancillaries_onscreen_name_Mount	Griffon	true
+ancillaries_onscreen_name_Mount_Elephant	Royal Elephant	true
+ancillaries_colour_text_Mount_Elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	true
+ancillaries_onscreen_name_rattlesnake_staff	Rattlesnake Staff	true
+ancillaries_colour_text_rattlesnake_staff	Those proven proficient in magic are gifted the Rattlesnake Staff by the Wizard Caliph, it is the mark of any good Arabyan sorcerer.	true
+ancillaries_colour_text_the_blade_of_shadows	An esoteric, daemonic blade, its ghostly form in eternal transience between shape and shadow.	true
+ancillaries_onscreen_name_the_blade_of_shadows	The Blade of Shadows	true
+ancillaries_colour_text_dread_legion_barded_skeletal_steed	The fragile bones are protected by legion armour.	true
+ancillaries_onscreen_name_dread_legion_barded_skeletal_steed	Barded Skeletal Steed	true
+ancillaries_colour_text_elo_dread_centurion_horse	Animated by vile magic, the bones of this once proud steed still show a reflection of the grace it possessed in life.	true
+ancillaries_onscreen_name_elo_dread_centurion_horse	Skeletal Steed	true
+ancillaries_colour_text_dread_chariot_skeletal_steed	Built in the style of the Tomb Kings, only the highest officers of the Dread Legion will take to the battlefield on top of this chariot.	true
+ancillaries_onscreen_name_dread_chariot_skeletal_steed	Dread Legion Chariot	true
+ancillaries_colour_text_mount_horse_warleader	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	true
+ancillaries_onscreen_name_mount_horse_warleader	Albion Warhorse	true
+ancillaries_colour_text_mount_chariot_warleader	The chariots built in Albion might look crude to more civilized folk, but they are well constructed and surprisingly dangerous on the field.	true
+ancillaries_onscreen_name_mount_chariot_warleader	Albion Chariot	true
+ancillaries_colour_text_mount_horse_truthsayer_beasts	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	true
+ancillaries_onscreen_name_mount_horse_truthsayer_beasts	Albion Warhorse	true
+ancillaries_colour_text_mount_horse_truthsayer_light	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	true
+ancillaries_onscreen_name_mount_horse_truthsayer_light	Albion Warhorse	true
+ancillaries_colour_text_mount_horse_truthsayer_life	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	true
+ancillaries_onscreen_name_mount_horse_truthsayer_life	Albion Warhorse	true
+ancillaries_colour_text_mount_horse_truthsayer_truth	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	true
+ancillaries_onscreen_name_mount_horse_truthsayer_truth	Albion Warhorse	true
+ancillaries_colour_text_mount_horse_wyrd	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	true
+ancillaries_onscreen_name_mount_horse_wyrd	Albion Warhorse	true
+ancillaries_colour_text_mount_raven_morrigan	The only giant raven who has ever been spotted in the skies of Albion serves Morrigan as her loyal companion, allowing her to take to the skies whenever she desires to do so.	true
+ancillaries_onscreen_name_mount_raven_morrigan	Dubh'neach	true
+ancillaries_colour_text_anc_morrigan_staff	Morrigan is rarely ever seen without this staff which looks like a mere branch of a random tree. But those who know what to look for easily notice that it brims with magical power.	true
+ancillaries_onscreen_name_anc_morrigan_staff	Seann'darach	true
+ancillaries_colour_text_albion_hunting_dog	The fine nose of this animal detects hidden enemies and alarms his master if unseen foes are near.	true
+ancillaries_onscreen_name_albion_hunting_dog	Blood Hound	true
+ancillaries_colour_text_albion_woad_raider	This frenzied warrior will fight the enemies of Albion wherever he encounters them.	true
+ancillaries_onscreen_name_albion_woad_raider	Woad Raider	true
+ancillaries_colour_text_albion_tame_raven	Maybe this is a messenger of Morrigan's Flock, maybe he is just a tame Raven. Be it as it may, this bird faithfully accompanies its master, always on the hunt for glittering objects.	true
+ancillaries_onscreen_name_albion_tame_raven	Raven Companion	true
+ancillaries_onscreen_name_albion_druid_advisor	Druidic Advisor	true
+ancillaries_colour_text_albion_druid_advisor	Truthsayers who are too old or fragile to continue serving on the battlefield or casting exhausting spells will often serve as advisors to chieftains and warleaders.	true
+ancillaries_colour_text_albion_chief	Chieftains are figures of authority among the tribes. Not all of them fight on the battlefield, but even those who do not will help the war effort by maintaining order on the battlefield.	true
+ancillaries_onscreen_name_albion_chief	Chieftain	true
+ancillaries_colour_text_albion_old_warrior	Not many warriors of Albion are skilled or lucky enough to make it to old age. Those who do inspire the younger men of their tribe with stories of valor.	true
+ancillaries_onscreen_name_albion_old_warrior	Old Warrior	true
+ancillaries_colour_text_albion_scavanger	Sacking and looting settlements is sometimes required for the survival of the tribe. And some tribesmen are better at it than others.	true
+ancillaries_onscreen_name_albion_scavanger	Plunderer	true
+ancillaries_colour_text_albion_woman	Women of Albion may choose to take up arms, just like men. Those who do not are expected to learn a craft such as healing or hunting.	true
+ancillaries_onscreen_name_albion_woman	Tribes Woman	true
+ancillaries_colour_text_fenbeast_follower	Truthsayers will sometimes use Fenbeasts as bodyguards. Their inability to betray their masters and intimidating appearance makes them well suited for this task.	true
+ancillaries_onscreen_name_fenbeast_follower	Fenbeast	true
+ancillaries_colour_text_hearthguard_follower	Members of the Hearthguard serve as bodyguards for important chiefs, warleaders and druids.	true
+ancillaries_onscreen_name_hearthguard_follower	Hearthguard Bodyguard	true
+ancillaries_colour_text_druid_neophyte	A Truthsayer who is still learning his craft. He is already able to manipulate the winds of magic to his favour though.	true
+ancillaries_onscreen_name_druid_neophyte	Druid Neophyte	true
+ancillaries_colour_text_albion_hardened_warrior	This hardened warrior has seen many battles. His calm, stalwart presence inspires the warriors of the army and his knowledge in warfare is very beneficial.	true
+ancillaries_onscreen_name_albion_hardened_warrior	Veteran Warrior	true
+ancillaries_colour_text_albion_scary_banner	This grizzly banner is a reminder of the more savage aspects of the culture of Albion. It is decorated with skulls and bones of slain foes, both beast and human alike.	true
+ancillaries_onscreen_name_albion_scary_banner	The Banner of Trophies	true
+ancillaries_colour_text_albion_lone_huntress	Not many travel alone through the dangerous wilds of Albion. Those who do are either foolhardy or exceptionally skilled - sometimes both at the same time.	true
+ancillaries_onscreen_name_albion_lone_huntress	Lone Wolf Huntress	true
+ancillaries_colour_text_anc_danu_banner	Those who fight under the Banner of the Earth goddess benefit from her protection.	true
+ancillaries_onscreen_name_anc_danu_banner	Banner of Danu	true
+ancillaries_colour_text_anc_albion_hunter_banner	Only in times of war would hunters bother to carry a banner.	true
+ancillaries_onscreen_name_anc_albion_hunter_banner	Hunter's Banner	true
+ancillaries_onscreen_name_anc_albion_staff_of_light	Staff of Light	true
+ancillaries_colour_text_anc_albion_staff_of_light	One of the best-guarded secrets of the Truthsayers is the art of forging a Staff of Light. These weapons allow the Truthsayers who wield them to hinder the magic of their opponents.	true
+ancillaries_onscreen_name_anc_albion_talisman_triskele	Triskele Talisman	true
+ancillaries_colour_text_anc_albion_talisman_triskele	A magic talisman with the sign of the Triskele carved into it. It is given to accomplished Truthsayers and its magic will protect them from harm.	true
+ancillaries_onscreen_name_anc_albion_hammer_giant	Hammer of Giant Strength	true
+ancillaries_colour_text_anc_albion_hammer_giant	It is said that this hammer has been imbued with the strength of Bologs, greatest of Albion's giants. It is certainly heavy enough to require giant strength to be swung around by its user.	true
+ancillaries_onscreen_name_anc_albion_sun_shield	Golden Shield of the Sun	true
+ancillaries_colour_text_anc_albion_sun_shield	Blessed by Lugh, the sun god, this shield burns arrows and foes alike if they are getting too close to it.	true
+ancillaries_onscreen_name_anc_hunter_spear	Swamp Hunter's Spear	true
+ancillaries_colour_text_anc_hunter_spear	A heavy spear designed to hunt the big, mutated beasts of Albion's swamps. It pierces the thickest hide just as well as a Fimir's armour.	true
+ancillaries_onscreen_name_anc_dagger_shadow	Dagger of Shadows	true
+ancillaries_colour_text_anc_dagger_shadow	It is said that this weapon was taken from a Fimir near the Citadel of Lead. It is turning its wielder into an excellent killer, however, there is a cost to be paid. None of its wielders seem to get very old.	true
+ancillaries_onscreen_name_anc_albion_chainmail	Albion Chainmail	true
+ancillaries_colour_text_anc_albion_chainmail	The best armour Albion can produce, favoured by its nobility and everyone else who can afford it.	true
+ancillaries_onscreen_name_anc_albion_helmet_leader	Warleader's Helmet	true
+ancillaries_colour_text_anc_albion_helmet_leader	A helmet made for leaders of armies, enchanted to enhance their voice and keep their mind calm.	true
+ancillaries_onscreen_name_anc_albion_talisman_danu	Amulet of Danu	true
+ancillaries_colour_text_anc_albion_talisman_danu	The Earthmother blesses those who fight in her name with her powers.	true
+ancillaries_onscreen_name_anc_albion_talisman_belakor	Talisman of Lead	true
+ancillaries_colour_text_anc_albion_talisman_belakor	Strange signs are carved into this oddly shaped talisman. If a Dark Emissary could get his hands on it, he would recognize a fragment of his master's powers sealed within.	true
+ancillaries_onscreen_name_anc_albion_scepter_old_ones	Scepter of the Old Ones	true
+ancillaries_colour_text_anc_albion_scepter_old_ones	An ancient item left behind by the mysterious Old Ones. The Truthsayer holding it might tap into its power when casting spells and even though he doesn't understand it, he can activate its magical effect.	true
+ancillaries_onscreen_name_anc_albion_staff_of_darkness	Staff of Darkness	true
+ancillaries_colour_text_anc_albion_staff_of_darkness	A Staff of Light modified by a Dark Emissary. Even though it pains the Truthsayer to do so, he can use the enemies weapons if he must, although the risk might not be worth the power it holds.	true
+ancillaries_onscreen_name_anc_albion_ogham_shard	Ogham Stone Shard	true
+ancillaries_colour_text_anc_albion_ogham_shard	The shard of an old, collapsed Ogham Stone. It still holds a fraction of its former power.	true
+ancillaries_onscreen_name_anc_albion_hound_statue	Enchanted Hound Figurine	true
+ancillaries_colour_text_anc_albion_hound_statue	This small wooden figurine has been enchanted to aid hunters in their dangerous expeditions.	true
+ancillaries_onscreen_name_anc_albion_skull_trophies	Terrifying Trophy	true
+ancillaries_colour_text_anc_albion_skull_trophies	Accomplished Albion Warriors often take trophies from worthy foes and have Truthsayers preserve them in secret rites. They are then worn into battle and supposed to strengthen the warrior with the power of their slain enemy.	true
+ancillaries_onscreen_name_anc_albion_triskele_banner	Triskele Banner	true
+ancillaries_colour_text_anc_albion_triskele_banner	A magic banner emblazoned with the sign of the Triskele. It is given to accomplished Truthsayers and its magic will protect them from harm.	true
+effect_bundles_localised_title_anc_albion_triskele_banner	Triskele Banner	true
+effect_bundles_localised_description_anc_albion_triskele_banner	A magic banner emblazoned with the sign of the Triskele. It is given to accomplished Truthsayers and its magic will protect them from harm.	true
+effect_bundles_localised_title_elo_staff_of_dural_durak	Staff of Dural Durak	true
+effect_bundles_localised_description_elo_staff_of_dural_durak	When Dural Durak casts spells, this staff of his own creation twists the Winds of Magic in a way that disturbs the efforts of enemy casters.	true
+effect_bundles_localised_title_elo_amulet_old_ones	Amulet of the Old Ones	true
+effect_bundles_localised_description_elo_amulet_old_ones	One of the last functioning artifacts of the Old Ones remaining in the hands of the tribes of Albion, this amulet can save the life of its wearer once per battle with a surge of magical energy.	true
+effect_bundles_localised_title_dural_mount_horse	Albion Warhorse	false
+effect_bundles_localised_description_dural_mount_horse	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	false
+effect_bundles_localised_title_dural_mount_chariot	Albion Chariot	false
+effect_bundles_localised_description_dural_mount_chariot	The chariots built in Albion might look crude to more civilized folk, but they are well constructed and surprisingly dangerous on the field.	false
+ancillaries_onscreen_name_elo_staff_of_dural_durak	Staff of Dural Durak	true
+ancillaries_colour_text_elo_staff_of_dural_durak	When Dural Durak casts spells, this staff of his own creation twists the Winds of Magic in a way that disturbs the efforts of enemy casters.	true
+effect_bundles_localised_description_anc_albion_hunter_banner	Only in times of war would hunters bother to carry a banner.	false
+effect_bundles_localised_title_anc_albion_hunter_banner	Hunter's Banner	false
+effect_bundles_localised_description_albion_scary_banner	This grizzly banner is a reminder of the more savage aspects of the culture of Albion. It is decorated with skulls and bones of slain foes, both beast and human alike.	false
+effect_bundles_localised_title_albion_scary_banner	The Banner of Trophies	false
+effect_bundles_localised_description_anc_danu_banner	Those who fight under the Banner of the Earth goddess benefit from her protection.	true
+effect_bundles_localised_title_anc_danu_banner	Banner of Danu	true
+ancillaries_colour_text_luthor_the_hunchback	Luthor is Larenscheld's faithful servant. He excels at ambushing, supporting his master to get rid of pesky adventurers and keeping his master safe from daggers in the dark.	true
+ancillaries_onscreen_name_luthor_the_hunchback	Luthor the Hunchback	true
+ancillaries_colour_text_mount_barded_skeletal_steed_liche	The fragile bones are protected by legion armour.	true
+ancillaries_onscreen_name_mount_barded_skeletal_steed_liche	Barded Skeletal Steed	true
+ancillaries_colour_text_mount_chariot_liche	Built in the style of the Tomb Kings, only the highest officers of the Dread Legion will take to the battlefield on top of this chariot.	true
+ancillaries_onscreen_name_mount_chariot_liche	Dread Legion Chariot	true
+ancillaries_colour_text_mount_warsphinx_liche	A Warsphinx brought by a traitor king into the service of Nagash.	true
+ancillaries_onscreen_name_mount_warsphinx_liche	Khemrian Warsphinx	true
+ancillaries_onscreen_name_mount_chariot_hand_of_nagash	Chariot of the Hand	true
+ancillaries_colour_text_mount_chariot_hand_of_nagash	The Hand of Nagash is infamous an infamous charioteer. Now that he is resurrected and has regained his chariot, only misery awaits the living in his path.	true
+ancillaries_onscreen_name_elo_hand_punished_one	The Punished One	true
+ancillaries_colour_text_elo_hand_punished_one	An enemy so hated by the Hand that he was strapped on a halberd and is used as a battlestandard even after death. Those who came close enough and survived swear that the skeleton still screams in agony. Without a sound, yet unbearably loud.	true
+ancillaries_onscreen_name_elo_hungering_blade	The Hungering Blade	true
+ancillaries_colour_text_elo_hungering_blade	A gift from Nagash himself. When its wielder fades, the blade awakens and feeds him with the life force of its victims so he may persist against all odds.	true
+ancillaries_colour_text_anc_adventurer_trinkets	Ugma likes to collect treasures. He carries an assortment of small trinkets with him, taken from adventurers he has bested. Some of these trophies are magical and imbue the troll with beneficial effects.	true
+ancillaries_onscreen_name_anc_adventurer_trinkets	Ugma's Trinkets	true
+ancillaries_colour_text_anc_resevoir_stone	Chief Ugma's oversized hammer has probably been taken from the statue of a Dwarf hero or ancestor god in the fallen Karak Azgal. Chief Umga doesn't seem to care though, all that matters is that the hammer has the right size and doesn't break.	true
+ancillaries_onscreen_name_anc_resevoir_stone	Karak Azgal Stone Hammer	true
+ancillaries_colour_text_grudge_anc_rune_rune_of_fury	Bright and angry glow the Runes of Fury, the weapons that hold them almost jumping out of their wielders' hands in desperation to strike the foe.	true
+ancillaries_colour_text_grudge_anc_rune_rune_of_might	A Dwarf wielding a weapon bearing the Runes of Might can fell a Giant in a flurry of axe blows.	true
+ancillaries_colour_text_grudge_anc_rune_rune_of_parrying	A weapon with this rune moves to block incoming attacks, making its wielder extremely hard to hit.	true
+ancillaries_colour_text_grudge_anc_rune_rune_of_striking	The Rune of Striking causes the weapon to hit the foe’s most vulnerable area with uncanny precision.	true
+ancillaries_onscreen_name_grudge_anc_rune_rune_of_fury	Rune of Fury	true
+ancillaries_onscreen_name_grudge_anc_rune_rune_of_might	Rune of Might	true
+ancillaries_onscreen_name_grudge_anc_rune_rune_of_parrying	Rune of Parrying	true
+ancillaries_onscreen_name_grudge_anc_rune_rune_of_striking	Rune of Striking	true
+ancillaries_colour_text_grudge_item_horn_of_urgok	This enchanted horn has the power to panic enemies and calm friendly troops with a single blast. When sounded, all enemy regiments within earshot may flee and all fleeing friendly regiments within range will rally themselves.	true
+ancillaries_onscreen_name_grudge_item_horn_of_urgok	Horn of Urgok	true
+ancillaries_colour_text_grudge_item_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. Also, a fireball may be cast from the sword.	true
+ancillaries_colour_text_grudge_item_hellfire_sword	This sword is enchanted with the energy of Bright magic. Its magical power may be cast when the wielder is in melee, unleashing a fiery blast which wounds any troops in the vicinity.	true
+ancillaries_colour_text_grudge_item_storm_sword	This mighty sword channels the energy of Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast, summoning multiple lightning bolts from the sky which strike the enemy regiment.	true
+ancillaries_colour_text_grudge_item_runefang	Forged by a great Dwarf runesmith as a gift to the Empire, this sword has powerful Dwarf runes carved upon its blade. The sword strikes with such force it penetrates all armour, and any undead troops hit by the sword suffer twice the normal damage.	true
+ancillaries_colour_text_grudge_item_enchanted_shield	The Enchanted Shield provides the bearer's regiment with an extra level of armour. This item can only be utilised by troops who are normally able to use a shield.	true
+ancillaries_colour_text_grudge_item_shield_of_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs. The patterns magically distract arrows and bolts, sending them spinning off course. The bearer's regiment will be protected against missiles from bows, crossbows, war engines and so on. Additionally, the shield provides the bearer's regiment with a basic level of armour.	true
+ancillaries_colour_text_grudge_item_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channelling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	true
+ancillaries_colour_text_grudge_item_dragonhelm	This magic helmet protects the bearer's regiment from the effects of fire or flame attacks. The magical powers are so effective that almost all such attacks will be ineffective.	true
+ancillaries_colour_text_grudge_item_wand_of_jet	This powerful wand channels the energy of the winds of magic, providing the bearer with extra magical powers. Any spell in the bearer's repertoire can be cast for fewer magic points than it would normally cost, to a minimum of one point.	true
+ancillaries_colour_text_grudge_item_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	true
+ancillaries_colour_text_grudge_item_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	true
+ancillaries_colour_text_grudge_item_banner_of_defiance	This powerful banner infuses the bearer's regiment with extra courage, making them braver and more determined. A regiment bearing this banner will never break from hand-to-hand combat and is immune to fear.	true
+ancillaries_onscreen_name_grudge_item_grudgebringer_sword	Grudgebringer Sword	true
+ancillaries_onscreen_name_grudge_item_hellfire_sword	Hellfire Sword	true
+ancillaries_onscreen_name_grudge_item_storm_sword	Storm Sword	true
+ancillaries_onscreen_name_grudge_item_runefang	Grudgebringers Runefang	true
+ancillaries_onscreen_name_grudge_item_enchanted_shield	Enchanted Shield	true
+ancillaries_onscreen_name_grudge_item_shield_of_ptolos	Shield of Ptolos	true
+ancillaries_onscreen_name_grudge_item_spelleater_shield	Spelleater Shield	true
+ancillaries_onscreen_name_grudge_item_dragonhelm	Dragonhelm	true
+ancillaries_onscreen_name_grudge_item_wand_of_jet	Wand of Jet	true
+ancillaries_onscreen_name_grudge_item_banner_of_arcane_warding	Banner of Arcane Warding	true
+ancillaries_onscreen_name_grudge_item_banner_of_wrath	Banner of Wrath	true
+ancillaries_onscreen_name_grudge_item_banner_of_defiance	Banner of Defiance	true
+ancillaries_colour_text_hlf_staff	Gifted Halflings who have defended the Moot and all within are presented a magical staff from the creatures of Altern Forest.	true
+ancillaries_colour_text_hlf_robe	Dried and treated Tobacco from the Greenleaf plantations are woven into impossible robes showcasing various runes of protection.	true
+ancillaries_onscreen_name_hlf_staff	Altern Gnarl Staff	true
+ancillaries_onscreen_name_hlf_robe	Greenleaf Battle Robes	true
+ancillaries_onscreen_name_ovn_anc_weapon_glammyding	Glammyding	true
+ancillaries_colour_text_ovn_anc_weapon_glammyding	The magical Halfling sword known as Glammyding increases its wielder's strength, while striking fear into Orcs and Goblins.	true
+ancillaries_onscreen_name_ovn_anc_talisman_bottomless_hat_of_rabbit	Bottomless Hat of Rabbit	true
+ancillaries_colour_text_ovn_anc_talisman_bottomless_hat_of_rabbit	Olorin is much admired in the Moot for hisability to pull rabbits out of his hat. Tasty rabbits, too.	true
+ancillaries_onscreen_name_ovn_anc_arcane_item_cathay_fireworks	Cathay Fireworks	true
+ancillaries_colour_text_ovn_anc_arcane_item_cathay_fireworks	Olorin's special reserve of fireworks from Cathay, "borrowed" from their last diplomatic mission, whenever that was.	true
+ancillaries_onscreen_name_ovn_anc_weapon_aragands_sword	Aragand the Layabout's Sword	true
+ancillaries_colour_text_ovn_anc_weapon_aragands_sword	An impressive, but seemingly broken, two-handed sword. Aragand the Layabout likes to ramble on about how it only appears to be broken, and is, in fact, in mint condition.	true
+ancillaries_onscreen_name_ovn_anc_enchanted_item_pig_swill	Keigel's Natural Pig Swill	true
+ancillaries_colour_text_ovn_anc_enchanted_item_pig_swill	Only the worst low-life scum would ever deign to put this vile concoction to the taste. Worse, the after-effects of this vile brew are painful and accompanied with much vomiting.	true
+ancillaries_onscreen_name_ovn_anc_talisman_friendship_bracelet_legles	Legles's Friendship Bracelet	true
+ancillaries_colour_text_ovn_anc_talisman_friendship_bracelet_legles	"Giblit, for the sake of our friendship, please go steal from that sleeping dragon."	true
+ancillaries_onscreen_name_ovn_anc_enchanted_item_ring_of_concealment	Ring of Concealment	true
+ancillaries_colour_text_ovn_anc_enchanted_item_ring_of_concealment	The magical Ring of Concealment makes it very difficult for others to see its wearer.	true
+ancillaries_onscreen_name_ovn_anc_talisman_friendship_bracelet_giblit	Giblit's Friendship Bracelet	true
+ancillaries_colour_text_ovn_anc_talisman_friendship_bracelet_giblit	This friendship bracelet represents the great task of repentance that lays before Giblit, being friends with an elf for the rest of his life.	true
+ancillaries_onscreen_name_ovn_anc_enchanted_item_bimbos_book	Bimbo's Book of Sage Advice	true
+ancillaries_colour_text_ovn_anc_enchanted_item_bimbos_book	Bimbo's Book allows a Halfling leader to give some sage advice to his army. "Sage Advice" is Halfling for a good talking to.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_life_magic_carpet	Flying Carpet	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_life_magic_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_life_djinn_vessel	Djinn Vessel	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_life_djinn_vessel	Servants carrying a large Djinn Vessel.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_desert_magic_carpet	Flying Carpet	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_desert_magic_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_desert_djinn_vessel	Djinn Vessel	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_desert_djinn_vessel	Servants carrying a large Djinn Vessel.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_fire_magic_carpet	Flying Carpet	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_fire_magic_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_fire_djinn_vessel	Djinn Vessel	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_fire_djinn_vessel	Servants carrying a large Djinn Vessel.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_heavens_magic_carpet	Flying Carpet	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_heavens_magic_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_ovn_anc_mount_arb_magician_heavens_djinn_vessel	Djinn Vessel	true
+ancillaries_colour_text_ovn_anc_mount_arb_magician_heavens_djinn_vessel	Servants carrying a large Djinn Vessel.	true
+ancillaries_onscreen_name_aky_chief_wolf_terrorgheist	Northern Terrorgheist	true
+ancillaries_colour_text_aky_chief_wolf_terrorgheist	Giant bats the size of dragons, capable of plucking men from the field and stunning warhorses into paralysis.	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_01_copher	Copher Scales	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_02_atabeg	Atabeg Ornate Armor	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_03_sand_helm	Helm of the Sands	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_04_dwell_terror	Dweller's Terror	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_05_lost_breastplate	Breastplate of the Lost	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_06_uzzal_tear	Tear of Uzzal	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_07_oasis_heart	Heart of the Oasis	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_08_gorgon_shield	Gorgon Shield	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_09_faith_shield	Shield of Faith	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_10_scorpion_armour	Atabeg Scorpion Armor	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_11_khrumak_gift	Khrumak’s Gift	true
+ancillaries_onscreen_name_ovn_arb_baz_arm_12_sultan_armour	Sultan's Gilded Armour	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_01_golden_scimitar	Golden Scimitar	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_02_hidden_blade	Hidden Blade	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_03_corsair_soul	Corsair Soul	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_04_desert_hammer	Hammer of the Desert	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_05_saif	Saif Al-Janub	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_06_truth_dagger	Dagger of Truth	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_07_dimashque_breath	Dimashque's Breath	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_08_matyr_shard	Martyr’s Shard	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_09_seeking_bow	Bow of Seeking	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_10_vengeful_sword	Sword of the Vengeful God	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_11_efreet_blade	Efreet’s Blade	true
+ancillaries_onscreen_name_ovn_arb_baz_wep_12_weeping_blade	Weeping Blade	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_01_desert_idol	Idol of the Desert:	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_02_fate_abacus	Abacus of Fate	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_03_beetle_pendulum	Beetle Pendulum	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_04_desire_astrolabe	Astrolabe of Desire	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_05_serpent_crown	Crown of the Serpent Caliph	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_06_healing_ring	Ring of Divine Healing	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_07_djinni_ring	Djinni’s Ring	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_08_faith_mask	Mask of the Faith	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_09_mullah_scripture	Holy Scriptures of Mullah Aklan’d	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_10_ratkin_necklace	Ratkin Necklace	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_11_ibn_jellaba_compass	Ibn Jellaba's Compass	true
+ancillaries_onscreen_name_ovn_arb_baz_ei_12_twilight_mirror_shard	Twilight Mirror Shard	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_02_sun_flask	Flask of the Sun	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_03_beetle_star	Beetle of the Black Star	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_06_cheshnakk_ring	Cheshnakk Ring	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_07_moonstone	Moonstone	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_08_ishmail_heart	Heart of Ishmail	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_09_toy_horse	Ancient Toy Horse	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_10_khandu_hookah	Khandu Hookah	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_11_kadizar_rope	Kadizar Rope	true
+ancillaries_onscreen_name_ovn_arb_baz_tal_12_golden_carafe	Golden Carafe	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_01_laniph_scroll	Laniph’s Scroll	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_02_puzzle_box	Arabyan Puzzle Box	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_03_whirlpool_staff	Whirlpool Staff	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_04_sandstorm_staff	Sandstorm Staff	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_05_dune_book	Cursed Book of the Dunes	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_06_mortis_scrawl	Blood Scrawl of the Liber Mortis	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_07_monkey_paw	Monkey Paw	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_08_glimmering_monkey_paw	Glimmering Monkey Paw	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_09_bronze_monkey_paw	Bronze Monkey Paw	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_10_golden_monkey_paw	Monkey King's Gilded Finger	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_11_genie_lantern	Magic Lantern	true
+ancillaries_onscreen_name_ovn_arb_baz_arc_12_genie_lantern_alt	Oil Lamp	true
+ancillaries_colour_text_ovn_arb_baz_arm_01_copher	A piece of arabyan craftsmanship that provides solid defense balanced with extreme lightness.	true
+ancillaries_colour_text_ovn_arb_baz_arm_02_atabeg	A tremendously ornamented piece, showing the value and rank of the lucky one who wears it.	true
+ancillaries_colour_text_ovn_arb_baz_arm_03_sand_helm	No one knows the origin of this strange artifact, but it seems to ward off all magical power that is thrown at its bearer.	true
+ancillaries_colour_text_ovn_arb_baz_arm_04_dwell_terror	This armor was created by an ancient caliph to combat the threat of a cabal of bloody vampires.	true
+ancillaries_colour_text_ovn_arb_baz_arm_05_lost_breastplate	Legends tell that an arabyan princess went deep into the desert in search of her brother. The fierce girl returned wearing a shining armor, snatched from an ancient Tomb King, and no one ever knew what had happened on her travels.	true
+ancillaries_colour_text_ovn_arb_baz_arm_06_uzzal_tear	Uzzal, the arabyan goddess of protection, created this armor in ancient times, to fight the dreaded demons. Ensures the health of its bearer against any monster.	true
+ancillaries_colour_text_ovn_arb_baz_arm_07_oasis_heart	This magical armor protects its wearer from the punishment of the sun, while healing their wounds. It was forged in the ancient city of Dakisir, before its destruction by the Undead.	true
+ancillaries_colour_text_ovn_arb_baz_arm_08_gorgon_shield	In the Gorgon Shield, the image of a Gorgon is displayed, a horrible creature said to inhabit the deserts of Araby. It is rumored that if an enemy looks into the eyes of the face painted on the shield, it will turn to stone. This has never happened in recent memory, but the reputation of the shield is great enough that adversaries put themselves at a disadvantage by trying to avoid the Gorgon Shield gaze.	true
+ancillaries_colour_text_ovn_arb_baz_arm_09_faith_shield	A long-forgotten smith, unswerving in his faith, created this shield. It was once held by the hero Amir Bakir who was slain as he bravely charged into an overwhelming number of enemies during the Crusades. The shield is imbued with the power of the divine and may destroy any weapon that touches it.	true
+ancillaries_colour_text_ovn_arb_baz_arm_10_scorpion_armour	This armour gives the wearer the abilities of a scorpion. It was last worn by Atabeg Zankhri, who travelled from the centre of the desert after a failed assassination attempt which resulted in the deaths of all his companions. He made it back to Khalibon, only to remove his armour and become the victim of a final dagger thrust by a shadowy assailant.	true
+ancillaries_colour_text_ovn_arb_baz_arm_11_khrumak_gift	This armour was given as a present by the Dwarf Lord Khrumak to the Sultan Nur Al-Zangi. The armour was a reward to the Sultan for saving his caravan from a legion of undead that rose against him as he traversed the desert. It is covered in runes that grant supreme resistance to spells.	true
+ancillaries_colour_text_ovn_arb_baz_arm_12_sultan_armour	Worn by Sultans past, this gilded ruby encrusted armour while impractical, shows the wealth and power of it's wearer and thier power hungry ways.	true
+ancillaries_colour_text_ovn_arb_baz_wep_01_golden_scimitar	The skill of the Arabyan warriors is unmatched as long as they guard the nimble and sharp scimitars of their homeland.	true
+ancillaries_colour_text_ovn_arb_baz_wep_02_hidden_blade	A sharp blade hidden in the assassin’s bracer, ideal for cutting the enemies’ throats.	true
+ancillaries_colour_text_ovn_arb_baz_wep_03_corsair_soul	Bearing the blessing of the Monarch of the Sea, goddess of protection for the Arabyan sailors, this scimitar will wipe out any threat before the enemy can react.	true
+ancillaries_colour_text_ovn_arb_baz_wep_04_desert_hammer	A weapon without equal, that only the fierce and strong inhabitants of the dunes are capable of handling correctly.	true
+ancillaries_colour_text_ovn_arb_baz_wep_05_saif	Given as a gift to an imperial mercenary for his displays of courage during the Siege of Sudenburg against the Undead, this scimitar was forged by the famed Arabyan philosopher and craftsman Hataq al-Kundi at the time of the Crusade.	true
+ancillaries_colour_text_ovn_arb_baz_wep_06_truth_dagger	This dagger was found clutched in a skeletal hand and buried under a mass of bodies. The wielder of the dagger sold his life dearly.	true
+ancillaries_colour_text_ovn_arb_baz_wep_07_dimashque_breath	Forged from the best steel of all Araby, this scimitar encapsulates the skill of the best master craftsmen in the city of Dimashque.	true
+ancillaries_colour_text_ovn_arb_baz_wep_08_matyr_shard	Forged by Alik the Fanatic, the Martyr’s Shard gained its power as Alik lay dying, still clutching it to his bleeding chest. His readiness to give his life to his cause infused the dagger with divine power. The dagger now allows its wielder to strike horrifying wounds, if they are prepared to offer their lives in the process.	true
+ancillaries_colour_text_ovn_arb_baz_wep_09_seeking_bow	Bow of Seeking: This bow was a gift to Princess Shah’Razad from the Elven merchants that frequent Araby as a gift for her enchanting story-telling. Made from hardest ebony, this magical bow has been the death of many monsters in Araby. Any arrow shot using this magic bow will pursue the target and hit it even if it is behind cover.	true
+ancillaries_colour_text_ovn_arb_baz_wep_10_vengeful_sword	This is a famed weapon that was wielded by Abakukh the Mighty. His lust for battle was such that he was overcome by the sword after slaying every enemy that stood against him on that fateful day.	true
+ancillaries_colour_text_ovn_arb_baz_wep_11_efreet_blade	This is one of the sword’s forged by Maha Zorouzahan that is imbued with spells from the magi of the Land of a Thousand Gods. When the word’s of power are uttered, the sword bursts into flame and grants its wielder immense power.	true
+ancillaries_colour_text_ovn_arb_baz_wep_12_weeping_blade	An old blade that still oozes a strange noxious liquid, a gift from shameful times where the Ratkin were once called allies.	true
+ancillaries_colour_text_ovn_arb_baz_ei_01_desert_idol	Representing one of the fierce gods of Araby, this statue contains the will of the spirits.	true
+ancillaries_colour_text_ovn_arb_baz_ei_02_fate_abacus	Utilizing the power of arabyan wizards, this Abacus anticipates change, warning of future threats.	true
+ancillaries_colour_text_ovn_arb_baz_ei_03_beetle_pendulum	With the poison of the Tomb Beetle, a powerful Pendulum is created to chase nearby vampires, widely used by the caliphs of Araby.	true
+ancillaries_colour_text_ovn_arb_baz_ei_04_desire_astrolabe	This ancient Astrolabe was created by astrologer/engineer Asthra the Magian. It uses sorcery and knowledge of the heavens to point the holder in the direction of what she desires most.	true
+ancillaries_colour_text_ovn_arb_baz_ei_05_serpent_crown	A power without equal creeps among the rubies of this crown, because anyone who carries it will be able to bend the wills of many around him.	true
+ancillaries_colour_text_ovn_arb_baz_ei_06_healing_ring	The ring is an heirloom from a line of great warriors who fought for your faith. The finger that wore it was severed during battle, resulting in the warrior’s demise. The ring has the power to mend the worst damage, even otherwise fatal wounds.	true
+ancillaries_colour_text_ovn_arb_baz_ei_07_djinni_ring	Crafted with elemental sorcery, this golden ring has a Djinn bound to it. The bearer can summon the Djinn who will protect its master.	true
+ancillaries_colour_text_ovn_arb_baz_ei_08_faith_mask	The origins of this enigmatic relic has been lost over the centuries, suffice to say that it is extremely old and very valuable. It was used by the Caliph Ibn Rashid, in his wars against the undead hordes of King Khasetratepp. The wearer of the Mask projects an aura of holiness that the undead will shy away from.	true
+ancillaries_colour_text_ovn_arb_baz_ei_09_mullah_scripture	Holy Scriptures of Mullah Aklan’d: The legendary Mullah Aklan’d was the most renowned legend in the entire history of Araby, and his everlasting fight against the High Elves has been set on fire in the hearts of the Arabyans. The self-proclaimed first Grand Sultan decided to write his memoirs, secrets and teachings in the so-called Holy Scriptures. 	true
+ancillaries_colour_text_ovn_arb_baz_ei_10_ratkin_necklace	An old necklace whose pendant bears a strange triangle, it is said it will call out to burrowing beasts to this day, a gift from shameful times where the Ratkin were once called allies.	true
+ancillaries_colour_text_ovn_arb_baz_ei_11_ibn_jellaba_compass	The master explorer made use of this magical compass that always marks a true path and wards it's bearer from dangerous lands. It's orign is unknown, some say it was crafted by Ibn's own hand, others a lizardmen trinket batered for in the Southlands.	true
+ancillaries_colour_text_ovn_arb_baz_ei_12_twilight_mirror_shard	Created from a series of enchanted mirrors by the mad wizard Mahik Al'Rak, this small shard accidentally broke away after Imperial and Bretonnian crusaders stormed the tower, to gaze upon it is to gaze upon Chaos.	true
+ancillaries_colour_text_ovn_arb_baz_tal_02_sun_flask	With a pinch of the energy from the sun inside, this device is made by the most expert alchemists of Araby.	true
+ancillaries_colour_text_ovn_arb_baz_tal_03_beetle_star	Obtained from the deep ruined chambers of the cursed Nehekhara, this relic contains a power long forgotten.	true
+ancillaries_colour_text_ovn_arb_baz_tal_06_cheshnakk_ring	Cheshnakk was a great wizard from Araby whose celebrated skill led to the creation of the most exquisite flying carpets. The problem of his achievements, however, was the forging of the Cheshnakk Ring. In all its power, this ring can transport its wearer back to his home.	true
+ancillaries_colour_text_ovn_arb_baz_tal_07_moonstone	Concentrating the power of the gods of Araby, the power that hides this artifact returns to its controller as silent as the same night.	true
+ancillaries_colour_text_ovn_arb_baz_tal_08_ishmail_heart	Ishmail, the god of Araby related to night, secrets and stars, hides secrets from ages past. After creating the Djinns, this powerful deity left powerful artifacts in the mortal world, with supreme abilities that few can understand.	true
+ancillaries_colour_text_ovn_arb_baz_tal_09_toy_horse	A toy from a bygone era, it tells of a tale of deception that brought the fall of a great city.	true
+ancillaries_colour_text_ovn_arb_baz_tal_10_khandu_hookah	It is said to smoke from this pipe brings great clarity & calm. Many strange deals and allies have emerged from inhaling it's intoxicating fumes.	true
+ancillaries_colour_text_ovn_arb_baz_tal_11_kadizar_rope	Hailing from the land of a thousand gods, magic ropes have allowed many thiefs to perform extraordinary feats.	true
+ancillaries_colour_text_ovn_arb_baz_tal_12_golden_carafe	When filled with water and the sacred rites incited it is said that any object that touches the now divine water is impervious to magic.	true
+ancillaries_colour_text_ovn_arb_baz_arc_01_laniph_scroll	The powerful arabyan sorceress known as Laniph created strange artifacts to contain the Winds of Magic inside it.	true
+ancillaries_colour_text_ovn_arb_baz_arc_02_puzzle_box	A strange object that allows its wielder to manipulate the Winds of Magic to appease, something unpredictable in distant Araby.	true
+ancillaries_colour_text_ovn_arb_baz_arc_03_whirlpool_staff	The Whirlpool Staff is inscribed with esoteric calligraphy that teaches the wielder how to intercept hostile magic and dispel it.	true
+ancillaries_colour_text_ovn_arb_baz_arc_04_sandstorm_staff	Carved from the petrified prob of ancient, wind blasted prob, the Sandstorm Staff contains the very essence of the desert. With the help of the elves, the greatest Arabyan elementalists bound the power of the desert into these staffs, which were once thought lost to the sands.	true
+ancillaries_colour_text_ovn_arb_baz_arc_05_dune_book	The last writing of the arabyan necromancer Harak-Iman, it remain as a vestige of this dark art among the dunes, hidden in the distant city of Ma’arra.	true
+ancillaries_colour_text_ovn_arb_baz_arc_06_mortis_scrawl	Scattered across the lands of Araby are the pages of the Book of the Dead, written by the mad Arabyan, Abdul Alhazred. The forbidden lore on the pages will instill in the reader vast knowledge in the ways of death and the afterlife.	true
+ancillaries_colour_text_ovn_arb_baz_arc_07_monkey_paw	This strange and disgusting object is used mainly during the strange religious rites of the nomadic tribes of the Tuareg and has a similar power to the Magic Lamps. As with the powers of the fickle Djinns, the Monkey Paw is not always beneficial to its owner. Every time its owner makes a wish, a toe will snap shut, making it come true. But the way to fulfill the wishes is extremely twisted, always implying the torment of its owner.	true
+ancillaries_colour_text_ovn_arb_baz_arc_08_glimmering_monkey_paw	Created by potent magic and modelled on it's very real forebearer, this one is made from glass, it blinds all around when the sun strikes it, it is as hard as it is fragile.	true
+ancillaries_colour_text_ovn_arb_baz_arc_09_bronze_monkey_paw	Dulled by time, this bronze work is nearly unbreakable but it's weight is unbearable.	true
+ancillaries_colour_text_ovn_arb_baz_arc_10_golden_monkey_paw	It is said to have been a gift from the Monkey King to the far east in Cathay to celebrate the advent of trading relations thought others say it it is a cursed gift revenge for Cathay's failed invasion of the Southlands.	true
+ancillaries_colour_text_ovn_arb_baz_arc_11_genie_lantern	This finely crafted piece of jewelry is home to a benevolent Genie. He act as guardian to his master and can offer helpful advice with his powers of insight. However, his overwhelming power can become a problem.	true
+ancillaries_colour_text_ovn_arb_baz_arc_12_genie_lantern_alt	Not all genies make home in lavish ornaments or wish to be disturbed. some prefer to stay hidden in plain sight.	true
+ancillaries_onscreen_name_fim_meargh_skattach_staff_balor	Staff of Balor's Eye	true
+ancillaries_colour_text_fim_meargh_skattach_staff_balor	At the tip of this magical staff rests an ancient Fimir artifact known as "Balor's Eye" a magically preserved eye said to belong to the myterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user's enemies within.	true
+ancillaries_onscreen_name_fim_meargh_skattach_hellmother_crown	Crown of the Hellmother	true
+ancillaries_colour_text_fim_meargh_skattach_hellmother_crown	This thorny metal crown once belonged to the First Hellmother, a Meargh who united together all the ancient Fimir Clans. The Hellmother was a potent socreress, who placed many warding and magic amplifying enchantments upon her crown. Skattach has recently found the crown in  a journey to what she claims are the ruins of the Wandering Isle, the ancient lost homeland of the Fimir, and used it to claim the controversial mantle of the Hellmother.	true
+ancillaries_onscreen_name_wh_main_anc_mount_arb_vizier_fire_camel	Camel	true
+ancillaries_colour_text_wh_main_anc_mount_arb_vizier_fire_camel	The mount of any self-respecting Arabyan gentleman.	true
+ancillaries_onscreen_name_wh_main_anc_mount_arb_vizier_life_carpet	Flying Carpet	true
+ancillaries_colour_text_wh_main_anc_mount_arb_vizier_life_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_wh_main_anc_mount_arb_vizier_heavens_carpet	Flying Carpet	true
+ancillaries_colour_text_wh_main_anc_mount_arb_vizier_heavens_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_wh_main_anc_mount_arb_vizier_desert_carpet	Flying Carpet	true
+ancillaries_colour_text_wh_main_anc_mount_arb_vizier_desert_carpet	An Air Djinn bound to a piece of furniture.	true
+ancillaries_onscreen_name_arb_fatandira_blades_demise	Blades of Honourable Demise	true
+ancillaries_colour_text_arb_fatandira_blades_demise	Taken by Fatandira from the tomb of the Liche Lord Karitamen in the Borderlands, this pair of Nehekharan Khopeshes magically enhance their owner's combat skills, and weakens anyone struck by them.	true
+ancillaries_onscreen_name_arb_fatandira_scythan_armour	Cuirass of the Brave Queen	true
+ancillaries_colour_text_arb_fatandira_scythan_armour	This ancient magical lamellar cuirass is said to have belonged to a legendary warrior queen of the Scythans who killed one of the great Priest Kings of Ancient Nehekhara in battle. The Scythans, believing Fatandira to be a reincarnation of that queen, have granted to her this ancient artifact.	true
+ancillaries_onscreen_name_arb_fatandira_warhorse	Warhorse	true
+ancillaries_colour_text_arb_fatandira_warhorse	Born to a family of Arabyan caravan nomads, Fatandira is as comfortable on the saddle as on foot.	true
+ancillaries_onscreen_name_arb_fatandira_roc	Saqir	true
+ancillaries_colour_text_arb_fatandira_roc	Given to Fatandira as a gift by the Scythans, Saqir is a mighty specimen of Desert Roc, giant and intelligent birds of prey that fly high above the deserts of Araby. The animal quickly bonded with her, and now they soar the battlefield together.	true
+ancillaries_onscreen_name_arb_golden_magus_fire_scimitar	The Flaming Scimitar	true
+ancillaries_colour_text_arb_golden_magus_fire_scimitar	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	true
+ancillaries_onscreen_name_arb_golden_magus_auric_robe	Auric Robes	true
+ancillaries_colour_text_arb_golden_magus_auric_robe	The Magus' ostentatious golden robes are not just a flamboyant show of wealth, they possess potent enchantments that the Magus discovered in a parchment at the ruined city of Bel-Aliad. Besides providing protection from harm, these wards are curiously nocive to the Undead.	true
+ancillaries_onscreen_name_arb_golden_magus_camel_mount	Camel	true
+ancillaries_colour_text_arb_golden_magus_camel_mount	Though vigorous and spry for his old age, the Golden Magus often rides to battle on one of his many camels - out of flamboyance if anything else.	true
+ancillaries_onscreen_name_arb_golden_magus_djinnskiff_mount	Djinn Skiff	true
+ancillaries_colour_text_arb_golden_magus_djinnskiff_mount	Much like the Magus' infamous flagship, this enchanted skiff is proof of his mastery over the Djinn. Held "afloat" on the air by servile Lesser Tempest Djinn oarsmen, this is one of the Golden Magus' favourite ways to ride to battle.	true
+character_trait_levels_explanation_text_hlf_glibfoot_defeated_trait	There was no quirky remark, absurd story or honey-tongued comment to save Glibfoot this time. This is the end of his "grand" tale.	false
+ancillaries_onscreen_name_hlf_glibfoot_hyshia	Hyshia	true
+ancillaries_colour_text_hlf_glibfoot_hyshia	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	true
+ancillaries_onscreen_name_hlf_glibfoot_willowblade	Cipher Blade	true
+ancillaries_colour_text_hlf_glibfoot_willowblade	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality, it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	true
+character_trait_levels_onscreen_name_hlf_glibfoot_defeated_trait	The Last Tale	false
+character_trait_levels_colour_text_hlf_glibfoot_defeated_trait	Defeated Glibfoot Volespanker	false
+character_trait_levels_explanation_text_hlf_glibfoot_defeated_trait	There was no quirky remark, absurd story or honey-tongued comment to save Glibfoot this time. This is the end of his "grand" tale.	false
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_master_chef_wagon	Some Master Chefs choose to carry their kitchen onto the battlefield in a chuck wagon.	true
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_moot_general_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	true
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_moot_general_poultry	Many Halfling commanders choose to ride the largest Moot Cockerel specimens into battle.	true
+ancillaries_colour_text_ovn_wolf_anc_mount_hlf_sheriff_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_master_chef_wagon	Chuck Wagon	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_moot_general_pig	Battle Swine	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_moot_general_poultry	Battle Cockerel	true
+ancillaries_onscreen_name_ovn_wolf_anc_mount_hlf_sheriff_pig	Battle Swine	true
+ancillaries_colour_text_ovn_as_starblade	The Starblade, like its lance variant, is forged from the metal of a fallen star, the weapon's graceful lines belie the formidable power it grants its wielder.	true
+ancillaries_colour_text_ovn_as_armour	This magical Armour of Fortune is an ancient family heirloom, and so beautifully crafted that the wearer's freedom of movement is completely unimpaired.	true
+ancillaries_colour_text_ovn_as_Hoeth_Talisman	This finely crafted medallion has been passed down through the Stormriders for generations. Preserved with tempestuous magical knowledge, it was a gift from the Mages of Hoeth long ago.	true
+ancillaries_colour_text_anc_sharpclaw	Astride his griffon, Sharpclaw, Althran swoops down on his chosen foe and cuts them down with talon and beak.	true
+ancillaries_onscreen_name_ovn_as_starblade	Starblade	true
+ancillaries_onscreen_name_ovn_as_armour	Stormrider's Armour of Fortune	true
+ancillaries_onscreen_name_ovn_as_Hoeth_Talisman	Stormrider's Hoeth Talisman	true
+ancillaries_onscreen_name_anc_sharpclaw	Sharpclaw	true

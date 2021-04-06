@@ -1,8 +1,0 @@
-Loc PackedFile	1
-key	text	tooltip
-unit_abilities_onscreen_name_ammo_supply	Ammunition Supplies	true
-unit_abilities_tooltip_text_ammo_supply	Shoot faster, we have plenty more where that came from!	true
-unit_abilities_onscreen_name_equipment_maintanance	Equipment Wagon	true
-unit_abilities_tooltip_text_equipment_maintanance	Get your broken weapons fixed, your armour upgraded or your hat patched.	true
-unit_abilities_onscreen_name_smokeleaf_smokescreen	Tobacco Smokescreen	true
-unit_abilities_tooltip_text_smokeleaf_smokescreen	The tactical burning of special tobacco obscures the unit and its allies, making them harder to hit with missiles. It also temporarily numbs the pain of warriors in range.	true

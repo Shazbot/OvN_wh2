@@ -1,0 +1,1320 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands	true
+effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands	true
+effects_description_elo_elite_mdef	Melee Defence: %+n  for Hearthguard, Highlanders and Viridian Lords	true
+effects_description_elo_elite_matt	Melee Attack: %+n for Hearthguard, Highlanders and Viridian Lords	true
+effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks	true
+effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Albion Barrow Wights and Fenhulks	true
+effects_description_elo_savage_matt	Melee Attack: %+n for Woadraiders, Druid Neophytes and Swordmaidens	true
+effects_description_elo_savage_dmg	Weapon Strength: %+n% for Woadraiders, Druid Neophytes and Swordmaidens	true
+effects_description_elo_allrange_ammo	Ammunition: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
+effects_description_elo_allrange_dmg	Missile Damage: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
+effects_description_elo_riders_charge	Charge Bonus: %+n Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs	true
+effects_description_elo_riders_speed	Battle Speed: %+n% Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs	true
+effects_description_elo_champions_r7_mattk	Melee Attack: %+n for Albion Warbands, Hearthguard, Highlanders and Viridian Lords {{tr:rank7}}	true
+effects_description_elo_champions_r7_arm	Armour: %+n for Albion Warbands, Hearthguard, Highlanders and Viridian Lords {{tr:rank7}}	true
+effects_description_elo_champions_r7_phyres	Physical Resistance: %+n% for Albion Warbands, Hearthguard, Highlanders and Viridian Lords {{tr:rank7}}	true
+effects_description_elo_hunters_r7_dmg	Missile Damage: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins) {{tr:rank7}}	true
+effects_description_elo_hunters_r7_reload	Reload Speed: %+n% for for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins) {{tr:rank7}}	true
+effects_description_elo_hunters_r7_misres	Missile Resistance: %+n% for for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins) {{tr:rank7}}	true
+effects_description_elo_riders_r7_mattk	Melee Attack: %+n for Woadraiders, Swordmaidens, Centaurs, Hunting Dogs and Aonbarr Horse Warriors {{tr:rank7}}	true
+effects_description_elo_riders_r7_charge	Charge Bonus: %+n for Woadraiders, Swordmaidens, Albion Chariots, Hunting Dogs and Aonbarr Horse Warriors {{tr:rank7}}	true
+effects_description_elo_riders_r7_dmg	Weapon Strength: %+n% for Woadraiders, Swordmaidens, Albion Chariots, Hunting Dogs and Aonbarr Horse Warriors {{tr:rank7}}	true
+effects_description_elo_monsters_r7_mattk	Melee Attack: %+n  for Fenbeasts, Giants, Half-Giants, Zoats, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
+effects_description_elo_monsters_r7_dmg	Weapon Strength: %+n%  for Fenbeasts, Giants, Half-Giants, Zoats, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
+effects_description_elo_monsters_r7_charge	Charge Bonus: %+n for Fenbeasts, Giants, Half-Giants, Zoats, Fenhulks, Centaurs, Albion Barrow Wights and Druid Neophytes {{tr:rank7}}	true
+effects_description_sessair_troops_mattk	Melee Attack: %+n for all human (non-hero/lord) units	true
+effects_description_sessair_troops_wps	Weapon Strength: %+n% for all human (non-hero/lord) units	true
+effects_description_sessair_troops_antiIn	Anti-Infantry: %+n for all human (non-hero/lord) units	true
+effects_description_sessair_troops_charge	Charge Bonus: %+n% for all human (non-hero/lord) units	true
+effects_description_fir_troops_mdef	Melee Defence: %+n for all shielded units	true
+effects_description_fir_troops_mattk	Melee Attack: %+n for all shielded units	true
+effects_description_enable_vanguard_falian	Enable Vanguard Deployment for human (non-hero/lords) units	true
+effects_description_enable_stalk_falian	Enable Stalk for human (non-hero/lords) units	true
+effects_description_enable_immpsy_finian	Enable Immune to Psychology for human (non-hero/lords) units	true
+effects_description_finian_troops_armour	Armour: %+n for human (non-hero/lords) units	true
+effects_description_finian_troops_mdef	Melee Defence: %+n for human (non-hero/lords) units	true
+effects_description_elo_swamp_ain	Anti-Infantry: %+n for Fenbeasts and Fenhulks	true
+effects_description_elo_swamp_xp	Recruitment Rank: %+n for Fenbeasts and Fenhulks	true
+effects_description_elo_swamp_ward	Ward Save: %+n% for Fenbeasts and Fenhulks	true
+effects_description_elo_giant_speed	Battle Speed: %+n% for Giants and Half-Giants	true
+effects_description_elo_giant_xp	Recruitment Rank: %+n for Giants and Half-Giants	true
+effects_description_elo_giant_mor	Charge Bonus: %+n% for Giants and Half-Giants	true
+effects_description_chaos_attrition_immunity_dummy	Immune against attrition caused by Chaos Corruption	true
+effects_description_elo_maidens_res	Ward Save: %+n% for Swordmaidens and Huntresses	true
+effects_description_elo_maidens_xp	Recruitment Rank: %+n for Swordmaidens and Huntresses	true
+effects_description_elo_maidens_speed	Battle Speed: %+n% for Swordmaidens and Huntresses	true
+effects_description_increase_cap_albion_chief	Recruitment Capacity: %+n for Albion Chieftains	false
+effects_description_enable_recruitment_chief	Enables Recruitment of Albion Chieftains	false
+effects_description_increase_cap_albion_wyrd_druid	Recruitment Capacity: %+n for Wyrd Druids	false
+effects_description_enable_recruitment_albion_wyrd_druid	Enables Recruitment of Wyrd Druids	false
+effects_description_elo_fimir_rusher_sp	Speed: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
+effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
+effects_description_elo_fimir_first_wave_ma	Melee Attack: %+n for Boglars, Shearls and Deathquest	true
+effects_description_elo_fimir_first_wave_wps	Weapon Strength: %+n% for Boglars, Shearls and Deathquest	true
+effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeasts and Troll units	true
+effects_description_elo_fimir_bog_monsters_md	Melee Defence: %+n for Fenbeasts and Troll units	true
+effects_description_elo_fimir_swamp_warriors_ma	Melee Attack: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_elo_fimir_swamp_warriors_md	Melee Defence: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_elo_fimir_giants_fen_sp	Speed: %+n% for Chaos Giants, Fenhulks and Mistmor	true
+effects_description_elo_fimir_giants_fen_ma	Melee Attack: %+n for Chaos Giants, Fenhulks and Mistmor	true
+effects_description_elo_fimir_r7_warriors_md	Melee Defence: %+n for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
+effects_description_elo_fimir_r7_warriors_armour	Armour: %+n for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
+effects_description_elo_fimir_r7_warriors_phyres	Physical Resistance: %+n% for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_missres	Missile Resistance: %+n% for Fenbeasts and Troll units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_md	Melee Defence: %+n for Fenbeasts and Troll units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeasts and Troll units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_ward	Ward Save: %+n% for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_wps	Weapon Strength: %+n% for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
+effects_description_fimir_slaves_upkeep	Upkeep: %+n% for Boglars and Shearls	true
+effects_description_fimir_slaves_cost	Recruitment Cost: %+n% for Boglars and Shearls	true
+effects_description_fimir_warrior_elite_xp	Recruitment Rank: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_fimir_warrior_elite_md	Melee Defence: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_fimir_warrior_elite_up	Upkeep: %+n% for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_fimir_warrior_elite_cost	Recruitment Cost: %+n% for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_fimir_untamed_monsters_frenzy	Passive Ability: "Frenzy" for Glacial Dragon Ogre, Giants and Troll units	true
+effects_description_fimir_untamed_monsters_guerilla	Enables Guerilla Deployment for Glacial Dragon Ogre, Giants and Troll units	true
+effects_description_fimir_untamed_monsters_rampage	Enables Rampage for Glacial Dragon Ogre, Giants and Troll units	true
+effects_description_elo_fimir_witness_me	Ability: "Under the Eyes of the Gods"	true
+effects_description_fimir_warrior_elite_wps	Weapon Strength: %+n% for Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm	true
+effects_description_fimir_warrior_elite_armour	Armour: %+n for Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm	true
+effects_description_dlc08_nor_fimirs_ma	Melee Attack: %+n for all Fimir units	true
+effects_description_dlc08_nor_fimirs_up	Upkeep: %+n% for all Fimir units	true
+effects_description_elo_fimir_shearl_ma	Melee Attack: %+n for Fimir Shearls, Javelineers and Death Quest units	true
+effects_description_elo_fimir_shearl_md	Melee Defence: %+n for Fimir Shearls, Javelineers and Death Quest units	true
+effects_description_elo_fimir_useful_shearls_wps	Weapon Strength: %+n% for Fimir Javelineers and Death Quest units	true
+effects_description_elo_fimir_useful_shearls_charge	Charge: %+n% for Fimir Javelineers and Death Quest units	true
+effects_description_elo_fimir_useful_shearls_ammo	Ammunition: %+n% for Fimir Javelineers	true
+effects_description_elo_fimir_useful_shearls_mdmg	Missile Damage: %+n% for Fimir Javelineers	true
+effects_description_elo_fimir_apprentices_mdmg	Missile Damage: %+n% for Balefiend Apprentices	true
+effects_description_elo_fimir_apprentices_reload	Reload: %+n% for Balefiend Apprentices	true
+effects_description_elo_fimir_apprentices_range	Range: %+n% for Balefiend Apprentices	true
+effects_description_elo_low_level_swamp_dwellers_rep	Replenishment: %+n% for Boglars and Chaos Warhound units	true
+effects_description_elo_low_level_swamp_dwellers_speed	Speed: %+n% for Boglars and Chaos Warhound units	true
+effects_description_elo_low_level_swamp_dwellers_vsinf	Bonus vs. Infantry: %+n for Boglars and Chaos Warhound units	true
+effects_description_elo_fimir_trolls_charge	Charge: %+n% for Troll units	true
+effects_description_elo_fimir_trolls_ma	Melee Attack: %+n for Troll units	true
+effects_description_elo_fimir_trolls_armour	Armour: %+n for Troll units	true
+effects_description_elo_swamp_riders_speed	Speed: %+n% for Marsh Reavers	true
+effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Marsh Reavers	true
+effects_description_elo_swamp_riders_charge	Charge: %+n% for Marsh Reavers	true
+effects_description_elo_fen_big_dwellers_xp	Recruitment Rank: %+n for Giants, Mistmor and Glacial Dragon Ogre	true
+effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Giants, Mistmor and Glacial Dragon Ogre	true
+effects_description_elo_fen_big_dwellers_ward	Ward Save: %+n% for Giants, Mistmor and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_matt	Melee Attack: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_resmis	Missile Resistance: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_monster_rulers_cost	Recruitment Cost: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_fen_lord_heroes	Abilities: "Warpfireball" and "Windblast" for all Lords and Heroes	true
+effects_description_elo_fen_lord_heroes_ward	Ward Save: %+n% for all Lords and Heroes	true
+effects_description_elo_belakor_fimir_demons_md	Melee Defence: %+n for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_belakor_fimir_demons_ma	Melee Attack: %+n for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_belakor_fimir_demons_wps	Weapon Strength: %+n% for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_belakor_fimir_demons_rep	Replenishment: %+n% for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_belakor_fimir_demons_morale	Leadership: %+n for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_belakor_fimir_demons_ward	Ward Save: %+n% for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_belakor_fimir_demons_xp	Recruitment Rank: %+n for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true
+effects_description_elo_demons_papa_nurgle	Ward Save: %+n% for Plaguebearers	true
+effects_description_elo_demons_khoooorne	Passive Ability: "Berserk" for Bloodletters 	true
+effects_description_elo_belakor_hopeless_fodder_armour	Armour: %+n for Boglars, Chaos Marauders and Marauder Hunters	true
+effects_description_elo_belakor_hopeless_fodder_ma	Melee Attack: %+n for Boglars, Chaos Marauders and Marauder Hunters	true
+effects_description_elo_belakor_hopeless_fodder_ammo	Ammunition: %+n% for Marauder Hunters	true
+effects_description_elo_belakor_hopeless_fodder_reload	Reload: %+n% for Marauder Hunters	true
+effects_description_elo_belakor_riders_chaos_up	Upkeep: %+n% for Marauder Horsemen, Marauder Horsemasters, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_riders_chaos_cb	Charge: %+n% for Marauder Horsemen, Marauder Horsemasters, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_riders_chaos_wps	Weaponstrength: %+n% for Marauder Horsemen, Marauder Horsemasters, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_armoured_warriors_imm_psy	Enable Immune to Psychology for Chaos Warriors and Chosen	true
+effects_description_elo_belakor_armoured_warriors_md	Melee Defence: %+n for Chaos Warriors and Chosen	true
+effects_description_elo_belakor_armoured_warriors_ld	Leadership: %+n for Chaos Warriors and Chosen	true
+effects_description_elo_belakor_corrupted_giants_speed	Speed: %+n% for Chaos Giants, Glacial Dragon Ogre and Frost Wyrms	true
+effects_description_elo_belakor_corrupted_giants_vsinf	Bonus vs. Infantry: %+n for Chaos Giants, Glacial Dragon Ogre and Frost Wyrms	true
+effects_description_elo_belakor_corrupted_giants_cb	Charge: %+n for Chaos Giants, Glacial Dragon Ogre and Frost Wyrms	true
+effects_description_elo_belakor_twisted_corrupted_cost	Recruitment Cost: %+n% for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_twisted_corrupted_wps	Weapon Strength: %+n% for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_twisted_corrupted_armour	Armour: %+n for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_corrupted_giants_fatigue_res	Enables Fatigue Resistance for Cavalry, Boglars, Marauder infantry, Chaos Warriors, Fenbeasts, Fenhulks, Giants, Glacial Dragon Ogre, Frostwyrms and Chosen	true
+effects_description_elo_belakor_here_to_die_md	Melee Defence: %+n for Marauders, Albion Warbands, Boglars, Shearls and Fimir Death Quest	true
+effects_description_elo_belakor_here_to_die_armour	Armour: %+n for Marauders, Albion Warbands, Boglars, Shearls and Fimir Death Quest	true
+effects_description_elo_belakor_ranged_ammo	Ammunition: %+n% for Marauder Hunters, Albion Javelineers, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
+effects_description_elo_belakor_ranged_rdmg	Missile Damage: %+n% for Marauder Hunters, Albion Javelineers, Fimir Javelineers, Balefiend Apprentices and Hellcannons	true
+effects_description_elo_belakor_cav_cb	Charge: %+n for Marauder Cavalry, Albion Cavalry, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_cav_ma	Melee Attack: %+n for Marauder Cavalry, Albion Cavalry, Chaos Chariots, Chaos Knights and Marsh Reavers	true
+effects_description_elo_belakor_chaos_infantry_dmg	Weapon Strength: %+n% for Chaos Warriors, Plaguebearers, Bloodletters, Forsaken and Chosen	true
+effects_description_elo_belakor_chaos_infantry_ma	Melee Attack: %+n for Chaos Warriors, Plaguebearers, Bloodletters, Forsaken and Chosen	true
+effects_description_elo_belakor_conjured_monsters_md	Melee Attack: %+n for Fenbeasts, Fenhulks, Chaos Spawn and Bloodthirsters	true
+effects_description_elo_belakor_conjured_monsters_ma	Melee Defence: %+n for Fenbeasts, Fenhulks, Chaos Spawn and Bloodthirsters	true
+effects_description_elo_belakor_conscripted_beasts_speed	Speed: %+n% for Marsh Hounds, Glacial Dragon Ogre, Frost Wyrm and Giants	true
+effects_description_elo_belakor_conscripted_beasts_cb	Charge: %+n for Marsh Hounds, Glacial Dragon Ogre, Frost Wyrm and Giants	true
+effects_description_elo_belakor_r7_fimir_all_wps	Weapon Strength: %+n% for all melee Fimir units {{tr:rank7}}	true
+effects_description_elo_belakor_r7_fimir_all_misres	Missile Resistance: %+n% for all melee Fimir units {{tr:rank7}}	true
+effects_description_elo_belakor_r7_fimir_all_ma	Melee Attack: %+n for all melee Fimir units {{tr:rank7}}	true
+effects_description_elo_belakor_ranged_r7_ammo	Ammunition: %+n% for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices, Marauder Cavalry and Hellcannons {{tr:rank7}}	true
+effects_description_elo_belakor_ranged_r7_reload	Reload:: %+n% for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices, Marauder Cavalry and Hellcannons {{tr:rank7}}	true
+effects_description_elo_belakor_ranged_r7_rdmg	Missile Damage: %+n% for Marauder Hunters, Fimir Javelineers, Balefiend Apprentices, Marauder Cavalry and Hellcannons {{tr:rank7}}	true
+effects_description_elo_belakor_cav_bog_r7_phys_res	Physical Resistance: %+n% for Boglars, Chaos Giants, Glacial Dragon Ogre, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
+effects_description_elo_belakor_cav_bog_r7_ma	Melee Attack: %+n for Boglars, Chaos Giants, Glacial Dragon Ogre, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
+effects_description_elo_belakor_cav_bog_r7_cb	Charge: %+n for Boglars, Chaos Giants, Glacial Dragon Ogre, Frost Wyrms, Marsh Hounds, Chaos Knights, Chaos Chariots, Fenbeasts and Fenhulks {{tr:rank7}}	true
+effects_description_elo_champions_chaos_r7_wps	Weapon Strength: %+n% for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units {{tr:rank7}}	false
+effects_description_elo_champions_chaos_r7_md	Melee Defence: %+n for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units {{tr:rank7}}	false
+effects_description_elo_champions_chaos_r7_magicres	Magic Resistance: %+n% for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units {{tr:rank7}}	false
+effects_description_larenscheld_ghost_matt	Melee Attack: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_mdef	Melee Defence: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_vsmall	Bonus vs Infantry: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_ward	Ward Save: %+n% for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_vlarge	Bonus vs Large: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_armour	Armour: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_morale	Leadership: %+n for Larenscheld's ghost form	true
+effects_description_larenscheld_ghost_wps	Weapon Strength: %+n for Larenscheld's ghost form	true
+effects_description_elo_enable_lands_nagash	Ability: Cursed Lands	true
+effects_description_dread_legion_archers_cap	Unit Capacity: %+n for Dread Legion Archers	true
+effects_description_elo_enable_call_legions	Ability: Call the Legions	true
+effects_description_elo_hand_punished_one	Ability: The Punished One	true
+effects_description_elo_hungering_blade	Ability: The Hungering Blade	true
+effects_description_elo_hand_vortex	Ability: Call of Death	true
+effects_description_elo_hand_judge_executioner	Ability: Jury, Judge and Executioner	true
+character_skills_localised_name_ovn_skill_innate_com_olorin_the_grey_wizard	Sovereign Grand Inspector Comrade	true
+character_skills_localised_description_ovn_skill_innate_com_olorin_the_grey_wizard	Incredibly brave, incredibly rich, and yet not incredibly stupid, Olorin the Grey Wizard is the most successful leader that the Comradeship has had in a long time.	true
+character_skills_localised_name_ovn_skill_anc_weapon_glammyding	Glammyding	true
+character_skills_localised_description_ovn_skill_anc_weapon_glammyding	The magical Halfling sword known as Glammyding increases its wielder's strength, while striking fear into Orcs and Goblins.	true
+character_skills_localised_name_ovn_skill_anc_arcane_item_cathay_fireworks	Cathay Fireworks	true
+character_skills_localised_description_ovn_skill_anc_arcane_item_cathay_fireworks	Olorin's special reserve of fireworks from Cathay, "borrowed" from their last diplomatic mission, whenever that was.	true
+character_skills_localised_name_ovn_skill_anc_talisman_bottomless_hat_of_rabbit	Bottomless Hat of Rabbit	true
+character_skills_localised_description_ovn_skill_anc_talisman_bottomless_hat_of_rabbit	Olorin is much admired in the Moot for hisability to pull rabbits out of his hat. Tasty rabbits, too.	true
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_leader_of_halflings	Leader of Halflings	true
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_leader_of_halflings	Olorin is used to dealing with the usual rag-tag bunch of Halflings the Comradeship always attracts.	true
+character_skills_localised_name_ovn_skill_com_olorin_the_grey_wizard_ranged_3	Rockets' Grey Glare	false
+character_skills_localised_description_ovn_skill_com_olorin_the_grey_wizard_ranged_3	Olorin's been meaning to try this for ages, and has finally gotten the time to do it: enchant his rockets with the Grey Wind of Magic.	false
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_the_grey_wizard_0	The Grey Wanderer	false
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_the_grey_wizard_0	All members of the Comradeship are wanderers, all looking for somewhere to go. Olorin regularly gives them that "where".	false
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_the_grey_wizard_1	Comradeship Recruitment Drive	false
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_the_grey_wizard_1	"The Comradeship, we're always hiring."	false
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_the_grey_wizard_2	Firework Shows	false
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_the_grey_wizard_2	Olorin is much admired in the Moot for his fireworks displays. His enemies, however, are far less understand of his explosive obsession.	false
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_the_grey_wizard_3	Eagle Lover	false
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_the_grey_wizard_3	After being saved from an embarassing situation by an eagle (it's a long story) Olorin has become very fond of these great birds.	false
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_the_grey_wizard_4	Conjurer of Tricks	false
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_the_grey_wizard_4	Olorin knows a parlor trick or two, while usually employed to entertain Mootfolk, they might just have some uses out in the larger world.	false
+character_skills_localised_name_ovn_skill_com_lord_unique_olorin_the_grey_wizard_5	Agent of the Grey Order	false
+character_skills_localised_description_ovn_skill_com_lord_unique_olorin_the_grey_wizard_5	After drinking a little too much with Aragand, Olorin lets slip his secret: The Comradeship was created as a recruiting tool for the Grey Order. It's one of the ways it covertly finds apprentices.	false
+character_skills_localised_name_ovn_skill_innate_com_aragand_the_layabout	Venerable Grand Comrade	true
+character_skills_localised_description_ovn_skill_innate_com_aragand_the_layabout	Aragand somehow reached the rank of Venerable Grand Comrade. Not even Legles knows how or when that happened.	true
+character_skills_localised_name_ovn_skill_anc_weapon_aragands_sword	Aragand the Layabout's Sword	true
+character_skills_localised_description_ovn_skill_anc_weapon_aragands_sword	An impressive, but seemingly broken, two-handed sword. Aragand the Layabout likes to ramble on about how it only appears to be broken, and is, in fact, in mint condition.	true
+character_skills_localised_name_ovn_skill_anc_enchanted_item_pig_swill	Keigel's Natural Pig Swill	true
+character_skills_localised_description_ovn_skill_anc_enchanted_item_pig_swill	Only the worst low-life scum would ever deign to put this vile concoction to the taste. Worse, the after-effects of this vile brew are painful and accompanied with much vomiting.	true
+character_skills_localised_name_ovn_skill_com_hero_unique_aragand_the_layabout_0	Well-Travelled	false
+character_skills_localised_description_ovn_skill_com_hero_unique_aragand_the_layabout_0	Even before becoming a member of the Comradeship, Aragand has travelled the world many times over. Dwarfen beer, Norscan mead, Elvish wine, Kislevite vodka...	false
+character_skills_localised_name_ovn_skill_com_hero_unique_aragand_the_layabout_1	Patron of Taverns	false
+character_skills_localised_description_ovn_skill_com_hero_unique_aragand_the_layabout_1	Aragand is the type of bloke you see sitting in the corner of every tavern in the Empire. The cooks of the Moot are happy to have such a loyal customer and are more than eager to serve him.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_aragand_the_layabout_2	Alone and Scruffy	false
+character_skills_localised_description_ovn_skill_com_hero_unique_aragand_the_layabout_2	Aragand's disheveled appearance is all a facade. His tattered cloths? Freer movement in combat. The dirt on his face? War paint used to scare his enemies. Or at least that's what he'll tell you.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_aragand_the_layabout_3	Well-Drunk	false
+character_skills_localised_description_ovn_skill_com_hero_unique_aragand_the_layabout_3	...Bretonnian brandy, rotgut, Orcish bitters, kvas, samogon, koumiss, fungus beer, Zhufbar ale....	false
+character_skills_localised_name_ovn_skill_com_hero_unique_aragand_the_layabout_4	Drunken Master	false
+character_skills_localised_description_ovn_skill_com_hero_unique_aragand_the_layabout_4	When fighting under the influence, Aragand's movements are swaying and unpredictable. He says it's a technique he picked up while visiting some far eastern land.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_aragand_the_layabout_5	Cold Culchan	false
+character_skills_localised_description_ovn_skill_com_hero_unique_aragand_the_layabout_5	After an ultimatum from Olorin, Aragand has decided to quite drinking. What could go wrong? What could go right?	false
+character_skills_localised_name_ovn_skill_innate_com_legles_the_elf	Inspector Inquisitor Comrade	true
+character_skills_localised_description_ovn_skill_innate_com_legles_the_elf	Legles has been part of the Comradeship for a long time and has seen four leaders come and go. He has been an Inspector Inquisitor Comrade for more than a hundred years, and is a little annoyed.	true
+character_skills_localised_name_ovn_skill_anc_weapon_friendship_bracelet_legles	Friendship Bracelet	true
+character_skills_localised_description_ovn_skill_anc_weapon_friendship_bracelet_legles	"Giblit, for the sake of our friendship, please go steal from that sleeping dragon."	true
+character_skills_localised_name_ovn_skill_anc_enchanted_item_ring_of_concealment	Ring of Concealment	true
+character_skills_localised_description_ovn_skill_anc_enchanted_item_ring_of_concealment	The magical Ring of Concealment makes it very difficult for others to see its wearer.	true
+character_skills_localised_name_ovn_skill_com_hero_dance_legles_the_elf_0	Whirling Death	false
+character_skills_localised_description_ovn_skill_com_hero_dance_legles_the_elf_0	Bimbo's Book allows a Halfling leader to give some sage advice to his army. "Sage Advice" is Halfling for a good talking to.	false
+character_skills_localised_name_ovn_skill_com_hero_dance_legles_the_elf_1	Storm of Blades	false
+character_skills_localised_description_ovn_skill_com_hero_dance_legles_the_elf_1	What beauty and violence there is in the dance? A flurry of blades and a certain savagery of intent...	false
+character_skills_localised_name_ovn_skill_com_hero_dance_legles_the_elf_2	The Shadow Coils	false
+character_skills_localised_description_ovn_skill_com_hero_dance_legles_the_elf_2	The wending and twisting of the Wardancers hardens their spirits and their bodies against would-be attackers.	false
+character_skills_localised_name_ovn_skill_com_hero_dance_legles_the_elf_3	Woven Mist	false
+character_skills_localised_description_ovn_skill_com_hero_dance_legles_the_elf_3	The Wardancer threads and loops, contorting to create an ethereal fabric that turns aside arrows and bolts.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_legles_the_elf_0	An Unlikely Friendship	false
+character_skills_localised_description_ovn_skill_com_hero_unique_legles_the_elf_0	A little encouragement goes a long way – a long way to having Legles's main source of entertainment stick around for a moment longer.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_legles_the_elf_1	Prankster of Loec	false
+character_skills_localised_description_ovn_skill_com_hero_unique_legles_the_elf_1	Legles has taken it upon himself to steer Giblit into trouble whenever possible. He does this to push the failed Slayer out of comfort zone so that he may grow. It's also hilarious.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_legles_the_elf_2	Feastmaster	false
+character_skills_localised_description_ovn_skill_com_hero_unique_legles_the_elf_2	As a servant of Loec, God of Revelry, Legles knows a thing or two about throwing feasts and festivals. Needless to say, he's a minor celebrity in the Moot.	false
+character_skills_localised_name_ovn_skill_com_hero_unique_legles_the_elf_3	Morning Constitutionals	false
+character_skills_localised_description_ovn_skill_com_hero_unique_legles_the_elf_3	Legles should really add a brisk walk back into his morning routine. In fact, it was on one of these morning constitutionals where he was forcibly befriended by a certain hapless dwarf. 	false
+character_skills_localised_name_ovn_skill_innate_com_giblit_the_dwarf	Comrade and Brother Eternal	true
+character_skills_localised_description_ovn_skill_innate_com_giblit_the_dwarf	The rank of Comrade and Brother Eternal comes with many perks and responsibilities. Like cleaning the latrines and carrying Aragand around when he has fallen asleep.	true
+character_skills_localised_name_ovn_skill_anc_weapon_friendship_bracelet_giblit	Friendship Bracelet	true
+character_skills_localised_description_ovn_skill_anc_weapon_friendship_bracelet_giblit	This friendship bracelet represents the great task of repentance that lays before Giblit, being friends with an elf for the rest of his life.	true
+character_skills_localised_name_ovn_skill_anc_enchanted_item_bimbos_book	Bimbo's Book of Sage Advice	true
+character_skills_localised_description_ovn_skill_anc_enchanted_item_bimbos_book	Bimbo's Book allows a Halfling leader to give some sage advice to his army. "Sage Advice" is Halfling for a good talking to.	true
+character_skills_localised_name_ovn_skill_com_hero_giblit_the_dwarf_0	Self Preservation	false
+character_skills_localised_description_ovn_skill_com_hero_giblit_the_dwarf_0	Giblit would very much like to see tomorrow.	false
+character_skills_localised_name_ovn_skill_com_hero_giblit_the_dwarf_1	Gluttonous	false
+character_skills_localised_description_ovn_skill_com_hero_giblit_the_dwarf_1	Slayers suffer bouts of depression, and failed slayers doubly so. This often leads to periods when they glut themselves on alcohol or food.	false
+character_skills_localised_name_ovn_skill_com_hero_giblit_the_dwarf_2	Dragon Friend	false
+character_skills_localised_description_ovn_skill_com_hero_giblit_the_dwarf_2	It was fleeing from a dragon that made him broke his oath, all those years ago. In a very un-dwarfy manner, he holds no grudge, and is now quite fond of the beasts.	false
+character_skills_localised_name_ovn_skill_com_hero_giblit_the_dwarf_3	Slayer Memories	false
+character_skills_localised_description_ovn_skill_com_hero_giblit_the_dwarf_3	Giblit, for a time, was an experienced Slayer. While a different dwarf now, he still has those memories of past deeds, slaying trolls, giants, and even daemons.	false
+character_skills_localised_name_ovn_skill_com_hero_giblit_the_dwarf_4	Honorary Halfling	false
+character_skills_localised_description_ovn_skill_com_hero_giblit_the_dwarf_4	Even halflings sometimes mistake Giblit as one of their own, given his short stature, gentle disposition, and love of food.	false
+character_skills_localised_name_ovn_skill_com_hero_giblit_the_dwarf_5	Renewed Oath	false
+character_skills_localised_description_ovn_skill_com_hero_giblit_the_dwarf_5	While Giblit is unable (and unwilling) to take the Slayer Oath again, he is ready to make an oath that he will protect his friends in the Moot and the Comradeship.	false
+character_skills_localised_name_ovn_skill_magic_desert_mirage	Mirage	false
+character_skills_localised_description_ovn_skill_magic_desert_mirage	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	false
+character_skills_localised_name_ovn_skill_magic_desert_blessing_of_the_elements	Blessing of the Elements	false
+character_skills_localised_description_ovn_skill_magic_desert_blessing_of_the_elements	The magician utters a blessing onto the weapons of his allies, imbuing their attacks with the magic of the elements.	false
+character_skills_localised_name_ovn_skill_magic_desert_sunstrike	Sunstrike	false
+character_skills_localised_description_ovn_skill_magic_desert_sunstrike	Bright beams of burning energy leap from the wizard's eyes and scythe through all before him.	false
+character_skills_localised_name_ovn_skill_magic_desert_sandstorm	Sandstorm	false
+character_skills_localised_description_ovn_skill_magic_desert_sandstorm	Commanding the desert spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	false
+character_skills_localised_name_ovn_skill_magic_desert_quicksand	Quicksand	false
+character_skills_localised_description_ovn_skill_magic_desert_quicksand	The wizard turns the ground into bottomless quicksand, dragging any unfortunates down into the abyss.	false
+character_skills_localised_name_ovn_skill_magic_desert_burning_hands	Burning Hands	false
+character_skills_localised_description_ovn_skill_magic_desert_burning_hands	As if possessed by a Fire Efreet, the caster conjures scorching flames from his hands to burn his enemies to a crisp.	false
+character_skills_localised_name_ovn_skill_magic_desert_curse_of_the_djinn	Curse of the Djinn	false
+character_skills_localised_description_ovn_skill_magic_desert_curse_of_the_djinn	Channeling the immense powers of the Djinn through his own body, the sorcerer lays a terrible curse upon his foes.	false
+character_skills_localised_name_ovn_skill_magic_desert_mirage_dummy	Mirage	false
+character_skills_localised_description_ovn_skill_magic_desert_mirage_dummy	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	false
+character_skills_localised_name_ovn_skill_magic_desert_sandstorm_lord	Sandstorm	false
+character_skills_localised_description_ovn_skill_magic_desert_sandstorm_lord	Commanding the desert spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	false
+character_skills_localised_name_ovn_skill_arb_all_unique_ward_of_the_one	Ward of the One	false
+character_skills_localised_description_ovn_skill_arb_all_unique_ward_of_the_one	The relentless drive and fury of the unnamed god, harnessed for the protection of this ward’s bearer.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_life_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_life_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_life_djinn_vessel	Djinn Vessel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_life_djinn_vessel	Servants carrying a large Djinn Vessel.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_desert_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_desert_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	Djinn Vessel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	Servants carrying a large Djinn Vessel.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_fire_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_fire_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	Djinn Vessel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	Servants carrying a large Djinn Vessel.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	An Air Djinn bound to a piece of furniture.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	Djinn Vessel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	Servants carrying a large Djinn Vessel.	false
+character_skills_localised_name_ovn_skill_innate_arb_decadent	Decadent	false
+character_skills_localised_description_ovn_skill_innate_arb_decadent	The Prince of Pleasure has gotten to this one...	false
+character_skills_localised_name_Serpent_Staff	Serpent Staff	true
+character_skills_localised_description_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	true
+character_skills_localised_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
+character_skills_localised_description_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer. Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be no doubt he was utterly mad.	true
+character_skills_localised_name_Desert_Wind	Fakir Descendant	true
+character_skills_localised_description_Desert_Wind	Let us turn the oasis into wine so that the crusaders may succumb to their beloved tipple.	true
+character_skills_localised_name_unyeilding_stride	Unyielding Stride	true
+character_skills_localised_description_unyeilding_stride	Moving across the sands of Araby tirelessly.	true
+character_skills_localised_name_Sand_Dwellers	Sand Dwellers	true
+character_skills_localised_description_Sand_Dwellers	Living in such a hostile land gives warriors and beasts alike a great advantage.	true
+character_skills_localised_name_Friend_Of_Evil	Conspirator of Evil	true
+character_skills_localised_description_Friend_Of_Evil	The Sultans Great power comes from making allies with those who posses it, but it comes at a price.	true
+character_skills_localised_name_ovn_jaffar_innate	Kairos' Pact	true
+character_skills_localised_description_ovn_jaffar_innate	Risen from the grave, Jaffar has made an unthinkable pact and seeks revenge on those who fell him.	true
+character_skills_localised_name_arb_jaffar_anc_camel	Camel	true
+character_skills_localised_description_arb_jaffar_anc_camel	Jaffar is a vainglorious man, it is no wonder then that the prestigious camel is one of his favourite mounts to ride into battle.	true
+character_skills_localised_name_arb_jaffar_anc_elephant	Royal Elephant	true
+character_skills_localised_description_arb_jaffar_anc_elephant	From on top the howdah of a mighty Arabyan Royal Elephant, Sultan Jaffar gazes down upon the battlefield with only imperious cruelty and disdain in his eyes.	true
+character_skills_localised_name_arb_jaffar_unique_0	Unbridled Ambition	true
+character_skills_localised_description_arb_jaffar_unique_0	Jaffar's hunger for power knows to bounds. There's no pact he won't make or enemy he won't crush on his path to conquest.	true
+character_skills_localised_name_arb_jaffar_unique_1	Slavemonger	true
+character_skills_localised_description_arb_jaffar_unique_1	During his initial unification of Araby, Jaffar condemned all those who opposed him to the life of a slave. So it shall be again; Arabyans, Estalians, Bretonnians, Greenskins, no matter who or what they are, all of Jaffar's enemies shall kneel before and serve the Great Sultan.	true
+character_skills_localised_name_arb_jaffar_unique_2	Serpent Guard	true
+character_skills_localised_description_arb_jaffar_unique_2	The Serpent Guard are Sultan Jaffar's personal elite bodyguard. They are devoted to their Sultan and aligned with Jaffar's goals of Arabyan dominance.	true
+character_skills_localised_name_arb_jaffar_unique_3	Cunning Charisma	true
+character_skills_localised_description_arb_jaffar_unique_3	Jaffar possesses a compelling charisma, which in the past allowed him to sway many Arabyan tribes and city-states to his side. His death and return to life certainly have not dulled his oratory skills.	true
+character_skills_localised_name_arb_jaffar_unique_4	Desires of Conquest	true
+character_skills_localised_description_arb_jaffar_unique_4	"Nothing will stop me, not the Northerners, the Elves, the Dwarfs, Settra's lackeys or anyone else! I will rule this world, or see it burnt to ashes around me!"	true
+character_skills_localised_name_arb_jaffar_unique_5	Will of Jaffar	true
+character_skills_localised_description_arb_jaffar_unique_5	"No land shall remain beyond my grasp. No kingdom shall be beyond my mandate. Go forth. Conquer. Rule."	true
+character_skills_localised_name_the_blade_of_shadows	The Blade of Shadows	true
+character_skills_localised_description_the_blade_of_shadows	An esoteric, daemonic blade, its ghostly form in eternal transience between shape and shadow. Perhaps an ancient gift bestowed upon him by the Dark Gods.	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_0	Whispers in the darkness	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_0	The sound of the darkness seeping into the minds of those who come face to face with the Father in Shadow.	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_1	Night Wards	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_1	Be'lakor has resistance to magical attacks.	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_2	Eternal Terror	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_2	All those who see him fear him. Terror incarnate.	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_3	Shadow Shroud	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_3	A shadow hangs over Be'lakor, a barrier between him and the mortal world.	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_4	Insurmountable Rage	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_4	"Be'lakor, watching from the heavens, screamed in fury as the chosen conqueror again fell in combat."	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_6	Violent Rise To Power	true
+character_skills_localised_name_wh_dlc08_skill_chs_lord_unique_belakor_5	Master Of The Shadow	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_6	The path to power is paved with all those in the way	true
+character_skills_localised_description_wh_dlc08_skill_chs_lord_unique_belakor_5	"At the dawn of time, Be'lakor was blessed by all Chaos Gods. Be'lakor held the world in an iron fist, commanding hordes of daemons in the name of Chaos."	true
+character_skills_localised_name_belakor_innate_skill	The Dark Master	true
+character_skills_localised_description_belakor_innate_skill	Know now that the true master of Darkness has come.	true
+character_skills_localised_name_eons_of_spite	Eons of Spite	true
+character_skills_localised_description_eons_of_spite	A distaste for the Gods and mortals alike.	true
+character_skills_localised_name_the_first_deamon_prince	The First Deamon Prince	true
+character_skills_localised_description_the_first_deamon_prince	"Be'lakor the Dark Master is the first Daemon Prince of Chaos and Father-in-Shadow to the current Everchosen, Archaon. "	true
+character_skills_localised_name_primordial_everchosen	Primordial Everchosen	true
+character_skills_localised_description_primordial_everchosen	The first and true everchosen.	true
+character_skills_localised_name_timeless_rage	Timeless Rage	true
+character_skills_localised_description_timeless_rage	In the shadows of the worlds edge mountains, he watched as the hordes of chaos crashed against the walls of the Empire.	true
+character_skills_localised_name_chaos_incarnate	Chaos Incarnate	true
+character_skills_localised_description_chaos_incarnate	A force not to be wielded but to be unleashed Upon the mortal plains as Chaos incarnate.	true
+character_skills_localised_name_elo_warrior_culture	Warrior Culture	true
+character_skills_localised_description_elo_warrior_culture	Every able member of the tribes of Albion is trained in the use of at least one weapon to be able to fend off the daily dangers of the blighted lands.	true
+character_skills_localised_name_elo_guardians_land	Warleader's Guardians	true
+character_skills_localised_description_elo_guardians_land	Only the best and most accomplished warriors may join the ranks of the Hearthguard and become the personal guards of Chieftains and Warleaders.	true
+character_skills_localised_name_elo_monster_support	Monsters of the Misty Isle	true
+character_skills_localised_description_elo_monster_support	Many deadly abominations lure in the mists which shroud Albion, ready to defend it from any intruders.	true
+character_skills_localised_name_elo_noble_saveages	Savage Warriors	true
+character_skills_localised_description_elo_noble_saveages	Primitive they may be, but their unrivalled wildness and savage might easily make up for the lack of refinement.	true
+character_skills_localised_name_elo_ranged_specialists	Death from Afar	true
+character_skills_localised_description_elo_ranged_specialists	The hunt is part of the daily life of most inhabitants of Albion and the hunters joining the armies have steady arms and good eyes, sharpened by years of experience.	true
+character_skills_localised_name_elo_fast_raiders	Fast Raiders	true
+character_skills_localised_description_elo_fast_raiders	Hit before the enemy can defend themselves, be gone before they can hit back.	true
+character_skills_localised_name_elo_fast_reflexes	Trained Reflexes	true
+character_skills_localised_description_elo_fast_reflexes	Experienced warriors of Albion sometimes dodge missiles with seemingly unnatural reflexes gained from the experience of countless skirmishes.	true
+character_skills_localised_name_elo_protective_charms	Protective Charmes	true
+character_skills_localised_description_elo_protective_charms	The primitive, often savage-looking talismans still seem to have some protective effects.	true
+character_skills_localised_name_elo_albion_warcry	Warcry	true
+character_skills_localised_description_elo_albion_warcry	A mighty Warcrie at the right time can motivate warriors to fight harder and with renewed tenacity.	true
+character_skills_localised_name_elo_champions_r7	Champions of Albion	true
+character_skills_localised_description_elo_champions_r7	Hardened in many battles against the constant threats emerging from the bogs of the island, these veterans have superior skills compared to inexperienced troops.	true
+character_skills_localised_name_elo_hunters_r7	Deadly Hunters	true
+character_skills_localised_description_elo_hunters_r7	The best way to kill a foe is a well aimed arrow or boulder, killing them before they even know what happened.	true
+character_skills_localised_name_elo_riders_r7	Merciless Barbarians	true
+character_skills_localised_description_elo_riders_r7	With a combination of speed, agility and brutal savagery the defenders of Albion often seem more like a wave of flesh and steel, breaking their enemies in the charge and washing them away in a tide of blood.	true
+character_skills_localised_name_elo_monsters_r7	Defenders of Myth	true
+character_skills_localised_description_elo_monsters_r7	Druids with magical powers and mystical beasts belong to the most feared members of any Albion warband, and rightly so.	true
+character_skills_localised_name_warleader_mount_skill	Albion Warhorse	true
+character_skills_localised_description_warleader_mount_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_warleader_chariot_skill	Albion Chariot	true
+character_skills_localised_description_warleader_chariot_skill	Chariot races are a favourite pastime of young Albion nobility - the experience gained serves them well on the battlefield too.	true
+character_skills_localised_name_endless_conflict	Endless Conflict	true
+character_skills_localised_description_endless_conflict	There is no true peace on Albion. The tribes constantly fight Fimir, the dangers of the blighted island or each other for the sparse resources. Their warriors don't tire easily.	true
+character_skills_localised_name_sessair_leader	Warleader of the Sessair	true
+character_skills_localised_description_sessair_leader	This Warleader emerged from the Sessair tribe and has been shaped by their aggressive, savage fighting style and tactics.	true
+character_skills_localised_name_sessair_troops	Sessair Warriors	true
+character_skills_localised_description_sessair_troops	Most of the human warriors of the warband have been drawn from the Sessair tribe and fight in the style unique to the Sessair.	true
+character_skills_localised_name_fir_leader	Warleader of the Fir Domain	true
+character_skills_localised_description_fir_leader	This Warleader emerged from the Fir Domain and has been shaped by their adaptable, shield based tactics.	true
+character_skills_localised_name_fir_troops	Fir Warriors	true
+character_skills_localised_description_fir_troops	The warriors of the Fir Domain are making up the majority of the shielded troops of this army, bringing their famous howling shields along with them.	true
+character_skills_localised_name_filian_leader	Falian Warleader	true
+character_skills_localised_description_filian_leader	This Warleader emerged from the Falian tribe and has been shaped by their way of fighting.	true
+character_skills_localised_name_filian_troops	Falian Warriors	true
+character_skills_localised_description_filian_troops	The warriors of the Falians prefer stealth over pure might and have little consideration for concepts like honour. A kill with a blade in the dark counts just as much as a victory in a duel.	true
+character_skills_localised_name_finian_leader	Finian Warleader	true
+character_skills_localised_description_finian_leader	This Warleader emerged from the Finian tribe and has been shaped by their focus on defense.	true
+character_skills_localised_name_finian_troops	Finian Warriors	true
+character_skills_localised_description_finian_troops	The warriors of the Finians favor defense over offense, often aiming to simply endure an enemy assault and outlast their opponents.	true
+character_skills_localised_name_teachings_old_ones	Teachings of the Old Ones	true
+character_skills_localised_description_teachings_old_ones	The first Truthsayers have been taught by the Old Ones themselves. Precious little is left of these original teachings, but even a fraction of this magical knowledge is still potent.	true
+character_skills_localised_name_oral_tradition	Oral Tradition	true
+character_skills_localised_description_oral_tradition	Truthsayers don't write down their knowledge. The secrets are passed from the master's mouth to the pupil's ear, which introduces mistakes and misunderstandings. This causes the magic of the Truthsayers to be less reliable, but some changes introduced this way have unexpected beneficial side-effects.	true
+character_skills_localised_name_swamp_monsters	Terrors from the Swamps	true
+character_skills_localised_description_swamp_monsters	Truthsayers have mastered the ability to call ever more terrifying constructs of rotten wood, mud and bones from the swamps to bolster their ranks.	true
+character_skills_localised_name_ancient_allies	Ancient Allies	true
+character_skills_localised_description_ancient_allies	It is said that the Giants of Albion were the last gift of the Old Ones to the Truthsayers. Both the tribes and the giants have long since forgotten the truth about the Old Ones, but the alliance still holds strong.	true
+character_skills_localised_name_mount_horse_truthsayer_beasts_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_beasts_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_shadows_fen	Experienced Ambusher	true
+character_skills_localised_description_shadows_fen	Often outnumbered and outmatched in terms of individual strength, the warriors of Albions are skilled ambushers.	true
+character_skills_localised_name_mount_horse_truthsayer_light_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_light_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_mount_horse_truthsayer_life_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_life_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_truth_spell_gift_life_lord	Gift of Life	true
+character_skills_localised_description_truth_spell_gift_life_lord	Dying Warriors are granted a second chance as the spell of the truthsayer mends their deadly wounds and allows them to return to battle.	true
+character_skills_localised_name_truth_spell_wings_fate_lord	Wings of Fate	true
+character_skills_localised_description_truth_spell_wings_fate_lord	The Truthsayer conjures a flock of magic bird which will fly straight into the enemy formations, bringing doom to those they collide with.	true
+character_skills_localised_name_truth_spell_valor_lord	Blessing of Valor	false
+character_skills_localised_description_truth_spell_valor_lord	The mage calls upon the gods of hunting and battle to grant his allies additional strength and skill.	false
+character_skills_localised_name_truth_spell_voice_command_lord	Voice of Command	false
+character_skills_localised_description_truth_spell_voice_command_lord	The booming voice of the truthsayer fills the mind of an enemy, robbing them of the concentration necessary to operate ranged weapons.	false
+character_skills_localised_name_truthsayer_lore_attribute	Mists of Albion	false
+character_skills_localised_description_truth_truthsayer_lore_attribute	The magic of Albion conjures the famous mists of its homeland, enveloping allied warriors, protecting them from projectiles.	false
+character_skills_localised_name_truth_spell_boon_courage_lord	Boon of Courage	false
+character_skills_localised_description_truth_spell_boon_courage_lord	The voice of the truthsayer is heard in the minds of his warriors, invoking their sense of honor and giving them unwavering hope even in the most desperate of situations.	false
+character_skills_localised_name_truth_spell_protection_lord	Light of Protection	false
+character_skills_localised_description_truth_spell_protection_lord	A barrier of shimmering light protects the warriors from magic and flame alike.	false
+character_skills_localised_name_mount_horse_truthsayer_truth_skill	Albion Warhorse	true
+character_skills_localised_description_mount_horse_truthsayer_truth_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_truthsayer_innate_priest_danu	Priest of the Earthmother	true
+character_skills_localised_description_truthsayer_innate_priest_danu	The Druids are not only mages, but also religious leaders. This one follows Danu, the goddess of the earth.	true
+character_skills_localised_name_truthsayer_innate_priest_lugh	Priest of the Sun God	true
+character_skills_localised_description_truthsayer_innate_priest_lugh	The Druids are not only mages, but also religious leaders. This one follows Lugh, the god of the sun.	true
+character_skills_localised_name_truthsayer_innate_priest_carnun	Priest of the Horned God	true
+character_skills_localised_description_truthsayer_innate_priest_carnun	The Druids are not only mages, but also religious leaders. This one follows Carnun, the god of the hunt.	true
+character_skills_localised_name_warleader_swamp_guard	Nemesis of the Fimir	true
+character_skills_localised_description_warleader_swamp_guard	The bogs of Albion are always contested. Those who keep the Fimir from crawling out of their holes deserve the highest respect.	true
+character_skills_localised_name_warleader_raider	Famous Raider	true
+character_skills_localised_description_warleader_raider	The tribes of Albion raid each other all the time. Those who are successful can gain the favour of their tribe....and the hate of the others.	true
+character_skills_localised_name_warleader_killer	Killer of Men	true
+character_skills_localised_description_warleader_killer	The inhabitants of Albion fight not only monsters but often enough they fight each other or intruders from the outside. Some display an outright disturbing talent fighting this type of foe.	true
+character_skills_localised_name_warleader_wanderer	Wanderer	true
+character_skills_localised_description_warleader_wanderer	Albion is a dangerous land, most of its inhabitants will never stray too far from their tribe to avoid the dangers of the blighted landscape. Those who brave the dangerous wilds and return to tell the tale have the potential to become legends.	true
+character_skills_localised_name_chief_mount_skill	Albion Warhorse	true
+character_skills_localised_description_chief_mount_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_chief_hunter	Monster Hunter	true
+character_skills_localised_description_chief_hunter	Dangerous monsters are no rarity on Albion. This esteemed warrior is trying to change that.	true
+character_skills_localised_name_chief_leader	Second in Command	true
+character_skills_localised_description_chief_leader	A Warleader in the making, this warrior already has the presence of a great general, motivating his men to endure in times of strife.	true
+character_skills_localised_name_chief_bodyguard	Bodyguard	true
+character_skills_localised_description_chief_bodyguard	If you want to attack the general, you have to go through this mighty warrior first!	true
+character_skills_localised_name_chief_chariot_skill	Albion Chariot	true
+character_skills_localised_description_chief_chariot_skill	Chariot races are a favourite pastime of young Albion nobility - the experience gained serves them well on the battlefield too.	true
+character_skills_localised_name_wyrd_mount_skill	Albion Warhorse	true
+character_skills_localised_description_wyrd_mount_skill	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	true
+character_skills_localised_name_warrior_shaman	Shamanic Warrior	true
+character_skills_localised_description_warrior_shaman	Prioritizing the path of the Warrior, this Wyrd Druid is a better fighter than others - but his abilities to weave magic suffered in return.	true
+character_skills_localised_name_wyrd_spellbinder	Spellbinder	true
+character_skills_localised_description_wyrd_spellbinder	Adorned with similar runes as the famous Ogham stones, the body of this Druid binds magic to protect those around him from the harms it can bring.	true
+character_skills_localised_name_wyrd_channeler	Channeler of the Wyrd	true
+character_skills_localised_description_wyrd_channeler	There is much to be gained by letting the strange power of the Wyrd run free through the Druid's body, but there is also a prize to pay.	true
+character_skills_localised_name_morrigan_innate	Raven Queen	true
+character_skills_localised_description_morrigan_innate	Wherever Morrigan goes, clouds of her loyal ravens follow for they know that a feast awaits them.	true
+character_skills_localised_name_morrigan_raven_skill	Dubh'neach	true
+character_skills_localised_description_morrigan_raven_skill	Sometimes Morrigan is seen riding a giant raven named Dubh'neach into battle. This raven is the only one of its kind that is known to the inhabitants of Albion, his origin a mystery only Morrigan herself knows the answer to.	true
+character_skills_localised_name_morrigan_legendary_staff	Seann'darach	true
+character_skills_localised_description_morrigan_legendary_staff	Morrigan is rarely ever seen without this staff which looks like a mere branch of a random tree. But those who know what to look for easily notice that it brims with magical power.	true
+character_skills_localised_name_morrigan_wings_bound	Ravenmother	true
+character_skills_localised_description_morrigan_wings_bound	Ravens will always heed Morrigan's call, even if it costs their lives.	true
+character_skills_localised_name_morrigan_magical_being	Magical Being	true
+character_skills_localised_description_morrigan_magical_being	Although Morrigan is surrounded by mystery, there is one thing everyone agrees on: She is no mere human. Even deadly wounds can't hold her down and ravens follow her willingly into battle.	true
+character_skills_localised_name_morrigan_maidens	Morrigan's Handmaidens	true
+character_skills_localised_description_morrigan_maidens	Every unbound woman may leave their tribe and wander into the wilderness to pledge themselves to Morrigan. What exactly happens to this women is unknown, but Morrigan is sometimes accompanied by grim female warriors of great skill.	true
+character_skills_localised_name_morrigan_unleashed	Goddess Unleashed	true
+character_skills_localised_description_morrigan_unleashed	No one knows the full extent of her powers, but all agree it may be better not to see her unleash it.	true
+character_skills_localised_name_morrigan_mage	Experienced Mage	true
+character_skills_localised_description_morrigan_mage	Morrigan wields her magic with the ease and grace of long experience and deep knowledge.	true
+character_skills_localised_name_morrigan_darkened_skies	Darkened Skies	true
+character_skills_localised_description_morrigan_darkened_skies	Clouds of Ravens fill the skies in anticipation of a feast. Only fools would take to the skies under these circumstances.	true
+character_skills_localised_name_morrigan_omen_of_victory	Omen of Victory	true
+character_skills_localised_description_morrigan_omen_of_victory	Morrigan's appearance on the battlefield is seen as an omen of imminent victory in an important battle, her presence encouraging her allies and filling her enemies with dispair.	true
+character_skills_localised_name_elo_staff_of_dural_durak	Staff of Dural Durak	false
+character_skills_localised_description_elo_staff_of_dural_durak	When Dural Durak casts spells, this staff of his own creation twists the Winds of Magic in a way that disturbs the efforts of enemy casters.	false
+character_skills_localised_name_elo_amulet_old_ones	Amulet of the Old Ones	false
+character_skills_localised_description_elo_amulet_old_ones	One of the last functioning artifacts of the Old Ones remaining in the hands of the tribes of Albion, this amulet can save the life of its wearer once per battle with a surge of magical energy.	false
+character_skills_localised_name_dural_mount_horse	Albion Warhorse	false
+character_skills_localised_description_dural_mount_horse	The tribes of Albion breed a hardy race of horses, surefooted and fast. But only wealthy warriors may be able to afford to ride into battle.	false
+character_skills_localised_name_dural_mount_chariot	Albion Chariot	false
+character_skills_localised_description_dural_mount_chariot	Chariot races are a favourite pastime of young Albion nobility - the experience gained serves them well on the battlefield too.	false
+character_skills_localised_name_dural_innate_first_truthsayer	First of the Truthsayers	false
+character_skills_localised_description_dural_innate_first_truthsayer	As the leader of the Truthsayers, Dural Durak is highly skilled in magic and respected both for his wisdom and his leadership in times of strife.	false
+character_skills_localised_name_dural_mentor	Mentor	false
+character_skills_localised_description_dural_mentor	The future will be shaped by the next generation. And the next generation is shaped by us.	false
+character_skills_localised_name_dural_giant_friend	Friend of Giants	false
+character_skills_localised_description_dural_giant_friend	Dural Durak has befriended many of the giants of Albion. They will rush to his aid if needed.	false
+character_skills_localised_name_dural_control_bogs	From the Swamps	false
+character_skills_localised_description_dural_control_bogs	Druids are proficient in making undead constructs from rotting wood, the remains of unfortunate souls who perished in the bogs and shards of ogham stones, but some are better at this than others.	false
+character_skills_localised_name_dural_healer	Druid Healer	false
+character_skills_localised_description_dural_healer	Not only magic, but also medicine is part of a Truthsayer's education.	false
+character_skills_localised_name_dural_heir_old_ones	Heir of the Old Ones	false
+character_skills_localised_description_dural_heir_old_ones	Precious little is left from the knowledge that the Old Ones taught the Truthsayers. And most of that knowledge is in Dural's hands.	false
+character_skills_localised_name_dural_true_master	True Master of Albion	false
+character_skills_localised_description_dural_true_master	The Swamps itself heed Dural's call and the mists follow his will. He is the true ruler of the isle.	false
+character_skills_localised_name_dural_loremaster	Loremaster of the Lore of Truthsayers	false
+character_skills_localised_description_dural_loremaster	The greatest Druid in existence, no other Truthsayer can rival Dural Durak.	false
+character_skills_localised_name_dural_leader_circle	The Circle of Truthsayers	false
+character_skills_localised_description_dural_leader_circle	Dural Durak can call upon his Circle of Truthsayers, mighty druids in their own right who expertly wield the winds of magic to aid the armies of Albion.	false
+character_skills_localised_name_elo_dread_centurion_horse	Skeletal Steed	true
+character_skills_localised_description_elo_dread_centurion_horse	Animated by vile magic, the bones of this once proud steed still show a reflection of the grace it possessed in life.	true
+character_skills_localised_name_dread_legion_barded_skeletal_steed	Barded Skeletal Steed	true
+character_skills_localised_description_dread_legion_barded_skeletal_steed	The fragile bones are protected by legion armour.	true
+character_skills_localised_name_dread_chariot_skeletal_steed	Dread Legion Chariot	true
+character_skills_localised_description_dread_chariot_skeletal_steed	Built in the style of the Tomb Kings, only the highest officers of the Dread Legion will take to the battlefield on top of this chariot.	true
+character_skills_localised_name_dread_we_are_legion	We are Legion	true
+character_skills_localised_description_dread_we_are_legion	Once the Dread Legion had soldiers beyond counting. Now they lay beneath the sand, until their master calls them to battle once more.	true
+character_skills_localised_name_dread_eternal_march	Eternal March	true
+character_skills_localised_description_dread_eternal_march	The legion ever marches onwards to bring death to the living.	true
+character_skills_localised_name_dread_blessing_nagash	Blessing of Nagash	true
+character_skills_localised_description_dread_blessing_nagash	Neither grievous wounds nor death can hold down the favoured servants of Nagash for long.	true
+character_skills_localised_description_dread_king_trait	The Dread King marches at the front of his legions to further the plans of his master, Nagash, and bring the blessing of death to the living.	false
+character_skills_localised_name_dread_king_trait	Disciple of Nagash	false
+character_skills_localised_name_fimir_sacrifices	Deadly Fodder	true
+character_skills_localised_description_fimir_sacrifices	Little more is expected of these creatures than to die for their betters on the battlefield. However, many who have underestimated their ferocity have fallen prey to their crude weapons.	true
+character_skills_localised_name_fimir_riders_doggos	Swift Raiders	true
+character_skills_localised_description_fimir_riders_doggos	Fimir aren't the fastest creatures, but they know about the value of mobility on the battlefield. Therefore they tame the faster, corrupted and dangerous creatures of their swampland homes to gain a tactical advantage.	true
+character_skills_localised_name_fimir_bog_monsters	Creatures of the Bogs	true
+character_skills_localised_description_fimir_bog_monsters	The Fimir aren't the only monsters inhabiting swamps. Weaker or dumber monsters are subjugated and utilized to increase the numbers of the Fimir armies.	true
+character_skills_localised_name_fimir_swamp_warriors	Born to Fight	true
+character_skills_localised_description_fimir_swamp_warriors	Crude they may be, the skill and might of the Fimir Warriors makes them terrifying opponents.	true
+character_skills_localised_name_fimir_fen_giants	Terrors from the Fens	true
+character_skills_localised_description_fimir_fen_giants	Fimir are often accompanied by bigger, more terrifying swamp dwellers. Make no mistake though, the Fimir are the masters of these creatures and will use them with ruthless cunning.	true
+character_skills_localised_name_fimir_r7_warriors	Masters of Battle	true
+character_skills_localised_description_fimir_r7_warriors	Few can hope to overcome the veterans of the warrior caste in battle. Luckily they are low in number.	true
+character_skills_localised_name_fimir_r7_elite_monsters	Deadly Devourers	true
+character_skills_localised_description_fimir_r7_elite_monsters	Starved monsters, driven by hatred and hunger. They will fight with reckless abandon against the foes of the Fimir.	true
+character_skills_localised_name_fimir_r7_fast_beasts	Experienced Raiders	true
+character_skills_localised_description_fimir_r7_fast_beasts	Fimir are not famous for their hit and run tactics, partly because only a few who encounter them live to tell the tale.	true
+character_skills_localised_name_fimir_r7_elite_giants	Heralds of Doom	true
+character_skills_localised_description_fimir_r7_elite_giants	Nothing brings fear to the heart like the trembling of the ground these abominations cause with every step.	true
+character_skills_localised_name_fimir_worthless_slaves	Worthless Slaves	true
+character_skills_localised_description_fimir_worthless_slaves	They have no worth. Their lives have no worth. They merely exist to die for the dark gods. Now drown your enemies in a tide of bodies.	true
+character_skills_localised_name_fimir_warrior_elite	Warrior Elite	true
+character_skills_localised_description_fimir_warrior_elite	The elite of the Fimir warrior caste is superior in skill. Luckily for the civilized races, the Fimir usually can't afford to have many warriors of this might at the same time.	true
+character_skills_localised_name_fimir_untamed_monsters	Untamed Monstrosities	true
+character_skills_localised_description_fimir_untamed_monsters	The Fimir may leave the will of the monsters they captured unbroken and release them ahead of the army to cause havoc. This tactic maintains their natural ferocity but makes them difficult to control.	true
+character_skills_localised_name_elo_fimir_from_mists	From the Mists	true
+character_skills_localised_description_elo_fimir_from_mists	From the mists they came, unseen until it was too late. And in the mist they vanished again, once their bloody work was done.	true
+character_skills_localised_name_elo_fimir_witness_me	Under the Eyes of the Gods	true
+character_skills_localised_description_elo_fimir_witness_me	The Fimir will do anything for but a moment of attention from the Dark Gods. No act of bravery is too foolhardy, no act of cruelty too savage.	true
+character_skills_localised_name_elo_belakor_here_to_die	For the Dark Master!	true
+character_skills_localised_description_elo_belakor_here_to_die	Thousands of weaker followers and slaves accompany the Harbringer of Doom. Most will die for his cause, but some may prove to have at least some worth.	false
+character_skills_localised_name_elo_belakor_ranged	With Javelins and Magic	true
+character_skills_localised_description_elo_belakor_ranged	Be it with dark magic or throwing weapons, the forces of Bel'akor are also deadly from afar.	false
+character_skills_localised_name_elo_belakor_cav	Unholy Vanguard	false
+character_skills_localised_description_elo_belakor_cav	The dark riders, beasts and humans alike, will be the first to bring death to Bel'akor's enemies.	false
+character_skills_localised_name_elo_belakor_chaos_infantry	Dark Blessings	false
+character_skills_localised_description_elo_belakor_chaos_infantry	Those who follow Bel'akor with dedication and skill will be rewarded with power that elevates them above mere mortals in battle.	false
+character_skills_localised_name_elo_belakor_conjured_monsters	Conjured Monstrosities	false
+character_skills_localised_description_elo_belakor_conjured_monsters	The power of Chaos can be used to summon terrifying beasts to bolster the ranks of this dark army.	false
+character_skills_localised_name_elo_belakor_conscripted_beasts	Savage Beasts	false
+character_skills_localised_description_elo_belakor_conscripted_beasts	The corrupted monsters of the north have been captured, broken and are now herded towards the enemy.	false
+character_skills_localised_name_elo_belakor_r7_fimir_all	Might of the Fimir	false
+character_skills_localised_description_elo_belakor_r7_fimir_all	Battle-hardened Fimir can overcome any resistance with their sheer might and endurance.	false
+character_skills_localised_name_elo_belakor_ranged_r7	Ranged Death	false
+character_skills_localised_description_elo_belakor_ranged_r7	Hails of javelins and bolts of dark magic will rain down on every fool who dares to oppose us!	false
+character_skills_localised_name_elo_belakor_cav_bog_r7	Twisted Abominations	false
+character_skills_localised_description_elo_belakor_cav_bog_r7	The corrupted beasts charge into battle, some carrying a deadly rider and others are driven by their unholy wrath alone.	false
+character_skills_localised_name_elo_champions_chaos_r7	Ambitious Elites	false
+character_skills_localised_description_elo_champions_chaos_r7	Many mighty champions have flocked to Bel'akors banner, always honing their own skill in battle to serve their Dark Master and reap the promised rewards.	false
+character_skills_localised_description_elo_hand_vortex	Focussing the winds of death around him, the Hand of Nagash can unleash a devastating wave of destruction.	true
+character_skills_localised_name_elo_hand_vortex	Call of Death	true
+character_skills_localised_name_mount_chariot_hand_of_nagash	Chariot of the Hand	false
+character_skills_localised_description_mount_chariot_hand_of_nagash	The Hand of Nagash was known to terrorize the lands on his mighty chariot, filled with dark magic.	false
+character_skills_localised_name_elo_hand_punished_one	The Punished One	false
+character_skills_localised_description_elo_hand_punished_one	The skeleton on this weapon is known to scream in agony. No sound is produced, yet all close to it feel its pain and witness its torment.	false
+character_skills_localised_name_elo_hungering_blade	The Hungering Blade	false
+character_skills_localised_description_elo_hungering_blade	A gift from Nagash to a loyal servant, the hungering blade will extend the unholy existence of its wielder should he ever be in danger.	false
+character_skills_localised_name_elo_hand_judge_executioner	Jury, Judge and Executioner	false
+character_skills_localised_description_elo_hand_judge_executioner	To be honest it is mostly executioner. Everyone who stands against Nagash is guilty by default.	false
+character_skills_localised_description_elo_terror_land	Where the Hand of Nagash goes, fear and despair follow.	false
+character_skills_localised_name_elo_terror_land	Terror of the Lands	false
+character_skills_localised_description_elo_dark_charioteer	The Hand of Nagash has always been infamous for their merciless use of chariots and riders.	false
+character_skills_localised_name_elo_dark_charioteer	Dark Chariot Master	false
+character_skills_localised_description_elo_undead_traveler	No land is too remote, no place is truly ever out of reach.	false
+character_skills_localised_name_elo_undead_traveler	Unliving Traveler	false
+character_skills_localised_description_elo_undead_warrior	Magic made the Hand what he is now, but in war he prefers cold steel over the might of magic.	false
+character_skills_localised_name_elo_undead_warrior	Warrior Liche	false
+character_skills_localised_description_elo_hand_destroyer	Burn the cities of the living so they may join us in death. 	false
+character_skills_localised_name_elo_hand_destroyer	Destroyer of Lands	false
+character_skills_localised_description_elo_hand_of_nagash_trait	In the name of Nagash, all kingdoms must fall. There is no rest, no peace and no mercy.	false
+character_skills_localised_name_elo_hand_of_nagash_trait	Eternal Crusade	false
+character_skills_localised_name_larenscheld_innate	Eternal Reward	true
+character_skills_localised_description_larenscheld_innate	Gunther Larenscheld has awoken one of Nagash's most loyal Lieutenants, the Dread King, in exchange for eternal life. Now he has received the promised reward - even in death, his spirit will not leave the mortal world.	true
+character_skills_localised_name_elo_skill_death	Supernatural Prowess	false
+character_skills_localised_description_elo_skill_death	Without the limitations of a body, Larenscheld is a much more competent fighter in death than he ever could be in life. 	false
+character_skills_localised_name_elo_vengeful_spirit	Vengeful Haunting	false
+character_skills_localised_description_elo_vengeful_spirit	Larenscheld's ghost haunts the living, stalking the enemies soldiers.	false
+character_skills_localised_name_elo_lifetaker_spirit	Lifedestroying Haunting	false
+character_skills_localised_description_elo_lifetaker_spirit	Larenscheld specializes in killing the biggest enemies to extinguish their more potent life force in the name of Nagash.	false
+character_skills_localised_name_elo_necromantic_spectre	Necromantic Spectre	false
+character_skills_localised_description_elo_necromantic_spectre	Nagash allows Larenscheld's spirit to channel the winds of magic, enabling him to keep casting spells even in his ghost form.	false
+character_skills_localised_name_elo_wraith_liche	Wraith Liche	false
+character_skills_localised_description_elo_wraith_liche	Master of the dead in life, still master of the dead in death.	false
+character_skills_localised_name_elo_death_beyond	Death from Beyond	false
+character_skills_localised_description_elo_death_beyond	Larenscheld opens a portal through which vengeful spirits in the form of ethereal skulls appear. They are crashing down on the world of the living, causing widespread destruction.	false
+character_skills_localised_name_elo_ghost_ward	Indestructible Presence	false
+character_skills_localised_description_elo_ghost_ward	All the difficulties to finally achieve immortality make Larenscheld cling to his unlife with an iron will forged by desperation and hardship.	false
+character_skills_localised_name_elo_change_at_will	Change at Will	false
+character_skills_localised_description_elo_change_at_will	Larenscheld may shed his mortal form at any time voluntarily to access his superior ghost form.	false
+character_skills_localised_name_elo_true_wraith	True Ethereal Liche	false
+character_skills_localised_description_elo_true_wraith	No longer just a mere apparition, Larenscheld's will remains after death - and becomes much more powerful.	false
+character_skills_localised_name_luthor_the_hunchback	Luthor the Hunchback	false
+character_skills_localised_description_luthor_the_hunchback	Luthor is Larenscheld's faithful servant. He excels at ambushing, supporting his master to get rid of pesky adventurers and keeping his master safe from daggers in the dark.	false
+character_skills_localised_description_liche_immortality	The liche has discarded their life to achieve an existence as an immortal undead. As long as their will remains unbroken, they are almost impossible to destroy permanently.	true
+character_skills_localised_name_liche_immortality	Immortality in Death	true
+character_skills_localised_description_mount_barded_skeletal_steed_liche	The fragile bones are protected by legion armour.	true
+character_skills_localised_name_mount_barded_skeletal_steed_liche	Barded Skeletal Steed	true
+character_skills_localised_description_mount_chariot_liche	Built in the style of the Tomb Kings, only the highest officers of the Dread Legion will take to the battlefield on top of this chariot.	true
+character_skills_localised_name_mount_chariot_liche	Dread Legion Chariot	true
+character_skills_localised_description_mount_warsphinx_liche	Giant leonine statues, almost impervious to harm; they wade through foes, crushing them like bothersome insects.	true
+character_skills_localised_name_mount_warsphinx_liche	Khemrian Warsphinx	true
+character_skills_localised_description_elo_liche_traitor_king	Not all kings of Nehekara stand against Nagash. Some have been seduced by the power Nagash offers his loyal subjects.	true
+character_skills_localised_name_elo_liche_traitor_king	Origin: Traitor King	true
+character_skills_localised_description_elo_liche_necromancer	Necromancers follow in the footsteps of Nagash, but none ever reached his mastery. For many, this pursuit ends in the service of Nagash and for the most talented few, in lichedom.	true
+character_skills_localised_name_elo_liche_necromancer	Origin: Necromancer	true
+character_skills_localised_description_elo_follower_nagash	Through his disciples, Nagash increases his influence on the world of the living. And where Nagash has influence, the dead will not find any rest.	true
+character_skills_localised_name_elo_follower_nagash	Disciple of Nagash	true
+character_skills_localised_description_elo_liche_general_legion	In life, he marched ahead as one of the generals of the Dread Legion and even in death the soldiers heed his commands.	true
+character_skills_localised_name_elo_liche_general_legion	Origin: General of the Legion	true
+character_skills_localised_description_elo_call_the_legions	Countless Legions lay beneath the sands, waiting for Nagash or his servants to call them back to battle the living.	true
+character_skills_localised_name_elo_call_the_legions	Call the Legions	true
+character_skills_localised_description_aky_chief_wolf_terrorgheist	Giant bats the size of dragons, capable of plucking men from the field and stunning warhorses into paralysis.	true
+character_skills_localised_name_aky_chief_wolf_terrorgheist	Northern Terrorgheist	false
+character_skills_localised_description_ak_fake_skill_point_dump	Warriors of Total War are toys of the Gods and receive various gifts, including tremendous fighting skills or nothing.	true
+character_skills_localised_name_ak_fake_skill_point_dump	Fake Skill Point Dump	false
+character_skills_localised_name_grudgebringers_campaign_quartermaster	Mercenary Heroes	false
+character_skills_localised_description_grudgebringers_campaign_quartermaster	The Grudgebringers, victors of countless battles and veterans of many campaigns.	false
+character_skills_localised_name_grudge_volley_of_arrows	Hail of Arrows	false
+character_skills_localised_description_grudge_volley_of_arrows	Ready your bows! Nock! Mark! Draw! LOOOOOOOSE!!!	false
+character_skills_localised_name_grudge_volley_of_dark_arrows	Hellrain	false
+character_skills_localised_description_grudge_volley_of_dark_arrows	Nothing affects morale better than a hot rain of flaming arrows.	false
+character_skills_localised_name_grudge_arrow_of_kurnous	Rage of the Forest	false
+character_skills_localised_description_grudge_arrow_of_kurnous	When the arrow flies farther, it may kill sooner, which is vital in the Hunt.	false
+character_skills_localised_name_grudge_skill_shrapnel_shot	Shrapnel Shot	false
+character_skills_localised_description_grudge_skill_shrapnel_shot	If the enemy infantry is near, give 'em a punch.	false
+character_skills_localised_name_grudge_skill_pepperpot	Pepperpot	false
+character_skills_localised_description_grudge_skill_pepperpot	There are too many of them! Load our mortar with a bunch of dwarfen grenades!	false
+character_skills_localised_name_magic_ice_shield_of_cold	Shield of Cold	false
+character_skills_localised_description_magic_ice_shield_of_cold	This spell creates a frozen shield that protects the chosen friendly regiment from any damage.	false
+character_skills_localised_name_magic_ice_frost_blade	Frost Blade	false
+character_skills_localised_description_magic_ice_frost_blade	A sparkling blade of ice forms in the target's hand, a precise magical weapon.	false
+character_skills_localised_name_magic_ice_crisping_cold	Crisping Cold	false
+character_skills_localised_description_magic_ice_crisping_cold	An unnatural cold invigorates friendly forces, making their movements faster and more accurate.	false
+character_skills_localised_name_magic_ice_shattering_frost	Shattering Frost	false
+character_skills_localised_description_magic_ice_shattering_frost	The sudden frost shackles movements of the target, shattering it's armour and turning it to a crumbly glass	false
+character_skills_localised_name_magic_ice_chill	Chill	false
+character_skills_localised_description_magic_ice_chill	Touch leaves a gleaming frost behind. The air within the immediate area drops to freezing for the duration of the spell	false
+character_skills_localised_name_skill_all_magic_ice_cold	Unnatural Cold	false
+character_skills_localised_description_skill_all_magic_ice_cold	The bond of ice wizard with nature is so powerful, that cold winds hinder enemy movements every time he casts a spell	false
+character_skills_localised_name_magic_ice_blinding_blizzard	Blinding Blizzard	false
+character_skills_localised_description_magic_ice_blinding_blizzard	A rapid snow blizzard emerges in enemy ranks blinding enemy soldiers and interfering their fire.	false
+character_skills_localised_name_magic_ice_ice_shards	Ice Shards	false
+character_skills_localised_description_magic_ice_ice_shards	Sharp icicles spring from the mage's hand in the direction of the target, causing multiple wounds as they pierce and impale their targets.	false
+character_skills_localised_name_magic_ice_storm_strike	Storm Strike	false
+character_skills_localised_description_magic_ice_storm_strike	Channels mighty flows of magic into a howling gale of cold. Anyone between the caster and his target is slashed by wind-whipped ice shards.	false
+character_skills_localised_name_magic_ice_chill_blast	Chill Blast	false
+character_skills_localised_description_magic_ice_chill_blast	With a single breath, the caster blows a freezing gale at anyone in front of him within 48 yards	false
+character_skills_localised_name_magic_ice_ice_blizzard	Ice Blizzard	false
+character_skills_localised_description_magic_ice_ice_blizzard	A swirling flurry of snow and ice rises from the land, freezing and blinding all in its path.	false
+character_skills_localised_name_magic_ice_tempest	Biting Wind	false
+character_skills_localised_description_magic_ice_tempest	A furious blizzard stirs up around a nearby enemy target, stopping them in their tracks. The troops are temporarily immobilized by the strong winds and biting cold, rendering them unable to move and causing severe damage.	false
+character_skills_localised_name_magic_ice_hailstorm	Hailstorm	false
+character_skills_localised_description_magic_ice_hailstorm	Channels Ice Magic upwards, forming large chunks of ice that fall to the ground with horrifying speed.	false
+character_skills_localised_name_skill_all_magic_ice_winter	Winter Rage	false
+character_skills_localised_description_skill_all_magic_ice_winter	When Ice Mage cast a spell the winter itself comes to help him, halving enemy's magic resistance.	false
+character_skills_localised_name_grudge_skill_attack_main1	Cavalry Assault	false
+character_skills_localised_name_grudge_skill_attack_main2	Saddle-Born	false
+character_skills_localised_name_grudge_skill_attack_side1	Constant Training	false
+character_skills_localised_name_grudge_skill_attack_side2	Regular Training	false
+character_skills_localised_name_grudge_skill_attack_side3	Stable Training	false
+character_skills_localised_name_grudge_skill_attack_starter	Good Attacker	false
+character_skills_localised_name_grudge_skill_damage_main1	Forged Blades	false
+character_skills_localised_name_grudge_skill_damage_main2	Exotic Blades	false
+character_skills_localised_name_grudge_skill_damage_side1	Constant Training	false
+character_skills_localised_name_grudge_skill_damage_side2	Regular Training	false
+character_skills_localised_name_grudge_skill_damage_side3	Stable Training	false
+character_skills_localised_name_grudge_skill_damage_starter	Mercenary Training	false
+character_skills_localised_name_grudge_skill_defence_main1	Mounted Defense	false
+character_skills_localised_name_grudge_skill_defence_main2	Cavalry Bulwark	false
+character_skills_localised_name_grudge_skill_defence_side1	Constant Training	false
+character_skills_localised_name_grudge_skill_defence_side2	Regular Training	false
+character_skills_localised_name_grudge_skill_defence_side3	Stable Training	false
+character_skills_localised_name_grudge_skill_defence_starter	Good Defender	false
+character_skills_localised_name_grudge_skill_armour_main1	Crafted Heavy Armour	false
+character_skills_localised_name_grudge_skill_armour_main2	Masterpiece Armour	false
+character_skills_localised_name_grudge_skill_armour_side1	Fine Armour	false
+character_skills_localised_name_grudge_skill_armour_side2	Armour Enhancements	false
+character_skills_localised_name_grudge_skill_armour_side3	Good Armour	false
+character_skills_localised_name_grudge_skill_armour_starter	Simple Armour	false
+character_skills_localised_name_grudge_skill_speed_main1	Sprinter	false
+character_skills_localised_name_grudge_skill_speed_main2	Sprint Mastery	false
+character_skills_localised_name_grudge_skill_speed_side1	Constant Training	false
+character_skills_localised_name_grudge_skill_speed_side2	Regular Training	false
+character_skills_localised_name_grudge_skill_speed_side3	Stable Training	false
+character_skills_localised_name_grudge_skill_speed_starter	Initial Training	false
+character_skills_localised_name_grudge_skill_charge_main1	Master of Charge	false
+character_skills_localised_name_grudge_skill_charge_main2	Paragon of Charge	false
+character_skills_localised_name_grudge_skill_charge_side1	Constant Training	false
+character_skills_localised_name_grudge_skill_charge_side2	Regular Training	false
+character_skills_localised_name_grudge_skill_charge_side3	Stable Training	false
+character_skills_localised_name_grudge_skill_charge_starter	Initial Training	false
+character_skills_localised_name_grudge_skill_deadly_onslaught	Deadly Onslaught	false
+character_skills_localised_name_grudge_skill_heroic_killing_blow	Killing Blow	false
+character_skills_localised_name_grudge_skill_foe-seeker	Foe-Seeker	false
+character_skills_localised_name_grudge_skill_slippery	Slippery	false
+character_skills_localised_name_grudge_skill_faiths_bastion	Bastion	false
+character_skills_localised_name_grudge_skill_stand_your_ground	Stand Your Ground!	false
+character_skills_localised_name_grudge_skill_feint_and_riposte	Feint & Riposte	false
+character_skills_localised_name_grudge_skill_rally	Rally!	false
+character_skills_localised_name_grudge_skill_rune_of_hearth_&_home	Rune of Hearth & Home	false
+character_skills_localised_name_grudge_skill_rune_of_oath_&_steel	Rune of Oath & Steel	false
+character_skills_localised_name_grudge_skill_damping	Damping	false
+character_skills_localised_name_grudge_skill_strike_the_runes	Strike the Runes	false
+character_skills_localised_name_grudge_skill_forgefire	Forgefire	false
+character_skills_localised_name_grudge_skill_rune_of_wrath_&_ruin	Rune of Wrath & Ruin	false
+character_skills_localised_name_grudge_skill_rune_of_striking	Rune of Striking	false
+character_skills_localised_name_grudge_skill_rune_of_might	Rune of Might	false
+character_skills_localised_name_grudge_skill_rune_of_parrying	Rune of Parrying	false
+character_skills_localised_name_grudge_skill_rune_of_fury	Rune of Fury	false
+character_skills_localised_name_grudge_skill_rune_of_negation	Rune of Negation	false
+character_skills_localised_name_grudge_skill_morale1	Indomitable	false
+character_skills_localised_name_grudge_skill_morale2	Conviction	false
+character_skills_localised_name_grudge_skill_morale3	Persistent	false
+character_skills_localised_name_grudge_skill_hold_the_line	Hold the Line!	false
+character_skills_localised_name_grudge_skill_soothsaying	Brass-lunged	false
+character_skills_localised_name_grudge_skill_self_augury	Augury	false
+character_skills_localised_name_grudge_skill_inspiring_presence	Exemplar	false
+character_skills_localised_name_grudge_skill_benediction	Benediction	false
+character_skills_localised_name_grudge_skill_missile_ward	Missile Warding	false
+character_skills_localised_name_grudge_skill_magic_ward	Magic Warding	false
+character_skills_localised_description_grudge_skill_attack_main1	Only through training and experience do these men find mastery of mounted combat.	false
+character_skills_localised_description_grudge_skill_attack_main2	It's as if they were born in the saddle and have never left its embrace.	false
+character_skills_localised_description_grudge_skill_attack_side1	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_attack_side2	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_attack_side3	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_attack_starter	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_damage_main1	These weapons are far superior to the mass-produced imperial steel.	false
+character_skills_localised_description_grudge_skill_damage_main2	After many campaigns in faraway lands, all manner of strange blades are wielded, forged by men, dwarfs and elves.	false
+character_skills_localised_description_grudge_skill_damage_side1	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_damage_side2	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_damage_side3	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_damage_starter	Good mercenaries train with constant drills and exercises and the Grudgebringer Cavalry even more so under Bernhardt. 	false
+character_skills_localised_description_grudge_skill_defence_main1	It's a truly difficult art to wield a sword and shield from horseback.	false
+character_skills_localised_description_grudge_skill_defence_main2	These men have no fear, they charge into the thick of battle and doggedly keep on fighting.	false
+character_skills_localised_description_grudge_skill_defence_side1	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_defence_side2	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_defence_side3	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_defence_starter	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_armour_main1	Specially crafted to allow for the best protection and manoeuvrability.	false
+character_skills_localised_description_grudge_skill_armour_main2	Forged by the greatest dwarfen smiths.	false
+character_skills_localised_description_grudge_skill_armour_side1	Good armour for veteran mercenary.	false
+character_skills_localised_description_grudge_skill_armour_side2	Good armour for veteran mercenary.	false
+character_skills_localised_description_grudge_skill_armour_side3	Good armour for veteran mercenary.	false
+character_skills_localised_description_grudge_skill_armour_starter	Worn, but still good armour.	false
+character_skills_localised_description_grudge_skill_speed_main1	This one can run at a very high speed.	false
+character_skills_localised_description_grudge_skill_speed_main2	This one shows outstanding speed.	false
+character_skills_localised_description_grudge_skill_speed_side1	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_speed_side2	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_speed_side3	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_speed_starter	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_charge_main1	This one achieved a true mastery in the art of war	false
+character_skills_localised_description_grudge_skill_charge_main2	The one to reach unachievable mastery is called paragon.	false
+character_skills_localised_description_grudge_skill_charge_side1	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_charge_side2	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_charge_side3	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_charge_starter	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_deadly_onslaught	The war is endless. The cycle of charging, clashing, and bloody hand-to-hand fighting is without end. It will never stop.	false
+character_skills_localised_description_grudge_skill_heroic_killing_blow	There are powerful beings who can decapitate a dragon or plunge a sword into the heart of a gryphon in one mighty strike.	false
+character_skills_localised_description_grudge_skill_foe-seeker	From one bloodied, lifeless corpse to the next, this one is always looking for the next adversary to best.	false
+character_skills_localised_description_grudge_skill_slippery	This one can't be cornered or pinned, he just slips away.	false
+character_skills_localised_description_grudge_skill_faiths_bastion	The faith of this one is so strong that protects him from any harm.	false
+character_skills_localised_description_grudge_skill_stand_your_ground	The best attack is defence.	false
+character_skills_localised_description_grudge_skill_feint_and_riposte	Every stroke is precisely made and finds its mark perfectly.	false
+character_skills_localised_description_grudge_skill_rally	Rally to my banner, and we shall bathe the plains with the blood of our enemies!	false
+character_skills_localised_description_grudge_skill_rune_of_hearth_&_home	Invoking the Rune of Hearth and Home stirs a Dwarf's pride in his Hold, Clan and Ancestors.	false
+character_skills_localised_description_grudge_skill_rune_of_oath_&_steel	Armour inscribed with the Rune of Oath & Steel will not bend or buckle.	false
+character_skills_localised_description_grudge_skill_damping	The Dwarfs' natural anti-magic resistance is amplified to dampen the Winds of Magic.	false
+character_skills_localised_description_grudge_skill_strike_the_runes	A Runesmith may 'strike the runes' - a metaphor for refusing to let them cool, which reduces their potency.	false
+character_skills_localised_description_grudge_skill_forgefire	The fire of a runesmith's forge burn brighter and hotter, it's blessing upon an ally's weapons increase their potency.	false
+character_skills_localised_description_grudge_skill_rune_of_wrath_&_ruin	The Rune of Wrath&Ruin causes the earth to crack, venting forth fire and sulphur.	false
+character_skills_localised_description_grudge_skill_rune_of_striking	The Rune of Striking causes a weapon to hit the foe's most vulnerable area with uncanny precision.	false
+character_skills_localised_description_grudge_skill_rune_of_might	A dwarf, wielding a weapon bearing the Rune of Might can fell a giant.	false
+character_skills_localised_description_grudge_skill_rune_of_parrying	A weapon with this rune moves to block incoming attacks, making its wielder extremely hard to hit.	false
+character_skills_localised_description_grudge_skill_rune_of_fury	A weapon holding this rune almost jumping out of their wielder's hands towards the foe.	false
+character_skills_localised_description_grudge_skill_rune_of_negation	This powerful rune protects any ally in range from magic.	false
+character_skills_localised_description_grudge_skill_morale1	The iron will and indomitable presence of this leader ensure that his followers will remain steadfast against the peril they face.	false
+character_skills_localised_description_grudge_skill_morale2	Such is this one's conviction that others have no choice but to believe.	false
+character_skills_localised_description_grudge_skill_morale3	Nothing can break his persistence.	false
+character_skills_localised_description_grudge_skill_hold_the_line	Those in command of the ranks will issue their commands with a ferocious bark, expecting instant obedience.	false
+character_skills_localised_description_grudge_skill_soothsaying	Speaking words of power or faith can alter perceptions on the battlefield.	false
+character_skills_localised_description_grudge_skill_self_augury	An omen, a sign - this being knows things and any who follow will share their glory.	false
+character_skills_localised_description_grudge_skill_inspiring_presence	There are Lords that radiate power, confidence and fear, inspiring their followers to great or terrible acts.	false
+character_skills_localised_description_grudge_skill_benediction	This honourable man inspires all allies around him.	false
+character_skills_localised_description_grudge_skill_missile_ward	The relentless drive and fury of the Hammer, harnessed for the protection of this ward�s bearer.	false
+character_skills_localised_description_grudge_skill_magic_ward	Knowledge can be used as a shield against magical attack.	false
+character_skills_localised_name_grudge_skill_missile_range	Improved Arrow Shape	false
+character_skills_localised_name_grudge_skill_missile_damage	Bow Training	false
+character_skills_localised_name_grudge_skill_missile_apdamage	Armor-Piercing Tip	false
+character_skills_localised_name_grudge_skill_fire_at_will	Fire At Will	false
+character_skills_localised_name_grudge_skill_missile_reload	Fleet Fingers	false
+character_skills_localised_name_grudge_skill_missile_ammo	Enlarged Quivers	false
+character_skills_localised_name_grudge_skill_missile_range_damage	Bow Mastery	false
+character_skills_localised_name_grudge_skill_darken_the_skies	Darken the Skies	false
+character_skills_localised_name_grudge_skill_missile_accuracy	Snipers	false
+character_skills_localised_name_grudge_skill_increased_powder	Increased Powder	false
+character_skills_localised_name_grudge_skill_enhanced_cartridge	Enhanced Cartridge	false
+character_skills_localised_name_grudge_skill_hardened_bullets	Hardened Bullets	false
+character_skills_localised_name_grudge_skill_bandolier	Better Bandoliers	false
+character_skills_localised_name_grudge_skill_standardised_firing_drill	Firing Drill	false
+character_skills_localised_name_grudge_skill_requisition	Ammo Requisition	false
+character_skills_localised_name_grudge_skill_arms_dealer	Arms Dealer	false
+character_skills_localised_name_grudge_skill_triangulation	Triangulation	false
+character_skills_localised_name_grudge_skill_smoke_bomb	Smoke Bomb	false
+character_skills_localised_name_grudge_skill_ballistics_calibration	Ballistics Calibration	false
+character_skills_localised_name_grudge_skill_extra_powder	Extra Powder	false
+character_skills_localised_name_grudge_skill_defensive_coordinator	Defensive Coordinator	false
+character_skills_localised_name_grudge_skill_ballistics_instructor	Ballistics Instructor	false
+character_skills_localised_name_grudge_skill_grudge_sapper	Master Sapper	false
+character_skills_localised_name_grudge_skill_standardized_shells	Standardized Shells	false
+character_skills_localised_name_grudge_skill_master_gunner	Master Gunner	false
+character_skills_localised_name_grudge_skill_art_damage	Enhanced Gunpowder	false
+character_skills_localised_name_grudge_skill_art_range	Standardized Barrels	false
+character_skills_localised_name_grudge_skill_art_extra_reload	Artillery Crew Training	false
+character_skills_localised_name_grudge_skill_art_ammunition	Ammo Carts	false
+character_skills_localised_name_grudge_skill_art_piercing_shells	Hardened Cannonballs	false
+character_skills_localised_name_grudge_skill_art_accurate	Constant Battle Training	false
+character_skills_localised_name_grudge_skill_art_explosion	Improved Bombs	false
+character_skills_localised_name_grudge_skill_art_apexplosion	Enhanced Bombs	false
+character_skills_localised_name_grudge_skill_art_speed	Wide Weels	false
+character_skills_localised_description_grudge_skill_missile_range	Increased missile range	false
+character_skills_localised_description_grudge_skill_missile_damage	Increased missile damage	false
+character_skills_localised_description_grudge_skill_missile_apdamage	Increased missile armour piercing damage	false
+character_skills_localised_description_grudge_skill_fire_at_will	Grants skill: Fire at Will!	false
+character_skills_localised_description_grudge_skill_missile_reload	Quick reload	false
+character_skills_localised_description_grudge_skill_missile_ammo	Increased ammunition	false
+character_skills_localised_description_grudge_skill_missile_range_damage	Increased range & damage	false
+character_skills_localised_description_grudge_skill_darken_the_skies	Grants skill: Darken the Skies!, replaces skill Fire at Will!	false
+character_skills_localised_description_grudge_skill_missile_accuracy	Improved accuracy	false
+character_skills_localised_description_grudge_skill_increased_powder	Increased firearms damage	false
+character_skills_localised_description_grudge_skill_enhanced_cartridge	Firearms reload time reduction	false
+character_skills_localised_description_grudge_skill_hardened_bullets	Increased firearms armour piercing damage	false
+character_skills_localised_description_grudge_skill_bandolier	Increased firearms ammunition	false
+character_skills_localised_description_grudge_skill_standardised_firing_drill	Skill Standardized Firing Drill	false
+character_skills_localised_description_grudge_skill_requisition	Skill Requisition	false
+character_skills_localised_description_grudge_skill_arms_dealer	Skill Arms Dealer	false
+character_skills_localised_description_grudge_skill_triangulation	Skill Triangulation	false
+character_skills_localised_description_grudge_skill_smoke_bomb	Skill Smoke Bomb	false
+character_skills_localised_description_grudge_skill_ballistics_calibration	Ballistics Calibration	false
+character_skills_localised_description_grudge_skill_extra_powder	Extra Powder	false
+character_skills_localised_description_grudge_skill_defensive_coordinator	Defensive Coordinator	false
+character_skills_localised_description_grudge_skill_ballistics_instructor	Ballistics Instructor	false
+character_skills_localised_description_grudge_skill_grudge_sapper	Grudge Sapper	false
+character_skills_localised_description_grudge_skill_standardized_shells	Standardized Shells	false
+character_skills_localised_description_grudge_skill_master_gunner	Master Gunner	false
+character_skills_localised_description_grudge_skill_art_damage	Increased artillery damage	false
+character_skills_localised_description_grudge_skill_art_range	Increased artillery range	false
+character_skills_localised_description_grudge_skill_art_extra_reload	Artillery reload reduction	false
+character_skills_localised_description_grudge_skill_art_ammunition	Increased artillery ammunition	false
+character_skills_localised_description_grudge_skill_art_piercing_shells	Piercing Shells	false
+character_skills_localised_description_grudge_skill_art_accurate	Increased artillery accuracy	false
+character_skills_localised_description_grudge_skill_art_explosion	Increased explosion damage	false
+character_skills_localised_description_grudge_skill_art_apexplosion	Increased armour piercing explosion damage	false
+character_skills_localised_description_grudge_skill_art_speed	Increased artillery speed	false
+character_skills_localised_name_grudge_skill_bst_champion_defensive_1	Defensive Stance	false
+character_skills_localised_description_grudge_skill_bst_champion_defensive_1	Make the tiger leave his forest.	false
+character_skills_localised_name_grudge_skill_bst_champion_defensive_2	Masterful Defensive Stance	false
+character_skills_localised_description_grudge_skill_bst_champion_defensive_2	Make the tiger leave his forest.	false
+character_skills_localised_name_grudge_skill_bst_champion_offensive_1	Offensive Stance	false
+character_skills_localised_description_grudge_skill_bst_champion_offensive_1	Offense is the best defense.	false
+character_skills_localised_name_grudge_skill_bst_champion_offensive_2	Masterful Offensive Stance	false
+character_skills_localised_description_grudge_skill_bst_champion_offensive_2	Offense is the best defense.	false
+character_skills_localised_name_grudge_skill_mercenary	Mercenary	false
+character_skills_localised_description_grudge_skill_mercenary	Till green and inexperienced this one serves for a penny, but at higher levels his service costs much more.	false
+character_skills_localised_name_grudge_skill_regiment_size	Hardened Regimental Commander	false
+character_skills_localised_description_grudge_skill_regiment_size	Increases the unit size of Bernhardt's personal cavalry unit.	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_men	Masterful Tactics vs Men	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_dwarves	Masterful Tactics vs Dwarfs	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_undead	Masterful Tactics vs Undead	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_chaos	Masterful Tactics vs Chaos	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_beastmen	Masterful Tactics vs Beastmen	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_skaven	Masterful Tactics vs Skaven	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_greenskins	Masterful Tactics vs Greenskins	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_dark_elves	Masterful Tactics vs Dark Elves	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_lizardmen	Masterful Tactics vs Lizardmen	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_high_elves	Masterful Tactics vs High Elves	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_wood_elves	Masterful Tactics vs Wood Elves	false
+character_skills_localised_name_grudge_skill_swiftness_of_itzl	Unstoppable Charge	false
+character_skills_localised_name_grudge_skill_verminous_valour	Decisive Battle	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_men	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_dwarves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_undead	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_chaos	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_beastmen	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_skaven	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_greenskins	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_dark_elves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_lizardmen	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_high_elves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_wood_elves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_swiftness_of_itzl	Nobody can intervene the charge of this man when he has his target.	false
+character_skills_localised_description_grudge_skill_verminous_valour	The leader calls his allies to the last, decisive battle.	false
+character_skills_localised_name_grudge_skill_fire_ward	Immunity to Fire	false
+character_skills_localised_description_grudge_skill_fire_ward	This skill grants the character immunity to fire.	false
+character_skills_localised_name_grudge_skill_horn_of_urgok	Horn of Urgok	false
+character_skills_localised_description_grudge_skill_horn_of_urgok	This enchanted horn has the power to panic enemies and calm friendly troops with a single blast. When sounded, all enemy regiments within earshot may flee and all fleeing friendly regiments within range will rally themselves.	false
+character_skills_localised_name_grudge_skill_grudgebringer_sword	Grudgebringer Sword	false
+character_skills_localised_name_grudge_skill_hellfire_sword	Hellfire Sword	false
+character_skills_localised_name_grudge_skill_storm_sword	Storm Sword	false
+character_skills_localised_name_grudge_skill_runefang	Runefang	false
+character_skills_localised_name_grudge_skill_enchanted_shield	Enchanted Shield	false
+character_skills_localised_name_grudge_skill_shield_of_ptolos	Shield of Ptolos	false
+character_skills_localised_name_grudge_skill_spelleater_shield	Spelleater Shield	false
+character_skills_localised_name_grudge_skill_dragonhelm	Dragonhelm	false
+character_skills_localised_name_grudge_skill_wand_of_jet	Wand of Jet	false
+character_skills_localised_name_grudge_skill_banner_of_arcane_warding	Banner of Arcane Warding	false
+character_skills_localised_name_grudge_skill_banner_of_wrath	Banner of Wrath	false
+character_skills_localised_name_grudge_skill_banner_of_defiance	Banner of Defiance	false
+character_skills_localised_description_grudge_skill_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. Also, a fireball may be cast from the sword.	false
+character_skills_localised_description_grudge_skill_hellfire_sword	This sword is enchanted with the energy of Bright magic. Its magical power may be cast when the wielder is in melee, unleashing a fiery blast which wounds any troops in the vicinity.	false
+character_skills_localised_description_grudge_skill_storm_sword	This mighty sword channels the energy of Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast, summoning multiple lightning bolts from the sky which strike the enemy regiment.	false
+character_skills_localised_description_grudge_skill_runefang	Forged by a great Dwarf runesmith as a gift to the Empire, this sword has powerful Dwarf runes carved upon its blade. The sword strikes with such force it penetrates all armour, and any undead troops hit by the sword suffer twice the normal damage.	false
+character_skills_localised_description_grudge_skill_enchanted_shield	The Enchanted Shield provides the bearer's regiment with an extra level of armour. This item can only be utilised by troops who are normally able to use a shield.	false
+character_skills_localised_description_grudge_skill_shield_of_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs. The patterns magically distract arrows and bolts, sending them spinning off course. The bearer's regiment will be protected against missiles from bows, crossbows, war engines and so on. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
+character_skills_localised_description_grudge_skill_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channelling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
+character_skills_localised_description_grudge_skill_dragonhelm	This magic helmet protects the bearer's regiment from the effects of fire or flame attacks. The magical powers are so effective that almost all such attacks will be ineffective.	false
+character_skills_localised_description_grudge_skill_wand_of_jet	This powerful wand channels the energy of the winds of magic, providing the bearer with extra magical powers. Any spell in the bearer's repertoire can be cast for fewer magic points than it would normally cost, to a minimum of one point.	false
+character_skills_localised_description_grudge_skill_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	false
+character_skills_localised_description_grudge_skill_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	false
+character_skills_localised_description_grudge_skill_banner_of_defiance	This powerful banner infuses the bearer's regiment with extra courage, making them braver and more determined. A regiment bearing this banner will never break from hand-to-hand combat and is immune to fear.	false
+character_skills_localised_name_grudge_skill_shadow_of_the_horned_rat	Shadow of the Horned Rat	false
+character_skills_localised_name_grudge_skill_dark_omen	Dark Omen	false
+character_skills_localised_description_grudge_skill_shadow_of_the_horned_rat	These warriors are veterans of the "Shadow of the Horned Rat" campaign. They learned hard how to stop Vermintide and Waagh.	false
+character_skills_localised_description_grudge_skill_dark_omen	These warriors are veterans of the "Dark Omen" campaign. They know pretty well, that the dead should not disturb the living.	false
+character_skills_localised_name_obo_skill_ability_extra_powder	Extra Powder	false
+character_skills_localised_name_obo_skill_ability_more_powder	More Powder!	false
+character_skills_localised_description_obo_skill_ability_extra_powder	Because you can never have too much.	false
+character_skills_localised_description_obo_skill_ability_more_powder	"Where's that powder monkey? Get him up 'ere now!"	false
+character_skills_localised_name_ovn_grudge_soldiers_of_fortune	The Bonds of War	false
+character_skills_localised_description_ovn_grudge_soldiers_of_fortune	Many regiments have come and gone but those few that bear the Grudgebringer name have developed a brotherhood like no other.	false
+character_skills_localised_name_ovn_grudge_gold	For Gold	false
+character_skills_localised_description_ovn_grudge_gold	If death is a reward, I'll take it in gold coin, old friend. The glory we'll leave for others.	false
+character_skills_localised_name_ovn_grudge_glory	Greater than Glory	false
+character_skills_localised_description_ovn_grudge_glory	I don't give a damn about glory, I do what I must.	false
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_melee_attack_defence	The Forest's Roar	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_melee_damage	Swinging Boughs	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_melee_armour	Shield of the Forest	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_charge_bonus_charge_speed	Striking Branches	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_missile_damage	Bolts of the Forest	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_extra_reload	Rain of Spines	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_battle_speed	Shifting Winds	true
+character_skills_localised_name_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_ammunition	Nature's Quiver 	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_charge_bonus_charge_speed	Let the enemy feel the fury of nature, embodied in these warriors as they crash through their lines.	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_melee_armour	Armour as hard as the ancient bark of the forest, it repels blows that would rend others asunder.	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_melee_damage	The warrior strikes with the strength of a swinging tree limb; few can stand against such strength.	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_melee_attack_defence	All of Athel Loren shouts with a fury as old as the ages, and the enemy knows its power.	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_extra_reload	A ranger should give no reprieve to the foe. Arrows must fall like a deluge, as deadly as lightning.	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_battle_speed	The Asrai are fleet of foot, with centuries of darting from branch to branch, and never a missed step.	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_ammunition	What is a ranger without an arrow? Who can be the best without dozens?	true
+character_skills_localised_description_obo_hero_wh_dlc05_skill_wef_army_buff_ranged_missile_damage	Let each bolt be imbued with the strength of Kurnous, and bring death to all his enemies.	true
+character_skills_localised_description_elo_skill_conduit	Not all Trolls are created equally, a rare few possess some intelligence and are able to lead their own tribe.	true
+character_skills_localised_description_elo_skill_fedbywar	A Troll Horde always hungers and the first to battle are the first to feed.	true
+character_skills_localised_name_elo_skill_fedbywar	Fed by War	true
+character_skills_localised_name_elo_skill_toostupid	Too Stupid to Care	true
+character_skills_localised_description_elo_skill_toostupid	Trolls have a tendency to be too stupid to notice the fact that they should be afraid of a superior enemy. Sadly they also have a tendency to devour or break important supplies.	true
+character_skills_localised_name_elo_skill_run_and_shakeoff	Devour them all!	true
+character_skills_localised_description_elo_skill_run_and_shakeoff	In anticipation of a great feast, the trolls and monsters run faster and even shake off the toothpicks and pebbles that are launched to slow them down!	true
+character_skills_localised_description_elo_skill_bloodlust	Born for bloody fights, skinwolves become a whirlwind of claws and teeth on the battlefield.	true
+character_skills_localised_name_elo_skill_bloodlust	Bloodlust	true
+character_skills_localised_name_elo_skill_hitharder	Hit Harder	true
+character_skills_localised_description_elo_skill_hitharder	Hitting as hard as possible without getting tired fast is the pinnacle of Troll fighting techniques!	true
+character_skills_localised_description_elo_skill_troll_innate01	This Troll and his horde eat their enemies. And wounded comrades. Well, actually they eat about everything.	true
+character_skills_localised_name_elo_skill_troll_innate01	Motivated by Hunger but Insatiable	true
+character_skills_localised_description_elo_skill_troll_innate02	Stronger than most others of his kind, but easy to enrage.	true
+character_skills_localised_name_elo_skill_troll_innate02	Mighty but Choleric	true
+character_skills_localised_name_elo_skill_troll_innate03	Destructive	true
+character_skills_localised_description_elo_skill_troll_innate03	Hates every kind of structure and will destroy them. Yours as well as the enemies.	true
+character_skills_localised_name_elo_skill_troll_innate04	Obedient but Stupid as a Rock	true
+character_skills_localised_description_elo_skill_troll_innate04	Does everything the boss commands him to do. But whenever something unexpected happens, it all falls apart.	true
+character_skills_localised_name_elo_skill_troll_innate05	Intimidating but all Show	true
+character_skills_localised_description_elo_skill_troll_innate05	Makes a lot of noise, looks scary, but actually as brave as the average Skaven.	true
+character_skills_localised_name_elo_skill_troll_innate06	Completely Broken	true
+character_skills_localised_description_elo_skill_troll_innate06	The boss took control of this one so often that what little mind the troll had is completely gone. Even the dumbest troll notices that something is not right with this one.	true
+character_skills_localised_name_elo_skill_troll_innate07	Strong-Willed	true
+character_skills_localised_description_elo_skill_troll_innate07	It is not easy to force this Troll to do anything. Every time the boss is not checking on him, he goes off to do whatever comes to his mind.	true
+character_skills_localised_name_elo_skill_troll_food_rats	All You Can Eat: Skaven	true
+character_skills_localised_description_elo_skill_troll_food_rats	Easy to scare, numerous and everywhere, really. As long as one doesn't get tired of swinging their club around, no troll needs to go hungry!	true
+character_skills_localised_description_elo_skill_troll_food_humans	The classics never get old. For preparation they just need to be squished well and voila, another troll meal ready.	true
+character_skills_localised_name_elo_skill_troll_food_humans	Home Cooking: Humans	true
+character_skills_localised_description_elo_skill_troll_food_dwarfs	They need to be peeled out of their hard shell before consumption but have a uniquely intense taste.	true
+character_skills_localised_name_elo_skill_troll_food_dwarfs	Crustaceans: Dwarfs	true
+character_skills_localised_description_elo_skill_troll_food_elves	Having tasted one of those, most trolls immediately want another. They just need to endure being showered with pointy sticks.	true
+character_skills_localised_name_elo_skill_troll_food_elves	Haute Cuisine: Elves	true
+character_skills_localised_name_elo_skill_troll_food_undead	Dry Aged Meat: Undead	true
+character_skills_localised_description_elo_skill_troll_food_undead	Some trolls enjoy the soft texture of aged meat and sucking out the marrow of the bones. They just need to be brave enough to approach the living dead.	true
+character_skills_localised_description_elo_skill_troll_food_green	They often come running towards trolls, yelling and waving their sharp metal, so they are easy to collect. They also come in a smaller snack-sized variant for the smaller hunger.	true
+character_skills_localised_name_elo_skill_troll_food_green	Junk Food: Greenskins	true
+character_skills_localised_name_elo_skill_troll_food_beast	Gamey Food: Beastmen	true
+character_skills_localised_description_elo_skill_troll_food_beast	Combining the taste of wild animal and humans, some trolls are hooked on beastmen meat. They just need to be fast enough to catch them and match their wildness to best them.	true
+character_skills_localised_name_elo_skill_troll_food_lizard	Exotic Food: Lizardmen	true
+character_skills_localised_description_elo_skill_troll_food_lizard	It is not often that the trolls of the old world get to enjoy the meat of giant lizards. But the really big ones can feed a whole group of trolls when brought down and if you hit extra hard, then the scales are no problem at all either.	true
+character_skills_localised_description_elo_skill_troll_food_chaos	True Troll gourmets swear on the taste of chaos corrupted meat. It has a nice burning aftertaste like no other. They just need to make sure not to become the meal of the chaos creature themselves and match their savagery in combat.	true
+character_skills_localised_name_elo_skill_troll_food_chaos	Spicey Food: Chaos	true
+character_skills_localised_description_elo_skill_troll_innate08	Intelligence is not a requirement to earn Khornes favor.	true
+character_skills_localised_name_elo_skill_troll_innate08	Touched by Khorne	true
+character_skills_localised_description_elo_skill_troll_innate09	Grandfather Nurgle generously spreads his gifts throughout the mortal world, even to such unworthy beings as Trolls.	true
+character_skills_localised_name_elo_skill_troll_innate09	Touched by Nurgle	true
+character_skills_localised_description_elo_skill_troll_innate10	Even a Troll can catch the eye of the Prince of Excess - mostly because of their indulgence into gluttony.	true
+character_skills_localised_name_elo_skill_troll_innate10	Touched by Slaneesh	true
+character_skills_localised_description_elo_skill_troll_frostblood	Either by lineage or by mutation, this Troll has some Frost Troll in him, enabling him to channel the frost of their Norscan home.	true
+character_skills_localised_name_elo_skill_troll_frostblood	Frost Troll Blood	true
+character_skills_localised_name_elo_skill_troll_riverblood	River Troll Blood	true
+character_skills_localised_description_elo_skill_troll_riverblood	Either by lineage or by mutation, this Troll has some River Troll in him, enabling him to spew poison like his brethren.	true
+character_skills_localised_name_elo_skill_troll_stoneblood	Stone Troll Blood	true
+character_skills_localised_description_elo_skill_troll_stoneblood	Either by lineage or by mutation, this Troll has some Stone Troll in him, giving him the resilience of their kind.	true
+character_skills_localised_description_elo_skill_troll_feral	The might of the untamed beast of the Norscan Wilds is unrivaled and few can withstand it.	true
+character_skills_localised_name_elo_skill_troll_feral	Feral Masters	true
+character_skills_localised_description_elo_skill_troll_controlled	The boss can take direct control over his subjects, using them as puppets and breaking their will so far that they will never flee from battle. But even the dumbest monster will instinctively feel that their leader is obviously lacking leadership when the boss doesn't possess them.	true
+character_skills_localised_name_elo_skill_troll_controlled	Mind Controlled	true
+character_skills_localised_name_elo_skill_throgg_leader	Leader of Trolls	true
+character_skills_localised_description_elo_skill_throgg_leader	A truly intelligent troll, a rarity indeed.	true
+character_skills_localised_name_elo_skill_throgg_herold	Bringer of Destruction	true
+character_skills_localised_description_elo_skill_throgg_herold	The bosses ultimate goal is the destruction of all and any civilization. He has not much love for what it offers and will only begrudgingly use whatever the Norse towns offer to further his cause.	true
+character_skills_localised_name_elo_skill_throgg_tactican	Troll Strategist	true
+character_skills_localised_description_elo_skill_throgg_tactican	The boss repeatedly outmaneuvers the best generals in the world, especially when they underestimate him.	true
+character_skills_localised_name_elo_skill_throgg_eat	Man-Eater	true
+character_skills_localised_description_elo_skill_throgg_eat	Battle time is feeding time!	true
+character_skills_localised_name_elo_skill_throgg_veterans	Battle-Hardened Kin	true
+character_skills_localised_description_elo_skill_throgg_veterans	Even a troll will somehow improve if they survive enough battles. Fighting under the bosses leadership makes this even surprisingly likely.	true
+character_skills_localised_description_elo_skill_throgg_looter	Different from all other trolls, the boss knows what is valuable and worth keeping and what is junk.	true
+character_skills_localised_name_elo_skill_throgg_looter	Knowledgable Looter	true
+character_skills_localised_description_elo_skill_throgg_monsterlord	The time of humans comes to an end. They have served their purpose as monsters flock to the bosses army. Only the dumb and greedy among humans will stay and fight for him.	true
+character_skills_localised_name_elo_skill_throgg_monsterlord	Lord of the Monster Horde	true
+character_skills_localised_description_elo_skill_throgg_scourge	These Trolls have braved the stormy cold planes, wastelands and hostile mountains of the North day for day. Those who survive long enough will be difficult to hurt let alone kill by normal means.	true
+character_skills_localised_name_elo_skill_throgg_scourge	Scourge of the North	true
+character_skills_localised_name_elo_skill_throgg_danger	Blight of Men	true
+character_skills_localised_description_elo_skill_throgg_danger	The lands of weak mankind are teeming with Trolls, many of which are tougher, meaner and hungrier than the average troll. These trolls make fine recruits for the bosses army.	true
+character_skills_localised_description_elo_skill_troll_intimidation	Instead of leading his forces properly, the Troll roars at the enemy, swings his weight around and does his best to frighten the opponent.	true
+character_skills_localised_name_elo_skill_troll_intimidation	Intimidating	true
+character_skills_localised_name_elo_skill_throgg_march	March of Eternal Winter	true
+character_skills_localised_description_elo_skill_throgg_march	Where the boss goes, the land is warped by the power of Chaos - something the boss enjoys. And so he pushes his Horde ever onwards into foreign lands, to further the coming of his ice age.	true
+character_skills_localised_description_elo_skill_troll_innate11	Grabs and keeps whatever arouses his interest. Sadly, he has absolutely no sense for value. However, what the loot lacks in quality it makes up for in quantity.	true
+character_skills_localised_name_elo_skill_troll_innate11	Mindless Hoarder	true
+character_skills_localised_name_elo_skill_troll_innate12	Dumb Luck	true
+character_skills_localised_description_elo_skill_troll_innate12	Strolls right into cannon fire, is clumsy in combat and makes all the wrong choices. Still gets more often away with it than he has any right to.	true
+character_skills_localised_name_elo_throgg_inhumane	Inhumane Stength	true
+character_skills_localised_description_elo_throgg_inhumane	What trolls lack in elegance and grace they make up for in ferocity and pure strength.	true
+character_skills_localised_name_snow_troll_troll_boss	Troll Boss	true
+character_skills_localised_description_snow_troll_troll_boss	Big, mean and tough enough to make other monsters around him do...something. Sometimes even what he wants them to do.	true
+character_skills_localised_name_snow_troll_maneater	Man-eater	true
+character_skills_localised_description_snow_troll_maneater	Seeing a monster devouring their comrades - and mounts and sometimes spare equipment which looks remotely edible - is quite unsettling for most soldiers.	true
+character_skills_localised_name_snow_troll_big_angry	Big and Angry	true
+character_skills_localised_description_snow_troll_big_angry	Why is the food fighting back so much? This Troll wants to eat NOW! So he'll whack the food even harder until it stops moving so much!	true
+character_skills_localised_name_snow_troll_mountain_wanderer	Mountain Wanderer	true
+character_skills_localised_description_snow_troll_mountain_wanderer	Those living on the barren tops of snow-covered mountains develop phenomenal stamina and know how to move through rough terrain quickly.	true
+character_skills_localised_name_snow_troll_tantrum	Reckless Rampage	true
+character_skills_localised_description_snow_troll_tantrum	One of the main emotions of a snow troll in battle is anger. And if he was pocked by sharp pointy things often enough, he gets much angrier.	true
+character_skills_localised_name_elo_skill_conduit	Troll Chief	true
+character_skills_localised_name_elo_skill_throgg_raw_might	Always Hungry	false
+character_skills_localised_description_elo_skill_throgg_raw_might	Hunger is the most effective way to make trolls take part in battles. The hungrier the troll, the more fighting he is willing to do.	false
+character_skills_localised_name_elo_skill_mountain_masters	Horrors of the Mountains	false
+character_skills_localised_description_elo_skill_mountain_masters	The Mountains are home not only to the steadfast Dawi, but also to the horrors that hunt them.	false
+character_skills_localised_description_elo_skill_throgg_blight	The lands of weak mankind are teeming with Trolls, many of which are tougher, meaner and hungrier than the average troll. These trolls make fine recruits for the army.	false
+character_skills_localised_name_elo_skill_troll_children_chaos	Children of Chaos	false
+character_skills_localised_description_elo_skill_troll_children_chaos	Trolls are creatures of chaos. They themselves may have forgotten about it, but they retained many of the twisted gifts the forces of chaos provide to their followers.	false
+character_skills_localised_name_elo_skill_troll_unnatural_resilience	Unnatural Resilience	false
+character_skills_localised_description_elo_skill_troll_unnatural_resilience	Flesh healing faster than weapons can wound it and skin thicker than most armour.	false
+character_skills_localised_name_elo_skill_troll_menace_land	Deadly Menace	false
+character_skills_localised_description_elo_skill_troll_menace_land	Trolls are everywhere in the old world and some of the more foolish inhabitants of these lands see them rather as a nuisance than a true danger.	false
+character_skills_localised_name_elo_skill_troll_ice_snow	Creatures of Ice and Snow	false
+character_skills_localised_description_elo_skill_troll_ice_snow	These Trolls seem to carry the very might of frost and ice within their veins.	false
+character_skills_localised_name_reworked_cyclopean_fiends	Ugma's Fiends	false
+character_skills_localised_description_reworked_cyclopean_fiends	The most feared and savage trolls march alongside Ugma to bring ruin over their foes.	false
+character_skills_localised_name_reworked_king_of_trolls	King of Trolls	false
+character_skills_localised_description_reworked_king_of_trolls	The boss leads ever-growing hordes of his kin against the weak forces of the South.	false
+character_skills_localised_name_reworked_mutant_regeneration	Mutant Regeneration	false
+character_skills_localised_description_reworked_mutant_regeneration	Troll flesh heals incredibly fast, allowing them to recover from almost any wound in no time.	false
+character_skills_localised_name_elo_troll_toll	Troll Toll	false
+character_skills_localised_description_elo_troll_toll	Only beta trolls hide under bridges!	false
+character_skills_localised_name_elo_leader_river	River Troll Chieftain	false
+character_skills_localised_description_elo_leader_river	Considering that Chief Ugma is a River Troll himself, it might not be too surprising that he is especially experienced in leading others of his kind.	false
+character_skills_localised_name_elo_eloquent_troll	Eloquent Troll	false
+character_skills_localised_description_elo_eloquent_troll	Chief Ugma loves to mock his enemies in their own language. It is surprisingly disturbing to hear a supposedly dumb Troll taunt in perfect Reikspiel.	false
+character_skills_localised_name_creature_water	Burning Hatred	false
+character_skills_localised_description_creature_water	Many trolls hate the Dwarfs and side with the Greenskins out of convenience. Ugma hates both sides of the conflict equally.	false
+character_skills_localised_name_ugma_warpstone_touched	Warpstone-touched	false
+character_skills_localised_description_ugma_warpstone_touched	Intelligence is not the only change the contact with warpstone caused in Chief Ugma. It also made him much tougher than the average troll.	false
+character_skills_localised_name_ugma_strongest_river	The Strongest River Troll	false
+character_skills_localised_description_ugma_strongest_river	No other River Troll can compare to Ugma. He is the toughest, meanest and strongest River Troll around. Even his stench is worse!	false
+character_skills_localised_name_ugma_trinkets	Ugma's Trophies and Trinkets	false
+character_skills_localised_description_ugma_trinkets	Ugma likes to collect treasures. He carries an assortment of small trinkets with him, taken from adventurers he has bested. Some of these trophies are magical and imbue the troll with beneficial effects.	false
+character_skills_localised_name_resevoir_stone_hammer	Karak Azgal Stone Hammer	false
+character_skills_localised_description_resevoir_stone_hammer	Chief Ugma's oversized hammer has probably been taken from the statue of a Dwarf hero or ancestor god in the fallen Karak Azgal. Chief Umga doesn't seem to care though, all that matters is that the hammer has the right size and doesn't break.	false
+character_skills_localised_name_ugma_innate	Chieftain of Karak Azgal	false
+character_skills_localised_description_ugma_innate	Ugma started as a leader of a small tribe of River Trolls in a fallen Karak, fighting and plundering adventurers who dared to brave the depths of this dangerous forsaken Dwarf hold.	false
+character_skills_localised_name_elo_skill_throgg_blight	Blight of Men	false
+character_skills_localised_name_fim_meargh_skattach_innate	Pretender Hell-Mother	true
+character_skills_localised_description_fim_meargh_skattach_innate	Having been ousted from her fortress at Schadensumpf by the ever-encroaching humans, Skattach has travelled far into the south along with the rest of her Clan in search of the lost Fimir homeland of the Wandering Isle. Believing to have found it in the marshes of the Badlands, she has proclaimed herself Hell-Mother, Meargh of all the Fimir.	true
+character_skills_localised_name_fim_meargh_skattach_ancient_leadership	Ancient Leadership	false
+character_skills_localised_description_fim_meargh_skattach_ancient_leadership	The Meargh are the respected and feared witch-queens of the Fimir. Skattach is at her prime as a Meargh, having ruled over her Clan for 800 hundred years.	false
+character_skills_localised_name_fim_meargh_skattach_death_quest	Skattach's Fianna	false
+character_skills_localised_description_fim_meargh_skattach_death_quest	From the moment took on the hated mantle of the Fimir Hell-Mother, Skattach keeps a personal guard of the most elite, skilled and loyal Fianna Fimm of her clan, lest any ambitious Dirach gets the wrong idea and tries to replace her with a more pliable Meargh.	false
+character_skills_localised_name_fim_meargh_skattach_poison_mist	Poison Mist	false
+character_skills_localised_description_fim_meargh_skattach_poison_mist	All Meargs naturally exude a magical mist that poisons and dazes all non-Fimir. Skattach's Mist is a particularly noxious one.	false
+character_skills_localised_name_fim_meargh_skattach_venerable_hag	Venerable Hag	false
+character_skills_localised_description_fim_meargh_skattach_venerable_hag	Most ruling Meargh are incredibly ancient, the oldest reaching thousands of years, as they age, their intelligence heightens and their skin hardens and wrinkles.	false
+character_skills_localised_name_fim_meargh_skattach_witch_queen	Witch-Queen of the Fimir	false
+character_skills_localised_description_fim_meargh_skattach_witch_queen	Being one of the Meargh, Skattach is a fearsome sorceress, able to easily mainupalte the winds of magic, and even lend some of her magical acumen to the lesser Dirach males.	false
+character_skills_localised_name_fim_skattach_summon_bloodletters	Master Daemonologist	false
+character_skills_localised_description_fim_skattach_summon_bloodletters	Fimir have a natural aptitude for summoning daemons, said to come from their half-daemonic heritage. The Meargh summon Daemons with  ease, casually summoning and binding thousands of lesser daemons on a daily basis to act as servants and warriors.	false
+character_skills_localised_name_fim_meargh_skattach_anc_staff_balor	Staff of Balor's Eye	false
+character_skills_localised_description_fim_meargh_skattach_anc_staff_balor	At the tip of this magical staff rests an ancient Fimir artifact known as "Balor's Eye" a magically preserved eye said to belong to the myterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user's enemies within.	false
+character_skills_localised_name_fim_meargh_skattach_anc_hellmother_crown	Crown of the Hellmother	false
+character_skills_localised_description_fim_meargh_skattach_anc_hellmother_crown	This thorny metal crown once belonged to the First Hellmother, a Meargh who united together all the ancient Fimir Clans. The Hellmother was a potent socreress, who placed many warding and magic amplifying enchantments upon her crown. Skattach has recently found the crown in  a journey to what she claims are the ruins of the Wandering Isle, the ancient lost homeland of the Fimir, and used it to claim the controversial mantle of the Hellmother.	false
+character_skills_localised_name_arb_fatandira_innate	Scythan Blood	true
+character_skills_localised_description_arb_fatandira_innate	Fatandira had always known she was of Arabyan Nomad stock, but only recently, with her journey to the Southlands, she has discovered her Scythan legacy. Her arrival proved fortuitous, for one of the Scythan tribal leaders had fallen to Chaos and was attempting to take control of the entire realm. It was then that the more righteous members of the tribe rallied around Fatandira, asking her to lead them against the servants of darkness.	true
+character_skills_localised_name_arb_fatandira_aimed_shot	Aimed Shot	false
+character_skills_localised_description_arb_fatandira_aimed_shot	Back in the Borderlands, Fatandira had quite the reputation as a crossbow markswoman among her troops. Since returning to her people, she has applied her skills to the Scythan way of the hunter.	false
+character_skills_localised_name_arb_fatandira_aimed_shot_cooldown	Desert Huntress	false
+character_skills_localised_description_arb_fatandira_aimed_shot_cooldown	"Be as cunning as the sand fox, strike as swift as the falcon."	false
+character_skills_localised_name_arb_fatandira_unique_1	Enlightened Leadership	false
+character_skills_localised_description_arb_fatandira_unique_1	Since her tenure as Prince in the Borderlands, Fatandira has sought to end the bigotry and hate that plague any land she rules. Her principality might be long gone, but the ideal stands strong.	false
+character_skills_localised_name_arb_fatandira_unique_2	Nomad Cavalry Tactics	false
+character_skills_localised_description_arb_fatandira_unique_2	Even back in the Border Princes, Fatandira was well known for her cavalry tactics and the swiftness of her mounted troops. Imagine what she can do with a saddle-born people such as the Scythans under her command.	false
+character_skills_localised_name_arb_fatandira_unique_3	Al-Kahina	false
+character_skills_localised_description_arb_fatandira_unique_3	Since her arrival at Scythan lands, Fatandira has been hailed as "Al-Kahina", The Prophetess, by her people. The Scythans claim that she's the hero of legend that will banish the Darkness with the Golden God by her side. Fatandira herself doesn't quite believe the legend, but keeps up the appearance for the morale of her troops and well-being of her people.	false
+character_skills_localised_name_arb_fatandira_unique_4	A Better Life	false
+character_skills_localised_description_arb_fatandira_unique_4	"...From now on my destiny will be to lift these people out of ignorance and poverty, to prevent them from becoming as paranoid and vicious as the villagers who butchered my family. This I swear."	false
+character_skills_localised_name_arb_fatandira_unique_5	Straightforward Commander	false
+character_skills_localised_description_arb_fatandira_unique_5	Fatandira is a woman with an iron determination. She leads honestly, and personally ensures that her troops have talent in battle and good sense out of it.	false
+character_skills_localised_name_arb_fatandira_unique_6	Desert Feint	false
+character_skills_localised_description_arb_fatandira_unique_6	Fatandira has adapted her famously stealthy cavalry strikes from the rough terrain of the Border Princes to the sands of Araby and Nehekhara almost seamlessly.	false
+character_skills_localised_name_arb_fatandira_anc_blades_demise	Blades of Honourable Demise	false
+character_skills_localised_description_arb_fatandira_anc_blades_demise	Taken by Fatandira from the tomb of the Liche Lord Karitamen in the Borderlands, this pair of Nehekharan Khopeshes magically enhance their owner's combat skills, and weakens anyone struck by them.	false
+character_skills_localised_name_arb_fatandira_anc_warhorse	Warhorse	false
+character_skills_localised_description_arb_fatandira_anc_warhorse	Born to a family of Arabyan caravan nomads, Fatandira is as comfortable on the saddle as on foot.	false
+character_skills_localised_name_arb_fatandira_anc_roc	Saqir	false
+character_skills_localised_description_arb_fatandira_anc_roc	Given to Fatandira as a gift by the Scythans, Saqir is a mighty specimen of Desert Roc, giant and intelligent birds of prey that fly high above the deserts of Araby. The animal quickly bonded with her, and now they soar the battlefield together.	false
+character_skills_localised_name_arb_fatandira_anc_scythan_armour	Cuirass of the Brave Queen	true
+character_skills_localised_description_arb_fatandira_anc_scythan_armour	This ancient magical lamellar cuirass is said to have belonged to a legendary warrior queen of the Scythans who killed one of the great Priest Kings of Ancient Nehekhara in battle. The Scythans, believing Fatandira to be a reincarnation of that queen, have granted to her this ancient artifact.	true
+character_skills_localised_description_arb_scythan_tomb_king_units	Those proved in battle may take a sacred vow to their god Tutankhanut and serve as his mortal champion.	true
+character_skills_localised_name_arb_scythan_tomb_king_units	Vow to Tutankhanut	true
+character_skills_localised_name_arb_golden_magus_innate	Eminent Elementalist	true
+character_skills_localised_description_arb_golden_magus_innate	The Golden Magus' mastery over the elements of air, fire and water is exceptional, especially for a human. His powers come from his most prized possessions, 3 Royal Djinns from who he draws his magical might from. 	true
+character_skills_localised_name_arb_golden_magus_aether_tether	Aethyric Tether	false
+character_skills_localised_description_arb_golden_magus_aether_tether	The secret of the Golden Magus' sorcerous might resides in his connection, or "aethyric tether" with 3 magic urns in his possession. Imprisoned inside are 3 powerful elemental spirits, siphoned of their power for the Magus' benefit.	false
+character_skills_localised_name_arb_golden_magus_old_gold	Old but Gold	false
+character_skills_localised_description_arb_golden_magus_old_gold	For someone who cultivates the image of an elderly eccentric scholar, the Golden Magus is surprisingly spry, fast and adept at combat.	false
+character_skills_localised_name_arb_golden_magus_sphere_changer	In the Changer's Sphere	false
+character_skills_localised_description_arb_golden_magus_sphere_changer	Some whisper that the Magus is in complete thrall of the malignant Architect of Fate. Nonsense, of course, but like with all good rumours, there's might be a grain of truth to it...	false
+character_skills_localised_name_arb_golden_magus_sultan_seas	Sultan of the Seas	false
+character_skills_localised_description_arb_golden_magus_sultan_seas	Beneath all the eccentricity and gaudiness hides a callous corsair, eager to bring more magical treasures to his collection, more slaves to his servitude, more concubines to his harem and more power to himself.	false
+character_skills_localised_name_arb_golden_magus_master_sorcerer	Master of Sorcery	false
+character_skills_localised_description_arb_golden_magus_master_sorcerer	The Golden Magus can impart much knowledge onto those aspirants willing to learn the sorcerous arts - if they can stand the eccentric nature of his lessons and the Magus' ever so condescending manners.	false
+character_skills_localised_name_arb_golden_magus_master_djinn	Master of the Djinn	false
+character_skills_localised_description_arb_golden_magus_master_djinn	The Golden Magus is an expert in the art of binding the elemental spirits known as "djinns" to his will. Stored in the Magus' flagship are thousands of warded urns, each containing a potent djinn ready and willing to obey his every command.	false
+character_skills_localised_name_arb_golden_magus_wishmaster	Wishmaster	false
+character_skills_localised_description_arb_golden_magus_wishmaster	The Magus has enslaved many a djinn to his will, to such degree that they cannot reject any of his wishes and commands. Djinns though are capricious and free-spirited entities, and their service should not be taken for granted.	false
+character_skills_localised_name_arb_golden_magus_anc_fire_scimitar	The Flaming Scimitar	false
+character_skills_localised_description_arb_golden_magus_anc_fire_scimitar	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	false
+character_skills_localised_name_arb_golden_magus_anc_auric_robe	Auric Robes	false
+character_skills_localised_description_arb_golden_magus_anc_auric_robe	The Magus' ostentatious golden robes are not just a flamboyant show of wealth, they possess potent enchantments that the Magus discovered in a parchment at the ruined city of Bel-Aliad. Besides providing protection from harm, these wards are curiously nocive to the Undead.	false
+character_skills_localised_name_arb_golden_magus_anc_camel	Camel	false
+character_skills_localised_description_arb_golden_magus_anc_camel	Though vigorous for his old age, the Golden Magus often rides to battle on one of his many camels - out of flamboyance if anything else.	false
+character_skills_localised_name_arb_golden_magus_anc_djinskiff	Djinn Skiff	false
+character_skills_localised_description_arb_golden_magus_anc_djinskiff	Much like the Magus' infamous flagship, this enchanted skiff is proof of his mastery over the Djinn. Held "afloat" on the air by servile Lesser Tempest Djinn oarsmen, this is one of the Golden Magus' favourite ways to ride to battle.	false
+character_skills_localised_name_arb_golden_magus_ship_growth	Sea's Bounty	true
+character_skills_localised_description_arb_golden_magus_ship_growth	From the sea we take, to the sea we give.	true
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_5	For the Moot!	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_5	“There's power in stories. That's all history is: the best tales. The ones that last. Might as well be mine.”	false
+character_skills_localised_name_wh2_main_skill_anc_hyshia	Hyshia	false
+character_skills_localised_description_wh2_main_skill_anc_hyshia	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	false
+character_skills_localised_name_wh2_main_skill_anc_willowblade	Cipher Blade	false
+character_skills_localised_description_wh2_main_skill_anc_willowblade	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality, it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_combat_0	Thief Tactics	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_combat_0	The Halflings' natural skill for "borrowing" is widely known, but Glibfoot's expertise in stealth and thievery is one of the few things about him that are actually legendary.	false
+character_skills_localised_name_wh2_main_skill_innate_hlf_glibfoot	'Scourge of Orcs & Goblins'	true
+character_skills_localised_description_wh2_main_skill_innate_hlf_glibfoot	Whether fake or real, Glibfoot's outlandish stories about slaying scores of Greenskins do certainly inspire courage in the Halflings under him.	true
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_0	Larger than Life	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_0	If anything, Glibfoot knows how to tell his adventures, fictitious or else. Some of his published tales, like "Hard in Hochland", are popular all across the Empire and beyond.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_2	A True Hero	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_2	No more theatrics, no more lies. Now is the time for honest action and real courage.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_1_1	A Raunchy Tale	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_1_1	"You know, this reminds me of the time I snuck into the court of the Witch King of the Druchii and had a tryst with Hag Queen Morathi in her own chambers, let me tell you this most salacious story..."	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_1_2	A Grim Tale	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_1_2	"...and there was I, fighting alongside Emperor Karl Franz, Luthor Huss, the Huntsmarshal and the Elder of the Moot himself! Together we would make a last stand against the Hordes of Chaos at Zanbaijin, the bloody arena of champions..."	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_1_3	An Under Tale	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_1_3	"...so I ended up there, in the dark bowels of Karak-Eight-Peaks, the Dwarfen City of Pillars, crushing filthy grobi and raki skulls with my bare hands next to mighty heroes such as fearless Gotrek, the stern King Belegar and even the legendary White Dwarf! As the Dawi say, many a Grudge was avenged that day..."	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_1_4	A Chivalrous Tale	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_1_4	"...and It was during one my adventures through Fair Bretonnia, that, while relieving myself in one of its beautiful ponds, the fabled Lady of the Lake appeared before me! By her side, covered in the mist of legends, was the Green Knight himself! And so they revealed my most sacred duty... to lead a holy quest into Foul Mousillon, the cursed city of undeath..."	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_1_5	And the Adventure Continues!	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_1_5	"...but this is not the end of my tale, my fellow Halflings! There remain many of my great adventures yet to tell; My perilous trek through exotic Lustria! My quest for the fabled Casket of Souls at the Pyramid of Doom in Ancient Nehekhara! And finally, the glorious endless feasts in the realm of Greasus Goldtooth, Overtyrant of All Ogres!"	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_1	The Comradeship	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_1	The Comradeship was an elite group of heroes from all across the Empire sworn to defend the Moot and it's inhabitants. Glibfoot has made a call for all those brave enough to once again join together in defense of all Halflings against the Forces of Destruction.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_2	Wardens of the Moot	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_2	The Mootland Wardens are as elite as it gets when it comes to Halfling warriors. Glibfoot has promised double the food they get now if they redouble their efforts in defending the Moot.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_3	A Place in the Songs	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_3	"With me now, Heroes of Mootland! Not for honour, not for wealth, but for the chance to do a good deed and earn a place in the songs!"	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_4	A Good Deed, A Good Meal	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_4	At the end of the day, Glibfoot and his followers are still Halflings. And Halflings know the only true maxim of warfare; an army marches on its stomach, and Halfling stomachs really are something.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_unique_3_5	For the Moot!	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_unique_3_5	“There's power in stories. That's all history is: the best tales. The ones that last. Might as well be mine.”	false
+character_skills_localised_name_wh2_main_skill_anc_hyshia	Hyshia	false
+character_skills_localised_description_wh2_main_skill_anc_hyshia	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	false
+character_skills_localised_name_wh2_main_skill_anc_willowblade	Cipher Blade	false
+character_skills_localised_description_wh2_main_skill_anc_willowblade	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality, it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	false
+character_skills_localised_name_wh2_main_skill_hlf_glibfoot_combat_0	Thief Tactics	false
+character_skills_localised_description_wh2_main_skill_hlf_glibfoot_combat_0	The Halflings' natural skill for "borrowing" is widely known, but Glibfoot's expertise in stealth and thievery is one of the few things about him that are actually legendary.	false
+character_skills_localised_name_hlf_fieldwarden_halfling_hero	Halfling of the People	true
+character_skills_localised_description_hlf_fieldwarden_halfling_hero	Fieldwardens are esteemed figures in Halfling society, they know everyone and everyone knows them. Their sole presence can instill courage in the heart of fellow Halflings.	true
+character_skills_localised_name_hlf_fieldwarden_friendly_competition	Friendly Competition	true
+character_skills_localised_description_hlf_fieldwarden_friendly_competition	The presence of a Fieldwarden often leads nearby Halflings to try and outdo each other in an effort to impress the Fieldwarden.	true
+character_skills_localised_name_hlf_fieldwarden_border_patrol	Border Patrols	true
+character_skills_localised_description_hlf_fieldwarden_border_patrol	Lone Fieldwardens are often posted in the forests and hills at the borders of the Moot in order to stop any covert enemy incursions.	true
+character_skills_localised_name_hlf_fieldwarden_moot_warden	Defender of the Moot	true
+character_skills_localised_description_hlf_fieldwarden_moot_warden	"And stay out, unless you want the next one to hit something more sensitive!"	true
+character_skills_localised_name_hlf_master_chef_skill_3_0_regeneration_passive_aura	The Art of Cooking	true
+character_skills_localised_description_hlf_master_chef_skill_3_0_regeneration_passive_aura	A true master of his craft, the dishes of the Master Chef are so potent that they can alter the course of battle. Yes, with food, these are Haflings we're talking about.	true
+character_skills_localised_name_hlf_master_chef_skill_3_1_earth_blood	Beef & Beer Pie	true
+character_skills_localised_description_hlf_master_chef_skill_3_1_earth_blood	The smell of Halfling pies actually could raise the dead from the grave. Might even be why the Undead keep invading.	true
+character_skills_localised_name_hlf_master_chef_skill_3_2_cook_aura	The Feast is Coming!	true
+character_skills_localised_description_hlf_master_chef_skill_3_2_cook_aura	Doesn't matter if you're a Halfling, an Ogre or something else, the promise of good grub is worth fighting for.	true
+character_skills_localised_name_hlf_master_chef_skill_3_3_hot_spices	Hot Spices	true
+character_skills_localised_description_hlf_master_chef_skill_3_3_hot_spices	Recently imported from Lustria, these curious red thin peppers emit a pungent smell even from a good distance.	true
+character_skills_localised_name_hlf_moot_general_skill_1_3_defense_moot	In Defense of the Moot	true
+character_skills_localised_description_hlf_moot_general_skill_1_3_defense_moot	The Halflings of the Moot are a peaceful and pastoral people, but their bravery in defence of their homeland against Undead and Greenskin incursions should not be doubted	true
+character_skills_localised_name_hlf_moot_general_skill_1_3_pure_good	For All That Is Pure and Good	true
+character_skills_localised_description_hlf_moot_general_skill_1_3_pure_good	"They have mistaken our love of peace for weakness! To battle, for the Moot!"	true
+character_skills_localised_name_hlf_master_chef_skill_3_4_flush_soup	Spill the Soup!	true
+character_skills_localised_description_hlf_master_chef_skill_3_4_flush_soup	On a desperate situation, the Master Chef will spill a pot containing the famously explosive "Hot Pot" stew recipe on nearby enemies.... and himself.	true
+character_skills_localised_name_hlf_unique_ward	Smallfolk Luck	true
+character_skills_localised_description_hlf_unique_ward	Halflings seem to be preternaturally lucky and oddly resistant to even the darkest, dangerous magic.	true
+character_skills_localised_description_hlf_master_chef_skill_0_0_mount_wagon	Some Master Chefs choose to carry their kitchen onto the battlefield in a chuck wagon.	false
+character_skills_localised_description_hlf_moot_general_skill_0_0_mount_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	false
+character_skills_localised_description_hlf_moot_general_skill_0_0_mount_poultry	Many Halfling commanders choose to ride the largest Moot Cockerel specimens into battle.	false
+character_skills_localised_description_hlf_sheriff_skill_0_0_mount_pig	Many Halfling commanders choose to ride pigs into battle. Hey, what, stop laughing.	false
+character_skills_localised_name_hlf_master_chef_skill_0_0_mount_wagon	Chuck Wagon	false
+character_skills_localised_name_hlf_moot_general_skill_0_0_mount_pig	Battle Swine	false
+character_skills_localised_name_hlf_moot_general_skill_0_0_mount_poultry	Battle Cockerel	false
+character_skills_localised_name_hlf_sheriff_skill_0_0_mount_pig	Battle Swine	false
+effects_description_elo_fedbywar_ch	Charge Bonus: %+n% for all Troll units	true
+effects_description_elo_fedbywar_sp	Battle Speed: %+n% for all Troll units	true
+effects_description_elo_toostupid_psy	Enables Attribute: Immune to Psychology (all Troll units)	true
+effects_description_elo_toostupid_up	Upkeep: %+n% for all Troll units	true
+effects_description_elo_bloodlust_me	Melee Attack: %+n for Skinwolves	true
+effects_description_elo_bloodlust_wp	Weapon Strength: %+n% for Skinwolves	true
+effects_description_elo_hitharder_wp	Weapon Strength: %+n% for all Troll units	true
+effects_description_elo_hitharder_vig	Vigour Loss Reduction: Large	true
+effects_description_elo_feral_def	Melee Defense: %+n for Mammoths	true
+effects_description_elo_feral_ch	Charge Bonus: %+n% for Mammoths	true
+effects_description_elo_xp_gen	Recruitment Rank: %+n for Troll units	true
+effects_description_elo_mon_rec	Recruitment Cost: %+n% for all Monsters, Beasts and Monsterous Infantry units	true
+effects_description_elo_mon_up	Upkeep: %+n%  for all Monsters, Beasts and Monsterous Infantry units	true
+effects_description_elo_mon_time	Recruitment Time: %+n  for all Monsters, Beasts and Monsterous Infantry units (minimum 1 turn).	true
+effects_description_elo_mar_rec	Recruitment Cost: %+n% for all Marauders	true
+effects_description_elo_raw_might_wp	Weapon Strength: %+n%  for Bile Trolls, Armoured Chaos Trolls and Norscan Trolls  {{tr:rank7}}	true
+effects_description_elo_mountain_masters_large	Bonus vs Large: %+n  for Stone Trolls {{tr:rank7}}	true
+effects_description_elo_scourge_res	Resistance Against Missiles: %+n%  for Ice Trolls and Armoured Ice Trolls {{tr:rank7}}	true
+effects_description_elo_mountain_masters_res	Resistance Against All: %+n%  for Stone Trolls {{tr:rank7}}	true
+effects_description_elo_scourge_fat	Enables Attribute: Immune to Fatigue for Ice Trolls and Armoured Ice Trolls {{tr:rank7}}	true
+effects_description_elo_danger_gue	Enables Attribute: Vanguard Deployment for River Trolls {{tr:rank7}}	true
+effects_description_elo_danger_mel	Melee Attack: %+n  for River Trolls {{tr:rank7}}	true
+effects_description_elo_small_inf	Bonus vs Infantry: %+n  for Southern Trolls {{tr:rank7}}	true
+effects_description_elo_small_sp	Battle Speed: %+n% for Southern Trolls {{tr:rank7}}	true
+effects_description_elo_forest_splash	Weapon Splash Damage: %+n%  for ForestTrolls {{tr:rank7}}	true
+effects_description_elo_forest_arm	Armour: %+n for Forest Trolls {{tr:rank7}}	true
+effects_description_agent_cap_increase_engineer_elo_snow_troll	Capacity: %+n for Snow Trolls	true
+effects_description_enable_recruitment_engineer_elo_snow_troll	Enables Recruitment of Snow Trolls	true
+effects_description_raw_might_charge7	Charge Bonus: %+n for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_raw_might_speed7	Speed: %+n% for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_raw_might_missle_res7	Resistance Against Missiles: %+n% for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_children_chaos_mdef	Melee Defense: %+n for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls	true
+effects_description_children_chaos_wps	Weapon Strength: %+n%  for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls	true
+effects_description_mountain_masters_phy_res7	Physical Resistance: %+n% for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls {{tr:rank7}}	true
+effects_description_mountain_masters_wps7	Weapon Strength: %+n%  for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls {{tr:rank7}}	true
+effects_description_mountain_masters_ma	Melee Attack: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls  {{tr:rank7}}	true
+effects_description_unnatural_resilience_mdf	Melee Defense: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls	true
+effects_description_unnatural_resilience_armour	Armour: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls	true
+effects_description_blight_men_mag_res7	Magical Resistance: %+n% for Trolls, Forest Trolls and River Trolls  {{tr:rank7}}	true
+effects_description_blight_men_mag_mdf7	Melee Defense: %+n for Trolls, Forest Trolls and River Trolls  {{tr:rank7}}	true
+effects_description_blight_men_mag_wps7	Weapon Strength: %+n% for Trolls, Forest Trolls and River Trolls  {{tr:rank7}}	true
+effects_description_menace_land_ma	Melee Attack: %+n for Southern Trolls, Forest Trolls and River Trolls	true
+effects_description_menace_land_wps	Weapon Strength: %+n% for Southern Trolls, Forest Trolls and River Trolls	true
+effects_description_scourge_north_speed7	Speed: %+n% for Ice Trolls, Armoured Ice Trolls and Snow Trolls {{tr:rank7}}	true
+effects_description_scourge_north_ma7	Melee Attack: %+n for Ice Trolls, Armoured Ice Trolls and Snow Trolls {{tr:rank7}}	true
+effects_description_scourge_north_mdef7	Melee Defense: %+n for Ice Trolls, Armoured Ice Trolls and Snow Trolls {{tr:rank7}}	true
+effects_description_ice_snow_charge	Charge Bonus: %+n for Ice Trolls, Armoured Ice Trolls and Snow Trolls	true
+effects_description_ice_snow_ma	Melee Attack: %+n for Ice Trolls, Armoured Ice Trolls and Snow Trolls	true
+effects_description_elo_all_trolls_ma	Melee Attack: %+n for all Troll units	true
+effects_description_elo_all_trolls_mdef	Melee Defense: %+n for all Troll units	true
+effects_description_elo_all_trolls_up	Upkeep: %+n%  for all Troll units	true
+effects_description_elo_all_trolls_mis_res	Resistance Against Missiles: %+n% for all Troll units	true
+effects_description_elo_all_trolls_moral	Leadership: %+n for all Troll units	true
+effects_description_elo_all_trolls_replen	Replenishment: %+n% for all Troll units	true
+effects_description_elo_charge_trolls_fim	Charge Bonus: %+n% for all Troll and Fimir units	true
+effects_description_elo_cost_trolls_fim	Recruitment Cost: %+n% for all Troll and Fimir units	true
+effects_description_elo_wps_trolls_fim	Weapon Strength: %+n% for all Troll and Fimir units	true
+effects_description_ugma_river_morale	Leadership: %+n for River Trolls	true
+effects_description_ugma_river_physical	Physical Resistance: %+n% for River Trolls	true
+effects_description_ugma_river_attack	Melee Attack: %+n for River Trolls	true
+effects_description_rivertroll_blood_dummy	Chief Ugma is a Rivertroll. He benefits from all the abilities of his kind.	true
+effects_description_ovn_cost_trolls	Recruitment Cost: %+n% for all Troll units	true
+effects_description_ovn_troll_effect_force_all_campaign_upkeep	Food Upkeep: %+n% for all units in this Troll Tribe	true

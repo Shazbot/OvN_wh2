@@ -1,6 +1,0 @@
-Loc PackedFile	1
-key	text	tooltip
-ui_unit_bullet_point_enums_onscreen_name_necromantic_anchor	Necromantic Anchor	true
-ui_unit_bullet_point_enums_tooltip_necromantic_anchor	The towering frame of a skeletal giant can be seen far and wide on the battlefield. As such they are perfectly suited to serve as a conduit to channel the dark magic from the necromancer to his troops, anchoring them in the mortal world.	true
-ui_unit_bullet_point_enums_onscreen_name_elo_only_bones	Only Bones	false
-ui_unit_bullet_point_enums_tooltip_elo_only_bones	Skeletal Giants made from the dense bones of dead giants only. This makes them more resistant to small arms fire than their living counterparts.	false

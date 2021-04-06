@@ -1,0 +1,183 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_title_ovn_bundle_stance_army_fortification_mootland	Stance: Foraging	true
+effect_bundles_localised_description_ovn_bundle_stance_army_fortification_mootland	Send the troops out foraging, enables recruitment and replenishment regardless of territory, and allows ingredients to be discovered.	true
+effects_description_ovn_effect_foraging_find_ingredient_dummy	Chance of finding a cooking ingredient.	true
+effects_description_ovn_faction_trait_mootland_feature	Has access to the Kitchen	true
+effects_description_ovn_pooled_resource_mtl_seasong_buildings	Culinary Salt Production: %+n Pouches	true
+cooking_ingredient_groups_display_name_ovn_cereals	Cereals	true
+cooking_ingredient_groups_flavour_text_ovn_cereals	[[col:yellow]]Grasses cultivated for the edible components of their grains[[/col]]	true
+cooking_ingredient_groups_display_name_ovn_meats	Meats	true
+cooking_ingredient_groups_flavour_text_ovn_meats	[[col:red]]Animal flesh that is eaten as food[[/col]]	true
+cooking_ingredient_groups_display_name_ovn_spices	Herbs and Spices	true
+cooking_ingredient_groups_flavour_text_ovn_spices	[[col:orange]]Substances primarily used for flavoring[[/col]]	true
+cooking_ingredient_groups_display_name_ovn_vegetables	Vegetables	true
+cooking_ingredient_groups_flavour_text_ovn_vegetables	[[col:green]]Plant parts consumed as food[[/col]]	true
+cooking_ingredient_groups_display_name_ovn_fruits	Fruits	true
+cooking_ingredient_groups_flavour_text_ovn_fruits	[[col:blue]]Seed-bearing structures, usually sweet or sour, that are edible in their raw state[[/col]]	true
+cooking_ingredients_display_text_ovn_spelt	Old World Spelt	true
+cooking_ingredients_flavour_text_ovn_spelt	"A relict crop sparsely found throughout the Old World."	true
+cooking_ingredients_display_unlock_text_ovn_spelt	Found in the Old World.	true
+cooking_ingredients_display_text_ovn_rye	Norscan Rye	true
+cooking_ingredients_flavour_text_ovn_rye	"A grass well-suited for surviving the harsh Norscan snows."	true
+cooking_ingredients_display_unlock_text_ovn_rye	Found in Norsca.	true
+cooking_ingredients_display_text_ovn_teff	Oasis Teff	true
+cooking_ingredients_flavour_text_ovn_teff	"A cereal grain cultivated around oases in the Southlands."	true
+cooking_ingredients_display_unlock_text_ovn_teff	Found in the Southlands.	true
+cooking_ingredients_display_text_ovn_emmer	Shifting Emmer	true
+cooking_ingredients_flavour_text_ovn_emmer	"Wheat attuned to the winds of magic."	true
+cooking_ingredients_display_unlock_text_ovn_emmer	Found on Ulthuan.	true
+cooking_ingredients_display_text_ovn_rice	Silver Rice	true
+cooking_ingredients_flavour_text_ovn_rice	"A species of rice from Cathay, now invasive to some regions of the Dark Lands."	true
+cooking_ingredients_display_unlock_text_ovn_rice	Found in the Dark Lands.	true
+cooking_ingredients_display_text_ovn_maize	Jungle Maize	true
+cooking_ingredients_flavour_text_ovn_maize	"Corn that grows in the wild jungles of Lustria."	true
+cooking_ingredients_display_unlock_text_ovn_maize	Found in Lustria.	true
+cooking_ingredients_display_text_ovn_barley	Chilled Barley	true
+cooking_ingredients_flavour_text_ovn_barley	"A strain of barley able to flourish in the frozen lands of the Dark Elves."	true
+cooking_ingredients_display_unlock_text_ovn_barley	Found in Naggoroth.	true
+cooking_ingredients_display_text_ovn_beef	Auroch Beef	true
+cooking_ingredients_flavour_text_ovn_beef	"Beef from the great Aurochs of the Old World."	true
+cooking_ingredients_display_unlock_text_ovn_beef	Found in the Old World.	true
+cooking_ingredients_display_text_ovn_salmon	Clawfin Salmon	true
+cooking_ingredients_flavour_text_ovn_salmon	"Salmon native to the Sea of Claws."	true
+cooking_ingredients_display_unlock_text_ovn_salmon	Found in Norsca.	true
+cooking_ingredients_display_text_ovn_lamb	Arabyan Lamb	true
+cooking_ingredients_flavour_text_ovn_lamb	"For generations, Arabyan shepherds have tended to a unique breed of lamb."	true
+cooking_ingredients_display_unlock_text_ovn_lamb	Found in the Southlands.	true
+cooking_ingredients_display_text_ovn_calamari	Warded Squid	true
+cooking_ingredients_flavour_text_ovn_calamari	"A species of squid found within the Inner Sea."	true
+cooking_ingredients_display_unlock_text_ovn_calamari	Found on Ulthuan.	true
+cooking_ingredients_display_text_ovn_pork	Bartered Pork	true
+cooking_ingredients_flavour_text_ovn_pork	"The lands surrounding Pigsbarter are home to herds of delectable wild pigs."	true
+cooking_ingredients_display_unlock_text_ovn_pork	Found in the Dark Lands.	true
+cooking_ingredients_display_text_ovn_iguana	Razorback Iguana	true
+cooking_ingredients_flavour_text_ovn_iguana	"A species of iguana found in the wild jungles of Lustria."	true
+cooking_ingredients_display_unlock_text_ovn_iguana	Found in Lustria.	true
+cooking_ingredients_display_text_ovn_turkey	Northern Turkey	true
+cooking_ingredients_flavour_text_ovn_turkey	"A species of turkey found in Naggoroth."	true
+cooking_ingredients_display_unlock_text_ovn_turkey	Found in Naggoroth.	true
+cooking_ingredients_display_text_ovn_fennel	Imperial Fennel	true
+cooking_ingredients_flavour_text_ovn_fennel	"Found growing in the wilds of the Old World."	true
+cooking_ingredients_display_unlock_text_ovn_fennel	Found in the Old World.	true
+cooking_ingredients_display_text_ovn_juniper	Peninsular Juniper	true
+cooking_ingredients_flavour_text_ovn_juniper	"Berries from a Norscan juniper tree."	true
+cooking_ingredients_display_unlock_text_ovn_juniper	Found in Norsca.	true
+cooking_ingredients_display_text_ovn_cumin	Southern Cumin	true
+cooking_ingredients_flavour_text_ovn_cumin	"Seeds from a species of kammun found rarely in the Southlands."	true
+cooking_ingredients_display_unlock_text_ovn_cumin	Found in the Southlands.	true
+cooking_ingredients_display_text_ovn_marjoram	Aromatic Marjoram	true
+cooking_ingredients_flavour_text_ovn_marjoram	"A sweet-smelling and ancient herb, native to Ulthuan."	true
+cooking_ingredients_display_unlock_text_ovn_marjoram	Found on Ulthuan.	true
+cooking_ingredients_display_text_ovn_cardamom	Eastern Cardamom	true
+cooking_ingredients_flavour_text_ovn_cardamom	"A smoky-tasting spice, originating from the Dark Lands. "	true
+cooking_ingredients_display_unlock_text_ovn_cardamom	Found in the Dark Lands.	true
+cooking_ingredients_display_text_ovn_vanilla	Lustrian Vanilla	true
+cooking_ingredients_flavour_text_ovn_vanilla	"Dried pods from a Vanilla orchid, native to Lustria."	true
+cooking_ingredients_display_unlock_text_ovn_vanilla	Found in Lustria.	true
+cooking_ingredients_display_text_ovn_pepper	Naggarothi Pepper	true
+cooking_ingredients_flavour_text_ovn_pepper	"An unthinkably spicy cultivar of pepper."	true
+cooking_ingredients_display_unlock_text_ovn_pepper	Found in Naggoroth.	true
+cooking_ingredients_display_text_ovn_lettuce	Mootland Lettuce	true
+cooking_ingredients_flavour_text_ovn_lettuce	"A tasty breed of Lettuce that can grow to the size of a horse."	true
+cooking_ingredients_display_unlock_text_ovn_lettuce	Found in the Old World.	true
+cooking_ingredients_display_text_ovn_kale	Kraken Sea Kale	true
+cooking_ingredients_flavour_text_ovn_kale	"Sea kale found along the coasts of the Kraken Sea."	true
+cooking_ingredients_display_unlock_text_ovn_kale	Found in Norsca.	true
+cooking_ingredients_display_text_ovn_lentil	Desert Lentil	true
+cooking_ingredients_flavour_text_ovn_lentil	"A rare species of lentil found within the deserts of Araby."	true
+cooking_ingredients_display_unlock_text_ovn_lentil	Found in the Southlands.	true
+cooking_ingredients_display_text_ovn_olive	Enchanted Olive	true
+cooking_ingredients_flavour_text_ovn_olive	"A strain of olive imbued with the winds of magic."	true
+cooking_ingredients_display_unlock_text_ovn_olive	Found on Ulthuan.	true
+cooking_ingredients_display_text_ovn_onion	Ash Garlic	true
+cooking_ingredients_flavour_text_ovn_onion	"The ashy soils of the Dark Lands can sometimes host this pungent variety of garlic."	true
+cooking_ingredients_display_unlock_text_ovn_onion	Found in the Dark Lands.	true
+cooking_ingredients_display_text_ovn_tomatoe	Tropical Tomato	true
+cooking_ingredients_flavour_text_ovn_tomatoe	"A species of tomato that grows in warm, wet climates."	true
+cooking_ingredients_display_unlock_text_ovn_tomatoe	Found in Lustria.	true
+cooking_ingredients_display_text_ovn_potatoe	Sundered Potatoe	true
+cooking_ingredients_flavour_text_ovn_potatoe	"A relict crop that dates back to the era before the Sundering."	true
+cooking_ingredients_display_unlock_text_ovn_potatoe	Found in Naggoroth.	true
+cooking_ingredients_display_text_ovn_apple	Lady's Apple	true
+cooking_ingredients_flavour_text_ovn_apple	"A type of Apple originating in Bretonnia, but now found throughout the Old World."	true
+cooking_ingredients_display_unlock_text_ovn_apple	Found in the Old World.	true
+cooking_ingredients_display_text_ovn_lingonberry	Heathen Berry	true
+cooking_ingredients_flavour_text_ovn_lingonberry	"Also known as Lingonberries, found growing in Norsca."	true
+cooking_ingredients_display_unlock_text_ovn_lingonberry	Found in Norsca.	true
+cooking_ingredients_display_text_ovn_date	Sublime Date	true
+cooking_ingredients_flavour_text_ovn_date	"A date of the highest quality, cultivated for the Sultans of Araby."	true
+cooking_ingredients_display_unlock_text_ovn_date	Found in the Southlands.	true
+cooking_ingredients_display_text_ovn_pomegranate	Insular Pomegranate	true
+cooking_ingredients_flavour_text_ovn_pomegranate	"A type of Pomegranate refined over the centuries by the High Elves."	true
+cooking_ingredients_display_unlock_text_ovn_pomegranate	Found on Ulthuan.	true
+cooking_ingredients_display_text_ovn_walnut	Dark Walnut	true
+cooking_ingredients_flavour_text_ovn_walnut	"An uncommon breed of walnut, found in the Dark Lands."	true
+cooking_ingredients_display_unlock_text_ovn_walnut	Found in the Dark Lands.	true
+cooking_ingredients_display_text_ovn_pitaya	Heirloom Pitaya	true
+cooking_ingredients_flavour_text_ovn_pitaya	"A relict crop found in Lustria, said to originate from the era of the Old Ones."	true
+cooking_ingredients_display_unlock_text_ovn_pitaya	Found in Lustria.	true
+cooking_ingredients_display_text_ovn_cranberry	Bewitched Cranberry	true
+cooking_ingredients_flavour_text_ovn_cranberry	"A surprisingly tasty berry that grows in the stinking bogs of Naggaroth."	true
+cooking_ingredients_display_unlock_text_ovn_cranberry	Found in Naggoroth.	true
+pooled_resources_description_mtl_seasong	A condiment used extensively in halfling cooking.	true
+pooled_resources_display_name_mtl_seasong	Culinary Salt	true
+cooking_recipes_display_text_ovn_food_dish_1	Meat Pie	true
+cooking_recipes_flavour_text_ovn_food_dish_1	Pie with some type of meat inside.	true
+cooking_recipes_display_text_ovn_food_dish_2	Savory Roast	true
+cooking_recipes_flavour_text_ovn_food_dish_2	Meat marinated with savory spices and slow-roasted over an open flame.	true
+cooking_recipes_display_text_ovn_food_dish_3	Salad	true
+cooking_recipes_flavour_text_ovn_food_dish_3	A very healthy salad.	true
+cooking_recipes_display_text_ovn_food_dish_4	Fruit Salad	true
+cooking_recipes_flavour_text_ovn_food_dish_4	A sweet and healthy fruit salad.	true
+cooking_recipes_display_text_ovn_food_dish_5	Soup	true
+cooking_recipes_flavour_text_ovn_food_dish_5	A soup made from meat and vegetables.	true
+cooking_recipes_display_text_ovn_food_dish_6	Sweet Roast	true
+cooking_recipes_flavour_text_ovn_food_dish_6	A roast sweetened with some type of fruit.	true
+cooking_recipes_display_text_ovn_food_dish_7	Fruit Pie	true
+cooking_recipes_flavour_text_ovn_food_dish_7	Pie with some type of fruit inside.	true
+cooking_recipes_display_text_ovn_food_dish_8	Veggie Pie	true
+cooking_recipes_flavour_text_ovn_food_dish_8	Pie with some type of vegetable inside.	true
+cooking_recipes_display_text_ovn_food_dish_9	Bread	true
+cooking_recipes_flavour_text_ovn_food_dish_9	Soft and flaky foodstuff, made from some type of flour.	true
+cooking_recipes_display_text_ovn_food_dish_10	Compote	true
+cooking_recipes_flavour_text_ovn_food_dish_10	A dessert made from fruit and spices.	true
+cooking_recipes_display_text_ovn_food_special_dish_1	Caliph's Baklava	true
+cooking_recipes_flavour_text_ovn_food_special_dish_1	A dessert pastry good enough to be served to the royalty of Araby.	true
+cooking_recipes_display_text_ovn_food_special_dish_2	Spaghetti and Meatballs	true
+cooking_recipes_flavour_text_ovn_food_special_dish_2	A Tilean pasta dish served with a tomato sauce.	true
+cooking_recipes_display_text_ovn_food_special_dish_3	Magic Fruitcake	true
+cooking_recipes_flavour_text_ovn_food_special_dish_3	Magic baked inside!	true
+cooking_recipes_display_text_ovn_food_special_dish_4	Nipponese Sushi	true
+cooking_recipes_flavour_text_ovn_food_special_dish_4	A strange dish using raw fish, originating for the far off land of Nippon.	true
+cooking_recipes_display_text_ovn_food_special_dish_5	Halfling Gimlet	true
+cooking_recipes_flavour_text_ovn_food_special_dish_5	A gin and fruit cocktail.	true
+uied_component_texts_localised_string_hlfng_button_inactive_ingredients_Tooltip_1b006f	Drag ingredients into the slots to create a meal	true
+uied_component_texts_localised_string_hlfng_button_inactive_scrap_Tooltip_7a0050	You do not have enough [[img:icon_halfling_salt]][[/img]]Culinary Salt to cook this recipe	true
+uied_component_texts_localised_string_hlfng_button_inactive_scrap_Tooltip_90003	You do not have enough [[img:icon_halfling_salt]][[/img]]Culinary Salt to cook this recipe	true
+uied_component_texts_localised_string_hlfng_button_inactive_ingredients_Tooltip_370069	Select ingredients to create a valid meal	true
+uied_component_texts_localised_string_hlfng_button_active_Text_1d000c	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_active_Text_4c0064	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_down_Text_1d000c	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_down_Text_4c0064	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_down_off_Text_1d000c	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_down_off_Text_4c0064	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_hover_Text_1d000c	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_hover_Text_4c0064	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_inactive_Text_1d000c	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_inactive_ingredients_Text_4c0064	Cook Army Rations	true
+uied_component_texts_localised_string_hlfng_button_inactive_scrap_Text_4c0064	Cook Army Rations	true
+uied_component_texts_localised_string_template_dish_hlfnged_Tooltip_64005e	This meal has already been cooked!	true
+uied_component_texts_localised_string_template_dish_discovered_unhlfnged_Tooltip_1c003d	This meal has not been cooked yet. Use the required ingredients to cook a proper meal!	true
+uied_component_texts_localised_string_hlfng_button_inactive_scrap_Tooltip_660079	You do not have enough [[img:icon_halfling_salt]][[/img]]Culinary Salt to cook this recipe	true
+uied_component_texts_localised_string_hlfng_button_inactive_just_hlfnged_Tooltip_180023	You have already cooked a meal this turn. Only one meal may be cooked each turn.	true
+uied_component_texts_localised_string_hlfng_button_active_Tooltip_59001f	Cook the selected ingredients into a meal! This will use 50 pouches of [[img:icon_halfling_salt]][[/img]]Culinary Salt	true
+uied_component_texts_localised_string_hlfng_button_down_Tooltip_59001f	Cook the selected ingredients into a meal! This will use 50 pouches of [[img:icon_halfling_salt]][[/img]]Culinary Salt	true
+uied_component_texts_localised_string_hlfng_button_down_off_Tooltip_59001f	Cook the selected ingredients into a meal! This will use 50 pouches of [[img:icon_halfling_salt]][[/img]]Culinary Salt	true
+uied_component_texts_localised_string_hlfng_button_hover_Tooltip_59001f	Cook the selected ingredients into a meal! This will use 50 pouches of [[img:icon_halfling_salt]][[/img]]Culinary Salt	true
+uied_component_texts_localised_string_template_head_undiscovered_Tooltip_270038	This meal has not been cooked.	true
+ovn_hlf_cooking_script_hlf_cooking_main_tooltip	The Kitchen||Choose a delicacy for the Grand Cauldron chefs to prepare.	false
+ovn_hlf_cooking_script_hlf_cooking_num_turns	Number of turns until you can choose a new meal.	false
+event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_title	Ingredient Unlocked	true
+event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_primary_detail	A New Ingredient for the Kitchen	true
+event_feed_strings_text_ovn_halfling_cooking_ingredient_unlocked_secondary_detail	One of Mootland's foraging parties has stumbled upon a new ingredient. This ingredient can now be used in the Kitchen to develop new and improved rations for our armies.	true

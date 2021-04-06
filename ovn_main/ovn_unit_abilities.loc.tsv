@@ -1,0 +1,234 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_onscreen_name_cr_unit_formation_shieldwall	Bordweall 	true
+unit_abilities_tooltip_text_cr_unit_formation_shieldwall	An ancient but effective tactic, warriors stand shoulder to shoulder, holding their shields against their neighbours, creating a formidable wall of shields.	true
+unit_abilities_onscreen_name_ovn_character_abilities_the_recovery_of_the_king	Recovery of the King	true
+unit_abilities_tooltip_text_ovn_character_abilities_the_recovery_of_the_king	Sobering up Aragand might not always be the best idea, but you might learn a thing or two about him...	true
+unit_abilities_onscreen_name_ovn_character_passive_sobriety	Sobriety	true
+unit_abilities_tooltip_text_ovn_character_passive_sobriety	Heavy drinking leads to a heavy toll, withdrawal. It is inevitable that Aragand will return to the bottle, but for now, heroic deeds await!	true
+unit_abilities_onscreen_name_ovn_character_abilities_hair_of_the_dog	Hair of the Dog	true
+unit_abilities_tooltip_text_ovn_character_abilities_hair_of_the_dog	Just a sip, just one drop, just to dull the pain...	true
+unit_abilities_onscreen_name_ovn_character_abilities_whirling_death	Whirling Death	true
+unit_abilities_tooltip_text_ovn_character_abilities_whirling_death	A Bladesinger’s dance may start as a mesmerising, graceful pirouette, but always ends as a violent maelstrom of slicing, gashing slaughter!	true
+unit_abilities_onscreen_name_ovn_character_abilities_storm_of_blades	Storm of Blades	true
+unit_abilities_tooltip_text_ovn_character_abilities_storm_of_blades	What beauty and violence there is in the dance? A flurry of blades and a certain savagery of intent...	true
+unit_abilities_onscreen_name_ovn_character_abilities_the_shadows_coil	The Shadow's Coil	true
+unit_abilities_tooltip_text_ovn_character_abilities_the_shadows_coil	The wending and twisting of the Wardancers hardens their spirits and their bodies against would-be attackers.	true
+unit_abilities_onscreen_name_ovn_character_abilities_woven_mist	Woven Mist	true
+unit_abilities_tooltip_text_ovn_character_abilities_woven_mist	The Wardancer threads and loops, contorting to create an ethereal fabric that turns aside arrows and bolts.	true
+unit_abilities_onscreen_name_ovn_character_passive_unlikely_friendship	An Unlikely Friendship	true
+unit_abilities_tooltip_text_ovn_character_passive_unlikely_friendship	Legles's friendship comes with some benefits.	true
+unit_abilities_onscreen_name_ovn_character_passive_self_preservation	Self Preservation	true
+unit_abilities_tooltip_text_ovn_character_passive_self_preservation	Giblit would very much like to see tomorrow.	true
+unit_abilities_additional_ui_effects_localised_text_ovn_character_abilities_the_recovery_of_the_king_transform	[[col:green]][[img:icon_arrow_up]][[/img]] The king is back (temporarily)[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_ovn_character_abilities_the_recovery_of_the_king_damage	[[col:red]][[img:icon_arrow_down]][[/img]] Sobriety causes health loss over time[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_ovn_heal_passive_24	[[col:green]][[img:icon_arrow_up]][[/img]] Restores [[img:icon_hp]][[/img]]24 Hit Points per second[[/col]]	true
+unit_abilities_onscreen_name_ovn_unit_abilities_pot_of_naphtha	Naphtha Bomb	true
+unit_abilities_tooltip_text_ovn_unit_abilities_pot_of_naphtha	A mixture of chemicals that becomes a fiery liquid that is difficult to put out, conveniently packaged in a small clay pot.	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_genie	Summon Genie	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_genie	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_sea_nymph	Summon Sea Nymph	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_sea_nymph	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_desert_spirit	Summon Desert Spirit	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_desert_spirit	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_fire_efreet	Summon Fire Efreet	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_fire_efreet	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_tempest_djinn	Summon Tempest Djinn	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_tempest_djinn	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_onscreen_name_ovn_unit_passive_unbinding_djinn	Return to the Lamp	true
+unit_abilities_tooltip_text_ovn_unit_passive_unbinding_djinn	Give a Djinn too much freedom and they will start thinking dangerous thoughts.	true
+special_ability_phases_onscreen_name_wh_main_unit_contact_souped	Soup'd	true
+unit_abilities_onscreen_name_ovn_lore_passive_blessing_of_the_elements	Blessing of the Elements	true
+unit_abilities_onscreen_name_ovn_spell_desert_mirage	Mirage	true
+unit_abilities_onscreen_name_ovn_spell_desert_mirage_upgraded	Mirage Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_sunstrike	Sunstrike	true
+unit_abilities_onscreen_name_ovn_spell_desert_sunstrike_upgraded	Sunstrike Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_sandstorm	Sandstorm	true
+unit_abilities_onscreen_name_ovn_spell_desert_sandstorm_upgraded	Sandstorm Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_quicksand	Quicksand	true
+unit_abilities_onscreen_name_ovn_spell_desert_quicksand_upgraded	Quicksand Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_burning_hands	Burning Hands	true
+unit_abilities_onscreen_name_ovn_spell_desert_burning_hands_upgraded	Burning Hands Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_curse_of_the_djinn	Curse of the Djinn	true
+unit_abilities_onscreen_name_ovn_spell_desert_curse_of_the_djinn_upgraded	Curse of the Djinn Upgraded	true
+unit_abilities_tooltip_text_ovn_lore_passive_blessing_of_the_elements	The magician utters a blessing onto the weapons of his allies, imbuing their attacks with the magic of the elements.	true
+unit_abilities_tooltip_text_ovn_spell_desert_mirage	Conjured by an Arabyan magician, a magical illusion exploits his enemy's most inner desires, distracting them from their foe.	true
+unit_abilities_tooltip_text_ovn_spell_desert_mirage_upgraded	Conjured by an Arabyan magician, a magical illusion exploits his enemy's most inner desires, distracting them from their foe.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sunstrike	Bright beams of burning energy leap from the wizard's eyes and scythe through all before him.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sunstrike_upgraded	Bright beams of burning energy leap from the wizard's eyes and scythe through all before him.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sandstorm	Commanding the desert spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sandstorm_upgraded	Commanding the desert spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	true
+unit_abilities_tooltip_text_ovn_spell_desert_quicksand	The wizard turns the ground into bottomless quicksand, dragging any unfortunates down into the abyss.	true
+unit_abilities_tooltip_text_ovn_spell_desert_quicksand_upgraded	The wizard turns the ground into bottomless quicksand, dragging any unfortunates down into the abyss.	true
+unit_abilities_tooltip_text_ovn_spell_desert_burning_hands	As if possessed by a Fire Efreet, the caster conjures scorching flames from his hands to burn his enemies to a crisp.	true
+unit_abilities_tooltip_text_ovn_spell_desert_burning_hands_upgraded	As if possessed by a Fire Efreet, the caster conjures scorching flames from his hands to burn his enemies to a crisp.	true
+unit_abilities_tooltip_text_ovn_spell_desert_curse_of_the_djinn	Channeling the immense powers of the Djinn through his own body, the sorcerer lays a terrible curse upon his foes.	true
+unit_abilities_tooltip_text_ovn_spell_desert_curse_of_the_djinn_upgraded	Channeling the immense powers of the Djinn through his own body, the sorcerer lays a terrible curse upon his foes.	true
+unit_abilities_onscreen_name_ovn_unit_passive_unbinding_arb_spearmen_mirage	Unbinding	true
+unit_abilities_onscreen_name_ovn_unit_passive_unbinding_arb_spearmen_mirage_upgraded	Unbinding	true
+unit_abilities_tooltip_text_ovn_unit_passive_unbinding_arb_spearmen_mirage	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true
+unit_abilities_tooltip_text_ovn_unit_passive_unbinding_arb_spearmen_mirage_upgraded	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true
+unit_abilities_onscreen_name_bacr_unit_passive_unstable_mark_ii_daemon	Degenerating	true
+unit_abilities_tooltip_text_bacr_unit_passive_unstable_mark_ii_daemon	The Sustaining Magic that holds these subjects in the mortal world has failed. After their spirit gets ripped out of their temporal form, nothing is left but an empty husk.	true
+unit_abilities_onscreen_name_bacr_unit_passive_unstable_daemon	Waning	true
+unit_abilities_tooltip_text_bacr_unit_passive_unstable_daemon	When a daemon exists in the mortal plane, their power waxes and wanes with the Winds of Magic, making them highly unpredictable foes.	true
+unit_abilities_onscreen_name_bacr_unit_passive_unstable_mark_ii_daemon	Degenerating	true
+unit_abilities_tooltip_text_bacr_unit_passive_unstable_mark_ii_daemon	The Sustaining Magic that holds these subjects in the mortal world has failed. After their spirit gets ripped out of their temporal form, nothing is left but an empty husk.	true
+unit_abilities_onscreen_name_bacr_unit_passive_unstable_daemon	Waning	true
+unit_abilities_tooltip_text_bacr_unit_passive_unstable_daemon	When a daemon exists in the mortal plane, their power waxes and wanes with the Winds of Magic, making them highly unpredictable foes.	true
+unit_abilities_tooltip_text_war_fury	Albion's warriors are known for their fickle nature in fights. As long as their belief in themselves is unbroken, they attack with savage, unrelenting bravery.	true
+unit_abilities_onscreen_name_war_fury	War Fury I	true
+unit_abilities_tooltip_text_war_fury_2	Albion's warriors are known for their moody nature in fights. When facing a superior foe or finding themselves on the losing side of a battle, they can lose heart quickly.	true
+unit_abilities_onscreen_name_war_fury_2	War Fury II	true
+unit_abilities_tooltip_text_woad_paint	Woad Paint is applied by druids. It uses the excess magic of the area to protect the warrior whose skin is painted with it. The stronger the winds of magic in an area, the more effective the paint will be.	true
+unit_abilities_onscreen_name_woad_paint	Woad Paint	true
+unit_abilities_tooltip_text_devestating_charge	As long as this unit isn't injured too much, they are able to savagely charge their enemies with devastating effect.	true
+unit_abilities_onscreen_name_devestating_charge	Devastating Charge	true
+unit_abilities_tooltip_text_wh2_main_lore_passive_truthsayer	The magic of Albion conjures the famous mists of its homeland, enveloping allied warriors, protecting them from projectiles.	true
+unit_abilities_onscreen_name_wh2_main_lore_passive_truthsayer	Mists of Albion	true
+unit_abilities_tooltip_text_spell_truth_valor	The mage calls upon the gods of hunting and battle to grant his allies additional strength and skill.	true
+unit_abilities_onscreen_name_spell_truth_valor	Blessing of Valor	true
+unit_abilities_tooltip_text_spell_truth_gift_life	Dying Warriors are granted a second chance as the spell of the truthsayer mends their deadly wounds and allows them to return to battle.	true
+unit_abilities_onscreen_name_spell_truth_gift_life	Gift of Life	true
+unit_abilities_tooltip_text_spell_truth_protection	A barrier of shimmering light protects the warriors from magic and flame alike.	true
+unit_abilities_onscreen_name_spell_truth_protection	Light of Protection	true
+unit_abilities_tooltip_text_spell_truth_voice_command	The booming voice of the truthsayer fills the mind of an enemy, robbing them of the concentration necessary to operate ranged weapons.	true
+unit_abilities_onscreen_name_spell_truth_voice_command	Voice of Command	true
+unit_abilities_tooltip_text_spell_truth_boon_courage	The voice of the truthsayer is heard in the minds of his warriors, invoking their sense of honor and giving them unwavering hope and toughness even in the most desperate of situations.	true
+unit_abilities_onscreen_name_spell_truth_boon_courage	Boon of Courage	true
+unit_abilities_tooltip_text_spell_truth_wings_fate	The Truthsayer conjures a flock of magical birds which will fly straight into the enemy formations, bringing doom to those they collide with.	true
+unit_abilities_onscreen_name_spell_truth_wings_fate	Wings of Fate	true
+unit_abilities_tooltip_text_druid_bound_awakening_of_the_wood	Trees live for thousands of years and have very long memories. When called to fight, centuries of pent-up wrath are unleashed.	true
+unit_abilities_onscreen_name_druid_bound_awakening_of_the_wood	Awakening of the Wood	true
+unit_abilities_tooltip_text_spell_truth_valor_upgraded	The mage calls upon the gods of hunting and battle to grant his allies the ability to fight with unnatural strength and fearsome savagery.	false
+unit_abilities_onscreen_name_spell_truth_valor_upgraded	Blessing of Valor (upgraded)	false
+unit_abilities_tooltip_text_spell_truth_gift_life_upgraded	Dying Warriors are granted a second chance as the spell of the truthsayer mends their deadly wounds and allows them to return to battle.	false
+unit_abilities_onscreen_name_spell_truth_gift_life_upgraded	Gift of Life (upgraded)	false
+unit_abilities_tooltip_text_spell_truth_protection_upgraded	A barrier of shimmering light protects the warriors from magic and flame alike.	false
+unit_abilities_onscreen_name_spell_truth_protection_upgraded	Light of Protection (upgraded)	false
+unit_abilities_tooltip_text_spell_truth_voice_command_upgraded	The booming voice of the truthsayer fills the mind of an enemy, robbing them of the concentration necessary to operate ranged weapons.	false
+unit_abilities_onscreen_name_spell_truth_voice_command_upgraded	Voice of Command (upgraded)	false
+unit_abilities_tooltip_text_spell_truth_boon_courage_upgraded	The voice of the truthsayer is heard in the minds of his warriors, invoking their sense of honor and giving them unwavering hope even in the most desperate of situations.	false
+unit_abilities_onscreen_name_spell_truth_boon_courage_upgraded	Boon of Courage (upgraded)	false
+unit_abilities_tooltip_text_spell_truth_wings_fate_upgraded	The Truthsayer conjures a flock of magic bird which will fly straight into the enemy formations, bringing doom to those they collide with.	false
+unit_abilities_onscreen_name_spell_truth_wings_fate_upgraded	Wings of Fate (upgraded)	false
+unit_abilities_tooltip_text_magic_siphon	These unnatural creatures require magic to exist - the more the better. If the winds of magic blow strongly, they are more stable on the battlefield.	false
+unit_abilities_onscreen_name_magic_siphon	Magic Dependant	false
+unit_abilities_tooltip_text_embodiment_albion	Fen Hulks are embodiments of the corrupted lands of Albion. Wherever they go, the land is corrupted into muddy bogs which greatly hinder their enemies.	false
+unit_abilities_onscreen_name_embodiment_albion	Embodiment of Albion	false
+unit_abilities_tooltip_text_albion_warcry	Only the best warleaders mastered the art of motivating their warriors to fight even harder with nothing more than a single, mighty cry of defiance.	false
+unit_abilities_onscreen_name_albion_warcry	Warcry	false
+unit_abilities_tooltip_text_omen_of_doom	Those who stand against Morrigan have a feeling of their impending doom. Some say it is simply a glimpse into their near future.	false
+unit_abilities_onscreen_name_omen_of_doom	Omen of Doom	false
+unit_abilities_tooltip_text_omen_of_war	Morrigan's allies fight harder in her presence because they know about the importance of the battle if even the Phantom Queen takes part in it.	false
+unit_abilities_onscreen_name_omen_of_war	Omen of War	false
+unit_abilities_tooltip_text_murder_crows	Morrigan's flock of crows follows her everywhere and will attack each and any enemy coming close to her.	false
+unit_abilities_onscreen_name_murder_crows	Murder of Crows	false
+unit_abilities_onscreen_name_howling_shields	Howling Shields	false
+unit_abilities_tooltip_text_howling_shields	Howling Shields are a speciality of the warriors of the Fir Domain. They are constructed in such a way that air passing through the shields produces a frightening howling sound.	false
+unit_abilities_tooltip_text_darkened_skies	Morrigan's ravens cloud the skies, circling above the battlefield and attacking every enemy who dares to take to the air.	false
+unit_abilities_onscreen_name_darkened_skies	Darkened Skies	false
+unit_abilities_tooltip_text_spell_truth_wings_fate_bound	Morrigan conjures a flock of magical birds which will fly straight into the enemy formations, bringing doom to those they collide with.	false
+unit_abilities_onscreen_name_spell_truth_wings_fate_bound	Wings of Fate (bound)	false
+unit_abilities_tooltip_text_murder_crows_upgraded	Morrigan's flock of ravens follows her everywhere and will attack each and any enemy coming close to her, aiming for their eyes and attacking them without pause or remorse.	false
+unit_abilities_onscreen_name_murder_crows_upgraded	Goddess of Ravens	false
+unit_abilities_tooltip_text_morrigan_hunters_dmg	It is said that Huntresses who follow Morrigan have to hunt an eagle to obtain its eyes for themselves, allowing them to hit the most difficult targets from afar.	false
+unit_abilities_onscreen_name_morrigan_hunters_dmg	Eagle's Eyes	false
+unit_abilities_onscreen_name_elo_albion_holy_warriors_unbreakable	Holy Zeal	false
+unit_abilities_tooltip_text_elo_albion_holy_warriors_unbreakable	These warriors put their trust into their gods and will attack relentlessly without fear unless they are decimated enough to lose some of that trust in divine protection.	false
+unit_abilities_onscreen_name_elo_albion_protectors_world	Protectors of the World	false
+unit_abilities_tooltip_text_elo_albion_protectors_world	If we can't save the world, no one can.	false
+unit_abilities_onscreen_name_lesser_shield_of_the_old_ones	Imperfect Shield of the Old Ones	false
+unit_abilities_tooltip_text_lesser_shield_of_the_old_ones	Dural Durak has more insight into the secrets of the Old Ones than any other human alive, but even his knowledge is but an incomplete reflection of the truth, tainted by the passing of the ages.	false
+unit_abilities_onscreen_name_elo_staff_of_dural_durak	Staff of Dural Durak	false
+unit_abilities_tooltip_text_elo_staff_of_dural_durak	The Staff of Dural Durak twists the winds of magic in a unique way, making it difficult for enemy casters to utilize them.	false
+unit_abilities_onscreen_name_elo_summon_fenbeasts	Call of the Fens	false
+unit_abilities_tooltip_text_elo_summon_fenbeasts	Usually, it takes preparation and a lengthy ritual to produce fenbeasts, but Dural Durak is able to create them during battles when needed. None of the other Truthsayers knows how.	false
+unit_abilities_onscreen_name_elo_amulet_old_ones	Amulet of the Old Ones	false
+unit_abilities_tooltip_text_elo_amulet_old_ones	One of the few surviving artifacts of the Old Ones still in the hands of the people of Albion, this amulet unleashes a wave of magic into the air, healing its wearer and saturating the area with magic. After each activation, the item has to rest for a long time until it has recharged enough to be used again.	false
+unit_abilities_tooltip_text_elo_albion_freedom	Through sheer willpower, they will continue fighting with their body ravaged by wounds until the independence of Albion is protected and secured.	false
+unit_abilities_onscreen_name_elo_albion_freedom	Freedom!	false
+unit_abilities_tooltip_text_elo_champion_of_albion	The strongest Giant of Albion is almost as revered as a minor deity by Albion's inhabitants. His appearence of the battlefield raises the spirit of all who fight on his side.	false
+unit_abilities_onscreen_name_elo_champion_of_albion	Greatest Champion of Albion	false
+unit_abilities_tooltip_text_elo_albion_bologs	Just like most Albion Giants, Bologs intellect leaves a lot to desire. His name is the only word he speaks and doubles as his warcry when Bologs gets angry. And you really don't want Bologs to get angry.	false
+unit_abilities_onscreen_name_elo_albion_bologs	Bologs, Bologs, BOLOGS!	false
+unit_abilities_tooltip_text_elo_hengus_blessing	In their time as mercenaries, lost in the lands of Tilea, Hengus the Druid would guide Bologs and his brother. Hengus is far too old now to take to the battlefield himself, but he will still prepare the giant brothers with the last of his feeble magic for the battles ahead.	false
+unit_abilities_onscreen_name_elo_hengus_blessing	Hengus' Blessing	false
+unit_abilities_tooltip_text_elo_albion_something_prove	These warriors have focused on proving their worth on the battlefield. As long as their will is unbroken, they will push themselves beyond their limits.	false
+unit_abilities_onscreen_name_elo_albion_something_prove	Something to Prove	false
+unit_abilities_tooltip_text_elo_fimir_witness_me	The Fimir will do anything for but a moment of attention from the Dark Gods. No act of bravery is too foolhardy, no act of cruelty too savage.	true
+unit_abilities_onscreen_name_elo_fimir_witness_me	Under the Eyes of the Gods	true
+unit_abilities_tooltip_text_ovn_fight_eat	Maybe the only threat to a halfling that might make them fight harder is a threat to their food.	true
+unit_abilities_onscreen_name_ovn_fight_eat	Who doesn't fight also doesn't eat!	true
+unit_abilities_tooltip_text_ovn_take_bite	Nothing like a snack mid-battle to re-invigourate a halfling!	true
+unit_abilities_onscreen_name_ovn_take_bite	Here, take a bite!	true
+unit_abilities_tooltip_text_ovn_dont_abandon	If we can't save the food, then why are we even fighting?	true
+unit_abilities_onscreen_name_ovn_dont_abandon	Don't abandon the food!	true
+unit_abilities_tooltip_text_ovn_baby_dragon_breath	Not as dangerous as the breath of an adult, but it is still advised to avoid being its target.	true
+unit_abilities_onscreen_name_ovn_baby_dragon_breath	Hatchling Dragon Breath	true
+unit_abilities_onscreen_name_ammo_supply	Ammunition Supplies	true
+unit_abilities_tooltip_text_ammo_supply	Shoot faster, we have plenty more where that came from!	true
+unit_abilities_onscreen_name_equipment_maintanance	Equipment Wagon	true
+unit_abilities_tooltip_text_equipment_maintanance	Get your broken weapons fixed, your armour upgraded or your hat patched.	true
+unit_abilities_onscreen_name_smokeleaf_smokescreen	Tobacco Smokescreen	true
+unit_abilities_tooltip_text_smokeleaf_smokescreen	The tactical burning of special tobacco obscures the unit and its allies, making them harder to hit with missiles. It also temporarily numbs the pain of warriors in range.	true
+unit_abilities_tooltip_text_elo_hand_terror_past	An ancient scourge of the living has been unleashed and only the mindless can escape the creeping feeling of desperation and horror caused by the Hand of Nagash.	true
+unit_abilities_onscreen_name_elo_hand_terror_past	Ancient Horror	true
+unit_abilities_tooltip_text_elo_hand_judge_executioner	To be honest it is mostly executioner. Everyone who stands against Nagash is guilty by default.	false
+unit_abilities_onscreen_name_elo_hand_judge_executioner	Jury, Judge and Executioner	false
+unit_abilities_tooltip_text_elo_hand_vortex	Focussing the winds of death around him, the Hand of Nagash can unleash a devastating wave of destruction.	false
+unit_abilities_onscreen_name_elo_hand_vortex	Call of Death	false
+unit_abilities_tooltip_text_elo_hand_punished_one	The Hand of Nagash has strapped the torso of a most hated foe to his halberd. Though the name of this unlucky person is lost to time, it is said that the terror and pain of his last moments still radiates from his tortured remains.	false
+unit_abilities_onscreen_name_elo_hand_punished_one	The Punished One	false
+unit_abilities_tooltip_text_elo_hungering_blade	When the Hand of Nagash fades, the forbidden runes of this Blade activate, using the life of his enemies to preserve his unholy existence.	false
+unit_abilities_onscreen_name_elo_hungering_blade	The Hungering Blade	false
+unit_abilities_tooltip_text_elo_liche_land_of_nagash	The disciples of Nagash spread his influence wherever they go. And where the power of Nagash is on the rise, the dead won't find rest easily.	true
+unit_abilities_onscreen_name_elo_liche_land_of_nagash	Cursed Lands	true
+unit_abilities_tooltip_text_elo_liche_call_the_legions	Buried under the sands, countless forgotten legions wait for Nagash to call them to arms once again.	true
+unit_abilities_onscreen_name_elo_liche_call_the_legions	Call the Legions	true
+unit_abilities_tooltip_text_elo_liche_call_the_legions_overcast	Buried under the sands, countless forgotten legions wait for Nagash to call them to arms once again.	true
+unit_abilities_onscreen_name_elo_liche_call_the_legions_overcast	Call the Legions Upgraded	true
+unit_abilities_tooltip_text_elo_necromantic_anchor	The towering frame of a skeletal giant can be seen far and wide on the battlefield. As such they are perfectly suited to serve as a conduit to channel the dark magic from the necromancer to his troops, anchoring them in the mortal world.	true
+unit_abilities_onscreen_name_elo_necromantic_anchor	Necromantic Anchor	true
+unit_abilities_onscreen_name_larenscheld_ghost_on_death	Lingering Essence	false
+unit_abilities_tooltip_text_larenscheld_ghost_on_death	Larenscheld resurrected the Dread King in exchange for immortality - and he received it, in a way. However, it came in a different form than he expected.	false
+unit_abilities_onscreen_name_larenscheld_bombardment	Skull Bombardment	false
+unit_abilities_tooltip_text_larenscheld_bombardment	Larenscheld has been granted the ability to call forth vengeful spirits in the shape of skulls from the realms beyond the mortal veil to torment the living.	false
+unit_abilities_onscreen_name_larenscheld_ghost_on_death_upgraded	Wraith Liche	false
+unit_abilities_tooltip_text_larenscheld_ghost_on_death_upgraded	Even if the body perishes, his mind and magic will persist to haunt those who bested him.	false
+unit_abilities_onscreen_name_larenscheld_change_at_will	Discard Body	false
+unit_abilities_tooltip_text_larenscheld_change_at_will	The mortal body is but a shell that holds back true greatness and may be discarded at will.	false
+unit_abilities_tooltip_text_elo_so_hungry	Nothing revitalizes Trolls like a little snack. A gobbo or two nearby just come in handy when your Trolls need additional motivation.	true
+unit_abilities_onscreen_name_elo_so_hungry	Sooo Hungry!	true
+unit_abilities_tooltip_text_troll_mocking_laughter	Night Trolls are known to make noises sounding like mocking laughter while tearing their enemies apart. Those who witness these sounds can be easily intimidated by them.	true
+unit_abilities_onscreen_name_troll_mocking_laughter	Mocking Laughter	true
+unit_abilities_onscreen_name_grudge_summon_wagons		true
+unit_abilities_tooltip_text_grudge_summon_wagons		true
+unit_abilities_tooltip_text_horrible_stench	Almost unbearable smell. Don't get close!	true
+unit_abilities_onscreen_name_horrible_stench	Horrible Stench	true
+unit_abilities_tooltip_text_rock_solid	Hitting that skin with a sword is like hitting a mountain with a toothpick! No wonder these trolls are so much more confident than their brethren.	true
+unit_abilities_onscreen_name_rock_solid	Stone Skin	true
+unit_abilities_onscreen_name_death_stench	Stench of Death	true
+unit_abilities_tooltip_text_death_stench	This creature reeks of death, rotten corpses, feces and worse. Being near it is almost intolerable.	true
+unit_abilities_onscreen_name_run_and_shakeoff	Devour them all!	true
+unit_abilities_tooltip_text_run_and_shakeoff	Hunger can be a greater motivation than any other. The Monsterhorde will storm towards the enemy, and nothing can stop it!	true
+unit_abilities_tooltip_text_order_squish	The boss can give limited orders to the trolls that are the longest under his influence. This order makes them swing low and wide, effective against smaller targets.	true
+unit_abilities_onscreen_name_order_squish	Bosses Order: Squish the Little Ones!	true
+unit_abilities_onscreen_name_order_protect	Bosses Order: Defend yourselves!	true
+unit_abilities_tooltip_text_order_protect	Bosses can give limited orders to the trolls that are the longest under his influence. This order makes them fight more cautiously and protect their vital organs.	true
+unit_abilities_tooltip_text_order_catch	The boss can give limited orders to the trolls that are the longest under his influence. This order makes them chase tirelessly after faster targets.	true
+unit_abilities_onscreen_name_order_catch	Bosses Order: Get the Fast Ones!	true
+unit_abilities_tooltip_text_order_aim_higher	The boss can give limited orders to the trolls that are the longest under his influence. This order makes them chase tirelessly after faster targets.	true
+unit_abilities_onscreen_name_order_aim_higher	Bosses Order: Aim Higher!	true
+unit_abilities_onscreen_name_difficult_to_spot	Natural Camouflage	true
+unit_abilities_tooltip_text_difficult_to_spot	These Trolls are camouflaged in forests by their natural coloration. However, they are too stupid to understand the concept of an ambush. Their smell and the noise they make will give their position away once someone is close enough.	true
+unit_abilities_onscreen_name_stunted_regeneration	Weakened Regeneration	true
+unit_abilities_tooltip_text_stunted_regeneration	The regenerative ability of Bile Trolls is mostly occupied by keeping their many afflictions at bay. This means that wounds Bile Trolls receive are healing much slower compared to other Trolls.	true
+unit_abilities_onscreen_name_sickness_host	Host to Terrifying Afflictions	true
+unit_abilities_tooltip_text_sickness_host	Bile Trolls are feared by all, even by their famously stupid kin. They aren't feared for their combat prowess though, instead, no one wants to get near them and risk infection - not even their allies.	true
+unit_abilities_onscreen_name_temper_tantrum	Reckless Rampage	true
+unit_abilities_tooltip_text_temper_tantrum	This is what happens if an already angry Troll feels provoked, frustrated, threatened or bored.	true
+unit_abilities_tooltip_text_burning_aura_of_ouch	Lava Trolls are filled with unbearable heat. Those getting too close are affected by this heat, their flesh burning in the presence of this twisted troll species.	true
+unit_abilities_onscreen_name_burning_aura_of_ouch	Burning Presence	true
+unit_abilities_tooltip_text_warpstone_solid	The twisted effects of their warpstone changed skin made the skin of these creatures highly resistant to any damage, especially magic. They don't feel pain and will not run before the their unnatural armour is broken.	true
+unit_abilities_onscreen_name_warpstone_solid	Warpstone Skin	true
