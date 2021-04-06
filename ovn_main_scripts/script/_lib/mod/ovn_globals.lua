@@ -3,7 +3,7 @@ if __game_mode ~= __lib_type_campaign then
     return
 end
 
-local function no_unit_mess(faction_key)                                    
+local function no_unit_mess(faction_key)
     cm:show_message_event(
         faction_key,
         "event_feed_strings_text_wh_event_feed_string_scripted_event_no_unit_primary_detail",
@@ -14,7 +14,7 @@ local function no_unit_mess(faction_key)
     );
 end
 
-local function imperial_unit_gained_mess(faction_key)                                   
+local function imperial_unit_gained_mess(faction_key)
     cm:show_message_event(
         faction_key,
         "event_feed_strings_text_wh_event_feed_string_scripted_event_imperial_unit_gained_primary_detail",
@@ -22,10 +22,10 @@ local function imperial_unit_gained_mess(faction_key)
         "event_feed_strings_text_wh_event_feed_string_scripted_event_imperial_unit_gained_secondary_detail",
         true,
         591
-    );                                      
+    );
 end
 
-local function merc_unit_gained_mess(faction_key)                                   
+local function merc_unit_gained_mess(faction_key)
     cm:show_message_event(
         faction_key,
         "event_feed_strings_text_wh_event_feed_string_scripted_event_merc_unit_gained_primary_detail",
@@ -33,10 +33,10 @@ local function merc_unit_gained_mess(faction_key)
         "event_feed_strings_text_wh_event_feed_string_scripted_event_merc_unit_gained_secondary_detail",
         true,
         591
-    );                                      
+    );
 end
 
-local function ror_unit_gained_mess(faction_key)          
+local function ror_unit_gained_mess(faction_key)
     cm:show_message_event(
         faction_key,
         "event_feed_strings_text_wh_event_feed_string_scripted_event_ror_unit_gained_primary_detail",
@@ -44,7 +44,7 @@ local function ror_unit_gained_mess(faction_key)
         "event_feed_strings_text_wh_event_feed_string_scripted_event_ror_unit_gained_secondary_detail",
         true,
         591
-    );                                         
+    );
 end
 
 --------------------------------------------------------------
@@ -60,7 +60,7 @@ function ovn_grudge_dilemma_reinforcements(faction_key)
     end
 
     local faction_obj = cm:get_faction(faction_key)
-       
+
     local ovn_reinforcement_unit_pool = {
         "wh2_dlc13_emp_art_great_cannon_imperial_supply",
         "wh2_dlc13_emp_cav_empire_knights_imperial_supply",
@@ -112,13 +112,13 @@ function ovn_grudge_dilemma_reinforcements(faction_key)
 
     local random_number = cm:random_number(#ovn_reinforcement_unit_pool, 1)
     local unit_key = ovn_reinforcement_unit_pool[random_number]
-    
+
     -- we call the same function again to reroll if we get a RoR we had already given before
     if used_up_rors[unit_key] then
         ovn_grudge_dilemma_reinforcements(faction_key)
         return
     end
-    
+
     if random_number < 18 then
         cm:add_unit_to_faction_mercenary_pool(faction_obj, unit_key, 1, 0, 5, 0, 0, "", "", "", true);
         merc_unit_gained_mess(faction_key)
@@ -130,14 +130,14 @@ function ovn_grudge_dilemma_reinforcements(faction_key)
 end;
 
 
-function ovn_late_imperial_reinforcements(faction_key)
+function ovn_late_imperial_reinforcements(faction_key, always_give_unit)
     if not is_string(faction_key) then
         -- error
         return false
     end
 
     local faction_obj = cm:get_faction(faction_key)
-       
+
     local ovn_reinforcement_unit_pool = {
         "wh2_dlc13_emp_art_great_cannon_imperial_supply",
         "wh2_dlc13_emp_cav_empire_knights_imperial_supply",
@@ -190,14 +190,14 @@ function ovn_late_imperial_reinforcements(faction_key)
 
     local random_number = cm:random_number(#ovn_reinforcement_unit_pool, 1)
     local unit_key = ovn_reinforcement_unit_pool[random_number]
-    
-    if  1 ~= cm:random_number(3, 1) then
+
+    if  1 ~= cm:random_number(3, 1) or always_give_unit then
         -- we call the same function again to reroll if we get a RoR we had already given before
         if used_up_rors[unit_key] then
-            ovn_late_imperial_reinforcements(faction_key)
+            ovn_late_imperial_reinforcements(faction_key, true)
             return
         end
-        
+
         if random_number < 18 then
             cm:add_unit_to_faction_mercenary_pool(faction_obj, unit_key, 1, 0, 5, 0, 0, "", "", "", true);
             imperial_unit_gained_mess(faction_key)
@@ -211,18 +211,17 @@ function ovn_late_imperial_reinforcements(faction_key)
         no_unit_mess(faction_key)
     end;
 end
-    
-    
 
-function ovn_early_imperial_reinforcements(faction_key)
+
+
+function ovn_early_imperial_reinforcements(faction_key, always_give_unit)
      if not is_string(faction_key) then
         -- error
         return false
     end
 
-    out("OVN TEST ZERO FBBEOIBEFO")
     local faction_obj = cm:get_faction(faction_key)
-    
+
     local ovn_reinforcement_unit_pool = {
         "wh2_dlc13_emp_art_great_cannon_imperial_supply",
         "wh2_dlc13_emp_cav_empire_knights_imperial_supply",
@@ -260,10 +259,10 @@ function ovn_early_imperial_reinforcements(faction_key)
     local random_number = cm:random_number(#ovn_reinforcement_unit_pool, 1)
     local unit_key = ovn_reinforcement_unit_pool[random_number]
 
-    if  1 ~= cm:random_number(3, 1) then
+    if  1 ~= cm:random_number(3, 1) or always_give_unit then
         -- we call the same function again to reroll if we get a RoR we had already given before
         if used_up_rors[unit_key] then
-            ovn_early_imperial_reinforcements(faction_key)
+            ovn_early_imperial_reinforcements(faction_key, true)
             return
         end
 
