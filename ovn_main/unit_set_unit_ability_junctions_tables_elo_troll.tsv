@@ -1,4 +1,0 @@
-unit_set_unit_ability_junctions_tables	0
-key	unit_ability	unit_set
-elo_raw_might_frenzy	wh_main_unit_passive_frenzy	elo_raw_might
-sickness_host	sickness_host	sickness_host

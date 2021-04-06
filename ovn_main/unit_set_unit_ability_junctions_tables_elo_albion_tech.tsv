@@ -1,5 +1,0 @@
-unit_set_unit_ability_junctions_tables	0
-key	unit_ability	unit_set
-disable_war_fury_2	elo_albion_remove_war_fury_2	all_units
-enable_zeal_holy_albion	elo_albion_holy_warriors_unbreakable	elo_albion_holy_warriors
-elo_albion_protectors_world	elo_albion_protectors_world	all_units

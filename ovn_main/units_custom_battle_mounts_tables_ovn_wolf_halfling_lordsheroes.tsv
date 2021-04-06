@@ -1,5 +1,0 @@
-units_custom_battle_mounts_tables	1
-base_unit	icon_name	mounted_unit
-ovn_hlf_moot_general_0	ui/campaign ui/mounts/mount_cockarel.png	ovn_hlf_moot_general_2
-ovn_hlf_master_chef_0	ui/campaign ui/mounts/mount_cwagon.png	ovn_hlf_master_chef_1
-ovn_hlf_sheriff_0	ui/campaign ui/mounts/mount_bpig.png	ovn_hlf_sheriff_1
