@@ -1,3 +1,0 @@
-agent_subtypes_tables	19
-key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	audio_vo_culture_override	spam_click_vo_enabled
-fim_meargh_skattach	false	true		fim_meargh_skattach	wh2_dlc15_vo_actor_Troll_River_Troll_Hag	true	-1	false	true	true	true	legendary_lords			false

@@ -1,6 +1,0 @@
-agent_subtypes_tables	19
-key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	audio_vo_culture_override	spam_click_vo_enabled
-ovn_com_olorin_the_grey_wizard	false	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	ovn_com_cha_olorin_the_grey_wizard_0	wh_dlc05_vo_actor_Empire_GreyWizard	true	-1	false	true	true	true	legendary_lords			false
-ovn_com_aragand_the_layabout	false	false	ui/campaign ui/agents/wh_main_emp_champion.png	ovn_com_cha_aragand_the_layabout_0	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false
-ovn_com_legles_the_elf	false	false	ui/campaign ui/agents/wh2_dlc16_wef_dignitary.png	ovn_com_cha_legles_the_elf_0	wh_dlc05_vo_actor_Wood_Elves_Male_Glade_Lord	false	-1	false	true	false	false				false
-ovn_com_giblit_the_dwarf	false	false	ui/campaign ui/agents/wh_main_dwf_champion.png	ovn_com_cha_giblit_the_dwarf_0	wh_main_vo_actor_Dwarf_UngrimIronfist	false	-1	false	true	false	false				false
