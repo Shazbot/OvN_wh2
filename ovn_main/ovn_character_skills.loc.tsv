@@ -1,0 +1,194 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_description_Ancient_Necromancer	 A powerful practitioner of Necromancy, writing the book known as the Grimoire Necris, which allowed his ascension to undeath	true
+character_skills_localised_name_Ancient_Necromancer	Ancient  Necromancer	true
+character_skills_localised_description_Mighty_Warrior_tmb	The Dread King was a mighty warrior, giant in stature, armed with a massive sword and covered in ancient heavy armour. He could cut down his enemies in their droves.	true
+character_skills_localised_name_Mighty_Warrior_tmb	Mighty Warrior	true
+character_skills_localised_description_Lord_Of_The_Undead_tmb	A master in the lore of dak magic, able to summon vast armies of undead to fight for him.	true
+character_skills_localised_name_Lord_Of_The_Undead_tmb	Lord Of The Undead	true
+character_skills_localised_description_Dark_Lord_Of_Nagash	He being known as the Dread King was known to have been one of Nagash's most powerful followers, aiding him in his early attempts to bring undeath to the world, he served Nagash well	true
+character_skills_localised_name_Dark_Lord_Of_Nagash	Dark Lord Of Nagash	true
+character_skills_localised_name_Dread_Aura	Dread Aura	true
+character_skills_localised_description_Dread_Aura	he Dread King's name was derived from a powerful aura that surrounded him at all times, only the mightiest of beings could face him without physically shaking or panicking, most would be frozen in fear or outright flee	true
+character_skills_localised_name_dread_barded_nightmare	Barded Nightmare	true
+character_skills_localised_description_dread_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares. They are Undead stallions clad in baroque barding.	true
+character_skills_localised_name_dread_zombie_dragon	Zombie Dragon	true
+character_skills_localised_description_dread_zombie_dragon	Animated by Dark Magic, a zombie dragon is an unholy parody of a once-noble beast now borne aloft by great tattered wings, its body covered with thick, withered hide.	true
+character_skills_localised_name_Soulreaper	Soulreaper	true
+character_skills_localised_description_Soulreaper	Claiming the souls of the living, trapped inside the sword. once filled allows the summoning of great warriors	true
+Clock	This strange mystical amulet allows its wearer magical powers but it is a heavy burden some can not bear.	true
+character_skills_localised_description_Mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such the renown of these majestic beasts. 	true
+character_skills_localised_description_sword	A fine-blade presented to Arabyan Warriors who have proved themselves in battle, gaining them respect from all.	true
+character_skills_localised_description_Helm	It is said that Armour fashioned from the carapace of the Dune Scorpion is stronger and lighter than any metal variety.	true
+character_skills_localised_description_Order_Buff	They try to protect the innocent and drive evil from the lands and while the northern men can't see past their own prejudices but there are others in this world who fight for good.	true
+character_skills_localised_description_Chaos_Buff	They will do anything in their pursuit of power even bargaining with Chaos or scheming with Ratmen.	true
+character_skills_localised_name_Talisman	Crescent Amulet	true
+character_skills_localised_name_Mount	Griffon	true
+character_skills_localised_name_sword	Falcon Scimitar	true
+character_skills_localised_name_Helm	Scorpion Carapace Armour	true
+character_skills_localised_name_Order_Buff	Protector of Order	true
+character_skills_localised_name_Chaos_Buff	Machinator	true
+character_skills_localised_name_Araby_Lord_Buff	Aithopian Prince	true
+character_skills_localised_description_Araby_Lord_Buff	From a far-flung tribe, their power and wealth is a great asset.	true
+character_skills_localised_name_Djinn	Djinn Hunter	true
+character_skills_localised_description_Djinn	A sorcerer of skill can bend Djinn to their will, the spirit fighting with every ounce of its strength against its master's enemies, making the magical jars they come from highly sought after.	true
+character_skills_localised_name_Mount_Elephant	Royal Elephant	true
+character_skills_localised_description_Mount_Elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	true
+character_skills_localised_name_ovn_buff_araby_nomads	The Nomads Way	false
+character_skills_localised_description_ovn_buff_araby_nomads	The longer one spends with the "savages" the easier it is to rile them up in battle.	false
+character_skills_localised_name_ovn_buff_araby_gunpowder	Clockwork Engineer	false
+character_skills_localised_description_ovn_buff_araby_gunpowder	Some shun the shameful black powder, not you though, you revel in it and all engines of destruction.	false
+character_skills_localised_name_ovn_araby_nomads_r7	Arisen from the Dunes	false
+character_skills_localised_description_ovn_araby_nomads_r7	You have seen many brothers fall in battle, for that is what the nomads are, my brothers.	false
+character_skills_localised_name_ovn_araby_state_inf_r7	Royal Decree	false
+character_skills_localised_description_ovn_araby_state_inf_r7	The true veterans of Araby are bestowed with titles and finery befitting their contribution to these great lands.	false
+character_skills_localised_name_ovn_araby_beasts_r7	Beastmaster	false
+character_skills_localised_description_ovn_araby_beasts_r7	They call him the beast whisperer, for these creatures would truly die for him.	false
+character_skills_localised_name_ovn_araby_magic_r7	Sorcerer	false
+character_skills_localised_description_ovn_araby_magic_r7	You are wise in the ways of magic and have much to teach others.	false
+character_skills_localised_name_ovn_buff_araby_bows	Bow Master	false
+character_skills_localised_description_ovn_buff_araby_bows	The bow is a weapon that never jams, a weapon you can always trust.	false
+character_skills_localised_name_ovn_buff_araby_state_inf	Sultan's Royal Armoury	false
+character_skills_localised_description_ovn_buff_araby_state_inf	Warriors of great armies are decorated in ornate armour taken from the Sultan's personal armory even the slaves!	false
+character_skills_localised_name_ovn_araby_ll_innate_02	Warrior of Araby	true
+character_skills_localised_description_ovn_araby_ll_innate_02	A great man, master of war, risen through the ranks and rewarded with the Crescent Seal giving them the authority to lead a great Arabyan War Throng.	true
+character_skills_localised_name_ovn_araby_ll_innate_03	Corsair Captain	true
+character_skills_localised_description_ovn_araby_ll_innate_03	Some say he was born on a Dhow but all agree he's a master of the sea.	true
+character_skills_localised_name_ovn_araby_ll_innate_04	Slave-Master	true
+character_skills_localised_description_ovn_araby_ll_innate_04	Not many can claim to "own" an army.	true
+character_skills_localised_name_ovn_araby_ll_innate_05	Wizard Caliph Apprentice	true
+character_skills_localised_description_ovn_araby_ll_innate_05	An apprentice from the revered Palace of the Wizard Caliph.	true
+character_skills_localised_name_ovn_araby_ll_innate_06	Nomad Warchief	true
+character_skills_localised_description_ovn_araby_ll_innate_06	Born in the dunes, some will never see him as their equal.	true
+character_skills_localised_name_ovn_araby_ll_innate_07	Alchemist	true
+character_skills_localised_description_ovn_araby_ll_innate_07	Smoke and loud bangs emanate day and night from this one's tent.	true
+character_skills_localised_name_ovn_araby_ll_innate_08	Tuareg Beastmaster	true
+character_skills_localised_description_ovn_araby_ll_innate_08	He has more in common with the beasts than his fellow man.	true
+character_skills_localised_name_ovn_araby_ll_innate_09	Al-Raheem Bowmaster	true
+character_skills_localised_description_ovn_araby_ll_innate_09	He demands all under his command train with the bow.	true
+character_skills_localised_name_ovn_araby_ll_innate_10	Muktarhin Hero	true
+character_skills_localised_description_ovn_araby_ll_innate_10	A hero feared and renowned in much of Araby.	true
+character_skills_localised_name_rattlesnake_staff	Rattlesnake Staff	true
+character_skills_localised_description_rattlesnake_staff	Those proven proficient in magic are gifted the Rattlesnake Staff by the Wizard Caliph, it is the mark of any good Arabyan sorcerer.	true
+character_skills_localised_name_ovn_araby_tank_01	Hardened by the Desert	true
+character_skills_localised_description_ovn_araby_tank_01	Endless days in the dunes has left this one dogged and burly.	true
+character_skills_localised_name_ovn_araby_tank_02	Cataphract Armour	true
+character_skills_localised_description_ovn_araby_tank_02	Fine heavy armour, though its weight stifles movement.	true
+character_skills_localised_name_ovn_araby_tank_03	Unshakable Faith	true
+character_skills_localised_description_ovn_araby_tank_03	His mind is as immovable as his body.	true
+character_skills_localised_name_ovn_araby_duel_01	Razmafzar	true
+character_skills_localised_description_ovn_araby_duel_01	Ancient sword art which dazzles the many who have not seen it.	true
+character_skills_localised_name_ovn_araby_duel_02	Cloaked Janbiya	true
+character_skills_localised_description_ovn_araby_duel_02	Just in case...	true
+character_skills_localised_name_ovn_araby_duel_03	Smoke Dance	true
+character_skills_localised_description_ovn_araby_duel_03	They twist and turn like a fierce sandstorm.	true
+character_skills_localised_name_ovn_buff_araby_vamp_coast	Sea Dogs	false
+character_skills_localised_description_ovn_buff_araby_vamp_coast	The Golden Magus had fought against the Vampire Coast bitterly, and now makes use of their necromantic arts against them.	false
+character_skills_localised_name_ovn_skill_arb_lord_mount_horse	Barded Warhorse	false
+character_skills_localised_description_ovn_skill_arb_lord_mount_horse	A Sheikh will often require a reliable stallion to transport him across the battlefield to where he is needed most.	false
+character_skills_localised_name_roy_skill_nomad_mount_warhorse	Camel	false
+character_skills_localised_name_roy_skill_champion_mount_horse	Warhorse	false
+character_skills_localised_name_roy_skill_champion_mount_warhorse	Barded Warhorse	false
+character_skills_localised_name_roy_skill_champion_mount_elephant	Elephant	false
+character_skills_localised_name_roy_skill_champion_arb_guard	Palace Guard	false
+character_skills_localised_name_roy_skill_champion_arb_warrior	Champion	false
+character_skills_localised_name_roy_skill_champion_arb_sergeant	Sergeant	false
+character_skills_localised_name_roy_skill_arb_agent_missile_res	Djinn's Protection	false
+character_skills_localised_name_roy_skill_arb_nomad_strike_from_the_shadows	Strike from the Shadows	false
+character_skills_localised_name_roy_skill_arb_nomad_self_missile_damage	Shoot to Kill	false
+character_skills_localised_name_roy_skill_nomad_mount_assassin	Mark of the Hashishin	false
+character_skills_localised_name_roy_skill_nomad_jezzail	Jezzail	false
+character_skills_localised_name_roy_skill_arb_hero_innate_01	Kind	false
+character_skills_localised_name_roy_skill_arb_hero_innate_02	Honourable	false
+character_skills_localised_name_roy_skill_arb_hero_innate_03	Proud	false
+character_skills_localised_name_roy_skill_arb_hero_innate_04	Greedy	false
+character_skills_localised_name_roy_skill_arb_hero_innate_05	Brave	false
+character_skills_localised_name_roy_skill_arb_hero_innate_06	Wise	false
+character_skills_localised_name_roy_skill_arb_hero_innate_07	Merciless	false
+character_skills_localised_name_roy_skill_arb_hero_innate_08	Deceitful	false
+character_skills_localised_name_roy_skill_arb_hero_innate_09	Unfaithful	false
+character_skills_localised_name_roy_skill_arb_hero_innate_10	Sharp Witted	false
+character_skills_localised_name_roy_skill_arb_hero_innate_11	Slaver	false
+character_skills_localised_description_roy_skill_nomad_mount_warhorse	One major advantage the camel provides for these mounted archers is simply a better angle for their arrows to aim true than from their horse counterparts. Albeit, mounted archery on a camel is no easy task! 	false
+character_skills_localised_description_roy_skill_champion_mount_horse	An officer will often require a reliable stallion to transport him across the battlefield to where he is needed most.	false
+character_skills_localised_description_roy_skill_champion_mount_warhorse	The barded steeds of the nobles are the greatest chargers from a nation that prides itself on its equestrian pedigree.	false
+character_skills_localised_description_roy_skill_champion_mount_elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	false
+character_skills_localised_description_roy_skill_champion_arb_guard	Palace Guard are among the most prestigious soldiers, tasked with the protection of the Sheiks.	false
+character_skills_localised_description_roy_skill_champion_arb_warrior	Some only fight for fame and glory, becoming well-trained champions in the process.	false
+character_skills_localised_description_roy_skill_champion_arb_sergeant	It is important to stay grounded when climbing up the chain of command.	false
+character_skills_localised_description_roy_skill_arb_agent_missile_res	Even from within their vessels the Djinn will protect their masters.	false
+character_skills_localised_description_roy_skill_arb_nomad_strike_from_the_shadows	They won't feel a thing... unless you want them to.	false
+character_skills_localised_description_roy_skill_arb_nomad_self_missile_damage	When you are the target of a Hashishi, you'll never know it until it is too late.	false
+character_skills_localised_description_roy_skill_nomad_mount_assassin	After years of service and loyalty, a Hashishi will receive the mark of the brotherhood.	false
+character_skills_localised_description_roy_skill_nomad_jezzail	Armed with long-barrelled arquebus of Arabyan design, the endless deserts have taught these men the value of marksmanship and an accurate firearm. 	false
+character_skills_localised_description_roy_skill_arb_hero_innate_01	Even the smallest acts of kindness can mean to world to someone in need.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_02	Honour is everything!	false
+character_skills_localised_description_roy_skill_arb_hero_innate_03	Pride comes before the fall.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_04	Some people simply can't get enough.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_05	In the eyes of the brave, danger gleams like sunshine.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_06	This one has gained deep knowledge about local cultures and politics.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_07	A skilled assassin is a cold-hearted killer and merciless murderer.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_08	Deceit is a perfectly acceptable means of attack.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_09	People say you can't trust him, he'll betray anybody for the right price.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_10	This being has a plan - not just a game plan, but a master plan to achieve his long-term aims.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_11	This one ensures that those captured in battle wished they'd died on the field, so great is the cruelty that awaits them.	false
+character_skills_localised_name_roy_skill_ovn_rbt_blightstomer_blightstorm	Blightstorm	true
+character_skills_localised_description_roy_skill_ovn_rbt_blightstomer_blightstorm	Let me spread my most muculent gift!	true
+character_skills_localised_description_hlf_staff	Gifted Halflings who have defended the Moot and all within are presented a magical staff from the creatures of Altern Forest.	true
+character_skills_localised_description_hlf_robe	Dried and treated Tobacco from the Greenleaf plantations are woven into impossible robes showcasing various runes of protection.	true
+character_skills_localised_description_meat_Buff	My pies are second to none, my proof you ask, well look at my troops, not one can even run!	true
+character_skills_localised_description_cig_Buff	They said my love of the Halfing's weed would dull my senses but who can resist a puff of Greenleaves finest!	true
+character_skills_localised_name_hlf_staff	Altern Gnarl Staff	true
+character_skills_localised_name_hlf_robe	Greenleaf Battle Robes	true
+character_skills_localised_name_meat_Buff	Butcher	true
+character_skills_localised_name_cig_Buff	Tobacconist	true
+character_skills_localised_name_hlf_Lord_Buff	Halfling Noble	true
+character_skills_localised_description_hlf_Lord_Buff	Halflings of the upper echelons of society are friendly and industrious and just like all halflings are perceived as weak but they use this misconception to their advantage.	true
+character_skills_localised_name_haffenlyver	Entry into the Haffenlyver	true
+character_skills_localised_description_haffenlyver	Kept by the Elder of the Moot,  the great book Haffenlyver lists the great heroes and notable halfling families. To be entered onto its pages is an honour like no other.	true
+character_skills_localised_description_trick_Buff	Magic does not come easily to the Halflings and most are only ever able to perform cheap parlor tricks, this does keep the rabble amused though.	true
+character_skills_localised_name_trick_Buff	Conjuror of Cheap Tricks	true
+character_skills_localised_name_ovn_buff_halfling_welf	Friends to Nature	true
+character_skills_localised_description_ovn_buff_halfling_welf	The Halflings have long had an affinity with nature and both have come to each other's aid in times of need.	true
+character_skills_localised_name_ovn_buff_soup_art	Art of Soup	true
+character_skills_localised_description_ovn_buff_soup_art	There is an art to making soup a deadly weapon the viscosity, temperature and so on has to be carefully considered and when done right no-one, however mighty, will be laughing.	true
+character_skills_localised_name_ovn_halfling_hlf_r7	Even Darkness Must Pass	true
+character_skills_localised_description_ovn_halfling_hlf_r7	There’s some good in this world and it’s worth fighting for!	true
+character_skills_localised_name_ovn_halfling_ogre_r7	A New Home	true
+character_skills_localised_description_ovn_halfling_ogre_r7	They came in search of food but what they found was home.	true
+character_skills_localised_name_ovn_halfling_welf_r7	You're Part Of This World!	true
+character_skills_localised_description_ovn_halfling_welf_r7	Our friends are out there. They need our help! They cannot fight this war on their own.	true
+character_skills_localised_name_ovn_soup_art_r7	Masters of Broth	true
+character_skills_localised_description_ovn_soup_art_r7	The closer we are to danger, the farther we are from harm.	true
+character_skills_localised_name_elo_halfling_cook	Cook	true
+character_skills_localised_description_elo_halfling_cook	Despite not being a Master Chef, a Cook as a leader is always seen as a good sign for a Halfling army.	true
+character_skills_localised_name_elo_halfling_scharlatan	Charlatan	true
+character_skills_localised_description_elo_halfling_scharlatan	This one is pretending to be more than he really is and he's quite good at it.	true
+character_skills_localised_name_elo_halfling_glutton	Glutton	true
+character_skills_localised_description_elo_halfling_glutton	Ogres respect Halflings - they have quite the gut for their small size. And this Halfling has an even bigger gut than most others.	true
+character_skills_localised_name_elo_halfling_farmer	Farmer	true
+character_skills_localised_description_elo_halfling_farmer	A healthy and stable homegrown diet is the base of every Halfling society - and their armies.	true
+character_skills_localised_name_elo_halfling_warden	Warden	true
+character_skills_localised_description_elo_halfling_warden	Wardens are the professional warriors of the Moot. They are highly respected by other Halflings.	true
+character_skills_localised_name_elo_halfling_thief	Borrower	true
+character_skills_localised_description_elo_halfling_thief	"This ring is so shiny and pretty - my precious! But then again, this necklace is also quite nice looking...."	true
+character_skills_localised_name_elo_halfling_adventurer	Adventurer	true
+character_skills_localised_description_elo_halfling_adventurer	Most Halflings prefer a comfortable, safe life at home. Some however are drawn to foreign lands with a compulsion to explore.	true
+character_skills_localised_name_elo_halfling_pennypincher	Penny-pincher	true
+character_skills_localised_description_elo_halfling_pennypincher	The cheapest supplies, who cares if the food doesn't taste that good as long as it fills the soldier's stomachs? Well, the soldiers certainly do...	true
+character_skills_localised_description_ovn_as_Hoeth_Talisman	This finely crafted medallion has been passed down through the Stormriders for generations. Preserved with tempestuous magical knowledge, it was a gift from the Mages of Hoeth long ago.	true
+character_skills_localised_description_skill_sharpclaw	Astride his griffon, Sharpclaw, Althran swoops down on his chosen foe and cuts them down with talon and beak.	true
+character_skills_localised_description_ovn_as_starblade	The Starblade like its lance variant is forged from the metal of a fallen star, the weapon's graceful lines belie the formidable power it grants its wielder.	true
+character_skills_localised_description_ovn_as_armour	This magical Armour of Fortune is an ancient family heirloom, and so beautifully crafted that the wearer's freedom of movement is completely unimpaired.	true
+character_skills_localised_description_ovn_as_lustira_Buff	Just like his ancestors, Althran looks beyond Ulthuan borders to ensure no foe sets foot upon her shores.	true
+character_skills_localised_description_ovn_as_ulthuan_Buff	The world descends into Chaos and she will never be tamed! But Ulthuan does not have to share this mortal fate.	true
+character_skills_localised_name_ovn_as_Hoeth_Talisman	Stormrider's Hoeth Talisman	true
+character_skills_localised_name_skill_sharpclaw	Sharpclaw	true
+character_skills_localised_name_ovn_as_starblade	Starblade	true
+character_skills_localised_name_ovn_as_armour	Stormrider's Fortune Armour	true
+character_skills_localised_name_ovn_as_lustira_Buff	World Farer 	true
+character_skills_localised_name_ovn_as_ulthuan_Buff	Defender of Ulthuan	true
+character_skills_localised_name_stormrider_Buff	Ancestors of Renown	true
+character_skills_localised_description_stormrider_Buff	With an ancestry dating back to the first Phoenix Kings, Althran's ancestors have led Asuryan armies all around the world, earning great glory and renown. Althran is determined to carry on this grand tradition, and will stop at nothing to protect his people and the domains of Ulthuan.	true
+character_skills_localised_description_ovn_as_lightning_reflexes	Capable of reactions so fast, Althran makes even the quickest Swordmaster of Hoeth look clumsy in comparison.	true
+character_skills_localised_name_ovn_as_lightning_reflexes	Lightning Reflexes	true

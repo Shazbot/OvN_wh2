@@ -1,5 +1,11 @@
 Loc PackedFile	1
 key	text	tooltip
+unit_abilities_onscreen_name_fim_skattach_poison_mist	Poison Mist	false
+unit_abilities_tooltip_text_fim_skattach_poison_mist	All Fimir Mearghs are acomppained by a noxious mist that demoralises and poisons their enemies. Skattach is no exception.	false
+unit_abilities_onscreen_name_fim_skattach_summon_bloodletters	Summon Bloodletters	false
+unit_abilities_tooltip_text_fim_skattach_summon_bloodletters	The caster opens a rift into the Realm oF Chaos and binds a pack of Bloodletters to their will.	false
+unit_abilities_onscreen_name_fim_meargh_skattach_staff_balor_ability	Staff of Balor's Eye	false
+unit_abilities_tooltip_text_fim_meargh_skattach_staff_balor_ability	At the tip of this magical staff rests an ancient Fimir artifact known as "Balor's Eye" a magically preserved eye said to belong to the myterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user's enemies within.	false
 unit_abilities_onscreen_name_cr_unit_formation_shieldwall	Bordweall 	true
 unit_abilities_tooltip_text_cr_unit_formation_shieldwall	An ancient but effective tactic, warriors stand shoulder to shoulder, holding their shields against their neighbours, creating a formidable wall of shields.	true
 unit_abilities_onscreen_name_ovn_character_abilities_the_recovery_of_the_king	Recovery of the King	true
@@ -232,3 +238,53 @@ unit_abilities_tooltip_text_burning_aura_of_ouch	Lava Trolls are filled with unb
 unit_abilities_onscreen_name_burning_aura_of_ouch	Burning Presence	true
 unit_abilities_tooltip_text_warpstone_solid	The twisted effects of their warpstone changed skin made the skin of these creatures highly resistant to any damage, especially magic. They don't feel pain and will not run before the their unnatural armour is broken.	true
 unit_abilities_onscreen_name_warpstone_solid	Warpstone Skin	true
+unit_abilities_onscreen_name_arb_fatandira_aimed_shot	Aimed Shot	false
+unit_abilities_tooltip_text_arb_fatandira_aimed_shot	"Breathe in, release, breathe out, repeat."	false
+unit_abilities_onscreen_name_arb_fatandira_desert_feint	Desert Feint	false
+unit_abilities_tooltip_text_arb_fatandira_desert_feint	"Heat of the desert, the sand is on my face, without accomplice the soldier knows no disgrace..."	false
+unit_abilities_onscreen_name_arb_fatandira_blades_demise_skill	Blades of Honourable Demise	false
+unit_abilities_tooltip_text_arb_fatandira_blades_demise_skill	Taken by Fatandira from the tomb of the Liche Lord Karitamen in the Borderlands, this pair of Nehekharan Khopeshes magically enhance their owner's combat skills, and weaken anyone struck by them.	false
+special_ability_groups_name_ovn_lore_golden_magus	Lore of the Golden Magus	true
+unit_abilities_onscreen_name_arb_golden_magus_master_djinn	Master of the Djinn	false
+unit_abilities_tooltip_text_arb_golden_magus_master_djinn	"PHENOMENAL COSMIC POWERS!"	false
+unit_abilities_onscreen_name_arb_golden_magus_burning_scimitar_ability	The Flaming Scimitar	false
+unit_abilities_tooltip_text_arb_golden_magus_burning_scimitar_ability	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	false
+unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_bolts_of_burning	Magical Support: Piercing Bolts of Ruin	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_bolts_of_burning	Orders the Flaming Scimitar's Fire Efreets to unleash a barrage of burning bolts upon your enemies.	false
+unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_hurricane_blades	Magical Support: Hurricane of Blades	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_hurricane_blades	Orders the Flaming Scimitar's Tempest Djinns to conjure a potent torrent of curved windswords upon the battlefield.	false
+unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_royal_djinn	Summon the Sultan of Flame	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_royal_djinn	"The power! THE ABSOLUTE POWER!"	false
+unit_abilities_onscreen_name_arb_golden_magus_skiff_scirocco	Sirocco	false
+unit_abilities_tooltip_text_arb_golden_magus_skiff_scirocco	The dusty and unforgivable wind of the south, it brings with it the fury and the sweltering heat of the desert.	false
+unit_abilities_onscreen_name_arb_golden_magus_skiff_mistral	Mistral	false
+unit_abilities_tooltip_text_arb_golden_magus_skiff_mistral	The cool and protective wind of the north, it blows away the evil and wrongness in the skies and shields all from harm.	false
+unit_abilities_onscreen_name_arb_sultan_flame_bound_firestorm	Flame Storm	false
+unit_abilities_tooltip_text_arb_sultan_flame_bound_firestorm	A column of churning fire erupts from the battlefield, causing much destruction!    	false
+unit_abilities_onscreen_name_arb_sultan_flame_bound_fireburst	Flame Burst	false
+unit_abilities_tooltip_text_arb_sultan_flame_bound_fireburst	Searing flames burst from the caster, burning everything around them.	false
+unit_abilities_onscreen_name_arb_golden_magus_wrath_djinn_passive	Wrath of the Djinn	false
+unit_abilities_tooltip_text_arb_golden_magus_wrath_djinn_passive	The power the Golden Magus wields comes at a price. If his concentration wanes during battle, the Djinn under his control will sense his weakness and attempt to turn the Magus' power against himself.	false
+unit_abilities_onscreen_name_hlf_glibfoot_adv_continues	And the Adventure Continues!	true
+unit_abilities_tooltip_text_hlf_glibfoot_adv_continues	“A good story, you don't really write. It was always there. You just uncover it.”	true
+unit_abilities_onscreen_name_hlf_glibfoot_for_the_moot	For the Moot!	false
+unit_abilities_tooltip_text_hlf_glibfoot_for_the_moot	Through his perseverance and determination, Glibfoot's tall tales have now become a reality, and as such he now inspires the Halflings following him to deeds of legend.	false
+unit_abilities_onscreen_name_hlf_glibfoot_hyshia_charged_shot	Hyshia	false
+unit_abilities_tooltip_text_hlf_glibfoot_hyshia_charged_shot	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	false
+unit_abilities_onscreen_name_hlf_glibfoot_willowblade_ability	Cipher Blade	false
+unit_abilities_tooltip_text_hlf_glibfoot_willowblade_ability	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality, it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	false
+unit_abilities_onscreen_name_hlf_glibfoot_thief_tactics	Thief Tactics	false
+unit_abilities_tooltip_text_hlf_glibfoot_thief_tactics	"It's TREASURE HUNTER, not thief!"	false
+unit_abilities_onscreen_name_hlf_master_chef_regeneration_passive_aura	Stir the Pot	true
+unit_abilities_tooltip_text_hlf_master_chef_regeneration_passive_aura	So long as the Master Chef is out of combat, he will keep cooking revitalising food for his fellow Halflings. 	true
+unit_abilities_onscreen_name_hlf_master_chef_earth_blood	Beef & Beer Pie	true
+unit_abilities_tooltip_text_hlf_master_chef_earth_blood	"A little bit of Rhya’s fancy"	true
+unit_abilities_onscreen_name_hlf_master_chef_earth_blood_upgraded	Rumster’s Special	true
+unit_abilities_tooltip_text_hlf_master_chef_earth_blood_upgraded	The Rumster Clan of Halflings are known to make anything put in a pie taste good... even each other	true
+unit_abilities_onscreen_name_hlf_master_chef_hot_spices	Hot Spices	true
+unit_abilities_tooltip_text_hlf_master_chef_hot_spices	"One of the longshanks brought these mean little buggers from Lustria... Why don't you have a taste?"	true
+unit_abilities_onscreen_name_hlf_master_chef_flush_soup	Spill the Soup!	true
+unit_abilities_tooltip_text_hlf_master_chef_flush_soup	"So you want to get my food? WELL, CHOKE ON IT!"	true
+unit_abilities_onscreen_name_hlf_master_chef_epinephrine	Epinephrine	true
+unit_abilities_tooltip_text_hlf_master_chef_epinephrine	Go live forever!	true
+special_ability_phases_onscreen_name_hlf_master_chef_contact_poisoned	[[col:red]][[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Deadly Poison Arrow！\\n[[img:icon_hp]][[/img]]Sustained Damage[[/col]]	true

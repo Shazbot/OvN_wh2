@@ -1,5 +1,21 @@
 Loc PackedFile	1
 key	text	tooltip
+ancillaries_colour_text_ovn_bd_crimson_blade	This was the sword that Walach used to cut down the true Grand Master of the Order of the Blood Dragon. Its keen edge means red ruin to any who dare oppose him. 	true
+ancillaries_colour_text_ovn_bd_blood_chalice	This chalice contains the life blood of the greatest opponents Walach has slain in battle. Their pure and noble blood is a potent source of power to any Vampire who drinks it. 	true
+ancillaries_onscreen_name_ovn_bd_crimson_blade	Crimson Blade	true
+ancillaries_onscreen_name_ovn_bd_blood_chalice	Blood Chalice	true
+ancillaries_colour_text_ovn_anc_magic_standard_blood_dragon	This banner instils Harkons knights with the legacy of vengeance after Mikael, second in command to Walach was slain.	true
+ancillaries_onscreen_name_ovn_anc_magic_standard_blood_dragon	Blood Dragon Standard	true
+effect_bundles_localised_title_ovn_anc_magic_standard_blood_dragon	Blood Dragon Standard	true
+effect_bundles_localised_description_ovn_anc_magic_standard_blood_dragon	This banner instils Harkons knights with the legacy of vengeance after Mikael, second in command to Walach was slain.	true
+ancillaries_colour_text_chalcidar_orb	A powerful weapon to be used against the undead, though it's twisted malevolence torments its wielder with visions of impending undeath.	true
+ancillaries_onscreen_name_chalcidar_orb	Orb of Chalcidar	true
+ancillaries_colour_text_malach_sword	Forged by Malach the Cruel, this sword easily dispatches the undead not that the living shouldn't fear it too.	true
+ancillaries_onscreen_name_malach_sword	Blade of Malach	true
+ancillaries_colour_text_ovn_anc_magic_standard_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs that magically send arrows and bolts spinning off course.	true
+ancillaries_onscreen_name_ovn_anc_magic_standard_ptolos	Shield of Ptolos	true
+effect_bundles_localised_title_ovn_anc_magic_standard_ptolos	Shield of Ptolos	true
+effect_bundles_localised_description_ovn_anc_magic_standard_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs that magically send arrows and bolts spinning off course.	true
 ancillaries_colour_text_dread_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares. They are Undead stallions clad in baroque barding.	true
 ancillaries_onscreen_name_dread_barded_nightmare	Barded Nightmare	true
 ancillaries_colour_text_dread_zombie_dragon	Animated by Dark Magic, a zombie dragon is an unholy parody of a once-noble beast now borne aloft by great tattered wings, its body covered with thick, withered hide.	true

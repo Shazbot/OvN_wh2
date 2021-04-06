@@ -1,0 +1,318 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_ovn_effect_enable_mount_djinn_vessel	Follower: Djinn Vessel	true
+effects_description_ovn_effect_enable_mount_magic_carpet	Mount: Flying Carpet	true
+wh_main_effect_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
+effects_description_Black_Book_Of_Ibn_Naggazar	Improved Power Recharge Rate	true
+wh_main_effect_name_summon_djinn_fighter	Summon Unchained Ifreet	true
+effects_description_summon_djinn_fighter	Ability: Summon Unchained Ifreet	true
+effects_description_wh2_dlc12_army_abilities_great_invocation_of_djinn	Ability: Summon Serpent Djinn	true
+wh_main_effect_name_wh2_dlc12_army_abilities_great_invocation_of_djinn	Summon Serpent Djinn	true
+effects_description_arb_jaffar_serpent_djinn_enable	Ability: Serpent Staff	true
+effects_description_arb_jaffar_camel_mount	Unlocks mount: Camel	true
+effects_description_arb_jaffar_elephant_mount	Unlocks mount: Royal Elephant	true
+effects_description_arb_jaffar_serpent_guard_upkeep	Upkeep: %+n% for Arabyan Guard and Sipahi	true
+effects_description_arb_jaffar_serpent_guard_melee	Melee Attack: %+n for Arabyan Guard and Sipahi	true
+effects_description_arb_jaffar_serpent_guard_defence	Melee Defense: %+n for Arabyan Guard and Sipahi	true
+effects_description_arb_jaffar_enable_aura_will	Ability: Will of Jaffar	true
+effect_bundles_localised_title_ovn_arb_jehad	Jehad	true
+effect_bundles_localised_description_ovn_arb_jehad	You have reclaimed sacred Arabyan ground, the people rejoice and flock to join your armies.	true
+effect_bundles_localised_title_ovn_arb_jehad_army	Holy Warriors	true
+effect_bundles_localised_description_ovn_arb_jehad_army	These mighty warriors have reclaimed sacred Arabyan land, they are lauded as heroes and blessed by the gods.	true
+effect_bundles_localised_title_ovn_scy_numas_trans	Tutankhanut's Blessings	true
+effect_bundles_localised_description_ovn_scy_numas_trans	You have claimed this land in Tutankhanut's name, this pleases him.	true
+effects_description_chief_cap	Recruitment Cap: %+n for Albion Chieftains	true
+effects_description_wyrd_cap	Recruitment Cap: %+n for Wyrd Druids	true
+effects_description_chief_enable	Enable Recruitment of Albion Chieftains	true
+effects_description_wyrd_enable	Enable Recruitment of Wyrd Druids	true
+effects_description_elo_warband_cost	Recruitment Cost: %+n% for Albion Warband units	true
+effects_description_elo_ranged_reload	Reload Speed: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
+effects_description_elo_ranged_xp	Recruitment Rank: %+n  for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
+effects_description_disable_war_fury_2	Removes "War Fury 2" from all units that have it	true
+effects_description_elo_elite_warband_wps	Weapon Strength: %+n% for Hearthguard, Highlanders and Viridian Lords	true
+effects_description_elo_noble_cav_chariot_armour	Armour: %+n for Noble Cavalary and Chariots	true
+effects_description_elo_noble_cav_chariot_vigour	Vigour Loss: %+n% for Noble Cavalary and Chariots	true
+effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_monsters_fen_anti_small	Bonus vs Infantry: %+n for Fenbeasts and Fenhulks	true
+effects_description_albion_monsters_fen_mdef	Melee Defence: %+n for Fenbeasts and Fenhulks	true
+effects_description_albion_monsters_fen_mattk	Melee Attack: %+n for Fenbeasts and Fenhulks	true
+effects_description_enable_zeal_holy_albion	Ability "Holy Zeal" for Sword Maidens, Druid Neophytes and Woad Raiders	true
+effects_description_elo_albion_upkeep_all	Upkeep: %+n% for all units	true
+effects_description_elo_hunting_parties_upkeep	Upkeep: %+n% for Huntresses and Bloodhounds	true
+effects_description_elo_wooden_structures_cost	Recruitment Cost: %+n% for Stonethrowers and Chariots	true
+effects_description_elo_albion_protectors_world	Ability: "Protectors of the World" for all units	true
+effects_description_elo_druid_circle_banish	Bound Spell: "Banishment" for Druid Neophytes	false
+effects_description_elo_druid_circle_xp	Recruitment Rank: %+n for Druid Neophytes	false
+effects_description_elo_druid_circle_mdef	Melee Defence: %+n for Druid Neophytes	false
+effects_description_elo_druid_circle_mattk	Melee Attack: %+n for Druid Neophytes	false
+effects_description_elo_druid_circle_lead	Leadership: %+n for Druid Neophytes	false
+effects_description_recruitment_rank_truthsayer	Recruitment Rank: %+n for Truthsayers	false
+effects_description_enable_recruitment_elo_centurion	Enable Recruitment of Dread Centurions	true
+effects_description_grudge_summon_wagons	Adds %n War Wagons at the start of any defensive battle	true
+effects_description_effect_ability_enable_ice_cold	Passive ability: Unnatural Cold	true
+effects_description_effect_ability_enable_ice_winter	Passive ability: Winter Rage	true
+effects_description_effect_magic_ice_cooldown_blinding_blizzard	Cooldown: %+n% to Blinding Tempest	true
+effects_description_effect_magic_ice_cooldown_chill	Cooldown: %+n% to Chill	true
+effects_description_effect_magic_ice_cooldown_crisping_cold	Cooldown: %+n% to Crisping Cold	true
+effects_description_effect_magic_ice_cooldown_frost_blade	Cooldown: %+n% to Frost Blade	true
+effects_description_effect_magic_ice_cooldown_ice_shards	Cooldown: %+n% to Ice Shards	true
+effects_description_effect_magic_ice_cooldown_shattering_frost	Cooldown: %+n% to Shattering Frost	true
+effects_description_effect_magic_ice_cooldown_shield_of_cold	Cooldown: %+n% to Shield of Cold	true
+effects_description_effect_magic_ice_enable_blinding_blizzard	Spell: Blinding Blizzard	true
+effects_description_effect_magic_ice_enable_blinding_blizzard_upgraded	Overcast spell: Blinding Tempest	true
+effects_description_effect_magic_ice_enable_chill	Spell: Chill	true
+effects_description_effect_magic_ice_enable_chill_upgraded	Overcast spell: Petrifying Chill	true
+effects_description_effect_magic_ice_enable_crisping_cold	Spell: Crisping Cold	true
+effects_description_effect_magic_ice_enable_crisping_cold_upgraded	Overcast spell: Crisping Cold Advanced	true
+effects_description_effect_magic_ice_enable_frost_blade	Spell: Frost Blade	true
+effects_description_effect_magic_ice_enable_frost_blade_upgraded	Overcast spell: Frost Blade Reinforced	true
+effects_description_effect_magic_ice_enable_ice_shards	Spell: Ice Shards	true
+effects_description_effect_magic_ice_enable_ice_shards_upgraded	Overcast spell: Sharp Ice Shards	true
+effects_description_effect_magic_ice_enable_shattering_frost	Spell: Shattering Frost	true
+effects_description_effect_magic_ice_enable_shattering_frost_upgraded	Overcast spell: Shattering Frost Advanced	true
+effects_description_effect_magic_ice_enable_shield_of_cold	Spell: Shield of Cold	true
+effects_description_effect_magic_ice_enable_shield_of_cold_upgraded	Overcast spell: Shield of Cold Reinforced	true
+effects_description_effect_magic_ice_miscast_reduction_blinding_blizzard_upgraded	Miscast base chance: %+n% for Blinding Tempest	true
+effects_description_effect_magic_ice_miscast_reduction_chill_upgraded	Miscast base chance: %+n% for Petrifying Chilll	true
+effects_description_effect_magic_ice_miscast_reduction_crisping_cold_upgraded	Miscast base chance: %+n% for Crisping Cold Advanced	true
+effects_description_effect_magic_ice_miscast_reduction_frost_blade_upgraded	Miscast base chance: %+n% for Frost Blade Reinforced	true
+effects_description_effect_magic_ice_miscast_reduction_ice_shards_upgraded	Miscast base chance: %+n% for Sharp Ice Shards	true
+effects_description_effect_magic_ice_miscast_reduction_shattering_frost_upgraded	Miscast base chance: %+n% for Shattering Frost Advanced	true
+effects_description_effect_magic_ice_miscast_reduction_shield_of_cold_upgraded	Miscast base chance: %+n% for Shield of Cold Reinforced	true
+effects_description_effect_magic_ice_reduce_wom_cost_blinding_blizzard	Winds of Magic cost: %n for Blinding Blizzard	true
+effects_description_effect_magic_ice_reduce_wom_cost_blinding_blizzard_upgraded	Winds of Magic cost: %n for Blinding Tempest	true
+effects_description_effect_magic_ice_reduce_wom_cost_chill	Winds of Magic cost: %n for Chill	true
+effects_description_effect_magic_ice_reduce_wom_cost_chill_upgraded	Winds of Magic cost: %n for Petrifying Chill	true
+effects_description_effect_magic_ice_reduce_wom_cost_crisping_cold	Winds of Magic cost: %n for Crisping Cold	true
+effects_description_effect_magic_ice_reduce_wom_cost_crisping_cold_upgraded	Winds of Magic cost: %n for Crisping Cold Advanced	true
+effects_description_effect_magic_ice_reduce_wom_cost_frost_blade	Winds of Magic cost: %n for Frost Blade	true
+effects_description_effect_magic_ice_reduce_wom_cost_frost_blade_upgraded	Winds of Magic cost: %n for Frost Blade Reinforced	true
+effects_description_effect_magic_ice_reduce_wom_cost_ice_shards	Winds of Magic cost: %n for Ice Shards	true
+effects_description_effect_magic_ice_reduce_wom_cost_ice_shards_upgraded	Winds of Magic cost: %n for Sharp Ice Shards	true
+effects_description_effect_magic_ice_reduce_wom_cost_shattering_frost	Winds of Magic cost: %n for Shattering Frost	true
+effects_description_effect_magic_ice_reduce_wom_cost_shattering_frost_upgraded	Winds of Magic cost: %n for Shattering Frost Advanced	true
+effects_description_effect_magic_ice_reduce_wom_cost_shield_of_cold	Winds of Magic cost: %n for Shield of Cold	true
+effects_description_effect_magic_ice_reduce_wom_cost_shield_of_cold_upgraded	Winds of Magic cost: %n for Shield of Cold Reinforced	true
+effects_description_grudge_effect_ability_enable_arrow_of_kurnous	Ability: Rage of the Forest	true
+effects_description_grudge_effect_ability_enable_pepperpot	Ability: Pepperpot	true
+effects_description_grudge_effect_ability_enable_shrapnel_shot	Ability: Shrapnel Shot	true
+effects_description_grudge_skill_ability_volley_of_arrows	Ability: Hail of Arrows	true
+effects_description_grudge_skill_ability_volley_of_dark_arrows	Ability: Hellrain	true
+effects_description_effect_magic_ice_enable_storm_strike	Spell: Storm Strike	true
+effects_description_effect_magic_ice_enable_storm_strike_upgraded	Overcast spell: Storm Strike Advanced	true
+effects_description_effect_magic_ice_cooldown_storm_strike	Cooldown: %+n% to Storm Strike	true
+effects_description_effect_magic_ice_miscast_reduction_storm_strike_upgraded	Miscast base chance: %+n% for Storm Strike Advanced	true
+effects_description_effect_magic_ice_reduce_wom_cost_storm_strike	Winds of Magic cost: %n for Storm Strike	true
+effects_description_effect_magic_ice_reduce_wom_cost_storm_strike_upgraded	Winds of Magic cost: %n for Storm Strike Advanced	true
+effects_description_effect_magic_ice_enable_chill_blast	Spell: Chill Blast	true
+effects_description_effect_magic_ice_enable_chill_blast_upgraded	Overcast spell: Chill Blast Advanced	true
+effects_description_effect_magic_ice_cooldown_chill_blast	Cooldown: %+n% to Chill Blast	true
+effects_description_effect_magic_ice_miscast_reduction_chill_blast_upgraded	Miscast base chance: %+n% for Chill Blast Advanced	true
+effects_description_effect_magic_ice_reduce_wom_cost_chill_blast	Winds of Magic cost: %n for Chill Blast	true
+effects_description_effect_magic_ice_reduce_wom_cost_chill_blast_upgraded	Winds of Magic cost: %n for Chill Blast Advanced	true
+effects_description_effect_magic_ice_enable_ice_blizzard	Spell: Ice Blizzard	true
+effects_description_effect_magic_ice_enable_ice_blizzard_upgraded	Overcast spell: Ice Storm	true
+effects_description_effect_magic_ice_cooldown_ice_blizzard	Cooldown: %+n% to Ice Blizzard	true
+effects_description_effect_magic_ice_miscast_reduction_ice_blizzardt_upgraded	Miscast base chance: %+n% for Ice Storm	true
+effects_description_effect_magic_ice_reduce_wom_cost_ice_blizzard	Winds of Magic cost: %n for Ice Blizzard	true
+effects_description_effect_magic_ice_reduce_wom_cost_ice_blizzard_upgraded	Winds of Magic cost: %n for Ice Storm	true
+effects_description_effect_magic_ice_enable_tempest	Spell: Biting Wind	true
+effects_description_effect_magic_ice_enable_tempest_upgraded	Overcast spell: Biting Wind Advanced	true
+effects_description_effect_magic_ice_cooldown_tempest	Cooldown: %+n% to Biting Wind	true
+effects_description_effect_magic_ice_miscast_reduction_tempest_upgraded	Miscast base chance: %+n% for Biting Wind Advanced	true
+effects_description_effect_magic_ice_reduce_wom_cost_tempest	Winds of Magic cost: %n for Biting Wind	true
+effects_description_effect_magic_ice_reduce_wom_cost_tempest_upgraded	Winds of Magic cost: %n for Biting Wind Advanced	true
+effects_description_effect_magic_ice_enable_hailstorm	Spell: Hailstorm	true
+effects_description_effect_magic_ice_enable_hailstorm_upgraded	Overcast spell: Hailstorm Advanced	true
+effects_description_effect_magic_ice_cooldown_hailstorm	Cooldown: %+n% to Hailstorm	true
+effects_description_effect_magic_ice_miscast_reduction_hailstorm_upgraded	Miscast base chance: %+n% for Hailstorm Advanced	true
+effects_description_effect_magic_ice_reduce_wom_cost_hailstorm	Winds of Magic cost: %n for Hailstorm	true
+effects_description_effect_magic_ice_reduce_wom_cost_hailstorm_upgraded	Winds of Magic cost: %n for Hailstorm Advanced	true
+effects_description_grudge_effect_upkeep_for_grudge	Upkeep: %+n% for all Grudgebringers	true
+effects_description_grudge_effect_ability_enable_ballistics_calibration1	Passive ability: True Born Sniper	true
+effects_description_grudge_effect_ability_enable_ballistics_calibration2	Passive ability: True Born Sniper	true
+effects_description_grudge_effect_ability_enable_ballistics_calibration3	Passive ability: True Born Sniper	true
+effects_description_grudge_effect_ability_enable_explosion1	Passive ability: Highly Explosive Shells	true
+effects_description_grudge_effect_ability_enable_apexplosion1	Passive ability: Shrapnel Shells	true
+effects_description_grudge_effect_ability_enable_explosion2	Passive ability: Highly Explosive Shells	true
+effects_description_grudge_effect_ability_enable_apexplosion2	Passive ability: Shrapnel Shells	true
+effects_description_grudge_effect_ability_enable_explosion3	Passive ability: Highly Explosive Shells	true
+effects_description_grudge_effect_ability_enable_apexplosion3	Passive ability: Shrapnel Shells	true
+effects_description_effect_magic_ice_reduce_wom_cost	Winds of Magic cost: %n for any spell	true
+effects_description_grudge_effect_ability_enable_the_reikland_runefang	Ability: Grudgebringers' Runefang	true
+effects_description_grudge_effect_ability_enable_grudgebringer_sword	Ability: Grudgebringer Sword	true
+effects_description_grudge_effect_ability_enable_hellfire_sword	Ability: Hellfire Sword	true
+effects_description_grudge_effect_ability_enable_storm_sword	Ability: Storm Sword	true
+effects_description_grudge_effect_ability_enable_horn_of_urgok	Ability: Horn of Urgok	true
+effects_description_grudge_effect_ability_enable_banner_of_wrath	Ability: Banner of Wrath	true
+effects_description_grudge_effect_ability_enable_spelleater_shield	Ability: Spelleater Shield	true
+effects_description_grudge_effect_ability_enable_banner_of_arcane_warding	Ability: Banner of Arcane Warding	true
+effects_description_grudge_skill_ability_swiftness_of_itzl	Ability: Unstoppable Charge	true
+effects_description_grudge_skill_ability_skv_verminous_valour	Ability: Decisive Battle	true
+effects_description_obo_effect_enable_ability_extra_powder	Ability: Extra Powder	true
+effects_description_obo_effect_enable_ability_more_powder	Ability: More Powder!	true
+effects_description_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	Ability: "Twilight Mirror Shard"	true
+unit_abilities_onscreen_name_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	Twilight Mirror Shard	true
+unit_abilities_tooltip_text_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	The shard tears open a fragile portal to the realm of Chaos just long enough for vile Chaos Spawn to spill forth.	true
+unit_abilities_tooltip_text_ovn_arb_baz_wep_10_vengeful_sword_heal	Slay, slay and slay some more so I might feed on their souls, I demand it!	true
+unit_abilities_onscreen_name_ovn_arb_baz_wep_10_vengeful_sword_heal	Vengeful God Sword (Feeding)	true
+effects_description_ovn_arb_baz_wep_10_vengeful_sword_heal	Passive ability: "Vengeful God Sword" (Feeding)	true
+unit_abilities_tooltip_text_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Your soul is mine, your very life is mine to devour! Hurry now, so you are merely the entree to my feast!	true
+unit_abilities_onscreen_name_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Vengeful God Sword (Hungers)	true
+effects_description_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Passive ability: "Vengeful God Sword" (Hungers)	true
+unit_abilities_tooltip_text_ovn_arb_baz_wep_08_matyr_shard_ability	Death is not the end, give yourself to death, give yourself to martyrdom and your name will echo through the ages.	true
+unit_abilities_onscreen_name_ovn_arb_baz_wep_08_matyr_shard_ability	Martyr’s Stand	true
+effects_description_ovn_arb_baz_wep_08_matyr_shard_ability	Passive ability: "Martyr’s Stand"	true
+unit_abilities_tooltip_text_ovn_arb_baz_heal	The deserts of Araby are a harsh mistress but not always...	true
+unit_abilities_onscreen_name_ovn_arb_baz_heal	Divine Healing	true
+effects_description_ovn_arb_baz_heal	Passive ability: "Divine Healing"	true
+unit_abilities_additional_ui_effects_localised_text_ovn_arb_baz_heal	[[col:green]][[img:icon_arrow_up]][[/img]] Restores [[img:icon_hp]][[/img]]5 Hit Points every other second[[/col]]	true
+unit_abilities_tooltip_text_ovn_arb_baz_arm_09_faith_shield_ability	Trust absolutey in the gods, never let your faith waver and you may yet live.	true
+unit_abilities_onscreen_name_ovn_arb_baz_arm_09_faith_shield_ability	Divine Faith	true
+effects_description_ovn_arb_baz_arm_09_faith_shield_ability	Passive ability: "Divine Faith"	true
+unit_abilities_tooltip_text_ovn_arb_baz_arm_08_gorgon_shield_ability	Filled with dread, their bodies freeze for none can withstand the Gorgon's glare.	true
+unit_abilities_onscreen_name_ovn_arb_baz_arm_08_gorgon_shield_ability	Gorgon's Glare	true
+effects_description_ovn_arb_baz_arm_08_gorgon_shield_ability	Ability: "Gorgon's Glare"	true
+effect_bundles_localised_description_ovn_arb_baz_worship_01_djinn	The Cult of the Djinns is the predominant religion in Araby, headed by the Caliphs, and very popular with the Arabyan people. Their idols can be found in every temple and home, because they ain't never had protectors like them.	true
+effect_bundles_localised_title_ovn_arb_baz_worship_01_djinn	Cult of Djinns	true
+effects_description_smokeleaf_smokescreen	Ability: "Tobacco Smokescreen"	true
+unit_abilities_tooltip_text_ovn_arb_baz_escape	It's as if they have melted away into the Arabyan dunes, nowhere to be seen.	true
+unit_abilities_onscreen_name_ovn_arb_baz_escape	Enveloped by the Dune	true
+effects_description_ovn_arb_baz_escape	Ability: "Enveloped by the Dune"	true
+effects_description_ovn_grudge_diplo_bonus	Diplomatic relations: %+n with Men, Dwarfs and Wood Elves	false
+effects_description_fim_skattach_fimir_magic_res	Magic resistance: %n% for Fimir Warriors, Fimm Guard and Fianna Fimm	true
+effects_description_fim_skattach_daemon_damage	Melee attack: %+n for Bloodletters and Plaguebearers	true
+effects_description_fim_skattach_fianna_damage	Melee attack: %+n for Fianna Fimm	true
+effects_description_fim_skattach_fianna_defence	Melee defence: %+n for Fianna Fimm	true
+effects_description_fim_skattach_fianna_upkeep	Upkeep: %+n% for Fianna Fimm	true
+effects_description_fim_skattach_enable_poison_mist	Ability: "Poison Mist"	true
+effects_description_fim_skattach_apprentices_range	Range: %+n%  for Balefiend Apprentices	true
+effects_description_fim_skattach_apprentices_damage	Missile damage: %+n% for Balefiend Apprentices	true
+effects_description_fim_skattach_enable_summon_bloodletter	Ability: "Summon Bloodletters"	true
+unit_abilities_additional_ui_effects_localised_text_fim_skattach_summon_bloodletters	[[col:green]][[img:icon_arrow_up]][[/img]] Summons a unit of Bloodletters[[/col]]	true
+effects_description_fim_skattach_enable_staff_ability	Ability: "Staff of Balor's Eye"	true
+effects_description_arb_fatandira_innate_nomad_discount	Upkeep: %+n% for all Arabyan Nomad units	true
+effects_description_arb_fatandira_innate_nomad_ammo	Ammunition: %n% for all ranged Arabyan Nomad units	true
+effects_description_arb_fatandira_enable_aimed_shot	Ability: "Aimed Shot"	true
+effects_description_arb_fatandira_enable_aimed_shot_cooldown	Cooldown: %+n% to "Aimed Shot"	true
+effects_description_arb_fatandira_nomad_speed	Speed: %+n% for all Arabyan Nomad units	true
+effects_description_arb_fatandira_nomad_ranged_damage	Missile strength: %+n% for all ranged Arabyan Nomad units	true
+effects_description_arb_fatandira_enable_sand_feint	Ability: "Sand Feint"	true
+effects_description_arb_fatandira_enable_warhorse_mount	Unlocks mount: Warhorse	true
+effects_description_arb_fatandira_enable_roc_mount	Unlocks mount: Saqir	true
+effects_description_arb_fatandira_enable_blades_demise	Ability: "Blades of Honourable Demise"	true
+effects_description_arb_golden_magus_enable_master_djinn	Ability: "Master of the Djinn"	true
+effects_description_arb_golden_magus_wishmaster_djinn_exp	Recruit rank: %+n for Arabyan Flying Carpets, Genies & Khimar al-Nar	true
+effects_description_arb_golden_magus_enable_burning_scimitar	Ability: "The Flaming Scimitar"	true
+effects_description_ovn_glibfoot_enable_adv_continues	Ability: "And the Adventure Continues!"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_enable	Army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_disable	Remove army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_hurricane_blades_enable	Army ability: "Hurricane of Blades"	true
+effects_description_arb_golden_magus_flaming_scimitar_royal_djinn_enable	Army ability: "Summon the Sultan of Flame"	true
+effects_description_arb_golden_magus_innate_djinn_upkeep	Upkeep: %+n% for Arabyan Flying Carpets, Genies & Khimar al-Nar	true
+effects_description_arb_golden_magus_diplomatic_relations_sartosa	Diplomatic relations: %+n with the faction of [[img:cst_pirates_of_sartosa]][[/img]]Pirates of Sartosa	true
+effects_description_arb_golden_magus_ship_growth	Flagship growth: %+n	true
+effects_description_arb_golden_magus_camel_mount	Unlocks mount: Camel	true
+effects_description_arb_golden_magus_skiff_mount	Unlocks mount: Djinn Skiff	true
+effects_description_hlf_glibfoot_hlf_thieves	Recruitment Rank: %+n for Press-Ganged Thieves	false
+effects_description_hlf_glibfoot_reduce_inf_upkeep	Upkeep: %+n% for all melee Halfling units	false
+effects_description_hlf_glibfoot_morale_inf	Leadership: %+n for all melee Halfling units	false
+effects_description_ovn_glibfoot_enable_adv_continues	Ability: "And the Adventure Continues!"	true
+effects_description_hlf_glibfoot_inf_xp_inc	Recruit rank: %+n for Halfling Melee Infantry units	false
+effects_description_hlf_glibfoot_ranged_xp_inc	Recruit rank: %+n for Halfling Ranged Infantry units	false
+effects_description_hlf_glibfoot_cav_xp_inc	Recruit rank: %+n for Halfling Cavalry units	false
+effects_description_hlf_glibfoot_warden_xp_inc	Recruit rank: %+n for Halfling Warden units	false
+effects_description_hlf_glibfoot_rangers_xp_inc	Recruit rank: %+n for Halfling Ranger units	false
+effects_description_hlf_glibfoot_warden_melee_inc	Weapon strength: %+n% for Halfling Warden units	false
+effects_description_hlf_glibfoot_rangers_ranged_inc	Missile strength: %+n% for Halfling Ranger units	false
+effects_description_ovn_glibfoot_enable_for_the_moot	Ability: "For the Moot!"	true
+effects_description_ovn_glibfoot_enable_hyshia_charged_shot	Ability: "Hyshia"	true
+effects_description_ovn_glibfoot_enable_willowblade_ability	Ability: "Cipher Blade"	true
+effects_description_ovn_glibfoot_enable_thief_tactics_ability	Ability: "Thief Tactics"	true
+effects_description_hlf_reduce_all_units_upkeep	Upkeep: %+n% for all Halfling units	false
+effects_description_wh_main_effect_agent_enable_recruitment_fieldwarden	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Fieldwarden	true
+effects_description_wh_main_effect_agent_cap_increase_spy_fieldwarden	Hero capacity: %+n for Fieldwarden	true
+effects_description_wh_main_effect_agent_cap_increase_fieldwarden_level	Hero recruit rank: %+n for Fieldwarden	true
+effects_description_wh_main_effect_agent_enable_recruitment_master_chef	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Master Chef	true
+effects_description_wh_main_effect_agent_cap_increase_dignatary_master_chef	Hero capacity: %+n for Master Chef	true
+effects_description_wh_main_effect_agent_cap_increase_master_chef_level	Hero recruit rank: %+n for Master Chef	true
+effects_description_hlf_master_chef_enable_regeneration_passive_aura	Passive ability: "Stir the Pot"	true
+effects_description_hlf_master_chef_enable_ability_earth_blood	Ability: "Beef & Beer Pie"	true
+effects_description_hlf_master_chef_disable_ability_earth_blood	Replaces: "Beef & Beer Pie"	true
+effects_description_hlf_master_chef_enable_ability_earth_blood_upgraded	Ability: "Rumster's Special"	true
+effects_description_hlf_master_chef_uses_ability_earth_blood_upgraded	Ability number of uses: %+n for "Rumster's Special"	true
+effects_description_ovn_feast_aura_enable	Aura: "The Feast is Coming!"	true
+effects_description_hlf_master_chef_enable_hot_spices_aura	Aura: "Hot Spices"	true
+effects_description_wh_main_effect_agent_enable_recruitment_sheriff	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sheriff	true
+effects_description_wh_main_effect_agent_cap_increase_champion-sheriff	Hero capacity: %+n for Sheriff	true
+effects_description_wh_main_effect_agent_cap_increase_sheriff_level	Hero recruit rank: %+n for Sheriff	true
+effects_description_hlf_master_chef_enable_flush_soup	Ability: "Spill the Soup!"	true
+effects_description_hlf_master_chef_enable_wagon_mount	Mount: Chuck Wagon	true
+effects_description_hlf_moot_general_enable_pig_mount	Mount: Battle Swine	true
+effects_description_hlf_moot_general_enable_poultry_mount	Mount: Battle Cockerel	true
+effects_description_hlf_sheriff_enable_pig_mount	Mount: Battle Swine	true
+effects_description_ovn_effect_ability_enable_blessing_of_the_elements	Passive ability: "Blessing of the Elements"	true
+effects_description_ovn_effect_magic_desert_enable_mirage	Spell: "Mirage"	true
+effects_description_ovn_effect_magic_desert_enable_mirage_upgraded	Overcast spell: "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_mirage	Cooldown: %+n% to "Mirage"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_mirage_upgraded	Miscast base chance: %+n% for "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_mirage	Winds of Magic cost: %n for "Mirage"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_mirage_upgraded	Winds of Magic cost: %n for "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike	Spell: "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_cooldown_sunstrike	Cooldown: %+n% to "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike_upgraded	Overcast spell: "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sunstrike_upgraded	Miscast base chance: %+n% for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike	Winds of Magic cost: %n for "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike_upgraded	Winds of Magic cost: %n for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm	Spell: "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_cooldown_sandstorm	Cooldown: %+n% to "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm_upgraded	Overcast spell: "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sandstorm_upgraded	Miscast base chance: %+n% for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm	Winds of Magic cost: %n for "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm_upgraded	Winds of Magic cost: %n for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand	Spell: "Quicksand"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand_upgraded	Overcast spell: "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_quicksand	Cooldown: %+n% to "Quicksand"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_quicksand_upgraded	Miscast base chance: %+n% for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand	Winds of Magic cost: %n for "Quicksand"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand_upgraded	Winds of Magic cost: %n for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands	Spell: "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands_upgraded	Overcast spell: "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_burning_hands	Cooldown: %+n% to "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_burning_hands_upgraded	Miscast base chance: %+n% for "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands	Winds of Magic cost: %n for "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands_upgraded	Winds of Magic cost: %n for "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn	Spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn_upgraded	Overcast spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_cooldown_curse_of_the_djinn	Cooldown: %+n% to "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_curse_of_the_djinn_upgraded	Miscast base chance: %+n% for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn	Winds of Magic cost: %n for "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn_upgraded	Winds of Magic cost: %n for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_diplomacy_bonus_hordes	Diplomatic relations: %+n with all horde factions	true
+effects_description_ovn_skill_effect_charge_speed_increase_eagles	Charge bonus: %+n for Great Eagle units	true
+effects_description_ovn_skill_effect_melee_attack_increase_eagles	Melee attack: %+n for Great Eagle units	true
+effects_description_ovn_skill_effect_movement_speed_increase_eagles	Speed: %+n% for Great Eagle units	true
+effects_description_ovn_projectile_replacement_olorin_the_grey_wizard_ulgu_rockets	"Rockets of Ulgu" ammunition ("disrupted" contact effect)	true
+effects_description_ovn_skill_effect_melee_attack_increase_cooks_and_chefs	Melee attack: %+n for Cook and Master Chef units	true
+effects_description_ovn_skill_effect_weapon_damage_increase_cooks_and_chefs	Weapon strength: %+n% for Cook and Master Chef units	true
+effects_description_ovn_skill_effect_upkeep_cost_reduction_cooks_and_chefs	Upkeep: %+n% for Cook and Master Chef units	true
+effects_description_ovn_skill_effect_ability_enable_the_recovery_of_the_king	Ability: "The Recovery of the King"	true
+effects_description_ovn_skill_effect_ability_enable_whirling_death	Ability: "Whirling Death"	true
+effects_description_ovn_skill_effect_ability_enable_storm_of_blades	Ability: "Storm of Blades"	true
+effects_description_ovn_skill_effect_ability_enable_the_shadows_coil	Ability: "The Shadow's Coil"	true
+effects_description_ovn_skill_effect_ability_enable_woven_mist	Ability: "Woven Mist"	true
+effects_description_ovn_skill_effect_ability_enable_passive_unlikely_friendship	Ability: "An Unlikey Friendship"	true
+effects_description_ovn_skill_effect_morale_increase_giblit_the_dwarf	Leadership: %+n for Giblit the Dwarf	true
+effects_description_ovn_skill_effect_armour_increase_giblit_the_dwarf	Armour: %+n for Giblit the Dwarf	true
+effects_description_ovn_skill_effect_movement_speed_increase_feast_carriers	Speed: %+n% for Feast Carrier units	true
+effects_description_ovn_skill_effect_upkeep_cost_reduction_feast_carriers	Upkeep: %+n% for Feast Carrier units	true
+effects_description_ovn_skill_effect_armour_increase_feast_carriers	Armour: %+n for Feast Carrier units	true
+effects_description_ovn_skill_effect_ability_enable_passive_self_preservation	Ability: "Self Preservation"	true
+effects_description_ovn_skill_effect_recruit_time_baby_dragons	Recruitment duration: %+n turn for Baby Dragons (minimum 1)	true
+effects_description_ovn_skill_effect_physical_resistance_baby_dragons	Physical resistance: %n% for Baby Dragons	true
+effects_description_ovn_skill_effect_vigour_loss_reduction_baby_dragons	Vigour loss reduction: %+n% for Baby Dragons	true
+effects_description_ovn_skill_effect_melee_defence_increase_halfling_infantry	Melee attack: %+n for Halfling Infantry units	true
+effects_description_ovn_skill_effect_charge_bonus_increase_halfling_infantry	Charge bonus: %+n% for Halfling Infantry units	true
+effects_description_ovn_skill_effect_state_mod_bonus_v_large_halfling_infantry	Bonus vs. Large: %+n for Halfling Infantry units	true
