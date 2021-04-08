@@ -1,0 +1,4 @@
+warscape_animated_lod_tables	1
+key	filename	range	animated
+524513111	warmachines/chariot/mtl_reaper/mtl_reaper_01.wsmodel	0.0	mtl_reaper
+524513112	warmachines/chariot/mtl_reaper/mtl_reaper_01_destruct.rigid_model_v2	0.0	mtl_reaper_destruct

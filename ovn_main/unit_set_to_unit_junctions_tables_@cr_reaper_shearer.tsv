@@ -1,0 +1,5 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				ovn_mtl_veh_reaper	mp_set_chariots
+false				ovn_mtl_veh_reaper	mp_set_mtl_veh_reapers
+false				ovn_mtl_veh_reaper	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon

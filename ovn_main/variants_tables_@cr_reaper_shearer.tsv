@@ -1,0 +1,4 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+ovn_mtl_reaper_blade		mtl_reaper_blade		1.0	1.0	0.0	
+ovn_mtl_reaper_rider		mtl_reaper_rider		1.0	0.8	0.0	

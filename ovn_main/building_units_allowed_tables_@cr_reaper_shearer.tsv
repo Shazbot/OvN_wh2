@@ -1,0 +1,3 @@
+building_units_allowed_tables	4
+building	unit	xp	key	conditions	faction	enabled
+ovn_half_forges_1	ovn_mtl_veh_reaper	0	261500202	0		false
