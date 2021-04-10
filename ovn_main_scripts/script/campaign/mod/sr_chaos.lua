@@ -746,6 +746,16 @@ local function replace_old_buildings()
 	end
 end
 
+local function give_visibility_over_clan_fester_regions()
+	local clan_fester = cm:get_faction("wh2_dlc12_skv_clan_fester")
+	if not clan_fester then return end
+
+	---@type CA_REGION
+	for region in binding_iter(clan_fester:region_list()) do
+		cm:make_region_visible_in_shroud("wh2_main_nor_rotbloods", region:name())
+	end
+end
+
 cm:add_first_tick_callback(
     function()
 				replace_old_buildings()
@@ -755,9 +765,23 @@ cm:add_first_tick_callback(
 
 				if rotblood_tribe:is_human() then
 					ovn_rotblood_skit_reinforcements_new()
+					give_visibility_over_clan_fester_regions()
+
+					core:remove_listener("ovn_rot_visibility_over_clan_fester_regions")
+					core:add_listener(
+						"ovn_rot_visibility_over_clan_fester_regions",
+						"ScriptEventHumanFactionTurnStart",
+						function(context)
+							return context:faction():name() == "wh2_main_nor_rotbloods"
+						end,
+						function()
+							give_visibility_over_clan_fester_regions()
+						end,
+						true
+					)
 				end
 
-				local rotblood_tribe = cm:get_faction("wh2_main_nor_rotbloods")
+				cm:force_diplomacy("faction:wh2_main_nor_rotbloods", "faction:wh2_dlc12_skv_clan_fester", "war", false, false, true);
 
 				local mct = core:get_static_object("mod_configuration_tool")
 				local rotblood_value
