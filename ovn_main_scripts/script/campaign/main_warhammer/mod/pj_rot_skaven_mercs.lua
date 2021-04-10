@@ -552,6 +552,7 @@ cm:add_saving_game_callback(
 
 		cm:save_named_value("pj_ovn_rotbloods_new_warpstone_mercs_player_res", mod.player_res, context)
 		cm:save_named_value("pj_ovn_rotbloods_new_warpstone_mercs_num_times_purchased", mod.num_times_purchased, context)
+		cm:save_named_value("pj_ovn_rotbloods_unit_to_unit_img", mod.unit_to_unit_img, context)
 	end
 )
 
@@ -559,6 +560,7 @@ cm:add_loading_game_callback(
 	function(context)
 		mod.player_res = cm:load_named_value("pj_ovn_rotbloods_new_warpstone_mercs_player_res", mod.player_res, context)
 		mod.num_times_purchased = cm:load_named_value("pj_ovn_rotbloods_new_warpstone_mercs_num_times_purchased", mod.player_res, context)
+		mod.unit_to_unit_img = cm:load_named_value("pj_ovn_rotbloods_unit_to_unit_img", mod.unit_to_unit_img, context)
 	end
 )
 
@@ -698,11 +700,11 @@ mod.handle_battle_rewards = function(context)
 		if is_rootblood_attacker and attacker_won == true then
 			local attacker_prestige = (defender_value * empire_prestige_kill_value_mod);
 			local kill_ratio = cm:model():pending_battle():percentage_of_defender_killed()
-			out("OVN ROTBLOOD VS SKAVEN:")
-			out("attacker_prestige:")
-			out(attacker_prestige)
-			out("kill_ration:")
-			out(kill_ratio)
+			-- out("OVN ROTBLOOD VS SKAVEN:")
+			-- out("attacker_prestige:")
+			-- out(attacker_prestige)
+			-- out("kill_ration:")
+			-- out(kill_ratio)
 			attacker_prestige = attacker_prestige * kill_ratio
 
 			for i = 1, cm:pending_battle_cache_num_attackers() do
@@ -717,8 +719,8 @@ mod.handle_battle_rewards = function(context)
 							prestige_reward = empire_prestige_kill_income_cap
 						end
 						prestige_reward = math.ceilTo(prestige_reward, 5)
-						out("reward:")
-						out(prestige_reward)
+						-- out("reward:")
+						-- out(prestige_reward)
 						cm:trigger_custom_incident(attacker:name(), "pj_rot_warpstone_incident", true, "payload{faction_pooled_resource_transaction{resource pj_rot_warpstone;factor wh2_main_resource_factor_other;amount "..tostring(prestige_reward)..";};}");
 						already_awarded[attacker_name] = true
 						cm:callback(
@@ -747,8 +749,8 @@ mod.handle_battle_rewards = function(context)
 							prestige_reward = empire_prestige_kill_income_cap
 						end
 						prestige_reward = math.ceilTo(prestige_reward, 5)
-						out("reward:")
-						out(prestige_reward)
+						-- out("reward:")
+						-- out(prestige_reward)
 						cm:trigger_custom_incident(defender:name(), "pj_rot_warpstone_incident", true, "payload{faction_pooled_resource_transaction{resource pj_rot_warpstone;factor wh2_main_resource_factor_other;amount "..tostring(prestige_reward)..";};}");
 						already_awarded[defender_name] = true
 						cm:callback(
