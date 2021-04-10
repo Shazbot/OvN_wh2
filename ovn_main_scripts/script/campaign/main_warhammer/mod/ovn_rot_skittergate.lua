@@ -143,7 +143,7 @@ mod.init = function()
 			init = function(state)
 				sk:SetTooltipText(state.tooltip or "", true)
 
-				sk:SetImagePath("ui/s7r.png", 0)
+				sk:SetImagePath("ui/ovn/skittergate/skittergate_button_repair.png", 0)
 				sk:SetState("inactive")
 				sk:SetInteractive(true)
 
@@ -195,7 +195,7 @@ mod.init = function()
 				timer:SetTooltipText(state.timer_tooltip or "", true)
 
 				sk:SetState("active")
-				sk:SetImagePath("ui/s7y.png", 0)
+				sk:SetImagePath("ui/ovn/skittergate/skittergate_button_yellow.png", 0)
 				sk:ShaderTechniqueSet("distortion", true)
 				sk:ShaderVarsSet(0.2, 1, 1)
 			end,
@@ -215,7 +215,7 @@ mod.init = function()
 				timer:SetTooltipText(state.timer_tooltip or "", true)
 
 				sk:SetState("active")
-				sk:SetImagePath("ui/s7g.png", 0)
+				sk:SetImagePath("ui/ovn/skittergate/skittergate_button_green.png", 0)
 				state.current_cooldown = cm:get_saved_value("pj_rot_skittergate_active_cooldown") or cm:random_number(12,8)
 				cm:set_saved_value("pj_rot_skittergate_active_cooldown", state.current_cooldown)
 				timer:SetStateText(string.format("[[col:white]]%d[[/col]]", state.current_cooldown))
@@ -302,7 +302,7 @@ mod.handle_char_ui_label = function(label, char_cqi, set_visible)
 			skittergate_button:SetCanResizeHeight(true)
 			skittergate_button:SetCanResizeWidth(true)
 			skittergate_button:Resize(size, size)
-			skittergate_button:SetImagePath("ui/s7g.png", 0)
+			skittergate_button:SetImagePath("ui/ovn/skittergate/skittergate_button_green.png", 0)
 			skittergate_button:SetTooltipText("Enter The Skittergate||The character will enter the Skittergate and appear at the other side!", true)
 		end
 	end
@@ -341,7 +341,7 @@ core:add_listener(
 							skittergate_button:SetCanResizeHeight(true)
 							skittergate_button:SetCanResizeWidth(true)
 							skittergate_button:Resize(48, 48)
-							skittergate_button:SetImagePath("ui/s7g.png", 0)
+							skittergate_button:SetImagePath("ui/ovn/skittergate/skittergate_button_green.png", 0)
 							skittergate_button:SetTooltipText("Open The Skittergate||The Skittergate will connect the Altar of Spawns with this settlement!", true)
 						end
 					end
