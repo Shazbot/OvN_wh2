@@ -776,6 +776,11 @@ local function new_game_startup()
 	cm:disable_event_feed_events(true, "", "", "character_ancillary_lost")
 	cm:disable_event_feed_events(true, "", "", "character_wounded")
 	cm:disable_event_feed_events(true, "", "", "character_dies_in_action")
+	cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed")
+	cm:disable_event_feed_events(true, "", "", "diplomacy_trespassing")
+	cm:disable_event_feed_events(true, "", "", "faction_resource_lost")
+	cm:disable_event_feed_events(true, "", "", "faction_resource_gained")
+	cm:disable_event_feed_events(true, "", "", "conquest_province_secured")
 
 	spawn_new_force(grudgebringers)
 
@@ -825,6 +830,11 @@ local function new_game_startup()
 			cm:disable_event_feed_events(false, "", "", "character_ancillary_lost")
 			cm:disable_event_feed_events(false, "", "", "character_wounded")
 			cm:disable_event_feed_events(false, "", "", "character_dies_in_action")
+			cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed")
+			cm:disable_event_feed_events(false, "", "", "diplomacy_trespassing")
+			cm:disable_event_feed_events(false, "", "", "faction_resource_lost")
+			cm:disable_event_feed_events(false, "", "", "faction_resource_gained")
+			cm:disable_event_feed_events(false, "", "", "conquest_province_secured")
 		end,
 		5
 	)

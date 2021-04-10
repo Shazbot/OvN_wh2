@@ -1264,6 +1264,10 @@ local function new_game_startup()
 	cm:disable_event_feed_events(true, "", "", "character_wounded")
 	cm:disable_event_feed_events(true, "", "", "character_dies_in_action")
 	cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed")
+	cm:disable_event_feed_events(true, "", "", "diplomacy_trespassing")
+	cm:disable_event_feed_events(true, "", "", "faction_resource_lost")
+	cm:disable_event_feed_events(true, "", "", "faction_resource_gained")
+	cm:disable_event_feed_events(true, "", "", "conquest_province_secured")
 
 	local grudebringers_string = "wh2_main_emp_grudgebringers"
 	local gru = cm:get_faction(grudebringers_string)
@@ -1358,6 +1362,10 @@ local function new_game_startup()
 			cm:disable_event_feed_events(false, "", "", "character_wounded")
 			cm:disable_event_feed_events(false, "", "", "character_dies_in_action")
 			cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed")
+			cm:disable_event_feed_events(false, "", "", "diplomacy_trespassing")
+			cm:disable_event_feed_events(false, "", "", "faction_resource_lost")
+			cm:disable_event_feed_events(false, "", "", "faction_resource_gained")
+			cm:disable_event_feed_events(false, "", "", "conquest_province_secured")
 		end,
 		7
 	)
