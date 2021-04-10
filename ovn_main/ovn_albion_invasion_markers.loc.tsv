@@ -4,3 +4,7 @@ campaign_interactable_marker_infos_name_ovn_albion_invasion_marker_2	Imminent In
 campaign_interactable_marker_infos_tooltip_ovn_albion_invasion_marker_2	An enemy force will arrive in [[col:red]]2 turns.[[/col]]	true
 campaign_interactable_marker_infos_name_ovn_albion_invasion_marker_1	Imminent Invasion	true
 campaign_interactable_marker_infos_tooltip_ovn_albion_invasion_marker_1	An enemy force will arrive in [[col:red]]1 turn.[[/col]]	true
+campaign_interactable_marker_infos_tooltip_ovn_rot_skittergate_entrance	Your armies and agents can enter the Skittergate here and appear at the set destination.	true
+campaign_interactable_marker_infos_name_ovn_rot_skittergate_entrance	Skittergate Gate	true
+campaign_interactable_marker_infos_tooltip_ovn_rot_skittergate_exit	Your armies and agents can enter the Skittergate here and appear back at the Altar of Spawns.	true
+campaign_interactable_marker_infos_name_ovn_rot_skittergate_exit	Skittergate Gate	true

@@ -260,13 +260,13 @@ mod.add_sk_markers = function()
 	mod.skittergate_exit_coordinates = {x=x, y=y}
 	local key = "ovn_skittergate_marker_exit"
 	cm:remove_interactable_campaign_marker(key)
-	cm:add_interactable_campaign_marker(key, "invasion_marker_1", x, y, 0, "wh2_main_nor_rotbloods", "")
+	cm:add_interactable_campaign_marker(key, "ovn_rot_skittergate_exit", x, y, 0, "wh2_main_nor_rotbloods", "")
 
 	x, y = cm:find_valid_spawn_location_for_character_from_settlement("wh2_main_nor_rotbloods", "wh_main_mountains_of_hel_altar_of_spawns", false, false, 0)
 	mod.skittergate_entrance_coordinates = {x=x, y=y}
 	key = "ovn_skittergate_marker_entrance"
 	cm:remove_interactable_campaign_marker(key)
-	cm:add_interactable_campaign_marker(key, "invasion_marker_1", x, y, 0, "wh2_main_nor_rotbloods", "")
+	cm:add_interactable_campaign_marker(key, "ovn_rot_skittergate_entrance", x, y, 0, "wh2_main_nor_rotbloods", "")
 end
 
 mod.remove_sk_markers = function()
