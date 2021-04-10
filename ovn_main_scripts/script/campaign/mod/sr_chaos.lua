@@ -764,7 +764,9 @@ cm:add_first_tick_callback(
 				if not rotblood_tribe then return end
 
 				if rotblood_tribe:is_human() then
-					ovn_rotblood_skit_reinforcements_new()
+					if cm:is_multiplayer() then
+						ovn_rotblood_skit_reinforcements_new()
+					end
 					give_visibility_over_clan_fester_regions()
 
 					core:remove_listener("ovn_rot_visibility_over_clan_fester_regions")
