@@ -132,6 +132,6 @@ effects_description_ovn_buff_araby_vamp_coast_ws	Weapon strength: %+n% for Bloat
 effects_description_ovn_scimitar_coast_md	Melee Defence: %+n for Corsairs and Promethean Hatchlings units	false
 effects_description_ovn_scimitar_coast_ma	Melee Attack: %+n for Corsairs and Promethean Hatchlings units	false
 effects_description_ovn_scimitar_coast_armour	Armour: %+n for all Vampire Coast units	true
-effects_description_ovn_fester_diplo	Diplomatic relations: %+n with the faction of [[img:ovn_fester]][[/img]]Clan Fester.	true
+effects_description_ovn_fester_diplo	Diplomatic relations: %+n with the faction of [[img:ovn_fester]][[/img]]Clan Fester	true
 effect_bundles_localised_title_ovn_rot_fester_trans	New Fester Rat-Warrens	true
 effect_bundles_localised_description_ovn_rot_fester_trans	You have given lands to your pact-allies of Clan Fester.	true

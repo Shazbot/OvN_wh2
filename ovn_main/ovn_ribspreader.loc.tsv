@@ -58,3 +58,4 @@ unit_abilities_tooltip_text_ribspreader_plague_of_rust	Bödvarr slaughters in Ro
 unit_abilities_onscreen_name_ribspreader_plague_of_rust	Nurgle's Gentle Touch	true
 effects_description_ribspreader_plague_of_rust	Ability: "Nurgle's Gentle Touch"	true
 effects_description_ovn_army_enable_the_menace_below_dummy	Army ability: "The Menace Below"	true
+effects_description_ovn_rot_fester_region_reward	Recieve 10[[img:ui/skins/wh2_main_skaven/icon_ritual_currency.png]][[/img]] for each region gifted	true
