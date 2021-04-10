@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_tooltip_text_ovn_fight_eat	Maybe the only threat to a halfling that might make them fight harder is a threat to their food.	true
+unit_abilities_onscreen_name_ovn_fight_eat	Who doesn't fight also doesn't eat!	true
+unit_abilities_tooltip_text_ovn_take_bite	Nothing like a snack mid-battle to re-invigourate a halfling!	true
+unit_abilities_onscreen_name_ovn_take_bite	Here, take a bite!	true
+unit_abilities_tooltip_text_ovn_dont_abandon	If we can't save the food, then why are we even fighting?	true
+unit_abilities_onscreen_name_ovn_dont_abandon	Don't abandon the food!	true
+unit_abilities_tooltip_text_ovn_baby_dragon_breath	Not as dangerous as the breath of an adult, but it is still advised to avoid being its target.	true
+unit_abilities_onscreen_name_ovn_baby_dragon_breath	Hatchling Dragon Breath	true
+unit_abilities_tooltip_text_elo_superfood	"Strange food make strong, eat lots get impressive gut! Taste like dead plague rat though!" - Unknown Ogre Mercenary	true
+unit_abilities_onscreen_name_elo_superfood	Superfood	true

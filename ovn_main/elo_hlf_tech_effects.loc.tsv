@@ -1,0 +1,53 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_elo_hlf_militia_up	Upkeep: %+n%  for Halfling Militia units	true
+effects_description_elo_hlf_militia_armour	Armour: %+n for Halfling Militia units	true
+effects_description_elo_hlf_militia_dmg	Weapon Strength: %+n% for Halfling Militia units	true
+effects_description_elo_hlf_militia_xp	Recruitment Rank: %+n for Halfling Militia units	true
+effects_description_elo_hlf_militia_dmg_ap	Armour Piercing Damage: %+n for Halfling Militia units	true
+effects_description_elo_hlf_militia_mattk	Melee Attack: %+n for Halfling Militia units	true
+effects_description_elo_hlf_doggo_speed	Speed: %+n% for Bloodhounds	true
+effects_description_elo_hlf_piggies_mdef	Melee Defence; %+n for Pig Herds and Swine Riders	true
+effects_description_elo_hlf_cocks_charge	Charge Bonus: %+n for Cockarel Riders	true
+effects_description_elo_hlf_cocks_mattk	Melee Attack: %+n for Cockarel Riders	true
+effects_description_elo_hlf_cav_dmg	Weapon Strength: %+n% for Halfling Cavalry	true
+effects_description_enable_expandable_animals	Enable Expandable for Halfling Cavalry, Pig Herds and Bloodhounds	true
+effects_description_elo_hlf_reaper_cb	Charge Bonus: %+n% for Reapers	true
+effects_description_elo_hlf_reaper_ai	Anti-Infantry: %+n for Reapers	true
+effects_description_elo_all_hlf_morale	Leadership: %+n for all Halfling units	true
+effects_description_elo_hlf_thieves_mattk	Melee Attack: %+n for Thieves	true
+effects_description_enable_unspottable_thieves	Enable Unspottable for Thieves	true
+effects_description_elo_hlf_warden_morale	Leadership: %+n for Warden units	true
+effects_description_elo_hlf_warden_armour	Armour: %+n for Warden units	true
+effects_description_elo_hlf_warden_xp	Recruitment Rank: %+n for Warden units	true
+effects_description_elo_hlf_militia_archer_range	Range: %+n%  for Bowmen Militia	true
+effects_description_elo_hlf_rangers_dmg	Missile Damage: %+n% for Rangers	true
+effects_description_elo_hlf_archers_all_reload	Reload Speed:  %+n% for Rangers and Bowmen Militia	true
+effects_description_elo_hlf_trees_mdef	Melee Defence: %+n for Dryads, Treekin and Treemen	true
+effects_description_elo_hlf_trees_mattk	Melee Attack: %+n for Dryads, Treekin and Treemen	true
+effects_description_elo_hlf_trees_resist	Ward Save: %+n% for Dryads, Treekin and Treemen	true
+effects_description_elo_hlf_monster_cost	Recruitment Cost: %+n% for all Monsters and Monstrous Infantry units	true
+effects_description_elo_hlf_dragon_morale	Leadership: %+n for Dragon Hatchlings	true
+effects_description_elo_hlf_dragon_xp	Recruitment Rank: %+n for Dragon Hatchlings	true
+effects_description_elo_hlf_dragon_res	Physical Resistance: %+n% for Dragon Hatchlings	true
+effects_description_elo_hlf_ogre_morale	Leadership: %+n for Ogres	true
+effects_description_elo_hlf_ogre_xp	Recruitment Rank: %+n for Ogres	true
+effects_description_elo_hlf_ogre_dmg	Weapon Strength: %+n for Ogres	true
+effects_description_elo_eagle_fatigue_res	Vigour Loss: %+n% for Eagles	true
+effects_description_elo_hlf_monster_missile_res	Missile Resistance: %+n% for all Monsters and Monstrous Infantry units	true
+effects_description_sheriff_taunt	Ability "Taunt" for Sheriffs	true
+effects_description_elo_sheriff_attk	Melee Attack: %+n for Sheriffs	true
+effects_description_elo_sheriff_def	Melee Defence: %+n for Sheriffs	true
+effects_description_elo_battle_cooks	All (unlocked) Master Chef abilities can be used one additional time.	true
+effects_description_elo_hlf_cooks_vsL	Anti-Large: %+n for Halfling Master Cooks	true
+effects_description_elo_hlf_artillery_ammo	Ammunition: %+n% for Halfling Artillery	true
+effects_description_elo_hlf_artillery_dmg	Missile Damage: %+n% for Halfling Artillery	true
+effects_description_supply_cart_loose	Ability "Loose" for (non-mount) Chuckwagons	true
+effects_description_elo_hlf_supply_speed	Speed: %+n% for Chuckwagons	true
+effects_description_elo_superfood	Ability "Superfood" for Feast Carriers	true
+effects_description_elo_hlf_emp_upkeep	Upkeep: %+n% for Empire Units	true
+effects_description_elo_hlf_emp_rank	Recruitment Rank: %+n for Empire Units	true
+effects_description_elo_hlf_emp_morale	Leadership: %+n for Empire Units	true
+effects_description_elo_hlf_emp_armour	Armour: %+n for Empire Units	true
+effects_description_elo_hlf_emp_dmg	Weapon Strength: %+n% for Empire Units	true
+effects_description_elo_hlf_emp_ranged_dmg	Missile Strength: %+n% for Empire Units	true

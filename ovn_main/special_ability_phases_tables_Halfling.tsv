@@ -8,3 +8,4 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1.0	positive	ammo_supply		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack		-1.0	false	true	true	0.01	
 -1.0	positive	equipment_maintanance		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack		-1.0	false	true	true	0.0	
 -1.0	positive	smokeleaf_smokescreen		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_dlc15_ability_envelop_in_mist		-1.0	false	true	true	0.0	
+-1.0	positive	elo_superfood		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack		-1.0	false	true	true	0.0	
