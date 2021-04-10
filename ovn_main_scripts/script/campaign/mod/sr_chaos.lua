@@ -166,38 +166,6 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 	cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
 
 	cm:force_make_peace("wh_dlc08_nor_wintertooth", "wh2_main_nor_rotbloods")
-
-	---- Start Event Message Pop Up
-	core:add_listener(
-		"new_chshordestartmesslistner",
-		"FactionRoundStart",
-		function(context)
-			return context:faction():is_human() and cm:model():turn_number() == 15
-		end,
-		function()
-			new_chshordestartmess()
-		end,
-		false
-	)
-
-	---- Chaos Army Spawn Script listener
-	if rotblood_tribe:is_human() then
-				ovn_rotblood_skit_reinforcements_new()
-	else
-			core:add_listener(
-					"chshordespawnlistener2",
-					"FactionRoundStart",
-					function(context)
-							return context:faction():name() == "wh2_main_nor_rotbloods" and cm:model():turn_number() > 16
-					end,
-					function()
-							chshordespawn()
-					end,
-					true
-			)
-	end
-
-	new_setup_cwd_and_fimir_raze_region_monitor()
 end
 
 function new_ovn_sr_chaos()
@@ -233,24 +201,6 @@ function new_ovn_sr_chaos()
 		if rotblood_tribe and (rotblood_tribe:is_human() or not mct or rotblood_value and enable_value) then
 			if cm:is_new_game() then
 				sr_chaos_new_game_setup(rotblood_tribe)
-			else -- AKA NOT A NEW GAME - Chaos Army Spawn Script listener loaded on saved game
-					if rotblood_tribe:is_human() then
-							ovn_rotblood_skit_reinforcements_new()
-					else
-							core:add_listener(
-									"chshordespawnlistener2",
-									"FactionRoundStart",
-									function(context)
-											return context:faction():name() == "wh2_main_nor_rotbloods" and cm:model():turn_number() > 16
-									end,
-									function()
-											new_chshordespawn()
-									end,
-									true
-							)
-					end
-
-					new_setup_cwd_and_fimir_raze_region_monitor()
 			end
 		end
 	end
@@ -519,7 +469,6 @@ function new_chshordespawn()
 			)
 
 			cm:force_declare_war("wh2_main_nor_rotbloods", "wh2_main_hef_eataine", true, true)
-
 	end
 end
 end
@@ -806,6 +755,50 @@ cm:add_first_tick_callback(
 
 				if rotblood_tribe:is_human() then
 					ovn_rotblood_skit_reinforcements_new()
+				end
+
+				local rotblood_tribe = cm:get_faction("wh2_main_nor_rotbloods")
+
+				local mct = core:get_static_object("mod_configuration_tool")
+				local rotblood_value
+				local enable_value
+				if mct then
+					local lost_factions_mod = mct:get_mod_by_key("lost_factions")
+					local rotblood_option = lost_factions_mod:get_option_by_key("rotblood")
+					rotblood_value = rotblood_option:get_finalized_setting()
+					local enable_option = lost_factions_mod:get_option_by_key("enable")
+					enable_value = enable_option:get_finalized_setting()
+				end
+
+				if rotblood_tribe:is_human() or not mct or rotblood_value and enable_value then
+					new_setup_cwd_and_fimir_raze_region_monitor()
+
+					if not rotblood_tribe:is_human() then
+						---- Start Event Message Pop Up
+						core:add_listener(
+							"new_chshordestartmesslistner",
+							"FactionRoundStart",
+							function(context)
+								return context:faction():is_human() and cm:model():turn_number() == 15
+							end,
+							function()
+								new_chshordestartmess()
+							end,
+							false
+						)
+
+						core:add_listener(
+							"chshordespawnlistener2",
+							"FactionRoundStart",
+							function(context)
+									return context:faction():name() == "wh2_main_nor_rotbloods" and cm:model():turn_number() > 16
+							end,
+							function()
+									new_chshordespawn()
+							end,
+							true
+						)
+					end
 				end
     end
 )
