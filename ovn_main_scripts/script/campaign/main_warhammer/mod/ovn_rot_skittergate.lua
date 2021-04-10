@@ -255,7 +255,9 @@ mod.init = function()
 end
 
 mod.add_sk_markers = function()
-	local region_key = mod.current_region_key
+	local region_key = mod.current_region_key or cm:get_saved_value("pj_rot_skittergate_current_region")
+	if not region_key then return end
+
 	local x, y = cm:find_valid_spawn_location_for_character_from_settlement("wh2_main_nor_rotbloods", region_key, false, false, 0)
 	mod.skittergate_exit_coordinates = {x=x, y=y}
 	local key = "ovn_skittergate_marker_exit"
@@ -395,6 +397,7 @@ core:add_listener(
 			local region_key = comp:Id():gsub("label_settlement:", "")
 
 			mod.current_region_key = region_key
+			cm:set_saved_value("pj_rot_skittergate_current_region", region_key)
 
 			mod.switch_state(mod.states.active, mod.current_state)
 		else
