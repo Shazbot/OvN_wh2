@@ -811,6 +811,22 @@ core:add_listener(
 	true
 )
 
+core:add_listener(
+	"halfling_gift_listener",
+	"CharacterPerformsSettlementOccupationDecision",
+	function(context)
+			return context:character():faction():name() == rotblood_faction_key
+			and context:character():faction():is_human()
+			and context:occupation_decision() == "2205198950"
+	end,
+	function()
+		local rotblood_faction = cm:get_faction(rotblood_faction_key)
+		cm:pooled_resource_mod(rotblood_faction:command_queue_index(), "pj_rot_warpstone", "wh2_main_resource_factor_other", 10)
+		mod.refresh_resource_value_in_ui()
+	end,
+	true
+)
+
 --- Stuff that helps when debugging:
 -- spawn wh2_main_skv_warlord wh2_main_skv_clan_mors wh2_main_skv_inf_stormvermin_0,wh2_main_skv_inf_stormvermin_0
 -- add unit wh2_main_skv_inf_stormvermin_0 30
