@@ -62,6 +62,10 @@ local function sr_chaos_dwarfs()
 					285,
 					true,
 					function(cqi)
+						local char = cm:get_character_by_cqi(cqi)
+						if not char or char:is_null_interface() then return end
+
+						cm:force_character_force_into_stance(cm:char_lookup_str(char), "MILITARY_FORCE_ACTIVE_STANCE_TYPE_MARCH")
 					end
 				)
 
