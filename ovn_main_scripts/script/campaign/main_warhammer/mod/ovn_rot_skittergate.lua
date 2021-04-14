@@ -109,7 +109,7 @@ mod.init = function()
 	timer:SetDockingPoint(9)
 	timer:SetDockOffset(3,9)
 
-	sk:SetImagePath("ui/s7l.png", 0)
+	sk:SetImagePath("ui/ovn/skittergate/skittergate_button_locked.png", 0)
 	sk:SetState("inactive")
 	sk:SetInteractive(true)
 
@@ -122,7 +122,7 @@ mod.init = function()
 
 				sk:SetTooltipText(state.tooltip or "", true)
 				timer:SetTooltipText(state.timer_tooltip or "", true)
-				sk:SetImagePath("ui/s7l.png", 0)
+				sk:SetImagePath("ui/ovn/skittergate/skittergate_button_locked.png", 0)
 				sk:SetState("inactive")
 				sk:SetInteractive(true)
 			end,
