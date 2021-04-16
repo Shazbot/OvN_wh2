@@ -288,7 +288,7 @@ mod.handle_char_ui_label = function(label, char_cqi, set_visible)
 	end
 	if not existing_parent then return end
 
-	local skittergate_button_parent = core:get_or_create_component("ovn_sk_char_button_parent", "UI/campaign ui/script_dummy", existing_parent)
+	local skittergate_button_parent = core:get_or_create_component("ovn_sk_char_button_parent", "UI/campaign ui/script_dummy", is_hero and existing_parent or label)
 	local skittergate_button = core:get_or_create_component("ovn_sk_char_button_"..char_cqi, "ui/templates/round_large_button", skittergate_button_parent)
 
 	if mod.current_state.name ~= "active" or not set_visible then
@@ -298,7 +298,7 @@ mod.handle_char_ui_label = function(label, char_cqi, set_visible)
 		local size = is_hero and 30 or 48
 		if skittergate_button:Width() ~= size then
 			skittergate_button_parent:SetDockingPoint(5)
-			skittergate_button_parent:SetDockOffset(0, is_hero and 30 or 35)
+			skittergate_button_parent:SetDockOffset(0, is_hero and 30 or -15)
 			skittergate_button:SetDockingPoint(5)
 			skittergate_button:SetDockOffset(0, 0)
 			skittergate_button:SetCanResizeHeight(true)
