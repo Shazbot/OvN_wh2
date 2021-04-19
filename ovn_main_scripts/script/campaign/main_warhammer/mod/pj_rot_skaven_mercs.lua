@@ -353,6 +353,10 @@ local data = {
 			CTT_skv_inf_death_globe_bombardiers = 20,
 			CTT_skv_inf_warpfire_thrower = 20,
 			CTT_skv_inf_ratling_gun_0 = 30,
+			bainb_warpfire_thrower_rbt = 20,
+			bainb_ratling_gun_rbt = 30,
+			bainb_warplock_jezzails_rbt = 30,
+			bainb_poison_wind_mortar_rbt = 30,
 		},
 	},
 }
@@ -380,6 +384,10 @@ mod.num_times_purchased = mod.num_times_purchased or
 	CTT_skv_inf_death_globe_bombardiers = 0,
 	CTT_skv_inf_warpfire_thrower = 0,
 	CTT_skv_inf_ratling_gun_0 = 0,
+	bainb_warpfire_thrower_rbt = 0,
+	bainb_ratling_gun_rbt = 0,
+	bainb_warplock_jezzails_rbt = 0,
+	bainb_poison_wind_mortar_rbt = 0,
 }
 
 local function handle_unit_component(unit_component, num_res_req, is_valid, banner_path, localized_tooltip, unit_key)
