@@ -10,3 +10,4 @@ rot_charge_speed_increase_marauder_chariots_cavalry	charge.png	121	charge.png	ba
 rot_melee_defence_increase_marauder_chariots_cavalry	defence.png	109	defence.png	battle	true
 rot_movement_speed_increase_marauder_chariots_cavalry	battle_movement.png	115	battle_movement.png	battle	true
 ovn_rot_skittergate_enable_dummy	dlc12_reactor_core.png	101	dlc12_reactor_core.png	campaign	true
+ovn_warp_skaven_mercs_desc_dummy	icon_ritual_currency_skv_bundle.png	1201	icon_ritual_currency_skv_bundle.png	campaign	true

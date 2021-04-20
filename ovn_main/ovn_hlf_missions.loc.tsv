@@ -27,3 +27,6 @@ ovn_hlf_missions_extend_mission	Request a time extension||Extend the time until 
 incidents_localised_description_ovn_hlf_missions_army_too_big	The brigands scatter before the approaching Halflings and you gather the ingredients. But at next camp the army gets hungry and eats all the ingredients you're collected! Next time bring a smaller force with you!	true
 incidents_localised_title_ovn_hlf_missions_army_too_big	Army Too Large	true
 ovn_hlf_missions_change_mission_army_size	Request a change in force||Change the army size required to tackle this mission.	false
+missions_localised_description_ovn_halfling_establish_restaurant_mission	The Moot is rife with culinary talent, so much so that not even the Moot can accomodate them all. Let the Halfling culinary talent into the wide world, so that all may learn what it means to eat well!	true
+missions_localised_title_ovn_halfling_establish_restaurant_mission	Too Many Cooks Spoils The Moot	true
+mission_text_override_ovn_halfling_establish_restaurant_mission	Establish a resturant in a foreign region using a Master Chef!	false

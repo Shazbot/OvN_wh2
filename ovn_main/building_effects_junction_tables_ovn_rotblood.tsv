@@ -31,3 +31,8 @@ ovn_chs_agent	ovn_effect_agent_cap_increase_rbt_blightstormer	faction_to_faction
 ovn_chs_agent	ovn_effect_agent_recruitment_xp_rbt_blightstormer	province_to_province_own_unseen	1.0	1.0	0.0
 ovn_rot_military_5	wh_main_effect_religion_conversion_chaos	region_to_region_own	4.0	2.0	0.0
 ovn_rot_skittergate	ovn_rot_skittergate_enable_dummy	faction_to_faction_own_unseen	1.0	1.0	0.0
+ovn_warp_skaven_mercs	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_warp_skaven_mercs_2	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_warp_skaven_mercs_3	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_warp_skaven_mercs_4	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_warp_skaven_mercs_5	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0

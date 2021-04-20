@@ -38,3 +38,4 @@ false	pj_grudgebringers_targets_2			SCRIPTED	rom_event_mission.png	cst/generic	t
 false	pj_grudgebringers_targets_3			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
 false	pj_grudgebringers_targets_4			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
 false	pj_grudgebringers_targets_5			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+true	ovn_halfling_establish_restaurant_mission	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false
