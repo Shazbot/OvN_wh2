@@ -666,6 +666,10 @@ local function get_random_region_in_continent(continent, faction_key_to_exclude)
 		end
 	end
 
+	if #regions < 1 then
+		return
+	end
+
 	return regions[cm:random_number(#regions)]
 end
 
@@ -702,90 +706,92 @@ mod.give_new_targets = function()
 			region_key = get_random_region_in_continent(continent)
 		end
 
-		local mission_key = "ovn_halfling_ingredient_quest_"..i
+		if region_key then
+			local mission_key = "ovn_halfling_ingredient_quest_"..i
 
-		local is_time_extension = false
-		local is_army_size_changed = false
-		if mod.region_key_for_extension then
-			region_key = mod.region_key_for_extension
-			if mod.mission_key_to_extend and mission_key == mod.mission_key_to_extend then
-				mod.mission_key_to_extend = nil
-				is_time_extension = true
-			elseif mod.mission_key_to_change_army_size and mission_key == mod.mission_key_to_change_army_size then
-				mod.mission_key_to_change_army_size = nil
-				is_army_size_changed = true
-			end
-		end
-
-		local ingredients_in_continent = mod.ingredients_by_continent[continent]
-
-		local valid_ingredient_choices = {}
-		for _, ingredient in ipairs(ingredients_in_continent) do
-			if not cooking_interface:is_ingredient_unlocked(ingredient) then
-				table.insert(valid_ingredient_choices, ingredient)
-			end
-		end
-
-		if not mod.mission_key_to_force_cqi[mission_key] and #valid_ingredient_choices > 0 then
-		-- if true then
-
-			local mission_time_limit = cm:random_number(22, 15)
-			if is_time_extension then
-				mission_time_limit = 20
-			end
-
-			local mission = [[
-				mission
-				{
-						key ]]..mission_key..[[;
-						issuer CLAN_ELDERS;
-						turn_limit ]]..mission_time_limit..[[;
-						primary_objectives_and_payload
-						{
-							objective
-							{
-								type SCRIPTED;
-								script_key ]]..mission_key..[[;
-							}
-							objective
-							{
-								type MOVE_TO_REGION;
-								region ]]..region_key..[[;
-							}
-							payload
-							{
-								effect_bundle{bundle_key ovn_hlf_missions_unlock_ingredient;turns 0;};
-							};
-					};
-				};
-			]]
-			cm:trigger_custom_mission_from_string(halfling_faction_name, mission);
-
-			mod.mission_key_to_force_cqi[mission_key] = region_key
-			if not is_time_extension and not is_army_size_changed then
-				if cm:turn_number() < 35 then
-					mod.mission_key_to_force_type[mission_key] = force_types_early_game[cm:random_number(#force_types_early_game)]
-				else
-					mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
+			local is_time_extension = false
+			local is_army_size_changed = false
+			if mod.region_key_for_extension then
+				region_key = mod.region_key_for_extension
+				if mod.mission_key_to_extend and mission_key == mod.mission_key_to_extend then
+					mod.mission_key_to_extend = nil
+					is_time_extension = true
+				elseif mod.mission_key_to_change_army_size and mission_key == mod.mission_key_to_change_army_size then
+					mod.mission_key_to_change_army_size = nil
+					is_army_size_changed = true
 				end
 			end
-			if is_army_size_changed then
-				local current_force_type = mod.mission_key_to_force_type[mission_key]
-				local current_force_type_index = 0
 
-				for i, force_type in ipairs(force_types) do
-					if force_type == current_force_type then
-						current_force_type_index = i
-						break
+			local ingredients_in_continent = mod.ingredients_by_continent[continent]
+
+			local valid_ingredient_choices = {}
+			for _, ingredient in ipairs(ingredients_in_continent) do
+				if not cooking_interface:is_ingredient_unlocked(ingredient) then
+					table.insert(valid_ingredient_choices, ingredient)
+				end
+			end
+
+			if not mod.mission_key_to_force_cqi[mission_key] and #valid_ingredient_choices > 0 then
+			-- if true then
+
+				local mission_time_limit = cm:random_number(22, 15)
+				if is_time_extension then
+					mission_time_limit = 20
+				end
+
+				local mission = [[
+					mission
+					{
+							key ]]..mission_key..[[;
+							issuer CLAN_ELDERS;
+							turn_limit ]]..mission_time_limit..[[;
+							primary_objectives_and_payload
+							{
+								objective
+								{
+									type SCRIPTED;
+									script_key ]]..mission_key..[[;
+								}
+								objective
+								{
+									type MOVE_TO_REGION;
+									region ]]..region_key..[[;
+								}
+								payload
+								{
+									effect_bundle{bundle_key ovn_hlf_missions_unlock_ingredient;turns 0;};
+								};
+						};
+					};
+				]]
+				cm:trigger_custom_mission_from_string(halfling_faction_name, mission);
+
+				mod.mission_key_to_force_cqi[mission_key] = region_key
+				if not is_time_extension and not is_army_size_changed then
+					if cm:turn_number() < 35 then
+						mod.mission_key_to_force_type[mission_key] = force_types_early_game[cm:random_number(#force_types_early_game)]
+					else
+						mod.mission_key_to_force_type[mission_key] = force_types[cm:random_number(#force_types)]
 					end
 				end
-				local new_force_type_index = current_force_type_index + 1
-				if new_force_type_index > #force_types then
-					new_force_type_index = 1
-				end
+				if is_army_size_changed then
+					local current_force_type = mod.mission_key_to_force_type[mission_key]
+					local current_force_type_index = 0
 
-				if new_force_type_index ~= 0 then
-					mod.mission_key_to_force_type[mission_key] = force_types[new_force_type_index]
+					for i, force_type in ipairs(force_types) do
+						if force_type == current_force_type then
+							current_force_type_index = i
+							break
+						end
+					end
+					local new_force_type_index = current_force_type_index + 1
+					if new_force_type_index > #force_types then
+						new_force_type_index = 1
+					end
+
+					if new_force_type_index ~= 0 then
+						mod.mission_key_to_force_type[mission_key] = force_types[new_force_type_index]
+					end
 				end
 			end
 		end

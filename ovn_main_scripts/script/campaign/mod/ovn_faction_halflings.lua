@@ -5,6 +5,30 @@ local function setup_diplo()
     end
 end
 
+local function give_new_game_restaurant_quest()
+	local mission = [[
+		mission
+		{
+				key ovn_halfling_establish_restaurant_mission;
+				issuer CLAN_ELDERS;
+				primary_objectives_and_payload
+				{
+					objective
+					{
+						type SCRIPTED;
+						script_key ovn_halfling_establish_restaurant_mission;
+						override_text mission_text_override_ovn_halfling_establish_restaurant_mission;
+					}
+					payload
+					{
+						money 1000;
+					};
+			};
+		};
+	]]
+	cm:trigger_custom_mission_from_string("wh2_main_emp_the_moot", mission);
+end
+
 local function halflings_init()
     local faction_key = "wh2_main_emp_the_moot"
     local faction_obj = cm:get_faction(faction_key)
@@ -13,6 +37,12 @@ local function halflings_init()
       -- faction doesn't exist in this campaign or has already died
       return false
     end
+
+		if cm:is_new_game() then
+			cm:callback(function()
+				give_new_game_restaurant_quest()
+			end, 8)
+		end
 
     setup_diplo()
 

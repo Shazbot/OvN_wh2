@@ -163,8 +163,10 @@ cm:add_first_tick_callback(function()
 	if cm:get_saved_value("ovn_comradeship_been_spawned") then return end
 
 	if not cm:get_saved_value("ovn_comradeship_has_mission_been_issues") and faction:is_human() then
-		cm:trigger_custom_mission_from_string(faction_key, comradeship_mission);
-		cm:set_saved_value("ovn_comradeship_has_mission_been_issues", true);
+		cm:callback(function()
+			cm:trigger_custom_mission_from_string(faction_key, comradeship_mission);
+			cm:set_saved_value("ovn_comradeship_has_mission_been_issues", true);
+		end, 8)
 	end
 
 	core:add_listener(

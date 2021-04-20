@@ -37,6 +37,20 @@ local function refresh_foreign_slots()
 	end
 end
 
+core:add_listener(
+	"ovn_hlf_under_established_restaurant_with_agent",
+	"CharacterGarrisonTargetAction",
+	true,
+	function(context)
+		if context:mission_result_critial_success() or context:mission_result_success() then
+			if context:agent_action_key():find("ovn_create_restaurant") then
+				cm:complete_scripted_mission_objective("ovn_halfling_establish_restaurant_mission", "ovn_halfling_establish_restaurant_mission", true);
+			end
+		end
+	end,
+	true
+)
+
 core:remove_listener("ovn_hlf_under_occupation_decision_made")
 core:add_listener(
 	"ovn_hlf_under_occupation_decision_made",
