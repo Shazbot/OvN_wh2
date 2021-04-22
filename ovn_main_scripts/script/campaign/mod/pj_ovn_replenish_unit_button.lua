@@ -1,6 +1,8 @@
 PJ_OVN_REPLENISH_UNIT_BUTTON = PJ_OVN_REPLENISH_UNIT_BUTTON or {}
 local mod = PJ_OVN_REPLENISH_UNIT_BUTTON
 
+local json = require("ovn/json")
+
 -- useful to have this during dev, safely ignore
 local dout = _G.dout or function(...) end
 
@@ -264,6 +266,51 @@ mod.get_rank_from_non_english_tooltip = function(foreign_tooltip)
 	return unit_rank or 0
 end
 
+core:remove_listener("pj_ovn_replenish_unit_button_on_UITrigger")
+core:add_listener(
+	"pj_ovn_replenish_unit_button_on_UITrigger",
+	"UITrigger",
+	function(context)
+			return context:trigger():starts_with("pj_ovn_replenish_unit_button")
+	end,
+	function(context)
+		local faction_cqi = context:faction_cqi()
+
+		local stringified_data = context:trigger():gsub("pj_ovn_replenish_unit_button|", "")
+
+		local data = json.decode(stringified_data)
+		local commander_cqi = data.commander_cqi
+		local unit_cqi = data.unit_cqi
+
+		if not commander_cqi or not unit_cqi then
+			return
+		end
+
+		local commander = cm:get_character_by_cqi(commander_cqi)
+		if not commander then return end
+
+		local faction = commander:faction()
+
+		local num_items = commander:military_force():unit_list():num_items()
+		for i=0, num_items-1 do
+			local unit_interface = commander:military_force():unit_list():item_at(i)
+			if unit_interface:command_queue_index() == unit_cqi then
+				local unit_cost = unit_interface:get_unit_custom_battle_cost()
+				local replenish_cost = round((1-unit_interface:percentage_proportion_of_full_strength()/100)*unit_cost)
+				cm:treasury_mod(faction:name(), -replenish_cost)
+				cm:set_unit_hp_to_unary_of_maximum(unit_interface, 1)
+				break
+			end
+		end
+
+		if cm:get_faction(cm:get_local_faction_name(true)):command_queue_index() == faction_cqi then
+			cm:callback(function()
+				mod.refresh_army_UI()
+			end, 0.1)
+		end
+	end,
+	true
+)
 
 mod.replenish_unit = function()
 	-- get the current hp of the unit we're gonna upgrade, save it for later
@@ -279,18 +326,12 @@ mod.replenish_unit = function()
 		return
 	end
 
+	local data_to_send = {
+		unit_cqi = unit_to_upgrade:command_queue_index(),
+		commander_cqi = mod.commander_cqi,
+	}
 
-	local unit_cost = unit_to_upgrade:get_unit_custom_battle_cost()
-	local replenish_cost = round((1-unit_to_upgrade:percentage_proportion_of_full_strength()/100)*unit_cost)
-	cm:treasury_mod(cm:get_local_faction_name(true), -replenish_cost)
-
-	cm:set_unit_hp_to_unary_of_maximum(unit_to_upgrade, 1)
-
-	cm:callback(function()
-		local x, y, d, bb, h = cm:get_camera_position()
-		mod.refresh_army_UI()
-		cm:set_camera_position(x, y, d, bb, h)
-	end, 0.1)
+	CampaignUI.TriggerCampaignScriptEvent(cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(), "pj_ovn_replenish_unit_button|"..json.encode(data_to_send))
 end
 
 mod.first_tick_cb = function()
