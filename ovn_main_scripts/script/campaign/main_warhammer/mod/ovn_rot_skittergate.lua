@@ -233,7 +233,7 @@ mod.init = function()
 				end
 			end,
 			exit = function(state)
-				cm:set_saved_value("pj_rot_skittergate_current_cooldown", false)
+				cm:set_saved_value("pj_rot_skittergate_active_cooldown", false)
 				timer:SetVisible(false)
 				mod.remove_sk_markers()
 			end
