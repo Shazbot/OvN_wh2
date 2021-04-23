@@ -35,3 +35,5 @@ faction	name	unit	variant	unit_card
 	ovn_mtl_art_hotpot_ror	ovn_mtl_art_hotpot_ror	halfling_cook	ovn_mtl_hotpot
 	ovn_mtl_cav_swine_riders_0	ovn_mtl_cav_swine_riders_0	ovn_mtl_swine_rider	ovn_mtl_swine_rider
 	ovn_hlf_ll	ovn_hlf_ll	ovn_hlf_ll	ovn_hlf_ll
+	ovn_mtl_veh_reaper	ovn_mtl_veh_reaper	ovn_mtl_reaper_rider	mtl_veh_reaper
+	halfling_housewives	halfling_housewives	halfling_housewives	halfling_housewives

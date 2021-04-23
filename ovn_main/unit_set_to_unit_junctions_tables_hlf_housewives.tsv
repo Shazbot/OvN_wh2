@@ -1,0 +1,11 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				halfling_housewives	hlf_halfling_infantry
+false				halfling_housewives	emp_infantry
+false				halfling_housewives	emp_melee_infantry_tier_1
+false				halfling_housewives	wh2_dlc11_emp_greatswords_demigryph_knights
+false				halfling_housewives	emp_state_troops
+false				halfling_housewives	emp_swords
+false				halfling_housewives	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
+false				halfling_housewives	ovn_halfling_hlf_r7
+false				halfling_housewives	elo_hlf_cooks

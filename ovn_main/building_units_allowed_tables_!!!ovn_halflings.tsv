@@ -1,5 +1,8 @@
 building_units_allowed_tables	4
 building	unit	xp	key	conditions	faction	enabled
+ovn_half_forges_1	ovn_mtl_veh_reaper	0	261500202	0		false
+ovn_half_tavern_2	halfling_housewives	0	261500203	0		false
+ovn_half_tavern_3	halfling_housewives	0	261500204	0		false
 ovn_Animal_Rearing_1	half_pig	0	261500000	0		false
 ovn_Animal_Rearing_1	hlf_roast_pig	0	261500001	0		false
 ovn_Animal_Rearing_2	ovn_mtl_cav_swine_riders_0	0	261500002	0		false
