@@ -1,0 +1,55 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_wh2_main_effect_skill_melee_damage_increase_hef_eagle_chariot_reavers_rank7	Weapon strength: %+n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_skill_movement_speed_hef_eagle_chariot_reavers_rank7	Speed: %+n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_skill_unit_stat_fatigue_resistance_hef_eagle_chariot_reavers_rank7	Vigour loss reduction: %+n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_skill_ward_save_missile_hef_eagle_chariot_reavers_rank7	Missile resistance: %n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_building_recruitment_cost_reduction_hef_resource_iron	Recruitment cost: %+n% for Swordmasters of Hoeth, Phoenix Guard, Dragon Princes, Chariot and Skycutter units	false
+effects_description_wh2_main_effect_building_unit_xp_levels_hef_resource_iron	Recruit rank: %+n for Swordmasters of Hoeth, Phoenix Guard, Dragon Princes, Chariot and Skycutter units	false
+effects_description_wh2_main_effect_buildling_upkeep_reduction_hef_resource_iron	Upkeep: %+n% for Swordmasters of Hoeth, Phoenix Guard, Dragon Princes, Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_ammunition_increase_hef_boltthrower	Ammunition: %+n% for Eagle Claw Bolt Thrower, Tiranoc Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_ammunition_increase_hef_bow_units	Ammunition: %+n% for Archers, Lothern Sea Guard, Ellyrian Reaver Archers, Shadow Warriors, Shadow-walkers, Sisters of Avelorn, Tiranoc Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_armour_increase_hef_chariots	Armour: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_battle_morale_increase_hef_chariots	Leadership: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_charge_speed_increase_hef_chariots_dragonprinces	Charge bonus: %+n for Chariot, Skycutter, War Lion and Dragon Princes units	false
+effects_description_wh2_main_effect_tech_charge_speed_increase_hef_chariots	Charge bonus: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_fatigue_resistance_hef_cavalry	Vigour loss reduction: %+n% for Ellyrian Reavers, Silver Helms, Dragon Princes, Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_melee_attack_increase_hef_chariots_dragonprinces	Melee attack: %+n for Chariot, War Lion and Dragon Princes units	false
+effects_description_wh2_main_effect_tech_melee_attack_increase_hef_chariots	Melee attack: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_melee_defence_increase_hef_chariots_dragonprinces	Melee defence: %+n for Chariot, Skycutter, War Lion and Dragon Princes units	false
+effects_description_wh2_main_effect_tech_melee_defence_increase_hef_chariots	Melee defence: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_missile_damage_increase_hef_bow_units	Missile strength: %+n% for Archers, Lothern Sea Guard, Ellyrian Reaver Archers, Shadow Warriors, Shadow-walkers, Sisters of Avelorn, Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_missile_damage_increase_hef_chariots	Missile strength: %+n% for Tiranoc Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_missile_range_increase_hef_boltthrowers	Range: %+n% for Eagle Claw Bolt Thrower, Tiranoc Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_missile_rate_of_fire_increase_hef_chariot	Reload time reduction: %+n% for Tiranoc Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_movement_speed_increase_hef_chariots	Speed: %+n% for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_unit_xp_levels_hef_chariots_global	Recruit rank: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_unit_xp_levels_hef_chariots	Recruit rank: %+n for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_unit_xp_levels_hef_silverhelm_chariots	Recruit rank: %+n for Silver Helms, Shadow Warriors, Shadow-walkers, Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_upkeep_reduction_hef_chariots_boltthrowers	Upkeep: %+n% for Chariot, Skycutter and Eagle Claw Bolt Thrower units	false
+effects_description_wh2_main_effect_tech_upkeep_reduction_hef_chariots	Upkeep: %+n% for Chariot and Skycutter units	false
+effects_description_wh2_main_effect_tech_upkeep_reduction_hef_silverhelms_chariots	Upkeep: %+n% for Silver Helms, Chariot, and Skycutter units	false
+effects_description_wh2_main_effect_trait_unit_recruitment_duration_hef_chariot	Recruitment duration: %+n turn for Chariot and Skycutter units (minimum 1)	false
+effects_description_wh_main_effect_tech_battle_morale_increase_hef_reaver_silverhelm_chariot	Leadership: %+n for Ellyrian Reavers, Silver Helms, Chariot and Skycutter units	false
+effects_description_wh_main_effect_tech_recruitment_cost_reduction_hef_chariots	Recruitment cost: %+n% for Chariot and Skycutter units	false
+effects_description_wh_main_effect_tech_recruitment_cost_reduction_hef_silverhelms_chariots	Recruitment cost: %+n% for Silver Helms, Chariot, and Skycutter units	false
+land_units_concealed_name_cr_hef_veh_lothern_skycutter		true
+land_units_onscreen_name_cr_hef_veh_lothern_skycutter	Lothern Skycutters	true
+land_units_concealed_name_cr_hef_veh_lothern_skycutter_ror		true
+land_units_onscreen_name_cr_hef_veh_lothern_skycutter_ror	Sons of Kalagan (Lothern Skycutters)	true
+loading_screen_quotes_title_cr_hef_skycutter	Lothern Skycutters	true
+loading_screen_quotes_bulletpoints_cr_hef_skycutter	[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles	true
+loading_screen_quotes_description_cr_hef_skycutter	Skycutters are sleek, airborne chariots that are drawn into battle by the Swiftfeather Rocs that nest along the Glittering Coast of Lothern.	true
+loading_screen_quotes_title_cr_hef_skycutter_ror	Sons of Kalagan (Lothern Skycutters)	true
+loading_screen_quotes_bulletpoints_cr_hef_skycutter_ror	[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles	true
+loading_screen_quotes_description_cr_hef_skycutter_ror	The Sons of Kalagan seek to emulate the dragon Kalagan's deeds, roaming the battlefield in search of those in need of their aid.	true
+ui_unit_groupings_onscreen_missile_flying_chariot	Flying Missile Chariot	true
+ui_unit_groupings_tooltip_missile_flying_chariot	 	true
+unit_abilities_onscreen_name_cr_unit_abilities_emulation_of_kalagan	Emulation of Kalagan	true
+unit_abilities_tooltip_text_cr_unit_abilities_emulation_of_kalagan	Many a high elf had been saved from a grisly death by the Sons' skycutters scattering the foe before whisking their wounded ally to safety.	true
+unit_description_historical_texts_text_cr_unit_short_text_hef_cav_lothern_skycutter	Skycutters are sleek, airborne chariots that are drawn into battle by the Swiftfeather Rocs that nest along the Glittering Coast of Lothern.	true
+unit_description_historical_texts_text_cr_unit_short_text_hef_cav_lothern_skycutter_ror	The Sons of Kalagan seek to emulate the dragon Kalagan's deeds, roaming the battlefield in search of those in need of their aid.	true
+unit_description_short_texts_text_cr_unit_short_text_hef_cav_lothern_skycutter	Skycutters are sleek, airborne chariots that are drawn into battle by the Swiftfeather Rocs that nest along the Glittering Coast of Lothern.	true
+unit_description_short_texts_text_cr_unit_short_text_hef_cav_lothern_skycutter_ror	The Sons of Kalagan seek to emulate the dragon Kalagan's deeds, roaming the battlefield in search of those in need of their aid.	false
+unit_set_to_mp_unit_caps_localised_name_mp_set_hef_veh_lothern_skycutter	Skycutters	true
+unit_set_to_mp_unit_caps_localised_name_mp_set_hef_veh_lothern_skycutter_ror	Sons of Kalagan	true

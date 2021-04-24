@@ -1,0 +1,3 @@
+building_units_allowed_tables	4
+building	unit	xp	key	conditions	faction	enabled
+wh2_main_hef_smith_2	cr_hef_veh_lothern_skycutter	0	524919312	0		false

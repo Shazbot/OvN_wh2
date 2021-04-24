@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	cr_hef_veh_lothern_skycutter	cr_hef_veh_lothern_skycutter	cr_hef_lothern_skycutter_rider	cr_hef_skycutter
+	cr_hef_veh_lothern_skycutter_ror	cr_hef_veh_lothern_skycutter_ror	cr_hef_lothern_skycutter_rider	cr_hef_skycutter_ror

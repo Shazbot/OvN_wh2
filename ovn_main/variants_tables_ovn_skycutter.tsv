@@ -1,0 +1,8 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+cr_hef_lothern_skycutter	VariantMeshes/wh_variantmodels/bi1/hef/hef_lothern_skycutter/tech/	hef_lothern_skycutter		0.8	1.0	0.0	
+cr_hef_lothern_skycutter_rider		hef_sea_guard	hu1d/hef/hef_lothern_sea_guard/imposter/hef_sea_guard_crew_imposter	1.0	0.93	0.0	
+cr_hef_lothern_skycutter_rider_empty		hef_skycutter_rider_empty	hu1d/hef/hef_lothern_sea_guard/imposter/hef_sea_guard_crew_imposter	1.0	0.93	0.0	
+cr_hef_lothern_skycutter_rider_spear		hef_skycutter_rider_spear	hu1d/hef/hef_lothern_sea_guard/imposter/hef_sea_guard_crew_imposter	1.0	0.93	0.0	
+cr_hef_lothern_skycutter_bolt_thrower		hef_skycutter_bolt_thrower		1.0	0.6	0.0	
+cr_hef_lothern_skycutter_ror	VariantMeshes/wh_variantmodels/bi1/hef/hef_lothern_skycutter/tech/	hef_lothern_skycutter_ror		0.8	1.0	0.0	

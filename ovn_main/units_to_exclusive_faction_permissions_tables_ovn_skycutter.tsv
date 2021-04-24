@@ -1,0 +1,4 @@
+units_to_exclusive_faction_permissions_tables	0
+key	faction	allowed
+cr_hef_veh_lothern_skycutter	wh2_main_hef_citadel_of_dusk	true
+cr_hef_veh_lothern_skycutter_ror	wh2_main_hef_citadel_of_dusk	true
