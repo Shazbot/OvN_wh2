@@ -1,5 +1,6 @@
 ui_unit_groupings_tables	1
 icon	key	parent_group
+chariot	farm_machine	cavalry_chariots
 wh2_main_lzd_dinosaur	ovn_fim_cavalry_bog_beast	cavalry_chariots
 monstrous_bone_thrower	monstrous_bone_thrower	monster_beasts
 arb_camelry_tifle	missile_camelry_rifle	missile_cavalry_chariots
@@ -71,3 +72,4 @@ kho_bloodletter	kho_bloodletter	infantry
 Blood_Thirster	Blood_Thirster_ui	monster_beasts
 hlf_master_chef	hlf_master_chef	heroes_agents
 arb_carpet_archers	ovn_flying_missile_carpetry	missile_cavalry_chariots
+flying_missile_chariot	missile_flying_chariot	missile_cavalry_chariots

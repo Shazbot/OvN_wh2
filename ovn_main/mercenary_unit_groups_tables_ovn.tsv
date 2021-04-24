@@ -56,3 +56,4 @@ chance_to_replenish	key	max_count	unit_record	use_partial_replenishment	max_repl
 100.0	elo_kin_ugma	1	elo_kin	true	0.1
 100.0	elo_night_trolls_ror_ugma	1	elo_night_trolls_ror	true	0.1
 100.0	wh2_dlc15_grn_mon_river_trolls_ror_0_ugma	1	elo_night_trolls_ror	true	0.1
+100.0	cr_hef_veh_lothern_skycutter_ror	1	cr_hef_veh_lothern_skycutter_ror	true	0.0

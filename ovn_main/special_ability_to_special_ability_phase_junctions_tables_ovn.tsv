@@ -1,5 +1,14 @@
 special_ability_to_special_ability_phase_junctions_tables	1
 order	phase	special_ability
+1	ovn_feast	ovn_feast
+1	ovn_thief	ovn_thief
+1	ovn_fight_eat	ovn_fight_eat
+1	ovn_take_bite	ovn_take_bite
+1	ovn_dont_abandon	ovn_dont_abandon
+1	ammo_supply	ammo_supply
+1	equipment_maintanance	equipment_maintanance
+1	smokeleaf_smokescreen	smokeleaf_smokescreen
+1	elo_superfood	elo_superfood
 1	cr_unit_formation_shieldwall	cr_unit_formation_shieldwall
 1	ovn_character_passive_sobriety	ovn_character_passive_sobriety
 1	ovn_character_abilities_hair_of_the_dog	ovn_character_abilities_hair_of_the_dog
@@ -138,3 +147,4 @@ order	phase	special_ability
 0	hlf_master_chef_hot_spices	hlf_master_chef_hot_spices
 1	hlf_master_chef_earth_blood	hlf_master_chef_earth_blood
 1	hlf_master_chef_earth_blood_upgraded	hlf_master_chef_earth_blood_upgraded
+1	cr_unit_abilities_emulation_of_kalagan	cr_unit_abilities_emulation_of_kalagan

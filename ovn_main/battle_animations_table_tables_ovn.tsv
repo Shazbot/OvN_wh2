@@ -1,5 +1,6 @@
 battle_animations_table_tables	0
 key	skeleton
+wm_reaper01	reaper01
 fc1_flying_carpet	flyingcarpet01
 hu1_araby_fc1_carpet_wb_bow	humanoid01
 hu1_araby_fc1_carpet_wb_staff_and_sword	humanoid01
@@ -34,3 +35,5 @@ hu1_arb_magician_fire_staff_and_sword	humanoid01
 hu1_arb_askar_2handed_weapon	humanoid01
 hu1_arabyan_sword_and_longbow	humanoid01
 hu1_araby_hr1_horse_sword_and_shortbow	humanoid01
+bi1sc_eagle_skycutter	bird01sc
+wm_bolt_thrower01b_turret	boltthrower01b

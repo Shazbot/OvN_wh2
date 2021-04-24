@@ -1,5 +1,6 @@
 land_units_officers_tables	4
 key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+ovn_mtl_veh_reaper_officer							front	ovn_mtl_veh_reaper_riders
 dread_wh2_dlc09_tmb_chariot_archer_officer							front	dread_wh2_dlc09_tmb_chariot_riders_archers
 dread_wh2_dlc09_tmb_chariot_officer							front	dread_wh2_dlc09_tmb_chariot_riders
 dread_wh2_dlc09_tmb_warsphinx_officer							front	dread_wh2_dlc09_tmb_warsphinx_riders
@@ -63,3 +64,4 @@ wh_main_mtl_soupcart_officer							front	wh_main_mtl_soupcart_riders
 ribspreader_mammoth_rider	ribspreader_mammoth_rider						front	
 arb_fatandira_roc_officer	arb_fatandira_roc						front	
 arb_fatandira_horse_officer	arb_fatandira_horse						front	
+cr_hef_lothern_skycutter_officer							front	cr_hef_lothern_skycutter_riders
