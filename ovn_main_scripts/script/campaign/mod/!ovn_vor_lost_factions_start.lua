@@ -421,6 +421,34 @@ local function citadel_setup()
 
 		cm:add_unit_to_faction_mercenary_pool(dusk, "ovn_hef_inf_archers_fire", 1, 0, 5, 0, xp_level, frr, srr, trr, false)
 
+		local unit_count = 1 -- card32 count
+		local rcp = 20 -- float32 replenishment_chance_percentage
+		local max_units = 1 -- int32 max_units
+		local murpt = 0.1 -- float32 max_units_replenished_per_turn
+		local xp_level = 0 -- card32 xp_level
+		local frr = "" -- (may be empty) String faction_restricted_record
+		local srr = "" -- (may be empty) String subculture_restricted_record
+		local trr = "" -- (may be empty) String tech_restricted_record
+		local units = {
+			"cr_hef_veh_lothern_skycutter_ror",
+		}
+
+		for _, unit in ipairs(units) do
+			cm:add_unit_to_faction_mercenary_pool(
+				dusk,
+				unit,
+				unit_count,
+				rcp,
+				max_units,
+				murpt,
+				xp_level,
+				frr,
+				srr,
+				trr,
+				true
+			)
+		end
+
 		table.insert(factions, "wh2_main_hef_citadel_of_dusk")
 	end
 end
