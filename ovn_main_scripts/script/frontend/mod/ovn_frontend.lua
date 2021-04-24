@@ -62,6 +62,25 @@ function ovn_startpos_id_check(start_pos_id)
 	end
 end
 
+-- we can cache checking for the same lord here, but not needed for just a few dlc checks
+local dlc_requirements = {
+	-- Rotbloods
+	["1668499673"] = {
+		lords_to_check = { "Archaon the Everchosen", "Wulfrik the Wanderer" },
+		message = "This lord is unavailable, because you don't have the Warriors of Chaos DLC or the Norsca DLC."
+	},
+	-- Servants
+	["1267543494"] = {
+		lords_to_check = { "Wulfrik the Wanderer" },
+		message = "This lord is unavailable, because you don't have the Norsca DLC."
+	},
+	-- Be'lakor
+	["924962720"] = {
+		lords_to_check = { "Archaon the Everchosen", "Wulfrik the Wanderer" },
+		message = "This lord is unavailable, because you don't have the Warriors of Chaos DLC or the Norsca DLC."
+	},
+}
+
 function ovn_frontend()
 
 core:add_listener(
@@ -79,6 +98,37 @@ core:add_listener(
 		for i = 0, faction_list:ChildCount() - 1 do
 			local child = UIComponent(faction_list:Find(i));
 
+			local startpos_id = child:GetProperty("lord_key");
+			local dlc_requirement = dlc_requirements[startpos_id]
+
+			if dlc_requirement then
+				out("OVN CHECKING FOR DLC OWNERSHIP FOR "..tostring(child:Id()))
+				local is_dlc_owned = true
+				for _, lord_name in ipairs(dlc_requirement.lords_to_check) do
+					local lord_component = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "top_docker", "lord_select_list", "list", "list_clip", "list_box", lord_name)
+					if lord_component then
+						local new_content_icon = find_uicomponent(lord_component, "new_content_icon")
+						if new_content_icon then
+							is_dlc_owned = is_dlc_owned and not new_content_icon:Visible()
+						end
+					end
+				end
+				out("OVN DOES PLAYER OWN THE REQUIRED DLC: "..tostring(is_dlc_owned))
+
+				if not is_dlc_owned then
+					out("OVN Removing access to "..child:Id().." because the user doesn't have the required DLC");
+
+					child:SetDisabled(true)
+					child:SetState("locked_down")
+					child:SetTooltipText(tostring(child:Id()).."\n\n[[col:red]]"..dlc_requirement.message.."[[/col]]", true)
+
+					local new_content_icon = find_uicomponent(child, "new_content_icon")
+					if new_content_icon then
+						new_content_icon:SetVisible(true)
+					end
+				end
+			end
+
 			core:add_listener(
 				"ovn_frontend_lord_button_clicked",
 				"ComponentLClickUp",
@@ -91,8 +141,6 @@ core:add_listener(
 					local custom_image = ovn_movie_replacer();
 					local is_custom_ll = ovn_startpos_id_check(startpos_id)
 
-
-
 					if not is_custom_ll then
 						custom_image:SetOpacity(0);
 					else
@@ -103,17 +151,13 @@ core:add_listener(
 					local movie_frame = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame", "movie_frame");
 
 					local x, y = movie_frame:Position();
-
 					custom_image:MoveTo(x, y);
-
 					custom_image:PropagatePriority(movie_frame:Priority());
-
 					custom_image:SetCanResizeHeight(true)
 					custom_image:SetCanResizeWidth(true)
 					custom_image:Resize(464, 624)
 					custom_image:SetCanResizeHeight(false)
 					custom_image:SetCanResizeWidth(false)
-
 				end,
 				true
 			);
