@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="turret" >
+		<VARIANT_MESH model="warmachines/engines/hef_lothern_skycutter_bolt_thrower/hef_lothern_skycutter_bolt_thrower_01.wsmodel" >
+
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
+
+
+

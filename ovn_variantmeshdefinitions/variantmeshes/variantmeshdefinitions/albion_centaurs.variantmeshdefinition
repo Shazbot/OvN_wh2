@@ -11,6 +11,9 @@
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/ce1/bst/bst_centigor/centaur_head_04.rigid_model_v2" />	
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/ce1/bst/bst_centigor/centaur_head_05.rigid_model_v2" />	
 	</SLOT>
+	<SLOT name="beard" probability="0.5"  >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/ce1/bst/bst_centigor/centaur_beard_01.rigid_model_v2" />	
+	</SLOT>
 	<SLOT name="helmet" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/ce1/bst/bst_centigor/alb_centaur_helmet_01.rigid_model_v2" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/ce1/bst/bst_centigor/alb_centaur_helmet_02.rigid_model_v2" />

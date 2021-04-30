@@ -12,11 +12,12 @@
 			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_65.rigid_model_v2" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_66.rigid_model_v2" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_67.rigid_model_v2" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_68.rigid_model_v2" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_69.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_02.wsmodel" />
+	</SLOT>
+	<SLOT name="helmet" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/fim_helmet_1.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/fim_helmet_2.rigid_model_v2" />
 	</SLOT>
 	<SLOT name="legs" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/legs/nor_fimir_warriors_legs_65.rigid_model_v2" />

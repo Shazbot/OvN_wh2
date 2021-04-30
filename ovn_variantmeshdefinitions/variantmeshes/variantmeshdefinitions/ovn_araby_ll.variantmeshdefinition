@@ -5,45 +5,26 @@
 	</SLOT>
     
     
-	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head6.wsmodel" />
+	<SLOT name="face" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_mage_head_4.wsmodel" />
 	</SLOT>
     
     <SLOT name="beard" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_sheikh_beard_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_01.rigid_model_v2" />
 	</SLOT>
     
 	<SLOT name="helm" >
-          <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban.wsmodel" >
-            <SLOT name="noseguard" >
-                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_noseguard_muktar.wsmodel"  />
-            </SLOT>
-            <SLOT name="neckguard" >
-                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban_cloth.wsmodel"  />
-            </SLOT>   
-            <SLOT name="highturban" >
-                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_sheikh_turban_01.wsmodel" />
-            </SLOT>   
-            <SLOT name="plume" >
-                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_sheikh_plume.wsmodel" />
-            </SLOT>
-            <SLOT name="forehead" >
-                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/turban_gems/arb_turban_01_gem_02.wsmodel" />
-            </SLOT>
-        </VARIANT_MESH>	
+          <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_sheikh_headcloth_1.rigid_model_v2" />
 	</SLOT>
     
-
     
-    
-<SLOT name="body" >
-                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_tunic2_sheikh.wsmodel" >
-						<META_DATA>audio_armour_type:chainmail</META_DATA>
-                            <SLOT name="legs" >
-                                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_boots.wsmodel"  />
-                            </SLOT>
-                </VARIANT_MESH>
-
+    <SLOT name="body" >
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_tunic2_sheikh.wsmodel" >
+                <META_DATA>audio_armour_type:chainmail</META_DATA>
+                    <SLOT name="legs" >
+                        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_boots.wsmodel"  />
+                    </SLOT>
+        </VARIANT_MESH>
 	</SLOT>
     
     <SLOT name="waistcloth" >

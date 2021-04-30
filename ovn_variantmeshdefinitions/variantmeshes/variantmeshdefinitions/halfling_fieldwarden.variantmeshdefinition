@@ -4,7 +4,7 @@
 	</SLOT>
 
 	<SLOT name="back" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_miners\head\dwf_miners_backpack.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_miners\head\hlf_miners_backpack.rigid_model_v2"  />
 	</SLOT>
 
 	<SLOT name="torso" >
@@ -55,10 +55,10 @@
 	<SLOT name="shield" attach_point="be_prop_2" >
 	</SLOT>
 	<SLOT name="weapon_3" attach_point="be_prop_3" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_lord_crossbow_2h_01.rigid_model_v2"  />
+		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu3/dwf/props/dwf_bow_01_rigid.rigid_model_v2" />
 	</SLOT>
 	<SLOT name="weapon_4" attach_point="be_prop_4" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_lord_crossbow_bolt_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_props/emp_huntsman_arrow_01.wsmodel" />
 	</SLOT>
 	<SLOT name="weapon_5" attach_point="be_prop_5" />
 </VARIANT_MESH>

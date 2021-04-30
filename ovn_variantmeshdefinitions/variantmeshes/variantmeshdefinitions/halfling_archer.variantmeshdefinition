@@ -22,7 +22,7 @@
 	</SLOT>
 	<SLOT name="back" probability ="0.9" >
 		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu3\mtl\mtl_archer\mtl_quiver_01.rigid_model_v2"  />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_miners\head\dwf_miners_backpack.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_miners\head\hlf_miners_backpack.rigid_model_v2"  />
 	</SLOT>
 	<SLOT name="body" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\body\mil_slayers_body_01.rigid_model_v2"  >

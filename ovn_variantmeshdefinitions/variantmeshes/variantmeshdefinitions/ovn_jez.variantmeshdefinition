@@ -8,9 +8,14 @@
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head2.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head3.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head4.wsmodel" />
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_head1_beard.wsmodel" />
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_head2_beard.wsmodel" />
 	</SLOT>
+   
+    <SLOT name="beard" probability ="0.4" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_short_beard_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_short_beard_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_02.rigid_model_v2" />
+    </SLOT>
     
 	<SLOT name="helm" >
         <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_turban.wsmodel" >

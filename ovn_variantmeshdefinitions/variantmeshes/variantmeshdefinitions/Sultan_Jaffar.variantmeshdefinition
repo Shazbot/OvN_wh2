@@ -6,14 +6,15 @@
 <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_flagellants/head/jaf_flagellants_head_01.rigid_model_v2" />
 	</SLOT>
 	<SLOT name="hat" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/turban/arb_magician_jaffar_turban_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_jaffar_turban.wsmodel" />
 	</SLOT>
-	<SLOT name="forehead" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/turban_gems/arb_turban_01_gem2_02.wsmodel" />
-	</SLOT>
+    
 	<SLOT name="body" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_wizard\light\body\sultan_jaffar_body_01.rigid_model_v2"  >
 			<META_DATA>audio_entity_type:wh_human_male_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="cape" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_jaffar_cape_01.rigid_model_v2" />
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >

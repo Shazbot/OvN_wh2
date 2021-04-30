@@ -1,10 +1,16 @@
 <VARIANT_MESH>
 	<SLOT name="face" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/head/arb_magician_head_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_mage_head_2.wsmodel" />
 	</SLOT>
-	<SLOT name="hat" >
+    
+    <SLOT name="beard" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_01.rigid_model_v2" />
+    </SLOT>
+    
+  	<SLOT name="hat" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/turban/arb_magician_fire_turban_02.wsmodel" />
-	</SLOT>
+	</SLOT>  
+    
 	<SLOT name="forehead" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/turban_gems/arb_turban_02_gem_01.wsmodel" />
 	</SLOT>
@@ -20,7 +26,7 @@
 	<SLOT name="cape" >
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
-	<SLOT name="weapon_2" attach_point="be_prop_1" >
+	<SLOT name="weapon_2" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/sword/arb_magician_sword_01.wsmodel">
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
 		</VARIANT_MESH>
@@ -28,7 +34,7 @@
 	<SLOT name="shield" attach_point="be_prop_2" />
 	<SLOT name="weapon_3" attach_point="be_prop_3" />
 	<SLOT name="weapon_4" attach_point="be_prop_4" />
-	<SLOT name="weapon_5" attach_point="be_prop_5" >
+	<SLOT name="weapon_5" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb/arb_magician/staff/arb_magician_staff_01.wsmodel" >
 			<META_DATA>audio_melee_weapon_type:staff</META_DATA>
 		</VARIANT_MESH>

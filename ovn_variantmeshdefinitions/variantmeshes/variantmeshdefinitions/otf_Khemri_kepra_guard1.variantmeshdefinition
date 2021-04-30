@@ -17,12 +17,11 @@
 	</SLOT>
 
 
-	<SLOT name="beard" probability ="0.65" >
-<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
-<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
-<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_wizard\light\head\emp_wizard_light_beard_01.rigid_model_v2"  />
-<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_free_company/sultan_beard_company_head_01.rigid_model_v2" />
-<VARIANT_MESH model="VariantMeshes\wh_variantmodels\ovn\ovn_wizard_light_beard_01.rigid_model_v2"  />
-	</SLOT>
+    <SLOT name="beard" probability ="0.65" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_short_beard_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_short_beard_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_02.rigid_model_v2" />
+    </SLOT>
 
 </VARIANT_MESH>

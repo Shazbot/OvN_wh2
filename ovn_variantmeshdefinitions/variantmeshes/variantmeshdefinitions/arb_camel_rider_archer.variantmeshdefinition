@@ -15,7 +15,7 @@
 	</SLOT>
 	<SLOT name="shield" attach_point="be_prop_2" />
 	<SLOT name="weapon_3" attach_point="be_prop_3" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_props\brt_yeomen_shortbow_2h_01_rigid.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_shortbow_1.rigid_model_v2"   />
 	</SLOT>
 	<SLOT name="weapon_4" attach_point="be_prop_4" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/brt/brt_props/brt_peasant_bowmen_arrow_01.rigid_model_v2" />

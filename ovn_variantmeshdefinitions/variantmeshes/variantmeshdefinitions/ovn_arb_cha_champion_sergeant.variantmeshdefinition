@@ -4,45 +4,44 @@
 	</SLOT>
 
 	<SLOT name="head" >
-		 <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_head2_beard.wsmodel" >
-            <SLOT name="mustache" >
-                <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_captains/head/gma_mustache.rigid_model_v2" />
-            </SLOT>
-        </VARIANT_MESH>
+		 <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_mage_head_3.wsmodel" />
+	</SLOT>
+    
+    <SLOT name="beard" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_medium_beard_02.rigid_model_v2" />
+    </SLOT>
+    
+   	<SLOT name="cape" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_askar_cape.wsmodel" />
 	</SLOT>
 
-
 	<SLOT name="helm" >
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_elite_helm1.wsmodel" />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_askar_helm_1.rigid_model_v2" />
 	</SLOT>
 
 	<SLOT name="body"  >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_body_mail1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_body_mail3.wsmodel" />
 	</SLOT>
 
 	<SLOT name="armour" >
-        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_armour1_grey.wsmodel" >
-                <SLOT name="skirt" >
-            <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_shoulders1_grey.wsmodel"   />
-                </SLOT>
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_mirror_armor_1.rigid_model_v2" >
                 <SLOT name="skirt1" >
             <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_bracer_scale1_grey.wsmodel"   />
                 </SLOT>
-                <SLOT name="skirt2" >
-            <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_scaletop1_grey.wsmodel"   />
+            <SLOT name="skirt2" >
+            <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_askar_armour_skirt_1.rigid_model_v2"   />
                 </SLOT>
         </VARIANT_MESH>		
 	</SLOT>
     
-	<SLOT name="weapon_1" attach_point="be_prop_0" />
-	<SLOT name="weapon_2" attach_point="be_prop_1" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_sword03.wsmodel" >
+    
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+    		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_2h_askar_axe_1.rigid_model_v2" >
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+    </SLOT>        
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
 	</SLOT>
-	<SLOT name="horn" attach_point="be_prop_5" >
-		<VARIANT_MESH model="Variantmeshes/wh_variantmodels/hu1/brt/brt_instrument/brt_trumpet/brt_horn_01.rigid_model_v2" >
-	</SLOT>
-
+    
 	<SLOT name="stump_neck" attach_point="spine_2" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/dlc02_blood_pack/dlc02_stump_neck_hu1_6.rigid_model_v2" >
 			<META_DATA>equipment</META_DATA></VARIANT_MESH>

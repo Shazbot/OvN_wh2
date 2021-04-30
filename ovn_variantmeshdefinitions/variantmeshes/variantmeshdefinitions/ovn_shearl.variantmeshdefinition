@@ -1,23 +1,17 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/body/nor_fimir_balefiend_body_01.rigid_model_v2" >
-			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/body/nor_fimir_balefiend_body_02.rigid_model_v2" >
-			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/body/nor_fimir_balefiend_body_03.rigid_model_v2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/body/fim_body_no_armor_1.rigid_model_v2" >
 			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_01.wsmodel" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_01.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_02.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_03.wsmodel" />		
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_04.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/head/nor_fimir_balefiend_head_05.wsmodel" />
 
 	</SLOT>
 	<SLOT name="legs" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/legs/nor_fimir_balefiend_legs_01.wsmodel" />		
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_balefiend/legs/nor_fimir_balefiend_legs_03.wsmodel" />		
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/legs/fim_legs_no_armor_1.rigid_model_v2" />			
 	</SLOT>
 
 	<SLOT name="weapon_1" attach_point="be_prop_0" />

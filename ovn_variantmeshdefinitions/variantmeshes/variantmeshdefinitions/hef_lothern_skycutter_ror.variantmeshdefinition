@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\hef_great_eagle_body_01.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_medium_bird_eagle</META_DATA>
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="wings" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\hef_great_eagle_wings_01.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="harness" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\bi1\hef\hef_swiftfeather_roc\hef_swiftfeather_roc_harness_01.wsmodel"  />
+	</SLOT>
+	<SLOT name="skycutter" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\bi1\hef\hef_lothern_skycutter\hef_lothern_skycutter_ror.wsmodel"  />
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,30 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu3/com/com_giblet_the_dwarf/com_giblet_the_dwarf_head_01.wsmodel" />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\body\dwf_slayers_body_02.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>
+			<META_DATA>audio_entity_type:wh_dwarf_default_LH</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="accessories" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\body\dwf_slayers_bracelet_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\legs\dwf_slayers_legs.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="belt" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_slayers\legs\dwf_slayers_belt_03.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_props\dwf_ungrim_ironfist_axe_2h_01.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" />
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

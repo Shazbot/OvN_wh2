@@ -2,9 +2,13 @@
 	<SLOT name="dummy" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/ksl_dummy.rigid_model_v2" />
 	</SLOT>
-
+    
 	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_headwrap.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_mage_head_1.wsmodel" />
+	</SLOT>
+    
+    <SLOT name="headwrap" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_nomad_headcloth_1.rigid_model_v2" />
 	</SLOT>
     
     
@@ -15,19 +19,18 @@
 	<SLOT name="body"  >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_tunic_nomad_hero.wsmodel" />
 	</SLOT>
+
 	<SLOT name="armour" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_armour1_grey.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_nomad_bandolier_1.rigid_model_v2" >
 		        </VARIANT_MESH>
 	</SLOT>
 
-            <SLOT name="bracer" >
+        <SLOT name="bracer" >
             <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_bracer_scale1_grey.wsmodel"   />
         </SLOT>
     
-    
-
 	<SLOT name="waistcloth" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_cloth1b.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_cloth1a.wsmodel" />
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb\arb_props\arb_jezzail_01.wsmodel" />

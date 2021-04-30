@@ -5,9 +5,13 @@
 			<META_DATA>audio_armour_type:body</META_DATA>
 		</VARIANT_MESH>
 	</SLOT>
-	<SLOT name="weapon_2" attach_point="be_prop_1" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh1/arb/arb_djinn/weapons/arb_djinn_halberd_01.wsmodel" >
+	<SLOT name="weapon_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh1/arb/arb_djinn/weapons/arb_djinn_scimitar_01.wsmodel" >
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
 		</VARIANT_MESH>
+	</SLOT>
+
+<SLOT name="offhand_weapon" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh1/arb/arb_djinn/weapons/arb_djinn_offhand_scimitar_01.wsmodel" />
 	</SLOT>
 </VARIANT_MESH>
