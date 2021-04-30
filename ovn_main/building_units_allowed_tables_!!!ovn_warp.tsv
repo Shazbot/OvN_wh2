@@ -1,16 +1,16 @@
 building_units_allowed_tables	4
 building	unit	xp	key	conditions	faction	enabled
 ovn_rot_stables_5	wh_dlc08_nor_cav_marauder_horsemasters_0	0	758503040	0		false
-ovn_rot_stables_5	wh_main_chs_cav_chaos_knights_1	0	758503041	0		false
+ovn_rot_stables_4	wh_main_chs_cav_chaos_knights_1	0	758503041	0		false
 ovn_rot_stables_5	wh_main_nor_cav_marauder_horsemen_0	0	758503042	0		false
 ovn_rot_stables_5	wh_main_chs_cav_chaos_chariot	0	758503043	0		false
 ovn_rot_stables_5	wh_main_nor_cav_marauder_horsemen_1	0	758503044	0		false
-ovn_rot_stables_5	wh_main_chs_cav_chaos_knights_0	0	758503045	0		false
+ovn_rot_stables_4	wh_main_chs_cav_chaos_knights_0	0	758503045	0		false
 ovn_rot_stables_5	wh_dlc01_chs_mon_dragon_ogre	0	758503046	0		false
 ovn_rot_stables_5	wh_dlc01_chs_mon_dragon_ogre_shaggoth	0	758503047	0		false
 ovn_rot_stables_4	wh_main_nor_cav_marauder_horsemen_0	0	758503048	0		false
 ovn_rot_stables_4	wh_main_nor_cav_marauder_horsemen_1	0	758503049	0		false
-ovn_rot_stables_4	wh_main_chs_cav_chaos_knights_0	0	758503050	0		false
+ovn_rot_stables_3	wh_main_chs_cav_chaos_knights_0	0	758503050	0		false
 ovn_rot_stables_4	wh_main_chs_cav_chaos_chariot	0	758503051	0		false
 ovn_rot_stables_4	wh_dlc01_chs_mon_dragon_ogre	0	758503052	0		false
 ovn_rot_stables_4	wh_dlc08_nor_cav_marauder_horsemasters_0	0	758503053	0		false
@@ -332,3 +332,7 @@ wh2_dlc15_special_settlement_massif_orcal_norsca_3	wh_dlc08_nor_inf_marauder_ber
 wh2_dlc15_special_settlement_massif_orcal_norsca_3	wh_dlc08_nor_inf_marauder_berserkers_0	0	758503369	0		false
 wh2_main_special_settlement_khemri_norsca_5	wh_dlc08_nor_inf_marauder_berserkers_0	0	758503370	0		false
 wh2_main_special_settlement_itza_norsca_5	wh_dlc08_nor_inf_marauder_berserkers_0	0	758503371	0		false
+ovn_rot_stables_5	ovn_nurgle_chs_cav_chaos_knights_0	0	758503372	0		false
+ovn_rot_stables_5	ovn_nurgle_chs_cav_chaos_knights_1	0	758503373	0		false
+ovn_rot_stables_5	wh_main_chs_cav_chaos_knights_1	0	758503374	0		false
+ovn_rot_stables_5	wh_main_chs_cav_chaos_knights_0	0	758503375	0		false

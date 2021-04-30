@@ -1,5 +1,14 @@
 special_ability_phase_stat_effects_tables	3
 phase	value	stat	how
+ovn_feast	10.0	stat_morale	add
+ovn_thief	4.0	stat_melee_damage_ap	add
+ovn_thief	8.0	stat_melee_defence	add
+ovn_fight_eat	5.0	stat_melee_attack	add
+ovn_fight_eat	5.0	stat_melee_defence	add
+ovn_dont_abandon	25.0	stat_morale	add
+elo_superfood	10.0	stat_resistance_physical	add
+elo_superfood	1.15	stat_melee_damage_ap	mult
+elo_superfood	1.15	stat_melee_damage_base	mult
 cr_unit_formation_shieldwall	10.0	stat_resistance_missile	add
 ovn_character_abilities_hair_of_the_dog	-24.0	stat_melee_defence	add
 ovn_character_abilities_hair_of_the_dog	-24.0	stat_melee_attack	add
@@ -224,3 +233,5 @@ hlf_glibfoot_thief_tactics	1.24	scalar_speed	mult
 hlf_master_chef_regeneration_passive_aura	5.0	stat_resistance_all	add
 hlf_master_chef_hot_spices	-5.0	stat_morale	add
 hlf_master_chef_hot_spices	0.9	stat_resistance_all	mult
+ovn_rot_nurgle_flies	-5.0	stat_melee_attack	add
+ovn_rot_mark_nurgle	-15.0	stat_weakness_flame	add

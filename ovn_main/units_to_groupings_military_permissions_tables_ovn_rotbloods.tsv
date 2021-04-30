@@ -1,5 +1,7 @@
 units_to_groupings_military_permissions_tables	0
 unit	military_group
+ovn_nurgle_chs_cav_chaos_knights_0	ovn_chaos
+ovn_nurgle_chs_cav_chaos_knights_1	ovn_chaos
 wh_main_chs_inf_chaos_warriors_0	ovn_chaos
 wh_dlc01_chs_inf_chaos_warriors_2	ovn_chaos
 wh_dlc01_chs_inf_chosen_2	ovn_chaos
