@@ -16,7 +16,7 @@ unit_description_short_texts_text_OtF_khemri_elite_guard	Guards are well-equippe
 unit_description_short_texts_text_OtF_khemri_rangers	Lords of the Dune, many foes fall to furtive arrows before the rangers melt back into the sand.	true
 unit_description_short_texts_text_ovn_yeoman	It's said these spear-armed cavalrymen were born in the saddle making them a useful harassing force against infantry and cavalry alike. 	true
 unit_description_short_texts_text_ovn_yeomanarchers	These nomadic horse archers can pepper an enemy before moving in for close-combat.	true
-unit_description_short_texts_text_ovn_corsairs	Scourge of the Great Ocean they plunder the shores of Tilea and Estalia with wanton abandon. 	true
+unit_description_short_texts_text_ovn_corsairs	The scourge of the Great Ocean, who plunder the shores of Tilea and Estalia with wanton abandon. 	true
 unit_description_short_texts_text_ovn_elephant	War elephants are a wave of flesh, unleashed against the unwary.	true
 unit_description_short_texts_text_ovn_southlander	Hailing from the fetid jungles of the far south, these warriors are well acquainted with all manner of beast and monster. 	true
 unit_description_short_texts_text_ovn_prometheans	Reared from hatchlings these dangerous creatures would be impossible to control without the aid of magic.	true
@@ -32,7 +32,7 @@ land_units_onscreen_name_ovn_slave	Sharkas Slaves	true
 land_units_onscreen_name_ovn_glad	Pit-Fighters	true
 land_units_onscreen_name_ovn_jez	Jezzails 	true
 land_units_onscreen_name_ovn_ifreet	Khimar al-Nar	true
-unit_description_short_texts_text_ovn_slave	Bought as slaves, and often trained from boyhood these soldiers make formidable opponents though their loyalty is naturally questionable.	true
+unit_description_short_texts_text_ovn_slave	Made into slaves as boys, and trained for war until manhood, these soldiers make formidable opponents, though their loyalty is questionable.	true
 unit_description_short_texts_text_ovn_glad	Pit-Fighters were usually slaves, criminals or prisoners of war but freemen also enlisted in search of gold and glory. Superbly-trained heavy infantry with little fear of death.	true
 unit_description_short_texts_text_ovn_jez	Armed with long-barrelled arquebus of Arabyan design, the endless deserts have taught these men the value of marksmanship and an accurate firearm. 	true
 unit_description_short_texts_text_ovn_ifreet	An ancient beast, harbinger of fiery doom bound to a Magician's service, who are said to love the smell of naptha in the morning.	true
