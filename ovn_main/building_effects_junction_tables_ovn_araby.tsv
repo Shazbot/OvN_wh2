@@ -209,3 +209,6 @@ ovn_araby_walls_3	wh_main_effect_agent_action_success_chance_enemy_building	regi
 ovn_araby_walls_3	wh_main_effect_force_army_battle_unit_morale_siege_defence	region_to_force_own	6.0	6.0	0.0
 ovn_araby_walls_3	wh_main_effect_force_army_campaign_siege_defend_holdout_time	region_to_region_own	3.0	3.0	0.0
 ovn_araby_walls_3	wh_main_effect_tower_projectile_emp_4	region_to_region_own	4.0	4.0	4.0
+ovn_arb_barracks_1	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-5.0	0.0	0.0
+ovn_arb_barracks_2	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-10.0	0.0	0.0
+ovn_arb_barracks_3	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-15.0	0.0	0.0
