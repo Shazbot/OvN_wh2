@@ -784,6 +784,8 @@ cm:add_first_tick_callback(
 				end
 
 				cm:force_diplomacy("faction:wh2_main_nor_rotbloods", "faction:wh2_dlc12_skv_clan_fester", "war", false, false, true);
+				cm:apply_dilemma_diplomatic_bonus("wh2_main_nor_rotbloods", "wh2_dlc12_skv_clan_fester", 5)
+				cm:force_grant_military_access("wh2_dlc12_skv_clan_fester", "wh2_main_nor_rotbloods", false)
 
 				local mct = core:get_static_object("mod_configuration_tool")
 				local rotblood_value
