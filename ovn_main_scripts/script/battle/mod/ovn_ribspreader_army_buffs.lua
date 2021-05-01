@@ -1,4 +1,5 @@
 local ribspreader_type_key = "ribspreader"
+local ribspreader_mammoth_type_key = "ribspreader_mammoth"
 local change_one_in_x = 4
 
 local function init()
@@ -13,7 +14,7 @@ local function init()
 			local army = alliance_armies:item(j)
 
 			local army_units = army:units();
-			if army_units:item(1):type() == ribspreader_type_key then
+			if army_units:item(1):type() == ribspreader_type_key or army_units:item(1):type() == ribspreader_mammoth_type_key then
 				for k = 2, army_units:count() do
 					local current_unit = army_units:item(k);
 					if current_unit then
