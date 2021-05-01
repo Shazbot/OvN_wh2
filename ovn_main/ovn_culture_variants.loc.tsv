@@ -978,8 +978,8 @@ building_culture_variants_name_ovn_Albion_Barrowswh2_main_nor_albion	Barrows of 
 building_chains_chain_tooltip_ovn_Albion_Barrows	Landmark	true
 building_short_description_texts_short_description_ovn_Albion_Barrows	In this unremarkable Isle, a series of great, grassy mounds dot the landscape. Ancient man-made hills, serving as the burial tombs of mighty kings and warriors who will rise uneasily to face intruders.	true
 building_chains_chain_tooltip_ovn_Albion_War	Landmark	true
-building_short_description_texts_short_description_ovn_Albion_War	Even the tribes of Albion can't resist the Dark Emissaries honeyed words of power and riches.	true
-building_short_description_texts_short_description_ovn_Albion_War_2	As the Dark Masters power grows so does the throng he can muster.	true
-building_culture_variants_name_ovn_Albion_War_1wh2_main_nor_harbingers_of_doom	Albion Warcamp	true
-building_culture_variants_name_ovn_Albion_War_2wh2_main_nor_harbingers_of_doom	Albion Wargrounds	true
+building_short_description_texts_short_description_ovn_Albion_War	Even the tribes of Albion can't resist the Dark Emissaries honeyed words of power and riches that emanate from the black citadel.	true
+building_short_description_texts_short_description_ovn_Albion_War_2	The citadel is rebuilt anew, a strange and baroque structure of twisted spires and warped gates, that can darken even the most noble soul.	true
+building_culture_variants_name_ovn_Albion_War_1wh2_main_nor_harbingers_of_doom	Unsealed Citadel of Lead	true
+building_culture_variants_name_ovn_Albion_War_2wh2_main_nor_harbingers_of_doom	Citadel of Lead Reforged	true
 building_culture_variants_name_ovn_Albion_Barrowswh2_main_nor_harbingers_of_doom	Barrows of Albion	true
