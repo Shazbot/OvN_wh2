@@ -764,6 +764,14 @@ cm:add_first_tick_callback(
 				if not rotblood_tribe then return end
 
 				if rotblood_tribe:is_human() then
+					cm:force_diplomacy("culture:wh2_main_skv_skaven", "faction:wh2_dlc12_skv_clan_fester", "form confederation", false, false, true)
+
+					if cm:model():turn_number() >= 25 then
+						cm:force_change_cai_faction_personality("wh2_dlc12_skv_clan_fester", "wh2_skaven_major_hard");
+					else
+						cm:force_change_cai_faction_personality("wh2_dlc12_skv_clan_fester", "wh2_skaven_early_major_hard");
+					end
+
 					if cm:is_multiplayer() then
 						ovn_rotblood_skit_reinforcements_new()
 					end
@@ -783,9 +791,11 @@ cm:add_first_tick_callback(
 					)
 				end
 
-				cm:force_diplomacy("faction:wh2_main_nor_rotbloods", "faction:wh2_dlc12_skv_clan_fester", "war", false, false, true);
-				cm:apply_dilemma_diplomatic_bonus("wh2_main_nor_rotbloods", "wh2_dlc12_skv_clan_fester", 5)
-				cm:force_grant_military_access("wh2_dlc12_skv_clan_fester", "wh2_main_nor_rotbloods", false)
+				cm:force_diplomacy("faction:wh2_main_nor_rotbloods", "faction:wh2_dlc12_skv_clan_fester", "war", false, false, true)
+				if cm:is_new_game() then
+					cm:apply_dilemma_diplomatic_bonus("wh2_main_nor_rotbloods", "wh2_dlc12_skv_clan_fester", 5)
+					cm:force_grant_military_access("wh2_dlc12_skv_clan_fester", "wh2_main_nor_rotbloods", false)
+				end
 
 				local mct = core:get_static_object("mod_configuration_tool")
 				local rotblood_value
