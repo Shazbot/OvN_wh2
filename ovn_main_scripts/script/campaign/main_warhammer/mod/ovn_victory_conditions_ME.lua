@@ -1031,7 +1031,7 @@ function ovn_victory_conditions()
 						{
 							type CONSTRUCT_N_OF_A_BUILDING;
 							faction wh2_main_nor_albion;
-							total 8;
+							total 3;
 							building_level ovn_Waystone_3;
 						}
 						payload
@@ -1076,7 +1076,7 @@ function ovn_victory_conditions()
 						{
 							type CONSTRUCT_N_OF_A_BUILDING;
 							faction wh2_main_nor_albion;
-							total 15;
+							total 3;
 							building_level ovn_Waystone_3;
 						}
 						payload
