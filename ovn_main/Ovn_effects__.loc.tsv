@@ -135,3 +135,4 @@ effects_description_ovn_scimitar_coast_armour	Armour: %+n for all Vampire Coast 
 effects_description_ovn_fester_diplo	Diplomatic relations: %+n with the faction of [[img:ovn_fester]][[/img]]Clan Fester	true
 effect_bundles_localised_title_ovn_rot_fester_trans	New Fester Rat-Warrens	true
 effect_bundles_localised_description_ovn_rot_fester_trans	You have given lands to your pact-allies of Clan Fester.	true
+effects_description_ovn_faction_political_diplomacy_mod_all_except_fester	Diplomatic relations: %+n with any faction, except Clan Fester	true
