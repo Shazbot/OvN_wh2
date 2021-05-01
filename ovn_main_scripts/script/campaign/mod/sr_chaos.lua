@@ -792,9 +792,11 @@ cm:add_first_tick_callback(
 				end
 
 				cm:force_diplomacy("faction:wh2_main_nor_rotbloods", "faction:wh2_dlc12_skv_clan_fester", "war", false, false, true)
+				cm:force_diplomacy("faction:wh2_main_nor_rotbloods", "faction:wh2_dlc12_skv_clan_fester", "break alliance", false, false, true)
 				if cm:is_new_game() then
-					cm:apply_dilemma_diplomatic_bonus("wh2_main_nor_rotbloods", "wh2_dlc12_skv_clan_fester", 5)
+					cm:apply_dilemma_diplomatic_bonus("wh2_main_nor_rotbloods", "wh2_dlc12_skv_clan_fester", 6)
 					cm:force_grant_military_access("wh2_dlc12_skv_clan_fester", "wh2_main_nor_rotbloods", false)
+					cm:force_alliance("wh2_main_nor_rotbloods", "wh2_dlc12_skv_clan_fester", true)
 				end
 
 				local mct = core:get_static_object("mod_configuration_tool")
