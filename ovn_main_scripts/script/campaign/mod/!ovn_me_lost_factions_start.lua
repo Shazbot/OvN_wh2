@@ -826,7 +826,7 @@ local function treeblood_setup()
 			cm:heal_garrison(cm:get_region("wh2_main_albion_citadel_of_lead"):cqi())
 
 			local albion_region = cm:model():world():region_manager():region_by_key("wh2_main_albion_albion")
-			cm:instantly_set_settlement_primary_slot_level(albion_region:settlement(), 3)
+			cm:instantly_set_settlement_primary_slot_level(albion_region:settlement(), 2)
 
 			local belakor_spawn_data = new_forces["wh2_main_nor_harbingers_of_doom"]
 			if belakor_spawn_data then
@@ -895,14 +895,6 @@ local function albion_setup()
 
 	add_cqi_to_murdered_list(albion_faction_leader_cqi)
 
-	-- kill all the vanaheimling characters on Albion
-	local vanaheimlings = cm:get_faction("wh_dlc08_nor_vanaheimlings")
-	if vanaheimlings then
-		for char in binding_iter(vanaheimlings:character_list()) do
-			add_cqi_to_murdered_list(char:command_queue_index())
-		end
-	end
-
 	local harbingers_of_doom = cm:get_faction("wh2_main_nor_harbingers_of_doom")
 
 	if albion and (albion:is_human() or not mct or settings_table.albion and settings_table.enable) then
@@ -914,10 +906,24 @@ local function albion_setup()
 
 		cm:force_diplomacy("faction:wh2_main_nor_albion", "culture:wh2_main_hef_high_elves", "vassal", false, false, true);
 
+		-- if Be'lakor isn't played by human Vanaheimling start at Citadel of Lead
 		if not harbingers_of_doom or not harbingers_of_doom:is_human() then
-			local citadel_of_lead = cm:get_region("wh2_main_albion_citadel_of_lead")
-			cm:transfer_region_to_faction("wh2_main_albion_citadel_of_lead", "wh2_main_nor_albion")
-			cm:heal_garrison(citadel_of_lead:cqi())
+			local vanaheimlings = cm:get_faction("wh_dlc08_nor_vanaheimlings")
+			local vanaheimlings_leader = vanaheimlings and vanaheimlings:faction_leader()
+			if vanaheimlings_leader then
+				local pos_x, pos_y = cm:find_valid_spawn_location_for_character_from_settlement("wh_dlc08_nor_vanaheimlings", "wh2_main_albion_citadel_of_lead", false, true, 1)
+				if pos_x ~= -1 then
+					cm:teleport_to(cm:char_lookup_str(vanaheimlings_leader), pos_x, pos_y, true)
+				end
+			end
+		else
+			-- human Be'lakor start at Citadel of Lead so kill all the Vanaheimling characters on Albion
+			local vanaheimlings = cm:get_faction("wh_dlc08_nor_vanaheimlings")
+			if vanaheimlings then
+				for char in binding_iter(vanaheimlings:character_list()) do
+					add_cqi_to_murdered_list(char:command_queue_index())
+				end
+			end
 		end
 
 		cm:force_declare_war("wh2_twa03_def_rakarth", "wh2_main_nor_albion", false, false)
