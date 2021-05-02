@@ -88,3 +88,4 @@ wh_main_anc_mount_arb_vizier_heavens_carpet	wh_main_anc_mount_magic_carpet	.	fal
 wh_main_anc_mount_arb_vizier_heavens_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_heavens_1		1	1		false	false	false
 wh_main_anc_mount_arb_vizier_desert_carpet	wh_main_anc_mount_magic_carpet	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_desert_2		1	1		false	false	false
 wh_main_anc_mount_arb_vizier_desert_camel	ovn_anc_arb_camel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	arb_vizier_desert_1		1	1		false	false	false
+anc_boglar_shaman_hound	wh_main_anc_mount_giant_wolf	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_boglar_shaman_hound		1	1		false	false	false

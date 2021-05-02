@@ -9,3 +9,4 @@ wh_main_lore_cold_witchering	UI\Battle UI\ability_icons\grudge_lore_cold_witcher
 wh_main_lore_winter_rage	UI\Battle UI\ability_icons\grudge_lore_winter_rage_large.png	0	3	false	43	43	83	lore_winter_rage	Play_WH_UI_Ability_Click_Generic_Heavens	false	true
 ovn_lore_golden_magus	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true	true
 wh_main_lore_jaffar	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	119	1	11	lore_shadow	Play_WH_UI_Ability_Click_Generic_Shadow	true	true
+elo_lore_boglar	UI\Battle UI\ability_icons\wh_main_lore_passive_sneaky_stealin.png	0	0	false	70	0	59	lore_boglar	Play_WH_UI_Ability_Click_Generic_Lil_Waaagh	true	true

@@ -51,3 +51,4 @@ ovn_hlf_moot_general	true	false		ovn_hlf_moot_general_0	wh_main_vo_actor_Empire_
 ovn_hlf_fieldwarden	true	false	ui/campaign ui/agents/wh_dlc05_lore_life.png	ovn_hlf_fieldwarden_0	wh_main_vo_actor_Empire_WitchHunter	true	-1	false	true	false	true				false
 ovn_hlf_master_chef	true	false	ui/campaign ui/agents/hlf_master_chef.png	ovn_hlf_master_chef_0	wh_main_vo_actor_Empire_WarriorPriest	true	-1	false	true	false	true				false
 ovn_hlf_sheriff	true	false	ui/campaign ui/agents/wh_main_brt_champion.png	ovn_hlf_sheriff_0	wh_main_vo_actor_Empire_Captain	true	-1	false	true	false	true				false
+elo_boglar_shaman	true	true	ui/campaign ui/agents/wh_main_lore_lil_waaagh.png	elo_boglar_shaman	wh_main_vo_actor_Goblin_NightShaman	true	-1	false	true	true	true		elo_lore_boglar		false

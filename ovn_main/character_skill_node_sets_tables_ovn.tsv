@@ -47,3 +47,4 @@ general			wh_main_skill_node_set_ovn_hlf_moot_general		false	false	ovn_hlf_moot_
 spy			wh_main_skill_node_set_ovn_hlf_fieldwarden		false	false	ovn_hlf_fieldwarden
 dignitary			wh_main_skill_node_set_hlf_master_chef		false	false	ovn_hlf_master_chef
 champion			wh_main_skill_node_set_hlf_sheriff		false	false	ovn_hlf_sheriff
+wizard			elo_boglar_shaman		false	false	elo_boglar_shaman

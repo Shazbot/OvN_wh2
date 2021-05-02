@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	elo_boglar_shaman	elo_boglar_shaman	elo_boglar_shaman	elo_boglar_shaman
+	elo_boglar_shaman	elo_boglar_shaman_hound	elo_boglar_shaman	elo_boglar_shaman

@@ -92,3 +92,8 @@ hide_forest	genie
 strider	genie
 causes_fear	genie
 causes_terror	genie
+stalk	elo_boglar
+hide_forest	elo_boglar
+guerrilla_deploy	elo_boglar
+expendable	elo_boglar
+encourages	elo_boglar

@@ -21,3 +21,4 @@ wm_djinn_skifff	cr_cam_mnt_arb_djinn_skiff	arb_golden_magus_djinn_siff_cam	0.35	
 cam_bo1_warboar	ovn_mtl_mnt_swine_general_lord	ovn_mtl_swine_lord_general	1.0	wh_dlc03_vo_culture_Boar	true	0	false
 cam_wm_war_altar	ovn_mtl_mnt_master_chef_wagon	elo_supply_wagon	1.0	wh_main_vo_culture_Empire	true	0	false
 cam_lord_rp3_cold_one	ovn_mtl_mnt_poultry_general_lord	ovn_mtl_poultry_lord_general	1.0	wh_main_vo_culture_Eagle	true	0	false
+cam_wf1_giant_wolf	elo_marshhound	ovn_marsh_hounds	1.0	wh_main_vo_culture_Wolf	true	0	false

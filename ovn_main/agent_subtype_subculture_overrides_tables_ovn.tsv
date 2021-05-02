@@ -8,7 +8,6 @@ roy_arb_cha_nomad	wh_main_sc_emp_araby	roy_arb_nomad	spy	ui/campaign ui/agents/o
 roy_arb_cha_champion	wh_main_sc_emp_araby	roy_arb_champion	champion	ui/campaign ui/agents/wh_main_emp_champion.png
 	wh_main_sc_emp_araby	emp_warrior_priest	dignitary	
 	wh_main_sc_nor_fimir	wh_dlc08_nor_fimir_balefiend_fire	dignitary	
-	wh_main_sc_nor_fimir	grn_goblin_great_shaman	wizard	
-	wh_main_sc_nor_troll	grn_goblin_great_shaman	wizard	
 	wh_main_sc_nor_troll	wh2_dlc15_grn_river_troll_hag	runesmith	
 	wh_main_sc_nor_fimir	wh2_dlc15_grn_river_troll_hag	runesmith	
+	wh_main_sc_nor_fimir	elo_boglar_shaman	wizard	

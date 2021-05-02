@@ -1,0 +1,4 @@
+effect_bonus_value_agent_junction_tables	0
+effect	bonus_value_id	agent
+increase_cap_elo_boglar_shaman	cap	wizard
+enable_recruitment_elo_boglar_shaman	availability	wizard
