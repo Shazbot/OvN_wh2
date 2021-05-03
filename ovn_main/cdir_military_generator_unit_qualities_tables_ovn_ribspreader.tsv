@@ -1,3 +1,5 @@
 cdir_military_generator_unit_qualities_tables	1
 group_key	quality	unit_key
 Default_land_command	10	ribspreader
+Default_land_cavalry_melee	22	ovn_nurgle_chs_cav_chaos_knights_0
+Default_land_cavalry_melee	25	ovn_nurgle_chs_cav_chaos_knights_1
