@@ -1,0 +1,9 @@
+cdir_military_generator_template_ratios_tables	0
+ratio	template_key	unit_group_key
+4	ovn_chorfs	Default_land_artillery
+2	ovn_chorfs	Default_land_cavalry_melee
+11	ovn_chorfs	Default_land_infantry_melee
+1	ovn_chorfs	Default_land_magic
+4	ovn_chorfs	Default_land_monster
+1	ovn_chorfs	Default_land_support
+5	ovn_chorfs	Default_land_infantry_missile

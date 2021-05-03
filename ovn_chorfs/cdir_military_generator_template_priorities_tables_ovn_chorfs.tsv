@@ -1,0 +1,4 @@
+cdir_military_generator_template_priorities_tables	1
+config_key	priority	template_key	leader_only
+ovn_chorfs	5	ovn_chorfs	false
+ovn_chorfs	1	WH_default_naval	false
