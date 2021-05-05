@@ -5,3 +5,5 @@ amount	pooled_resource_factor	resource_cost
 -1225	ovn_grudge_upgrade	ovn_grudge_cross_cost
 -1225	ovn_grudge_upgrade	ovn_grudge_can_cost
 -50	mtl_seasong_dish_cooking	ovn_cooking_cost
+-50	pj_rot_warpstone_other	pj_rot_warpstone_tech_50
+-100	pj_rot_warpstone_other	pj_rot_warpstone_tech_100

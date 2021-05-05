@@ -1,8 +1,12 @@
 technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
-rot_tech_mon_1	wh_main_chs_port	1	tech_dlc08_nor_baying_to_morrslieb	0	0	0	0	false	false	"placeholder.tga"	534215732	false	false	true
-rot_tech_mon_2	wh_main_chs_port	1	tech_dlc08_nor_chaos_surge	0	0	0	0	false	false	"placeholder.tga"	1769752286	false	false	true
-rot_nor_marauders_05	wh_main_chs_port	1	tech_dlc08_nor_crafters_barding	0	0	0	0	false	false	"placeholder.tga"	708046885	false	false	true
-rot_nor_marauders_06	wh_main_chs_port	1	tech_dlc08_nor_horsemasters_clinchers_2	0	0	0	0	false	false	"placeholder.tga"	312368942	false	false	true
-rot_nor_other_17	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_necromancy	0	0	0	0	false	false	"placeholder.tga"	629388111	false	false	true
-rot_nor_nw_07	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_the_ancients	0	0	0	0	false	false	"placeholder.tga"	2013431002	false	false	true
+rot_tech_mon_1		1	tech_dlc08_nor_baying_to_morrslieb	0	0	0	0	false	false	"placeholder.tga"	2113431002	false	false	true
+rot_tech_mon_2		1	tech_dlc08_nor_chaos_surge	0	0	0	0	false	false	"placeholder.tga"	2113431003	false	false	true
+rot_nor_marauders_05		1	tech_dlc08_nor_crafters_barding	0	0	0	0	false	false	"placeholder.tga"	2113431004	false	false	true
+rot_nor_marauders_06		1	tech_dlc08_nor_horsemasters_clinchers_2	0	0	0	0	false	false	"placeholder.tga"	2113431005	false	false	true
+rot_nor_other_17		1	tech_dlc08_nor_secrets_of_necromancy	0	0	0	0	false	false	"placeholder.tga"	2113431006	false	false	true
+rot_nor_nw_07		1	tech_dlc08_nor_secrets_of_the_ancients	0	0	0	0	false	false	"placeholder.tga"	2113431007	false	false	true
+rot_tech_skv_1		1	wh2_skv_tech_record_effective_recipes	0	0	0	0	false	false	"placeholder.tga"	2113431008	false	false	true
+rot_tech_skv_2		1	wh2_skv_tech_harsh_production_quota	0	0	0	0	false	false	"placeholder.tga"	2113431009	false	false	true
+rot_tech_skv_3		1	wh2_skv_tech_ensure_product_quality	0	0	0	0	false	false	"placeholder.tga"	2113431010	false	false	true
+rot_tech_skv_4		1	wh2_skv_tech_ultimate_experiments	0	0	0	0	false	false	"placeholder.tga"	2113431011	false	false	true

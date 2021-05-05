@@ -27,3 +27,18 @@ technologies_short_description_rot_nor_other_17	The Vampires and Undead, while d
 technologies_long_description_rot_nor_nw_07	 	true
 technologies_short_description_rot_nor_nw_07	Take from the reptiles all they hold dear - their precious secrets.	true
 technologies_onscreen_name_rot_nor_nw_07	Secrets of the Ancients	true
+technologies_short_description_rot_tech_skv_1	Skaven are master sappers, and their expertise has a price attached.	true
+technologies_onscreen_name_rot_tech_skv_1	Skaven Sappers	true
+technologies_long_description_rot_tech_skv_1		true
+technologies_short_description_rot_tech_skv_2	More Skaven forces will assist us from under the earth!	true
+technologies_onscreen_name_rot_tech_skv_2	Extended Underground Support	true
+technologies_long_description_rot_tech_skv_2		true
+technologies_short_description_rot_tech_skv_3	The Skittergate can be repaired sooner with better Skaven technical support.	true
+technologies_onscreen_name_rot_tech_skv_3	24-Hour Warlock-Engineers On Call	true
+technologies_long_description_rot_tech_skv_3		true
+technologies_short_description_rot_tech_skv_4	The Skittergate cooling is reworked with pipes running through the frigid waters of the Sea of Claws!	true
+technologies_onscreen_name_rot_tech_skv_4	Better Skittergate Cooling Solutions	true
+technologies_long_description_rot_tech_skv_4		true
+effects_description_ovn_rot_tech_skv_3_dummy	The Skittergate will be repaired faster	true
+effects_description_ovn_rot_tech_skv_4_dummy	The Skittergate will be repaired faster	true
+ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_wh_main_sc_nor_warp	In order to research this technology, this amount of [[img:pj_rot_warpstone]][[/img]]Warpstone will be deducted from your total.	true

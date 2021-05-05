@@ -30,6 +30,8 @@ end
 OVN_ROT_SKITTERGATE = OVN_ROT_SKITTERGATE or {}
 local mod = OVN_ROT_SKITTERGATE
 
+local rotblood_faction_key = "wh2_main_nor_rotbloods"
+
 mod.switch_state = function(new_state, old_state)
 	out("OVN ROTBLOODS: SWITCHING STATE")
 	if old_state then out("FROM: "..old_state.name) end
@@ -150,7 +152,17 @@ mod.init = function()
 				timer:SetVisible(true)
 				timer:SetInteractive(true)
 
-				state.current_cooldown = cm:get_saved_value("pj_rot_skittergate_current_cooldown") or cm:random_number(12,8)
+				state.current_cooldown = cm:get_saved_value("pj_rot_skittergate_current_cooldown")
+				if not state.current_cooldown then
+					state.current_cooldown = cm:random_number(12,8)
+					if cm:get_saved_value("pj_rot_tech_skv_3_completed") then
+						state.current_cooldown = state.current_cooldown - 2
+					end
+					if cm:get_saved_value("pj_rot_tech_skv_4_completed") then
+						state.current_cooldown = state.current_cooldown - 2
+					end
+				end
+
 				if cm:get_saved_value("pj_rot_skittergate_was_just_built") then
 					cm:set_saved_value("pj_rot_skittergate_was_just_built", false)
 					state.current_cooldown = 4
@@ -430,6 +442,25 @@ core:add_listener(
 			cm:callback(function()
 				cm:scroll_camera_with_cutscene_to_character(2, nil, tonumber(char_cqi))
 			end, 0.5)
+		end
+	end,
+	true
+)
+
+core:remove_listener("pj_ovn_rotbloods_on_tech_researched")
+core:add_listener(
+	"pj_ovn_rotbloods_on_tech_researched",
+	"ResearchCompleted",
+	function(context)
+		return context:faction():name() == rotblood_faction_key and context:faction():is_human()
+	end,
+	function(context)
+		local tech = context:technology()
+		if tech == "rot_tech_skv_3" then
+			cm:set_saved_value("pj_rot_tech_skv_3_completed", true)
+		end
+		if tech == "rot_tech_skv_4" then
+			cm:set_saved_value("pj_rot_tech_skv_4_completed", true)
 		end
 	end,
 	true

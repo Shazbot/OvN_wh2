@@ -819,8 +819,9 @@ core:add_listener(
 	true
 )
 
+core:remove_listener("pj_ovn_rotbloods_on_fester_gifted_settlement")
 core:add_listener(
-	"halfling_gift_listener",
+	"pj_ovn_rotbloods_on_fester_gifted_settlement",
 	"CharacterPerformsSettlementOccupationDecision",
 	function(context)
 			return context:character():faction():name() == rotblood_faction_key
@@ -830,6 +831,19 @@ core:add_listener(
 	function()
 		local rotblood_faction = cm:get_faction(rotblood_faction_key)
 		cm:pooled_resource_mod(rotblood_faction:command_queue_index(), "pj_rot_warpstone", "wh2_main_resource_factor_other", 10)
+		mod.refresh_resource_value_in_ui()
+	end,
+	true
+)
+
+core:remove_listener("pj_ovn_rotbloods_new_warpstone_mercs_on_tech_panel_closed")
+core:add_listener(
+	"pj_ovn_rotbloods_new_warpstone_mercs_on_tech_panel_closed",
+	"PanelClosedCampaign",
+	function(context)
+		return context.string == "technology_panel"
+	end,
+	function()
 		mod.refresh_resource_value_in_ui()
 	end,
 	true
