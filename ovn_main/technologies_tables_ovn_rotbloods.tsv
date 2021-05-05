@@ -8,5 +8,5 @@ rot_nor_other_17		1	tech_dlc08_nor_secrets_of_necromancy	0	0	0	0	false	false	"pl
 rot_nor_nw_07		1	tech_dlc08_nor_secrets_of_the_ancients	0	0	0	0	false	false	"placeholder.tga"	2113431007	false	false	true
 rot_tech_skv_1		1	wh2_skv_tech_record_effective_recipes	0	0	0	0	false	false	"placeholder.tga"	2113431008	false	false	true
 rot_tech_skv_2		1	wh2_skv_tech_harsh_production_quota	0	0	0	0	false	false	"placeholder.tga"	2113431009	false	false	true
-rot_tech_skv_3		1	wh2_skv_tech_ensure_product_quality	0	0	0	0	false	false	"placeholder.tga"	2113431010	false	false	true
-rot_tech_skv_4		1	wh2_skv_tech_ultimate_experiments	0	0	0	0	false	false	"placeholder.tga"	2113431011	false	false	true
+rot_tech_skv_3	ovn_rot_skittergate	1	wh2_skv_tech_ensure_product_quality	0	0	0	0	false	false	"placeholder.tga"	2113431010	false	false	true
+rot_tech_skv_4	ovn_rot_skittergate	1	wh2_skv_tech_ultimate_experiments	0	0	0	0	false	false	"placeholder.tga"	2113431011	false	false	true
