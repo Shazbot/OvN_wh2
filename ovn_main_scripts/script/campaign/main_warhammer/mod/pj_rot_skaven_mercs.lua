@@ -832,6 +832,9 @@ core:add_listener(
 		local rotblood_faction = cm:get_faction(rotblood_faction_key)
 		cm:pooled_resource_mod(rotblood_faction:command_queue_index(), "pj_rot_warpstone", "wh2_main_resource_factor_other", 10)
 		mod.refresh_resource_value_in_ui()
+
+		-- give Fester some free money when they get a new settlement so they compete better
+		cm:treasury_mod("wh2_dlc12_skv_clan_fester", 2000)
 	end,
 	true
 )

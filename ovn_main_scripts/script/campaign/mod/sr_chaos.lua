@@ -859,6 +859,42 @@ core:add_listener(
 	true
 )
 
+local function spawn_rasknitt()
+	local first_region_name = cm:model():world():region_manager():region_list():item_at(0):name()
+	local fester_key = "wh2_dlc12_skv_clan_fester"
+	cm:get_faction(fester_key):home_region()
+	local x, y = cm:find_valid_spawn_location_for_character_from_settlement(fester_key, cm:get_faction(fester_key):home_region():name(), false, true, 1);
+	if x == -1 then return end
+
+	cm:create_force_with_general(
+		fester_key,
+		"",
+		first_region_name,
+		x,
+		y,
+		"general",
+		"wh2_main_skv_grey_seer_ruin",
+		"",
+		"",
+		"names_name_638517960",
+		"",
+		true,
+		function()
+			cm:callback(
+				function()
+					local char = cm:get_faction(fester_key):faction_leader()
+					local char_lookup_str = cm:char_lookup_str(char)
+					cm:set_character_immortality(char_lookup_str, true)
+					cm:set_character_unique(char_lookup_str, true)
+					cm:force_add_trait(char_lookup_str, "ovn_trait_rasknitt", false)
+					cm:add_unit_model_overrides(char_lookup_str, "wh2_main_art_set_skv_grey_seer_ruin_01");
+				end,
+				0
+			)
+		end
+	)
+end
+
 cm:add_first_tick_callback(
     function()
 				replace_old_buildings()
@@ -869,11 +905,13 @@ cm:add_first_tick_callback(
 				if rotblood_tribe:is_human() then
 					cm:force_diplomacy("culture:wh2_main_skv_skaven", "faction:wh2_dlc12_skv_clan_fester", "form confederation", false, false, true)
 
+					local new_fester_personality = "wh2_skaven_early_major_hard"
 					if cm:model():turn_number() >= 25 then
-						cm:force_change_cai_faction_personality("wh2_dlc12_skv_clan_fester", "wh2_skaven_major_hard");
-					else
-						cm:force_change_cai_faction_personality("wh2_dlc12_skv_clan_fester", "wh2_skaven_early_major_hard");
+						new_fester_personality = "wh2_skaven_major_hard"
 					end
+					cm:callback(function()
+						cm:force_change_cai_faction_personality("wh2_dlc12_skv_clan_fester", new_fester_personality);
+					end, 1)
 
 					if cm:is_multiplayer() then
 						ovn_rotblood_skit_reinforcements_new()
@@ -916,6 +954,10 @@ cm:add_first_tick_callback(
 				end
 
 				if rotblood_tribe:is_human() or not mct or rotblood_value and enable_value then
+					if cm:is_new_game() then
+						spawn_rasknitt()
+					end
+
 					new_setup_cwd_and_fimir_raze_region_monitor()
 
 					if not rotblood_tribe:is_human() then
