@@ -42,3 +42,6 @@ technologies_long_description_rot_tech_skv_4		true
 effects_description_ovn_rot_tech_skv_3_dummy	The Skittergate will be repaired faster	true
 effects_description_ovn_rot_tech_skv_4_dummy	The Skittergate will be repaired faster	true
 ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_wh_main_sc_nor_warp	In order to research this technology, this amount of [[img:pj_rot_warpstone]][[/img]]Warpstone will be deducted from your total.	true
+technologies_short_description_rot_tech_skv_5	More Fester forces are assigned to assist the Rotblood armies in the field.	true
+technologies_onscreen_name_rot_tech_skv_5	The Undertide	true
+technologies_long_description_rot_tech_skv_5		true

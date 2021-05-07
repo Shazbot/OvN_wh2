@@ -52,5 +52,6 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 	wh2_dlc11_cst_vampire_coast_qb1	0	ovn_rotbloods_dummy	tech_dwf_civ_5_0	ovn_rotbloods_tech	0	999999	0	0		
 		-1	rot_tech_skv_1	rot_tech_skv_1	ovn_rotbloods_tech	2	100	0	0		pj_rot_warpstone_tech_50
 		-1	rot_tech_skv_2	rot_tech_skv_2	ovn_rotbloods_tech	3	100	0	0		pj_rot_warpstone_tech_100
-		-1	rot_tech_skv_3	rot_tech_skv_3	ovn_rotbloods_tech	4	100	0	0		pj_rot_warpstone_tech_50
-		-1	rot_tech_skv_4	rot_tech_skv_4	ovn_rotbloods_tech	5	100	10000	0		
+		-1	rot_tech_skv_3	rot_tech_skv_3	ovn_rotbloods_tech	5	100	0	0		pj_rot_warpstone_tech_50
+		-1	rot_tech_skv_4	rot_tech_skv_4	ovn_rotbloods_tech	6	100	10000	0		
+		-1	rot_tech_skv_5	rot_tech_skv_5	ovn_rotbloods_tech	4	100	0	0		pj_rot_warpstone_tech_75

@@ -447,6 +447,12 @@ core:add_listener(
 	true
 )
 
+local rotblood_region_visiblity_techs = {
+	tech_dlc08_nor_other_13 = true,
+	tech_dlc08_nor_nw_01 = true,
+	tech_dlc08_nor_other_06 = true,
+}
+
 core:remove_listener("pj_ovn_rotbloods_on_tech_researched")
 core:add_listener(
 	"pj_ovn_rotbloods_on_tech_researched",
@@ -461,6 +467,10 @@ core:add_listener(
 		end
 		if tech == "rot_tech_skv_4" then
 			cm:set_saved_value("pj_rot_tech_skv_4_completed", true)
+		end
+
+		if rotblood_region_visiblity_techs[tech] then
+			cm:set_saved_value("pj_rot_"..tostring(tech).."_completed", true)
 		end
 	end,
 	true

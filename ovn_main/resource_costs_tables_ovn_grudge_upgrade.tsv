@@ -6,3 +6,4 @@ ovn_grudge_cross_cost	-1225	ACTIONS	BATTLE_KILLS
 ovn_grudge_can_cost	-1225	ACTIONS	BATTLE_KILLS
 pj_rot_warpstone_tech_50	0	TECHNOLOGY	TECHNOLOGY
 pj_rot_warpstone_tech_100	0	TECHNOLOGY	TECHNOLOGY
+pj_rot_warpstone_tech_75	0	TECHNOLOGY	TECHNOLOGY

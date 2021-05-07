@@ -756,6 +756,109 @@ local function give_visibility_over_clan_fester_regions()
 	end
 end
 
+local rotblood_region_visiblity_techs = {
+	tech_dlc08_nor_other_13 = true,
+	tech_dlc08_nor_nw_01 = true,
+	tech_dlc08_nor_other_06 = true,
+}
+
+local tech_to_regions_visibility = {
+	tech_dlc08_nor_other_06 = {
+		"wh_main_couronne_et_languille_couronne",
+		"wh_main_the_silver_road_karaz_a_karak",
+		"wh_main_tilea_miragliano",
+	},
+	tech_dlc08_nor_other_13 = {
+		"wh_main_reikland_altdorf",
+		"wh_main_eastern_sylvania_castle_drakenhof",
+		"wh_main_death_pass_karak_drazh",
+	},
+	tech_dlc08_nor_nw_01 = {
+		"wh2_main_iron_mountains_naggarond",
+		"wh2_main_eataine_lothern",
+		"wh2_main_isthmus_of_lustria_hexoatl",
+		"wh2_main_skavenblight_skavenblight",
+		"wh2_main_land_of_the_dead_khemri",
+		"wh2_main_vampire_coast_the_awakening",
+	},
+}
+
+local rotblood_faction_key = "wh2_main_nor_rotbloods"
+
+local function give_visibility_over_technology_regions()
+	for tech_key in pairs(rotblood_region_visiblity_techs) do
+		if cm:get_saved_value("pj_rot_"..tostring(tech_key).."_completed") then
+			local regions = tech_to_regions_visibility[tech_key]
+			for _, region_key in ipairs(regions) do
+				cm:make_region_seen_in_shroud(rotblood_faction_key, region_key)
+			end
+		end
+	end
+end
+
+local rotblood_region_visiblity_localized_techs = {
+	["Marauders of the West"] = true,
+	["Raiders of the East"] = true,
+	["Scavengers of the New World"] = true,
+}
+
+core:remove_listener("pj_rot_add_tech_effects_cb")
+core:add_listener(
+	"pj_rot_add_tech_effects_cb",
+	"RealTimeTrigger",
+	function(context)
+		return context.string == "pj_rot_add_tech_effects"
+	end,
+	function()
+			local ui_root = core:get_ui_root()
+
+			local technology_panel = find_uicomponent(ui_root, "technology_panel")
+			if not technology_panel then
+				real_timer.unregister("pj_rot_add_tech_effects")
+				return
+			end
+
+			local fod = find_uicomponent(ui_root, "TechTooltipPopup")
+			if not fod then return end
+
+			local effects_list = find_uicomponent(fod, "list_parent", "effects_list")
+			local title = find_uicomponent(fod, "dy_title")
+
+			if rotblood_region_visiblity_localized_techs[title:GetStateText()] then
+				local ui_address = effects_list:Find("pj_new_rot_effect")
+				if not ui_address then
+					local comp = UIComponent(effects_list:Find(0))
+					if not comp then return end
+					ui_address = comp:CopyComponent("pj_new_rot_effect")
+					if not ui_address then return end
+				end
+
+				local comp = UIComponent(ui_address)
+				if not comp then return end
+
+				comp:SetImagePath("ui/campaign ui/effect_bundles/treasure_map.png", 0)
+				comp:SetStateText("[[col:green]]Gain vision over the targeted regions (and vision over a region is needed to set the region as a Skittergate target).[[/col]]")
+			end
+	end,
+	true
+)
+
+core:remove_listener("pj_rot_on_technology_panel_opened")
+core:add_listener(
+	"pj_rot_on_technology_panel_opened",
+	"PanelOpenedCampaign",
+	function(context)
+		return context.string == "technology_panel"
+	end,
+	function()
+		if cm:get_local_faction_name(true) ~= rotblood_faction_key then return end
+
+		real_timer.unregister("pj_rot_add_tech_effects")
+		real_timer.register_repeating("pj_rot_add_tech_effects", 0)
+	end,
+	true
+)
+
 cm:add_first_tick_callback(
     function()
 				replace_old_buildings()
@@ -776,6 +879,7 @@ cm:add_first_tick_callback(
 						ovn_rotblood_skit_reinforcements_new()
 					end
 					give_visibility_over_clan_fester_regions()
+					give_visibility_over_technology_regions()
 
 					core:remove_listener("ovn_rot_visibility_over_clan_fester_regions")
 					core:add_listener(
@@ -786,6 +890,7 @@ cm:add_first_tick_callback(
 						end,
 						function()
 							give_visibility_over_clan_fester_regions()
+							give_visibility_over_technology_regions()
 						end,
 						true
 					)
