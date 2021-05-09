@@ -895,6 +895,27 @@ local function spawn_rasknitt()
 	)
 end
 
+local function apply_blightstormer_plagues()
+	local faction = cm:get_faction("wh2_main_nor_rotbloods")
+
+	---@type CA_CHAR
+	for char in binding_iter(faction:character_list()) do
+		if char:character_subtype("rbt_blightstormer") then
+			local random_chance = 10
+			local region = char:region()
+			if region then
+				if region:owning_faction():name() == char:faction():name() then
+					random_chance = 6
+				end
+
+				if cm:random_number(random_chance) == 1 then
+					cm:spawn_plague_at_region(region, "wh2_main_plague_skaven")
+				end
+			end
+		end
+	end
+end
+
 cm:add_first_tick_callback(
     function()
 				replace_old_buildings()
@@ -957,6 +978,19 @@ cm:add_first_tick_callback(
 					if cm:is_new_game() then
 						spawn_rasknitt()
 					end
+
+					core:remove_listener("ovn_rot_apply_blightstormer_plagues")
+					core:add_listener(
+						"ovn_rot_apply_blightstormer_plagues",
+						"FactionTurnStart",
+						function(context)
+							return context:faction():name() == "wh2_main_nor_rotbloods"
+						end,
+						function()
+							apply_blightstormer_plagues()
+						end,
+						true
+					)
 
 					new_setup_cwd_and_fimir_raze_region_monitor()
 

@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_description_ovn_rot_plague	This settlement has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to neighbouring settlements or local armies.	true
+effect_bundles_localised_title_ovn_rot_plague	Plague	true
+effect_bundles_localised_description_ovn_rot_plague_force	This force has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to nearby settlements or armies.	true
+effect_bundles_localised_title_ovn_rot_plague_force	Plague	true
