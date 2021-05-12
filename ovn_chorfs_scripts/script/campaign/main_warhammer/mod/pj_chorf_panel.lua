@@ -879,9 +879,8 @@ function(context)
         end
     end)
 
-	local faction_key, tree_name, tree_index = args[1], args[2], args[3]
+	local faction_key, tree_name, tree_index, slaves_cost = args[1], args[2], args[3], to_number(args[4])
 
-	local slaves_cost = get_cost()
 	cm:modify_faction_slaves_in_a_faction(faction_key, -slaves_cost)
 
 	for _, fun in ipairs(tree_to_other_bonuses[tree_name][tree_index+1]) do
@@ -924,7 +923,7 @@ local function upgrade_clicked(tree_name, tree_index)
 
 	CampaignUI.TriggerCampaignScriptEvent(
 		cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
-		"pj_chorf_panel_upgrade_clicked|"..tostring(faction_key).."|"..tostring(tree_name).."|"..tostring(tree_index)
+		"pj_chorf_panel_upgrade_clicked|"..tostring(faction_key).."|"..tostring(tree_name).."|"..tostring(tree_index).."|"..tostring(slaves_cost)
 	)
 end
 
