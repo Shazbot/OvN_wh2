@@ -131,5 +131,5 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	20	arb_golden_magus_djinn_skiff	105	155	0	5.0	sword	staff	large	5	1.0	100	0.0	false		3	2	4.8	
 0	0	15	hlf_sheriff_bigstick	225	150	0	3.0	axe	club_medium	medium	7	1.0	150	0.0	false		0	10	4.0	
 0	0	0	cr_hef_swiftfeather_roc	55	35	0	6.0	axe	claw	large	3	1.0	25	0.0	false		0	2	4.0	
-0	0	0	cr_chs_sword_chaos_knight	60	26	0	1.5	sword	sword		2	0.2	10	0.0	false		0	10	4.6	
-0	0	0	cr_chs_lance	58	28	0	1.5	lance	spear		2	0.2	10	0.0	false		0	10	5.0	
+0	0	13	cr_chs_sword_chaos_knight	50	26	0	1.5	sword	sword		2	0.2	10	0.0	false		0	10	4.6	
+0	16	0	cr_chs_lance	48	28	0	1.5	lance	spear		2	0.2	10	0.0	false		0	10	5.0	
