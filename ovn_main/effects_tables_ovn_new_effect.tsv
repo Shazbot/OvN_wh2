@@ -41,6 +41,6 @@ elo_ogres_trait	morale.png	4	morale.png	battle	true
 ovn_dilemma_alb_current_leader	spell_ability.png	4	spell_ability.png	campaign	true
 ovn_dilemma_alb_alt_leader	spell_ability.png	4	spell_ability.png	campaign	true
 dk_trait_name_dummy	cst_piece_of_eight.png	0	cst_piece_of_eight.png	campaign	true
-ovn_no_add_army_upkeep_dummy	cst_piece_of_eight.png	0	cst_piece_of_eight.png	campaign	true
+ovn_no_add_army_upkeep_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
 ovn_albion_waystone_geomancy	waystone_geo.png	1	waystone_geo.png	campaign	true
 ovn_grudge_replenish_dummy	icon_replenish_gold.png	1	icon_replenish_gold.png	campaign	true
