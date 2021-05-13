@@ -1023,3 +1023,14 @@ cm:add_first_tick_callback(
 				end
     end
 )
+
+local original_upkeep_penalty_condition = upkeep_penalty_condition
+
+upkeep_penalty_condition = function(faction, ...)
+	local faction_name = faction:name()
+	if faction_name == rotblood_faction_key or faction_name == "wh2_main_nor_trollz" then
+		return false
+	end
+
+	return original_upkeep_penalty_condition(faction, ...)
+end;
