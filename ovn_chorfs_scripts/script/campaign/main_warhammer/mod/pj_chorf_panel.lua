@@ -879,7 +879,7 @@ function(context)
         end
     end)
 
-	local faction_key, tree_name, tree_index, slaves_cost = args[1], args[2], args[3], to_number(args[4])
+	local faction_key, tree_name, tree_index, slaves_cost = args[1], args[2], args[3], tonumber(args[4])
 
 	cm:modify_faction_slaves_in_a_faction(faction_key, -slaves_cost)
 
