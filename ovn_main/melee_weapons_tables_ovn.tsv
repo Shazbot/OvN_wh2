@@ -133,3 +133,4 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	0	cr_hef_swiftfeather_roc	55	35	0	6.0	axe	claw	large	3	1.0	25	0.0	false		0	2	4.0	
 0	0	13	cr_chs_sword_chaos_knight	50	26	0	1.5	sword	sword		2	0.2	10	0.0	false		0	10	4.6	
 0	16	0	cr_chs_lance	48	28	0	1.5	lance	spear		2	0.2	10	0.0	false		0	10	5.0	
+0	20	0	sea_troll_anchor	40	120	0	3.0	axe	club_huge	large	4	1.0	125	0.0	false	contact_anchored	0	10	4.0	

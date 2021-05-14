@@ -235,3 +235,5 @@ hlf_master_chef_hot_spices	-5.0	stat_morale	add
 hlf_master_chef_hot_spices	0.9	stat_resistance_all	mult
 ovn_rot_nurgle_flies	-5.0	stat_melee_attack	add
 ovn_rot_mark_nurgle	-15.0	stat_weakness_flame	add
+contact_anchored	-6.0	stat_melee_defence	add
+contact_anchored	0.9	scalar_speed	mult

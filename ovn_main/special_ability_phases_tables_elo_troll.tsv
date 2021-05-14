@@ -13,3 +13,4 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1.0	negative	sickness_host		false	false	false	0.2	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_main_character_passive_aura_of_pestilence		-1.0	false	true	true	0.0	
 40.0	positive	temper_tantrum		true	false	false	-0.3	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 -1.0	positive	warpstone_solid		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_metal_glittering_robe		-1.0	false	true	false	0.0	
+10.0	negative	contact_anchored		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	false	true	0.0	

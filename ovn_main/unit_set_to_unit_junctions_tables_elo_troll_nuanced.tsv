@@ -115,3 +115,7 @@ false				elo_southern_trolls	menace_land
 false				wh_main_chs_mon_trolls	elo_raw_might
 false				elo_lava_trolls	elo_mountain_masters
 false				wh_main_grn_mon_trolls	elo_danger_below
+false				elo_sea_troll	elo_danger_below
+false				elo_sea_troll	elo_all_trolls
+false				elo_sea_troll	menace_land
+false				elo_sea_troll	all_troll_fimir

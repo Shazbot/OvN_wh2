@@ -1293,11 +1293,11 @@ effects_description_mountain_masters_wps7	Weapon Strength: %+n%  for Bile Trolls
 effects_description_mountain_masters_ma	Melee Attack: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls  {{tr:rank7}}	true
 effects_description_unnatural_resilience_mdf	Melee Defense: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls	true
 effects_description_unnatural_resilience_armour	Armour: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls	true
-effects_description_blight_men_mag_res7	Magical Resistance: %+n% for Trolls, Forest Trolls and River Trolls  {{tr:rank7}}	true
-effects_description_blight_men_mag_mdf7	Melee Defense: %+n for Trolls, Forest Trolls and River Trolls  {{tr:rank7}}	true
-effects_description_blight_men_mag_wps7	Weapon Strength: %+n% for Trolls, Forest Trolls and River Trolls  {{tr:rank7}}	true
-effects_description_menace_land_ma	Melee Attack: %+n for Southern Trolls, Forest Trolls and River Trolls	true
-effects_description_menace_land_wps	Weapon Strength: %+n% for Southern Trolls, Forest Trolls and River Trolls	true
+effects_description_blight_men_mag_res7	Magical Resistance: %+n% for Cavern Trolls, Forest Trolls, Sea Trolls and River Trolls  {{tr:rank7}}	true
+effects_description_blight_men_mag_mdf7	Melee Defense: %+n for Cavern Trolls, Forest Trolls, Sea Trolls and River Trolls  {{tr:rank7}}	true
+effects_description_blight_men_mag_wps7	Weapon Strength: %+n% for Cavern Trolls, Forest Trolls, Sea Trolls and River Trolls  {{tr:rank7}}	true
+effects_description_menace_land_ma	Melee Attack: %+n for Southern Trolls, Forest Trolls, Sea Trolls and River Trolls	true
+effects_description_menace_land_wps	Weapon Strength: %+n% for Southern Trolls, Forest Trolls, Sea Trolls and River Trolls	true
 effects_description_scourge_north_speed7	Speed: %+n% for Ice Trolls, Armoured Ice Trolls and Snow Trolls {{tr:rank7}}	true
 effects_description_scourge_north_ma7	Melee Attack: %+n for Ice Trolls, Armoured Ice Trolls and Snow Trolls {{tr:rank7}}	true
 effects_description_scourge_north_mdef7	Melee Defense: %+n for Ice Trolls, Armoured Ice Trolls and Snow Trolls {{tr:rank7}}	true
