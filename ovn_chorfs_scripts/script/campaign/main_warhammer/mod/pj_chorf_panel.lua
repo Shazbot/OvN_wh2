@@ -870,16 +870,18 @@ function(context)
     return context:trigger():starts_with("pj_chorf_panel_upgrade_clicked|")
 end,
 function(context)
-    local hash_without_prefix = context:trigger():gsub("pj_chorf_panel_upgrade_clicked|", "")
+	local hash_without_prefix = context:trigger():gsub("pj_chorf_panel_upgrade_clicked|", "")
 
-    local args = {}
-    hash_without_prefix:gsub("([^|]+)", function(w)
-        if (type(w)=="string") then
-            table.insert(args, w)
-        end
-    end)
+	local args = {}
+	hash_without_prefix:gsub("([^|]+)", function(w)
+		if (type(w)=="string") then
+			table.insert(args, w)
+		end
+	end)
 
 	local faction_key, tree_name, tree_index, slaves_cost = args[1], args[2], args[3], tonumber(args[4])
+
+	tree_to_unlocked_tier[tree_name] = tree_to_unlocked_tier[tree_name] + 1
 
 	cm:modify_faction_slaves_in_a_faction(faction_key, -slaves_cost)
 
@@ -916,8 +918,6 @@ local function upgrade_clicked(tree_name, tree_index)
 
 	local slaves_cost = get_cost()
 	if not faction_has_enough_slaves(slaves_cost) then return end
-
-	tree_to_unlocked_tier[tree_name] = tree_to_unlocked_tier[tree_name] + 1
 
 	local faction_key = cm:get_local_faction_name(true)
 
