@@ -1,3 +1,4 @@
 Loc PackedFile	1
 key	text	tooltip
 unit_abilities_additional_ui_effects_localised_text_troll_fodder_ui	[[col:red]][[img:icon_arrow_down]][[/img]] This ability only affects (non-hero) Trolls [[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_deals_damage_to_friendly	[[col:red]][[img:icon_arrow_down]][[/img]] Deals damage to friendly target [[/col]]	true

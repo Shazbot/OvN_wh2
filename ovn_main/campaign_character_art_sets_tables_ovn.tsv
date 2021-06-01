@@ -132,3 +132,4 @@ wizard	wh_main_art_set_chs_sorcerer_metal_04				false	true	chs_chaos_sorcerer_me
 general	fim_meargh_skattach				false	true	fim_meargh_skattach	1.4
 wizard	wh2_main_art_set_ovn_rbt_blightstormer				false	true	rbt_blightstormer	1.0
 wizard	elo_boglar_shaman				false	true	elo_boglar_shaman	1.0
+champion	elo_troll_champ				false	true	elo_troll_champ	0.6

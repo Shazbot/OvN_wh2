@@ -16,8 +16,12 @@ elo_dragon_crag	wh_main_effect_character_mod_ancillary_drop	faction_to_character
 elo_dragon_crag	wh_main_faction_xp_increase_generals	faction_to_province_own_unseen	4.0	2.0	0.0
 elo_troll_2	wh2_dlc15_grn_river_troll_hag_wintertooth_availability	province_to_province_own_unseen	1.0	1.0	0.0
 elo_troll_2	wh2_dlc15_grn_river_troll_hag_wintertooth_cap	faction_to_faction_own_unseen	1.0	1.0	0.0
+elo_troll_2	elo_troll_champ_cap	faction_to_faction_own_unseen	1.0	1.0	0.0
+elo_troll_2	elo_troll_champ_availability	province_to_province_own_unseen	1.0	1.0	0.0
 elo_troll_3	wh2_dlc15_grn_river_troll_hag_wintertooth_availability	province_to_province_own_unseen	1.0	1.0	0.0
 elo_troll_3	wh2_dlc15_grn_river_troll_hag_wintertooth_cap	faction_to_faction_own_unseen	2.0	1.0	0.0
+elo_troll_3	elo_troll_champ_cap	faction_to_faction_own_unseen	1.0	1.0	0.0
+elo_troll_3	elo_troll_champ_availability	province_to_province_own_unseen	2.0	1.0	0.0
 ovn_troll_offerings_1	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-5.0	-5.0	0.0
 ovn_troll_offerings_1	wh_main_effect_force_all_campaign_replenishment_rate	province_to_army_own	5.0	5.0	0.0
 ovn_troll_offerings_1	wh_main_effect_unit_recruitment_points	province_to_province_own_unseen	1.0	1.0	0.0

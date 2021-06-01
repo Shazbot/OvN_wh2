@@ -3,3 +3,4 @@ art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	
 elo_cha_troll_lord_01	0	0		none	elo_cha_troll_lord_01			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4c_throgg_2handed_hammer	cam_transport_ship_05	cam_transport_ship_05	119190		0	0	0
 elo_cha_troll_lord_02	0	0		none	elo_cha_troll_lord_02			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4c_throgg_2handed_hammer	cam_transport_ship_05	cam_transport_ship_05	119191		0	0	0
 elo_cha_troll_lord_03	0	0		none	elo_cha_troll_lord_03			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4c_throgg_2handed_hammer	cam_transport_ship_05	cam_transport_ship_05	119192		0	0	0
+elo_troll_champ	0	0		none	elo_troll_champ			wh_main_campaign_grn_ship_light	wh_main_campaign_grn_ship_heavy	cam_lord_hu4c_throgg_2handed_hammer	cam_light_ship_02	cam_heavy_ship_02	119199		0	0	0

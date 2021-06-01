@@ -14,3 +14,5 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 40.0	positive	temper_tantrum		true	false	false	-0.3	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 -1.0	positive	warpstone_solid		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_metal_glittering_robe		-1.0	false	true	false	0.0	
 10.0	negative	contact_anchored		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	false	true	0.0	
+-1.0	positive	elo_troll_me_boss_now		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	
+-1.0	positive	elo_violent_command		true	false	false	0.0	0.0	0.0	1.0	0	0.18	6	18	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	

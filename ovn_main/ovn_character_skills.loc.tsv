@@ -194,3 +194,17 @@ character_skills_localised_description_ovn_as_lightning_reflexes	Capable of reac
 character_skills_localised_name_ovn_as_lightning_reflexes	Lightning Reflexes	true
 character_skills_localised_description_anc_boglar_shaman_hound	Boglar Shamans are often gifted Marsh Hounds by the Fimir. It can be considered a form of reward or punishment. If the Hound devours the Shaman, it was a punishment. If the Shaman tames the hound, it was a reward.	true
 character_skills_localised_name_anc_boglar_shaman_hound	Marsh Hound	true
+character_skills_localised_name_elo_enable_me_boss_now	Me Boss Now!	false
+character_skills_localised_description_elo_enable_me_boss_now	In the long run a troll champion cannot hold a horde together, but in the midst of battle his presence is enough to keep the trolls in line.	false
+character_skills_localised_name_elo_enable_lesser_vomit	Corrosive Vomit	false
+character_skills_localised_description_elo_enable_lesser_vomit	Not as impressive - or repulsive - as a Troll lord, but still deadly enough.	false
+character_skills_localised_name_elo_enable_violent_command	Violent Command	false
+character_skills_localised_description_elo_enable_violent_command	Maybe his intelligence is not too impressive, but violence alone can be enough to keep the weaker trolls in line.	false
+character_skills_localised_name_elo_troll_dirty	Dirty	false
+character_skills_localised_description_elo_troll_dirty	A troll's hygiene is never impressive, but this disgusting creature reeks so badly that a constant swarm of flies is buzzing around it at all times.	false
+character_skills_localised_name_elo_troll_angry	Angry	false
+character_skills_localised_description_elo_troll_angry	Most troll's are easy to anger, but this one is more vicious than others.	false
+character_skills_localised_name_elo_troll_resilient	Resilient	false
+character_skills_localised_description_elo_troll_resilient	Not only are its wounds healing rapidily, on top of that it is difficult to actually injure this troll.	false
+character_skills_localised_name_elo_troll_fast	Runner	false
+character_skills_localised_description_elo_troll_fast	Trolls look slow and lumbering, but can be surprisingly fast. This one is faster than most though.	false

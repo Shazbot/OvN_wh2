@@ -39,3 +39,10 @@ enable_recruitment_engineer_elo_snow_troll	gorebull.png	200	gorebull.png	campaig
 enable_tantrum	wh_dlc08_berserk	200	wh_dlc08_berserk	battle	true
 sickness_host	plague.png	200	plague.png	battle	true
 ovn_troll_effect_force_all_campaign_upkeep	skaven_food.png	70	skaven_food.png	campaign	false
+enable_elo_troll_me_boss_now	general_ability.png	140	general_ability.png	battle	true
+enable_elo_lesser_vomit	general_ability.png	100	general_ability.png	battle	true
+enable_elo_violent_command	general_ability.png	100	general_ability.png	battle	true
+enable_elo_greater_swamp_breath	general_ability.png	100	general_ability.png	battle	true
+elo_troll_champ_cap	agent.png	100	agent.png	campaign	true
+elo_troll_champ_availability	agent.png	200	agent.png	campaign	true
+enable_wh_main_hero_passive_swarm_of_flies	general_ability.png	100	general_ability.png	battle	true

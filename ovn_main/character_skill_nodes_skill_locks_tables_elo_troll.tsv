@@ -70,3 +70,12 @@ elo_skill_troll_food_beast	elo_skill_troll_food_green	1
 elo_skill_troll_food_beast	elo_skill_troll_food_undead	1
 elo_skill_troll_food_beast	elo_skill_troll_food_chaos	1
 elo_skill_troll_food_beast	elo_skill_troll_food_lizard	1
+elo_troll_angry	elo_troll_dirty	1
+elo_troll_resilient	elo_troll_dirty	1
+elo_troll_fast	elo_troll_dirty	1
+elo_troll_dirty	elo_troll_fast	1
+elo_troll_resilient	elo_troll_fast	1
+elo_troll_angry	elo_troll_fast	1
+elo_troll_angry	elo_troll_resilient	1
+elo_troll_dirty	elo_troll_resilient	1
+elo_troll_fast	elo_troll_resilient	1

@@ -237,3 +237,7 @@ ovn_rot_nurgle_flies	-5.0	stat_melee_attack	add
 ovn_rot_mark_nurgle	-15.0	stat_weakness_flame	add
 contact_anchored	-6.0	stat_melee_defence	add
 contact_anchored	0.9	scalar_speed	mult
+elo_troll_me_boss_now	8.0	stat_morale	add
+elo_violent_command	5.0	stat_melee_attack	add
+elo_violent_command	1.15	stat_melee_damage_ap	mult
+elo_violent_command	1.15	stat_melee_damage_base	mult

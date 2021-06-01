@@ -22,3 +22,9 @@ campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_r
 		x	1	elo_eloquent_troll		11
 		x	1	resevoir_stone_hammer		18
 		x	1	ugma_trinkets		14
+		x	1	elo_enable_me_boss_now		14
+		x	1	elo_enable_violent_command		14
+		x	1	elo_troll_dirty		9
+		x	1	elo_troll_angry		9
+		x	1	elo_troll_resilient		9
+		x	1	elo_troll_fast		9

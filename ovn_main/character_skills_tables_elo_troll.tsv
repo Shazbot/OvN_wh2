@@ -44,3 +44,11 @@ guerrilla_deploy.png	elo_skill_throgg_danger	meh	Blight of Men	0	false	false	fal
 battle_morale.png	elo_skill_troll_intimidation	meh	Intimidation	0	false	false	false	0.0	0
 campaign_movement.png	elo_skill_throgg_march	meh	March of Eternal Winter	0	false	false	false	0.0	0
 battle_attack.png	elo_throgg_inhumane	meh	Inhumane Strength	0	false	false	false	0.0	0
+trait_norsca.png	wh2_main_skill_all_dummy_agent_actions_elo_troll_champ	meh	meh	0	false	false	false	0.0	0
+character_general_ability.png	elo_enable_me_boss_now	meh	meh	0	false	false	false	0.0	0
+wh_dlc08_copious_vomit.png	elo_enable_lesser_vomit	meh	meh	0	false	false	false	0.0	0
+character_general_ability.png	elo_enable_violent_command	meh	meh	0	false	false	false	0.0	0
+character_general_ability.png	elo_troll_dirty	meh	meh	0	false	false	false	0.0	0
+wh_main_unit_passive_frenzy.png	elo_troll_angry	meh	meh	0	false	false	false	0.0	0
+battle_ward_save.png	elo_troll_resilient	meh	meh	0	false	false	false	0.0	0
+battle_speed.png	elo_troll_fast	meh	meh	0	false	false	false	0.0	0

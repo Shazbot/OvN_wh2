@@ -24,3 +24,5 @@ grudge_spell_fire_fireball	percussive	shockwave	2.0	1.0	11.0	4.0		wh_main_generi
 grudge_abilities_lord_of_the_storm	percussive	shockwave	5.0	0.0	11.0	0.0		wh_main_abilities_lord_of_the_storm_explosion	0.0		wh_lord_of_the_storm		0.0	false	8.0	wh_main_unit_explosion_medium	450.0	-1.0	true
 wh_main_dwf_dwarf_tank_steam_gun	percussive	shockwave	5.0	0.0	11.0	100.0			0.0		none		1.0	false	18.0	wh_main_unit_explosion_medium	170.0	-1.0	true
 wh_main_dwf_dwarftank_main_explosion	percussive	shockwave	7.0	0.0	11.0	60.0		wh_main_generic_spherical_explosion_large	0.0		wh_mortar		0.0	false	16.0	wh_main_unit_explosion_medium	200.0	-1.0	true
+elo_lesser_vomit_explosion	percussive	shockwave	8.0	0.0	11.0	15.0			0.0		none		0.0	false	25.0	wh_main_unit_explosion_light	120.0	-1.0	true
+elo_greater_swamp_breath_explosion	percussive	shockwave	6.0	0.0	11.0	20.0			0.0		none		0.0	false	84.0	wh_main_unit_explosion_light	120.0	-1.0	true

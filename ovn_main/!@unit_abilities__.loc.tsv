@@ -2,3 +2,11 @@ Loc PackedFile	1
 key	text	tooltip
 unit_abilities_tooltip_text_reckless_taste	The gunner of the half-tank schloshes soup around the tank, scalding all enemies who get too close. What can men do against such reckless taste?	true
 unit_abilities_onscreen_name_reckless_taste	Reckless Taste	true
+unit_abilities_tooltip_text_elo_troll_me_boss_now	Old Boss dead, me now bestest, most integli...inelli... me strongest, me boss now!	true
+unit_abilities_onscreen_name_elo_troll_me_boss_now	Me Boss Now!	true
+unit_abilities_tooltip_text_elo_lesser_vomit	"I have seen worse, but i still don't recommend to get anywhere near it" - Unknown Empire Soldier	true
+unit_abilities_onscreen_name_elo_lesser_vomit	Corrosive Vomit	true
+unit_abilities_tooltip_text_elo_violent_command	You run, me hurt you good! Fight! Fight!	true
+unit_abilities_onscreen_name_elo_violent_command	Violent Command	true
+unit_abilities_tooltip_text_elo_greater_swamp_breath	The strongest River Troll has the most repulsive, damaging vomit. Who would have thought?	true
+unit_abilities_onscreen_name_elo_greater_swamp_breath	Greater Swamp Breath	true

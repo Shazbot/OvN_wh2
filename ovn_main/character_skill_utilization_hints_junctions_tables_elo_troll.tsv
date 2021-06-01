@@ -32,3 +32,10 @@ USEFUL_ALWAYS	elo_skill_throgg_danger
 USEFUL_ALWAYS	elo_skill_troll_intimidation
 USEFUL_ALWAYS	elo_skill_throgg_march
 USEFUL_ALWAYS	elo_throgg_inhumane
+USEFUL_ALWAYS	elo_enable_lesser_vomit
+USEFUL_ALWAYS	elo_enable_me_boss_now
+USEFUL_ALWAYS	elo_enable_violent_command
+USEFUL_ALWAYS	elo_troll_dirty
+USEFUL_ALWAYS	elo_troll_angry
+USEFUL_ALWAYS	elo_troll_resilient
+USEFUL_ALWAYS	elo_troll_fast
