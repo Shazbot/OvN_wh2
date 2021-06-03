@@ -16,3 +16,7 @@ id	priority	unit	unit_group
 3453673257	1	OtF_khemri_elite_guard	ovn_kasbah
 3453673258	1	OtF_khemri_elite_guard	ovn_kasbah
 3453673259	1	ovn_cat_knights	ovn_kasbah
+93112502	1	wh_main_arb_cav_magic_carpet_0	ovn_araby2_minor
+93112503	1	ovn_arb_art_trebuchet	ovn_araby2_minor
+93112504	2	OtF_khemri_elite_guard	ovn_araby2_minor
+93112505	1	wh_main_arb_mon_elephant	ovn_araby2_minor

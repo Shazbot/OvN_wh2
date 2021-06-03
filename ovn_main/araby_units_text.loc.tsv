@@ -27,7 +27,7 @@ land_units_onscreen_name_ovn_elephant	War Elephants	true
 land_units_onscreen_name_ovn_southlander	Southland Warriors	true
 land_units_onscreen_name_ovn_prometheans	Promethean Hatchlings	true
 ui_unit_groupings_onscreen_ovn_elephant	Elephant	true
-ui_unit_groupings_tooltip_ovn_elephant	These fearsome beasts can trample men and horses into the dust. 	true
+ui_unit_groupings_tooltip_ovn_elephant	These fearsome beasts can trample men and horse alike into the dust. 	true
 land_units_onscreen_name_ovn_slave	Sharkas Slaves	true
 land_units_onscreen_name_ovn_glad	Pit-Fighters	true
 land_units_onscreen_name_ovn_jez	Jezzails 	true
@@ -40,7 +40,7 @@ land_units_onscreen_name_ovn_scor	Giant Scorpion	true
 unit_description_short_texts_text_ovn_scor	Overshadowed by their abominable undead cousins, they strike equal fear into their foes who meet claw and pincer.	true
 ui_unit_groupings_onscreen_ovn_scor	Giant Scorpion	true
 ui_unit_groupings_tooltip_ovn_scor	Swift and deadly, they have a potent sting and powerful pincers that can slice a man in half.	true
-unit_description_short_texts_text_ovn_elephant_ror	The Ravager Elephant is said to rival those of Norsca's Mammoths	true
+unit_description_short_texts_text_ovn_elephant_ror	The Ravager Elephant is said to rival a Norscan mammoth in ferocity.	true
 land_units_onscreen_name_ovn_elephant_ror	Ravager of Ka-Sabar	true
 land_units_onscreen_name_ovn_jez_ror	Mad Mullah Aklan'd's Death Jezzails 	true
 unit_description_short_texts_text_ovn_jez_ror	They follow the teachings of the talented and fanatical Wizard Mullah Aklan'd, honouring his name and hope to die gloriously so they can pass into the highest of the seven heavens St'oec.	true
