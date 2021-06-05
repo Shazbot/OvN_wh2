@@ -20,6 +20,12 @@
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/nor/nor_ice_troll/legs/warpstone_troll_legs_03.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/nor/nor_ice_troll/legs/warpstone_troll_legs_04.wsmodel" />
 	</SLOT>
+   	<SLOT name="nails" probability ="0.25">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_flagellants/torso/troll_nails_augments.rigid_model_v2" />
+	</SLOT>
+   	<SLOT name="chain" probability ="0.25">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_flagellants/torso/troll_slave_chain_01.rigid_model_v2" />
+	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/grn/grn_props/warpstone_axe_2h_01.wsmodel" >
 			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA></VARIANT_MESH>

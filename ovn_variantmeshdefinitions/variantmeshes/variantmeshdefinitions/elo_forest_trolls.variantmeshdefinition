@@ -1,28 +1,30 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\forest_troll_01.rigid_model_v2"  >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6c\wef\wef_orion\forest_troll_body.rigid_model_v2"  >
 			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_troll</META_DATA></VARIANT_MESH>
 	</SLOT>
-	<SLOT name="horns" >
-                                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\chs\chs_troll\head\forest_troll_horns_01.rigid_model_v2" />
-                                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\chs\chs_troll\head\forest_troll_horns_02.rigid_model_v2" />
-                                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\chs\chs_troll\head\forest_troll_horns_03.rigid_model_v2" />
+	<SLOT name="masks" >
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\dummy" />        
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\forest_troll_mask_1.rigid_model_v2" >
+    	<SLOT name="branches" probability ="0.5">
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\forest_troll_mask_branches.rigid_model_v2" />
+        </SLOT>	</VARIANT_MESH>
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\forest_troll_mask_2.rigid_model_v2" >
+        <SLOT name="branches" probability ="0.5">
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\forest_troll_mask_branches.rigid_model_v2" />
+        </SLOT> </VARIANT_MESH>
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\forest_troll_idol_mask.rigid_model_v2" >
+        	<SLOT name="mask_strap" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\idol_strap.rigid_model_v2"/>
+			</SLOT> </VARIANT_MESH>
 	</SLOT>
 	<SLOT name="left wrist rope" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_left_wrist_rope_01.wsmodel"  />
-		<VARIANT_MESH/>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4\bst\bst_giant\wrist_guard_left.rigid_model_v2"  />
 	</SLOT>
 	<SLOT name="right wrist rope" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_right_wrist_rope_01.wsmodel"  />
-		<VARIANT_MESH/>
-	</SLOT>
-	<SLOT name="left ankle rope" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_left_ankle_rope_01.wsmodel"  />
-		<VARIANT_MESH/>
-	</SLOT>
-	<SLOT name="right ankle rope" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_right_ankle_rope_01.wsmodel"  />
-		<VARIANT_MESH/>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4\bst\bst_giant\wrist_guard_right.rigid_model_v2"  />
 	</SLOT>
 	<SLOT name="necklace" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\grn_troll_necklace_accessories_01.wsmodel"  >
@@ -37,6 +39,13 @@
 		</VARIANT_MESH>
 		<VARIANT_MESH/>
 	</SLOT>
+    <SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu6c\wef\wef_orion\forest_troll_leaf_clothing.rigid_model_v2" />
+	</SLOT>
+    <SLOT name="sticks" >
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\sticks_cape.rigid_model_v2" />
+    <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu2\grn\grn_orc_wurrzag\sticks_cape_02.rigid_model_v2" /> 
+    </SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\forest_troll_club.rigid_model_v2" >

@@ -1,0 +1,35 @@
+<VARIANT_MESH>
+    <SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/cst_gunnery_wight/sea_troll_hat_01.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/cst_gunnery_wight/sea_troll_hat_02.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/cst_gunnery_wight/sea_troll_hat_03.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/cst/cst_gunnery_wight/dummy" />
+    </SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/sea_troll_01.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA>
+                <SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/sm1/cst/cst_merwyrm/sea_troll_head_01.rigid_model_v2" />
+                </SLOT> </VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/sea_troll_03.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA>
+                            <SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/sm1/cst/cst_merwyrm/sea_troll_head_01.rigid_model_v2" />
+                </SLOT> </VARIANT_MESH>
+        		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/sea_troll_04.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA>
+                <SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/sm1/cst/cst_merwyrm/sea_troll_head_02.rigid_model_v2" />
+                </SLOT> </VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/sea_troll_06.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA>
+                            <SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/sm1/cst/cst_merwyrm/sea_troll_head_02.rigid_model_v2" />
+                </SLOT> </VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hc02/cst/cst_animated_hulk/anchor_weapon_02.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

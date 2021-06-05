@@ -1,10 +1,20 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/nor/nor_throgg/elo_troll_lord_body_02.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/troll_lord_body_new_02.rigid_model_v2" >
 			<META_DATA>audio_entity_type:wh_dlc_nor_throgg_LH</META_DATA>					                                                                         <META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/nor/nor_ice_troll/head/elo_troll_lord_head_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/troll_lord_mask_head_red.rigid_model_v2" />
+	</SLOT>
+    	<SLOT name="armour" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/troll_lord_torso_armor_01.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/troll_lord_torso_armor_02.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/troll_lord_torso_armor_03.rigid_model_v2" />
+	</SLOT>
+        <SLOT name="mask" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/lord_mask_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/lord_mask_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/grn/grn_orc_boyz_big_uns/lord_mask_03.rigid_model_v2" />
 	</SLOT>
                           <SLOT name="weapon_1" attach_point="be_prop_0" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\trl_2axe_2.rigid_model_v2" >

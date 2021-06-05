@@ -1,4 +1,17 @@
 <VARIANT_MESH>
+    <SLOT name="headwrap" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\cst\cst_zombie_deckhands\shipwreckers_head_wrap_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\cst\cst_zombie_deckhands\shipwreckers_head_wrap_02.rigid_model_v2"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\head\dummy"  />
+	</SLOT>
+    <SLOT name="eyepatch" probability = "0.5" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\cst\cst_zombie_deckhands\troll_eyepatch_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\cst\cst_zombie_deckhands\troll_eyepatch_02.rigid_model_v2"  />
+	</SLOT>
+    <SLOT name="west" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\cst\cst_zombie_deckhands\shipwreckers_west_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\cst\cst_zombie_deckhands\shipwreckers_west_02.rigid_model_v2"  />
+	</SLOT>
 	<SLOT name="head" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\head\shipwrecker_head_01.wsmodel"  />
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\ws_river_troll\head\shipwrecker_head_02.wsmodel"  />

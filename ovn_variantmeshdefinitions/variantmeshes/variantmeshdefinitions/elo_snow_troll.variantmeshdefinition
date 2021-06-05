@@ -1,6 +1,11 @@
 <VARIANT_MESH>
-	<SLOT name="head" >
+    <SLOT name="head" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/nor/nor_throgg/snow_troll_beard_01.wsmodel" /><VARIANT_MESH/>
+	</SLOT>
+    	<SLOT name="armour" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu8\nor\nor_skin_wolves_armored\body\snow_troll_armour_01.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu8\nor\nor_skin_wolves_armored\body\snow_troll_armour_02.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu8\nor\nor_skin_wolves_armored\body\snow_troll_armour_03.rigid_model_v2" />
 	</SLOT>
 	<SLOT name="body" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu4b\grn\grn_troll\snow_troll_01.rigid_model_v2"  >
@@ -28,12 +33,12 @@
 		</VARIANT_MESH>
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\trl_2hammer_1.rigid_model_v2" >
-			<META_DATA>audio_melee_weapon_type:axe_huge</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\trl_2hammer_2.rigid_model_v2" >
-			<META_DATA>audio_melee_weapon_type:axe_huge</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\troll_weapons\trl_2hammer_3.rigid_model_v2" >
-			<META_DATA>audio_melee_weapon_type:axe_huge</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/grn/grn_props/grn_troll_stone_axe_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/grn/grn_props/grn_troll_stone_axe_2h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4c/grn/grn_props/grn_troll_stone_axe_2h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="weapon_2" attach_point="be_prop_1" />
 	<SLOT name="shield" attach_point="be_prop_1" />
