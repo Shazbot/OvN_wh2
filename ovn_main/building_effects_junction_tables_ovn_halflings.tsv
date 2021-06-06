@@ -63,3 +63,4 @@ ovn_hlf_resource_salt_2	ovn_pooled_resource_mtl_seasong_buildings	faction_to_fac
 ovn_hlf_resource_salt_3	wh_main_effect_economy_gdp_culture	building_to_building_own	200.0	100.0	0.0
 ovn_hlf_resource_salt_3	wh_main_effect_region_resource_salt_production	building_to_building_own	38.0	23.0	0.0
 ovn_hlf_resource_salt_3	ovn_pooled_resource_mtl_seasong_buildings	faction_to_faction_own_unseen	6.0	3.0	0.0
+wh_main_sch_special_moot_cauldron_1	ovn_pooled_resource_mtl_seasong_buildings	faction_to_faction_own_unseen	5.0	2.0	0.0

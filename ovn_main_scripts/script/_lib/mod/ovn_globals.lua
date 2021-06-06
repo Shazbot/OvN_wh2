@@ -207,7 +207,7 @@ function ovn_late_imperial_reinforcements(faction_key, always_give_unit)
             used_up_rors[unit_key] = true
         end;
     else
-        cm:treasury_mod(faction_key, 400)
+        cm:treasury_mod(faction_key, 1750)
         no_unit_mess(faction_key)
     end;
 end
@@ -275,7 +275,7 @@ function ovn_early_imperial_reinforcements(faction_key, always_give_unit)
             used_up_rors[unit_key] = true
         end;
     else
-        cm:treasury_mod(faction_key, 400)
+        cm:treasury_mod(faction_key, 1750)
         no_unit_mess(faction_key)
     end
 end

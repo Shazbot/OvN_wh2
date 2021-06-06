@@ -13,7 +13,7 @@ event_feed_strings_text_wh_event_feed_string_scripted_event_lose_kasabaar_second
 event_feed_strings_text_wh_event_feed_string_scripted_event_black_tower_storm_primary_detail	Storming of the Black Tower	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_black_tower_storm_secondary_detail	High in the dark tower a legendary sword smithed by Malach the Cruel was discovered. A powerful weapon to be wielded in the fight against the undead.\\n\\n[[img:bullet_emp_units]][[/img]][[col:ancillary_unique]] Gained the ‘Blade of Malach’[[/col]]\\n	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_no_unit_primary_detail	Trouble in the Empire	true
-event_feed_strings_text_wh_event_feed_string_scripted_event_no_unit_secondary_detail	There are no reinforcements currently available but the Emperor has seen fit to send you additional funds.\\n\\n[[img:bullet_emp_units]][[/img]][[col:dark_g]] +400 Gold[[/col]]\\n	true
+event_feed_strings_text_wh_event_feed_string_scripted_event_no_unit_secondary_detail	There are no reinforcements currently available but the Emperor has seen fit to send you additional funds.\\n\\n[[img:bullet_emp_units]][[/img]][[col:dark_g]] +1750 Gold[[/col]]\\n	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_imperial_unit_gained_primary_detail	Imperial Reinforcements	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_merc_unit_gained_primary_detail	Regiment Hired	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_imperial_unit_gained_secondary_detail	The Emperor has seen fit to provide you with a unit of the Imperials finest.\\n\\n[[img:bullet_emp_units]][[/img]][[col:dark_g]] Gained 1 Imperial Unit[[/col]]\\n	true

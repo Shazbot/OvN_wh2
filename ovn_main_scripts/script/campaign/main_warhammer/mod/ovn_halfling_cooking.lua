@@ -76,10 +76,17 @@ local function update_main_hlf_cooking_button()
 		main_hlf_cooking_button:SetTooltipText(localized_main_tooltip, true)
 		main_hlf_cooking_button:SetImagePath("ui/ovn/hlf_cooking_button_icon.png", 0)
 
-		local mcc = find_ui_component_str(button_group_management, "button_mortuary_cult > label_mortuary_cult_count")
-		counter = UIComponent(mcc:CopyComponent("ovn_hlf_cooking_counter"))
-		counter:SetTooltipText(localized_num_turns, true)
+		local game_ui_counter = find_ui_component_str("root > layout > bar_small_top > TabGroup > tab_missions > counter")
+		counter = UIComponent(game_ui_counter:CopyComponent("ovn_hlf_cooking_counter"))
 		main_hlf_cooking_button:Adopt(counter:Address())
+		counter:SetDockingPoint(9)
+		counter:SetCanResizeWidth(true)
+		counter:SetCanResizeHeight(true)
+		counter:Resize(32,32)
+		counter:SetCanResizeWidth(false)
+		counter:SetCanResizeHeight(false)
+		counter:SetDockOffset(3+4,9+4)
+		counter:SetTooltipText(localized_num_turns, true)
 	end
 
 	if active_dish.is_null_interface then

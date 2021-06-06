@@ -4,7 +4,7 @@ effect_bundles_localised_title_ovn_bundle_stance_army_fortification_mootland	Sta
 effect_bundles_localised_description_ovn_bundle_stance_army_fortification_mootland	Send the troops out foraging, enables recruitment and replenishment regardless of territory, and allows ingredients to be discovered.	true
 effects_description_ovn_effect_foraging_find_ingredient_dummy	Chance of finding a cooking ingredient.	true
 effects_description_ovn_faction_trait_mootland_feature	Has access to the Kitchen	true
-effects_description_ovn_pooled_resource_mtl_seasong_buildings	Culinary Salt Production: %+n Pouches	true
+effects_description_ovn_pooled_resource_mtl_seasong_buildings	Culinary Salt production: %+n Pouches	true
 cooking_ingredient_groups_display_name_ovn_cereals	Cereals	true
 cooking_ingredient_groups_flavour_text_ovn_cereals	[[col:yellow]]Grasses cultivated for the edible components of their grains[[/col]]	true
 cooking_ingredient_groups_display_name_ovn_meats	Meats	true
