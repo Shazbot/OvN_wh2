@@ -4,3 +4,5 @@ albion_scary_banner		Scary Banner	character	1	public_order.png	false
 anc_albion_triskele_banner		Triskele Banner	character	1	public_order.png	false
 anc_danu_banner		Danu Banner	character	1	public_order.png	false
 anc_albion_hunter_banner		Hunter's Banner	character	1	public_order.png	false
+ovn_albion_second_lord_mission_durak			faction	1	effect_rite.png	true
+ovn_albion_second_lord_mission_morrigan			faction	1	effect_rite.png	true

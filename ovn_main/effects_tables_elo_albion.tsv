@@ -121,3 +121,5 @@ elo_druid_circle_mdef	defence.png	111	defence.png	battle	true
 elo_druid_circle_mattk	melee.png	111	melee.png	battle	true
 elo_druid_circle_lead	morale.png	111	morale.png	battle	true
 recruitment_rank_truthsayer	experience.png	111	experience.png	campaign	true
+ovn_albion_second_lord_mission_morrigan	effect_rite.png	100	effect_rite.png	campaign	true
+ovn_albion_second_lord_mission_durak	effect_rite.png	100	effect_rite.png	campaign	true

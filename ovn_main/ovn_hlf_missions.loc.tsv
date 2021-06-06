@@ -30,3 +30,15 @@ ovn_hlf_missions_change_mission_army_size	Request a change in force||Change the 
 missions_localised_description_ovn_halfling_establish_restaurant_mission	The Moot is rife with culinary talent, so much so that not even the Moot can accomodate them all. Let the Halfling culinary talent into the wide world, so that all may learn what it means to eat well!	true
 missions_localised_title_ovn_halfling_establish_restaurant_mission	Too Many Cooks Spoils The Moot	true
 mission_text_override_ovn_halfling_establish_restaurant_mission	Establish a resturant in a foreign region using a Master Chef!	false
+effects_description_ovn_albion_second_lord_mission_morrigan	[[overridecol:fe_white]]Morrigan the Phantom Queen joins your faction![[/col]]	true
+effect_bundles_localised_description_ovn_albion_second_lord_mission_morrigan	Morrigan the Phantom Queen arrivies to lead your armies!	true
+effect_bundles_localised_title_ovn_albion_second_lord_mission_morrigan	The Phantom Queen	true
+effects_description_ovn_albion_second_lord_mission_durak	[[overridecol:fe_white]]Dural Durak joins your faction![[/col]]	true
+effect_bundles_localised_description_ovn_albion_second_lord_mission_durak	Dural Durak arrives to lead your armies!	true
+effect_bundles_localised_title_ovn_albion_second_lord_mission_durak	Lord Of The Truthsayers	true
+mission_text_override_ovn_albion_second_lord_mission_durak	Dural Durak was tasked with restoring the waystones, if his mission is complete he can lead the armies of Albion!	false
+missions_localised_description_ovn_albion_second_lord_mission_durak	Build Surging Waystones in all the regions in the province of Albion.	true
+missions_localised_title_ovn_albion_second_lord_mission_durak	Restore The Albion Waystones	true
+mission_text_override_ovn_albion_second_lord_mission_morrigan	Morrigan the Phantom Queen was tasked with restoring the waystones, if her mission is complete she can lead the armies of Albion!	false
+missions_localised_description_ovn_albion_second_lord_mission_morrigan	Build Surging Waystones in all the regions in the province of Albion.	true
+missions_localised_title_ovn_albion_second_lord_mission_morrigan	Restore The Albion Waystones	true
