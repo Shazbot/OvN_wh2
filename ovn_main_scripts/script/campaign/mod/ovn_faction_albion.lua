@@ -401,6 +401,7 @@ local function init_albion_mist_mechanic()
                                 true,
                                 ""
                             )
+														cm:complete_scripted_mission_objective("ovn_albion_second_lord_mission_morrigan", "ovn_albion_second_lord_mission", true);
                         else
                             cm:spawn_character_to_pool(
                                 "wh2_main_nor_albion",
@@ -415,7 +416,22 @@ local function init_albion_mist_mechanic()
                                 true,
                                 ""
                             )
+														cm:complete_scripted_mission_objective("ovn_albion_second_lord_mission_durak", "ovn_albion_second_lord_mission", true);
                         end
+
+												cm:callback(
+													function()
+														local faction = cm:get_faction(albion_faction_key)
+														if not faction then return end
+														if faction:has_effect_bundle("ovn_albion_second_lord_mission_durak") then
+															cm:remove_effect_bundle("ovn_albion_second_lord_mission_durak", faction:name())
+														end
+														if faction:has_effect_bundle("ovn_albion_second_lord_mission_morrigan") then
+															cm:remove_effect_bundle("ovn_albion_second_lord_mission_morrigan", faction:name())
+														end
+													end,
+													1
+												)
 
                         cm:set_saved_value("disable_albion_mist_invasions", true);
                     end
@@ -442,7 +458,48 @@ local function init_albion_mist_mechanic()
     );
 end
 
+local function give_second_legendary_lord_mission(lord_bundle_key)
+	local mission = [[
+		mission
+		{
+				key ]]..lord_bundle_key..[[;
+				issuer CLAN_ELDERS;
+				primary_objectives_and_payload
+				{
+					objective
+					{
+						type SCRIPTED;
+						script_key ovn_albion_second_lord_mission;
+						override_text mission_text_override_]]..lord_bundle_key..[[;
+					}
+					payload
+					{
+						effect_bundle{bundle_key ]]..lord_bundle_key..[[;turns 0;}
+					};
+			};
+		};
+	]]
+	cm:trigger_custom_mission_from_string(albion_faction_key, mission)
+end
+
 local function albion_init()
+	local faction_obj = cm:get_faction(albion_faction_key)
+
+	if not faction_obj or faction_obj:is_null_interface() then
+		return false
+	end
+
+	if cm:is_new_game() and faction_obj:is_human() then
+		cm:callback(function()
+			local is_durak_starting_lord = core:svr_load_bool("ovn_albion_dural_durak_is_leader")
+			local lord_bundle_key = "ovn_albion_second_lord_mission_durak"
+			if is_durak_starting_lord then
+				lord_bundle_key = "ovn_albion_second_lord_mission_morrigan"
+			end
+			give_second_legendary_lord_mission(lord_bundle_key)
+		end, 8)
+	end
+
 	local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
 	local anc_key = ovn_albion_anc_pool[random_number]
 

@@ -34,7 +34,6 @@ local function halflings_init()
     local faction_obj = cm:get_faction(faction_key)
 
     if not faction_obj or faction_obj:is_null_interface() then
-      -- faction doesn't exist in this campaign or has already died
       return false
     end
 

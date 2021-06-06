@@ -142,6 +142,16 @@ local function handle_human_halfling_comradeship_unlocking()
 
 	if num_ingredients_unlocked >= 12 then
 		cm:complete_scripted_mission_objective(mission_key, mission_key, true);
+		cm:callback(
+			function()
+				local faction = cm:get_faction(faction_key)
+				if not faction then return end
+				if faction:has_effect_bundle("ovn_hlf_comradeship_unlock") then
+					cm:remove_effect_bundle("ovn_hlf_comradeship_unlock", faction:name())
+				end
+			end,
+			1
+		)
 		spawn_the_comradeship()
 	end
 end
