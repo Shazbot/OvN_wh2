@@ -651,7 +651,6 @@ ovn_thief	halfling_cat
 ovn_thief	halfling_cat_ror
 wh_dlc06_unit_abilities_smoke_bomb	halfling_thief
 wh_dlc03_unit_passive_drunken	halfling_thief
-ammo_supply	elo_supply_wagon
 equipment_maintanance	elo_supply_wagon
 smokeleaf_smokescreen	elo_supply_wagon
 ovn_thief	ovn_mtl_art_hotpot
@@ -731,7 +730,6 @@ ovn_thief	ovn_hlf_moot_general_2
 hlf_master_chef_regeneration_passive_aura	ovn_hlf_master_chef_1
 hlf_master_chef_earth_blood_upgraded	ovn_hlf_master_chef_1
 hlf_master_chef_hot_spices	ovn_hlf_master_chef_1
-ammo_supply	ovn_hlf_master_chef_1
 equipment_maintanance	ovn_hlf_master_chef_1
 smokeleaf_smokescreen	ovn_hlf_master_chef_1
 hlf_master_chef_flush_soup	ovn_hlf_master_chef_1
@@ -764,3 +762,5 @@ elo_troll_me_boss_now	elo_troll_champ
 elo_lesser_vomit	elo_troll_champ
 elo_violent_command	elo_troll_champ
 wh_main_character_abilities_deadly_onslaught	elo_troll_champ
+ovn_hlf_ammo	elo_supply_wagon
+ovn_hlf_ammo	ovn_hlf_master_chef_1

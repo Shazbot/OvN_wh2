@@ -2,3 +2,4 @@ special_ability_to_recharge_contexts_tables	0
 recharge_context	special_ability
 engaged_in_melee	Summon_Black_Grail_Kinghts
 engaged_in_melee	ribspreader_plague_of_rust
+unit_alive	ovn_hlf_ammo

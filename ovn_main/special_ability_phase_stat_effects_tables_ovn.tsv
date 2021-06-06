@@ -241,3 +241,4 @@ elo_troll_me_boss_now	8.0	stat_morale	add
 elo_violent_command	5.0	stat_melee_attack	add
 elo_violent_command	1.15	stat_melee_damage_ap	mult
 elo_violent_command	1.15	stat_melee_damage_base	mult
+ovn_hlf_ammo	1.1	stat_reloading	mult

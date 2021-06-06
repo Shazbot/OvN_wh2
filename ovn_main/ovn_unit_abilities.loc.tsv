@@ -1,5 +1,7 @@
 Loc PackedFile	1
 key	text	tooltip
+unit_abilities_tooltip_text_ovn_hlf_ammo	Shoot faster, we have plenty more where that came from!	true
+unit_abilities_onscreen_name_ovn_hlf_ammo	Ammunition Supplies	true
 unit_abilities_onscreen_name_fim_skattach_poison_mist	Poison Mist	false
 unit_abilities_tooltip_text_fim_skattach_poison_mist	All Fimir Mearghs are acomppained by a noxious mist that demoralises and poisons their enemies. Skattach is no exception.	false
 unit_abilities_onscreen_name_fim_skattach_summon_bloodletters	Summon Bloodletters	false

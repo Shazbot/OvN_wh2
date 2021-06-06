@@ -20,3 +20,4 @@ hlf_master_chef_earth_blood_upgraded	true	hlf_master_chef_earth_blood		wh_type_a
 hlf_master_chef_hot_spices	true	hlf_master_chef_hot_spices		wh_type_area_of_hexes		wh_main_anc_group_uncommon	true	false	character		false
 hlf_master_chef_flush_soup	true	hlf_master_chef_soup_flush		wh_type_explosion		wh_main_anc_group_uncommon	true	false	lord		false
 elo_superfood	false	wh2_dlc15_character_abilities_slimy_smoothie		wh_type_augment		wh_main_anc_group_rare	false	false	unit		false
+ovn_hlf_ammo	false	wh2_dlc15_unit_passive_unending_volley		wh_type_augment		wh_main_anc_group_common	false	false	unit	ovn_hlf_ammo	false
