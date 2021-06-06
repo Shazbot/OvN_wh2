@@ -1,8 +1,8 @@
 unit_porthole_camera_settings_tables	2
 distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
+3.5	28.0	arb_flying_carpet	200.0	200.0	-0.45	1.25	0.0	Porthole/advisor/default_porthole.lighting
 2.0	28.0	arb_djinn	180.0	195.0	-0.05	1.8	0.0	Porthole/advisor/default_porthole.lighting
 7.0	28.0	mtl_chuckwagon	190.0	190.0	0.0	0.0	0.0	Porthole/advisor/default_porthole.lighting
-2.0	28.0	arb_djinn	180.0	195.0	-0.05	1.8	0.0	Porthole/advisor/default_porthole.lighting
 8.0	32.0	mtk_halftank	200.0	220.0	-0.7	2.4	0.0	Porthole/advisor/default_porthole.lighting
 2.6	35.0	aky_chief_fimir_great_weapons	195.0	205.0	-0.5	2.8	0.0	Porthole/advisor/default_porthole.lighting
 4.4	28.0	grudge_cav_hero	175.0	170.0	0.0	1.7	0.0	Porthole/advisor/default_porthole.lighting

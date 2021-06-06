@@ -7,7 +7,6 @@ character_subterfuge.png	hlf_fieldwarden_border_patrol	Lone Fieldwardens are oft
 character_ranged_damage.png	hlf_fieldwarden_moot_warden	"And stay out, unless you want the next one  to hit something more sensitive!"	Defender of the Moot	0	false	false	false	0.0	0
 icon_stat_melee.png	wh2_main_skill_all_dummy_agent_actions_hlf_master_chef		Actions [HIDDEN]	0	false	false	false	0.0	0
 hlf_master_chef_skill_3_0_regeneration_passive_aura.png	hlf_master_chef_skill_3_0_regeneration_passive_aura		Food Delivery	0	false	false	false	0.0	0
-hlf_master_chef_skill_3_0_regeneration_passive_aura.png	hlf_master_chef_skill_3_0_regeneration_passive_aura		regeneration_passive_aura	0	false	false	false	0.0	0
 hlf_master_chef_skill_3_1_earth_blood.png	hlf_master_chef_skill_3_1_earth_blood		earth_blood	0	false	false	false	0.0	0
 campaign_army.png	hlf_master_chef_skill_3_2_cook_aura		The Feast is Coming!	10	false	false	false	0.0	0
 hlf_master_chef_skill_3_3_hot_spices.png	hlf_master_chef_skill_3_3_hot_spices		Hot Spices	10	false	false	false	0.0	0

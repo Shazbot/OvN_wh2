@@ -9,7 +9,6 @@ wh_main_effect_agent_cap_increase_master_chef_level	agent.png	3	agent.png	campai
 ovn_feast_aura_enable	spell_ability.png	600	spell_ability.png	battle	true
 hlf_master_chef_regen_aura_enable	general_ability.png	1	general_ability.png	battle	true
 hlf_master_chef_enable_regeneration_passive_aura	general_ability.png	1	general_ability.png	battle	true
-hlf_master_chef_enable_regeneration_passive_aura	general_ability.png	1	general_ability.png	battle	true
 hlf_master_chef_enable_ability_earth_blood	general_ability.png	1	general_ability.png	battle	true
 hlf_master_chef_disable_ability_earth_blood	general_ability.png	2	general_ability.png	battle	true
 hlf_master_chef_enable_ability_earth_blood_upgraded	general_ability.png	1	general_ability.png	battle	true

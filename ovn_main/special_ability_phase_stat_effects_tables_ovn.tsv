@@ -32,12 +32,6 @@ elo_hand_judge_executioner	0.3	scalar_speed	mult
 elo_hungering_blade	30.0	stat_resistance_all	add
 contact_phase_mummy_curse	0.8	stat_melee_damage_base	mult
 contact_phase_mummy_curse	0.8	scalar_missile_damage_ap	mult
-ovn_feast	10.0	stat_morale	add
-ovn_thief	4.0	stat_melee_damage_ap	add
-ovn_thief	8.0	stat_melee_defence	add
-ovn_fight_eat	5.0	stat_melee_attack	add
-ovn_fight_eat	5.0	stat_melee_defence	add
-ovn_dont_abandon	25.0	stat_morale	add
 whispers_in_the_darkness	-4.0	stat_morale	add
 wh_main_unit_contact_shadow	0.9	scalar_missile_damage_ap	mult
 wh_main_unit_contact_shadow	0.9	scalar_missile_damage_base	mult

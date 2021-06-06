@@ -2,4 +2,4 @@ unit_variants_colours_tables	3
 faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
 wh2_dlc09_tmb_tomb_kings	0	0	0	0	0	0	soldier	0	0	0	31801	Dread_King	
 wh2_dlc09_tmb_tomb_kings	1	1	1	1	1	1	soldier	1	1	1	31802	black_grail_knights_tmb	
-wh2_dlc09_tmb_tomb_kings	1	1	1	1	1	1	soldier	1	1	1	31802	elo_hand_of_nagash	
+wh2_dlc09_tmb_tomb_kings	1	1	1	1	1	1	soldier	1	1	1	31803	elo_hand_of_nagash	

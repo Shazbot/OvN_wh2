@@ -113,5 +113,3 @@ elo_belakor_cav_bog_r7_cb	charge.png	100	charge.png	battle	true
 elo_champions_chaos_r7_wps	weapon_damage.png	100	weapon_damage.png	battle	true
 elo_champions_chaos_r7_md	defence.png	100	defence.png	battle	true
 elo_champions_chaos_r7_magicres	resistance_magic.png	100	resistance_magic.png	battle	true
-elo_belakor_conscripted_beasts_speed	battle_movement.png	101	battle_movement.png	battle	true
-elo_belakor_conscripted_beasts_cb	charge.png	100	charge.png	battle	true

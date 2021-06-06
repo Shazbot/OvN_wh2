@@ -64,7 +64,6 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	0	wooden_arms	30	60	0	2.0	sword	claw	medium	6	1.3	100	0.0	false		0	10	3.8	
 0	0	0	albion_hunting_knife	18	3	0	1.0	sword	sword		1	1.0	10	0.0	false		0	10	3.8	
 0	0	0	albion_riders_sword	24	6	0	1.0	sword	sword		4	1.0	10	0.0	false		0	10	4.5	
-0	0	0	albion_riders_spear	17	6	0	2.0	spear	spear		1	1.0	10	0.0	false		0	10	5.0	
 0	0	0	hearthguard_sword	28	8	0	1.0	sword	sword		1	1.0	10	0.0	false		0	10	3.8	
 0	0	10	highlander_2h_sword	6	26	0	1.0	sword	sword		4	1.0	10	0.0	false		0	10	3.8	
 0	22	0	hearthguard_halberd	12	24	0	2.0	spear	halberd		1	1.0	14	0.0	false		0	10	4.3	
@@ -83,7 +82,6 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	0	wyrd_druid_staff	200	115	0	3.0	axe	sword	medium	5	1.0	150	0.0	false		0	10	4.0	
 0	0	0	barghest_claws	35	15	0	1.0	axe	claw	medium	1	1.0	40	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
 0	0	8	ovn_barrow_wight	26	12	0	1.0	sword	sword		1	1.0	10	0.0	true		0	10	4.4	
-0	20	0	feral_gryphon	150	225	0	4.0	axe	claw	large	5	1.0	150	0.0	false		0	3	3.6	
 0	20	0	albion_shieldmaidens_spear	30	10	0	1.0	spear	spear		4	1.0	10	0.0	false		0	10	4.8	
 0	0	0	wooden_arms_rotten	30	60	0	2.0	sword	claw	medium	6	1.3	100	0.0	false	wh_main_unit_contact_poison	0	10	3.8	
 0	0	10	woad_raiders_dual_axes_ror	32	6	0	1.0	axe	axe		1	1.0	10	0.0	false		0	10	4.0	
@@ -115,7 +113,6 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	0	ugma_club	200	250	0	2.0	axe	club_huge	large	6	1.0	250	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
 0	0	20	chaos_stone_troll_club	44	58	0	2.0	axe	club_medium	medium	4	1.0	100	0.0	false		0	10	4.0	
 0	0	20	warpstone_club	44	58	0	2.0	axe	club_medium	medium	4	1.0	100	0.0	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.0	
-0	0	0	ugma_club	200	250	0	2.0	axe	club_huge	large	6	1.0	250	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
 0	0	5	amazon_spear	16	12	0	1.0	sword	sword	small	2	0.33	10	0.0	false	wh_main_unit_contact_poison	0	8	2.5	
 0	15	0	amazon_spear2	25	9	0	1.7	axe	club_huge	medium	4	0.8	10	0.0	false	jag_amazon_poison	0	14	3.0	
 0	0	0	ovn_ifreet	290	155	0	4.0	axe	claw	large	5	1.0	150	20.0	true		0	3	3.6	
