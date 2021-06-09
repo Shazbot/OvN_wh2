@@ -4,3 +4,4 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 7.0	positive	hlf_master_chef_earth_blood		false	false	false	0.0	0.0	0.0	0.5	24	0.0	0	0	24	false	0.0	0.0	false	0		wh_dlc05_spell_life_earth_blood	wh_dlc05_spell_life_earth_blood	-1.0	false	true	true	0.0	
 14.0	positive	hlf_master_chef_earth_blood_upgraded		false	false	false	0.0	0.0	0.0	0.5	24	0.0	0	0	24	false	0.0	0.0	false	0		wh_dlc05_spell_life_earth_blood	wh_dlc05_spell_life_earth_blood	-1.0	false	true	true	0.0	
 -1.0	negative	hlf_master_chef_hot_spices		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	true	0.0	
+47.0	positive	ovn_hlf_mislead		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh2_dlc10_mislead_phase	wh2_dlc10_ability_mislead_caster	-1.0	false	true	false	0.0	

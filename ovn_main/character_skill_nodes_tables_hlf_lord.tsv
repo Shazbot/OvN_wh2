@@ -22,7 +22,7 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	wh_main_skill_emp_lord_campaign_logistician	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_09	8.0		0	0	true
 	wh_main_skill_all_lord_campaign_alert	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_10	9.0		0	0	true
 	wh2_main_skill_LL_self_defense	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_11	10.0		0	4	true
-	hlf_Lord_Buff	wh_main_skill_node_set_ovn_hlf_ll		7.0	wh_main_skill_node_ovn_hlf_ll_innate_01	0.0		0	0	true
+	hlf_Lord_Buff	wh_main_skill_node_set_ovn_hlf_ll		7.0	wh_main_skill_node_ovn_hlf_ll_innate_01	0.0		0	0	false
 	wh_main_skill_all_all_self_hard_to_hit_starter	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_01	0.0		0	0	true
 	wh_main_skill_all_dignitary_self_conviction	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_02	1.0		0	0	true
 	wh_main_skill_all_dignitary_self_impassioned	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_03	2.0		0	0	true

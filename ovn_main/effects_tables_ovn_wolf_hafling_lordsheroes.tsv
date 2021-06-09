@@ -21,3 +21,4 @@ hlf_master_chef_enable_flush_soup	spell_ability.png	600	spell_ability.png	battle
 hlf_moot_general_enable_poultry_mount	mount.png	3	mount.png	campaign	true
 hlf_master_chef_enable_wagon_mount	mount.png	3	mount.png	campaign	true
 hlf_sheriff_enable_pig_mount	mount.png	3	mount.png	campaign	true
+ovn_enable_hlf_mislead	general_ability.png	600	general_ability.png	battle	true

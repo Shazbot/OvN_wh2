@@ -35,3 +35,6 @@ unbreakable	hlf_glibfoot_for_the_moot	positive
 stalk	hlf_glibfoot_thief_tactics	positive
 unspottable	hlf_glibfoot_thief_tactics	positive
 fatigue_res	ovn_rot_mark_nurgle	positive
+snipe	ovn_hlf_mislead	positive
+stalk	ovn_hlf_mislead	positive
+unspottable	ovn_hlf_mislead	positive

@@ -45,3 +45,4 @@ army_is_full	arb_golden_magus_master_djinn
 hp_replenish_cap_reached	hlf_master_chef_earth_blood
 hp_replenish_cap_reached	hlf_master_chef_earth_blood_upgraded
 unit_is_commander_class	elo_violent_command
+on_a_platform	ovn_hlf_mislead

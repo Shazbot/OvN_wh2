@@ -8,3 +8,6 @@ unit_abilities_tooltip_text_blood_howl	Devoted to their gods these Arabyans give
 unit_abilities_onscreen_name_blood_howl	Blood Howl	true
 unit_abilities_tooltip_text_ovn_mystic_mist	Fimir surround themselves with a magically-created mist, through which the Fimir are barely discernable from a distance of more than a few metres.	true
 unit_abilities_onscreen_name_ovn_mystic_mist	Mystic Mist	true
+special_ability_phases_onscreen_name_ovn_hlf_mislead		true
+unit_abilities_onscreen_name_ovn_hlf_mislead	Mislead	true
+unit_abilities_tooltip_text_ovn_hlf_mislead	This halfling has mastered the arts of deception and distraction.	true

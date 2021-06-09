@@ -318,3 +318,4 @@ effects_description_ovn_skill_effect_charge_bonus_increase_halfling_infantry	Cha
 effects_description_ovn_skill_effect_state_mod_bonus_v_large_halfling_infantry	Bonus vs. Large: %+n for Halfling Infantry units	true
 effects_description_elo_troll_champ_cap	Recruitment Cap: %+n for Chaos Troll Champions	false
 effects_description_elo_troll_champ_availability	Enable Recruitment of Chaos Troll Champions	false
+effects_description_ovn_enable_hlf_mislead	Ability: "Mislead"	true

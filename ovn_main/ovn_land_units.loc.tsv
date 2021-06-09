@@ -355,3 +355,5 @@ land_units_onscreen_name_elo_lava_trolls	Azgul Lava Trolls	true
 land_units_onscreen_name_elo_warpstone_trolls	Warped Ones (Chaos Stone Trolls)	true
 land_units_onscreen_name_elo_sea_troll	Sea Trolls	true
 land_units_onscreen_name_elo_troll_champ	Troll Champion	true
+land_units_onscreen_name_ovn_hlf_mislead_summoned	Halfling	true
+land_units_concealed_name_ovn_hlf_mislead_summoned	Halfling	true
