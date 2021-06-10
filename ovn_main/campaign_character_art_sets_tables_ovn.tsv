@@ -59,8 +59,8 @@ wizard	wh_main_art_set_grn_night_goblin_shaman_03				false	true	grn_night_goblin
 wizard	wh_main_art_set_grn_night_goblin_shaman_04				false	true	grn_night_goblin_shaman	1.1
 wizard	wh_main_art_set_grn_night_goblin_shaman_05				false	true	grn_night_goblin_shaman	1.1
 wizard	wh_main_art_set_grn_night_goblin_shaman_06				false	true	grn_night_goblin_shaman	1.1
-general	Dread_King	wh2_dlc09_tmb_tomb_kings		wh2_dlc09_tmb_the_sentinels	false	true	Dread_King	1.0
-general	elo_hand_of_nagash	wh2_dlc09_tmb_tomb_kings		wh2_dlc09_tmb_the_sentinels	false	true	elo_hand_of_nagash	1.0
+general	Dread_King	wh2_dlc09_tmb_tomb_kings			false	true	Dread_King	1.0
+general	elo_hand_of_nagash	wh2_dlc09_tmb_tomb_kings			false	true	elo_hand_of_nagash	1.0
 general	Sultan_Jaffar				false	true	Sultan_Jaffar	1.0
 general	aky_chief_fimir_great_weapons_0				false	true	aky_chief_fimir_great_weapons	1.0
 general	aky_chief_wolf_werekin_0				false	true	aky_chief_wolf_werekin	1.0
@@ -88,8 +88,8 @@ general	ovn_araby_ll_2				false	true	ovn_araby_ll	1.1
 general	belakor	wh_main_chs_chaos			false	true	belakor	1.0
 dignitary	wh_dlc08_nor_cha_fimir_balefiend_death				false	true	wh_dlc08_nor_cha_fimir_balefiend_death	1.0
 dignitary	wh_dlc08_nor_cha_fimir_balefiend_beast				false	true	wh_dlc08_nor_cha_fimir_balefiend_beast	1.0
-champion	elo_dread_centurion	wh2_dlc09_tmb_tomb_kings		wh2_dlc09_tmb_the_sentinels	false	true	elo_dread_centurion	1.0
-general	elo_liche_general			wh2_dlc09_tmb_the_sentinels	false	true	elo_liche_general	1.0
+champion	elo_dread_centurion	wh2_dlc09_tmb_tomb_kings			false	true	elo_dread_centurion	1.0
+general	elo_liche_general				false	true	elo_liche_general	1.0
 general	wh2_dlc09_art_set_tmb_tomb_king_01	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
 general	wh2_dlc09_art_set_tmb_tomb_king_02	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
 general	wh2_dlc09_art_set_tmb_tomb_king_03	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
@@ -103,8 +103,8 @@ general	wh2_dlc09_art_set_tmb_tomb_king_05_tech	wh2_dlc09_tmb_tomb_kings			false
 general	wh2_dlc09_art_set_tmb_tomb_king_06_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_wakhaf	1.0
 general	elo_chief_ugma				false	true	elo_chief_ugma	1.0
 general	ovn_hlf_ll				false	true	ovn_hlf_ll	1.4
-general	morgan_bernhardt_art	wh_main_emp_empire		wh2_main_emp_grudgebringers	false	true	morgan_bernhardt	1.0
-wizard	vladimir_stormbringer_art	wh_main_emp_empire		wh2_main_emp_grudgebringers	false	true	vladimir_stormbringer	1.0
+general	morgan_bernhardt_art	wh_main_emp_empire			false	true	morgan_bernhardt	1.0
+wizard	vladimir_stormbringer_art	wh_main_emp_empire			false	true	vladimir_stormbringer	1.0
 general	arb_vizier_fire_0				false	true	arb_vizier_fire_0	1.1
 general	arb_vizier_life_0				false	true	arb_vizier_life_0	1.1
 general	arb_vizier_heavens_0				false	true	arb_vizier_heavens_0	1.1
