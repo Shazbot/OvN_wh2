@@ -208,3 +208,7 @@ character_skills_localised_name_elo_troll_resilient	Resilient	false
 character_skills_localised_description_elo_troll_resilient	Not only are its wounds healing rapidily, on top of that it is difficult to actually injure this troll.	false
 character_skills_localised_name_elo_troll_fast	Runner	false
 character_skills_localised_description_elo_troll_fast	Trolls look slow and lumbering, but can be surprisingly fast. This one is faster than most though.	false
+character_skills_localised_name_ovn_rot_tribes_of_chaos	Nurgle's Succor	true
+character_skills_localised_description_ovn_rot_tribes_of_chaos	The Rotfather will not see his followers perish from mundane wounds, when he has so much more to bequeath unto them.	true
+character_skills_localised_name_ovn_rot_blessed_by_evil	Gathering of Might	true
+character_skills_localised_description_ovn_rot_blessed_by_evil	Norscans flock to a powerful lord like flies to carrion.	true
