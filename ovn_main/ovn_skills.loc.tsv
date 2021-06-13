@@ -1283,11 +1283,11 @@ effects_description_elo_forest_splash	Weapon Splash Damage: %+n%  for ForestTrol
 effects_description_elo_forest_arm	Armour: %+n for Forest Trolls {{tr:rank7}}	true
 effects_description_agent_cap_increase_engineer_elo_snow_troll	Capacity: %+n for Snow Trolls	true
 effects_description_enable_recruitment_engineer_elo_snow_troll	Enables Recruitment of Snow Trolls	true
-effects_description_raw_might_charge7	Charge Bonus: %+n for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
-effects_description_raw_might_speed7	Speed: %+n% for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
-effects_description_raw_might_missle_res7	Resistance Against Missiles: %+n% for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
-effects_description_children_chaos_mdef	Melee Defense: %+n for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls	true
-effects_description_children_chaos_wps	Weapon Strength: %+n%  for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls and Armoured Chaos Trolls	true
+effects_description_raw_might_charge7	Charge Bonus: %+n for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls, Giant Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_raw_might_speed7	Speed: %+n% for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls, Giant Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_raw_might_missle_res7	Resistance Against Missiles: %+n% for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls, Giant Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_children_chaos_mdef	Melee Defense: %+n for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls, Giant Trolls and Armoured Chaos Trolls	true
+effects_description_children_chaos_wps	Weapon Strength: %+n%  for Norscan Trolls, Chaos Trolls, Troll Bonethrowers, Southern Trolls, Giant Trolls and Armoured Chaos Trolls	true
 effects_description_mountain_masters_phy_res7	Physical Resistance: %+n% for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls {{tr:rank7}}	true
 effects_description_mountain_masters_wps7	Weapon Strength: %+n%  for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls {{tr:rank7}}	true
 effects_description_mountain_masters_ma	Melee Attack: %+n for Bile Trolls, Stone Trolls, Lava Trolls and Chaos Stone Trolls  {{tr:rank7}}	true

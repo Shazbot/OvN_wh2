@@ -119,3 +119,7 @@ false				elo_sea_troll	elo_danger_below
 false				elo_sea_troll	elo_all_trolls
 false				elo_sea_troll	menace_land
 false				elo_sea_troll	all_troll_fimir
+false				elo_troll_giant	elo_raw_might
+false				elo_troll_giant	elo_all_trolls
+false				elo_troll_giant	children_chaos
+false				elo_troll_giant	all_troll_fimir

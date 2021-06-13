@@ -76,7 +76,9 @@ murder_crows	-5.0	stat_melee_attack	add
 omen_of_war	6.0	stat_morale	add
 omen_of_doom	-6.0	stat_melee_defence	add
 spell_truth_boon_courage	30.0	stat_armour	add
-spell_truth_boon_courage_upgraded	30.0	stat_armour	add
+spell_truth_boon_courage	24.0	stat_melee_defence	add
+spell_truth_boon_courage_upgraded	60.0	stat_armour	add
+spell_truth_boon_courage_upgraded	24.0	stat_melee_defence	add
 howling_shields	-8.0	stat_morale	add
 darkened_skies	0.8	scalar_speed	mult
 darkened_skies	0.8	scalar_missile_range	mult

@@ -27,7 +27,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1.0	negative	murder_crows_upgraded		false	false	false	0.0	0.0	0.0	1.0	0	0.25	6	8	0	false	0.0	0.0	false	0		wh_dlc03_spell_beast_flock_of_doom	wh_dlc03_spell_beasts_flock_of_doom	-1.0	false	true	true	0.0	
 -1.0	positive	morrigan_hunters_dmg		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
 25.0	positive	lesser_shield_of_the_old_ones		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh2_main_ability_shield_of_the_old_ones	-1.0	false	true	true	0.0	
-10.0	negative	elo_staff_of_dural_durak		false	false	false	0.0	0.0	10.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+30.0	negative	elo_staff_of_dural_durak		false	false	false	0.0	0.0	30.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 1.1	positive	elo_amulet_old_ones		false	false	false	0.0	0.0	0.0	1.0	1100	0.0	0	0	1100	false	15.0	50.0	false	0		wh2_main_unit_passive_rebirth		-1.0	false	true	true	0.0	
 10.0	positive	elo_albion_freedom		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh_ability_positive	-1.0	false	true	true	0.0	
 -1.0	positive	elo_champion_of_albion		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	

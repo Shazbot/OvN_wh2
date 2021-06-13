@@ -288,3 +288,6 @@ armour_piercing	elo_troll_champ
 regeneration	elo_troll_champ
 armoured	elo_troll_champ
 melee_expert	elo_troll_champ
+regeneration	elo_troll_giant
+armour_piercing	elo_troll_giant
+terror	elo_troll_giant

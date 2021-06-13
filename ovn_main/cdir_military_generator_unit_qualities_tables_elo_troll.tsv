@@ -27,3 +27,4 @@ Default_land_monster	30	elo_warpstone_trolls
 Default_land_infantry_missile_heavy	15	ovn_trl_inf_stone_throw_troll
 Default_land_monster	16	elo_sea_troll
 Default_land_command	10	elo_troll_champ
+Default_land_monster	25	elo_troll_giant
