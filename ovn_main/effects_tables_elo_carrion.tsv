@@ -1,0 +1,10 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+elo_carrion_boss_cap	goblin_big_boss.png	102	goblin_big_boss.png	campaign	true
+elo_carrion_boss_availability	agent.png	3	agent.png	campaign	true
+elo_special_treat	general_ability.png	100	general_ability.png	battle	true
+elo_those_are_tasty	general_ability.png	100	general_ability.png	battle	true
+carrion_gobbos_ma	melee.png	100	melee.png	battle	true
+carrion_gobbos_md	defence.png	100	defence.png	battle	true
+carrion_gobbos_ammo	ammo.png	100	ammo.png	battle	true
+carrion_gobbos_reload	icon_stat_reload_time_force.png	100	icon_stat_reload_time_force.png	battle	true

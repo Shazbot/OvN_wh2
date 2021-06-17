@@ -1,0 +1,18 @@
+character_skill_node_links_tables	3
+child_key	initial_descent_tiers	parent_key	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+elo_carrion_big_boss_self_02	0	elo_carrion_big_boss_self_01	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_03	0	elo_carrion_big_boss_self_01	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_04	0	elo_carrion_big_boss_self_01	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_05	0	elo_carrion_big_boss_self_01	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_06	0	elo_carrion_big_boss_self_02	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_06	0	elo_carrion_big_boss_self_03	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_06	0	elo_carrion_big_boss_self_04	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_06	0	elo_carrion_big_boss_self_05	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_07	0	elo_carrion_big_boss_self_06	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_08	0	elo_carrion_big_boss_self_06	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_09	0	elo_carrion_big_boss_self_06	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_10	0	elo_carrion_big_boss_self_06	1	1	0.0	0.0	REQUIRED
+elo_carrion_big_boss_self_11	0	elo_carrion_big_boss_self_07	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_11	0	elo_carrion_big_boss_self_08	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_11	0	elo_carrion_big_boss_self_09	1	1	0.0	0.0	SUBSET_REQUIRED
+elo_carrion_big_boss_self_11	0	elo_carrion_big_boss_self_10	1	1	0.0	0.0	SUBSET_REQUIRED

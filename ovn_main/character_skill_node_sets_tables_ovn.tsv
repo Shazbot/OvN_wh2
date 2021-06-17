@@ -49,3 +49,4 @@ dignitary			wh_main_skill_node_set_hlf_master_chef		false	false	ovn_hlf_master_c
 champion			wh_main_skill_node_set_hlf_sheriff		false	false	ovn_hlf_sheriff
 wizard			elo_boglar_shaman		false	false	elo_boglar_shaman
 champion			elo_troll_champ_skillz		false	false	elo_troll_champ
+spy			elo_carrion_boss		false	false	elo_carrion_boss

@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_elo_carrion_boss_cap	Hero capacity: %+n for Carrion Big Bosses	true
+effects_description_elo_carrion_boss_availability	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Carrion Big Bosses	true
+effects_description_elo_special_treat	Ability: "Special Treat"	true
+effects_description_elo_those_are_tasty	Ability: "They lookz tasty!"	true
+effects_description_carrion_gobbos_ma	Melee Attack: %+n for all Carrion Goblin units	true
+effects_description_carrion_gobbos_md	Melee Defence: %+n for all Carrion Goblin units	true
+effects_description_carrion_gobbos_ammo	Ammunition: %+n% for Carrion Archers	true
+effects_description_carrion_gobbos_reload	Reload Speed: %+n% for Carrion Archers	true

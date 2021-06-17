@@ -1,5 +1,6 @@
 campaign_character_art_sets_tables	6
 agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+spy	elo_carrion_boss			wh2_main_nor_trollz	false	true	elo_carrion_boss	1.1
 general	ovn_stormrider				false	true	ovn_stormrider	1.1
 general	arb_fatandira				false	true	arb_fatandira	1.0
 general	arb_golden_magus				false	true	arb_golden_magus	1.4

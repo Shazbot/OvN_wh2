@@ -1,8 +1,0 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	hlf_staff		13
-		x	1	hlf_robe		9
-			1	cig_Buff		11
-			1	meat_Buff		11
-			1	haffenlyver		16
-	wh2_main_emp_the_moot		1	wh_dlc05_skill_magic_shadow_mystifying_miasma		5

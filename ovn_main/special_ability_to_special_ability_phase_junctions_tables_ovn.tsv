@@ -1,5 +1,7 @@
 special_ability_to_special_ability_phase_junctions_tables	1
 order	phase	special_ability
+0	elo_special_treat	elo_special_treat
+0	elo_those_are_tasty	elo_those_are_tasty
 1	ovn_feast	ovn_feast
 1	ovn_thief	ovn_thief
 1	ovn_fight_eat	ovn_fight_eat

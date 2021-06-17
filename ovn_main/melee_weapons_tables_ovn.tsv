@@ -134,3 +134,5 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	0	0	elo_troll_1h_weapon	175	350	0	2.0	axe	club_huge	large	6	1.0	250	0.0	false		0	10	4.0	
 0	0	0	ovn_hlf_mislead_summoned_weapon	0	0	0	3.0	sword	sword	medium	8	1.0	0	0.0	false		0	10	4.0	
 0	0	0	wh_main_club_giant_troll	150	450	0	8.0	axe	club_huge	large	14	2.0	600	0.0	false		0	10	4.0	
+0	0	0	goblin_hero_bone_dual	350	50	0	3.0	sword	sword	medium	4	1.0	50	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
+0	0	25	carrion_squig_hero_bone	140	260	0	3.0	spear	spear	medium	8	1.0	150	0.0	false	wh_main_unit_contact_poison	0	10	4.0	

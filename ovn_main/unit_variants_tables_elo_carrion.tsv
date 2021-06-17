@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	elo_carrion_boss	elo_carrion_boss	elo_carrion_boss	elo_carrion_boss
+	elo_carrion_boss	elo_carrion_boss_squig	elo_carrion_boss	elo_carrion_boss

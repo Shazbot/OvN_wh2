@@ -1,5 +1,6 @@
 agent_subtype_subculture_overrides_tables	5
 associated_unit_override	subculture	subtype	agent	icon
+elo_carrion_boss	wh_main_sc_nor_troll	elo_carrion_boss	spy	ui/campaign ui/agents/wh_main_grn_spy.png
 	wh_main_sc_nor_norsca	wh2_dlc15_grn_river_troll_hag	runesmith	
 	wh_main_sc_nor_albion	albion_wyrd_druid	wizard	
 	wh_main_sc_nor_albion	albion_chief	champion	

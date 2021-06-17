@@ -24,3 +24,6 @@ Default_land_artillery	9	halfling_cat_ror
 Default_land_artillery	10	ovn_mtl_art_hotpot
 Default_land_artillery	10	ovn_mtl_art_hotpot_ror
 Default_land_support	8	elo_supply_wagon
+Default_land_infantry_melee	10	halfling_housewives
+Default_land_command	10	ovn_hlf_ll
+Default_land_cavalry_melee	10	ovn_mtl_veh_reaper

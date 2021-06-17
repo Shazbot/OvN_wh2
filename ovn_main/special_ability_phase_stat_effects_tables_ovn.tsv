@@ -238,3 +238,7 @@ elo_violent_command	5.0	stat_melee_attack	add
 elo_violent_command	1.15	stat_melee_damage_ap	mult
 elo_violent_command	1.15	stat_melee_damage_base	mult
 ovn_hlf_ammo	1.1	stat_reloading	mult
+elo_those_are_tasty	0.7	scalar_speed	mult
+elo_those_are_tasty	0.7	stat_melee_damage_ap	mult
+elo_those_are_tasty	0.7	stat_melee_damage_base	mult
+elo_contact_very_tasty	6.0	stat_morale	add

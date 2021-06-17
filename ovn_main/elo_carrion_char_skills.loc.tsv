@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_description_elo_carrion_boss_squig	Goblins taming and riding a squig enables them to move at the much faster speed of a squig and even somewhat improves the battle prowess of the squig.	false
+character_skills_localised_name_elo_carrion_boss_squig	Riding Squig	false
+character_skills_localised_description_elo_special_treat	Goblins who have proven to be useful have a certain level of protection provided by the leaders of the horde. That does not protect them from said leaders though.	false
+character_skills_localised_name_elo_special_treat	A Special Treat	false
+character_skills_localised_description_elo_those_are_tasty	Manipulating Trolls is a key skill for a member of the Carrion Tribe to rise the ranks and to survive. In most cases this is very easy to do, hunger is an ever useful motivator for trolls.	false
+character_skills_localised_name_elo_those_are_tasty	Those lookz tasty!	false
+character_skills_localised_description_elo_goblin_leader_melee	A leader of his tribe. A poor one at that, but still pushes the Carrion Tribe to greater performance in battle than none leader at all.	false
+character_skills_localised_description_elo_goblin_leader_ranged	Take them arrows, boyz. We'z gonna need them later.	false
+character_skills_localised_name_elo_goblin_leader_melee	Leader of Goblins	false
+character_skills_localised_name_elo_goblin_leader_ranged	Ammunition Hoarder	false

@@ -97,3 +97,11 @@ hide_forest	elo_boglar
 guerrilla_deploy	elo_boglar
 expendable	elo_boglar
 encourages	elo_boglar
+hide_forest	elo_carrion_boss
+encourages	elo_carrion_boss
+expendable	elo_carrion_boss
+hide_forest	elo_carrion_boss_squig
+encourages	elo_carrion_boss_squig
+expendable	elo_carrion_boss_squig
+immune_to_psychology	elo_carrion_boss_squig
+guerrilla_deploy	elo_carrion_boss_squig

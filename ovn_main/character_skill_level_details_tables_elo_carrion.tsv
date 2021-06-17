@@ -1,0 +1,6 @@
+character_skill_level_details_tables	0
+campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
+		x	1	elo_carrion_boss_squig		9
+		x	1	elo_special_treat		4
+		x	1	elo_goblin_leader_melee		14
+		x	1	elo_goblin_leader_ranged		14

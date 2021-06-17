@@ -1,7 +1,0 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	hlf_fieldwarden_halfling_hero		11
-		x	1	hlf_fieldwarden_border_patrol		11
-		x	1	hlf_moot_general_skill_0_0_mount_poultry		8
-		x	1	hlf_master_chef_skill_0_0_mount_wagon		9
-		x	1	hlf_sheriff_skill_0_0_mount_pig		8

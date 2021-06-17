@@ -27,3 +27,4 @@ wh_main_dwf_dwarftank_main_explosion	percussive	shockwave	7.0	0.0	11.0	60.0		wh_
 elo_lesser_vomit_explosion	percussive	shockwave	8.0	0.0	11.0	15.0			0.0		none		0.0	false	25.0	wh_main_unit_explosion_light	120.0	-1.0	true
 elo_greater_swamp_breath_explosion	percussive	shockwave	6.0	0.0	11.0	20.0			0.0		none		0.0	false	84.0	wh_main_unit_explosion_light	120.0	-1.0	true
 ovn_hlf_mislead_miscast	percussive	shockwave	2.0	1.0	20.0	0.0			0.0			ovn_hlf_mislead	0.0	false	0.0		1.0	-1.0	true
+elo_special_treat_explosion	percussive	shockwave	1.0	1.0	10.0	0.0			0.0			wh2_main_unit_passive_rebirth_miscast	0.0	false	0.0		0.0	-1.0	true

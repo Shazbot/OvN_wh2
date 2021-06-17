@@ -1,5 +1,6 @@
 campaign_mounts_tables	8
 animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
+cam_rp2_great_cave_squig	wh_dlc06_grn_mnt_squig	wh_dlc06_grn_great_cave_squig_campaign	1.0	wh_dlc06_vo_culture_Squig	false	0	false
 cam_fc1_flying_carpet	ovn_cam_mnt_arb_magic_carpet	ovn_arb_flying_carpet	1.0	vo_culture_None	false	0	false
 cam_bi2_wyvern	aky_terrorgheist_mount_0	aky_terrorgheist_mount_0	0.7	wh_main_vo_culture_Terrorgheist	false	0	false
 cam_hr1_warhorse	ovn_cam_arb_camel	ovn_arb_camel	1.0	wh_main_vo_culture_Horse	false	0	false
