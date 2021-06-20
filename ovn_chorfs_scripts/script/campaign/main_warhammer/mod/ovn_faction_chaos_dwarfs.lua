@@ -98,6 +98,44 @@ local function sr_chaos_dwarfs()
 	end
 end
 
+--- Remove the additional army upkeep for Hobgoblin Lords.
+local army_upkeep_bundles = {
+	"wh_main_bundle_force_additional_army_upkeep_easy",
+	"wh_main_bundle_force_additional_army_upkeep_normal",
+	"wh_main_bundle_force_additional_army_upkeep_hard",
+	"wh_main_bundle_force_additional_army_upkeep_very_hard",
+	"wh_main_bundle_force_additional_army_upkeep_legendary",
+}
+
+local original_apply_upkeep_penalty = apply_upkeep_penalty
+
+apply_upkeep_penalty = function(faction, ...)
+	if faction:name() ~= "wh2_main_ovn_chaos_dwarfs" then
+		return original_apply_upkeep_penalty(faction, ...)
+	end
+
+	original_apply_upkeep_penalty(faction, ...)
+
+	local mf_list = faction:military_force_list();
+
+	for i = 0, mf_list:num_items() - 1 do
+		local current_mf = mf_list:item_at(i);
+		local force_type = current_mf:force_type():key()
+
+		if current_mf:is_armed_citizenry() == false and current_mf:has_general() == true and force_type ~= "SUPPORT_ARMY"  then
+			local general = current_mf:general_character();
+			local character_subtype_key = general:character_subtype_key();
+			local cqi = general:command_queue_index();
+
+			if character_subtype_key == "hobgoblin_greatkhan" or character_subtype_key == "hobgoblin_greatsorcerer" then
+				for _, army_upkeep_bundle in ipairs(army_upkeep_bundles) do
+					cm:remove_effect_bundle_from_characters_force(army_upkeep_bundle, cqi)
+				end
+			end
+		end
+	end
+end
+
 local function binding_iter(binding)
 	local pos = 0
 	local num_items = binding:num_items()
