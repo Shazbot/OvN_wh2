@@ -111,17 +111,34 @@ local function amazon_setup()
 
 		local faction_key = "wh2_main_amz_amazons" -- factions key
 
+		local is_lwaxana_starting_lord = core:svr_load_bool("ovn_amazon_lords_lwaxana_is_leader")
+		if not amazon:is_human() then
+			is_lwaxana_starting_lord = cm:random_number(2) == 1
+		end
+
+		local subtype = "roy_amz_penthesilea"
+		local firstname = "names_name_3508823034"
+		local surname = ""
+		local units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged"
+
+		if is_lwaxana_starting_lord then
+			subtype = "roy_amz_lwaxana"
+			firstname = "names_name_3508823024"
+			surname = ""
+			units = "roy_amz_inf_piranha_warriors,roy_amz_inf_tribeswomen_ranged,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts,roy_amz_inf_berserkers,roy_amz_inf_warriors,roy_amz_inf_warriors,roy_amz_inf_warriors_maces"
+		end
+
 		cm:create_force_with_general(
 			"wh2_main_amz_amazons",
-			"roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged",
+			units,
 			"wh2_main_vor_the_creeping_jungle_tlanxla",
 			135,
 			285,
 			"general",
-			"roy_amz_penthesilea",
-			"names_name_3508823034",
+			subtype,
+			firstname,
 			"",
-			"",
+			surname,
 			"",
 			true,
 			function(cqi)
