@@ -549,12 +549,12 @@ cm:add_first_tick_callback(
 
 cm:add_saving_game_callback(
 	function(context)
-		cm:save_named_value("pj_chorf_panel_tree_unlocks", invasion_queue, context)
+		cm:save_named_value("ovn_albion_invasion_queue", invasion_queue, context)
 	end
 )
 
 cm:add_loading_game_callback(
 	function(context)
-		invasion_queue = cm:load_named_value("pj_chorf_panel_tree_unlocks", invasion_queue, context)
+		invasion_queue = cm:load_named_value("ovn_albion_invasion_queue", invasion_queue, context)
 	end
 )
