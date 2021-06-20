@@ -393,56 +393,100 @@ core:add_listener(
 	true
 )
 
+core:remove_listener('ovn_rot_skittergate_dialogue_confirm_region_ticked')
+core:add_listener(
+	'ovn_rot_skittergate_dialogue_confirm_region_ticked',
+	'ComponentLClickUp',
+	function(context)
+		return context.string == "button_tick"
+			and UIComponent(UIComponent(UIComponent(context.component):Parent()):Parent()):Id() == "ovn_rot_skittergate_dialogue_confirm_region"
+	end,
+	function(context)
+		cm:set_saved_value("pj_rot_skittergate_current_region", mod.next_region_key)
+		mod.switch_state(mod.states.active, mod.current_state)
+	end,
+	true
+)
+
 core:remove_listener('ovn_rot_skittergate_region_button_clicked')
 core:add_listener(
 	'ovn_rot_skittergate_region_button_clicked',
 	'ComponentLClickUp',
 	function(context)
-		return context.string == "pj_skittergate_settlement_button" or context.string:starts_with("ovn_sk_char_button_")
+		return context.string == "pj_skittergate_settlement_button"
 	end,
 	function(context)
-		if context.string == "pj_skittergate_settlement_button" then
-			local comp = UIComponent(context.component)
-			for _=1, 5 do
-				comp = UIComponent(comp:Parent())
-			end
-			local region_key = comp:Id():gsub("label_settlement:", "")
+		local comp = UIComponent(context.component)
+		local dialogue_box = core:get_or_create_component("ovn_rot_skittergate_dialogue_confirm_region", "ui/common ui/dialogue_box")
+		core:add_listener(
+			"pj_ai_unit_upgrades_real_time_trigger_11",
+			"RealTimeTrigger",
+			function(context)
+				return context.string == "pj_ai_unit_upgrades_real_time_trigger_1"
+			end,
+			function(context)
+				for _=1, 5 do
+					comp = UIComponent(comp:Parent())
+				end
+				local region_key = comp:Id():gsub("label_settlement:", "")
 
-			mod.current_region_key = region_key
-			cm:set_saved_value("pj_rot_skittergate_current_region", region_key)
+				local a = find_ui_component_str("root > ovn_rot_skittergate_dialogue_confirm_region > DY_text")
+				a:SetStateText("Would you like connect the Altar of Spawns with "
+					..effect.get_localised_string("regions_onscreen_"..tostring(region_key))
+					.." using the Skittergate?")
+			end,
+			false
+		)
+		real_timer.register_singleshot("pj_ai_unit_upgrades_real_time_trigger_1", 0)
 
-			mod.switch_state(mod.states.active, mod.current_state)
-		else
-			local char_cqi = context.string:gsub("ovn_sk_char_button_", "")
-			if not tonumber(char_cqi) then return end
-			local char = cm:get_character_by_cqi(char_cqi)
-			if not char then return end
-
-			local skittergate_exit_coordinates = mod.skittergate_exit_coordinates
-			local skittergate_entrance_coordinates = mod.skittergate_entrance_coordinates
-			local char_x, char_y = char:logical_position_x(), char:logical_position_y()
-			local exit_dist_sq = distance_squared(char_x, char_y, skittergate_exit_coordinates.x, skittergate_exit_coordinates.y)
-			local entrance_dist_sq = distance_squared(char_x, char_y, skittergate_entrance_coordinates.x, skittergate_entrance_coordinates.y)
-
-			local new_coords = skittergate_exit_coordinates
-			if exit_dist_sq < entrance_dist_sq then
-				new_coords = skittergate_entrance_coordinates
-			end
-
-			local x, y = cm:find_valid_spawn_location_for_character_from_position(
-				"wh2_main_nor_rotbloods",
-				new_coords.x,
-				new_coords.y,
-				false,
-				0
-			)
-			if x == -1 then return end
-
-			cm:teleport_to(cm:char_lookup_str(char_cqi), x, y, false)
-			cm:callback(function()
-				cm:scroll_camera_with_cutscene_to_character(2, nil, tonumber(char_cqi))
-			end, 0.5)
+		local comp = UIComponent(context.component)
+		for _=1, 5 do
+			comp = UIComponent(comp:Parent())
 		end
+		local region_key = comp:Id():gsub("label_settlement:", "")
+
+		mod.next_region_key = region_key
+	end,
+	true
+)
+
+core:remove_listener('ovn_rot_skittergate_char_button_clicked')
+core:add_listener(
+	'ovn_rot_skittergate_char_button_clicked',
+	'ComponentLClickUp',
+	function(context)
+		return context.string:starts_with("ovn_sk_char_button_")
+	end,
+	function(context)
+		local char_cqi = context.string:gsub("ovn_sk_char_button_", "")
+		if not tonumber(char_cqi) then return end
+		local char = cm:get_character_by_cqi(char_cqi)
+		if not char then return end
+
+		local skittergate_exit_coordinates = mod.skittergate_exit_coordinates
+		local skittergate_entrance_coordinates = mod.skittergate_entrance_coordinates
+		local char_x, char_y = char:logical_position_x(), char:logical_position_y()
+		local exit_dist_sq = distance_squared(char_x, char_y, skittergate_exit_coordinates.x, skittergate_exit_coordinates.y)
+		local entrance_dist_sq = distance_squared(char_x, char_y, skittergate_entrance_coordinates.x, skittergate_entrance_coordinates.y)
+
+		local new_coords = skittergate_exit_coordinates
+		if exit_dist_sq < entrance_dist_sq then
+			new_coords = skittergate_entrance_coordinates
+		end
+
+		local x, y = cm:find_valid_spawn_location_for_character_from_position(
+			"wh2_main_nor_rotbloods",
+			new_coords.x,
+			new_coords.y,
+			false,
+			0
+		)
+		if x == -1 then return end
+
+		cm:teleport_to(cm:char_lookup_str(char_cqi), x, y, false)
+		cm:callback(function()
+			cm:scroll_camera_with_cutscene_to_character(2, nil, tonumber(char_cqi))
+		end, 0.5)
 	end,
 	true
 )
