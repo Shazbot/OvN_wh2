@@ -31,7 +31,7 @@ missions_localised_description_ovn_halfling_establish_restaurant_mission	The Moo
 missions_localised_title_ovn_halfling_establish_restaurant_mission	Too Many Cooks Spoils The Moot	true
 mission_text_override_ovn_halfling_establish_restaurant_mission	Establish a resturant in a foreign region using a Master Chef!	false
 effects_description_ovn_albion_second_lord_mission_morrigan	[[overridecol:fe_white]]Morrigan the Phantom Queen joins your faction![[/col]]	true
-effect_bundles_localised_description_ovn_albion_second_lord_mission_morrigan	Morrigan the Phantom Queen arrivies to lead your armies!	true
+effect_bundles_localised_description_ovn_albion_second_lord_mission_morrigan	Morrigan the Phantom Queen arrives to lead your armies!	true
 effect_bundles_localised_title_ovn_albion_second_lord_mission_morrigan	The Phantom Queen	true
 effects_description_ovn_albion_second_lord_mission_durak	[[overridecol:fe_white]]Dural Durak joins your faction![[/col]]	true
 effect_bundles_localised_description_ovn_albion_second_lord_mission_durak	Dural Durak arrives to lead your armies!	true
