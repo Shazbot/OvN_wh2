@@ -107,6 +107,7 @@ local function ui_init()
 
         find_uicomponent(uic, "grom_goals"):SetVisible(false)
         find_uicomponent(uic, "trait"):SetVisible(false)
+				topbar:Layout()
     end
 
 		local function close_panel()
@@ -263,6 +264,40 @@ local function ui_init()
         end,
         true
     )
+
+		local function adjust_topbar()
+			local ui_root = core:get_ui_root()
+			local grom_dish_effect_holder = find_uicomponent(ui_root, "layout", "resources_bar", "topbar_list_parent", "hlfng_headtaking")
+			grom_dish_effect_holder:SetImagePath("ui/ovn/transparent.png", 0)
+			grom_dish_effect_holder:SetCanResizeWidth()
+			grom_dish_effect_holder:SetCanResizeHeight()
+			grom_dish_effect_holder:Resize(80, 39)
+
+			local grom_dish_effect = find_uicomponent(grom_dish_effect_holder, "grom_dish_effect")
+			grom_dish_effect:Resize(80, 80)
+			local grom_dish_image = find_uicomponent(grom_dish_effect, "grom_dish_image")
+			grom_dish_image:Resize(80, 80)
+			grom_dish_image:SetDockOffset(2, -5)
+
+			if not grom_dish_effect_holder then return end
+			if grom_dish_effect_holder:Width() == 80 then return end
+		end
+
+		core:remove_listener("pj_hlf_cauldron_real_timer_topbar_adjust_cb")
+		core:add_listener(
+			"pj_hlf_cauldron_real_timer_topbar_adjust_cb",
+			"RealTimeTrigger",
+			function(context)
+				return context.string == "pj_hlf_cauldron_real_timer_topbar_adjust"
+			end,
+			function()
+				adjust_topbar()
+			end,
+			true
+		)
+
+		real_timer.unregister("pj_hlf_cauldron_real_timer_topbar_adjust")
+		real_timer.register_repeating("pj_hlf_cauldron_real_timer_topbar_adjust", 0)
 end
 
 -- table matching province to their continent (not a science)
