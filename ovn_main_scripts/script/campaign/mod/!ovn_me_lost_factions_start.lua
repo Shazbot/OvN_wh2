@@ -1274,6 +1274,40 @@ local function dreadking_setup()
 	end
 end
 
+local faction_key_to_how_they_play_data = {
+	wh2_main_ovn_chaos_dwarfs = {
+		loc = "ovn_how_they_play_chorfs",
+		image_id = 2508,
+	},
+	wh2_main_nor_rotbloods = {
+		loc = "ovn_how_they_play_rotbloods",
+		image_id = 2509,
+	},
+	wh2_main_nor_albion = {
+		loc = "ovn_how_they_play_albion",
+		image_id = 2506,
+	},
+	wh2_main_emp_the_moot = {
+		loc = "ovn_how_they_play_hlf",
+		image_id = 2507,
+	},
+}
+local function show_how_they_play_event()
+	local local_faction_key = cm:get_local_faction_name()
+	local data = faction_key_to_how_they_play_data[local_faction_key]
+	if not data then return end
+
+	local loc_prefix = "event_feed_strings_text_ovn_comradeship_spawned_"
+	cm:show_message_event(
+		local_faction_key,
+		"event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+		"factions_screen_name_"..local_faction_key,
+		data.loc,
+		true,
+		data.image_id
+	)
+end
+
 local mct_options_list = {
 	"enable",
 	"amazon",
@@ -1416,6 +1450,8 @@ local function new_game_startup()
 			cm:disable_event_feed_events(false, "", "", "faction_resource_lost")
 			cm:disable_event_feed_events(false, "", "", "faction_resource_gained")
 			cm:disable_event_feed_events(false, "", "", "conquest_province_secured")
+
+			show_how_they_play_event()
 		end,
 		7
 	)

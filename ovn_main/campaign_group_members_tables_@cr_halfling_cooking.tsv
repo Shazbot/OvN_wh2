@@ -2,3 +2,7 @@ campaign_group_members_tables	1
 group	id	priority
 ovn_halfling_cooking	ovn_halfling_cooking	0.0
 ovn_halfling_cooking_ingredient_unlocked	ovn_halfling_cooking_ingredient_unlocked	0.0
+ovn_albion_how_they_play_event	ovn_albion_how_they_play_event	0.0
+ovn_hlf_how_they_play_event	ovn_hlf_how_they_play_event	0.0
+ovn_chorfs_how_they_play_event	ovn_chorfs_how_they_play_event	0.0
+ovn_rot_how_they_play_event	ovn_rot_how_they_play_event	0.0
