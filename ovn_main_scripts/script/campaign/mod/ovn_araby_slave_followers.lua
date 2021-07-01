@@ -356,7 +356,7 @@ mod.rearrange_category_buttons = function()
 	local mort = find_ui_component_str("root > mortuary_cult")
 	if not mort then return end
 
-	local mort2 = find_ui_component_str(mort, "pj_rot_skittergate_icon1")
+	local mort2 = find_ui_component_str(mort, "ovn_crafting_araby_slaves_back_frame")
 	if not mort2 then
 		add_custom_panel()
 		return
