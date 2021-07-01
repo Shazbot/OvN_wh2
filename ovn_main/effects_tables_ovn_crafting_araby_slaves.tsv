@@ -1,0 +1,15 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+ovn_araby_victories_lzd	vortex_lzd_3.png	2	vortex_lzd_3.png	campaign	true
+ovn_araby_victories_dwarfs	trait_dwarf.png	2	trait_dwarf.png	campaign	true
+ovn_araby_victories_def	vortex_def_5.png	2	vortex_def_5.png	campaign	true
+ovn_araby_victories_hef	vortex_hef_3.png	2	vortex_hef_3.png	campaign	true
+ovn_araby_victories_men	trait_human.png	2	trait_human.png	campaign	true
+ovn_araby_victories_undead	trait_vampire_counts.png	2	trait_vampire_counts.png	campaign	true
+ovn_araby_victories_chaos	trait_chaos.png	2	trait_chaos.png	campaign	true
+ovn_araby_victories_skv	vortex_skv_3.png	2	vortex_skv_3.png	campaign	true
+ovn_araby_victories_nor	trait_norsca.png	2	trait_norsca.png	campaign	true
+ovn_araby_victories_we	trait_wood_elves.png	2	trait_wood_elves.png	campaign	true
+ovn_araby_victories_grn	trait_greenskins.png	2	trait_greenskins.png	campaign	true
+ovn_araby_victories_bst	trait_beastmen.png	2	trait_beastmen.png	campaign	true
+ovn_araby_victories_tmb	trait_tomb_kings.png	2	trait_tomb_kings.png	campaign	true

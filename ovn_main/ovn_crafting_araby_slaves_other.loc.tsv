@@ -1,0 +1,17 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_title_ovn_crafting_araby_slaves	Victories	true
+effect_bundles_localised_description_ovn_crafting_araby_slaves	Victories against foreign cultures can bring slaves of distinction into Arabyan armies and administration.	true
+effects_description_ovn_araby_victories_lzd	Victories against Lizardmen: %n	true
+effects_description_ovn_araby_victories_dwarfs	Victories against Dwarfs: %n	true
+effects_description_ovn_araby_victories_def	Victories against Dark Elves: %n	true
+effects_description_ovn_araby_victories_hef	Victories against High Elves: %n	true
+effects_description_ovn_araby_victories_men	Victories against Men: %n	true
+effects_description_ovn_araby_victories_undead	Victories against Undead: %n	true
+effects_description_ovn_araby_victories_chaos	Victories against Chaos: %n	true
+effects_description_ovn_araby_victories_skv	Victories against Skaven: %n	true
+effects_description_ovn_araby_victories_nor	Victories against Norsca: %n	true
+effects_description_ovn_araby_victories_we	Victories against Wood Elves: %n	true
+effects_description_ovn_araby_victories_grn	Victories against Greenskins: %n	true
+effects_description_ovn_araby_victories_bst	Victories against Beastmen: %n	true
+effects_description_ovn_araby_victories_tmb	Victories against Tomb Kings: %n	true
