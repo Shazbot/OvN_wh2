@@ -369,11 +369,15 @@ mod.rearrange_category_buttons = function()
 		tooltip = tooltip.."\n\n[[col:red]]No valid army was selected![[/col]]"
 		buy_slaves_button:SetState("inactive")
 	else
-		local forename = effect.get_localised_string(char:get_forename())
-		local surname = effect.get_localised_string(char:get_surname())
-		local localized_name = surname
-		if forename ~= "" then
+		local forename = char:get_forename() ~= "" and effect.get_localised_string(char:get_forename()) or ""
+		local surname = char:get_surname() ~= "" and effect.get_localised_string(char:get_surname()) or ""
+		local localized_name = ""
+		if forename ~= "" and surname ~= "" then
 			localized_name = forename.." "..surname
+		elseif forename ~= "" then
+			localized_name = forename
+		else
+			localized_name = surname
 		end
 		tooltip = tooltip.."\n\n[[col:yellow]]Army of "..localized_name.." was selected for this![[/col]]"
 
