@@ -301,35 +301,27 @@ local function add_custom_panel()
 	mort:SetDockOffset(-120, 0)
 
 	local ski = core:get_or_create_component("ovn_crafting_araby_slaves_back_frame", "ui/templates/custom_image", mort)
-	ski:SetImagePath("ui/skins/default/char_frame_back.png", 4)
+	ski:SetImagePath("ui/ovn/ovn_crafting_araby_slaves_back_frame.png", 4)
 	ski:SetDockingPoint(3)
-	ski:SetDockOffset(288, 5)
+	ski:SetDockOffset(281+18, 0)
 	ski:SetCanResizeHeight(true)
 	ski:SetCanResizeWidth(true)
-	ski:Resize(300-20,900-20)
-
-	local ski2 = core:get_or_create_component("ovn_crafting_araby_slaves_inner_frame", "ui/templates/custom_image", ski)
-	ski2:SetImagePath("ui/skins/default/panel_back_inner_frame.png", 4)
-	ski2:SetDockingPoint(1)
-	ski2:SetDockOffset(-10, -10)
-	ski2:SetCanResizeHeight(true)
-	ski2:SetCanResizeWidth(true)
-	ski2:Resize(300,900)
+	ski:Resize(300+18-18,955-20)
 
 	local new_title = find_ui_component_str(mort, "ovn_crafting_araby_slaves_title")
 	if not new_title then
 		local title = find_ui_component_str(mort, "panel_title")
 		new_title = UIComponent(title:CopyComponent("ovn_crafting_araby_slaves_title"))
-		ski2:Adopt(new_title:Address())
+		ski:Adopt(new_title:Address())
 	end
 	new_title:SetDockingPoint(2)
-	new_title:SetDockOffset(0, 0)
+	new_title:SetDockOffset(0, -5)
 	new_title:SetImagePath("ui/ovn/transparent.png")
 	local title_text = find_ui_component_str(new_title, "tx")
 	title_text:SetStateText("Slave Market")
 
-	local skil = core:get_or_create_component("ovn_crafting_araby_slaves_top_left", "ui/templates/custom_image", ski2)
-	local skir = core:get_or_create_component("ovn_crafting_araby_slaves_top_right", "ui/templates/custom_image", ski2)
+	local skil = core:get_or_create_component("ovn_crafting_araby_slaves_top_left", "ui/templates/custom_image", ski)
+	local skir = core:get_or_create_component("ovn_crafting_araby_slaves_top_right", "ui/templates/custom_image", ski)
 	skil:SetImagePath("ui/skins/default/empire_event_ornament_top_left.png", 4)
 	skir:SetImagePath("ui/skins/default/empire_event_ornament_top_right.png", 4)
 	skil:SetDockingPoint(1)
@@ -362,6 +354,50 @@ mod.rearrange_category_buttons = function()
 		return
 	end
 
+	local buy_slaves_button = core:get_or_create_component("ovn_crafting_araby_slaves_buy_slaves", "ui/templates/square_large_text_button", mort2)
+	buy_slaves_button:SetDockingPoint(2)
+	buy_slaves_button:SetDockOffset(0, 85)
+	buy_slaves_button:SetCanResizeWidth(true)
+	buy_slaves_button:SetCanResizeHeight(true)
+	buy_slaves_button:Resize(339-70, 51)
+	local button_txt = find_uicomponent(buy_slaves_button, "button_txt")
+	button_txt:SetStateText("Buy Sharkas Slaves")
+	local tooltip = "The last selected Arabyan army will receive a unit of Sharkas Slaves. The army must be in player-owned territory. Costs 300[[img:icon_money]][[/img]]."
+
+	local char = mod.last_araby_char_cqi and cm:get_character_by_cqi(mod.last_araby_char_cqi)
+	if not char or char:is_null_interface() then
+		tooltip = tooltip.."\n\n[[col:red]]No valid army was selected![[/col]]"
+		buy_slaves_button:SetState("inactive")
+	else
+		local forename = effect.get_localised_string(char:get_forename())
+		local surname = effect.get_localised_string(char:get_surname())
+		local localized_name = surname
+		if forename ~= "" then
+			localized_name = forename.." "..surname
+		end
+		tooltip = tooltip.."\n\n[[col:yellow]]Army of "..localized_name.." was selected for this![[/col]]"
+
+		local num_items = char:military_force():unit_list():num_items()
+		if num_items > 19 then
+			tooltip = tooltip.."\n\n[[col:red]]Army is full![[/col]]"
+			buy_slaves_button:SetState("inactive")
+		end
+
+		if char:region():owning_faction():name() ~= char:faction():name() then
+			tooltip = tooltip.."\n\n[[col:red]]Army is outside its owned territory![[/col]]"
+			buy_slaves_button:SetState("inactive")
+		end
+	end
+
+	if cm:get_local_faction(true):treasury() < 300 then
+		tooltip = tooltip.."\n\n[[col:red]]Not enough [[img:icon_money]][[/img]]![[/col]]"
+		buy_slaves_button:SetState("inactive")
+	end
+
+	if buy_slaves_button:GetTooltipText() ~= tooltip then
+		buy_slaves_button:SetTooltipText(tooltip, true)
+	end
+
 	local header = find_uicomponent(mort, "header_list")
 	for i, cat_name in ipairs(cats) do
 		local cat = find_uicomponent(header, cat_name)
@@ -383,7 +419,7 @@ mod.rearrange_category_buttons = function()
 		local cat = find_uicomponent(mort2, cat_name)
 		if cat then
 			cat:SetDockingPoint(2)
-			cat:SetDockOffset(0,i*60+20)
+			cat:SetDockOffset(0,i*60+85)
 		end
 	end
 end
@@ -434,6 +470,32 @@ core:add_listener(
 	true
 )
 
+core:remove_listener("ovn_crafting_araby_slaves_buy_slaves_on_char_selected")
+core:add_listener(
+	"ovn_crafting_araby_slaves_buy_slaves_on_char_selected",
+	"CharacterSelected",
+	true,
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+
+		local char_faction_key = char:faction():name()
+		if not table_contains(araby_factions, char_faction_key) then return end
+
+		if not char:has_military_force() then return end
+
+		mod.last_araby_char_cqi = char:command_queue_index()
+	end,
+	true
+)
+
+mod.give_sharkas_slaves = function()
+	local data_to_send = {
+		cqi = mod.last_araby_char_cqi,
+	}
+	CampaignUI.TriggerCampaignScriptEvent(cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(), "ovn_crafting_araby_slaves_sharkas|"..json.encode(data_to_send))
+end
+
 core:remove_listener('ovn_arb_crafting_clicked_category_button')
 core:add_listener(
 	'ovn_arb_crafting_clicked_category_button',
@@ -442,6 +504,11 @@ core:add_listener(
 	function(context)
 		if not table_contains(araby_factions, cm:get_local_faction_name(true)) then
 			return
+		end
+
+		if context.string == "ovn_crafting_araby_slaves_buy_slaves" then
+			mod.give_sharkas_slaves()
+			-- find_ui_component_str("root > mortuary_cult > button_ok_frame > button_ok"):SimulateLClick()
 		end
 
 		if context.string ~= "button" then return end
@@ -711,6 +778,31 @@ core:add_listener(
 	true,
 	function(context)
 		mod.handle_battle_rewards(context);
+	end,
+	true
+)
+
+core:remove_listener("ovn_crafting_araby_slaves_sharkas_on_UITrigger")
+core:add_listener(
+	"ovn_crafting_araby_slaves_sharkas_on_UITrigger",
+	"UITrigger",
+	function(context)
+			return context:trigger():starts_with("ovn_crafting_araby_slaves_sharkas")
+	end,
+	function(context)
+		local faction_cqi = context:faction_cqi()
+
+		local stringified_data = context:trigger():gsub("ovn_crafting_araby_slaves_sharkas|", "")
+
+		local data = json.decode(stringified_data)
+
+		local char_cqi = data.cqi
+
+		local char = cm:get_character_by_cqi(char_cqi)
+		if not char or char:is_null_interface() then return end
+
+		cm:grant_unit_to_character(cm:char_lookup_str(char_cqi), "ovn_slave")
+		cm:treasury_mod(char:faction():name(), -300)
 	end,
 	true
 )
