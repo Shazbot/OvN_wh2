@@ -387,7 +387,8 @@ mod.rearrange_category_buttons = function()
 			buy_slaves_button:SetState("inactive")
 		end
 
-		if char:region():owning_faction():name() ~= char:faction():name() then
+		local region = char:region()
+		if region:is_null_interface() or region:owning_faction():name() ~= char:faction():name() then
 			tooltip = tooltip.."\n\n[[col:red]]Army is outside its owned territory![[/col]]"
 			buy_slaves_button:SetState("inactive")
 		end
