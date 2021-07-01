@@ -19,7 +19,7 @@ agent_subtypes_description_text_override_arb_magician_heavens	Tempest Djinns and
 agent_subtypes_onscreen_name_override_Dread_King	Dark Lord of Nagash	true
 agent_subtypes_onscreen_name_override_roy_arb_nomad	Hashashin	true
 agent_subtypes_description_text_override_roy_arb_nomad	The arabyan cities hide all kinds of dangers in their shadows. The assassins of this land are renowned for their skill, wiping out their targets in swift, stealthy attacks.	true
-agent_subtypes_onscreen_name_override_roy_arb_champion	Arabyan Askar	true
+agent_subtypes_onscreen_name_override_roy_arb_champion	Askar	true
 agent_subtypes_description_text_override_roy_arb_champion	The Askar are warriors without equal, who are promoted for their worth, serving as bodyguards for most important leaders of Araby.	true
 agent_subtypes_onscreen_name_override_rbt_blightstormer	Blightstormer	true
 agent_subtypes_description_text_override_rbt_blightstormer	Magic is the stuff of Chaos itself, and those who wield it without safeguard are destined to warp, body and soul, beneath its baleful power.	true

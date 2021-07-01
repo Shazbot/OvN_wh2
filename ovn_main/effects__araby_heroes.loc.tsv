@@ -1,8 +1,8 @@
 Loc PackedFile	1
 key	text	tooltip
-effects_description_roy_effect_agent_enable_recruitment_arb_champion	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Arabyan Askar	false
-effects_description_roy_effect_agent_cap_increase_arb_champion	Hero capacity: %+n for Arabyan Askars	false
-effects_description_roy_effect_agent_recruitment_xp_arb_champion	Hero recruit rank: %+n for Arabyan Askars	false
+effects_description_roy_effect_agent_enable_recruitment_arb_champion	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Askar	false
+effects_description_roy_effect_agent_cap_increase_arb_champion	Hero capacity: %+n for Askars	false
+effects_description_roy_effect_agent_recruitment_xp_arb_champion	Hero recruit rank: %+n for Askars	false
 effects_description_roy_effect_agent_enable_recruitment_arb_nomad	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Nomad	false
 effects_description_roy_effect_agent_cap_increase_arb_nomad	Hero capacity: %+n for Hashashin	false
 effects_description_roy_effect_agent_recruitment_xp_arb_nomad	Hero recruit rank: %+n for Hashashin	false
@@ -14,4 +14,4 @@ effects_description_ovn_araby_tech_elite_guard_recruit_rank	Recruit rank: %+n fo
 effects_description_ovn_araby_tech_camel_charge_bonus	Charge bonus: %+n% for all Camel units	false
 effects_description_roy_effect_agent_action_success_chance_arb_nomad	Hero action success chance: %+n% for Hashashin	false
 effects_description_roy_effect_agent_action_cost_mod_arb_nomad	Hero action cost: %+n% for Hashashin	false
-effects_description_roy_effect_agent_action_success_chance_arb_champion	Hero action success chance: %+n% for Arabyan Askars	false
+effects_description_roy_effect_agent_action_success_chance_arb_champion	Hero action success chance: %+n% for Askars	false
