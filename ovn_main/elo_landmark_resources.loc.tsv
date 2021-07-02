@@ -6,3 +6,7 @@ resources_description_res_location_albion_lzd	This location is of special import
 resources_onscreen_text_res_location_albion_lzd	Strategic Location	true
 resources_description_res_location_ugma	This location is of special importance to the Ugma Tribe.	true
 resources_onscreen_text_res_location_ugma	Strategic Location	true
+resources_onscreen_text_res_location_albion_hidden	Strategic Location	true
+resources_description_res_location_albion_hidden	This location is of special importance to the Truthsayers of Albion.	true
+resources_description_res_location_ugma_hidden	This location is of special importance to the Ugma Tribe.	true
+resources_onscreen_text_res_location_ugma_hidden	Strategic Location	true

@@ -4,3 +4,7 @@ resources_onscreen_text_res_location_araby	Strategic Location	true
 resources_description_res_location_araby	This location is of special importance to Araby.	true
 resources_onscreen_text_res_location_chorfs	Strategic Location	true
 resources_description_res_location_chorfs	This location is of special importance to the Chaos Dwarfs.	true
+resources_onscreen_text_res_location_chorfs_hidden	Strategic Location	true
+resources_description_res_location_chorfs_hidden	This location is of special importance to the Chaos Dwarfs.	true
+resources_onscreen_text_res_location_araby_hidden	Strategic Location	true
+resources_description_res_location_araby_hidden	This location is of special importance to Araby.	true

@@ -6,6 +6,10 @@ res_location_albion		0	ui\campaign ui\effect_bundles\strategic_location.png	0	fa
 res_location_albion_lzd		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
 res_location_ugma		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
 res_location_araby		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
-res_location_chorfs		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
+res_location_chorfs_hidden		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	false
 ovn_coffee	sacks	50	ui/campaign ui/effect_bundles/ovn_araby_coffee.png	500	false	true
 res_tobacco	sacks	50	ui\campaign ui\effect_bundles\res_tobacco.png	500	false	true
+res_location_chorfs		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
+res_location_albion_hidden		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	false
+res_location_araby_hidden		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	false
+res_location_ugma_hidden		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	false
