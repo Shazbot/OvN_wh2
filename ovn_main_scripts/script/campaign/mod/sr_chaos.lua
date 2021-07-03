@@ -918,7 +918,7 @@ end
 
 cm:add_first_tick_callback(
     function()
-				replace_old_buildings()
+				-- replace_old_buildings()
 
 				local rotblood_tribe = cm:get_faction("wh2_main_nor_rotbloods")
 				if not rotblood_tribe then return end

@@ -421,9 +421,87 @@ local function replace_old_buildings()
 	end
 end
 
+local araby_trebuchet_bonus_bundle_name = "ovn_enable_araby_trebuchet_bonus_in_sieges"
+
+local function araby_trebuchet_bonus_handle_attackers(remove_bonus)
+	for i = 1, cm:pending_battle_cache_num_attackers() do
+		local attacker_cqi, attacker_force_cqi, attacker_name = cm:pending_battle_cache_get_attacker(i)
+
+			local attacker = cm:model():world():faction_by_key(attacker_name)
+
+			if attacker and not attacker:is_null_interface() and attacker:subculture() == "wh_main_sc_emp_araby" then
+				if remove_bonus then
+					local custom_bundle = cm:create_new_custom_effect_bundle(araby_trebuchet_bonus_bundle_name)
+					cm:apply_custom_effect_bundle_to_characters_force(custom_bundle, cm:get_character_by_cqi(attacker_cqi))
+				else
+					local custom_bundle = cm:create_new_custom_effect_bundle(araby_trebuchet_bonus_bundle_name)
+					custom_bundle:add_effect("ovn_enable_araby_trebuchet_bonus_in_sieges", "character_to_force_own", 100)
+					cm:apply_custom_effect_bundle_to_characters_force(custom_bundle, cm:get_character_by_cqi(attacker_cqi))
+				end
+			end
+	end
+end
+
+local function add_araby_trebuchet_bonus_listeners()
+	core:remove_listener("ovn_enable_araby_trebuchet_bonus_in_sieges_pending_battle_cb")
+	core:add_listener(
+		"ovn_enable_araby_trebuchet_bonus_in_sieges_pending_battle_cb",
+		"PendingBattle",
+		function()
+			return true
+		end,
+		function(context)
+			local pending_battle = context:pending_battle()
+
+			if not cm:pending_battle_cache_human_is_involved() then
+				return
+			end
+			if not cm:pending_battle_cache_human_is_attacker() then
+				return
+			end
+			if not cm:pending_battle_cache_subculture_is_attacker("wh_main_sc_emp_araby") then
+				return
+			end
+			if not pending_battle:seige_battle() then
+				return
+			end
+
+			araby_trebuchet_bonus_handle_attackers()
+		end,
+		true
+	)
+
+	core:remove_listener("ovn_enable_araby_trebuchet_bonus_in_sieges_battle_completed_cb")
+	core:add_listener(
+		"ovn_enable_araby_trebuchet_bonus_in_sieges_battle_completed_cb",
+		"BattleCompleted",
+		true,
+		function(context)
+			local pending_battle = cm:model():pending_battle()
+
+			if not cm:pending_battle_cache_human_is_involved() then
+				return
+			end
+			if not cm:pending_battle_cache_human_is_attacker() then
+				return
+			end
+			if not cm:pending_battle_cache_subculture_is_attacker("wh_main_sc_emp_araby") then
+				return
+			end
+			if not pending_battle:seige_battle() then
+				return
+			end
+
+			araby_trebuchet_bonus_handle_attackers(true)
+		end,
+		true
+	)
+end
+
 cm:add_first_tick_callback(
     function()
         araby_init()
-				replace_old_buildings()
+				-- replace_old_buildings()
+				add_araby_trebuchet_bonus_listeners()
     end
 )

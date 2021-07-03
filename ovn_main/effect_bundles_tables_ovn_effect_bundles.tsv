@@ -38,3 +38,4 @@ ovn_dilemma_alb_current_leader	ovn_dilemma_alb_current_leader	ovn_dilemma_alb_cu
 ovn_dilemma_alb_alt_leader	ovn_dilemma_alb_alt_leader	ovn_dilemma_alb_alt_leader	faction	0	wizard.png	false
 ovn_scy_numas_trans	ovn_scy_numas_trans	ovn_scy_numas_trans	faction	1	numas_flag.png	true
 ovn_rot_fester_trans			faction	1	religion_skaven.png	true
+ovn_enable_araby_trebuchet_bonus_in_sieges	 		faction	0	ranged_damage.png	false
