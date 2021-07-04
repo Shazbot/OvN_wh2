@@ -1,5 +1,18 @@
 local chorf_faction_key = "wh2_main_ovn_chaos_dwarfs"
 
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
 local function sr_chaos_dwarfs()
 	if cm:model():campaign_name("main_warhammer") then
 		core:add_listener(
@@ -72,7 +85,52 @@ local function sr_chaos_dwarfs()
 				cm:force_declare_war("wh2_dlc15_dwf_clan_helhein", "wh2_main_ovn_chaos_dwarfs", false, false)
 			else
 				-- if not played by a human give them the Mount Greyhag region
-				cm:transfer_region_to_faction("wh2_main_the_wolf_lands_mount_greyhag", "wh2_main_ovn_chaos_dwarfs")
+				-- also check we'z speshul isn't active since that's Gitilla's starting region
+				if effect.get_localised_string("land_units_onscreen_name_ws_cha_gitilla_da_hunter_0") == "" then
+					cm:transfer_region_to_faction("wh2_main_the_wolf_lands_mount_greyhag", "wh2_main_ovn_chaos_dwarfs")
+				end
+
+				-- give AI chorfs a garrison building in their "capital"
+				cm:callback(
+					function()
+						local ash_region = cm:get_region("wh2_main_the_plain_of_bones_ash_ridge_mountains")
+						if ash_region and not ash_region:is_null_interface() then
+							for slot in binding_iter(ash_region:slot_list()) do
+								if slot and slot:has_building() then
+										cm:region_slot_instantly_dismantle_building(slot)
+								end
+							end
+
+							cm:callback(
+								function()
+									local empty_slot = ash_region:settlement():first_empty_active_secondary_slot()
+									if empty_slot then
+										cm:region_slot_instantly_upgrade_building(empty_slot, "ovn_cd_garrison_1")
+										cm:callback(
+											function()
+												cm:region_slot_instantly_repair_building(empty_slot)
+												local empty_slot = ash_region:settlement():first_empty_active_secondary_slot()
+												if empty_slot then
+													cm:region_slot_instantly_upgrade_building(empty_slot, "ovn_chorf_military_1")
+													cm:callback(
+														function()
+															cm:region_slot_instantly_repair_building(empty_slot)
+														end,
+														0
+													)
+												end
+											end,
+											0
+										)
+									end
+								end,
+								0
+							)
+						end
+					end,
+					0
+				)
+
 				cm:force_religion_factors("wh2_main_the_plain_of_bones_the_fortress_of_vorag", "wh_main_religion_untainted", 0.5, "wh_main_religion_chaos", 0.5)
 			end
 
@@ -133,19 +191,6 @@ apply_upkeep_penalty = function(faction, ...)
 				end
 			end
 		end
-	end
-end
-
-local function binding_iter(binding)
-	local pos = 0
-	local num_items = binding:num_items()
-	return function()
-			if pos < num_items then
-					local item = binding:item_at(pos)
-					pos = pos + 1
-					return item
-			end
-			return
 	end
 end
 
@@ -230,6 +275,6 @@ end
 cm:add_first_tick_callback(
 	function()
 		sr_chaos_dwarfs()
-		replace_old_buildings()
+		-- replace_old_buildings()
 	end
 )
