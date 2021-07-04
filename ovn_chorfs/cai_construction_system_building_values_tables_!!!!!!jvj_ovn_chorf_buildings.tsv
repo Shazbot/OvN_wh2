@@ -4,8 +4,23 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		ovn_chorf_loot_1	ovn_chorf_loot_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
 		ovn_chorf_military_1	ovn_chorf_military_3			cai_military_group				0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	50	50	
 		ovn_chorf_experience_1	ovn_chorf_experience_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
-		ovn_chorf_slaves_1	ovn_chorf_slaves_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100	
+		ovn_chorf_slaves_1	ovn_chorf_slaves_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	30	30	
 		ovn_chorf_stables_1	ovn_chorf_stables_3			cai_military_group				0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	40	40	
 		ovn_chorf_worship_1	ovn_chorf_worship_4			cai_military_group				0	0	20	20	20	20	0	0	0	0	30	30	30	30	0	0	25	25	
 		ovn_chorf_workshop_1	ovn_chorf_workshop_3			cai_military_group				0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	50	50	
 		ovn_chorf_agent_1	ovn_chorf_agent_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
+		ovn_cd_road_1	ovn_cd_road_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		ovn_cd_kadrin	ovn_cd_kadrin			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_cd_karaz	ovn_cd_karaz			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_cd_varr	ovn_cd_varr			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_cd_azul	ovn_cd_azul			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_cd_peak	ovn_cd_peak			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_cd_black	ovn_cd_black			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_cd_slave_1	ovn_cd_slave_2			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		ovn_cd_garrison_1	ovn_cd_garrison_2			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	200	
+		ovn_ash_ridge	ovn_ash_ridge			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_darkhold	ovn_darkhold			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_vorag	ovn_vorag			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_greyhag	ovn_greyhag			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_flayed_rock	ovn_flayed_rock			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
+		ovn_vorag_0	ovn_vorag_0			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	

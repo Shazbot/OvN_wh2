@@ -1,0 +1,3 @@
+military_force_type_conversions_tables	0
+automatic	from	to
+true	ovn_army_no_upkeep	ARMY
