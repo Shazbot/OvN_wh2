@@ -23,5 +23,3 @@ elo_violent_command	true	wh_dlc08_weapon_abilities_stinky_giant_club		wh_type_au
 elo_greater_swamp_breath	true	wh2_dlc15_hero_abilities_swamp_breath		wh_type_magic_missile		wh_main_anc_group_common	true	false	character		false
 elo_special_treat	true	wh_dlc04_spell_vampires_raise_dead_strigoi		wh_type_augment		wh_main_anc_group_uncommon	true	false	hero		false
 elo_those_are_tasty	true	wh_main_spell_lil_waaagh_gorkll_fix_it		wh_type_hex		wh_main_anc_group_rare	true	false	hero		false
-elo_special_treat	true	wh_dlc04_spell_vampires_raise_dead_strigoi		wh_type_augment		wh_main_anc_group_uncommon	true	false	hero		false
-elo_those_are_tasty	true	wh_main_spell_lil_waaagh_gorkll_fix_it		wh_type_hex		wh_main_anc_group_rare	true	false	hero		false

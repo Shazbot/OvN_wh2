@@ -28,6 +28,6 @@ wh2_main_nor_trollz	false	elo_lava_trolls	true	true				false
 wh2_main_nor_trollz	false	elo_warpstone_trolls	true	true				false
 wh2_main_nor_trollz	false	elo_sea_troll	true	true				false
 wh2_main_nor_trollz	false	elo_troll_champ	true	true	ui/portraits/portholes/no_culture/elo_troll_champ.png		wh_main_chs_cha_exalted_hero_0	false
-wh2_main_nor_trollz	false	elo_troll_giant	true	true		0.1		false
+wh2_main_nor_trollz	false	elo_troll_giant	true	true				false
 wh2_main_nor_trollz	false	elo_carrion_boss	true	true	ui/portraits/portholes/no_culture/elo_carrion_boss.png	elo_carrion_boss	wh_main_grn_cha_goblin_big_boss_1	false
 wh2_main_nor_trollz	false	elo_carrion_boss_squig	true	true	ui/portraits/portholes/no_culture/elo_carrion_boss.png	elo_carrion_boss	wh_main_grn_cha_goblin_big_boss_1	false
