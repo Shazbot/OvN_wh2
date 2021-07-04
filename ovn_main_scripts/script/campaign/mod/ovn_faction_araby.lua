@@ -427,18 +427,24 @@ local function araby_trebuchet_bonus_handle_attackers(remove_bonus)
 	for i = 1, cm:pending_battle_cache_num_attackers() do
 		local attacker_cqi, attacker_force_cqi, attacker_name = cm:pending_battle_cache_get_attacker(i)
 
-			local attacker = cm:model():world():faction_by_key(attacker_name)
+		local attacker = cm:model():world():faction_by_key(attacker_name)
 
-			if attacker and not attacker:is_null_interface() and attacker:subculture() == "wh_main_sc_emp_araby" then
-				if remove_bonus then
-					local custom_bundle = cm:create_new_custom_effect_bundle(araby_trebuchet_bonus_bundle_name)
-					cm:apply_custom_effect_bundle_to_characters_force(custom_bundle, cm:get_character_by_cqi(attacker_cqi))
-				else
-					local custom_bundle = cm:create_new_custom_effect_bundle(araby_trebuchet_bonus_bundle_name)
-					custom_bundle:add_effect("ovn_enable_araby_trebuchet_bonus_in_sieges", "character_to_force_own", 100)
-					cm:apply_custom_effect_bundle_to_characters_force(custom_bundle, cm:get_character_by_cqi(attacker_cqi))
+		if attacker and not attacker:is_null_interface() and attacker:subculture() == "wh_main_sc_emp_araby" then
+			if remove_bonus then
+				local custom_bundle = cm:create_new_custom_effect_bundle(araby_trebuchet_bonus_bundle_name)
+				cm:apply_custom_effect_bundle_to_characters_force(custom_bundle, cm:get_character_by_cqi(attacker_cqi))
+			else
+				local char = cm:get_character_by_cqi(attacker_cqi)
+				if char and char:has_military_force() then
+					local unit_list = char:military_force():unit_list()
+					if unit_list and (unit_list:has_unit("ovn_bom_ror") or unit_list:has_unit("ovn_arb_art_grand_bombard")) then
+						local custom_bundle = cm:create_new_custom_effect_bundle(araby_trebuchet_bonus_bundle_name)
+						custom_bundle:add_effect("ovn_enable_araby_trebuchet_bonus_in_sieges", "character_to_force_own", 100)
+						cm:apply_custom_effect_bundle_to_characters_force(custom_bundle, char)
+					end
 				end
 			end
+		end
 	end
 end
 

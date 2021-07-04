@@ -319,6 +319,6 @@ effects_description_ovn_skill_effect_state_mod_bonus_v_large_halfling_infantry	B
 effects_description_elo_troll_champ_cap	Recruitment Cap: %+n for Chaos Troll Champions	false
 effects_description_elo_troll_champ_availability	Enable Recruitment of Chaos Troll Champions	false
 effects_description_ovn_enable_hlf_mislead	Ability: "Mislead"	true
-effects_description_ovn_enable_araby_trebuchet_bonus_in_sieges	hidden	true
+effects_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Missile Strength: %+n% for Grand Bombard units	true
 effect_bundles_localised_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Grand Bombards stand ready to lay ruin on enemy walls.	true
 effect_bundles_localised_title_ovn_enable_araby_trebuchet_bonus_in_sieges	Entrenched Grand Bombards	true
