@@ -669,16 +669,25 @@ end
 
 mod.refresh_victories_bundle = function()
 	local local_faction_key = cm:get_local_faction_name(true)
-	local upkeep_bundle = cm:create_new_custom_effect_bundle("ovn_crafting_araby_slaves")
 
-	if not mod.current_victories[local_faction_key] then
-		mod.current_victories[local_faction_key] = table_clone(mod.default_victories_state)
-	end
+	cm:remove_effect_bundle("ovn_crafting_araby_slaves", local_faction_key);
 
-	for _, effect_key in ipairs(victory_effects) do
-		upkeep_bundle:add_effect(effect_key, "faction_to_faction_own_unseen", mod.current_victories[local_faction_key][effect_key])
+	for _, araby_faction_key in ipairs(araby_factions) do
+		local victories_bundle = cm:create_new_custom_effect_bundle("ovn_crafting_araby_slaves")
+
+		if not mod.current_victories[araby_faction_key] then
+			mod.current_victories[araby_faction_key] = table_clone(mod.default_victories_state)
+		end
+
+		for _, effect_key in ipairs(victory_effects) do
+			victories_bundle:add_effect(effect_key, "faction_to_faction_own_unseen", mod.current_victories[araby_faction_key][effect_key])
+		end
+
+		local faction = cm:get_faction(araby_faction_key)
+		if faction and cm:faction_is_alive(faction) then
+			cm:apply_custom_effect_bundle_to_faction(victories_bundle, faction)
+		end
 	end
-	cm:apply_custom_effect_bundle_to_faction(upkeep_bundle, cm:get_faction(local_faction_key))
 end
 
 mod.num_times_purchased = mod.num_times_purchased or {}
