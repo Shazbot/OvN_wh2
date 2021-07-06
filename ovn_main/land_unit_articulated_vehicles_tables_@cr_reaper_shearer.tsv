@@ -1,3 +1,0 @@
-land_unit_articulated_vehicles_tables	4
-ammo_caisson_destroyed_model	ammo_caisson_destruction	ammo_caisson_entity	ammo_caisson_model	articulated_entity	key	articulation_node_1_offset	articulation_node_1_radius	articulation_node_2_offset	articulation_node_2_radius	articulation_node_3_offset	articulation_node_3_radius	articulation_max_angle	head_offset
-	vmp_black_coach_01			ovn_mtl_reaper_articulation	ovn_mtl_reaper	0.4	1.4	2.4	0.25	4.0	1.2	45.0	2.6

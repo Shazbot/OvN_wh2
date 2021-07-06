@@ -28,3 +28,18 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		ovn_Waystone_1	ovn_Waystone_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500	
 		ovn_Waystone_marker	ovn_Waystone_marker			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500	
 		ovn_Waystone_beacon	ovn_Waystone_beacon			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500	
+		ovn_half_barracks_1	ovn_half_barracks_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
+		ovn_half_forges_1	ovn_half_forges_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	20	
+		ovn_half_tavern_1	ovn_half_tavern_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	10	
+		ovn_half_dragon	ovn_half_dragon			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	50	50	
+		ovn_hlf_under_drinks_cofee	ovn_hlf_under_drinks_cofee							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_hlf_under_drinks_wine	ovn_hlf_under_drinks_wine							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_hlf_under_barn_1	ovn_hlf_under_barn_2							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_hlf_under_revelry_1	ovn_hlf_under_revelry_1							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_hlf_under_security_1	ovn_hlf_under_security_1							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_hlf_under_fence_1	ovn_hlf_under_fence_1							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
+		ovn_Animal_Rearing_1	ovn_Animal_Rearing_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	20	20	
+		ovn_grudge_settlement_recruit	ovn_grudge_settlement_recruit			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
+		ovn_grudge_settlement_smith	ovn_grudge_settlement_smith			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
+		ovn_grudge_settlement_income	ovn_grudge_settlement_income			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
+		ovn_grudge_settlement_growth_1	ovn_grudge_settlement_growth_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
