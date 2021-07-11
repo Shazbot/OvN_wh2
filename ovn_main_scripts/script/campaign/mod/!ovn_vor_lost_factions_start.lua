@@ -152,8 +152,18 @@ local function amazon_setup()
 	end
 end
 
-local function araby_setup()
+local araby_rors = {
+	"ovn_jag_ror",
+	"ovn_jez_ror",
+	"ovn_bom_ror",
+	"ovn_knights_ror",
+	"ovn_cat_knights_ror",
+	"ovn_elephant_ror",
+	"ovn_arb_mon_war_elephant_ror",
+	"ovn_arb_cav_flying_carpet_ror"
+}
 
+local function araby_setup()
 	cm:apply_effect_bundle("sr_arab_bundle_bad", "wh2_main_brt_knights_of_origo", -1)
 	cm:apply_effect_bundle("sr_arab_bundle_bad", "wh2_main_brt_thegans_crusaders", -1)
 	cm:apply_effect_bundle("sr_arab_bundle_bad", "wh2_main_brt_knights_of_the_flame", -1)
@@ -191,17 +201,8 @@ local function araby_setup()
 		local frr = "" -- (may be empty) String faction_restricted_record
 		local srr = "" -- (may be empty) String subculture_restricted_record
 		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"ovn_jag_ror",
-			"ovn_jez_ror",
-			"ovn_bom_ror",
-			"ovn_knights_ror",
-			"ovn_cat_knights_ror",
-			"ovn_elephant_ror",
-			"ovn_arb_mon_war_elephant_ror"
-		}
 
-		for _, unit in ipairs(units) do
+		for _, unit in ipairs(araby_rors) do
 			cm:add_unit_to_faction_mercenary_pool(
 				faction_name,
 				unit,
@@ -279,17 +280,8 @@ local function araby_setup()
 		local frr = "" -- (may be empty) String faction_restricted_record
 		local srr = "" -- (may be empty) String subculture_restricted_record
 		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"ovn_jag_ror",
-			"ovn_jez_ror",
-			"ovn_bom_ror",
-			"ovn_knights_ror",
-			"ovn_cat_knights_ror",
-			"ovn_elephant_ror",
-			"ovn_arb_mon_war_elephant_ror"
-		}
 
-		for _, unit in ipairs(units) do
+		for _, unit in ipairs(araby_rors) do
 			cm:add_unit_to_faction_mercenary_pool(
 				faction_name,
 				unit,
@@ -344,17 +336,8 @@ local function araby_setup()
 		local frr = "" -- (may be empty) String faction_restricted_record
 		local srr = "" -- (may be empty) String subculture_restricted_record
 		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"ovn_jag_ror",
-			"ovn_jez_ror",
-			"ovn_bom_ror",
-			"ovn_knights_ror",
-			"ovn_cat_knights_ror",
-			"ovn_elephant_ror",
-			"ovn_arb_mon_war_elephant_ror"
-		}
 
-		for _, unit in ipairs(units) do
+		for _, unit in ipairs(araby_rors) do
 			cm:add_unit_to_faction_mercenary_pool(
 				faction_name,
 				unit,

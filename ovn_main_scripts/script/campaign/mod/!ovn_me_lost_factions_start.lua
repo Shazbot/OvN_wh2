@@ -205,9 +205,20 @@ local function araby_diplomacy_setup()
 	--cm:heal_garrison(cm:get_region("wh2_main_atalan_mountains_martek"):cqi())
 end
 
-	--------------------------------------------------------------
-	----------------------- ARABY CALIPHATE-----------------------
-	--------------------------------------------------------------
+--------------------------------------------------------------
+----------------------- ARABY CALIPHATE-----------------------
+--------------------------------------------------------------
+local araby_rors = {
+	"ovn_jag_ror",
+	"ovn_jez_ror",
+	"ovn_bom_ror",
+	"ovn_knights_ror",
+	"ovn_cat_knights_ror",
+	"ovn_elephant_ror",
+	"ovn_arb_mon_war_elephant_ror",
+	"ovn_arb_cav_flying_carpet_ror"
+}
+
 local function araby_caliphate_setup()
 	local flame = cm:get_faction("wh2_main_arb_caliphate_of_araby")
 	local flame_faction_leader_cqi = flame:faction_leader():command_queue_index()
@@ -244,17 +255,8 @@ local function araby_caliphate_setup()
 		local frr = "" -- (may be empty) String faction_restricted_record
 		local srr = "" -- (may be empty) String subculture_restricted_record
 		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"ovn_jag_ror",
-			"ovn_jez_ror",
-			"ovn_bom_ror",
-			"ovn_knights_ror",
-			"ovn_cat_knights_ror",
-			"ovn_elephant_ror",
-			"ovn_arb_mon_war_elephant_ror"
-		}
 
-		for _, unit in ipairs(units) do
+		for _, unit in ipairs(araby_rors) do
 			cm:add_unit_to_faction_mercenary_pool(
 				flame,
 				unit,
@@ -336,17 +338,8 @@ local function araby_scythans_setup()
 		local frr = "" -- (may be empty) String faction_restricted_record
 		local srr = "" -- (may be empty) String subculture_restricted_record
 		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"ovn_jag_ror",
-			"ovn_jez_ror",
-			"ovn_bom_ror",
-			"ovn_knights_ror",
-			"ovn_cat_knights_ror",
-			"ovn_elephant_ror",
-			"ovn_arb_mon_war_elephant_ror"
-		}
 
-		for _, unit in ipairs(units) do
+		for _, unit in ipairs(araby_rors) do
 			cm:add_unit_to_faction_mercenary_pool(
 				scythans,
 				unit,
@@ -398,17 +391,8 @@ local function araby_scimitar_setup()
 		local frr = "" -- (may be empty) String faction_restricted_record
 		local srr = "" -- (may be empty) String subculture_restricted_record
 		local trr = "" -- (may be empty) String tech_restricted_record
-		local units = {
-			"ovn_jag_ror",
-			"ovn_jez_ror",
-			"ovn_bom_ror",
-			"ovn_knights_ror",
-			"ovn_cat_knights_ror",
-			"ovn_elephant_ror",
-			"ovn_arb_mon_war_elephant_ror"
-		}
 
-		for _, unit in ipairs(units) do
+		for _, unit in ipairs(araby_rors) do
 			cm:add_unit_to_faction_mercenary_pool(
 				scimitar,
 				unit,

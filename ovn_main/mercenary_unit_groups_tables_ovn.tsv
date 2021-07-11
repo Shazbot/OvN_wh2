@@ -3,8 +3,8 @@ chance_to_replenish	key	max_count	unit_record	use_partial_replenishment	max_repl
 100.0	ovn_finmor_belakor	1	ovn_finmor_belakor	true	0.1
 100.0	ovn_gharnus_demon	1	ovn_gharnus_demon	true	0.1
 100.0	ovn_killing_eye	1	ovn_killing_eye	true	0.1
-100.0	wh_pro04_nor_mon_marauder_warwolves_ror_0	1	wh_pro04_nor_mon_marauder_warwolves_ror_0	true	0.0
-100.0	ovn_arb_cav_flying_carpet_ror	1	ovn_arb_cav_flying_carpet_ror	true	0.0
+100.0	wh_pro04_nor_mon_marauder_warwolves_ror_0	1	wh_pro04_nor_mon_marauder_warwolves_ror_0	true	0.1
+100.0	ovn_arb_cav_flying_carpet_ror	1	ovn_arb_cav_flying_carpet_ror	true	0.1
 100.0	albion_shieldmaiden_ror	1	albion_shieldmaiden_ror	true	0.1
 100.0	albion_bologs_giant_ror	1	albion_bologs_giant_ror	true	0.1
 100.0	elo_fly_infested_rotwood	1	elo_fly_infested_rotwood	true	0.1
@@ -56,4 +56,4 @@ chance_to_replenish	key	max_count	unit_record	use_partial_replenishment	max_repl
 100.0	elo_kin_ugma	1	elo_kin	true	0.1
 100.0	elo_night_trolls_ror_ugma	1	elo_night_trolls_ror	true	0.1
 100.0	wh2_dlc15_grn_mon_river_trolls_ror_0_ugma	1	elo_night_trolls_ror	true	0.1
-100.0	cr_hef_veh_lothern_skycutter_ror	1	cr_hef_veh_lothern_skycutter_ror	true	0.0
+100.0	cr_hef_veh_lothern_skycutter_ror	1	cr_hef_veh_lothern_skycutter_ror	true	0.1
