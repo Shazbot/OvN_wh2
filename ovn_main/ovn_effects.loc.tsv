@@ -322,3 +322,4 @@ effects_description_ovn_enable_hlf_mislead	Ability: "Mislead"	true
 effects_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Missile Strength: %+n% for Grand Bombard units	true
 effect_bundles_localised_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Grand Bombards stand ready to lay ruin on enemy walls.	true
 effect_bundles_localised_title_ovn_enable_araby_trebuchet_bonus_in_sieges	Entrenched Grand Bombards	true
+effects_description_ovn_arb_iron_resource_res_cost	Recruitment cost: %+n% for Arabyan Knights, Sipahis, Elephants, Scorpions, Jaguar Champions and Arabyan Guard recruits	true

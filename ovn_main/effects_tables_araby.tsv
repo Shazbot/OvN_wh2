@@ -32,3 +32,4 @@ ovn_scimitar_coast_ma	melee.png	4	melee.png	battle	true
 ovn_scimitar_coast_armour	armour.png	4	melee.png	battle	true
 ovn_fester_diplo	diplomacy.png	2	diplomacy.png	campaign	true
 ovn_faction_political_diplomacy_mod_all_except_fester	diplomacy.png	145	diplomacy.png	campaign	true
+ovn_arb_iron_resource_res_cost	treasury.png	0	treasury.png	campaign	false

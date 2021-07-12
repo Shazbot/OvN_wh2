@@ -212,3 +212,6 @@ ovn_araby_walls_3	wh_main_effect_tower_projectile_emp_4	region_to_region_own	4.0
 ovn_arb_barracks_1	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-5.0	0.0	0.0
 ovn_arb_barracks_2	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-10.0	0.0	0.0
 ovn_arb_barracks_3	wh_main_effect_force_all_campaign_recruitment_cost_all	region_to_force_own	-15.0	0.0	0.0
+wh_main_emp_resource_iron_1	ovn_arb_iron_resource_res_cost	province_to_province_own_unseen	-20.0	-10.0	0.0
+wh_main_emp_resource_iron_2	ovn_arb_iron_resource_res_cost	province_to_province_own_unseen	-25.0	-13.0	0.0
+wh_main_emp_resource_iron_3	ovn_arb_iron_resource_res_cost	province_to_province_own_unseen	-30.0	-15.0	0.0

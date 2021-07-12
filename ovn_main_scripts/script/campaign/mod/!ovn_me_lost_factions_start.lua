@@ -229,7 +229,6 @@ local function araby_caliphate_setup()
 		cm:create_agent("wh2_main_arb_caliphate_of_araby", "champion", "roy_arb_champion", 445, 132, false)
 		cm:replenish_action_points("faction:wh2_main_arb_caliphate_of_araby,type:champion")
 
-
 		cm:teleport_to("faction:wh2_main_brt_thegans_crusaders", 450, 105, true)
 
 		local martek_region = cm:model():world():region_manager():region_by_key("wh2_main_atalan_mountains_martek")
