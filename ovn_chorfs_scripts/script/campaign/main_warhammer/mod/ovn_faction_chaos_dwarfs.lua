@@ -90,6 +90,9 @@ local function sr_chaos_dwarfs()
 					cm:transfer_region_to_faction("wh2_main_the_wolf_lands_mount_greyhag", "wh2_main_ovn_chaos_dwarfs")
 				end
 
+				-- give some gold
+				cm:treasury_mod("wh2_main_ovn_chaos_dwarfs", 15000)
+
 				-- give AI chorfs a garrison building in their "capital"
 				cm:callback(
 					function()
