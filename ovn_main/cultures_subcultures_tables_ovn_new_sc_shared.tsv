@@ -1,8 +1,8 @@
-cultures_subcultures_tables	2
-subculture	culture	index	audio_state_override	audio_rtpc_override
-wh_main_sc_nor_warp	wh_main_chs_chaos	250519881		
-wh_main_sc_nor_fimir	wh_main_chs_chaos	250519882		
-wh_main_sc_nor_troll	wh_main_chs_chaos	250519883		
-wh_main_sc_lzd_amazon	wh2_main_lzd_lizardmen	250519884		
-wh_main_sc_emp_araby	wh_main_emp_empire	250519885	Tomb_Kings	
-wh_main_sc_nor_albion	wh_main_chs_chaos	250519880	Wood_Elves	
+cultures_subcultures_tables	3
+subculture	culture	index	audio_state_override	audio_rtpc_override	audio_corruption_state_override
+wh_main_sc_nor_warp	wh_main_chs_chaos	250519881			
+wh_main_sc_nor_fimir	wh_main_chs_chaos	250519882			
+wh_main_sc_nor_troll	wh_main_chs_chaos	250519883			
+wh_main_sc_lzd_amazon	wh2_main_lzd_lizardmen	250519884			
+wh_main_sc_emp_araby	wh_main_emp_empire	250519885	Tomb_Kings		
+wh_main_sc_nor_albion	wh_main_chs_chaos	250519880	Wood_Elves		

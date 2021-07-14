@@ -1,8 +1,8 @@
-effect_bundles_tables	3
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
-albion_scary_banner		Scary Banner	character	1	public_order.png	false
-anc_albion_triskele_banner		Triskele Banner	character	1	public_order.png	false
-anc_danu_banner		Danu Banner	character	1	public_order.png	false
-anc_albion_hunter_banner		Hunter's Banner	character	1	public_order.png	false
-ovn_albion_second_lord_mission_durak			faction	1	effect_rite.png	true
-ovn_albion_second_lord_mission_morrigan			faction	1	effect_rite.png	true
+effect_bundles_tables	4
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+albion_scary_banner		Scary Banner	character	1	public_order.png	false	false	true
+anc_albion_triskele_banner		Triskele Banner	character	1	public_order.png	false	false	true
+anc_danu_banner		Danu Banner	character	1	public_order.png	false	false	true
+anc_albion_hunter_banner		Hunter's Banner	character	1	public_order.png	false	false	true
+ovn_albion_second_lord_mission_durak			faction	1	effect_rite.png	true	false	true
+ovn_albion_second_lord_mission_morrigan			faction	1	effect_rite.png	true	false	true

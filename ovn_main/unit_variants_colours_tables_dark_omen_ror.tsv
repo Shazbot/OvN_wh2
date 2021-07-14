@@ -1,4 +1,4 @@
-unit_variants_colours_tables	3
+unit_variants_colours_tables	5
 faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
 wh2_main_emp_grudgebringers	0	0	100	0	0	100	soldier	0	21	17	210198402	grudgebringer_infantry	
 wh2_main_emp_grudgebringers	120	20	65	150	35	90	soldier	41	24	34	210198403	grudgebringer_cannon	

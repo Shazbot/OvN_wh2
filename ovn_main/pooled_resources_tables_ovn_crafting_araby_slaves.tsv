@@ -1,4 +1,4 @@
-pooled_resources_tables	5
+pooled_resources_tables	7
 key	maximum	minimum	persistent_factors	ai_ignored	default_factor	optional_icon_path
 ovn_araby_victories_lzd	5000	0	false	false	wh2_main_resource_factor_other	ovn_araby_victories_men.png
 ovn_araby_victories_dwarfs	5000	0	false	false	wh2_main_resource_factor_other	ovn_araby_victories_men.png

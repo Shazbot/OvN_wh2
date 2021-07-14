@@ -1,3 +1,3 @@
-slot_sets_tables	2
-key	use_discoverability_feature	composite_scene
-ovn_restaurant	true	
+slot_sets_tables	3
+key	composite_scene	type
+ovn_restaurant		OVN_ROTBLOODS

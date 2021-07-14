@@ -1,4 +1,4 @@
-effect_bundles_tables	3
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
-arb_golden_magus_navy_camp			force	0	icon_effects_patrol.png	false
-arb_golden_magus_inland_camp			force	1	icon_effects_fortify.png	false
+effect_bundles_tables	4
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+arb_golden_magus_navy_camp			force	0	icon_effects_patrol.png	false	false	true
+arb_golden_magus_inland_camp			force	1	icon_effects_fortify.png	false	false	true

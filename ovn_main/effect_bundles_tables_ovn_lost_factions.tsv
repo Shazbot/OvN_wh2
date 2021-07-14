@@ -1,26 +1,26 @@
-effect_bundles_tables	3
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
-grudge_bundle_banner_of_arcane_warding			character	1	public_order.png	false
-grudge_bundle_banner_of_wrath			character	1	public_order.png	false
-grudge_bundle_banner_of_defiance			character	1	public_order.png	false
-sr_arab_bundle	[HIDDEN]	[HIDDEN]	faction	0		false
-sr_arab_bundle_bad	[HIDDEN]	[HIDDEN]	faction	0		false
-wh2_main_lord_trait_arb_aswad_scythans			faction	1	character.png	false
-wh2_main_lord_trait_arb_caliphate_of_araby			faction	1	character.png	false
-wh2_main_lord_trait_arb_flaming_scimitar			faction	1	character.png	false
-wh2_main_lord_trait_cst_vampire_coast_mutineers			faction	1	character.png	false
-wh2_main_lord_trait_hef_citadel_of_dusk			faction	1	character.png	false
-wh2_main_lord_trait_emp_grudgebringers			faction	1	character.png	false
-wh2_main_lord_trait_emp_the_moot			faction	1	character.png	false
-wh2_main_lord_trait_amz_amazons			faction	1	character.png	false
-wh2_main_lord_trait_nor_albion			faction	1	character.png	false
-wh2_main_lord_trait_nor_trollz			faction	1	character.png	false
-wh2_main_lord_trait_wef_laurelorn			faction	1	character.png	false
-ovn_faction_trait_araby			faction	1	food.png	false
-ovn_faction_trait_amazon			faction	1	food.png	false
-ovn_faction_trait_trollz			faction	1	food.png	false
-ovn_faction_trait_albion			faction	1	food.png	false
-ovn_faction_trait_belakor			faction	1	food.png	false
-wh2_main_sr_fervour	fervour	fervour	force	1	disaster.png	false
-ovn_faction_trait_grudge			faction	1	food.png	false
-wh2_main_lord_trait_tmb_the_sentinels	ph	ph	faction	1	disaster.png	false
+effect_bundles_tables	4
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+grudge_bundle_banner_of_arcane_warding			character	1	public_order.png	false	false	true
+grudge_bundle_banner_of_wrath			character	1	public_order.png	false	false	true
+grudge_bundle_banner_of_defiance			character	1	public_order.png	false	false	true
+sr_arab_bundle	[HIDDEN]	[HIDDEN]	faction	0		false	false	true
+sr_arab_bundle_bad	[HIDDEN]	[HIDDEN]	faction	0		false	false	true
+wh2_main_lord_trait_arb_aswad_scythans			faction	1	character.png	false	false	true
+wh2_main_lord_trait_arb_caliphate_of_araby			faction	1	character.png	false	false	true
+wh2_main_lord_trait_arb_flaming_scimitar			faction	1	character.png	false	false	true
+wh2_main_lord_trait_cst_vampire_coast_mutineers			faction	1	character.png	false	false	true
+wh2_main_lord_trait_hef_citadel_of_dusk			faction	1	character.png	false	false	true
+wh2_main_lord_trait_emp_grudgebringers			faction	1	character.png	false	false	true
+wh2_main_lord_trait_emp_the_moot			faction	1	character.png	false	false	true
+wh2_main_lord_trait_amz_amazons			faction	1	character.png	false	false	true
+wh2_main_lord_trait_nor_albion			faction	1	character.png	false	false	true
+wh2_main_lord_trait_nor_trollz			faction	1	character.png	false	false	true
+wh2_main_lord_trait_wef_laurelorn			faction	1	character.png	false	false	true
+ovn_faction_trait_araby			faction	1	food.png	false	false	true
+ovn_faction_trait_amazon			faction	1	food.png	false	false	true
+ovn_faction_trait_trollz			faction	1	food.png	false	false	true
+ovn_faction_trait_albion			faction	1	food.png	false	false	true
+ovn_faction_trait_belakor			faction	1	food.png	false	false	true
+wh2_main_sr_fervour	fervour	fervour	force	1	disaster.png	false	false	true
+ovn_faction_trait_grudge			faction	1	food.png	false	false	true
+wh2_main_lord_trait_tmb_the_sentinels	ph	ph	faction	1	disaster.png	false	false	true

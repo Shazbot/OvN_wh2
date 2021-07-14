@@ -1,6 +1,6 @@
-effect_bundles_tables	3
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
-wh2_main_lord_trait_vmp_blood_dragons	ph	ph	faction	1	character.png	false
-wh2_main_lord_trait_nor_harbingers_of_doom	ph	ph	faction	1	character.png	false
-wh2_main_lord_trait_nor_rotbloods	ph	ph	faction	1	character.png	false
-wh2_main_lord_trait_nor_servants_of_fimulneid	ph	ph	faction	1	character.png	false
+effect_bundles_tables	4
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+wh2_main_lord_trait_vmp_blood_dragons	ph	ph	faction	1	character.png	false	false	true
+wh2_main_lord_trait_nor_harbingers_of_doom	ph	ph	faction	1	character.png	false	false	true
+wh2_main_lord_trait_nor_rotbloods	ph	ph	faction	1	character.png	false	false	true
+wh2_main_lord_trait_nor_servants_of_fimulneid	ph	ph	faction	1	character.png	false	false	true

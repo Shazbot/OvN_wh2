@@ -1,41 +1,41 @@
-effect_bundles_tables	3
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
-ovn_rot_plague	This force has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to nearby settlements or armies.	Plague	force	1	plague.png	true
-ovn_rot_plague_force	This settlement has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to neighbouring settlements or local armies.	Plague	region	1	plague.png	true
-grudge_transfer_region	grudge_transfer_region	grudge_transfer_region	faction	1	diplomacy.png	false
-grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	force	1	growth.png	true
-grudge_supply_dummy	grudge_supply_dummy	grudge_supply_dummy	faction	0	hunter_effect_icons_imperial_supplies.png	false
-grudge_retain_dummy	grudge_retain_dummy	grudge_retain_dummy	faction	0	siege_defence.png	false
-grudge_liberate	grudge_liberate	grudge_liberate	faction	1	confederation.png	false
-sabaar_fountain	ovn_dilemma_sabaar_occupy	ovn_dilemma_sabaar_occupy	faction	1	wizard.png	true
-grudge_upkeep_malus	grudge_upkeep_malus	grudge_upkeep_malus	faction	0	hunter_effect_icons_imperial_supplies.png	false
-grudge_camp_followers	grudge_upkeep_malus	grudge_upkeep_malus	faction	1	campaign_movement.png	true
-grudge_replacements	grudge_upkeep_malus	grudge_upkeep_malus	faction	1	replenishment.png	true
-grudge_hire_dummy	grudge_upkeep_malus	grudge_upkeep_malus	faction	0	hunter_effect_icons_imperial_supplies.png	false
-ovn_chaos_gipfel			faction	1	icon_income_plus.png	true
-ovn_chaos_gipfel_deny			faction	1	casualties.png	true
-ovn_Tzeen	Tzeen	Tzeen	force	1	norse_god_eagle.png	false
-ovn_Slaa	Slaa	Slaa	force	1	norse_god_snake.png	false
-ovn_Khar	Khar	Khar	force	1	norse_god_hound.png	false
-ovn_Nurgh	Nurgh	Nurgh	force	1	norse_god_crow.png	false
-ovn_troll_devour	eat	eat	force	1	skaven_food.png	false
-ovn_annoy_chaos_gods	annoy	annoy	force	1	annoy_chaos.png	false
-ovn_annoy_chaos_gods_2	annoy	annoy	force	1	annoy_chaos.png	false
-ovn_favour_chaos_gods	favour	favour	force	1	favour_chaos.png	false
-ovn_troll_cannibal	cannibal		force	1	casualties.png	false
-ovn_anc_magic_standard_blood_dragon			character	1	public_order.png	false
-ovn_anc_magic_standard_ptolos			character	1	public_order.png	false
-ovn_arb_jehad	eat	eat	faction	1	jehad_effect.png	true
-ovn_arb_jehad_army	eat	eat	force	1	jehad_effect_army.png	false
-ovn_fimir_region_mist			region	1	wizard.png	false
-albion_global_mist_4			faction	1	ovn_albion_geo_4.png	true
-albion_global_mist_3			faction	1	ovn_albion_geo_3.png	true
-albion_global_mist_2			faction	1	ovn_albion_geo_2.png	true
-albion_global_mist_1			faction	1	ovn_albion_geo_1.png	true
-ovn_dilemma_rotblood_skit	annoy	annoy	faction	1	annoy_chaos.png	true
-dk_hon_spawn	dk_hon_spawn	dk_hon_spawn	faction	0	vampire.png	false
-ovn_dilemma_alb_current_leader	ovn_dilemma_alb_current_leader	ovn_dilemma_alb_current_leader	faction	0	wizard.png	false
-ovn_dilemma_alb_alt_leader	ovn_dilemma_alb_alt_leader	ovn_dilemma_alb_alt_leader	faction	0	wizard.png	false
-ovn_scy_numas_trans	ovn_scy_numas_trans	ovn_scy_numas_trans	faction	1	numas_flag.png	true
-ovn_rot_fester_trans			faction	1	religion_skaven.png	true
-ovn_enable_araby_trebuchet_bonus_in_sieges	 		faction	0	ranged_damage.png	false
+effect_bundles_tables	4
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+ovn_rot_plague	This force has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to nearby settlements or armies.	Plague	force	1	plague.png	true	false	true
+ovn_rot_plague_force	This settlement has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to neighbouring settlements or local armies.	Plague	region	1	plague.png	true	false	true
+grudge_transfer_region	grudge_transfer_region	grudge_transfer_region	faction	1	diplomacy.png	false	false	true
+grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	force	1	growth.png	true	false	true
+grudge_supply_dummy	grudge_supply_dummy	grudge_supply_dummy	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true
+grudge_retain_dummy	grudge_retain_dummy	grudge_retain_dummy	faction	0	siege_defence.png	false	false	true
+grudge_liberate	grudge_liberate	grudge_liberate	faction	1	confederation.png	false	false	true
+sabaar_fountain	ovn_dilemma_sabaar_occupy	ovn_dilemma_sabaar_occupy	faction	1	wizard.png	true	false	true
+grudge_upkeep_malus	grudge_upkeep_malus	grudge_upkeep_malus	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true
+grudge_camp_followers	grudge_upkeep_malus	grudge_upkeep_malus	faction	1	campaign_movement.png	true	false	true
+grudge_replacements	grudge_upkeep_malus	grudge_upkeep_malus	faction	1	replenishment.png	true	false	true
+grudge_hire_dummy	grudge_upkeep_malus	grudge_upkeep_malus	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true
+ovn_chaos_gipfel			faction	1	icon_income_plus.png	true	false	true
+ovn_chaos_gipfel_deny			faction	1	casualties.png	true	false	true
+ovn_Tzeen	Tzeen	Tzeen	force	1	norse_god_eagle.png	false	false	true
+ovn_Slaa	Slaa	Slaa	force	1	norse_god_snake.png	false	false	true
+ovn_Khar	Khar	Khar	force	1	norse_god_hound.png	false	false	true
+ovn_Nurgh	Nurgh	Nurgh	force	1	norse_god_crow.png	false	false	true
+ovn_troll_devour	eat	eat	force	1	skaven_food.png	false	false	true
+ovn_annoy_chaos_gods	annoy	annoy	force	1	annoy_chaos.png	false	false	true
+ovn_annoy_chaos_gods_2	annoy	annoy	force	1	annoy_chaos.png	false	false	true
+ovn_favour_chaos_gods	favour	favour	force	1	favour_chaos.png	false	false	true
+ovn_troll_cannibal	cannibal		force	1	casualties.png	false	false	true
+ovn_anc_magic_standard_blood_dragon			character	1	public_order.png	false	false	true
+ovn_anc_magic_standard_ptolos			character	1	public_order.png	false	false	true
+ovn_arb_jehad	eat	eat	faction	1	jehad_effect.png	true	false	true
+ovn_arb_jehad_army	eat	eat	force	1	jehad_effect_army.png	false	false	true
+ovn_fimir_region_mist			region	1	wizard.png	false	false	true
+albion_global_mist_4			faction	1	ovn_albion_geo_4.png	true	false	true
+albion_global_mist_3			faction	1	ovn_albion_geo_3.png	true	false	true
+albion_global_mist_2			faction	1	ovn_albion_geo_2.png	true	false	true
+albion_global_mist_1			faction	1	ovn_albion_geo_1.png	true	false	true
+ovn_dilemma_rotblood_skit	annoy	annoy	faction	1	annoy_chaos.png	true	false	true
+dk_hon_spawn	dk_hon_spawn	dk_hon_spawn	faction	0	vampire.png	false	false	true
+ovn_dilemma_alb_current_leader	ovn_dilemma_alb_current_leader	ovn_dilemma_alb_current_leader	faction	0	wizard.png	false	false	true
+ovn_dilemma_alb_alt_leader	ovn_dilemma_alb_alt_leader	ovn_dilemma_alb_alt_leader	faction	0	wizard.png	false	false	true
+ovn_scy_numas_trans	ovn_scy_numas_trans	ovn_scy_numas_trans	faction	1	numas_flag.png	true	false	true
+ovn_rot_fester_trans			faction	1	religion_skaven.png	true	false	true
+ovn_enable_araby_trebuchet_bonus_in_sieges	 		faction	0	ranged_damage.png	false	false	true

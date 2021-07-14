@@ -1,4 +1,4 @@
-unit_variants_colours_tables	3
+unit_variants_colours_tables	5
 faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
 wh2_main_emp_the_moot	0	51	102	0	51	102	soldier	0	51	102	281589030	ovn_hlf_fieldwarden	
 wh2_main_emp_the_moot	50	160	140	0	0	128	soldier	35	45	155	281589031	ovn_hlf_moot_general	
