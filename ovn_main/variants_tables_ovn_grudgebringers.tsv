@@ -19,7 +19,7 @@ helmgart_bowmen		helmgart_bowmen		1.0	1.02	0.02
 keelers_longbows		keelers_longbows		1.0	1.02	0.02	
 dargrimm_firebeard_dwarf_warriors		dargrimm_firebeard_dwarf_warriors		1.0	1.02	0.02	
 azguz_bloodfist_dwarf_warriors		azguz_bloodfist_dwarf_warriors		1.0	1.02	0.02	
-urblab_rotgut_mercenary_ogres		urblab_rotgut_mercenary_ogres		1.0	1.6	0.05	
+urblab_rotgut_mercenary_ogres		ogr_gru_ogres		1.0	1.2	0.05	
 azguz_bloodfist_dwarf_warriors_officer		azguz_bloodfist_dwarf_warriors_officer		1.0	1.02	0.02	
 dargrimm_firebeard_dwarf_warriors_officer		dargrimm_firebeard_dwarf_warriors_officer		1.0	1.02	0.02	
 treeman_knarlroot		treeman_knarlroot		1.0	1.02	0.02	
@@ -39,3 +39,4 @@ treeman_gnarl_fist		treeman_gnarl_fist		1.0	1.02	0.02
 wh_gru_warhorse		wh_gru_warhorse		1.0	1.02	0.02	
 ceridan		ceridan		1.0	1.02	0.02	
 wh_rag_warhorse_armoured		wh_rag_warhorse_armoured		1.0	1.02	0.02	
+sr_ogre_gru		ogr_gru_ogres		1.0	1.0	0.05	

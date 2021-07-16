@@ -58,7 +58,8 @@ terror	ovn_ifreet
 large_bst	ovn_ifreet
 shielded	ovn_slave
 armour_piercing	sr_ogre_arb
-poor_morale	sr_ogre_arb
+ogre_charge	sr_ogre_arb
+anti_infantry	sr_ogre_arb
 good_range	ovn_bom_ror
 low_rate_of_fire	ovn_bom_ror
 armour_piercing	hous_nec

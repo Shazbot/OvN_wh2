@@ -8,7 +8,8 @@ vanguard_deployment	halfling_cock
 shielded	halfling_warfoot
 shielded	halfling_inf
 armour_piercing	sr_ogre
-poor_morale	sr_ogre
+ogre_charge	sr_ogre
+anti_infantry	sr_ogre
 armoured	wh_main_dwf_veh_dwarf_tank
 terror	wh_main_dwf_veh_dwarf_tank
 unbreakable	wh_main_dwf_veh_dwarf_tank
@@ -17,7 +18,8 @@ armour_piercing_ranged	halfling_cat
 anti_infantry	halfling_cat_ror
 armour_piercing_ranged	halfling_cat_ror
 armour_piercing	sr_ogre_ror
-poor_morale	sr_ogre_ror
+ogre_charge	sr_ogre_ror
+anti_infantry	sr_ogre_ror
 shielded	halfling_spear
 anti_large	halfling_spear
 anti_large	halfling_cook

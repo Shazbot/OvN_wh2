@@ -9,13 +9,13 @@ halfling_archer		halfling_archer		1.0	0.8	0.05
 halfling_inf		halfling_inf		1.0	0.8	0.05	
 halfling_cock		halfling_cock		1.0	0.8	0.05	
 halfling_warfoot		halfling_warfoot		1.0	0.8	0.05	
-sr_ogre		urblab_rotgut_mercenary_ogres		1.0	1.6	0.05	
+sr_ogre		ogr_hlf_ogre		1.0	1.0	0.05	
 wh_dwf_dwarf_tank		emp_state_troops		0.5	0.5	0.0	
 wh_dwf_dwarf_tank_turret		wh_dwf_dwarf_tank_turret		0.5	0.5	0.0	
 halfling_cook		halfling_cook		1.0	0.8	0.05	
 halfling_spear		halfling_spear		1.0	0.8	0.05	
 halfling_thief		halfling_thief		1.0	0.8	0.05	
-sr_ogre_ror		urblab_rotgut_mercenary_ogres		1.0	2.2	0.1	
+sr_ogre_ror		ogr_hlf_ogre		1.0	1.5	0.1	
 halfling_cook_ror		halfling_cook_ror		1.0	0.8	0.05	
 ovn_hlf_ll		halfling_lord		0.8	0.8	0.0	
 half_pig		half_pig		0.65	0.65	0.1	
