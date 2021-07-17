@@ -1,14 +1,14 @@
 custom_battle_factions_tables	1
 faction_key	sort_order	culture_sort_order
-wh2_main_emp_the_moot	183	0
-wh2_main_emp_grudgebringers	184	18
-wh2_main_nor_albion	185	18
+wh2_main_emp_the_moot	180	1
+wh2_main_emp_grudgebringers	185	18
+wh2_main_nor_albion	181	1
 wh2_main_nor_rotbloods	186	18
 wh2_main_nor_servants_of_fimulneid	188	15
-wh2_main_arb_aswad_scythans	181	10
-wh2_main_arb_flaming_scimitar	182	10
+wh2_main_arb_aswad_scythans	183	10
+wh2_main_arb_flaming_scimitar	184	10
 wh2_main_nor_harbingers_of_doom	187	18
-wh2_main_arb_caliphate_of_araby	180	1
+wh2_main_arb_caliphate_of_araby	182	1
 wh2_main_nor_trollz	189	15
 wh2_dlc09_tmb_the_sentinels	190	15
 wh2_main_hef_citadel_of_dusk	191	15
