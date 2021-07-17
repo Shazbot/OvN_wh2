@@ -1,0 +1,16 @@
+unit_variants_colours_tables	5
+faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
+wh2_main_nor_albion	200	220	225	140	80	60	soldier	30	30	140	808891004	albion_huntresses	
+wh2_main_nor_albion	200	220	225	140	80	60	soldier	30	30	140	808891005	albion_hearthguard	
+wh2_main_nor_albion	200	220	225	140	80	60	soldier	30	30	140	808891006	albion_hearthguard_halberd	
+wh2_main_nor_albion	200	220	225	140	80	60	soldier	30	30	140	808891007	albion_hearthguard_2h	
+wh2_main_nor_albion	200	220	225	140	80	60	soldier	30	30	140	808891008	ovn_barrow_wight	
+wh2_main_nor_albion	127	233	255	0	0	127	soldier	0	0	127	112233441	albion_shieldmaiden_ror	
+wh2_main_nor_albion	0	0	150	0	0	150	soldier	0	0	150	112233442	albion_woadraider_sworn_ror	
+wh2_main_nor_albion	0	0	150	121	158	114	soldier	0	0	150	112233443	alb_cav_noble_first_ror	
+wh2_main_nor_albion	0	102	205	0	0	127	soldier	0	0	150	112233444	albion_warriors_lugh	
+wh2_main_nor_albion	103	124	115	121	158	114	soldier	0	0	150	112233445	albion_huntresses_warden_ror	
+wh2_main_nor_albion	0	0	150	255	243	30	soldier	0	0	150	112233446	albion_centaur_hunter_ror	
+wh2_main_nor_albion	33	89	0	32	4	124	soldier	0	0	150	112233447	albion_highlander_ror	
+wh2_main_nor_albion	21	105	0	0	225	229	soldier	0	0	255	112233448	albion_cachtorr_stonethrower	
+wh2_main_nor_albion	0	0	150	0	0	150	soldier	0	0	150	112233449	albion_bologs_giant_ror	
