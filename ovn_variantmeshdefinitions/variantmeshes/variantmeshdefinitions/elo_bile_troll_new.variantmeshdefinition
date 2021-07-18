@@ -1,17 +1,38 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/elo_bile_troll_01.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_body_2.rigid_model_v2" >
 			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/elo_bile_troll_03.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_body_3_left_foot.rigid_model_v2" >
 			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA></VARIANT_MESH>
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_right_leg_missing_body.rigid_model_v2" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_dlc15_grn_troll_river</META_DATA>
+            <SLOT name="leg" >
+				<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_right_leg.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_right_leg_2.rigid_model_v2" />
+			</SLOT></VARIANT_MESH>
+	</SLOT>
+    	<SLOT name="arm" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_left_arm_1.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_left_arm_3.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_left_arm_4.rigid_model_v2" />
+	</SLOT>
+        <SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_spawn_head_1.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_spawn_head_2.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_head_1.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_head_2.rigid_model_v2" />
+	</SLOT>
+        <SLOT name="spike" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/back_spikes_1.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/back_spikes_3.rigid_model_v2" />
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_props/grn_troll_river_club_1h_01.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_1h_weapon_1.rigid_model_v2" >
 			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_props/grn_troll_river_club_1h_02.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_1h_weapon_2.rigid_model_v2" >
 			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_props/grn_troll_river_club_1h_03.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4f/grn/grn_troll_river/bile_troll_1h_weapon_3.rigid_model_v2" >
 			<META_DATA>audio_melee_weapon_type:club_medium</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
 	</SLOT>
 </VARIANT_MESH>

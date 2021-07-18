@@ -1,10 +1,10 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/ogr_arb_warrior.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/ogr_gru_ogres_base.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
-		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ogr_set_maneater_sword_1h.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ogr_set_warrior_club_1h.VariantMeshDefinition" />
 	</SLOT>
 	<SLOT name="shield" attach_point="be_prop_2" />
 	<SLOT name="weapon_3" attach_point="be_prop_3" />
