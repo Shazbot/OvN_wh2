@@ -38,7 +38,7 @@ local ovn_all_units = {
     {"ovn_alb_inf_stone_throw_giant", "alb_rare", 2},
     {"albion_stonethrower", "alb_rare", 2},
     {"albion_fenhulk", "alb_rare", 3},
-    
+
     {"albion_warriors_lugh", "alb_core"},
     {"albion_woadraider_sworn_ror", "alb_special", 1},
     {"albion_shieldmaiden_ror", "alb_special", 1},
@@ -68,9 +68,10 @@ local ovn_all_units = {
     {"ovn_southlander", "arb_special", 1},
     {"OtF_khemri_kepra_guard", "arb_special", 1},
     {"OtF_khemri_rangers", "arb_special", 1},
-    {"ovn_arb_cav_lancer_camel", "arb_special", 1}, 
+    {"ovn_arb_cav_lancer_camel", "arb_special", 1},
     {"ovn_arb_cav_archer_camel", "arb_special", 1},
     {"wh_main_arb_cav_magic_carpet_0", "arb_special", 1},
+		{"ovn_arb_cav_flying_carpet_ror", "arb_special", 1},
     {"ovn_jez", "arb_special", 2},
     {"ovn_cat_knights", "arb_special", 2},
     {"ovn_arb_cav_jezzail_camel", "arb_special", 2},
@@ -98,7 +99,7 @@ local ovn_all_units = {
     ---------------------------------------------------------------
     --BLOOD DRAGONS
     ---------------------------------------------------------------
-    
+
     {"dismounted_blood_knights_shield", "vmp_rare", 1},
     {"dismounted_blood_knights", "vmp_rare", 1},
     {"ovn_vmp_mon_skeleton_giant", "vmp_rare", 2},
@@ -106,7 +107,7 @@ local ovn_all_units = {
     ---------------------------------------------------------------
     --CHAOS DWARFS
     ---------------------------------------------------------------
-    
+
     {"goblin_slaves", "wrp_core"},
     {"hobgoblin_cuthroats", "wrp_core"},
     {"hobgoblin_sneaky_gits", "wrp_core"},
@@ -148,7 +149,7 @@ local ovn_all_units = {
     {"granite_guard", "wrp_special", 1},
     {"magma_beasts", "wrp_special", 2},
     {"bull_centaur_ba'hal_guardians", "wrp_special", 2},
-    
+
     {"kollossus", "wrp_special", 2},
 
     ---------------------------------------------------------------
@@ -214,7 +215,7 @@ local ovn_all_units = {
     {"albion_riders_javelins_no_garrison", "fim_core"},
     {"elo_albion_warriors_no_garrison", "fim_core"},
     {"elo_albion_warriors_spears_no_garrison", "fim_core"},
-    
+
     ---------------------------------------------------------------
     --GRUDGEBRINGERS -- OMEN UNITS ONLY --
     ---------------------------------------------------------------
@@ -245,7 +246,7 @@ local ovn_all_units = {
 
     {"halfling_militia", "emp_core"},
     {"halfling_milittia_arch", "emp_core"},
-    {"halfling_milittia_great", "emp_core"}, 
+    {"halfling_milittia_great", "emp_core"},
     {"halfling_spear", "emp_core"},
     {"elo_bloodhounds", "emp_core"},
     {"half_pig", "emp_core"},
@@ -253,7 +254,7 @@ local ovn_all_units = {
     {"halfling_cook", "emp_special", 1},
     {"halfling_inf", "emp_special", 1},
     {"halfling_thief", "emp_special", 1},
-    {"halfling_warden_great", "emp_special", 1}, 
+    {"halfling_warden_great", "emp_special", 1},
     {"ovn_mtl_cav_poultry_riders_0", "emp_special", 1},
     {"ovn_mtl_cav_swine_riders_0", "emp_special", 1},
     {"sr_ogre", "emp_special", 2},
@@ -262,10 +263,11 @@ local ovn_all_units = {
     {"ovn_mtl_art_hotpot", "emp_rare", 1},
     {"wh_main_mtl_veh_soupcart", "emp_rare", 2},
     {"hlf_baby_dragon", "emp_rare", 2},
+		{"ovn_mtl_veh_reaper","emp_special", 2},
 
-    {"halfling_warfoot", "emp_special", 1}, 
+    {"halfling_warfoot", "emp_special", 1},
     {"halfling_cock", "emp_special", 1},
-    {"halfling_cook_ror", "emp_special", 1}, 
+    {"halfling_cook_ror", "emp_special", 1},
     {"sr_ogre_ror", "emp_special", 2},
     {"halfling_cat_ror", "emp_rare", 1},
     {"ovn_mtl_art_hotpot_ror", "emp_rare", 1},
@@ -273,7 +275,7 @@ local ovn_all_units = {
     ---------------------------------------------------------------
     --ROTBLOOD
     ---------------------------------------------------------------
-    
+
     {"ovn_rbt_ch_blightstormer", "wrp_special", 2},
 
     ---------------------------------------------------------------
@@ -299,7 +301,8 @@ local ovn_all_units = {
     {"elo_warpstone_trolls", "trl_special", 3},
     {"elo_night_trolls_ror", "trl_rare", 1},
     {"elo_kin", "trl_rare", 2},
-    
+		{"elo_sea_troll", "trl_special", 2},
+
     {"elo_river_trolls_erengrad", "trl_core"},
     {"elo_forest_trolls_erengrad", "trl_special", 1},
     {"elo_armoured_icetrolls_erengrad", "trl_special", 2},
@@ -310,13 +313,27 @@ local ovn_all_units = {
     {"wh2_dlc15_grn_mon_stone_trolls_0_no_scrap", "trl_rare", 1}
                 }
 
+local ovn_subcultures = {
+	"wh_main_sc_nor_warp",
+	"wh_main_sc_nor_fimir",
+	"wh_main_sc_nor_troll",
+	"wh_main_sc_lzd_amazon",
+	"wh_main_sc_emp_araby",
+	"wh_main_sc_nor_albion"
+}
 
 local ovn_all_loaned_units = {
+		{"wh2_twa05_ogr_cav_mournfang_cavalry_0", ovn_subcultures, "special", 3},
+		{"wh2_twa05_ogr_inf_maneaters_2", ovn_subcultures, "special", 3},
+		{"wh2_twa05_ogr_inf_maneaters_3", ovn_subcultures, "special", 3},
+		{"wh2_twa05_ogr_inf_ogres_0", ovn_subcultures, "special", 3},
+		{"wh2_twa05_ogr_inf_ogres_1", ovn_subcultures, "special", 3},
 
     ---------------------------------------------------------------
     --ARABY
     ---------------------------------------------------------------
 
+		{"teb_muktar", "wh_main_sc_emp_araby", "arb_core"},
     {"wh_main_grn_mon_giant", "wh_main_sc_emp_araby", "arb_rare", 2},
 
     {"wh2_dlc11_cst_mon_animated_hulks_0", "wh_main_sc_emp_araby", "arb_special", 1},
