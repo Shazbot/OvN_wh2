@@ -184,7 +184,7 @@ local function add_mp_campaign_warning()
 			if not new_header then return end
 			local h_x, h_y = header:Position()
 			new_header:MoveTo(h_x, h_y-50)
-			new_header:SetStateText("[[col:red]]IF FACTIONS ARE MISSING FROM THE DROPDOWN LOWER YOUR UI SCALE[[/col]]")
+			new_header:SetStateText("[[col:green]]IF FACTIONS ARE MISSING[[/col]] [[col:red]]FROM THE DROPDOWN LOWER YOUR UI SCALE[[/col]]")
 		end,
 		true
 	)

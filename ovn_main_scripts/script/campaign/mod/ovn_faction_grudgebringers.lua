@@ -1,3 +1,16 @@
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
 local grudebringers_faction_key = "wh2_main_emp_grudgebringers"
 
 local function message(faction_key, event_key)
@@ -608,10 +621,46 @@ core:add_listener(
 		local faction = context:faction()
 		if faction:name() ~= grudebringers_faction_key then return end
 
+		for char in binding_iter(faction:character_list()) do
+			cm:set_character_excluded_from_trespassing(char, true)
+		end
+
 		if not faction:is_human() then
 			handle_grudgebringers_ai_unit_gifts(faction)
 			return
 		end
+	end,
+	true
+)
+
+core:remove_listener("ovn_grudgebringers_on_character_created_remove_trespass_penalty")
+core:add_listener(
+	"ovn_grudgebringers_on_character_created_remove_trespass_penalty",
+	"CharacterCreated",
+	function(context)
+		---@type CA_FACTION
+		local faction = context:character():faction()
+		return faction:name() == grudebringers_faction_key
+	end,
+	function(context)
+		local char = context:character()
+		cm:set_character_excluded_from_trespassing(char, true)
+	end,
+	true
+)
+
+core:remove_listener("ovn_grudgebringers_on_character_replacing_general_remove_trespass_penalty")
+core:add_listener(
+	"ovn_grudgebringers_on_character_replacing_general_remove_trespass_penalty",
+	"CharacterReplacingGeneral",
+	function(context)
+		---@type CA_FACTION
+		local faction = context:character():faction()
+		return faction:name() == grudebringers_faction_key
+	end,
+	function(context)
+		local char = context:character()
+		cm:set_character_excluded_from_trespassing(char, true)
 	end,
 	true
 )

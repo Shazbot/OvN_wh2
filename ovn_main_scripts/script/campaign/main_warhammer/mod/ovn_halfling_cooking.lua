@@ -1,4 +1,15 @@
--- Heavily based on Vandy's "Queek's Burrow" mod
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
 
 local check_victory_conditions
 
@@ -558,6 +569,38 @@ check_victory_conditions = function()
 	end
 end
 
+core:remove_listener("ovn_hlf_on_character_created_remove_trespass_penalty")
+core:add_listener(
+	"ovn_hlf_on_character_created_remove_trespass_penalty",
+	"CharacterCreated",
+	function(context)
+		---@type CA_FACTION
+		local faction = context:character():faction()
+		return faction:name() == faction_key
+	end,
+	function(context)
+		local char = context:character()
+		cm:set_character_excluded_from_trespassing(char, true)
+	end,
+	true
+)
+
+core:remove_listener("ovn_hlf_on_character_replacing_general_remove_trespass_penalty")
+core:add_listener(
+	"ovn_hlf_on_character_replacing_general_remove_trespass_penalty",
+	"CharacterReplacingGeneral",
+	function(context)
+		---@type CA_FACTION
+		local faction = context:character():faction()
+		return faction:name() == faction_key
+	end,
+	function(context)
+		local char = context:character()
+		cm:set_character_excluded_from_trespassing(char, true)
+	end,
+	true
+)
+
 core:remove_listener('ovn_hlf_on_faction_turn_start_cooking')
 core:add_listener(
 	'ovn_hlf_on_faction_turn_start_cooking',
@@ -567,7 +610,11 @@ core:add_listener(
 		local faction = context:faction()
 		return faction:name() == faction_key
 	end,
-	function()
+	function(context)
+		for char in binding_iter(context:faction():character_list()) do
+			cm:set_character_excluded_from_trespassing(char, true)
+		end
+
 		local local_faction_name = cm:get_local_faction_name(true)
 		if local_faction_name ~= faction_key then return end
 

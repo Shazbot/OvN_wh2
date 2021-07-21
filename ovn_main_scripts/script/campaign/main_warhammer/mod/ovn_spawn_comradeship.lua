@@ -64,9 +64,9 @@ local function spawn_the_comradeship()
 				end,
 				function(context)
 					cm:embed_agent_in_force(context:character(), cm:get_character_by_cqi(olorin_cqi):military_force());
-					--local char_cqi = context:character():command_queue_index()
+					local char_cqi = context:character():command_queue_index()
+					cm:set_character_immortality("character_cqi:"..char_cqi, true);
 					--cm:replenish_action_points("character_cqi:"..char_cqi);
-					--cm:set_character_immortality("character_cqi:"..char_cqi, true);
 				end,
 				false
 			);
@@ -78,9 +78,9 @@ local function spawn_the_comradeship()
 				end,
 				function(context)
 					cm:embed_agent_in_force(context:character(), cm:get_character_by_cqi(olorin_cqi):military_force());
-					--local char_cqi = context:character():command_queue_index()
+					local char_cqi = context:character():command_queue_index()
+					cm:set_character_immortality("character_cqi:"..char_cqi, true);
 					--cm:replenish_action_points("character_cqi:"..char_cqi);
-					--cm:set_character_immortality("character_cqi:"..char_cqi, true);
 				end,
 				false
 			);
@@ -92,9 +92,9 @@ local function spawn_the_comradeship()
 				end,
 				function(context)
 					cm:embed_agent_in_force(context:character(), cm:get_character_by_cqi(olorin_cqi):military_force());
-					--local char_cqi = context:character():command_queue_index()
+					local char_cqi = context:character():command_queue_index()
+					cm:set_character_immortality("character_cqi:"..char_cqi, true);
 					--cm:replenish_action_points("character_cqi:"..char_cqi);
-					--cm:set_character_immortality("character_cqi:"..char_cqi, true);
 				end,
 				false
 			);
