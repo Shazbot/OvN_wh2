@@ -42,10 +42,11 @@ local main_unit_to_land_units = {
 
 
 if not not rm then
-  rm:add_post_setup_callback(function()
     for prefix, subculture in pairs(prefix_to_subculture) do
       rm:set_group_prefix_for_subculture(subculture, prefix)
     end
+    
+  rm:add_post_setup_callback(function()
     for i = 1, #ovn_subcultures do
       rm:add_subculture_path_filter(ovn_subcultures [i], "NormalFaction")
     end
