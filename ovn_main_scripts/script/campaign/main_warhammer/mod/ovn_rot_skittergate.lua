@@ -445,7 +445,7 @@ core:add_listener(
 	'ovn_rot_skittergate_close_skittergate',
 	'ComponentLClickUp',
 	function(context)
-		return context.string == "pj_rot_skittergate"
+		return context.string == "pj_rot_skittergate" and mod.current_state.name == "active"
 	end,
 	function(context)
 		local dialogue_box = core:get_or_create_component("ovn_rot_skittergate_dialogue_confirm_close_skittergate", "ui/common ui/dialogue_box")
