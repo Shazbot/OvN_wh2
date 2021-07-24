@@ -91,14 +91,24 @@ end
 mod.init = function()
 	local topbar_list_parent = find_ui_component_str("root > layout > resources_bar > topbar_list_parent")
 
+	local dragon_taming_holder = find_ui_component_str("root > layout > resources_bar > topbar_list_parent > dragon_taming_holder")
+	dragon_taming_holder:SetVisible(true)
+	local dragon_taming_icon = find_ui_component_str("root > layout > resources_bar > topbar_list_parent > dragon_taming_holder > dragon_taming_icon")
+	dragon_taming_icon:SetVisible(false)
+
 	local skittergate_button_parent = core:get_or_create_component("pj_rot_skittergate_parent", "UI/campaign ui/script_dummy", topbar_list_parent)
 	local sk = core:get_or_create_component("pj_rot_skittergate", "ui/templates/round_large_button", skittergate_button_parent)
 
+	dragon_taming_holder:Adopt(skittergate_button_parent:Address())
+
 	skittergate_button_parent:SetDockingPoint(1)
-	skittergate_button_parent:SetDockOffset(-25,0)
-	topbar_list_parent:Layout()
-	sk:SetDockingPoint(1)
 	skittergate_button_parent:SetDockOffset(0,0)
+	sk:SetDockingPoint(1)
+	sk:SetDockOffset(15,0)
+
+	skittergate_button_parent:Resize(85, skittergate_button_parent:Height())
+
+	topbar_list_parent:Layout()
 
 	local timer = find_uicomponent(sk, "pj_rot_skittergate_timer")
 	if not timer then
@@ -331,6 +341,12 @@ core:add_listener(
 	end,
 	function()
 			local ui_root = core:get_ui_root()
+
+			local pj_rot_skittergate_parent = find_ui_component_str("root > layout > resources_bar > topbar_list_parent > dragon_taming_holder > pj_rot_skittergate_parent")
+			if pj_rot_skittergate_parent and pj_rot_skittergate_parent:Width() ~= 85 then
+				pj_rot_skittergate_parent:Resize(85, pj_rot_skittergate_parent:Height())
+			end
+
 			local ui_parent = find_uicomponent(ui_root, "3d_ui_parent")
 			if not ui_parent then return end
 
