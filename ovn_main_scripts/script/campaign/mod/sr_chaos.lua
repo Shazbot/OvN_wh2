@@ -267,7 +267,7 @@ end
 
 function new_chshordespawn()
 	local kradtommen_region = cm:get_region("wh_main_blightwater_kradtommen")
-	local mordheim_region = cm:get_region("wh_main_ostermark_mordheim")
+	local altar_of_spawns_region = cm:get_region("wh_main_mountains_of_hel_altar_of_spawns")
 	local xahutec_region = cm:get_region("wh2_main_northern_great_jungle_xahutec")
 	local brass_keep_region = cm:get_region("wh_main_hochland_brass_keep")
 
@@ -330,11 +330,11 @@ function new_chshordespawn()
 		end
 	end
 
-	----  CWD HOLD Mordheim - Settlement 2
-	if mordheim_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
+	----  CWD HOLD Altar of Spawns - Settlement 2
+	if altar_of_spawns_region:owning_faction():name() == "wh2_main_nor_rotbloods" then
 		----  Sylvania Spawn: Option 2A
 		if 3 == cm:random_number(75, 1) then
-			new_chshordespawnmess()
+			new_chshordespawnmessgrn()
 
 			cm:create_force(
 				"wh2_main_nor_rotbloods",
@@ -406,7 +406,7 @@ function new_chshordespawn()
 
 		elseif 6 == cm:random_number(75, 1) then
 			----  West Kislev Spawn: Option 3B
-
+                new_chshordespawnmesskislev()
 
 				cm:create_force(
 					"wh2_main_nor_rotbloods",
@@ -483,7 +483,7 @@ function new_chshordestartmess()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosstart_secondary_detail",
 			true,
-			595
+			2510
 		)
 	end
 end
@@ -498,7 +498,7 @@ function new_chshordespawnmess()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawn_secondary_detail",
 			true,
-			595
+			2510
 		)
 	end
 end
@@ -513,7 +513,7 @@ function new_chshordespawnmessvalten()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawnvalten_secondary_detail",
 			true,
-			591
+			2510
 		)
 	end
 end
@@ -528,7 +528,7 @@ function new_chshordespawnmessdwf()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawndwf_secondary_detail",
 			true,
-			595
+			2510
 		)
 	end
 end
@@ -543,7 +543,7 @@ function new_chshordespawnmessgrn()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawngrn_secondary_detail",
 			true,
-			593
+			2510
 		)
 	end
 end
@@ -558,7 +558,7 @@ function new_chshordespawnmessliz()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawnliz_secondary_detail",
 			true,
-			775
+			2510
 		)
 	end
 end
@@ -573,7 +573,22 @@ function new_chshordespawnmessdelf()
 			"",
 			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawndelf_secondary_detail",
 			true,
-			773
+			2510
+		)
+	end
+end
+
+function new_chshordespawnmesskislev()
+	local human_factions = cm:get_human_factions()
+
+	for i = 1, #human_factions do
+		cm:show_message_event(
+			human_factions[i],
+			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawnkislev_primary_detail",
+			"",
+			"event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawnkislev_secondary_detail",
+			true,
+			2510
 		)
 	end
 end
