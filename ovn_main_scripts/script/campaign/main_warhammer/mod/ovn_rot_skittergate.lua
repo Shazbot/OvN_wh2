@@ -229,7 +229,9 @@ mod.init = function()
 			end,
 		},
 		active = {
-			tooltip = "Active Skittergate||The Skittergate is open and your generals and agents can freely use it.",
+			tooltip = "Active Skittergate||The Skittergate is open and your generals and agents can freely use it."
+				.." It will remain open for a number of turns but you can manually close it at any time."
+				.."\n\n[[col:yellow]]Click the button to manually close the Skittergate.[[/col]]",
 			timer_tooltip = "Number of turns the Skittergate will remain open.",
 			current_cooldown = nil,
 			init = function(state)
@@ -420,6 +422,46 @@ core:add_listener(
 	function(context)
 		cm:set_saved_value("pj_rot_skittergate_current_region", mod.next_region_key)
 		mod.switch_state(mod.states.active, mod.current_state)
+	end,
+	true
+)
+
+core:remove_listener('ovn_rot_skittergate_dialogue_confirm_close_skittergate_ticked')
+core:add_listener(
+	'ovn_rot_skittergate_dialogue_confirm_close_skittergate_ticked',
+	'ComponentLClickUp',
+	function(context)
+		return context.string == "button_tick"
+			and UIComponent(UIComponent(UIComponent(context.component):Parent()):Parent()):Id() == "ovn_rot_skittergate_dialogue_confirm_close_skittergate"
+	end,
+	function(context)
+		mod.switch_state(mod.states.cooldown, mod.current_state)
+	end,
+	true
+)
+
+core:remove_listener('ovn_rot_skittergate_close_skittergate')
+core:add_listener(
+	'ovn_rot_skittergate_close_skittergate',
+	'ComponentLClickUp',
+	function(context)
+		return context.string == "pj_rot_skittergate"
+	end,
+	function(context)
+		local dialogue_box = core:get_or_create_component("ovn_rot_skittergate_dialogue_confirm_close_skittergate", "ui/common ui/dialogue_box")
+		core:add_listener(
+			"ovn_rot_skittergate_dialogue_confirm_close_skittergate",
+			"RealTimeTrigger",
+			function(context)
+				return context.string == "ovn_rot_skittergate_dialogue_confirm_close_skittergate_real_timer"
+			end,
+			function()
+				local dialogue_text = find_ui_component_str("root > ovn_rot_skittergate_dialogue_confirm_close_skittergate > DY_text")
+				dialogue_text:SetStateText("Would you like to close the Skittergate? You will be able to use it again after a few turns of necessary maintenance.")
+			end,
+			false
+		)
+		real_timer.register_singleshot("ovn_rot_skittergate_dialogue_confirm_close_skittergate_real_timer", 0)
 	end,
 	true
 )
