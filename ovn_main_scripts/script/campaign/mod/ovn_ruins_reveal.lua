@@ -48,8 +48,13 @@ local function add_on_first_tick()
 				local shield = find_uicomponent(reveal, "shield")
 				local glow = find_uicomponent(reveal, "glow")
 
-				shield:SetImagePath("ui/skins/default/chaos_revealed_shield.png", 0)
-				glow:SetImagePath("ui/skins/default/chaos_revealed_glow.png", 0)
+				if region_owner:name() == "wh2_main_ovn_chaos_dwarfs" then
+					shield:SetImagePath("ui/skins/default/chorfs_revealed_shield.png", 0)
+					glow:SetImagePath("ui/skins/default/chorfs_revealed_glow.png", 0)
+				else
+					shield:SetImagePath("ui/skins/default/chaos_revealed_shield.png", 0)
+					glow:SetImagePath("ui/skins/default/chaos_revealed_glow.png", 0)
+				end
 
 				find_uicomponent(reveal, "weapon_top"):SetVisible(false)
 				find_uicomponent(reveal, "weapon_right"):SetVisible(false)
@@ -63,3 +68,7 @@ local function add_on_first_tick()
 end
 
 cm:add_first_tick_callback(add_on_first_tick)
+
+if debug.traceback():find('pj_loadfile') then
+	add_on_first_tick()
+end
