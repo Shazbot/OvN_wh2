@@ -53,8 +53,8 @@ effects_description_elo_fimir_rusher_sp	Speed: %+n% for Glacial Dragon Ogre, Hou
 effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
 effects_description_elo_fimir_first_wave_ma	Melee Attack: %+n for Boglars, Shearls and Deathquest	true
 effects_description_elo_fimir_first_wave_wps	Weapon Strength: %+n% for Boglars, Shearls and Deathquest	true
-effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeasts and Troll units	true
-effects_description_elo_fimir_bog_monsters_md	Melee Defence: %+n for Fenbeasts and Troll units	true
+effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeasts, Harpies and Troll units	true
+effects_description_elo_fimir_bog_monsters_md	Melee Defence: %+n for Fenbeasts, Harpies and Troll units	true
 effects_description_elo_fimir_swamp_warriors_ma	Melee Attack: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
 effects_description_elo_fimir_swamp_warriors_md	Melee Defence: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
 effects_description_elo_fimir_giants_fen_sp	Speed: %+n% for Chaos Giants, Fenhulks and Mistmor	true
@@ -62,9 +62,9 @@ effects_description_elo_fimir_giants_fen_ma	Melee Attack: %+n for Chaos Giants, 
 effects_description_elo_fimir_r7_warriors_md	Melee Defence: %+n for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
 effects_description_elo_fimir_r7_warriors_armour	Armour: %+n for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
 effects_description_elo_fimir_r7_warriors_phyres	Physical Resistance: %+n% for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
-effects_description_elo_fimir_r7_auxillaries_missres	Missile Resistance: %+n% for Fenbeasts and Troll units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_auxillaries_md	Melee Defence: %+n for Fenbeasts and Troll units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeasts and Troll units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_missres	Missile Resistance: %+n% for Fenbeasts, Harpies and Troll units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_md	Melee Defence: %+n for Fenbeasts, Harpies and Troll units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeasts, Harpies and Troll units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
@@ -531,8 +531,8 @@ character_skills_localised_name_fimir_sacrifices	Deadly Fodder	true
 character_skills_localised_description_fimir_sacrifices	Little more is expected of these creatures than to die for their betters on the battlefield. However, many who have underestimated their ferocity have fallen prey to their crude weapons.	true
 character_skills_localised_name_fimir_riders_doggos	Swift Raiders	true
 character_skills_localised_description_fimir_riders_doggos	Fimir aren't the fastest creatures, but they know about the value of mobility on the battlefield. Therefore they tame the faster, corrupted and dangerous creatures of their swampland homes to gain a tactical advantage.	true
-character_skills_localised_name_fimir_bog_monsters	Creatures of the Bogs	true
-character_skills_localised_description_fimir_bog_monsters	The Fimir aren't the only monsters inhabiting swamps. Weaker or dumber monsters are subjugated and utilized to increase the numbers of the Fimir armies.	true
+character_skills_localised_name_fimir_bog_monsters	Creatures of the Dark Bogs	true
+character_skills_localised_description_fimir_bog_monsters	The Fimir aren't the only monsters inhabiting swamps. Weaker or small-minded monsters are subjugated and utilized to increase the numbers of the Fimir armies.	true
 character_skills_localised_name_fimir_swamp_warriors	Born to Fight	true
 character_skills_localised_description_fimir_swamp_warriors	Crude they may be, the skill and might of the Fimir Warriors makes them terrifying opponents.	true
 character_skills_localised_name_fimir_fen_giants	Terrors from the Fens	true

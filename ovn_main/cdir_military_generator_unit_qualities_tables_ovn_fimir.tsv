@@ -31,3 +31,4 @@ Default_land_infantry_missile	1	ovn_fim_mon_javelin_0
 Default_land_infantry_melee	25	kho_bloodletter
 Default_land_infantry_melee	10	Great_Deamon1_unit
 Default_land_magic	10	belakor
+Default_land_support	5	ovn_mon_harpies

@@ -50,6 +50,10 @@ local function add_on_first_tick()
 
 				shield:SetImagePath("ui/skins/default/chaos_revealed_shield.png", 0)
 				glow:SetImagePath("ui/skins/default/chaos_revealed_glow.png", 0)
+
+				find_uicomponent(reveal, "weapon_top"):SetVisible(false)
+				find_uicomponent(reveal, "weapon_right"):SetVisible(false)
+				find_uicomponent(reveal, "weapon_left"):SetVisible(false)
 			end,
 			true
 	)
