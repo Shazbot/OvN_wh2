@@ -689,7 +689,6 @@ local function dreadking_setup()
 	local dread_king = cm:get_faction("wh2_dlc09_tmb_the_sentinels")
 	local dread_king_faction_leader_cqi = dread_king:faction_leader():command_queue_index()
 
-
 	if dread_king and (dread_king:is_human() or not mct or settings_table.dreadking and settings_table.enable) then
 		local galbaraz_region = cm:model():world():region_manager():region_by_key("wh2_main_vor_southern_badlands_galbaraz")
 
@@ -811,7 +810,10 @@ local function new_game_startup()
 	cm:disable_event_feed_events(true, "", "", "faction_resource_gained")
 	cm:disable_event_feed_events(true, "", "", "conquest_province_secured")
 
-	spawn_new_force(grudgebringers)
+	local gru = cm:get_faction("wh2_main_emp_grudgebringers")
+	if gru and (gru:is_human() or not mct or settings_table.grudgebringers and settings_table.enable) then
+		spawn_new_force(grudgebringers)
+	end
 
 	local start_functions = {
 		apply_diplo_bonuses,
