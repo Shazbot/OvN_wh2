@@ -406,6 +406,7 @@ local function citadel_setup()
 			function(cqi)
 				local str = "character_cqi:" .. cqi
 				cm:set_character_unique(str, true)
+				cm:set_character_immortality(str, true)
 			end
 		)
 
