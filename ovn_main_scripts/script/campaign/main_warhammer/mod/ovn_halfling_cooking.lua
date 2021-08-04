@@ -565,6 +565,7 @@ check_victory_conditions = function()
 	end
 
 	if are_all_ingredients_unlocked then
+		cm:complete_scripted_mission_objective("wh_main_short_victory", "ovn_hlf_collect_all_ingredients", true);
 		cm:complete_scripted_mission_objective("wh_main_long_victory", "ovn_hlf_collect_all_ingredients", true);
 	end
 end

@@ -37,6 +37,20 @@ local function refresh_foreign_slots()
 	end
 end
 
+local function give_passive_restaurant_income()
+	local num_restaurants = 0
+	---@type CA_FACTION
+	local faction = cm:get_faction("wh2_main_emp_the_moot")
+	for fsm in binding_iter(faction:foreign_slot_managers()) do
+		cm:treasury_mod(faction:name(), 400)
+		num_restaurants = num_restaurants + 1
+	end
+	if faction:is_human() and num_restaurants >= 15 then
+		cm:complete_scripted_mission_objective("wh_main_short_victory", "ovn_hlf_establish_restaurants", true)
+		cm:complete_scripted_mission_objective("wh_main_long_victory", "ovn_hlf_establish_restaurants", true)
+	end
+end
+
 core:add_listener(
 	"ovn_hlf_under_established_restaurant_with_agent",
 	"CharacterGarrisonTargetAction",
@@ -131,9 +145,10 @@ core:add_listener(
 		---@type CA_FACTION
 		local faction = context:faction()
 		local faction_name = faction:name()
-		if faction_name ~= cm:get_local_faction_name(true) then return end
 		if faction_name ~= "wh2_main_emp_the_moot" then return end
+		give_passive_restaurant_income()
 
+		if faction_name ~= cm:get_local_faction_name(true) then return end
 		refresh_foreign_slots()
 	end,
 	true

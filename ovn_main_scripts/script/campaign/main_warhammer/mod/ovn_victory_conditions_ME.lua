@@ -831,38 +831,14 @@ function ovn_victory_conditions()
 						}
 						objective
 						{
+							type SCRIPTED;
+							script_key ovn_hlf_establish_restaurants;
+							override_text mission_text_text_hlf_establish_restaurants_description;
+						}
+						objective
+						{
 							type OWN_N_PROVINCES;
 							total 1;
-						}
-						objective
-						{
-							type CONSTRUCT_N_OF_A_BUILDING;
-							faction wh2_main_emp_the_moot;
-							total 2;
-							building_level ovn_hlf_under_set_menu_3;
-						}
-						objective
-						{
-							type CONSTRUCT_N_OF_A_BUILDING;
-							faction wh2_main_emp_the_moot;
-							total 2;
-							building_level ovn_hlf_under_pick_menu_3;
-						}
-						objective
-						{
-							type CONSTRUCT_N_OF_A_BUILDING;
-							faction wh2_main_emp_the_moot;
-							total 2;
-							building_level ovn_hlf_under_buffet_menu_3;
-						}
-						objective
-						{
-							type CONSTRUCT_N_BUILDINGS_INCLUDING;
-							faction wh2_main_emp_the_moot;
-							total 3;
-							building_level ovn_hlf_under_drinks_cofee;
-							building_level ovn_hlf_under_drinks_wine;
-							building_level ovn_hlf_under_special_menu_1;
 						}
 						objective
 						{
@@ -918,37 +894,15 @@ function ovn_victory_conditions()
 						}
 						objective
 						{
-							type CONSTRUCT_N_OF_A_BUILDING;
-							faction wh2_main_emp_the_moot;
-							total 4;
-							building_level ovn_hlf_under_set_menu_3;
+							type SCRIPTED;
+							script_key ovn_hlf_collect_all_ingredients;
+							override_text mission_text_text_hlf_collect_all_ingredients_description;
 						}
 						objective
 						{
-							type CONSTRUCT_N_OF_A_BUILDING;
-							faction wh2_main_emp_the_moot;
-							total 4;
-							building_level ovn_hlf_under_pick_menu_3;
-						}
-						objective
-						{
-							type CONSTRUCT_N_OF_A_BUILDING;
-							faction wh2_main_emp_the_moot;
-							total 4;
-							building_level ovn_hlf_under_buffet_menu_3;
-						}
-						objective
-						{
-							type CONSTRUCT_N_BUILDINGS_INCLUDING;
-							faction wh2_main_emp_the_moot;
-							total 7;
-							building_level ovn_hlf_under_drinks_cofee;
-							building_level ovn_hlf_under_drinks_wine;
-							building_level ovn_hlf_under_special_menu_1;
-							building_level ovn_hlf_under_barn_1;
-							building_level ovn_hlf_under_revelry_1;
-							building_level ovn_hlf_under_security_1;
-							building_level ovn_hlf_under_fence_1;
+							type SCRIPTED;
+							script_key ovn_hlf_establish_restaurants;
+							override_text mission_text_text_hlf_establish_restaurants_description;
 						}
 						objective
 						{
