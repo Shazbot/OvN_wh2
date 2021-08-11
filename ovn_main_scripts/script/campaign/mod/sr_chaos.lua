@@ -35,7 +35,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 		)
 	end
 
-	
+
 	cm:create_force_with_general(
 		"wh2_main_nor_rotbloods",
 		"wh_main_nor_inf_chaos_marauders_0,wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc08_nor_inf_marauder_berserkers_0",
@@ -127,24 +127,6 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 				true,
 				function(cqi)
 					cm:apply_effect_bundle_to_characters_force("ovn_Khar", cqi, -1, true)
-				end
-			)
-			cm:create_force_with_general(
-				"wh2_main_nor_rotbloods",
-				"wh_main_nor_inf_chaos_marauders_0,wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc08_nor_inf_marauder_berserkers_0",
-				"wh2_main_kingdom_of_beasts_serpent_coast",
-				563,
-				537,
-				"general",
-				"ribspreader",
-				"names_name_999982317",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:set_character_unique("character_cqi:" .. cqi, true)
-					cm:set_character_immortality("character_cqi:" .. cqi, true)
 				end
 			)
 
