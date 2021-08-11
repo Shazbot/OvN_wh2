@@ -137,13 +137,9 @@ local function amazon_setup()
 
 	if amazon and (amazon:is_human() or not mct or settings_table.amazon and settings_table.enable) then
 		-- give Tlanxla to Amazons, do some work for them
-		cm:transfer_region_to_faction("wh2_main_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
-		local tlanxa_region = cm:model():world():region_manager():region_by_key("wh2_main_the_creeping_jungle_tlanxla")
-		cm:instantly_set_settlement_primary_slot_level(tlanxa_region:settlement(), 3)
-		cm:heal_garrison(tlanxa_region:cqi())
-
 		if amazon:is_human() then
 			cm:transfer_region_to_faction("wh2_main_jungles_of_green_mists_wellsprings_of_eternity", "wh2_dlc12_skv_clan_mange")
+			cm:heal_garrison(cm:get_region("wh2_main_jungles_of_green_mists_wellsprings_of_eternity"):cqi());
 		end
 
 		local is_lwaxana_starting_lord = core:svr_load_bool("ovn_amazon_lords_lwaxana_is_leader")
@@ -155,20 +151,32 @@ local function amazon_setup()
 		local firstname = "names_name_3508823034"
 		local surname = ""
 		local units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged"
+		local spawnX = 76
+		local spawnY = 160
 
 		if is_lwaxana_starting_lord then
 			subtype = "roy_amz_lwaxana"
 			firstname = "names_name_3508823024"
 			surname = ""
-			units = "roy_amz_inf_piranha_warriors,roy_amz_inf_tribeswomen_ranged,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts,roy_amz_inf_berserkers,roy_amz_inf_warriors,roy_amz_inf_warriors,roy_amz_inf_warriors_maces"
+			units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_curse_bats,roy_amz_mon_curse_bats,roy_amz_inf_warriors,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts"			
+			cm:transfer_region_to_faction("wh2_main_the_creeping_jungle_tlanxla", "wh2_dlc12_skv_clan_mange")
+			cm:heal_garrison(cm:get_region("wh2_main_the_creeping_jungle_tlanxla"):cqi());
+			
+			spawnX = 138
+			spawnY = 232
+		else 
+			cm:transfer_region_to_faction("wh2_main_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
+			local tlanxa_region = cm:model():world():region_manager():region_by_key("wh2_main_the_creeping_jungle_tlanxla")
+			cm:instantly_set_settlement_primary_slot_level(tlanxa_region:settlement(), 3)
+			cm:heal_garrison(tlanxa_region:cqi())
 		end
 
 		cm:create_force_with_general(
 			"wh2_main_amz_amazons",
 			units,
-			"wh2_main_great_desert_of_araby_el-kalabad",
-			76,
-			160,
+			"wh2_main_the_creeping_jungle_tlanxla",
+			spawnX,
+			spawnY,
 			"general",
 			subtype,
 			firstname,
@@ -177,7 +185,7 @@ local function amazon_setup()
 			"",
 			true,
 			function(cqi)
-				cm:add_agent_experience("character_cqi:" .. cqi, 2000)
+				--cm:add_agent_experience("character_cqi:" .. cqi, 2000)
 				cm:set_character_immortality("character_cqi:" .. cqi, true)
 				cm:set_character_unique("character_cqi:" .. cqi, true)
 			end

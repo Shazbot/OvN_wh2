@@ -98,15 +98,11 @@ local function amazon_setup()
 	end
 
 	if amazon and (amazon:is_human() or not mct or settings_table.amazon and settings_table.enable) then
-		cm:transfer_region_to_faction("wh2_main_vor_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
-		local tlanxla_region = cm:model():world():region_manager():region_by_key("wh2_main_vor_the_creeping_jungle_tlanxla")
-		cm:instantly_set_settlement_primary_slot_level(tlanxla_region:settlement(), 2)
-
-		cm:heal_garrison(tlanxla_region:cqi())
-
 		if amazon:is_human() then
 			cm:transfer_region_to_faction("wh2_main_vor_jungle_of_pahualaxa_monument_of_the_moon", "wh2_main_grn_blue_vipers")
+			cm:heal_garrison(cm:get_region("wh2_main_vor_jungle_of_pahualaxa_monument_of_the_moon"):cqi());
 			cm:transfer_region_to_faction("wh2_main_vor_jungles_of_green_mist_wellsprings_of_eternity", "wh2_dlc12_skv_clan_mange")
+			cm:heal_garrison(cm:get_region("wh2_main_vor_jungles_of_green_mist_wellsprings_of_eternity"):cqi());
 		end
 
 		local faction_key = "wh2_main_amz_amazons" -- factions key
@@ -120,20 +116,32 @@ local function amazon_setup()
 		local firstname = "names_name_3508823034"
 		local surname = ""
 		local units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_wildcats,roy_amz_inf_scouts,roy_amz_inf_warriors,roy_amz_inf_eagle_warriors,roy_amz_cav_culchan_riders_ranged"
+		local spawnX = 135
+		local spawnY = 285
 
 		if is_lwaxana_starting_lord then
 			subtype = "roy_amz_lwaxana"
 			firstname = "names_name_3508823024"
 			surname = ""
-			units = "roy_amz_inf_piranha_warriors,roy_amz_inf_tribeswomen_ranged,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts,roy_amz_inf_berserkers,roy_amz_inf_warriors,roy_amz_inf_warriors,roy_amz_inf_warriors_maces"
+			units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_curse_bats,roy_amz_mon_curse_bats,roy_amz_inf_warriors,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts"			
+			cm:transfer_region_to_faction("wh2_main_vor_the_creeping_jungle_tlanxla", "wh2_dlc12_skv_clan_mange")
+			cm:heal_garrison(cm:get_region("wh2_main_vor_the_creeping_jungle_tlanxla"):cqi());
+			
+			spawnX = 158
+			spawnY = 339
+		else 
+			cm:transfer_region_to_faction("wh2_main_vor_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
+			local tlanxla_region = cm:model():world():region_manager():region_by_key("wh2_main_vor_the_creeping_jungle_tlanxla")
+			cm:instantly_set_settlement_primary_slot_level(tlanxla_region:settlement(), 2)
+			cm:heal_garrison(tlanxla_region:cqi())
 		end
 
 		cm:create_force_with_general(
 			"wh2_main_amz_amazons",
 			units,
 			"wh2_main_vor_the_creeping_jungle_tlanxla",
-			135,
-			285,
+			spawnX,
+			spawnY,
 			"general",
 			subtype,
 			firstname,
@@ -142,7 +150,7 @@ local function amazon_setup()
 			"",
 			true,
 			function(cqi)
-				cm:add_agent_experience("character_cqi:" .. cqi, 2000)
+				--cm:add_agent_experience("character_cqi:" .. cqi, 2000)
 				cm:set_character_immortality("character_cqi:" .. cqi, true)
 				cm:set_character_unique("character_cqi:" .. cqi, true)
 			end
