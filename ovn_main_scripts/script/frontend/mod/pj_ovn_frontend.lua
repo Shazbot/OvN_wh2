@@ -182,6 +182,19 @@ core:add_listener(
 					if is_this_your_frontend_dude then
 						core:add_listener("pj_ovn_frontend_on_lord_clicked_cb", "RealTimeTrigger", function(context) return context.string == "pj_ovn_frontend_clicked_ovn_lord_cb" end,
 						function(context)
+							-- rename the Dread King LL
+							if startpos_id == "848881665" or startpos_id == "1041928997" then
+								local faction_leader = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame", "dy_faction_leader")
+								faction_leader:SetStateText(
+									effect.get_localised_string("names_name_247259235")
+									.." "
+									..effect.get_localised_string("names_name_247259236")
+								)
+
+								local faction_name = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "lord_details_panel", "faction", "label_faction_name")
+								faction_name:SetStateText(effect.get_localised_string("ovn_dread_king_legions_faction_name"))
+							end
+
 							local units = starting_units[is_this_your_frontend_dude]
 							if units ~= nil then
 								create_unit_card_for_frontend(units.starting_unit_1, units.unit_card_1, 1)

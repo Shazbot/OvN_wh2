@@ -1,8 +1,8 @@
 Loc PackedFile	1
 key	text	tooltip
-factions_screen_name_wh2_dlc09_tmb_the_sentinels	Dread King Legions	true
-factions_defend_desc_wh2_dlc09_tmb_the_sentinels	You are defending against the Legions of the Dread King!	true
-factions_attack_desc_wh2_dlc09_tmb_the_sentinels	You are attacking the Legions of the Dread King!	true
+ovn_dread_king_legions_faction_name	Dread King Legions	true
+factions_defend_desc_wh2_dlc09_tmb_the_sentinels	You are defending against the Legions of the Dead!	true
+factions_attack_desc_wh2_dlc09_tmb_the_sentinels	You are attacking the Legions of the Dead!	true
 factions_clan_summary_name_when_shogun_wh2_dlc09_tmb_the_sentinels	Legions of the Dread King	true
 factions_screen_adjective_wh2_dlc09_tmb_the_sentinels	Legions of the Dread King	true
 factions_screen_name_when_rebels_wh2_dlc09_tmb_the_sentinels	Priest King Rebels	true
