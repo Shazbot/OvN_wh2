@@ -158,13 +158,13 @@ local function amazon_setup()
 			subtype = "roy_amz_lwaxana"
 			firstname = "names_name_3508823024"
 			surname = ""
-			units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_curse_bats,roy_amz_mon_curse_bats,roy_amz_inf_warriors,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts"			
+			units = "roy_amz_inf_warriors,roy_amz_inf_scouts,roy_amz_mon_curse_bats,roy_amz_mon_curse_bats,roy_amz_inf_warriors,roy_amz_inf_koka_kalim,roy_amz_inf_koka_kalim_devouts"
 			cm:transfer_region_to_faction("wh2_main_the_creeping_jungle_tlanxla", "wh2_dlc12_skv_clan_mange")
 			cm:heal_garrison(cm:get_region("wh2_main_the_creeping_jungle_tlanxla"):cqi());
-			
+
 			spawnX = 138
 			spawnY = 232
-		else 
+		else
 			cm:transfer_region_to_faction("wh2_main_the_creeping_jungle_tlanxla", "wh2_main_amz_amazons")
 			local tlanxa_region = cm:model():world():region_manager():region_by_key("wh2_main_the_creeping_jungle_tlanxla")
 			cm:instantly_set_settlement_primary_slot_level(tlanxa_region:settlement(), 3)
@@ -185,7 +185,6 @@ local function amazon_setup()
 			"",
 			true,
 			function(cqi)
-				--cm:add_agent_experience("character_cqi:" .. cqi, 2000)
 				cm:set_character_immortality("character_cqi:" .. cqi, true)
 				cm:set_character_unique("character_cqi:" .. cqi, true)
 			end
@@ -462,7 +461,7 @@ local function blood_dragon_setup()
 		local karaknorn_region = cm:model():world():region_manager():region_by_key("wh_main_southern_grey_mountains_karak_norn")
 		local karaknorn_settlement = karaknorn_region:settlement()
 		cm:instantly_set_settlement_primary_slot_level(karaknorn_settlement, 2)
-		cm:change_custom_region_name(karaknorn_region, "ovn_wh_main_southern_grey_mountains_karak_norn_new_region_name")
+		cm:change_custom_settlement_name(karaknorn_region:settlement(), effect.get_localised_string("ovn_wh_main_southern_grey_mountains_karak_norn_new_region_name"))
 
 		cm:heal_garrison(karaknorn_region:cqi())
 		cm:force_religion_factors(
