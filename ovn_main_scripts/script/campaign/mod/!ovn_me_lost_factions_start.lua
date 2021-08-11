@@ -454,6 +454,7 @@ local function blood_dragon_setup()
 		local karaknorn_region = cm:model():world():region_manager():region_by_key("wh_main_southern_grey_mountains_karak_norn")
 		local karaknorn_settlement = karaknorn_region:settlement()
 		cm:instantly_set_settlement_primary_slot_level(karaknorn_settlement, 2)
+		cm:change_custom_region_name(karaknorn_region, "ovn_wh_main_southern_grey_mountains_karak_norn_new_region_name")
 
 		cm:heal_garrison(karaknorn_region:cqi())
 		cm:force_religion_factors(
