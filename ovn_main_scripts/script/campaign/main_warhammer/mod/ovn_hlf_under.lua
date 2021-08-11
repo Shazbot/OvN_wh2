@@ -37,12 +37,11 @@ local function refresh_foreign_slots()
 	end
 end
 
-local function give_passive_restaurant_income()
+local function check_restaurant_victory_conditions()
 	local num_restaurants = 0
 	---@type CA_FACTION
 	local faction = cm:get_faction("wh2_main_emp_the_moot")
 	for fsm in binding_iter(faction:foreign_slot_managers()) do
-		cm:treasury_mod(faction:name(), 400)
 		num_restaurants = num_restaurants + 1
 	end
 	if faction:is_human() and num_restaurants >= 15 then
@@ -64,6 +63,19 @@ core:add_listener(
 	end,
 	true
 )
+
+local function add_passive_income_building_to_restaurant()
+	local faction = cm:get_faction("wh2_main_emp_the_moot")
+	for fsm in binding_iter(faction:foreign_slot_managers()) do
+		local fsm_slots = fsm:slots()
+		if fsm_slots:num_items() > 0 then
+			local first_slot = fsm_slots:item_at(0)
+			if not first_slot:has_building() then
+				cm:foreign_slot_instantly_upgrade_building(first_slot, "ovn_hlf_under_barn_1")
+			end
+		end
+	end
+end
 
 core:remove_listener("ovn_hlf_under_occupation_decision_made")
 core:add_listener(
@@ -88,6 +100,12 @@ core:add_listener(
 			function()
 				cm:add_foreign_slot_set_to_region_for_faction(char_faction_cqi, region_cqi, "ovn_restaurant");
 				refresh_foreign_slots()
+				cm:callback(
+					function()
+						add_passive_income_building_to_restaurant()
+					end,
+					0
+				)
 			end,
 			0
 		)
@@ -125,6 +143,7 @@ core:add_listener(
 				cm:callback(
 					function()
 						refresh_foreign_slots()
+						add_passive_income_building_to_restaurant()
 					end,
 					0
 				)
@@ -146,7 +165,7 @@ core:add_listener(
 		local faction = context:faction()
 		local faction_name = faction:name()
 		if faction_name ~= "wh2_main_emp_the_moot" then return end
-		give_passive_restaurant_income()
+		check_restaurant_victory_conditions()
 
 		if faction_name ~= cm:get_local_faction_name(true) then return end
 		refresh_foreign_slots()
