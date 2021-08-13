@@ -562,12 +562,6 @@ local function citadel_setup()
 			end
 		)
 
-		--cm:transfer_region_to_faction("wh2_main_cothique_tor_koruali", "wh2_main_skv_clan_gnaw")
-		--cm:heal_garrison(cm:get_region("wh2_main_cothique_tor_koruali"):cqi())
-
-		cm:transfer_region_to_faction("wh2_main_cothique_mistnar", "wh2_main_skv_clan_gnaw")
-		cm:heal_garrison(cm:get_region("wh2_main_cothique_mistnar"):cqi())
-
 		if not vfs.exists("script/campaign/mod/sr_vermintide.lua") then
 			cm:create_force(
 				"wh2_main_skv_clan_gnaw",

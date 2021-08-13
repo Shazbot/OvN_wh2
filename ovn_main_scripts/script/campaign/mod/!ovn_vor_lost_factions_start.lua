@@ -382,9 +382,6 @@ local function citadel_setup()
 		cm:set_character_immortality(cm:char_lookup_str(dusk_faction_leader_cqi), false)
 		add_cqi_to_murdered_list(dusk_faction_leader_cqi)
 
-		cm:transfer_region_to_faction("wh2_main_vor_cothique_mistnar", "wh2_main_skv_clan_gnaw")
-		cm:heal_garrison(cm:get_region("wh2_main_vor_cothique_mistnar"):cqi())
-
 		cm:create_force(
 			"wh2_main_skv_clan_gnaw",
 			"wh2_main_skv_mon_rat_ogres,wh2_main_skv_inf_poison_wind_globadiers,wh2_main_skv_inf_warpfire_thrower,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrat_spearmen_1",
