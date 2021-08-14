@@ -16,9 +16,8 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("character_cqi:"..cqi, 2000)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
-
+										cm:set_character_immortality("character_cqi:"..cqi, true)
+                    cm:set_character_unique("character_cqi:"..cqi, true)
                 end
         },
 
@@ -37,7 +36,6 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh2_main_arb_aswad_scythans,forename:999982308", 2000)
                     cm:set_character_immortality("faction:wh2_main_arb_aswad_scythans,forename:999982308", true)
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
@@ -58,34 +56,10 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("character_cqi:"..cqi, 2000)
                     cm:set_character_immortality("character_cqi:"..cqi, true)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
+                    cm:set_character_unique("character_cqi:"..cqi, true)
                 end
         },
-
-       --[[ wh2_dlc11_cst_vampire_coast_rebels = {
-            faction_key = "wh2_dlc11_cst_vampire_coast_rebels",
-            unit_list = "wh2_dlc11_cst_inf_depth_guard_0,wh2_dlc11_cst_inf_depth_guard_1,wh2_dlc11_cst_mon_rotting_leviathan_0,wh2_dlc11_cst_mon_scurvy_dogs,wh2_dlc11_cst_inf_syreens,wh2_dlc11_cst_mon_mournguls_0,wh2_dlc11_cst_inf_zombie_deckhands_mob_1",
-            region_key = "wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon",
-            x = 160,
-            y = 175,
-            type = "general",
-            subtype = "wh2_dlc11_vmp_bloodline_lahmian",
-            name1 = "names_name_999982306",
-            name2 = "",
-            name3 = "",
-            name4 = "",
-            make_faction_leader = true,
-            callback =
-                function(cqi)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
-                    cm:add_agent_experience("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", 2000)
-                    cm:set_character_immortality("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", true)
-                    cm:add_unit_model_overrides("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", "wh2_dlc11_art_set_vmp_bloodline_lahmian_01");
-                    -- MODEL OVERRIDE NESSCARY OR WILL DEFAULT TO BRIGHT WIZARD
-                end
-        },]]
 
         wh2_main_nor_harbingers_of_doom = {
             faction_key = "wh2_main_nor_harbingers_of_doom",
@@ -102,9 +76,8 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh2_main_nor_harbingers_of_doom,forename:247258464", 2000)
-                    --cm:set_character_immortality("faction:wh2_main_nor_harbingers_of_doom,forename:247258464", true);
-                    cm:set_character_unique("character_cqi:"..cqi, true);
+										cm:set_character_immortality("character_cqi:"..cqi, true)
+                    cm:set_character_unique("character_cqi:"..cqi, true)
                 end
         },
 
@@ -123,7 +96,6 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh2_main_nor_servants_of_fimulneid,forename:999982314", 2000)
                     cm:set_character_immortality("faction:wh2_main_nor_servants_of_fimulneid,forename:999982314", true);
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
@@ -145,7 +117,6 @@ local new_forces = {
             callback =
                 function(cqi)
                     local str = "character_cqi:"..cqi
-                    cm:add_agent_experience(str, 2000)
                     cm:set_character_immortality(str, true)
                     cm:add_unit_model_overrides(str, "Dread_King");
                     cm:set_character_unique("character_cqi:"..cqi, true);
@@ -301,7 +272,6 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh2_main_emp_the_moot,forname:999982316", 2000)
                     cm:set_character_immortality("faction:wh2_main_emp_the_moot,forename:999982316", true);
                     cm:set_character_unique("character_cqi:"..cqi, true);
                 end
@@ -324,7 +294,6 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:add_agent_experience("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", 2000)
                     cm:set_character_immortality("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", true)
                     cm:add_unit_model_overrides("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", "Dread_King")
                     cm:set_character_unique("character_cqi:"..cqi, true);
@@ -346,8 +315,7 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
-                    cm:add_agent_experience("faction:wh2_main_arb_caliphate_of_araby,forename:247258412", 2000)
+                    cm:set_character_unique("character_cqi:"..cqi, true)
                     cm:set_character_immortality("faction:wh2_main_arb_caliphate_of_araby,forename:247258412", true)
                 end
         },
@@ -367,8 +335,7 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
-                    cm:add_agent_experience("faction:wh2_main_arb_aswad_scythans,forename:999982308", 2000)
+                    cm:set_character_unique("character_cqi:"..cqi, true)
                     cm:set_character_immortality("faction:wh2_main_arb_aswad_scythans,forename:999982308", true)
                 end
         },
@@ -388,8 +355,7 @@ local new_forces = {
             make_faction_leader = true,
             callback =
                 function(cqi)
-                    cm:set_character_unique("character_cqi:"..cqi, true);
-                    cm:add_agent_experience("faction:wh2_main_arb_flaming_scimitar,forename:999982318", 2000)
+                    cm:set_character_unique("character_cqi:"..cqi, true)
                     cm:set_character_immortality("faction:wh2_main_arb_flaming_scimitar,forename:999982318", true)
                 end
         },
@@ -410,7 +376,6 @@ local new_forces = {
             callback =
                 function(cqi)
                     cm:set_character_unique("character_cqi:"..cqi, true);
-                    cm:add_agent_experience("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", 2000)
                     cm:set_character_immortality("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", true)
                     cm:add_unit_model_overrides("faction:wh2_dlc11_cst_vampire_coast_rebels,forename:999982306", "wh2_dlc11_art_set_vmp_bloodline_lahmian_01");
                     -- MODEL OVERRIDE NECESSCARY OR WILL DEFAULT TO BRIGHT WIZARD

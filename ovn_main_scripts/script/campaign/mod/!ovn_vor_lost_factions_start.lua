@@ -248,7 +248,6 @@ local function araby_setup()
 		cm:force_alliance("wh2_main_arb_aswad_scythans", "wh2_dlc09_tmb_numas", true)
 
 		if cm:get_faction("wh2_main_arb_aswad_scythans"):is_human() then
-
 			cm:create_force_with_general(
 				"wh_main_chs_chaos_qb1",
 				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_cav_chaos_knights_0,wh_main_arb_mon_elephant,ovn_slave,OtF_khemri_spearmen,OtF_khemri_archers,ovn_southlander",
@@ -263,7 +262,6 @@ local function araby_setup()
 				"",
 				true,
 				function(cqi)
-					cm:add_agent_experience("character_cqi:" .. cqi, 2000)
 					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
 					cm:disable_movement_for_character("character_cqi:" .. cqi)
 				end
@@ -756,15 +754,8 @@ local function dreadking_setup()
 			function(cqi)
 				cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_gunther", false)
 				cm:replenish_action_points(cm:char_lookup_str(cqi))
-				cm:add_agent_experience("faction:wh2_dlc09_tmb_the_sentinels,type:wizard", 1000)
-				--cm:add_unit_model_overrides("faction:wh2_dlc09_tmb_the_sentinels,type:wizard", "wh_main_art_set_vmp_necromancer_02")
 			end
 		)
-
-		if not dread_king:is_human() then
-			cm:add_agent_experience("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", 5000)
-			cm:instantly_set_settlement_primary_slot_level(pyramid_region:settlement(), 4)
-		end
 
 		table.insert(factions, "wh2_dlc09_tmb_the_sentinels")
 	end

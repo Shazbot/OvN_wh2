@@ -308,7 +308,6 @@ local function araby_scythans_setup()
 		cm:force_alliance("wh2_main_arb_aswad_scythans", "wh2_dlc09_tmb_numas", true)
 
 		if cm:get_faction("wh2_main_arb_aswad_scythans"):is_human() then
-
 			cm:create_force_with_general(
 				"wh_main_chs_chaos_qb1",
 				"wh_main_chs_inf_chaos_warriors_0,wh_main_chs_cav_chaos_knights_0,wh_main_arb_mon_elephant,ovn_slave,OtF_khemri_spearmen,OtF_khemri_archers,ovn_southlander",
@@ -323,7 +322,6 @@ local function araby_scythans_setup()
 				"",
 				true,
 				function(cqi)
-					cm:add_agent_experience("character_cqi:" .. cqi, 2000)
 					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
 					cm:disable_movement_for_character("character_cqi:" .. cqi)
 				end
@@ -429,7 +427,7 @@ local function blood_dragon_setup()
 	if blood_dragons_leader and not blood_dragons_leader:is_null_interface() then
 		local blood_dragons_leader_cqi = blood_dragons:faction_leader():command_queue_index()
 		add_cqi_to_murdered_list(blood_dragons_leader_cqi)
-		out("OVN: OLD BLOOD DRAGONS FACTION LEADER TO KILL CQI: "..tostring(blood_dragons_leader_cqi))
+		-- out("OVN: OLD BLOOD DRAGONS FACTION LEADER TO KILL CQI: "..tostring(blood_dragons_leader_cqi))
 	end
 
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
@@ -507,10 +505,10 @@ local function blood_dragon_setup()
 						"",
 						true,
 						function(cqi)
-							out("OVN: WALLACH HARKON CQI IS "..tostring(cqi))
+							-- out("OVN: WALLACH HARKON CQI IS "..tostring(cqi))
 							local str = "character_cqi:" .. cqi
+							cm:set_character_immortality(str, true)
 							cm:set_character_unique(str, true)
-							cm:add_agent_experience(str, 2000)
 							cm:force_add_trait(str, "ovn_harkon_lord_trait", true)
 						end
 					)
@@ -1119,25 +1117,6 @@ local function fimir_setup()
 end
 
 --------------------------------------------------------------
------------------------- STRIGOI  ----------------------------
---------------------------------------------------------------
-
---[[ local function strygos_setup()
-	cm:transfer_region_to_faction("wh_main_southern_badlands_galbaraz", "wh2_main_vmp_strygos_empire")
-
-	cm:override_building_chain_display("wh_main_DWARFS_settlement_major", "wh_main_VAMPIRES_settlement_major", "wh_main_southern_badlands_galbaraz")
-
-	local galbaraz_region = cm:model():world():region_manager():region_by_key("wh_main_southern_badlands_galbaraz")
-	local galbaraz_settlement = galbaraz_region:settlement(0)
-	cm:instantly_set_settlement_primary_slot_level(galbaraz_settlement, 3)
-	cm:region_slot_instantly_upgrade_building(galbaraz_settlement:active_secondary_slots():item_at(1), "wh2_main_special_galbaraz_mourkain_vmp_1")
-	cm:region_slot_instantly_upgrade_building(galbaraz_settlement:active_secondary_slots():item_at(2), "wh_main_vmp_walls_1")
-
-	cm:heal_garrison(galbaraz_region:cqi())
-
-	cm:teleport_to("faction:wh_main_grn_top_knotz,surname:2147344957", 675, 155, true)
-end]]
---------------------------------------------------------------
 -------------------- GRUDGEBRINGERS  -------------------------
 --------------------------------------------------------------
 
@@ -1241,7 +1220,6 @@ local function dreadking_setup()
 			function(cqi)
 				cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_gunther", false)
 				cm:replenish_action_points(cm:char_lookup_str(cqi))
-				cm:add_agent_experience("faction:wh2_dlc09_tmb_the_sentinels,type:wizard", 1000)
 				cm:add_unit_model_overrides("faction:wh2_dlc09_tmb_the_sentinels,type:wizard", "elo_dread_larenscheld")
 			end
 		)
@@ -1252,9 +1230,6 @@ local function dreadking_setup()
 
 		if dread_king:is_human() then
 			cm:teleport_to("faction:wh2_dlc09_rogue_eyes_of_the_jungle", 157, 20, true)
-		else
-			cm:add_agent_experience("faction:wh2_dlc09_tmb_the_sentinels,forename:247259235", 5000)
-			cm:instantly_set_settlement_primary_slot_level(pyramid_region:settlement(), 4)
 		end
 
 		table.insert(factions, "wh2_dlc09_tmb_the_sentinels")
