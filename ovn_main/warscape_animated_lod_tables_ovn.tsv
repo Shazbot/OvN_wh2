@@ -1,5 +1,7 @@
 warscape_animated_lod_tables	1
 key	filename	range	animated
+524513111	warmachines/chariot/mtl_reaper/mtl_reaper_01.wsmodel	0.0	mtl_reaper
+524513112	warmachines/chariot/mtl_reaper/mtl_reaper_01_destruct.rigid_model_v2	0.0	mtl_reaper_destruct
 655258198	warmachines\carriage\mtl_chuckwagon\mtl_chuckwagon_01.wsmodel	0.0	mtl_chuckwagon
 655258199	warmachines\carriage\mtl_chuckwagon\mtl_chuckwagon_destruct.rigid_model_v2	0.0	mtl_chuckwagon_destruct
 455256191	warmachines\engines\arb_grand_bombard\arb_grand_bombard_01.wsmodel	0.0	arb_grand_bombard

@@ -1,0 +1,9 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				bacr_chs_inf_daemonette	chs_all
+false				bacr_chs_inf_daemonette	chs_daemonette
+false				bacr_chs_inf_daemonette	mp_set_chs_inf_daemonette
+false				bacr_chs_inf_daemonette	wh2_dlc11_chs_chosen_spawn_chaos_warriors
+false				bacr_chs_inf_daemonette	wh2_dlc11_chs_vets_trolls_spawn_dragon_ogre_shaggoth_giant
+false				bacr_chs_inf_daemonette	def_daemonette
+false				bacr_chs_inf_daemonette	wh2_def_beasts_witchelf_rank7

@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_abilities_tooltip_text_elo_tzaan_twisted_blessings	Bless the target with the powers of the Changer of Way, flesh may reform under his touch to better serve the blessed...maybe.	true
+unit_abilities_onscreen_name_elo_tzaan_twisted_blessings	Twisted Blessings	true
+unit_abilities_tooltip_text_elo_tzaan_boon_tzeentch	When the winds of magic blow strong on a battlefield, Tzeentch may use his influence to protect his worthy followers. As long as they remain useful.	false
+unit_abilities_onscreen_name_elo_tzaan_boon_tzeentch	Boon of Tzeentch	false
+unit_abilities_tooltip_text_elo_tzaan_curse_tzeentch	All magic, all spells originate from Tzeentch. Those who dabble in magic are mere intruders in the great Schemer's domain and risk to draw his ire - or maybe worse, his attention.	false
+unit_abilities_onscreen_name_elo_tzaan_curse_tzeentch	Curse of Tzeentch	false
+unit_abilities_onscreen_name_elo_tzaan_bound_blue_fires	Flames of Change	false
+unit_abilities_tooltip_text_elo_tzaan_bound_blue_fires	A barrage of flames imbued with the power of the Changer, they burn and mutate whatever they touch at the same time.	false
+unit_abilities_onscreen_name_elo_tzaan_bound_blue_flame_storm	Pyre of Change	false
+unit_abilities_tooltip_text_elo_tzaan_bound_blue_flame_storm	A whirlwind of changing and mutating flames, those who emerge from it have to bear more than just burn wounds.	false
