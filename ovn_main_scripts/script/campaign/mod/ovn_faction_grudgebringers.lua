@@ -45,6 +45,46 @@ local function add_grudge_anc()
     end;
 end
 
+local function create_replenishment_button_tutorial()
+	local dialogue_box = core:get_or_create_component("ovn_grudgebringers_replenish_button_tutorial", "ui/common ui/dialogue_box")
+	core:add_listener(
+		"ovn_grudgebringers_replenish_button_tutorial_real_time_trigger_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "ovn_grudgebringers_replenish_button_tutorial_real_time_trigger"
+		end,
+		function(context)
+			local dialogue_box = find_uicomponent(core:get_ui_root(), "ovn_grudgebringers_replenish_button_tutorial")
+			if not dialogue_box then return end
+
+			dialogue_box:SetCanResizeWidth(true)
+			dialogue_box:SetCanResizeHeight(true)
+			dialogue_box:Resize(600,850)
+			local replenish_text = find_uicomponent(dialogue_box, "DY_text")
+			replenish_text:SetStateText("[[col:white]]You can manually replenish your units near Empire settlements.[[/col]]")
+			replenish_text:SetDockingPoint(5)
+			replenish_text:SetDockOffset(1,280)
+
+			local button_cancel = find_uicomponent(dialogue_box, "both_group", "button_cancel")
+			button_cancel:SetVisible(false)
+
+			local button_tick = find_uicomponent(dialogue_box, "both_group", "button_tick")
+			button_tick:SetDockingPoint(8)
+			button_tick:SetDockOffset(0,-30)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("pj_selectable_start_bg_image", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/ovn/ovn_grudgebringers_replenish_button_tutorial.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(542,542)
+			bg_image:SetDockOffset(0,-115)
+		end,
+		false
+	)
+	real_timer.register_singleshot("ovn_grudgebringers_replenish_button_tutorial_real_time_trigger", 0)
+end
+
 local function grudgebringers_init()
     local faction_key = "wh2_main_emp_grudgebringers"
     local faction_obj = cm:get_faction(faction_key)
@@ -70,6 +110,13 @@ local function grudgebringers_init()
     end
 
     if faction_obj:is_human() then
+				cm:callback(
+					function()
+						create_replenishment_button_tutorial()
+					end,
+					10
+				)
+
         -- diplo with papa faction
         cm:force_diplomacy("faction:wh2_main_emp_grudgebringers", "faction:"..papa_faction, "war", false, false, true)
 
