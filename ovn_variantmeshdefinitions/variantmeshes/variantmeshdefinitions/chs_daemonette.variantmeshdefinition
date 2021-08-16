@@ -1,0 +1,25 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/chs_daemonettep.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/chs_daemonetteb.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/chs_daemonetter.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="left_hand" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_left_hand_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_left_hand_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_left_hand_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_left_hand_04.wsmodel" />
+	</SLOT>
+	<SLOT name="right_hand" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_right_hand_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_right_hand_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_right_hand_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hands/chs_daemonette_right_hand_04.wsmodel" />
+	</SLOT>
+	<SLOT name="hair" probability ="0.85">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hair/chs_daemonette_hair_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hair/chs_daemonette_hair_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hair/chs_daemonette_hair_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu6b/chs/chs_daemonette/hair/chs_daemonette_hair_05.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>
