@@ -6,3 +6,4 @@
 	<SLOT name="hat" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_peasant_hood_01.wsmodel" />
 	</SLOT>
+</VARIANT_MESH>

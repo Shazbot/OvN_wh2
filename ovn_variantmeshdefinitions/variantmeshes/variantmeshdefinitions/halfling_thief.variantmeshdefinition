@@ -71,4 +71,5 @@
 	<SLOT name="weapon_4" attach_point="be_prop_4" >
 	</SLOT>
 	<SLOT name="weapon_5" attach_point="be_prop_5" />
+    </SLOT>
 </VARIANT_MESH>

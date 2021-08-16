@@ -6,5 +6,5 @@
 	<SLOT name="head" >
 		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu3\dwf\dwf_runesmith\head\hlf_glib_head_01.rigid_model_v2" />
     </SLOT>
-    
+</VARIANT_MESH>
     

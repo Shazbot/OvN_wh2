@@ -10,3 +10,4 @@
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\mtl\mtl_props\hats\mtl_peasant_hood_03.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_hammerers\head\ovn_ogr_ogre_helmet_02.rigid_model_v2" />
 	</SLOT>
+</VARIANT_MESH>
