@@ -51,3 +51,5 @@ occupation_decision_occupy		0		0	ovn_araby_alt_occupation_decision_occupy		0	220
 occupation_decision_occupy	ovn_arb_jehad	4		0	ovn_araby_alt_occupation_decision_occupy_alt	ovn_arb_jehad_army	6	2205198948	Occupy	occupy	250.0	1.0		
 occupation_decision_gift_to_another_faction	ovn_scy_numas_trans	8		0	scythan_occupation_decision_region_handover		0	2205198949		numas	1500.0	0.0		
 occupation_decision_gift_to_another_faction	ovn_rot_fester_trans	5		0	rotbloods_occupation_decision_region_handover		0	2205198950		fester	1500.0	0.0		
+occupation_decision_gift_to_another_faction		5		0	empire_moot_occupation_decision_region_handover		0	2205198951		moot_transfer	1500.0	0.0		
+occupation_decision_gift_to_another_faction		5		0	gelt_moot_occupation_decision_region_handover		0	2205198952		moot_transfer	1500.0	0.0		
