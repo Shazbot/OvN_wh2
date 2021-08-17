@@ -85,6 +85,35 @@ local function create_replenishment_button_tutorial()
 	real_timer.register_singleshot("ovn_grudgebringers_replenish_button_tutorial_real_time_trigger", 0)
 end
 
+local function add_replenishment_to_all_garrisons()
+	local f = cm:get_faction("wh2_main_emp_grudgebringers")
+
+	local custom_bundle = cm:create_new_custom_effect_bundle("ovn_grudgebringers_garrison_replenishment")
+	custom_bundle:add_effect("wh_main_effect_force_all_campaign_replenishment_rate", "character_to_force_own", 20)
+
+	---@type CA_CHAR
+	for char in binding_iter(f:character_list()) do
+		if char:has_military_force() and char:military_force():is_armed_citizenry() then
+			cm:apply_custom_effect_bundle_to_character(custom_bundle, char)
+		end
+	end
+end
+
+core:remove_listener("ovn_grudgebringers_apply_garrison_replenishment")
+core:add_listener(
+	"ovn_grudgebringers_apply_garrison_replenishment",
+	"FactionTurnEnd",
+	function(context)
+		---@type CA_FACTION
+		local faction = context:faction()
+		return faction:name() == "wh2_main_emp_grudgebringers"
+	end,
+	function(context)
+		add_replenishment_to_all_garrisons()
+	end,
+	true
+)
+
 local function grudgebringers_init()
     local faction_key = "wh2_main_emp_grudgebringers"
     local faction_obj = cm:get_faction(faction_key)
@@ -110,12 +139,14 @@ local function grudgebringers_init()
     end
 
     if faction_obj:is_human() then
-				cm:callback(
-					function()
-						create_replenishment_button_tutorial()
-					end,
-					10
-				)
+				if cm:is_new_game() then
+					cm:callback(
+						function()
+							create_replenishment_button_tutorial()
+						end,
+						6
+					)
+				end
 
         -- diplo with papa faction
         cm:force_diplomacy("faction:wh2_main_emp_grudgebringers", "faction:"..papa_faction, "war", false, false, true)
