@@ -1204,11 +1204,15 @@ local function dreadking_setup()
 	local dread_king_faction_leader_cqi = dread_king:faction_leader():command_queue_index()
 
 	if dread_king and (dread_king:is_human() or not mct or settings_table.dreadking and settings_table.enable) then
-
 		cm:change_custom_faction_name("wh2_dlc09_tmb_the_sentinels", effect.get_localised_string("ovn_dread_king_legions_faction_name"))
 		cm:force_add_trait(cm:char_lookup_str(dread_king_faction_leader_cqi), "dk_trait_name_dummy", false)
 
 		add_cqi_to_murdered_list(dread_king_faction_leader_cqi)
+
+		--- Give a diplo bonus with Arkhan.
+		local custom_bundle = cm:create_new_custom_effect_bundle("ovn_tomb_king_diplo_hidden")
+		custom_bundle:add_effect("ovn_diplo_bonus_with_arkhan", "faction_to_faction_own_unseen", 150)
+		cm:apply_custom_effect_bundle_to_faction(custom_bundle, dread_king)
 
 		cm:create_agent(
 			"wh2_dlc09_tmb_the_sentinels",

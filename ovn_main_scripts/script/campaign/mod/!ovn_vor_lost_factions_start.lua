@@ -697,6 +697,11 @@ local function dreadking_setup()
 		local galbaraz_region = cm:model():world():region_manager():region_by_key("wh2_main_vor_southern_badlands_galbaraz")
 		cm:force_add_trait(cm:char_lookup_str(dread_king_faction_leader_cqi), "dk_trait_name_dummy", false)
 
+		--- Give a diplo bonus with Arkhan.
+		local custom_bundle = cm:create_new_custom_effect_bundle("ovn_tomb_king_diplo_hidden")
+		custom_bundle:add_effect("ovn_diplo_bonus_with_arkhan", "faction_to_faction_own_unseen", 150)
+		cm:apply_custom_effect_bundle_to_faction(custom_bundle, dread_king)
+
 		add_cqi_to_murdered_list(dread_king_faction_leader_cqi)
 		if dread_king:is_human() then
 			cm:transfer_region_to_faction("wh2_main_vor_land_of_the_dead_zandri", "wh2_main_vmp_necrarch_brotherhood")
