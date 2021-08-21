@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+dilemmas_localised_description_ovn_dilemma_moot_confed	As the Mootland struggles to defend it's borders and homes, a growing contingent of Halflings and representatives of other states plead it fall under Imperial protection, for fear it will soon fall into enemy hands. Though they are still many Halflings that resist this and blame underhanded politicking, even some Elector Counts disagree, who think the Mootland should cede to them if anyone.	true
+dilemmas_localised_title_ovn_dilemma_moot_confed	The Moot Falters	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_moot_confedFIRST	Confederate The Moot 	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_moot_confedSECOND	An Independent Moot	true
+campaign_payload_ui_details_description_ovn_dilemma_moot_confed	[[col:green]]Confederation formed with the Mootland[[/col]]	true
+campaign_payload_ui_details_description_ovn_dilemma_moot_confed_deny	[[col:yellow]]Small chance Confederation will be offered again each turn[[/col]]	true

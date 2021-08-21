@@ -1,0 +1,6 @@
+campaign_payload_ui_details_tables	0
+component	icon
+dummy_elector_confederation	ui/campaign ui/effect_bundles/confederation.png
+dummy_elector_confederation_offer	ui/campaign ui/effect_bundles/diplomacy.png
+ovn_dilemma_moot_confed_deny	ui/campaign ui/effect_bundles/diplomacy.png
+ovn_dilemma_moot_confed	ui/campaign ui/effect_bundles/confederation.png

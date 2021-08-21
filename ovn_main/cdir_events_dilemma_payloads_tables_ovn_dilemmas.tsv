@@ -18,3 +18,7 @@ FIRST	ovn_dilemma_arb_excavation	906951700569	ADD_ANCILLARY	RANDOM_ANCILLARY;TAR
 FIRST	ovn_dilemma_arb_excavation	906951700570	TREASURY	AMOUNT[5000]
 FIRST	ovn_dilemma_alb_alt_leader	906951700571	ovn_dilemma_alb_current_leader	DURATION[1]
 SECOND	ovn_dilemma_alb_alt_leader	906951700572	ovn_dilemma_alb_alt_leader	DURATION[1]
+FIRST	ovn_dilemma_moot_confed	906951700573	FACTION_POOLED_RESOURCE_TRANSACTION	RESOURCE[emp_imperial_authority];FACTOR[wh2_dlc13_resource_factor_confederation];AMOUNT[-2]
+FIRST	ovn_dilemma_moot_confed	906951700574	TEXT_DISPLAY	LOOKUP[ovn_dilemma_moot_confed]
+SECOND	ovn_dilemma_moot_confed	906951700575	FACTION_POOLED_RESOURCE_TRANSACTION	RESOURCE[emp_prestige];FACTOR[wh2_dlc13_resource_factor_events];AMOUNT[200]
+SECOND	ovn_dilemma_moot_confed	906951700576	TEXT_DISPLAY	LOOKUP[ovn_dilemma_moot_confed_deny]

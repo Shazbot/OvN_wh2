@@ -17,3 +17,5 @@ ovn_dilemma_arb_excavation	906951701009	VAR_CHANCE	100
 ovn_dilemma_arb_excavation	906951701010	GEN_TARGET_NONE	
 ovn_dilemma_alb_alt_leader	906951701011	VAR_CHANCE	100
 ovn_dilemma_alb_alt_leader	906951701012	GEN_TARGET_NONE	
+ovn_dilemma_moot_confed	906951701013	VAR_CHANCE	100
+ovn_dilemma_moot_confed	906951701014	GEN_TARGET_NONE	
