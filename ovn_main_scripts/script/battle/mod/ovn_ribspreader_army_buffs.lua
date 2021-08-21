@@ -19,10 +19,10 @@ local function init()
 					local current_unit = army_units:item(k);
 					if current_unit then
 						if bm:random_number(change_one_in_x) == 1 then
-							current_unit:set_stat_attributes("causes_fear", true)
-							current_unit:set_stat_attributes("immune_to_psychology", true)
-							current_unit:set_stat_attributes("encourages", true)
-							current_unit:set_stat_attributes("fatigue_immune", true)
+							current_unit:set_stat_attribute("causes_fear", true)
+							current_unit:set_stat_attribute("immune_to_psychology", true)
+							current_unit:set_stat_attribute("encourages", true)
+							current_unit:set_stat_attribute("fatigue_immune", true)
 						end
 					end
 				end

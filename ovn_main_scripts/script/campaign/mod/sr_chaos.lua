@@ -1,3 +1,5 @@
+OVN_ROT_SKITTERGATE = OVN_ROT_SKITTERGATE or {}
+
 local rotbloods_faction_key = "wh2_main_nor_rotbloods"
 
 local function sr_chaos_new_game_setup(rotblood_tribe)
@@ -624,6 +626,7 @@ local exalted_hero_art_set_ids = {
 }
 
 local forced_art_sets = {}
+local blightstomer_campaign_plague_skill_points = {}
 
 ---@param char CA_CHAR
 local function handle_rotblood_character_art_set(char)
@@ -681,12 +684,15 @@ core:add_listener(
 cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("ovn_rotbloods_forced_art_sets", forced_art_sets, context)
+		cm:save_named_value("ovn_rotbloods_blightstomer_campaign_plague_skill_points", blightstomer_campaign_plague_skill_points, context)
 	end
 )
 
 cm:add_loading_game_callback(
 	function(context)
 		forced_art_sets = cm:load_named_value("ovn_rotbloods_forced_art_sets", forced_art_sets, context)
+		blightstomer_campaign_plague_skill_points = cm:load_named_value("ovn_rotbloods_blightstomer_campaign_plague_skill_points", blightstomer_campaign_plague_skill_points, context)
+		OVN_ROT_SKITTERGATE.blightstomer_campaign_plague_skill_points = blightstomer_campaign_plague_skill_points
 	end
 )
 
@@ -893,20 +899,36 @@ local function spawn_rasknitt()
 	)
 end
 
+local blightstormer_plague_chance_per_skill_points = {
+	[1] = 8,
+	[2] = 12,
+	[3] = 15,
+}
+
+local blightstormer_plague_friendly_chance_per_skill_points = {
+	[1] = 6,
+	[2] = 9,
+	[3] = 12,
+}
+
 local function apply_blightstormer_plagues()
 	local faction = cm:get_faction("wh2_main_nor_rotbloods")
 
 	---@type CA_CHAR
 	for char in binding_iter(faction:character_list()) do
 		if char:character_subtype("rbt_blightstormer") then
-			local random_chance = 10
-			local region = char:region()
+			local region = char:has_region() and char:region()
 			if region then
+				local char_permanent_cqi = tostring(char:family_member():command_queue_index())
+
+				local skill_points = blightstomer_campaign_plague_skill_points[char_permanent_cqi] or 1
+				local plague_chance = blightstormer_plague_chance_per_skill_points[skill_points]
+
 				if region:owning_faction():name() == char:faction():name() then
-					random_chance = 6
+					plague_chance = blightstormer_plague_friendly_chance_per_skill_points[skill_points]
 				end
 
-				if cm:random_number(random_chance) == 1 then
+				if cm:random_number(plague_chance) == 1 then
 					cm:spawn_plague_at_region(region, "wh2_main_plague_skaven")
 				end
 			end
@@ -1032,3 +1054,19 @@ upkeep_penalty_condition = function(faction, ...)
 
 	return original_upkeep_penalty_condition(faction, ...)
 end;
+
+core:remove_listener("ovn_rot_check_blightstomer_campaign_plague_points")
+core:add_listener(
+	"ovn_rot_check_blightstomer_campaign_plague_points",
+	"CharacterSkillPointAllocated",
+	function(context)
+		local skill = context:skill_point_spent_on();
+		return skill == "ovn_blightstomer_campaign_plague"
+	end,
+	function(context)
+		local char_permanent_cqi = tostring(context:character():family_member():command_queue_index())
+		blightstomer_campaign_plague_skill_points[char_permanent_cqi] = (blightstomer_campaign_plague_skill_points[char_permanent_cqi] or 1) + 1
+		OVN_ROT_SKITTERGATE.blightstomer_campaign_plague_skill_points = blightstomer_campaign_plague_skill_points
+	end,
+	true
+)
