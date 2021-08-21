@@ -1,0 +1,9 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				elo_rot_fanatics	all_non_chs
+false				elo_rot_fanatics	chs_all
+false				elo_rot_fanatics	chs_marauders
+false				elo_rot_fanatics	mp_set_chs_inf_chaos_marauders_0
+false				elo_rot_fanatics	wh2_dlc11_chs_marauders_aspiring_champions_forsaken
+false				elo_rot_fanatics	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
+false				elo_rot_fanatics	wh2_dlc16_chs_marauders_rank7
