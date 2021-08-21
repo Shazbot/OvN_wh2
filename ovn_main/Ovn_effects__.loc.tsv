@@ -136,3 +136,7 @@ effects_description_ovn_fester_diplo	Diplomatic relations: %+n with the faction 
 effect_bundles_localised_title_ovn_rot_fester_trans	New Fester Rat-Warrens	true
 effect_bundles_localised_description_ovn_rot_fester_trans	You have given lands to your pact-allies of Clan Fester.	true
 effects_description_ovn_faction_political_diplomacy_mod_all_except_fester	Diplomatic relations: %+n with all factions, except Clan Fester	true
+effects_description_ovn_diplo_bonus_with_arkhan	Diplomatic relations: %+n with the faction of Followers of Nagash	true
+effects_description_ovn_diplo_bonus_with_dread_king	Diplomatic relations: %+n with the faction of Dread King Legions	true
+effect_bundles_localised_title_ovn_tomb_king_diplo_hidden	Hidden Diplo Bonus	true
+effect_bundles_localised_description_ovn_tomb_king_diplo_hidden	Hidden Diplo Bonus	true

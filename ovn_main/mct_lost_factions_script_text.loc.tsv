@@ -25,7 +25,7 @@ mct_lost_factions_fimir_txt	Servants of Fimulneid (Fimir)	true
 mct_lost_factions_fimir_tt	Enables or disables AI led Servants of Fimulneid faction.	true
 mct_lost_factions_grudgebringers_txt	Grudgebringers	true
 mct_lost_factions_grudgebringers_tt	Enables or disables AI led Grudgebringers.	true
-mct_lost_factions_dreadking_txt	Dread King	true
-mct_lost_factions_dreadking_tt	Enables or disables AI led Dread King faction.	true
+mct_lost_factions_dreadking_txt	Dread King (Partially)	true
+mct_lost_factions_dreadking_tt	Enables or disables AI led Dread King faction. Will disable the Legendary Lord, but due to a technical limitation we cannot disable the whole faction.	true
 mct_lost_factions_rotblood_txt	Rotblood Tribe	false
 mct_lost_factions_rotblood_tt	Enables or disables AI led Rotblood Tribe.	false

@@ -24,3 +24,4 @@ ovn_faction_trait_belakor			faction	1	food.png	false	false	true
 wh2_main_sr_fervour	fervour	fervour	force	1	disaster.png	false	false	true
 ovn_faction_trait_grudge			faction	1	food.png	false	false	true
 wh2_main_lord_trait_tmb_the_sentinels	ph	ph	faction	1	disaster.png	false	false	true
+ovn_tomb_king_diplo_hidden			faction	0	diplomacy.png	false	false	true
