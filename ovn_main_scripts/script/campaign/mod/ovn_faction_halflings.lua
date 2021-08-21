@@ -160,18 +160,27 @@ local function halflings_init()
             "ovn_moot_confed_dilemma",
             "FactionTurnStart",
             function(context)
-                return context:faction():name() == "wh_main_emp_empire"
-                and not cm:get_faction("wh2_main_emp_the_moot"):is_dead()
-                and 1 == cm:random_number(33, 1)
-                --and context:faction():diplomatic_standing_with(cm:get_faction("wh2_main_emp_the_moot")) > 0
-                or context:faction():name() == "wh2_dlc13_emp_golden_order"
-                and not cm:get_faction("wh2_main_emp_the_moot"):is_dead()
-                and 1 == cm:random_number(33, 1)
-                --and context:faction():diplomatic_standing_with(cm:get_faction("wh2_main_emp_the_moot")) > 0
+							local faction = context:faction()
+							return not cm:get_faction("wh2_main_emp_the_moot"):is_dead()
+							and 1 == cm:random_number(33, 1)
+							and (
+								(
+									faction:name() == "wh_main_emp_empire"
+									and faction:is_human()
+									and faction:diplomatic_standing_with("wh2_main_emp_the_moot") > 0
+								)
+								or
+								(
+									faction:name() == "wh2_dlc13_emp_golden_order"
+									and faction:is_human()
+									and faction:diplomatic_standing_with("wh2_main_emp_the_moot") > 0
+								)
+							)
             end,
             function(context)
                 local faction_string = context:faction():name()
 
+								core:remove_listener("ovn_dilemma_moot_confed_choice")
                 core:add_listener(
                     "ovn_dilemma_moot_confed_choice",
                     "DilemmaChoiceMadeEvent",
@@ -182,7 +191,7 @@ local function halflings_init()
                         cm:force_confederation(faction_string, "wh2_main_emp_the_moot")
                     end
                     end,
-                    true
+                    false
                 )
 
                 cm:trigger_dilemma(faction_string, "ovn_dilemma_moot_confed")
