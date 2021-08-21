@@ -37,3 +37,17 @@ magical_aura	elo_supply_wagon
 shielded	halfling_militia
 whirling_pans	halfling_cook
 whirling_pans	halfling_cook_ror
+shielded	halfling_spear_emp
+anti_large	halfling_spear_emp
+anti_large	halfling_cook_emp
+magical_aura	halfling_cook_emp
+expendable	halfling_militia_emp
+poor_morale	halfling_spear_emp
+poor_morale	halfling_militia_emp
+shielded	halfling_militia_emp
+whirling_pans	halfling_cook_emp
+armour_piercing	halfling_milittia_great_emp
+expendable	halfling_milittia_great_emp
+expendable	halfling_milittia_arch_emp
+poor_morale	halfling_milittia_great_emp
+poor_morale	halfling_milittia_arch_emp

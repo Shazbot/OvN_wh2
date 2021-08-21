@@ -417,3 +417,9 @@ wh_main_special_settlement_kislev_5_emp	halfling_milittia_great	0	261500410	0		f
 wh_main_special_settlement_miragliano_3_emp	halfling_milittia_great	0	261500411	0		false
 wh_main_special_settlement_miragliano_4_emp	halfling_milittia_great	0	261500412	0		false
 wh_main_special_settlement_miragliano_5_emp	halfling_milittia_great	0	261500413	0		false
+wh_main_sch_special_moot_cauldron_1	ovn_mtl_art_hotpot_emp	0	261500417	0		true
+wh_main_sch_special_moot_cauldron_1	halfling_spear_emp	0	261500418	0		false
+wh_main_sch_special_moot_cauldron_1	halfling_militia_emp	0	261500419	0		false
+wh_main_sch_special_moot_cauldron_1	halfling_milittia_arch_emp	0	261500420	0		false
+wh_main_sch_special_moot_cauldron_1	halfling_milittia_great_emp	0	261500421	0		false
+wh_main_sch_special_moot_cauldron_1	halfling_cook_emp	0	261500422	0		false

@@ -180,7 +180,7 @@ local function halflings_init()
             function(context)
                 local faction_string = context:faction():name()
 
-								core:remove_listener("ovn_dilemma_moot_confed_choice")
+				core:remove_listener("ovn_dilemma_moot_confed_choice")
                 core:add_listener(
                     "ovn_dilemma_moot_confed_choice",
                     "DilemmaChoiceMadeEvent",

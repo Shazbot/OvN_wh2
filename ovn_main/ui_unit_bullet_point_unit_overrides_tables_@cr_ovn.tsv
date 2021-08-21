@@ -125,3 +125,5 @@ terror	ovn_alb_inf_stone_throw_giant
 anti_infantry	ovn_alb_inf_stone_throw_giant
 armour_piercing_ranged	ovn_arb_art_trebuchet
 ovn_rot_plague_spreader	ovn_rbt_ch_blightstormer
+anti_infantry	ovn_mtl_art_hotpot_emp
+armour_piercing_ranged	ovn_mtl_art_hotpot_emp
