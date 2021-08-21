@@ -45,3 +45,6 @@ ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_wh_main_sc
 technologies_short_description_rot_tech_skv_5	More Fester forces are assigned to assist the Rotblood armies in the field.	true
 technologies_onscreen_name_rot_tech_skv_5	The Undertide	true
 technologies_long_description_rot_tech_skv_5		true
+effects_description_ovn_blightstomer_fanatics_dummy	10%% chance for fanatics to become Unbreakable at the start of battle if a Blightstormer is present in the army. The chance doesn't stack.	true
+effects_description_ovn_blightstomer_campaign_plague_dummy	Chance to create a plague at start of turn in the campaign map region where this character is if the region does not belong to the Rotbloods: %n%	true
+effects_description_ovn_blightstomer_campaign_plague_friendly_dummy	Chance to create a plague at start of turn in the campaign map region where this character is if the region belongs to the Rotbloods: %n%	true

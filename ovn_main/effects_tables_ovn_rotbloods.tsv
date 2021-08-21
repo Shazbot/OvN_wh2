@@ -13,3 +13,6 @@ ovn_rot_skittergate_enable_dummy	dlc12_reactor_core.png	101	dlc12_reactor_core.p
 ovn_warp_skaven_mercs_desc_dummy	icon_ritual_currency_skv_bundle.png	1201	icon_ritual_currency_skv_bundle.png	campaign	true
 ovn_rot_tech_skv_3_dummy	dlc12_reactor_core.png	1201	dlc12_reactor_core.png	campaign	true
 ovn_rot_tech_skv_4_dummy	dlc12_reactor_core.png	1201	dlc12_reactor_core.png	campaign	true
+ovn_blightstomer_campaign_plague_dummy	plague.png	53	plague.png	campaign	true
+ovn_blightstomer_fanatics_dummy	general_ability.png	53	general_ability.png	campaign	true
+ovn_blightstomer_campaign_plague_friendly_dummy	plague.png	53	plague.png	campaign	true

@@ -1,3 +1,5 @@
 character_skills_tables	5
 image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
 character_magic.png	roy_skill_ovn_rbt_blightstomer_blightstorm			0	false	false	false	0.0	0
+wh2_main_spell_ruin_flensing_ruin.png	ovn_blightstomer_campaign_plague			0	false	false	false	0.0	0
+wh_main_spell_bound_soulfire.png	ovn_blightstomer_fanatics			0	false	false	false	0.0	0
