@@ -1,6 +1,6 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_wizard/celestial/elo_larenscheld_01.wsmodel"  >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/emp/emp_wizard/celestial/ovn_larenscheld.rigid_model_v2"  >
 		<META_DATA>audio_entity_type:wh_necromancer_male_LH</META_DATA>					<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
 	</SLOT>
     <SLOT name="accesoires" >
