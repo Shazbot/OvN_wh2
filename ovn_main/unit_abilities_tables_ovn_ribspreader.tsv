@@ -3,3 +3,4 @@ key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is
 ribspreader_disable_sickness_host	false	wh2_main_character_passive_aura_of_pestilence		wh_type_hex		wh_main_anc_group_uncommon	false	false	unit	sickness_host	false
 ribspreader_summon_allies	true	wh2_pro08_character_passive_blood_oath		wh_type_augment		wh_main_anc_group_uncommon	true	false	unit		false
 ribspreader_plague_of_rust	true	wh_main_spell_metal_plague_of_rust		wh_type_hex		wh_main_anc_group_uncommon	true	false	unit		false
+ovn_spawn_fanatics	true	wh2_main_spell_plague_vermintide		wh_type_augment	spell_previews/plague/wh2_main_spell_plague_vermintide	wh_main_anc_group_uncommon	true	false	spell		false

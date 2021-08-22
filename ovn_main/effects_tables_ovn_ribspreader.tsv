@@ -14,3 +14,6 @@ ovn_enable_attribute_fatigue_res	ovn_fatigue_res.png	101	ovn_fatigue_res.png	bat
 ribspreader_plague_of_rust	spell_ability.png	3	spell_ability.png	battle	true
 ovn_army_enable_the_menace_below_dummy	religion_skaven.png	1	religion_skaven.png	battle	true
 ovn_rot_fester_region_reward	icon_ritual_currency_skv_bundle.png	1	icon_ritual_currency_skv_bundle.png	campaign	true
+ovn_spawn_fanatics_enable	spell_ability.png	3	spell_ability.png	battle	true
+ovn_reduce_wom_cost_spawn_fanatics	spell_ability.png	67	spell_ability.png	battle	false
+ovn_reduce_cooldown_spawn_fanatics	magic_cooldown.png	60	magic_cooldown.png	battle	false

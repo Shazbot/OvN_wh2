@@ -59,3 +59,11 @@ unit_abilities_onscreen_name_ribspreader_plague_of_rust	Nurgle's Gentle Touch	tr
 effects_description_ribspreader_plague_of_rust	Ability: "Nurgle's Gentle Touch"	true
 effects_description_ovn_army_enable_the_menace_below_dummy	Army ability: "The Menace Below"	true
 effects_description_ovn_rot_fester_region_reward	Recieve 10[[img:ui/skins/wh2_main_skaven/icon_ritual_currency.png]][[/img]] for each region gifted	true
+unit_abilities_additional_ui_effects_localised_text_ovn_spawn_fanatics	[[col:green]][[img:icon_arrow_up]][[/img]] Summons a unit of Fanatics[[/col]]	true
+unit_abilities_tooltip_text_ovn_spawn_fanatics	The Blightstormer calls and the Fanatics will answer!	true
+unit_abilities_onscreen_name_ovn_spawn_fanatics	The Lost Of The Tribe	true
+effects_description_ovn_spawn_fanatics_enable	Spell: "The Lost Of The Tribe"	true
+character_skills_localised_description_ovn_spawn_fanatics_skill	 	true
+character_skills_localised_name_ovn_spawn_fanatics_skill	The Lost Of The Tribe	true
+effects_description_ovn_reduce_cooldown_spawn_fanatics	Cooldown: %+n% to "The Lost Of The Tribe"	true
+effects_description_ovn_reduce_wom_cost_spawn_fanatics	Winds of Magic cost: %n for "The Lost Of The Tribe"	true
