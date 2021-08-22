@@ -1198,6 +1198,20 @@ end
 --------------------------------------------------------------
 ----------------------- DREAD KING  --------------------------
 --------------------------------------------------------------
+--- Disable undead units if the faction is disabled with MCT
+local undead_dread_king_units = {
+	["ovn_dkl_mon_skeleton_giant"] = true,
+	["wh2_dlc09_tmb_mon_fell_bats"] = true,
+	["wh2_dlc09_tmb_mon_dire_wolves"] = true,
+	["wh_main_vmp_mon_crypt_horrors"] = true,
+	["wh_main_vmp_inf_grave_guard_0"] = true,
+	["wh2_dlc09_tmb_inf_crypt_ghouls"] = true,
+	["black_grail_knights_tmb"] = true,
+	["elo_tomb_guardian"] = true,
+	["elo_tomb_guardian_2h_waepons"] = true,
+	["elo_tomb_guardian_spears"] = true,
+	["elo_tomb_guardian_archers"] = true,
+}
 
 local function dreadking_setup()
 	local dread_king = cm:get_faction("wh2_dlc09_tmb_the_sentinels")
@@ -1237,6 +1251,10 @@ local function dreadking_setup()
 		end
 
 		table.insert(factions, "wh2_dlc09_tmb_the_sentinels")
+	else
+		for unit_key, _ in pairs(undead_dread_king_units) do
+			cm:add_event_restricted_unit_record_for_faction(unit_key, "wh2_dlc09_tmb_the_sentinels")
+		end
 	end
 end
 
