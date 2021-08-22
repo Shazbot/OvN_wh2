@@ -1,0 +1,9 @@
+Loc PackedFile	1
+key	text	tooltip
+land_units_concealed_name_ovn_hlf_bee_throwers		true
+land_units_onscreen_name_ovn_hlf_bee_throwers	Halfling Beekeepers	true
+unit_description_short_texts_text_ovn_hlf_bee_throwers	Halfling beekeepers who tend to their apiaries in times of peace, now ready to unleash unbeelievable devastation.	true
+effects_description_ovn_hlf_bee_throwers_cap	Capacity: %+n Halfling Beekeepers	true
+ui_unit_groupings_tooltip_ovn_hlf_bee_throwers	 	true
+ui_unit_groupings_onscreen_ovn_hlf_bee_throwers	Bee Artillery	true
+special_ability_phases_onscreen_name_ovn_hlf_bee_throwers_contact	[[col:red]][[img:ui/pj_hlf_bees/bee_icon_16.png]][[/img]]Not the bees!!![[/col]]	true

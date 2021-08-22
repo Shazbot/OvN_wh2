@@ -1,0 +1,3 @@
+units_custom_battle_permissions_tables	8
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_main_emp_the_moot	false	ovn_hlf_bee_throwers	true	true				false
