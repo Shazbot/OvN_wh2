@@ -47,10 +47,10 @@ ancillaries_onscreen_name_ribspreader_weapon	Bödvarr's Greataxe	true
 ancillaries_colour_text_ribspreader_weapon	Stories tell that Bödvarr's Greataxe had been dipped in Nurgle's bubbling cauldron itself. But tales aside, where this pestilent weapon strikes iron rusts and flesh festers.	true
 character_skills_localised_name_ribspreader_weapon_skill	Bödvarr's Greataxe	true
 character_skills_localised_description_ribspreader_weapon_skill	Stories tell that Bödvarr's Greataxe had been dipped in Nurgle's bubbling cauldron itself. But tales aside, where this pestilent weapon strikes iron rusts and flesh festers.	true
-effects_description_ribspreader_chaos_vanguard_armour	Armour: %+n for Marauders, Marauder Berserkers, Aspiring Champions, and Forsaken units	true
-effects_description_ribspreader_chaos_vanguard_md	Melee defence: %+n for Marauders, Marauder Berserkers, Aspiring Champions, and Forsaken units	true
-character_skills_localised_name_ribspreader_chaos_vanguard	Chaos Vanguard	true
-character_skills_localised_description_ribspreader_chaos_vanguard	To the Northmen, there is no greater honour than to fight and perish under the gaze of the Gods.	true
+effects_description_ribspreader_chaos_vanguard_armour	Armour: %+n for Fanatics, Marauders, Marauder Berserkers, Aspiring Champions, and Forsaken units	true
+effects_description_ribspreader_chaos_vanguard_md	Melee defence: %+n for Fanatics, Marauders, Marauder Berserkers, Aspiring Champions, and Forsaken units	true
+character_skills_localised_name_ribspreader_chaos_vanguard	Nurgle Fanaticism	true
+character_skills_localised_description_ribspreader_chaos_vanguard	Pray and pray some more to the Rotfather for his twisted blessings are plentiful.	true
 character_skills_localised_name_ribspreader_battle_ranged_elite	Ranged Supremacy	true
 character_skills_localised_description_ribspreader_battle_ranged_elite	Cull the weak of the enemy from a distance so the worthy may fight in peace.	true
 effects_description_ovn_enable_attribute_fatigue_res	Attribute: Strong Vigour	true

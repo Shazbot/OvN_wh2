@@ -94,6 +94,7 @@ wh2_main_nor_rotbloods	false	wh2_main_skv_mon_rat_ogres	true	true				false
 wh2_main_nor_rotbloods	false	rbt_nurgle_daemon	true	true				false
 wh2_main_nor_rotbloods	false	ovn_rbt_ch_blightstormer	true	true	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	ovn_rbt_blightstormer	ovn_rbt_blightstormer	false
 wh2_main_nor_rotbloods	false	wh_dlc08_nor_inf_marauder_berserkers_0	true	true				false
+wh2_main_nor_rotbloods	false	wh_dlc01_chs_cav_gorebeast_chariot	true	true				false
 wh2_main_nor_rotbloods	false	wh2_dlc12_skv_inf_ratling_gun_0	true	true				true
 wh2_main_nor_rotbloods	false	wh2_dlc12_skv_inf_warplock_jezzails_0	true	true				true
 wh2_main_nor_rotbloods	false	wh2_dlc12_skv_veh_doom_flayer_0	true	true				true
