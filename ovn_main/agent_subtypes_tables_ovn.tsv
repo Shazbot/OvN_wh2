@@ -31,7 +31,7 @@ elo_liche_general	true	true		elo_liche_general	wh2_dlc09_vo_actor_Tomb_Kings_Lic
 elo_cha_troll_lord	true	false		elo_cha_troll_lord	wh_dlc03_vo_actor_Beastlord	true	-1	false	true	true	true	troll_lord			false
 elo_chief_ugma	false	false		elo_chief_ugma	wh_dlc08_vo_actor_Norsca_Throgg	true	-1	false	true	true	true	legendary_lords			false
 ovn_hlf_ll	true	false		ovn_hlf_ll	wh_main_vo_actor_Empire_General	true	-1	false	true	true	true	halfling_lord			false
-morgan_bernhardt	false	false		morgan_bernhardt	wh_main_vo_actor_Empire_General	false	-1	false	true	true	true	legendary_lords			false
+morgan_bernhardt	false	false		morgan_bernhardt	wh_main_vo_actor_Empire_General	true	-1	false	true	true	true	legendary_lords			false
 vladimir_stormbringer	false	true	ui/campaign ui/agents/wh_main_lore_ice.png	vladimir_stormbringer	wh_main_vo_actor_Empire_CelestialWizard	false	-1	false	true	true	true				false
 ovn_stormrider	false	false		ovn_stormrider	wh2_main_vo_actor_High_Elves_Prince	true	-1	false	true	true	true	legendary_lords			false
 ovn_araby_ll	true	false		ovn_araby_ll	wh2_dlc11_vo_actor_Generic_Human	true	-1	false	true	true	true	araby_lord			false

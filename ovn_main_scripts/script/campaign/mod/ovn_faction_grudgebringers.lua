@@ -114,7 +114,231 @@ core:add_listener(
 	true
 )
 
+local function set_up_grudgebingers_ME_confed_listener()
+    if not cm:get_saved_value("ovn_grudge_hire_save") and (cm:get_faction("wh_main_emp_empire"):is_human() or cm:get_faction("wh2_dlc13_emp_golden_order"):is_human()) then
+        core:add_listener(
+            "ovn_grudge_hire_dilemma",
+            "FactionTurnStart",
+            function(context)
+                local faction = context:faction()
+                return 1 == cm:random_number(33, 1)
+                and (
+                    (
+                        faction:name() == "wh_main_emp_empire"
+                        and faction:is_human()
+                    )
+                    or
+                    (
+                        faction:name() == "wh2_dlc13_emp_golden_order"
+                        and faction:is_human()
+                    )
+                )
+            end,
+            function(context)
+                local faction_string = context:faction():name()
+
+                core:remove_listener("ovn_grudge_hire_confed_choice")
+                core:add_listener(
+                    "ovn_grudge_hire_confed_choice",
+                    "DilemmaChoiceMadeEvent",
+                    function(context) return context:dilemma():starts_with("ovn_dilemma_grudge_hire_vortex") end,
+                    function(context)
+                        local faction_string = context:faction():name()
+                        if context:choice() == 0 then
+                            local grudebringers_string = "wh2_main_emp_grudgebringers"
+                            local faction_interface = cm:get_faction(faction_string)
+                            cm:disable_event_feed_events(true, "", "", "diplomacy_trespassing")
+                            cm:disable_event_feed_events(true, "", "", "faction_joins_confederation")
+                            if cm:get_faction("wh2_main_emp_grudgebringers"):is_dead() then
+                                cm:create_force_with_general(
+                                    faction_string,
+                                    "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,wh_dlc04_emp_inf_flagellants_0",
+                                    "wh2_main_dragon_isles_shattered_stone_isle",
+                                    687,
+                                    333,
+                                    "general",
+                                    "morgan_bernhardt",
+                                    "names_name_3110890001",
+                                    "",
+                                    "names_name_3110890002",
+                                    "",
+                                    false,
+                                    function(cqi)
+                                        cm:set_character_immortality("faction:wh2_main_emp_grudgebringers,surname:3110890002", true);
+                                        cm:set_character_unique("character_cqi:"..cqi, true);
+                                        local character = cm:get_character_by_cqi(cqi)
+                                        cm:force_add_ancillary(character, "ovn_anc_magic_standard_ptolos", true, false)
+                                        cm:force_add_ancillary(character, "grudge_item_grudgebringer_sword", true, false)
+                                    end
+                                )
+                            else
+                                cm:teleport_to("faction:wh2_main_emp_grudgebringers,forename:3110890001", 687, 333, true)
+                                cm:force_confederation(faction_string, "wh2_main_emp_grudgebringers")
+                            end
+
+                            cm:callback(
+                                function()
+                                    cm:disable_event_feed_events(false, "", "", "diplomacy_trespassing")
+                                    cm:disable_event_feed_events(false, "", "", "faction_joins_confederation")
+                                end,
+                                1
+                            )
+
+                            local unit_count = 1 -- card32 count
+                            local rcp = 20 -- float32 replenishment_chance_percentage
+                            local max_units = 1 -- int32 max_units
+                            local murpt = 0.1 -- float32 max_units_replenished_per_turn
+                            local xp_level = 0 -- card32 xp_level
+                            local frr = "" -- (may be empty) String faction_restricted_record
+                            local srr = "" -- (may be empty) String subculture_restricted_record
+                            local trr = "" -- (may be empty) String tech_restricted_record
+                            local units = {
+                                "grudgebringer_infantry",
+                                "grudgebringer_cannon",
+                                "grudgebringer_crossbow",
+                            }
+
+                            for _, unit in ipairs(units) do
+                                cm:add_unit_to_faction_mercenary_pool(
+                                    faction_interface,
+                                    unit,
+                                    unit_count,
+                                    rcp,
+                                    max_units,
+                                    murpt,
+                                    xp_level,
+                                    frr,
+                                    srr,
+                                    trr,
+                                    true
+                                )
+                            end
+
+                            cm:set_saved_value("ovn_grudge_hire_save", true)
+                        end
+                    end,
+                    false
+                )
+
+                cm:trigger_dilemma(faction_string, "ovn_dilemma_grudge_hire_vortex")
+            end,
+            true
+        )
+    end
+end
+
+local function set_up_grudgebingers_vortex_confed_listener()
+    if not cm:get_saved_value("ovn_grudge_hire_save") and cm:get_faction("wh2_dlc13_emp_the_huntmarshals_expedition"):is_human() then
+        core:add_listener(
+            "ovn_grudge_hire_dilemma",
+            "FactionTurnStart",
+            function(context)
+                local faction = context:faction()
+                return 1 == cm:random_number(33, 1)
+                    and faction:name() == "wh2_dlc13_emp_the_huntmarshals_expedition"
+                    and faction:is_human()
+            end,
+            function(context)
+                local faction_string = context:faction():name()
+
+                core:remove_listener("ovn_grudge_hire_confed_choice")
+                core:add_listener(
+                    "ovn_grudge_hire_confed_choice",
+                    "DilemmaChoiceMadeEvent",
+                    function(context) return context:dilemma():starts_with("ovn_dilemma_grudge_hire") end,
+                    function(context)
+                        local faction_string = context:faction():name()
+                        if context:choice() == 0 then
+                            local grudebringers_string = "wh2_main_emp_grudgebringers"
+                            local faction_interface = cm:get_faction(faction_string)
+                            cm:disable_event_feed_events(true, "", "", "diplomacy_trespassing")
+                            cm:disable_event_feed_events(true, "", "", "faction_joins_confederation")
+                            if cm:get_faction("wh2_main_emp_grudgebringers"):is_dead() then
+                                cm:create_force_with_general(
+                                    faction_string,
+                                    "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,wh_dlc04_emp_inf_flagellants_0",
+                                    "wh2_main_dragon_isles_shattered_stone_isle",
+                                    687,
+                                    333,
+                                    "general",
+                                    "morgan_bernhardt",
+                                    "names_name_3110890001",
+                                    "",
+                                    "names_name_3110890002",
+                                    "",
+                                    false,
+                                    function(cqi)
+                                        cm:set_character_immortality("faction:wh2_main_emp_grudgebringers,surname:3110890002", true);
+                                        cm:set_character_unique("character_cqi:"..cqi, true);
+                                        local character = cm:get_character_by_cqi(cqi)
+                                        cm:force_add_ancillary(character, "ovn_anc_magic_standard_ptolos", true, false)
+                                        cm:force_add_ancillary(character, "grudge_item_grudgebringer_sword", true, false)
+                                    end
+                                )
+                            else
+                                cm:teleport_to("faction:wh2_main_emp_grudgebringers,forename:3110890001", 687, 333, true)
+                                cm:force_confederation(faction_string, "wh2_main_emp_grudgebringers")
+                            end
+
+                            cm:callback(
+                                function()
+                                    cm:disable_event_feed_events(false, "", "", "diplomacy_trespassing")
+                                    cm:disable_event_feed_events(false, "", "", "faction_joins_confederation")
+                                end,
+                                1
+                            )
+
+                            local unit_count = 1 -- card32 count
+                            local rcp = 20 -- float32 replenishment_chance_percentage
+                            local max_units = 1 -- int32 max_units
+                            local murpt = 0.1 -- float32 max_units_replenished_per_turn
+                            local xp_level = 0 -- card32 xp_level
+                            local frr = "" -- (may be empty) String faction_restricted_record
+                            local srr = "" -- (may be empty) String subculture_restricted_record
+                            local trr = "" -- (may be empty) String tech_restricted_record
+                            local units = {
+                                "grudgebringer_infantry",
+                                "grudgebringer_cannon",
+                                "grudgebringer_crossbow",
+                            }
+
+                            for _, unit in ipairs(units) do
+                                cm:add_unit_to_faction_mercenary_pool(
+                                    faction_interface,
+                                    unit,
+                                    unit_count,
+                                    rcp,
+                                    max_units,
+                                    murpt,
+                                    xp_level,
+                                    frr,
+                                    srr,
+                                    trr,
+                                    true
+                                )
+                            end
+
+                            cm:set_saved_value("ovn_grudge_hire_save", true)
+                        end
+                    end,
+                    false
+                )
+
+                cm:trigger_dilemma(faction_string, "ovn_dilemma_grudge_hire")
+            end,
+            true
+        )
+    end
+end
+
 local function grudgebringers_init()
+    -- ALLOW EMPIRE FACTIONS TO HIRE GRUDGEBRINGERS IN MORTAL EMPIRES
+    if cm:model():campaign_name("main_warhammer") then
+        set_up_grudgebingers_ME_confed_listener()
+    else
+        set_up_grudgebingers_vortex_confed_listener()
+    end
+
     local faction_key = "wh2_main_emp_grudgebringers"
     local faction_obj = cm:get_faction(faction_key)
 
@@ -285,8 +509,9 @@ local function grudgebringers_init()
             )
         end
 
-        --MORTAL EMPIRES MISSIONS--
+        --MORTAL EMPIRES MISSIONS --
         if cm:model():campaign_name("main_warhammer") then
+
             if not cm:get_saved_value("morgheim_rescue") then
 
                 core:add_listener(

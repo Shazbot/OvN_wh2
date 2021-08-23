@@ -1,0 +1,14 @@
+Loc PackedFile	1
+key	text	tooltip
+dilemmas_localised_description_ovn_dilemma_grudge_hire	After a recent campaign the Grudgebringers are available to hire. The Empire is always in need of good soldiers and Commander Bernhardt and his troops are some of the finest available. They have shown strength and loyalty to the crown on many occasions, fighting many successful campaigns against our foes. They could prove invaluable, yet again, in the defence of the Empire and her allies in these dark times.	true
+dilemmas_localised_title_ovn_dilemma_grudge_hire	Grudgebringer Mercenaries	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_grudge_hireFIRST	Hire The Grudgebringers	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_grudge_hireSECOND	Turn Down	true
+campaign_payload_ui_details_description_ovn_dilemma_grudge_hire	[[sortorder:2]][[/sortorder]][[col:green]]The Grudgebringers will fall under our command[[/col]]	true
+campaign_payload_ui_details_description_ovn_dilemma_grudge_hire_deny	[[sortorder:2]][[/sortorder]][[col:yellow]]Small chance each turn to be offered again[[/col]]	true
+dilemmas_localised_description_ovn_dilemma_grudge_hire_vortex	After a recent campaign the Grudgebringers are available to hire. The Empire is always in need of good soldiers and Commander Bernhardt and his troops are some of the finest available. They have shown strength and loyalty to the crown on many occasions, fighting many successful campaigns against our foes. They could prove invaluable, yet again, in the defence of the Empire and her allies in these dark times.	true
+dilemmas_localised_title_ovn_dilemma_grudge_hire_vortex	Grudgebringer Mercenaries	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_grudge_hire_vortexFIRST	Hire The Grudgebringers	true
+cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_grudge_hire_vortexSECOND	Turn Down	true
+campaign_payload_ui_details_description_ovn_dilemma_grudge_hire_vortex	[[sortorder:2]][[/sortorder]][[col:green]]The Grudgebringers will fall under our command[[/col]]	true
+campaign_payload_ui_details_description_ovn_dilemma_grudge_hire_vortex_deny	[[sortorder:2]][[/sortorder]][[col:yellow]]Small chance each turn to be offered again[[/col]]	true

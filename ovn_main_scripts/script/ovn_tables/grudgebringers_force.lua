@@ -14,8 +14,7 @@ local grudgebringers = {
 		make_faction_leader = true,
 		callback =
 				function(cqi)
-						cm:add_agent_experience("faction:wh2_main_emp_grudgebringers,forename:3110890001", 2000)
-						--cm:set_character_immortality("faction:wh2_main_emp_grudgebringers,surname:3110890002", true);
+						cm:set_character_immortality("character_cqi:" .. cqi, true)
 						cm:set_character_unique("character_cqi:"..cqi, true);
 				end
 	},
@@ -34,8 +33,7 @@ local grudgebringers = {
 		make_faction_leader = true,
 		callback =
 				function(cqi)
-						cm:add_agent_experience("faction:wh2_main_emp_grudgebringers,forename:3110890001", 2000)
-						--cm:set_character_immortality("faction:wh2_main_emp_grudgebringers,surname:3110890002", true);
+						cm:set_character_immortality("character_cqi:" .. cqi, true)
 						cm:set_character_unique("character_cqi:"..cqi, true);
 				end
 	}

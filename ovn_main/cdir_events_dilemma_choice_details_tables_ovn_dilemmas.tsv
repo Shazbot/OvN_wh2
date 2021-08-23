@@ -22,3 +22,7 @@ FIRST	ovn_dilemma_alb_alt_leader
 SECOND	ovn_dilemma_alb_alt_leader	
 FIRST	ovn_dilemma_moot_confed	
 SECOND	ovn_dilemma_moot_confed	
+FIRST	ovn_dilemma_grudge_hire	
+SECOND	ovn_dilemma_grudge_hire	
+FIRST	ovn_dilemma_grudge_hire_vortex	
+SECOND	ovn_dilemma_grudge_hire_vortex	
