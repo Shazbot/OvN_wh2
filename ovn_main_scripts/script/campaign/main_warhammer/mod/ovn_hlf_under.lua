@@ -388,7 +388,15 @@ core:add_listener(
 			false,
 			function(cqi)
 				local char = cm:get_character_by_cqi(cqi)
-				cm:replenish_action_points(cm:char_lookup_str(char))
+				local char_lookup_str = cm:char_lookup_str(char)
+				cm:replenish_action_points(char_lookup_str)
+
+				local lvl = math.ceil(cm:get_faction("wh2_main_emp_the_moot"):faction_leader():rank()/2)
+				local xp = cm.character_xp_per_level[lvl]
+
+				local current_lvl = char:rank()
+				local current_xp = cm.character_xp_per_level[current_lvl]
+				cm:add_agent_experience(char_lookup_str, math.max(0, xp-current_xp));
 			end
 		)
 
