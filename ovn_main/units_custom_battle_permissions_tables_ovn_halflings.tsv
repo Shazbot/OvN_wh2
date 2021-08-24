@@ -77,9 +77,9 @@ wh2_main_emp_the_moot	true	ovn_com_cha_olorin_the_grey_wizard_0	true	true	ui/por
 wh2_main_emp_the_moot	false	ovn_com_cha_aragand_the_layabout_0	true	true	ui/portraits/portholes/ovn_the_comradeship/ovn_com_aragand_the_layabout.png		ovn_com_cha_aragand_the_layabout	false
 wh2_main_emp_the_moot	false	ovn_com_cha_legles_the_elf_0	true	true	ui/portraits/portholes/ovn_the_comradeship/ovn_com_legles_the_elf.png		ovn_com_cha_legles_the_elf	false
 wh2_main_emp_the_moot	false	ovn_com_cha_giblit_the_dwarf_0	true	true	ui/portraits/portholes/ovn_the_comradeship/ovn_com_giblit_the_dwarf.png		ovn_com_cha_giblit_the_dwarf	false
-wh_main_emp_empire_mp_custom_battles_only	false	ovn_mtl_art_hotpot_emp	true	true				false
-wh_main_emp_empire_mp_custom_battles_only	false	halfling_cook_emp	true	true				false
-wh_main_emp_empire_mp_custom_battles_only	false	halfling_spear_emp	true	true				false
-wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_arch_emp	true	true				false
-wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_great_emp	true	true				false
-wh_main_emp_empire_mp_custom_battles_only	false	halfling_militia_emp	true	true				false
+wh_main_emp_empire_mp_custom_battles_only	false	ovn_mtl_art_hotpot_emp	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	halfling_cook_emp	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	halfling_spear_emp	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_arch_emp	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_great_emp	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	halfling_militia_emp	true	true				true

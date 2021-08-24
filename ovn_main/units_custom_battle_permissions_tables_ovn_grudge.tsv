@@ -99,3 +99,11 @@ wh2_main_emp_grudgebringers	false	wh2_twa05_ogr_inf_ogres_0	true	true				true
 wh2_main_emp_grudgebringers	false	wh2_twa05_ogr_inf_ogres_1	true	true				true
 wh2_main_emp_grudgebringers	false	wh2_twa05_ogr_inf_maneaters_2	true	true				true
 wh2_main_emp_grudgebringers	false	wh2_twa05_ogr_inf_maneaters_3	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	true	morgan_bernhardt	true	true	ui/portraits/portholes/wh_main_emp_empire/morgan_bernhardt.png	wh_main_uniform_morgan_bernhardt	ovn_grudge	false
+wh_main_emp_empire_mp_custom_battles_only	false	grudgebringer_infantry	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	grudgebringer_cannon	true	true				true
+wh_main_emp_empire_mp_custom_battles_only	false	grudgebringer_crossbow	true	true				true
+wh2_dlc13_emp_the_huntmarshals_expedition	true	morgan_bernhardt	true	true	ui/portraits/portholes/wh_main_emp_empire/morgan_bernhardt.png	wh_main_uniform_morgan_bernhardt	ovn_grudge	false
+wh2_dlc13_emp_the_huntmarshals_expedition	false	grudgebringer_infantry	true	true				true
+wh2_dlc13_emp_the_huntmarshals_expedition	false	grudgebringer_cannon	true	true				true
+wh2_dlc13_emp_the_huntmarshals_expedition	false	grudgebringer_crossbow	true	true				true
