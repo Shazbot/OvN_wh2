@@ -1,0 +1,4 @@
+special_ability_phases_tables	35
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+40.0	positive	elo_reservoir_hammer		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack		-1.0	false	true	true	0.0	
+15.0	positive	elo_trash_armour		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence		-1.0	false	true	true	0.0	

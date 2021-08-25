@@ -1,0 +1,18 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_enable_run_and_shakeoff	Ability: "Devour them all!"	true
+effects_description_enable_frenzy	Ability: "Frenzy"	true
+effects_description_enable_stoneskin	Ability: "Stone Skin"	true
+effects_description_elo_raw_might_frenzy	Ability: "Frenzy" for Bile Trolls, Norscan Trolls and Armoured Chaos Trolls {{tr:rank7}}	true
+effects_description_enable_tantrum	Ability: "Reckless Rampage"	true
+effects_description_enable_stink	Ability: "Stink Baaaad!"	true
+effects_description_enable_death_stench	Ability: "Stench of Death!"	false
+effects_description_disable_horrible_stench	Replaces: "Overwhelming Odor!"	false
+effects_description_enable_mon_strength	Ability: "Monstrous Strength"	false
+effects_description_enable_elo_troll_me_boss_now	Ability: "Me Boss Now!"	false
+effects_description_enable_elo_lesser_vomit	Ability: "Corrosive Vomit"	false
+effects_description_enable_elo_violent_command	Ability: "Violent Command"	false
+effects_description_enable_elo_greater_swamp_breath	Ability: "Greater Swamp Breath"	false
+effects_description_enable_wh_main_hero_passive_swarm_of_flies	Ability: "Swarm of Flies"	false
+effects_description_enable_elo_reservoir_hammer	Ability: "Karak Azgal Stone Hammer"	false
+effects_description_enable_elo_trash_armour	Ability: "Trash Armour"	false
