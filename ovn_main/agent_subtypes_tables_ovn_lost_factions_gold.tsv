@@ -1,0 +1,57 @@
+agent_subtypes_tables	19
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	audio_vo_culture_override	spam_click_vo_enabled
+elo_carrion_boss	true	false	ui/campaign ui/agents/wh_main_grn_spy.png	elo_carrion_boss	wh_main_vo_actor_Goblin_BigBoss	true	-1	false	true	true	true				false
+elo_dread_larenscheld	false	true	ui/campaign ui/agents/wh_main_lore_vampires.png	elo_dread_larenscheld	wh_main_vo_actor_Vampire_Necromancer	true	1	false	true	true	true				false
+elo_hand_of_nagash	false	true		elo_hand_of_nagash	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	true	1	false	true	true	true	legendary_lords			false
+ovn_com_olorin_the_grey_wizard	false	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	ovn_com_cha_olorin_the_grey_wizard_0	wh_dlc05_vo_actor_Empire_GreyWizard	true	-1	false	true	true	true	legendary_lords			false
+ovn_com_aragand_the_layabout	false	false	ui/campaign ui/agents/wh_main_emp_champion.png	ovn_com_cha_aragand_the_layabout_0	wh_main_vo_actor_Empire_Captain	false	-1	false	true	false	false				false
+ovn_com_legles_the_elf	false	false	ui/campaign ui/agents/wh2_dlc16_wef_dignitary.png	ovn_com_cha_legles_the_elf_0	wh_dlc05_vo_actor_Wood_Elves_Male_Glade_Lord	false	-1	false	true	false	false				false
+ovn_com_giblit_the_dwarf	false	false	ui/campaign ui/agents/wh_main_dwf_champion.png	ovn_com_cha_giblit_the_dwarf_0	wh_main_vo_actor_Dwarf_UngrimIronfist	false	-1	false	true	false	false				false
+belakor	false	true		belakor	wh_main_vo_actor_Chaos_LordOfChange	true	-1	false	true	false	true	legendary_lords			false
+albion_warleader	true	false		albion_warleader	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	true	true	albion_warleader			false
+albion_truthsayer_beast	true	true	ui/campaign ui/agents/wh_dlc03_lore_beasts.png	albion_truthsayer_beast	vo_actor_Empire_dlc03_AmberWizard	true	-1	false	true	true	true	albion_truthsayer	wh_dlc03_lore_beasts		false
+albion_truthsayer_life	true	true	ui/campaign ui/agents/wh_dlc05_lore_life.png	albion_truthsayer_life	wh_dlc05_vo_actor_Empire_JadeWizard	true	-1	false	true	true	true	albion_truthsayer	wh_dlc05_lore_life		false
+albion_truthsayer_light	true	true	ui/campaign ui/agents/wh_main_lore_light.png	albion_truthsayer_light	wh_main_vo_actor_Empire_LightWizard	true	-1	false	true	true	true	albion_truthsayer	wh_main_lore_light		false
+albion_truthsayer_truth	true	true	ui/campaign ui/agents/truthsayer_lore.png	albion_truthsayer_truth	wh_dlc05_vo_actor_Empire_JadeWizard	true	-1	false	true	true	true	albion_truthsayer	elo_lore_truthsayer		false
+albion_wyrd_druid	true	true	ui/campaign ui/agents/wh_dlc03_lore_beasts.png	albion_wyrd_druid	vo_actor_Empire_dlc03_AmberWizard	true	0	false	true	true	true				false
+albion_chief	true	false	ui/campaign ui/agents/wh_main_chs_champion.png	albion_chief	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	0	false	true	true	true				false
+albion_morrigan	false	true		albion_morrigan	wh2_dlc10_vo_actor_Dark_Elves_Supreme_Sorceress	true	-1	true	true	true	true	legendary_lords			false
+elo_dread_centurion	true	false	ui/campaign ui/agents/wh_main_vmp_champion.png	elo_dread_centurion	wh_main_vo_actor_Vampire_WightKing	true	0	false	true	true	true				false
+aky_chief_fimir_great_weapons	true	false		aky_chief_fimir_great_weapons_0	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	false	true	true	true	fimir_lord			false
+aky_chief_wolf_werekin	true	false		aky_chief_wolf_werekin_0	wh_dlc08_vo_actor_Norsca_Skin_Wolf_Werekin	true	-1	false	true	true	true	nor_wolf_werekin			false
+arb_magician_life	true	true	ui/campaign ui/agents/wh_dlc05_lore_life.png	ovn_arb_cha_magician_life_0	wh_dlc05_vo_actor_Empire_JadeWizard	true	-1	false	true	true	true				false
+arb_magician_desert	true	true	ui/campaign ui/agents/ovn_lore_desert.png	ovn_arb_cha_magician_desert_0	wh_dlc05_vo_actor_Empire_GreyWizard	true	-1	false	true	true	true				false
+arb_magician_fire	true	true	ui/campaign ui/agents/wh_main_lore_fire.png	ovn_arb_cha_magician_fire_0	wh_main_vo_actor_Empire_BrightWizard	true	-1	false	true	true	true				false
+arb_magician_heavens	true	true	ui/campaign ui/agents/wh_main_lore_heavens.png	ovn_arb_cha_magician_heavens_0	wh_main_vo_actor_Empire_CelestialWizard	true	-1	false	true	true	true				false
+Dread_King	false	true		Dread_King	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	true	true	legendary_lords			false
+Sultan_Jaffar	false	true		Sultan_Jaffar	wh2_pro07_vo_actor_Empire_Amethyst_Wizard	true	-1	false	true	true	true	legendary_lords			false
+roy_arb_nomad	true	false		roy_arb_cha_nomad	wh_dlc07_vo_actor_Bretonnian_Green_Knight	true	-1	false	true	true	true				false
+roy_arb_champion	true	false		roy_arb_cha_champion	wh2_dlc13_vo_actor_Doctor_Hertwig_Van_Hal	true	-1	false	true	true	true				false
+elo_liche_general	true	true		elo_liche_general	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	true	true	dread_liche			false
+elo_cha_troll_lord	true	false		elo_cha_troll_lord	wh_dlc03_vo_actor_Beastlord	true	-1	false	true	true	true	troll_lord			false
+elo_chief_ugma	false	false		elo_chief_ugma	wh_dlc08_vo_actor_Norsca_Throgg	true	-1	false	true	true	true	legendary_lords			false
+ovn_hlf_ll	true	false		ovn_hlf_ll	wh_main_vo_actor_Empire_General	true	-1	false	true	true	true	halfling_lord			false
+morgan_bernhardt	false	false		morgan_bernhardt	wh_main_vo_actor_Empire_General	true	-1	false	true	true	true	legendary_lords			false
+vladimir_stormbringer	false	true	ui/campaign ui/agents/wh_main_lore_ice.png	vladimir_stormbringer	wh_main_vo_actor_Empire_CelestialWizard	false	-1	false	true	true	true				false
+ovn_stormrider	false	false		ovn_stormrider	wh2_main_vo_actor_High_Elves_Prince	true	-1	false	true	true	true	legendary_lords			false
+ovn_araby_ll	true	false		ovn_araby_ll	wh2_dlc11_vo_actor_Generic_Human	true	-1	false	true	true	true	araby_lord			false
+bl_elo_dural_durak	false	true		bl_elo_dural_durak	wh_dlc05_vo_actor_Empire_JadeWizard	true	-1	false	true	true	true	legendary_lords	elo_lore_truthsayer		false
+wh_dlc08_nor_cha_fimir_balefiend_death	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh_dlc08_nor_cha_fimir_balefiend_death	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	true	true	true	true				false
+wh_dlc08_nor_cha_fimir_balefiend_beast	true	true	ui/campaign ui/agents/wh_dlc03_lore_beasts.png	wh_dlc08_nor_cha_fimir_balefiend_beast	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	true	true	true	true				false
+arb_vizier_fire_0	true	true	UI/Campaign UI/Agents/wh_main_lore_fire.png	arb_vizier_fire_0	wh_main_vo_actor_Empire_BrightWizard	true	-1	false	true	true	true	arb_vizier	wh_main_lore_fire		false
+arb_vizier_life_0	true	true	ui/campaign ui/agents/wh_dlc05_lore_life.png	arb_vizier_life_0	wh_dlc05_vo_actor_Empire_JadeWizard	true	-1	false	true	true	true	arb_vizier	wh_dlc05_lore_life		false
+arb_vizier_heavens_0	true	true	ui/campaign ui/agents/wh_main_lore_heavens.png	arb_vizier_heavens_0	wh_main_vo_actor_Empire_CelestialWizard	true	-1	false	true	true	true	arb_vizier	wh_main_lore_heavens		false
+arb_vizier_desert_0	true	true	ui/campaign ui/agents/ovn_lore_desert.png	arb_vizier_desert_0	wh_dlc05_vo_actor_Empire_GreyWizard	true	-1	false	true	true	true	arb_vizier	ovn_lore_desert		false
+fim_meargh_skattach	false	true		fim_meargh_skattach	wh2_dlc15_vo_actor_Troll_River_Troll_Hag	true	-1	false	true	true	true	legendary_lords			false
+rbt_blightstormer	true	true	ui/campaign ui/agents/wh_main_lore_death.png	ovn_rbt_ch_blightstormer	wh_main_vo_actor_Chaos_Sorcerer	true	-1	false	true	true	true				false
+ribspreader	false	false		ribspreader	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	true	true	legendary_lords			false
+arb_fatandira	false	false		arb_fatandira	wh2_main_vo_actor_High_Elves_Princess	true	-1	false	true	true	true	legendary_lords			false
+arb_golden_magus	false	true		arb_golden_magus	wh_main_vo_actor_Empire_BrightWizard	true	-1	false	true	true	true	legendary_lords			false
+ovn_hlf_glibfoot	false	false		ovn_hlf_glibfoot	wh_main_vo_actor_Empire_General	true	-1	false	true	true	true	legendary_lords			false
+ovn_hlf_moot_general	true	false		ovn_hlf_moot_general_0	wh_main_vo_actor_Empire_General	true	-1	false	true	true	true	hlf_moot_general			false
+ovn_hlf_fieldwarden	true	false	ui/campaign ui/agents/wh_dlc05_lore_life.png	ovn_hlf_fieldwarden_0	wh_main_vo_actor_Empire_WitchHunter	true	-1	false	true	false	true				false
+ovn_hlf_master_chef	true	false	ui/campaign ui/agents/hlf_master_chef.png	ovn_hlf_master_chef_0	wh_main_vo_actor_Empire_WarriorPriest	true	-1	false	true	false	true				false
+ovn_hlf_sheriff	true	false	ui/campaign ui/agents/wh_main_brt_champion.png	ovn_hlf_sheriff_0	wh_main_vo_actor_Empire_Captain	true	-1	false	true	false	true				false
+elo_boglar_shaman	true	true	ui/campaign ui/agents/wh_main_lore_lil_waaagh.png	elo_boglar_shaman	wh_main_vo_actor_Goblin_NightShaman	true	-1	false	true	true	true		elo_lore_boglar		false
+elo_troll_champ	true	false	ui/campaign ui/agents/wh_main_chs_champion.png	elo_troll_champ	wh2_dlc13_vo_actor_Ancient_Kroxigor	true	-1	true	true	true	true			WH_MAIN_VO_CULTURE_TROLL	false
+vmp_cha_walach	false	true		vmp_cha_walach	wh_main_vo_actor_Vampire_Lord	true	-1	false	true	true	true	legendary_lords			false
