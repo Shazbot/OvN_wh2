@@ -85,10 +85,7 @@ local function sr_chaos_dwarfs()
 				cm:force_declare_war("wh2_dlc15_dwf_clan_helhein", "wh2_main_ovn_chaos_dwarfs", false, false)
 			else
 				-- if not played by a human give them the Mount Greyhag region
-				-- also check we'z speshul isn't active since that's Gitilla's starting region
-				if effect.get_localised_string("land_units_onscreen_name_ws_cha_gitilla_da_hunter_0") == "" then
-					cm:transfer_region_to_faction("wh2_main_the_wolf_lands_mount_greyhag", "wh2_main_ovn_chaos_dwarfs")
-				end
+				cm:transfer_region_to_faction("wh2_main_the_wolf_lands_mount_greyhag", "wh2_main_ovn_chaos_dwarfs")
 
 				-- give some gold
 				cm:treasury_mod("wh2_main_ovn_chaos_dwarfs", 15000)
@@ -114,7 +111,7 @@ local function sr_chaos_dwarfs()
 												cm:region_slot_instantly_repair_building(empty_slot)
 												local empty_slot = ash_region:settlement():first_empty_active_secondary_slot()
 												if empty_slot then
-													cm:region_slot_instantly_upgrade_building(empty_slot, "ovn_chorf_military_1")
+													cm:region_slot_instantly_upgrade_building(empty_slot, "ovn_chorf_military_2")
 													cm:callback(
 														function()
 															cm:region_slot_instantly_repair_building(empty_slot)
