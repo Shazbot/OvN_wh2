@@ -1058,7 +1058,7 @@ function ovn_victory_conditions()
 						objective
 						{
 							type CAPTURE_REGIONS;
-							total 10;
+							total 1;
 							region wh_main_blightwater_karak_azgal;
 						}
 						objective
@@ -1092,7 +1092,7 @@ function ovn_victory_conditions()
 						objective
 						{
 							type CAPTURE_REGIONS;
-							total 15;
+							total 1;
 							region wh_main_blightwater_karak_azgal;
 						}
 						objective
