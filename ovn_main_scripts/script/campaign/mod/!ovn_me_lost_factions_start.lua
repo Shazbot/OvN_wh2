@@ -467,56 +467,79 @@ local function blood_dragon_setup()
 			cm:heal_garrison(bhufdar_region:cqi())
 			cm:kill_character_and_commanded_unit("faction:wh_main_dwf_karak_norn,surname:2147345835", true, true)
 		end
-        
-        if cm:get_faction("wh2_main_vmp_blood_dragons"):is_human() then
-            			cm:create_force(
-						"wh_main_emp_empire_qb1",
-                        "wh2_dlc13_emp_inf_archers_0,wh_dlc04_emp_cav_knights_blazing_sun_0,wh_dlc04_emp_inf_flagellants_0,wh_main_emp_inf_spearmen_0",
-						"wh2_main_volcanic_islands_fuming_serpent",
-                        512,
-						376,
-						true,
-						function(cqi)
-							cm:apply_effect_bundle_to_characters_force("wh2_main_sr_fervour", cqi, 25, true)
-						end
-                    )
-                        cm:change_custom_faction_name("wh_main_emp_empire_qb1", "Van Hal's Crusade")
-                        cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_empire_qb1", false, false)
-        end
 
-			cm:callback(
-				--- There is a strange timing issue where the blood_dragons_leader_cqi CQI
-				--- is the same as the CQI of the guy we spawn below.
-				--- That's why it's wrapped in a callback.
-				--- Alternatively we can just kill the blood_dragons_leader_cqi instead of
-				--- putting him in add_cqi_to_murdered_list.
-				function()
-					cm:create_force_with_general(
-						"wh2_main_vmp_blood_dragons",
-						"wh_dlc02_vmp_cav_blood_knights_0,wh_dlc02_vmp_cav_blood_knights_0,dismounted_blood_knights_shield,wh_main_vmp_inf_skeleton_warriors_1",
-						"wh2_main_land_of_assassins_sorcerers_islands",
-						510,
-						380,
-						"general",
-						"vmp_cha_walach",
-						"names_name_8888277188",
-						"",
-						"names_name_8888277189",
-						"",
-						true,
-						function(cqi)
-							-- out("OVN: WALLACH HARKON CQI IS "..tostring(cqi))
-							local str = "character_cqi:" .. cqi
-							cm:set_character_immortality(str, true)
-							cm:set_character_unique(str, true)
-						end
-					)
-				end,
-				1
+		if cm:get_faction("wh2_main_vmp_blood_dragons"):is_human() then
+			cm:create_force_with_general(
+				"wh_main_emp_empire_qb1",
+				"wh2_dlc13_emp_inf_archers_0,wh_dlc04_emp_cav_knights_blazing_sun_0,wh_dlc04_emp_inf_flagellants_0,wh_main_emp_inf_spearmen_0",
+				"wh2_main_volcanic_islands_fuming_serpent",
+				512,
+				376,
+				"general",
+				"dlc04_emp_arch_lector",
+				"names_name_2147355060",
+				"",
+				"names_name_270789187",
+				"",
+				true,
+				function(cqi)
+					local mil_force = cm:get_character_by_cqi(cqi):military_force()
+					cm:apply_effect_bundle_to_characters_force("wh2_main_sr_fervour", cqi, 25, true)
+
+					local x, y = cm:find_valid_spawn_location_for_character_from_character("wh_main_emp_empire_qb1", cm:char_lookup_str(cm:get_character_by_cqi(cqi)), true)
+					if x ~= -1 then
+						cm:create_agent(
+							"wh_main_emp_empire_qb1",
+							"spy",
+							"emp_witch_hunter",
+							x,
+							y,
+							false,
+							function(agent_cqi)
+								cm:embed_agent_in_force(cm:get_character_by_cqi(agent_cqi), mil_force)
+							end
+						)
+					end
+				end
 			)
 
-			cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_wissenland", false, false)
-		
+			cm:change_custom_faction_name("wh_main_emp_empire_qb1", "Van Hal's Crusade")
+			cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_empire_qb1", false, false)
+		end
+
+		cm:callback(
+			--- There is a strange timing issue where the blood_dragons_leader_cqi CQI
+			--- is the same as the CQI of the guy we spawn below.
+			--- That's why it's wrapped in a callback.
+			--- Alternatively we can just kill the blood_dragons_leader_cqi instead of
+			--- putting him in add_cqi_to_murdered_list.
+			function()
+				cm:create_force_with_general(
+					"wh2_main_vmp_blood_dragons",
+					"wh_dlc02_vmp_cav_blood_knights_0,wh_dlc02_vmp_cav_blood_knights_0,dismounted_blood_knights_shield,wh_main_vmp_inf_skeleton_warriors_1",
+					"wh2_main_land_of_assassins_sorcerers_islands",
+					510,
+					380,
+					"general",
+					"vmp_cha_walach",
+					"names_name_8888277188",
+					"",
+					"names_name_8888277189",
+					"",
+					true,
+					function(cqi)
+						-- out("OVN: WALLACH HARKON CQI IS "..tostring(cqi))
+						local str = "character_cqi:" .. cqi
+						cm:set_character_immortality(str, true)
+						cm:set_character_unique(str, true)
+					end
+				)
+			end,
+			1
+		)
+
+		cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_wissenland", false, false)
+
 		table.insert(factions, "wh2_main_vmp_blood_dragons")
 	end
 end

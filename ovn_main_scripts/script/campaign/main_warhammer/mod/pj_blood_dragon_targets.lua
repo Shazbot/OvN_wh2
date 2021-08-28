@@ -13,6 +13,19 @@ table_clone = function(t)
 	return clone
 end
 
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
 local blood_dragons_faction_name = "wh2_main_vmp_blood_dragons"
 
 local mission_key_to_force_cqi = {}
@@ -246,7 +259,7 @@ local function get_n_by_distance(hunting_faction_key, forces, n, dist)
 
 	local chosen = {}
 	local included_subcultures = {}
-	local forces_by= table_clone(forces_by_str)
+	local forces_by = table_clone(forces_by_str)
 
 	for i=#forces_by, 1, -1 do
 		local force = forces_by[i]
@@ -264,6 +277,34 @@ local function get_n_by_distance(hunting_faction_key, forces, n, dist)
 	end
 
 	return chosen
+end
+
+local gave_turn_one_army_as_target = false
+
+local function create_turn_one_army_target()
+	local char = cm:get_faction("wh_main_emp_empire_qb1"):faction_leader()
+	local force = char:military_force()
+	local faction = cm:get_faction("wh_main_emp_empire_qb1")
+	local pos_x = force:general_character():logical_position_x();
+	local pos_y = force:general_character():logical_position_y();
+	local hunting_faction = cm:get_faction(blood_dragons_faction_name)
+
+	local force = {
+		subtype = force:general_character():character_subtype_key(),
+		faction_name = faction:name(),
+		subculture = faction:subculture(),
+		force_value = assassination_get_army_cost(force),
+		distance = 5,
+		cqi = force:command_queue_index(),
+		leader = force:general_character():is_faction_leader(),
+		rank = force:general_character():rank(),
+		at_war = faction:at_war_with(hunting_faction),
+		pos = {pos_x, pos_y},
+		ally_count = faction:num_allies(),
+		force_count = faction:military_force_list():num_items(),
+	}
+
+	return force
 end
 
 local function give_new_targets(turn_num, rogues_disallowed)
@@ -319,6 +360,11 @@ local function give_new_targets(turn_num, rogues_disallowed)
 		local mission_key = "pj_blood_dragon_targets_"..i
 		if not mission_key_to_force_cqi[mission_key] and #picked > 0 then
 			local pick = table.remove(picked)
+
+			if cm:is_new_game() and not gave_turn_one_army_as_target then
+				gave_turn_one_army_as_target = true
+				pick = create_turn_one_army_target()
+			end
 
 			local grudge_mission = mission_manager:new(
 				faction_name,
