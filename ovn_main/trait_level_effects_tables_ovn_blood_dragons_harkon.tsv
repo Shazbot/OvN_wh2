@@ -1,0 +1,4 @@
+trait_level_effects_tables	0
+trait_level	effect	effect_scope	value
+wh2_main_trait_defeated_walach	wh_main_effect_character_stat_mod_ward_save_physical	character_to_character_own	5.0
+wh2_main_trait_defeated_walach	wh_dlc08_effect_ability_enable_frenzy	character_to_character_own	1.0

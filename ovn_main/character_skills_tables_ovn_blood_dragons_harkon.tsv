@@ -1,0 +1,8 @@
+character_skills_tables	5
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+trait_vampire_counts.png	vmp_walach_innate	"My people will feast on your bones."	Count	0	true	false	false	5.0	0
+mount_barded_nightmare.png	vmp_walach_barded_nightmare	The most impressive Nightmares are those reared on fresh blood. Such noble monstrosities are worthy mounts.	Barded Nightmare	7	false	false	false	0.0	0
+item_talisman.png	blood_chalice_walach		Blood Chalice	12	false	false	false	0.0	0
+item_weapon.png	crimson_blade_walach	 	Crimson Blade	7	false	false	false	0.0	0
+wh2_main_anc_magic_standard_the_blood_banner.png	standard_blood_dragon_walach	 		9	false	false	false	0.0	0
+character_army.png	hunger_to_blood_knights			9	false	false	false	0.0	0

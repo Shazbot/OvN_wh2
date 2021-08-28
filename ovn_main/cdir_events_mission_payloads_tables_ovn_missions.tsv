@@ -5,12 +5,12 @@ id	mission_key	payload_key	status_key	value
 250590003	ovn_grudge_vortex_kill_arkhan	TREASURY	SUCCESS	AMOUNT[5000]
 250590004	ovn_troll_me_take_karak_azgal	TREASURY	SUCCESS	AMOUNT[5000]
 250590005	ovn_blood_dragons_me_take_altdorf	TREASURY	SUCCESS	AMOUNT[5000]
-250590006	ovn_blood_dragons_me_take_altdorf	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[ovn_bd_blood_chalice];SHOULD_REPLACE
+250590006	ovn_blood_dragons_me_take_altdorf	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[wh_main_anc_arcane_item_wand_of_jet]
 250590007	ovn_blood_dragons_me_take_couronne	TREASURY	SUCCESS	AMOUNT[6000]
 250590008	ovn_blood_dragons_me_take_templehof	TREASURY	SUCCESS	AMOUNT[4000]
-250590009	ovn_blood_dragons_me_take_templehof	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[ovn_anc_magic_standard_blood_dragon];SHOULD_REPLACE
+250590009	ovn_blood_dragons_me_take_templehof	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[wh_main_anc_arcane_item_forbidden_rod]
 250590010	ovn_blood_dragons_me_take_nuln	TREASURY	SUCCESS	AMOUNT[4000]
-250590011	ovn_blood_dragons_me_take_nuln	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[ovn_bd_crimson_blade];SHOULD_REPLACE
+250590011	ovn_blood_dragons_me_take_nuln	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[wh_main_anc_magic_standard_banner_of_the_barrows]
 250590012	ovn_grudge_me_move_to_swem	ADD_MERCENARY_TO_FACTION_POOL	SUCCESS	AMOUNT[1];UNIT[ceridan]
 250590013	ovn_grudge_me_kill_dk	TREASURY	SUCCESS	AMOUNT[5000]
 250590014	ovn_grudge_me_kill_arkhan	TREASURY	SUCCESS	AMOUNT[5000]
@@ -20,3 +20,4 @@ id	mission_key	payload_key	status_key	value
 250590018	ovn_dk_vortex_take_morgheim	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[chalcidar_orb];SHOULD_REPLACE
 250590019	ovn_dk_vortex_take_morgheim	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[malach_sword];SHOULD_REPLACE
 250590020	ovn_dk_vortex_take_morgheim	dk_hon_spawn	SUCCESS	DURATION[0]
+250590021	ovn_blood_dragons_me_take_altdorf	GIVE_TRAIT	SUCCESS	TRAIT_KEY[ovn_harkon_lord_trait]

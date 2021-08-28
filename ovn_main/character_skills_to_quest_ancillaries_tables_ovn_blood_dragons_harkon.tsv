@@ -1,0 +1,5 @@
+character_skills_to_quest_ancillaries_tables	1
+ancillary	skill	use_quest_for_prefix
+ovn_bd_blood_chalice	blood_chalice_walach	true
+ovn_bd_crimson_blade	crimson_blade_walach	true
+ovn_anc_magic_standard_blood_dragon	standard_blood_dragon_walach	true

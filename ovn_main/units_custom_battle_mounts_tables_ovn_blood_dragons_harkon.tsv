@@ -1,0 +1,3 @@
+units_custom_battle_mounts_tables	1
+base_unit	icon_name	mounted_unit
+vmp_cha_walach	ui/campaign ui/mounts/mount_barded_nightmare.png	vmp_cha_walach_nightmare

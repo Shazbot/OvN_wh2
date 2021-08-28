@@ -431,21 +431,6 @@ local function blood_dragon_setup()
 	end
 
 	if blood_dragons and (blood_dragons:is_human() or not mct or settings_table.blood_dragon and settings_table.enable) then
-		if blood_dragons:is_human() then
-			core:add_listener(
-				"blood_dragon_missions",
-				"FactionTurnStart",
-				function(context)
-					return context:faction():is_human() and cm:model():turn_number() == 2
-				end,
-				function(context)
-					cm:trigger_mission("wh2_main_vmp_blood_dragons", "ovn_blood_dragons_me_take_nuln", true)
-					cm:trigger_mission("wh2_main_vmp_blood_dragons", "ovn_blood_dragons_me_take_templehof", true)
-					cm:trigger_mission("wh2_main_vmp_blood_dragons", "ovn_blood_dragons_me_take_altdorf", true)
-				end,
-				false
-			)
-		end
 
 		cm:override_building_chain_display(
 			"wh_main_DWARFS_settlement_major",
@@ -482,8 +467,23 @@ local function blood_dragon_setup()
 			cm:heal_garrison(bhufdar_region:cqi())
 			cm:kill_character_and_commanded_unit("faction:wh_main_dwf_karak_norn,surname:2147345835", true, true)
 		end
+        
+        if cm:get_faction("wh2_main_vmp_blood_dragons"):is_human() then
+            			cm:create_force(
+						"wh_main_emp_empire_qb1",
+                        "wh2_dlc13_emp_inf_archers_0,wh_dlc04_emp_cav_knights_blazing_sun_0,wh_dlc04_emp_inf_flagellants_0,wh_main_emp_inf_spearmen_0",
+						"wh2_main_volcanic_islands_fuming_serpent",
+                        512,
+						376,
+						true,
+						function(cqi)
+							cm:apply_effect_bundle_to_characters_force("wh2_main_sr_fervour", cqi, 25, true)
+						end
+                    )
+                        cm:change_custom_faction_name("wh_main_emp_empire_qb1", "Van Hal's Crusade")
+                        cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_empire_qb1", false, false)
+        end
 
-		if not vfs.exists("script/export_helpers_ordo_draconis_why.lua") then
 			cm:callback(
 				--- There is a strange timing issue where the blood_dragons_leader_cqi CQI
 				--- is the same as the CQI of the guy we spawn below.
@@ -498,10 +498,10 @@ local function blood_dragon_setup()
 						510,
 						380,
 						"general",
-						"wh2_dlc11_vmp_bloodline_blood_dragon",
-						"names_name_2147345180",
+						"vmp_cha_walach",
+						"names_name_8888277188",
 						"",
-						"names_name_2147345188",
+						"names_name_8888277189",
 						"",
 						true,
 						function(cqi)
@@ -509,7 +509,6 @@ local function blood_dragon_setup()
 							local str = "character_cqi:" .. cqi
 							cm:set_character_immortality(str, true)
 							cm:set_character_unique(str, true)
-							cm:force_add_trait(str, "ovn_harkon_lord_trait", true)
 						end
 					)
 				end,
@@ -517,8 +516,7 @@ local function blood_dragon_setup()
 			)
 
 			cm:force_declare_war("wh2_main_vmp_blood_dragons", "wh_main_emp_wissenland", false, false)
-		end
-
+		
 		table.insert(factions, "wh2_main_vmp_blood_dragons")
 	end
 end

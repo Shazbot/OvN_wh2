@@ -1,0 +1,4 @@
+variants_tables	6
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+vmpwalach		vmp_walach_harkon		1.0	1.2	0.0	
+vmp_barded_nightmare_walach	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	vmp_barded_nightmare_walach	hr1\vmp\vmp_barded_nightmare\low_lod\vmp_barded_nightmare_lowlod	1.0	1.0	0.0	

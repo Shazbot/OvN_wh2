@@ -1,0 +1,3 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+vmp_effect_ability_hunger_to_blood_knights_units	general_ability.png	600	general_ability.png	battle	true

@@ -1,0 +1,8 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+false				vmp_cha_walach	vmp_all
+false				vmp_cha_walach	vmp_characters
+false				vmp_cha_walach	vmp_dlc04_all_characters
+false				vmp_cha_walach_nightmare	vmp_all
+false				vmp_cha_walach_nightmare	vmp_characters
+false				vmp_cha_walach_nightmare	vmp_dlc04_all_characters

@@ -81,9 +81,9 @@ local starting_units = {
 		starting_unit_3 = "hobgoblin_wolf_bow_raider", unit_card_3 = "hobgoblin_wolf_bow_raider"
 	},
 	["blood_dragons"] = {
-		starting_unit_1 = "wh_dlc02_vmp_cav_blood_knights_0", unit_card_1 = "wh_dlc02_vmp_blood_knights",
-		starting_unit_2 = "dismounted_blood_knights_shield", unit_card_2 = "dismounted_blood_knights_shield",
-		starting_unit_3 = "wh_main_vmp_inf_skeleton_warriors_1", unit_card_3 = "wh_main_vmp_skeleton_warrior_spear"
+		starting_unit_1 = "wh_dlc02_vmp_cav_blood_knights_0", unit_card_1 = "dismounted_blood_knights_shield",
+		starting_unit_2 = "dismounted_blood_knights_shield", unit_card_2 = "wh_dlc02_vmp_blood_knights",
+		starting_unit_3 = "wh_main_vmp_inf_skeleton_warriors_1", unit_card_3 = "wh_dlc02_vmp_blood_knights"
 	},
 	["albion"] = {
 		starting_unit_1 = "albion_giant", unit_card_1 = "albion_giant",

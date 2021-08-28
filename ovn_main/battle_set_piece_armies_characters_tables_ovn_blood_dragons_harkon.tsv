@@ -1,0 +1,4 @@
+battle_set_piece_armies_characters_tables	7
+character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+1	vmp_cha_walach	8888277188	wh_main_lore_vampires	100	8888277189	vmp_cha_walach	general	vmp_cha_walach	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmpwalach.png	815317561		true
+1	vmp_cha_walach_nightmare	8888277188	wh_main_lore_vampires	100	8888277189	vmp_cha_walach_nightmare	general	vmp_cha_walach	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmpwalach.png	815317561		true
