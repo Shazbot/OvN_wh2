@@ -57,18 +57,18 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	elo_halfling_warden	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_warden	5.0		0	0	false
 	elo_halfling_thief	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_thief	6.0		0	0	false
 	elo_halfling_adventurer	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_adventurer	7.0		0	0	false
-	elo_halfling_pennypincher	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_pennypincher	9.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_01	10.0		0	0	false
-	wh2_main_skill_innate_all_confident	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_02	11.0		0	0	false
-	wh2_main_skill_innate_all_cunning	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_03	12.0		0	0	false
-	wh2_main_skill_innate_all_determined	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_04	13.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_05	14.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_06	15.0		0	0	false
-	wh2_main_skill_innate_all_intelligent	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_07	16.0		0	0	false
-	wh2_main_skill_innate_all_knowledgeable	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_08	17.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_09	18.0		0	0	false
-	wh2_main_skill_innate_all_strategist	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_10	19.0		0	0	false
-	wh2_main_skill_innate_all_strong	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_11	20.0		0	0	false
-	wh2_main_skill_innate_all_tactician	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_12	21.0		0	0	false
-	wh2_main_skill_innate_all_tough	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_13	22.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_14	23.0		0	0	false
+	elo_halfling_pennypincher	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_pennypincher	8.0		0	0	false
+	wh2_main_skill_innate_all_aggressive	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_01	9.0		0	0	false
+	wh2_main_skill_innate_all_confident	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_02	10.0		0	0	false
+	wh2_main_skill_innate_all_cunning	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_03	11.0		0	0	false
+	wh2_main_skill_innate_all_determined	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_04	12.0		0	0	false
+	wh2_main_skill_innate_all_disciplined	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_05	13.0		0	0	false
+	wh2_main_skill_innate_all_fleet_footed	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_06	14.0		0	0	false
+	wh2_main_skill_innate_all_intelligent	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_07	15.0		0	0	false
+	wh2_main_skill_innate_all_knowledgeable	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_08	16.0		0	0	false
+	wh2_main_skill_innate_all_perceptive	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_09	17.0		0	0	false
+	wh2_main_skill_innate_all_strategist	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_10	18.0		0	0	false
+	wh2_main_skill_innate_all_strong	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_11	19.0		0	0	false
+	wh2_main_skill_innate_all_tactician	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_12	20.0		0	0	false
+	wh2_main_skill_innate_all_tough	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_13	21.0		0	0	false
+	wh2_main_skill_innate_all_weapon_master	wh_main_skill_node_set_ovn_hlf_ll		7.0	elo_halfling_trait_14	22.0		0	0	false
