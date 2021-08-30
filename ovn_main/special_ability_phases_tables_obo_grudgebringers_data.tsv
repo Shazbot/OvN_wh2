@@ -41,7 +41,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1.0	positive	grudge_explosion3		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
 -1.0	positive	grudge_apexplosion3		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1.0	false	true	true	0.0	
 35.0	positive	grudge_weapon_abilities_hellfire_sword		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	10		wh_main_spell_fire_flaming_sword_of_rhuin	wh_main_spell_fire_flaming_sword_of_rhuin	-1.0	false	true	true	0.0	
-30.0	negative	grudge_item_abilities_horn_of_urgok		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack	wh_ability_positive	-1.0	false	true	true	0.0	
+15.0	negative	grudge_item_abilities_horn_of_urgok		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence_attack	wh_ability_positive	-1.0	false	true	true	0.0	
 -1.0	negative	grudge_item_abilities_banner_of_arcane_warding		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 -1.0	negative	grudge_item_abilities_spelleater_shield		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 35.0	positive	grudge_ability_swiftness_of_itzl		false	false	false	0.0	0.0	0.0	0.0	0	-1.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_positive_one_shot	-1.0	false	true	true	0.0	

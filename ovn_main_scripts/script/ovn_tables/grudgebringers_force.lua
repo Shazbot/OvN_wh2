@@ -15,7 +15,7 @@ local grudgebringers = {
 		callback =
 				function(cqi)
 						cm:set_character_immortality("character_cqi:" .. cqi, true)
-						cm:set_character_unique("character_cqi:"..cqi, true);
+						cm:set_character_unique("character_cqi:"..cqi, true)
 				end
 	},
 	wh2_main_great_vortex = {
@@ -34,7 +34,7 @@ local grudgebringers = {
 		callback =
 				function(cqi)
 						cm:set_character_immortality("character_cqi:" .. cqi, true)
-						cm:set_character_unique("character_cqi:"..cqi, true);
+						cm:set_character_unique("character_cqi:"..cqi, true)
 				end
 	}
 }

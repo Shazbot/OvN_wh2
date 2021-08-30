@@ -63,7 +63,7 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	wh2_dlc11_skill_cst_damned_paladin_unique_0	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_13	13.0		0	0	true
 	wh2_main_skill_all_immortality_hero	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_14	14.0		1	0	true
 	grudge_skill_missile_ward	morgan_bernhardt		0.0	morgan_bernhardt_unique_8	8.0		0	0	true
-	grudge_skill_fire_ward	morgan_bernhardt		0.0	morgan_bernhardt_unique_9	9.0		0	0	true
+	grudge_skill_horn_of_urgok	morgan_bernhardt		0.0	morgan_bernhardt_unique_9	3.0		1	0	true
 	wh2_main_skill_all_immortality_lord	morgan_bernhardt		0.0	morgan_bernhardt_unique_13	13.0		1	0	false
 	grudge_skill_bernhardt_bonus_vs_men	morgan_bernhardt		3.0	morgan_bernhardt_war3_01	0.0		0	0	true
 	grudge_skill_bernhardt_bonus_vs_dwarves	morgan_bernhardt		3.0	morgan_bernhardt_war3_02	1.0		0	0	true
@@ -77,14 +77,14 @@ campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent
 	grudge_skill_bernhardt_bonus_vs_high_elves	morgan_bernhardt		3.0	morgan_bernhardt_war3_10	9.0		0	0	true
 	grudge_skill_bernhardt_bonus_vs_wood_elves	morgan_bernhardt		3.0	morgan_bernhardt_war3_11	10.0		0	0	true
 	grudge_skill_mercenary	vladimir_stormbringer		0.0	merc_vladimir_stormbringer_dummy_01	1.0		1	0	true
-	grudge_skill_mercenary	morgan_bernhardt		0.0	morgan_bernhardt_unique_01	1.0		1	0	false
+	grudge_skill_mercenary	morgan_bernhardt		0.0	morgan_bernhardt_unique_01	9.0		0	0	true
 	grudge_skill_regiment_size	morgan_bernhardt		0.0	morgan_bernhardt_unique_10	10.0		0	0	true
 	grudge_skill_grudgebringer_sword	morgan_bernhardt		0.0	morgan_bernhardt_unique_2	2.0		1	0	true
-	grudge_skill_enchanted_shield	morgan_bernhardt		0.0	morgan_bernhardt_unique_3	3.0		0	0	true
+	grudge_skill_enchanted_shield	morgan_bernhardt		0.0	morgan_bernhardt_unique_3	4.0		0	0	true
 	grudge_skill_wand_of_jet	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_2	2.0		0	0	true
-	grudge_skill_banner_of_wrath	morgan_bernhardt		0.0	morgan_bernhardt_unique_4	4.0		0	0	true
-	grudge_skill_banner_of_arcane_warding	morgan_bernhardt		0.0	morgan_bernhardt_unique_5	5.0		0	0	true
-	grudge_skill_banner_of_defiance	morgan_bernhardt		0.0	morgan_bernhardt_unique_6	6.0		0	0	true
+	grudge_skill_banner_of_wrath	morgan_bernhardt		0.0	morgan_bernhardt_unique_4	5.0		0	0	true
+	grudge_skill_banner_of_arcane_warding	morgan_bernhardt		0.0	morgan_bernhardt_unique_5	6.0		0	0	true
+	grudge_skill_banner_of_defiance	morgan_bernhardt		0.0	morgan_bernhardt_unique_6	7.0		0	0	true
 	grudge_skill_shadow_of_the_horned_rat	morgan_bernhardt		0.0	morgan_bernhardt_unique_11	11.0		0	0	true
 	grudge_skill_dark_omen	morgan_bernhardt		0.0	morgan_bernhardt_unique_12	12.0		0	0	true
 	grudge_skill_dark_omen	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_12	12.0		0	0	true

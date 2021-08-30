@@ -4,8 +4,8 @@ grudge_anc_rune_rune_of_fury	wh_main_anc_rune_rune_of_fury	.	false	false	false	1
 grudge_anc_rune_rune_of_might	wh_main_anc_rune_rune_of_might	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false	false	false
 grudge_anc_rune_rune_of_parrying	wh_main_anc_rune_rune_of_parrying	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false	false	false
 grudge_anc_rune_rune_of_striking	wh_main_anc_rune_rune_of_striking	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false	false	false
-grudge_item_horn_of_urgok	grudge_item_horn_of_urgok	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false
-grudge_item_grudgebringer_sword	grudge_item_grudgebringer_sword	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
+grudge_item_horn_of_urgok	grudge_item_horn_of_urgok	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	-1		false	false	false
+grudge_item_grudgebringer_sword	grudge_item_grudgebringer_sword	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	-1		false	false	false
 grudge_item_hellfire_sword	grudge_item_hellfire_sword	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
 grudge_item_storm_sword	grudge_item_storm_sword	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
 grudge_item_runefang	grudge_item_runefang	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false

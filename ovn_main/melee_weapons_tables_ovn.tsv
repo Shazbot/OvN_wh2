@@ -4,8 +4,8 @@ bonus_v_cavalry	bonus_v_large	bonus_v_infantry	key	damage	ap_damage	first_strike
 0	28	0	ovn_arb_flying_carpet	19	36	0	4.0	axe	dlc15_troll_hag_net	small	3	0.25	14	0.0	false		0	10	5.4	
 0	16	0	ovn_arb_flying_carpet_rider	8	20	0	4.0	spear	halberd		1	1.0	10	0.0	false		0	10	5.6	
 0	0	0	vannheim_75th_sword	30	12	0	1.0	sword	sword		1	1.0	5	0.0	false		0	10	5.1	
-0	0	0	grudgebringer_cavalry_sword	28	12	0	1.0	sword	sword		1	1.0	5	0.0	false		0	10	5.1	
-0	0	0	grudgebringer_cavalry_sword_officer	28	12	0	1.0	sword	sword		1	1.0	5	6.0	true		0	10	5.1	
+0	0	0	grudgebringer_cavalry_sword	25	10	0	1.0	sword	sword		1	1.0	5	0.0	false		0	10	5.1	
+0	0	0	grudgebringer_cavalry_sword_officer	30	15	0	1.0	sword	sword		1	1.0	5	6.0	true		0	10	5.1	
 0	0	0	black_avangers_sword	25	8	0	1.0	sword	sword		1	1.0	5	0.0	false		0	10	4.5	
 0	0	0	black_avangers_sword_officer	25	8	0	1.0	sword	sword		2	0.5	5	0.0	false		0	10	4.5	
 0	0	0	grudgebringer_infantry_sword	23	7	0	1.0	sword	sword		1	1.0	5	0.0	false		0	10	4.3	
