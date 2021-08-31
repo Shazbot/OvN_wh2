@@ -1,5 +1,8 @@
 units_custom_battle_permissions_tables	8
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+wh2_dlc09_tmb_the_sentinels	false	dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	true	true				false
+wh2_dlc09_tmb_the_sentinels	false	dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	true	true				false
+wh2_dlc09_tmb_the_sentinels	false	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_art_casket_of_souls_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_art_screaming_skull_catapult_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_cav_hexwraiths	true	true				false
@@ -25,7 +28,7 @@ wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_inf_skeleton_archers_ror	true	tr
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_inf_skeleton_spearmen_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_inf_skeleton_spearmen_ror	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_inf_skeleton_warriors_0	true	true				false
-wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_inf_tomb_guard_1	true	true				false
+wh2_dlc09_tmb_the_sentinels	false	tmb_grave_halberd	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_inf_tomb_guard_ror	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_mon_carrion_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_mon_dire_wolves	true	true				false
@@ -38,7 +41,7 @@ wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_mon_ushabti_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_mon_ushabti_1	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_dlc09_tmb_mon_ushabti_ror	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh2_pro06_tmb_mon_bone_giant_0	true	true				false
-wh2_dlc09_tmb_the_sentinels	false	wh_main_vmp_inf_grave_guard_0	true	true				false
+wh2_dlc09_tmb_the_sentinels	false	elo_dread_inf_grave_guard_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	wh_main_vmp_mon_crypt_horrors	true	true				false
 wh2_dlc09_tmb_the_sentinels	true	Dread_King	true	true	ui/portraits/portholes/no_culture/Dread_King.png		Dread_King	false
 wh2_dlc09_tmb_the_sentinels	true	Dread_King_2	true	true	ui/portraits/portholes/no_culture/Dread_King.png		Dread_King	false

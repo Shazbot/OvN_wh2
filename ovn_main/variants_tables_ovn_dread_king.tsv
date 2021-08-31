@@ -29,3 +29,7 @@ elo_hand_of_nagash		elo_hand_of_nagash		1.2	1.2	0.0
 elo_dread_mummy		elo_dread_mummy		1.0	1.0	0.05	
 dread_wh2_dlc09_tmb_skeleton_charioteer_whip		dread_tmb_skeleton_charioteer_whip		1.0	1.0	0.05	
 dread_wh2_dlc09_tmb_skeleton_halberd		dread_tmb_skeleton_halberd	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_halberd_imposter	1.0	1.0	0.0	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_skeleton_armoured_dual_swords		dread_tmb_skeleton_armoured_dual_swords	hu1\tmb\tmb_skeleton_warriors_armored\imposter\tmb_skeleton_armoured_sword_dual_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_wh2_dlc09_tmb_skeleton_sword		dread_tmb_skeleton_sword	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_sword_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+dread_grave_halberd		dread_grave_halberd		1.0	1.0	0.05	
+dread_grave_sword		dread_grave_sword		1.0	1.0	0.05	
