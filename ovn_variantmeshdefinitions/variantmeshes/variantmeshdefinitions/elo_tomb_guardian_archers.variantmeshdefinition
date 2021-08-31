@@ -1,29 +1,6 @@
 <VARIANT_MESH>
-	<SLOT name="helmet" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_blood_knights/head/tomb_guardian_helmet_01.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_blood_knights/head/tomb_guardian_helmet_02.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_blood_knights/head/tomb_guardian_helmet_03.wsmodel" />
-	</SLOT>
-	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/head/skeleton_head_01.wsmodel"  />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/head/skeleton_head_03.wsmodel"  />
-	</SLOT>
-	<SLOT name="torso" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/torso/tomb_guardian_skeleton_torso_01.rigid_model_v2"  >
-			<META_DATA>audio_entity_type:wh_skeleton</META_DATA>			<META_DATA>audio_armour_type:bone</META_DATA></VARIANT_MESH>
-	</SLOT>
-	<SLOT name="decoration" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_questing_knights\torso\tmb_guardian_torso_01.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_questing_knights\torso\tmb_guardian_torso_02.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_questing_knights\torso\tmb_guardian_torso_03.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_questing_knights\torso\tmb_guardian_torso_04.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\brt\brt_questing_knights\torso\tmb_guardian_torso_05.wsmodel" />
-	</SLOT>
-	<SLOT name="shoulders" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/tomb_guardian_armour_01.wsmodel" />
-	</SLOT>
-	<SLOT name="legs" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/legs/tmb_guardian_skeleton_legs_01.wsmodel"  />
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/elo_tomb_guardian_base.VariantMeshDefinition" />
 	</SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >

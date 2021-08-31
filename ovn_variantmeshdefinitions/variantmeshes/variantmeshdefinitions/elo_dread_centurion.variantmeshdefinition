@@ -7,14 +7,16 @@
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_guard/head/dread_centurion_head_05.wsmodel" />
 	</SLOT>
 	<SLOT name="head" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/head/skeleton_head_01.wsmodel"  />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/head/skeleton_head_03.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_skeleton_warriors/head/dread_skeleton_warriors_head_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_skeleton_warriors/head/dread_skeleton_warriors_head_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_skeleton_warriors/head/dread_skeleton_warriors_head_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_skeleton_warriors/head/dread_skeleton_warriors_head_05.wsmodel" />
 	</SLOT>
 	<SLOT name="mohawk" >
 		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/vmp/vmp_krell/centurion_mohawk_01_.wsmodel" />
 	</SLOT>
 	<SLOT name="torso" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/torso/tomb_guardian_skeleton_torso_01.rigid_model_v2"  >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_skeleton_warriors/torso/tomb_guardian_skeleton_torso_01.wsmodel"  >
 			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh_skeleton_LH</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="decoration_01" >

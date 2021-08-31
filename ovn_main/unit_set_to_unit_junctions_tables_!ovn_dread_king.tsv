@@ -26,3 +26,6 @@ false				dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	wh2_dlc09_tmb_titan_sphinx
 false				dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	wh2_dlc09_tmb_veh_khemrian_warsphinx_0
 false				dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	wh2_dlc09_tmb_vet_all_monster
 false				dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	wh2_mp_single_entity_monsters
+false				tmb_grave_halberd	dread_legion_grave_guard
+false				tmb_grave_halberd	wh2_dlc09_tmb_all_melee_infantry
+false				tmb_grave_halberd	wh2_dlc09_tmb_vet_all_infantry
