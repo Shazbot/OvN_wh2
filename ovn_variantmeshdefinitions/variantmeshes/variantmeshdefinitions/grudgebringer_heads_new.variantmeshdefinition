@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/grb/grb_infantry/head/grb_infantry_head_01.wsmodel"  />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/grb/grb_infantry/head/grb_infantry_head_02.wsmodel"  />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/grb/grb_infantry/head/grb_infantry_head_03.wsmodel"  />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/grb/grb_infantry/head/grb_infantry_head_04.wsmodel"  />
+	</SLOT>
+</VARIANT_MESH>
