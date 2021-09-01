@@ -279,8 +279,8 @@ function ovn_victory_conditions()
 						objective
 						{
 							type CAPTURE_REGIONS;
-							total 1;
 							region wh_main_blood_river_valley_varenka_hills;
+							ignore_allies;
 						}
 						objective
 						{
@@ -369,8 +369,8 @@ function ovn_victory_conditions()
 						objective
 						{
 							type CAPTURE_REGIONS;
-							total 1;
 							region wh_main_blood_river_valley_varenka_hills;
+							ignore_allies;
 						}
 						objective
 						{
@@ -1059,6 +1059,7 @@ function ovn_victory_conditions()
 						{
 							type CAPTURE_REGIONS;
 							region wh_main_blightwater_karak_azgal;
+							ignore_allies;
 						}
 						objective
 						{
@@ -1092,6 +1093,7 @@ function ovn_victory_conditions()
 						{
 							type CAPTURE_REGIONS;
 							region wh_main_blightwater_karak_azgal;
+							ignore_allies;
 						}
 						objective
 						{
