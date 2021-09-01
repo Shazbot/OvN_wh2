@@ -14,10 +14,9 @@
 	<SLOT name="head" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_01.wsmodel" />
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_02.wsmodel" />
-	</SLOT>
-	<SLOT name="helmet" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/fim_helmet_1.rigid_model_v2" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/fim_helmet_2.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/nor_fimir_warriors_head_05.wsmodel" />
 	</SLOT>
 	<SLOT name="legs" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/legs/nor_fimir_warriors_legs_65.rigid_model_v2" />
