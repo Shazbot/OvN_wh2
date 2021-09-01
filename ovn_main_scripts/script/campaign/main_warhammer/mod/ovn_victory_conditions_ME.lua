@@ -1057,9 +1057,9 @@ function ovn_victory_conditions()
 					{
 						objective
 						{
-							type CAPTURE_REGIONS;
-							region wh_main_blightwater_karak_azgal;
-							ignore_allies;
+							type CONTROL_N_PROVINCES_INCLUDING;
+							total 1;
+							province wh_main_blightwater;
 						}
 						objective
 						{
@@ -1091,9 +1091,9 @@ function ovn_victory_conditions()
 					{
 						objective
 						{
-							type CAPTURE_REGIONS;
-							region wh_main_blightwater_karak_azgal;
-							ignore_allies;
+							type CONTROL_N_PROVINCES_INCLUDING;
+							total 1;
+							province wh_main_blightwater;
 						}
 						objective
 						{
