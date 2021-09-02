@@ -1,6 +1,6 @@
 local function blood_dragons_init()
-    
-	local blood_dragons = cm:get_faction("wh2_main_vmp_blood_dragons")
+
+local blood_dragons = cm:get_faction("wh2_main_vmp_blood_dragons")
 
 if blood_dragons:is_human() and cm:model():turn_number() < 3 then
 			core:add_listener(
@@ -17,7 +17,7 @@ if blood_dragons:is_human() and cm:model():turn_number() < 3 then
 				false
 			)
 		end
-    
+
 end
 
 cm:add_first_tick_callback(

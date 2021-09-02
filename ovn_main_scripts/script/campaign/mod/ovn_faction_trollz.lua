@@ -41,7 +41,7 @@ end
     if is_human then
         start_loyalty_interventions = true
 
-        local function troll_army_lost()                
+        local function troll_army_lost()
             cm:show_message_event(
                 faction_key,
                 "event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_lost_primary_detail",
@@ -49,10 +49,10 @@ end
                 "event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_lost_secondary_detail",
                 true,
                 2503
-            )							
+            )
         end
 
-        local function troll_army_cannibal()                
+        local function troll_army_cannibal()
             cm:show_message_event(
                 faction_key,
                 "event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_cannibal_primary_detail",
@@ -60,7 +60,7 @@ end
                 "event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_cannibal_secondary_detail",
                 true,
                 2504
-            )							
+            )
         end
 
         core:add_listener(
@@ -69,9 +69,9 @@ end
             function(context)
                 return context:faction():is_human() and context:faction():name() == faction_key and cm:model():turn_number() == 2
             end,
-            function(context) 
+            function(context)
                 cm:trigger_mission(faction_key, "ovn_troll_me_take_karak_azgal", true)
-            end, 		
+            end,
             false
         )
 
@@ -88,14 +88,14 @@ end
                 if not current_char:character_type("colonel") then
                     cm:apply_effect_bundle_to_characters_force("ovn_troll_devour", current_char_cqi, 7, false);
                 end
-            end, 		
+            end,
             true
         )
 
         core:add_listener(
             "troll_loyalty_low",
             "FactionTurnStart",
-            function(context) 
+            function(context)
                 return context:faction():is_human() and context:faction():name() == faction_key and cm:model():turn_number() > 1
             end,
             function(context)
@@ -105,8 +105,8 @@ end
                     local current_char = character_list:item_at(i)
                     local current_char_cqi = current_char:command_queue_index()
 
-                    if not current_char:character_type("colonel") then
-                        if not current_char:is_faction_leader() and current_char:has_military_force() and current_char:loyalty() < 3 and 1 == cm:random_number(5, 1) then
+                    if not current_char:character_type("colonel") and current_char:has_military_force() then
+                        if not current_char:is_faction_leader() and current_char:loyalty() < 3 and 1 == cm:random_number(5, 1) then
                             cm:disable_event_feed_events(true, "", "wh_event_subcategory_character_deaths", "")
                             cm:set_character_immortality("character_cqi:"..current_char_cqi, false)
                             cm:kill_character_and_commanded_unit("character_cqi:"..current_char_cqi, true, false)
@@ -132,7 +132,7 @@ end
 end
 
 cm:add_first_tick_callback(
-    function() 
-        troll_init() 
+    function()
+        troll_init()
     end
 )
