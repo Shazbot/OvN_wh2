@@ -36,7 +36,7 @@ ovn_hero_abilities_the_shadows_coil.png	ovn_skill_com_hero_dance_legles_the_elf_
 ovn_hero_abilities_woven_mist.png	ovn_skill_com_hero_dance_legles_the_elf_3	The Wardancer threads and loops, contorting to create an ethereal fabric that turns aside arrows and bolts.	Woven Mist	0	false	false	false	0.0	0
 trait_dwarf.png	ovn_skill_innate_com_giblit_the_dwarf			0	true	false	false	0.0	0
 item_talisman.png	ovn_skill_anc_weapon_friendship_bracelet_giblit		Giblit's Friendship Bracelet	11	false	false	false	0.0	0
-item_enchanted_item.png	ovn_skill_anc_enchanted_item_bimbos_book		Bimbo's Book of Sage Advice	11	false	false	false	0.0	0
+item_enchanted_item.png	ovn_skill_anc_enchanted_item_bimbos_book		Bimbo's Book of Sage Advice	6	false	false	false	0.0	0
 battle_attack.png	ovn_skill_all_dummy_agent_actions_com_giblit_the_dwarf	 	Actions [HIDDEN]	0	false	false	false	0.0	0
 character_general_ability.png	ovn_skill_com_hero_giblit_the_dwarf_0	Giblit would very much like to see tomorrow.	Self Preservation	5	false	false	false	0.0	0
 character_health.png	ovn_skill_com_hero_giblit_the_dwarf_1	Slayers suffer bouts of depression, and failed slayers doubly so. This often leads to periods when they glut themselves on alcohol or food.	Gluttonous	0	false	false	false	0.0	0

@@ -40,9 +40,10 @@ end
 local function add_grudge_anc()
     local grudebringers = cm:get_faction("wh2_main_emp_grudgebringers");
     if grudebringers then
-        cm:force_add_ancillary(grudebringers:faction_leader(), "ovn_anc_magic_standard_ptolos", true, true);
-        cm:force_add_ancillary(grudebringers:faction_leader(), "grudge_item_grudgebringer_sword", true, true);
-        cm:force_add_ancillary(grudebringers:faction_leader(), "grudge_item_horn_of_urgok", true, true);
+				local faction_leader = grudebringers:faction_leader()
+        cm:force_add_ancillary(faction_leader, "ovn_anc_magic_standard_ptolos", true, true);
+        cm:force_add_ancillary(faction_leader, "grudge_item_grudgebringer_sword", true, true);
+        cm:force_add_ancillary(faction_leader, "grudge_item_horn_of_urgok", true, true);
     end;
 end
 
@@ -361,8 +362,8 @@ local function grudgebringers_init()
      cm:callback(function()
         add_grudge_anc()
       end, 3)
-    end 
-    
+    end
+
     if faction_obj:is_human() then
 				if cm:is_new_game() then
 					cm:callback(

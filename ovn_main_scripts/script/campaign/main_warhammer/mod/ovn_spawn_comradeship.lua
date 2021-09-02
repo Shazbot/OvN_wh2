@@ -157,7 +157,7 @@ local function handle_human_halfling_comradeship_unlocking()
 end
 
 local function handle_ai_halfling_comradeship_unlocking()
-	local rand = cm:random_number(10, 1)
+	local rand = cm:random_number(20, 1)
 	if rand == 1 then
 		spawn_the_comradeship()
 	end
@@ -199,6 +199,88 @@ cm:add_first_tick_callback(function()
 		true
 	)
 end)
+
+local unlocked_comradeskip_ancies = {
+	["ovn_anc_weapon_glammyding"] = false,
+	["ovn_anc_talisman_bottomless_hat_of_rabbit"] = false,
+	["ovn_anc_arcane_item_cathay_fireworks"] = false,
+	["ovn_anc_weapon_aragands_sword"] = false,
+	["ovn_anc_enchanted_item_pig_swill"] = false,
+	["ovn_anc_talisman_friendship_bracelet_legles"] = false,
+	["ovn_anc_enchanted_item_ring_of_concealment"] = false,
+	["ovn_anc_talisman_friendship_bracelet_giblit"] = false,
+	["ovn_anc_enchanted_item_bimbos_book"] = false,
+}
+
+local comradeskip_ancies_to_level = {
+	["ovn_anc_weapon_glammyding"] = 10,
+	["ovn_anc_talisman_bottomless_hat_of_rabbit"] = 14,
+	["ovn_anc_arcane_item_cathay_fireworks"] = 18,
+	["ovn_anc_weapon_aragands_sword"] = 12,
+	["ovn_anc_enchanted_item_pig_swill"] = 7,
+	["ovn_anc_talisman_friendship_bracelet_legles"] = 12,
+	["ovn_anc_enchanted_item_ring_of_concealment"] = 7,
+	["ovn_anc_talisman_friendship_bracelet_giblit"] = 12,
+	["ovn_anc_enchanted_item_bimbos_book"] = 7,
+}
+
+local comradeskip_subtype_and_ancies = {
+	["ovn_com_olorin_the_grey_wizard"] = {
+		["ovn_anc_weapon_glammyding"] = true,
+		["ovn_anc_talisman_bottomless_hat_of_rabbit"] = true,
+		["ovn_anc_arcane_item_cathay_fireworks"] = true,
+	},
+	["ovn_com_aragand_the_layabout"] = {
+		["ovn_anc_weapon_aragands_sword"] = true,
+		["ovn_anc_enchanted_item_pig_swill"] = true,
+	},
+	["ovn_com_legles_the_elf"] = {
+		["ovn_anc_enchanted_item_ring_of_concealment"] = true,
+		["ovn_anc_talisman_friendship_bracelet_legles"] = true,
+	},
+	["ovn_com_giblit_the_dwarf"] = {
+		["ovn_anc_enchanted_item_bimbos_book"] = true,
+		["ovn_anc_talisman_friendship_bracelet_giblit"] = true,
+	},
+}
+
+core:remove_listener("ovn_com_give_ancies")
+core:add_listener(
+	"ovn_com_give_ancies",
+	"CharacterRankUp",
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+		return comradeskip_subtype_and_ancies[char:character_subtype_key()] ~= nil
+	end,
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+		local rank = char:rank()
+
+		local ancies = comradeskip_subtype_and_ancies[char:character_subtype_key()]
+		if not ancies then return end
+		for anci, _ in pairs(ancies) do
+			if unlocked_comradeskip_ancies[anci] == false and comradeskip_ancies_to_level[anci] <= rank then
+				unlocked_comradeskip_ancies[anci] = true
+				cm:force_add_ancillary(char, anci, true, false)
+			end
+		end
+	end,
+	true
+)
+
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("ovn_com_ancies", unlocked_comradeskip_ancies, context)
+	end
+)
+
+cm:add_loading_game_callback(
+	function(context)
+		unlocked_comradeskip_ancies = cm:load_named_value("ovn_com_ancies", unlocked_comradeskip_ancies, context)
+	end
+)
 
 -- DEBUG STUFF
 --- This snippet unocks all the ingredients.
