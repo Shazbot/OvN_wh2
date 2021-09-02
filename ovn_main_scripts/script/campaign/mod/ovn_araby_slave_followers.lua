@@ -846,6 +846,10 @@ core:add_listener(
 		end
 		mod.num_times_purchased[faction_key][pooled_res_id] = mod.num_times_purchased[faction_key][pooled_res_id] + 1
 
+		cm:callback(function()
+			mod.calculate_post_victories_changes(faction_key, pooled_res_id)
+		end, 0)
+
 		if table_contains(araby_factions, cm:get_local_faction_name(true)) then
 			mod.refresh_victories_bundle()
 		end
