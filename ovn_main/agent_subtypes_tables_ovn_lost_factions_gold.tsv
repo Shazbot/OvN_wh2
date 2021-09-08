@@ -43,7 +43,7 @@ arb_vizier_life_0	true	true	ui/campaign ui/agents/wh_dlc05_lore_life.png	arb_viz
 arb_vizier_heavens_0	true	true	ui/campaign ui/agents/wh_main_lore_heavens.png	arb_vizier_heavens_0	wh_main_vo_actor_Empire_CelestialWizard	true	-1	false	true	true	true	arb_vizier	wh_main_lore_heavens		false
 arb_vizier_desert_0	true	true	ui/campaign ui/agents/ovn_lore_desert.png	arb_vizier_desert_0	wh_dlc05_vo_actor_Empire_GreyWizard	true	-1	false	true	true	true	arb_vizier	ovn_lore_desert		false
 fim_meargh_skattach	false	true		fim_meargh_skattach	wh2_dlc15_vo_actor_Troll_River_Troll_Hag	true	-1	false	true	true	true	legendary_lords			false
-rbt_blightstormer	true	true	ui/campaign ui/agents/wh_main_lore_death.png	ovn_rbt_ch_blightstormer	wh_main_vo_actor_Chaos_Sorcerer	true	-1	false	true	true	true				false
+rbt_blightstormer	true	true	ui/campaign ui/agents/wh_main_lore_death.png	ovn_rbt_ch_blightstormer	wh_main_vo_actor_Chaos_Sorcerer	true	-1	false	true	true	true		ovn_lore_rot		false
 ribspreader	false	false		ribspreader	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	true	true	legendary_lords			false
 arb_fatandira	false	false		arb_fatandira	wh2_main_vo_actor_High_Elves_Princess	true	-1	false	true	true	true	legendary_lords			false
 arb_golden_magus	false	true		arb_golden_magus	wh_main_vo_actor_Empire_BrightWizard	true	-1	false	true	true	true	legendary_lords			false

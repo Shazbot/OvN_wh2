@@ -10,3 +10,4 @@ wh_main_lore_winter_rage	UI\Battle UI\ability_icons\grudge_lore_winter_rage_larg
 ovn_lore_golden_magus	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true	true
 wh_main_lore_jaffar	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	119	1	11	lore_shadow	Play_WH_UI_Ability_Click_Generic_Shadow	true	true
 elo_lore_boglar	UI\Battle UI\ability_icons\wh_main_lore_passive_sneaky_stealin.png	0	0	false	70	0	59	lore_boglar	Play_WH_UI_Ability_Click_Generic_Lil_Waaagh	true	true
+ovn_lore_rot	UI\Battle UI\ability_icons\wh2_main_lore_passive_plague_rash.png	0	17	false	120	125	50	lore_plague	Play_WH_UI_Ability_Click_Generic_Light	false	true

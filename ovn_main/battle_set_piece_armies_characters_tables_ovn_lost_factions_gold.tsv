@@ -30,7 +30,7 @@ character_level	character_name	forename	magic_lore	num_men	surname	unit_type	age
 1	ovn_grudge	3110890001	wh_dlc05_lore_shadows	100	3110890002	morgan_bernhardt	general	morgan_bernhardt	ui/portraits/portholes/wh_main_brt_bretonnia/brt_lords_campaign_01_0.png	311089016		true
 1	ovn_araby_ll_2	999982309		100		ovn_araby_ll_2	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll_2.png	290588884		true
 1	fim_meargh_skattach	999982314	wh2_main_lore_dark_magic	100		fim_meargh_skattach	general	fim_meargh_skattach	ui/portraits/portholes/no_culture/fim_meargh_skattach.png	798687835		true
-1	ovn_rbt_blightstormer	2147359797	wh2_main_lore_plague	100	1725206863	ovn_rbt_ch_blightstormer	wizard	rbt_blightstormer	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	3023082		true
+1	ovn_rbt_blightstormer	2147359797	ovn_lore_rot	100	1725206863	ovn_rbt_ch_blightstormer	wizard	rbt_blightstormer	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	3023082		true
 1	ribspreader	999982317		100		ribspreader	general	ribspreader	ui/portraits/portholes/ribspreader/ribspreader.png	1973488301		true
 1	arb_fatandira	882002		100	882003	arb_fatandira	general	arb_fatandira	ui/portraits/portholes/no_culture/arb_fatandira.png	87497939		true
 1	arb_golden_magus	882008	ovn_lore_golden_magus	100	882009	arb_golden_magus	general	arb_golden_magus	ui/portraits/portholes/no_culture/arb_golden_magus.png	889387935		true
