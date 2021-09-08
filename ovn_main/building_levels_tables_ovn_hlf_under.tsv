@@ -10,10 +10,10 @@ ovn_hlf_under_buffet_menu_1	ovn_hlf_under_buffet_menu	0	2	750	0		false	0	0	0	0	f
 ovn_hlf_under_buffet_menu_2	ovn_hlf_under_buffet_menu	1	4	1500	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation	false	0.0	0	true	3		true	0	0
 ovn_hlf_under_buffet_menu_3	ovn_hlf_under_buffet_menu	2	6	2500	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation	false	0.0	0	true	4		true	0	0
 ovn_hlf_under_special_menu_1	ovn_hlf_under_special_menu	0	2	3000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_discovery_assassins	false	0.0	0	true	4		true	0	0
-ovn_hlf_under_drinks_cofee	ovn_hlf_under_drinks_cofee	0	3	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation_doomsday	false	0.0	0	true	2		true	0	0
-ovn_hlf_under_drinks_wine	ovn_hlf_under_drinks_wine	0	3	5000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation_war_camp	false	0.0	0	true	2		true	0	0
-ovn_hlf_under_barn_1	ovn_hlf_under_barn	0	2	300	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0.0	0	true	2		true	0	0
+ovn_hlf_under_drinks_cofee	ovn_hlf_under_drinks_cofee	0	3	3500	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation_doomsday	false	0.0	0	true	2		true	0	0
+ovn_hlf_under_drinks_wine	ovn_hlf_under_drinks_wine	0	3	4500	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation_war_camp	false	0.0	0	true	2		true	0	0
+ovn_hlf_under_barn_1	ovn_hlf_under_barn	0	2	300	50		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0.0	0	true	2		true	0	0
 ovn_hlf_under_revelry_1	ovn_hlf_under_revelry	0	2	300	50		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0.0	0	true	2		true	0	0
 ovn_hlf_under_security_1	ovn_hlf_under_security	0	2	500	75		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0.0	0	true	2		true	0	0
 ovn_hlf_under_fence_1	ovn_hlf_under_fence	0	2	300	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0.0	0	true	2		true	0	0
-ovn_hlf_under_barn_2	ovn_hlf_under_barn	1	2	600	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0.0	0	true	3		true	0	0
+ovn_hlf_under_barn_2	ovn_hlf_under_barn	1	2	1000	50		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0.0	0	true	3		true	0	0
