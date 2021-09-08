@@ -1,0 +1,9 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+elo_ocean_breeze_upgraded	spell_ability.png	3	spell_ability.png	battle	true
+elo_ocean_breeze_enable	spell_ability.png	4	spell_ability.png	battle	true
+elo_ocean_breeze_cooldown	magic_cooldown.png	60	magic_cooldown.png	battle	false
+elo_ocean_breeze_cooldown_miscast_reduction	spell_ability.png	111	spell_ability.png	battle	false
+elo_ocean_breeze_cooldown_wom_cost_upgrade	spell_ability.png	67	spell_ability.png	battle	false
+elo_ocean_breeze_cooldown_wom_cost	spell_ability.png	68	spell_ability.png	battle	false
+elo_sea_hag_call_children	spell_ability.png	4	spell_ability.png	battle	true

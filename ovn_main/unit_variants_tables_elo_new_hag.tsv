@@ -1,0 +1,4 @@
+unit_variants_tables	5
+faction	name	unit	variant	unit_card
+	elo_sea_hag	elo_sea_hag	elo_sea_hag	elo_sea_hag
+	elo_sea_troll	elo_sea_troll_summoned	elo_sea_troll	elo_sea_troll

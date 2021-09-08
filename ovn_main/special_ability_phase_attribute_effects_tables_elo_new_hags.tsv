@@ -1,0 +1,4 @@
+special_ability_phase_attribute_effects_tables	1
+attribute	phase	attribute_type
+fatigue_immune	elo_sea_hag_ocean_breeze	positive
+fatigue_immune	elo_sea_hag_ocean_breeze_upgraded	positive

@@ -1,0 +1,9 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_elo_sea_hag_call_children	Spell: "Come Little Children"	true
+effects_description_elo_ocean_breeze_cooldown_wom_cost_upgrade	Winds of Magic cost: %n for "Sea Breeze Upgraded"	true
+effects_description_elo_ocean_breeze_upgraded	Overcast spell: "Sea Breeze Upgraded"	true
+effects_description_elo_ocean_breeze_cooldown_miscast_reduction	Miscast base chance: %+n% for "Sea Breeze Upgraded"	true
+effects_description_elo_ocean_breeze_enable	Spell: "Sea Breeze"	true
+effects_description_elo_ocean_breeze_cooldown_wom_cost	Winds of Magic cost: %n for "Sea Breeze"	true
+effects_description_elo_ocean_breeze_cooldown	Cooldown: %+n% to "Sea Breeze"	true

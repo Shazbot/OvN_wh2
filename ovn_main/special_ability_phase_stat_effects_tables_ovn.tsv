@@ -138,7 +138,7 @@ temper_tantrum	2.0	stat_melee_damage_ap	mult
 temper_tantrum	2.0	stat_melee_damage_base	mult
 temper_tantrum	15.0	stat_resistance_physical	add
 warpstone_solid	40.0	stat_resistance_all	add
-elo_so_hungry	30.0	stat_morale	add
+elo_so_hungry	40.0	stat_morale	add
 troll_mocking_laughter	-8.0	stat_morale	add
 ovn_mystic_mist	6.0	stat_resistance_missile	add
 lzd_amazon_poison	0.8	stat_melee_attack	mult
