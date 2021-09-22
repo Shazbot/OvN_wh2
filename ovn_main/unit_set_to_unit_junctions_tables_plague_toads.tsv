@@ -1,0 +1,9 @@
+unit_set_to_unit_junctions_tables	0
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+true				elo_plague_toads	all_non_chs
+false				elo_plague_toads	chs_all
+false				elo_plague_toads	chs_hounds
+false				elo_plague_toads	monsters
+false				elo_plague_toads	mp_set_chs_inf_chaos_warhounds_1
+false				elo_plague_toads	wh2_dlc11_chs_marauder_horsemen_warhounds_manticore
+false				elo_plague_toads	wh2_dlc11_chs_vets_chariots_chaos_knights_dragon_ogres_warhounds_manticore

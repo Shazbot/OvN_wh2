@@ -1,0 +1,4 @@
+unit_abilities_tables	16
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+elo_plague_flies_helper	false			wh_type_augment		wh_main_anc_group_common	false	true	unit		false
+elo_plague_stench_helper	false			wh_type_augment		wh_main_anc_group_common	false	true	unit		false
