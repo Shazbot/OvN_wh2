@@ -2,8 +2,6 @@ variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 ovn_shearl		ovn_shearl		1.0	0.65	0.05	
 ovn_fim_javelin_0		fim_fimir_javeliner		1.0	0.65	0.05	
-wh_dlc08_nor_fimir_axe		nor_fimir_axe		1.0	0.8	0.05	
-wh_dlc08_nor_fimir_great_weapons		nor_fimir_great_weapons		1.0	0.8	0.05	
 ovn_fim_bog_beast	VariantMeshes\wh_variantmodels\lz1\fim\fim_bog_beast\tech	ovn_bog_beast	lz1/fim/fim_bog_beast/fim_bog_beast_imposter	2.0	1.0	0.0	
 ovn_fim_bog_beast_rider		ovn_bog_beast_rider		1.0	1.0	0.0	
 ovn_death_quest		ovn_death_quest		1.0	0.8	0.2	
