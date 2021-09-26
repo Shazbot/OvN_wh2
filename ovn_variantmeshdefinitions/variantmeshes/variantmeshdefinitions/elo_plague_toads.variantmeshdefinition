@@ -1,0 +1,18 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_body_01.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_dlc_squig</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_melee_weapon_type:Bite_Medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_body_02.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_dlc_squig</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_melee_weapon_type:Bite_Medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_body_03.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_dlc_squig</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_melee_weapon_type:Bite_Medium</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="tongue" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_tongue_01.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_front_legs_01.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_front_legs_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\rp2\grn\grn_squig_herd\plague_toad_front_legs_03.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>
