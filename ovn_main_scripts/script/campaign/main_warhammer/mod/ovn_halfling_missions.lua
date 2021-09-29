@@ -259,7 +259,7 @@ mod.trigger_battle = function(faction_key, military_force, units_in_force_to_fig
 	local power = mod.get_attacking_force_power()
 
 	cm:set_saved_value("ovn_hlf_missions_player_force_cqi", military_force:command_queue_index())
-	Forced_Battle_Manager:trigger_forced_battle_against_generated_ai_army(
+	Forced_Battle_Manager:trigger_forced_battle_with_generated_army(
 		military_force:command_queue_index(),
 		faction_key,
 		subculture,
