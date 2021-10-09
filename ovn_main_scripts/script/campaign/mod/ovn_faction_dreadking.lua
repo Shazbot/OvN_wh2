@@ -54,19 +54,23 @@ end
 
 local function dreadking_init()
     local faction_key = "wh2_dlc09_tmb_the_sentinels"
-    local faction_obj = cm:get_faction(faction_key)
+    local dreadking = cm:get_faction(faction_key)
 
-    if faction_obj:is_null_interface() then
+    if not dreadking or dreadking:is_null_interface() then
         return false
     end
 
     -- remove vanilla nerf
     cm:remove_effect_bundle("wh2_main_negative_research_speed_50", "wh2_dlc09_tmb_the_sentinels", -1)
 
-    setup_diplo(faction_obj:is_human())
+    setup_diplo(dreadking:is_human())
+
+		if not dreadking:is_human() and not dreadking:faction_leader():character_subtype("Dread_King") then
+			cm:force_change_cai_faction_personality("wh2_dlc09_tmb_the_sentinels", "wh2_dlc09_tmb_the_sentinels")
+		end
 
        --MORTAL EMPIRES MISSION--
-    if cm:get_faction("wh2_dlc09_tmb_the_sentinels"):is_human() then
+    if dreadking:is_human() then
        if cm:model():campaign_name("main_warhammer") then
         if not cm:get_saved_value("morgheim_rescue") then
 
@@ -157,8 +161,6 @@ local function dreadking_init()
 
     else
 		if cm:is_new_game() then
-
-        local dreadking = cm:get_faction("wh2_dlc09_tmb_the_sentinels");
             cm:force_add_ancillary(dreadking:faction_leader(), "malach_sword", true, true);
             cm:force_add_ancillary(dreadking:faction_leader(), "chalcidar_orb", true, true);
             cm:apply_effect_bundle("dk_hon_spawn", "wh2_dlc09_tmb_the_sentinels", -1)

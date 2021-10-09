@@ -1226,6 +1226,7 @@ local undead_dread_king_units = {
 	["wh2_dlc09_tmb_mon_dire_wolves"] = true,
 	["wh_main_vmp_mon_crypt_horrors"] = true,
 	["wh_main_vmp_inf_grave_guard_0"] = true,
+	["elo_dread_inf_grave_guard_0"] = true,
 	["wh2_dlc09_tmb_inf_crypt_ghouls"] = true,
 	["black_grail_knights_tmb"] = true,
 	["elo_tomb_guardian"] = true,
@@ -1263,8 +1264,7 @@ local function dreadking_setup()
 			end
 		)
 
-		local pyramid_region =
-			cm:model():world():region_manager():region_by_key("wh2_main_great_mortis_delta_black_pyramid_of_nagash")
+		local pyramid_region = cm:get_region("wh2_main_great_mortis_delta_black_pyramid_of_nagash")
 		cm:region_slot_instantly_dismantle_building(pyramid_region:settlement():active_secondary_slots():item_at(0))
 
 		if dread_king:is_human() then
@@ -1276,6 +1276,8 @@ local function dreadking_setup()
 		for unit_key, _ in pairs(undead_dread_king_units) do
 			cm:add_event_restricted_unit_record_for_faction(unit_key, "wh2_dlc09_tmb_the_sentinels")
 		end
+
+		cm:force_change_cai_faction_personality("wh2_dlc09_tmb_the_sentinels", "wh2_dlc09_tmb_the_sentinels")
 	end
 end
 
