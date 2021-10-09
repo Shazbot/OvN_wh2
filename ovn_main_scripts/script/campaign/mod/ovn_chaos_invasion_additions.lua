@@ -8,6 +8,7 @@ local function add_units_to_army(chaos_army_key)
     ram:add_unit(chaos_army_key, "Great_Deamon1_unit", 1)
     ram:add_unit(chaos_army_key, "ovn_nurgle_chs_cav_chaos_knights_1", 1)
     ram:add_unit(chaos_army_key, "ovn_nurgle_chs_cav_chaos_knights_0", 1)
+		ram:add_unit(chaos_army_key, "elo_plague_toads", 1)
 end
 
 local chaos_army_keys = {
