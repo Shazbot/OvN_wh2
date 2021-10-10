@@ -151,6 +151,17 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 	cm:instantly_set_settlement_primary_slot_level(aos_region:settlement(), 2)
 
 	cm:force_make_peace("wh_dlc08_nor_wintertooth", "wh2_main_nor_rotbloods")
+
+	for _, unit in ipairs({
+		"wh2_main_skv_inf_stormvermin_1",
+		"wh2_main_skv_mon_rat_ogres",
+		"wh2_main_skv_inf_skavenslave_spearmen_0",
+		"wh2_main_skv_inf_skavenslaves_0",
+		"wh2_main_skv_inf_clanrat_spearmen_1",
+		"wh2_main_skv_inf_clanrats_1",
+	}) do
+		cm:add_unit_to_faction_mercenary_pool(rotblood_tribe, unit, 0, 0, 20, 1, 0, "", "", "", false)
+	end
 end
 
 function new_ovn_sr_chaos()
@@ -899,6 +910,67 @@ local function spawn_rasknitt()
 	)
 end
 
+local building_to_chances = {
+	ovn_Clan_Fester_1 = {
+		wh2_main_skv_inf_stormvermin_1 = 0,
+		wh2_main_skv_mon_rat_ogres = 0,
+		wh2_main_skv_inf_skavenslave_spearmen_0 = 5,
+		wh2_main_skv_inf_skavenslaves_0 = 5,
+		wh2_main_skv_inf_clanrat_spearmen_1 = 0,
+		wh2_main_skv_inf_clanrats_1 = 0,
+	},
+	ovn_Clan_Fester_2 = {
+		wh2_main_skv_inf_stormvermin_1 = 0,
+		wh2_main_skv_mon_rat_ogres = 0,
+		wh2_main_skv_inf_skavenslave_spearmen_0 = 5,
+		wh2_main_skv_inf_skavenslaves_0 = 5,
+		wh2_main_skv_inf_clanrat_spearmen_1 = 4,
+		wh2_main_skv_inf_clanrats_1 = 4,
+	},
+	ovn_Clan_Fester_3 = {
+		wh2_main_skv_inf_stormvermin_1 = 4,
+		wh2_main_skv_mon_rat_ogres = 3,
+		wh2_main_skv_inf_skavenslave_spearmen_0 = 6,
+		wh2_main_skv_inf_skavenslaves_0 = 6,
+		wh2_main_skv_inf_clanrat_spearmen_1 = 5,
+		wh2_main_skv_inf_clanrats_1 = 5,
+	},
+}
+
+local function give_skaven_mercs_from_buildings()
+	local unit_to_chance = {}
+
+	local faction = cm:get_faction("wh2_main_nor_rotbloods")
+
+	---@type CA_REGION
+	for region in binding_iter(faction:region_list()) do
+		---@type CA_SLOT
+		for slot in binding_iter(region:slot_list()) do
+			if slot and slot:has_building() then
+				local building_key = slot:building():name()
+				local unit_chances = building_to_chances[building_key]
+				if unit_chances then
+					for unit, chance in pairs(unit_chances) do
+						unit_to_chance[unit] = (unit_to_chance[unit] or 0) + chance
+					end
+				end
+			end
+		end
+	end
+
+	for unit, chance in pairs(unit_to_chance) do
+		local num_guaranteed = math.floor(chance/100)
+		local to_roll = chance%100
+
+		if cm:random_number(100) <= to_roll then
+			num_guaranteed = num_guaranteed + 1
+		end
+		if num_guaranteed > 0 then
+			cm:add_units_to_faction_mercenary_pool(faction:command_queue_index(), unit, num_guaranteed)
+		end
+	end
+end
+
 local blightstormer_plague_chance_per_skill_points = {
 	[1] = 8,
 	[2] = 12,
@@ -992,6 +1064,21 @@ cm:add_first_tick_callback(
 					rotblood_value = rotblood_option:get_finalized_setting()
 					local enable_option = lost_factions_mod:get_option_by_key("enable")
 					enable_value = enable_option:get_finalized_setting()
+				end
+
+				if not mct or rotblood_value and enable_value then
+					core:remove_listener("ovn_rot_give_skaven_mercs_from_buildings")
+					core:add_listener(
+						"ovn_rot_give_skaven_mercs_from_buildings",
+						"FactionTurnStart",
+						function(context)
+							return context:faction():name() == "wh2_main_nor_rotbloods"
+						end,
+						function()
+							give_skaven_mercs_from_buildings()
+						end,
+						true
+					)
 				end
 
 				if rotblood_tribe:is_human() or not mct or rotblood_value and enable_value then

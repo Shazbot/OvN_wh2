@@ -36,3 +36,6 @@ ovn_warp_skaven_mercs_2	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_
 ovn_warp_skaven_mercs_3	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
 ovn_warp_skaven_mercs_4	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
 ovn_warp_skaven_mercs_5	ovn_warp_skaven_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_Clan_Fester_1	ovn_warp_skaven_free_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_Clan_Fester_2	ovn_warp_skaven_free_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
+ovn_Clan_Fester_3	ovn_warp_skaven_free_mercs_desc_dummy	faction_to_faction_own_unseen	1.0	0.0	0.0
