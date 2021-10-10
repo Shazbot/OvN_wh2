@@ -1,4 +1,20 @@
---events = get_events();
+---@return CA_UIC
+local function find_ui_component_str(starting_comp, str)
+	local has_starting_comp = str ~= nil
+	if not has_starting_comp then
+		str = starting_comp
+	end
+	local fields = {}
+	local pattern = string.format("([^%s]+)", ">")
+	string.gsub(str, pattern, function(c)
+		c = string.gsub(c, "^%s+", "")
+		c = string.gsub(c, "%s+$", "")
+		if c ~= "root" then
+			fields[#fields+1] = c
+		end
+	end)
+	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
+end
 
 local cod_ll_popularity_regions = {};
 local power_of_authority_vfx = {full = "scripted_effect7", half = "scripted_effect8"};
@@ -62,6 +78,62 @@ function add_cod_naval_listeners()
 	out("#### Adding cod_naval Listeners ####");
 	local cod_naval = cm:model():world():faction_by_key(cod_naval_defender_faction_key);
 	if cod_naval:is_human() then
+
+	cm:apply_effect_bundle("cod_supply_lines_status", cod_naval_defender_faction_key, -1);
+	core:remove_listener("cod_supply_lines_status_listener")
+	core:add_listener(
+			"cod_supply_lines_status_listener",
+			"RealTimeTrigger",
+			function(context)
+					return context.string == "cod_supply_lines_status"
+			end,
+			function()
+				local tt = find_ui_component_str("root > TechTooltipPopup")
+				if not tt:Visible() then return end
+
+				local tooltip_title = find_ui_component_str("root > TechTooltipPopup > list_parent > dy_title")
+				if tooltip_title:GetStateText() ~= "Naval Supply Lines Status" then return end
+
+				tooltip_title:SetStateText(effect.get_localised_string("cod_supply_lines_status_script_text"))
+
+				local tooltip_desc = find_ui_component_str("root > TechTooltipPopup > list_parent > description_window")
+
+				local desc_text = ""
+
+				local campaign_regions = cod_regions[cm:get_campaign_name()]
+				if not campaign_regions then return end
+
+				for regions_group, regions in pairs(campaign_regions) do
+					if regions_group == "outer" or regions_group == "inner" then
+						for region_key, _ in pairs(regions) do
+							desc_text = desc_text.."\n"
+								.."[[col:green]]"
+								..effect.get_localised_string("regions_onscreen_"..tostring(region_key))
+								.."[[/col]]"
+
+								local region = cm:get_region(region_key)
+								if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+									desc_text = desc_text
+										..": [[col:red]]"
+										..effect.get_localised_string("cod_supply_lines_status_dangerous_script_text")
+										.."[[/col]]"
+								else
+									desc_text = desc_text
+										..": [[col:green]]"
+										..effect.get_localised_string("cod_supply_lines_status_safe_script_text")
+										.."[[/col]]"
+								end
+						end
+					end
+				end
+
+				tooltip_desc:SetStateText(desc_text)
+			end,
+			true
+	)
+
+	real_timer.unregister("cod_supply_lines_status")
+	real_timer.register_repeating("cod_supply_lines_status", 0)
 
 	-- POWER OF AUTHORITY
 	core:add_listener(

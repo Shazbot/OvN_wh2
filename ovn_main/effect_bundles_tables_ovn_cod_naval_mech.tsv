@@ -32,3 +32,4 @@ ovn_cod_naval_defender_outer_8			faction	1	cod_naval_defender_ok.png	true	false	
 ovn_cod_naval_defender_outer_9			faction	1	cod_naval_defender_ok.png	true	false	true
 ovn_cod_power_of_authority			region	1	morale.png	false	false	true
 cod_influence			faction	1	diplomacy.png	false	false	true
+cod_supply_lines_status			faction	1	character.png	true	false	true

@@ -5,4 +5,4 @@ building_culture_variants_name_ovn_rot_skittergatewh2_main_nor_rotbloods	The Ski
 building_short_description_texts_short_description_ovn_rot_skittergate	The Skittergate is a massive warpstone-powered portal developed by Clan Fester for their Rotblood Tribe allies.	true
 effects_description_ovn_rot_skittergate_enable_dummy	Enables the Skittergate mechanic	true
 effects_description_ovn_warp_skaven_mercs_desc_dummy	Units recruitable from this building require the Warpstone resource	true
-effects_description_ovn_warp_skaven_free_mercs_desc_dummy	Chance per turn to receive units recruitable from this building in the faction mercenary pool	true
+effects_description_ovn_warp_skaven_free_mercs_desc_dummy	Chance per turn for the units recruitable from this building to be added to your faction mercenary pool	true
