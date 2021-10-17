@@ -107,9 +107,7 @@ function add_cod_naval_listeners()
 					if regions_group == "outer" or regions_group == "inner" then
 						for region_key, _ in pairs(regions) do
 							desc_text = desc_text.."\n"
-								.."[[col:green]]"
 								..effect.get_localised_string("regions_onscreen_"..tostring(region_key))
-								.."[[/col]]"
 
 								local region = cm:get_region(region_key)
 								if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
