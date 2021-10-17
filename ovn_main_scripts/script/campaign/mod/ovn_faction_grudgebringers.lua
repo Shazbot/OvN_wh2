@@ -166,11 +166,13 @@ local function set_up_grudgebingers_ME_confed_listener()
                                     "",
                                     false,
                                     function(cqi)
-                                        cm:set_character_immortality("faction:wh2_main_emp_grudgebringers,surname:3110890002", true);
+                                        cm:set_character_immortality("character_cqi:"..cqi, true);
+                                        cm:add_agent_experience("character_cqi:"..cqi, 2500)                
                                         cm:set_character_unique("character_cqi:"..cqi, true);
                                         local character = cm:get_character_by_cqi(cqi)
                                         cm:force_add_ancillary(character, "ovn_anc_magic_standard_ptolos", true, false)
                                         cm:force_add_ancillary(character, "grudge_item_grudgebringer_sword", true, false)
+                                        cm:force_add_ancillary(character, "grudge_item_horn_of_urgok", true, false)
                                     end
                                 )
                             else
