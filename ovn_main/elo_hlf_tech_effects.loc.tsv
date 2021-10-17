@@ -30,9 +30,9 @@ effects_description_elo_hlf_monster_cost	Recruitment Cost: %+n% for all Monsters
 effects_description_elo_hlf_dragon_morale	Leadership: %+n for Dragon Hatchlings	true
 effects_description_elo_hlf_dragon_xp	Recruitment Rank: %+n for Dragon Hatchlings	true
 effects_description_elo_hlf_dragon_res	Physical Resistance: %+n% for Dragon Hatchlings	true
-effects_description_elo_hlf_ogre_morale	Leadership: %+n for Ogres	true
-effects_description_elo_hlf_ogre_xp	Recruitment Rank: %+n for Ogres	true
-effects_description_elo_hlf_ogre_dmg	Weapon Strength: %+n for Ogres	true
+effects_description_elo_hlf_ogre_morale	Leadership: %+n for Imperial Ogres	true
+effects_description_elo_hlf_ogre_xp	Recruitment Rank: %+n for Imperial Ogres	true
+effects_description_elo_hlf_ogre_dmg	Weapon Strength: %+n for Imperial Ogres	true
 effects_description_elo_eagle_fatigue_res	Vigour Loss: %+n% for Eagles	true
 effects_description_elo_hlf_monster_missile_res	Missile Resistance: %+n% for all Monsters and Monstrous Infantry units	true
 effects_description_sheriff_taunt	Ability "Taunt" for Sheriffs	true

@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Halfling_Dip_Acceptance_Negative_01	Though we do not like it, we will still feast to it.	false
+diplomacy_strings_string_Halfling_Dip_Acceptance_Negative_02	This leaves me with a bad taste, nothing a few beef and beer pies can’t sort out though.	false
+diplomacy_strings_string_Halfling_Dip_Acceptance_Negative_03	Esmerelda forgive us.	false
+diplomacy_strings_string_Halfling_Dip_Demand_Payments_Negative_01	You don’t want to be on the wrong end of our Hot Pot.	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Negative_01	We do this for the Moot.	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Negative_02	You who look down on us, what say you now?	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Negative_03	Forgive us Esmerelda, we do it for the Moot.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Negative_01	You think us lessers, we will not bow to you.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Negative_02	No amount of food or tobacco would see us deal with the likes of you.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Negative_03	Not with all the feasts of the world would I accept this.	false
+diplomacy_strings_string_Halfling_Dip_Greet_Neg_01	You are no friend of the Halflings, what do you want?	false
+diplomacy_strings_string_Halfling_Dip_Greet_Neg_02	The sight of you makes me sick, speak quickly so I don’t lose my lunch.	false
+diplomacy_strings_string_Halfling_Dip_Greet_Neg_03	I only speak to you out of respect to Esmerelda.	false
+diplomacy_strings_string_Halfling_Dip_Acceptance_Positive_01	May Hyacinth bless you, friend.	false
+diplomacy_strings_string_Halfling_Dip_Acceptance_Positive_03	Let us feast!	false
+diplomacy_strings_string_Halfling_Dip_Demand_Payments_Positive_01	Our crops falter, will you help us?	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Positive_01	For the good of the Mootland and your lands.	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Positive_02	Accept and we will have a hearty feast!	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Positive_03	What say you friends of the Moot.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Positive_01	Our pantry is bare, so if we were to accept we could not feast.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Positive_02	Do not despair, come let us feast anyway!	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Positive_03	We’re sorry we can’t accept but please take some Gipfel Tobacco, the finest in all the Moot, as a token of good will.	false
+diplomacy_strings_string_Halfling_Dip_Greet_Pos_01	Greetings, friends of the Moot.	false
+diplomacy_strings_string_Halfling_Dip_Greet_Pos_02	We have arranged a feast for your arrival.	false
+diplomacy_strings_string_Halfling_Dip_Greet_Pos_03	Welcome to the Mootland friends.	false
+diplomacy_strings_string_Halfling_Dip_Acceptance_Neutral_01	May Esmerelda bless your travels.	false
+diplomacy_strings_string_Halfling_Dip_Acceptance_Neutral_02	I think a small feast is in order!	false
+diplomacy_strings_string_Halfling_Dip_Accept_State_Gift_01	This will strengthen the Moots borders.	false
+diplomacy_strings_string_Halfling_Dip_Accept_State_Gift_02	Thank you, please take some pies and tobacco as a token of our appreciation.	false
+diplomacy_strings_string_Halfling_Dip_Accept_State_Gift_03	Hyacinth bless you.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Accept_01	The Moot thanks you.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Accept_02	Hyacinth bless you.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Accept_03	Let us feast!	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Cancel_Treaty_01	Josias’ curses.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Cancel_Treaty_02	There will be no feast tonight.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Cancel_Treaty_03	The price of our pies and tobacco just doubled for you.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Reject_01	Josias’ curses.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Reject_02	There will be no feast tonight.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_Reject_03	The price of our pies and tobacco just doubled for you.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_War_01	May Taal bring ruin to you and Sigmar strengthen our resolve.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_War_02	There will be no feast tonight.	false
+diplomacy_strings_string_Halfling_Dip_Acknowledge_War_03	You’ll soon find out our Hot Pot is as delicious as it is deadly!	false
+diplomacy_strings_string_Halfling_Dip_Cancel_Treaty_01	This no longer serves the Moots interests.	false
+diplomacy_strings_string_Halfling_Dip_Cancel_Treaty_02	We’re sorry, but please take some Gipfel Tobacco, the finest in all the Moot, as a token of our apology.	false
+diplomacy_strings_string_Halfling_Dip_Cancel_Treaty_03	Josias knows we worked hard to make this work but alas we must cut our losses.	false
+diplomacy_strings_string_Halfling_Dip_Demand_Join_War_01	Please will you come the Moots aid in these dark times.	false
+diplomacy_strings_string_Halfling_Dip_Demand_Join_War_02	We need your help, we don’t have much in the way of gold but please take all the pies and tobacco you want.	false
+diplomacy_strings_string_Halfling_Dip_Demand_Join_War_03	Will you join arms with the small folk?	false
+diplomacy_strings_string_Halfling_Dip_Demand_Payments_Neutral_01	Blight has ruined our harvest, will you lend us some coin?	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Neutral_01	Would some pies or tobacco sweeten the deal?	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Neutral_02	Accept and we will feast!	false
+diplomacy_strings_string_Halfling_Dip_Generic_Offer_Neutral_03	Will you accept the Moot’s offer?	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Neutral_01	Not this time, but stay awhile eat and smoke with us.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Neutral_02	It is not Esmerelda’s wish.	false
+diplomacy_strings_string_Halfling_Dip_Rejection_Neutral_03	I hope you understand but this wouldn’t be in the best interest of the Moot.	false
+diplomacy_strings_string_Halfling_Dip_Offer_Cooperation_01	We may be small but we have heart.	false
+diplomacy_strings_string_Halfling_Dip_Offer_Cooperation_02	Have you not heard the tales of Glibfoot’s damned?	false
+diplomacy_strings_string_Halfling_Dip_Offer_Cooperation_03	We are a part of this world, let us fight!	false
+diplomacy_strings_string_Halfling_Dip_Offer_Peace_01	In Rhya’s name, lets have peace.	false
+diplomacy_strings_string_Halfling_Dip_Offer_Peace_02	We’ll admit we have bitten off more than we can chew!	false
+diplomacy_strings_string_Halfling_Dip_Offer_Peace_03	Please we will give you anything gold, pies or tobacco just show us mercy.	false
+diplomacy_strings_string_Halfling_Dip_Offer_Join_War_01	We may be small but we have heart.	false
+diplomacy_strings_string_Halfling_Dip_Offer_Join_War_02	Have you not heard the tales of Glibfoot’s damned?	false
+diplomacy_strings_string_Halfling_Dip_Offer_Join_War_03	We are a part of this world, let us fight!	false
+diplomacy_strings_string_Halfling_Dip_Offer_Gift_01	Now let us feast!	false
+diplomacy_strings_string_Halfling_Dip_Offer_Gift_02	And we’ve thrown in some pies and tobacco too.	false
+diplomacy_strings_string_Halfling_Dip_Offer_Gift_03	Take this friend and may Ryha bless you.	false
+diplomacy_strings_string_Halfling_Dip_Greet_Neu_01	What can the small folk do for you?	false
+diplomacy_strings_string_Halfling_Dip_Greet_Neu_02	How can we help, food, tobacco or something else?	false
+diplomacy_strings_string_Halfling_Dip_Greet_Neu_03	Welcome, I am Glibfoot, how can I be of service?	false
+diplomacy_strings_string_Halfling_Dip_Reject_Peace_01	You looked down on us for too long friend.	false
+diplomacy_strings_string_Halfling_Dip_Reject_Peace_02	You look so little, just how you once saw us.	false
+diplomacy_strings_string_Halfling_Dip_Reject_Peace_03	We could never feast with the likes of you.	false
+diplomacy_strings_string_Halfling_Dip_Reject_Join_Confederation_01	The Mootland must remain independent.	false
+diplomacy_strings_string_Halfling_Dip_Reject_Join_Confederation_02	This is not Esmerelda’s wish	false
+diplomacy_strings_string_Halfling_Dip_Reject_Join_Confederation_03	Not with all the feasts of the world would I accept this.	false
+diplomacy_strings_string_Halfling_Dip_War_01	We bang the pots, the Halflings go to war.	false
+diplomacy_strings_string_Halfling_Dip_War_02	We will feast to your defeat.	false
+diplomacy_strings_string_Halfling_Dip_War_03	You have looked down on us for too long.	false

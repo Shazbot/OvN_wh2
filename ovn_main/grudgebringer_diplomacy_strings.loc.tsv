@@ -1,0 +1,81 @@
+Loc PackedFile	1
+key	text	tooltip
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Negative_01	We have no other choice but to accept.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Negative_02	Our coffers are bare so we must accept.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Negative_03	Alas, we all have a price.	false
+diplomacy_strings_string_Grudgebringer_Dip_Demand_Payments_Negative_01	Pay us gold or come to regret it.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Negative_01	The very thought of dealing with you twists my soul like a corkscrew.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Negative_02	Careful now, I can cut your head off and have it back in my scabbard in a single second.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Negative_03	This is the dark path gold leads us.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Negative_01	I don't have your advantage, I can't fly here on my own hot air.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Negative_02	I’d sooner kill you for pleasure, then work for you for gold.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Negative_03	No amount of gold, would see my men work for the likes of you.	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Neg_01	Call me Commander!	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Neg_02	Have you taking time off from burning innocent women?	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Neg_03	You smell of death, more than usual that is.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Positive_01	We gladly accept.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Positive_03	Of course old friend.	false
+diplomacy_strings_string_Grudgebringer_Dip_Demand_Payments_Positive_01	We need coin to secure the borderlands.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Positive_01	Are the terms agreeable?	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Positive_02	For other’s we’d charge more.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Positive_03	So friend, what say you.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Positive_01	We regrettably cannot help this time.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Positive_02	We are under contract with another lord but let’s discuss this next Festag.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Positive_03	These terms are regrettably not acceptable, maybe a little more gold.	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Pos_01	Welcome old friend.	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Pos_02	The Grudgebringers are at your service.	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Pos_03	Are you in need of our help?	false
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Neutral_01	We accept, though a little more gold wouldn’t have gone amiss.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Neutral_02	These terms are agreeable, Paymaster Dietrich will write up the contracts.	false
+diplomacy_strings_string_Grudgebringer_Dip_Accept_State_Gift_01	Thank you for the payment.	false
+diplomacy_strings_string_Grudgebringer_Dip_Accept_State_Gift_02	The Grudgebringers are in your debt.	false
+diplomacy_strings_string_Grudgebringer_Dip_Accept_State_Gift_03	Paymaster Dietrich will be pleased.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Accept_01	Paymaster Dietrich will run through the contracts.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Accept_02	Is there anything we can do for you, possibly resulting in the payment of gold for us.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Accept_03	We hope we can return the favour for a small fee of course.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Cancel_Treaty_01	Was the price too high?	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Cancel_Treaty_02	We’ll remember this next time you call for our aid.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Cancel_Treaty_03	Hopefully we can work together in the future, but our costs might not be so favourable next time.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Reject_01	We thought the terms we’re agreeable.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Reject_02	We’re open to counter-offers, though we expect some gold for our trouble.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_Reject_03	Our price just increased.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_War_01	Hold the high ground men. Purge the evil with steel, arrows and fire!	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_War_02	Win or lose, the ravens always dine well.	false
+diplomacy_strings_string_Grudgebringer_Dip_Acknowledge_War_03	We'll part flesh with cold steel.	false
+diplomacy_strings_string_Grudgebringer_Dip_Cancel_Treaty_01	No gold, no treaty.	false
+diplomacy_strings_string_Grudgebringer_Dip_Cancel_Treaty_02	No payment has voided our obligation.	false
+diplomacy_strings_string_Grudgebringer_Dip_Cancel_Treaty_03	We regrettably can not continue with this. 	false
+diplomacy_strings_string_Grudgebringer_Dip_Demand_Join_War_01	Spit out the fear, drive out the dread with bloodlust.	false
+diplomacy_strings_string_Grudgebringer_Dip_Demand_Join_War_02	Help us! They’re slaughtering us!	false
+diplomacy_strings_string_Grudgebringer_Dip_Demand_Join_War_03	We have helped you many times, will you help us now?	false
+diplomacy_strings_string_Grudgebringer_Dip_Demand_Payments_Neutral_01	How can you repay us? I’ll give you a clue, they're round, they glitter and they fill purses.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Neutral_01	Not too costly I hope.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Neutral_02	Mercenaries are always better friends than foes.	false
+diplomacy_strings_string_Grudgebringer_Dip_Generic_Offer_Neutral_03	Do you agree to our terms?	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Neutral_01	A few more purses of gold should settle it.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Neutral_02	We require more gold for such a proposal.	false
+diplomacy_strings_string_Grudgebringer_Dip_Rejection_Neutral_03	The Grudgebringers do not come so cheaply.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Cooperation_01	Let us fight together, for glory and gold.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Cooperation_02	Can the Grudgebringers be of service to you.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Cooperation_03	The Grudgebringers reputation speaks for itself.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Peace_01	This war has dragged on long enough.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Peace_02	This war is no longer profitable for either of us, lets call a truce.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Peace_03	There’s no glory or gold to be had in this war.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Join_War_01	Ogres make good fighters. We’ll make sure they don't drink too much blood during battles.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Join_War_02	How can you repay us? I’ll give you a clue, they're round, they glitter and they fill purses.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Join_War_03	Can the Grudgebringers be of service to you?	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Gift_01	Sometimes glory is more important than gold.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Gift_02	If you need any mercenaries, bear us in mind.	false
+diplomacy_strings_string_Grudgebringer_Dip_Offer_Gift_03	We’re sure you’ll repay it more than double in future work for us.	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Neu_01	Welcome, I am Commander Bernhardt, how can I be of service?	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Neu_02	Are you in need of mercenaries?	false
+diplomacy_strings_string_Grudgebringer_Dip_Greet_Neu_03	What can the Grudgebringers do for you?	false
+diplomacy_strings_string_Grudgebringer_Dip_Reject_Peace_01	I live to cheat death.	false
+diplomacy_strings_string_Grudgebringer_Dip_Reject_Peace_02	There is more coin and glory to be found in this war.	false
+diplomacy_strings_string_Grudgebringer_Dip_Reject_Peace_03	We are being paid to see your head on a stake and we will see it done.	false
+diplomacy_strings_string_Grudgebringer_Dip_Reject_Join_Confederation_01	We are under contract with another lord.	false
+diplomacy_strings_string_Grudgebringer_Dip_Reject_Join_Confederation_02	We are under another mercenary contract.	false
+diplomacy_strings_string_Grudgebringer_Dip_Reject_Join_Confederation_03	A chestful of gold might change our minds.	false
+diplomacy_strings_string_Grudgebringer_Dip_War_01	Death to the enemy!	false
+diplomacy_strings_string_Grudgebringer_Dip_War_02	Will will give no quarter, no pity, no mercy. We will slay and slay again so we might live.	false
+Grudgebringer_Dip_War_03	You’re plagued by a pestilence that I'm here to cure - With steel and fire!	false

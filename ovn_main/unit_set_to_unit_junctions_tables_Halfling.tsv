@@ -6,6 +6,7 @@ false				sr_ogre	emp_infantry
 false				sr_ogre	cavalry_and_monsters_knights
 false				sr_ogre	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
 false				sr_ogre	ovn_halfling_ogre_r7
+false				sr_ogre	emp_melee_infantry_tier_1
 false				halfling_inf	emp_infantry
 false				halfling_inf	wh2_dlc11_emp_greatswords_demigryph_knights
 false				halfling_inf	emp_melee_infantry_tier_1
@@ -29,14 +30,12 @@ false				halfling_archer	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_ar
 false				halfling_archer	emp_infantry
 false				halfling_archer	emp_state_troops
 false				halfling_archer	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_archer	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders_ror
 false				halfling_archer	ovn_halfling_hlf_r7
 false				halfling_cock	emp_crossbow
 false				halfling_cock	emp_infantry
 false				halfling_cock	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
 false				halfling_cock	emp_state_troops
 false				halfling_cock	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_cock	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders_ror
 false				halfling_cock	wh2_main_ror_units_all
 false				halfling_cock	ovn_halfling_hlf_r7
 true				wh_main_mtl_veh_soupcart	all_units_excluding_terror
@@ -78,6 +77,7 @@ false				sr_ogre_ror	wh2_dlc11_emp_greatswords_demigryph_knights
 false				sr_ogre_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
 false				sr_ogre_ror	wh2_main_ror_units_all
 false				sr_ogre_ror	cavalry_and_monsters_knights
+false				sr_ogre_ror	emp_melee_infantry_tier_1
 false				sr_ogre_ror	ovn_halfling_ogre_r7
 false				halfling_cook_ror	emp_infantry
 false				halfling_cook_ror	emp_melee_infantry_tier_1
@@ -167,4 +167,5 @@ false				halfling_spear_emp	infantry_units
 false				halfling_spear_emp	infantry_units_melee
 false				halfling_milittia_great_emp	infantry_units_melee
 false				halfling_milittia_arch_emp	ovn_halfling_hlf_r7
+false				halfling_milittia_arch_emp	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
 false				halfling_milittia_great_emp	emp_swords
