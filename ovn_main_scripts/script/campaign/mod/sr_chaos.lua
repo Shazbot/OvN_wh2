@@ -40,7 +40,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 
 	cm:create_force_with_general(
 		"wh2_main_nor_rotbloods",
-		"wh_main_nor_inf_chaos_marauders_0,wh_main_chs_inf_chaos_warriors_0,wh_main_chs_mon_chaos_spawn,wh_main_chs_cav_chaos_knights_0,wh_dlc08_nor_inf_marauder_berserkers_0",
+		"elo_rot_fanatics,wh_main_chs_inf_chaos_warriors_0,elo_plague_toads,wh2_main_skv_inf_stormvermin_1,wh_main_chs_cav_chaos_knights_0,wh_dlc08_nor_inf_marauder_berserkers_0,wh2_main_skv_inf_skavenslaves_0",
 		"wh2_main_kingdom_of_beasts_serpent_coast",
 		583,
 		700,
