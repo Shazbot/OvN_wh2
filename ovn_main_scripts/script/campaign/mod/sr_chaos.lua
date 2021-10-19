@@ -936,6 +936,9 @@ local building_to_chances = {
 		wh2_main_skv_inf_clanrats_1 = 5,
 	},
 }
+building_to_chances["hertz_rotblood_nurgle_fester_warren_1"] = building_to_chances.ovn_Clan_Fester_1
+building_to_chances["hertz_rotblood_nurgle_fester_warren_2"] = building_to_chances.ovn_Clan_Fester_2
+building_to_chances["hertz_rotblood_nurgle_fester_warren_3"] = building_to_chances.ovn_Clan_Fester_3
 
 local function give_skaven_mercs_from_buildings()
 	local unit_to_chance = {}
@@ -948,6 +951,22 @@ local function give_skaven_mercs_from_buildings()
 		for slot in binding_iter(region:slot_list()) do
 			if slot and slot:has_building() then
 				local building_key = slot:building():name()
+				local unit_chances = building_to_chances[building_key]
+				if unit_chances then
+					for unit, chance in pairs(unit_chances) do
+						unit_to_chance[unit] = (unit_to_chance[unit] or 0) + chance
+					end
+				end
+			end
+		end
+	end
+
+	local undercities = faction:foreign_slot_managers();
+
+	for undercity in binding_iter(undercities) do
+		for slot in binding_iter(undercity:slots()) do
+			if not slot:is_null_interface() and slot:has_building() then
+				local building_key = slot:building();
 				local unit_chances = building_to_chances[building_key]
 				if unit_chances then
 					for unit, chance in pairs(unit_chances) do
