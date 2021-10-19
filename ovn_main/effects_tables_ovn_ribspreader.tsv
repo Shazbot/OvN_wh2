@@ -17,3 +17,6 @@ ovn_rot_fester_region_reward	icon_ritual_currency_skv_bundle.png	1	icon_ritual_c
 ovn_spawn_fanatics_enable	spell_ability.png	3	spell_ability.png	battle	true
 ovn_reduce_wom_cost_spawn_fanatics	spell_ability.png	67	spell_ability.png	battle	false
 ovn_reduce_cooldown_spawn_fanatics	magic_cooldown.png	60	magic_cooldown.png	battle	false
+hertz_rotblood_nurgle_fester_warren_1_dummy	religion_skaven.png	1	religion_skaven.png	campaign	true
+hertz_rotblood_nurgle_fester_warren_2_dummy	religion_skaven.png	1	religion_skaven.png	campaign	true
+hertz_rotblood_nurgle_fester_warren_3_dummy	religion_skaven.png	1	religion_skaven.png	campaign	true

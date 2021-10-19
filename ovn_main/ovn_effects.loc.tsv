@@ -323,3 +323,6 @@ effects_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Missile Strength:
 effect_bundles_localised_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Grand Bombards stand ready to lay ruin on enemy walls.	true
 effect_bundles_localised_title_ovn_enable_araby_trebuchet_bonus_in_sieges	Entrenched Grand Bombards	true
 effects_description_ovn_arb_iron_resource_res_cost	Recruitment cost: %+n% for Arabyan Knights, Sipahis, Elephants, Scorpions, Jaguar Champions and Arabyan Guard recruits	true
+effects_description_hertz_rotblood_nurgle_fester_warren_1_dummy	Chance per turn for Skavenslaves to be added to your faction mercenary pool	true
+effects_description_hertz_rotblood_nurgle_fester_warren_2_dummy	Chance per turn for Skavenslaves and Clanrats to be added to your faction mercenary pool	true
+effects_description_hertz_rotblood_nurgle_fester_warren_3_dummy	Chance per turn for Skavenslaves, Clanrats, Stormvermin and Rat Ogres to be added to your faction mercenary pool	true

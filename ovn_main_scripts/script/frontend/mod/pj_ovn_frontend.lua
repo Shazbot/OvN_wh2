@@ -106,7 +106,7 @@ local starting_units = {
 		starting_unit_3 = "kho_bloodletter", unit_card_3 = "kho_bloodletter"
 	},
 	["rotblood"] = {
-		starting_unit_1 = "wh_main_chs_mon_chaos_spawn", unit_card_1 = "wh_main_chs_spawn",
+		starting_unit_1 = "elo_rot_fanatics", unit_card_1 = "elo_rot_fanatics",
 		starting_unit_2 = "wh_main_chs_inf_chaos_warriors_0", unit_card_2 = "wh_main_chs_warriors",
 		starting_unit_3 = "wh_dlc08_nor_inf_marauder_berserkers_0", unit_card_3 = "wh_dlc08_nor_marauder_berserkers"
 	},
