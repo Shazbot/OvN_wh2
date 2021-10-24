@@ -452,6 +452,66 @@ core:add_listener(
 	true
 )
 
+local localized_building_names = nil
+local localized_restaurant_discoverability = nil
+
+local function hide_or_rewrite_building_effects()
+	if not localized_building_names then return end
+	if not localized_restaurant_discoverability then return end
+
+	local ui_root = core:get_ui_root()
+	local bip = find_uicomponent(ui_root, "building_browser", "info_panel_background", "BuildingInfoPopup")
+
+	if not bip or not bip:Visible() then
+		bip = find_uicomponent(ui_root, "layout", "info_panel_holder", "secondary_info_panel_holder", "info_panel_background", "BuildingInfoPopup")
+	end
+	if not bip or not bip:Visible() then return end
+
+	local dy_title = find_uicomponent(bip, "dy_title")
+
+	local entry_parent = find_uicomponent(bip, "effects_list")
+	local current_building_name = dy_title:GetStateText()
+	for building_name, _ in pairs(localized_building_names) do
+		if current_building_name == building_name then
+			local we_hid_all_child_comps = true
+			for i=0, entry_parent:ChildCount()-1 do
+				local child = UIComponent(entry_parent:Find(i))
+				local we_hid_this_child_comp = false
+
+				local image_path = child:GetImagePath(0)
+
+				if image_path == "UI\\Campaign UI\\Effect_bundles\\dlc12_discover_up.png" then
+					child:SetStateText(localized_restaurant_discoverability)
+				end
+
+				we_hid_all_child_comps = we_hid_all_child_comps and we_hid_this_child_comp
+			end
+
+			if we_hid_all_child_comps then
+				UIComponent(entry_parent:Parent()):SetVisible(false)
+			end
+		end
+	end
+end
+
+local function init_rewrite_building_effects()
+	core:remove_listener("ovn_hlf_under_rewrite_building_effects")
+	core:add_listener(
+		"ovn_hlf_under_rewrite_building_effects",
+		"RealTimeTrigger",
+		function(context)
+				return context.string == "ovn_hlf_under_rewrite_building_effects"
+		end,
+		function()
+			hide_or_rewrite_building_effects()
+		end,
+		true
+	)
+
+	real_timer.unregister("ovn_hlf_under_rewrite_building_effects")
+	real_timer.register_repeating("ovn_hlf_under_rewrite_building_effects", 0)
+end
+
 cm:add_first_tick_callback(function()
 	local local_faction_key = cm:get_local_faction_name(true)
 	if local_faction_key ~= "wh2_main_emp_the_moot" then return end
@@ -460,6 +520,16 @@ cm:add_first_tick_callback(function()
 
 	real_timer.unregister("ovn_hlf_under_campaign_real_timer")
 	real_timer.register_repeating("ovn_hlf_under_campaign_real_timer", 0)
+
+	cm:callback(function()
+		localized_building_names = {
+			[effect.get_localised_string("building_culture_variants_name_ovn_hlf_under_special_menu_1")] = true,
+			[effect.get_localised_string("building_culture_variants_name_ovn_hlf_under_fence_1")] = true,
+		}
+		localized_restaurant_discoverability = effect.get_localised_string("ovn_hlf_restaurant_discoverability")
+
+		init_rewrite_building_effects()
+	end, 3)
 end)
 
 if debug.traceback():find('pj_loadfile') then
