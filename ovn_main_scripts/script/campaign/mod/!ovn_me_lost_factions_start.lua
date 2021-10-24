@@ -661,7 +661,7 @@ local function set_up_moot_turn_one_fight()
 		"",
 		true,
 		function(cqi)
-			cm:force_declare_war(cm:get_local_faction_name(true), starting_fight_faction_key, true, true)
+			cm:force_declare_war("wh2_main_emp_the_moot", starting_fight_faction_key, true, true)
 			local lookup_str = "character_cqi:" .. cqi
 			cm:attack_region(lookup_str, "wh_main_stirland_the_moot", true)
 		end

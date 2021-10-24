@@ -26,6 +26,8 @@ local function binding_iter(binding)
 	end
 end
 
+local json = require("ovn/json")
+
 local region_labels_with_foreign_slots = {}
 local regions_with_restaurant_recruit_buttons = {}
 
@@ -354,25 +356,19 @@ local hlf_surnames = {
 	"858212099",
 }
 
-core:remove_listener('ovn_hlf_recruit_general_from_restaurant')
+core:remove_listener("ovn_hlf_spawn_general_on_UITrigger")
 core:add_listener(
-	'ovn_hlf_recruit_general_from_restaurant',
-	'ComponentLClickUp',
+	"ovn_hlf_spawn_general_on_UITrigger",
+	"UITrigger",
 	function(context)
-		return context.string == "CcoEffectBundleovn_hlf_recruit_wizard_0"
-			or context.string == "CcoEffectBundleovn_hlf_recruit_general_0"
+			return context:trigger():starts_with("ovn_hlf_spawn_general")
 	end,
 	function(context)
-		local subtype = "ovn_hlf_moot_general"
-		if context.string == "CcoEffectBundleovn_hlf_recruit_wizard_0" then
-			subtype = "ovn_hlf_ll"
-		end
+		local stringified_data = context:trigger():gsub("ovn_hlf_spawn_general|", "")
+		local data = json.decode(stringified_data)
 
-		local comp = UIComponent(context.component)
-		for _=1, 4 do
-			comp = UIComponent(comp:Parent())
-		end
-		local region_key = comp:Id():gsub("label_settlement:", "")
+		local region_key = data.region_key
+		local subtype = data.subtype
 
 		local x, y = cm:find_valid_spawn_location_for_character_from_settlement("wh2_main_emp_the_moot", region_key, false, false, 0)
 		if x == -1 then return end
@@ -402,6 +398,35 @@ core:add_listener(
 
 		cm:remove_effect_bundle_from_region("ovn_hlf_recruit_general", region_key)
 		cm:remove_effect_bundle_from_region("ovn_hlf_recruit_wizard", region_key)
+	end,
+	true
+)
+
+core:remove_listener('ovn_hlf_recruit_general_from_restaurant')
+core:add_listener(
+	'ovn_hlf_recruit_general_from_restaurant',
+	'ComponentLClickUp',
+	function(context)
+		return context.string == "CcoEffectBundleovn_hlf_recruit_wizard_0"
+			or context.string == "CcoEffectBundleovn_hlf_recruit_general_0"
+	end,
+	function(context)
+		local subtype = "ovn_hlf_moot_general"
+		if context.string == "CcoEffectBundleovn_hlf_recruit_wizard_0" then
+			subtype = "ovn_hlf_ll"
+		end
+
+		local comp = UIComponent(context.component)
+		for _=1, 4 do
+			comp = UIComponent(comp:Parent())
+		end
+		local region_key = comp:Id():gsub("label_settlement:", "")
+
+		local data_to_send = {
+			region_key = region_key,
+			subtype = subtype,
+		}
+		CampaignUI.TriggerCampaignScriptEvent(cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(), "ovn_hlf_spawn_general|"..json.encode(data_to_send))
 	end,
 	true
 )
