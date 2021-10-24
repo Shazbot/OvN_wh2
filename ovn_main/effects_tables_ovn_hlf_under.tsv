@@ -6,3 +6,5 @@ ovn_create_restaurant_cost_mod	edict_host_festag.png	1	edict_host_festag.png	cam
 ovn_create_restaurant_cost_mod_hidden		0		campaign	false
 ovn_restaurant_exclusive_food_chains	construction.png	102	construction.png	campaign	false
 ovn_restaurant_faction_effect_dummy	skaven_food.png	1	skaven_food.png	campaign	true
+ovn_hlf_restaurant_chaos_corruption	religion_chaos.png	104	religion_chaos.png	campaign	false
+ovn_hlf_restaurant_chaos_corruption_meat	religion_chaos.png	104	religion_chaos.png	campaign	false

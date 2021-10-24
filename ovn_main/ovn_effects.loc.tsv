@@ -326,3 +326,5 @@ effects_description_ovn_arb_iron_resource_res_cost	Recruitment cost: %+n% for Ar
 effects_description_hertz_rotblood_nurgle_fester_warren_1_dummy	Chance per turn for Skavenslaves to be added to your faction mercenary pool	true
 effects_description_hertz_rotblood_nurgle_fester_warren_2_dummy	Chance per turn for Skavenslaves and Clanrats to be added to your faction mercenary pool	true
 effects_description_hertz_rotblood_nurgle_fester_warren_3_dummy	Chance per turn for Skavenslaves, Clanrats, Stormvermin and Rat Ogres to be added to your faction mercenary pool	true
+effects_description_ovn_hlf_restaurant_chaos_corruption	Chaos corruption (Slaaneshi gluttony): %+n	true
+effects_description_ovn_hlf_restaurant_chaos_corruption_meat	Chaos corruption (meat from Chaos-tainted creatures): %+n	true

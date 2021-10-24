@@ -481,6 +481,7 @@ local function hide_or_rewrite_building_effects()
 				local image_path = child:GetImagePath(0)
 
 				if image_path == "UI\\Campaign UI\\Effect_bundles\\dlc12_discover_up.png" then
+					child:SetImagePath("ui/skins/ovn_halfling/dlc12_discover_up.png")
 					child:SetStateText(localized_restaurant_discoverability)
 				end
 
