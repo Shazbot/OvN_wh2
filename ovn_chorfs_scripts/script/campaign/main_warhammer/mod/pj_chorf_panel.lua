@@ -113,7 +113,10 @@ local unit_to_give = {
 	["infernal_guard"] = true,
 	["infernal_guard_great_weapons"] = true,
 	["infernal_guard_deathmask_naphta"] = true,
+	["chaos_dwarf_annihilators"] = true,
 }
+
+local show_unit_tutorial_on_panel_close = false
 
 -- remove units we gave via the mercenary pool
 core:remove_listener("pj_chorf_panel_on_unit_trained")
@@ -193,6 +196,11 @@ local function give_unit(unit_key)
 	if not succesfully_applied_highlight then
 		just_gave_free_unit = true
 	end
+
+	if not cm:get_saved_value("ovn_chorfs_unit_tutorial_was_shown") then
+		show_unit_tutorial_on_panel_close = true
+		cm:set_saved_value("ovn_chorfs_unit_tutorial_was_shown", true)
+end
 end
 
 local function unclock_ror(unit_key)
@@ -251,7 +259,11 @@ local tree_to_other_bonuses = {
 				give_unit("immortals")
 			end
 		},
-		{},
+		{
+			function()
+				give_unit("chaos_dwarf_annihilators")
+			end
+		},
 		{
 			function()
 				unclock_ror("granite_guard")
@@ -814,6 +826,46 @@ core:add_listener(
 	true
 )
 
+local function create_unit_from_tribute_tutorial()
+	local dialogue_box = core:get_or_create_component("ovn_chorfs_unit_tutorial", "ui/common ui/dialogue_box")
+	core:add_listener(
+		"ovn_chorfs_unit_tutorial_real_time_trigger_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "ovn_chorfs_unit_tutorial_real_time_trigger"
+		end,
+		function(context)
+			local dialogue_box = find_uicomponent(core:get_ui_root(), "ovn_chorfs_unit_tutorial")
+			if not dialogue_box then return end
+
+			dialogue_box:SetCanResizeWidth(true)
+			dialogue_box:SetCanResizeHeight(true)
+			dialogue_box:Resize(600,850)
+			local replenish_text = find_uicomponent(dialogue_box, "DY_text")
+			replenish_text:SetStateText("[[col:white]]Units received from Slave Tributes will appear in the Regitmens of Renown recruitment panel.[[/col]]")
+			replenish_text:SetDockingPoint(5)
+			replenish_text:SetDockOffset(1,280)
+
+			local button_cancel = find_uicomponent(dialogue_box, "both_group", "button_cancel")
+			button_cancel:SetVisible(false)
+
+			local button_tick = find_uicomponent(dialogue_box, "both_group", "button_tick")
+			button_tick:SetDockingPoint(8)
+			button_tick:SetDockOffset(0,-30)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("pj_selectable_start_bg_image", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/pj_chorf_panel/slave_tribute_unit_tutorial.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(542,542)
+			bg_image:SetDockOffset(0,-115)
+		end,
+		false
+	)
+	real_timer.register_singleshot("ovn_chorfs_unit_tutorial_real_time_trigger", 0)
+end
+
 --- Close the panel.
 core:remove_listener('pj_chorf_panel_on_close_chorf_panel')
 core:add_listener(
@@ -828,6 +880,11 @@ core:add_listener(
 		if not chorf_panel then return end
 
 		chorf_panel:SetVisible(false)
+
+		if show_unit_tutorial_on_panel_close then
+			create_unit_from_tribute_tutorial()
+			show_unit_tutorial_on_panel_close = false
+		end
 	end,
 	true
 )
@@ -1257,6 +1314,7 @@ local function fill_loc_values()
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_34"),
 			},
 			{
+				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_64"),
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_35"),
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_36"),
 				effect.get_localised_string("pj_chorf_panel_script_tree_rewards_37"),
