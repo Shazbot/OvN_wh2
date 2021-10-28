@@ -23,7 +23,6 @@ local function binding_iter(binding)
 					pos = pos + 1
 					return item
 			end
-			return
 	end
 end
 
@@ -86,6 +85,69 @@ mod.check_skittergate_exists = function()
 	end
 
 	return are_rotbloods_owners and does_skittergate_exist
+end
+
+mod.create_skittergate_tutorial = function()
+	local dialogue_box = core:get_or_create_component("ovn_skittergate_tutorial", "ui/common ui/dialogue_box")
+	core:add_listener(
+		"ovn_skittergate_tutorial_real_time_trigger_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "ovn_skittergate_tutorial_real_time_trigger"
+		end,
+		function(context)
+			dialogue_box:SetCanResizeWidth(true)
+			dialogue_box:SetCanResizeHeight(true)
+			dialogue_box:Resize(1000,700)
+
+			local replenish_text = find_ui_component_str("root > ovn_skittergate_tutorial > DY_text")
+			replenish_text:SetDockingPoint(5)
+			replenish_text:SetStateText("[[col:white]]First select a region on the world map as the Skittergate target.[[/col]]")
+			replenish_text:SetDockOffset(-250,205)
+			replenish_text:SetCanResizeHeight(true)
+			replenish_text:Resize(replenish_text:Width(), 50)
+
+			local tutorial_text = UIComponent(replenish_text:CopyComponent("ovn_skittergate_tutorial_text1"))
+			tutorial_text:SetStateText("How to use the Skittergate:")
+			tutorial_text:SetDockingPoint(5)
+			tutorial_text:SetDockOffset(0,-305)
+			dout(tutorial_text:Height())
+			tutorial_text:SetCanResizeHeight(true)
+			tutorial_text:Resize(tutorial_text:Width(), 50)
+
+			local reserves_text = UIComponent(replenish_text:CopyComponent("ovn_skittergate_tutorial_text2"))
+			reserves_text:SetDockingPoint(5)
+			reserves_text:SetDockOffset(250,205)
+			reserves_text:SetCanResizeHeight(true)
+			reserves_text:Resize(reserves_text:Width(), 50)
+			reserves_text:SetStateText("[[col:white]]Once the Skittergate is active move your army into the red\nteleportation spot and click the button to teleport to the other region.[[/col]]")
+
+			local button_cancel = find_ui_component_str("root > ovn_skittergate_tutorial > both_group > button_cancel")
+			button_cancel:SetVisible(false)
+
+			local button_tick = find_ui_component_str("root > ovn_skittergate_tutorial > both_group > button_tick")
+			button_tick:SetDockingPoint(8)
+			button_tick:SetDockOffset(0,-60)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("ovn_skittergate_tutorial_image1", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/ovn/skittergate/skittergate_tutorial1.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(417,417)
+			bg_image:SetDockOffset(-250,-68)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("ovn_skittergate_tutorial_image2", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/ovn/skittergate/skittergate_tutorial2.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetDockOffset(250,-68)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(417,417)
+		end,
+		false
+	)
+	real_timer.register_singleshot("ovn_skittergate_tutorial_real_time_trigger", 0)
 end
 
 mod.init = function()
@@ -215,6 +277,11 @@ mod.init = function()
 			init = function(state)
 				sk:SetTooltipText(state.tooltip or "", true)
 				timer:SetTooltipText(state.timer_tooltip or "", true)
+
+				if not cm:get_saved_value("ovn_skittergate_tutorial_was_shown") then
+					cm:set_saved_value("ovn_skittergate_tutorial_was_shown", true)
+					mod.create_skittergate_tutorial()
+				end
 
 				sk:SetState("active")
 				sk:SetImagePath("ui/ovn/skittergate/skittergate_button_yellow.png", 0)
