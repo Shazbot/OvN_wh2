@@ -225,7 +225,7 @@ mod.init = function()
 
 				state.current_cooldown = cm:get_saved_value("pj_rot_skittergate_current_cooldown")
 				if not state.current_cooldown then
-					state.current_cooldown = cm:random_number(12,8)
+					state.current_cooldown = cm:random_number(10,7)
 					if cm:get_saved_value("pj_rot_tech_skv_3_completed") then
 						state.current_cooldown = state.current_cooldown - 2
 					end
@@ -236,7 +236,7 @@ mod.init = function()
 
 				if cm:get_saved_value("pj_rot_skittergate_was_just_built") then
 					cm:set_saved_value("pj_rot_skittergate_was_just_built", false)
-					state.current_cooldown = 4
+					state.current_cooldown = 3
 				end
 				cm:set_saved_value("pj_rot_skittergate_current_cooldown", state.current_cooldown)
 
@@ -306,7 +306,7 @@ mod.init = function()
 
 				sk:SetState("active")
 				sk:SetImagePath("ui/ovn/skittergate/skittergate_button_green.png", 0)
-				state.current_cooldown = cm:get_saved_value("pj_rot_skittergate_active_cooldown") or cm:random_number(12,8)
+				state.current_cooldown = cm:get_saved_value("pj_rot_skittergate_active_cooldown") or cm:random_number(10,8)
 				cm:set_saved_value("pj_rot_skittergate_active_cooldown", state.current_cooldown)
 				timer:SetStateText(string.format("[[col:white]]%d[[/col]]", state.current_cooldown))
 				timer:SetVisible(true)
