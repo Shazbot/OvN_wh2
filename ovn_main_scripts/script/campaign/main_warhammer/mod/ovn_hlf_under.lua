@@ -162,9 +162,9 @@ core:add_listener(
 	true
 )
 
-core:remove_listener('pj_ovn_rotbloods_warpstone_mercs_on_faction_turn_start')
+core:remove_listener('ovn_hlf_under_on_faction_turn_start')
 core:add_listener(
-	'pj_ovn_rotbloods_warpstone_mercs_on_faction_turn_start',
+	'ovn_hlf_under_on_faction_turn_start',
 	'FactionTurnStart',
 	function()
 		return true
