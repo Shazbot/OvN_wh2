@@ -111,7 +111,6 @@ mod.create_skittergate_tutorial = function()
 			tutorial_text:SetStateText("How to use the Skittergate:")
 			tutorial_text:SetDockingPoint(5)
 			tutorial_text:SetDockOffset(0,-305)
-			dout(tutorial_text:Height())
 			tutorial_text:SetCanResizeHeight(true)
 			tutorial_text:Resize(tutorial_text:Width(), 50)
 

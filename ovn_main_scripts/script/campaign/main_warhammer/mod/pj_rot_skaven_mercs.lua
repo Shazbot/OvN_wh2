@@ -834,7 +834,7 @@ core:add_listener(
 		mod.refresh_resource_value_in_ui()
 
 		-- give Fester some free money when they get a new settlement so they compete better
-		cm:treasury_mod("wh2_dlc12_skv_clan_fester", 2000)
+		cm:treasury_mod("wh2_dlc12_skv_clan_fester", 5000)
 	end,
 	true
 )

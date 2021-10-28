@@ -877,13 +877,19 @@ core:add_listener(
 local function spawn_rasknitt()
 	local first_region_name = cm:model():world():region_manager():region_list():item_at(0):name()
 	local fester_key = "wh2_dlc12_skv_clan_fester"
-	cm:get_faction(fester_key):home_region()
-	local x, y = cm:find_valid_spawn_location_for_character_from_settlement(fester_key, cm:get_faction(fester_key):home_region():name(), false, true, 1);
+
+	local chaqua_region_key = "wh2_main_northern_great_jungle_chaqua"
+	cm:transfer_region_to_faction(chaqua_region_key, fester_key)
+	cm:heal_garrison(cm:get_region(chaqua_region_key):cqi())
+
+	cm:treasury_mod(fester_key, 10000)
+
+	local x, y = cm:find_valid_spawn_location_for_character_from_settlement(fester_key, chaqua_region_key, false, true, 1);
 	if x == -1 then return end
 
 	cm:create_force_with_general(
 		fester_key,
-		"",
+		"wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_stormvermin_0,wh2_main_skv_inf_stormvermin_1,wh2_main_skv_mon_rat_ogres,wh2_main_skv_inf_poison_wind_globadiers",
 		first_region_name,
 		x,
 		y,
@@ -902,7 +908,8 @@ local function spawn_rasknitt()
 					cm:set_character_immortality(char_lookup_str, true)
 					cm:set_character_unique(char_lookup_str, true)
 					cm:force_add_trait(char_lookup_str, "ovn_trait_rasknitt", false)
-					cm:add_unit_model_overrides(char_lookup_str, "wh2_main_art_set_skv_grey_seer_ruin_01");
+					cm:add_unit_model_overrides(char_lookup_str, "wh2_main_art_set_skv_grey_seer_ruin_01")
+					cm:add_agent_experience(char_lookup_str, 2000)
 				end,
 				0
 			)
