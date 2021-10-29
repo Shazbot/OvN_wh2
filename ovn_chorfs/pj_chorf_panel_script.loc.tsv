@@ -97,3 +97,4 @@ pj_chorf_ui_daemonsmith_label	Daemonsmith	false
 pj_chorf_ui_daemonsmith_tooltip	The sinister Daemonsmiths forge their instruments of war through arcane rituals and evil sorcery, binding the very essence of Chaos into their armaments.	false
 pj_chorf_panel_script_tree_rewards_63	Lord recruit rank: +2 for Hobgoblin Great Khan and Hobgoblin Pelt Shaman	false
 pj_chorf_panel_script_tree_rewards_64	Receive a unit of Annihilators	false
+ovn_chorfs_unit_tutorial_text	Units received from Slave Tributes will appear in the Regiments of Renown recruitment panel.	false

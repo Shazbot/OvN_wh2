@@ -1,0 +1,4 @@
+Loc PackedFile	1
+key	text	tooltip
+effect_bundles_localised_title_ovn_sack_abuse	Recently Sacked	false
+effect_bundles_localised_description_ovn_sack_abuse	This settlement was sacked recently, and cannot be sacked again.	false
