@@ -40,3 +40,4 @@ ovn_scy_numas_trans	ovn_scy_numas_trans	ovn_scy_numas_trans	faction	1	numas_flag
 ovn_rot_fester_trans			faction	1	religion_skaven.png	true	false	true
 ovn_enable_araby_trebuchet_bonus_in_sieges	 		faction	0	ranged_damage.png	false	false	true
 ovn_grudgebringers_garrison_replenishment	 		faction	0	trade_agreement.png	true	false	true
+ovn_arb_jehad_region			region	1	jehad_effect.png	true	true	false

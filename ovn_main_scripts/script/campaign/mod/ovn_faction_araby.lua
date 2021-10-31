@@ -504,10 +504,97 @@ local function add_araby_trebuchet_bonus_listeners()
 	)
 end
 
+local jehad_regions = {
+	["wh2_main_ash_river_numas"] = true,
+	["wh2_main_ash_river_quatar"] = true,
+	["wh2_main_ash_river_springs_of_eternal_life"] = true,
+	["wh2_main_atalan_mountains_martek"] = true,
+	["wh2_main_coast_of_araby_al_haikk"] = true,
+	["wh2_main_coast_of_araby_copher"] = true,
+	["wh2_main_coast_of_araby_fyrus"] = true,
+	["wh2_main_great_desert_of_araby_bel_aliad"] = true,
+	["wh2_main_great_desert_of_araby_black_tower_of_arkhan"] = true,
+	["wh2_main_great_desert_of_araby_el-kalabad"] = true,
+	["wh2_main_great_desert_of_araby_pools_of_despair"] = true,
+	["wh2_main_great_mortis_delta_black_pyramid_of_nagash"] = true,
+	["wh2_main_land_of_assassins_lashiek"] = true,
+	["wh2_main_land_of_assassins_palace_of_the_wizard_caliph"] = true,
+	["wh2_main_land_of_assassins_sorcerers_islands"] = true,
+	["wh2_main_land_of_the_dead_khemri"] = true,
+	["wh2_main_land_of_the_dead_pyramid_of_nagash"] = true,
+	["wh2_main_land_of_the_dead_zandri"] = true,
+	["wh2_main_land_of_the_dervishes_plain_of_tuskers"] = true,
+	["wh2_main_land_of_the_dervishes_sudenburg"] = true,
+	["wh2_main_shifting_sands_antoch"] = true,
+	["wh2_main_shifting_sands_bhagar"] = true,
+	["wh2_main_shifting_sands_ka-sabar"] = true,
+	["wh2_main_atalan_mountains_eye_of_the_panther"] = true,
+	["wh2_main_atalan_mountains_vulture_mountain"] = true,
+	["wh2_main_western_jungles_tlaqua"] = true,
+}
+
+local turn_when_jehad_region_icons_were_added = -1
+
+---@param region CA_REGION
+local function add_jehad_region_icon_to_region(region)
+	local region_key = region:name()
+	if not is_faction_an_araby_faction(region:owning_faction()) then
+		cm:apply_effect_bundle_to_region("ovn_arb_jehad_region", region_key, -1)
+	else
+		cm:remove_effect_bundle_from_region("ovn_arb_jehad_region", region_key)
+	end
+end
+
+local function add_jehad_region_icons()
+	if cm:model():turn_number() == turn_when_jehad_region_icons_were_added then
+		return
+	end
+
+	for region_key, _ in pairs(jehad_regions) do
+		local region = cm:get_region(region_key)
+		if region then
+			add_jehad_region_icon_to_region(region)
+		end
+	end
+
+	turn_when_jehad_region_icons_were_added = cm:model():turn_number()
+end
+
+core:remove_listener("onv_araby_add_jehad_region_icons_on_city_changed_owner")
+core:add_listener(
+	"onv_araby_add_jehad_region_icons_on_city_changed_owner",
+	"RegionFactionChangeEvent",
+	true,
+	function(context)
+		---@type CA_REGION
+		local region = context:region()
+
+		if not jehad_regions[region:name()] then
+			return
+		end
+
+		add_jehad_region_icon_to_region(region)
+	end,
+	true
+)
+
+core:remove_listener("onv_araby_add_jehad_region_icons_on_turn_start")
+core:add_listener(
+	"onv_araby_add_jehad_region_icons_on_turn_start",
+	"FactionTurnStart",
+	function(context) return context:faction():is_human() and is_faction_an_araby_faction(context:faction())
+	end,
+	function()
+		add_jehad_region_icons()
+	end,
+	true
+)
+
 cm:add_first_tick_callback(
     function()
         araby_init()
 				-- replace_old_buildings()
 				add_araby_trebuchet_bonus_listeners()
+				add_jehad_region_icons()
     end
 )
