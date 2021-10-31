@@ -18,6 +18,13 @@ core:add_listener(
 	true
 )
 
+local sack_occupation_ids = {
+	["2205198906"] = true,
+	["2205198913"] = true,
+	["2205198920"] = true,
+	["2205198946"] = true,
+}
+
 --- Hide the sacking option if the region has the sacked bundle.
 core:remove_listener("ovn_sack_abuse_on_panel_opened")
 core:add_listener(
@@ -27,9 +34,11 @@ core:add_listener(
 		return context.string == "settlement_captured"
 	end,
 	function()
-		local decision = find_uicomponent(core:get_ui_root(), "settlement_captured", "button_parent", "2205198906")
-		if decision then
-			decision:SetVisible(not cm:get_saved_value("ovn_sack_abuse_hide_next"))
+		for sack_decision_id, _ in pairs(sack_occupation_ids) do
+			local decision = find_uicomponent(core:get_ui_root(), "settlement_captured", "button_parent", sack_decision_id)
+			if decision then
+				decision:SetVisible(not cm:get_saved_value("ovn_sack_abuse_hide_next"))
+			end
 		end
 	end,
 	true
@@ -38,6 +47,12 @@ core:add_listener(
 local stack_abuse_factions_to_check = {
 	wh2_main_ovn_chaos_dwarfs = true,
 	wh2_main_nor_rotbloods = true,
+	wh2_main_nor_trollz = true,
+	wh2_main_nor_servants_of_fimulneid = true,
+	wh2_main_nor_harbingers_of_doom = true,
+	wh2_main_arb_flaming_scimitar = true,
+	wh2_main_arb_aswad_scythans = true,
+	wh2_main_arb_caliphate_of_araby = true,
 }
 
 --- Apply the sacked bundle to the region after the player sacks it.
@@ -48,7 +63,7 @@ core:add_listener(
 	function(context)
 		local faction = context:character():faction()
 		return stack_abuse_factions_to_check[faction:name()]
-			and context:occupation_decision() == "2205198906"
+			and sack_occupation_ids[context:occupation_decision()]
 	end,
 	function(context)
 		---@type CA_GARRISON_RESIDENCE
