@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_grudge	
 wh_main_emp_cha_grudge_recruit_1	wh_main_emp_cha_grudge_recruit_2
 wh_main_emp_cha_grudge_recruit_2	wh_main_emp_cha_grudge_recruit_3
 wh_main_emp_cha_grudge_wizard_1	wh_main_emp_cha_grudge_wizard_2

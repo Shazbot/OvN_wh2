@@ -1,2 +1,2 @@
-building_units_allowed_tables	4
-building	unit	xp	key	conditions	faction	enabled
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_amazon						

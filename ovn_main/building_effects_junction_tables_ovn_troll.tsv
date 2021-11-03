@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_troll					
 ovn_troll_Bridges	wh2_main_effect_force_own_campaign_movement_range	region_to_force_own_unseen	10.0	8.0	0.0
 ovn_troll_Bridges	wh_main_effect_economy_trade_good_commodity_mod	faction_to_faction_own	20.0	10.0	0.0
 ovn_troll_Bridges	wh_main_effect_economy_gdp_industry	building_to_building_own	50.0	25.0	0.0

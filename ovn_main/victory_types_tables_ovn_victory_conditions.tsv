@@ -1,5 +1,5 @@
-victory_types_tables	2
 victory_type	tree_y	tree_x	length_type	icon
+#victory_types_tables;2;db/victory_types_tables/ovn_victory_conditions				
 ovn_victory_type_short	0	0	short	short
 ovn_victory_type_long	1	0	long	long
 ovn_victory_type_ultimate	2	0	ultimate	long

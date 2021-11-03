@@ -1,6 +1,6 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	elo_skill_death		5
-		x	1	elo_true_wraith		14
-		x	1	elo_death_beyond		19
-		x	1	luthor_the_hunchback		11
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/elo_larenscheld						
+		1	elo_skill_death		x	5
+		1	elo_true_wraith		x	14
+		1	elo_death_beyond		x	19
+		1	luthor_the_hunchback		x	11

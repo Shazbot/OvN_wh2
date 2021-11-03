@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_rot_skaven_mercs_incidents.loc		
 incidents_localised_description_pj_rot_warpstone_incident	Having defeated the skaven, you help yourselves to their warpstone.	true
 incidents_localised_title_pj_rot_warpstone_incident	Warpstone Spoils	true

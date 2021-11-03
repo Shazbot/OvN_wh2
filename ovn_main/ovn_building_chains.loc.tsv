@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_building_chains.loc		
 building_chains_chain_tooltip_ovn_arb_forge	Arsenal 	true
 building_chains_chain_tooltip_ovn_arb_nomad	Nomads	true
 building_chains_chain_tooltip_ovn_arb_xp	Training	true

@@ -1,4 +1,4 @@
-special_ability_phase_displays_tables	1
-active_vfx	banner_vfx	entity_vfx	key	entity_vfx_attach_type
-		wh_main_entity_flies	elo_plague_flies_helper	hips
-		wh2_dlc11_entity_stink_corpse	elo_plague_stench_helper	hips
+key	active_vfx	banner_vfx	entity_vfx	entity_vfx_attach_type
+#special_ability_phase_displays_tables;1;db/special_ability_phase_displays_tables/plague_toads				
+elo_plague_flies_helper			wh_main_entity_flies	hips
+elo_plague_stench_helper			wh2_dlc11_entity_stink_corpse	hips

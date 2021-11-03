@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_blood_dragon					
 ovn_blood_keep	wh2_main_effect_building_unit_recruitment_duration_vmp_bloodknights	region_to_province_own	-1.0	-1.0	0.0
 ovn_blood_keep	wh2_main_effect_leadership_increase_blood_knights	faction_to_force_own	10.0	5.0	0.0
 ovn_blood_keep	wh2_main_effect_tech_recruitment_cost_reduction_blood_knights	faction_to_force_own	-10.0	-10.0	0.0

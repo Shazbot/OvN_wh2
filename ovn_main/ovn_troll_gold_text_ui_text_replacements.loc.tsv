@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_troll_gold_text_ui_text_replacements.loc		
 ui_text_replacements_localised_text_hp_campaign_money_term_description_redir_wh_main_sc_nor_troll	Trolls [[sl:campaign_factions]]factions[[/sl]] use [[img:icon_skaven_food]][[/img]]Food as currency. The available [[img:icon_skaven_food]][[/img]]Food is shown at the top of the screen on the game interface.	true
 ui_text_replacements_localised_text_hp_campaign_tax_term_description_redir_wh_main_sc_nor_troll	[[sl:campaign_settlements]]Settlements[[/sl]] can produce a small amount of [[img:icon_skaven_food]][[/img]][[sl:campaign_income]]food[[/sl]]. The more sty's a [[sl:campaign_factions]]faction[[/sl]] controls, the more {{tr:icon_money}}[[sl:campaign_money]]food[[/sl]] it can make.	true
 ui_text_replacements_localised_text_hp_campaign_point_2_money_wh_main_sc_nor_troll	[[sl:campaign_unit_recruitment]]Recruitment[[/sl]] of new [[sl:campaign_units]]units[[/sl]], the upkeep of existing units and the construction of [[sl:campaign_buildings]]buildings[[/sl]] all deplete Food.	true

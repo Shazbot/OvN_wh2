@@ -1,5 +1,5 @@
-units_custom_battle_permissions_tables	8
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+#units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/ovn_dread_king								
 wh2_dlc09_tmb_the_sentinels	false	dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	true	true				false
 wh2_dlc09_tmb_the_sentinels	false	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	true	true				false

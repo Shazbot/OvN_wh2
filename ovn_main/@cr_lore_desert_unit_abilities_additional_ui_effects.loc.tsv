@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_lore_desert_unit_abilities_additional_ui_effects.loc		
 unit_abilities_additional_ui_effects_localised_text_ovn_all_summon_arb_spearmen	[[col:green]][[img:icon_arrow_up]][[/img]] Summons an illusionary unit of spearmen.[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_ovn_spell_upgraded_added_resistance_magic	[[col:magic]][[img:icon_arrow_upgrade]][[/img]] Additional effect on [[img:icon_resistance_magic]][[/img]]magic resistance[[/col]]	true

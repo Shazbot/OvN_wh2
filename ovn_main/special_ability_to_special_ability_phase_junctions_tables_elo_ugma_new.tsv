@@ -1,4 +1,4 @@
-special_ability_to_special_ability_phase_junctions_tables	1
-order	phase	special_ability
+order	special_ability	phase
+#special_ability_to_special_ability_phase_junctions_tables;1;db/special_ability_to_special_ability_phase_junctions_tables/elo_ugma_new		
 1	elo_reservoir_hammer	elo_reservoir_hammer
 1	elo_trash_armour	elo_trash_armour

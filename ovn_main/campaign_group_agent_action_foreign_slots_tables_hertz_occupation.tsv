@@ -1,3 +1,3 @@
-campaign_group_agent_action_foreign_slots_tables	0
 campaign_group	slot_set
+#campaign_group_agent_action_foreign_slots_tables;0;db/campaign_group_agent_action_foreign_slots_tables/hertz_occupation	
 hertz_rotblood_ocupation_decision_build_cult	hertz_foreign_slot_set

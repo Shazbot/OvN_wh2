@@ -1,44 +1,44 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh2_main_skill_all_hero_assist_army_scavenge	elo_carrion_boss		5.0	elo_carrion_big_boss_campaign_01	0.0		0	0	true
-	wh2_main_skill_all_hero_passive_spread_corruption	elo_carrion_boss		5.0	elo_carrion_big_boss_campaign_02	1.0		0	0	true
-	wh2_main_skill_all_hero_hinder_settlement_damage_walls	elo_carrion_boss		5.0	elo_carrion_big_boss_campaign_03	2.0		0	0	true
-	wh2_main_skill_all_hero_hinder_agent_assassinate	elo_carrion_boss		5.0	elo_carrion_big_boss_campaign_04	3.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_block_army	elo_carrion_boss		5.0	elo_carrion_big_boss_campaign_05	4.0		0	0	true
-	wh2_main_skill_all_hero_reduce_action_cost	elo_carrion_boss		5.0	elo_carrion_big_boss_campaign_06	5.0		0	0	true
-	wh2_main_skill_all_dummy_agent_actions_grn_goblin_big_boss	elo_carrion_boss		8.0	elo_carrion_big_boss_campaign_actions_dummy	0.0		1	0	false
-	wh2_main_skill_all_immortality_hero	elo_carrion_boss		0.0	elo_carrion_big_boss_immortality	8.0		0	0	true
-	wh2_main_skill_innate_grn_bragga	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_02	1.0		0	0	false
-	wh2_main_skill_innate_grn_serial_danca	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_04	3.0		0	0	false
-	wh2_main_skill_innate_grn_tortura	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_05	4.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_06	5.0		0	0	false
-	wh2_main_skill_innate_all_cunning	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_07	6.0		0	0	false
-	wh2_main_skill_innate_all_determined	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_08	7.0		0	0	false
-	wh2_main_skill_innate_all_confident	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_09	8.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_10	9.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_11	10.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_12	11.0		0	0	false
-	wh2_main_skill_innate_all_tough	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_13	12.0		0	0	false
-	wh2_main_skill_innate_all_strong	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_14	13.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_15	14.0		0	0	false
-	wh2_main_skill_innate_all_strategist	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_16	15.0		0	0	false
-	wh2_main_skill_innate_all_tactician	elo_carrion_boss		6.0	elo_carrion_big_boss_innate_17	16.0		0	0	false
-	wh_main_skill_all_spy_self_bloody_blade	elo_carrion_boss		1.0	elo_carrion_big_boss_self_01	0.0		0	0	true
-	wh_main_skill_all_spy_self_gutter_fighter_2	elo_carrion_boss		1.0	elo_carrion_big_boss_self_02	1.0		0	0	true
-	wh_main_skill_all_spy_self_elusive	elo_carrion_boss		1.0	elo_carrion_big_boss_self_03	2.0		0	0	true
-	wh_main_skill_all_spy_self_precise_2	elo_carrion_boss		1.0	elo_carrion_big_boss_self_04	3.0		0	0	true
-	wh_main_skill_all_spy_self_fleet-footed	elo_carrion_boss		1.0	elo_carrion_big_boss_self_05	4.0		0	0	true
-	wh_main_skill_all_spy_self_slippery	elo_carrion_boss		1.0	elo_carrion_big_boss_self_06	5.0		0	4	true
-	wh_main_skill_all_spy_self_opportunist	elo_carrion_boss		1.0	elo_carrion_big_boss_self_07	6.0		0	0	true
-	wh_main_skill_all_spy_self_counter-striker_2	elo_carrion_boss		1.0	elo_carrion_big_boss_self_08	7.0		0	0	true
-	wh_main_skill_all_spy_self_survivalist_2	elo_carrion_boss		1.0	elo_carrion_big_boss_self_09	8.0		0	0	true
-	wh_main_skill_all_spy_self_cornered_rat	elo_carrion_boss		1.0	elo_carrion_big_boss_self_10	9.0		0	0	true
-	elo_those_are_tasty	elo_carrion_boss		1.0	elo_carrion_big_boss_self_11	10.0		0	4	true
-	wh2_dlc15_skill_grn_spy_unique_goblin_big_boss_ambusher	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_03	2.0		0	0	true
-	wh_main_skill_grn_spy_unique_goblin_big_boss_nasty_skulker	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_04	3.0		0	0	true
-	wh_main_skill_grn_all_unique_dodgy_geezer	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_05	5.0		0	0	true
-	wh_main_skill_all_spy_self_stalker	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_06	4.0		0	0	true
-	elo_carrion_boss_squig	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_02	1.0		0	0	true
-	elo_special_treat	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_01	0.0		0	0	true
-	elo_goblin_leader_melee	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_07	6.0		0	0	true
-	elo_goblin_leader_ranged	elo_carrion_boss		0.0	elo_carrion_big_boss_unique_08	7.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_carrion										
+elo_carrion_big_boss_campaign_01		wh2_main_skill_all_hero_assist_army_scavenge	elo_carrion_boss		5.0	0.0		0	0	true
+elo_carrion_big_boss_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption	elo_carrion_boss		5.0	1.0		0	0	true
+elo_carrion_big_boss_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_walls	elo_carrion_boss		5.0	2.0		0	0	true
+elo_carrion_big_boss_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate	elo_carrion_boss		5.0	3.0		0	0	true
+elo_carrion_big_boss_campaign_05		wh2_main_skill_all_hero_hinder_army_block_army	elo_carrion_boss		5.0	4.0		0	0	true
+elo_carrion_big_boss_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	elo_carrion_boss		5.0	5.0		0	0	true
+elo_carrion_big_boss_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_grn_goblin_big_boss	elo_carrion_boss		8.0	0.0		1	0	false
+elo_carrion_big_boss_immortality		wh2_main_skill_all_immortality_hero	elo_carrion_boss		0.0	8.0		0	0	true
+elo_carrion_big_boss_innate_02		wh2_main_skill_innate_grn_bragga	elo_carrion_boss		6.0	1.0		0	0	false
+elo_carrion_big_boss_innate_04		wh2_main_skill_innate_grn_serial_danca	elo_carrion_boss		6.0	3.0		0	0	false
+elo_carrion_big_boss_innate_05		wh2_main_skill_innate_grn_tortura	elo_carrion_boss		6.0	4.0		0	0	false
+elo_carrion_big_boss_innate_06		wh2_main_skill_innate_all_fleet_footed	elo_carrion_boss		6.0	5.0		0	0	false
+elo_carrion_big_boss_innate_07		wh2_main_skill_innate_all_cunning	elo_carrion_boss		6.0	6.0		0	0	false
+elo_carrion_big_boss_innate_08		wh2_main_skill_innate_all_determined	elo_carrion_boss		6.0	7.0		0	0	false
+elo_carrion_big_boss_innate_09		wh2_main_skill_innate_all_confident	elo_carrion_boss		6.0	8.0		0	0	false
+elo_carrion_big_boss_innate_10		wh2_main_skill_innate_all_disciplined	elo_carrion_boss		6.0	9.0		0	0	false
+elo_carrion_big_boss_innate_11		wh2_main_skill_innate_all_perceptive	elo_carrion_boss		6.0	10.0		0	0	false
+elo_carrion_big_boss_innate_12		wh2_main_skill_innate_all_aggressive	elo_carrion_boss		6.0	11.0		0	0	false
+elo_carrion_big_boss_innate_13		wh2_main_skill_innate_all_tough	elo_carrion_boss		6.0	12.0		0	0	false
+elo_carrion_big_boss_innate_14		wh2_main_skill_innate_all_strong	elo_carrion_boss		6.0	13.0		0	0	false
+elo_carrion_big_boss_innate_15		wh2_main_skill_innate_all_weapon_master	elo_carrion_boss		6.0	14.0		0	0	false
+elo_carrion_big_boss_innate_16		wh2_main_skill_innate_all_strategist	elo_carrion_boss		6.0	15.0		0	0	false
+elo_carrion_big_boss_innate_17		wh2_main_skill_innate_all_tactician	elo_carrion_boss		6.0	16.0		0	0	false
+elo_carrion_big_boss_self_01		wh_main_skill_all_spy_self_bloody_blade	elo_carrion_boss		1.0	0.0		0	0	true
+elo_carrion_big_boss_self_02		wh_main_skill_all_spy_self_gutter_fighter_2	elo_carrion_boss		1.0	1.0		0	0	true
+elo_carrion_big_boss_self_03		wh_main_skill_all_spy_self_elusive	elo_carrion_boss		1.0	2.0		0	0	true
+elo_carrion_big_boss_self_04		wh_main_skill_all_spy_self_precise_2	elo_carrion_boss		1.0	3.0		0	0	true
+elo_carrion_big_boss_self_05		wh_main_skill_all_spy_self_fleet-footed	elo_carrion_boss		1.0	4.0		0	0	true
+elo_carrion_big_boss_self_06		wh_main_skill_all_spy_self_slippery	elo_carrion_boss		1.0	5.0		0	4	true
+elo_carrion_big_boss_self_07		wh_main_skill_all_spy_self_opportunist	elo_carrion_boss		1.0	6.0		0	0	true
+elo_carrion_big_boss_self_08		wh_main_skill_all_spy_self_counter-striker_2	elo_carrion_boss		1.0	7.0		0	0	true
+elo_carrion_big_boss_self_09		wh_main_skill_all_spy_self_survivalist_2	elo_carrion_boss		1.0	8.0		0	0	true
+elo_carrion_big_boss_self_10		wh_main_skill_all_spy_self_cornered_rat	elo_carrion_boss		1.0	9.0		0	0	true
+elo_carrion_big_boss_self_11		elo_those_are_tasty	elo_carrion_boss		1.0	10.0		0	4	true
+elo_carrion_big_boss_unique_03		wh2_dlc15_skill_grn_spy_unique_goblin_big_boss_ambusher	elo_carrion_boss		0.0	2.0		0	0	true
+elo_carrion_big_boss_unique_04		wh_main_skill_grn_spy_unique_goblin_big_boss_nasty_skulker	elo_carrion_boss		0.0	3.0		0	0	true
+elo_carrion_big_boss_unique_05		wh_main_skill_grn_all_unique_dodgy_geezer	elo_carrion_boss		0.0	5.0		0	0	true
+elo_carrion_big_boss_unique_06		wh_main_skill_all_spy_self_stalker	elo_carrion_boss		0.0	4.0		0	0	true
+elo_carrion_big_boss_unique_02		elo_carrion_boss_squig	elo_carrion_boss		0.0	1.0		0	0	true
+elo_carrion_big_boss_unique_01		elo_special_treat	elo_carrion_boss		0.0	0.0		0	0	true
+elo_carrion_big_boss_unique_07		elo_goblin_leader_melee	elo_carrion_boss		0.0	6.0		0	0	true
+elo_carrion_big_boss_unique_08		elo_goblin_leader_ranged	elo_carrion_boss		0.0	7.0		0	0	true

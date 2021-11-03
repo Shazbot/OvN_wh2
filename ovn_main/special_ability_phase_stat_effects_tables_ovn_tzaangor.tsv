@@ -1,10 +1,10 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-elo_tzaan_curse_tzeentch	50.0	stat_miscast_additional	add
-elo_tzaan_curse_tzeentch	-100.0	stat_resistance_magic	add
-elo_tzaan_twisted_blessings	16.0	stat_melee_attack	add
-elo_tzaan_twisted_blessings	-8.0	stat_melee_defence	add
-elo_tzaan_boon_tzeentch	20.0	stat_resistance_all	add
-contact_tzaan_mutations	-6.0	stat_melee_attack	add
-contact_tzaan_mutations	-8.0	stat_morale	add
-contact_tzaan_mutations	-6.0	stat_melee_defence	add
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/ovn_tzaangor			
+elo_tzaan_curse_tzeentch	stat_miscast_additional	50.0	add
+elo_tzaan_curse_tzeentch	stat_resistance_magic	-100.0	add
+elo_tzaan_twisted_blessings	stat_melee_attack	16.0	add
+elo_tzaan_twisted_blessings	stat_melee_defence	-8.0	add
+elo_tzaan_boon_tzeentch	stat_resistance_all	20.0	add
+contact_tzaan_mutations	stat_melee_attack	-6.0	add
+contact_tzaan_mutations	stat_morale	-8.0	add
+contact_tzaan_mutations	stat_melee_defence	-6.0	add

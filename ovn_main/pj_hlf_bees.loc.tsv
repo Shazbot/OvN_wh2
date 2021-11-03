@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/pj_hlf_bees.loc		
 land_units_concealed_name_ovn_hlf_bee_throwers		true
 land_units_onscreen_name_ovn_hlf_bee_throwers	Halfling Beekeepers	true
 unit_description_short_texts_text_ovn_hlf_bee_throwers	Halfling beekeepers who tend to their apiaries in times of peace, now ready to unleash unbeelievable devastation.	true

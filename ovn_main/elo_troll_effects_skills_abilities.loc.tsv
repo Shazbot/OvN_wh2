@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_troll_effects_skills_abilities.loc		
 effects_description_enable_run_and_shakeoff	Ability: "Devour them all!"	true
 effects_description_enable_frenzy	Ability: "Frenzy"	true
 effects_description_enable_stoneskin	Ability: "Stone Skin"	true

@@ -1,5 +1,5 @@
-effect_bundles_tables	4
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_stances								
 ovn_fimir_mist_stance	ovn_fimir_mist_stance	ovn_fimir_mist_stance	force	1	wizard.png	false	false	true
 ovn_fimir_mist_ambush_stance	ovn_fimir_mist_ambush_stance	ovn_fimir_mist_ambush_stance	force	1	wizard.png	false	false	true
 ovn_stance_army_raiding_camp	Sets up a defensive camp, allowing for recruitment and replenishment, whilst raiding wealth from the local region.	Stance: Raidin' Camp	force	1	icon_effects_fortify.png	false	false	true

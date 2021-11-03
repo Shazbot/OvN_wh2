@@ -1,54 +1,54 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-battle_morale.png	elo_skill_conduit	meh	Conduit of the Troll King	0	false	false	false	0.0	0
-battle_speed.png	elo_skill_fedbywar	meh	Fed by War	0	false	false	false	0.0	0
-campaign_wound_time.png	elo_skill_toostupid	meh	Too Stupid to Care	0	false	false	false	0.0	0
-wh_dlc03_character_abilities_call_of_violence.png	elo_skill_run_and_shakeoff	meh	Devour them all!	0	false	false	false	0.0	0
-battle_attack.png	elo_skill_bloodlust	meh	Bloodlust	0	false	false	false	0.0	0
-battle_damage.png	elo_skill_hitharder	meh	Hit Harder	0	false	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate01	meh	Motivated by Hunger but Insatiable	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate02	meh	Mighty but Choleric	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate03	meh	Destructive	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate04	meh	Obidient but Stupid as a Rock	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate05	meh	Intimidating but all Show	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate06	meh	Completly Broken	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate07	meh	Strong Willed	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate08	meh	Touched by Khorne	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate09	meh	Touched by Nurgle	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate10	meh	Touched by Slaneesh	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate11	meh	Mindless Hoarder	0	true	false	false	0.0	0
-trait_norsca.png	elo_skill_troll_innate12	meh	Dumb Luck	0	true	false	false	0.0	0
-wh2_liz_kill_skaven.png	elo_skill_troll_food_rats	meh	All You Can Eat: Skaven	9	false	false	false	0.0	0
-wh2_liz_kill_dwarfs.png	elo_skill_troll_food_dwarfs	meh	Crustaceans: Dwarfs	9	false	false	false	0.0	0
-wh2_liz_kill_humans.png	elo_skill_troll_food_humans	meh	Home Cooking: Humans	9	false	false	false	0.0	0
-wh2_liz_kill_dark_elves.png	elo_skill_troll_food_elves	meh	Haute Cuisine: Elves	9	false	false	false	0.0	0
-wh2_liz_kill_greenskins.png	elo_skill_troll_food_green	meh	Junk Food: Greenskins	9	false	false	false	0.0	0
-wh2_liz_honoured_elder.png	elo_skill_troll_food_lizard	meh	Exotic Food: Lizardmen	9	false	false	false	0.0	0
-wh2_liz_kill_undead.png	elo_skill_troll_food_undead	meh	Dry Aged Meat: Undead	9	false	false	false	0.0	0
-wh2_liz_kill_chaos.png	elo_skill_troll_food_chaos	meh	Spicy: Chaos	9	false	false	false	0.0	0
-wh2_liz_kill_beastmen.png	elo_skill_troll_food_beast	meh	Gamey Food: Beastmen	9	false	false	false	0.0	0
-wh_main_unit_contact_poison.png	elo_skill_troll_riverblood	meh	Rivertroll Blood	12	false	false	false	0.0	0
-wh_main_lord_passive_the_hunger.png	elo_skill_troll_frostblood	meh	Frost Troll Blood	4	false	false	false	0.0	0
-wh_main_spell_metal_glittering_robe.png	elo_skill_troll_stoneblood	meh	Stone Troll Blood	20	false	false	false	0.0	0
-battle_defence.png	elo_skill_troll_feral	meh	Feral Masters	0	false	false	false	0.0	0
-character_morale.png	elo_skill_troll_controlled	meh	Mind Controlled	0	false	false	false	0.0	0
-battle_morale.png	elo_skill_throgg_leader	meh	Leader of Trolls	0	false	false	false	0.0	0
-campaign_siege_attack.png	elo_skill_throgg_herold	meh	Bringer of Destruction	5	false	false	false	0.0	0
-campaign_ambush.png	elo_skill_throgg_tactican	meh	Troll Tactician	0	false	false	false	0.0	0
-causes_terror.png	elo_skill_throgg_eat	meh	Man Eater	0	false	false	false	0.0	0
-campaign_experience.png	elo_skill_throgg_veterans	meh	Battlehardened Kin	0	false	false	false	0.0	0
-item_enchanted_item.png	elo_skill_throgg_looter	meh	Cunning Looter	0	false	false	false	0.0	0
-character_chaos_corruption.png	elo_skill_throgg_monsterlord	meh	Lord of the Monsterhorde	0	false	false	false	0.0	0
-battle_general_ability.png	elo_skill_throgg_scourge	meh	Scourge of the North	0	false	false	false	0.0	0
-guerrilla_deploy.png	elo_skill_throgg_danger	meh	Blight of Men	0	false	false	false	0.0	0
-battle_morale.png	elo_skill_troll_intimidation	meh	Intimidation	0	false	false	false	0.0	0
-campaign_movement.png	elo_skill_throgg_march	meh	March of Eternal Winter	0	false	false	false	0.0	0
-battle_attack.png	elo_throgg_inhumane	meh	Inhumane Strength	0	false	false	false	0.0	0
-trait_norsca.png	wh2_main_skill_all_dummy_agent_actions_elo_troll_champ	meh	meh	0	false	false	false	0.0	0
-character_general_ability.png	elo_enable_me_boss_now	meh	meh	0	false	false	false	0.0	0
-wh_dlc08_copious_vomit.png	elo_enable_lesser_vomit	meh	meh	0	false	false	false	0.0	0
-character_general_ability.png	elo_enable_violent_command	meh	meh	0	false	false	false	0.0	0
-character_general_ability.png	elo_troll_dirty	meh	meh	0	false	false	false	0.0	0
-wh_main_unit_passive_frenzy.png	elo_troll_angry	meh	meh	0	false	false	false	0.0	0
-battle_ward_save.png	elo_troll_resilient	meh	meh	0	false	false	false	0.0	0
-battle_speed.png	elo_troll_fast	meh	meh	0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/elo_troll									
+elo_skill_conduit	battle_morale.png	meh	Conduit of the Troll King	0	false	false	false	0.0	0
+elo_skill_fedbywar	battle_speed.png	meh	Fed by War	0	false	false	false	0.0	0
+elo_skill_toostupid	campaign_wound_time.png	meh	Too Stupid to Care	0	false	false	false	0.0	0
+elo_skill_run_and_shakeoff	wh_dlc03_character_abilities_call_of_violence.png	meh	Devour them all!	0	false	false	false	0.0	0
+elo_skill_bloodlust	battle_attack.png	meh	Bloodlust	0	false	false	false	0.0	0
+elo_skill_hitharder	battle_damage.png	meh	Hit Harder	0	false	false	false	0.0	0
+elo_skill_troll_innate01	trait_norsca.png	meh	Motivated by Hunger but Insatiable	0	true	false	false	0.0	0
+elo_skill_troll_innate02	trait_norsca.png	meh	Mighty but Choleric	0	true	false	false	0.0	0
+elo_skill_troll_innate03	trait_norsca.png	meh	Destructive	0	true	false	false	0.0	0
+elo_skill_troll_innate04	trait_norsca.png	meh	Obidient but Stupid as a Rock	0	true	false	false	0.0	0
+elo_skill_troll_innate05	trait_norsca.png	meh	Intimidating but all Show	0	true	false	false	0.0	0
+elo_skill_troll_innate06	trait_norsca.png	meh	Completly Broken	0	true	false	false	0.0	0
+elo_skill_troll_innate07	trait_norsca.png	meh	Strong Willed	0	true	false	false	0.0	0
+elo_skill_troll_innate08	trait_norsca.png	meh	Touched by Khorne	0	true	false	false	0.0	0
+elo_skill_troll_innate09	trait_norsca.png	meh	Touched by Nurgle	0	true	false	false	0.0	0
+elo_skill_troll_innate10	trait_norsca.png	meh	Touched by Slaneesh	0	true	false	false	0.0	0
+elo_skill_troll_innate11	trait_norsca.png	meh	Mindless Hoarder	0	true	false	false	0.0	0
+elo_skill_troll_innate12	trait_norsca.png	meh	Dumb Luck	0	true	false	false	0.0	0
+elo_skill_troll_food_rats	wh2_liz_kill_skaven.png	meh	All You Can Eat: Skaven	9	false	false	false	0.0	0
+elo_skill_troll_food_dwarfs	wh2_liz_kill_dwarfs.png	meh	Crustaceans: Dwarfs	9	false	false	false	0.0	0
+elo_skill_troll_food_humans	wh2_liz_kill_humans.png	meh	Home Cooking: Humans	9	false	false	false	0.0	0
+elo_skill_troll_food_elves	wh2_liz_kill_dark_elves.png	meh	Haute Cuisine: Elves	9	false	false	false	0.0	0
+elo_skill_troll_food_green	wh2_liz_kill_greenskins.png	meh	Junk Food: Greenskins	9	false	false	false	0.0	0
+elo_skill_troll_food_lizard	wh2_liz_honoured_elder.png	meh	Exotic Food: Lizardmen	9	false	false	false	0.0	0
+elo_skill_troll_food_undead	wh2_liz_kill_undead.png	meh	Dry Aged Meat: Undead	9	false	false	false	0.0	0
+elo_skill_troll_food_chaos	wh2_liz_kill_chaos.png	meh	Spicy: Chaos	9	false	false	false	0.0	0
+elo_skill_troll_food_beast	wh2_liz_kill_beastmen.png	meh	Gamey Food: Beastmen	9	false	false	false	0.0	0
+elo_skill_troll_riverblood	wh_main_unit_contact_poison.png	meh	Rivertroll Blood	12	false	false	false	0.0	0
+elo_skill_troll_frostblood	wh_main_lord_passive_the_hunger.png	meh	Frost Troll Blood	4	false	false	false	0.0	0
+elo_skill_troll_stoneblood	wh_main_spell_metal_glittering_robe.png	meh	Stone Troll Blood	20	false	false	false	0.0	0
+elo_skill_troll_feral	battle_defence.png	meh	Feral Masters	0	false	false	false	0.0	0
+elo_skill_troll_controlled	character_morale.png	meh	Mind Controlled	0	false	false	false	0.0	0
+elo_skill_throgg_leader	battle_morale.png	meh	Leader of Trolls	0	false	false	false	0.0	0
+elo_skill_throgg_herold	campaign_siege_attack.png	meh	Bringer of Destruction	5	false	false	false	0.0	0
+elo_skill_throgg_tactican	campaign_ambush.png	meh	Troll Tactician	0	false	false	false	0.0	0
+elo_skill_throgg_eat	causes_terror.png	meh	Man Eater	0	false	false	false	0.0	0
+elo_skill_throgg_veterans	campaign_experience.png	meh	Battlehardened Kin	0	false	false	false	0.0	0
+elo_skill_throgg_looter	item_enchanted_item.png	meh	Cunning Looter	0	false	false	false	0.0	0
+elo_skill_throgg_monsterlord	character_chaos_corruption.png	meh	Lord of the Monsterhorde	0	false	false	false	0.0	0
+elo_skill_throgg_scourge	battle_general_ability.png	meh	Scourge of the North	0	false	false	false	0.0	0
+elo_skill_throgg_danger	guerrilla_deploy.png	meh	Blight of Men	0	false	false	false	0.0	0
+elo_skill_troll_intimidation	battle_morale.png	meh	Intimidation	0	false	false	false	0.0	0
+elo_skill_throgg_march	campaign_movement.png	meh	March of Eternal Winter	0	false	false	false	0.0	0
+elo_throgg_inhumane	battle_attack.png	meh	Inhumane Strength	0	false	false	false	0.0	0
+wh2_main_skill_all_dummy_agent_actions_elo_troll_champ	trait_norsca.png	meh	meh	0	false	false	false	0.0	0
+elo_enable_me_boss_now	character_general_ability.png	meh	meh	0	false	false	false	0.0	0
+elo_enable_lesser_vomit	wh_dlc08_copious_vomit.png	meh	meh	0	false	false	false	0.0	0
+elo_enable_violent_command	character_general_ability.png	meh	meh	0	false	false	false	0.0	0
+elo_troll_dirty	character_general_ability.png	meh	meh	0	false	false	false	0.0	0
+elo_troll_angry	wh_main_unit_passive_frenzy.png	meh	meh	0	false	false	false	0.0	0
+elo_troll_resilient	battle_ward_save.png	meh	meh	0	false	false	false	0.0	0
+elo_troll_fast	battle_speed.png	meh	meh	0	false	false	false	0.0	0

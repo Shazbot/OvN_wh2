@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_obo_grudge_ui_unit_groupings__core.loc		
 ui_unit_groupings_onscreen_emp_grudge_cav_flag	Grudgebringer Cavalry	true
 ui_unit_groupings_tooltip_emp_grudge_cav_flag	Taking their name from their Commander's powerful sword 'Grudgebringer' these mercenaries form the core of the army known as the Grudgebringers	true
 ui_unit_groupings_onscreen_emp_gru_inf_flag	Grudgebringer Infantry	true

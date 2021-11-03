@@ -1,68 +1,68 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_main_skill_all_lord_battle_inspiring_presence	node_set_warleader		4.0	elo_warleader_battle_01	0.0		0	0	true
-	elo_warrior_culture	node_set_warleader		4.0	elo_warleader_battle_02	1.0		0	0	true
-	elo_guardians_land	node_set_warleader		4.0	elo_warleader_battle_03	2.0		0	0	true
-	elo_monster_support	node_set_warleader		4.0	elo_warleader_battle_04	3.0		0	0	true
-	elo_noble_saveages	node_set_warleader		4.0	elo_warleader_battle_05	4.0		0	0	true
-	elo_ranged_specialists	node_set_warleader		4.0	elo_warleader_battle_06	5.0		0	0	true
-	elo_fast_raiders	node_set_warleader		4.0	elo_warleader_battle_07	6.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	node_set_warleader		4.0	elo_warleader_battle_08	7.0		0	6	true
-	elo_hunters_r7	node_set_warleader		4.0	elo_warleader_battle_09	8.0		0	0	true
-	elo_monsters_r7	node_set_warleader		4.0	elo_warleader_battle_10	9.0		0	0	true
-	elo_riders_r7	node_set_warleader		4.0	elo_warleader_battle_11	10.0		0	0	true
-	elo_champions_r7	node_set_warleader		4.0	elo_warleader_battle_12	11.0		0	0	true
-	elo_albion_warcry	node_set_warleader		4.0	elo_warleader_battle_13	12.0		0	1	true
-	wh_main_skill_all_lord_campaign_route_marcher	node_set_warleader		5.0	elo_warleader_campaign_01	0.0		0	0	true
-	wh_main_skill_emp_lord_campaign_fervent	node_set_warleader		5.0	elo_warleader_campaign_02	1.0		0	0	true
-	wh_main_skill_grn_lord_campaign_raider	node_set_warleader		5.0	elo_warleader_campaign_03	2.0		0	0	true
-	wh_main_skill_grn_lord_campaign_looter	node_set_warleader		5.0	elo_warleader_campaign_04	3.0		0	0	true
-	wh_main_skill_emp_lord_campaign_leader_of_renown	node_set_warleader		5.0	elo_warleader_campaign_05	4.0		0	0	true
-	wh2_main_skill_def_campaign_draftmaster	node_set_warleader		5.0	elo_warleader_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	node_set_warleader		5.0	elo_warleader_campaign_07	6.0		0	0	true
-	wh_main_skill_emp_lord_campaign_logistician	node_set_warleader		5.0	elo_warleader_campaign_08	7.0		0	0	true
-	shadows_fen	node_set_warleader		5.0	elo_warleader_campaign_09	8.0		0	0	true
-	wh_main_skill_all_lord_campaign_alert	node_set_warleader		5.0	elo_warleader_campaign_10	9.0		0	0	true
-	wh2_main_skill_LL_self_defense	node_set_warleader		5.0	elo_warleader_campaign_11	10.0		0	4	true
-	wh_main_skill_all_all_self_blade_master_starter	node_set_warleader		2.0	elo_warleader_self_01	0.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_devastating_charge	node_set_warleader		2.0	elo_warleader_self_02	1.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_thick-skinned	node_set_warleader		2.0	elo_warleader_self_03	2.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_hard_to_hit	node_set_warleader		2.0	elo_warleader_self_04	3.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_deadly_blade	node_set_warleader		2.0	elo_warleader_self_05	4.0		0	0	true
-	wh_main_skill_all_all_self_foe-seeker	node_set_warleader		2.0	elo_warleader_self_06	5.0		0	4	true
-	wh2_dlc11_skill_all_lord_self_wound-maker	node_set_warleader		2.0	elo_warleader_self_07	6.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_scarred_veteran	node_set_warleader		2.0	elo_warleader_self_08	7.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_self_indomitable	node_set_warleader		2.0	elo_warleader_self_09	8.0		0	0	true
-	wh2_dlc11_skill_nor_lords_self_quicksilver	node_set_warleader		2.0	elo_warleader_self_10	9.0		0	0	true
-	wh_main_skill_all_all_self_deadly_onslaught	node_set_warleader		2.0	elo_warleader_self_11	10.0		0	4	true
-	endless_conflict	node_set_warleader		0.0	elo_warleader_unique_01	3.0		0	0	true
-	elo_fast_reflexes	node_set_warleader		0.0	elo_warleader_unique_02	5.0		0	0	true
-	wh_main_skill_all_lord_battle_brass-lunged	node_set_warleader		0.0	elo_warleader_unique_03	6.0		0	0	true
-	elo_protective_charms	node_set_warleader		0.0	elo_warleader_unique_04	4.0		0	0	true
-	warleader_mount_skill	node_set_warleader		0.0	elo_warleader_unique_05	1.0		0	0	true
-	warleader_chariot_skill	node_set_warleader		0.0	elo_warleader_unique_06	2.0		0	0	true
-	sessair_leader	node_set_warleader		1.0	elo_warleader_tribes_01	1.0		0	0	true
-	sessair_troops	node_set_warleader		1.0	elo_warleader_tribes_02	2.0		0	0	true
-	fir_leader	node_set_warleader		1.0	elo_warleader_tribes_03	3.0		0	0	true
-	fir_troops	node_set_warleader		1.0	elo_warleader_tribes_04	4.0		0	0	true
-	filian_leader	node_set_warleader		1.0	elo_warleader_tribes_05	5.0		0	0	true
-	filian_troops	node_set_warleader		1.0	elo_warleader_tribes_06	6.0		0	0	true
-	finian_leader	node_set_warleader		1.0	elo_warleader_tribes_07	7.0		0	0	true
-	finian_troops	node_set_warleader		1.0	elo_warleader_tribes_08	8.0		0	0	true
-	wh2_main_skill_innate_all_fleet_footed	node_set_warleader		6.0	elo_warleader_innate_01	3.0		0	0	false
-	wh2_main_skill_innate_all_cunning	node_set_warleader		6.0	elo_warleader_innate_02	4.0		0	0	false
-	wh2_main_skill_innate_all_determined	node_set_warleader		6.0	elo_warleader_innate_03	5.0		0	0	false
-	wh2_main_skill_innate_all_confident	node_set_warleader		6.0	elo_warleader_innate_04	6.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	node_set_warleader		6.0	elo_warleader_innate_05	7.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	node_set_warleader		6.0	elo_warleader_innate_06	8.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	node_set_warleader		6.0	elo_warleader_innate_07	9.0		0	0	false
-	wh2_main_skill_innate_all_tough	node_set_warleader		6.0	elo_warleader_innate_08	10.0		0	0	false
-	wh2_main_skill_innate_all_strong	node_set_warleader		6.0	elo_warleader_innate_09	11.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	node_set_warleader		6.0	elo_warleader_innate_10	12.0		0	0	false
-	wh2_main_skill_innate_all_strategist	node_set_warleader		6.0	elo_warleader_innate_11	13.0		0	0	false
-	wh2_main_skill_innate_all_tactician	node_set_warleader		6.0	elo_warleader_innate_12	14.0		0	0	false
-	warleader_swamp_guard	node_set_warleader		6.0	elo_warleader_innate_13	15.0		0	0	false
-	warleader_raider	node_set_warleader		6.0	elo_warleader_innate_14	16.0		0	0	false
-	warleader_killer	node_set_warleader		6.0	elo_warleader_innate_15	17.0		0	0	false
-	warleader_wanderer	node_set_warleader		6.0	elo_warleader_innate_16	18.0		0	0	false
-	wh2_main_skill_all_immortality_lord	node_set_warleader		0.0	elo_warleader_immortality	7.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_albion_warleader										
+elo_warleader_battle_01		wh_main_skill_all_lord_battle_inspiring_presence	node_set_warleader		4.0	0.0		0	0	true
+elo_warleader_battle_02		elo_warrior_culture	node_set_warleader		4.0	1.0		0	0	true
+elo_warleader_battle_03		elo_guardians_land	node_set_warleader		4.0	2.0		0	0	true
+elo_warleader_battle_04		elo_monster_support	node_set_warleader		4.0	3.0		0	0	true
+elo_warleader_battle_05		elo_noble_saveages	node_set_warleader		4.0	4.0		0	0	true
+elo_warleader_battle_06		elo_ranged_specialists	node_set_warleader		4.0	5.0		0	0	true
+elo_warleader_battle_07		elo_fast_raiders	node_set_warleader		4.0	6.0		0	0	true
+elo_warleader_battle_08		wh_main_skill_all_lord_battle_rally	node_set_warleader		4.0	7.0		0	6	true
+elo_warleader_battle_09		elo_hunters_r7	node_set_warleader		4.0	8.0		0	0	true
+elo_warleader_battle_10		elo_monsters_r7	node_set_warleader		4.0	9.0		0	0	true
+elo_warleader_battle_11		elo_riders_r7	node_set_warleader		4.0	10.0		0	0	true
+elo_warleader_battle_12		elo_champions_r7	node_set_warleader		4.0	11.0		0	0	true
+elo_warleader_battle_13		elo_albion_warcry	node_set_warleader		4.0	12.0		0	1	true
+elo_warleader_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	node_set_warleader		5.0	0.0		0	0	true
+elo_warleader_campaign_02		wh_main_skill_emp_lord_campaign_fervent	node_set_warleader		5.0	1.0		0	0	true
+elo_warleader_campaign_03		wh_main_skill_grn_lord_campaign_raider	node_set_warleader		5.0	2.0		0	0	true
+elo_warleader_campaign_04		wh_main_skill_grn_lord_campaign_looter	node_set_warleader		5.0	3.0		0	0	true
+elo_warleader_campaign_05		wh_main_skill_emp_lord_campaign_leader_of_renown	node_set_warleader		5.0	4.0		0	0	true
+elo_warleader_campaign_06		wh2_main_skill_def_campaign_draftmaster	node_set_warleader		5.0	5.0		0	4	true
+elo_warleader_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	node_set_warleader		5.0	6.0		0	0	true
+elo_warleader_campaign_08		wh_main_skill_emp_lord_campaign_logistician	node_set_warleader		5.0	7.0		0	0	true
+elo_warleader_campaign_09		shadows_fen	node_set_warleader		5.0	8.0		0	0	true
+elo_warleader_campaign_10		wh_main_skill_all_lord_campaign_alert	node_set_warleader		5.0	9.0		0	0	true
+elo_warleader_campaign_11		wh2_main_skill_LL_self_defense	node_set_warleader		5.0	10.0		0	4	true
+elo_warleader_self_01		wh_main_skill_all_all_self_blade_master_starter	node_set_warleader		2.0	0.0		0	0	true
+elo_warleader_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	node_set_warleader		2.0	1.0		0	0	true
+elo_warleader_self_03		wh2_dlc11_skill_all_lord_self_thick-skinned	node_set_warleader		2.0	2.0		0	0	true
+elo_warleader_self_04		wh2_dlc11_skill_all_lord_self_hard_to_hit	node_set_warleader		2.0	3.0		0	0	true
+elo_warleader_self_05		wh2_dlc11_skill_all_lord_self_deadly_blade	node_set_warleader		2.0	4.0		0	0	true
+elo_warleader_self_06		wh_main_skill_all_all_self_foe-seeker	node_set_warleader		2.0	5.0		0	4	true
+elo_warleader_self_07		wh2_dlc11_skill_all_lord_self_wound-maker	node_set_warleader		2.0	6.0		0	0	true
+elo_warleader_self_08		wh2_dlc11_skill_all_lord_self_scarred_veteran	node_set_warleader		2.0	7.0		0	0	true
+elo_warleader_self_09		wh2_dlc11_skill_all_lord_self_self_indomitable	node_set_warleader		2.0	8.0		0	0	true
+elo_warleader_self_10		wh2_dlc11_skill_nor_lords_self_quicksilver	node_set_warleader		2.0	9.0		0	0	true
+elo_warleader_self_11		wh_main_skill_all_all_self_deadly_onslaught	node_set_warleader		2.0	10.0		0	4	true
+elo_warleader_unique_01		endless_conflict	node_set_warleader		0.0	3.0		0	0	true
+elo_warleader_unique_02		elo_fast_reflexes	node_set_warleader		0.0	5.0		0	0	true
+elo_warleader_unique_03		wh_main_skill_all_lord_battle_brass-lunged	node_set_warleader		0.0	6.0		0	0	true
+elo_warleader_unique_04		elo_protective_charms	node_set_warleader		0.0	4.0		0	0	true
+elo_warleader_unique_05		warleader_mount_skill	node_set_warleader		0.0	1.0		0	0	true
+elo_warleader_unique_06		warleader_chariot_skill	node_set_warleader		0.0	2.0		0	0	true
+elo_warleader_tribes_01		sessair_leader	node_set_warleader		1.0	1.0		0	0	true
+elo_warleader_tribes_02		sessair_troops	node_set_warleader		1.0	2.0		0	0	true
+elo_warleader_tribes_03		fir_leader	node_set_warleader		1.0	3.0		0	0	true
+elo_warleader_tribes_04		fir_troops	node_set_warleader		1.0	4.0		0	0	true
+elo_warleader_tribes_05		filian_leader	node_set_warleader		1.0	5.0		0	0	true
+elo_warleader_tribes_06		filian_troops	node_set_warleader		1.0	6.0		0	0	true
+elo_warleader_tribes_07		finian_leader	node_set_warleader		1.0	7.0		0	0	true
+elo_warleader_tribes_08		finian_troops	node_set_warleader		1.0	8.0		0	0	true
+elo_warleader_innate_01		wh2_main_skill_innate_all_fleet_footed	node_set_warleader		6.0	3.0		0	0	false
+elo_warleader_innate_02		wh2_main_skill_innate_all_cunning	node_set_warleader		6.0	4.0		0	0	false
+elo_warleader_innate_03		wh2_main_skill_innate_all_determined	node_set_warleader		6.0	5.0		0	0	false
+elo_warleader_innate_04		wh2_main_skill_innate_all_confident	node_set_warleader		6.0	6.0		0	0	false
+elo_warleader_innate_05		wh2_main_skill_innate_all_disciplined	node_set_warleader		6.0	7.0		0	0	false
+elo_warleader_innate_06		wh2_main_skill_innate_all_perceptive	node_set_warleader		6.0	8.0		0	0	false
+elo_warleader_innate_07		wh2_main_skill_innate_all_aggressive	node_set_warleader		6.0	9.0		0	0	false
+elo_warleader_innate_08		wh2_main_skill_innate_all_tough	node_set_warleader		6.0	10.0		0	0	false
+elo_warleader_innate_09		wh2_main_skill_innate_all_strong	node_set_warleader		6.0	11.0		0	0	false
+elo_warleader_innate_10		wh2_main_skill_innate_all_weapon_master	node_set_warleader		6.0	12.0		0	0	false
+elo_warleader_innate_11		wh2_main_skill_innate_all_strategist	node_set_warleader		6.0	13.0		0	0	false
+elo_warleader_innate_12		wh2_main_skill_innate_all_tactician	node_set_warleader		6.0	14.0		0	0	false
+elo_warleader_innate_13		warleader_swamp_guard	node_set_warleader		6.0	15.0		0	0	false
+elo_warleader_innate_14		warleader_raider	node_set_warleader		6.0	16.0		0	0	false
+elo_warleader_innate_15		warleader_killer	node_set_warleader		6.0	17.0		0	0	false
+elo_warleader_innate_16		warleader_wanderer	node_set_warleader		6.0	18.0		0	0	false
+elo_warleader_immortality		wh2_main_skill_all_immortality_lord	node_set_warleader		0.0	7.0		0	0	true

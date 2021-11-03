@@ -1,133 +1,133 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_dlc08_skill_nor_lords_unique_eye_of_the_gods	aky_chief_fimir_great_weapons_skills		0.0	aky_chief_fimir_great_weapons_skill_0_01	1.0		0	0	true
-	wh_dlc08_skill_nor_lords_unique_aura_of_chaos	aky_chief_fimir_great_weapons_skills		0.0	aky_chief_fimir_great_weapons_skill_0_02	2.0		0	0	true
-	wh_dlc08_skill_nor_throgg_unique_mutant_regeneration	aky_chief_fimir_great_weapons_skills		0.0	aky_chief_fimir_great_weapons_skill_0_03	3.0		0	0	true
-	wh_dlc08_skill_nor_throgg_battle_primordial_masters	aky_chief_fimir_great_weapons_skills		0.0	aky_chief_fimir_great_weapons_skill_0_04	4.0		0	0	true
-	wh_dlc08_skill_nor_throgg_battle_cyclopean_fiends	aky_chief_fimir_great_weapons_skills		0.0	aky_chief_fimir_great_weapons_skill_0_05	5.0		0	0	true
-	wh2_main_skill_all_immortality_lord	aky_chief_fimir_great_weapons_skills		0.0	aky_chief_fimir_great_weapons_skill_0_06	6.0		0	0	true
-	wh_main_skill_chs_lord_battle_dominating_presence	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_01	0.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_fearsome_warriors	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_02	1.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_beast_slayers	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_03	2.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_unnatural_selection	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_04	3.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_frostbitten	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_05	4.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_hail_of_teeth	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_06	5.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_monsters_of_the_north	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_07	6.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_08	7.0		0	6	true
-	wh2_dlc11_skill_nor_army_buff_champions_of_the_north	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_09	8.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_hardened_hunters	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_10	9.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_icy_wrath	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_11	10.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_hulks_of_death	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_12	11.0		0	0	true
-	wh_dlc08_skill_nor_lord_battle_stand_or_die	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_13	12.0		0	1	true
-	wh_dlc08_skill_nor_lords_battle_fight_or_die	aky_chief_fimir_great_weapons_skills		4.0	aky_chief_fimir_great_weapons_skill_4_14	13.0		0	1	true
-	wh_main_skill_all_lord_campaign_route_marcher	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_01	0.0		0	0	true
-	wh_dlc08_skill_nor_lord_campaign_takers_of_all	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_02	1.0		0	0	true
-	wh_main_skill_chs_lord_campaign_serve_or_die	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_03	2.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_norse_resilience	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_05	4.0		0	0	true
-	wh_main_skill_all_lord_campaign_lightning_strike	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_06	5.0		0	4	true
-	wh_main_skill_chs_lord_campaign_ruination	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_07	6.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_savage_skills	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_08	7.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_unnatural_healing	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_09	8.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_10	9.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_11	10.0		0	4	true
-	ak_fake_skill_point_dump	aky_chief_fimir_great_weapons_skills		5.0	aky_chief_fimir_great_weapons_skill_5_16	16.0		0	0	true
-	wh_main_skill_innate_all_blind	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_01	0.0		0	0	false
-	wh_main_skill_innate_all_boring	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_02	1.0		0	0	false
-	wh_main_skill_innate_all_choleric	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_03	2.0		0	0	false
-	wh_main_skill_innate_all_clumsy	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_04	3.0		0	0	false
-	wh_main_skill_innate_all_deformed	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_05	4.0		0	0	false
-	wh_main_skill_innate_all_easily_deceived	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_06	5.0		0	0	false
-	wh_main_skill_innate_all_easily_distracted	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_07	6.0		0	0	false
-	wh_main_skill_innate_all_easily_trapped	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_08	7.0		0	0	false
-	wh_main_skill_innate_all_honourable	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_09	8.0		0	0	false
-	wh_main_skill_innate_all_intelligent	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_10	9.0		0	0	false
-	wh_main_skill_innate_all_maimed_arm	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_11	12.0		0	0	false
-	wh_main_skill_innate_all_maimed_leg	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_12	13.0		0	0	false
-	wh_main_skill_innate_all_melancholic	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_13	14.0		0	0	false
-	wh_main_skill_innate_all_phlegmatic	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_14	15.0		0	0	false
-	wh_main_skill_innate_all_sanguine	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_15	16.0		0	0	false
-	wh_main_skill_innate_all_scar_disfiguring	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_16	17.0		0	0	false
-	wh_main_skill_innate_all_scar_distinguishing	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_17	18.0		0	0	false
-	wh_main_skill_innate_all_stupid	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_18	20.0		0	0	false
-	wh_main_skill_innate_all_uncompromising	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_19	21.0		0	0	false
-	wh_main_skill_innate_chs_diabolic_spendour	aky_chief_fimir_great_weapons_skills		6.0	aky_chief_fimir_great_weapons_skill_6_20	22.0		0	0	false
-	wh_dlc08_skill_nor_lord_self_drinker_of_blood	aky_chief_fimir_great_weapons_skills		1.0	aky_chief_fimir_great_weapons_skill_a_1_01	0.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_chrons_wrath	aky_chief_fimir_great_weapons_skills		1.0	aky_chief_fimir_great_weapons_skill_a_1_02	1.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_fury_of_the_hound	aky_chief_fimir_great_weapons_skills		1.0	aky_chief_fimir_great_weapons_skill_a_1_03	2.0		0	4	true
-	wh_dlc08_skill_nor_lord_self_carrier_of_death	aky_chief_fimir_great_weapons_skills		1.0	aky_chief_fimir_great_weapons_skill_a_1_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_putrefying_ooze	aky_chief_fimir_great_weapons_skills		1.0	aky_chief_fimir_great_weapons_skill_a_1_05	4.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_plague_of_the_crow	aky_chief_fimir_great_weapons_skills		1.0	aky_chief_fimir_great_weapons_skill_a_1_06	5.0		0	4	true
-	wh_dlc08_skill_nor_lord_self_indulger_of_the_exotic	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_b_1_01	0.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_intoxicating_visions	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_b_1_02	1.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_seduction_of_the_serpent	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_b_1_03	2.0		0	4	true
-	wh_dlc08_skill_nor_lord_self_spirit_wanderer	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_b_1_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_dark_deceiver	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_b_1_05	4.0		0	0	true
-	wh_dlc08_skill_nor_lord_self_sorcery_of_the_eagle	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_b_1_06	5.0		0	4	true
-	wh_dlc08_skill_nor_chieftain_enable_rage	aky_chief_fimir_great_weapons_skills		2.0	aky_chief_fimir_great_weapons_skill_rage	11.0		1	0	false
-	aky_chief_wolf_terrorgheist	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_01	1.0		0	0	true
-	wh_dlc08_skill_nor_skin_wolf_werekin_unique_razor_claws	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_02	2.0		0	0	true
-	wh_dlc08_skill_nor_skin_wolf_werekin_unique_hardened_skin	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_03	3.0		0	0	true
-	wh_dlc08_skill_nor_lords_unique_eye_of_the_gods	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_04	4.0		0	0	true
-	wh_dlc08_skill_nor_lords_unique_aura_of_chaos	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_05	5.0		0	0	true
-	wh_dlc08_skill_nor_throgg_unique_mutant_regeneration	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_06	6.0		0	0	true
-	wh_dlc08_skill_nor_throgg_battle_primordial_masters	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_07	7.0		0	0	true
-	wh_dlc08_skill_nor_throgg_battle_cyclopean_fiends	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_08	8.0		0	0	true
-	wh2_main_skill_all_immortality_lord	aky_chief_wolf_werekin_skills		0.0	aky_chief_wolf_werekin_skill_0_09	9.0		0	0	true
-	wh_dlc08_skill_nor_skin_wolf_werekin_self_dark_horror	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_01	0.0		0	0	true
-	wh_main_skill_all_all_self_devastating_charge	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_02	1.0		0	0	true
-	wh_main_skill_all_all_self_thick-skinned	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_03	2.0		0	0	true
-	wh_main_skill_all_all_self_hard_to_hit	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_04	3.0		0	0	true
-	wh_dlc08_skill_nor_skin_wolf_werekin_self_deadly_fangs	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_05	4.0		0	0	true
-	wh_main_skill_all_all_self_foe-seeker	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_06	5.0		0	4	true
-	wh_main_skill_all_all_self_wound-maker	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_07	6.0		0	0	true
-	wh_dlc03_skill_bst_lord_unnatural_thirst	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_08	7.0		0	0	true
-	wh_main_skill_all_all_self_indomitable	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_09	8.0		0	0	true
-	wh_dlc08_skill_nor_lords_self_quicksilver	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_10	9.0		0	0	true
-	wh_main_skill_all_all_self_deadly_onslaught	aky_chief_wolf_werekin_skills		1.0	aky_chief_wolf_werekin_skill_1_11	10.0		0	4	true
-	wh_main_skill_chs_lord_battle_dominating_presence	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_01	0.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_fearsome_warriors	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_02	1.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_beast_slayers	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_03	2.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_unnatural_selection	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_04	3.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_frostbitten	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_05	4.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_hail_of_teeth	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_06	5.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_monsters_of_the_north	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_07	6.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_08	7.0		0	6	true
-	wh2_dlc11_skill_nor_army_buff_champions_of_the_north	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_09	8.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_hardened_hunters	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_10	9.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_icy_wrath	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_11	10.0		0	0	true
-	wh2_dlc11_skill_nor_army_buff_hulks_of_death	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_12	11.0		0	0	true
-	wh_dlc08_skill_nor_lord_battle_stand_or_die	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_13	12.0		0	1	true
-	wh_dlc08_skill_nor_lords_battle_fight_or_die	aky_chief_wolf_werekin_skills		4.0	aky_chief_wolf_werekin_skill_4_14	13.0		0	1	true
-	wh_main_skill_all_lord_campaign_route_marcher	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_01	0.0		0	0	true
-	wh_dlc08_skill_nor_lord_campaign_takers_of_all	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_02	1.0		0	0	true
-	wh_main_skill_chs_lord_campaign_serve_or_die	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_03	2.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_norse_resilience	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_05	4.0		0	0	true
-	wh_main_skill_all_lord_campaign_lightning_strike	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_06	5.0		0	4	true
-	wh_main_skill_chs_lord_campaign_ruination	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_07	6.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_savage_skills	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_08	7.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_unnatural_healing	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_09	8.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_10	9.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_11	10.0		0	4	true
-	ak_fake_skill_point_dump	aky_chief_wolf_werekin_skills		5.0	aky_chief_wolf_werekin_skill_5_16	16.0		0	0	true
-	wh_main_skill_innate_all_blind	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_01	0.0		0	0	false
-	wh_main_skill_innate_all_boring	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_02	1.0		0	0	false
-	wh_main_skill_innate_all_choleric	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_03	2.0		0	0	false
-	wh_main_skill_innate_all_clumsy	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_04	3.0		0	0	false
-	wh_main_skill_innate_all_deformed	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_05	4.0		0	0	false
-	wh_main_skill_innate_all_easily_deceived	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_06	5.0		0	0	false
-	wh_main_skill_innate_all_easily_distracted	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_07	6.0		0	0	false
-	wh_main_skill_innate_all_easily_trapped	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_08	7.0		0	0	false
-	wh_main_skill_innate_all_honourable	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_09	8.0		0	0	false
-	wh_main_skill_innate_all_intelligent	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_10	9.0		0	0	false
-	wh_main_skill_innate_all_maimed_arm	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_11	12.0		0	0	false
-	wh_main_skill_innate_all_maimed_leg	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_12	13.0		0	0	false
-	wh_main_skill_innate_all_melancholic	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_13	14.0		0	0	false
-	wh_main_skill_innate_all_phlegmatic	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_14	15.0		0	0	false
-	wh_main_skill_innate_all_sanguine	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_15	16.0		0	0	false
-	wh_main_skill_innate_all_scar_disfiguring	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_16	17.0		0	0	false
-	wh_main_skill_innate_all_scar_distinguishing	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_17	18.0		0	0	false
-	wh_main_skill_innate_all_stupid	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_18	20.0		0	0	false
-	wh_main_skill_innate_all_uncompromising	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_19	21.0		0	0	false
-	wh_main_skill_innate_chs_diabolic_spendour	aky_chief_wolf_werekin_skills		6.0	aky_chief_wolf_werekin_skill_6_20	22.0		0	0	false
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/ak_vassals_of_monsters_king_data										
+aky_chief_fimir_great_weapons_skill_0_01		wh_dlc08_skill_nor_lords_unique_eye_of_the_gods	aky_chief_fimir_great_weapons_skills		0.0	1.0		0	0	true
+aky_chief_fimir_great_weapons_skill_0_02		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	aky_chief_fimir_great_weapons_skills		0.0	2.0		0	0	true
+aky_chief_fimir_great_weapons_skill_0_03		wh_dlc08_skill_nor_throgg_unique_mutant_regeneration	aky_chief_fimir_great_weapons_skills		0.0	3.0		0	0	true
+aky_chief_fimir_great_weapons_skill_0_04		wh_dlc08_skill_nor_throgg_battle_primordial_masters	aky_chief_fimir_great_weapons_skills		0.0	4.0		0	0	true
+aky_chief_fimir_great_weapons_skill_0_05		wh_dlc08_skill_nor_throgg_battle_cyclopean_fiends	aky_chief_fimir_great_weapons_skills		0.0	5.0		0	0	true
+aky_chief_fimir_great_weapons_skill_0_06		wh2_main_skill_all_immortality_lord	aky_chief_fimir_great_weapons_skills		0.0	6.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_01		wh_main_skill_chs_lord_battle_dominating_presence	aky_chief_fimir_great_weapons_skills		4.0	0.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_02		wh2_dlc11_skill_nor_army_buff_fearsome_warriors	aky_chief_fimir_great_weapons_skills		4.0	1.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_03		wh2_dlc11_skill_nor_army_buff_beast_slayers	aky_chief_fimir_great_weapons_skills		4.0	2.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_04		wh2_dlc11_skill_nor_army_buff_unnatural_selection	aky_chief_fimir_great_weapons_skills		4.0	3.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_05		wh2_dlc11_skill_nor_army_buff_frostbitten	aky_chief_fimir_great_weapons_skills		4.0	4.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_06		wh2_dlc11_skill_nor_army_buff_hail_of_teeth	aky_chief_fimir_great_weapons_skills		4.0	5.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_07		wh2_dlc11_skill_nor_army_buff_monsters_of_the_north	aky_chief_fimir_great_weapons_skills		4.0	6.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_08		wh_main_skill_all_lord_battle_rally	aky_chief_fimir_great_weapons_skills		4.0	7.0		0	6	true
+aky_chief_fimir_great_weapons_skill_4_09		wh2_dlc11_skill_nor_army_buff_champions_of_the_north	aky_chief_fimir_great_weapons_skills		4.0	8.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_10		wh2_dlc11_skill_nor_army_buff_hardened_hunters	aky_chief_fimir_great_weapons_skills		4.0	9.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_11		wh2_dlc11_skill_nor_army_buff_icy_wrath	aky_chief_fimir_great_weapons_skills		4.0	10.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_12		wh2_dlc11_skill_nor_army_buff_hulks_of_death	aky_chief_fimir_great_weapons_skills		4.0	11.0		0	0	true
+aky_chief_fimir_great_weapons_skill_4_13		wh_dlc08_skill_nor_lord_battle_stand_or_die	aky_chief_fimir_great_weapons_skills		4.0	12.0		0	1	true
+aky_chief_fimir_great_weapons_skill_4_14		wh_dlc08_skill_nor_lords_battle_fight_or_die	aky_chief_fimir_great_weapons_skills		4.0	13.0		0	1	true
+aky_chief_fimir_great_weapons_skill_5_01		wh_main_skill_all_lord_campaign_route_marcher	aky_chief_fimir_great_weapons_skills		5.0	0.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_02		wh_dlc08_skill_nor_lord_campaign_takers_of_all	aky_chief_fimir_great_weapons_skills		5.0	1.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_03		wh_main_skill_chs_lord_campaign_serve_or_die	aky_chief_fimir_great_weapons_skills		5.0	2.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_04		wh_dlc08_skill_nor_lords_campaign_norse_resilience	aky_chief_fimir_great_weapons_skills		5.0	3.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_05		wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	aky_chief_fimir_great_weapons_skills		5.0	4.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_06		wh_main_skill_all_lord_campaign_lightning_strike	aky_chief_fimir_great_weapons_skills		5.0	5.0		0	4	true
+aky_chief_fimir_great_weapons_skill_5_07		wh_main_skill_chs_lord_campaign_ruination	aky_chief_fimir_great_weapons_skills		5.0	6.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_08		wh_dlc08_skill_nor_lords_campaign_savage_skills	aky_chief_fimir_great_weapons_skills		5.0	7.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_09		wh_dlc08_skill_nor_lords_campaign_unnatural_healing	aky_chief_fimir_great_weapons_skills		5.0	8.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_10		wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	aky_chief_fimir_great_weapons_skills		5.0	9.0		0	0	true
+aky_chief_fimir_great_weapons_skill_5_11		wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	aky_chief_fimir_great_weapons_skills		5.0	10.0		0	4	true
+aky_chief_fimir_great_weapons_skill_5_16		ak_fake_skill_point_dump	aky_chief_fimir_great_weapons_skills		5.0	16.0		0	0	true
+aky_chief_fimir_great_weapons_skill_6_01		wh_main_skill_innate_all_blind	aky_chief_fimir_great_weapons_skills		6.0	0.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_02		wh_main_skill_innate_all_boring	aky_chief_fimir_great_weapons_skills		6.0	1.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_03		wh_main_skill_innate_all_choleric	aky_chief_fimir_great_weapons_skills		6.0	2.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_04		wh_main_skill_innate_all_clumsy	aky_chief_fimir_great_weapons_skills		6.0	3.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_05		wh_main_skill_innate_all_deformed	aky_chief_fimir_great_weapons_skills		6.0	4.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_06		wh_main_skill_innate_all_easily_deceived	aky_chief_fimir_great_weapons_skills		6.0	5.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_07		wh_main_skill_innate_all_easily_distracted	aky_chief_fimir_great_weapons_skills		6.0	6.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_08		wh_main_skill_innate_all_easily_trapped	aky_chief_fimir_great_weapons_skills		6.0	7.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_09		wh_main_skill_innate_all_honourable	aky_chief_fimir_great_weapons_skills		6.0	8.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_10		wh_main_skill_innate_all_intelligent	aky_chief_fimir_great_weapons_skills		6.0	9.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_11		wh_main_skill_innate_all_maimed_arm	aky_chief_fimir_great_weapons_skills		6.0	12.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_12		wh_main_skill_innate_all_maimed_leg	aky_chief_fimir_great_weapons_skills		6.0	13.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_13		wh_main_skill_innate_all_melancholic	aky_chief_fimir_great_weapons_skills		6.0	14.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_14		wh_main_skill_innate_all_phlegmatic	aky_chief_fimir_great_weapons_skills		6.0	15.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_15		wh_main_skill_innate_all_sanguine	aky_chief_fimir_great_weapons_skills		6.0	16.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_16		wh_main_skill_innate_all_scar_disfiguring	aky_chief_fimir_great_weapons_skills		6.0	17.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_17		wh_main_skill_innate_all_scar_distinguishing	aky_chief_fimir_great_weapons_skills		6.0	18.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_18		wh_main_skill_innate_all_stupid	aky_chief_fimir_great_weapons_skills		6.0	20.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_19		wh_main_skill_innate_all_uncompromising	aky_chief_fimir_great_weapons_skills		6.0	21.0		0	0	false
+aky_chief_fimir_great_weapons_skill_6_20		wh_main_skill_innate_chs_diabolic_spendour	aky_chief_fimir_great_weapons_skills		6.0	22.0		0	0	false
+aky_chief_fimir_great_weapons_skill_a_1_01		wh_dlc08_skill_nor_lord_self_drinker_of_blood	aky_chief_fimir_great_weapons_skills		1.0	0.0		0	0	true
+aky_chief_fimir_great_weapons_skill_a_1_02		wh_dlc08_skill_nor_lord_self_chrons_wrath	aky_chief_fimir_great_weapons_skills		1.0	1.0		0	0	true
+aky_chief_fimir_great_weapons_skill_a_1_03		wh_dlc08_skill_nor_lord_self_fury_of_the_hound	aky_chief_fimir_great_weapons_skills		1.0	2.0		0	4	true
+aky_chief_fimir_great_weapons_skill_a_1_04		wh_dlc08_skill_nor_lord_self_carrier_of_death	aky_chief_fimir_great_weapons_skills		1.0	3.0		0	0	true
+aky_chief_fimir_great_weapons_skill_a_1_05		wh_dlc08_skill_nor_lord_self_putrefying_ooze	aky_chief_fimir_great_weapons_skills		1.0	4.0		0	0	true
+aky_chief_fimir_great_weapons_skill_a_1_06		wh_dlc08_skill_nor_lord_self_plague_of_the_crow	aky_chief_fimir_great_weapons_skills		1.0	5.0		0	4	true
+aky_chief_fimir_great_weapons_skill_b_1_01		wh_dlc08_skill_nor_lord_self_indulger_of_the_exotic	aky_chief_fimir_great_weapons_skills		2.0	0.0		0	0	true
+aky_chief_fimir_great_weapons_skill_b_1_02		wh_dlc08_skill_nor_lord_self_intoxicating_visions	aky_chief_fimir_great_weapons_skills		2.0	1.0		0	0	true
+aky_chief_fimir_great_weapons_skill_b_1_03		wh_dlc08_skill_nor_lord_self_seduction_of_the_serpent	aky_chief_fimir_great_weapons_skills		2.0	2.0		0	4	true
+aky_chief_fimir_great_weapons_skill_b_1_04		wh_dlc08_skill_nor_lord_self_spirit_wanderer	aky_chief_fimir_great_weapons_skills		2.0	3.0		0	0	true
+aky_chief_fimir_great_weapons_skill_b_1_05		wh_dlc08_skill_nor_lord_self_dark_deceiver	aky_chief_fimir_great_weapons_skills		2.0	4.0		0	0	true
+aky_chief_fimir_great_weapons_skill_b_1_06		wh_dlc08_skill_nor_lord_self_sorcery_of_the_eagle	aky_chief_fimir_great_weapons_skills		2.0	5.0		0	4	true
+aky_chief_fimir_great_weapons_skill_rage		wh_dlc08_skill_nor_chieftain_enable_rage	aky_chief_fimir_great_weapons_skills		2.0	11.0		1	0	false
+aky_chief_wolf_werekin_skill_0_01		aky_chief_wolf_terrorgheist	aky_chief_wolf_werekin_skills		0.0	1.0		0	0	true
+aky_chief_wolf_werekin_skill_0_02		wh_dlc08_skill_nor_skin_wolf_werekin_unique_razor_claws	aky_chief_wolf_werekin_skills		0.0	2.0		0	0	true
+aky_chief_wolf_werekin_skill_0_03		wh_dlc08_skill_nor_skin_wolf_werekin_unique_hardened_skin	aky_chief_wolf_werekin_skills		0.0	3.0		0	0	true
+aky_chief_wolf_werekin_skill_0_04		wh_dlc08_skill_nor_lords_unique_eye_of_the_gods	aky_chief_wolf_werekin_skills		0.0	4.0		0	0	true
+aky_chief_wolf_werekin_skill_0_05		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	aky_chief_wolf_werekin_skills		0.0	5.0		0	0	true
+aky_chief_wolf_werekin_skill_0_06		wh_dlc08_skill_nor_throgg_unique_mutant_regeneration	aky_chief_wolf_werekin_skills		0.0	6.0		0	0	true
+aky_chief_wolf_werekin_skill_0_07		wh_dlc08_skill_nor_throgg_battle_primordial_masters	aky_chief_wolf_werekin_skills		0.0	7.0		0	0	true
+aky_chief_wolf_werekin_skill_0_08		wh_dlc08_skill_nor_throgg_battle_cyclopean_fiends	aky_chief_wolf_werekin_skills		0.0	8.0		0	0	true
+aky_chief_wolf_werekin_skill_0_09		wh2_main_skill_all_immortality_lord	aky_chief_wolf_werekin_skills		0.0	9.0		0	0	true
+aky_chief_wolf_werekin_skill_1_01		wh_dlc08_skill_nor_skin_wolf_werekin_self_dark_horror	aky_chief_wolf_werekin_skills		1.0	0.0		0	0	true
+aky_chief_wolf_werekin_skill_1_02		wh_main_skill_all_all_self_devastating_charge	aky_chief_wolf_werekin_skills		1.0	1.0		0	0	true
+aky_chief_wolf_werekin_skill_1_03		wh_main_skill_all_all_self_thick-skinned	aky_chief_wolf_werekin_skills		1.0	2.0		0	0	true
+aky_chief_wolf_werekin_skill_1_04		wh_main_skill_all_all_self_hard_to_hit	aky_chief_wolf_werekin_skills		1.0	3.0		0	0	true
+aky_chief_wolf_werekin_skill_1_05		wh_dlc08_skill_nor_skin_wolf_werekin_self_deadly_fangs	aky_chief_wolf_werekin_skills		1.0	4.0		0	0	true
+aky_chief_wolf_werekin_skill_1_06		wh_main_skill_all_all_self_foe-seeker	aky_chief_wolf_werekin_skills		1.0	5.0		0	4	true
+aky_chief_wolf_werekin_skill_1_07		wh_main_skill_all_all_self_wound-maker	aky_chief_wolf_werekin_skills		1.0	6.0		0	0	true
+aky_chief_wolf_werekin_skill_1_08		wh_dlc03_skill_bst_lord_unnatural_thirst	aky_chief_wolf_werekin_skills		1.0	7.0		0	0	true
+aky_chief_wolf_werekin_skill_1_09		wh_main_skill_all_all_self_indomitable	aky_chief_wolf_werekin_skills		1.0	8.0		0	0	true
+aky_chief_wolf_werekin_skill_1_10		wh_dlc08_skill_nor_lords_self_quicksilver	aky_chief_wolf_werekin_skills		1.0	9.0		0	0	true
+aky_chief_wolf_werekin_skill_1_11		wh_main_skill_all_all_self_deadly_onslaught	aky_chief_wolf_werekin_skills		1.0	10.0		0	4	true
+aky_chief_wolf_werekin_skill_4_01		wh_main_skill_chs_lord_battle_dominating_presence	aky_chief_wolf_werekin_skills		4.0	0.0		0	0	true
+aky_chief_wolf_werekin_skill_4_02		wh2_dlc11_skill_nor_army_buff_fearsome_warriors	aky_chief_wolf_werekin_skills		4.0	1.0		0	0	true
+aky_chief_wolf_werekin_skill_4_03		wh2_dlc11_skill_nor_army_buff_beast_slayers	aky_chief_wolf_werekin_skills		4.0	2.0		0	0	true
+aky_chief_wolf_werekin_skill_4_04		wh2_dlc11_skill_nor_army_buff_unnatural_selection	aky_chief_wolf_werekin_skills		4.0	3.0		0	0	true
+aky_chief_wolf_werekin_skill_4_05		wh2_dlc11_skill_nor_army_buff_frostbitten	aky_chief_wolf_werekin_skills		4.0	4.0		0	0	true
+aky_chief_wolf_werekin_skill_4_06		wh2_dlc11_skill_nor_army_buff_hail_of_teeth	aky_chief_wolf_werekin_skills		4.0	5.0		0	0	true
+aky_chief_wolf_werekin_skill_4_07		wh2_dlc11_skill_nor_army_buff_monsters_of_the_north	aky_chief_wolf_werekin_skills		4.0	6.0		0	0	true
+aky_chief_wolf_werekin_skill_4_08		wh_main_skill_all_lord_battle_rally	aky_chief_wolf_werekin_skills		4.0	7.0		0	6	true
+aky_chief_wolf_werekin_skill_4_09		wh2_dlc11_skill_nor_army_buff_champions_of_the_north	aky_chief_wolf_werekin_skills		4.0	8.0		0	0	true
+aky_chief_wolf_werekin_skill_4_10		wh2_dlc11_skill_nor_army_buff_hardened_hunters	aky_chief_wolf_werekin_skills		4.0	9.0		0	0	true
+aky_chief_wolf_werekin_skill_4_11		wh2_dlc11_skill_nor_army_buff_icy_wrath	aky_chief_wolf_werekin_skills		4.0	10.0		0	0	true
+aky_chief_wolf_werekin_skill_4_12		wh2_dlc11_skill_nor_army_buff_hulks_of_death	aky_chief_wolf_werekin_skills		4.0	11.0		0	0	true
+aky_chief_wolf_werekin_skill_4_13		wh_dlc08_skill_nor_lord_battle_stand_or_die	aky_chief_wolf_werekin_skills		4.0	12.0		0	1	true
+aky_chief_wolf_werekin_skill_4_14		wh_dlc08_skill_nor_lords_battle_fight_or_die	aky_chief_wolf_werekin_skills		4.0	13.0		0	1	true
+aky_chief_wolf_werekin_skill_5_01		wh_main_skill_all_lord_campaign_route_marcher	aky_chief_wolf_werekin_skills		5.0	0.0		0	0	true
+aky_chief_wolf_werekin_skill_5_02		wh_dlc08_skill_nor_lord_campaign_takers_of_all	aky_chief_wolf_werekin_skills		5.0	1.0		0	0	true
+aky_chief_wolf_werekin_skill_5_03		wh_main_skill_chs_lord_campaign_serve_or_die	aky_chief_wolf_werekin_skills		5.0	2.0		0	0	true
+aky_chief_wolf_werekin_skill_5_04		wh_dlc08_skill_nor_lords_campaign_norse_resilience	aky_chief_wolf_werekin_skills		5.0	3.0		0	0	true
+aky_chief_wolf_werekin_skill_5_05		wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	aky_chief_wolf_werekin_skills		5.0	4.0		0	0	true
+aky_chief_wolf_werekin_skill_5_06		wh_main_skill_all_lord_campaign_lightning_strike	aky_chief_wolf_werekin_skills		5.0	5.0		0	4	true
+aky_chief_wolf_werekin_skill_5_07		wh_main_skill_chs_lord_campaign_ruination	aky_chief_wolf_werekin_skills		5.0	6.0		0	0	true
+aky_chief_wolf_werekin_skill_5_08		wh_dlc08_skill_nor_lords_campaign_savage_skills	aky_chief_wolf_werekin_skills		5.0	7.0		0	0	true
+aky_chief_wolf_werekin_skill_5_09		wh_dlc08_skill_nor_lords_campaign_unnatural_healing	aky_chief_wolf_werekin_skills		5.0	8.0		0	0	true
+aky_chief_wolf_werekin_skill_5_10		wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	aky_chief_wolf_werekin_skills		5.0	9.0		0	0	true
+aky_chief_wolf_werekin_skill_5_11		wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	aky_chief_wolf_werekin_skills		5.0	10.0		0	4	true
+aky_chief_wolf_werekin_skill_5_16		ak_fake_skill_point_dump	aky_chief_wolf_werekin_skills		5.0	16.0		0	0	true
+aky_chief_wolf_werekin_skill_6_01		wh_main_skill_innate_all_blind	aky_chief_wolf_werekin_skills		6.0	0.0		0	0	false
+aky_chief_wolf_werekin_skill_6_02		wh_main_skill_innate_all_boring	aky_chief_wolf_werekin_skills		6.0	1.0		0	0	false
+aky_chief_wolf_werekin_skill_6_03		wh_main_skill_innate_all_choleric	aky_chief_wolf_werekin_skills		6.0	2.0		0	0	false
+aky_chief_wolf_werekin_skill_6_04		wh_main_skill_innate_all_clumsy	aky_chief_wolf_werekin_skills		6.0	3.0		0	0	false
+aky_chief_wolf_werekin_skill_6_05		wh_main_skill_innate_all_deformed	aky_chief_wolf_werekin_skills		6.0	4.0		0	0	false
+aky_chief_wolf_werekin_skill_6_06		wh_main_skill_innate_all_easily_deceived	aky_chief_wolf_werekin_skills		6.0	5.0		0	0	false
+aky_chief_wolf_werekin_skill_6_07		wh_main_skill_innate_all_easily_distracted	aky_chief_wolf_werekin_skills		6.0	6.0		0	0	false
+aky_chief_wolf_werekin_skill_6_08		wh_main_skill_innate_all_easily_trapped	aky_chief_wolf_werekin_skills		6.0	7.0		0	0	false
+aky_chief_wolf_werekin_skill_6_09		wh_main_skill_innate_all_honourable	aky_chief_wolf_werekin_skills		6.0	8.0		0	0	false
+aky_chief_wolf_werekin_skill_6_10		wh_main_skill_innate_all_intelligent	aky_chief_wolf_werekin_skills		6.0	9.0		0	0	false
+aky_chief_wolf_werekin_skill_6_11		wh_main_skill_innate_all_maimed_arm	aky_chief_wolf_werekin_skills		6.0	12.0		0	0	false
+aky_chief_wolf_werekin_skill_6_12		wh_main_skill_innate_all_maimed_leg	aky_chief_wolf_werekin_skills		6.0	13.0		0	0	false
+aky_chief_wolf_werekin_skill_6_13		wh_main_skill_innate_all_melancholic	aky_chief_wolf_werekin_skills		6.0	14.0		0	0	false
+aky_chief_wolf_werekin_skill_6_14		wh_main_skill_innate_all_phlegmatic	aky_chief_wolf_werekin_skills		6.0	15.0		0	0	false
+aky_chief_wolf_werekin_skill_6_15		wh_main_skill_innate_all_sanguine	aky_chief_wolf_werekin_skills		6.0	16.0		0	0	false
+aky_chief_wolf_werekin_skill_6_16		wh_main_skill_innate_all_scar_disfiguring	aky_chief_wolf_werekin_skills		6.0	17.0		0	0	false
+aky_chief_wolf_werekin_skill_6_17		wh_main_skill_innate_all_scar_distinguishing	aky_chief_wolf_werekin_skills		6.0	18.0		0	0	false
+aky_chief_wolf_werekin_skill_6_18		wh_main_skill_innate_all_stupid	aky_chief_wolf_werekin_skills		6.0	20.0		0	0	false
+aky_chief_wolf_werekin_skill_6_19		wh_main_skill_innate_all_uncompromising	aky_chief_wolf_werekin_skills		6.0	21.0		0	0	false
+aky_chief_wolf_werekin_skill_6_20		wh_main_skill_innate_chs_diabolic_spendour	aky_chief_wolf_werekin_skills		6.0	22.0		0	0	false

@@ -1,5 +1,5 @@
-banners_permitted_unit_sets_tables	0
 banner	unit_set
+#banners_permitted_unit_sets_tables;0;db/banners_permitted_unit_sets_tables/obo_grudgebringers_data	
 grudge_banner_of_arcane_warding	all_units
 grudge_banner_of_wrath	all_units
 grudge_banner_of_defiance	all_units

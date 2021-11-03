@@ -1,4 +1,4 @@
-faction_to_mercenary_set_junctions_tables	1
 faction	mercenary_set
+#faction_to_mercenary_set_junctions_tables;1;db/faction_to_mercenary_set_junctions_tables/ovn_grudge	
 wh2_main_emp_grudgebringers	wh2_dlc13_emp_imperial_supply_pool
 wh2_main_emp_the_moot	wh2_dlc13_emp_imperial_supply_pool

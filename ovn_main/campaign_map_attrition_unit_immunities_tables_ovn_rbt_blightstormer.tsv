@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/ovn_rbt_blightstormer	
 chaos_territory	ovn_rbt_ch_blightstormer
 disease	ovn_rbt_ch_blightstormer
 horde_infighting	ovn_rbt_ch_blightstormer

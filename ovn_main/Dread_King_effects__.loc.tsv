@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Dread_King_effects__.loc		
 effects_description_spawn_ushabti_dread_king	Ability: "Ushabti Summoner"	true
 effects_description_Dread_Aura	Ability: "Dread Aura"	true
 effects_description_Summon_Black_Grail_Kinghts	Ability: "Summon Black Grail Knights"	true

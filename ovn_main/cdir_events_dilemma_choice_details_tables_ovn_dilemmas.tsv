@@ -1,5 +1,5 @@
-cdir_events_dilemma_choice_details_tables	2
 choice_key	dilemma_key	associated_audio_trigger
+#cdir_events_dilemma_choice_details_tables;2;db/cdir_events_dilemma_choice_details_tables/ovn_dilemmas		
 FIRST	ovn_dilemma_grudge_occupy	
 SECOND	ovn_dilemma_grudge_occupy	
 THIRD	ovn_dilemma_grudge_occupy	

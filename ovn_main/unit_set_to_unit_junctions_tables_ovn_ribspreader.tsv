@@ -1,35 +1,35 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				ribspreader	chs_all
-false				ribspreader	chs_lords
-false				ribspreader_mammoth	wh2_mp_single_entity_monsters
-false				ribspreader_mammoth	chs_all
-false				ribspreader_mammoth	chs_lords
-false				elo_bile_trolls	elo_bile_trolls
-false				wh_dlc01_chs_inf_forsaken_0	ribspreader_chaos_vanguard
-false				wh_dlc06_chs_inf_aspiring_champions_0	ribspreader_chaos_vanguard
-false				wh_main_chs_inf_chaos_marauders_0	ribspreader_chaos_vanguard
-false				wh_main_chs_inf_chaos_marauders_1	ribspreader_chaos_vanguard
-false				wh_pro04_chs_inf_forsaken_ror_0	ribspreader_chaos_vanguard
-false				wh_dlc08_nor_inf_marauder_berserkers_0	ribspreader_chaos_vanguard
-false				wh_pro04_nor_inf_marauder_berserkers_ror_0	ribspreader_chaos_vanguard
-false				wh_main_nor_inf_chaos_marauders_0_no_garrison	ribspreader_chaos_vanguard
-false				wh_pro04_nor_inf_chaos_marauders_ror_0	ribspreader_chaos_vanguard
-false				wh_dlc08_nor_inf_marauder_berserkers_0	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				wh_main_nor_inf_chaos_marauders_0_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				wh_dlc08_nor_inf_marauder_champions_0	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				wh_dlc08_nor_inf_marauder_champions_1	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				elo_rot_fanatics	ribspreader_chaos_vanguard
-false				elo_rot_fanatics	dlc08_nor_marauders_all
-false				elo_rot_fanatics	dlc08_nor_marauders_inf
-false				elo_rot_fanatics	mp_set_nor_inf_marauders_0
-false				elo_rot_fanatics	nor_all
-false				elo_rot_fanatics	wh2_dlc11_nor_marauders_spearmen_berserkers_champions
-false				elo_rot_fanatics	wh2_dlc11_nor_vets_marauders_spearmen_berserkers_champions
-false				elo_rot_fanatics	all_non_chs
-false				elo_rot_fanatics	chs_all
-false				elo_rot_fanatics	chs_marauders
-false				elo_rot_fanatics	mp_set_chs_inf_chaos_marauders_0
-false				elo_rot_fanatics	wh2_dlc11_chs_marauders_aspiring_champions_forsaken
-false				elo_rot_fanatics	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				elo_rot_fanatics	wh2_dlc16_chs_marauders_rank7
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/ovn_ribspreader					
+			ribspreader	chs_all	false
+			ribspreader	chs_lords	false
+			ribspreader_mammoth	wh2_mp_single_entity_monsters	false
+			ribspreader_mammoth	chs_all	false
+			ribspreader_mammoth	chs_lords	false
+			elo_bile_trolls	elo_bile_trolls	false
+			wh_dlc01_chs_inf_forsaken_0	ribspreader_chaos_vanguard	false
+			wh_dlc06_chs_inf_aspiring_champions_0	ribspreader_chaos_vanguard	false
+			wh_main_chs_inf_chaos_marauders_0	ribspreader_chaos_vanguard	false
+			wh_main_chs_inf_chaos_marauders_1	ribspreader_chaos_vanguard	false
+			wh_pro04_chs_inf_forsaken_ror_0	ribspreader_chaos_vanguard	false
+			wh_dlc08_nor_inf_marauder_berserkers_0	ribspreader_chaos_vanguard	false
+			wh_pro04_nor_inf_marauder_berserkers_ror_0	ribspreader_chaos_vanguard	false
+			wh_main_nor_inf_chaos_marauders_0_no_garrison	ribspreader_chaos_vanguard	false
+			wh_pro04_nor_inf_chaos_marauders_ror_0	ribspreader_chaos_vanguard	false
+			wh_dlc08_nor_inf_marauder_berserkers_0	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			wh_main_nor_inf_chaos_marauders_0_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			wh_dlc08_nor_inf_marauder_champions_0	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			wh_dlc08_nor_inf_marauder_champions_1	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			elo_rot_fanatics	ribspreader_chaos_vanguard	false
+			elo_rot_fanatics	dlc08_nor_marauders_all	false
+			elo_rot_fanatics	dlc08_nor_marauders_inf	false
+			elo_rot_fanatics	mp_set_nor_inf_marauders_0	false
+			elo_rot_fanatics	nor_all	false
+			elo_rot_fanatics	wh2_dlc11_nor_marauders_spearmen_berserkers_champions	false
+			elo_rot_fanatics	wh2_dlc11_nor_vets_marauders_spearmen_berserkers_champions	false
+			elo_rot_fanatics	all_non_chs	false
+			elo_rot_fanatics	chs_all	false
+			elo_rot_fanatics	chs_marauders	false
+			elo_rot_fanatics	mp_set_chs_inf_chaos_marauders_0	false
+			elo_rot_fanatics	wh2_dlc11_chs_marauders_aspiring_champions_forsaken	false
+			elo_rot_fanatics	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			elo_rot_fanatics	wh2_dlc16_chs_marauders_rank7	false

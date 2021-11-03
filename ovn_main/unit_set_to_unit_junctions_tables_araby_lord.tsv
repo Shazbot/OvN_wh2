@@ -1,4 +1,4 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				ovn_araby_ll	emp_characters
-false				ovn_araby_ll_2	emp_characters
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/araby_lord					
+			ovn_araby_ll	emp_characters	false
+			ovn_araby_ll_2	emp_characters	false

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/araby_names.loc		
 names_name_999983000	Raaid	true
 names_name_999983001	Adel	true
 names_name_999983002	Malik	true

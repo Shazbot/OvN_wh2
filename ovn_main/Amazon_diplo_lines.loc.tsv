@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Amazon_diplo_lines.loc		
 diplomacy_strings_string_Amazon_Dip_Acceptance_Negative_01	With my reservations, we agree.	false
 diplomacy_strings_string_Amazon_Dip_Acceptance_Negative_02	Best start running. Let's see how far you make it…	false
 diplomacy_strings_string_Amazon_Dip_Acceptance_Negative_03	Fine, now leave this sacred ground!	false

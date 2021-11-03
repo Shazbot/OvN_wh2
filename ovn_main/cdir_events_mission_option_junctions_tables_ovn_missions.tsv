@@ -1,5 +1,5 @@
-cdir_events_mission_option_junctions_tables	2
 id	mission_key	option_key	value
+#cdir_events_mission_option_junctions_tables;2;db/cdir_events_mission_option_junctions_tables/ovn_missions			
 250590001	ovn_grudge_vortex_move_to_swem	VAR_OBJECTIVE_PROVINCE	wh2_main_vor_southlands_world_edge_mountains
 250590002	ovn_grudge_vortex_move_to_swem	VAR_CHANCE	100
 250590004	ovn_grudge_vortex_move_to_swem	GEN_TARGET_NONE	

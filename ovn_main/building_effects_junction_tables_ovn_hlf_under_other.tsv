@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_hlf_under_other					
 ovn_hlf_under_barn_1	hlf_reduce_all_units_upkeep	foreign_building_to_forces_own_regionwide	-15.0	-10.0	0.0
 ovn_hlf_under_revelry_1	wh2_main_effect_force_own_campaign_movement_range	foreign_building_to_forces_own_regionwide	-10.0	-5.0	0.0
 ovn_hlf_under_revelry_1	wh_main_effect_force_all_campaign_replenishment_rate_horde	foreign_building_to_character_own	25.0	10.0	0.0

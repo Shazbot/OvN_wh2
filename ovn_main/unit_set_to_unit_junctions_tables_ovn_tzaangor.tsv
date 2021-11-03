@@ -1,11 +1,11 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-true				elo_tzaangor_upkeep	all_non_chs
-false				elo_tzaangor_upkeep	bst_all
-false				elo_tzaangor_upkeep	bst_dlc03_bestigors
-false				elo_tzaangor_upkeep	bst_dlc03_melee_infantry_tier_2
-false				elo_tzaangor_upkeep	bst_primal_fury_units
-false				elo_tzaangor_upkeep	mp_set_bst_inf_bestigors
-false				elo_tzaangor_upkeep	wh2_dlc11_bst_ungor_gor_bestigor
-false				elo_tzaangor_upkeep	wh2_dlc11_bst_vets_ungor_gor_bestigor
-false				elo_tzaangor_upkeep	wh2_dlc17_bst_unit_cap_bestigor_herd
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/ovn_tzaangor					
+			elo_tzaangor_upkeep	all_non_chs	true
+			elo_tzaangor_upkeep	bst_all	false
+			elo_tzaangor_upkeep	bst_dlc03_bestigors	false
+			elo_tzaangor_upkeep	bst_dlc03_melee_infantry_tier_2	false
+			elo_tzaangor_upkeep	bst_primal_fury_units	false
+			elo_tzaangor_upkeep	mp_set_bst_inf_bestigors	false
+			elo_tzaangor_upkeep	wh2_dlc11_bst_ungor_gor_bestigor	false
+			elo_tzaangor_upkeep	wh2_dlc11_bst_vets_ungor_gor_bestigor	false
+			elo_tzaangor_upkeep	wh2_dlc17_bst_unit_cap_bestigor_herd	false

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Ovn_effects__.loc		
 effect_bundles_localised_title_sr_arab_bundle	Araby Prejudice	true
 effect_bundles_localised_description_sr_arab_bundle	Araby holds ancient bonds and hatreds though they have mellowed with time.	true
 effects_description_wh2_main_diplomatic_relations_crusaders_bad	Diplomatic relations: %+n with the factions of [[img:ovn_scythans]][[/img]]Aswad Scythans, [[img:ovn_araby]][[/img]]Caliphate of Araby & [[img:ovn_scimitar]][[/img]]the Flaming Scimitar.	true

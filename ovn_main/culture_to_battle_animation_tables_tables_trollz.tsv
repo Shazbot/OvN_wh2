@@ -1,5 +1,5 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/trollz	
 hu4c_ice_troll_club	wh2_main_rogue_troll_skullz
 hc2_chaos_spawn	wh2_main_rogue_troll_skullz
 hu4c_throgg_2handed_hammer	wh2_main_rogue_troll_skullz

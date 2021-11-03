@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/shawmuscle_dismounted_blood_knights_.loc		
 land_units_onscreen_name_dismounted_blood_knights	Blood Knights (Great Weapons)	true
 land_units_onscreen_name_dismounted_blood_knights_shield	Blood Knights (Dismounted)	true

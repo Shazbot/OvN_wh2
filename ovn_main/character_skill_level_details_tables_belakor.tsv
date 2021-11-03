@@ -1,15 +1,15 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	the_blade_of_shadows		10
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_0		0
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_1		3
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_2		6
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_3		9
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_4		12
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_5		15
-		x	1	wh_dlc08_skill_chs_lord_unique_belakor_6		16
-		x	1	eons_of_spite		4
-		x	1	the_first_deamon_prince		7
-		x	1	primordial_everchosen		10
-		x	1	timeless_rage		14
-		x	1	chaos_incarnate		18
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/belakor						
+		1	the_blade_of_shadows		x	10
+		1	wh_dlc08_skill_chs_lord_unique_belakor_0		x	0
+		1	wh_dlc08_skill_chs_lord_unique_belakor_1		x	3
+		1	wh_dlc08_skill_chs_lord_unique_belakor_2		x	6
+		1	wh_dlc08_skill_chs_lord_unique_belakor_3		x	9
+		1	wh_dlc08_skill_chs_lord_unique_belakor_4		x	12
+		1	wh_dlc08_skill_chs_lord_unique_belakor_5		x	15
+		1	wh_dlc08_skill_chs_lord_unique_belakor_6		x	16
+		1	eons_of_spite		x	4
+		1	the_first_deamon_prince		x	7
+		1	primordial_everchosen		x	10
+		1	timeless_rage		x	14
+		1	chaos_incarnate		x	18

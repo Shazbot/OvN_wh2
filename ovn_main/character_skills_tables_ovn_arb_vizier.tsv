@@ -1,13 +1,13 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-campaign_military_spending.png	arb_vizier_administrator			10	false	false	false	0.0	0
-character_magic.png	arb_vizier_scholar			10	false	false	false	0.0	0
-campaign_chaos_corruption.png	arb_vizier_schemer			10	false	false	false	0.0	0
-mount_magic_carpet.png	arb_vizier_life_magic_carpet			6	false	false	false	0.0	0
-mount_arb_camel.png	arb_vizier_life_camel			10	false	false	false	0.0	0
-mount_magic_carpet.png	arb_vizier_desert_magic_carpet			6	false	false	false	0.0	0
-mount_arb_camel.png	arb_vizier_desert_camel			10	false	false	false	0.0	0
-mount_magic_carpet.png	arb_vizier_fire_magic_carpet			6	false	false	false	0.0	0
-mount_arb_camel.png	arb_vizier_fire_camel			10	false	false	false	0.0	0
-mount_magic_carpet.png	arb_vizier_heavens_magic_carpet			6	false	false	false	0.0	0
-mount_arb_camel.png	arb_vizier_heavens_camel			10	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ovn_arb_vizier									
+arb_vizier_administrator	campaign_military_spending.png			10	false	false	false	0.0	0
+arb_vizier_scholar	character_magic.png			10	false	false	false	0.0	0
+arb_vizier_schemer	campaign_chaos_corruption.png			10	false	false	false	0.0	0
+arb_vizier_life_magic_carpet	mount_magic_carpet.png			6	false	false	false	0.0	0
+arb_vizier_life_camel	mount_arb_camel.png			10	false	false	false	0.0	0
+arb_vizier_desert_magic_carpet	mount_magic_carpet.png			6	false	false	false	0.0	0
+arb_vizier_desert_camel	mount_arb_camel.png			10	false	false	false	0.0	0
+arb_vizier_fire_magic_carpet	mount_magic_carpet.png			6	false	false	false	0.0	0
+arb_vizier_fire_camel	mount_arb_camel.png			10	false	false	false	0.0	0
+arb_vizier_heavens_magic_carpet	mount_magic_carpet.png			6	false	false	false	0.0	0
+arb_vizier_heavens_camel	mount_arb_camel.png			10	false	false	false	0.0	0

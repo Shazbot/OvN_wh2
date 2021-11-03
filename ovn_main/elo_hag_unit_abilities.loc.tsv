@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_hag_unit_abilities.loc		
 unit_abilities_tooltip_text_elo_sea_hag_ocean_breeze	The hag summons a sea breeze, filling the target with new vigour and making them move at unnatural speed.	true
 unit_abilities_onscreen_name_elo_sea_hag_ocean_breeze	Sea Breeze	true
 unit_abilities_tooltip_text_elo_sea_hag_ocean_breeze_upgraded	The hag summons a sea breeze, filling the target with new vigour and making them move at unnatural speed.	false

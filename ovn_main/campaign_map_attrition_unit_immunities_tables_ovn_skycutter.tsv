@@ -1,4 +1,4 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/ovn_skycutter	
 non_vampire_territory	cr_hef_veh_lothern_skycutter
 non_vampire_territory	cr_hef_veh_lothern_skycutter_ror

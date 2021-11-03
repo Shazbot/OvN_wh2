@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_nor_new_sc_cultures_subcultures__.loc		
 cultures_subcultures_confederation_screen_name_wh_main_sc_nor_warp		true
 cultures_subcultures_confederation_summary_name_wh_main_sc_nor_warp		true
 cultures_subcultures_name_wh_main_sc_nor_warp	Chaos Domains	true

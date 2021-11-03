@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_diplomacy_strings.loc		
 diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Negative_01	We have no other choice but to accept.	false
 diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Negative_02	Our coffers are bare so we must accept.	false
 diplomacy_strings_string_Grudgebringer_Dip_Acceptance_Negative_03	Alas, we all have a price.	false

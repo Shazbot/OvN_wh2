@@ -1,23 +1,23 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				ovn_arb_mon_genie	wh2_mp_single_entity_monsters
-false				ovn_arb_mon_sea_nymph	wh2_mp_single_entity_monsters
-false				ovn_arb_mon_desert_spirit	wh2_mp_single_entity_monsters
-false				ovn_arb_mon_fire_efreet	wh2_mp_single_entity_monsters
-false				ovn_arb_mon_tempest_djinn	wh2_mp_single_entity_monsters
-false				ovn_arb_cha_magician_life_0	mp_cap_heroes
-false				ovn_arb_cha_magician_desert_0	mp_cap_heroes
-false				ovn_arb_cha_magician_fire_0	mp_cap_heroes
-false				ovn_arb_cha_magician_heavens_0	mp_cap_heroes
-false				ovn_arb_cha_magician_life_1	mp_cap_heroes
-false				ovn_arb_cha_magician_desert_1	mp_cap_heroes
-false				ovn_arb_cha_magician_fire_1	mp_cap_heroes
-false				ovn_arb_cha_magician_heavens_1	mp_cap_heroes
-false				ovn_arb_cha_magician_life_2	mp_cap_heroes
-false				ovn_arb_cha_magician_desert_2	mp_cap_heroes
-false				ovn_arb_cha_magician_fire_2	mp_cap_heroes
-false				ovn_arb_cha_magician_heavens_2	mp_cap_heroes
-false				ovn_arb_cha_magician_life_2	flying_units
-false				ovn_arb_cha_magician_desert_2	flying_units
-false				ovn_arb_cha_magician_fire_2	flying_units
-false				ovn_arb_cha_magician_heavens_2	flying_units
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/@cr_genies					
+			ovn_arb_mon_genie	wh2_mp_single_entity_monsters	false
+			ovn_arb_mon_sea_nymph	wh2_mp_single_entity_monsters	false
+			ovn_arb_mon_desert_spirit	wh2_mp_single_entity_monsters	false
+			ovn_arb_mon_fire_efreet	wh2_mp_single_entity_monsters	false
+			ovn_arb_mon_tempest_djinn	wh2_mp_single_entity_monsters	false
+			ovn_arb_cha_magician_life_0	mp_cap_heroes	false
+			ovn_arb_cha_magician_desert_0	mp_cap_heroes	false
+			ovn_arb_cha_magician_fire_0	mp_cap_heroes	false
+			ovn_arb_cha_magician_heavens_0	mp_cap_heroes	false
+			ovn_arb_cha_magician_life_1	mp_cap_heroes	false
+			ovn_arb_cha_magician_desert_1	mp_cap_heroes	false
+			ovn_arb_cha_magician_fire_1	mp_cap_heroes	false
+			ovn_arb_cha_magician_heavens_1	mp_cap_heroes	false
+			ovn_arb_cha_magician_life_2	mp_cap_heroes	false
+			ovn_arb_cha_magician_desert_2	mp_cap_heroes	false
+			ovn_arb_cha_magician_fire_2	mp_cap_heroes	false
+			ovn_arb_cha_magician_heavens_2	mp_cap_heroes	false
+			ovn_arb_cha_magician_life_2	flying_units	false
+			ovn_arb_cha_magician_desert_2	flying_units	false
+			ovn_arb_cha_magician_fire_2	flying_units	false
+			ovn_arb_cha_magician_heavens_2	flying_units	false

@@ -1,5 +1,5 @@
-special_ability_to_special_ability_phase_junctions_tables	1
-order	phase	special_ability
+order	special_ability	phase
+#special_ability_to_special_ability_phase_junctions_tables;1;db/special_ability_to_special_ability_phase_junctions_tables/ovn_tzaangor		
 1	elo_tzaan_curse_tzeentch	elo_tzaan_curse_tzeentch
 1	elo_tzaan_twisted_blessings	elo_tzaan_twisted_blessings
 1	elo_tzaan_boon_tzeentch	elo_tzaan_boon_tzeentch

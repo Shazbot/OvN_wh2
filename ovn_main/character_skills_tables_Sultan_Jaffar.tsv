@@ -1,17 +1,17 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-item_enchanted_item.png	Serpent_Staff		Serpent_Staff	7	false	false	false	0.0	0
-item_arcane_item.png	Black_Book_Of_Ibn_Naggazar		Black_Book_Of_Ibn_Naggazar	15	false	false	false	0.0	0
-character_magic.png	Desert_Wind		Desert_Wind	0	false	false	false	0.0	0
-character_general_ability.png	unyeilding_stride		unyeilding_stride	4	false	false	false	0.0	0
-wh2_dlc09_lord_abilities_sand_storm.png	Sand_Dwellers		Sand_Dwellers	5	false	false	false	0.0	0
-campaign_chaos_corruption.png	Friend_Of_Evil		Friend_Of_Evil	12	false	false	false	0.0	0
-trait_araby.png	ovn_jaffar_innate		Ambush Master	0	true	false	false	0.0	0
-mount_arb_camel.png	arb_jaffar_anc_camel			6	false	false	false	0.0	0
-mount_mammoth.png	arb_jaffar_anc_elephant			14	false	false	false	0.0	0
-character_public_order.png	arb_jaffar_unique_0			11	false	false	false	0.0	0
-character_slaves.png	arb_jaffar_unique_1			0	false	false	false	0.0	0
-battle_damage.png	arb_jaffar_unique_2			0	false	false	false	0.0	0
-battle_morale.png	arb_jaffar_unique_3			0	false	false	false	0.0	0
-battle_attack.png	arb_jaffar_unique_4			0	false	false	false	0.0	0
-arb_jaffar_aura_will.png	arb_jaffar_unique_5			0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/Sultan_Jaffar									
+Serpent_Staff	item_enchanted_item.png		Serpent_Staff	7	false	false	false	0.0	0
+Black_Book_Of_Ibn_Naggazar	item_arcane_item.png		Black_Book_Of_Ibn_Naggazar	15	false	false	false	0.0	0
+Desert_Wind	character_magic.png		Desert_Wind	0	false	false	false	0.0	0
+unyeilding_stride	character_general_ability.png		unyeilding_stride	4	false	false	false	0.0	0
+Sand_Dwellers	wh2_dlc09_lord_abilities_sand_storm.png		Sand_Dwellers	5	false	false	false	0.0	0
+Friend_Of_Evil	campaign_chaos_corruption.png		Friend_Of_Evil	12	false	false	false	0.0	0
+ovn_jaffar_innate	trait_araby.png		Ambush Master	0	true	false	false	0.0	0
+arb_jaffar_anc_camel	mount_arb_camel.png			6	false	false	false	0.0	0
+arb_jaffar_anc_elephant	mount_mammoth.png			14	false	false	false	0.0	0
+arb_jaffar_unique_0	character_public_order.png			11	false	false	false	0.0	0
+arb_jaffar_unique_1	character_slaves.png			0	false	false	false	0.0	0
+arb_jaffar_unique_2	battle_damage.png			0	false	false	false	0.0	0
+arb_jaffar_unique_3	battle_morale.png			0	false	false	false	0.0	0
+arb_jaffar_unique_4	battle_attack.png			0	false	false	false	0.0	0
+arb_jaffar_unique_5	arb_jaffar_aura_will.png			0	false	false	false	0.0	0

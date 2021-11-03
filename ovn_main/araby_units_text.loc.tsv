@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/araby_units_text.loc		
 land_units_onscreen_name_OtF_khemri_knights	Arabyan Knights	true
 land_units_onscreen_name_OtF_khemri_archers	Arabyan Bowmen	true
 land_units_onscreen_name_OtF_khemri_kepra_guard	Dervishers	true

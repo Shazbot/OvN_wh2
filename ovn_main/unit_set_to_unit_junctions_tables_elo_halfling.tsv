@@ -1,54 +1,54 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				halfling_militia	elo_hlf_militia_melee
-false				halfling_spear	elo_hlf_militia_melee
-false				halfling_milittia_great	elo_hlf_militia_melee
-false				halfling_milittia_arch	elo_hlf_militia_melee
-false				elo_bloodhounds	elo_hlf_doggos
-false				half_pig	elo_hlf_piggies
-false				ovn_mtl_cav_swine_riders_0	elo_hlf_piggies
-false				halfling_cock	elo_hlf_cocks
-false				ovn_mtl_cav_swine_riders_0	elo_hlf_cav
-false				halfling_cock	elo_hlf_cav
-false				halfling_thief	elo_hlf_thieves
-false				ovn_hlf_fieldwarden_0	elo_hlf_wardens
-false				halfling_warden_great	elo_hlf_wardens
-false				halfling_warfoot	elo_hlf_wardens
-false				halfling_milittia_arch	elo_hlf_militia_archer
-false				halfling_cock	elo_hlf_rangers
-false				halfling_archer	elo_hlf_rangers
-false				halfling_milittia_arch	elo_hlf_archers_all
-false				halfling_cock	elo_hlf_archers_all
-false				halfling_archer	elo_hlf_archers_all
-false				wh2_dlc10_hef_mon_treeman_0	elo_hlf_trees
-false				wh2_dlc10_hef_mon_treekin_0	elo_hlf_trees
-false				wh2_dlc10_hef_inf_dryads_0	elo_hlf_trees
-false				halfling_cook	elo_hlf_cooks
-false				halfling_cook_ror	elo_hlf_cooks
-false				hlf_roast_pig	elo_hlf_feast
-false				elo_supply_wagon	elo_hlf_supply
-false				halfling_cat_ror	elo_hlf_artillery
-false				ovn_mtl_art_hotpot	elo_hlf_artillery
-false				ovn_mtl_art_hotpot_ror	elo_hlf_artillery
-false				wh_main_mtl_veh_soupcart	elo_hlf_artillery
-false				hlf_baby_dragon	elo_hlf_dragon
-false				sr_ogre	elo_hlf_ogre
-false				sr_ogre_ror	elo_hlf_ogre
-false				wh2_main_hef_mon_great_eagle	elo_hlf_eagle
-false				hlf_baby_dragon	elo_hlf_monster
-false				sr_ogre	elo_hlf_monster
-false				sr_ogre_ror	elo_hlf_monster
-false				wh2_main_hef_mon_great_eagle	elo_hlf_monster
-false				wh2_dlc10_hef_mon_treeman_0	elo_hlf_monster
-false				wh2_dlc10_hef_mon_treekin_0	elo_hlf_monster
-false				ovn_hlf_sheriff_0	elo_hlf_sheriff
-false				ovn_hlf_sheriff_1	elo_hlf_sheriff
-false				halfling_warden_great	elo_hlf_warden
-false				ovn_hlf_master_chef_0	elo_hlf_master_cook
-false				ovn_hlf_master_chef_1	elo_hlf_master_cook
-false				ovn_mtl_veh_reaper	elo_hlf_reaper
-false				elo_bloodhounds	elo_hlf_edible
-false				half_pig	elo_hlf_edible
-false				ovn_mtl_cav_swine_riders_0	elo_hlf_edible
-false				halfling_cock	elo_hlf_edible
-false				halfling_inf	elo_hlf_wardens
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/elo_halfling					
+			halfling_militia	elo_hlf_militia_melee	false
+			halfling_spear	elo_hlf_militia_melee	false
+			halfling_milittia_great	elo_hlf_militia_melee	false
+			halfling_milittia_arch	elo_hlf_militia_melee	false
+			elo_bloodhounds	elo_hlf_doggos	false
+			half_pig	elo_hlf_piggies	false
+			ovn_mtl_cav_swine_riders_0	elo_hlf_piggies	false
+			halfling_cock	elo_hlf_cocks	false
+			ovn_mtl_cav_swine_riders_0	elo_hlf_cav	false
+			halfling_cock	elo_hlf_cav	false
+			halfling_thief	elo_hlf_thieves	false
+			ovn_hlf_fieldwarden_0	elo_hlf_wardens	false
+			halfling_warden_great	elo_hlf_wardens	false
+			halfling_warfoot	elo_hlf_wardens	false
+			halfling_milittia_arch	elo_hlf_militia_archer	false
+			halfling_cock	elo_hlf_rangers	false
+			halfling_archer	elo_hlf_rangers	false
+			halfling_milittia_arch	elo_hlf_archers_all	false
+			halfling_cock	elo_hlf_archers_all	false
+			halfling_archer	elo_hlf_archers_all	false
+			wh2_dlc10_hef_mon_treeman_0	elo_hlf_trees	false
+			wh2_dlc10_hef_mon_treekin_0	elo_hlf_trees	false
+			wh2_dlc10_hef_inf_dryads_0	elo_hlf_trees	false
+			halfling_cook	elo_hlf_cooks	false
+			halfling_cook_ror	elo_hlf_cooks	false
+			hlf_roast_pig	elo_hlf_feast	false
+			elo_supply_wagon	elo_hlf_supply	false
+			halfling_cat_ror	elo_hlf_artillery	false
+			ovn_mtl_art_hotpot	elo_hlf_artillery	false
+			ovn_mtl_art_hotpot_ror	elo_hlf_artillery	false
+			wh_main_mtl_veh_soupcart	elo_hlf_artillery	false
+			hlf_baby_dragon	elo_hlf_dragon	false
+			sr_ogre	elo_hlf_ogre	false
+			sr_ogre_ror	elo_hlf_ogre	false
+			wh2_main_hef_mon_great_eagle	elo_hlf_eagle	false
+			hlf_baby_dragon	elo_hlf_monster	false
+			sr_ogre	elo_hlf_monster	false
+			sr_ogre_ror	elo_hlf_monster	false
+			wh2_main_hef_mon_great_eagle	elo_hlf_monster	false
+			wh2_dlc10_hef_mon_treeman_0	elo_hlf_monster	false
+			wh2_dlc10_hef_mon_treekin_0	elo_hlf_monster	false
+			ovn_hlf_sheriff_0	elo_hlf_sheriff	false
+			ovn_hlf_sheriff_1	elo_hlf_sheriff	false
+			halfling_warden_great	elo_hlf_warden	false
+			ovn_hlf_master_chef_0	elo_hlf_master_cook	false
+			ovn_hlf_master_chef_1	elo_hlf_master_cook	false
+			ovn_mtl_veh_reaper	elo_hlf_reaper	false
+			elo_bloodhounds	elo_hlf_edible	false
+			half_pig	elo_hlf_edible	false
+			ovn_mtl_cav_swine_riders_0	elo_hlf_edible	false
+			halfling_cock	elo_hlf_edible	false
+			halfling_inf	elo_hlf_wardens	false

@@ -1,5 +1,5 @@
-campaign_groups_tables	0
 id
+#campaign_groups_tables;0;db/campaign_groups_tables/ovn
 ovn_halfling_cooking
 ovn_halfling_cooking_ingredient_unlocked
 hertz_rotblood_ocupation_decision_build_cult

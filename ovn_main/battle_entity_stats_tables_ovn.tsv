@@ -1,5 +1,5 @@
-battle_entity_stats_tables	2
 key	primary_melee_weapon	primary_missile_weapon
+#battle_entity_stats_tables;2;db/battle_entity_stats_tables/ovn		
 ovn_arb_elephant_cannon		ovn_arb_elephant_cannon
 ovn_mtl_inf_chuckwagon_rider		
 ovn_arb_inf_djinn_vessel		

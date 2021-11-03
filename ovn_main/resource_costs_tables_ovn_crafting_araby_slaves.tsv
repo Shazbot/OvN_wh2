@@ -1,5 +1,5 @@
-resource_costs_tables	2
 id	treasury_cost	expenditure_type	income_type
+#resource_costs_tables;2;db/resource_costs_tables/ovn_crafting_araby_slaves			
 ovn_araby_victories_lzd	-3000	RITUAL	RITUAL
 ovn_araby_victories_dwarfs	-3000	RITUAL	RITUAL
 ovn_araby_victories_def	-3000	RITUAL	RITUAL

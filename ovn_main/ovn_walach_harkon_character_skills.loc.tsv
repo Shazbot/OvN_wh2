@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_walach_harkon_character_skills.loc		
 character_skills_localised_name_vmp_walach_innate	Grand Master of the Ordo Draconis	true
 character_skills_localised_description_vmp_walach_innate	Rising from their defeat as deathless monsters, the fallen, pale-faced knights became a scourge upon the land under the leadership of their new Grand Master.	true
 character_skills_localised_name_vmp_walach_barded_nightmare	Barded Nightmare	true

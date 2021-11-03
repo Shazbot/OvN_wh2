@@ -1,162 +1,162 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-icon_stat_melee.png	dummy_agent_actions_enable_assist_army		Actions [HIDDEN]	0	false	false	false	0.0	0
-grudge_icon.png	grudgebringers_campaign_quartermaster		Paymaster Dietrich	0	true	false	false	1.0	0
-wh2_hef_volley_of_arrows.png	grudge_volley_of_arrows		Hail of Arrows	0	false	false	false	0.0	0
-wh2_def_volley_of_dark_arrows.png	grudge_volley_of_dark_arrows		Hellrain	0	false	false	false	0.0	0
-wh_dlc05_hero_abilities_arrow_of_kurnous.png	grudge_arrow_of_kurnous		Rage of Forest	0	false	false	false	0.0	0
-grudge_shrapnel.png	grudge_skill_shrapnel_shot		Shrapnel Shot	0	false	false	false	0.0	0
-grudge_pepperpot.png	grudge_skill_pepperpot		Pepperpot	0	false	false	false	0.0	0
-trait_human.png	magic_ice_shield_of_cold_dummy		Shield of Cold [HIDDEN]	0	false	false	false	0.0	0
-grudge_shield_of_ice.png	magic_ice_shield_of_cold		Shield of Cold	0	false	false	false	0.0	0
-grudge_frost_sword.png	magic_ice_frost_blade		Frost Blade	0	false	false	false	0.0	0
-grudge_crisping_cold.png	magic_ice_crisping_cold		Crisping Cold	0	false	false	false	0.0	0
-grudge_shattering_frost.png	magic_ice_shattering_frost		Shattering Frost	0	false	false	false	0.0	0
-grudge_chill.png	magic_ice_chill		Chill	0	false	false	false	0.0	0
-grudge_blinding_blizzard.png	magic_ice_blinding_blizzard		Blinding Blizzard	0	false	false	false	0.0	0
-grudge_lore_cold_witchering.png	skill_all_magic_ice_cold		Unnatural Cold	0	false	false	false	0.0	0
-trait_human.png	magic_ice_ice_shards_dummy		Ice Shards [HIDDEN]	0	false	false	false	0.0	0
-grudge_ice_shards.png	magic_ice_ice_shards		Ice Shards	0	false	false	false	0.0	0
-grudge_storm_strike.png	magic_ice_storm_strike		Storm Strike	0	false	false	false	0.0	0
-grudge_chill_blast.png	magic_ice_chill_blast		Chill Blast	0	false	false	false	0.0	0
-grudge_ice_blizzard.png	magic_ice_ice_blizzard		Ice Blizzard	0	false	false	false	0.0	0
-grudge_tempest.png	magic_ice_tempest		Tempest	0	false	false	false	0.0	0
-grudge_hailstorm.png	magic_ice_hailstorm		Hailstorm	0	false	false	false	0.0	0
-grudge_lore_winter_rage.png	skill_all_magic_ice_winter		Winter Rage	0	false	false	false	0.0	0
-grudge_attack.png	grudge_skill_attack_main1			0	false	false	false	0.0	0
-grudge_attack.png	grudge_skill_attack_main2			0	false	false	false	0.0	0
-grudge_attack.png	grudge_skill_attack_side1			0	false	false	false	0.0	0
-grudge_attack.png	grudge_skill_attack_side2			0	false	false	false	0.0	0
-grudge_attack.png	grudge_skill_attack_side3			0	false	false	false	0.0	0
-grudge_attack.png	grudge_skill_attack_starter			0	false	false	false	0.0	0
-grudge_damage.png	grudge_skill_damage_main1			0	false	false	false	0.0	0
-grudge_damage.png	grudge_skill_damage_main2			0	false	false	false	0.0	0
-grudge_damage.png	grudge_skill_damage_side1			0	false	false	false	0.0	0
-grudge_damage.png	grudge_skill_damage_side2			0	false	false	false	0.0	0
-grudge_damage.png	grudge_skill_damage_side3			0	false	false	false	0.0	0
-grudge_damage.png	grudge_skill_damage_starter			0	false	false	false	0.0	0
-grudge_defence.png	grudge_skill_defence_main1			0	false	false	false	0.0	0
-grudge_defence.png	grudge_skill_defence_main2			0	false	false	false	0.0	0
-grudge_defence.png	grudge_skill_defence_side1			0	false	false	false	0.0	0
-grudge_defence.png	grudge_skill_defence_side2			0	false	false	false	0.0	0
-grudge_defence.png	grudge_skill_defence_side3			0	false	false	false	0.0	0
-grudge_defence.png	grudge_skill_defence_starter			0	false	false	false	0.0	0
-grudge_armour2.png	grudge_skill_armour_main1			0	false	false	false	0.0	0
-grudge_armour3.png	grudge_skill_armour_main2			0	false	false	false	0.0	0
-grudge_armour1.png	grudge_skill_armour_side1			0	false	false	false	0.0	0
-grudge_armour1.png	grudge_skill_armour_side2			0	false	false	false	0.0	0
-grudge_armour1.png	grudge_skill_armour_side3			0	false	false	false	0.0	0
-grudge_armour1.png	grudge_skill_armour_starter			0	false	false	false	0.0	0
-grudge_speed3.png	grudge_skill_speed_main1			0	false	false	false	0.0	0
-grudge_speed3.png	grudge_skill_speed_main2			0	false	false	false	0.0	0
-grudge_speed.png	grudge_skill_speed_side1			0	false	false	false	0.0	0
-grudge_speed.png	grudge_skill_speed_side2			0	false	false	false	0.0	0
-grudge_speed.png	grudge_skill_speed_side3			0	false	false	false	0.0	0
-grudge_speed.png	grudge_skill_speed_starter			0	false	false	false	0.0	0
-grudge_charge.png	grudge_skill_charge_main1			0	false	false	false	0.0	0
-grudge_charge.png	grudge_skill_charge_main2			0	false	false	false	0.0	0
-grudge_charge.png	grudge_skill_charge_side1			0	false	false	false	0.0	0
-grudge_charge.png	grudge_skill_charge_side2			0	false	false	false	0.0	0
-grudge_charge.png	grudge_skill_charge_side3			0	false	false	false	0.0	0
-grudge_charge.png	grudge_skill_charge_starter			0	false	false	false	0.0	0
-wh_main_character_abilities_deadly_onslaught.png	grudge_skill_deadly_onslaught		Deadly Onslaught	0	false	false	false	0.0	0
-wh_main_character_abilities_heroic_killing_blow.png	grudge_skill_heroic_killing_blow		Heroic Killing Blow	0	false	false	false	0.0	0
-wh_main_character_abilities_foe_seeker.png	grudge_skill_foe-seeker		Foe-Seeker	0	false	false	false	0.0	0
-wh_main_hero_abilities_slippery.png	grudge_skill_slippery		Slippery	0	false	false	false	0.0	0
-wh_main_hero_abilities_faiths_bastion.png	grudge_skill_faiths_bastion		Faith's Bastion	0	false	false	false	0.0	0
-wh_main_character_abilities_stand_your_ground.png	grudge_skill_stand_your_ground		Stand Your Ground!	0	false	false	false	0.0	0
-wh2_main_lord_abilities_feint_and_reposte.png	grudge_skill_feint_and_riposte		Feint & Riposte	0	false	false	false	0.0	0
-wh_main_character_abilities_rally.png	grudge_skill_rally		Rally!	0	false	false	false	0.0	0
-icon_stat_morale_character.png	grudge_skill_rune_of_hearth_&_home			0	false	false	false	0.0	0
-wh_main_rune_abilities_rune_of_oath_and_steel.png	grudge_skill_rune_of_oath_&_steel			0	false	false	false	0.0	0
-magic_character.png	grudge_skill_damping			0	false	false	false	0.0	0
-magic_cooldown_character.png	grudge_skill_strike_the_runes			0	false	false	false	0.0	0
-forgefire.png	grudge_skill_forgefire			0	false	false	false	0.0	0
-wh_main_rune_abilities_rune_of_wrath_and_ruin.png	grudge_skill_rune_of_wrath_&_ruin			0	false	false	false	0.0	0
-wh_main_anc_rune_rune_of_striking.png	grudge_skill_rune_of_striking			0	false	false	false	0.0	0
-wh_main_anc_rune_rune_of_might.png	grudge_skill_rune_of_might			0	false	false	false	0.0	0
-wh_main_anc_rune_rune_of_parrying.png	grudge_skill_rune_of_parrying			0	false	false	false	0.0	0
-wh_main_anc_rune_rune_of_fury.png	grudge_skill_rune_of_fury			0	false	false	false	0.0	0
-wh_main_rune_abilities_rune_of_negation.png	grudge_skill_rune_of_negation			0	false	false	false	0.0	0
-grudge_morale.png	grudge_skill_morale1			0	false	false	false	0.0	0
-grudge_morale.png	grudge_skill_morale2			0	false	false	false	0.0	0
-grudge_morale.png	grudge_skill_morale3			0	false	false	false	0.0	0
-wh_main_lord_abilities_hold_the_line.png	grudge_skill_hold_the_line		Hold the Line!	0	false	false	false	0.0	0
-grudge_brass_lunged.png	grudge_skill_soothsaying		Soothsaying	0	false	false	false	0.0	0
-grudge_morale.png	grudge_skill_self_augury		Augury	0	false	false	false	0.0	0
-icon_stat_morale.png	grudge_skill_inspiring_presence		Inspiring Presence	0	false	false	false	0.0	0
-benediction.png	grudge_skill_benediction		Benediction	0	false	false	false	0.0	0
-grudge_missile_ward.png	grudge_skill_missile_ward		Sigmar’s Ward	7	false	false	false	0.0	0
-grudge_magic_ward.png	grudge_skill_magic_ward		Ward of Hoeth	7	false	false	false	0.0	0
-grudge_fire_ward.png	grudge_skill_fire_ward		Ward of Hoeth	12	false	false	false	0.0	0
-grudge_arrow_range.png	grudge_skill_missile_range		Seeking Arrows	0	false	false	false	0.0	0
-grudge_arrow_damage.png	grudge_skill_missile_damage		Deadeye	0	false	false	false	0.0	0
-grudge_mis_apdamage.png	grudge_skill_missile_apdamage		Piercing Shots	0	false	false	false	0.0	0
-wh2_hef_darken_the_skies.png	grudge_skill_fire_at_will		Loose!	0	false	false	false	0.0	0
-grudge_mis_reload.png	grudge_skill_missile_reload		Fleetfinger	0	false	false	false	0.0	0
-grudge_arrow_ammo.png	grudge_skill_missile_ammo		Bottomless Quiver	0	false	false	false	0.0	0
-grudge_arrow_damage.png	grudge_skill_missile_range_damage		Dead Eye	0	false	false	false	0.0	0
-wh2_hef_darken_the_skies.png	grudge_skill_darken_the_skies		Darken the Skies	0	false	false	false	0.0	0
-grudge_arrow_accuracy.png	grudge_skill_missile_accuracy		Accurate	0	false	false	false	0.0	0
-grudge_firearms_damage.png	grudge_skill_increased_powder		Silver Bullets	0	false	false	false	0.0	0
-grudge_firearms_ammo.png	grudge_skill_enhanced_cartridge		Silver Bullets	0	false	false	false	0.0	0
-grudge_firearms_apdamage.png	grudge_skill_hardened_bullets		Silver Bullets	0	false	false	false	0.0	0
-grudge_bandolier.png	grudge_skill_bandolier		Silver Bullets	0	false	false	false	0.0	0
-grudge_art_reload.png	grudge_skill_standardised_firing_drill			0	false	false	false	0.0	0
-grudge_firearms_ammo.png	grudge_skill_requisition			0	false	false	false	0.0	0
-grudge_firearms_ammo.png	grudge_skill_arms_dealer			0	false	false	false	0.0	0
-grudge_art_damage.png	grudge_skill_triangulation			0	false	false	false	0.0	0
-grudge_smoke_bomb.png	grudge_skill_smoke_bomb			0	false	false	false	0.0	0
-wh_main_hero_abilities_ballistics_calibration.png	grudge_skill_ballistics_calibration			0	false	false	false	0.0	0
-grudge_art_explosion.png	grudge_skill_extra_powder			0	false	false	false	0.0	0
-grudge_art_reload.png	grudge_skill_defensive_coordinator			0	false	false	false	0.0	0
-grudge_art_range.png	grudge_skill_ballistics_instructor			0	false	false	false	0.0	0
-grudge_speed.png	grudge_skill_grudge_sapper			0	false	false	false	0.0	0
-grudge_standard_shells.png	grudge_skill_standardized_shells		Seeking Arrows	0	false	false	false	0.0	0
-grudge_art_master_gunner.png	grudge_skill_master_gunner		Deadeye	0	false	false	false	0.0	0
-grudge_art_damage.png	grudge_skill_art_damage		Piercing Shots	0	false	false	false	0.0	0
-grudge_art_range.png	grudge_skill_art_range		Hawk-Eyed	0	false	false	false	0.0	0
-grudge_art_reload.png	grudge_skill_art_extra_reload		Fleetfinger	0	false	false	false	0.0	0
-grudge_firearms_ammo.png	grudge_skill_art_ammunition		Bottomless Quiver	0	false	false	false	0.0	0
-grudge_art_apdamage.png	grudge_skill_art_piercing_shells		Dead Eye	0	false	false	false	0.0	0
-grudge_accuracy.png	grudge_skill_art_accurate		Accurate	0	false	false	false	0.0	0
-grudge_art_explosion.png	grudge_skill_art_explosion		Accurate	0	false	false	false	0.0	0
-grudge_art_explosion_ap.png	grudge_skill_art_apexplosion		Accurate	0	false	false	false	0.0	0
-grudge_speed.png	grudge_skill_art_speed		Accurate	0	false	false	false	0.0	0
-icon_stat_armour.png	grudge_skill_bst_champion_defensive_1			8	false	false	false	0.0	0
-icon_stat_armour.png	grudge_skill_bst_champion_defensive_2			0	false	false	false	0.0	0
-icon_stat_attack.png	grudge_skill_bst_champion_offensive_1			8	false	false	false	0.0	0
-icon_stat_attack.png	grudge_skill_bst_champion_offensive_2			0	false	false	false	0.0	0
-grudge_merc.png	grudge_skill_mercenary			0	false	false	false	0.0	0
-grudge_additional_soldiers.png	grudge_skill_regiment_size			20	false	false	false	0.0	0
-grudge_kill_humans.png	grudge_skill_bernhardt_bonus_vs_men			10	false	false	false	0.0	0
-grudge_kill_dwarfs.png	grudge_skill_bernhardt_bonus_vs_dwarves			10	false	false	false	0.0	0
-grudge_kill_undead.png	grudge_skill_bernhardt_bonus_vs_undead			10	false	false	false	0.0	0
-grudge_kill_chaos.png	grudge_skill_bernhardt_bonus_vs_chaos			10	false	false	false	0.0	0
-grudge_kill_beastmen.png	grudge_skill_bernhardt_bonus_vs_beastmen			10	false	false	false	0.0	0
-grudge_kill_skaven.png	grudge_skill_bernhardt_bonus_vs_skaven			10	false	false	false	0.0	0
-grudge_kill_greenskins.png	grudge_skill_bernhardt_bonus_vs_greenskins			10	false	false	false	0.0	0
-grudge_kill_dark_elves.png	grudge_skill_bernhardt_bonus_vs_dark_elves			10	false	false	false	0.0	0
-grudge_kill_lizardmen.png	grudge_skill_bernhardt_bonus_vs_lizardmen			10	false	false	false	0.0	0
-grudge_kill_high_elves.png	grudge_skill_bernhardt_bonus_vs_high_elves			10	false	false	false	0.0	0
-grudge_kill_wood_elves.png	grudge_skill_bernhardt_bonus_vs_wood_elves			10	false	false	false	0.0	0
-grudge_unstoppable_charge.png	grudge_skill_swiftness_of_itzl			0	false	false	false	0.0	0
-grudge_vermin_valour.png	grudge_skill_verminous_valour			0	false	false	false	0.0	0
-grudge_horn_of_urgok.png	grudge_skill_horn_of_urgok		Horn of Urgok	10	false	false	false	0.0	0
-grudge_grudgebringer_sword.png	grudge_skill_grudgebringer_sword		Grudgebringer Sword	7	false	false	false	0.0	0
-grudge_hellsword.png	grudge_skill_hellfire_sword		Hellfire Sword	10	false	false	false	0.0	0
-grudge_storm_sword.png	grudge_skill_storm_sword		Storm Sword	10	false	false	false	0.0	0
-grudge_runefang.png	grudge_skill_runefang		Runefang	10	false	false	false	0.0	0
-grudge_enchanted_shield.png	grudge_skill_enchanted_shield		Enchanted Shield	10	false	false	false	0.0	0
-grudge_shield_of_ptolos.png	grudge_skill_shield_of_ptolos		Shield of Ptolos	10	false	false	false	0.0	0
-grudge_spelleater_shield.png	grudge_skill_spelleater_shield		Spelleater Shield	10	false	false	false	0.0	0
-grudge_dragonhelm.png	grudge_skill_dragonhelm		Dragonhelm	10	false	false	false	0.0	0
-grudge_wand_of_jet.png	grudge_skill_wand_of_jet		Wand of Jet	10	false	false	false	0.0	0
-grudge_banner_of_arcane.png	grudge_skill_banner_of_arcane_warding		Banner of Arcane Warding	10	false	false	false	0.0	0
-grudge_banner_of_wrath.png	grudge_skill_banner_of_wrath		Banner of Wrath	10	false	false	false	0.0	0
-grudge_banner_of_defiance.png	grudge_skill_banner_of_defiance		Banner of Defiance	10	false	false	false	0.0	0
-grudge_shadow_of_the_horned_rat.png	grudge_skill_shadow_of_the_horned_rat		Shadow of the Horned Rat	11	false	false	false	0.0	0
-grudge_dark_omen.png	grudge_skill_dark_omen		Dark Omen	11	false	false	false	0.0	0
-ovn_grudge_army_skill.png	ovn_grudge_soldiers_of_fortune			0	false	false	false	0.0	0
-battle_military_spending.png	ovn_grudge_gold			0	false	false	false	0.0	0
-battle_morale.png	ovn_grudge_glory			0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/obo_grudgebringers_data									
+dummy_agent_actions_enable_assist_army	icon_stat_melee.png		Actions [HIDDEN]	0	false	false	false	0.0	0
+grudgebringers_campaign_quartermaster	grudge_icon.png		Paymaster Dietrich	0	true	false	false	1.0	0
+grudge_volley_of_arrows	wh2_hef_volley_of_arrows.png		Hail of Arrows	0	false	false	false	0.0	0
+grudge_volley_of_dark_arrows	wh2_def_volley_of_dark_arrows.png		Hellrain	0	false	false	false	0.0	0
+grudge_arrow_of_kurnous	wh_dlc05_hero_abilities_arrow_of_kurnous.png		Rage of Forest	0	false	false	false	0.0	0
+grudge_skill_shrapnel_shot	grudge_shrapnel.png		Shrapnel Shot	0	false	false	false	0.0	0
+grudge_skill_pepperpot	grudge_pepperpot.png		Pepperpot	0	false	false	false	0.0	0
+magic_ice_shield_of_cold_dummy	trait_human.png		Shield of Cold [HIDDEN]	0	false	false	false	0.0	0
+magic_ice_shield_of_cold	grudge_shield_of_ice.png		Shield of Cold	0	false	false	false	0.0	0
+magic_ice_frost_blade	grudge_frost_sword.png		Frost Blade	0	false	false	false	0.0	0
+magic_ice_crisping_cold	grudge_crisping_cold.png		Crisping Cold	0	false	false	false	0.0	0
+magic_ice_shattering_frost	grudge_shattering_frost.png		Shattering Frost	0	false	false	false	0.0	0
+magic_ice_chill	grudge_chill.png		Chill	0	false	false	false	0.0	0
+magic_ice_blinding_blizzard	grudge_blinding_blizzard.png		Blinding Blizzard	0	false	false	false	0.0	0
+skill_all_magic_ice_cold	grudge_lore_cold_witchering.png		Unnatural Cold	0	false	false	false	0.0	0
+magic_ice_ice_shards_dummy	trait_human.png		Ice Shards [HIDDEN]	0	false	false	false	0.0	0
+magic_ice_ice_shards	grudge_ice_shards.png		Ice Shards	0	false	false	false	0.0	0
+magic_ice_storm_strike	grudge_storm_strike.png		Storm Strike	0	false	false	false	0.0	0
+magic_ice_chill_blast	grudge_chill_blast.png		Chill Blast	0	false	false	false	0.0	0
+magic_ice_ice_blizzard	grudge_ice_blizzard.png		Ice Blizzard	0	false	false	false	0.0	0
+magic_ice_tempest	grudge_tempest.png		Tempest	0	false	false	false	0.0	0
+magic_ice_hailstorm	grudge_hailstorm.png		Hailstorm	0	false	false	false	0.0	0
+skill_all_magic_ice_winter	grudge_lore_winter_rage.png		Winter Rage	0	false	false	false	0.0	0
+grudge_skill_attack_main1	grudge_attack.png			0	false	false	false	0.0	0
+grudge_skill_attack_main2	grudge_attack.png			0	false	false	false	0.0	0
+grudge_skill_attack_side1	grudge_attack.png			0	false	false	false	0.0	0
+grudge_skill_attack_side2	grudge_attack.png			0	false	false	false	0.0	0
+grudge_skill_attack_side3	grudge_attack.png			0	false	false	false	0.0	0
+grudge_skill_attack_starter	grudge_attack.png			0	false	false	false	0.0	0
+grudge_skill_damage_main1	grudge_damage.png			0	false	false	false	0.0	0
+grudge_skill_damage_main2	grudge_damage.png			0	false	false	false	0.0	0
+grudge_skill_damage_side1	grudge_damage.png			0	false	false	false	0.0	0
+grudge_skill_damage_side2	grudge_damage.png			0	false	false	false	0.0	0
+grudge_skill_damage_side3	grudge_damage.png			0	false	false	false	0.0	0
+grudge_skill_damage_starter	grudge_damage.png			0	false	false	false	0.0	0
+grudge_skill_defence_main1	grudge_defence.png			0	false	false	false	0.0	0
+grudge_skill_defence_main2	grudge_defence.png			0	false	false	false	0.0	0
+grudge_skill_defence_side1	grudge_defence.png			0	false	false	false	0.0	0
+grudge_skill_defence_side2	grudge_defence.png			0	false	false	false	0.0	0
+grudge_skill_defence_side3	grudge_defence.png			0	false	false	false	0.0	0
+grudge_skill_defence_starter	grudge_defence.png			0	false	false	false	0.0	0
+grudge_skill_armour_main1	grudge_armour2.png			0	false	false	false	0.0	0
+grudge_skill_armour_main2	grudge_armour3.png			0	false	false	false	0.0	0
+grudge_skill_armour_side1	grudge_armour1.png			0	false	false	false	0.0	0
+grudge_skill_armour_side2	grudge_armour1.png			0	false	false	false	0.0	0
+grudge_skill_armour_side3	grudge_armour1.png			0	false	false	false	0.0	0
+grudge_skill_armour_starter	grudge_armour1.png			0	false	false	false	0.0	0
+grudge_skill_speed_main1	grudge_speed3.png			0	false	false	false	0.0	0
+grudge_skill_speed_main2	grudge_speed3.png			0	false	false	false	0.0	0
+grudge_skill_speed_side1	grudge_speed.png			0	false	false	false	0.0	0
+grudge_skill_speed_side2	grudge_speed.png			0	false	false	false	0.0	0
+grudge_skill_speed_side3	grudge_speed.png			0	false	false	false	0.0	0
+grudge_skill_speed_starter	grudge_speed.png			0	false	false	false	0.0	0
+grudge_skill_charge_main1	grudge_charge.png			0	false	false	false	0.0	0
+grudge_skill_charge_main2	grudge_charge.png			0	false	false	false	0.0	0
+grudge_skill_charge_side1	grudge_charge.png			0	false	false	false	0.0	0
+grudge_skill_charge_side2	grudge_charge.png			0	false	false	false	0.0	0
+grudge_skill_charge_side3	grudge_charge.png			0	false	false	false	0.0	0
+grudge_skill_charge_starter	grudge_charge.png			0	false	false	false	0.0	0
+grudge_skill_deadly_onslaught	wh_main_character_abilities_deadly_onslaught.png		Deadly Onslaught	0	false	false	false	0.0	0
+grudge_skill_heroic_killing_blow	wh_main_character_abilities_heroic_killing_blow.png		Heroic Killing Blow	0	false	false	false	0.0	0
+grudge_skill_foe-seeker	wh_main_character_abilities_foe_seeker.png		Foe-Seeker	0	false	false	false	0.0	0
+grudge_skill_slippery	wh_main_hero_abilities_slippery.png		Slippery	0	false	false	false	0.0	0
+grudge_skill_faiths_bastion	wh_main_hero_abilities_faiths_bastion.png		Faith's Bastion	0	false	false	false	0.0	0
+grudge_skill_stand_your_ground	wh_main_character_abilities_stand_your_ground.png		Stand Your Ground!	0	false	false	false	0.0	0
+grudge_skill_feint_and_riposte	wh2_main_lord_abilities_feint_and_reposte.png		Feint & Riposte	0	false	false	false	0.0	0
+grudge_skill_rally	wh_main_character_abilities_rally.png		Rally!	0	false	false	false	0.0	0
+grudge_skill_rune_of_hearth_&_home	icon_stat_morale_character.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_oath_&_steel	wh_main_rune_abilities_rune_of_oath_and_steel.png			0	false	false	false	0.0	0
+grudge_skill_damping	magic_character.png			0	false	false	false	0.0	0
+grudge_skill_strike_the_runes	magic_cooldown_character.png			0	false	false	false	0.0	0
+grudge_skill_forgefire	forgefire.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_wrath_&_ruin	wh_main_rune_abilities_rune_of_wrath_and_ruin.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_striking	wh_main_anc_rune_rune_of_striking.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_might	wh_main_anc_rune_rune_of_might.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_parrying	wh_main_anc_rune_rune_of_parrying.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_fury	wh_main_anc_rune_rune_of_fury.png			0	false	false	false	0.0	0
+grudge_skill_rune_of_negation	wh_main_rune_abilities_rune_of_negation.png			0	false	false	false	0.0	0
+grudge_skill_morale1	grudge_morale.png			0	false	false	false	0.0	0
+grudge_skill_morale2	grudge_morale.png			0	false	false	false	0.0	0
+grudge_skill_morale3	grudge_morale.png			0	false	false	false	0.0	0
+grudge_skill_hold_the_line	wh_main_lord_abilities_hold_the_line.png		Hold the Line!	0	false	false	false	0.0	0
+grudge_skill_soothsaying	grudge_brass_lunged.png		Soothsaying	0	false	false	false	0.0	0
+grudge_skill_self_augury	grudge_morale.png		Augury	0	false	false	false	0.0	0
+grudge_skill_inspiring_presence	icon_stat_morale.png		Inspiring Presence	0	false	false	false	0.0	0
+grudge_skill_benediction	benediction.png		Benediction	0	false	false	false	0.0	0
+grudge_skill_missile_ward	grudge_missile_ward.png		Sigmar’s Ward	7	false	false	false	0.0	0
+grudge_skill_magic_ward	grudge_magic_ward.png		Ward of Hoeth	7	false	false	false	0.0	0
+grudge_skill_fire_ward	grudge_fire_ward.png		Ward of Hoeth	12	false	false	false	0.0	0
+grudge_skill_missile_range	grudge_arrow_range.png		Seeking Arrows	0	false	false	false	0.0	0
+grudge_skill_missile_damage	grudge_arrow_damage.png		Deadeye	0	false	false	false	0.0	0
+grudge_skill_missile_apdamage	grudge_mis_apdamage.png		Piercing Shots	0	false	false	false	0.0	0
+grudge_skill_fire_at_will	wh2_hef_darken_the_skies.png		Loose!	0	false	false	false	0.0	0
+grudge_skill_missile_reload	grudge_mis_reload.png		Fleetfinger	0	false	false	false	0.0	0
+grudge_skill_missile_ammo	grudge_arrow_ammo.png		Bottomless Quiver	0	false	false	false	0.0	0
+grudge_skill_missile_range_damage	grudge_arrow_damage.png		Dead Eye	0	false	false	false	0.0	0
+grudge_skill_darken_the_skies	wh2_hef_darken_the_skies.png		Darken the Skies	0	false	false	false	0.0	0
+grudge_skill_missile_accuracy	grudge_arrow_accuracy.png		Accurate	0	false	false	false	0.0	0
+grudge_skill_increased_powder	grudge_firearms_damage.png		Silver Bullets	0	false	false	false	0.0	0
+grudge_skill_enhanced_cartridge	grudge_firearms_ammo.png		Silver Bullets	0	false	false	false	0.0	0
+grudge_skill_hardened_bullets	grudge_firearms_apdamage.png		Silver Bullets	0	false	false	false	0.0	0
+grudge_skill_bandolier	grudge_bandolier.png		Silver Bullets	0	false	false	false	0.0	0
+grudge_skill_standardised_firing_drill	grudge_art_reload.png			0	false	false	false	0.0	0
+grudge_skill_requisition	grudge_firearms_ammo.png			0	false	false	false	0.0	0
+grudge_skill_arms_dealer	grudge_firearms_ammo.png			0	false	false	false	0.0	0
+grudge_skill_triangulation	grudge_art_damage.png			0	false	false	false	0.0	0
+grudge_skill_smoke_bomb	grudge_smoke_bomb.png			0	false	false	false	0.0	0
+grudge_skill_ballistics_calibration	wh_main_hero_abilities_ballistics_calibration.png			0	false	false	false	0.0	0
+grudge_skill_extra_powder	grudge_art_explosion.png			0	false	false	false	0.0	0
+grudge_skill_defensive_coordinator	grudge_art_reload.png			0	false	false	false	0.0	0
+grudge_skill_ballistics_instructor	grudge_art_range.png			0	false	false	false	0.0	0
+grudge_skill_grudge_sapper	grudge_speed.png			0	false	false	false	0.0	0
+grudge_skill_standardized_shells	grudge_standard_shells.png		Seeking Arrows	0	false	false	false	0.0	0
+grudge_skill_master_gunner	grudge_art_master_gunner.png		Deadeye	0	false	false	false	0.0	0
+grudge_skill_art_damage	grudge_art_damage.png		Piercing Shots	0	false	false	false	0.0	0
+grudge_skill_art_range	grudge_art_range.png		Hawk-Eyed	0	false	false	false	0.0	0
+grudge_skill_art_extra_reload	grudge_art_reload.png		Fleetfinger	0	false	false	false	0.0	0
+grudge_skill_art_ammunition	grudge_firearms_ammo.png		Bottomless Quiver	0	false	false	false	0.0	0
+grudge_skill_art_piercing_shells	grudge_art_apdamage.png		Dead Eye	0	false	false	false	0.0	0
+grudge_skill_art_accurate	grudge_accuracy.png		Accurate	0	false	false	false	0.0	0
+grudge_skill_art_explosion	grudge_art_explosion.png		Accurate	0	false	false	false	0.0	0
+grudge_skill_art_apexplosion	grudge_art_explosion_ap.png		Accurate	0	false	false	false	0.0	0
+grudge_skill_art_speed	grudge_speed.png		Accurate	0	false	false	false	0.0	0
+grudge_skill_bst_champion_defensive_1	icon_stat_armour.png			8	false	false	false	0.0	0
+grudge_skill_bst_champion_defensive_2	icon_stat_armour.png			0	false	false	false	0.0	0
+grudge_skill_bst_champion_offensive_1	icon_stat_attack.png			8	false	false	false	0.0	0
+grudge_skill_bst_champion_offensive_2	icon_stat_attack.png			0	false	false	false	0.0	0
+grudge_skill_mercenary	grudge_merc.png			0	false	false	false	0.0	0
+grudge_skill_regiment_size	grudge_additional_soldiers.png			20	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_men	grudge_kill_humans.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_dwarves	grudge_kill_dwarfs.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_undead	grudge_kill_undead.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_chaos	grudge_kill_chaos.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_beastmen	grudge_kill_beastmen.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_skaven	grudge_kill_skaven.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_greenskins	grudge_kill_greenskins.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_dark_elves	grudge_kill_dark_elves.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_lizardmen	grudge_kill_lizardmen.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_high_elves	grudge_kill_high_elves.png			10	false	false	false	0.0	0
+grudge_skill_bernhardt_bonus_vs_wood_elves	grudge_kill_wood_elves.png			10	false	false	false	0.0	0
+grudge_skill_swiftness_of_itzl	grudge_unstoppable_charge.png			0	false	false	false	0.0	0
+grudge_skill_verminous_valour	grudge_vermin_valour.png			0	false	false	false	0.0	0
+grudge_skill_horn_of_urgok	grudge_horn_of_urgok.png		Horn of Urgok	10	false	false	false	0.0	0
+grudge_skill_grudgebringer_sword	grudge_grudgebringer_sword.png		Grudgebringer Sword	7	false	false	false	0.0	0
+grudge_skill_hellfire_sword	grudge_hellsword.png		Hellfire Sword	10	false	false	false	0.0	0
+grudge_skill_storm_sword	grudge_storm_sword.png		Storm Sword	10	false	false	false	0.0	0
+grudge_skill_runefang	grudge_runefang.png		Runefang	10	false	false	false	0.0	0
+grudge_skill_enchanted_shield	grudge_enchanted_shield.png		Enchanted Shield	10	false	false	false	0.0	0
+grudge_skill_shield_of_ptolos	grudge_shield_of_ptolos.png		Shield of Ptolos	10	false	false	false	0.0	0
+grudge_skill_spelleater_shield	grudge_spelleater_shield.png		Spelleater Shield	10	false	false	false	0.0	0
+grudge_skill_dragonhelm	grudge_dragonhelm.png		Dragonhelm	10	false	false	false	0.0	0
+grudge_skill_wand_of_jet	grudge_wand_of_jet.png		Wand of Jet	10	false	false	false	0.0	0
+grudge_skill_banner_of_arcane_warding	grudge_banner_of_arcane.png		Banner of Arcane Warding	10	false	false	false	0.0	0
+grudge_skill_banner_of_wrath	grudge_banner_of_wrath.png		Banner of Wrath	10	false	false	false	0.0	0
+grudge_skill_banner_of_defiance	grudge_banner_of_defiance.png		Banner of Defiance	10	false	false	false	0.0	0
+grudge_skill_shadow_of_the_horned_rat	grudge_shadow_of_the_horned_rat.png		Shadow of the Horned Rat	11	false	false	false	0.0	0
+grudge_skill_dark_omen	grudge_dark_omen.png		Dark Omen	11	false	false	false	0.0	0
+ovn_grudge_soldiers_of_fortune	ovn_grudge_army_skill.png			0	false	false	false	0.0	0
+ovn_grudge_gold	battle_military_spending.png			0	false	false	false	0.0	0
+ovn_grudge_glory	battle_morale.png			0	false	false	false	0.0	0

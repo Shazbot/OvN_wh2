@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/adsprovinces.loc		
 provincial_initiative_records_localised_name_province_edict_albion1	Harshen Tithes	true
 provincial_initiative_records_localised_name_province_edict_albion2	Call of the Clans	true
 provincial_initiative_records_localised_name_province_edict_albion3	Quash Dissent	true

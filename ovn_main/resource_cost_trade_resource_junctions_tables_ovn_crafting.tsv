@@ -1,5 +1,5 @@
-resource_cost_trade_resource_junctions_tables	0
 resource_cost	trade_resource
+#resource_cost_trade_resource_junctions_tables;0;db/resource_cost_trade_resource_junctions_tables/ovn_crafting	
 ovn_arb_crafting_weapons_crafted	res_gems
 ovn_arb_crafting_weapons_unique	res_gems
 ovn_arb_crafting_weapons_unique	res_gold_idols

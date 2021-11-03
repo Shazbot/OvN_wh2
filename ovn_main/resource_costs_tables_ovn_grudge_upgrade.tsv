@@ -1,5 +1,5 @@
-resource_costs_tables	2
 id	treasury_cost	expenditure_type	income_type
+#resource_costs_tables;2;db/resource_costs_tables/ovn_grudge_upgrade			
 ovn_grudge_armour_cost	-1375	ACTIONS	BATTLE_KILLS
 ovn_grudge_inf_cost	-1225	ACTIONS	BATTLE_KILLS
 ovn_grudge_cross_cost	-1225	ACTIONS	BATTLE_KILLS

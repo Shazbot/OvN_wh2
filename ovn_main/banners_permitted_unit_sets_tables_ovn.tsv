@@ -1,5 +1,5 @@
-banners_permitted_unit_sets_tables	0
 banner	unit_set
+#banners_permitted_unit_sets_tables;0;db/banners_permitted_unit_sets_tables/ovn	
 wh_dlc08_anc_magic_standard_black_iron_reavers	elo_warband
 wh_dlc08_anc_magic_standard_crimson_reapers	elo_warband
 wh_dlc08_anc_magic_standard_drake_hunters	elo_warband

@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_dread_caps					
 dread_legion_dual_cap	unit_capacity.png	1	unit_capacity.png	campaign	true
 dread_legion_spears_cap	unit_capacity.png	1	unit_capacity.png	campaign	true
 dread_legion_2h_cap	unit_capacity.png	1	unit_capacity.png	campaign	true

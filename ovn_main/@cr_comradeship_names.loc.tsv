@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_comradeship_names.loc		
 names_name_162509577	Olorin	true
 names_name_271572567	the Grey Wizard	true
 names_name_452577106	Aragand	true

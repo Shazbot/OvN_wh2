@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_hag_effects_skills_abilities.loc		
 effects_description_elo_sea_hag_call_children	Spell: "Come Little Children"	true
 effects_description_elo_ocean_breeze_cooldown_wom_cost_upgrade	Winds of Magic cost: %n for "Sea Breeze Upgraded"	true
 effects_description_elo_ocean_breeze_upgraded	Overcast spell: "Sea Breeze Upgraded"	true

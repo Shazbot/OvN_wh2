@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_hlf_missions.loc		
 mission_text_text_hlf_collect_all_ingredients_description	Collect all the cooking ingredients.	false
 mission_text_text_hlf_collect_all_ingredients_heading	The Great Culinary Quest	false
 missions_localised_description_ovn_halfling_ingredient_quest_1	The Halfling ruling body, the General Moot decrees an ingredient must be collected.	true

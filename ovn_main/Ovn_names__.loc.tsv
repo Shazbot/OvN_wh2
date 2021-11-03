@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Ovn_names__.loc		
 names_name_999982307	Penthesilea	true
 names_name_999982308	Fatandira	true
 names_name_999982309	Klaus Zimmerman	true

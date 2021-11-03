@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_skycutter.loc		
 effects_description_wh2_main_effect_skill_melee_damage_increase_hef_eagle_chariot_reavers_rank7	Weapon strength: %+n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true
 effects_description_wh2_main_effect_skill_movement_speed_hef_eagle_chariot_reavers_rank7	Speed: %+n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true
 effects_description_wh2_main_effect_skill_unit_stat_fatigue_resistance_hef_eagle_chariot_reavers_rank7	Vigour loss reduction: %+n% for Rangers, Great Eagle, War Lion, Chariot, Skycutter and Ellyrian Reavers units {{tr:rank7}}	true

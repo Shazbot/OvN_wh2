@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_crafting_rituals.loc		
 rituals_display_name_ovn_arb_crafting_weapons_01	Golden Scimitar	true
 rituals_display_name_ovn_arb_crafting_weapons_02	Hidden Blade	true
 rituals_display_name_ovn_arb_crafting_weapons_03	Corsair Soul	true

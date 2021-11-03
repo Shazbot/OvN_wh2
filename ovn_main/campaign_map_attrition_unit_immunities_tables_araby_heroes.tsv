@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/araby_heroes	
 non_vampire_territory	roy_arb_cha_nomad
 non_vampire_territory	roy_arb_cha_nomad_horse
 non_vampire_territory	roy_arb_cha_champion

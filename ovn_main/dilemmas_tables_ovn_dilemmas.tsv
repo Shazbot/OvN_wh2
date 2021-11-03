@@ -1,12 +1,12 @@
-dilemmas_tables	5
-generate	key	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override
-false	ovn_dilemma_grudge_occupy	region transfer	region transfer	grudge_dilemma	false	Event	UI_CAM_EVENT_Dilemma_Grombrindal	
-false	ovn_dilemma_sabaar_occupy	region transfer	region transfer	grudge_kasabar_dilemma	true	Event		
-false	ovn_dilemma_zandri_occupy	region transfer	region transfer	grudge_wizard_dilemma	true	Event		
-true	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_chaos_gipfel	halfling_dilemma	false	Event		
-false	ovn_dilemma_rotblood_skit	ovn_chaos_gipfel	ovn_chaos_gipfel	rotblood_dilemma	false	Event		
-false	ovn_dilemma_arb_excavation	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_arb_excavation	false	Event		
-false	ovn_dilemma_alb_alt_leader	ovn_chaos_gipfel	ovn_chaos_gipfel	albion_dilemma	false	Event		
-false	ovn_dilemma_moot_confed	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_moot_confed	false	Event		
-false	ovn_dilemma_grudge_hire	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_grudge_hire	false	Event		
-false	ovn_dilemma_grudge_hire_vortex	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_grudge_hire	false	Event		
+key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override
+#dilemmas_tables;5;db/dilemmas_tables/ovn_dilemmas								
+ovn_dilemma_grudge_occupy	false	region transfer	region transfer	grudge_dilemma	false	Event	UI_CAM_EVENT_Dilemma_Grombrindal	
+ovn_dilemma_sabaar_occupy	false	region transfer	region transfer	grudge_kasabar_dilemma	true	Event		
+ovn_dilemma_zandri_occupy	false	region transfer	region transfer	grudge_wizard_dilemma	true	Event		
+ovn_chaos_gipfel	true	ovn_chaos_gipfel	ovn_chaos_gipfel	halfling_dilemma	false	Event		
+ovn_dilemma_rotblood_skit	false	ovn_chaos_gipfel	ovn_chaos_gipfel	rotblood_dilemma	false	Event		
+ovn_dilemma_arb_excavation	false	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_arb_excavation	false	Event		
+ovn_dilemma_alb_alt_leader	false	ovn_chaos_gipfel	ovn_chaos_gipfel	albion_dilemma	false	Event		
+ovn_dilemma_moot_confed	false	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_moot_confed	false	Event		
+ovn_dilemma_grudge_hire	false	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_grudge_hire	false	Event		
+ovn_dilemma_grudge_hire_vortex	false	ovn_chaos_gipfel	ovn_chaos_gipfel	ovn_dilemma_grudge_hire	false	Event		

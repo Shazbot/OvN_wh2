@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_character_skills.loc		
 character_skills_localised_description_Ancient_Necromancer	 A powerful practitioner of Necromancy, writing the book known as the Grimoire Necris, which allowed his ascension to undeath	true
 character_skills_localised_name_Ancient_Necromancer	Ancient  Necromancer	true
 character_skills_localised_description_Mighty_Warrior_tmb	The Dread King was a mighty warrior, giant in stature, armed with a massive sword and covered in ancient heavy armour. He could cut down his enemies in their droves.	true

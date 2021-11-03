@@ -1,17 +1,17 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	hlf_staff		13
-		x	1	hlf_robe		9
-			1	cig_Buff		11
-			1	meat_Buff		11
-			1	haffenlyver		16
-	wh2_main_emp_the_moot		1	wh_dlc05_skill_magic_shadow_mystifying_miasma		5
-		x	1	hlf_fieldwarden_halfling_hero		11
-		x	1	hlf_fieldwarden_border_patrol		11
-		x	1	hlf_moot_general_skill_0_0_mount_poultry		8
-		x	1	hlf_master_chef_skill_0_0_mount_wagon		9
-		x	1	hlf_sheriff_skill_0_0_mount_pig		8
-		x	1	wh2_main_skill_hlf_glibfoot_unique_0		11
-		x	1	wh2_main_skill_hlf_glibfoot_unique_2		11
-		x	1	wh2_main_skill_anc_hyshia		11
-		x	1	wh2_main_skill_anc_willowblade		12
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ovn_halflings						
+		1	hlf_staff		x	13
+		1	hlf_robe		x	9
+		1	cig_Buff			11
+		1	meat_Buff			11
+		1	haffenlyver			16
+	wh2_main_emp_the_moot	1	wh_dlc05_skill_magic_shadow_mystifying_miasma			5
+		1	hlf_fieldwarden_halfling_hero		x	11
+		1	hlf_fieldwarden_border_patrol		x	11
+		1	hlf_moot_general_skill_0_0_mount_poultry		x	8
+		1	hlf_master_chef_skill_0_0_mount_wagon		x	9
+		1	hlf_sheriff_skill_0_0_mount_pig		x	8
+		1	wh2_main_skill_hlf_glibfoot_unique_0		x	11
+		1	wh2_main_skill_hlf_glibfoot_unique_2		x	11
+		1	wh2_main_skill_anc_hyshia		x	11
+		1	wh2_main_skill_anc_willowblade		x	12

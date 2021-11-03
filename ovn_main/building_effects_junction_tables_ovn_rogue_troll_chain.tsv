@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_rogue_troll_chain					
 ovn_wh2_main_rogue_settlement_major_1	wh_main_effect_construction_slot_dummy	this_building	1.0	1.0	1.0
 ovn_wh2_main_rogue_settlement_major_1	wh_main_effect_province_growth_building	region_to_province_own	20.0	5.0	0.0
 ovn_wh2_main_rogue_settlement_major_1	wh_main_effect_public_order_base	province_to_province_own_unseen	12.0	6.0	0.0

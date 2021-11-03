@@ -1,5 +1,5 @@
-frontend_faction_effect_junctions_tables	1
 effect	group	value	scope
+#frontend_faction_effect_junctions_tables;1;db/frontend_faction_effect_junctions_tables/ovn_stuff			
 wh_dlc03_effect_stance_ambush_chance_dummy	ovn_sof	1	faction_to_force_own
 wh2_dlc09_faction_political_diplomacy_mod	ovn_sof	-40	faction_to_faction_own_unseen
 wh2_dlc10_effect_force_all_campaign_captives	ovn_sof	70	faction_to_province_own_unseen

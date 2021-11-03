@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_comradeship_message_event_strings.loc		
 event_feed_strings_text_ovn_comradeship_spawned_title	The Comradeship Returns!	true
 event_feed_strings_text_ovn_comradeship_spawned_primary_detail	Olorin, Aragand, Legles, and Giblit are available.	true
 event_feed_strings_text_ovn_comradeship_spawned_secondary_detail	Fragrant aromas and aromatic fragrances, byproducts of our culinary program, have lured the Comradeship back to the Moot.	true

@@ -1,4 +1,4 @@
-unit_armour_types_tables	6
-armour_value	key	audio_type
-130	wh2_main_plate_130	plate
-140	wh2_main_heavy_metal_140	heavy_metal
+key	armour_value	audio_type
+#unit_armour_types_tables;6;db/unit_armour_types_tables/ovn		
+wh2_main_plate_130	130	plate
+wh2_main_heavy_metal_140	140	heavy_metal

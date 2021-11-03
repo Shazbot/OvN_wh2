@@ -1,5 +1,5 @@
-diplomacy_strings_tables	0
 key
+#diplomacy_strings_tables;0;db/diplomacy_strings_tables/ovn_troll_cai
 personality_desc_short_likes_greenskins_ovn
 personality_desc_long_likes_greenskins_ovn
 ovn_personality_desc_short_indifferent

@@ -1,5 +1,5 @@
-unit_purchasable_effect_sets_tables	1
 unit	purchasable_effect	is_exclusive
+#unit_purchasable_effect_sets_tables;1;db/unit_purchasable_effect_sets_tables/ovn_grudge_upgrade		
 grudgebringer_cannon	ovn_grudge_armour	true
 grudgebringer_cannon	ovn_grudge_can	true
 helmgart_bowmen	ovn_grudge_armour	true

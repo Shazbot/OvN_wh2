@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_albion					
 albion_enable_bound_flock_of_doom	general_ability.png	1	general_ability.png	battle	true
 elo_warband_matt	melee.png	109	melee.png	battle	true
 elo_warband_mdef	defence.png	101	defence.png	battle	true

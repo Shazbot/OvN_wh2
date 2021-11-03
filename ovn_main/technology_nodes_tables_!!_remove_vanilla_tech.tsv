@@ -1,48 +1,48 @@
-technology_nodes_tables	3
-campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
-	wh2_main_nor_albion	28	norse_tech_albion_removal_01	tech_dlc08_nor_creatures_01	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_02	tech_dlc08_nor_creatures_02	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_03	tech_dlc08_nor_creatures_03	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_04	tech_dlc08_nor_creatures_04	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_05	tech_dlc08_nor_creatures_05	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_06	tech_dlc08_nor_creatures_06	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_07	tech_dlc08_nor_creatures_07	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_08	tech_dlc08_nor_marauders_01	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_09	tech_dlc08_nor_marauders_02	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_10	tech_dlc08_nor_marauders_03	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_11	tech_dlc08_nor_marauders_04	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_12	tech_dlc08_nor_marauders_05	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_13	tech_dlc08_nor_marauders_06	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_14	tech_dlc08_nor_marauders_07	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_15	tech_dlc08_nor_nw_01	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_16	tech_dlc08_nor_nw_02	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_17	tech_dlc08_nor_nw_03	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_18	tech_dlc08_nor_nw_04	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_19	tech_dlc08_nor_nw_05	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_20	tech_dlc08_nor_nw_06	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_21	tech_dlc08_nor_nw_07	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_22	tech_dlc08_nor_nw_08	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_23	tech_dlc08_nor_nw_09	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_24	tech_dlc08_nor_nw_10	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_25	tech_dlc08_nor_nw_11	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_26	tech_dlc08_nor_nw_20	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_27	tech_dlc08_nor_nw_21	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_28	tech_dlc08_nor_other_01	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_29	tech_dlc08_nor_other_02	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_30	tech_dlc08_nor_other_03	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_31	tech_dlc08_nor_other_04	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_32	tech_dlc08_nor_other_05	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_33	tech_dlc08_nor_other_06	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_34	tech_dlc08_nor_other_07	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_35	tech_dlc08_nor_other_08	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_36	tech_dlc08_nor_other_09	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_37	tech_dlc08_nor_other_10	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_38	tech_dlc08_nor_other_11	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_39	tech_dlc08_nor_other_12	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_40	tech_dlc08_nor_other_13	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_41	tech_dlc08_nor_other_14	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_42	tech_dlc08_nor_other_15	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_43	tech_dlc08_nor_other_16	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_44	tech_dlc08_nor_other_17	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_45	tech_dlc08_nor_other_18	nor_mil	0	999999	999999	0		
-	wh2_main_nor_albion	-2	norse_tech_albion_removal_46	tech_dlc08_nor_other_19	nor_mil	0	999999	999999	0		
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+#technology_nodes_tables;3;db/technology_nodes_tables/!!_remove_vanilla_tech											
+norse_tech_albion_removal_01		wh2_main_nor_albion	28	tech_dlc08_nor_creatures_01	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_02		wh2_main_nor_albion	-2	tech_dlc08_nor_creatures_02	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_03		wh2_main_nor_albion	-2	tech_dlc08_nor_creatures_03	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_04		wh2_main_nor_albion	-2	tech_dlc08_nor_creatures_04	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_05		wh2_main_nor_albion	-2	tech_dlc08_nor_creatures_05	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_06		wh2_main_nor_albion	-2	tech_dlc08_nor_creatures_06	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_07		wh2_main_nor_albion	-2	tech_dlc08_nor_creatures_07	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_08		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_01	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_09		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_02	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_10		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_03	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_11		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_04	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_12		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_05	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_13		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_06	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_14		wh2_main_nor_albion	-2	tech_dlc08_nor_marauders_07	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_15		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_01	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_16		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_02	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_17		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_03	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_18		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_04	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_19		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_05	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_20		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_06	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_21		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_07	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_22		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_08	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_23		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_09	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_24		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_10	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_25		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_11	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_26		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_20	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_27		wh2_main_nor_albion	-2	tech_dlc08_nor_nw_21	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_28		wh2_main_nor_albion	-2	tech_dlc08_nor_other_01	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_29		wh2_main_nor_albion	-2	tech_dlc08_nor_other_02	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_30		wh2_main_nor_albion	-2	tech_dlc08_nor_other_03	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_31		wh2_main_nor_albion	-2	tech_dlc08_nor_other_04	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_32		wh2_main_nor_albion	-2	tech_dlc08_nor_other_05	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_33		wh2_main_nor_albion	-2	tech_dlc08_nor_other_06	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_34		wh2_main_nor_albion	-2	tech_dlc08_nor_other_07	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_35		wh2_main_nor_albion	-2	tech_dlc08_nor_other_08	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_36		wh2_main_nor_albion	-2	tech_dlc08_nor_other_09	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_37		wh2_main_nor_albion	-2	tech_dlc08_nor_other_10	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_38		wh2_main_nor_albion	-2	tech_dlc08_nor_other_11	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_39		wh2_main_nor_albion	-2	tech_dlc08_nor_other_12	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_40		wh2_main_nor_albion	-2	tech_dlc08_nor_other_13	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_41		wh2_main_nor_albion	-2	tech_dlc08_nor_other_14	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_42		wh2_main_nor_albion	-2	tech_dlc08_nor_other_15	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_43		wh2_main_nor_albion	-2	tech_dlc08_nor_other_16	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_44		wh2_main_nor_albion	-2	tech_dlc08_nor_other_17	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_45		wh2_main_nor_albion	-2	tech_dlc08_nor_other_18	nor_mil	0	999999	999999	0		
+norse_tech_albion_removal_46		wh2_main_nor_albion	-2	tech_dlc08_nor_other_19	nor_mil	0	999999	999999	0		

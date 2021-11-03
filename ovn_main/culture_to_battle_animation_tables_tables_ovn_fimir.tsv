@@ -1,5 +1,5 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/ovn_fimir	
 lz1_dlc12_salamander	wh_main_chs_chaos
 hu5_goblin_sword	wh_main_chs_chaos
 hu5_goblin_spear_and_shield	wh_main_chs_chaos

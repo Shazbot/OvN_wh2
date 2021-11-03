@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudge_transfer_dilemma.loc		
 dilemmas_localised_description_ovn_dilemma_grudge_occupy	I have been approached by men seeking work my lord. I have noted their credentials in the troop roster.	true
 dilemmas_localised_title_ovn_dilemma_grudge_occupy	Paymaster Dietrich's Caravan	true
 dilemmas_localised_description_ovn_dilemma_sabaar_occupy	Beneath one of the many temples of Ka-Sabaar, deep down its spiral stairs it a plain font within a simple stone chamber is discovered. It held a liquid the colour of snow and just as cold, which glistened under torchlight.\\n\\nThe locals spoke of its healing properties, and after it miraculously saved our dying troops the whole army sipped from the ‘Fountain of Light’ feeling rejuvenated. This gift could be used by the undead to restore their power, though to keep it would be a huge boon to our forces.	true

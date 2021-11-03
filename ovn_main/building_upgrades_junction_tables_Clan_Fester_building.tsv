@@ -1,4 +1,4 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/Clan_Fester_building	
 ovn_Clan_Fester_1	ovn_Clan_Fester_2
 ovn_Clan_Fester_2	ovn_Clan_Fester_3

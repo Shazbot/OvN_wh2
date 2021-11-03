@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudge_hire_dilemma.loc		
 dilemmas_localised_description_ovn_dilemma_grudge_hire	After a recent campaign the Grudgebringers are available to hire. The Empire is always in need of good soldiers and Commander Bernhardt and his troops are some of the finest available. They have shown strength and loyalty to the crown on many occasions, fighting many successful campaigns against our foes. They could prove invaluable, yet again, in the defence of the Empire and her allies in these dark times.	true
 dilemmas_localised_title_ovn_dilemma_grudge_hire	Grudgebringer Mercenaries	true
 cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_grudge_hireFIRST	Hire The Grudgebringers	true

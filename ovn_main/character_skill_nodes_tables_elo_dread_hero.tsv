@@ -1,46 +1,46 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh2_main_skill_innate_vmp_dark_majesty	node_set_dread_centurion		6.0	dread_centurion_innate_01	0.0		0	0	false
-	wh2_main_skill_innate_vmp_devious	node_set_dread_centurion		6.0	dread_centurion_innate_02	1.0		0	0	false
-	wh2_main_skill_innate_vmp_dread_incarnate	node_set_dread_centurion		6.0	dread_centurion_innate_03	10.0		0	0	false
-	wh2_main_skill_innate_vmp_lore_keeper	node_set_dread_centurion		6.0	dread_centurion_innate_04	11.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	node_set_dread_centurion		6.0	dread_centurion_innate_05	12.0		0	0	false
-	wh2_main_skill_innate_all_cunning	node_set_dread_centurion		6.0	dread_centurion_innate_06	13.0		0	0	false
-	wh2_main_skill_innate_all_determined	node_set_dread_centurion		6.0	dread_centurion_innate_07	14.0		0	0	false
-	wh2_main_skill_innate_all_confident	node_set_dread_centurion		6.0	dread_centurion_innate_08	15.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	node_set_dread_centurion		6.0	dread_centurion_innate_09	16.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	node_set_dread_centurion		6.0	dread_centurion_innate_10	2.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	node_set_dread_centurion		6.0	dread_centurion_innate_11	3.0		0	0	false
-	wh2_main_skill_innate_all_tough	node_set_dread_centurion		6.0	dread_centurion_innate_12	7.0		0	0	false
-	wh2_main_skill_innate_all_strong	node_set_dread_centurion		6.0	dread_centurion_innate_13	9.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	node_set_dread_centurion		0.0	dread_centurion_innate_14	0.0		0	0	false
-	wh2_main_skill_innate_all_strategist	node_set_dread_centurion		0.0	dread_centurion_innate_15	0.0		0	0	false
-	wh2_main_skill_innate_all_tactician	node_set_dread_centurion		0.0	dread_centurion_innate_16	0.0		0	0	false
-	wh2_main_skill_all_hero_assist_army_training	node_set_dread_centurion		5.0	dread_centurion_campaign_01	0.0		0	0	true
-	wh2_main_skill_all_hero_passive_spread_public_order	node_set_dread_centurion		5.0	dread_centurion_campaign_02	1.0		0	0	true
-	wh2_main_skill_all_hero_hinder_settlement_assault_garrison	node_set_dread_centurion		5.0	dread_centurion_campaign_03	2.0		0	0	true
-	wh2_main_skill_all_hero_hinder_agent_assassinate	node_set_dread_centurion		5.0	dread_centurion_campaign_04	3.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_assault_units	node_set_dread_centurion		5.0	dread_centurion_campaign_05	4.0		0	0	true
-	wh2_main_skill_all_hero_reduce_action_cost	node_set_dread_centurion		5.0	dread_centurion_campaign_06	5.0		0	0	true
-	wh2_dlc09_skill_tmb_campaign_4	node_set_dread_centurion		5.0	dread_centurion_campaign_07	6.0		0	0	true
-	wh2_dlc09_skill_all_dummy_agent_actions_tmb_tomb_prince	node_set_dread_centurion		8.0	dread_centurion_campaign_actions_dummy	0.0		1	0	false
-	wh_main_skill_vmp_all_unique_grave_ward	node_set_dread_centurion		0.0	dread_centurion_misc_0	4.0		0	0	true
-	wh_dlc11_skill_cst_lord_self_supernatural_horror	node_set_dread_centurion		0.0	dread_centurion_misc_1	3.0		0	0	true
-	wh2_main_skill_all_immortality_hero	node_set_dread_centurion		0.0	dread_centurion_misc_2	5.0		0	0	true
-	elo_dread_centurion_horse	node_set_dread_centurion		0.0	dread_centurion_mount_0	0.0		0	0	true
-	dread_legion_barded_skeletal_steed	node_set_dread_centurion		0.0	dread_centurion_mount_1	1.0		0	0	true
-	dread_chariot_skeletal_steed	node_set_dread_centurion		0.0	dread_centurion_mount_2	2.0		0	0	true
-	wh_main_skill_all_all_self_blade_master_starter	node_set_dread_centurion		2.0	dread_centurion_self_01	0.0		0	0	true
-	wh2_dlc09_skill_tmb_personal_conqueror	node_set_dread_centurion		2.0	dread_centurion_self_02	1.0		0	0	true
-	wh_main_skill_vmp_champion_unique_wight_king_heroic_killing_blow	node_set_dread_centurion		2.0	dread_centurion_self_12	10.0		0	4	true
-	wh_main_skill_all_all_self_thick-skinned_2	node_set_dread_centurion		2.0	dread_centurion_self_04	2.0		0	0	true
-	wh_main_skill_all_all_self_hard_to_hit	node_set_dread_centurion		2.0	dread_centurion_self_05	3.0		0	0	true
-	wh_main_skill_all_all_self_indomitable	node_set_dread_centurion		2.0	dread_centurion_self_06	4.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_honour_or_death	node_set_dread_centurion		2.0	dread_centurion_self_07	5.0		0	4	true
-	wh_main_skill_all_all_self_wound-maker_2	node_set_dread_centurion		2.0	dread_centurion_self_08	6.0		0	0	true
-	wh_main_skill_all_lord_self_full_plate_armour_2	node_set_dread_centurion		2.0	dread_centurion_self_09	7.0		0	0	true
-	wh_main_skill_all_all_self_devastating_charge	node_set_dread_centurion		2.0	dread_centurion_self_10	8.0		0	0	true
-	wh2_dlc09_skill_tmb_personal_9	node_set_dread_centurion		2.0	dread_centurion_self_11	9.0		0	0	true
-	dread_we_are_legion	node_set_dread_centurion		1.0	dread_centuriion_unique_1	0.0		0	0	true
-	dread_eternal_march	node_set_dread_centurion		1.0	dread_centuriion_unique_2	1.0		0	0	true
-	dread_blessing_nagash	node_set_dread_centurion		1.0	dread_centuriion_unique_3	2.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_dread_hero										
+dread_centurion_innate_01		wh2_main_skill_innate_vmp_dark_majesty	node_set_dread_centurion		6.0	0.0		0	0	false
+dread_centurion_innate_02		wh2_main_skill_innate_vmp_devious	node_set_dread_centurion		6.0	1.0		0	0	false
+dread_centurion_innate_03		wh2_main_skill_innate_vmp_dread_incarnate	node_set_dread_centurion		6.0	10.0		0	0	false
+dread_centurion_innate_04		wh2_main_skill_innate_vmp_lore_keeper	node_set_dread_centurion		6.0	11.0		0	0	false
+dread_centurion_innate_05		wh2_main_skill_innate_all_fleet_footed	node_set_dread_centurion		6.0	12.0		0	0	false
+dread_centurion_innate_06		wh2_main_skill_innate_all_cunning	node_set_dread_centurion		6.0	13.0		0	0	false
+dread_centurion_innate_07		wh2_main_skill_innate_all_determined	node_set_dread_centurion		6.0	14.0		0	0	false
+dread_centurion_innate_08		wh2_main_skill_innate_all_confident	node_set_dread_centurion		6.0	15.0		0	0	false
+dread_centurion_innate_09		wh2_main_skill_innate_all_disciplined	node_set_dread_centurion		6.0	16.0		0	0	false
+dread_centurion_innate_10		wh2_main_skill_innate_all_perceptive	node_set_dread_centurion		6.0	2.0		0	0	false
+dread_centurion_innate_11		wh2_main_skill_innate_all_aggressive	node_set_dread_centurion		6.0	3.0		0	0	false
+dread_centurion_innate_12		wh2_main_skill_innate_all_tough	node_set_dread_centurion		6.0	7.0		0	0	false
+dread_centurion_innate_13		wh2_main_skill_innate_all_strong	node_set_dread_centurion		6.0	9.0		0	0	false
+dread_centurion_innate_14		wh2_main_skill_innate_all_weapon_master	node_set_dread_centurion		0.0	0.0		0	0	false
+dread_centurion_innate_15		wh2_main_skill_innate_all_strategist	node_set_dread_centurion		0.0	0.0		0	0	false
+dread_centurion_innate_16		wh2_main_skill_innate_all_tactician	node_set_dread_centurion		0.0	0.0		0	0	false
+dread_centurion_campaign_01		wh2_main_skill_all_hero_assist_army_training	node_set_dread_centurion		5.0	0.0		0	0	true
+dread_centurion_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order	node_set_dread_centurion		5.0	1.0		0	0	true
+dread_centurion_campaign_03		wh2_main_skill_all_hero_hinder_settlement_assault_garrison	node_set_dread_centurion		5.0	2.0		0	0	true
+dread_centurion_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate	node_set_dread_centurion		5.0	3.0		0	0	true
+dread_centurion_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_units	node_set_dread_centurion		5.0	4.0		0	0	true
+dread_centurion_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	node_set_dread_centurion		5.0	5.0		0	0	true
+dread_centurion_campaign_07		wh2_dlc09_skill_tmb_campaign_4	node_set_dread_centurion		5.0	6.0		0	0	true
+dread_centurion_campaign_actions_dummy		wh2_dlc09_skill_all_dummy_agent_actions_tmb_tomb_prince	node_set_dread_centurion		8.0	0.0		1	0	false
+dread_centurion_misc_0		wh_main_skill_vmp_all_unique_grave_ward	node_set_dread_centurion		0.0	4.0		0	0	true
+dread_centurion_misc_1		wh_dlc11_skill_cst_lord_self_supernatural_horror	node_set_dread_centurion		0.0	3.0		0	0	true
+dread_centurion_misc_2		wh2_main_skill_all_immortality_hero	node_set_dread_centurion		0.0	5.0		0	0	true
+dread_centurion_mount_0		elo_dread_centurion_horse	node_set_dread_centurion		0.0	0.0		0	0	true
+dread_centurion_mount_1		dread_legion_barded_skeletal_steed	node_set_dread_centurion		0.0	1.0		0	0	true
+dread_centurion_mount_2		dread_chariot_skeletal_steed	node_set_dread_centurion		0.0	2.0		0	0	true
+dread_centurion_self_01		wh_main_skill_all_all_self_blade_master_starter	node_set_dread_centurion		2.0	0.0		0	0	true
+dread_centurion_self_02		wh2_dlc09_skill_tmb_personal_conqueror	node_set_dread_centurion		2.0	1.0		0	0	true
+dread_centurion_self_12		wh_main_skill_vmp_champion_unique_wight_king_heroic_killing_blow	node_set_dread_centurion		2.0	10.0		0	4	true
+dread_centurion_self_04		wh_main_skill_all_all_self_thick-skinned_2	node_set_dread_centurion		2.0	2.0		0	0	true
+dread_centurion_self_05		wh_main_skill_all_all_self_hard_to_hit	node_set_dread_centurion		2.0	3.0		0	0	true
+dread_centurion_self_06		wh_main_skill_all_all_self_indomitable	node_set_dread_centurion		2.0	4.0		0	0	true
+dread_centurion_self_07		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_honour_or_death	node_set_dread_centurion		2.0	5.0		0	4	true
+dread_centurion_self_08		wh_main_skill_all_all_self_wound-maker_2	node_set_dread_centurion		2.0	6.0		0	0	true
+dread_centurion_self_09		wh_main_skill_all_lord_self_full_plate_armour_2	node_set_dread_centurion		2.0	7.0		0	0	true
+dread_centurion_self_10		wh_main_skill_all_all_self_devastating_charge	node_set_dread_centurion		2.0	8.0		0	0	true
+dread_centurion_self_11		wh2_dlc09_skill_tmb_personal_9	node_set_dread_centurion		2.0	9.0		0	0	true
+dread_centuriion_unique_1		dread_we_are_legion	node_set_dread_centurion		1.0	0.0		0	0	true
+dread_centuriion_unique_2		dread_eternal_march	node_set_dread_centurion		1.0	1.0		0	0	true
+dread_centuriion_unique_3		dread_blessing_nagash	node_set_dread_centurion		1.0	2.0		0	0	true

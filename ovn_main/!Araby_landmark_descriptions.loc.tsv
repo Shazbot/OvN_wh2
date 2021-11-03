@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!Araby_landmark_descriptions.loc		
 building_short_description_texts_short_description_ovn_arb_haikk	The largest of them all is the Palace of the Grand Sultan. This is famous for its riches and luxuries, with large libraries brimming with ancient and unique books, and with temples decorated with idols of the Djinns, the gods of Araby.	true
 building_short_description_texts_short_description_ovn_arb_bel	The glory of the past rises here, in what was the most beautiful wonder in the world, the Gardens of Bel-Aliad. Its vision is a reflection of what Araby once was, the greatest human civilization in the world.	true
 building_short_description_texts_short_description_ovn_arb_fyrus	This grandiose tomb is the greatest pride of the Arabyans. The first Great Sultan, Mullah Aklan’d, lies here. His legend still lives in the hearts of the inhabitants of this land.	true

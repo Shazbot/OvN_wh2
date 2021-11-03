@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_comradeship_character_trait_levels.loc		
 character_trait_levels_explanation_text_ovn_trait_defeated_olorin_the_grey_wizard	Defeated Olorin the Grey Wizard	true
 character_trait_levels_onscreen_name_ovn_trait_defeated_olorin_the_grey_wizard	Sunk Their Comradeship	true
 character_trait_levels_removal_text_ovn_trait_defeated_olorin_the_grey_wizard		true

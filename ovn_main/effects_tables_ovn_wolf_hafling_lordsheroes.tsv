@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_wolf_hafling_lordsheroes					
 wh_main_effect_agent_cap_increase_spy_fieldwarden	agent.png	2	agent.png	campaign	true
 wh_main_effect_agent_enable_recruitment_fieldwarden	agent.png	2	agent.png	campaign	true
 wh_main_effect_agent_cap_increase_fieldwarden_level	agent.png	3	agent.png	campaign	true

@@ -1,4 +1,4 @@
-effect_bonus_value_religion_junction_tables	0
 effect	bonus_value_id	religion
+#effect_bonus_value_religion_junction_tables;0;db/effect_bonus_value_religion_junction_tables/ovn		
 ovn_hlf_restaurant_chaos_corruption	conversion	wh_main_religion_chaos
 ovn_hlf_restaurant_chaos_corruption_meat	conversion	wh_main_religion_chaos

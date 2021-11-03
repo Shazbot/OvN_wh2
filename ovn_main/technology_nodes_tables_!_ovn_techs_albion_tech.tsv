@@ -1,26 +1,26 @@
-technology_nodes_tables	3
-campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
-	wh2_main_nor_albion	10	albion_tech_war_1	albion_tech_war_1	nor_mil	1	100	0	0		
-	wh2_main_nor_albion	10	albion_tech_war_2	albion_tech_war_2	nor_mil	2	400	0	0		
-	wh2_main_nor_albion	10	albion_tech_war_3	albion_tech_war_3	nor_mil	3	700	0	0		
-	wh2_main_nor_albion	10	albion_tech_war_4	albion_tech_war_4	nor_mil	4	1000	0	0		
-	wh2_main_nor_albion	10	albion_tech_war_5	albion_tech_war_5	nor_mil	5	1500	0	0		
-	wh2_main_nor_albion	12	albion_tech_war_truth_1	albion_tech_war_truth_1	nor_mil	2	800	0	0		
-	wh2_main_nor_albion	12	albion_tech_war_truth_2	albion_tech_war_truth_2	nor_mil	3	1200	0	0		
-	wh2_main_nor_albion	12	albion_tech_war_truth_3	albion_tech_war_truth_3	nor_mil	4	1600	0	0		
-	wh2_main_nor_albion	12	albion_tech_war_truth_4	albion_tech_war_truth_4	nor_mil	5	2000	0	0		
-	wh2_main_nor_albion	14	albion_tech_truth_1	albion_tech_truth_1	nor_mil	1	100	0	0		
-	wh2_main_nor_albion	14	albion_tech_truth_2	albion_tech_truth_2	nor_mil	2	400	0	0		
-	wh2_main_nor_albion	14	albion_tech_truth_3	albion_tech_truth_3	nor_mil	3	700	0	0		
-	wh2_main_nor_albion	14	albion_tech_truth_4	albion_tech_truth_4	nor_mil	4	1000	0	0		
-	wh2_main_nor_albion	14	albion_tech_truth_5	albion_tech_truth_5	nor_mil	5	1500	0	0		
-	wh2_main_nor_albion	16	albion_tech_truth_peace_1	albion_tech_truth_peace_1	nor_mil	2	800	0	0		
-	wh2_main_nor_albion	16	albion_tech_truth_peace_2	albion_tech_truth_peace_2	nor_mil	3	1200	0	0		
-	wh2_main_nor_albion	16	albion_tech_truth_peace_3	albion_tech_truth_peace_3	nor_mil	4	1600	0	0		
-	wh2_main_nor_albion	16	albion_tech_truth_peace_4	albion_tech_truth_peace_4	nor_mil	5	2000	0	0		
-	wh2_main_nor_albion	18	albion_tech_peace_1	albion_tech_peace_1	nor_mil	1	100	0	0		
-	wh2_main_nor_albion	18	albion_tech_peace_2	albion_tech_peace_2	nor_mil	2	400	0	0		
-	wh2_main_nor_albion	18	albion_tech_peace_3	albion_tech_peace_3	nor_mil	3	700	0	0		
-	wh2_main_nor_albion	18	albion_tech_peace_4	albion_tech_peace_4	nor_mil	4	1000	0	0		
-	wh2_main_nor_albion	18	albion_tech_peace_5	albion_tech_peace_5	nor_mil	5	1500	0	0		
-	wh2_main_nor_albion	14	albion_tech_ultimate	albion_tech_ultimate	nor_mil	6	2500	0	0		
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+#technology_nodes_tables;3;db/technology_nodes_tables/!_ovn_techs_albion_tech											
+albion_tech_war_1		wh2_main_nor_albion	10	albion_tech_war_1	nor_mil	1	100	0	0		
+albion_tech_war_2		wh2_main_nor_albion	10	albion_tech_war_2	nor_mil	2	400	0	0		
+albion_tech_war_3		wh2_main_nor_albion	10	albion_tech_war_3	nor_mil	3	700	0	0		
+albion_tech_war_4		wh2_main_nor_albion	10	albion_tech_war_4	nor_mil	4	1000	0	0		
+albion_tech_war_5		wh2_main_nor_albion	10	albion_tech_war_5	nor_mil	5	1500	0	0		
+albion_tech_war_truth_1		wh2_main_nor_albion	12	albion_tech_war_truth_1	nor_mil	2	800	0	0		
+albion_tech_war_truth_2		wh2_main_nor_albion	12	albion_tech_war_truth_2	nor_mil	3	1200	0	0		
+albion_tech_war_truth_3		wh2_main_nor_albion	12	albion_tech_war_truth_3	nor_mil	4	1600	0	0		
+albion_tech_war_truth_4		wh2_main_nor_albion	12	albion_tech_war_truth_4	nor_mil	5	2000	0	0		
+albion_tech_truth_1		wh2_main_nor_albion	14	albion_tech_truth_1	nor_mil	1	100	0	0		
+albion_tech_truth_2		wh2_main_nor_albion	14	albion_tech_truth_2	nor_mil	2	400	0	0		
+albion_tech_truth_3		wh2_main_nor_albion	14	albion_tech_truth_3	nor_mil	3	700	0	0		
+albion_tech_truth_4		wh2_main_nor_albion	14	albion_tech_truth_4	nor_mil	4	1000	0	0		
+albion_tech_truth_5		wh2_main_nor_albion	14	albion_tech_truth_5	nor_mil	5	1500	0	0		
+albion_tech_truth_peace_1		wh2_main_nor_albion	16	albion_tech_truth_peace_1	nor_mil	2	800	0	0		
+albion_tech_truth_peace_2		wh2_main_nor_albion	16	albion_tech_truth_peace_2	nor_mil	3	1200	0	0		
+albion_tech_truth_peace_3		wh2_main_nor_albion	16	albion_tech_truth_peace_3	nor_mil	4	1600	0	0		
+albion_tech_truth_peace_4		wh2_main_nor_albion	16	albion_tech_truth_peace_4	nor_mil	5	2000	0	0		
+albion_tech_peace_1		wh2_main_nor_albion	18	albion_tech_peace_1	nor_mil	1	100	0	0		
+albion_tech_peace_2		wh2_main_nor_albion	18	albion_tech_peace_2	nor_mil	2	400	0	0		
+albion_tech_peace_3		wh2_main_nor_albion	18	albion_tech_peace_3	nor_mil	3	700	0	0		
+albion_tech_peace_4		wh2_main_nor_albion	18	albion_tech_peace_4	nor_mil	4	1000	0	0		
+albion_tech_peace_5		wh2_main_nor_albion	18	albion_tech_peace_5	nor_mil	5	1500	0	0		
+albion_tech_ultimate		wh2_main_nor_albion	14	albion_tech_ultimate	nor_mil	6	2500	0	0		

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/mct_lost_factions_script_text.loc		
 mct_lost_factions_mod_title	OvN Lost Factions	true
 mct_lost_factions_mod_desc	"Lost Factions" adds new and interesting races to the campaign map and are playable with Mixu's Unlocker (Which is a required mod).	true
 mct_lost_factions_enable_txt	Enable AI Led Lost Factions	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/chaos_warpkeepers_event_feed_strings.loc		
 event_feed_strings_text_wh_event_feed_string_scripted_event_chaosstart_primary_detail	The Viletide	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_chaosstart_secondary_detail	The power of the Chaos Gods waxes strong, none more so than Nurgle. His noxious blessings spills to his most putrid followers in a scene of pus dribbling boils and rife mutation. A most devout sect, the norscan Rotblood Tribe, emboldened and empowered amass to reek havoc on the world. They have made a pact with the skaven clan Fester and using their ungodly warpstone-powered portal are able to cross vast distances in an instant. This vile tide can be weakened, or sustained if you choose, depending on if Rotblood hold the following settlements.\\n\\n[[img:bullet_chs_corruption]][[/img]][[col:dark_g]] Altar of Spawns[[/col]]\\n[[img:bullet_chs_corruption]][[/img]][[col:dark_g]] Brass Keep[[/col]]\\n[[img:bullet_chs_corruption]][[/img]][[col:dark_g]] Xahutec[[/col]]\\n[[img:bullet_chs_corruption]][[/img]][[col:dark_g]] Serpent's Fang[[/col]]	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_chaosspawn_primary_detail	The Venom Spreads	true

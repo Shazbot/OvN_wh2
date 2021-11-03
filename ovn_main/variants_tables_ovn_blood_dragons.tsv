@@ -1,4 +1,4 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_blood_dragons							
 dismounted_blood_knights		dismounted_blood_knights		1.0	1.0	0.0	
 dismounted_blood_knights_shield		dismounted_blood_knights_shield		1.0	1.0	0.0	

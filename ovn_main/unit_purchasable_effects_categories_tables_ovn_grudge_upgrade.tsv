@@ -1,6 +1,6 @@
-unit_purchasable_effects_categories_tables	0
-icon_path	key
-icon_salvage_armour.png	ovn_grudge_armour
-icon_salvage_weapon.png	ovn_grudge_inf
-icon_salvage_bag.png	ovn_grudge_cross
-icon_salvage_bag.png	ovn_grudge_can
+key	icon_path
+#unit_purchasable_effects_categories_tables;0;db/unit_purchasable_effects_categories_tables/ovn_grudge_upgrade	
+ovn_grudge_armour	icon_salvage_armour.png
+ovn_grudge_inf	icon_salvage_weapon.png
+ovn_grudge_cross	icon_salvage_bag.png
+ovn_grudge_can	icon_salvage_bag.png

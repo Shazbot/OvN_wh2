@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_troll	
 wh_main_chs_mon_trolls	ovn_troll
 wh_main_grn_mon_trolls	ovn_troll
 elo_armoured_icetrolls	ovn_troll

@@ -1,5 +1,5 @@
-units_to_exclusive_faction_permissions_tables	0
 key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/ovn_grudge		
 grudgebringer_infantry	wh_main_emp_empire	true
 grudgebringer_cannon	wh_main_emp_empire	true
 grudgebringer_crossbow	wh_main_emp_empire	true

@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/Sultan_Jaffar					
 Black_Book_Of_Ibn_Naggazar	item_ability.png	600	item_ability.png	battle	true
 summon_djinn_fighter	item_ability.png	600	item_ability.png	battle	true
 wh2_dlc12_army_abilities_great_invocation_of_djinn	item_ability.png	600	item_ability.png	battle	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_araby_post_battle.loc		
 campaign_post_battle_captive_options_onscreen_name_enslavepj_captive_option_araby_enslave	Put Into Chains	true
 campaign_post_battle_captive_options_description_enslavepj_captive_option_araby_enslave	The Araby slave markets can accommodate an immeasurable number of defeated and lost souls.	true
 campaign_post_battle_captive_options_onscreen_name_enslavepj_captive_option_fimir_enslave	Put Into Chains	true

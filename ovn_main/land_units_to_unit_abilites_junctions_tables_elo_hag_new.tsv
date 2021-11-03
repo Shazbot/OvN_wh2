@@ -1,5 +1,5 @@
-land_units_to_unit_abilites_junctions_tables	0
 ability	land_unit
+#land_units_to_unit_abilites_junctions_tables;0;db/land_units_to_unit_abilites_junctions_tables/elo_hag_new	
 wh2_dlc15_hero_abilities_mither	elo_sea_hag
 wh2_dlc15_hero_abilities_swamp_breath	elo_sea_hag
 wh_main_unit_passive_regeneration	elo_sea_hag

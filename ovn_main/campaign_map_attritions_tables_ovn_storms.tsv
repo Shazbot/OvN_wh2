@@ -1,5 +1,5 @@
-campaign_map_attritions_tables	3
-damage	key	type	message_event_association	is_snow
+key	damage	type	message_event_association	is_snow
+#campaign_map_attritions_tables;3;db/campaign_map_attritions_tables/ovn_storms				
 ovn_fimir_mist	ovn_fimir_mist	storm_region		false
 ovn_albion_mist	ovn_albion_mist	storm_region		false
 ovn_albion_storm	ovn_albion_storm	storm_region		false

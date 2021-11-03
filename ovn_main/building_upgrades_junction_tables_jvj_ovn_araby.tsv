@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/jvj_ovn_araby	
 ovn_arb_barracks_1	ovn_arb_barracks_2
 ovn_arb_barracks_2	ovn_arb_barracks_3
 ovn_arb_industry_basic_1	ovn_arb_industry_basic_2

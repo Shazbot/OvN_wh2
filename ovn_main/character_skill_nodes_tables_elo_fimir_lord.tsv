@@ -1,132 +1,132 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_main_skill_all_lord_self_full_plate_armour_starter	node_set_fimir_lord		2.0	elo_fimir_lord_self_01	0.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_devastating_charge	node_set_fimir_lord		2.0	elo_fimir_lord_self_02	1.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_thick-skinned	node_set_fimir_lord		2.0	elo_fimir_lord_self_03	2.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_hard_to_hit	node_set_fimir_lord		2.0	elo_fimir_lord_self_04	3.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_deadly_blade	node_set_fimir_lord		2.0	elo_fimir_lord_self_05	4.0		0	0	true
-	wh_main_skill_all_all_self_foe-seeker	node_set_fimir_lord		2.0	elo_fimir_lord_self_06	5.0		0	4	true
-	wh2_dlc11_skill_all_lord_self_wound-maker	node_set_fimir_lord		2.0	elo_fimir_lord_self_07	6.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_scarred_veteran	node_set_fimir_lord		2.0	elo_fimir_lord_self_08	7.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_self_indomitable	node_set_fimir_lord		2.0	elo_fimir_lord_self_09	8.0		0	0	true
-	wh2_dlc11_skill_nor_lords_self_quicksilver	node_set_fimir_lord		2.0	elo_fimir_lord_self_10	9.0		0	0	true
-	elo_fimir_witness_me	node_set_fimir_lord		2.0	elo_fimir_lord_self_11	10.0		0	4	true
-	wh_main_skill_chs_all_unique_aura_of_chaos	node_set_fimir_lord		0.0	elo_fimir_lord_unique_01	3.0		0	0	true
-	wh_main_skill_chs_lord_battle_hearts_of_iron	node_set_fimir_lord		0.0	elo_fimir_lord_unique_02	2.0		0	0	true
-	wh_main_skill_chs_lord_battle_voice_of_the_dark_gods	node_set_fimir_lord		0.0	elo_fimir_lord_unique_03	1.0		0	0	true
-	wh2_main_skill_all_immortality_lord	node_set_fimir_lord		0.0	elo_fimir_lord_immortality	6.0		0	0	true
-	elo_fimir_from_mists	node_set_fimir_lord		0.0	elo_fimir_from_mists	5.0		0	0	true
-	wh_main_skill_all_lord_campaign_route_marcher	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_01	0.0		0	0	true
-	wh2_main_skill_def_campaign_dreaded_slaver	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_02	1.0		0	0	true
-	wh_main_skill_chs_lord_campaign_serve_or_die	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_03	2.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_norse_resilience	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lord_campaign_despoilers	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_05	4.0		0	4	true
-	wh_dlc08_skill_nor_throgg_campaign_masters_of_the_fen	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_07	6.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_ancient_cunning	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_08	7.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_unnatural_healing	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_09	8.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_10	9.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	node_set_fimir_lord		5.0	elo_skill_fimir_campaign_11	10.0		0	4	true
-	wh_main_skill_chs_lord_battle_dominating_presence	node_set_fimir_lord		4.0	fimir_lord_battle_01	0.0		0	0	true
-	fimir_sacrifices	node_set_fimir_lord		4.0	fimir_lord_battle_02	1.0		0	0	true
-	fimir_riders_doggos	node_set_fimir_lord		4.0	fimir_lord_battle_03	2.0		0	0	true
-	fimir_bog_monsters	node_set_fimir_lord		4.0	fimir_lord_battle_04	3.0		0	0	true
-	fimir_swamp_warriors	node_set_fimir_lord		4.0	fimir_lord_battle_05	4.0		0	0	true
-	fimir_fen_giants	node_set_fimir_lord		4.0	fimir_lord_battle_06	5.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	node_set_fimir_lord		4.0	fimir_lord_battle_07	6.0		0	6	true
-	fimir_r7_warriors	node_set_fimir_lord		4.0	fimir_lord_battle_08	7.0		0	0	true
-	fimir_r7_elite_monsters	node_set_fimir_lord		4.0	fimir_lord_battle_09	8.0		0	0	true
-	fimir_r7_fast_beasts	node_set_fimir_lord		4.0	fimir_lord_battle_10	9.0		0	0	true
-	fimir_r7_elite_giants	node_set_fimir_lord		4.0	fimir_lord_battle_11	10.0		0	0	true
-	wh_dlc08_skill_nor_lords_battle_fight_or_die	node_set_fimir_lord		4.0	fimir_lord_battle_12	11.0		0	1	true
-	wh2_main_skill_innate_chs_diabolic_spendour	node_set_fimir_lord		6.0	fimir_lord_innate_01	0.0		0	0	false
-	wh2_main_skill_innate_chs_dominance	node_set_fimir_lord		6.0	fimir_lord_innate_02	1.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	node_set_fimir_lord		6.0	fimir_lord_innate_03	2.0		0	0	false
-	wh2_main_skill_innate_all_cunning	node_set_fimir_lord		6.0	fimir_lord_innate_04	3.0		0	0	false
-	wh2_main_skill_innate_all_determined	node_set_fimir_lord		6.0	fimir_lord_innate_05	4.0		0	0	false
-	wh2_main_skill_innate_all_confident	node_set_fimir_lord		6.0	fimir_lord_innate_06	5.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	node_set_fimir_lord		6.0	fimir_lord_innate_07	6.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	node_set_fimir_lord		6.0	fimir_lord_innate_08	7.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	node_set_fimir_lord		6.0	fimir_lord_innate_09	8.0		0	0	false
-	wh2_main_skill_innate_all_tough	node_set_fimir_lord		6.0	fimir_lord_innate_10	9.0		0	0	false
-	wh2_main_skill_innate_all_strong	node_set_fimir_lord		6.0	fimir_lord_innate_11	11.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	node_set_fimir_lord		6.0	fimir_lord_innate_12	12.0		0	0	false
-	wh2_main_skill_innate_all_strategist	node_set_fimir_lord		6.0	fimir_lord_innate_13	13.0		0	0	false
-	wh2_main_skill_innate_all_tactician	node_set_fimir_lord		6.0	fimir_lord_innate_14	16.0		0	0	false
-	fimir_worthless_slaves	node_set_fimir_lord		1.0	fimir_worthless_slaves	0.0		0	0	true
-	fimir_warrior_elite	node_set_fimir_lord		1.0	fimir_warrior_elite	1.0		0	0	true
-	fimir_untamed_monsters	node_set_fimir_lord		1.0	fimir_untamed_monsters	2.0		0	0	true
-	wh2_main_skill_all_hero_assist_army_replenish_troops	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	bale_beasts_campaign_01	0.0		0	0	true
-	wh2_main_skill_all_hero_passive_stimulate_growth	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	bale_beasts_campaign_02	1.0		0	0	true
-	wh2_main_skill_all_hero_hinder_settlement_damage_building	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	bale_beasts_campaign_03	2.0		0	0	true
-	wh2_main_skill_all_hero_hinder_agent_wound	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	bale_beasts_campaign_04	3.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_hinder_replenishment	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	bale_beasts_campaign_05	4.0		0	0	true
-	wh2_main_skill_all_hero_reduce_action_cost	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	bale_beasts_campaign_06	5.0		0	0	true
-	wh_dlc08_skill_all_dummy_agent_actions_nor_fimir_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		8.0	bale_beasts_campaign_actions_dummy	0.0		1	0	false
-	wh_dlc03_skill_magic_beasts_dummy_wyssans_wildform	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_00_dummy	11.0		1	0	false
-	wh_dlc03_skill_magic_beasts_wyssans_wildform	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_01	0.0		0	0	true
-	wh_dlc03_skill_magic_beasts_wild_heart	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_02	1.0		0	0	true
-	wh_dlc03_skill_magic_beasts_flock_of_doom	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_03	2.0		0	0	true
-	wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_04	3.0		0	0	true
-	wh_dlc03_skill_magic_beasts_the_amber_spear	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_05	4.0		0	0	true
-	wh_main_skill_all_magic_all_06_evasion	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_06	5.0		0	4	true
-	wh_main_skill_all_magic_all_07_earthing	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts__magic_07	6.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_08	7.0		0	0	true
-	wh_dlc03_skill_magic_beasts_the_curse_of_anraheir	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_09	8.0		0	0	true
-	wh_dlc03_skill_magic_beasts_transformation_of_kadon	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_10	9.0		0	0	true
-	wh_main_skill_all_magic_all_11_arcane_conduit	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	bale_beasts_magic_11	10.0		0	4	true
-	wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	bale_beasts_unique_01	0.0		0	0	true
-	wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	bale_beasts_unique_02	1.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	bale_beasts_unique_03	2.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	bale_beasts_unique_04	3.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	bale_beasts_unique_05	4.0		0	0	true
-	wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	bale_beasts_unique_06	5.0		0	0	true
-	wh2_main_skill_all_hero_assist_army_replenish_troops	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	bale_death_campaign_01	0.0		0	0	true
-	wh2_main_skill_all_hero_passive_stimulate_growth	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	bale_death_campaign_02	1.0		0	0	true
-	wh2_main_skill_all_hero_hinder_settlement_damage_building	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	bale_death_campaign_03	2.0		0	0	true
-	wh2_main_skill_all_hero_hinder_agent_wound	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	bale_death_campaign_04	3.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_hinder_replenishment	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	bale_death_campaign_05	4.0		0	0	true
-	wh2_main_skill_all_hero_reduce_action_cost	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	bale_death_campaign_06	5.0		0	0	true
-	wh_dlc08_skill_all_dummy_agent_actions_nor_fimir_balefiend	wh_dlc08_nor_cha_fimir_balefiend_death		8.0	bale_death_campaign_actions_dummy	0.0		1	0	false
-	wh_main_skill_all_magic_death_dummy_spirit_leech	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_00_dummy	11.0		1	0	false
-	wh_main_skill_all_magic_death_01_spirit_leech	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_01	0.0		0	0	true
-	wh_main_skill_all_magic_death_03_life_leeching	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_02	1.0		0	0	true
-	wh_main_skill_all_magic_death_02_aspect_of_the_dreadknight	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_03	2.0		0	0	true
-	wh_main_skill_all_magic_death_04_soulblight	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_04	3.0		0	0	true
-	wh_main_skill_all_magic_death_05_doom_and_darkness	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_05	4.0		0	0	true
-	wh_main_skill_all_magic_all_06_evasion	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_06	5.0		0	4	true
-	wh_main_skill_all_magic_all_07_earthing	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_07	6.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_08	7.0		0	0	true
-	wh_main_skill_all_magic_death_09_the_fate_of_bjuna	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_09	8.0		0	0	true
-	wh_main_skill_all_magic_death_10_the_purple_sun_of_xereus	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_10	9.0		0	0	true
-	wh_main_skill_all_magic_all_11_arcane_conduit	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	bale_death_magic_11	10.0		0	4	true
-	wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	bale_death_unique_01	0.0		0	0	true
-	wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	bale_death_unique_02	1.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	bale_death_unique_03	2.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	bale_death_unique_04	3.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	bale_death_unique_05	4.0		0	0	true
-	wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	bale_death_unique_06	5.0		0	0	true
-	wh2_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_01	0.0		0	0	false
-	wh2_main_skill_innate_chs_dominance	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_02	1.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_03	2.0		0	0	false
-	wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_04	3.0		0	0	false
-	wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_05	4.0		0	0	false
-	wh2_main_skill_innate_all_confident	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts__innate_06	5.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_07	6.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_08	7.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_09	8.0		0	0	false
-	wh2_main_skill_innate_all_tough	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_10	9.0		0	0	false
-	wh2_main_skill_innate_all_knowledgeable	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_13	12.0		0	0	false
-	wh2_main_skill_innate_all_intelligent	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	bale_beasts_innate_14	13.0		0	0	false
-	wh2_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_01	0.0		0	0	false
-	wh2_main_skill_innate_chs_dominance	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_02	1.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_03	2.0		0	0	false
-	wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_04	3.0		0	0	false
-	wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_05	4.0		0	0	false
-	wh2_main_skill_innate_all_confident	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_06	5.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_07	6.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_08	7.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_09	8.0		0	0	false
-	wh2_main_skill_innate_all_tough	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_10	9.0		0	0	false
-	wh2_main_skill_innate_all_knowledgeable	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_13	12.0		0	0	false
-	wh2_main_skill_innate_all_intelligent	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	bale_death_innate_14	13.0		0	0	false
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_fimir_lord										
+elo_fimir_lord_self_01		wh_main_skill_all_lord_self_full_plate_armour_starter	node_set_fimir_lord		2.0	0.0		0	0	true
+elo_fimir_lord_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	node_set_fimir_lord		2.0	1.0		0	0	true
+elo_fimir_lord_self_03		wh2_dlc11_skill_all_lord_self_thick-skinned	node_set_fimir_lord		2.0	2.0		0	0	true
+elo_fimir_lord_self_04		wh2_dlc11_skill_all_lord_self_hard_to_hit	node_set_fimir_lord		2.0	3.0		0	0	true
+elo_fimir_lord_self_05		wh2_dlc11_skill_all_lord_self_deadly_blade	node_set_fimir_lord		2.0	4.0		0	0	true
+elo_fimir_lord_self_06		wh_main_skill_all_all_self_foe-seeker	node_set_fimir_lord		2.0	5.0		0	4	true
+elo_fimir_lord_self_07		wh2_dlc11_skill_all_lord_self_wound-maker	node_set_fimir_lord		2.0	6.0		0	0	true
+elo_fimir_lord_self_08		wh2_dlc11_skill_all_lord_self_scarred_veteran	node_set_fimir_lord		2.0	7.0		0	0	true
+elo_fimir_lord_self_09		wh2_dlc11_skill_all_lord_self_self_indomitable	node_set_fimir_lord		2.0	8.0		0	0	true
+elo_fimir_lord_self_10		wh2_dlc11_skill_nor_lords_self_quicksilver	node_set_fimir_lord		2.0	9.0		0	0	true
+elo_fimir_lord_self_11		elo_fimir_witness_me	node_set_fimir_lord		2.0	10.0		0	4	true
+elo_fimir_lord_unique_01		wh_main_skill_chs_all_unique_aura_of_chaos	node_set_fimir_lord		0.0	3.0		0	0	true
+elo_fimir_lord_unique_02		wh_main_skill_chs_lord_battle_hearts_of_iron	node_set_fimir_lord		0.0	2.0		0	0	true
+elo_fimir_lord_unique_03		wh_main_skill_chs_lord_battle_voice_of_the_dark_gods	node_set_fimir_lord		0.0	1.0		0	0	true
+elo_fimir_lord_immortality		wh2_main_skill_all_immortality_lord	node_set_fimir_lord		0.0	6.0		0	0	true
+elo_fimir_from_mists		elo_fimir_from_mists	node_set_fimir_lord		0.0	5.0		0	0	true
+elo_skill_fimir_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	node_set_fimir_lord		5.0	0.0		0	0	true
+elo_skill_fimir_campaign_02		wh2_main_skill_def_campaign_dreaded_slaver	node_set_fimir_lord		5.0	1.0		0	0	true
+elo_skill_fimir_campaign_03		wh_main_skill_chs_lord_campaign_serve_or_die	node_set_fimir_lord		5.0	2.0		0	0	true
+elo_skill_fimir_campaign_04		wh_dlc08_skill_nor_lords_campaign_norse_resilience	node_set_fimir_lord		5.0	3.0		0	0	true
+elo_skill_fimir_campaign_05		wh_dlc08_skill_nor_lord_campaign_despoilers	node_set_fimir_lord		5.0	4.0		0	4	true
+elo_skill_fimir_campaign_06		wh_dlc08_skill_nor_throgg_campaign_masters_of_the_fen	node_set_fimir_lord		5.0	5.0		0	4	true
+elo_skill_fimir_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	node_set_fimir_lord		5.0	6.0		0	0	true
+elo_skill_fimir_campaign_08		wh_main_skill_vmp_lord_campaign_ancient_cunning	node_set_fimir_lord		5.0	7.0		0	0	true
+elo_skill_fimir_campaign_09		wh_dlc08_skill_nor_lords_campaign_unnatural_healing	node_set_fimir_lord		5.0	8.0		0	0	true
+elo_skill_fimir_campaign_10		wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	node_set_fimir_lord		5.0	9.0		0	0	true
+elo_skill_fimir_campaign_11		wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	node_set_fimir_lord		5.0	10.0		0	4	true
+fimir_lord_battle_01		wh_main_skill_chs_lord_battle_dominating_presence	node_set_fimir_lord		4.0	0.0		0	0	true
+fimir_lord_battle_02		fimir_sacrifices	node_set_fimir_lord		4.0	1.0		0	0	true
+fimir_lord_battle_03		fimir_riders_doggos	node_set_fimir_lord		4.0	2.0		0	0	true
+fimir_lord_battle_04		fimir_bog_monsters	node_set_fimir_lord		4.0	3.0		0	0	true
+fimir_lord_battle_05		fimir_swamp_warriors	node_set_fimir_lord		4.0	4.0		0	0	true
+fimir_lord_battle_06		fimir_fen_giants	node_set_fimir_lord		4.0	5.0		0	0	true
+fimir_lord_battle_07		wh_main_skill_all_lord_battle_rally	node_set_fimir_lord		4.0	6.0		0	6	true
+fimir_lord_battle_08		fimir_r7_warriors	node_set_fimir_lord		4.0	7.0		0	0	true
+fimir_lord_battle_09		fimir_r7_elite_monsters	node_set_fimir_lord		4.0	8.0		0	0	true
+fimir_lord_battle_10		fimir_r7_fast_beasts	node_set_fimir_lord		4.0	9.0		0	0	true
+fimir_lord_battle_11		fimir_r7_elite_giants	node_set_fimir_lord		4.0	10.0		0	0	true
+fimir_lord_battle_12		wh_dlc08_skill_nor_lords_battle_fight_or_die	node_set_fimir_lord		4.0	11.0		0	1	true
+fimir_lord_innate_01		wh2_main_skill_innate_chs_diabolic_spendour	node_set_fimir_lord		6.0	0.0		0	0	false
+fimir_lord_innate_02		wh2_main_skill_innate_chs_dominance	node_set_fimir_lord		6.0	1.0		0	0	false
+fimir_lord_innate_03		wh2_main_skill_innate_all_fleet_footed	node_set_fimir_lord		6.0	2.0		0	0	false
+fimir_lord_innate_04		wh2_main_skill_innate_all_cunning	node_set_fimir_lord		6.0	3.0		0	0	false
+fimir_lord_innate_05		wh2_main_skill_innate_all_determined	node_set_fimir_lord		6.0	4.0		0	0	false
+fimir_lord_innate_06		wh2_main_skill_innate_all_confident	node_set_fimir_lord		6.0	5.0		0	0	false
+fimir_lord_innate_07		wh2_main_skill_innate_all_disciplined	node_set_fimir_lord		6.0	6.0		0	0	false
+fimir_lord_innate_08		wh2_main_skill_innate_all_perceptive	node_set_fimir_lord		6.0	7.0		0	0	false
+fimir_lord_innate_09		wh2_main_skill_innate_all_aggressive	node_set_fimir_lord		6.0	8.0		0	0	false
+fimir_lord_innate_10		wh2_main_skill_innate_all_tough	node_set_fimir_lord		6.0	9.0		0	0	false
+fimir_lord_innate_11		wh2_main_skill_innate_all_strong	node_set_fimir_lord		6.0	11.0		0	0	false
+fimir_lord_innate_12		wh2_main_skill_innate_all_weapon_master	node_set_fimir_lord		6.0	12.0		0	0	false
+fimir_lord_innate_13		wh2_main_skill_innate_all_strategist	node_set_fimir_lord		6.0	13.0		0	0	false
+fimir_lord_innate_14		wh2_main_skill_innate_all_tactician	node_set_fimir_lord		6.0	16.0		0	0	false
+fimir_worthless_slaves		fimir_worthless_slaves	node_set_fimir_lord		1.0	0.0		0	0	true
+fimir_warrior_elite		fimir_warrior_elite	node_set_fimir_lord		1.0	1.0		0	0	true
+fimir_untamed_monsters		fimir_untamed_monsters	node_set_fimir_lord		1.0	2.0		0	0	true
+bale_beasts_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	0.0		0	0	true
+bale_beasts_campaign_02		wh2_main_skill_all_hero_passive_stimulate_growth	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	1.0		0	0	true
+bale_beasts_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	2.0		0	0	true
+bale_beasts_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	3.0		0	0	true
+bale_beasts_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	4.0		0	0	true
+bale_beasts_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0	5.0		0	0	true
+bale_beasts_campaign_actions_dummy		wh_dlc08_skill_all_dummy_agent_actions_nor_fimir_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		8.0	0.0		1	0	false
+bale_beasts_magic_00_dummy		wh_dlc03_skill_magic_beasts_dummy_wyssans_wildform	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	11.0		1	0	false
+bale_beasts_magic_01		wh_dlc03_skill_magic_beasts_wyssans_wildform	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	0.0		0	0	true
+bale_beasts_magic_02		wh_dlc03_skill_magic_beasts_wild_heart	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	1.0		0	0	true
+bale_beasts_magic_03		wh_dlc03_skill_magic_beasts_flock_of_doom	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	2.0		0	0	true
+bale_beasts_magic_04		wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	3.0		0	0	true
+bale_beasts_magic_05		wh_dlc03_skill_magic_beasts_the_amber_spear	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	4.0		0	0	true
+bale_beasts_magic_06		wh_main_skill_all_magic_all_06_evasion	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	5.0		0	4	true
+bale_beasts__magic_07		wh_main_skill_all_magic_all_07_earthing	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	6.0		0	0	true
+bale_beasts_magic_08		wh_main_skill_all_magic_all_08_power_drain	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	7.0		0	0	true
+bale_beasts_magic_09		wh_dlc03_skill_magic_beasts_the_curse_of_anraheir	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	8.0		0	0	true
+bale_beasts_magic_10		wh_dlc03_skill_magic_beasts_transformation_of_kadon	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	9.0		0	0	true
+bale_beasts_magic_11		wh_main_skill_all_magic_all_11_arcane_conduit	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0	10.0		0	4	true
+bale_beasts_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	0.0		0	0	true
+bale_beasts_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	1.0		0	0	true
+bale_beasts_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	2.0		0	0	true
+bale_beasts_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	3.0		0	0	true
+bale_beasts_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	4.0		0	0	true
+bale_beasts_unique_06		wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0	5.0		0	0	true
+bale_death_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	0.0		0	0	true
+bale_death_campaign_02		wh2_main_skill_all_hero_passive_stimulate_growth	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	1.0		0	0	true
+bale_death_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	2.0		0	0	true
+bale_death_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	3.0		0	0	true
+bale_death_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	4.0		0	0	true
+bale_death_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	wh_dlc08_nor_cha_fimir_balefiend_death		5.0	5.0		0	0	true
+bale_death_campaign_actions_dummy		wh_dlc08_skill_all_dummy_agent_actions_nor_fimir_balefiend	wh_dlc08_nor_cha_fimir_balefiend_death		8.0	0.0		1	0	false
+bale_death_magic_00_dummy		wh_main_skill_all_magic_death_dummy_spirit_leech	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	11.0		1	0	false
+bale_death_magic_01		wh_main_skill_all_magic_death_01_spirit_leech	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	0.0		0	0	true
+bale_death_magic_02		wh_main_skill_all_magic_death_03_life_leeching	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	1.0		0	0	true
+bale_death_magic_03		wh_main_skill_all_magic_death_02_aspect_of_the_dreadknight	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	2.0		0	0	true
+bale_death_magic_04		wh_main_skill_all_magic_death_04_soulblight	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	3.0		0	0	true
+bale_death_magic_05		wh_main_skill_all_magic_death_05_doom_and_darkness	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	4.0		0	0	true
+bale_death_magic_06		wh_main_skill_all_magic_all_06_evasion	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	5.0		0	4	true
+bale_death_magic_07		wh_main_skill_all_magic_all_07_earthing	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	6.0		0	0	true
+bale_death_magic_08		wh_main_skill_all_magic_all_08_power_drain	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	7.0		0	0	true
+bale_death_magic_09		wh_main_skill_all_magic_death_09_the_fate_of_bjuna	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	8.0		0	0	true
+bale_death_magic_10		wh_main_skill_all_magic_death_10_the_purple_sun_of_xereus	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	9.0		0	0	true
+bale_death_magic_11		wh_main_skill_all_magic_all_11_arcane_conduit	wh_dlc08_nor_cha_fimir_balefiend_death		2.0	10.0		0	4	true
+bale_death_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	0.0		0	0	true
+bale_death_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	1.0		0	0	true
+bale_death_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	2.0		0	0	true
+bale_death_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	3.0		0	0	true
+bale_death_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	4.0		0	0	true
+bale_death_unique_06		wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_death		0.0	5.0		0	0	true
+bale_beasts_innate_01		wh2_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	0.0		0	0	false
+bale_beasts_innate_02		wh2_main_skill_innate_chs_dominance	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	1.0		0	0	false
+bale_beasts_innate_03		wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	2.0		0	0	false
+bale_beasts_innate_04		wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	3.0		0	0	false
+bale_beasts_innate_05		wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	4.0		0	0	false
+bale_beasts__innate_06		wh2_main_skill_innate_all_confident	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	5.0		0	0	false
+bale_beasts_innate_07		wh2_main_skill_innate_all_disciplined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	6.0		0	0	false
+bale_beasts_innate_08		wh2_main_skill_innate_all_perceptive	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	7.0		0	0	false
+bale_beasts_innate_09		wh2_main_skill_innate_all_aggressive	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	8.0		0	0	false
+bale_beasts_innate_10		wh2_main_skill_innate_all_tough	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	9.0		0	0	false
+bale_beasts_innate_13		wh2_main_skill_innate_all_knowledgeable	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	12.0		0	0	false
+bale_beasts_innate_14		wh2_main_skill_innate_all_intelligent	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0	13.0		0	0	false
+bale_death_innate_01		wh2_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	0.0		0	0	false
+bale_death_innate_02		wh2_main_skill_innate_chs_dominance	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	1.0		0	0	false
+bale_death_innate_03		wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	2.0		0	0	false
+bale_death_innate_04		wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	3.0		0	0	false
+bale_death_innate_05		wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	4.0		0	0	false
+bale_death_innate_06		wh2_main_skill_innate_all_confident	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	5.0		0	0	false
+bale_death_innate_07		wh2_main_skill_innate_all_disciplined	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	6.0		0	0	false
+bale_death_innate_08		wh2_main_skill_innate_all_perceptive	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	7.0		0	0	false
+bale_death_innate_09		wh2_main_skill_innate_all_aggressive	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	8.0		0	0	false
+bale_death_innate_10		wh2_main_skill_innate_all_tough	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	9.0		0	0	false
+bale_death_innate_13		wh2_main_skill_innate_all_knowledgeable	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	12.0		0	0	false
+bale_death_innate_14		wh2_main_skill_innate_all_intelligent	wh_dlc08_nor_cha_fimir_balefiend_death		6.0	13.0		0	0	false

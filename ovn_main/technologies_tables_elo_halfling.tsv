@@ -1,5 +1,5 @@
-technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;5;db/technologies_tables/elo_halfling														
 elo_halfling_conscription		0	wh_main_emp_state_troop_sergeants	0	0	0	0	false	false	"placeholder.tga"	8989001	false	false	true
 elo_halfling_good_pots		0	wh_main_emp_vehicle_armour_plating	0	0	0	0	false	false	"placeholder.tga"	8989002	false	false	true
 elo_halfling_farmer_tools		0	tech_dlc07_brt_economy_other_3	0	0	0	0	false	false	"placeholder.tga"	8989003	false	false	true

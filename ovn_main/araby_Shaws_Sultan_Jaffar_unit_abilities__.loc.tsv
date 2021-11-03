@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/araby_Shaws_Sultan_Jaffar_unit_abilities__.loc		
 unit_abilities_tooltip_text_ground_arua_evil_sultan	makes floor effects	true
 unit_abilities_onscreen_name_ground_arua_evil_sultan	ground arua evil sultan	true
 unit_abilities_onscreen_name_wh2_dlc12_army_abilities_great_invocation_of_djinn	Summon Serpent Djinn	true

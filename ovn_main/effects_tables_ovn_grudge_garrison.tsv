@@ -1,3 +1,3 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_grudge_garrison					
 grudge_summon_wagons	general_ability.png	705	general_ability.png	battle	true

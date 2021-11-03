@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/alb_resource	
 alb_resource_pottery_1	alb_resource_pottery_2
 alb_resource_pottery_2	alb_resource_pottery_3
 alb_resource_wood_1	alb_resource_wood_2

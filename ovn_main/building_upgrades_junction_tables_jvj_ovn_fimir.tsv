@@ -1,4 +1,4 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/jvj_ovn_fimir	
 ovn_fimir_income_1	ovn_fimir_income_2
 ovn_fimir_income_2	ovn_fimir_income_3

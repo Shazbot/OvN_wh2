@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/araby_lord_mounts_character_skill_level_details.loc		
 character_skill_level_details_localised_name_1skill_mount	Griffon	true
 character_skill_level_details_localised_description_1skill_mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such the renown of these majestic beasts. 	true
 character_skill_level_details_localised_name_1skill_Mount_Elephant	Elephant	true

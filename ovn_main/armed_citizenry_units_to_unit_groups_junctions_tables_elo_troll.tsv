@@ -1,5 +1,5 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/elo_troll			
 44001	3	elo_armoured_icetrolls	elo_armoured_icetrolls
 44002	3	elo_river_trolls	elo_river_trolls
 44003	1	elo_mountain_trolls	elo_mountain_trolls

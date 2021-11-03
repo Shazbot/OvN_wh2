@@ -1,5 +1,5 @@
-campaign_payload_ui_details_tables	0
 component	icon
+#campaign_payload_ui_details_tables;0;db/campaign_payload_ui_details_tables/ovn	
 ovn_dilemma_moot_confed_deny	ui/campaign ui/effect_bundles/diplomacy.png
 ovn_dilemma_moot_confed	ui/campaign ui/effect_bundles/confederation.png
 ovn_dilemma_grudge_hire_deny	ui/campaign ui/effect_bundles/diplomacy.png

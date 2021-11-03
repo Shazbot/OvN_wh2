@@ -1,5 +1,5 @@
-ritual_payloads_tables	1
 key	human_only
+#ritual_payloads_tables;1;db/ritual_payloads_tables/ovn_crafting	
 ovn_arb_crafting_weapons_01	false
 ovn_arb_crafting_weapons_02	false
 ovn_arb_crafting_weapons_03	false

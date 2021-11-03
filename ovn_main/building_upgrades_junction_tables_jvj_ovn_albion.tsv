@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/jvj_ovn_albion	
 ovn_albion_military_1	ovn_albion_military_2
 ovn_albion_military_2	ovn_albion_military_3
 ovn_albion_outpost_military_1	ovn_albion_outpost_military_2

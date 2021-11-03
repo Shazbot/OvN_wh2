@@ -1,16 +1,16 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-trait_araby.png	arb_fatandira_innate			0	true	false	false	5.0	0
-arb_fatandira_aimed_shot.png	arb_fatandira_aimed_shot			0	false	false	false	0.0	0
-character_cooldown.png	arb_fatandira_aimed_shot_cooldown			0	false	false	false	0.0	0
-character_diplomacy.png	arb_fatandira_unique_1			11	false	false	false	0.0	0
-character_ammo.png	arb_fatandira_unique_2			0	false	false	false	0.0	0
-character_untainted.png	arb_fatandira_unique_3			0	false	false	false	0.0	0
-campaign_growth.png	arb_fatandira_unique_4			0	false	false	false	0.0	0
-battle_defence.png	arb_fatandira_unique_5			0	false	false	false	0.0	0
-arb_fatandira_sand_feint.png	arb_fatandira_unique_6			0	false	false	false	0.0	0
-mount_barded_warhorse.png	arb_fatandira_anc_warhorse			7	false	false	false	0.0	0
-mount_great_eagle.png	arb_fatandira_anc_roc			15	false	false	false	0.0	0
-item_weapon.png	arb_fatandira_anc_blades_demise			10	false	false	false	0.0	0
-item_armour.png	arb_fatandira_anc_scythan_armour			12	false	false	false	0.0	0
-wh2_dlc09_usurian.png	arb_scythan_tomb_king_units			7	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ovn_wolf_fatandira									
+arb_fatandira_innate	trait_araby.png			0	true	false	false	5.0	0
+arb_fatandira_aimed_shot	arb_fatandira_aimed_shot.png			0	false	false	false	0.0	0
+arb_fatandira_aimed_shot_cooldown	character_cooldown.png			0	false	false	false	0.0	0
+arb_fatandira_unique_1	character_diplomacy.png			11	false	false	false	0.0	0
+arb_fatandira_unique_2	character_ammo.png			0	false	false	false	0.0	0
+arb_fatandira_unique_3	character_untainted.png			0	false	false	false	0.0	0
+arb_fatandira_unique_4	campaign_growth.png			0	false	false	false	0.0	0
+arb_fatandira_unique_5	battle_defence.png			0	false	false	false	0.0	0
+arb_fatandira_unique_6	arb_fatandira_sand_feint.png			0	false	false	false	0.0	0
+arb_fatandira_anc_warhorse	mount_barded_warhorse.png			7	false	false	false	0.0	0
+arb_fatandira_anc_roc	mount_great_eagle.png			15	false	false	false	0.0	0
+arb_fatandira_anc_blades_demise	item_weapon.png			10	false	false	false	0.0	0
+arb_fatandira_anc_scythan_armour	item_armour.png			12	false	false	false	0.0	0
+arb_scythan_tomb_king_units	wh2_dlc09_usurian.png			7	false	false	false	0.0	0

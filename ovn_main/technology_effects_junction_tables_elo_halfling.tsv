@@ -1,5 +1,5 @@
-technology_effects_junction_tables	0
 technology	effect	effect_scope	value
+#technology_effects_junction_tables;0;db/technology_effects_junction_tables/elo_halfling			
 elo_halfling_conscription	elo_hlf_militia_up	faction_to_force_own_unseen	-5.0
 elo_halfling_good_pots	elo_hlf_militia_armour	faction_to_force_own_unseen	10.0
 elo_halfling_good_pots	elo_hlf_militia_up	faction_to_force_own_unseen	-2.0

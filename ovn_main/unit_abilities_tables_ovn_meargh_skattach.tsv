@@ -1,5 +1,5 @@
-unit_abilities_tables	16
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;16;db/unit_abilities_tables/ovn_meargh_skattach											
 fim_skattach_poison_mist	true	fim_skattach_poison_mist		wh_type_area_of_hexes		wh_main_anc_group_common	true	false	hero		false
 fim_skattach_summon_bloodletters	true	fim_skattach_summon_bloodletters		wh_type_augment		wh_main_anc_group_rare	true	false	hero		false
 fim_meargh_skattach_staff_balor_ability	true	fim_skattach_staff_balor		wh_type_vortex		wh_main_anc_group_rare	true	false	hero		false

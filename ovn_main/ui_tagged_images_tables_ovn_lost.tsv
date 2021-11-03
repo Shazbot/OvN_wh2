@@ -1,9 +1,9 @@
-ui_tagged_images_tables	0
-image_path	key
-UI/Flags/ovn_araby/mon_24.png	ovn_araby
-UI/Flags/ovn_scythans/mon_24.png	ovn_scythans
-UI/Flags/ovn_scimitar/mon_24.png	ovn_scimitar
-ui/skins/default/icon_mtl_seasong.png	icon_halfling_salt
-UI/Flags/wh2_dlc09_tmb_numas/mon_24.png	ovn_numas
-ui/flags/wh2_dlc12_skv_clan_fester/mon_24.png	ovn_fester
-ui/skins/default/pj_rot_warpstone.png	pj_rot_warpstone
+key	image_path
+#ui_tagged_images_tables;0;db/ui_tagged_images_tables/ovn_lost	
+ovn_araby	UI/Flags/ovn_araby/mon_24.png
+ovn_scythans	UI/Flags/ovn_scythans/mon_24.png
+ovn_scimitar	UI/Flags/ovn_scimitar/mon_24.png
+icon_halfling_salt	ui/skins/default/icon_mtl_seasong.png
+ovn_numas	UI/Flags/wh2_dlc09_tmb_numas/mon_24.png
+ovn_fester	ui/flags/wh2_dlc12_skv_clan_fester/mon_24.png
+pj_rot_warpstone	ui/skins/default/pj_rot_warpstone.png

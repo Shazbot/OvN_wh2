@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_troll					
 elo_fedbywar_sp	battle_movement.png	109	battle_movement.png	battle	true
 elo_fedbywar_ch	charge.png	101	charge.png	battle	true
 elo_toostupid_psy	attribute_immune_to_psychology.png	200	attribute_immune_to_psychology.png	battle	true

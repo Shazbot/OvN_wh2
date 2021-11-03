@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_carrion_ability.loc		
 unit_abilities_tooltip_text_elo_special_treat	What are your orders boss? Why are you looking at me like that? Nononono......NOOOO!	true
 unit_abilities_onscreen_name_elo_special_treat	A Special Treat	true
 unit_abilities_tooltip_text_elo_those_are_tasty	Manipulating the Trolls is a key skill to survival in the Carrion Tribe. Luckily it isn't very difficult to do that, with one exception of course.	true

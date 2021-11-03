@@ -1,3 +1,3 @@
-character_skill_node_sets_tables	2
-agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
-runesmith			elo_sea_hag		false	false	elo_sea_hag
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key
+#character_skill_node_sets_tables;2;db/character_skill_node_sets_tables/!elo_new_hags							
+elo_sea_hag	runesmith				false	false	elo_sea_hag

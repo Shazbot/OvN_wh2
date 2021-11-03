@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_fimir_technologies_belakor.loc		
 technologies_onscreen_name_elo_fimir_slave_eco_1_belakor	Tyrannical Rule	false
 technologies_short_description_elo_fimir_slave_eco_1_belakor	The Fimir with the highest rank rules and the lower casts follow without resistance. This is the way of the Fimir.	false
 technologies_onscreen_name_elo_fimir_slave_eco_2_belakor	Slave Labour	false

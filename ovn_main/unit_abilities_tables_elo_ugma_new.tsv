@@ -1,4 +1,4 @@
-unit_abilities_tables	16
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;16;db/unit_abilities_tables/elo_ugma_new											
 elo_reservoir_hammer	false	wh2_twa03_weapon_abilities_whip_of_agony		wh_type_augment		wh_main_anc_group_rare	true	false	lord		false
 elo_trash_armour	false	wh2_pro08_character_abilities_gotrek_doom		wh_type_augment		wh_main_anc_group_rare	true	false	lord		false

@@ -1,5 +1,5 @@
-campaign_mercenary_unit_character_level_restrictions_tables	1
-character_level	unit	faction_override
-32	ovn_gharnus_demon	
-21	ovn_killing_eye	
-18	ovn_finmor_belakor	
+unit	faction_override	character_level
+#campaign_mercenary_unit_character_level_restrictions_tables;1;db/campaign_mercenary_unit_character_level_restrictions_tables/@@fimir_units		
+ovn_gharnus_demon		32
+ovn_killing_eye		21
+ovn_finmor_belakor		18

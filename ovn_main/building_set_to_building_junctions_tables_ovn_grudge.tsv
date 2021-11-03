@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/ovn_grudge			
 wh_main_emp_cha_grudge_main		wh_main_emp_cha_grudge_settlement	false
 wh_main_emp_cha_grudge_recruit		wh_main_emp_cha_grudge_recruit	false
 wh_main_emp_cha_grudge_wizard		wh_main_emp_cha_grudge_worship	false

@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_boglar_land_units__.loc		
 land_units_onscreen_name_elo_boglar_shaman	Boglar Shaman	true
 land_units_onscreen_name_elo_boglar_shaman_hound	Boglar Shaman	true

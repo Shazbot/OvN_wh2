@@ -1,6 +1,6 @@
-incidents_tables	5
-generate	key	ui_image	prioritised	event_category
-false	ovn_hlf_comradeship	celebration	true	Event
-false	ovn_hlf_missions_ingredient_unlocked	celebration	true	Event
-false	ovn_hlf_missions_army_too_big	imperial_supplies	true	Event
-false	pj_rot_warpstone_incident	generic	false	Event
+key	generate	ui_image	prioritised	event_category
+#incidents_tables;5;db/incidents_tables/ovn				
+ovn_hlf_comradeship	false	celebration	true	Event
+ovn_hlf_missions_ingredient_unlocked	false	celebration	true	Event
+ovn_hlf_missions_army_too_big	false	imperial_supplies	true	Event
+pj_rot_warpstone_incident	false	generic	false	Event

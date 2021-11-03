@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_carrion_description_short_texts__.loc		
 unit_description_short_texts_text_elo_carrion_boss	Goblin Big Bosses of the Carrion Tribes are survivors, they are either clever enough to manipulate their rather dim troll overlords or just faster than their peers when running away.	true
 unit_description_short_texts_text_elo_carrion_boss_squig	Goblin Big Bosses of the Carrion Tribes are survivors, they are either clever enough to manipulate their rather dim troll overlords or just faster than their peers when running away.	true

@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/obo_grudgebringers_data					
 wh2_main_effect_agent_enable_recruitment_grudgebringers	captain.png	3	captain.png	campaign	true
 wh2_main_effect_agent_cap_increase_grudgebringers	captain.png	102	captain.png	campaign	true
 grudge_skill_ability_volley_of_arrows	general_ability.png	600	general_ability.png	battle	true

@@ -1,137 +1,137 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-spy	elo_carrion_boss				false	true	elo_carrion_boss	1.1
-general	ovn_stormrider				false	true	ovn_stormrider	1.1
-general	arb_fatandira				false	true	arb_fatandira	1.0
-general	arb_golden_magus				false	true	arb_golden_magus	1.4
-general	ovn_hlf_glibfoot				false	true	ovn_hlf_glibfoot	1.4
-general	ovn_hlf_moot_general				false	true	ovn_hlf_moot_general	1.4
-general	ovn_hlf_moot_general_1				false	true	ovn_hlf_moot_general	1.4
-spy	ovn_hlf_fieldwarden_01				false	true	ovn_hlf_fieldwarden	1.0
-spy	ovn_hlf_fieldwarden_02				false	true	ovn_hlf_fieldwarden	1.0
-dignitary	ovn_hlf_master_chef_01				false	true	ovn_hlf_master_chef	1.0
-dignitary	ovn_hlf_master_chef_02				false	true	ovn_hlf_master_chef	1.0
-champion	ovn_hlf_sheriff_01				false	true	ovn_hlf_sheriff	1.0
-champion	ovn_hlf_sheriff_02				false	true	ovn_hlf_sheriff	1.0
-wizard	wh_main_art_set_vmp_necromancer_01				false	true	vmp_necromancer	1.0
-wizard	wh_main_art_set_vmp_necromancer_02				false	true	vmp_necromancer	1.0
-wizard	wh_main_art_set_vmp_necromancer_03				false	true	vmp_necromancer	1.0
-general	albion_morrigan		wh_main_sc_nor_albion		false	true	albion_morrigan	1.0
-general	albion_warleader		wh_main_sc_nor_albion		false	true	albion_warleader	1.0
-general	albion_truthsayer_beast		wh_main_sc_nor_albion		false	true	albion_truthsayer_beast	1.0
-general	albion_truthsayer_life		wh_main_sc_nor_albion		false	true	albion_truthsayer_life	1.0
-general	albion_truthsayer_light		wh_main_sc_nor_albion		false	true	albion_truthsayer_light	1.0
-general	albion_truthsayer_truth		wh_main_sc_nor_albion		false	true	albion_truthsayer_truth	1.0
-wizard	albion_wyrd_druid		wh_main_sc_nor_albion		false	true	albion_wyrd_druid	1.0
-champion	albion_chief		wh_main_sc_nor_albion		false	true	albion_chief	1.0
-general	bl_elo_dural_durak		wh_main_sc_nor_albion		false	true	bl_elo_dural_durak	1.0
-wizard	elo_dread_larenscheld				false	true	elo_dread_larenscheld	1.0
-general	elo_cha_troll_lord_01				false	true	elo_cha_troll_lord	1.0
-general	elo_cha_troll_lord_02				false	true	elo_cha_troll_lord	1.0
-general	elo_cha_troll_lord_03				false	true	elo_cha_troll_lord	1.0
-runesmith	wh2_dlc15_art_set_grn_river_troll_hag_01				false	false	wh2_dlc15_grn_river_troll_hag	0.65
-runesmith	wh2_dlc15_art_set_grn_river_troll_hag_02				false	false	wh2_dlc15_grn_river_troll_hag	0.65
-runesmith	wh2_dlc15_art_set_grn_river_troll_hag_03				false	false	wh2_dlc15_grn_river_troll_hag	0.65
-runesmith	wh2_dlc15_art_set_grn_river_troll_hag_04				false	false	wh2_dlc15_grn_river_troll_hag	0.65
-runesmith	wh2_dlc15_art_set_grn_river_troll_hag_05				false	false	wh2_dlc15_grn_river_troll_hag	0.65
-wizard	wh_main_art_set_emp_bright_wizard_01				false	true	emp_bright_wizard	1.0
-wizard	wh_main_art_set_emp_bright_wizard_02				false	true	emp_bright_wizard	1.0
-wizard	wh_main_art_set_emp_bright_wizard_03				false	true	emp_bright_wizard	1.0
-general	ovn_art_set_dwf_lord_01			wh_main_emp_empire_separatists	false	true	dwf_lord	1.0
-wizard	wh2_pro07_art_set_emp_amethyst_wizard_01	wh_main_emp_empire			false	true	wh2_pro07_emp_amethyst_wizard	1.0
-wizard	wh2_pro07_art_set_emp_amethyst_wizard_02	wh_main_emp_empire			false	true	wh2_pro07_emp_amethyst_wizard	1.0
-wizard	wh2_pro07_art_set_emp_amethyst_wizard_03	wh_main_emp_empire			false	true	wh2_pro07_emp_amethyst_wizard	1.0
-wizard	wh_dlc03_art_set_emp_amber_wizard_01	wh_main_emp_empire			false	true	dlc03_emp_amber_wizard	1.0
-wizard	wh_dlc03_art_set_emp_amber_wizard_02	wh_main_emp_empire			false	true	dlc03_emp_amber_wizard	1.0
-general	ovn_art_set_com_olorin_the_grey_wizard	wh_main_emp_empire			false	true	ovn_com_olorin_the_grey_wizard	1.0
-champion	ovn_art_set_com_aragand_the_layabout	wh_main_emp_empire			false	true	ovn_com_aragand_the_layabout	1.0
-spy	ovn_art_set_com_legles_the_elf	wh_main_emp_empire			false	true	ovn_com_legles_the_elf	1.0
-champion	ovn_art_set_com_giblit_the_dwarf	wh_main_emp_empire			false	true	ovn_com_giblit_the_dwarf	1.0
-wizard	ovn_art_set_arb_magician_life				false	true	arb_magician_life	1.0
-wizard	ovn_art_set_arb_magician_desert				false	true	arb_magician_desert	1.0
-wizard	ovn_art_set_arb_magician_fire				false	true	arb_magician_fire	1.0
-wizard	ovn_art_set_arb_magician_heavens				false	true	arb_magician_heavens	1.0
-dignitary	wh_dlc08_art_set_nor_fimir_balefiend_01				false	true	wh_dlc08_nor_fimir_balefiend_fire	1.0
-dignitary	wh_dlc08_art_set_nor_fimir_balefiend_02				false	true	wh_dlc08_nor_fimir_balefiend_fire	1.0
-dignitary	wh_dlc08_art_set_nor_fimir_balefiend_03				false	true	wh_dlc08_nor_fimir_balefiend_shadow	1.0
-wizard	wh_main_art_set_grn_night_goblin_shaman_01				false	true	grn_night_goblin_shaman	1.1
-wizard	wh_main_art_set_grn_night_goblin_shaman_02				false	true	grn_night_goblin_shaman	1.1
-wizard	wh_main_art_set_grn_night_goblin_shaman_03				false	true	grn_night_goblin_shaman	1.1
-wizard	wh_main_art_set_grn_night_goblin_shaman_04				false	true	grn_night_goblin_shaman	1.1
-wizard	wh_main_art_set_grn_night_goblin_shaman_05				false	true	grn_night_goblin_shaman	1.1
-wizard	wh_main_art_set_grn_night_goblin_shaman_06				false	true	grn_night_goblin_shaman	1.1
-general	Dread_King	wh2_dlc09_tmb_tomb_kings			false	true	Dread_King	1.0
-general	elo_hand_of_nagash	wh2_dlc09_tmb_tomb_kings			false	true	elo_hand_of_nagash	1.0
-general	Sultan_Jaffar				false	true	Sultan_Jaffar	1.0
-general	aky_chief_fimir_great_weapons_0				false	true	aky_chief_fimir_great_weapons	1.0
-general	aky_chief_wolf_werekin_0				false	true	aky_chief_wolf_werekin	1.0
-general	aky_chief_wolf_werekin_1				false	true	aky_chief_wolf_werekin	1.0
-general	aky_chief_wolf_werekin_2				false	true	aky_chief_wolf_werekin	1.0
-general	aky_chief_fimir_great_weapons_1				false	true	aky_chief_fimir_great_weapons	1.0
-general	aky_chief_fimir_great_weapons_2				false	true	aky_chief_fimir_great_weapons	1.0
-general	aky_chief_fimir_great_weapons_3				false	true	aky_chief_fimir_great_weapons	1.0
-general	aky_chief_fimir_great_weapons_4				false	true	aky_chief_fimir_great_weapons	1.0
-champion	wh2_main_art_set_roy_arb_champion				false	true	roy_arb_champion	1.0
-champion	wh2_main_art_set_roy_arb_champion_guard				false	true	roy_arb_champion	1.0
-champion	wh2_main_art_set_roy_arb_champion_warrior				false	true	roy_arb_champion	1.0
-champion	wh2_main_art_set_roy_arb_champion_sergeant				false	true	roy_arb_champion	1.0
-spy	wh2_main_art_set_roy_arb_nomad_01				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_02				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_03				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_assassin_01				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_assassin_02				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_assassin_03				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_jezzail_01				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_jezzail_02				false	true	roy_arb_nomad	1.0
-spy	wh2_main_art_set_roy_arb_nomad_jezzail_03				false	true	roy_arb_nomad	1.0
-general	ovn_araby_ll				false	true	ovn_araby_ll	1.1
-general	ovn_araby_ll_2				false	true	ovn_araby_ll	1.1
-general	belakor	wh_main_chs_chaos			false	true	belakor	1.0
-dignitary	wh_dlc08_nor_cha_fimir_balefiend_death				false	true	wh_dlc08_nor_cha_fimir_balefiend_death	1.0
-dignitary	wh_dlc08_nor_cha_fimir_balefiend_beast				false	true	wh_dlc08_nor_cha_fimir_balefiend_beast	1.0
-champion	elo_dread_centurion	wh2_dlc09_tmb_tomb_kings			false	true	elo_dread_centurion	1.0
-general	elo_liche_general				false	true	elo_liche_general	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_01	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_02	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_03	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_04	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_05	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_01_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_alkhazzar_ii	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_02_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_lahmizzash	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_03_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_rakhash	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_04_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_setep	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_05_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_thutep	1.0
-general	wh2_dlc09_art_set_tmb_tomb_king_06_tech	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_wakhaf	1.0
-general	elo_chief_ugma				false	true	elo_chief_ugma	1.0
-general	ovn_hlf_ll				false	true	ovn_hlf_ll	1.4
-general	morgan_bernhardt_art	wh_main_emp_empire			false	true	morgan_bernhardt	1.0
-wizard	vladimir_stormbringer_art	wh_main_emp_empire			false	true	vladimir_stormbringer	1.0
-general	arb_vizier_fire_0				false	true	arb_vizier_fire_0	1.1
-general	arb_vizier_life_0				false	true	arb_vizier_life_0	1.1
-general	arb_vizier_heavens_0				false	true	arb_vizier_heavens_0	1.1
-general	arb_vizier_desert_0				false	true	arb_vizier_desert_0	1.1
-general	arb_vizier_fire_1				false	true	arb_vizier_fire_0	1.1
-general	arb_vizier_life_1				false	true	arb_vizier_life_0	1.1
-general	arb_vizier_heavens_1				false	true	arb_vizier_heavens_0	1.1
-general	arb_vizier_desert_1				false	true	arb_vizier_desert_0	1.1
-wizard	wh_dlc07_art_set_chs_sorcerer_shadow_01				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	wh_dlc07_art_set_chs_sorcerer_shadow_02				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	wh_dlc07_art_set_chs_sorcerer_shadow_03				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	wh_dlc07_art_set_chs_sorcerer_shadow_04				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	wh_main_art_set_chs_sorcerer_death_01				false	true	chs_chaos_sorcerer_death	1.0
-wizard	wh_main_art_set_chs_sorcerer_death_02				false	true	chs_chaos_sorcerer_death	1.0
-wizard	wh_main_art_set_chs_sorcerer_death_03				false	true	chs_chaos_sorcerer_death	1.0
-wizard	wh_main_art_set_chs_sorcerer_death_04				false	true	chs_chaos_sorcerer_death	1.0
-wizard	wh_main_art_set_chs_sorcerer_fire_01				false	true	chs_chaos_sorcerer_fire	1.0
-wizard	wh_main_art_set_chs_sorcerer_fire_02				false	true	chs_chaos_sorcerer_fire	1.0
-wizard	wh_main_art_set_chs_sorcerer_fire_03				false	true	chs_chaos_sorcerer_fire	1.0
-wizard	wh_main_art_set_chs_sorcerer_fire_04				false	true	chs_chaos_sorcerer_fire	1.0
-wizard	wh_main_art_set_chs_sorcerer_metal_01				false	true	chs_chaos_sorcerer_metal	1.0
-wizard	wh_main_art_set_chs_sorcerer_metal_02				false	true	chs_chaos_sorcerer_metal	1.0
-wizard	wh_main_art_set_chs_sorcerer_metal_03				false	true	chs_chaos_sorcerer_metal	1.0
-wizard	wh_main_art_set_chs_sorcerer_metal_04				false	true	chs_chaos_sorcerer_metal	1.0
-general	fim_meargh_skattach				false	true	fim_meargh_skattach	1.4
-wizard	wh2_main_art_set_ovn_rbt_blightstormer				false	true	rbt_blightstormer	1.0
-wizard	elo_boglar_shaman				false	true	elo_boglar_shaman	1.0
-champion	elo_troll_champ				false	true	elo_troll_champ	0.6
-general	cha_walachart	wh_main_vmp_vampire_counts			false	true	vmp_cha_walach	1.0
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_lost_factions_gold								
+elo_carrion_boss	spy				false	true	elo_carrion_boss	1.1
+ovn_stormrider	general				false	true	ovn_stormrider	1.1
+arb_fatandira	general				false	true	arb_fatandira	1.0
+arb_golden_magus	general				false	true	arb_golden_magus	1.4
+ovn_hlf_glibfoot	general				false	true	ovn_hlf_glibfoot	1.4
+ovn_hlf_moot_general	general				false	true	ovn_hlf_moot_general	1.4
+ovn_hlf_moot_general_1	general				false	true	ovn_hlf_moot_general	1.4
+ovn_hlf_fieldwarden_01	spy				false	true	ovn_hlf_fieldwarden	1.0
+ovn_hlf_fieldwarden_02	spy				false	true	ovn_hlf_fieldwarden	1.0
+ovn_hlf_master_chef_01	dignitary				false	true	ovn_hlf_master_chef	1.0
+ovn_hlf_master_chef_02	dignitary				false	true	ovn_hlf_master_chef	1.0
+ovn_hlf_sheriff_01	champion				false	true	ovn_hlf_sheriff	1.0
+ovn_hlf_sheriff_02	champion				false	true	ovn_hlf_sheriff	1.0
+wh_main_art_set_vmp_necromancer_01	wizard				false	true	vmp_necromancer	1.0
+wh_main_art_set_vmp_necromancer_02	wizard				false	true	vmp_necromancer	1.0
+wh_main_art_set_vmp_necromancer_03	wizard				false	true	vmp_necromancer	1.0
+albion_morrigan	general		wh_main_sc_nor_albion		false	true	albion_morrigan	1.0
+albion_warleader	general		wh_main_sc_nor_albion		false	true	albion_warleader	1.0
+albion_truthsayer_beast	general		wh_main_sc_nor_albion		false	true	albion_truthsayer_beast	1.0
+albion_truthsayer_life	general		wh_main_sc_nor_albion		false	true	albion_truthsayer_life	1.0
+albion_truthsayer_light	general		wh_main_sc_nor_albion		false	true	albion_truthsayer_light	1.0
+albion_truthsayer_truth	general		wh_main_sc_nor_albion		false	true	albion_truthsayer_truth	1.0
+albion_wyrd_druid	wizard		wh_main_sc_nor_albion		false	true	albion_wyrd_druid	1.0
+albion_chief	champion		wh_main_sc_nor_albion		false	true	albion_chief	1.0
+bl_elo_dural_durak	general		wh_main_sc_nor_albion		false	true	bl_elo_dural_durak	1.0
+elo_dread_larenscheld	wizard				false	true	elo_dread_larenscheld	1.0
+elo_cha_troll_lord_01	general				false	true	elo_cha_troll_lord	1.0
+elo_cha_troll_lord_02	general				false	true	elo_cha_troll_lord	1.0
+elo_cha_troll_lord_03	general				false	true	elo_cha_troll_lord	1.0
+wh2_dlc15_art_set_grn_river_troll_hag_01	runesmith				false	false	wh2_dlc15_grn_river_troll_hag	0.65
+wh2_dlc15_art_set_grn_river_troll_hag_02	runesmith				false	false	wh2_dlc15_grn_river_troll_hag	0.65
+wh2_dlc15_art_set_grn_river_troll_hag_03	runesmith				false	false	wh2_dlc15_grn_river_troll_hag	0.65
+wh2_dlc15_art_set_grn_river_troll_hag_04	runesmith				false	false	wh2_dlc15_grn_river_troll_hag	0.65
+wh2_dlc15_art_set_grn_river_troll_hag_05	runesmith				false	false	wh2_dlc15_grn_river_troll_hag	0.65
+wh_main_art_set_emp_bright_wizard_01	wizard				false	true	emp_bright_wizard	1.0
+wh_main_art_set_emp_bright_wizard_02	wizard				false	true	emp_bright_wizard	1.0
+wh_main_art_set_emp_bright_wizard_03	wizard				false	true	emp_bright_wizard	1.0
+ovn_art_set_dwf_lord_01	general			wh_main_emp_empire_separatists	false	true	dwf_lord	1.0
+wh2_pro07_art_set_emp_amethyst_wizard_01	wizard	wh_main_emp_empire			false	true	wh2_pro07_emp_amethyst_wizard	1.0
+wh2_pro07_art_set_emp_amethyst_wizard_02	wizard	wh_main_emp_empire			false	true	wh2_pro07_emp_amethyst_wizard	1.0
+wh2_pro07_art_set_emp_amethyst_wizard_03	wizard	wh_main_emp_empire			false	true	wh2_pro07_emp_amethyst_wizard	1.0
+wh_dlc03_art_set_emp_amber_wizard_01	wizard	wh_main_emp_empire			false	true	dlc03_emp_amber_wizard	1.0
+wh_dlc03_art_set_emp_amber_wizard_02	wizard	wh_main_emp_empire			false	true	dlc03_emp_amber_wizard	1.0
+ovn_art_set_com_olorin_the_grey_wizard	general	wh_main_emp_empire			false	true	ovn_com_olorin_the_grey_wizard	1.0
+ovn_art_set_com_aragand_the_layabout	champion	wh_main_emp_empire			false	true	ovn_com_aragand_the_layabout	1.0
+ovn_art_set_com_legles_the_elf	spy	wh_main_emp_empire			false	true	ovn_com_legles_the_elf	1.0
+ovn_art_set_com_giblit_the_dwarf	champion	wh_main_emp_empire			false	true	ovn_com_giblit_the_dwarf	1.0
+ovn_art_set_arb_magician_life	wizard				false	true	arb_magician_life	1.0
+ovn_art_set_arb_magician_desert	wizard				false	true	arb_magician_desert	1.0
+ovn_art_set_arb_magician_fire	wizard				false	true	arb_magician_fire	1.0
+ovn_art_set_arb_magician_heavens	wizard				false	true	arb_magician_heavens	1.0
+wh_dlc08_art_set_nor_fimir_balefiend_01	dignitary				false	true	wh_dlc08_nor_fimir_balefiend_fire	1.0
+wh_dlc08_art_set_nor_fimir_balefiend_02	dignitary				false	true	wh_dlc08_nor_fimir_balefiend_fire	1.0
+wh_dlc08_art_set_nor_fimir_balefiend_03	dignitary				false	true	wh_dlc08_nor_fimir_balefiend_shadow	1.0
+wh_main_art_set_grn_night_goblin_shaman_01	wizard				false	true	grn_night_goblin_shaman	1.1
+wh_main_art_set_grn_night_goblin_shaman_02	wizard				false	true	grn_night_goblin_shaman	1.1
+wh_main_art_set_grn_night_goblin_shaman_03	wizard				false	true	grn_night_goblin_shaman	1.1
+wh_main_art_set_grn_night_goblin_shaman_04	wizard				false	true	grn_night_goblin_shaman	1.1
+wh_main_art_set_grn_night_goblin_shaman_05	wizard				false	true	grn_night_goblin_shaman	1.1
+wh_main_art_set_grn_night_goblin_shaman_06	wizard				false	true	grn_night_goblin_shaman	1.1
+Dread_King	general	wh2_dlc09_tmb_tomb_kings			false	true	Dread_King	1.0
+elo_hand_of_nagash	general	wh2_dlc09_tmb_tomb_kings			false	true	elo_hand_of_nagash	1.0
+Sultan_Jaffar	general				false	true	Sultan_Jaffar	1.0
+aky_chief_fimir_great_weapons_0	general				false	true	aky_chief_fimir_great_weapons	1.0
+aky_chief_wolf_werekin_0	general				false	true	aky_chief_wolf_werekin	1.0
+aky_chief_wolf_werekin_1	general				false	true	aky_chief_wolf_werekin	1.0
+aky_chief_wolf_werekin_2	general				false	true	aky_chief_wolf_werekin	1.0
+aky_chief_fimir_great_weapons_1	general				false	true	aky_chief_fimir_great_weapons	1.0
+aky_chief_fimir_great_weapons_2	general				false	true	aky_chief_fimir_great_weapons	1.0
+aky_chief_fimir_great_weapons_3	general				false	true	aky_chief_fimir_great_weapons	1.0
+aky_chief_fimir_great_weapons_4	general				false	true	aky_chief_fimir_great_weapons	1.0
+wh2_main_art_set_roy_arb_champion	champion				false	true	roy_arb_champion	1.0
+wh2_main_art_set_roy_arb_champion_guard	champion				false	true	roy_arb_champion	1.0
+wh2_main_art_set_roy_arb_champion_warrior	champion				false	true	roy_arb_champion	1.0
+wh2_main_art_set_roy_arb_champion_sergeant	champion				false	true	roy_arb_champion	1.0
+wh2_main_art_set_roy_arb_nomad_01	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_02	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_03	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_assassin_01	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_assassin_02	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_assassin_03	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_jezzail_01	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_jezzail_02	spy				false	true	roy_arb_nomad	1.0
+wh2_main_art_set_roy_arb_nomad_jezzail_03	spy				false	true	roy_arb_nomad	1.0
+ovn_araby_ll	general				false	true	ovn_araby_ll	1.1
+ovn_araby_ll_2	general				false	true	ovn_araby_ll	1.1
+belakor	general	wh_main_chs_chaos			false	true	belakor	1.0
+wh_dlc08_nor_cha_fimir_balefiend_death	dignitary				false	true	wh_dlc08_nor_cha_fimir_balefiend_death	1.0
+wh_dlc08_nor_cha_fimir_balefiend_beast	dignitary				false	true	wh_dlc08_nor_cha_fimir_balefiend_beast	1.0
+elo_dread_centurion	champion	wh2_dlc09_tmb_tomb_kings			false	true	elo_dread_centurion	1.0
+elo_liche_general	general				false	true	elo_liche_general	1.0
+wh2_dlc09_art_set_tmb_tomb_king_01	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
+wh2_dlc09_art_set_tmb_tomb_king_02	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
+wh2_dlc09_art_set_tmb_tomb_king_03	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
+wh2_dlc09_art_set_tmb_tomb_king_04	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
+wh2_dlc09_art_set_tmb_tomb_king_05	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king	1.0
+wh2_dlc09_art_set_tmb_tomb_king_01_tech	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_alkhazzar_ii	1.0
+wh2_dlc09_art_set_tmb_tomb_king_02_tech	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_lahmizzash	1.0
+wh2_dlc09_art_set_tmb_tomb_king_03_tech	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_rakhash	1.0
+wh2_dlc09_art_set_tmb_tomb_king_04_tech	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_setep	1.0
+wh2_dlc09_art_set_tmb_tomb_king_05_tech	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_thutep	1.0
+wh2_dlc09_art_set_tmb_tomb_king_06_tech	general	wh2_dlc09_tmb_tomb_kings			false	true	wh2_dlc09_tmb_tomb_king_wakhaf	1.0
+elo_chief_ugma	general				false	true	elo_chief_ugma	1.0
+ovn_hlf_ll	general				false	true	ovn_hlf_ll	1.4
+morgan_bernhardt_art	general	wh_main_emp_empire			false	true	morgan_bernhardt	1.0
+vladimir_stormbringer_art	wizard	wh_main_emp_empire			false	true	vladimir_stormbringer	1.0
+arb_vizier_fire_0	general				false	true	arb_vizier_fire_0	1.1
+arb_vizier_life_0	general				false	true	arb_vizier_life_0	1.1
+arb_vizier_heavens_0	general				false	true	arb_vizier_heavens_0	1.1
+arb_vizier_desert_0	general				false	true	arb_vizier_desert_0	1.1
+arb_vizier_fire_1	general				false	true	arb_vizier_fire_0	1.1
+arb_vizier_life_1	general				false	true	arb_vizier_life_0	1.1
+arb_vizier_heavens_1	general				false	true	arb_vizier_heavens_0	1.1
+arb_vizier_desert_1	general				false	true	arb_vizier_desert_0	1.1
+wh_dlc07_art_set_chs_sorcerer_shadow_01	wizard				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wh_dlc07_art_set_chs_sorcerer_shadow_02	wizard				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wh_dlc07_art_set_chs_sorcerer_shadow_03	wizard				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wh_dlc07_art_set_chs_sorcerer_shadow_04	wizard				false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+wh_main_art_set_chs_sorcerer_death_01	wizard				false	true	chs_chaos_sorcerer_death	1.0
+wh_main_art_set_chs_sorcerer_death_02	wizard				false	true	chs_chaos_sorcerer_death	1.0
+wh_main_art_set_chs_sorcerer_death_03	wizard				false	true	chs_chaos_sorcerer_death	1.0
+wh_main_art_set_chs_sorcerer_death_04	wizard				false	true	chs_chaos_sorcerer_death	1.0
+wh_main_art_set_chs_sorcerer_fire_01	wizard				false	true	chs_chaos_sorcerer_fire	1.0
+wh_main_art_set_chs_sorcerer_fire_02	wizard				false	true	chs_chaos_sorcerer_fire	1.0
+wh_main_art_set_chs_sorcerer_fire_03	wizard				false	true	chs_chaos_sorcerer_fire	1.0
+wh_main_art_set_chs_sorcerer_fire_04	wizard				false	true	chs_chaos_sorcerer_fire	1.0
+wh_main_art_set_chs_sorcerer_metal_01	wizard				false	true	chs_chaos_sorcerer_metal	1.0
+wh_main_art_set_chs_sorcerer_metal_02	wizard				false	true	chs_chaos_sorcerer_metal	1.0
+wh_main_art_set_chs_sorcerer_metal_03	wizard				false	true	chs_chaos_sorcerer_metal	1.0
+wh_main_art_set_chs_sorcerer_metal_04	wizard				false	true	chs_chaos_sorcerer_metal	1.0
+fim_meargh_skattach	general				false	true	fim_meargh_skattach	1.4
+wh2_main_art_set_ovn_rbt_blightstormer	wizard				false	true	rbt_blightstormer	1.0
+elo_boglar_shaman	wizard				false	true	elo_boglar_shaman	1.0
+elo_troll_champ	champion				false	true	elo_troll_champ	0.6
+cha_walachart	general	wh_main_vmp_vampire_counts			false	true	vmp_cha_walach	1.0

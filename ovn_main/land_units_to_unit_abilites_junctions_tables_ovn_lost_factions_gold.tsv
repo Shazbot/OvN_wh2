@@ -1,5 +1,5 @@
-land_units_to_unit_abilites_junctions_tables	0
 ability	land_unit
+#land_units_to_unit_abilites_junctions_tables;0;db/land_units_to_unit_abilites_junctions_tables/ovn_lost_factions_gold	
 wh_main_unit_passive_frenzy	elo_rot_fanatics
 elo_special_treat	elo_carrion_boss
 elo_special_treat	elo_carrion_boss_squig

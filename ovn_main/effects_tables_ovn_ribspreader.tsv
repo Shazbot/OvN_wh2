@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_ribspreader					
 ribspreader_army_buffs	trait_chaos.png	1	trait_chaos.png	campaign	true
 ribspreader_skaven_pact	icon_ritual_currency_skv_bundle.png	1	icon_ritual_currency_skv_bundle.png	campaign	true
 ribspreader_berzerkers_speed	battle_movement.png	101	battle_movement.png	battle	true

@@ -1,5 +1,5 @@
-cdir_events_mission_payloads_tables	1
 id	mission_key	payload_key	status_key	value
+#cdir_events_mission_payloads_tables;1;db/cdir_events_mission_payloads_tables/ovn_missions				
 250590001	ovn_grudge_vortex_move_to_swem	ADD_MERCENARY_TO_FACTION_POOL	SUCCESS	AMOUNT[1];UNIT[ceridan]
 250590002	ovn_grudge_vortex_kill_dk	TREASURY	SUCCESS	AMOUNT[5000]
 250590003	ovn_grudge_vortex_kill_arkhan	TREASURY	SUCCESS	AMOUNT[5000]

@@ -1,5 +1,5 @@
-cdir_events_payloads_tables	0
-effect_bundle_key	payload_key
+payload_key	effect_bundle_key
+#cdir_events_payloads_tables;0;db/cdir_events_payloads_tables/ovn_payloads	
 grudge_transfer_region	grudge_transfer_region
 grudge_supply_dummy	grudge_supply_dummy
 grudge_retain_dummy	grudge_retain_dummy

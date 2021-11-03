@@ -1,5 +1,5 @@
-warscape_animated_tables	2
 key	texture_filename_base	category
+#warscape_animated_tables;2;db/warscape_animated_tables/ovn		
 mtl_reaper	warmachines\tex	animation
 mtl_reaper_destruct	warmachines\tex	animation
 mtl_chuckwagon	warmachines\tex	animation

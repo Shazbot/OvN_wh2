@@ -1,5 +1,5 @@
-campaign_group_cooking_ingredients_tables	0
 campaign group	ingredient
+#campaign_group_cooking_ingredients_tables;0;db/campaign_group_cooking_ingredients_tables/@cr_halfling_cooking	
 ovn_halfling_cooking	ovn_spelt
 ovn_halfling_cooking	ovn_rye
 ovn_halfling_cooking	ovn_teff

@@ -1,5 +1,5 @@
-commander_unit_permissions_tables	0
 culture_key	faction_key	subculture_key	unit_key
+#commander_unit_permissions_tables;0;db/commander_unit_permissions_tables/ovn_nor_sc_shared			
 		wh_main_sc_nor_warp	wh_main_nor_cha_marauder_chieftan_0
 		wh_main_sc_nor_warp	wh_main_nor_shp_bloodship_general
 		wh_main_sc_nor_fimir	wh_main_nor_cha_marauder_chieftan_0

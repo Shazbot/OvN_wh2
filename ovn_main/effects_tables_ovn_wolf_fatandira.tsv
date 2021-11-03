@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_wolf_fatandira					
 arb_fatandira_innate_nomad_discount	military_spending.png	4	military_spending.png	battle	false
 arb_fatandira_innate_nomad_ammo	ammo.png	4	ammo.png	battle	true
 arb_fatandira_enable_aimed_shot	general_ability.png	4	general_ability.png	battle	true

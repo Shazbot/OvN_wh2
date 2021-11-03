@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_crafting_araby_slaves					
 ovn_araby_victories_lzd	vortex_lzd_3.png	2	vortex_lzd_3.png	campaign	true
 ovn_araby_victories_dwarfs	trait_dwarf.png	2	trait_dwarf.png	campaign	true
 ovn_araby_victories_def	vortex_def_5.png	2	vortex_def_5.png	campaign	true

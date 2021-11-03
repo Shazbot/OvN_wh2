@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_arb_vizier_skill_names.loc		
 character_skills_localised_name_arb_vizier_administrator	Loyal Administrator	true
 character_skills_localised_description_arb_vizier_administrator	Despite the slander that envious men like to spread, most Grand Viziers in Araby are loyal servants to their lieges and dedicated administrators of their assigned provinces.	true
 character_skills_localised_name_arb_vizier_scholar	Dedicated Scholar	true

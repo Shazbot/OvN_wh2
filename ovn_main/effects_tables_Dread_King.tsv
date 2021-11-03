@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/Dread_King					
 spawn_ushabti_dread_king	general_ability.png	6	general_ability.png	both	true
 Dread_Aura	general_ability.png	6	general_ability.png	both	true
 Summon_Black_Grail_Kinghts	general_ability.png	600	general_ability.png	both	true

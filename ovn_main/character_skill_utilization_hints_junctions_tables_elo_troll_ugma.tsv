@@ -1,5 +1,5 @@
-character_skill_utilization_hints_junctions_tables	0
 hint	key
+#character_skill_utilization_hints_junctions_tables;0;db/character_skill_utilization_hints_junctions_tables/elo_troll_ugma	
 USEFUL_ALWAYS	reworked_cyclopean_fiends
 USEFUL_ALWAYS	reworked_king_of_trolls
 USEFUL_ALWAYS	reworked_mutant_regeneration

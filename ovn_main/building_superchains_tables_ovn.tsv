@@ -1,5 +1,5 @@
-building_superchains_tables	1
 key
+#building_superchains_tables;1;db/building_superchains_tables/ovn
 ovn_arb_haikk
 ovn_arb_bel
 ovn_arb_fyrus

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_carrion_char_skills.loc		
 character_skills_localised_description_elo_carrion_boss_squig	Goblins taming and riding a squig enables them to move at the much faster speed of a squig and even somewhat improves the battle prowess of the squig.	false
 character_skills_localised_name_elo_carrion_boss_squig	Riding Squig	false
 character_skills_localised_description_elo_special_treat	Goblins who have proven to be useful have a certain level of protection provided by the leaders of the horde. That does not protect them from said leaders though.	false

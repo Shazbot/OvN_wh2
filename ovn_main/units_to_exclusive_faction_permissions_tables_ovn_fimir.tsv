@@ -1,5 +1,5 @@
-units_to_exclusive_faction_permissions_tables	0
 key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/ovn_fimir		
 Great_Deamon1_unit	wh2_main_nor_harbingers_of_doom	true
 ovn_boglar_no_garrison	wh2_main_nor_harbingers_of_doom	true
 ovn_shearl_no_garrison	wh2_main_nor_harbingers_of_doom	true

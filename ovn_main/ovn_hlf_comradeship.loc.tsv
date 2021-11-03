@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_hlf_comradeship.loc		
 missions_localised_description_ovn_hlf_comradeship	The Comradeship is a group of adventurous heroes who assist the Halflings of the Moot. They are incorrigible wanderers all, but they will always answer the call of a good Mootland meal.	true
 missions_localised_title_ovn_hlf_comradeship	The Comradeship	true
 effect_bundles_localised_title_ovn_hlf_comradeship_unlock	The Comradeship Returns	true

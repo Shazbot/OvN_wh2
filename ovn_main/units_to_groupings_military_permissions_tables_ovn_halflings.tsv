@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_halflings	
 ovn_mtl_veh_reaper	ovn_halfling
 halfling_housewives	ovn_halfling
 elo_bloodhounds	ovn_halfling

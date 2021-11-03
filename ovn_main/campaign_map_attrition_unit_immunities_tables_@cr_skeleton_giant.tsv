@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/@cr_skeleton_giant	
 desert	ovn_dkl_mon_skeleton_giant
 non_vampire_territory	ovn_dkl_mon_skeleton_giant
 vampire_territory	ovn_dkl_mon_skeleton_giant

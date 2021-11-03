@@ -1,5 +1,5 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/obo_grudgebringers_data	
 dr1_dragon	wh_main_emp_empire
 hu10b_harpy	wh_main_emp_empire
 wm_blood_cauldron01	wh_main_emp_empire

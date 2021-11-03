@@ -1,8 +1,8 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	arb_golden_magus_aether_tether		7
-		x	1	arb_golden_magus_wishmaster		8
-		x	1	arb_golden_magus_anc_fire_scimitar		11
-		x	1	arb_golden_magus_anc_auric_robe		12
-		x	1	arb_golden_magus_anc_camel		6
-		x	1	arb_golden_magus_anc_djinskiff		16
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ovn_wolf_golden_magus						
+		1	arb_golden_magus_aether_tether		x	7
+		1	arb_golden_magus_wishmaster		x	8
+		1	arb_golden_magus_anc_fire_scimitar		x	11
+		1	arb_golden_magus_anc_auric_robe		x	12
+		1	arb_golden_magus_anc_camel		x	6
+		1	arb_golden_magus_anc_djinskiff		x	16

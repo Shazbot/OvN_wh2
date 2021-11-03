@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_mission_text.loc		
 missions_localised_description_ovn_grudge_vortex_move_to_swem	Azguz made mention that before his kins capture, they were tracking an Elf along the Southern World Edge Mountains. Their crime was killing a troll earmarked by a slayer and for that, a grudge was written in the Dammaz Kron.\\n\\nWe should track this Elf, for they are far from home and their intent unknown.	true
 missions_localised_title_ovn_grudge_vortex_move_to_swem	Elgi Skaz	true
 campaign_payload_ui_details_description_PLACEHOLDER	In case you want to do TEXT_DISPLAY E.g. LOOKUP[dummy_wh2_dlc11_neo_counter_treasure]	true

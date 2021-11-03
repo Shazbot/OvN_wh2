@@ -1,8 +1,8 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	ovn_as_starblade		9
-		x	1	ovn_as_armour		7
-		x	1	ovn_as_Hoeth_Talisman		5
-		x	1	skill_sharpclaw		11
-			1	ovn_as_lustira_Buff		13
-			1	ovn_as_ulthuan_Buff		6
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ovn_stormrider_ll						
+		1	ovn_as_starblade		x	9
+		1	ovn_as_armour		x	7
+		1	ovn_as_Hoeth_Talisman		x	5
+		1	skill_sharpclaw		x	11
+		1	ovn_as_lustira_Buff			13
+		1	ovn_as_ulthuan_Buff			6

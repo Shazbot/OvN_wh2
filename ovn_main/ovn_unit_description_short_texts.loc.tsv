@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_unit_description_short_texts.loc		
 unit_description_short_texts_text_Dread_King	One of the original Dark Lords of Nagash, the Dread King was a mighty undead Liche of Nehekhara. A powerful warrior and practitioner of necromancy, he would become one of the most feared and mysterious beings to have ever existed	true
 unit_description_short_texts_text_elo_undead_grail_knights	The Black Grail Knights were the resurrected corpses of twelve long dead Grail Knights of Bretonnia. They were among the mightiest Undead to have ever walked the Old World.	true
 unit_description_short_texts_text_Sultan_Jaffar	Undoubtedly the cruellest ruler ever in Araby, Jaffar controlled the land for many years during the Crusades. Jaffar was a powerful sorcerer who in 1435 IC united Araby and ruled it as Sultan for fifteen years.	true

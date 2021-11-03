@@ -1,38 +1,38 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh2_main_skill_all_hero_assist_army_scouting	node_set_albion_wizard		5.0	wyrd_campaign_01	0.0		0	0	true
-	wh2_main_skill_all_hero_passive_boost_income	node_set_albion_wizard		5.0	wyrd_campaign_02	1.0		0	0	true
-	wh2_main_skill_all_hero_hinder_settlement_steal_technology	node_set_albion_wizard		5.0	wyrd_campaign_03	2.0		0	0	true
-	wh2_main_skill_all_hero_hinder_agent_wound	node_set_albion_wizard		5.0	wyrd_campaign_04	3.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_assault_unit	node_set_albion_wizard		5.0	wyrd_campaign_05	4.0		0	0	true
-	wh2_main_skill_all_hero_reduce_action_cost	node_set_albion_wizard		5.0	wyrd_campaign_06	5.0		0	0	true
-	wh2_main_skill_all_dummy_agent_actions_emp_battle_wizard	node_set_albion_wizard		8.0	wyrd_campaign_actions_dummy	0.0		1	0	false
-	wh2_main_skill_all_immortality_hero	node_set_albion_wizard		0.0	wyrd_immortality	4.0		0	0	true
-	wh2_main_skill_innate_all_fleet_footed	node_set_albion_wizard		6.0	wyrd_innate_06	5.0		0	0	false
-	wh2_main_skill_innate_all_cunning	node_set_albion_wizard		6.0	wyrd_innate_07	6.0		0	0	false
-	wh2_main_skill_innate_all_determined	node_set_albion_wizard		6.0	wyrd_innate_08	7.0		0	0	false
-	wh2_main_skill_innate_all_confident	node_set_albion_wizard		6.0	wyrd_innate_09	8.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	node_set_albion_wizard		6.0	wyrd_innate_10	9.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	node_set_albion_wizard		6.0	wyrd_innate_11	10.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	node_set_albion_wizard		6.0	wyrd_innate_12	11.0		0	0	false
-	wh2_main_skill_innate_all_tough	node_set_albion_wizard		6.0	wyrd_innate_13	12.0		0	0	false
-	wh2_main_skill_innate_all_knowledgeable	node_set_albion_wizard		6.0	wyrd_innate_14	13.0		0	0	false
-	wh2_main_skill_innate_all_intelligent	node_set_albion_wizard		6.0	wyrd_innate_15	14.0		0	0	false
-	truth_spell_wings_fate_lord	node_set_albion_wizard		2.0	wyrd_magic1_01	0.0		0	0	true
-	wh_dlc05_skill_magic_life_life_bloom	node_set_albion_wizard		2.0	wyrd_magic1_02	1.0		0	0	true
-	wh_dlc05_skill_magic_life_wizard_earth_blood	node_set_albion_wizard		2.0	wyrd_magic1_03	2.0		0	0	true
-	wh_dlc03_skill_magic_beasts_wyssans_wildform	node_set_albion_wizard		2.0	wyrd_magic1_04	3.0		0	0	true
-	wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt	node_set_albion_wizard		2.0	wyrd_magic1_05	4.0		0	0	true
-	wh_main_skill_all_magic_all_06_evasion	node_set_albion_wizard		2.0	wyrd_magic1_06	5.0		0	4	true
-	wh_main_skill_all_magic_all_07_earthing	node_set_albion_wizard		2.0	wyrd_magic1_07	8.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	node_set_albion_wizard		2.0	wyrd_magic1_08	9.0		0	0	true
-	wh_main_skill_all_magic_light_04_light_of_battle	node_set_albion_wizard		2.0	wyrd_magic1_09	6.0		0	0	true
-	wh_main_skill_all_magic_light_02_phas_protection	node_set_albion_wizard		2.0	wyrd_magic1_10	7.0		0	0	true
-	wh_main_skill_all_magic_all_11_arcane_conduit	node_set_albion_wizard		2.0	wyrd_magic1_11	10.0		0	4	true
-	wh_main_skill_all_magic_truth_dummy_wings_fate	node_set_albion_wizard		2.0	wyrd_magic1_dummy	11.0		1	0	false
-	wyrd_mount_skill	node_set_albion_wizard		0.0	wyrd_mount_01	0.0		0	0	true
-	elo_fast_reflexes	node_set_albion_wizard		0.0	wyrd_unique_02	2.0		0	0	true
-	elo_protective_charms	node_set_albion_wizard		0.0	wyrd_unique_03	3.0		0	0	true
-	warrior_shaman	node_set_albion_wizard		1.0	wyrd_unique_04	1.0		0	0	true
-	wyrd_spellbinder	node_set_albion_wizard		1.0	wyrd_unique_05	2.0		0	0	true
-	wyrd_channeler	node_set_albion_wizard		1.0	wyrd_unique_06	3.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_wyrd_druid										
+wyrd_campaign_01		wh2_main_skill_all_hero_assist_army_scouting	node_set_albion_wizard		5.0	0.0		0	0	true
+wyrd_campaign_02		wh2_main_skill_all_hero_passive_boost_income	node_set_albion_wizard		5.0	1.0		0	0	true
+wyrd_campaign_03		wh2_main_skill_all_hero_hinder_settlement_steal_technology	node_set_albion_wizard		5.0	2.0		0	0	true
+wyrd_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	node_set_albion_wizard		5.0	3.0		0	0	true
+wyrd_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_unit	node_set_albion_wizard		5.0	4.0		0	0	true
+wyrd_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	node_set_albion_wizard		5.0	5.0		0	0	true
+wyrd_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_emp_battle_wizard	node_set_albion_wizard		8.0	0.0		1	0	false
+wyrd_immortality		wh2_main_skill_all_immortality_hero	node_set_albion_wizard		0.0	4.0		0	0	true
+wyrd_innate_06		wh2_main_skill_innate_all_fleet_footed	node_set_albion_wizard		6.0	5.0		0	0	false
+wyrd_innate_07		wh2_main_skill_innate_all_cunning	node_set_albion_wizard		6.0	6.0		0	0	false
+wyrd_innate_08		wh2_main_skill_innate_all_determined	node_set_albion_wizard		6.0	7.0		0	0	false
+wyrd_innate_09		wh2_main_skill_innate_all_confident	node_set_albion_wizard		6.0	8.0		0	0	false
+wyrd_innate_10		wh2_main_skill_innate_all_disciplined	node_set_albion_wizard		6.0	9.0		0	0	false
+wyrd_innate_11		wh2_main_skill_innate_all_perceptive	node_set_albion_wizard		6.0	10.0		0	0	false
+wyrd_innate_12		wh2_main_skill_innate_all_aggressive	node_set_albion_wizard		6.0	11.0		0	0	false
+wyrd_innate_13		wh2_main_skill_innate_all_tough	node_set_albion_wizard		6.0	12.0		0	0	false
+wyrd_innate_14		wh2_main_skill_innate_all_knowledgeable	node_set_albion_wizard		6.0	13.0		0	0	false
+wyrd_innate_15		wh2_main_skill_innate_all_intelligent	node_set_albion_wizard		6.0	14.0		0	0	false
+wyrd_magic1_01		truth_spell_wings_fate_lord	node_set_albion_wizard		2.0	0.0		0	0	true
+wyrd_magic1_02		wh_dlc05_skill_magic_life_life_bloom	node_set_albion_wizard		2.0	1.0		0	0	true
+wyrd_magic1_03		wh_dlc05_skill_magic_life_wizard_earth_blood	node_set_albion_wizard		2.0	2.0		0	0	true
+wyrd_magic1_04		wh_dlc03_skill_magic_beasts_wyssans_wildform	node_set_albion_wizard		2.0	3.0		0	0	true
+wyrd_magic1_05		wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt	node_set_albion_wizard		2.0	4.0		0	0	true
+wyrd_magic1_06		wh_main_skill_all_magic_all_06_evasion	node_set_albion_wizard		2.0	5.0		0	4	true
+wyrd_magic1_07		wh_main_skill_all_magic_all_07_earthing	node_set_albion_wizard		2.0	8.0		0	0	true
+wyrd_magic1_08		wh_main_skill_all_magic_all_08_power_drain	node_set_albion_wizard		2.0	9.0		0	0	true
+wyrd_magic1_09		wh_main_skill_all_magic_light_04_light_of_battle	node_set_albion_wizard		2.0	6.0		0	0	true
+wyrd_magic1_10		wh_main_skill_all_magic_light_02_phas_protection	node_set_albion_wizard		2.0	7.0		0	0	true
+wyrd_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	node_set_albion_wizard		2.0	10.0		0	4	true
+wyrd_magic1_dummy		wh_main_skill_all_magic_truth_dummy_wings_fate	node_set_albion_wizard		2.0	11.0		1	0	false
+wyrd_mount_01		wyrd_mount_skill	node_set_albion_wizard		0.0	0.0		0	0	true
+wyrd_unique_02		elo_fast_reflexes	node_set_albion_wizard		0.0	2.0		0	0	true
+wyrd_unique_03		elo_protective_charms	node_set_albion_wizard		0.0	3.0		0	0	true
+wyrd_unique_04		warrior_shaman	node_set_albion_wizard		1.0	1.0		0	0	true
+wyrd_unique_05		wyrd_spellbinder	node_set_albion_wizard		1.0	2.0		0	0	true
+wyrd_unique_06		wyrd_channeler	node_set_albion_wizard		1.0	3.0		0	0	true

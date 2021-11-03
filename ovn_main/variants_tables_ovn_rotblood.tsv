@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_rotblood							
 nurgle_chs_chaos_knight_lance		nurgle_chs_chaos_knight_lance	hu1c\chs\chs_warriors_of_chaos\low_poly\chs_warriors_knights_lance_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 nurgle_chs_forsaken		nurgle_chs_forsaken	hu1c\chs\chs_forsaken\low_poly\chs_forsaken_lowlod	1.0	1.1	0.05	
 nurgle_chs_knights		nurgle_chs_knights	hu1c\chs\chs_warriors_of_chaos\low_poly\chs_warriors_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter

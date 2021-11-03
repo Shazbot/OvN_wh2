@@ -1,5 +1,5 @@
-resource_ui_overrides_tables	0
 override_faction	override_subculture	source_resource	target_resource
+#resource_ui_overrides_tables;0;db/resource_ui_overrides_tables/ovn_amazon_sc			
 	wh_main_sc_lzd_amazon	res_location_brt_wef_hef	
 	wh_main_sc_lzd_amazon	res_location_brt	
 	wh_main_sc_lzd_amazon	res_location_def	

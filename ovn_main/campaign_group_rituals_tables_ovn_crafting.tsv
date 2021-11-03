@@ -1,5 +1,5 @@
-campaign_group_rituals_tables	1
 campaign_group	ritual	unlock_mission	unlock_turn	initially_unlocked
+#campaign_group_rituals_tables;1;db/campaign_group_rituals_tables/ovn_crafting				
 ovn_main_crafting_arb	ovn_arb_crafting_weapons_01		0	true
 ovn_main_crafting_arb	ovn_arb_crafting_weapons_02		0	true
 ovn_main_crafting_arb	ovn_arb_crafting_weapons_03		0	true

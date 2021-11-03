@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_regions__.loc		
 regions_onscreen_wh_main_blightwater_kradtommen	Serpent's Fang	true
 regions_battle_name_wh_main_blightwater_kradtommen	Serpent's Fang	true
 regions_battle_name_wh_main_stirland_the_moot	Eicheschatten	true

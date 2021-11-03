@@ -1,5 +1,5 @@
-effect_bonus_value_unit_ability_junctions_tables	0
 effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/elo_hlf_tech		
 elo_battle_cooks	uses_mod	hlf_master_chef_earth_blood
 elo_battle_cooks	uses_mod	hlf_master_chef_earth_blood_upgraded
 elo_battle_cooks	uses_mod	hlf_master_chef_hot_spices

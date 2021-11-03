@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/cod_naval_mech_event_feed_strings__.loc		
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_inner_lost_primary_detail	Control of the Eastern Shores Weakens	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_inner_lost_secondary_detail	We have lost a region off the eastern shores of Lustria, we must take it back at all costs.	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_naval_defender_outer_lost_primary_detail	Eatine Under Siege	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_grudgebringers_targets.loc		
 missions_localised_description_pj_grudgebringers_targets_1	A mercenary contract has been issued on this army! Defeat them if you find the coin offered to be satisfactory!	true
 missions_localised_title_pj_grudgebringers_targets_1	Available Contract - I	true
 missions_localised_description_pj_grudgebringers_targets_2	Village Elders have requested the aid of hired "thugs" to protect them from a warmongering army! Slay the dogs. If you find the price agreeable!	true

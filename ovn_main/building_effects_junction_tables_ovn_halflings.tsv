@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_halflings					
 ovn_half_tavern_2	wh_main_effect_agent_enable_recruitment_fieldwarden	province_to_province_own_unseen	1.0	1.0	0.0
 ovn_half_tavern_3	wh_main_effect_agent_enable_recruitment_fieldwarden	province_to_province_own_unseen	1.0	1.0	0.0
 ovn_half_tavern_3	wh_main_effect_agent_cap_increase_fieldwarden_level	province_to_province_own_unseen	2.0	1.0	0.0

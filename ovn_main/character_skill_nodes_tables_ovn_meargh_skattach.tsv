@@ -1,53 +1,53 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh2_main_skill_all_immortality_lord	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_immortality	6.0		0	0	true
-	elo_fimir_from_mists	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_from_mists	5.0		0	0	true
-	wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_01	0.0		0	0	true
-	wh2_main_skill_def_campaign_dreaded_slaver	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_02	1.0		0	0	true
-	wh_main_skill_chs_lord_campaign_serve_or_die	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_03	2.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_norse_resilience	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lord_campaign_despoilers	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_05	4.0		0	4	true
-	wh_dlc08_skill_nor_throgg_campaign_masters_of_the_fen	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_07	6.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_ancient_cunning	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_08	7.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_unnatural_healing	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_09	8.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_10	9.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	wh_main_skill_node_fim_meargh_skattach		5.0	fim_meargh_skattach_campaign_11	10.0		0	4	true
-	wh_main_skill_chs_lord_battle_dominating_presence	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_01	0.0		0	0	true
-	fimir_sacrifices	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_02	1.0		0	0	true
-	fimir_riders_doggos	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_03	2.0		0	0	true
-	fimir_bog_monsters	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_04	3.0		0	0	true
-	fimir_swamp_warriors	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_05	4.0		0	0	true
-	fimir_fen_giants	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_06	5.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_07	6.0		0	6	true
-	fimir_r7_warriors	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_08	7.0		0	0	true
-	fimir_r7_elite_monsters	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_09	8.0		0	0	true
-	fimir_r7_fast_beasts	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_10	9.0		0	0	true
-	fimir_r7_elite_giants	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_11	10.0		0	0	true
-	wh_dlc08_skill_nor_lords_battle_fight_or_die	wh_main_skill_node_fim_meargh_skattach		4.0	fim_meargh_skattach_battle_12	11.0		0	1	true
-	fim_meargh_skattach_innate	wh_main_skill_node_fim_meargh_skattach		6.0	fim_meargh_skattach_innate_01	0.0		1	0	false
-	fim_meargh_skattach_ancient_leadership	wh_main_skill_node_fim_meargh_skattach		1.0	fim_meargh_skattach_unique_0	0.0		0	0	true
-	fim_meargh_skattach_death_quest	wh_main_skill_node_fim_meargh_skattach		1.0	fim_meargh_skattach_unique_1_1	1.0		0	0	true
-	fim_meargh_skattach_poison_mist	wh_main_skill_node_fim_meargh_skattach		1.0	fim_meargh_skattach_unique_1_2	2.0		0	0	true
-	fim_meargh_skattach_venerable_hag	wh_main_skill_node_fim_meargh_skattach		1.0	fim_meargh_skattach_unique_1_3	3.0		0	0	true
-	fim_meargh_skattach_witch_queen	wh_main_skill_node_fim_meargh_skattach		1.0	fim_meargh_skattach_unique_1_4	4.0		0	0	true
-	fim_skattach_summon_bloodletters	wh_main_skill_node_fim_meargh_skattach		1.0	fim_meargh_skattach_unique_1_5	5.0		0	3	true
-	wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_unique_01	2.0		0	0	true
-	wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_unique_02	3.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_unique_03	4.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_unique_04	5.0		0	0	true
-	wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_unique_05	6.0		0	0	true
-	wh2_main_skill_magic_dark_chillwind	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_01	0.0		0	0	true
-	wh2_main_skill_magic_dark_power_of_darkness_lord	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_02	1.0		0	0	true
-	wh2_main_skill_magic_dark_word_of_pain_lord	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_03	2.0		0	0	true
-	wh2_main_skill_magic_dark_bladewind_lord	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_04	3.0		0	0	true
-	wh2_main_skill_magic_dark_lore_attribute	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_05	4.0		0	0	true
-	wh_main_skill_all_magic_all_06_evasion	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_06	5.0		0	4	true
-	wh2_main_skill_magic_dark_doombolt_lord	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_07	8.0		0	0	true
-	wh2_main_skill_magic_dark_soul_stealer_lord	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_08	9.0		0	0	true
-	wh_main_skill_all_magic_all_07_earthing	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_09	6.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_10	7.0		0	0	true
-	wh_main_skill_all_magic_all_11_arcane_conduit	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_11	10.0		0	4	true
-	wh2_main_skill_magic_dark_chillwind_power_of_darkness_dummy	wh_main_skill_node_fim_meargh_skattach		2.0	wh_main_skill_node_fim_meargh_skattach_death_magic1_dummy	11.0		1	0	false
-	fim_meargh_skattach_anc_staff_balor	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_ancillary_01	0.0		0	0	true
-	fim_meargh_skattach_anc_hellmother_crown	wh_main_skill_node_fim_meargh_skattach		0.0	fim_meargh_skattach_ancillary_02	1.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_meargh_skattach										
+fim_meargh_skattach_immortality		wh2_main_skill_all_immortality_lord	wh_main_skill_node_fim_meargh_skattach		0.0	6.0		0	0	true
+fim_meargh_skattach_from_mists		elo_fimir_from_mists	wh_main_skill_node_fim_meargh_skattach		0.0	5.0		0	0	true
+fim_meargh_skattach_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_fim_meargh_skattach		5.0	0.0		0	0	true
+fim_meargh_skattach_campaign_02		wh2_main_skill_def_campaign_dreaded_slaver	wh_main_skill_node_fim_meargh_skattach		5.0	1.0		0	0	true
+fim_meargh_skattach_campaign_03		wh_main_skill_chs_lord_campaign_serve_or_die	wh_main_skill_node_fim_meargh_skattach		5.0	2.0		0	0	true
+fim_meargh_skattach_campaign_04		wh_dlc08_skill_nor_lords_campaign_norse_resilience	wh_main_skill_node_fim_meargh_skattach		5.0	3.0		0	0	true
+fim_meargh_skattach_campaign_05		wh_dlc08_skill_nor_lord_campaign_despoilers	wh_main_skill_node_fim_meargh_skattach		5.0	4.0		0	4	true
+fim_meargh_skattach_campaign_06		wh_dlc08_skill_nor_throgg_campaign_masters_of_the_fen	wh_main_skill_node_fim_meargh_skattach		5.0	5.0		0	4	true
+fim_meargh_skattach_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	wh_main_skill_node_fim_meargh_skattach		5.0	6.0		0	0	true
+fim_meargh_skattach_campaign_08		wh_main_skill_vmp_lord_campaign_ancient_cunning	wh_main_skill_node_fim_meargh_skattach		5.0	7.0		0	0	true
+fim_meargh_skattach_campaign_09		wh_dlc08_skill_nor_lords_campaign_unnatural_healing	wh_main_skill_node_fim_meargh_skattach		5.0	8.0		0	0	true
+fim_meargh_skattach_campaign_10		wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	wh_main_skill_node_fim_meargh_skattach		5.0	9.0		0	0	true
+fim_meargh_skattach_campaign_11		wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	wh_main_skill_node_fim_meargh_skattach		5.0	10.0		0	4	true
+fim_meargh_skattach_battle_01		wh_main_skill_chs_lord_battle_dominating_presence	wh_main_skill_node_fim_meargh_skattach		4.0	0.0		0	0	true
+fim_meargh_skattach_battle_02		fimir_sacrifices	wh_main_skill_node_fim_meargh_skattach		4.0	1.0		0	0	true
+fim_meargh_skattach_battle_03		fimir_riders_doggos	wh_main_skill_node_fim_meargh_skattach		4.0	2.0		0	0	true
+fim_meargh_skattach_battle_04		fimir_bog_monsters	wh_main_skill_node_fim_meargh_skattach		4.0	3.0		0	0	true
+fim_meargh_skattach_battle_05		fimir_swamp_warriors	wh_main_skill_node_fim_meargh_skattach		4.0	4.0		0	0	true
+fim_meargh_skattach_battle_06		fimir_fen_giants	wh_main_skill_node_fim_meargh_skattach		4.0	5.0		0	0	true
+fim_meargh_skattach_battle_07		wh_main_skill_all_lord_battle_rally	wh_main_skill_node_fim_meargh_skattach		4.0	6.0		0	6	true
+fim_meargh_skattach_battle_08		fimir_r7_warriors	wh_main_skill_node_fim_meargh_skattach		4.0	7.0		0	0	true
+fim_meargh_skattach_battle_09		fimir_r7_elite_monsters	wh_main_skill_node_fim_meargh_skattach		4.0	8.0		0	0	true
+fim_meargh_skattach_battle_10		fimir_r7_fast_beasts	wh_main_skill_node_fim_meargh_skattach		4.0	9.0		0	0	true
+fim_meargh_skattach_battle_11		fimir_r7_elite_giants	wh_main_skill_node_fim_meargh_skattach		4.0	10.0		0	0	true
+fim_meargh_skattach_battle_12		wh_dlc08_skill_nor_lords_battle_fight_or_die	wh_main_skill_node_fim_meargh_skattach		4.0	11.0		0	1	true
+fim_meargh_skattach_innate_01		fim_meargh_skattach_innate	wh_main_skill_node_fim_meargh_skattach		6.0	0.0		1	0	false
+fim_meargh_skattach_unique_0		fim_meargh_skattach_ancient_leadership	wh_main_skill_node_fim_meargh_skattach		1.0	0.0		0	0	true
+fim_meargh_skattach_unique_1_1		fim_meargh_skattach_death_quest	wh_main_skill_node_fim_meargh_skattach		1.0	1.0		0	0	true
+fim_meargh_skattach_unique_1_2		fim_meargh_skattach_poison_mist	wh_main_skill_node_fim_meargh_skattach		1.0	2.0		0	0	true
+fim_meargh_skattach_unique_1_3		fim_meargh_skattach_venerable_hag	wh_main_skill_node_fim_meargh_skattach		1.0	3.0		0	0	true
+fim_meargh_skattach_unique_1_4		fim_meargh_skattach_witch_queen	wh_main_skill_node_fim_meargh_skattach		1.0	4.0		0	0	true
+fim_meargh_skattach_unique_1_5		fim_skattach_summon_bloodletters	wh_main_skill_node_fim_meargh_skattach		1.0	5.0		0	3	true
+fim_meargh_skattach_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_main_skill_node_fim_meargh_skattach		0.0	2.0		0	0	true
+fim_meargh_skattach_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_main_skill_node_fim_meargh_skattach		0.0	3.0		0	0	true
+fim_meargh_skattach_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_main_skill_node_fim_meargh_skattach		0.0	4.0		0	0	true
+fim_meargh_skattach_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_main_skill_node_fim_meargh_skattach		0.0	5.0		0	0	true
+fim_meargh_skattach_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_main_skill_node_fim_meargh_skattach		0.0	6.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_01		wh2_main_skill_magic_dark_chillwind	wh_main_skill_node_fim_meargh_skattach		2.0	0.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_02		wh2_main_skill_magic_dark_power_of_darkness_lord	wh_main_skill_node_fim_meargh_skattach		2.0	1.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_03		wh2_main_skill_magic_dark_word_of_pain_lord	wh_main_skill_node_fim_meargh_skattach		2.0	2.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_04		wh2_main_skill_magic_dark_bladewind_lord	wh_main_skill_node_fim_meargh_skattach		2.0	3.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_05		wh2_main_skill_magic_dark_lore_attribute	wh_main_skill_node_fim_meargh_skattach		2.0	4.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_06		wh_main_skill_all_magic_all_06_evasion	wh_main_skill_node_fim_meargh_skattach		2.0	5.0		0	4	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_07		wh2_main_skill_magic_dark_doombolt_lord	wh_main_skill_node_fim_meargh_skattach		2.0	8.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_08		wh2_main_skill_magic_dark_soul_stealer_lord	wh_main_skill_node_fim_meargh_skattach		2.0	9.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_09		wh_main_skill_all_magic_all_07_earthing	wh_main_skill_node_fim_meargh_skattach		2.0	6.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_10		wh_main_skill_all_magic_all_08_power_drain	wh_main_skill_node_fim_meargh_skattach		2.0	7.0		0	0	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	wh_main_skill_node_fim_meargh_skattach		2.0	10.0		0	4	true
+wh_main_skill_node_fim_meargh_skattach_death_magic1_dummy		wh2_main_skill_magic_dark_chillwind_power_of_darkness_dummy	wh_main_skill_node_fim_meargh_skattach		2.0	11.0		1	0	false
+fim_meargh_skattach_ancillary_01		fim_meargh_skattach_anc_staff_balor	wh_main_skill_node_fim_meargh_skattach		0.0	0.0		0	0	true
+fim_meargh_skattach_ancillary_02		fim_meargh_skattach_anc_hellmother_crown	wh_main_skill_node_fim_meargh_skattach		0.0	1.0		0	0	true

@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_hlf_under	
 ovn_hlf_under_set_menu_1	ovn_hlf_under_set_menu_2
 ovn_hlf_under_set_menu_2	ovn_hlf_under_set_menu_3
 ovn_hlf_under_pick_menu_1	ovn_hlf_under_pick_menu_2

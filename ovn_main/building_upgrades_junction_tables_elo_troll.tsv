@@ -1,4 +1,4 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/elo_troll	
 elo_troll_1	elo_troll_2
 elo_troll_2	elo_troll_3

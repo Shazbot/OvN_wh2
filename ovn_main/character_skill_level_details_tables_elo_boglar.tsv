@@ -1,3 +1,3 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	anc_boglar_shaman_hound		9
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/elo_boglar						
+		1	anc_boglar_shaman_hound		x	9

@@ -1,85 +1,85 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-battle_attack.png	elo_warrior_culture	meh		0	false	false	false	0.0	0
-battle_defence.png	elo_guardians_land	meh		0	false	false	false	0.0	0
-battle_attack.png	elo_monster_support	meh		0	false	false	false	0.0	0
-battle_damage.png	elo_noble_saveages	meh		0	false	false	false	0.0	0
-battle_ranged_damage.png	elo_ranged_specialists	meh		0	false	false	false	0.0	0
-battle_speed.png	elo_fast_raiders	meh		0	false	false	false	0.0	0
-character_ward_save.png	elo_fast_reflexes	meh		0	false	false	false	0.0	0
-character_ward_save.png	elo_protective_charms	meh		0	false	false	false	0.0	0
-albion_warcry.png	elo_albion_warcry	meh		0	false	false	false	0.0	0
-battle_armour.png	elo_champions_r7	meh		0	false	false	false	0.0	0
-battle_ranged_damage.png	elo_hunters_r7	meh		0	false	false	false	0.0	0
-battle_damage.png	elo_riders_r7	meh		0	false	false	false	0.0	0
-battle_damage.png	elo_monsters_r7	meh		0	false	false	false	0.0	0
-mount_warhorse.png	warleader_mount_skill	derp	Warhorse	5	false	false	false	0.0	0
-mount_chaos_chariot.png	warleader_chariot_skill	derp	Marauder Chariot	9	false	false	false	0.0	0
-character_speed.png	endless_conflict	meh		0	false	false	false	0.0	0
-character_attack.png	sessair_leader	meh		0	false	false	false	0.0	0
-battle_damage.png	sessair_troops	meh		0	false	false	false	0.0	0
-battle_charge.png	sessair_tactics	meh		0	false	false	false	0.0	0
-character_defence.png	fir_leader	meh		0	false	false	false	0.0	0
-battle_defence.png	fir_troops	meh		0	false	false	false	0.0	0
-guerrilla_deploy.png	filian_leader	meh		0	false	false	false	0.0	0
-guerrilla_deploy.png	filian_troops	meh		0	false	false	false	0.0	0
-character_armour.png	finian_leader	meh		0	false	false	false	0.0	0
-battle_armour.png	finian_troops	meh		0	false	false	false	0.0	0
-mount_warhorse.png	mount_horse_truthsayer_beasts_skill	derp	Warhorse	5	false	false	false	0.0	0
-character_magic.png	teachings_old_ones	meh		0	false	false	false	0.0	0
-character_magic.png	oral_tradition	derp		0	false	false	false	0.0	0
-battle_ward_save.png	swamp_monsters	meh		0	false	false	false	0.0	0
-battle_speed.png	ancient_allies	meh		0	false	false	false	0.0	0
-character_ambush.png	shadows_fen	meh		0	false	false	false	0.0	0
-mount_warhorse.png	mount_horse_truthsayer_light_skill	derp	Warhorse	5	false	false	false	0.0	0
-mount_warhorse.png	mount_horse_truthsayer_life_skill	derp	Warhorse	5	false	false	false	0.0	0
-gift_of_life_spell.png	truth_spell_gift_life_lord			0	false	false	false	0.0	0
-wings_of_fate.png	truth_spell_wings_fate_lord			0	false	false	false	0.0	0
-	wh_main_skill_all_magic_truth_dummy_wings_valor			0	false	false	false	0.0	0
-blessing_valor.png	truth_spell_valor_lord			0	false	false	false	0.0	0
-voice_command.png	truth_spell_voice_command_lord			0	false	false	false	0.0	0
-lore_truthsayers.png	truthsayer_lore_attribute			0	false	false	false	0.0	0
-boon_courage.png	truth_spell_boon_courage_lord			0	false	false	false	0.0	0
-light_protection.png	truth_spell_protection_lord			0	false	false	false	0.0	0
-mount_warhorse.png	mount_horse_truthsayer_truth_skill	derp	Warhorse	5	false	false	false	0.0	0
-trait_norsca.png	truthsayer_innate_priest_danu			0	true	false	false	4.0	0
-trait_norsca.png	truthsayer_innate_priest_lugh			0	true	false	false	4.0	0
-trait_norsca.png	truthsayer_innate_priest_carnun			0	true	false	false	4.0	0
-trait_norsca.png	warleader_swamp_guard			0	true	false	false	4.0	0
-trait_norsca.png	warleader_raider			0	true	false	false	4.0	0
-trait_norsca.png	warleader_killer			0	true	false	false	4.0	0
-trait_norsca.png	warleader_wanderer			0	true	false	false	4.0	0
-mount_warhorse.png	chief_mount_skill	derp	Warhorse	5	false	false	false	0.0	0
-character_attack.png	chief_hunter			0	false	false	false	0.0	0
-character_morale.png	chief_leader			0	false	false	false	0.0	0
-character_defence.png	chief_bodyguard			0	false	false	false	0.0	0
-mount_chaos_chariot.png	chief_chariot_skill	derp	Marauder Chariot	0	false	false	false	0.0	0
-	wh_main_skill_all_magic_truth_dummy_wings_fate			0	false	false	false	0.0	0
-mount_warhorse.png	wyrd_mount_skill	derp	Warhorse	5	false	false	false	0.0	0
-character_attack.png	warrior_shaman			10	false	false	false	0.0	0
-character_magic.png	wyrd_spellbinder			10	false	false	false	0.0	0
-character_health.png	wyrd_channeler			10	false	false	false	0.0	0
-trait_norsca.png	morrigan_innate			0	true	false	false	0.0	0
-	morrigan_flock_leech_dummy			0	false	false	false	0.0	0
-mount_great_eagle.png	morrigan_raven_skill			0	false	false	false	0.0	0
-item_weapon.png	morrigan_legendary_staff			0	false	false	false	0.0	0
-wings_of_fate.png	morrigan_wings_bound			0	false	false	false	0.0	0
-character_general_ability.png	morrigan_darkened_skies			0	false	false	false	0.0	0
-character_general_ability.png	morrigan_omen_of_victory			0	false	false	false	0.0	0
-character_magic.png	morrigan_mage			0	false	false	false	0.0	0
-character_magic.png	morrigan_magical_being			0	false	false	false	0.0	0
-character_ward_save.png	morrigan_maidens			0	false	false	false	0.0	0
-character_magic.png	morrigan_unleashed			0	false	false	false	0.0	0
-mount_warhorse.png	dural_mount_horse			0	false	false	false	0.0	0
-mount_chaos_chariot.png	dural_mount_chariot			0	false	false	false	0.0	0
-item_arcane_item.png	elo_staff_of_dural_durak			0	false	false	false	0.0	0
-item_talisman.png	elo_amulet_old_ones			0	false	false	false	0.0	0
-character_magic.png	dural_loremaster			0	false	false	false	0.0	0
-trait_norsca.png	dural_innate_first_truthsayer			0	true	false	false	0.0	0
-campaign_experience.png	dural_mentor			0	false	false	false	0.0	0
-battle_damage.png	dural_giant_friend			0	false	false	false	0.0	0
-battle_attack.png	dural_control_bogs			0	false	false	false	0.0	0
-campaign_replenishment.png	dural_healer			0	false	false	false	0.0	0
-character_magic.png	dural_heir_old_ones			0	false	false	false	0.0	0
-wh2_dlc11_spell_deep_fog_of_the_damned.png	dural_true_master			0	false	false	false	0.0	0
-campaign_experience.png	dural_leader_circle			0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/elo_albion									
+elo_warrior_culture	battle_attack.png	meh		0	false	false	false	0.0	0
+elo_guardians_land	battle_defence.png	meh		0	false	false	false	0.0	0
+elo_monster_support	battle_attack.png	meh		0	false	false	false	0.0	0
+elo_noble_saveages	battle_damage.png	meh		0	false	false	false	0.0	0
+elo_ranged_specialists	battle_ranged_damage.png	meh		0	false	false	false	0.0	0
+elo_fast_raiders	battle_speed.png	meh		0	false	false	false	0.0	0
+elo_fast_reflexes	character_ward_save.png	meh		0	false	false	false	0.0	0
+elo_protective_charms	character_ward_save.png	meh		0	false	false	false	0.0	0
+elo_albion_warcry	albion_warcry.png	meh		0	false	false	false	0.0	0
+elo_champions_r7	battle_armour.png	meh		0	false	false	false	0.0	0
+elo_hunters_r7	battle_ranged_damage.png	meh		0	false	false	false	0.0	0
+elo_riders_r7	battle_damage.png	meh		0	false	false	false	0.0	0
+elo_monsters_r7	battle_damage.png	meh		0	false	false	false	0.0	0
+warleader_mount_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+warleader_chariot_skill	mount_chaos_chariot.png	derp	Marauder Chariot	9	false	false	false	0.0	0
+endless_conflict	character_speed.png	meh		0	false	false	false	0.0	0
+sessair_leader	character_attack.png	meh		0	false	false	false	0.0	0
+sessair_troops	battle_damage.png	meh		0	false	false	false	0.0	0
+sessair_tactics	battle_charge.png	meh		0	false	false	false	0.0	0
+fir_leader	character_defence.png	meh		0	false	false	false	0.0	0
+fir_troops	battle_defence.png	meh		0	false	false	false	0.0	0
+filian_leader	guerrilla_deploy.png	meh		0	false	false	false	0.0	0
+filian_troops	guerrilla_deploy.png	meh		0	false	false	false	0.0	0
+finian_leader	character_armour.png	meh		0	false	false	false	0.0	0
+finian_troops	battle_armour.png	meh		0	false	false	false	0.0	0
+mount_horse_truthsayer_beasts_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+teachings_old_ones	character_magic.png	meh		0	false	false	false	0.0	0
+oral_tradition	character_magic.png	derp		0	false	false	false	0.0	0
+swamp_monsters	battle_ward_save.png	meh		0	false	false	false	0.0	0
+ancient_allies	battle_speed.png	meh		0	false	false	false	0.0	0
+shadows_fen	character_ambush.png	meh		0	false	false	false	0.0	0
+mount_horse_truthsayer_light_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+mount_horse_truthsayer_life_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+truth_spell_gift_life_lord	gift_of_life_spell.png			0	false	false	false	0.0	0
+truth_spell_wings_fate_lord	wings_of_fate.png			0	false	false	false	0.0	0
+wh_main_skill_all_magic_truth_dummy_wings_valor				0	false	false	false	0.0	0
+truth_spell_valor_lord	blessing_valor.png			0	false	false	false	0.0	0
+truth_spell_voice_command_lord	voice_command.png			0	false	false	false	0.0	0
+truthsayer_lore_attribute	lore_truthsayers.png			0	false	false	false	0.0	0
+truth_spell_boon_courage_lord	boon_courage.png			0	false	false	false	0.0	0
+truth_spell_protection_lord	light_protection.png			0	false	false	false	0.0	0
+mount_horse_truthsayer_truth_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+truthsayer_innate_priest_danu	trait_norsca.png			0	true	false	false	4.0	0
+truthsayer_innate_priest_lugh	trait_norsca.png			0	true	false	false	4.0	0
+truthsayer_innate_priest_carnun	trait_norsca.png			0	true	false	false	4.0	0
+warleader_swamp_guard	trait_norsca.png			0	true	false	false	4.0	0
+warleader_raider	trait_norsca.png			0	true	false	false	4.0	0
+warleader_killer	trait_norsca.png			0	true	false	false	4.0	0
+warleader_wanderer	trait_norsca.png			0	true	false	false	4.0	0
+chief_mount_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+chief_hunter	character_attack.png			0	false	false	false	0.0	0
+chief_leader	character_morale.png			0	false	false	false	0.0	0
+chief_bodyguard	character_defence.png			0	false	false	false	0.0	0
+chief_chariot_skill	mount_chaos_chariot.png	derp	Marauder Chariot	0	false	false	false	0.0	0
+wh_main_skill_all_magic_truth_dummy_wings_fate				0	false	false	false	0.0	0
+wyrd_mount_skill	mount_warhorse.png	derp	Warhorse	5	false	false	false	0.0	0
+warrior_shaman	character_attack.png			10	false	false	false	0.0	0
+wyrd_spellbinder	character_magic.png			10	false	false	false	0.0	0
+wyrd_channeler	character_health.png			10	false	false	false	0.0	0
+morrigan_innate	trait_norsca.png			0	true	false	false	0.0	0
+morrigan_flock_leech_dummy				0	false	false	false	0.0	0
+morrigan_raven_skill	mount_great_eagle.png			0	false	false	false	0.0	0
+morrigan_legendary_staff	item_weapon.png			0	false	false	false	0.0	0
+morrigan_wings_bound	wings_of_fate.png			0	false	false	false	0.0	0
+morrigan_darkened_skies	character_general_ability.png			0	false	false	false	0.0	0
+morrigan_omen_of_victory	character_general_ability.png			0	false	false	false	0.0	0
+morrigan_mage	character_magic.png			0	false	false	false	0.0	0
+morrigan_magical_being	character_magic.png			0	false	false	false	0.0	0
+morrigan_maidens	character_ward_save.png			0	false	false	false	0.0	0
+morrigan_unleashed	character_magic.png			0	false	false	false	0.0	0
+dural_mount_horse	mount_warhorse.png			0	false	false	false	0.0	0
+dural_mount_chariot	mount_chaos_chariot.png			0	false	false	false	0.0	0
+elo_staff_of_dural_durak	item_arcane_item.png			0	false	false	false	0.0	0
+elo_amulet_old_ones	item_talisman.png			0	false	false	false	0.0	0
+dural_loremaster	character_magic.png			0	false	false	false	0.0	0
+dural_innate_first_truthsayer	trait_norsca.png			0	true	false	false	0.0	0
+dural_mentor	campaign_experience.png			0	false	false	false	0.0	0
+dural_giant_friend	battle_damage.png			0	false	false	false	0.0	0
+dural_control_bogs	battle_attack.png			0	false	false	false	0.0	0
+dural_healer	campaign_replenishment.png			0	false	false	false	0.0	0
+dural_heir_old_ones	character_magic.png			0	false	false	false	0.0	0
+dural_true_master	wh2_dlc11_spell_deep_fog_of_the_damned.png			0	false	false	false	0.0	0
+dural_leader_circle	campaign_experience.png			0	false	false	false	0.0	0

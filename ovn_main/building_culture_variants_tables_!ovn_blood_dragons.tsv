@@ -1,4 +1,4 @@
-building_culture_variants_tables	4
-building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
-ovn_blood_landmark		wh_main_PLACEHOLDER	special_merovech			false	ovn_blood_landmark	true
-ovn_blood_keep		wh_main_PLACEHOLDER	vampire_blood_keep			false	ovn_blood_keep	true
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/!ovn_blood_dragons								
+ovn_blood_landmark				wh_main_PLACEHOLDER	special_merovech	false	ovn_blood_landmark	true
+ovn_blood_keep				wh_main_PLACEHOLDER	vampire_blood_keep	false	ovn_blood_keep	true

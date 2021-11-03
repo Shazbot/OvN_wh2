@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/belakor_unit_abilities__.loc		
 unit_abilities_onscreen_name_whispers_in_the_darkness	Whispers In The Darkness	true
 unit_abilities_tooltip_text_whispers_in_the_darkness	The sound of the darkness seeping into the minds of those who come face to face with the Father in Shadow.	true
 unit_abilities_onscreen_name_Violent_rise_to_power_1	Violent Rise To Power I	true

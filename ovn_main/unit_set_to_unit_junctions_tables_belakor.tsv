@@ -1,4 +1,4 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				belakor	chs_all
-false				belakor	chs_lords
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/belakor					
+			belakor	chs_all	false
+			belakor	chs_lords	false

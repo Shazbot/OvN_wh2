@@ -1,5 +1,5 @@
-commander_unit_permissions_tables	0
 culture_key	faction_key	subculture_key	unit_key
+#commander_unit_permissions_tables;0;db/commander_unit_permissions_tables/ovn_albion_sc			
 		wh_main_sc_nor_albion	wh_main_nor_shp_bloodship_general
 		wh_main_sc_nor_albion	albion_morrigan
 		wh_main_sc_nor_albion	albion_warleader

@@ -1,5 +1,5 @@
-ui_unit_bullet_point_unit_overrides_tables	0
 bullet_point	unit_key
+#ui_unit_bullet_point_unit_overrides_tables;0;db/ui_unit_bullet_point_unit_overrides_tables/elo_carrion	
 poison	elo_carrion_boss
 poison	elo_carrion_boss_squig
 anti_infantry	elo_carrion_boss_squig

@@ -1,5 +1,5 @@
-ritual_payload_ancillaries_tables	0
 id	payload	ancillary
+#ritual_payload_ancillaries_tables;0;db/ritual_payload_ancillaries_tables/ovn_crafting		
 311082401	ovn_arb_crafting_weapons_01	ovn_arb_baz_wep_01_golden_scimitar
 311082402	ovn_arb_crafting_weapons_02	ovn_arb_baz_wep_02_hidden_blade
 311082403	ovn_arb_crafting_weapons_03	ovn_arb_baz_wep_03_corsair_soul

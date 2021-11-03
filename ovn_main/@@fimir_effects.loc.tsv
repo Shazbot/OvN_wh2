@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@@fimir_effects.loc		
 effects_description_wh2_main_effect_enable_nor_vanguard_monsters	Attribute: Vanguard Deployment for Skin Wolves, Fimir Warlord & all Fimir units	true
 effects_description_wh2_main_effect_nor_fimir_trolls_rank7_melee_damage	Weapon strength: %+n% for Norscan Trolls & all Fimir units {{tr:rank7}}	true
 effects_description_wh2_main_effect_nor_fimir_trolls_rank7_charge_bonus	Charge bonus: %+n for Norscan Trolls & all Fimir units {{tr:rank7}}	true

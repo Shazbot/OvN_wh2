@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_albion_technologies.loc		
 technologies_onscreen_name_albion_tech_war_1	The Warrior's Journey	true
 technologies_short_description_albion_tech_war_1	The journey of a warrior is difficult and filled with dangers.	true
 technologies_onscreen_name_albion_tech_war_2	Warrior Culture	true

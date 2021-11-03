@@ -1,5 +1,5 @@
-resource_ui_overrides_tables	0
 override_faction	override_subculture	source_resource	target_resource
+#resource_ui_overrides_tables;0;db/resource_ui_overrides_tables/elo_ovn_landmarks			
 	wh2_dlc09_sc_tmb_tomb_kings	res_location_araby_hidden	
 	wh2_main_sc_lzd_lizardmen	res_location_araby_hidden	
 	wh_main_sc_dwf_dwarfs	res_location_araby_hidden	

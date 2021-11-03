@@ -1,5 +1,5 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/ovn_araby			
 92111834	5	ovn_slave	ovn_araby
 92111836	3	OtF_khemri_knights	ovn_araby
 92111837	3	OtF_khemri_spearmen	ovn_araby

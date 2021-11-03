@@ -1,5 +1,5 @@
-effect_bonus_value_unit_ability_junctions_tables	0
 effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/elo_troll_new		
 enable_stink	enable	horrible_stench
 enable_death_stench	enable	death_stench
 disable_horrible_stench	disable	horrible_stench

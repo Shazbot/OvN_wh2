@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_unit_abilities.loc		
 unit_abilities_tooltip_text_ovn_hlf_ammo	Shoot faster, we have plenty more where that came from!	true
 unit_abilities_onscreen_name_ovn_hlf_ammo	Ammunition Supplies	true
 unit_abilities_onscreen_name_fim_skattach_poison_mist	Poison Mist	false

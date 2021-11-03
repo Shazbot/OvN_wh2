@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/@cr_ranged_fimir	
 chaos_territory	ovn_fim_mon_caster_0
 disease	ovn_fim_mon_caster_0
 swamp	ovn_fim_mon_caster_0

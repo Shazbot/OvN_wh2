@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_araby							
 ovn_arb_camel	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_camel	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0	1.0	0.0	
 ovn_arb_camel_rider_jezzail		arb_camel_rider_jezzail	hu1/emp/low_poly/emp_outrider_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 ovn_arb_camel_rider_archer		arb_camel_rider_archer	hu1\brt\brt_men_at_arms\low_poly\brt_men_at_arms_archer_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter

@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_albion							
 wh2_main_nor_Albion_swordmaiden		nor_albion_swordmaiden		1.07	1.0	0.05	
 elo_albion_gryphon		elo_albion_gryphon		1.0	1.0	0.1	
 alb_cav_noble		alb_cav_noble		1.0	0.95	0.05	

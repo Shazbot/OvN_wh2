@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/ovn_wolf_golden_magus			
 arb_flaming_scimitar_main		arb_flaming_scimitar_main	false
 	arb_flaming_scimitar_main_1	arb_flaming_scimitar_newhorde	false
 arb_flaming_scimitar_barracks		arb_flaming_scimitar_military	false

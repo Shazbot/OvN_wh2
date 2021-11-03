@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/@cr_flying_carpet							
 ovn_arb_flying_carpet	VariantMeshes/wh_variantmodels/fc1/arb/arb_flying_carpet/tech/	arb_flying_carpet		1.0	1.0	0.0	
 ovn_arb_flying_carpet_rider		arb_flying_carpet_rider		1.0	1.0	0.05	
 ovn_arb_flying_carpet_rider_ror		arb_flying_carpet_rider_ror		1.0	1.0	0.05	

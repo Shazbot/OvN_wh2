@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_trolls							
 elo_chief_ugma		elo_chief_ugma		0.9	0.9	0.0	
 elo_chief_ugma_campaign		elo_chief_ugma_campaign		1.0	1.0	0.0	
 elo_carrion_gobbo_bow		elo_carrion_gobbo_bow		0.95	0.95	0.1	

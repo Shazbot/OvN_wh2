@@ -1,5 +1,5 @@
-missile_weapons_tables	11
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/ovn				
 ovn_arb_flying_carpet_naphtha	false	ovn_arb_flying_carpet_naphtha		false
 ovn_arb_flying_carpet_bow	false	ovn_arb_flying_carpet_arrow	bow	false
 ovn_arb_flying_carpet_bow_ror	false	ovn_arb_flying_carpet_arrow_ror	bow	false

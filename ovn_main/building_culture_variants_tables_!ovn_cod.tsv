@@ -1,3 +1,3 @@
-building_culture_variants_tables	4
-building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
-ovn_Citadel_of_dusk		wh_main_PLACEHOLDER	special_lighthouse			false	ovn_Citadel_of_dusk	true
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/!ovn_cod								
+ovn_Citadel_of_dusk				wh_main_PLACEHOLDER	special_lighthouse	false	ovn_Citadel_of_dusk	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_culture_variants.loc		
 building_culture_variants_name_ovn_arb_hosp_1wh_main_sc_emp_araby	Field Hospital	true
 building_chains_chain_tooltip_ovn_arb_hosp	Healing	true
 building_short_description_texts_short_description_ovn_arb_hosp	The Arabyans value life and endeavour in the noble pursuit of healing and easing suffering.	true

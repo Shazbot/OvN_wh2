@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/fimir_agent_subtype_subculture_overrides__.loc		
 agent_subtype_subculture_overrides_onscreen_name_grn_goblin_big_bosswh_main_sc_nor_fimirchampion	Goblin Big Boss	true
 agent_subtype_subculture_overrides_description_grn_goblin_big_bosswh_main_sc_nor_fimirchampion	Though powerful enough in battle, a Goblin Boss can also employ all manner of trickery to ensure victory.	true
 agent_subtype_subculture_overrides_description_elo_boglar_shamanwh_main_sc_nor_fimirwizard	The magic of Boglar Shamans reflects their cowardly nature and boggy homelands.	true

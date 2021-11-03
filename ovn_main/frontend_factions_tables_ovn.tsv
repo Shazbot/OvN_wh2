@@ -1,5 +1,5 @@
-frontend_factions_tables	3
 faction	video	sort_order
+#frontend_factions_tables;3;db/frontend_factions_tables/ovn		
 wh2_main_arb_aswad_scythans	front_end_faction_select/tmb_faction	163
 wh2_main_arb_caliphate_of_araby	front_end_faction_select/tmb_faction	163
 wh2_main_arb_flaming_scimitar	Warhammer/faction_select_cst	163

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/halfling_dilemma.loc		
 dilemmas_localised_description_ovn_chaos_gipfel	Imperial traders and citizens have vanished with some last seen heading to the village Gipfel. Witch Hunters dispatched by Volkmar have reported to us that the place reeks of Chaos. The village leader Dagobert Heathland ensures us however this is merely an imperial ploy to sabotage our industry.	true
 dilemmas_localised_title_ovn_chaos_gipfel	Harvest Vanishing	true
 cdir_events_dilemma_choice_details_localised_choice_label_ovn_chaos_gipfelFIRST	Root out the Heretics!	true

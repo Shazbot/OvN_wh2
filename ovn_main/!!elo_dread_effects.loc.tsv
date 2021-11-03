@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!!elo_dread_effects.loc		
 effects_description_dread_legion_dual_cap	Unit Capacity: %+n for Dread Legion (Dual Swords)	true
 effects_description_dread_legion_2h_cap	Unit Capacity: %+n for Dread Legion (Great Weapons)	true
 effects_description_dread_legion_spears_cap	Unit Capacity: %+n for Dread Legion (Spears)	true

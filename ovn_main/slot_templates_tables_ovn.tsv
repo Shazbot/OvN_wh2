@@ -1,5 +1,5 @@
-slot_templates_tables	1
 key	resource
+#slot_templates_tables;1;db/slot_templates_tables/ovn	
 wh2_main_special_isle_of_wights_port	res_location_albion_hidden
 wh_main_special_citadel_of_lead_secondary	res_location_albion_hidden
 wh_main_special_karak_azgal_secondary	res_location_ugma_hidden

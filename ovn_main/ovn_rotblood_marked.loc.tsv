@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_rotblood_marked.loc		
 ui_unit_groupings_onscreen_monstrous_shock_cavalry_steed	Monstrous Shock Cavalry	true
 ui_unit_groupings_tooltip_monstrous_shock_cavalry_steed	 	true
 ui_unit_groupings_onscreen_monstrous_cavalry_steed	Monstrous Cavalry	true

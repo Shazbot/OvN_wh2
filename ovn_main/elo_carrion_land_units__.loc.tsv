@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_carrion_land_units__.loc		
 land_units_onscreen_name_elo_carrion_boss	Carrion Big Boss	true
 land_units_onscreen_name_elo_carrion_boss_squig	Carrion Big Boss	true

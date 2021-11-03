@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/araby_excavation_mechanic.loc		
 event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_primary_detail	Wrath of the Nehekharan Kings	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_arb_invasion_secondary_detail	Glorious leader, it seems our excavation hasn't gone unnoticed, the diggers have disturbed some long-forgotten prince and now the dead rise up to ensure his peace.	true
 dilemmas_localised_description_ovn_dilemma_arb_excavation	My most glorious leader, an excavation has uncovered a great tomb with many riches, should we begin securing the treasures?	true

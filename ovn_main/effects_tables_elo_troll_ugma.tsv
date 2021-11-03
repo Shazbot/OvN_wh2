@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_troll_ugma					
 raw_might_charge7	charge.png	140	charge.png	battle	true
 raw_might_speed7	battle_movement.png	140	battle_movement.png	battle	true
 raw_might_missle_res7	resistance_missile.png	140	resistance_missile.png	battle	true

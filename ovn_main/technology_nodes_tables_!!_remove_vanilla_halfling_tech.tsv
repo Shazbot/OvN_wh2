@@ -1,46 +1,46 @@
-technology_nodes_tables	3
-campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
-	wh2_main_emp_the_moot	29	remove_emp_tech_1	tech_dlc13_emp_academia_1	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_2	tech_dlc13_emp_academia_1_a	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_3	tech_dlc13_emp_academia_1_b	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_4	tech_dlc13_emp_academia_2	emp_civ_reworkd	5	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_5	tech_dlc13_emp_academia_2_a	emp_civ_reworkd	6	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_6	tech_dlc13_emp_academia_2_b	emp_civ_reworkd	5	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_7	tech_dlc13_emp_academia_3	emp_civ_reworkd	7	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_8	tech_dlc13_emp_academia_3_a	emp_civ_reworkd	7	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_9	tech_dlc13_emp_academia_3_b	emp_civ_reworkd	6	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_10	tech_dlc13_emp_cav_1	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_11	tech_dlc13_emp_cav_1_a	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_12	tech_dlc13_emp_cav_1_b	emp_civ_reworkd	3	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_13	tech_dlc13_emp_cav_1_c	emp_civ_reworkd	3	999999	999999	0		
-	wh2_main_emp_the_moot	7	remove_emp_tech_14	tech_dlc13_emp_diplomacy_1_a	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	7	remove_emp_tech_15	tech_dlc13_emp_diplomacy_1_b	emp_civ_reworkd	1	999999	999999	0		
-	wh2_main_emp_the_moot	7	remove_emp_tech_16	tech_dlc13_emp_diplomacy_1_c	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	7	remove_emp_tech_17	tech_dlc13_emp_diplomacy_1_d	emp_civ_reworkd	3	999999	999999	0		
-	wh2_main_emp_the_moot	4	remove_emp_tech_18	tech_dlc13_emp_economy_1	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_19	tech_dlc13_emp_economy_1_a	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_20	tech_dlc13_emp_economy_1_b	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	4	remove_emp_tech_21	tech_dlc13_emp_economy_2	emp_civ_reworkd	1	999999	999999	0		
-	wh2_main_emp_the_moot	4	remove_emp_tech_22	tech_dlc13_emp_economy_2_a	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_23	tech_dlc13_emp_economy_2_b	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_24	tech_dlc13_emp_economy_3	emp_civ_reworkd	3	999999	999999	0		
-	wh2_main_emp_the_moot	5	remove_emp_tech_25	tech_dlc13_emp_economy_3_a	emp_civ_reworkd	3	999999	999999	0		
-	wh2_main_emp_the_moot	3	remove_emp_tech_26	tech_dlc13_emp_economy_3_b	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	7	remove_emp_tech_27	tech_dlc13_emp_elector_counts_1	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	8	remove_emp_tech_28	tech_dlc13_emp_elector_counts_2	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_29	tech_dlc13_emp_infantry_1	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_30	tech_dlc13_emp_infantry_1_a	emp_civ_reworkd	1	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_31	tech_dlc13_emp_infantry_1_b	emp_civ_reworkd	1	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_32	tech_dlc13_emp_infantry_1_c	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_33	tech_dlc13_emp_machine_1	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_34	tech_dlc13_emp_machine_1_a	emp_civ_reworkd	5	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_35	tech_dlc13_emp_machine_1_b	emp_civ_reworkd	4	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_36	tech_dlc13_emp_machine_1_c	emp_civ_reworkd	5	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_37	tech_dlc13_emp_missile_1	emp_civ_reworkd	6	999999	999999	0		
-	wh2_main_emp_the_moot	0	remove_emp_tech_38	tech_dlc13_emp_missile_1_a	emp_civ_reworkd	7	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_39	tech_dlc13_emp_missile_1_b	emp_civ_reworkd	7	999999	999999	0		
-	wh2_main_emp_the_moot	1	remove_emp_tech_40	tech_dlc13_emp_missile_1_c	emp_civ_reworkd	6	999999	999999	0		
-	wh2_main_emp_the_moot	8	remove_emp_tech_41	tech_dlc13_emp_purge_1	emp_civ_reworkd	0	999999	999999	0		
-	wh2_main_emp_the_moot	8	remove_emp_tech_42	tech_dlc13_emp_purge_2	emp_civ_reworkd	1	999999	999999	0		
-	wh2_main_emp_the_moot	8	remove_emp_tech_43	tech_dlc13_emp_purge_3	emp_civ_reworkd	2	999999	999999	0		
-	wh2_main_emp_the_moot	8	remove_emp_tech_44	tech_dlc13_emp_purge_4	emp_civ_reworkd	3	999999	999999	0		
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+#technology_nodes_tables;3;db/technology_nodes_tables/!!_remove_vanilla_halfling_tech											
+remove_emp_tech_1		wh2_main_emp_the_moot	29	tech_dlc13_emp_academia_1	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_2		wh2_main_emp_the_moot	3	tech_dlc13_emp_academia_1_a	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_3		wh2_main_emp_the_moot	5	tech_dlc13_emp_academia_1_b	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_4		wh2_main_emp_the_moot	3	tech_dlc13_emp_academia_2	emp_civ_reworkd	5	999999	999999	0		
+remove_emp_tech_5		wh2_main_emp_the_moot	3	tech_dlc13_emp_academia_2_a	emp_civ_reworkd	6	999999	999999	0		
+remove_emp_tech_6		wh2_main_emp_the_moot	5	tech_dlc13_emp_academia_2_b	emp_civ_reworkd	5	999999	999999	0		
+remove_emp_tech_7		wh2_main_emp_the_moot	3	tech_dlc13_emp_academia_3	emp_civ_reworkd	7	999999	999999	0		
+remove_emp_tech_8		wh2_main_emp_the_moot	5	tech_dlc13_emp_academia_3_a	emp_civ_reworkd	7	999999	999999	0		
+remove_emp_tech_9		wh2_main_emp_the_moot	5	tech_dlc13_emp_academia_3_b	emp_civ_reworkd	6	999999	999999	0		
+remove_emp_tech_10		wh2_main_emp_the_moot	0	tech_dlc13_emp_cav_1	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_11		wh2_main_emp_the_moot	1	tech_dlc13_emp_cav_1_a	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_12		wh2_main_emp_the_moot	0	tech_dlc13_emp_cav_1_b	emp_civ_reworkd	3	999999	999999	0		
+remove_emp_tech_13		wh2_main_emp_the_moot	1	tech_dlc13_emp_cav_1_c	emp_civ_reworkd	3	999999	999999	0		
+remove_emp_tech_14		wh2_main_emp_the_moot	7	tech_dlc13_emp_diplomacy_1_a	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_15		wh2_main_emp_the_moot	7	tech_dlc13_emp_diplomacy_1_b	emp_civ_reworkd	1	999999	999999	0		
+remove_emp_tech_16		wh2_main_emp_the_moot	7	tech_dlc13_emp_diplomacy_1_c	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_17		wh2_main_emp_the_moot	7	tech_dlc13_emp_diplomacy_1_d	emp_civ_reworkd	3	999999	999999	0		
+remove_emp_tech_18		wh2_main_emp_the_moot	4	tech_dlc13_emp_economy_1	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_19		wh2_main_emp_the_moot	3	tech_dlc13_emp_economy_1_a	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_20		wh2_main_emp_the_moot	5	tech_dlc13_emp_economy_1_b	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_21		wh2_main_emp_the_moot	4	tech_dlc13_emp_economy_2	emp_civ_reworkd	1	999999	999999	0		
+remove_emp_tech_22		wh2_main_emp_the_moot	4	tech_dlc13_emp_economy_2_a	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_23		wh2_main_emp_the_moot	5	tech_dlc13_emp_economy_2_b	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_24		wh2_main_emp_the_moot	3	tech_dlc13_emp_economy_3	emp_civ_reworkd	3	999999	999999	0		
+remove_emp_tech_25		wh2_main_emp_the_moot	5	tech_dlc13_emp_economy_3_a	emp_civ_reworkd	3	999999	999999	0		
+remove_emp_tech_26		wh2_main_emp_the_moot	3	tech_dlc13_emp_economy_3_b	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_27		wh2_main_emp_the_moot	7	tech_dlc13_emp_elector_counts_1	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_28		wh2_main_emp_the_moot	8	tech_dlc13_emp_elector_counts_2	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_29		wh2_main_emp_the_moot	0	tech_dlc13_emp_infantry_1	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_30		wh2_main_emp_the_moot	0	tech_dlc13_emp_infantry_1_a	emp_civ_reworkd	1	999999	999999	0		
+remove_emp_tech_31		wh2_main_emp_the_moot	1	tech_dlc13_emp_infantry_1_b	emp_civ_reworkd	1	999999	999999	0		
+remove_emp_tech_32		wh2_main_emp_the_moot	1	tech_dlc13_emp_infantry_1_c	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_33		wh2_main_emp_the_moot	0	tech_dlc13_emp_machine_1	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_34		wh2_main_emp_the_moot	1	tech_dlc13_emp_machine_1_a	emp_civ_reworkd	5	999999	999999	0		
+remove_emp_tech_35		wh2_main_emp_the_moot	1	tech_dlc13_emp_machine_1_b	emp_civ_reworkd	4	999999	999999	0		
+remove_emp_tech_36		wh2_main_emp_the_moot	0	tech_dlc13_emp_machine_1_c	emp_civ_reworkd	5	999999	999999	0		
+remove_emp_tech_37		wh2_main_emp_the_moot	0	tech_dlc13_emp_missile_1	emp_civ_reworkd	6	999999	999999	0		
+remove_emp_tech_38		wh2_main_emp_the_moot	0	tech_dlc13_emp_missile_1_a	emp_civ_reworkd	7	999999	999999	0		
+remove_emp_tech_39		wh2_main_emp_the_moot	1	tech_dlc13_emp_missile_1_b	emp_civ_reworkd	7	999999	999999	0		
+remove_emp_tech_40		wh2_main_emp_the_moot	1	tech_dlc13_emp_missile_1_c	emp_civ_reworkd	6	999999	999999	0		
+remove_emp_tech_41		wh2_main_emp_the_moot	8	tech_dlc13_emp_purge_1	emp_civ_reworkd	0	999999	999999	0		
+remove_emp_tech_42		wh2_main_emp_the_moot	8	tech_dlc13_emp_purge_2	emp_civ_reworkd	1	999999	999999	0		
+remove_emp_tech_43		wh2_main_emp_the_moot	8	tech_dlc13_emp_purge_3	emp_civ_reworkd	2	999999	999999	0		
+remove_emp_tech_44		wh2_main_emp_the_moot	8	tech_dlc13_emp_purge_4	emp_civ_reworkd	3	999999	999999	0		

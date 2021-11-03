@@ -1,12 +1,12 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-character_ward_save.png	ovn_skill_arb_all_unique_ward_of_the_one	The relentless drive and fury of the unnamed god, harnessed for the protection of this ward’s bearer.	Ward of the One	7	false	false	false	0.0	0
-mount_magic_carpet.png	ovn_skill_arb_magician_unique_magician_life_magic_carpet	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-mount_djinn_vessel.png	ovn_skill_arb_magician_unique_magician_life_djinn_vessel	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-mount_magic_carpet.png	ovn_skill_arb_magician_unique_magician_desert_magic_carpet	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-mount_djinn_vessel.png	ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-mount_magic_carpet.png	ovn_skill_arb_magician_unique_magician_fire_magic_carpet	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-mount_djinn_vessel.png	ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-mount_magic_carpet.png	ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-mount_djinn_vessel.png	ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-campaign_chaos_corruption.png	ovn_skill_innate_arb_decadent	The Prince of Pleasure has gotten to this one...	Decadent	0	true	false	false	5.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/@cr_magicians									
+ovn_skill_arb_all_unique_ward_of_the_one	character_ward_save.png	The relentless drive and fury of the unnamed god, harnessed for the protection of this ward’s bearer.	Ward of the One	7	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_life_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_life_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_desert_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_fire_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
+ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
+ovn_skill_innate_arb_decadent	campaign_chaos_corruption.png	The Prince of Pleasure has gotten to this one...	Decadent	0	true	false	false	5.0	0

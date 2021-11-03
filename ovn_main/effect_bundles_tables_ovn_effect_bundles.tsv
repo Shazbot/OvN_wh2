@@ -1,5 +1,5 @@
-effect_bundles_tables	4
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_effect_bundles								
 ovn_rot_plague	This force has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to nearby settlements or armies.	Plague	force	1	plague.png	true	false	true
 ovn_rot_plague_force	This settlement has been infected with a [[img:icon_plague]][[/img]]plague. It may spread to neighbouring settlements or local armies.	Plague	region	1	plague.png	true	false	true
 grudge_transfer_region	grudge_transfer_region	grudge_transfer_region	faction	1	diplomacy.png	false	false	true

@@ -1,5 +1,5 @@
-campaign_group_members_tables	1
-group	id	priority
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/@cr_halfling_cooking		
 ovn_halfling_cooking	ovn_halfling_cooking	0.0
 ovn_halfling_cooking_ingredient_unlocked	ovn_halfling_cooking_ingredient_unlocked	0.0
 ovn_albion_how_they_play_event	ovn_albion_how_they_play_event	0.0

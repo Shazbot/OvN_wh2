@@ -1,10 +1,10 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-item_talisman.png	ovn_as_Hoeth_Talisman	ovn_as_Hoeth_Talisman	ovn_as_Hoeth_Talisman	1	false	false	false	0.0	0
-mount_deathclaw.png	skill_sharpclaw	sharpclaw	skill_sharpclaw	1	false	false	false	0.0	0
-item_weapon.png	ovn_as_starblade	ovn_as_starblade	ovn_as_starblade	1	false	false	false	0.0	0
-wh2_hef_godly_preserverence.png	ovn_as_armour	ovn_as_armour	ovn_as_armour	1	false	false	false	0.0	0
-wh2_dlc11_bestial_force.png	ovn_as_lustira_Buff	ORC HATE	Campaign Buff	0	false	false	false	0.0	0
-wh2_hef_heir_of_aenarion.png	ovn_as_ulthuan_Buff		po buff	0	false	false	false	0.0	0
-trait_high_elves.png	stormrider_Buff		Ambush Master	0	true	false	false	5.0	0
-wh2_dlc11_lord_abilities_lightning_reflexes.png	ovn_as_lightning_reflexes	Lightning Reflexes	Lightning Reflexes	0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ovn_stormrider_ll									
+ovn_as_Hoeth_Talisman	item_talisman.png	ovn_as_Hoeth_Talisman	ovn_as_Hoeth_Talisman	1	false	false	false	0.0	0
+skill_sharpclaw	mount_deathclaw.png	sharpclaw	skill_sharpclaw	1	false	false	false	0.0	0
+ovn_as_starblade	item_weapon.png	ovn_as_starblade	ovn_as_starblade	1	false	false	false	0.0	0
+ovn_as_armour	wh2_hef_godly_preserverence.png	ovn_as_armour	ovn_as_armour	1	false	false	false	0.0	0
+ovn_as_lustira_Buff	wh2_dlc11_bestial_force.png	ORC HATE	Campaign Buff	0	false	false	false	0.0	0
+ovn_as_ulthuan_Buff	wh2_hef_heir_of_aenarion.png		po buff	0	false	false	false	0.0	0
+stormrider_Buff	trait_high_elves.png		Ambush Master	0	true	false	false	5.0	0
+ovn_as_lightning_reflexes	wh2_dlc11_lord_abilities_lightning_reflexes.png	Lightning Reflexes	Lightning Reflexes	0	false	false	false	0.0	0

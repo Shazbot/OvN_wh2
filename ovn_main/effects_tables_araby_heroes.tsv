@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/araby_heroes					
 roy_effect_agent_enable_recruitment_arb_champion	captain.png	60	captain.png	campaign	true
 roy_effect_agent_cap_increase_arb_champion	captain.png	60	captain.png	campaign	true
 roy_effect_agent_recruitment_xp_arb_champion	experience.png	101	experience.png	campaign	true

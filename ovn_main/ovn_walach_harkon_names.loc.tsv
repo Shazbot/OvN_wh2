@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_walach_harkon_names.loc		
 names_name_8888277188	Walach	true
 names_name_8888277189	Harkon	true

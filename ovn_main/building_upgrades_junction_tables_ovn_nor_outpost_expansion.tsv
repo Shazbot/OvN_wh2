@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_nor_outpost_expansion	
 ovn_evil_income_1	ovn_evil_income_2
 ovn_evil_income_2	ovn_evil_income_3
 wh_main_nor_outpost_major_human_3	ovn_nor_outpost_major_human_4

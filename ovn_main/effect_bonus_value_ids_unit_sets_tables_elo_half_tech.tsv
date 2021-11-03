@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/elo_half_tech		
 upkeep_mod	elo_hlf_militia_up	elo_hlf_militia_melee
 armour_mod	elo_hlf_militia_armour	elo_hlf_militia_melee
 melee_damage_ap_mod_mult	elo_hlf_militia_dmg	elo_hlf_militia_melee

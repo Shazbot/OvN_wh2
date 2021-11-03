@@ -1,5 +1,5 @@
-unit_abilities_tables	16
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;16;db/unit_abilities_tables/ovn_albion											
 elo_albion_remove_war_fury_2	false	wh_dlc06_unit_contact_discouraged		wh_type_augment		wh_main_anc_group_common	false	true	unit	war_fury_2	false
 elo_albion_protectors_world	false	wh_dlc05_unit_abilities_storm_of_blades		wh_type_augment		wh_main_anc_group_rare	false	false	unit		false
 elo_albion_holy_warriors_unbreakable	false	wh_dlc03_lord_passive_crush_the_weak		wh_type_augment		wh_main_anc_group_rare	false	false	unit		false

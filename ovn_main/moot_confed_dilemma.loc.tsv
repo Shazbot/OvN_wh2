@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/moot_confed_dilemma.loc		
 dilemmas_localised_description_ovn_dilemma_moot_confed	As the Mootland struggles to defend its borders and homes, a growing contingent of Halflings and representatives of other states plead it fall under Imperial protection, for fear it will soon fall into enemy hands. Though they are still many Halflings that resist this and blame underhanded politicking, even some Elector Counts disagree, who think the Mootland should cede to them if anyone.	true
 dilemmas_localised_title_ovn_dilemma_moot_confed	The Moot Falters	true
 cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_moot_confedFIRST	Confederate The Moot 	true

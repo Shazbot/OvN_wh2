@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_albion_effects_skills_abilities.loc		
 effects_description_albion_enable_warcry	Ability: "Warcry"	true
 effects_description_albion_disable_rally	Replaces: "Rally"	true
 effects_description_enable_frenzy_albion_warriors	Ability: "Frenzy" for human (non-hero/lord) units	true

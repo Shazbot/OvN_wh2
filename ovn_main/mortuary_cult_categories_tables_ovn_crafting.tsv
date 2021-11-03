@@ -1,5 +1,5 @@
-mortuary_cult_categories_tables	3
 key	show_order	category_icon
+#mortuary_cult_categories_tables;3;db/mortuary_cult_categories_tables/ovn_crafting		
 ovn_arb_crafting_weapons	0	
 ovn_arb_crafting_armor	1	
 ovn_arb_crafting_enchanted_items	2	

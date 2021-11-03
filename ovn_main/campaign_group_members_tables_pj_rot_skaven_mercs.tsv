@@ -1,3 +1,3 @@
-campaign_group_members_tables	1
-group	id	priority
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/pj_rot_skaven_mercs		
 pj_rot_warpstone	pj_rot_warpstone	0.0

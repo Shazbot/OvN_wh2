@@ -1,5 +1,5 @@
-effect_bonus_value_unit_ability_junctions_tables	0
 effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/elo_troll		
 enable_run_and_shakeoff	enable	run_and_shakeoff
 enable_frenzy	enable	wh_main_unit_passive_frenzy
 enable_stoneskin	enable	rock_solid

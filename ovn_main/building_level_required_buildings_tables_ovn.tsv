@@ -1,5 +1,5 @@
-building_level_required_buildings_tables	0
 building_level	required
+#building_level_required_buildings_tables;0;db/building_level_required_buildings_tables/ovn	
 ovn_hlf_cig	ovn_half_industry_3
 ovn_arb_bel	wh_main_emp_farm_basic_3
 ovn_arb_Twilight	ovn_arb_industry_basic_2

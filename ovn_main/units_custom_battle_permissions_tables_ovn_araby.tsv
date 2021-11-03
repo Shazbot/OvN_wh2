@@ -1,5 +1,5 @@
-units_custom_battle_permissions_tables	8
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+#units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/ovn_araby								
 wh2_main_arb_caliphate_of_araby	false	OtF_khemri_knights	true	true				false
 wh2_main_arb_caliphate_of_araby	false	OtF_khemri_archers	true	true				false
 wh2_main_arb_caliphate_of_araby	false	OtF_khemri_kepra_guard	true	true				false

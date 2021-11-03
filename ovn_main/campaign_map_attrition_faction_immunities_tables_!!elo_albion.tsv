@@ -1,5 +1,5 @@
-campaign_map_attrition_faction_immunities_tables	0
 attrition	faction
+#campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/!!elo_albion	
 storm_level_1	wh2_main_nor_albion
 storm_level_2	wh2_main_nor_albion
 storm_level_3	wh2_main_nor_albion

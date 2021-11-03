@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/@cr_flying_carpet	
 non_vampire_territory	wh_main_arb_cav_magic_carpet_0
 desert	wh_main_arb_cav_magic_carpet_0
 non_vampire_territory	ovn_arb_cav_flying_carpet_ror

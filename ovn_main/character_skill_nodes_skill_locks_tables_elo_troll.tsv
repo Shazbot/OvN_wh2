@@ -1,5 +1,5 @@
-character_skill_nodes_skill_locks_tables	0
 character_skill	character_skill_node	level
+#character_skill_nodes_skill_locks_tables;0;db/character_skill_nodes_skill_locks_tables/elo_troll		
 elo_skill_troll_food_rats	elo_skill_troll_food_dwarfs	1
 elo_skill_troll_food_rats	elo_skill_troll_food_humans	1
 elo_skill_troll_food_rats	elo_skill_troll_food_elves	1

@@ -1,5 +1,5 @@
-cooking_recipe_required_ingredient_groups_tables	0
 ingredient_group	recipe	primary
+#cooking_recipe_required_ingredient_groups_tables;0;db/cooking_recipe_required_ingredient_groups_tables/@cr_halfling_cooking		
 ovn_cereals	ovn_food_dish_1	true
 ovn_meats	ovn_food_dish_1	true
 ovn_meats	ovn_food_dish_2	true

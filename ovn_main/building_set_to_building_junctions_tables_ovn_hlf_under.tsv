@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/ovn_hlf_under			
 ovn_hlf_under_set_menu		ovn_hlf_under_set_food	false
 ovn_hlf_under_pick_menu		ovn_hlf_under_set_food	false
 ovn_hlf_under_buffet_menu		ovn_hlf_under_set_food	false

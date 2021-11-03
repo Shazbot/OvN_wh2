@@ -1,5 +1,5 @@
-character_skill_nodes_skill_locks_tables	0
 character_skill	character_skill_node	level
+#character_skill_nodes_skill_locks_tables;0;db/character_skill_nodes_skill_locks_tables/elo_dread_hero		
 dread_eternal_march	dread_centuriion_unique_1	1
 dread_blessing_nagash	dread_centuriion_unique_1	1
 dread_blessing_nagash	dread_centuriion_unique_2	1

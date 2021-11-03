@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_albion_ror							
 albion_shieldmaiden_ror		albion_shieldmaiden_ror		1.0	1.1	0.1	
 albion_bologs_giant_ror		albion_giant		1.0	1.2	0.0	
 elo_fly_infested_rotwood		elo_fenbeast		1.0	1.2	0.15	

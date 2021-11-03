@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/fimir_diplomacy_strings.loc		
 diplomacy_strings_string_Fimir_Dip_Acceptance_Negative_01	For our survival, yes.	false
 diplomacy_strings_string_Fimir_Dip_Acceptance_Negative_02	Though I have misgivings, the Meargh deems it so.	false
 diplomacy_strings_string_Fimir_Dip_Acceptance_Negative_03	They will think me a Shearl. We agree.	false

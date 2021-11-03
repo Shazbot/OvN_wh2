@@ -1,3 +1,3 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_walach_harkon_agent_subtypes.loc		
 agent_subtypes_onscreen_name_override_vmp_cha_walach	Legendary Lord	true

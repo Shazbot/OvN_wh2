@@ -1,7 +1,7 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	vmp_walach_barded_nightmare		7
-		x	1	blood_chalice_walach		12
-		x	1	crimson_blade_walach		7
-		x	1	standard_blood_dragon_walach		9
-		x	1	hunger_to_blood_knights		9
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ovn_blood_dragons_harkon						
+		1	vmp_walach_barded_nightmare		x	7
+		1	blood_chalice_walach		x	12
+		1	crimson_blade_walach		x	7
+		1	standard_blood_dragon_walach		x	9
+		1	hunger_to_blood_knights		x	9

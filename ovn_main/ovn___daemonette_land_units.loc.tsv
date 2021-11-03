@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn___daemonette_land_units.loc		
 land_units_concealed_name_bacr_chs_inf_daemonette		true
 land_units_onscreen_name_bacr_chs_inf_daemonette	Daemonettes of Slaanesh	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudge_transfer_effect_bundles.loc		
 effect_bundles_localised_title_grudge_transfer_region	Glory to the Empire	true
 effect_bundles_localised_title_grudge_transfer_region_horde_growth	Camp Grows	true
 effect_bundles_localised_description_grudge_transfer_region	You have conquered in the name of the Empire - glory to you - glory to the Empire!	true

@@ -1,5 +1,5 @@
-unit_sets_tables	2
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/@cr_comradeship				
 mp_cap_ovn_com_cha_aragand_the_layabout_0	false	-1	-1	
 mp_cap_ovn_com_cha_legles_the_elf_0	false	-1	-1	
 mp_cap_ovn_com_cha_giblit_the_dwarf_0	false	-1	-1	

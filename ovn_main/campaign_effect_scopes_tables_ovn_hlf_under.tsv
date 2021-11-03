@@ -1,5 +1,5 @@
-campaign_effect_scopes_tables	2
 key	location	ownership	source	target	territory
+#campaign_effect_scopes_tables;2;db/campaign_effect_scopes_tables/ovn_hlf_under					
 ovn_foreign_to_province	provincewide	any	foreign_buildingwide	province	any
 ovn_foreign_to_forces	faction	own	foreign_buildingwide	force	any
 ovn_foreign_to_forces_enemy	region	enemy	foreign_buildingwide	force	any

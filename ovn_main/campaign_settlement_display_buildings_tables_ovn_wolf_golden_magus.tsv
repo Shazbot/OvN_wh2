@@ -1,7 +1,7 @@
-campaign_settlement_display_buildings_tables	7
-model_id	key	building_bmd	port_bmd	construction_bmd	damaged_bmd	destroyed_bmd	port_construction_bmd	port_walled_bmd	wall_bmd	on_sea_bmd
-arb_flaming_scimitar_main_1	35289531	prefabs\campaign\cst_encampment.bmd								
-arb_flaming_scimitar_main_2	35289532	prefabs\campaign\cst_encampment.bmd								
-arb_flaming_scimitar_main_3	35289533	prefabs\campaign\cst_encampment.bmd								
-arb_flaming_scimitar_main_4	35289534	prefabs\campaign\cst_encampment.bmd								
-arb_flaming_scimitar_main_5	35289535	prefabs\campaign\cst_encampment.bmd								
+key	model_id	building_bmd	port_bmd	construction_bmd	damaged_bmd	destroyed_bmd	port_construction_bmd	port_walled_bmd	wall_bmd	on_sea_bmd
+#campaign_settlement_display_buildings_tables;7;db/campaign_settlement_display_buildings_tables/ovn_wolf_golden_magus										
+35289531	arb_flaming_scimitar_main_1	prefabs\campaign\cst_encampment.bmd								
+35289532	arb_flaming_scimitar_main_2	prefabs\campaign\cst_encampment.bmd								
+35289533	arb_flaming_scimitar_main_3	prefabs\campaign\cst_encampment.bmd								
+35289534	arb_flaming_scimitar_main_4	prefabs\campaign\cst_encampment.bmd								
+35289535	arb_flaming_scimitar_main_5	prefabs\campaign\cst_encampment.bmd								

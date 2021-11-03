@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/troll_event_feeds.loc		
 event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_lost_primary_detail	Trollz Abandon The Tribe	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_lost_secondary_detail	An ungrateful bunch of Trollz have abandoned you. moaning that they were starving. They are clearly too stupid to know what's good for them.	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_cannibal_primary_detail	Cannibalism Takes Hold	true

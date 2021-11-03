@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_obo_grudge_unit_abilities__.loc		
 unit_abilities_tooltip_text_grudge_character_abilities_volley_of_high_arrows	By which an unexpected shower of pointy death rains down upon the unfortunate targets. Ouch!	true
 unit_abilities_tooltip_text_grudge_character_abilities_volley_of_dark_arrows	By which an unexpected shower of pointy death rains down upon the unfortunate targets. Ouch!	true
 unit_abilities_tooltip_text_grudge_hero_abilities_arrow_of_kurnous	By which an unexpected shower of pointy death rains down upon the unfortunate targets. Ouch!	true

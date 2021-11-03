@@ -1,4 +1,4 @@
-campaign_group_member_criteria_factions_tables	0
-faction	member
-wh2_main_nor_rotbloods	ovn_rot_plague
-wh2_dlc12_skv_clan_fester	ovn_rot_plague_fester
+member	faction
+#campaign_group_member_criteria_factions_tables;0;db/campaign_group_member_criteria_factions_tables/ovn_rot_plague	
+ovn_rot_plague	wh2_main_nor_rotbloods
+ovn_rot_plague_fester	wh2_dlc12_skv_clan_fester

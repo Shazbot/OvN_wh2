@@ -1,5 +1,5 @@
-technology_effects_junction_tables	0
 technology	effect	effect_scope	value
+#technology_effects_junction_tables;0;db/technology_effects_junction_tables/ovn_albion_tech			
 albion_tech_war_1	elo_warband_cost	faction_to_force_own_unseen	-15.0
 albion_tech_war_2	elo_warband_matt	faction_to_force_own_unseen	4.0
 albion_tech_war_2	elo_warband_mdef	faction_to_force_own_unseen	4.0

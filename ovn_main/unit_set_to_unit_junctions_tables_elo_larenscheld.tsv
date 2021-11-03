@@ -1,4 +1,4 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				elo_dread_larenscheld_wright	elo_larenscheld_afterlife
-false				elo_dread_larenscheld_wright_perfect	elo_larenscheld_afterlife
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/elo_larenscheld					
+			elo_dread_larenscheld_wright	elo_larenscheld_afterlife	false
+			elo_dread_larenscheld_wright_perfect	elo_larenscheld_afterlife	false

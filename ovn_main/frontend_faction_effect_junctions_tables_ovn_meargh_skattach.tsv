@@ -1,5 +1,5 @@
-frontend_faction_effect_junctions_tables	1
 effect	group	value	scope
+#frontend_faction_effect_junctions_tables;1;db/frontend_faction_effect_junctions_tables/ovn_meargh_skattach			
 fim_skattach_fimir_magic_res	ovn_sof_lord	10	general_to_force_own
 fimir_warrior_elite_up	ovn_sof_lord	-15	general_to_force_own
 wh_main_effect_force_all_campaign_replenishment_rate	ovn_sof_lord	5	general_to_force_own

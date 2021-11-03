@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_albion_geomancy.loc		
 campaign_localised_strings_string_commandments_level_tooltip	{{tr:campaign_localised_strings_string_commandments_level_tooltip}}  %d	true
 campaign_localised_strings_string_province_panel_geomantic_web_label	{{tr:campaign_localised_strings_string_province_panel_geomantic_web_label}}  %d	true
 uied_component_texts_localised_string_button_geomantic_web_Tooltip_58000deds	{{tr:uied_component_texts_localised_string_button_geomantic_web_Tooltip_58000deds}}	false

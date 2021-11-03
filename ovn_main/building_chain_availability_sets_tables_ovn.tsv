@@ -1,5 +1,5 @@
-building_chain_availability_sets_tables	0
 building_chain	id
+#building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/ovn	
 ovn_cd_slave	wh_main_bas_nor
 ovn_cd_work	wh_main_bas_nor
 wh2_dlc14_special_dragon_isle_port	wh_main_bas_nor

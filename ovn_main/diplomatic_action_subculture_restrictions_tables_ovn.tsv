@@ -1,8 +1,8 @@
-diplomatic_action_subculture_restrictions_tables	0
-can_make_client_states	can_make_confederations	can_make_vassals	subculture
-false	false	true	wh_main_sc_nor_albion
-false	false	true	wh_main_sc_nor_warp
-false	false	true	wh_main_sc_nor_fimir
-false	false	true	wh_main_sc_nor_troll
-false	true	true	wh_main_sc_emp_araby
-false	false	true	wh_main_sc_lzd_amazon
+subculture	can_make_client_states	can_make_confederations	can_make_vassals
+#diplomatic_action_subculture_restrictions_tables;0;db/diplomatic_action_subculture_restrictions_tables/ovn			
+wh_main_sc_nor_albion	false	false	true
+wh_main_sc_nor_warp	false	false	true
+wh_main_sc_nor_fimir	false	false	true
+wh_main_sc_nor_troll	false	false	true
+wh_main_sc_emp_araby	false	true	true
+wh_main_sc_lzd_amazon	false	false	true

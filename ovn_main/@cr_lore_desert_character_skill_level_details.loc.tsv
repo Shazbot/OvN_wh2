@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_lore_desert_character_skill_level_details.loc		
 character_skill_level_details_localised_name_1ovn_skill_magic_desert_mirage		true
 character_skill_level_details_localised_description_1ovn_skill_magic_desert_mirage		true
 character_skill_level_details_localised_name_1ovn_skill_magic_desert_blessing_of_the_elements		true

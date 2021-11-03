@@ -1,5 +1,5 @@
-military_force_type_conversions_tables	0
-automatic	from	to
-false	HORDE	wh_main_emp_cha_grudge
-true	wh_main_emp_cha_grudge	ARMY
-false	wh_main_emp_cha_grudge	HORDE
+from	to	automatic
+#military_force_type_conversions_tables;0;db/military_force_type_conversions_tables/ovn		
+HORDE	wh_main_emp_cha_grudge	false
+wh_main_emp_cha_grudge	ARMY	true
+wh_main_emp_cha_grudge	HORDE	false

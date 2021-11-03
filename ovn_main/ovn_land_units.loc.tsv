@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_land_units.loc		
 land_units_onscreen_name_Dread_King	Dread King	true
 land_units_onscreen_name_black_grail_knights_tmb	Black Grail Knights	true
 land_units_onscreen_name_Dread_King_2	Dread King	true

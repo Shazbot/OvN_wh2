@@ -1,4 +1,4 @@
-units_to_exclusive_faction_permissions_tables	0
 key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/ovn_blood_dragons		
 dismounted_blood_knights	wh2_main_vmp_blood_dragons	true
 dismounted_blood_knights_shield	wh2_main_vmp_blood_dragons	true

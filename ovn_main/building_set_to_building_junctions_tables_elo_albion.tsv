@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/elo_albion			
 elo_ogham_stone		wh_main_set_military_support	false
 elo_temple_danu		wh_main_set_military_support	false
 albion_hunters		wh_main_set_economy	false

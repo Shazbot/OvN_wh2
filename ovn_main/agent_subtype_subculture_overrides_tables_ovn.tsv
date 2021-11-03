@@ -1,15 +1,15 @@
-agent_subtype_subculture_overrides_tables	5
-associated_unit_override	subculture	subtype	agent	icon
-elo_carrion_boss	wh_main_sc_nor_troll	elo_carrion_boss	spy	ui/campaign ui/agents/wh_main_grn_spy.png
-	wh_main_sc_nor_norsca	wh2_dlc15_grn_river_troll_hag	runesmith	
-	wh_main_sc_nor_albion	albion_wyrd_druid	wizard	
-	wh_main_sc_nor_albion	albion_chief	champion	
-	wh_main_sc_emp_araby	arb_magician_desert	wizard	
-roy_arb_cha_nomad	wh_main_sc_emp_araby	roy_arb_nomad	spy	ui/campaign ui/agents/ovn_arb_spy.png
-roy_arb_cha_champion	wh_main_sc_emp_araby	roy_arb_champion	champion	ui/campaign ui/agents/wh_main_emp_champion.png
-	wh_main_sc_emp_araby	emp_warrior_priest	dignitary	
-	wh_main_sc_nor_fimir	wh_dlc08_nor_fimir_balefiend_fire	dignitary	
-	wh_main_sc_nor_troll	wh2_dlc15_grn_river_troll_hag	runesmith	
-	wh_main_sc_nor_fimir	wh2_dlc15_grn_river_troll_hag	runesmith	
-	wh_main_sc_nor_fimir	elo_boglar_shaman	wizard	
-elo_troll_champ	wh_main_sc_nor_troll	elo_troll_champ	champion	
+subculture	subtype	agent	associated_unit_override	icon
+#agent_subtype_subculture_overrides_tables;5;db/agent_subtype_subculture_overrides_tables/ovn				
+wh_main_sc_nor_troll	elo_carrion_boss	spy	elo_carrion_boss	ui/campaign ui/agents/wh_main_grn_spy.png
+wh_main_sc_nor_norsca	wh2_dlc15_grn_river_troll_hag	runesmith		
+wh_main_sc_nor_albion	albion_wyrd_druid	wizard		
+wh_main_sc_nor_albion	albion_chief	champion		
+wh_main_sc_emp_araby	arb_magician_desert	wizard		
+wh_main_sc_emp_araby	roy_arb_nomad	spy	roy_arb_cha_nomad	ui/campaign ui/agents/ovn_arb_spy.png
+wh_main_sc_emp_araby	roy_arb_champion	champion	roy_arb_cha_champion	ui/campaign ui/agents/wh_main_emp_champion.png
+wh_main_sc_emp_araby	emp_warrior_priest	dignitary		
+wh_main_sc_nor_fimir	wh_dlc08_nor_fimir_balefiend_fire	dignitary		
+wh_main_sc_nor_troll	wh2_dlc15_grn_river_troll_hag	runesmith		
+wh_main_sc_nor_fimir	wh2_dlc15_grn_river_troll_hag	runesmith		
+wh_main_sc_nor_fimir	elo_boglar_shaman	wizard		
+wh_main_sc_nor_troll	elo_troll_champ	champion	elo_troll_champ	

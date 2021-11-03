@@ -1,5 +1,5 @@
-ancillary_included_subcultures_tables	0
 ancillary	subculture
+#ancillary_included_subcultures_tables;0;db/ancillary_included_subcultures_tables/araby_heroes	
 roy_anc_mount_arb_nomad_horse	wh_main_sc_emp_araby
 roy_anc_mount_arb_champion_horse	wh_main_sc_emp_araby
 roy_anc_mount_arb_champion_warhorse	wh_main_sc_emp_araby

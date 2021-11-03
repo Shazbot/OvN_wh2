@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/warp_diplomacy_strings.loc		
 diplomacy_strings_string_Warp_Dip_Accept_State_Gift_01	No souls, pity, this will have to do.	false
 diplomacy_strings_string_Warp_Dip_Accept_State_Gift_02	The Society of Harmonious Growth and Splendour will make great use of this. 	false
 diplomacy_strings_string_Warp_Dip_Accept_State_Gift_03	You have Nurgle's favour.	false

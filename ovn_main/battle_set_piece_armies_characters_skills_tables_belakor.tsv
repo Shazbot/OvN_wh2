@@ -1,5 +1,5 @@
-battle_set_piece_armies_characters_skills_tables	2
 character_name	skill	level
+#battle_set_piece_armies_characters_skills_tables;2;db/battle_set_piece_armies_characters_skills_tables/belakor		
 belakor	wh_dlc05_skill_magic_shadow_enfeebling_foe	1
 belakor	wh_dlc05_skill_magic_shadow_mystifying_miasma_dummy	1
 belakor	wh_dlc05_skill_magic_shadow_okkams_mindrazor	1

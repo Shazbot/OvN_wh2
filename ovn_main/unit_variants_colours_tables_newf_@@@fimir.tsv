@@ -1,4 +1,4 @@
-unit_variants_colours_tables	5
-faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
-wh2_main_nor_servants_of_fimulneid	10	10	10	75	5	5	soldier	0	0	0	8841241	ovn_finmor	
-wh2_main_nor_servants_of_fimulneid	10	10	10	5	5	200	soldier	0	0	0	8841242	ovn_finmor_belakor	
+key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	unit_variant	subculture
+#unit_variants_colours_tables;5;db/unit_variants_colours_tables/newf_@@@fimir													
+8841241	wh2_main_nor_servants_of_fimulneid	10	10	10	75	5	5	soldier	0	0	0	ovn_finmor	
+8841242	wh2_main_nor_servants_of_fimulneid	10	10	10	5	5	200	soldier	0	0	0	ovn_finmor_belakor	

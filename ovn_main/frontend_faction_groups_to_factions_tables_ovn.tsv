@@ -1,15 +1,15 @@
-frontend_faction_groups_to_factions_tables	1
-faction_group	faction_key	is_major_faction	sort_order	show_in_frontend
-destruction	wh2_main_vmp_blood_dragons	false	160	false
-destruction	wh2_main_nor_servants_of_fimulneid	false	168	false
-destruction	wh2_main_nor_harbingers_of_doom	false	193	false
-destruction	wh2_main_nor_rotbloods	false	209	false
-order	wh2_main_arb_aswad_scythans	false	112	false
-order	wh2_main_arb_caliphate_of_araby	true	111	false
-order	wh2_main_arb_flaming_scimitar	false	113	false
-order	wh2_main_emp_grudgebringers	false	99	false
-order	wh2_main_emp_the_moot	false	98	false
-order	wh2_main_amz_amazons	false	27	false
-order	wh2_main_nor_albion	false	165	false
-destruction	wh2_main_nor_trollz	false	166	false
-order	wh2_main_hef_citadel_of_dusk	false	11	false
+faction_key	faction_group	is_major_faction	sort_order	show_in_frontend
+#frontend_faction_groups_to_factions_tables;1;db/frontend_faction_groups_to_factions_tables/ovn				
+wh2_main_vmp_blood_dragons	destruction	false	160	false
+wh2_main_nor_servants_of_fimulneid	destruction	false	168	false
+wh2_main_nor_harbingers_of_doom	destruction	false	193	false
+wh2_main_nor_rotbloods	destruction	false	209	false
+wh2_main_arb_aswad_scythans	order	false	112	false
+wh2_main_arb_caliphate_of_araby	order	true	111	false
+wh2_main_arb_flaming_scimitar	order	false	113	false
+wh2_main_emp_grudgebringers	order	false	99	false
+wh2_main_emp_the_moot	order	false	98	false
+wh2_main_amz_amazons	order	false	27	false
+wh2_main_nor_albion	order	false	165	false
+wh2_main_nor_trollz	destruction	false	166	false
+wh2_main_hef_citadel_of_dusk	order	false	11	false

@@ -1,6 +1,6 @@
-campaign_building_chain_slot_unlocks_tables	1
-building_chain	active_slot_count	level
-wh_main_NORSCA_outpost_major_human	4	3
-wh_main_NORSCA_outpost_major_human	6	4
-wh2_main_special_settlement_konquata_norsca	7	5
-wh2_main_special_settlement_konquata_norsca	5	4
+building_chain	level	active_slot_count
+#campaign_building_chain_slot_unlocks_tables;1;db/campaign_building_chain_slot_unlocks_tables/@ovn_nor_outpost_expansion		
+wh_main_NORSCA_outpost_major_human	3	4
+wh_main_NORSCA_outpost_major_human	4	6
+wh2_main_special_settlement_konquata_norsca	5	7
+wh2_main_special_settlement_konquata_norsca	4	5

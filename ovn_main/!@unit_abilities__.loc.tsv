@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!@unit_abilities__.loc		
 unit_abilities_tooltip_text_reckless_taste	The gunner of the half-tank schloshes soup around the tank, scalding all enemies who get too close. What can men do against such reckless taste?	true
 unit_abilities_onscreen_name_reckless_taste	Reckless Taste	true
 unit_abilities_tooltip_text_elo_troll_me_boss_now	Old Boss dead, me now bestest, most integli...inelli... me strongest, me boss now!	true

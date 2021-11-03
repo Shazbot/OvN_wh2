@@ -1,5 +1,5 @@
-provincial_initiative_records_tables	3
-effect_bundle	key	order	icon_path	campaign_vfx_id	religion_restriction
+key	effect_bundle	order	icon_path	campaign_vfx_id	religion_restriction
+#provincial_initiative_records_tables;3;db/provincial_initiative_records_tables/adsprovinces					
 province_edict_albion1	province_edict_albion1	1	UI/Campaign UI/edicts/wh_main_edict_collect_tribute.png		
 province_edict_albion2	province_edict_albion2	2	UI/Campaign UI/edicts/wh_main_edict_camp_ruckus.png		
 province_edict_albion3	province_edict_albion3	3	UI/Campaign UI/edicts/wh_main_edict_foster_terror.png		

@@ -1,3 +1,3 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/blood_dragons		
 unit_damage_resistance_all_mod	ovn_blood_dragon_ward	vmp_blood_knights

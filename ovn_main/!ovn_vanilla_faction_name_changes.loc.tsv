@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_vanilla_faction_name_changes.loc		
 ovn_dread_king_legions_faction_name	Dread King Legions	true
 factions_defend_desc_wh2_dlc09_tmb_the_sentinels	You are defending against the Legions of the Dead!	true
 factions_attack_desc_wh2_dlc09_tmb_the_sentinels	You are attacking the Legions of the Dead!	true

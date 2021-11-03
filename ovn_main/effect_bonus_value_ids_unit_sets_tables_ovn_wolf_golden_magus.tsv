@@ -1,4 +1,4 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/ovn_wolf_golden_magus		
 unit_xp_mod	arb_golden_magus_wishmaster_djinn_exp	ovn_araby_magic_r7
 upkeep_mod	arb_golden_magus_innate_djinn_upkeep	ovn_araby_magic_r7

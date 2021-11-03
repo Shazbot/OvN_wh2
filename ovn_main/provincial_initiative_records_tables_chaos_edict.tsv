@@ -1,5 +1,5 @@
-provincial_initiative_records_tables	3
-effect_bundle	key	order	icon_path	campaign_vfx_id	religion_restriction
+key	effect_bundle	order	icon_path	campaign_vfx_id	religion_restriction
+#provincial_initiative_records_tables;3;db/provincial_initiative_records_tables/chaos_edict					
 chaos_edict_1	chaos_edict_1	1	UI/Campaign UI/edicts/def_sacrifices_for_khaine.png		
 chaos_edict_2	chaos_edict_2	2	UI/Campaign UI/edicts/def_enforce_tribute_payments.png		
 chaos_edict_3	chaos_edict_3	3	UI/Campaign UI/edicts/skv_efficient_scheming.png		

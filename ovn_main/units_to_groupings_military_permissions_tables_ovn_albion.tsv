@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_albion	
 albion_centaurs	ovn_albion
 albion_morrigan	ovn_albion
 albion_chariot	ovn_albion

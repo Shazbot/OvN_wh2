@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_albion_invasion_markers.loc		
 campaign_interactable_marker_infos_name_ovn_albion_invasion_marker_2	Imminent Invasion	true
 campaign_interactable_marker_infos_tooltip_ovn_albion_invasion_marker_2	An enemy force will arrive in [[col:red]]2 turns.[[/col]]	true
 campaign_interactable_marker_infos_name_ovn_albion_invasion_marker_1	Imminent Invasion	true

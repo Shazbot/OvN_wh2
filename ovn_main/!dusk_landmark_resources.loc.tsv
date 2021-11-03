@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!dusk_landmark_resources.loc		
 resources_onscreen_text_res_cathay	Cathay Silk	true
 resources_description_res_cathay	Cathay Silk a luxury and special silk.	true
 effects_description_landmark_effect_produce_res_cathay	Cathay Silk resource production: %n sacks.	true

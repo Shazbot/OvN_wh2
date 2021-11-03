@@ -1,5 +1,5 @@
-unit_set_unit_ability_junctions_tables	0
 key	unit_ability	unit_set
+#unit_set_unit_ability_junctions_tables;0;db/unit_set_unit_ability_junctions_tables/ovn_lost_factions_gold		
 sheriff_taunt	wh2_dlc11_character_abilities_taunt	elo_hlf_sheriff
 supply_cart_loose	wh2_main_character_passive_loose	elo_hlf_supply
 elo_superfood	elo_superfood	elo_hlf_feast

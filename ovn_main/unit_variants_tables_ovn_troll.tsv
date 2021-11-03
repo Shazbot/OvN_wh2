@@ -1,5 +1,5 @@
-unit_variants_tables	5
-faction	name	unit	variant	unit_card
+faction	unit	name	variant	unit_card
+#unit_variants_tables;5;db/unit_variants_tables/ovn_troll				
 	elo_chief_ugma	elo_chief_ugma	elo_chief_ugma	elo_chief_ugma
 	elo_carrion_gobbo_bow	elo_carrion_gobbo_bow	elo_carrion_gobbo_bow	elo_carrion_gobbo_bow
 	elo_carrion_squig_hoppers	elo_carrion_squig_hoppers	elo_carrion_squig_hoppers	elo_carrion_squig_hoppers

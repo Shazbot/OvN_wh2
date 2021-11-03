@@ -1,3 +1,3 @@
-character_skill_level_to_effects_junctions_tables	1
-character_skill_key	effect_key	effect_scope	level	value
-anc_boglar_shaman_hound	wh_main_effect_enable_mount_giant_wolf	character_to_character_own	1	1.0
+character_skill_key	effect_key	level	effect_scope	value
+#character_skill_level_to_effects_junctions_tables;1;db/character_skill_level_to_effects_junctions_tables/elo_shaman				
+anc_boglar_shaman_hound	wh_main_effect_enable_mount_giant_wolf	1	character_to_character_own	1.0

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_crafting_araby_slaves_categories.loc		
 mortuary_cult_categories_craft_button_text_ovn_arb_crafting_lzd	Barter	true
 mortuary_cult_categories_localised_button_description_ovn_arb_crafting_lzd	Buy Lizardmen Slaves	true
 mortuary_cult_categories_localised_description_ovn_arb_crafting_lzd	Slave Bought	true

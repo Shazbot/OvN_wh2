@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/ovn_fimir_deamon	
 chaos_territory	kho_bloodletter
 disease	kho_bloodletter
 horde_infighting	kho_bloodletter

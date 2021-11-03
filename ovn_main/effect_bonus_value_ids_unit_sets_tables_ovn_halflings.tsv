@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/ovn_halflings		
 missile_damage_mod_mult	ovn_buff_soup_art	ovn_soup_art
 melee_defence_mod	ovn_buff_halfling_welf	ovn_halfling_welf
 morale	ovn_halfling_hlf_r7_morale	ovn_halfling_hlf_r7

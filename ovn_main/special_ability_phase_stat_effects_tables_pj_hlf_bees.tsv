@@ -1,5 +1,5 @@
-special_ability_phase_stat_effects_tables	3
-phase	value	stat	how
-ovn_hlf_bee_throwers_contact	-6.0	stat_morale	add
-ovn_hlf_bee_throwers_contact	-5.0	stat_melee_attack	add
-ovn_hlf_bee_throwers_contact	-5.0	stat_melee_defence	add
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/pj_hlf_bees			
+ovn_hlf_bee_throwers_contact	stat_morale	-6.0	add
+ovn_hlf_bee_throwers_contact	stat_melee_attack	-5.0	add
+ovn_hlf_bee_throwers_contact	stat_melee_defence	-5.0	add

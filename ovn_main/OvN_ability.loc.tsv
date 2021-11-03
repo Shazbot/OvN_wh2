@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/OvN_ability.loc		
 unit_abilities_tooltip_text_ovn_feast	Doesn't matter if you're a Halfling, an Ogre or something else, the promise of good grub is worth fighting for.	true
 unit_abilities_onscreen_name_ovn_feast	The Feast is Coming!	true
 unit_abilities_tooltip_text_ovn_thief	Halflings have a knack for dodging blows before pin-pointing exposed armour and thrusting their blade.	true

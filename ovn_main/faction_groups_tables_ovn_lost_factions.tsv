@@ -1,8 +1,8 @@
-faction_groups_tables	2
-effect_bundle	key	order
-ovn_faction_trait_araby	ovn_group_araby	17
-ovn_faction_trait_amazon	ovn_group_amazon	18
-ovn_faction_trait_trollz	ovn_group_trollz	19
-ovn_faction_trait_grudge	ovn_group_grudge	20
-ovn_faction_trait_albion	ovn_group_albion	21
-ovn_faction_trait_belakor	ovn_group_belakor	22
+key	effect_bundle	order
+#faction_groups_tables;2;db/faction_groups_tables/ovn_lost_factions		
+ovn_group_araby	ovn_faction_trait_araby	17
+ovn_group_amazon	ovn_faction_trait_amazon	18
+ovn_group_trollz	ovn_faction_trait_trollz	19
+ovn_group_grudge	ovn_faction_trait_grudge	20
+ovn_group_albion	ovn_faction_trait_albion	21
+ovn_group_belakor	ovn_faction_trait_belakor	22

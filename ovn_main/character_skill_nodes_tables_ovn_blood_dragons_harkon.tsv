@@ -1,61 +1,61 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_main_skill_vmp_lord_battle_aura_of_supremacy	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_01	0.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_the_unliving_host	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_02	1.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_call_of_the_night	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_03	2.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_evil_souls	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_04	3.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_creatures_of_the_night	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_05	4.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_waking_dead	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_06	5.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_carriages_of_death	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_07	6.0		0	0	true
-	wh_main_skill_vmp_lord_battle_magical_animus	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_08	7.0		0	6	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_legions_of_dead	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_09	8.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_dread_knights	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_10	9.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_deadly_power	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_11	10.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_all_battle_flying_horrors	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_12	11.0		0	0	true
-	wh_main_skill_vmp_lord_battle_undeath_resurgent	wh2_dlc11_skill_node_set_vmp_walach		4.0	vmp_walach_battle_13	12.0		0	1	true
-	wh_main_skill_vmp_lord_campaign_the_restless_dead	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_01	0.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_undying_horde	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_02	1.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_children_of_the_night	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_03	2.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_darkling_skies	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_04	3.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_ancient_cunning	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_05	4.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_immortal_horror	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_07	6.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_guile_and_glamour	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_08	7.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_necrarch	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_09	8.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_eternal_warden	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_10	9.0		0	0	true
-	wh_main_skill_vmp_lord_campaign_uncanny_prescience	wh2_dlc11_skill_node_set_vmp_walach		5.0	vmp_walach_campaign_11	10.0		0	4	true
-	vmp_walach_innate	wh2_dlc11_skill_node_set_vmp_walach		6.0	vmp_walach_innate	0.0		1	0	false
-	wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_01	0.0		0	0	true
-	wh_main_skill_vmp_magic_vampires_03_the_curse_of_undeath	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_02	1.0		0	0	true
-	wh2_main_skill_vmp_magic_vampires_02_vanhels_danse_macabre_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_03	2.0		0	0	true
-	wh2_main_skill_vmp_magic_vampires_04_gaze_of_nagash_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_04	3.0		0	0	true
-	wh2_main_skill_vmp_magic_vampires_05_raise_dead_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_05	4.0		0	0	true
-	wh2_main_skill_vmp_magic_vampires_09_curse_of_years_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_06	5.0		0	4	true
-	wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_07	8.0		0	0	true
-	wh2_main_skill_vmp_magic_vampires_dummy_invocation_of_nehek_danse_macabre	wh2_dlc11_skill_node_set_vmp_walach		3.0	vmp_walach_magic1_dummy	11.0		1	0	false
-	wh_main_skill_vmp_lord_self_the_hunger	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_01	0.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_devastating_charge	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_02	1.0		0	0	true
-	wh_main_skill_vmp_lord_self_dark_knight	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_03	2.0		0	0	true
-	wh_main_skill_vmp_lord_self_beguile	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_04	3.0		0	0	true
-	wh_main_skill_vmp_lord_self_quickblood	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_05	4.0		0	0	true
-	wh_main_skill_vmp_lord_self_blood_lust	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_06	5.0		0	4	true
-	wh2_dlc11_skill_vmp_lord_self_master_strike	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_07	6.0		0	0	true
-	wh_main_skill_vmp_lord_self_curse_of_the_revenant	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_08	7.0		0	0	true
-	wh_main_skill_vmp_lord_self_supernatural_horror	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_09	8.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_blade_shield	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_10	9.0		0	0	true
-	wh_main_skill_vmp_lord_self_red_fury	wh2_dlc11_skill_node_set_vmp_walach		2.0	vmp_walach_self_11	10.0		0	4	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_doomrider	wh2_dlc11_skill_node_set_vmp_walach		1.0	vmp_walach_special_01	0.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_the_strength_of_steel	wh2_dlc11_skill_node_set_vmp_walach		1.0	vmp_walach_special_02	1.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_heart_piercing	wh2_dlc11_skill_node_set_vmp_walach		1.0	vmp_walach_special_03	2.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_grave_sentinels	wh2_dlc11_skill_node_set_vmp_walach		1.0	vmp_walach_special_04	3.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_disciple_of_aborrash	wh2_dlc11_skill_node_set_vmp_walach		1.0	vmp_walach_special_05	4.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_honour_or_death	wh2_dlc11_skill_node_set_vmp_walach		1.0	vmp_walach_special_06	5.0		0	0	true
-	vmp_walach_barded_nightmare	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_01	3.0		0	0	true
-	wh_main_skill_vmp_all_unique_grave_ward	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_02	8.0		0	0	true
-	wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_the_ordo_draconis	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_03	6.0		0	0	true
-	wh_main_skill_vmp_lord_battle_aura_of_dark_majesty	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_04	4.0		0	0	true
-	wh_main_skill_vmp_lord_battle_dark_pact	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_05	5.0		0	0	true
-	crimson_blade_walach	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_06	0.0		0	0	true
-	blood_chalice_walach	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_07	2.0		0	0	true
-	standard_blood_dragon_walach	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_08	1.0		0	0	true
-	hunger_to_blood_knights	wh2_dlc11_skill_node_set_vmp_walach		0.0	vmp_walach_unique_09	7.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_blood_dragons_harkon										
+vmp_walach_battle_01		wh_main_skill_vmp_lord_battle_aura_of_supremacy	wh2_dlc11_skill_node_set_vmp_walach		4.0	0.0		0	0	true
+vmp_walach_battle_02		wh2_dlc11_skill_vmp_bloodline_all_battle_the_unliving_host	wh2_dlc11_skill_node_set_vmp_walach		4.0	1.0		0	0	true
+vmp_walach_battle_03		wh2_dlc11_skill_vmp_bloodline_all_battle_call_of_the_night	wh2_dlc11_skill_node_set_vmp_walach		4.0	2.0		0	0	true
+vmp_walach_battle_04		wh2_dlc11_skill_vmp_bloodline_all_battle_evil_souls	wh2_dlc11_skill_node_set_vmp_walach		4.0	3.0		0	0	true
+vmp_walach_battle_05		wh2_dlc11_skill_vmp_bloodline_all_battle_creatures_of_the_night	wh2_dlc11_skill_node_set_vmp_walach		4.0	4.0		0	0	true
+vmp_walach_battle_06		wh2_dlc11_skill_vmp_bloodline_all_battle_waking_dead	wh2_dlc11_skill_node_set_vmp_walach		4.0	5.0		0	0	true
+vmp_walach_battle_07		wh2_dlc11_skill_vmp_bloodline_all_battle_carriages_of_death	wh2_dlc11_skill_node_set_vmp_walach		4.0	6.0		0	0	true
+vmp_walach_battle_08		wh_main_skill_vmp_lord_battle_magical_animus	wh2_dlc11_skill_node_set_vmp_walach		4.0	7.0		0	6	true
+vmp_walach_battle_09		wh2_dlc11_skill_vmp_bloodline_all_battle_legions_of_dead	wh2_dlc11_skill_node_set_vmp_walach		4.0	8.0		0	0	true
+vmp_walach_battle_10		wh2_dlc11_skill_vmp_bloodline_all_battle_dread_knights	wh2_dlc11_skill_node_set_vmp_walach		4.0	9.0		0	0	true
+vmp_walach_battle_11		wh2_dlc11_skill_vmp_bloodline_all_battle_deadly_power	wh2_dlc11_skill_node_set_vmp_walach		4.0	10.0		0	0	true
+vmp_walach_battle_12		wh2_dlc11_skill_vmp_bloodline_all_battle_flying_horrors	wh2_dlc11_skill_node_set_vmp_walach		4.0	11.0		0	0	true
+vmp_walach_battle_13		wh_main_skill_vmp_lord_battle_undeath_resurgent	wh2_dlc11_skill_node_set_vmp_walach		4.0	12.0		0	1	true
+vmp_walach_campaign_01		wh_main_skill_vmp_lord_campaign_the_restless_dead	wh2_dlc11_skill_node_set_vmp_walach		5.0	0.0		0	0	true
+vmp_walach_campaign_02		wh_main_skill_vmp_lord_campaign_undying_horde	wh2_dlc11_skill_node_set_vmp_walach		5.0	1.0		0	0	true
+vmp_walach_campaign_03		wh_main_skill_vmp_lord_campaign_children_of_the_night	wh2_dlc11_skill_node_set_vmp_walach		5.0	2.0		0	0	true
+vmp_walach_campaign_04		wh_main_skill_vmp_lord_campaign_darkling_skies	wh2_dlc11_skill_node_set_vmp_walach		5.0	3.0		0	0	true
+vmp_walach_campaign_05		wh_main_skill_vmp_lord_campaign_ancient_cunning	wh2_dlc11_skill_node_set_vmp_walach		5.0	4.0		0	0	true
+vmp_walach_campaign_06		wh_main_skill_vmp_lord_campaign_immortal_horror	wh2_dlc11_skill_node_set_vmp_walach		5.0	5.0		0	4	true
+vmp_walach_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	wh2_dlc11_skill_node_set_vmp_walach		5.0	6.0		0	0	true
+vmp_walach_campaign_08		wh_main_skill_vmp_lord_campaign_guile_and_glamour	wh2_dlc11_skill_node_set_vmp_walach		5.0	7.0		0	0	true
+vmp_walach_campaign_09		wh_main_skill_vmp_lord_campaign_necrarch	wh2_dlc11_skill_node_set_vmp_walach		5.0	8.0		0	0	true
+vmp_walach_campaign_10		wh_main_skill_vmp_lord_campaign_eternal_warden	wh2_dlc11_skill_node_set_vmp_walach		5.0	9.0		0	0	true
+vmp_walach_campaign_11		wh_main_skill_vmp_lord_campaign_uncanny_prescience	wh2_dlc11_skill_node_set_vmp_walach		5.0	10.0		0	4	true
+vmp_walach_innate		vmp_walach_innate	wh2_dlc11_skill_node_set_vmp_walach		6.0	0.0		1	0	false
+vmp_walach_magic1_01		wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek	wh2_dlc11_skill_node_set_vmp_walach		3.0	0.0		0	0	true
+vmp_walach_magic1_02		wh_main_skill_vmp_magic_vampires_03_the_curse_of_undeath	wh2_dlc11_skill_node_set_vmp_walach		3.0	1.0		0	0	true
+vmp_walach_magic1_03		wh2_main_skill_vmp_magic_vampires_02_vanhels_danse_macabre_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	2.0		0	0	true
+vmp_walach_magic1_04		wh2_main_skill_vmp_magic_vampires_04_gaze_of_nagash_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	3.0		0	0	true
+vmp_walach_magic1_05		wh2_main_skill_vmp_magic_vampires_05_raise_dead_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	4.0		0	0	true
+vmp_walach_magic1_06		wh2_main_skill_vmp_magic_vampires_09_curse_of_years_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	5.0		0	4	true
+vmp_walach_magic1_07		wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord	wh2_dlc11_skill_node_set_vmp_walach		3.0	8.0		0	0	true
+vmp_walach_magic1_dummy		wh2_main_skill_vmp_magic_vampires_dummy_invocation_of_nehek_danse_macabre	wh2_dlc11_skill_node_set_vmp_walach		3.0	11.0		1	0	false
+vmp_walach_self_01		wh_main_skill_vmp_lord_self_the_hunger	wh2_dlc11_skill_node_set_vmp_walach		2.0	0.0		0	0	true
+vmp_walach_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	wh2_dlc11_skill_node_set_vmp_walach		2.0	1.0		0	0	true
+vmp_walach_self_03		wh_main_skill_vmp_lord_self_dark_knight	wh2_dlc11_skill_node_set_vmp_walach		2.0	2.0		0	0	true
+vmp_walach_self_04		wh_main_skill_vmp_lord_self_beguile	wh2_dlc11_skill_node_set_vmp_walach		2.0	3.0		0	0	true
+vmp_walach_self_05		wh_main_skill_vmp_lord_self_quickblood	wh2_dlc11_skill_node_set_vmp_walach		2.0	4.0		0	0	true
+vmp_walach_self_06		wh_main_skill_vmp_lord_self_blood_lust	wh2_dlc11_skill_node_set_vmp_walach		2.0	5.0		0	4	true
+vmp_walach_self_07		wh2_dlc11_skill_vmp_lord_self_master_strike	wh2_dlc11_skill_node_set_vmp_walach		2.0	6.0		0	0	true
+vmp_walach_self_08		wh_main_skill_vmp_lord_self_curse_of_the_revenant	wh2_dlc11_skill_node_set_vmp_walach		2.0	7.0		0	0	true
+vmp_walach_self_09		wh_main_skill_vmp_lord_self_supernatural_horror	wh2_dlc11_skill_node_set_vmp_walach		2.0	8.0		0	0	true
+vmp_walach_self_10		wh2_dlc11_skill_all_lord_self_blade_shield	wh2_dlc11_skill_node_set_vmp_walach		2.0	9.0		0	0	true
+vmp_walach_self_11		wh_main_skill_vmp_lord_self_red_fury	wh2_dlc11_skill_node_set_vmp_walach		2.0	10.0		0	4	true
+vmp_walach_special_01		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_doomrider	wh2_dlc11_skill_node_set_vmp_walach		1.0	0.0		0	0	true
+vmp_walach_special_02		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_the_strength_of_steel	wh2_dlc11_skill_node_set_vmp_walach		1.0	1.0		0	0	true
+vmp_walach_special_03		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_heart_piercing	wh2_dlc11_skill_node_set_vmp_walach		1.0	2.0		0	0	true
+vmp_walach_special_04		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_grave_sentinels	wh2_dlc11_skill_node_set_vmp_walach		1.0	3.0		0	0	true
+vmp_walach_special_05		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_disciple_of_aborrash	wh2_dlc11_skill_node_set_vmp_walach		1.0	4.0		0	0	true
+vmp_walach_special_06		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_honour_or_death	wh2_dlc11_skill_node_set_vmp_walach		1.0	5.0		0	0	true
+vmp_walach_unique_01		vmp_walach_barded_nightmare	wh2_dlc11_skill_node_set_vmp_walach		0.0	3.0		0	0	true
+vmp_walach_unique_02		wh_main_skill_vmp_all_unique_grave_ward	wh2_dlc11_skill_node_set_vmp_walach		0.0	8.0		0	0	true
+vmp_walach_unique_03		wh2_dlc11_skill_vmp_bloodline_blood_dragon_unique_the_ordo_draconis	wh2_dlc11_skill_node_set_vmp_walach		0.0	6.0		0	0	true
+vmp_walach_unique_04		wh_main_skill_vmp_lord_battle_aura_of_dark_majesty	wh2_dlc11_skill_node_set_vmp_walach		0.0	4.0		0	0	true
+vmp_walach_unique_05		wh_main_skill_vmp_lord_battle_dark_pact	wh2_dlc11_skill_node_set_vmp_walach		0.0	5.0		0	0	true
+vmp_walach_unique_06		crimson_blade_walach	wh2_dlc11_skill_node_set_vmp_walach		0.0	0.0		0	0	true
+vmp_walach_unique_07		blood_chalice_walach	wh2_dlc11_skill_node_set_vmp_walach		0.0	2.0		0	0	true
+vmp_walach_unique_08		standard_blood_dragon_walach	wh2_dlc11_skill_node_set_vmp_walach		0.0	1.0		0	0	true
+vmp_walach_unique_09		hunger_to_blood_knights	wh2_dlc11_skill_node_set_vmp_walach		0.0	7.0		0	0	true

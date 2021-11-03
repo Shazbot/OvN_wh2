@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_grudge					
 wh_main_emp_cha_grudge_main_1	wh_main_effect_hordebuilding_growth_core	force_to_force_own	1.0	1.0	0.0
 wh_main_emp_cha_grudge_main_1	wh_main_effect_force_all_recruitment_points	force_to_force_own	1.0	1.0	0.0
 wh_main_emp_cha_grudge_main_2	wh_main_effect_hordebuilding_growth_core	force_to_force_own	2.0	2.0	0.0

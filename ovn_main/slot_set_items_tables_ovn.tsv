@@ -1,5 +1,5 @@
-slot_set_items_tables	2
 id	slot_template	slot_type	slot_set	building_level
+#slot_set_items_tables;2;db/slot_set_items_tables/ovn				
 3540534	hertz_foreign_template	foreign	hertz_foreign_slot_set	
 3540535	hertz_foreign_template	foreign	hertz_foreign_slot_set	
 9817788	ovn_restaurant	foreign	ovn_restaurant	

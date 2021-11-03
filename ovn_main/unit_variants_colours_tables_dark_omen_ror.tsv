@@ -1,23 +1,23 @@
-unit_variants_colours_tables	5
-faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
-wh2_main_emp_grudgebringers	0	0	100	0	0	100	soldier	0	21	17	210198402	grudgebringer_infantry	
-	120	20	65	150	35	90	soldier	41	24	34	210198403	grudgebringer_cannon	
-wh2_main_emp_grudgebringers	24	32	57	24	32	57	soldier	24	32	57	210198404	grudgebringer_cavalry	
-	150	35	90	45	25	35	officer	41	24	34	210198405	grudgebringer_cannon	
-wh2_main_emp_grudgebringers	28	50	65	28	50	65	soldier	28	50	65	210198406	grudgebringer_crossbow	
-wh2_main_emp_grudgebringers	130	15	15	130	15	15	soldier	130	15	15	210198407	helmgart_bowmen	
-wh2_main_emp_grudgebringers	92	27	12	255	255	255	soldier	255	255	255	210198408	keelers_longbows	
-wh2_main_emp_grudgebringers	40	100	0	40	100	0	soldier	40	100	0	210198409	dargrimm_firebeard_dwarf_warriors	
-wh2_main_emp_grudgebringers	64	32	0	64	32	0	soldier	64	32	0	210198410	azguz_bloodfist_dwarf_warriors	
-wh2_main_emp_grudgebringers	0	0	100	0	0	100	soldier	0	0	100	210198411	urblab_rotgut_mercenary_ogres	
-wh2_main_emp_grudgebringers	64	32	0	64	32	0	officer	64	32	0	210198412	azguz_bloodfist_dwarf_warriors	
-wh2_main_emp_grudgebringers	40	100	0	40	100	0	officer	40	100	0	210198413	dargrimm_firebeard_dwarf_warriors	
-wh2_main_emp_grudgebringers	40	100	0	40	100	0	soldier	40	100	0	210198414	elrod_wood_elf_glade_guards	
-wh2_main_emp_grudgebringers	40	100	0	40	100	0	soldier	40	100	0	210198415	galed_elf_archers	
-wh2_main_emp_grudgebringers	0	190	215	115	50	20	soldier	115	50	20	210198416	countess_guard	
-wh2_main_emp_grudgebringers	0	200	225	125	60	30	officer	125	60	30	210198417	countess_guard	
-wh2_main_emp_grudgebringers	255	255	255	255	255	255	officer	255	255	255	210198419	grudgebringer_cavalry	
-wh2_main_emp_grudgebringers	41	24	34	18	3	75	soldier	18	3	75	210198420	carlsson_cavalry	
-wh2_main_emp_grudgebringers	41	24	34	18	3	75	officer	18	3	75	210198421	carlsson_cavalry	
-wh2_main_emp_grudgebringers	235	235	235	235	235	235	soldier	235	235	235	210198423	ragnar_wolves	
-wh2_main_emp_grudgebringers	235	235	235	235	235	235	officer	235	235	235	210198424	ragnar_wolves	
+key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	unit_variant	subculture
+#unit_variants_colours_tables;5;db/unit_variants_colours_tables/dark_omen_ror													
+210198402	wh2_main_emp_grudgebringers	0	0	100	0	0	100	soldier	0	21	17	grudgebringer_infantry	
+210198403		120	20	65	150	35	90	soldier	41	24	34	grudgebringer_cannon	
+210198404	wh2_main_emp_grudgebringers	24	32	57	24	32	57	soldier	24	32	57	grudgebringer_cavalry	
+210198405		150	35	90	45	25	35	officer	41	24	34	grudgebringer_cannon	
+210198406	wh2_main_emp_grudgebringers	28	50	65	28	50	65	soldier	28	50	65	grudgebringer_crossbow	
+210198407	wh2_main_emp_grudgebringers	130	15	15	130	15	15	soldier	130	15	15	helmgart_bowmen	
+210198408	wh2_main_emp_grudgebringers	92	27	12	255	255	255	soldier	255	255	255	keelers_longbows	
+210198409	wh2_main_emp_grudgebringers	40	100	0	40	100	0	soldier	40	100	0	dargrimm_firebeard_dwarf_warriors	
+210198410	wh2_main_emp_grudgebringers	64	32	0	64	32	0	soldier	64	32	0	azguz_bloodfist_dwarf_warriors	
+210198411	wh2_main_emp_grudgebringers	0	0	100	0	0	100	soldier	0	0	100	urblab_rotgut_mercenary_ogres	
+210198412	wh2_main_emp_grudgebringers	64	32	0	64	32	0	officer	64	32	0	azguz_bloodfist_dwarf_warriors	
+210198413	wh2_main_emp_grudgebringers	40	100	0	40	100	0	officer	40	100	0	dargrimm_firebeard_dwarf_warriors	
+210198414	wh2_main_emp_grudgebringers	40	100	0	40	100	0	soldier	40	100	0	elrod_wood_elf_glade_guards	
+210198415	wh2_main_emp_grudgebringers	40	100	0	40	100	0	soldier	40	100	0	galed_elf_archers	
+210198416	wh2_main_emp_grudgebringers	0	190	215	115	50	20	soldier	115	50	20	countess_guard	
+210198417	wh2_main_emp_grudgebringers	0	200	225	125	60	30	officer	125	60	30	countess_guard	
+210198419	wh2_main_emp_grudgebringers	255	255	255	255	255	255	officer	255	255	255	grudgebringer_cavalry	
+210198420	wh2_main_emp_grudgebringers	41	24	34	18	3	75	soldier	18	3	75	carlsson_cavalry	
+210198421	wh2_main_emp_grudgebringers	41	24	34	18	3	75	officer	18	3	75	carlsson_cavalry	
+210198423	wh2_main_emp_grudgebringers	235	235	235	235	235	235	soldier	235	235	235	ragnar_wolves	
+210198424	wh2_main_emp_grudgebringers	235	235	235	235	235	235	officer	235	235	235	ragnar_wolves	

@@ -1,5 +1,5 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/ovn_halflings	
 hu1_bretonnian_sword_and_longbow	wh_main_emp_empire
 hu3_dwarf_axe_shield_and_crossbow	wh_main_emp_empire
 hc2_treekin	wh_main_emp_empire

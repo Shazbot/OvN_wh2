@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Dread_King_unit_abilities__.loc		
 unit_abilities_tooltip_text_spawn_ushabti_dread_king	Call upon the Ushabti to fight for you	true
 unit_abilities_tooltip_text_Dread_Aura	he Dread King's name was derived from a powerful aura that surrounded him at all times, only the mightiest of beings could face him without physically shaking or panicking, most would be frozen in fear or outright flee	true
 unit_abilities_onscreen_name_Dread_Aura	Dread Aura	true

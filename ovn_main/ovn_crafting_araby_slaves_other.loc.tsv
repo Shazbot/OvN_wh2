@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_crafting_araby_slaves_other.loc		
 effect_bundles_localised_title_ovn_crafting_araby_slaves	Victories	true
 effect_bundles_localised_description_ovn_crafting_araby_slaves	Victories against foreign cultures can bring slaves of distinction into Arabyan armies and administration.	true
 effects_description_ovn_araby_victories_lzd	Victories against Lizardmen: %n	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_half_buildings_resources.loc		
 resources_onscreen_text_res_tobacco	Tobacco	true
 resources_description_res_tobacco	Tobacco good after hard battle.	true
 effects_description_tobacco_effect_produce_res_tobacco	Tobacco resource production: %n sacks	true

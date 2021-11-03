@@ -1,5 +1,5 @@
-technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;5;db/technologies_tables/ovn_rotbloods														
 rot_tech_mon_1		1	tech_dlc08_nor_baying_to_morrslieb	0	0	0	0	false	false	"placeholder.tga"	2113431002	false	false	true
 rot_tech_mon_2		1	tech_dlc08_nor_chaos_surge	0	0	0	0	false	false	"placeholder.tga"	2113431003	false	false	true
 rot_nor_marauders_05		1	tech_dlc08_nor_crafters_barding	0	0	0	0	false	false	"placeholder.tga"	2113431004	false	false	true

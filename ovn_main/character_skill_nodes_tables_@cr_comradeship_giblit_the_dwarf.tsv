@@ -1,33 +1,33 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	ovn_skill_anc_weapon_friendship_bracelet_giblit	ovn_skill_node_set_giblit_the_dwarf		0.0	ovn_skill_node_giblit_the_dwarf_misc_01	0.0		0	0	true
-	ovn_skill_anc_enchanted_item_bimbos_book	ovn_skill_node_set_giblit_the_dwarf		0.0	ovn_skill_node_giblit_the_dwarf_misc_02	1.0		0	0	true
-	wh_main_skill_dwf_all_unique_ancestral_grudge	ovn_skill_node_set_giblit_the_dwarf		0.0	ovn_skill_node_giblit_the_dwarf_misc_03	2.0		0	0	true
-	wh_main_skill_dwf_all_unique_resolute	ovn_skill_node_set_giblit_the_dwarf		0.0	ovn_skill_node_giblit_the_dwarf_misc_04	3.0		0	0	true
-	wh_main_skill_dwf_all_unique_relentless	ovn_skill_node_set_giblit_the_dwarf		0.0	ovn_skill_node_giblit_the_dwarf_misc_05	4.0		0	0	true
-	wh_main_skill_dwf_all_unique_rune_of_grimnir	ovn_skill_node_set_giblit_the_dwarf		0.0	ovn_skill_node_giblit_the_dwarf_misc_06	5.0		0	0	true
-	wh_main_skill_all_all_self_blade_master_starter	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_01	0.0		0	0	true
-	wh_main_skill_all_all_self_indomitable	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_02	1.0		0	0	true
-	wh_main_skill_all_all_self_thick-skinned	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_03	2.0		0	0	true
-	wh_main_skill_all_all_self_hard_to_hit	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_04	3.0		0	0	true
-	wh_main_skill_all_spy_self_fleet-footed	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_05	4.0		0	0	true
-	wh_main_skill_all_all_self_foe-seeker	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_06	5.0		0	4	true
-	wh_main_skill_all_all_self_wound-maker	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_07	6.0		0	0	true
-	wh_main_skill_all_all_self_scarred_veteran_2	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_08	7.0		0	0	true
-	wh_main_skill_all_all_self_deadly_blade	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_09	8.0		0	0	true
-	wh_main_skill_all_all_self_blade_shield	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_10	9.0		0	0	true
-	wh_main_skill_all_all_self_deadly_onslaught	ovn_skill_node_set_giblit_the_dwarf		2.0	ovn_skill_node_giblit_the_dwarf_self_11	10.0		0	4	true
-	ovn_skill_com_hero_giblit_the_dwarf_0	ovn_skill_node_set_giblit_the_dwarf		3.0	ovn_skill_node_giblit_the_dwarf_unique_01	0.0		0	0	true
-	ovn_skill_com_hero_giblit_the_dwarf_1	ovn_skill_node_set_giblit_the_dwarf		3.0	ovn_skill_node_giblit_the_dwarf_unique_02	1.0		0	0	true
-	ovn_skill_com_hero_giblit_the_dwarf_2	ovn_skill_node_set_giblit_the_dwarf		3.0	ovn_skill_node_giblit_the_dwarf_unique_03	2.0		0	0	true
-	ovn_skill_com_hero_giblit_the_dwarf_3	ovn_skill_node_set_giblit_the_dwarf		3.0	ovn_skill_node_giblit_the_dwarf_unique_04	3.0		0	0	true
-	ovn_skill_com_hero_giblit_the_dwarf_4	ovn_skill_node_set_giblit_the_dwarf		3.0	ovn_skill_node_giblit_the_dwarf_unique_05	4.0		0	0	true
-	ovn_skill_com_hero_giblit_the_dwarf_5	ovn_skill_node_set_giblit_the_dwarf		3.0	ovn_skill_node_giblit_the_dwarf_unique_06	5.0		0	4	true
-	wh2_main_skill_all_hero_assist_army_increase_mobility	ovn_skill_node_set_giblit_the_dwarf		5.0	ovn_skill_node_giblit_the_dwarf_campaign_01	0.0		0	0	true
-	wh2_main_skill_all_hero_passive_increase_trade	ovn_skill_node_set_giblit_the_dwarf		5.0	ovn_skill_node_giblit_the_dwarf_campaign_02	1.0		0	0	true
-	wh2_main_skill_all_hero_hinder_settlement_steal_technology	ovn_skill_node_set_giblit_the_dwarf		5.0	ovn_skill_node_giblit_the_dwarf_campaign_03	2.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_block_army	ovn_skill_node_set_giblit_the_dwarf		5.0	ovn_skill_node_giblit_the_dwarf_campaign_04	3.0		0	0	true
-	wh2_main_skill_all_hero_hinder_army_hinder_replenishment	ovn_skill_node_set_giblit_the_dwarf		5.0	ovn_skill_node_giblit_the_dwarf_campaign_05	4.0		0	0	true
-	wh2_main_skill_all_hero_reduce_action_cost	ovn_skill_node_set_giblit_the_dwarf		5.0	ovn_skill_node_giblit_the_dwarf_campaign_06	5.0		0	0	true
-	ovn_skill_innate_com_giblit_the_dwarf	ovn_skill_node_set_giblit_the_dwarf		6.0	ovn_skill_node_giblit_the_dwarf_innate_01	0.0		1	0	false
-	ovn_skill_all_dummy_agent_actions_com_giblit_the_dwarf	ovn_skill_node_set_giblit_the_dwarf		8.0	ovn_skill_node_giblit_the_dwarf_campaign_actions_dummy	0.0		1	0	false
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/@cr_comradeship_giblit_the_dwarf										
+ovn_skill_node_giblit_the_dwarf_misc_01		ovn_skill_anc_weapon_friendship_bracelet_giblit	ovn_skill_node_set_giblit_the_dwarf		0.0	0.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_misc_02		ovn_skill_anc_enchanted_item_bimbos_book	ovn_skill_node_set_giblit_the_dwarf		0.0	1.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_misc_03		wh_main_skill_dwf_all_unique_ancestral_grudge	ovn_skill_node_set_giblit_the_dwarf		0.0	2.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_misc_04		wh_main_skill_dwf_all_unique_resolute	ovn_skill_node_set_giblit_the_dwarf		0.0	3.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_misc_05		wh_main_skill_dwf_all_unique_relentless	ovn_skill_node_set_giblit_the_dwarf		0.0	4.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_misc_06		wh_main_skill_dwf_all_unique_rune_of_grimnir	ovn_skill_node_set_giblit_the_dwarf		0.0	5.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_01		wh_main_skill_all_all_self_blade_master_starter	ovn_skill_node_set_giblit_the_dwarf		2.0	0.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_02		wh_main_skill_all_all_self_indomitable	ovn_skill_node_set_giblit_the_dwarf		2.0	1.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_03		wh_main_skill_all_all_self_thick-skinned	ovn_skill_node_set_giblit_the_dwarf		2.0	2.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_04		wh_main_skill_all_all_self_hard_to_hit	ovn_skill_node_set_giblit_the_dwarf		2.0	3.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_05		wh_main_skill_all_spy_self_fleet-footed	ovn_skill_node_set_giblit_the_dwarf		2.0	4.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_06		wh_main_skill_all_all_self_foe-seeker	ovn_skill_node_set_giblit_the_dwarf		2.0	5.0		0	4	true
+ovn_skill_node_giblit_the_dwarf_self_07		wh_main_skill_all_all_self_wound-maker	ovn_skill_node_set_giblit_the_dwarf		2.0	6.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_08		wh_main_skill_all_all_self_scarred_veteran_2	ovn_skill_node_set_giblit_the_dwarf		2.0	7.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_09		wh_main_skill_all_all_self_deadly_blade	ovn_skill_node_set_giblit_the_dwarf		2.0	8.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_10		wh_main_skill_all_all_self_blade_shield	ovn_skill_node_set_giblit_the_dwarf		2.0	9.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_self_11		wh_main_skill_all_all_self_deadly_onslaught	ovn_skill_node_set_giblit_the_dwarf		2.0	10.0		0	4	true
+ovn_skill_node_giblit_the_dwarf_unique_01		ovn_skill_com_hero_giblit_the_dwarf_0	ovn_skill_node_set_giblit_the_dwarf		3.0	0.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_unique_02		ovn_skill_com_hero_giblit_the_dwarf_1	ovn_skill_node_set_giblit_the_dwarf		3.0	1.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_unique_03		ovn_skill_com_hero_giblit_the_dwarf_2	ovn_skill_node_set_giblit_the_dwarf		3.0	2.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_unique_04		ovn_skill_com_hero_giblit_the_dwarf_3	ovn_skill_node_set_giblit_the_dwarf		3.0	3.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_unique_05		ovn_skill_com_hero_giblit_the_dwarf_4	ovn_skill_node_set_giblit_the_dwarf		3.0	4.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_unique_06		ovn_skill_com_hero_giblit_the_dwarf_5	ovn_skill_node_set_giblit_the_dwarf		3.0	5.0		0	4	true
+ovn_skill_node_giblit_the_dwarf_campaign_01		wh2_main_skill_all_hero_assist_army_increase_mobility	ovn_skill_node_set_giblit_the_dwarf		5.0	0.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_campaign_02		wh2_main_skill_all_hero_passive_increase_trade	ovn_skill_node_set_giblit_the_dwarf		5.0	1.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_campaign_03		wh2_main_skill_all_hero_hinder_settlement_steal_technology	ovn_skill_node_set_giblit_the_dwarf		5.0	2.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_campaign_04		wh2_main_skill_all_hero_hinder_army_block_army	ovn_skill_node_set_giblit_the_dwarf		5.0	3.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	ovn_skill_node_set_giblit_the_dwarf		5.0	4.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	ovn_skill_node_set_giblit_the_dwarf		5.0	5.0		0	0	true
+ovn_skill_node_giblit_the_dwarf_innate_01		ovn_skill_innate_com_giblit_the_dwarf	ovn_skill_node_set_giblit_the_dwarf		6.0	0.0		1	0	false
+ovn_skill_node_giblit_the_dwarf_campaign_actions_dummy		ovn_skill_all_dummy_agent_actions_com_giblit_the_dwarf	ovn_skill_node_set_giblit_the_dwarf		8.0	0.0		1	0	false

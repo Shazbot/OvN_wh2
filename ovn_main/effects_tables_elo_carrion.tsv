@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_carrion					
 elo_carrion_boss_cap	goblin_big_boss.png	102	goblin_big_boss.png	campaign	true
 elo_carrion_boss_availability	agent.png	3	agent.png	campaign	true
 elo_special_treat	general_ability.png	100	general_ability.png	battle	true

@@ -1,5 +1,5 @@
-cultures_subcultures_tables	3
 subculture	culture	index	audio_state_override	audio_rtpc_override	audio_corruption_state_override
+#cultures_subcultures_tables;3;db/cultures_subcultures_tables/ovn_new_sc_shared					
 wh_main_sc_nor_warp	wh_main_chs_chaos	250519881			
 wh_main_sc_nor_fimir	wh_main_chs_chaos	250519882			
 wh_main_sc_nor_troll	wh_main_chs_chaos	250519883			

@@ -1,11 +1,11 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-character_wound_time.png	liche_immortality			0	false	false	false	0.0	0
-mount_barded_skeletal_steed.png	mount_barded_skeletal_steed_liche			0	false	false	false	0.0	0
-mount_skeleton_chariot.png	mount_chariot_liche			0	false	false	false	0.0	0
-mount_warsphinx.png	mount_warsphinx_liche			0	false	false	false	0.0	0
-wh2_dlc09_usurian.png	elo_liche_traitor_king			0	false	false	false	0.0	0
-character_magic.png	elo_liche_necromancer			0	false	false	false	0.0	0
-causes_terror.png	elo_follower_nagash			0	false	false	false	0.0	0
-character_unit_capacity.png	elo_liche_general_legion			0	false	false	false	0.0	0
-wh_dlc04_spell_vamps_raise_dead_ghorst.png	elo_call_the_legions			0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/elo_liche_general									
+liche_immortality	character_wound_time.png			0	false	false	false	0.0	0
+mount_barded_skeletal_steed_liche	mount_barded_skeletal_steed.png			0	false	false	false	0.0	0
+mount_chariot_liche	mount_skeleton_chariot.png			0	false	false	false	0.0	0
+mount_warsphinx_liche	mount_warsphinx.png			0	false	false	false	0.0	0
+elo_liche_traitor_king	wh2_dlc09_usurian.png			0	false	false	false	0.0	0
+elo_liche_necromancer	character_magic.png			0	false	false	false	0.0	0
+elo_follower_nagash	causes_terror.png			0	false	false	false	0.0	0
+elo_liche_general_legion	character_unit_capacity.png			0	false	false	false	0.0	0
+elo_call_the_legions	wh_dlc04_spell_vamps_raise_dead_ghorst.png			0	false	false	false	0.0	0

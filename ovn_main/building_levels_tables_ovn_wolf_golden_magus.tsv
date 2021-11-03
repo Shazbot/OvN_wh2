@@ -1,5 +1,5 @@
-building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+#building_levels_tables;16;db/building_levels_tables/ovn_wolf_golden_magus																										
 arb_flaming_scimitar_main_1	arb_flaming_scimitar_main	0	1	800	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	0	true	0		true	0	0
 arb_flaming_scimitar_main_2	arb_flaming_scimitar_main	1	1	1600	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	2	true	1		true	0	0
 arb_flaming_scimitar_main_3	arb_flaming_scimitar_main	2	1	3200	0		false	0	0	0	0	false				true	arb_flaming_scimitar_main	false	0.0	4	true	2		true	0	0

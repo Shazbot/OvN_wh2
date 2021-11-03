@@ -1,16 +1,16 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-mount_mammoth.png	ribspreader_mammoth_skill			17	false	false	false	0.0	0
-ovn_mark_of_nurgle.png	ribspreader_special_0			8	false	false	false	0.0	0
-wh2_dlc14_skill_skv_snikch_sabotage_and_unrest.png	ribspreader_special_1			0	false	false	false	0.0	0
-wh2_dlc15_skill_river_troll_hag_mither.png	ribspreader_special_2			0	false	false	false	0.0	0
-wh_dlc08_berserk.png	ribspreader_special_3			0	false	false	false	0.0	0
-wh2_dlc12_lord_abilities_unlimited_power.png	ribspreader_special_2_1			0	false	false	false	0.0	0
-trait_chaos.png	ribspreader_trait			0	true	false	false	5.0	0
-wh_dlc08_lord_abilities_fight_or_die.png	ribspreader_special_4			0	false	false	false	0.0	0
-item_weapon.png	ribspreader_weapon_skill			10	false	false	false	0.0	0
-battle_defence.png	ribspreader_chaos_vanguard	To the Northmen, there is no greater honour than to fight and perish under the gaze of the Gods.	Chaos Vanguard	0	false	false	false	0.0	0
-battle_ranged_damage.png	ribspreader_battle_ranged_elite	Impossible foresight is granted to a few among the ranks of the Ruinous armies, allowing them to land the critical blow upon their foes.	Guided by Tzeentch	0	false	false	false	0.0	0
-campaign_replenishment.png	ovn_rot_tribes_of_chaos	A Lord that was once part of the tribes - one who rode the great Norscan migrations - can summon his kin.	Tribes of Chaos	0	false	false	false	0.0	0
-campaign_military_spending.png	ovn_rot_blessed_by_evil	The masses flock to the Lord of Chaos - a dread time will soon fall on the weaklings in the south.	Gathering of Might	0	false	false	false	0.0	0
-wh2_main_spell_plague_vermintide.png	ovn_spawn_fanatics_skill	 	Vermintide	0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ovn_ribspreader									
+ribspreader_mammoth_skill	mount_mammoth.png			17	false	false	false	0.0	0
+ribspreader_special_0	ovn_mark_of_nurgle.png			8	false	false	false	0.0	0
+ribspreader_special_1	wh2_dlc14_skill_skv_snikch_sabotage_and_unrest.png			0	false	false	false	0.0	0
+ribspreader_special_2	wh2_dlc15_skill_river_troll_hag_mither.png			0	false	false	false	0.0	0
+ribspreader_special_3	wh_dlc08_berserk.png			0	false	false	false	0.0	0
+ribspreader_special_2_1	wh2_dlc12_lord_abilities_unlimited_power.png			0	false	false	false	0.0	0
+ribspreader_trait	trait_chaos.png			0	true	false	false	5.0	0
+ribspreader_special_4	wh_dlc08_lord_abilities_fight_or_die.png			0	false	false	false	0.0	0
+ribspreader_weapon_skill	item_weapon.png			10	false	false	false	0.0	0
+ribspreader_chaos_vanguard	battle_defence.png	To the Northmen, there is no greater honour than to fight and perish under the gaze of the Gods.	Chaos Vanguard	0	false	false	false	0.0	0
+ribspreader_battle_ranged_elite	battle_ranged_damage.png	Impossible foresight is granted to a few among the ranks of the Ruinous armies, allowing them to land the critical blow upon their foes.	Guided by Tzeentch	0	false	false	false	0.0	0
+ovn_rot_tribes_of_chaos	campaign_replenishment.png	A Lord that was once part of the tribes - one who rode the great Norscan migrations - can summon his kin.	Tribes of Chaos	0	false	false	false	0.0	0
+ovn_rot_blessed_by_evil	campaign_military_spending.png	The masses flock to the Lord of Chaos - a dread time will soon fall on the weaklings in the south.	Gathering of Might	0	false	false	false	0.0	0
+ovn_spawn_fanatics_skill	wh2_main_spell_plague_vermintide.png	 	Vermintide	0	false	false	false	0.0	0

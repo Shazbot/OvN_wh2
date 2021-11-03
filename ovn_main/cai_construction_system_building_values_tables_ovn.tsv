@@ -1,45 +1,45 @@
-cai_construction_system_building_values_tables	0
-building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive	sub_culture
-		ovn_blood_keep	ovn_blood_keep			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_hlf_welf_1	ovn_hlf_welf_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_scy_tmb	ovn_arb_scy_tmb			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_arb_nomad_1	ovn_arb_nomad_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_arb_haikk	ovn_arb_haikk			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_bel	ovn_arb_bel			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_fyrus	ovn_arb_fyrus			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_Sabar	ovn_arb_Sabar			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_Madrasat	ovn_arb_Madrasat			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_Sartosa	ovn_arb_Sartosa			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_Magritta	ovn_arb_Magritta			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_Crypt	ovn_arb_Crypt			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_Twilight	ovn_arb_Twilight			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
-		ovn_arb_forge_1	ovn_arb_forge_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_arb_xp	ovn_arb_xp			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_recruit_1	wh_main_emp_cha_grudge_recruit_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_wizard_1	wh_main_emp_cha_grudge_wizard_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_worship	wh_main_emp_cha_grudge_worship			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_growth_1	wh_main_emp_cha_grudge_growth_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_paymaster	wh_main_emp_cha_grudge_paymaster			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_bank	wh_main_emp_cha_grudge_bank			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_hero	wh_main_emp_cha_grudge_hero			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		wh_main_emp_cha_grudge_main_1	wh_main_emp_cha_grudge_main_5			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_chs_agent	ovn_chs_agent			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_grn_agent	ovn_grn_agent			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_Waystone_1	ovn_Waystone_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500	
-		ovn_Waystone_marker	ovn_Waystone_marker			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500	
-		ovn_Waystone_beacon	ovn_Waystone_beacon			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500	
-		ovn_half_barracks_1	ovn_half_barracks_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_half_forges_1	ovn_half_forges_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	20	
-		ovn_half_tavern_1	ovn_half_tavern_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	10	
-		ovn_half_dragon	ovn_half_dragon			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	50	50	
-		ovn_hlf_under_drinks_cofee	ovn_hlf_under_drinks_cofee							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_hlf_under_drinks_wine	ovn_hlf_under_drinks_wine							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_hlf_under_barn_1	ovn_hlf_under_barn_2							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_hlf_under_revelry_1	ovn_hlf_under_revelry_1							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_hlf_under_security_1	ovn_hlf_under_security_1							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_hlf_under_fence_1	ovn_hlf_under_fence_1							-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50	
-		ovn_Animal_Rearing_1	ovn_Animal_Rearing_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	20	20	
-		ovn_grudge_settlement_recruit	ovn_grudge_settlement_recruit			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		ovn_grudge_settlement_smith	ovn_grudge_settlement_smith			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		ovn_grudge_settlement_income	ovn_grudge_settlement_income			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		ovn_grudge_settlement_growth_1	ovn_grudge_settlement_growth_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+#cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/ovn																												
+		ovn_blood_keep	ovn_blood_keep			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_hlf_welf_1	ovn_hlf_welf_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_scy_tmb	ovn_arb_scy_tmb			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_arb_nomad_1	ovn_arb_nomad_4			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_arb_haikk	ovn_arb_haikk			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_bel	ovn_arb_bel			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_fyrus	ovn_arb_fyrus			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_Sabar	ovn_arb_Sabar			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_Madrasat	ovn_arb_Madrasat			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_Sartosa	ovn_arb_Sartosa			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_Magritta	ovn_arb_Magritta			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_Crypt	ovn_arb_Crypt			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_Twilight	ovn_arb_Twilight			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500
+		ovn_arb_forge_1	ovn_arb_forge_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_arb_xp	ovn_arb_xp			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_recruit_1	wh_main_emp_cha_grudge_recruit_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_wizard_1	wh_main_emp_cha_grudge_wizard_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_worship	wh_main_emp_cha_grudge_worship			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_growth_1	wh_main_emp_cha_grudge_growth_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_paymaster	wh_main_emp_cha_grudge_paymaster			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_bank	wh_main_emp_cha_grudge_bank			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_hero	wh_main_emp_cha_grudge_hero			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_main_1	wh_main_emp_cha_grudge_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_chs_agent	ovn_chs_agent			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_grn_agent	ovn_grn_agent			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_Waystone_1	ovn_Waystone_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
+		ovn_Waystone_marker	ovn_Waystone_marker			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
+		ovn_Waystone_beacon	ovn_Waystone_beacon			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
+		ovn_half_barracks_1	ovn_half_barracks_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_half_forges_1	ovn_half_forges_1			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	20
+		ovn_half_tavern_1	ovn_half_tavern_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	10
+		ovn_half_dragon	ovn_half_dragon			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	50	50
+		ovn_hlf_under_drinks_cofee	ovn_hlf_under_drinks_cofee								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_hlf_under_drinks_wine	ovn_hlf_under_drinks_wine								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_hlf_under_barn_1	ovn_hlf_under_barn_2								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_hlf_under_revelry_1	ovn_hlf_under_revelry_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_hlf_under_security_1	ovn_hlf_under_security_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_hlf_under_fence_1	ovn_hlf_under_fence_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		ovn_Animal_Rearing_1	ovn_Animal_Rearing_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	20	20
+		ovn_grudge_settlement_recruit	ovn_grudge_settlement_recruit			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		ovn_grudge_settlement_smith	ovn_grudge_settlement_smith			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		ovn_grudge_settlement_income	ovn_grudge_settlement_income			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		ovn_grudge_settlement_growth_1	ovn_grudge_settlement_growth_1			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10

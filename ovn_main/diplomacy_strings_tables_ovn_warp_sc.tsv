@@ -1,5 +1,5 @@
-diplomacy_strings_tables	0
 key
+#diplomacy_strings_tables;0;db/diplomacy_strings_tables/ovn_warp_sc
 Warp_Dip_Acceptance_Negative_01
 Warp_Dip_Acceptance_Negative_02
 Warp_Dip_Acceptance_Negative_03

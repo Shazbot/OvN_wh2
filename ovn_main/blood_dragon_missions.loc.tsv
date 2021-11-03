@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/blood_dragon_missions.loc		
 missions_localised_description_ovn_blood_dragons_me_take_altdorf	Reikland made up the rest of the invasion force that defeated us and in the jewel of the Empire, Altdorf, deep within in their vaults they hoard what they stole from us.\\n\\nWe will take it back and Altdorf will feel our wraith!	true
 missions_localised_title_ovn_blood_dragons_me_take_altdorf	Vow of Vengeance - III	true
 missions_localised_description_ovn_blood_dragons_me_take_couronne	In the vaults of Altdorf, a curious scroll was found by our knights, it details how Bretonnian nobles sent swathes of gold and supplies to the Empire to aid them in destroying the Blood Keep and retaking the pass.\\n\\nToo craven to fight themselves, then we will take the fight to them and prove our knights are bested by none.	true

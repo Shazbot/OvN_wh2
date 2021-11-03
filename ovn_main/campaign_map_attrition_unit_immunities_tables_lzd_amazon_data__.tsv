@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/lzd_amazon_data__	
 athel_loren	lzd_amazon
 non_vampire_territory	lzd_amazon
 swamp	lzd_amazon

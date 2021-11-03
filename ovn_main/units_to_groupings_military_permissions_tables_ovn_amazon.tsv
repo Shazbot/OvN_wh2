@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_amazon	
 lzd_amazon	ovn_amazon
 jag_amazon	ovn_amazon
 wh2_main_lzd_mon_carnosaur_0	ovn_amazon

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_halfling_technologies.loc		
 technologies_onscreen_name_elo_halfling_good_pots	High Quality Pots	false
 technologies_short_description_elo_halfling_good_pots	Every Halfling must possess at least one pot of sufficient quality to serve as a helmet if needed. The overwhelming majority has several though.	false
 technologies_onscreen_name_elo_halfling_farmer_tools	Weaponized Tools	false

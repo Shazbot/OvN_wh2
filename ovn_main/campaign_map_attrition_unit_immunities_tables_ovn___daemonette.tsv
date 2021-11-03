@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/ovn___daemonette	
 chaos_territory	bacr_chs_inf_daemonette
 disease	bacr_chs_inf_daemonette
 horde_infighting	bacr_chs_inf_daemonette

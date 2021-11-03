@@ -1,5 +1,5 @@
-cdir_events_mission_issuer_junctions_tables	0
 issuer_key	mission_key
+#cdir_events_mission_issuer_junctions_tables;0;db/cdir_events_mission_issuer_junctions_tables/ovn_missions	
 CLAN_ELDERS	ovn_grudge_vortex_move_to_swem
 CLAN_ELDERS	ovn_grudge_vortex_take_morgheim
 CLAN_ELDERS	ovn_grudge_vortex_take_zandri

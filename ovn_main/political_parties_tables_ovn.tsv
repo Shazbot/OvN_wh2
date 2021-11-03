@@ -1,5 +1,5 @@
-political_parties_tables	7
 key	playable	effect_bundle	initial_power	campaign_key
+#political_parties_tables;7;db/political_parties_tables/ovn				
 wh2_main_political_party_arb_aswad_scythans	true	wh_main_bundle_dummy	100	main_warhammer
 wh2_main_political_party_arb_caliphate_of_araby	true	wh_main_bundle_dummy	100	main_warhammer
 wh2_main_political_party_arb_flaming_scimitar	true	wh_main_bundle_dummy	100	main_warhammer

@@ -1,31 +1,31 @@
-unit_variants_colours_tables	5
-faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
-wh_main_chs_chaos	48	73	66	50	67	92	soldier	128	128	128	270589038	ovn_nurgle_chs_cav_chaos_knights_0	
-wh_main_chs_chaos	48	73	66	50	67	92	soldier	128	128	128	270589039	ovn_nurgle_chs_cav_chaos_knights_1	
-wh_main_emp_empire	5	5	5	5	5	5	soldier	220	220	220	270589011	sr_ogre	
-wh2_main_arb_caliphate_of_araby	160	50	110	160	50	110	soldier	0	0	0	270589020	ovn_cat_knights_ror	
-wh2_main_arb_caliphate_of_araby	77	17	16	77	17	16	soldier	0	0	0	270589022	ovn_knights_ror	
-wh_main_emp_empire	25	55	25	90	90	90	soldier	90	90	90	270589023	ovn_hlf_ll	
-wh2_main_nor_trollz	190	190	190	190	190	190	soldier	190	190	190	270589031	elo_mountain_trolls	
-wh2_main_hef_high_elves	175	240	240	175	60	40	soldier	175	60	40	270589032	ovn_hef_inf_spearmen_sapphire	
-wh2_main_hef_high_elves	25	25	166	25	25	25	soldier	240	0	20	270589033	ovn_hef_inf_archers_fire	
-wh2_main_hef_high_elves	175	25	20	175	60	40	soldier	175	60	40	270589034	ovn_hef_inf_archers_sea	
-wh2_main_hef_high_elves	240	240	240	240	240	240	soldier	240	240	240	270589035	ovn_hef_inf_archers_wind	
-wh2_main_hef_high_elves	175	240	240	175	25	20	soldier	175	25	20	270589036	ovn_hef_cav_ellyrian_reavers_shore	
-wh2_main_hef_high_elves	25	25	175	43	166	200	soldier	20	25	180	270589037	ovn_hef_inf_spearmen_falcon	
-wh2_main_emp_the_moot	50	120	145	25	90	120	soldier	70	130	160	270589002	halfling_militia	
-wh2_main_emp_the_moot	50	120	145	25	90	120	soldier	70	130	160	270589003	halfling_milittia_arch	
-wh2_main_emp_the_moot	190	235	255	35	35	155	soldier	35	75	35	270589004	halfling_warfoot	
-wh2_main_emp_the_moot	50	160	140	60	190	200	soldier	220	220	220	270589006	sr_ogre	
-wh2_main_emp_the_moot	25	25	25	40	50	80	soldier	25	25	25	270589024	ovn_hlf_ll	
-wh2_main_emp_the_moot	50	160	140	60	190	200	soldier	240	240	240	270589025	halfling_cook	
-wh2_main_emp_the_moot	50	50	50	40	50	80	soldier	25	25	25	270589026	halfling_thief	
-wh2_main_emp_the_moot	240	240	240	240	240	240	soldier	240	240	240	270589027	halfling_cat	
-wh2_main_emp_the_moot	50	120	145	25	90	120	soldier	70	130	160	270589028	halfling_spear	
-wh2_main_emp_the_moot	230	230	230	230	230	230	soldier	240	240	240	270589029	halfling_cook_ror	
-wh2_main_emp_the_moot	240	240	240	240	240	240	soldier	240	240	240	270589030	halfling_cat_ror	
-wh2_main_nor_trollz	50	50	110	63	100	128	soldier	255	255	255	888877772	elo_sea_troll	
-wh2_main_nor_servants_of_fimulneid	20	100	80	80	120	55	soldier	0	0	0	270589041	ovn_zoat	
-	60	110	75	60	110	75	soldier	200	200	200	270589007	halfling_archer	
-wh2_main_emp_the_moot	69	124	63	0	0	150	soldier	0	0	150	270589005	halfling_cock	
-	0	0	150	0	0	150	soldier	0	0	150	112233450	ovn_arb_art_grand_bombard_crew_2	
+key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	unit_variant	subculture
+#unit_variants_colours_tables;5;db/unit_variants_colours_tables/ovn													
+270589038	wh_main_chs_chaos	48	73	66	50	67	92	soldier	128	128	128	ovn_nurgle_chs_cav_chaos_knights_0	
+270589039	wh_main_chs_chaos	48	73	66	50	67	92	soldier	128	128	128	ovn_nurgle_chs_cav_chaos_knights_1	
+270589011	wh_main_emp_empire	5	5	5	5	5	5	soldier	220	220	220	sr_ogre	
+270589020	wh2_main_arb_caliphate_of_araby	160	50	110	160	50	110	soldier	0	0	0	ovn_cat_knights_ror	
+270589022	wh2_main_arb_caliphate_of_araby	77	17	16	77	17	16	soldier	0	0	0	ovn_knights_ror	
+270589023	wh_main_emp_empire	25	55	25	90	90	90	soldier	90	90	90	ovn_hlf_ll	
+270589031	wh2_main_nor_trollz	190	190	190	190	190	190	soldier	190	190	190	elo_mountain_trolls	
+270589032	wh2_main_hef_high_elves	175	240	240	175	60	40	soldier	175	60	40	ovn_hef_inf_spearmen_sapphire	
+270589033	wh2_main_hef_high_elves	25	25	166	25	25	25	soldier	240	0	20	ovn_hef_inf_archers_fire	
+270589034	wh2_main_hef_high_elves	175	25	20	175	60	40	soldier	175	60	40	ovn_hef_inf_archers_sea	
+270589035	wh2_main_hef_high_elves	240	240	240	240	240	240	soldier	240	240	240	ovn_hef_inf_archers_wind	
+270589036	wh2_main_hef_high_elves	175	240	240	175	25	20	soldier	175	25	20	ovn_hef_cav_ellyrian_reavers_shore	
+270589037	wh2_main_hef_high_elves	25	25	175	43	166	200	soldier	20	25	180	ovn_hef_inf_spearmen_falcon	
+270589002	wh2_main_emp_the_moot	50	120	145	25	90	120	soldier	70	130	160	halfling_militia	
+270589003	wh2_main_emp_the_moot	50	120	145	25	90	120	soldier	70	130	160	halfling_milittia_arch	
+270589004	wh2_main_emp_the_moot	190	235	255	35	35	155	soldier	35	75	35	halfling_warfoot	
+270589006	wh2_main_emp_the_moot	50	160	140	60	190	200	soldier	220	220	220	sr_ogre	
+270589024	wh2_main_emp_the_moot	25	25	25	40	50	80	soldier	25	25	25	ovn_hlf_ll	
+270589025	wh2_main_emp_the_moot	50	160	140	60	190	200	soldier	240	240	240	halfling_cook	
+270589026	wh2_main_emp_the_moot	50	50	50	40	50	80	soldier	25	25	25	halfling_thief	
+270589027	wh2_main_emp_the_moot	240	240	240	240	240	240	soldier	240	240	240	halfling_cat	
+270589028	wh2_main_emp_the_moot	50	120	145	25	90	120	soldier	70	130	160	halfling_spear	
+270589029	wh2_main_emp_the_moot	230	230	230	230	230	230	soldier	240	240	240	halfling_cook_ror	
+270589030	wh2_main_emp_the_moot	240	240	240	240	240	240	soldier	240	240	240	halfling_cat_ror	
+888877772	wh2_main_nor_trollz	50	50	110	63	100	128	soldier	255	255	255	elo_sea_troll	
+270589041	wh2_main_nor_servants_of_fimulneid	20	100	80	80	120	55	soldier	0	0	0	ovn_zoat	
+270589007		60	110	75	60	110	75	soldier	200	200	200	halfling_archer	
+270589005	wh2_main_emp_the_moot	69	124	63	0	0	150	soldier	0	0	150	halfling_cock	
+112233450		0	0	150	0	0	150	soldier	0	0	150	ovn_arb_art_grand_bombard_crew_2	

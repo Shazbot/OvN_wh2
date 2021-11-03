@@ -1,5 +1,5 @@
-building_level_armed_citizenry_junctions_tables	1
-building_level	id	unit_group
-ovn_Albion_Barrows	54623444321	ovn_barrow_wight
-ovn_Albion_Barrows	54623444322	ovn_barrow_wight
-ovn_Albion_Barrows	54623444323	ovn_barrow_wight
+id	building_level	unit_group
+#building_level_armed_citizenry_junctions_tables;1;db/building_level_armed_citizenry_junctions_tables/wef_alb_landmark		
+54623444321	ovn_Albion_Barrows	ovn_barrow_wight
+54623444322	ovn_Albion_Barrows	ovn_barrow_wight
+54623444323	ovn_Albion_Barrows	ovn_barrow_wight

@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/@cr_halfling_cooking					
 ovn_effect_foraging_find_ingredient_dummy	random_food_ingredient.png	5	random_recipe.png	campaign	true
 ovn_faction_trait_mootland_feature	random_food_ingredient.png	1	general_ability.png	campaign	true
 ovn_pooled_resource_mtl_seasong_buildings	icon_mtl_seasong.png	3	icon_mtl_seasong.png	campaign	true

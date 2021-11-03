@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_techs.loc		
 technologies_onscreen_name_tech_ovn_hlf_soup_1	Troll Chowder	false
 technologies_short_description_tech_ovn_hlf_soup_1	Chopped onions, butter, flour, potatoes, cows milk, spices, troll flesh and crusty bread, to serve.	false
 technology_ui_groups_optional_display_name_hlf_soup	Soup Kitchen	false

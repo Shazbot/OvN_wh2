@@ -1,44 +1,44 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-general	ribspreader				false	true	ribspreader	1.0
-general	ribspreader_campaign				false	true	ribspreader	1.0
-wizard	nurgle_chs_ch_sorcerer_campaign_01			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-wizard	nurgle_chs_ch_sorcerer_campaign_02			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-wizard	nurgle_chs_ch_sorcerer_campaign_03			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-wizard	nurgle_chs_ch_sorcerer_campaign_04			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
-general	nurgle_chs_ch_chaos_lord_campaign_01			wh2_main_nor_rotbloods	false	true	chs_lord	1.0
-general	nurgle_chs_ch_chaos_lord_campaign_02			wh2_main_nor_rotbloods	false	true	chs_lord	1.0
-general	nurgle_chs_ch_chaos_lord_campaign_03			wh2_main_nor_rotbloods	false	true	chs_lord	1.0
-champion	nurgle_chs_ch_exalted_hero_campaign_01			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
-champion	nurgle_chs_ch_exalted_hero_campaign_02			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
-champion	nurgle_chs_ch_exalted_hero_campaign_03			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
-champion	nurgle_chs_ch_exalted_hero_campaign_04			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
-champion	nurgle_chs_ch_exalted_hero_campaign_05			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
-general	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_01			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_02			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_03			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
-wizard	nurgle_chs_ch_sorcerer_lord_campaign_04			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_rotbloods								
+ribspreader	general				false	true	ribspreader	1.0
+ribspreader_campaign	general				false	true	ribspreader	1.0
+nurgle_chs_ch_sorcerer_campaign_01	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_campaign_02	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_campaign_03	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_campaign_04	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_death	1.0
+nurgle_chs_ch_chaos_lord_campaign_01	general			wh2_main_nor_rotbloods	false	true	chs_lord	1.0
+nurgle_chs_ch_chaos_lord_campaign_02	general			wh2_main_nor_rotbloods	false	true	chs_lord	1.0
+nurgle_chs_ch_chaos_lord_campaign_03	general			wh2_main_nor_rotbloods	false	true	chs_lord	1.0
+nurgle_chs_ch_exalted_hero_campaign_01	champion			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
+nurgle_chs_ch_exalted_hero_campaign_02	champion			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
+nurgle_chs_ch_exalted_hero_campaign_03	champion			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
+nurgle_chs_ch_exalted_hero_campaign_04	champion			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
+nurgle_chs_ch_exalted_hero_campaign_05	champion			wh2_main_nor_rotbloods	false	true	chs_exalted_hero	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	general			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	general			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	general			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	general			wh2_main_nor_rotbloods	false	true	dlc07_chs_sorcerer_lord_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	general			wh2_main_nor_rotbloods	false	true	chs_sorcerer_lord_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_metal	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	wizard			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	wizard			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	wizard			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	wizard			wh2_main_nor_rotbloods	false	true	dlc07_chs_chaos_sorcerer_shadow	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_death	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_01	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_02	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_03	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0
+nurgle_chs_ch_sorcerer_lord_campaign_04	wizard			wh2_main_nor_rotbloods	false	true	chs_chaos_sorcerer_fire	1.0

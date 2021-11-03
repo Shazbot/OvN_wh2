@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_fimir_building_rework_short_description_texts.loc		
 building_short_description_texts_short_description_ovn_fimir_mil	Though the lowest caste of the Fimir, Shearls, cannot wield maces they can still carry clubs and crave for battle like their larger kin.	true
 building_short_description_texts_short_description_ovn_fimir_beast_1	Fimm warriors set snares to capture witless trolls before the Dirach corrupt their very essence and bend them to their will.	true
 building_short_description_texts_short_description_ovn_fimir_beast_3	Some say the mighty Fenhulk is the result of fusing troll flesh with the detritus of the swamp, not that you would ask the Dirach unless you wanted to become part of their vile creation.	true

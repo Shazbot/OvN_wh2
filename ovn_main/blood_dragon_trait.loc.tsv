@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/blood_dragon_trait.loc		
 character_trait_levels_removal_text_ovn_harkon_lord_trait		true
 character_trait_levels_onscreen_name_ovn_harkon_lord_trait	Grand Master of the Empire	true
 character_trait_levels_colour_text_ovn_harkon_lord_trait	The age of men is over, the time of the dead has come.	true

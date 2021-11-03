@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_fimir							
 ovn_shearl		ovn_shearl		1.0	0.65	0.05	
 ovn_fim_javelin_0		fim_fimir_javeliner		1.0	0.65	0.05	
 ovn_fim_bog_beast	VariantMeshes\wh_variantmodels\lz1\fim\fim_bog_beast\tech	ovn_bog_beast	lz1/fim/fim_bog_beast/fim_bog_beast_imposter	2.0	1.0	0.0	

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_coffee.loc		
 effects_description_ovn_resource_production_coffee	Coffee beans production: %n sacks per turn	true
 resources_onscreen_text_ovn_coffee	Coffee Beans	true
 resources_description_ovn_coffee	Coffee comes from Araby, and has become popular in Tilea and the Empire, both as a drink and as a display of wealth.	true

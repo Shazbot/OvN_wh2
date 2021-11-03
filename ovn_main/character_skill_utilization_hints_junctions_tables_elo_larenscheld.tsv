@@ -1,5 +1,5 @@
-character_skill_utilization_hints_junctions_tables	0
 hint	key
+#character_skill_utilization_hints_junctions_tables;0;db/character_skill_utilization_hints_junctions_tables/elo_larenscheld	
 USEFUL_ALWAYS	wyrd_spellbinder
 USEFUL_ALWAYS	wyrd_mount_skill
 USEFUL_ALWAYS	wyrd_channeler

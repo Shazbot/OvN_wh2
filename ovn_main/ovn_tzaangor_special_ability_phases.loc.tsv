@@ -1,3 +1,3 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_tzaangor_special_ability_phases.loc		
 special_ability_phases_onscreen_name_contact_tzaan_mutations	[[col:red]][[img:ui/battle ui/ability_icons/contact_tzaan_mutations.png]][[/img]]Rampant Mutations[[/col]]: lowered melee attack, defence and morale	true

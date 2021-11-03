@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_storms.loc		
 campaign_map_attritions_unit_card_tooltip_ovn_fimir_mist	This army is suffering losses within the swirling mists of the Fimir.	true
 campaign_map_attritions_unit_immunity_text_ovn_fimir_mist	Swirling Mist	true
 campaign_storms_display_name_1ovn_fimir_mist	Swirling Mist	true

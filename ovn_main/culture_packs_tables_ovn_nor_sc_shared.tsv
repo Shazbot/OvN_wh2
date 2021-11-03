@@ -1,5 +1,5 @@
-culture_packs_tables	0
 id	subculture
+#culture_packs_tables;0;db/culture_packs_tables/ovn_nor_sc_shared	
 wh_main_chs_chaos	wh_main_sc_nor_warp
 wh_main_chs_chaos	wh_main_sc_nor_fimir
 wh_main_chs_chaos	wh_main_sc_nor_troll

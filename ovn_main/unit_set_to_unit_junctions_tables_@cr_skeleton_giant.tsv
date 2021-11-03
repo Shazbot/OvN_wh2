@@ -1,11 +1,11 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				ovn_dkl_mon_skeleton_giant	wh2_mp_single_entity_monsters
-false				ovn_vmp_mon_skeleton_giant	monsters
-false				ovn_vmp_mon_skeleton_giant	wh2_mp_single_entity_monsters
-false				ovn_vmp_mon_skeleton_giant	vmp_all
-false				ovn_vmp_mon_skeleton_giant	vmp_corpses
-false				ovn_vmp_mon_skeleton_giant	wh2_dlc11_vmp_all_skeleton_zombie_melee_infantry
-false				ovn_vmp_mon_skeleton_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs
-false				ovn_vmp_mon_skeleton_giant	wh2_dlc11_vmp_black_knights_blood_knights
-false				ovn_vmp_mon_skeleton_giant	wh_pro02_isabella_extra_upkeep
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/@cr_skeleton_giant					
+			ovn_dkl_mon_skeleton_giant	wh2_mp_single_entity_monsters	false
+			ovn_vmp_mon_skeleton_giant	monsters	false
+			ovn_vmp_mon_skeleton_giant	wh2_mp_single_entity_monsters	false
+			ovn_vmp_mon_skeleton_giant	vmp_all	false
+			ovn_vmp_mon_skeleton_giant	vmp_corpses	false
+			ovn_vmp_mon_skeleton_giant	wh2_dlc11_vmp_all_skeleton_zombie_melee_infantry	false
+			ovn_vmp_mon_skeleton_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs	false
+			ovn_vmp_mon_skeleton_giant	wh2_dlc11_vmp_black_knights_blood_knights	false
+			ovn_vmp_mon_skeleton_giant	wh_pro02_isabella_extra_upkeep	false

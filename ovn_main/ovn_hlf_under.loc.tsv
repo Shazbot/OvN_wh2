@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_hlf_under.loc		
 culture_settlement_occupation_options_tooltip_5165439	Establish Restaurant||There comes a time in every Halfling's life he gets an itch to leave the Moot and establish his own resturant. Most Halflings, however, ignore this urge.	true
 agent_actions_localised_action_name_ovn_create_restaurant	{{tr:ovn_create_restaurant}}	true
 agent_actions_localised_action_description_ovn_create_restaurant	[[col:yellow]]Establishes a Halfling Restaurant in the target settlement.[[/col]]	true

@@ -1,5 +1,5 @@
-technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;5;db/technologies_tables/ovn_lost_factions_albion														
 albion_tech_war_1		1	tech_dlc03_bst_gods_4	0	0	0	0	false	false	"placeholder.tga"	777111001	false	false	true
 albion_tech_war_2		1	wh_main_chs_culling_of_the_weak	0	0	0	0	false	false	"placeholder.tga"	777111002	false	false	true
 albion_tech_war_3		1	tech_dlc07_brt_economy_other_fletchers	0	0	0	0	false	false	"placeholder.tga"	777111003	false	false	true

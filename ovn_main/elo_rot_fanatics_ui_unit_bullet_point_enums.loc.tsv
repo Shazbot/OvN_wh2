@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_rot_fanatics_ui_unit_bullet_point_enums.loc		
 ui_unit_bullet_point_enums_tooltip_rot_afflicted	Those afflicted and often madded by Nurgle's Rot are able to sustain more damage from wordly sources, despite their sickly looks.	true
 ui_unit_bullet_point_enums_onscreen_name_rot_afflicted	Afflicted	true

@@ -1,28 +1,28 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	ovn_skill_com_lord_unique_olorin_leader_of_halflings		7
-		x	1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_0		11
-		x	1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_1		0
-		x	1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_2		0
-		x	1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_3		0
-		x	1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_4		0
-		x	1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_5		0
-		x	1	ovn_skill_com_hero_unique_aragand_the_layabout_0		5
-		x	1	ovn_skill_com_hero_unique_aragand_the_layabout_1		0
-		x	1	ovn_skill_com_hero_unique_aragand_the_layabout_2		0
-		x	1	ovn_skill_com_hero_unique_aragand_the_layabout_3		0
-		x	1	ovn_skill_com_hero_unique_aragand_the_layabout_4		0
-		x	1	ovn_skill_com_hero_dance_legles_the_elf_0		5
-		x	1	ovn_skill_com_hero_dance_legles_the_elf_1		5
-		x	1	ovn_skill_com_hero_unique_legles_the_elf_0		0
-		x	1	ovn_skill_com_hero_unique_legles_the_elf_1		0
-		x	1	ovn_skill_com_hero_unique_legles_the_elf_2		0
-		x	1	ovn_skill_com_hero_unique_legles_the_elf_3		0
-		x	1	ovn_skill_com_hero_dance_legles_the_elf_2		0
-		x	1	ovn_skill_com_hero_dance_legles_the_elf_3		0
-		x	1	ovn_skill_com_hero_giblit_the_dwarf_0		5
-		x	1	ovn_skill_com_hero_giblit_the_dwarf_1		0
-		x	1	ovn_skill_com_hero_giblit_the_dwarf_2		0
-		x	1	ovn_skill_com_hero_giblit_the_dwarf_3		0
-		x	1	ovn_skill_com_hero_giblit_the_dwarf_4		0
-		x	1	ovn_skill_com_hero_giblit_the_dwarf_5		0
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/@cr_comradeship						
+		1	ovn_skill_com_lord_unique_olorin_leader_of_halflings		x	7
+		1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_0		x	11
+		1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_1		x	0
+		1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_2		x	0
+		1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_3		x	0
+		1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_4		x	0
+		1	ovn_skill_com_lord_unique_olorin_the_grey_wizard_5		x	0
+		1	ovn_skill_com_hero_unique_aragand_the_layabout_0		x	5
+		1	ovn_skill_com_hero_unique_aragand_the_layabout_1		x	0
+		1	ovn_skill_com_hero_unique_aragand_the_layabout_2		x	0
+		1	ovn_skill_com_hero_unique_aragand_the_layabout_3		x	0
+		1	ovn_skill_com_hero_unique_aragand_the_layabout_4		x	0
+		1	ovn_skill_com_hero_dance_legles_the_elf_0		x	5
+		1	ovn_skill_com_hero_dance_legles_the_elf_1		x	5
+		1	ovn_skill_com_hero_unique_legles_the_elf_0		x	0
+		1	ovn_skill_com_hero_unique_legles_the_elf_1		x	0
+		1	ovn_skill_com_hero_unique_legles_the_elf_2		x	0
+		1	ovn_skill_com_hero_unique_legles_the_elf_3		x	0
+		1	ovn_skill_com_hero_dance_legles_the_elf_2		x	0
+		1	ovn_skill_com_hero_dance_legles_the_elf_3		x	0
+		1	ovn_skill_com_hero_giblit_the_dwarf_0		x	5
+		1	ovn_skill_com_hero_giblit_the_dwarf_1		x	0
+		1	ovn_skill_com_hero_giblit_the_dwarf_2		x	0
+		1	ovn_skill_com_hero_giblit_the_dwarf_3		x	0
+		1	ovn_skill_com_hero_giblit_the_dwarf_4		x	0
+		1	ovn_skill_com_hero_giblit_the_dwarf_5		x	0

@@ -1,46 +1,46 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-trait_human.png	ovn_skill_innate_com_olorin_the_grey_wizard			0	true	false	false	0.0	0
-item_weapon.png	ovn_skill_anc_weapon_glammyding		Glammyding	9	false	false	false	0.0	0
-item_talisman.png	ovn_skill_anc_talisman_bottomless_hat_of_rabbit		Bottomless Hat of Rabbit	13	false	false	false	0.0	0
-item_arcane_item.png	ovn_skill_anc_arcane_item_cathay_fireworks	Olorin's special reserve of fireworks from Cathay, "borrowed" from their last diplomatic mission, whenever that was.	Cathay Fireworks	17	false	false	false	0.0	0
-character_general_ability.png	ovn_skill_com_lord_unique_olorin_leader_of_halflings	Olorin is used to dealing with the usual rag-tag bunch of Halflings the Comradeship always attracts.	Leader of Halflings	7	false	false	false	0.0	0
-character_ammo.png	ovn_skill_com_olorin_the_grey_wizard_ranged_3	Olorin's been meaning to try this for ages, and has finally gotten the time to do it: enchant his rockets with the Grey Wind of Magic.	Rockets' Grey Glare	0	false	false	false	0.0	0
-character_movement.png	ovn_skill_com_lord_unique_olorin_the_grey_wizard_0	All members of the Comradeship are wanderers, all looking for somewhere to go. Olorin regularly gives them that "where".	The Grey Wanderer	11	false	false	false	0.0	0
-character_military_spending.png	ovn_skill_com_lord_unique_olorin_the_grey_wizard_1	"The Comradeship, we're always hiring."	Comradeship Recruitment Drive	0	false	false	false	0.0	0
-character_public_order.png	ovn_skill_com_lord_unique_olorin_the_grey_wizard_2	Olorin is much admired in the Moot for his fireworks displays. His enemies, however, are far less understand of his explosive obsession.	Firework Shows	0	false	false	false	0.0	0
-character_charge.png	ovn_skill_com_lord_unique_olorin_the_grey_wizard_3	After being saved from an embarassing situation by an eagle (it's a long story) Olorin has become very fond of these great birds.	Eagle Lover	0	false	false	false	0.0	0
-character_magic.png	ovn_skill_com_lord_unique_olorin_the_grey_wizard_4	Olorin knows a parlor trick or two, while usually employed to entertain Mootfolk, they might just have some uses out in the larger world.	Conjurer of Tricks	0	false	false	false	0.0	0
-character_agent.png	ovn_skill_com_lord_unique_olorin_the_grey_wizard_5	After drinking a little too much with Aragand, Olorin lets slip his secret: The Comradeship was created as a recruiting tool for the Grey Order. It's one of the ways it covertly finds apprentices.	Agent of the Grey Order	0	false	false	false	0.0	0
-trait_human.png	ovn_skill_innate_com_aragand_the_layabout			0	true	false	false	0.0	0
-item_weapon.png	ovn_skill_anc_weapon_aragands_sword		Aragand the Layabout's Sword	11	false	false	false	0.0	0
-item_enchanted_item.png	ovn_skill_anc_enchanted_item_pig_swill		Keigel's Natural Pig Swill	6	false	false	false	0.0	0
-battle_attack.png	ovn_skill_all_dummy_agent_actions_com_aragand_the_layabout	 	Actions [HIDDEN]	0	false	false	false	0.0	0
-character_movement.png	ovn_skill_com_hero_unique_aragand_the_layabout_0	Even before becoming a member of the Comradeship, Aragand has travelled the world many times over. Dwarvish beer, Norscan mead, Elvish wine, Kislevite vodka...	Well-Travelled	5	false	false	false	0.0	0
-character_military_spending.png	ovn_skill_com_hero_unique_aragand_the_layabout_1	Aragand is the type of bloke you see sitting in the corner of every tavern in the Empire. The cooks of the Moot are happy to have such a loyal customer and are more than eager to serve him.	Patron of Taverns	0	false	false	false	0.0	0
-causes_fear.png	ovn_skill_com_hero_unique_aragand_the_layabout_2	Aragand's disheveled appearance is all a facade. His tattered cloths? Freer movement in combat. The dirt on his face? War paint used to scare his enemies. Or at least that's what he'll tell you.	Alone and Scruffy	0	false	false	false	0.0	0
-character_trade.png	ovn_skill_com_hero_unique_aragand_the_layabout_3	...Bretonnian brandy, rotgut, Orcish bitters, kvas, samogon, koumiss, Nipponese sake, fungus beer, Zhufbar ale, Cathayan baijiu....	Well-Drunk	0	false	false	false	0.0	0
-wh_main_hero_abilities_slippery.png	ovn_skill_com_hero_unique_aragand_the_layabout_4	When fighting under the influence, Aragand's movements are swaying and unpredictable. He says it's a technique he picked up while visiting some far eastern land.	Drunken Master	0	false	false	false	0.0	0
-character_general_ability.png	ovn_skill_com_hero_unique_aragand_the_layabout_5	After an ultimatum from Olorin, Aragand has decided to quite drinking. What could go wrong? What could go right?	Cold Culchan	0	false	false	false	0.0	0
-trait_wood_elves.png	ovn_skill_innate_com_legles_the_elf			0	true	false	false	0.0	0
-item_talisman.png	ovn_skill_anc_weapon_friendship_bracelet_legles		Legles's Friendship Bracelet	11	false	false	false	0.0	0
-item_enchanted_item.png	ovn_skill_anc_enchanted_item_ring_of_concealment		Ring of Concealment	6	false	false	false	0.0	0
-battle_attack.png	ovn_skill_all_dummy_agent_actions_com_legles_the_elf	 	Actions [HIDDEN]	0	false	false	false	0.0	0
-ovn_hero_abilities_whirling_death.png	ovn_skill_com_hero_dance_legles_the_elf_0	A Bladesinger’s dance may start as a mesmerising, graceful pirouette, but always ends as a violent maelstrom of slicing, gashing slaughter!	Whirling Death	5	false	false	false	0.0	0
-ovn_hero_abilities_storm_of_blades.png	ovn_skill_com_hero_dance_legles_the_elf_1	What beauty and violence there is in the dance? A flurry of blades and a certain savagery of intent...	Storm of Blades	5	false	false	false	0.0	0
-immune_to_psychology.png	ovn_skill_com_hero_unique_legles_the_elf_0	A little encouragement goes a long way – a long way to having Legles's main source of entertainment stick around for a moment longer.	An Unlikely Friendship	0	false	false	false	0.0	0
-character_morale.png	ovn_skill_com_hero_unique_legles_the_elf_1	Legles has taken it upon himself to steer Giblit into trouble whenever possible. He does this to push the failed Slayer out of comfort zone so that he may grow. It's also hilarious.	Prankster of Loec	0	false	false	false	0.0	0
-character_replenishment.png	ovn_skill_com_hero_unique_legles_the_elf_2	As a servant of Loec, God of Revelry, Legles knows how a thing or two about throwing feasts and festivals. Needless to say, he's a minor celebrity in the Moot.	Feastmaster	0	false	false	false	0.0	0
-mount_own_two_legz.png	ovn_skill_com_hero_unique_legles_the_elf_3	Legles should really add a brisk walk back into his morning routine. In fact, it was on one of these morning constitutionals where he was forcibly befriended by a certain hapless dwarf. 	Morning Constitutionals	0	false	false	false	0.0	0
-ovn_hero_abilities_the_shadows_coil.png	ovn_skill_com_hero_dance_legles_the_elf_2	The wending and twisting of the Wardancers hardens their spirits and their bodies against would-be attackers.	The Shadow Coils	0	false	false	false	0.0	0
-ovn_hero_abilities_woven_mist.png	ovn_skill_com_hero_dance_legles_the_elf_3	The Wardancer threads and loops, contorting to create an ethereal fabric that turns aside arrows and bolts.	Woven Mist	0	false	false	false	0.0	0
-trait_dwarf.png	ovn_skill_innate_com_giblit_the_dwarf			0	true	false	false	0.0	0
-item_talisman.png	ovn_skill_anc_weapon_friendship_bracelet_giblit		Giblit's Friendship Bracelet	11	false	false	false	0.0	0
-item_enchanted_item.png	ovn_skill_anc_enchanted_item_bimbos_book		Bimbo's Book of Sage Advice	6	false	false	false	0.0	0
-battle_attack.png	ovn_skill_all_dummy_agent_actions_com_giblit_the_dwarf	 	Actions [HIDDEN]	0	false	false	false	0.0	0
-character_general_ability.png	ovn_skill_com_hero_giblit_the_dwarf_0	Giblit would very much like to see tomorrow.	Self Preservation	5	false	false	false	0.0	0
-character_health.png	ovn_skill_com_hero_giblit_the_dwarf_1	Slayers suffer bouts of depression, and failed slayers doubly so. This often leads to periods when they glut themselves on alcohol or food.	Gluttonous	0	false	false	false	0.0	0
-character_ward_save.png	ovn_skill_com_hero_giblit_the_dwarf_2	It was fleeing from a dragon that made him broke his oath, all those years ago. In a very un-dwarfy manner, he holds no grudge, and is now quite fond of the beasts.	Dragon Friend	0	false	false	false	0.0	0
-character_bonus_vs_large.png	ovn_skill_com_hero_giblit_the_dwarf_3	Giblit, for a time, was an experienced Slayer. While a different dwarf now, he still has those memories of past deeds, slaying trolls, giants, and even daemons.	Slayer Memories	0	false	false	false	0.0	0
-character_replenishment.png	ovn_skill_com_hero_giblit_the_dwarf_4	Even halflings sometimes mistake Giblit as one of their own, given his short stature, gentle disposition, and love of food.	Honorary Halfling	0	false	false	false	0.0	0
-character_morale.png	ovn_skill_com_hero_giblit_the_dwarf_5	While Giblit is unable (and unwilling) to take the Slayer Oath again, he is ready to make an oath that he will protect his friends in the Moot and the Comradeship.	Renewed Oath	0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/@cr_comradeship									
+ovn_skill_innate_com_olorin_the_grey_wizard	trait_human.png			0	true	false	false	0.0	0
+ovn_skill_anc_weapon_glammyding	item_weapon.png		Glammyding	9	false	false	false	0.0	0
+ovn_skill_anc_talisman_bottomless_hat_of_rabbit	item_talisman.png		Bottomless Hat of Rabbit	13	false	false	false	0.0	0
+ovn_skill_anc_arcane_item_cathay_fireworks	item_arcane_item.png	Olorin's special reserve of fireworks from Cathay, "borrowed" from their last diplomatic mission, whenever that was.	Cathay Fireworks	17	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_leader_of_halflings	character_general_ability.png	Olorin is used to dealing with the usual rag-tag bunch of Halflings the Comradeship always attracts.	Leader of Halflings	7	false	false	false	0.0	0
+ovn_skill_com_olorin_the_grey_wizard_ranged_3	character_ammo.png	Olorin's been meaning to try this for ages, and has finally gotten the time to do it: enchant his rockets with the Grey Wind of Magic.	Rockets' Grey Glare	0	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_the_grey_wizard_0	character_movement.png	All members of the Comradeship are wanderers, all looking for somewhere to go. Olorin regularly gives them that "where".	The Grey Wanderer	11	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_the_grey_wizard_1	character_military_spending.png	"The Comradeship, we're always hiring."	Comradeship Recruitment Drive	0	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_the_grey_wizard_2	character_public_order.png	Olorin is much admired in the Moot for his fireworks displays. His enemies, however, are far less understand of his explosive obsession.	Firework Shows	0	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_the_grey_wizard_3	character_charge.png	After being saved from an embarassing situation by an eagle (it's a long story) Olorin has become very fond of these great birds.	Eagle Lover	0	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_the_grey_wizard_4	character_magic.png	Olorin knows a parlor trick or two, while usually employed to entertain Mootfolk, they might just have some uses out in the larger world.	Conjurer of Tricks	0	false	false	false	0.0	0
+ovn_skill_com_lord_unique_olorin_the_grey_wizard_5	character_agent.png	After drinking a little too much with Aragand, Olorin lets slip his secret: The Comradeship was created as a recruiting tool for the Grey Order. It's one of the ways it covertly finds apprentices.	Agent of the Grey Order	0	false	false	false	0.0	0
+ovn_skill_innate_com_aragand_the_layabout	trait_human.png			0	true	false	false	0.0	0
+ovn_skill_anc_weapon_aragands_sword	item_weapon.png		Aragand the Layabout's Sword	11	false	false	false	0.0	0
+ovn_skill_anc_enchanted_item_pig_swill	item_enchanted_item.png		Keigel's Natural Pig Swill	6	false	false	false	0.0	0
+ovn_skill_all_dummy_agent_actions_com_aragand_the_layabout	battle_attack.png	 	Actions [HIDDEN]	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_aragand_the_layabout_0	character_movement.png	Even before becoming a member of the Comradeship, Aragand has travelled the world many times over. Dwarvish beer, Norscan mead, Elvish wine, Kislevite vodka...	Well-Travelled	5	false	false	false	0.0	0
+ovn_skill_com_hero_unique_aragand_the_layabout_1	character_military_spending.png	Aragand is the type of bloke you see sitting in the corner of every tavern in the Empire. The cooks of the Moot are happy to have such a loyal customer and are more than eager to serve him.	Patron of Taverns	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_aragand_the_layabout_2	causes_fear.png	Aragand's disheveled appearance is all a facade. His tattered cloths? Freer movement in combat. The dirt on his face? War paint used to scare his enemies. Or at least that's what he'll tell you.	Alone and Scruffy	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_aragand_the_layabout_3	character_trade.png	...Bretonnian brandy, rotgut, Orcish bitters, kvas, samogon, koumiss, Nipponese sake, fungus beer, Zhufbar ale, Cathayan baijiu....	Well-Drunk	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_aragand_the_layabout_4	wh_main_hero_abilities_slippery.png	When fighting under the influence, Aragand's movements are swaying and unpredictable. He says it's a technique he picked up while visiting some far eastern land.	Drunken Master	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_aragand_the_layabout_5	character_general_ability.png	After an ultimatum from Olorin, Aragand has decided to quite drinking. What could go wrong? What could go right?	Cold Culchan	0	false	false	false	0.0	0
+ovn_skill_innate_com_legles_the_elf	trait_wood_elves.png			0	true	false	false	0.0	0
+ovn_skill_anc_weapon_friendship_bracelet_legles	item_talisman.png		Legles's Friendship Bracelet	11	false	false	false	0.0	0
+ovn_skill_anc_enchanted_item_ring_of_concealment	item_enchanted_item.png		Ring of Concealment	6	false	false	false	0.0	0
+ovn_skill_all_dummy_agent_actions_com_legles_the_elf	battle_attack.png	 	Actions [HIDDEN]	0	false	false	false	0.0	0
+ovn_skill_com_hero_dance_legles_the_elf_0	ovn_hero_abilities_whirling_death.png	A Bladesinger’s dance may start as a mesmerising, graceful pirouette, but always ends as a violent maelstrom of slicing, gashing slaughter!	Whirling Death	5	false	false	false	0.0	0
+ovn_skill_com_hero_dance_legles_the_elf_1	ovn_hero_abilities_storm_of_blades.png	What beauty and violence there is in the dance? A flurry of blades and a certain savagery of intent...	Storm of Blades	5	false	false	false	0.0	0
+ovn_skill_com_hero_unique_legles_the_elf_0	immune_to_psychology.png	A little encouragement goes a long way – a long way to having Legles's main source of entertainment stick around for a moment longer.	An Unlikely Friendship	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_legles_the_elf_1	character_morale.png	Legles has taken it upon himself to steer Giblit into trouble whenever possible. He does this to push the failed Slayer out of comfort zone so that he may grow. It's also hilarious.	Prankster of Loec	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_legles_the_elf_2	character_replenishment.png	As a servant of Loec, God of Revelry, Legles knows how a thing or two about throwing feasts and festivals. Needless to say, he's a minor celebrity in the Moot.	Feastmaster	0	false	false	false	0.0	0
+ovn_skill_com_hero_unique_legles_the_elf_3	mount_own_two_legz.png	Legles should really add a brisk walk back into his morning routine. In fact, it was on one of these morning constitutionals where he was forcibly befriended by a certain hapless dwarf. 	Morning Constitutionals	0	false	false	false	0.0	0
+ovn_skill_com_hero_dance_legles_the_elf_2	ovn_hero_abilities_the_shadows_coil.png	The wending and twisting of the Wardancers hardens their spirits and their bodies against would-be attackers.	The Shadow Coils	0	false	false	false	0.0	0
+ovn_skill_com_hero_dance_legles_the_elf_3	ovn_hero_abilities_woven_mist.png	The Wardancer threads and loops, contorting to create an ethereal fabric that turns aside arrows and bolts.	Woven Mist	0	false	false	false	0.0	0
+ovn_skill_innate_com_giblit_the_dwarf	trait_dwarf.png			0	true	false	false	0.0	0
+ovn_skill_anc_weapon_friendship_bracelet_giblit	item_talisman.png		Giblit's Friendship Bracelet	11	false	false	false	0.0	0
+ovn_skill_anc_enchanted_item_bimbos_book	item_enchanted_item.png		Bimbo's Book of Sage Advice	6	false	false	false	0.0	0
+ovn_skill_all_dummy_agent_actions_com_giblit_the_dwarf	battle_attack.png	 	Actions [HIDDEN]	0	false	false	false	0.0	0
+ovn_skill_com_hero_giblit_the_dwarf_0	character_general_ability.png	Giblit would very much like to see tomorrow.	Self Preservation	5	false	false	false	0.0	0
+ovn_skill_com_hero_giblit_the_dwarf_1	character_health.png	Slayers suffer bouts of depression, and failed slayers doubly so. This often leads to periods when they glut themselves on alcohol or food.	Gluttonous	0	false	false	false	0.0	0
+ovn_skill_com_hero_giblit_the_dwarf_2	character_ward_save.png	It was fleeing from a dragon that made him broke his oath, all those years ago. In a very un-dwarfy manner, he holds no grudge, and is now quite fond of the beasts.	Dragon Friend	0	false	false	false	0.0	0
+ovn_skill_com_hero_giblit_the_dwarf_3	character_bonus_vs_large.png	Giblit, for a time, was an experienced Slayer. While a different dwarf now, he still has those memories of past deeds, slaying trolls, giants, and even daemons.	Slayer Memories	0	false	false	false	0.0	0
+ovn_skill_com_hero_giblit_the_dwarf_4	character_replenishment.png	Even halflings sometimes mistake Giblit as one of their own, given his short stature, gentle disposition, and love of food.	Honorary Halfling	0	false	false	false	0.0	0
+ovn_skill_com_hero_giblit_the_dwarf_5	character_morale.png	While Giblit is unable (and unwilling) to take the Slayer Oath again, he is ready to make an oath that he will protect his friends in the Moot and the Comradeship.	Renewed Oath	0	false	false	false	0.0	0

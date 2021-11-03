@@ -1,5 +1,5 @@
-agent_recruitment_categories_tables	1
 key	order	icon_file_path
+#agent_recruitment_categories_tables;1;db/agent_recruitment_categories_tables/ovn		
 troll_lord	1	UI\Common UI\unit_category_icons\warhammer2\monstrous_infantry.png
 troll_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\monstrous_infantry.png
 tmb_liche	3	UI\Common UI\unit_category_icons\necromancer.png

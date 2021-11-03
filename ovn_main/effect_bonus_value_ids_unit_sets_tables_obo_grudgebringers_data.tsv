@@ -1,4 +1,4 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/obo_grudgebringers_data		
 upkeep_mod	grudge_effect_upkeep_for_grudge	grudgebringers
 unit_damage_resistance_all_mod	ovn_grudgebringer_ward	ovn_core_grudgebringers

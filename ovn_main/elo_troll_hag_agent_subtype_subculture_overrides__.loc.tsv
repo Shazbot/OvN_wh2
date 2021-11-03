@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_troll_hag_agent_subtype_subculture_overrides__.loc		
 agent_subtype_subculture_overrides_description_wh2_dlc15_grn_river_troll_hagwh_main_sc_nor_norscarunesmith	Glistening with putrid swamp gunk, Troll Hags sate their voracious appetites with anything and everything they can get their slimy hands on.	true
 agent_subtype_subculture_overrides_description_wh2_dlc15_grn_river_troll_hagwh_main_sc_nor_trollrunesmith	Glistening with putrid swamp gunk, Troll Hags sate their voracious appetites with anything and everything they can get their slimy hands on.	true
 agent_subtype_subculture_overrides_onscreen_name_wh2_dlc15_grn_river_troll_hagwh_main_sc_nor_norscarunesmith	Giant River Troll Hag	false

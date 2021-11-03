@@ -1,26 +1,26 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-battle_attack.png	fimir_sacrifices			0	false	false	false	0.0	0
-battle_speed.png	fimir_riders_doggos			0	false	false	false	0.0	0
-battle_defence.png	fimir_bog_monsters			0	false	false	false	0.0	0
-battle_attack.png	fimir_swamp_warriors			0	false	false	false	0.0	0
-battle_attack.png	fimir_fen_giants			0	false	false	false	0.0	0
-character_armour.png	fimir_r7_warriors			0	false	false	false	0.0	0
-battle_morale.png	fimir_r7_elite_monsters			0	false	false	false	0.0	0
-battle_charge.png	fimir_r7_fast_beasts			0	false	false	false	0.0	0
-battle_ward_save.png	fimir_r7_elite_giants			0	false	false	false	0.0	0
-campaign_military_spending.png	fimir_worthless_slaves			0	false	false	false	0.0	0
-campaign_experience.png	fimir_warrior_elite			0	false	false	false	0.0	0
-guerrilla_deploy.png	fimir_untamed_monsters			0	false	false	false	0.0	0
-character_ambush.png	elo_fimir_from_mists			0	false	false	false	0.0	0
-character_general_ability.png	elo_fimir_witness_me			0	false	false	false	0.0	0
-battle_defence.png	elo_belakor_here_to_die			0	false	false	false	0.0	0
-battle_ammo.png	elo_belakor_ranged			0	false	false	false	0.0	0
-battle_charge.png	elo_belakor_cav			0	false	false	false	0.0	0
-battle_damage.png	elo_belakor_chaos_infantry			0	false	false	false	0.0	0
-battle_defence.png	elo_belakor_conjured_monsters			0	false	false	false	0.0	0
-battle_speed.png	elo_belakor_conscripted_beasts			0	false	false	false	0.0	0
-battle_damage.png	elo_belakor_r7_fimir_all			0	false	false	false	0.0	0
-battle_ammo.png	elo_belakor_ranged_r7			0	false	false	false	0.0	0
-battle_charge.png	elo_belakor_cav_bog_r7			0	false	false	false	0.0	0
-battle_damage.png	elo_champions_chaos_r7			0	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/elo_fimir_lord									
+fimir_sacrifices	battle_attack.png			0	false	false	false	0.0	0
+fimir_riders_doggos	battle_speed.png			0	false	false	false	0.0	0
+fimir_bog_monsters	battle_defence.png			0	false	false	false	0.0	0
+fimir_swamp_warriors	battle_attack.png			0	false	false	false	0.0	0
+fimir_fen_giants	battle_attack.png			0	false	false	false	0.0	0
+fimir_r7_warriors	character_armour.png			0	false	false	false	0.0	0
+fimir_r7_elite_monsters	battle_morale.png			0	false	false	false	0.0	0
+fimir_r7_fast_beasts	battle_charge.png			0	false	false	false	0.0	0
+fimir_r7_elite_giants	battle_ward_save.png			0	false	false	false	0.0	0
+fimir_worthless_slaves	campaign_military_spending.png			0	false	false	false	0.0	0
+fimir_warrior_elite	campaign_experience.png			0	false	false	false	0.0	0
+fimir_untamed_monsters	guerrilla_deploy.png			0	false	false	false	0.0	0
+elo_fimir_from_mists	character_ambush.png			0	false	false	false	0.0	0
+elo_fimir_witness_me	character_general_ability.png			0	false	false	false	0.0	0
+elo_belakor_here_to_die	battle_defence.png			0	false	false	false	0.0	0
+elo_belakor_ranged	battle_ammo.png			0	false	false	false	0.0	0
+elo_belakor_cav	battle_charge.png			0	false	false	false	0.0	0
+elo_belakor_chaos_infantry	battle_damage.png			0	false	false	false	0.0	0
+elo_belakor_conjured_monsters	battle_defence.png			0	false	false	false	0.0	0
+elo_belakor_conscripted_beasts	battle_speed.png			0	false	false	false	0.0	0
+elo_belakor_r7_fimir_all	battle_damage.png			0	false	false	false	0.0	0
+elo_belakor_ranged_r7	battle_ammo.png			0	false	false	false	0.0	0
+elo_belakor_cav_bog_r7	battle_charge.png			0	false	false	false	0.0	0
+elo_champions_chaos_r7	battle_damage.png			0	false	false	false	0.0	0

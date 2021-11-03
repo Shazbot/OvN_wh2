@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_stormrider_mounts_character_skill_level_details.loc		
 character_skill_level_details_localised_name_1skill_sharpclaw	Sharpclaw	true
 character_skill_level_details_localised_description_1skill_sharpclaw	Astride his griffon, Sharpclaw, Althran swoops down on his chosen foe and cuts them down with talon and beak.	true

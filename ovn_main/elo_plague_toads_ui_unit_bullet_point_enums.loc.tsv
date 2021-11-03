@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_plague_toads_ui_unit_bullet_point_enums.loc		
 ui_unit_bullet_point_enums_tooltip_elo_daemonic	Unnatural beings of Chaos, these creatures are highly resistant to mundane weapons. They will not flee from combat, instead their physical form deteriorates and they will be banished back into the Realms of Chaos.	true
 ui_unit_bullet_point_enums_onscreen_name_elo_daemonic	Daemonic	true
 ui_unit_bullet_point_enums_onscreen_name_elo_contaminating_attacks	Covered with Filth	true

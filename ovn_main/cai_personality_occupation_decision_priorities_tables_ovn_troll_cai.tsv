@@ -1,15 +1,15 @@
-cai_personality_occupation_decision_priorities_tables	2
-last_stand_priority	option	total_war_priority	war_priority	tension_priority	peace_priority	policy_id
-1.0	occupation_decision_colonise	1.0	1.0	1.0	1.0	ovn_troll_random
-0.0	occupation_decision_do_nothing	0.0	0.0	0.0	0.0	ovn_troll_random
-0.0	occupation_decision_establish_foreign_slot	0.0	0.0	0.0	0.0	ovn_troll_random
-0.0	occupation_decision_gift_to_another_faction	0.0	0.0	0.0	0.0	ovn_troll_random
-0.0	occupation_decision_liberate	0.0	0.0	0.0	0.0	ovn_troll_random
-15.0	occupation_decision_loot	15.0	15.0	15.0	15.0	ovn_troll_random
-15.0	occupation_decision_occupy	15.0	15.0	15.0	15.0	ovn_troll_random
-0.0	occupation_decision_raze	0.0	0.0	0.0	0.0	ovn_troll_random
-15.0	occupation_decision_raze_without_occupy	15.0	15.0	15.0	15.0	ovn_troll_random
-0.0	occupation_decision_resettle	0.0	0.0	0.0	0.0	ovn_troll_random
-15.0	occupation_decision_sack	15.0	15.0	15.0	15.0	ovn_troll_random
-0.0	occupation_decision_treasure_hunt	0.0	0.0	0.0	0.0	ovn_troll_random
-1.0	occupation_decision_vassal	1.0	1.0	1.0	1.0	ovn_troll_random
+option	policy_id	last_stand_priority	total_war_priority	war_priority	tension_priority	peace_priority
+#cai_personality_occupation_decision_priorities_tables;2;db/cai_personality_occupation_decision_priorities_tables/ovn_troll_cai						
+occupation_decision_colonise	ovn_troll_random	1.0	1.0	1.0	1.0	1.0
+occupation_decision_do_nothing	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_establish_foreign_slot	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_gift_to_another_faction	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_liberate	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_loot	ovn_troll_random	15.0	15.0	15.0	15.0	15.0
+occupation_decision_occupy	ovn_troll_random	15.0	15.0	15.0	15.0	15.0
+occupation_decision_raze	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_raze_without_occupy	ovn_troll_random	15.0	15.0	15.0	15.0	15.0
+occupation_decision_resettle	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_sack	ovn_troll_random	15.0	15.0	15.0	15.0	15.0
+occupation_decision_treasure_hunt	ovn_troll_random	0.0	0.0	0.0	0.0	0.0
+occupation_decision_vassal	ovn_troll_random	1.0	1.0	1.0	1.0	1.0

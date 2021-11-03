@@ -1,4 +1,4 @@
-building_chain_availabilities_tables	1
-set_id	culture	faction	id	sub_culture	campaign
-wh_main_bas_nor			6015	wh_main_sc_nor_albion	main_warhammer
-wh_main_bas_nor			6016	wh_main_sc_nor_albion	wh2_main_great_vortex
+id	set_id	culture	faction	sub_culture	campaign
+#building_chain_availabilities_tables;1;db/building_chain_availabilities_tables/elo_albion					
+6015	wh_main_bas_nor			wh_main_sc_nor_albion	main_warhammer
+6016	wh_main_bas_nor			wh_main_sc_nor_albion	wh2_main_great_vortex

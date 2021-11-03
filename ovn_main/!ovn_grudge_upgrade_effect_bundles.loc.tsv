@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_grudge_upgrade_effect_bundles.loc		
 effect_bundles_localised_title_ovn_grudge_armour_effect	Crafted Heavy Armour	true
 effect_bundles_localised_description_ovn_grudge_armour_effect	Mercenaries often outfit their troops with additional armour that has been specially crafted, a cost too great for standing armies.	true
 effect_bundles_localised_title_ovn_grudge_inf_effect	XVI Battle Standard	true

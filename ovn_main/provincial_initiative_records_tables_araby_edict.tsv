@@ -1,5 +1,5 @@
-provincial_initiative_records_tables	3
-effect_bundle	key	order	icon_path	campaign_vfx_id	religion_restriction
+key	effect_bundle	order	icon_path	campaign_vfx_id	religion_restriction
+#provincial_initiative_records_tables;3;db/provincial_initiative_records_tables/araby_edict					
 araby_edict_1	araby_edict_1	1	UI/Campaign UI/edicts/wh_main_edict_state_troop_levy.png		
 araby_edict_2	araby_edict_2	2	UI/Campaign UI/edicts/def_increase_slave_production_quota.png		
 araby_edict_3	araby_edict_3	3	UI/Campaign UI/edicts/wh_main_edict_host_festag.png		

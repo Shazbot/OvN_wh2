@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_custom_battle_mounts.loc		
 units_custom_battle_mounts_localised_description_ovn_arb_cha_magician_life_0ovn_arb_cha_magician_life_1	Servants carrying a large Djinn Vessel.	true
 units_custom_battle_mounts_mount_name_ovn_arb_cha_magician_life_0ovn_arb_cha_magician_life_1	Djinn Vessel	true
 units_custom_battle_mounts_localised_description_ovn_arb_cha_magician_desert_0ovn_arb_cha_magician_desert_1	Servants carrying a large Djinn Vessel.	true

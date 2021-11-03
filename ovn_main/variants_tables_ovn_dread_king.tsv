@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_dread_king							
 dread_wh2_dlc09_tmb_skeleton_armoured_sword_shield		dread_tmb_skeleton_armoured_sword_shield	hu1\tmb\tmb_skeleton_warriors_armored\imposter\tmb_skeleton_armoured_sword_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 dread_wh2_dlc09_tmb_skeleton_spear_shield		dread_tmb_skeleton_spear_shield	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_spear_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
 dread_wh2_dlc09_tmb_skeleton_sword_shield		dread_tmb_skeleton_sword_shield	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_sword_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter

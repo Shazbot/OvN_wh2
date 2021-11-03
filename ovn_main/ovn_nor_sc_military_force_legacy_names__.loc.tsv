@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_nor_sc_military_force_legacy_names__.loc		
 military_force_legacy_names_localised_name_wh_main_nor_legacy_navy_01wh_main_sc_nor_albion	placeholder	true
 military_force_legacy_names_localised_name_wh_main_nor_legacy_01wh_main_sc_nor_albion	placeholder	true

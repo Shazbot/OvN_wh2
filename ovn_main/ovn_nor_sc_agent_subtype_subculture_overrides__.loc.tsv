@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_nor_sc_agent_subtype_subculture_overrides__.loc		
 agent_subtype_subculture_overrides_onscreen_name_albion_chiefwh_main_sc_nor_albionchampion	Chieftain	true
 agent_subtype_subculture_overrides_description_albion_chiefwh_main_sc_nor_albionchampion	A Chieftan is a mighty warrior who gained leadership of a whole clan or tribe. In war, they serve as officers of a Warleader. New Warleaders usually emerge from the ranks of the mightiest Chieftains.	true
 agent_subtype_subculture_overrides_description_albion_wyrd_druidwh_main_sc_nor_albionwizard	Wyrd Druids have walked the Path of the Truthsayers, but either failed or left this path on their own. Despite only being able to cast simpler spells, they are still highly valued and often employed by chieftains as their personal advisors.	true

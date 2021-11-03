@@ -1,5 +1,5 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/ovn_rotblood	
 hu10b_harpy	wh_main_chs_chaos
 wm_blood_cauldron01	wh_main_chs_chaos
 bi1_eagle	wh_main_chs_chaos

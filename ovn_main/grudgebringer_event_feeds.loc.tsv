@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_event_feeds.loc		
 event_feed_strings_text_wh_event_feed_string_scripted_event_grudge_start_primary_detail	Defeat in the Badlands	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_grudge_start_secondary_detail	A fierce and unnatural sandstorm has struck our rearguard and amidst the confusion, they were surrounded by masses of the undead and forced to surrender. The few who managed to escape report of the captives being marched towards the Marshes of Madness.	true
 event_feed_strings_text_wh_event_feed_string_scripted_event_grudge_rescue_primary_detail	Rescue of Morgheim	true

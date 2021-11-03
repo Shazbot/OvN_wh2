@@ -1,5 +1,5 @@
-region_religions_tables	0
 region	religion	religion_zeal
+#region_religions_tables;0;db/region_religions_tables/ovn_lost_factions		
 wh_main_hochland_brass_keep	wh_main_religion_chaos	1
 wh2_main_northern_great_jungle_xahutec	wh_main_religion_chaos	1
 wh_main_blightwater_kradtommen	wh_main_religion_chaos	1

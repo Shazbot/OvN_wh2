@@ -1,5 +1,5 @@
-campaign_map_attrition_faction_immunities_tables	0
 attrition	faction
+#campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/ovn_lost_factions	
 horde_infighting	wh2_main_emp_grudgebringers
 desert	wh2_main_arb_aswad_scythans
 desert	wh2_main_arb_caliphate_of_araby

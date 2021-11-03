@@ -1,15 +1,15 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				morgan_bernhardt	emp_characters
-false				morgan_bernhardt	cavalry_and_monsters_knights
-false				morgan_bernhardt	emp_knights
-false				morgan_bernhardt	emp_lances
-false				morgan_bernhardt	emp_melee_infantry_tier_2
-false				morgan_bernhardt	emp_reiksguard
-false				morgan_bernhardt	wh2_main_emp_basic_empire_knight
-false				morgan_bernhardt	ovn_core_grudgebringers
-false				vladimir_stormbringer	emp_characters
-false				vladimir_stormbringer	emp_wizards
-false				morgan_bernhardt	grudgebringers
-false				morgan_bernhardt	cavalry_units
-false				vladimir_stormbringer	grudgebringers
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/obo_grudgebringers_data					
+			morgan_bernhardt	emp_characters	false
+			morgan_bernhardt	cavalry_and_monsters_knights	false
+			morgan_bernhardt	emp_knights	false
+			morgan_bernhardt	emp_lances	false
+			morgan_bernhardt	emp_melee_infantry_tier_2	false
+			morgan_bernhardt	emp_reiksguard	false
+			morgan_bernhardt	wh2_main_emp_basic_empire_knight	false
+			morgan_bernhardt	ovn_core_grudgebringers	false
+			vladimir_stormbringer	emp_characters	false
+			vladimir_stormbringer	emp_wizards	false
+			morgan_bernhardt	grudgebringers	false
+			morgan_bernhardt	cavalry_units	false
+			vladimir_stormbringer	grudgebringers	false

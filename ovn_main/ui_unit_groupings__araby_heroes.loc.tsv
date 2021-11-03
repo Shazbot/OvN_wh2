@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ui_unit_groupings__araby_heroes.loc		
 ui_unit_groupings_onscreen_ovn_arb_spy	Hybrid Weapon Specialist	true
 ui_unit_groupings_tooltip_ovn_arb_spy		true

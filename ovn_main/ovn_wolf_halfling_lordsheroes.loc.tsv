@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_halfling_lordsheroes.loc		
 land_units_onscreen_name_ovn_hlf_moot_general_0	Moot General	true
 land_units_onscreen_name_ovn_hlf_fieldwarden_0	Fieldwarden	true
 land_units_onscreen_name_ovn_hlf_master_chef_0	Master Chef	true

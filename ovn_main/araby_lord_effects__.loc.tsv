@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/araby_lord_effects__.loc		
 effects_description_ovn_araby_ll_mount	Mount: Griffon	true
 effects_description_Mount_Elephant	Mount: Royal Elephant	true

@@ -1,5 +1,5 @@
-campaign_storms_tables	6
-attrition	strength	key	tiling_composite_scene	composite_scene	type	priority	battle_lighting_environment
-ovn_fimir_mist	1	ovn_fimir_mist	storm_base	cst_fog	ovn_fimir_mist	9	weather\battle\ovn_mist.environment
-ovn_albion_mist	1	ovn_albion_mist	storm_base	cst_fog	ovn_albion_mist	9	weather\battle\ovn_mist.environment
-ovn_albion_storm	1	ovn_albion_storm	storm_base	storm_level_5	ovn_albion_storm	9	weather\battle\ovn_storm.environment
+strength	type	attrition	key	tiling_composite_scene	composite_scene	priority	battle_lighting_environment
+#campaign_storms_tables;6;db/campaign_storms_tables/ovn_storms							
+1	ovn_fimir_mist	ovn_fimir_mist	ovn_fimir_mist	storm_base	cst_fog	9	weather\battle\ovn_mist.environment
+1	ovn_albion_mist	ovn_albion_mist	ovn_albion_mist	storm_base	cst_fog	9	weather\battle\ovn_mist.environment
+1	ovn_albion_storm	ovn_albion_storm	ovn_albion_storm	storm_base	storm_level_5	9	weather\battle\ovn_storm.environment

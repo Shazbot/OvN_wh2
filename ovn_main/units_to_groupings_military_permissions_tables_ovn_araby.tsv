@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_araby	
 OtF_khemri_knights	ovn_araby
 OtF_khemri_archers	ovn_araby
 OtF_khemri_kepra_guard	ovn_araby

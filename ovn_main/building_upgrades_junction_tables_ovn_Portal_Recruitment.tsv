@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_Portal_Recruitment	
 ovn_Portal_Recruitment_1	ovn_Portal_Recruitment_2
 ovn_Portal_Recruitment_0	ovn_Portal_Recruitment_1
 ovn_Portal_Recruitment_2	ovn_Portal_Recruitment_3

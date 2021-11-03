@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_buildings.loc		
 building_chains_chain_tooltip_ovn_arb_haikk	Araby Landmark	true
 building_chains_chain_tooltip_ovn_arb_bel	Araby Landmark	true
 building_chains_chain_tooltip_ovn_arb_fyrus	Araby Landmark	true

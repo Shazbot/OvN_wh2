@@ -1,5 +1,5 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/elo_dread			
 33401	80	elo_tomb_guardian_spears	elo_dread_legion_spears
 33402	100	elo_tomb_guardian_2h_waepons	elo_dread_legion_2h
 33403	90	elo_tomb_guardian	elo_dread_legion_dual

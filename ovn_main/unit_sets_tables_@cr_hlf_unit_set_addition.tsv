@@ -1,5 +1,5 @@
-unit_sets_tables	2
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/@cr_hlf_unit_set_addition				
 hlf_feast_carriers	false	-1	-1	
 hlf_cooks_and_chefs	false	-1	-1	
 hlf_baby_dragons	false	-1	-1	

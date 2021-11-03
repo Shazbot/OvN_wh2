@@ -1,4 +1,4 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_cod	
 ovn_stormrider	wh2_main_hef
 ovn_stormrider_mount	wh2_main_hef

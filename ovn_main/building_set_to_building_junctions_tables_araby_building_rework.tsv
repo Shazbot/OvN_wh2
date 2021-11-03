@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/araby_building_rework			
 ovn_arb_forge		wh_main_set_empire_military_recruitment	false
 ovn_arb_nomad		wh_main_set_empire_military_recruitment	false
 ovn_arb_xp		wh_main_set_empire_military_support	false

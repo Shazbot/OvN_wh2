@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Ovn_new_factions_names.loc		
 names_name_882019		true
 names_name_882018	Penthesilea	true
 names_name_882017	Ugma	true

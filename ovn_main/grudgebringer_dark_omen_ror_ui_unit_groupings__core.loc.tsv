@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_dark_omen_ror_ui_unit_groupings__core.loc		
 ui_unit_groupings_onscreen_grudgebringer_infantry	Heavy Infantry	true
 ui_unit_groupings_tooltip_grudgebringer_infantry	These warriors are highly experienced and proficient fighters	true
 ui_unit_groupings_onscreen_grudgebringer_cannon	Cannons	true

@@ -1,5 +1,5 @@
-battle_animations_table_tables	0
 key	skeleton
+#battle_animations_table_tables;0;db/battle_animations_table_tables/ovn	
 wm_reaper01	reaper01
 fc1_flying_carpet	flyingcarpet01
 hu1_araby_fc1_carpet_wb_bow	humanoid01

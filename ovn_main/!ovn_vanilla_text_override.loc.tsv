@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_vanilla_text_override.loc		
 effects_description_wh2_dlc11_effect_skill_weapon_damage_increase_emp_greatswords_demigryphs	Weapon strength: %+n% for Greatswords, Demigryph Knights, Halfling Infantry & Imperial Ogres	true
 effects_description_wh2_dlc11_effect_skill_armour_increase_emp_greatswords_demigryphs	Armour: %+n for Greatswords, Demigryph Knights, Halfling Infantry & Imperial Ogres	true
 effects_description_wh2_dlc11_effect_skill_ammo_increase_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	Ammunition: %+n% for Free Company Militia, Crossbowmen, Huntsmen, Archers, Handgunners, Pistoliers, Outriders & Halfling ranged units	true

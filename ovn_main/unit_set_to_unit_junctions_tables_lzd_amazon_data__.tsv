@@ -1,4 +1,4 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				lzd_amazon	lzd_all
-false				jag_amazon	lzd_all
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/lzd_amazon_data__					
+			lzd_amazon	lzd_all	false
+			jag_amazon	lzd_all	false

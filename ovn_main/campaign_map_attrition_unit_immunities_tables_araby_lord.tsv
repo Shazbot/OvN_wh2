@@ -1,4 +1,4 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/araby_lord	
 desert	ovn_araby_ll
 desert	Sultan_Jaffar

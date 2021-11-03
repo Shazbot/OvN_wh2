@@ -1,7 +1,7 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				wh_main_arb_mon_elephant	wh2_mp_single_entity_monsters
-false				wh_main_arb_mon_war_elephant	wh2_mp_single_entity_monsters
-false				wh_main_arb_cha_sheikh_2	wh2_mp_single_entity_monsters
-false				ovn_arb_mon_war_elephant_ror	wh2_mp_single_entity_monsters
-false				wh_main_arb_cha_sheikh_2_02	wh2_mp_single_entity_monsters
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/@cr_never_forgets					
+			wh_main_arb_mon_elephant	wh2_mp_single_entity_monsters	false
+			wh_main_arb_mon_war_elephant	wh2_mp_single_entity_monsters	false
+			wh_main_arb_cha_sheikh_2	wh2_mp_single_entity_monsters	false
+			ovn_arb_mon_war_elephant_ror	wh2_mp_single_entity_monsters	false
+			wh_main_arb_cha_sheikh_2_02	wh2_mp_single_entity_monsters	false

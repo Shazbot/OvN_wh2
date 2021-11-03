@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_wolf_golden_magus					
 arb_golden_magus_enable_master_djinn	general_ability.png	600	general_ability.png	battle	true
 arb_golden_magus_wishmaster_djinn_exp	experience.png	15	experience.png	campaign	true
 arb_golden_magus_enable_burning_scimitar	general_ability.png	600	general_ability.png	battle	true

@@ -1,5 +1,5 @@
-building_instances_tables	0
 key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn	
 ovn_arb_hosp	1
 ovn_cd_slave	1
 ovn_cd_work	1

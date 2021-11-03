@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!!!dread_agent_subtype_subculture_overrides.loc		
 agent_subtype_subculture_overrides_onscreen_name_elo_dread_centurionwh2_dlc09_sc_tmb_tomb_kingschampion	Dread Centurion	true
 agent_subtype_subculture_overrides_description_elo_dread_centurionwh2_dlc09_sc_tmb_tomb_kingschampion	Brutally efficient warriors in life, these followers of the Dread King are the spearhead of his army in death.	true

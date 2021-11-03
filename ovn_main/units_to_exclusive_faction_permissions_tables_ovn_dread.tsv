@@ -1,5 +1,5 @@
-units_to_exclusive_faction_permissions_tables	0
 key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/ovn_dread		
 elo_tomb_guardian	wh2_dlc09_tmb_the_sentinels	true
 elo_tomb_guardian_2h_waepons	wh2_dlc09_tmb_the_sentinels	true
 elo_tomb_guardian_spears	wh2_dlc09_tmb_the_sentinels	true

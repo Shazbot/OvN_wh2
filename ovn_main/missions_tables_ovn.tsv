@@ -1,43 +1,43 @@
-missions_tables	6
-generate	key	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
-true	ovn_hlf_comradeship	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_hlf_mission	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_1	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_2	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_3	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_4	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_5	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_6	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-true	ovn_halfling_ingredient_quest_7	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-false	ovn_grudge_vortex_move_to_swem	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_vortex_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_vortex_take_zandri	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_vortex_take_kasabar	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_vortex_kill_dk	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_vortex_kill_arkhan	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_troll_me_take_karak_azgal	ovn_troll_me_take_karak_azgal		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_blood_dragons_me_take_altdorf	ovn_blood_dragons_me_take_altdorf		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_blood_dragons_me_take_couronne	ovn_blood_dragons_me_take_couronne		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_blood_dragons_me_take_templehof	ovn_blood_dragons_me_take_templehof		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_blood_dragons_me_take_nuln	ovn_blood_dragons_me_take_nuln		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_me_move_to_swem	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_me_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_me_take_zandri	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_me_take_kasabar	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_me_kill_dk	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_grudge_me_kill_arkhan	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_dk_vortex_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	ovn_dk_me_take_morgheim	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-false	pj_blood_dragon_targets_1			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_blood_dragon_targets_2			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_blood_dragon_targets_3			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_blood_dragon_targets_4			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_blood_dragon_targets_5			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_1			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_2			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_3			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_4			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-false	pj_grudgebringers_targets_5			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
-true	ovn_halfling_establish_restaurant_mission	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false
-true	ovn_albion_second_lord_mission_morrigan			SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false
-true	ovn_albion_second_lord_mission_durak			SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false
+key	generate	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
+#missions_tables;6;db/missions_tables/ovn																
+ovn_hlf_comradeship	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_hlf_mission	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_1	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_2	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_3	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_4	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_5	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_6	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_halfling_ingredient_quest_7	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
+ovn_grudge_vortex_move_to_swem	false	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_vortex_take_morgheim	false	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_vortex_take_zandri	false	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_vortex_take_kasabar	false	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_vortex_kill_dk	false	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_vortex_kill_arkhan	false	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_troll_me_take_karak_azgal	false	ovn_troll_me_take_karak_azgal		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_blood_dragons_me_take_altdorf	false	ovn_blood_dragons_me_take_altdorf		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_blood_dragons_me_take_couronne	false	ovn_blood_dragons_me_take_couronne		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_blood_dragons_me_take_templehof	false	ovn_blood_dragons_me_take_templehof		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_blood_dragons_me_take_nuln	false	ovn_blood_dragons_me_take_nuln		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_move_to_swem	false	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_take_morgheim	false	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_take_zandri	false	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_take_kasabar	false	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_kill_dk	false	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_kill_arkhan	false	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_dk_vortex_take_morgheim	false	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_dk_me_take_morgheim	false	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+pj_blood_dragon_targets_1	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_blood_dragon_targets_2	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_blood_dragon_targets_3	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_blood_dragon_targets_4	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_blood_dragon_targets_5	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_grudgebringers_targets_1	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_grudgebringers_targets_2	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_grudgebringers_targets_3	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_grudgebringers_targets_4	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+pj_grudgebringers_targets_5	false			SCRIPTED	rom_event_mission.png	cst/generic	true	Military		0	0	false	0.0		false	false
+ovn_halfling_establish_restaurant_mission	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false
+ovn_albion_second_lord_mission_morrigan	true			SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false
+ovn_albion_second_lord_mission_durak	true			SCRIPTED	rom_event_mission.png	emp/generic	true	Quest		0	0	true	0.0		false	false

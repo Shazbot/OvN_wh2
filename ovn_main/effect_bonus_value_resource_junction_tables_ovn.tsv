@@ -1,5 +1,5 @@
-effect_bonus_value_resource_junction_tables	0
 effect	bonus_value_id	resource
+#effect_bonus_value_resource_junction_tables;0;db/effect_bonus_value_resource_junction_tables/ovn		
 landmark_effect_produce_res_ivory	production	res_ivory
 landmark_effect_produce_res_cathay	production	res_cathay
 ovn_resource_production_coffee	production	ovn_coffee

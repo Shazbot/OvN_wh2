@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_rotbloods					
 rot_charge_speed_increase_trolls	charge.png	121	charge.png	battle	true
 rot_melee_attack_increase_warhounds	melee.png	109	melee.png	battle	true
 rot_melee_damage_increase_trolls	weapon_damage.png	108	weapon_damage.png	battle	true

@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_cod_naval_mech					
 cod_threat_vhigh_dummy	cod_threat_vhigh.png	2	cod_threat_vhigh.png	campaign	false
 cod_threat_high_dummy	cod_threat_high.png	2	cod_threat_high.png	campaign	false
 cod_threat_vlow_dummy	cod_threat_vlow.png	2	cod_threat_vlow.png	campaign	true

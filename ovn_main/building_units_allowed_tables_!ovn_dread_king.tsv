@@ -1,8 +1,8 @@
-building_units_allowed_tables	4
-building	unit	xp	key	conditions	faction	enabled
-wh2_dlc09_tmb_warsphinx_1	dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	0	775241	0		false
-wh2_dlc09_tmb_chariots_2	dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	0	775242	0		false
-wh2_dlc09_tmb_chariots_3	dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	0	775243	0		false
-wh2_dlc09_tmb_chariots_3	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	0	775244	0		false
-wh2_dlc09_tmb_chariots_2	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	0	775245	0		false
-wh2_dlc09_tmb_chariots_1	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	0	775246	0		false
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/!ovn_dread_king						
+775241	wh2_dlc09_tmb_warsphinx_1	dread_wh2_dlc09_tmb_veh_khemrian_warsphinx_0	0	0		false
+775242	wh2_dlc09_tmb_chariots_2	dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	0	0		false
+775243	wh2_dlc09_tmb_chariots_3	dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	0	0		false
+775244	wh2_dlc09_tmb_chariots_3	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	0	0		false
+775245	wh2_dlc09_tmb_chariots_2	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	0	0		false
+775246	wh2_dlc09_tmb_chariots_1	dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	0	0		false

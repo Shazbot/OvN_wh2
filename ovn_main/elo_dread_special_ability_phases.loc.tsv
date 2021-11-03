@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_dread_special_ability_phases.loc		
 special_ability_phases_onscreen_name_contact_phase_mummy_curse	[[col:red]][[img:ui/battle ui/ability_icons/wh2_main_item_passive_curse_charm_of_tepok.png]][[/img]]Curse of the Mummy[[/col]]: lowers Weaponstrength and increases Fatigue	true
 special_ability_phases_onscreen_name_contact_anchored	[[col:red]][[img:ui/battle ui/ability_icons/contact_anchored.png]][[/img]]Stunning Blows[[/col]]: lowers speed and melee defence	true

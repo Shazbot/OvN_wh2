@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_troll_unit_abilities.loc		
 unit_abilities_tooltip_text_horrible_stench	Almost unbearable smell. Don't get close!	true
 unit_abilities_onscreen_name_horrible_stench	Stink Baaaad!	true
 unit_abilities_tooltip_text_rock_solid	Hitting that skin with a sword is like hitting a mountain with a toothpick! No wonder these trolls are so much more confident than their brethren.	true

@@ -1,5 +1,5 @@
-resource_ui_overrides_tables	0
 override_faction	override_subculture	source_resource	target_resource
+#resource_ui_overrides_tables;0;db/resource_ui_overrides_tables/newf_elo_ovn_landmarks			
 wh2_main_nor_rotbloods		res_location_chorfs_hidden	
 wh2_main_ovn_chaos_dwarfs		res_location_chorfs_hidden	res_location_chorfs
 wh2_main_nor_albion		res_location_albion_hidden	res_location_albion

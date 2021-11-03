@@ -1,65 +1,65 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_main_skill_all_lord_battle_inspiring_presence	node_set_truth_light		4.0	truthsayer_battle_01_light	0.0		0	0	true
-	elo_warrior_culture	node_set_truth_light		4.0	truthsayer_battle_02_light	1.0		0	0	true
-	elo_guardians_land	node_set_truth_light		4.0	truthsayer_battle_03_light	2.0		0	0	true
-	elo_monster_support	node_set_truth_light		4.0	truthsayer_battle_04_light	3.0		0	0	true
-	elo_noble_saveages	node_set_truth_light		4.0	truthsayer_battle_05_light	4.0		0	0	true
-	elo_ranged_specialists	node_set_truth_light		4.0	truthsayer_battle_06_light	5.0		0	0	true
-	elo_fast_raiders	node_set_truth_light		4.0	truthsayer_battle_07_light	6.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	node_set_truth_light		4.0	truthsayer_battle_08_light	7.0		0	6	true
-	elo_hunters_r7	node_set_truth_light		4.0	truthsayer_battle_09_light	8.0		0	0	true
-	elo_monsters_r7	node_set_truth_light		4.0	truthsayer_battle_10_light	9.0		0	0	true
-	elo_riders_r7	node_set_truth_light		4.0	truthsayer_battle_11_light	10.0		0	0	true
-	elo_champions_r7	node_set_truth_light		4.0	truthsayer_battle_12_light	11.0		0	0	true
-	elo_albion_warcry	node_set_truth_light		4.0	truthsayer_battle_13_light	12.0		0	1	true
-	wh_main_skill_all_lord_campaign_route_marcher	node_set_truth_light		5.0	truthsayer_campaign_01_light	0.0		0	0	true
-	wh_main_skill_emp_lord_campaign_fervent	node_set_truth_light		5.0	truthsayer_campaign_02_light	1.0		0	0	true
-	wh_main_skill_brt_lord_campaign_justiciar	node_set_truth_light		5.0	truthsayer_campaign_03_light	2.0		0	0	true
-	wh_main_skill_brt_lord_campaign_steward_of_the_realm	node_set_truth_light		5.0	truthsayer_campaign_04_light	3.0		0	0	true
-	wh_main_skill_emp_lord_campaign_leader_of_renown	node_set_truth_light		5.0	truthsayer_campaign_05_light	4.0		0	0	true
-	wh_main_skill_all_lord_campaign_irrepressible	node_set_truth_light		5.0	truthsayer_campaign_06_light	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	node_set_truth_light		5.0	truthsayer_campaign_07_light	6.0		0	0	true
-	wh_main_skill_emp_lord_campaign_logistician	node_set_truth_light		5.0	truthsayer_campaign_08_light	7.0		0	0	true
-	shadows_fen	node_set_truth_light		5.0	truthsayer_campaign_09_light	8.0		0	0	true
-	wh_main_skill_all_lord_campaign_premonition	node_set_truth_light		5.0	truthsayer_campaign_10_light	9.0		0	0	true
-	wh2_main_skill_LL_self_defense	node_set_truth_light		5.0	truthsayer_campaign_11_light	10.0		0	4	true
-	wh2_main_skill_innate_all_fleet_footed	node_set_truth_light		6.0	truthsayer_innate_01_light	3.0		0	0	false
-	wh2_main_skill_innate_all_cunning	node_set_truth_light		6.0	truthsayer_innate_02_light	4.0		0	0	false
-	wh2_main_skill_innate_all_determined	node_set_truth_light		6.0	truthsayer_innate_03_light	5.0		0	0	false
-	wh2_main_skill_innate_all_confident	node_set_truth_light		6.0	truthsayer_innate_04_light	6.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	node_set_truth_light		6.0	truthsayer_innate_05_light	7.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	node_set_truth_light		6.0	truthsayer_innate_06_light	8.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	node_set_truth_light		6.0	truthsayer_innate_07_light	9.0		0	0	false
-	wh2_main_skill_innate_all_tough	node_set_truth_light		6.0	truthsayer_innate_08_light	10.0		0	0	false
-	wh2_main_skill_innate_all_strong	node_set_truth_light		6.0	truthsayer_innate_09_light	11.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	node_set_truth_light		6.0	truthsayer_innate_10_light	12.0		0	0	false
-	wh2_main_skill_innate_all_strategist	node_set_truth_light		6.0	truthsayer_innate_11_light	13.0		0	0	false
-	wh2_main_skill_innate_all_tactician	node_set_truth_light		6.0	truthsayer_innate_12_light	14.0		0	0	false
-	wh2_main_skill_innate_all_knowledgeable	node_set_truth_light		6.0	truthsayer_innate_13_light	15.0		0	0	false
-	wh2_main_skill_innate_all_intelligent	node_set_truth_light		6.0	truthsayer_innate_14_light	16.0		0	0	false
-	truthsayer_innate_priest_danu	node_set_truth_light		0.0	truthsayer_innate_15_light	17.0		0	0	false
-	truthsayer_innate_priest_lugh	node_set_truth_light		0.0	truthsayer_innate_16_light	18.0		0	0	false
-	truthsayer_innate_priest_carnun	node_set_truth_light		0.0	truthsayer_innate_17_light	19.0		0	0	false
-	wh2_main_skill_all_immortality_lord	node_set_truth_light		0.0	truthsayer_immortality_light	6.0		0	0	true
-	wh_main_skill_all_magic_light_01_shems_burning_gaze	node_set_truth_light		2.0	truthsayer_light_magic_1	0.0		0	0	true
-	wh_main_skill_all_magic_light_03_exorcism	node_set_truth_light		2.0	truthsayer_light_magic_2	2.0		0	0	true
-	wh2_main_skill_all_magic_light_02_phas_protection_lord	node_set_truth_light		2.0	truthsayer_light_magic_3	1.0		0	0	true
-	wh_main_skill_all_magic_light_04_light_of_battle_lord	node_set_truth_light		2.0	truthsayer_light_magic_4	3.0		0	0	true
-	wh2_main_skill_all_magic_light_05_net_of_amyntok_lord	node_set_truth_light		2.0	truthsayer_light_magic_5	4.0		0	0	true
-	wh_main_skill_all_magic_all_06_evasion	node_set_truth_light		2.0	truthsayer_light_magic_6	5.0		0	4	true
-	wh_main_skill_all_magic_all_07_earthing	node_set_truth_light		2.0	truthsayer_light_magic_7	8.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	node_set_truth_light		2.0	truthsayer_light_magic_8	9.0		0	0	true
-	wh2_dlc10_skill_hef_magic_alarielle_banishment	node_set_truth_light		2.0	truthsayer_light_magic_9	6.0		0	0	true
-	wh2_main_skill_all_magic_light_10_bironas_timewarp_lord	node_set_truth_light		2.0	truthsayer_light_magic_10	7.0		0	0	true
-	wh_main_skill_all_magic_all_11_arcane_conduit	node_set_truth_light		2.0	truthsayer_light_magic_11	10.0		0	4	true
-	wh_main_skill_all_magic_light_dummy_shems_burning_gaze_phas_protection	node_set_truth_light		2.0	truthsayer_light_magic_12	11.0		1	0	false
-	endless_conflict	node_set_truth_light		0.0	truthsayer_unique_01_light	2.0		0	0	true
-	elo_fast_reflexes	node_set_truth_light		0.0	truthsayer_unique_02_light	4.0		0	0	true
-	wh_main_skill_all_lord_battle_brass-lunged	node_set_truth_light		0.0	truthsayer_unique_03_light	5.0		0	0	true
-	elo_protective_charms	node_set_truth_light		0.0	truthsayer_unique_04_light	3.0		0	0	true
-	mount_horse_truthsayer_light_skill	node_set_truth_light		0.0	truthsayer_unique_05_light	1.0		0	0	true
-	teachings_old_ones	node_set_truth_light		1.0	truthsayer_unique_06_light	2.0		0	0	true
-	oral_tradition	node_set_truth_light		1.0	truthsayer_unique_07_light	3.0		0	0	true
-	swamp_monsters	node_set_truth_light		1.0	truthsayer_unique_08_light	4.0		0	0	true
-	ancient_allies	node_set_truth_light		1.0	truthsayer_unique_09_light	5.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_truthsayer_light										
+truthsayer_battle_01_light		wh_main_skill_all_lord_battle_inspiring_presence	node_set_truth_light		4.0	0.0		0	0	true
+truthsayer_battle_02_light		elo_warrior_culture	node_set_truth_light		4.0	1.0		0	0	true
+truthsayer_battle_03_light		elo_guardians_land	node_set_truth_light		4.0	2.0		0	0	true
+truthsayer_battle_04_light		elo_monster_support	node_set_truth_light		4.0	3.0		0	0	true
+truthsayer_battle_05_light		elo_noble_saveages	node_set_truth_light		4.0	4.0		0	0	true
+truthsayer_battle_06_light		elo_ranged_specialists	node_set_truth_light		4.0	5.0		0	0	true
+truthsayer_battle_07_light		elo_fast_raiders	node_set_truth_light		4.0	6.0		0	0	true
+truthsayer_battle_08_light		wh_main_skill_all_lord_battle_rally	node_set_truth_light		4.0	7.0		0	6	true
+truthsayer_battle_09_light		elo_hunters_r7	node_set_truth_light		4.0	8.0		0	0	true
+truthsayer_battle_10_light		elo_monsters_r7	node_set_truth_light		4.0	9.0		0	0	true
+truthsayer_battle_11_light		elo_riders_r7	node_set_truth_light		4.0	10.0		0	0	true
+truthsayer_battle_12_light		elo_champions_r7	node_set_truth_light		4.0	11.0		0	0	true
+truthsayer_battle_13_light		elo_albion_warcry	node_set_truth_light		4.0	12.0		0	1	true
+truthsayer_campaign_01_light		wh_main_skill_all_lord_campaign_route_marcher	node_set_truth_light		5.0	0.0		0	0	true
+truthsayer_campaign_02_light		wh_main_skill_emp_lord_campaign_fervent	node_set_truth_light		5.0	1.0		0	0	true
+truthsayer_campaign_03_light		wh_main_skill_brt_lord_campaign_justiciar	node_set_truth_light		5.0	2.0		0	0	true
+truthsayer_campaign_04_light		wh_main_skill_brt_lord_campaign_steward_of_the_realm	node_set_truth_light		5.0	3.0		0	0	true
+truthsayer_campaign_05_light		wh_main_skill_emp_lord_campaign_leader_of_renown	node_set_truth_light		5.0	4.0		0	0	true
+truthsayer_campaign_06_light		wh_main_skill_all_lord_campaign_irrepressible	node_set_truth_light		5.0	5.0		0	4	true
+truthsayer_campaign_07_light		wh_main_skill_all_lord_campaign_lightning_strike	node_set_truth_light		5.0	6.0		0	0	true
+truthsayer_campaign_08_light		wh_main_skill_emp_lord_campaign_logistician	node_set_truth_light		5.0	7.0		0	0	true
+truthsayer_campaign_09_light		shadows_fen	node_set_truth_light		5.0	8.0		0	0	true
+truthsayer_campaign_10_light		wh_main_skill_all_lord_campaign_premonition	node_set_truth_light		5.0	9.0		0	0	true
+truthsayer_campaign_11_light		wh2_main_skill_LL_self_defense	node_set_truth_light		5.0	10.0		0	4	true
+truthsayer_innate_01_light		wh2_main_skill_innate_all_fleet_footed	node_set_truth_light		6.0	3.0		0	0	false
+truthsayer_innate_02_light		wh2_main_skill_innate_all_cunning	node_set_truth_light		6.0	4.0		0	0	false
+truthsayer_innate_03_light		wh2_main_skill_innate_all_determined	node_set_truth_light		6.0	5.0		0	0	false
+truthsayer_innate_04_light		wh2_main_skill_innate_all_confident	node_set_truth_light		6.0	6.0		0	0	false
+truthsayer_innate_05_light		wh2_main_skill_innate_all_disciplined	node_set_truth_light		6.0	7.0		0	0	false
+truthsayer_innate_06_light		wh2_main_skill_innate_all_perceptive	node_set_truth_light		6.0	8.0		0	0	false
+truthsayer_innate_07_light		wh2_main_skill_innate_all_aggressive	node_set_truth_light		6.0	9.0		0	0	false
+truthsayer_innate_08_light		wh2_main_skill_innate_all_tough	node_set_truth_light		6.0	10.0		0	0	false
+truthsayer_innate_09_light		wh2_main_skill_innate_all_strong	node_set_truth_light		6.0	11.0		0	0	false
+truthsayer_innate_10_light		wh2_main_skill_innate_all_weapon_master	node_set_truth_light		6.0	12.0		0	0	false
+truthsayer_innate_11_light		wh2_main_skill_innate_all_strategist	node_set_truth_light		6.0	13.0		0	0	false
+truthsayer_innate_12_light		wh2_main_skill_innate_all_tactician	node_set_truth_light		6.0	14.0		0	0	false
+truthsayer_innate_13_light		wh2_main_skill_innate_all_knowledgeable	node_set_truth_light		6.0	15.0		0	0	false
+truthsayer_innate_14_light		wh2_main_skill_innate_all_intelligent	node_set_truth_light		6.0	16.0		0	0	false
+truthsayer_innate_15_light		truthsayer_innate_priest_danu	node_set_truth_light		0.0	17.0		0	0	false
+truthsayer_innate_16_light		truthsayer_innate_priest_lugh	node_set_truth_light		0.0	18.0		0	0	false
+truthsayer_innate_17_light		truthsayer_innate_priest_carnun	node_set_truth_light		0.0	19.0		0	0	false
+truthsayer_immortality_light		wh2_main_skill_all_immortality_lord	node_set_truth_light		0.0	6.0		0	0	true
+truthsayer_light_magic_1		wh_main_skill_all_magic_light_01_shems_burning_gaze	node_set_truth_light		2.0	0.0		0	0	true
+truthsayer_light_magic_2		wh_main_skill_all_magic_light_03_exorcism	node_set_truth_light		2.0	2.0		0	0	true
+truthsayer_light_magic_3		wh2_main_skill_all_magic_light_02_phas_protection_lord	node_set_truth_light		2.0	1.0		0	0	true
+truthsayer_light_magic_4		wh_main_skill_all_magic_light_04_light_of_battle_lord	node_set_truth_light		2.0	3.0		0	0	true
+truthsayer_light_magic_5		wh2_main_skill_all_magic_light_05_net_of_amyntok_lord	node_set_truth_light		2.0	4.0		0	0	true
+truthsayer_light_magic_6		wh_main_skill_all_magic_all_06_evasion	node_set_truth_light		2.0	5.0		0	4	true
+truthsayer_light_magic_7		wh_main_skill_all_magic_all_07_earthing	node_set_truth_light		2.0	8.0		0	0	true
+truthsayer_light_magic_8		wh_main_skill_all_magic_all_08_power_drain	node_set_truth_light		2.0	9.0		0	0	true
+truthsayer_light_magic_9		wh2_dlc10_skill_hef_magic_alarielle_banishment	node_set_truth_light		2.0	6.0		0	0	true
+truthsayer_light_magic_10		wh2_main_skill_all_magic_light_10_bironas_timewarp_lord	node_set_truth_light		2.0	7.0		0	0	true
+truthsayer_light_magic_11		wh_main_skill_all_magic_all_11_arcane_conduit	node_set_truth_light		2.0	10.0		0	4	true
+truthsayer_light_magic_12		wh_main_skill_all_magic_light_dummy_shems_burning_gaze_phas_protection	node_set_truth_light		2.0	11.0		1	0	false
+truthsayer_unique_01_light		endless_conflict	node_set_truth_light		0.0	2.0		0	0	true
+truthsayer_unique_02_light		elo_fast_reflexes	node_set_truth_light		0.0	4.0		0	0	true
+truthsayer_unique_03_light		wh_main_skill_all_lord_battle_brass-lunged	node_set_truth_light		0.0	5.0		0	0	true
+truthsayer_unique_04_light		elo_protective_charms	node_set_truth_light		0.0	3.0		0	0	true
+truthsayer_unique_05_light		mount_horse_truthsayer_light_skill	node_set_truth_light		0.0	1.0		0	0	true
+truthsayer_unique_06_light		teachings_old_ones	node_set_truth_light		1.0	2.0		0	0	true
+truthsayer_unique_07_light		oral_tradition	node_set_truth_light		1.0	3.0		0	0	true
+truthsayer_unique_08_light		swamp_monsters	node_set_truth_light		1.0	4.0		0	0	true
+truthsayer_unique_09_light		ancient_allies	node_set_truth_light		1.0	5.0		0	0	true

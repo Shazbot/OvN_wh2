@@ -1,5 +1,5 @@
-unit_attributes_groups_tables	0
 group_name
+#unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/ovn
 ovn_finmor
 ovn_fianna_fimm
 ovn_fimm_guard

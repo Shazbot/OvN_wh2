@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_walach_harkon_items_ancillaries.loc		
 ancillaries_onscreen_name_anc_mount_vmp_walach_barded_nightmare	Barded Nightmare	true
 ancillaries_colour_text_anc_mount_vmp_walach_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares - Undead stallions clad in baroque barding.	true

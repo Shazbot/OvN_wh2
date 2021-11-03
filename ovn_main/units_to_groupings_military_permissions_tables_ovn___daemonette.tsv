@@ -1,4 +1,4 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn___daemonette	
 bacr_chs_inf_daemonette	wh_main_group_chaos
 bacr_chs_inf_daemonette	wh2_main_def

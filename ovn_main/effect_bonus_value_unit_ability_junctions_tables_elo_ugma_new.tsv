@@ -1,4 +1,4 @@
-effect_bonus_value_unit_ability_junctions_tables	0
 effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/elo_ugma_new		
 elo_reservoir_hammer	enable	elo_reservoir_hammer
 elo_trash_armour	enable	elo_trash_armour

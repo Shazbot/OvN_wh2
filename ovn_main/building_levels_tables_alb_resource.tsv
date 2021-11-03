@@ -1,5 +1,5 @@
-building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+#building_levels_tables;16;db/building_levels_tables/alb_resource																										
 alb_resource_marble	alb_resource_marble	0	4	3200	0		false	0	0	0	0	false				true	alb_resource_marble	false	0.0	0	true	2	wh_cam_resource_quarry	true	0	0
 alb_resource_gold	alb_resource_gold	0	5	4000	0		false	0	0	0	0	false				true	alb_resource_gold	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0
 alb_resource_iron	alb_resource_iron	0	4	3200	0		false	0	0	0	0	false				true	alb_resource_iron	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0

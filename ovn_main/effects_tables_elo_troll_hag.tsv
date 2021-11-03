@@ -1,4 +1,4 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_troll_hag					
 wh2_dlc15_grn_river_troll_hag_wintertooth_cap	agent.png	100	agent.png	campaign	true
 wh2_dlc15_grn_river_troll_hag_wintertooth_availability	agent.png	200	agent.png	campaign	true

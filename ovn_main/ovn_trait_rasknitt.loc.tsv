@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_trait_rasknitt.loc		
 names_name_638517960	Rasknitt	true
 character_trait_levels_removal_text_ovn_trait_rasknitt		true
 character_trait_levels_onscreen_name_ovn_trait_rasknitt	The White Rat	true

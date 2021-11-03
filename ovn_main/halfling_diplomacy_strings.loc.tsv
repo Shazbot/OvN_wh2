@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/halfling_diplomacy_strings.loc		
 diplomacy_strings_string_Halfling_Dip_Acceptance_Negative_01	Though we do not like it, we will still feast to it.	false
 diplomacy_strings_string_Halfling_Dip_Acceptance_Negative_02	This leaves me with a bad taste, nothing a few beef and beer pies can’t sort out though.	false
 diplomacy_strings_string_Halfling_Dip_Acceptance_Negative_03	Esmerelda forgive us.	false

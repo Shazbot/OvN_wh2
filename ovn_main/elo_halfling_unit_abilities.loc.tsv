@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_halfling_unit_abilities.loc		
 unit_abilities_tooltip_text_ovn_fight_eat	Maybe the only threat to a halfling that might make them fight harder is a threat to their food.	true
 unit_abilities_onscreen_name_ovn_fight_eat	Who doesn't fight also doesn't eat!	true
 unit_abilities_tooltip_text_ovn_take_bite	Nothing like a snack mid-battle to re-invigourate a halfling!	true

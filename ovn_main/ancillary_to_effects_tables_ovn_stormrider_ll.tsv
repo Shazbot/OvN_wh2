@@ -1,5 +1,5 @@
-ancillary_to_effects_tables	0
 ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/ovn_stormrider_ll			
 ovn_as_starblade	wh_main_effect_character_stat_mod_ap_damage	character_to_character_own	40.0
 ovn_as_starblade	wh_main_effect_character_stat_enable_magic_attacks	character_to_character_own	1.0
 ovn_as_starblade	wh_main_effect_character_stat_mod_melee_damage	character_to_character_own	10.0

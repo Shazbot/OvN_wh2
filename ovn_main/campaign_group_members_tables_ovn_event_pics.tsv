@@ -1,5 +1,5 @@
-campaign_group_members_tables	1
-group	id	priority
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/ovn_event_pics		
 ovn_event_pic_beast	ovn_event_pic_beast	0.0
 ovn_event_pic_cod_invasion	ovn_event_pic_cod_invasion	0.0
 ovn_event_pic_cod_supply	ovn_event_pic_cod_supply	0.0

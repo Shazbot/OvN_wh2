@@ -1,5 +1,5 @@
-units_to_exclusive_faction_permissions_tables	0
 key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/ovn_cod		
 ovn_hef_cav_ellyrian_reavers_shore	wh2_main_hef_citadel_of_dusk	true
 ovn_hef_inf_archers_sea	wh2_main_hef_citadel_of_dusk	true
 ovn_hef_inf_archers_fire	wh2_main_hef_citadel_of_dusk	true

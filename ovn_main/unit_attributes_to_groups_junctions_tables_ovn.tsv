@@ -1,5 +1,5 @@
-unit_attributes_to_groups_junctions_tables	2
 attribute	attribute_group
+#unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/ovn	
 causes_fear	ovn_finmor
 encourages	ovn_finmor
 hide_forest	ovn_finmor

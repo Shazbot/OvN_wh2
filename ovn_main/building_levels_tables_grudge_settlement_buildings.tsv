@@ -1,5 +1,5 @@
-building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+#building_levels_tables;16;db/building_levels_tables/grudge_settlement_buildings																										
 ovn_grudge_settlement_recruit	ovn_grudge_settlement_recruit	0	3	2200	0		false	0	0	0	0	false				true	ovn_grudge_settlement_recruit	false	0.0	0	true	3		true	0	0
 ovn_grudge_settlement_smith	ovn_grudge_settlement_smith	0	4	4400	0		false	0	0	0	0	false				true	ovn_grudge_settlement_smith	false	0.0	0	true	4		true	0	0
 ovn_grudge_settlement_income	ovn_grudge_settlement_income	0	2	1650	0		false	0	0	0	0	false				true	ovn_grudge_settlement_income	false	0.0	0	true	2		true	0	0

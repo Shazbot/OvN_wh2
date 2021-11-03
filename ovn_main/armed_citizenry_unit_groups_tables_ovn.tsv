@@ -1,5 +1,5 @@
-armed_citizenry_unit_groups_tables	0
 unit_group
+#armed_citizenry_unit_groups_tables;0;db/armed_citizenry_unit_groups_tables/ovn
 dismounted_blood_knights
 dismounted_blood_knights_shield
 elo_dread_legion_spears

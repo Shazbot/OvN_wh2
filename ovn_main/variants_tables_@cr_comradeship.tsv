@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/@cr_comradeship							
 ovn_com_cha_olorin_the_grey_wizard		com_olorin_the_grey_wizard		1.0	1.15	0.05	
 ovn_com_cha_aragand_the_layabout		com_aragand_the_layabout		1.0	1.15	0.05	
 ovn_com_cha_aragand_the_layabout_sober		com_aragand_the_layabout_sober		1.0	1.15	0.05	

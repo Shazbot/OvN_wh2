@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_arb_vizier.loc		
 land_units_onscreen_name_arb_vizier_fire_0	Grand Vizier (Fire)	true
 land_units_onscreen_name_arb_vizier_fire_1	Grand Vizier (Fire)	true
 land_units_onscreen_name_arb_vizier_fire_2	Grand Vizier (Fire)	true

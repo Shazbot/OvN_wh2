@@ -1,3 +1,3 @@
-effect_bonus_value_missile_weapon_junctions_tables	0
 bonus_value_id	effect	missile_weapon_junction
+#effect_bonus_value_missile_weapon_junctions_tables;0;db/effect_bonus_value_missile_weapon_junctions_tables/@cr_comradeship		
 enable	ovn_projectile_replacement_olorin_the_grey_wizard_ulgu_rockets	414123412

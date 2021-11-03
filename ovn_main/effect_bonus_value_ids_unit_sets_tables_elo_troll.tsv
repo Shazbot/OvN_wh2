@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/elo_troll		
 mod_land_movement_battle	elo_fedbywar_sp	dlc08_nor_trolls
 charge_bonus	elo_fedbywar_ch	dlc08_nor_trolls
 upkeep_mod	elo_toostupid_up	dlc08_nor_trolls

@@ -1,171 +1,171 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				sr_ogre	emp_greatswords
-false				sr_ogre	wh2_dlc11_emp_greatswords_demigryph_knights
-false				sr_ogre	emp_infantry
-false				sr_ogre	cavalry_and_monsters_knights
-false				sr_ogre	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				sr_ogre	ovn_halfling_ogre_r7
-false				sr_ogre	emp_melee_infantry_tier_1
-false				halfling_inf	emp_infantry
-false				halfling_inf	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_inf	emp_melee_infantry_tier_1
-false				halfling_inf	emp_state_troops
-false				halfling_inf	emp_swords
-false				halfling_milittia_great	infantry_units
-false				halfling_inf	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_inf	infantry_units_melee
-false				halfling_inf	infantry_units
-false				halfling_inf	ovn_halfling_hlf_r7
-false				halfling_warfoot	emp_infantry
-false				halfling_warfoot	emp_melee_infantry_tier_1
-false				halfling_warfoot	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_warfoot	emp_state_troops
-false				halfling_warfoot	emp_swords
-false				halfling_warfoot	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_warfoot	wh2_main_ror_units_all
-false				halfling_warfoot	ovn_halfling_hlf_r7
-false				halfling_archer	emp_crossbow
-false				halfling_archer	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_archer	emp_infantry
-false				halfling_archer	emp_state_troops
-false				halfling_archer	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_archer	ovn_halfling_hlf_r7
-false				halfling_cock	emp_crossbow
-false				halfling_cock	emp_infantry
-false				halfling_cock	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_cock	emp_state_troops
-false				halfling_cock	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_cock	wh2_main_ror_units_all
-false				halfling_cock	ovn_halfling_hlf_r7
-true				wh_main_mtl_veh_soupcart	all_units_excluding_terror
-false				wh_main_mtl_veh_soupcart	emp_steam_tank_and_demigryph_knights
-false				wh_main_mtl_veh_soupcart	emp_steam_tank
-false				wh_main_mtl_veh_soupcart	emp_warmachines
-false				wh_main_mtl_veh_soupcart	emp_artillery
-false				wh_main_mtl_veh_soupcart	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon
-false				wh_main_mtl_veh_soupcart	all_land_artillery
-false				wh_main_mtl_veh_soupcart	wh2_main_ror_units_all
-false				wh_main_mtl_veh_soupcart	artillery_units
-false				wh_main_mtl_veh_soupcart	ovn_soup_art
-false				halfling_spear	emp_infantry
-false				halfling_spear	emp_melee_infantry_tier_1
-false				halfling_spear	emp_state_troops
-false				halfling_spear	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_milittia_great	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_militia	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_spear	emp_swords
-false				halfling_spear	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_spear	ovn_halfling_hlf_r7
-false				halfling_cook	emp_infantry
-false				halfling_cook	emp_melee_infantry_tier_1
-false				halfling_cook	emp_state_troops
-false				halfling_cook	emp_swords
-false				halfling_cook	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_cook	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_cook	ovn_halfling_hlf_r7
-false				halfling_thief	emp_infantry
-false				halfling_thief	emp_melee_infantry_tier_1
-false				halfling_thief	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_thief	emp_state_troops
-false				halfling_thief	emp_swords
-false				halfling_thief	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_thief	ovn_halfling_hlf_r7
-false				sr_ogre_ror	emp_greatswords
-false				sr_ogre_ror	emp_infantry
-false				sr_ogre_ror	wh2_dlc11_emp_greatswords_demigryph_knights
-false				sr_ogre_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				sr_ogre_ror	wh2_main_ror_units_all
-false				sr_ogre_ror	cavalry_and_monsters_knights
-false				sr_ogre_ror	emp_melee_infantry_tier_1
-false				sr_ogre_ror	ovn_halfling_ogre_r7
-false				halfling_cook_ror	emp_infantry
-false				halfling_cook_ror	emp_melee_infantry_tier_1
-false				halfling_cook_ror	emp_state_troops
-false				halfling_cook_ror	emp_swords
-false				halfling_cook_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_cook_ror	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_cook_ror	wh2_main_ror_units_all
-false				halfling_cook_ror	infantry_units
-false				halfling_cook_ror	infantry_units_melee
-false				halfling_cook_ror	ovn_halfling_hlf_r7
-false				sr_ogre_ror	infantry_units
-false				sr_ogre_ror	infantry_units_melee
-false				halfling_thief	infantry_units
-false				halfling_thief	infantry_units_melee
-false				halfling_cook	infantry_units
-false				halfling_cook	infantry_units_melee
-false				halfling_spear	infantry_units
-false				halfling_spear	infantry_units_melee
-false				halfling_milittia_great	infantry_units_melee
-false				halfling_warfoot	infantry_units
-false				halfling_warfoot	infantry_units_melee
-false				sr_ogre	infantry_units
-false				sr_ogre	infantry_units_melee
-false				halfling_cat	emp_artillery
-false				halfling_cat	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon
-false				halfling_cat_ror	emp_artillery
-false				halfling_cat_ror	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon
-false				halfling_cat_ror	wh2_main_ror_units_all
-false				halfling_cat_ror	all_land_artillery
-false				halfling_cat_ror	artillery_units
-false				halfling_cat_ror	ovn_soup_art
-false				halfling_cat	all_land_artillery
-false				halfling_cat	artillery_units
-false				halfling_cat	ovn_soup_art
-false				wh2_dlc10_hef_inf_dryads_0	ovn_halfling_welf
-false				wh2_dlc10_hef_mon_treekin_0	ovn_halfling_welf
-false				wh2_dlc10_hef_mon_treeman_0	ovn_halfling_welf
-false				wh2_main_hef_mon_great_eagle	ovn_halfling_welf
-false				wh_dlc05_wef_inf_dryads_0	ovn_halfling_welf
-false				wh_main_mtl_veh_soupcart	ovn_soup_art_r7
-false				halfling_cat_ror	ovn_soup_art_r7
-false				halfling_cat	ovn_soup_art_r7
-false				wh2_dlc10_hef_inf_dryads_0	ovn_halfling_welf_r7
-false				wh2_dlc10_hef_mon_treekin_0	ovn_halfling_welf_r7
-false				wh2_dlc10_hef_mon_treeman_0	ovn_halfling_welf_r7
-false				wh2_main_hef_mon_great_eagle	ovn_halfling_welf_r7
-false				wh_dlc05_wef_inf_dryads_0	ovn_halfling_welf_r7
-false				half_pig	monsters
-false				halfling_milittia_arch	ovn_halfling_hlf_r7
-false				hlf_baby_dragon	monsters
-false				hlf_roast_pig	ovn_halfling_hlf_r7
-false				ovn_mtl_cav_poultry_riders_0	wh2_dlc11_emp_greatswords_demigryph_knights
-false				ovn_mtl_cav_poultry_riders_0	emp_knights
-false				ovn_mtl_cav_swine_riders_0	wh2_dlc11_emp_greatswords_demigryph_knights
-false				ovn_mtl_cav_swine_riders_0	emp_knights
-false				halfling_warden_great	emp_infantry
-false				halfling_warden_great	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_warden_great	emp_melee_infantry_tier_1
-false				halfling_warden_great	emp_state_troops
-false				halfling_warden_great	emp_swords
-false				halfling_milittia_great	emp_swords
-false				halfling_warden_great	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_warden_great	infantry_units_melee
-false				halfling_warden_great	ovn_halfling_hlf_r7
-false				halfling_warden_great	infantry_units
-false				halfling_milittia_great_emp	infantry_units
-false				halfling_spear_emp	emp_infantry
-false				halfling_spear_emp	emp_melee_infantry_tier_1
-false				halfling_spear_emp	emp_state_troops
-false				halfling_spear_emp	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_milittia_great_emp	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_militia_emp	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_spear_emp	emp_swords
-false				halfling_spear_emp	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_spear_emp	ovn_halfling_hlf_r7
-false				halfling_cook_emp	emp_infantry
-false				halfling_cook_emp	emp_melee_infantry_tier_1
-false				halfling_cook_emp	emp_state_troops
-false				halfling_cook_emp	emp_swords
-false				halfling_cook_emp	wh2_dlc11_emp_greatswords_demigryph_knights
-false				halfling_cook_emp	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror
-false				halfling_cook_emp	ovn_halfling_hlf_r7
-false				halfling_cook_emp	infantry_units
-false				halfling_cook_emp	infantry_units_melee
-false				halfling_spear_emp	infantry_units
-false				halfling_spear_emp	infantry_units_melee
-false				halfling_milittia_great_emp	infantry_units_melee
-false				halfling_milittia_arch_emp	ovn_halfling_hlf_r7
-false				halfling_milittia_arch_emp	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders
-false				halfling_milittia_great_emp	emp_swords
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/halfling					
+			sr_ogre	emp_greatswords	false
+			sr_ogre	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			sr_ogre	emp_infantry	false
+			sr_ogre	cavalry_and_monsters_knights	false
+			sr_ogre	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			sr_ogre	ovn_halfling_ogre_r7	false
+			sr_ogre	emp_melee_infantry_tier_1	false
+			halfling_inf	emp_infantry	false
+			halfling_inf	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_inf	emp_melee_infantry_tier_1	false
+			halfling_inf	emp_state_troops	false
+			halfling_inf	emp_swords	false
+			halfling_milittia_great	infantry_units	false
+			halfling_inf	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_inf	infantry_units_melee	false
+			halfling_inf	infantry_units	false
+			halfling_inf	ovn_halfling_hlf_r7	false
+			halfling_warfoot	emp_infantry	false
+			halfling_warfoot	emp_melee_infantry_tier_1	false
+			halfling_warfoot	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_warfoot	emp_state_troops	false
+			halfling_warfoot	emp_swords	false
+			halfling_warfoot	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_warfoot	wh2_main_ror_units_all	false
+			halfling_warfoot	ovn_halfling_hlf_r7	false
+			halfling_archer	emp_crossbow	false
+			halfling_archer	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			halfling_archer	emp_infantry	false
+			halfling_archer	emp_state_troops	false
+			halfling_archer	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			halfling_archer	ovn_halfling_hlf_r7	false
+			halfling_cock	emp_crossbow	false
+			halfling_cock	emp_infantry	false
+			halfling_cock	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			halfling_cock	emp_state_troops	false
+			halfling_cock	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			halfling_cock	wh2_main_ror_units_all	false
+			halfling_cock	ovn_halfling_hlf_r7	false
+			wh_main_mtl_veh_soupcart	all_units_excluding_terror	true
+			wh_main_mtl_veh_soupcart	emp_steam_tank_and_demigryph_knights	false
+			wh_main_mtl_veh_soupcart	emp_steam_tank	false
+			wh_main_mtl_veh_soupcart	emp_warmachines	false
+			wh_main_mtl_veh_soupcart	emp_artillery	false
+			wh_main_mtl_veh_soupcart	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
+			wh_main_mtl_veh_soupcart	all_land_artillery	false
+			wh_main_mtl_veh_soupcart	wh2_main_ror_units_all	false
+			wh_main_mtl_veh_soupcart	artillery_units	false
+			wh_main_mtl_veh_soupcart	ovn_soup_art	false
+			halfling_spear	emp_infantry	false
+			halfling_spear	emp_melee_infantry_tier_1	false
+			halfling_spear	emp_state_troops	false
+			halfling_spear	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_milittia_great	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_militia	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_spear	emp_swords	false
+			halfling_spear	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_spear	ovn_halfling_hlf_r7	false
+			halfling_cook	emp_infantry	false
+			halfling_cook	emp_melee_infantry_tier_1	false
+			halfling_cook	emp_state_troops	false
+			halfling_cook	emp_swords	false
+			halfling_cook	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_cook	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_cook	ovn_halfling_hlf_r7	false
+			halfling_thief	emp_infantry	false
+			halfling_thief	emp_melee_infantry_tier_1	false
+			halfling_thief	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_thief	emp_state_troops	false
+			halfling_thief	emp_swords	false
+			halfling_thief	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_thief	ovn_halfling_hlf_r7	false
+			sr_ogre_ror	emp_greatswords	false
+			sr_ogre_ror	emp_infantry	false
+			sr_ogre_ror	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			sr_ogre_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			sr_ogre_ror	wh2_main_ror_units_all	false
+			sr_ogre_ror	cavalry_and_monsters_knights	false
+			sr_ogre_ror	emp_melee_infantry_tier_1	false
+			sr_ogre_ror	ovn_halfling_ogre_r7	false
+			halfling_cook_ror	emp_infantry	false
+			halfling_cook_ror	emp_melee_infantry_tier_1	false
+			halfling_cook_ror	emp_state_troops	false
+			halfling_cook_ror	emp_swords	false
+			halfling_cook_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_cook_ror	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_cook_ror	wh2_main_ror_units_all	false
+			halfling_cook_ror	infantry_units	false
+			halfling_cook_ror	infantry_units_melee	false
+			halfling_cook_ror	ovn_halfling_hlf_r7	false
+			sr_ogre_ror	infantry_units	false
+			sr_ogre_ror	infantry_units_melee	false
+			halfling_thief	infantry_units	false
+			halfling_thief	infantry_units_melee	false
+			halfling_cook	infantry_units	false
+			halfling_cook	infantry_units_melee	false
+			halfling_spear	infantry_units	false
+			halfling_spear	infantry_units_melee	false
+			halfling_milittia_great	infantry_units_melee	false
+			halfling_warfoot	infantry_units	false
+			halfling_warfoot	infantry_units_melee	false
+			sr_ogre	infantry_units	false
+			sr_ogre	infantry_units_melee	false
+			halfling_cat	emp_artillery	false
+			halfling_cat	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
+			halfling_cat_ror	emp_artillery	false
+			halfling_cat_ror	wh2_dlc11_emp_vets_all_artillery_luminark_steam_tank_war_wagon	false
+			halfling_cat_ror	wh2_main_ror_units_all	false
+			halfling_cat_ror	all_land_artillery	false
+			halfling_cat_ror	artillery_units	false
+			halfling_cat_ror	ovn_soup_art	false
+			halfling_cat	all_land_artillery	false
+			halfling_cat	artillery_units	false
+			halfling_cat	ovn_soup_art	false
+			wh2_dlc10_hef_inf_dryads_0	ovn_halfling_welf	false
+			wh2_dlc10_hef_mon_treekin_0	ovn_halfling_welf	false
+			wh2_dlc10_hef_mon_treeman_0	ovn_halfling_welf	false
+			wh2_main_hef_mon_great_eagle	ovn_halfling_welf	false
+			wh_dlc05_wef_inf_dryads_0	ovn_halfling_welf	false
+			wh_main_mtl_veh_soupcart	ovn_soup_art_r7	false
+			halfling_cat_ror	ovn_soup_art_r7	false
+			halfling_cat	ovn_soup_art_r7	false
+			wh2_dlc10_hef_inf_dryads_0	ovn_halfling_welf_r7	false
+			wh2_dlc10_hef_mon_treekin_0	ovn_halfling_welf_r7	false
+			wh2_dlc10_hef_mon_treeman_0	ovn_halfling_welf_r7	false
+			wh2_main_hef_mon_great_eagle	ovn_halfling_welf_r7	false
+			wh_dlc05_wef_inf_dryads_0	ovn_halfling_welf_r7	false
+			half_pig	monsters	false
+			halfling_milittia_arch	ovn_halfling_hlf_r7	false
+			hlf_baby_dragon	monsters	false
+			hlf_roast_pig	ovn_halfling_hlf_r7	false
+			ovn_mtl_cav_poultry_riders_0	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			ovn_mtl_cav_poultry_riders_0	emp_knights	false
+			ovn_mtl_cav_swine_riders_0	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			ovn_mtl_cav_swine_riders_0	emp_knights	false
+			halfling_warden_great	emp_infantry	false
+			halfling_warden_great	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_warden_great	emp_melee_infantry_tier_1	false
+			halfling_warden_great	emp_state_troops	false
+			halfling_warden_great	emp_swords	false
+			halfling_milittia_great	emp_swords	false
+			halfling_warden_great	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_warden_great	infantry_units_melee	false
+			halfling_warden_great	ovn_halfling_hlf_r7	false
+			halfling_warden_great	infantry_units	false
+			halfling_milittia_great_emp	infantry_units	false
+			halfling_spear_emp	emp_infantry	false
+			halfling_spear_emp	emp_melee_infantry_tier_1	false
+			halfling_spear_emp	emp_state_troops	false
+			halfling_spear_emp	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_milittia_great_emp	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_militia_emp	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_spear_emp	emp_swords	false
+			halfling_spear_emp	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_spear_emp	ovn_halfling_hlf_r7	false
+			halfling_cook_emp	emp_infantry	false
+			halfling_cook_emp	emp_melee_infantry_tier_1	false
+			halfling_cook_emp	emp_state_troops	false
+			halfling_cook_emp	emp_swords	false
+			halfling_cook_emp	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_cook_emp	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_cook_emp	ovn_halfling_hlf_r7	false
+			halfling_cook_emp	infantry_units	false
+			halfling_cook_emp	infantry_units_melee	false
+			halfling_spear_emp	infantry_units	false
+			halfling_spear_emp	infantry_units_melee	false
+			halfling_milittia_great_emp	infantry_units_melee	false
+			halfling_milittia_arch_emp	ovn_halfling_hlf_r7	false
+			halfling_milittia_arch_emp	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
+			halfling_milittia_great_emp	emp_swords	false

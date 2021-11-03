@@ -1,5 +1,5 @@
-building_sets_tables	3
 key	icon	sort_order	colour_r	colour_g	colour_b
+#building_sets_tables;3;db/building_sets_tables/ovn					
 hertz_rotblood_nurgle_building_set	UI/Buildings/Icons/skaven_cat_under_empire_discovery.png	0	90	170	90
 ovn_Nehekharan	UI/Buildings/Icons/araby_cat_excavation.png	2	37	164	164
 ovn_Waystone	UI/Buildings/Icons/albion_cat_waystone.png	2	37	164	164

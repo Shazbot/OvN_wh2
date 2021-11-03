@@ -1,5 +1,5 @@
-building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+#building_levels_tables;16;db/building_levels_tables/ovn_hlf_buildings																										
 ovn_hlf_welf_1	ovn_hlf_welf	0	2	1000	0		false	0	0	0	0	false				true	ovn_hlf_welf	false	0.0	0	true	1		true	0	0
 ovn_hlf_welf_2	ovn_hlf_welf	1	3	1750	0		false	0	0	0	0	false				true	ovn_hlf_welf	false	0.0	0	true	2		true	0	0
 ovn_hlf_welf_3	ovn_hlf_welf	2	4	2500	0		false	0	0	0	0	false				true	ovn_hlf_welf	false	0.0	0	true	3		true	0	0

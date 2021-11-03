@@ -1,9 +1,9 @@
-unit_variants_colours_tables	5
-faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	key	unit_variant	subculture
-wh2_main_emp_the_moot	0	51	102	0	51	102	soldier	0	51	102	281589030	ovn_hlf_fieldwarden	
-wh2_main_emp_the_moot	50	160	140	0	0	128	soldier	35	45	155	281589031	ovn_hlf_moot_general	
-wh2_main_emp_the_moot	0	153	204	240	240	240	soldier	240	240	240	281599141	ovn_hlf_master_chef	
-wh2_main_emp_the_moot	240	240	240	240	240	240	soldier	255	0	0	281599142	ovn_hlf_sheriff	
-wh2_main_emp_the_moot	50	160	140	0	0	128	officer	35	45	155	283589586	ovn_hlf_moot_general_2_poultry	
-wh2_main_emp_the_moot	0	153	204	240	240	240	officer	240	240	240	281687641	ovn_hlf_master_chef_1	
-wh2_main_emp_the_moot	240	240	240	240	240	240	officer	255	0	0	289527641	ovn_hlf_sheriff_1	
+key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	unit_variant	subculture
+#unit_variants_colours_tables;5;db/unit_variants_colours_tables/ovn_wolf_halfling_lordsheroes													
+281589030	wh2_main_emp_the_moot	0	51	102	0	51	102	soldier	0	51	102	ovn_hlf_fieldwarden	
+281589031	wh2_main_emp_the_moot	50	160	140	0	0	128	soldier	35	45	155	ovn_hlf_moot_general	
+281599141	wh2_main_emp_the_moot	0	153	204	240	240	240	soldier	240	240	240	ovn_hlf_master_chef	
+281599142	wh2_main_emp_the_moot	240	240	240	240	240	240	soldier	255	0	0	ovn_hlf_sheriff	
+283589586	wh2_main_emp_the_moot	50	160	140	0	0	128	officer	35	45	155	ovn_hlf_moot_general_2_poultry	
+281687641	wh2_main_emp_the_moot	0	153	204	240	240	240	officer	240	240	240	ovn_hlf_master_chef_1	
+289527641	wh2_main_emp_the_moot	240	240	240	240	240	240	officer	255	0	0	ovn_hlf_sheriff_1	

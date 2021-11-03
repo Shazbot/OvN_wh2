@@ -1,5 +1,5 @@
-banners_permitted_unit_sets_tables	0
 banner	unit_set
+#banners_permitted_unit_sets_tables;0;db/banners_permitted_unit_sets_tables/elo_albion	
 anc_albion_triskele_banner	elo_albion_humans
 albion_scary_banner	elo_albion_humans
 anc_danu_banner	elo_albion_humans

@@ -1,5 +1,5 @@
-ui_text_replacements_tables	0
 key
+#ui_text_replacements_tables;0;db/ui_text_replacements_tables/ovn
 ovn_no_active_cooking_dish
 ovn_no_active_cooking_dish_wh_main_sc_emp_empire
 wh2_dlc09_undead_description_wh_main_sc_chs_chaos

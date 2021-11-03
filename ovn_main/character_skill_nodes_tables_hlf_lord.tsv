@@ -1,74 +1,74 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_main_skill_all_lord_battle_inspiring_presence	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_01	0.0		0	0	true
-	wh2_dlc11_skill_emp_army_buff_pistolkorps	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_02	1.0		0	0	true
-	wh2_dlc11_skill_emp_army_buff_honest_steel	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_03	2.0		0	0	true
-	ovn_buff_soup_art	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_04	3.0		0	0	true
-	ovn_buff_halfling_welf	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_05	4.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_06	5.0		0	3	true
-	ovn_halfling_hlf_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_07	6.0		0	0	true
-	ovn_halfling_ogre_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_08	7.0		0	0	true
-	ovn_halfling_welf_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_09	8.0		0	0	true
-	ovn_soup_art_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_10	9.0		0	0	true
-	wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_ovn_hlf_ll		4.0	wh_main_skill_node_ovn_hlf_ll_battle_11	10.0		0	2	true
-	wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_01	0.0		0	0	true
-	wh_main_skill_emp_lord_campaign_iron_disciplinarian	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_02	1.0		0	0	true
-	wh_main_skill_emp_lord_campaign_leader_of_renown	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_03	2.0		0	0	true
-	wh_main_skill_lord_all_campaign_reassuring_presence	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_04	3.0		0	0	true
-	wh_main_skill_emp_lord_campaign_fervent	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_05	4.0		0	0	true
-	wh_main_skill_all_lord_campaign_irrepressible	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_06	5.0		0	3	true
-	wh_main_skill_all_lord_campaign_lightning_strike	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_07	6.0		0	0	true
-	wh_main_skill_emp_lord_campaign_quartermaster	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_08	7.0		0	0	true
-	wh_main_skill_emp_lord_campaign_logistician	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_09	8.0		0	0	true
-	wh_main_skill_all_lord_campaign_alert	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_10	9.0		0	0	true
-	wh2_main_skill_LL_self_defense	wh_main_skill_node_set_ovn_hlf_ll		5.0	wh_main_skill_node_ovn_hlf_ll_campaign_11	10.0		0	4	true
-	hlf_Lord_Buff	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_1	0.0		0	0	false
-	wh_main_skill_all_all_self_hard_to_hit_starter	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_01	0.0		0	0	true
-	wh_main_skill_all_dignitary_self_conviction	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_02	1.0		0	0	true
-	wh_main_skill_all_dignitary_self_impassioned	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_03	2.0		0	0	true
-	wh_main_skill_all_dignitary_self_tenacity	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_04	3.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_thick-skinned	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_05	4.0		0	0	true
-	wh_main_skill_all_all_self_foe-seeker	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_06	5.0		0	4	true
-	wh_main_skill_all_dignitary_self_soothsaying	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_07	6.0		0	0	true
-	wh2_dlc11_skill_wef_lord_self_expeditious_endeavour	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_08	7.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_self_indomitable	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_09	8.0		0	0	true
-	wh_main_skill_all_dignitary_self_fervour	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_10	9.0		0	0	true
-	wh_main_skill_all_all_self_deadly_onslaught	wh_main_skill_node_set_ovn_hlf_ll		1.0	wh_main_skill_node_ovn_hlf_ll_self_11	10.0		0	4	true
-	hlf_robe	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_01	1.0		0	0	true
-	hlf_staff	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_02	2.0		0	0	true
-	trick_Buff	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_00	0.0		1	0	true
-	wh_dlc05_skill_magic_shadow_mystifying_miasma	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_01	1.0		0	0	true
-	wh_dlc05_skill_magic_shadow_smoke_and_mirrors	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_02	2.0		0	0	true
-	wh_dlc05_skill_magic_shadow_enfeebling_foe	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_03	3.0		0	0	true
-	wh_dlc05_skill_magic_shadow_the_withering	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_04	4.0		0	0	true
-	wh_dlc05_skill_magic_shadow_penumbral_pendulum	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_05	5.0		0	0	true
-	wh_main_skill_all_magic_all_07_earthing	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_06	6.0		0	3	true
-	wh_dlc05_skill_magic_shadow_pit_of_shades	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_07	7.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	wh_main_skill_node_set_ovn_hlf_ll		3.0	wh_main_skill_node_ovn_hlf_ll_magic_08	9.0		0	0	true
-	meat_Buff	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_13	6.0		0	0	true
-	cig_Buff	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_14	7.0		0	0	true
-	wh_main_skill_emp_lord_battle_hold_the_line	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_15	9.0		0	0	true
-	wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_16	10.0		0	0	true
-	haffenlyver	wh_main_skill_node_set_ovn_hlf_ll		0.0	wh_main_skill_node_ovn_hlf_ll_unique_17	8.0		0	0	true
-	elo_halfling_cook	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_2	1.0		0	0	false
-	elo_halfling_scharlatan	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_3	2.0		0	0	false
-	elo_halfling_glutton	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_4	3.0		0	0	false
-	elo_halfling_farmer	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_5	4.0		0	0	false
-	elo_halfling_warden	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_6	5.0		0	0	false
-	elo_halfling_thief	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_7	6.0		0	0	false
-	elo_halfling_adventurer	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_8	7.0		0	0	false
-	elo_halfling_pennypincher	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_9	8.0		0	0	false
-	wh2_main_skill_innate_all_aggressive	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_10	9.0		0	0	false
-	wh2_main_skill_innate_all_confident	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_11	10.0		0	0	false
-	wh2_main_skill_innate_all_cunning	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_12	11.0		0	0	false
-	wh2_main_skill_innate_all_determined	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_13	12.0		0	0	false
-	wh2_main_skill_innate_all_disciplined	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_14	13.0		0	0	false
-	wh2_main_skill_innate_all_fleet_footed	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_15	14.0		0	0	false
-	wh2_main_skill_innate_all_intelligent	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_16	15.0		0	0	false
-	wh2_main_skill_innate_all_knowledgeable	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_17	16.0		0	0	false
-	wh2_main_skill_innate_all_perceptive	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_18	17.0		0	0	false
-	wh2_main_skill_innate_all_strategist	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_19	18.0		0	0	false
-	wh2_main_skill_innate_all_strong	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_20	19.0		0	0	false
-	wh2_main_skill_innate_all_tactician	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_21	20.0		0	0	false
-	wh2_main_skill_innate_all_tough	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_22	21.0		0	0	false
-	wh2_main_skill_innate_all_weapon_master	wh_main_skill_node_set_ovn_hlf_ll		6.0	ovn_hlf_grand_enchanter_innate_23	22.0		0	0	false
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/hlf_lord										
+wh_main_skill_node_ovn_hlf_ll_battle_01		wh_main_skill_all_lord_battle_inspiring_presence	wh_main_skill_node_set_ovn_hlf_ll		4.0	0.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_02		wh2_dlc11_skill_emp_army_buff_pistolkorps	wh_main_skill_node_set_ovn_hlf_ll		4.0	1.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_03		wh2_dlc11_skill_emp_army_buff_honest_steel	wh_main_skill_node_set_ovn_hlf_ll		4.0	2.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_04		ovn_buff_soup_art	wh_main_skill_node_set_ovn_hlf_ll		4.0	3.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_05		ovn_buff_halfling_welf	wh_main_skill_node_set_ovn_hlf_ll		4.0	4.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_06		wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_ovn_hlf_ll		4.0	5.0		0	3	true
+wh_main_skill_node_ovn_hlf_ll_battle_07		ovn_halfling_hlf_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	6.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_08		ovn_halfling_ogre_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	7.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_09		ovn_halfling_welf_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	8.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_10		ovn_soup_art_r7	wh_main_skill_node_set_ovn_hlf_ll		4.0	9.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_battle_11		wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_ovn_hlf_ll		4.0	10.0		0	2	true
+wh_main_skill_node_ovn_hlf_ll_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_set_ovn_hlf_ll		5.0	0.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_02		wh_main_skill_emp_lord_campaign_iron_disciplinarian	wh_main_skill_node_set_ovn_hlf_ll		5.0	1.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown	wh_main_skill_node_set_ovn_hlf_ll		5.0	2.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence	wh_main_skill_node_set_ovn_hlf_ll		5.0	3.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_05		wh_main_skill_emp_lord_campaign_fervent	wh_main_skill_node_set_ovn_hlf_ll		5.0	4.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_06		wh_main_skill_all_lord_campaign_irrepressible	wh_main_skill_node_set_ovn_hlf_ll		5.0	5.0		0	3	true
+wh_main_skill_node_ovn_hlf_ll_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	wh_main_skill_node_set_ovn_hlf_ll		5.0	6.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster	wh_main_skill_node_set_ovn_hlf_ll		5.0	7.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_09		wh_main_skill_emp_lord_campaign_logistician	wh_main_skill_node_set_ovn_hlf_ll		5.0	8.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_10		wh_main_skill_all_lord_campaign_alert	wh_main_skill_node_set_ovn_hlf_ll		5.0	9.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_campaign_11		wh2_main_skill_LL_self_defense	wh_main_skill_node_set_ovn_hlf_ll		5.0	10.0		0	4	true
+ovn_hlf_grand_enchanter_innate_1		hlf_Lord_Buff	wh_main_skill_node_set_ovn_hlf_ll		6.0	0.0		0	0	false
+wh_main_skill_node_ovn_hlf_ll_self_01		wh_main_skill_all_all_self_hard_to_hit_starter	wh_main_skill_node_set_ovn_hlf_ll		1.0	0.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_02		wh_main_skill_all_dignitary_self_conviction	wh_main_skill_node_set_ovn_hlf_ll		1.0	1.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_03		wh_main_skill_all_dignitary_self_impassioned	wh_main_skill_node_set_ovn_hlf_ll		1.0	2.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_04		wh_main_skill_all_dignitary_self_tenacity	wh_main_skill_node_set_ovn_hlf_ll		1.0	3.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_05		wh2_dlc11_skill_all_lord_self_thick-skinned	wh_main_skill_node_set_ovn_hlf_ll		1.0	4.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_06		wh_main_skill_all_all_self_foe-seeker	wh_main_skill_node_set_ovn_hlf_ll		1.0	5.0		0	4	true
+wh_main_skill_node_ovn_hlf_ll_self_07		wh_main_skill_all_dignitary_self_soothsaying	wh_main_skill_node_set_ovn_hlf_ll		1.0	6.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_08		wh2_dlc11_skill_wef_lord_self_expeditious_endeavour	wh_main_skill_node_set_ovn_hlf_ll		1.0	7.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_09		wh2_dlc11_skill_all_lord_self_self_indomitable	wh_main_skill_node_set_ovn_hlf_ll		1.0	8.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_10		wh_main_skill_all_dignitary_self_fervour	wh_main_skill_node_set_ovn_hlf_ll		1.0	9.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_self_11		wh_main_skill_all_all_self_deadly_onslaught	wh_main_skill_node_set_ovn_hlf_ll		1.0	10.0		0	4	true
+wh_main_skill_node_ovn_hlf_ll_unique_01		hlf_robe	wh_main_skill_node_set_ovn_hlf_ll		0.0	1.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_02		hlf_staff	wh_main_skill_node_set_ovn_hlf_ll		0.0	2.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_00		trick_Buff	wh_main_skill_node_set_ovn_hlf_ll		3.0	0.0		1	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_01		wh_dlc05_skill_magic_shadow_mystifying_miasma	wh_main_skill_node_set_ovn_hlf_ll		3.0	1.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_02		wh_dlc05_skill_magic_shadow_smoke_and_mirrors	wh_main_skill_node_set_ovn_hlf_ll		3.0	2.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_03		wh_dlc05_skill_magic_shadow_enfeebling_foe	wh_main_skill_node_set_ovn_hlf_ll		3.0	3.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_04		wh_dlc05_skill_magic_shadow_the_withering	wh_main_skill_node_set_ovn_hlf_ll		3.0	4.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_05		wh_dlc05_skill_magic_shadow_penumbral_pendulum	wh_main_skill_node_set_ovn_hlf_ll		3.0	5.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_06		wh_main_skill_all_magic_all_07_earthing	wh_main_skill_node_set_ovn_hlf_ll		3.0	6.0		0	3	true
+wh_main_skill_node_ovn_hlf_ll_magic_07		wh_dlc05_skill_magic_shadow_pit_of_shades	wh_main_skill_node_set_ovn_hlf_ll		3.0	7.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_magic_08		wh_main_skill_all_magic_all_08_power_drain	wh_main_skill_node_set_ovn_hlf_ll		3.0	9.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_13		meat_Buff	wh_main_skill_node_set_ovn_hlf_ll		0.0	6.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_14		cig_Buff	wh_main_skill_node_set_ovn_hlf_ll		0.0	7.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_15		wh_main_skill_emp_lord_battle_hold_the_line	wh_main_skill_node_set_ovn_hlf_ll		0.0	9.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_16		wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_ovn_hlf_ll		0.0	10.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_17		haffenlyver	wh_main_skill_node_set_ovn_hlf_ll		0.0	8.0		0	0	true
+ovn_hlf_grand_enchanter_innate_2		elo_halfling_cook	wh_main_skill_node_set_ovn_hlf_ll		6.0	1.0		0	0	false
+ovn_hlf_grand_enchanter_innate_3		elo_halfling_scharlatan	wh_main_skill_node_set_ovn_hlf_ll		6.0	2.0		0	0	false
+ovn_hlf_grand_enchanter_innate_4		elo_halfling_glutton	wh_main_skill_node_set_ovn_hlf_ll		6.0	3.0		0	0	false
+ovn_hlf_grand_enchanter_innate_5		elo_halfling_farmer	wh_main_skill_node_set_ovn_hlf_ll		6.0	4.0		0	0	false
+ovn_hlf_grand_enchanter_innate_6		elo_halfling_warden	wh_main_skill_node_set_ovn_hlf_ll		6.0	5.0		0	0	false
+ovn_hlf_grand_enchanter_innate_7		elo_halfling_thief	wh_main_skill_node_set_ovn_hlf_ll		6.0	6.0		0	0	false
+ovn_hlf_grand_enchanter_innate_8		elo_halfling_adventurer	wh_main_skill_node_set_ovn_hlf_ll		6.0	7.0		0	0	false
+ovn_hlf_grand_enchanter_innate_9		elo_halfling_pennypincher	wh_main_skill_node_set_ovn_hlf_ll		6.0	8.0		0	0	false
+ovn_hlf_grand_enchanter_innate_10		wh2_main_skill_innate_all_aggressive	wh_main_skill_node_set_ovn_hlf_ll		6.0	9.0		0	0	false
+ovn_hlf_grand_enchanter_innate_11		wh2_main_skill_innate_all_confident	wh_main_skill_node_set_ovn_hlf_ll		6.0	10.0		0	0	false
+ovn_hlf_grand_enchanter_innate_12		wh2_main_skill_innate_all_cunning	wh_main_skill_node_set_ovn_hlf_ll		6.0	11.0		0	0	false
+ovn_hlf_grand_enchanter_innate_13		wh2_main_skill_innate_all_determined	wh_main_skill_node_set_ovn_hlf_ll		6.0	12.0		0	0	false
+ovn_hlf_grand_enchanter_innate_14		wh2_main_skill_innate_all_disciplined	wh_main_skill_node_set_ovn_hlf_ll		6.0	13.0		0	0	false
+ovn_hlf_grand_enchanter_innate_15		wh2_main_skill_innate_all_fleet_footed	wh_main_skill_node_set_ovn_hlf_ll		6.0	14.0		0	0	false
+ovn_hlf_grand_enchanter_innate_16		wh2_main_skill_innate_all_intelligent	wh_main_skill_node_set_ovn_hlf_ll		6.0	15.0		0	0	false
+ovn_hlf_grand_enchanter_innate_17		wh2_main_skill_innate_all_knowledgeable	wh_main_skill_node_set_ovn_hlf_ll		6.0	16.0		0	0	false
+ovn_hlf_grand_enchanter_innate_18		wh2_main_skill_innate_all_perceptive	wh_main_skill_node_set_ovn_hlf_ll		6.0	17.0		0	0	false
+ovn_hlf_grand_enchanter_innate_19		wh2_main_skill_innate_all_strategist	wh_main_skill_node_set_ovn_hlf_ll		6.0	18.0		0	0	false
+ovn_hlf_grand_enchanter_innate_20		wh2_main_skill_innate_all_strong	wh_main_skill_node_set_ovn_hlf_ll		6.0	19.0		0	0	false
+ovn_hlf_grand_enchanter_innate_21		wh2_main_skill_innate_all_tactician	wh_main_skill_node_set_ovn_hlf_ll		6.0	20.0		0	0	false
+ovn_hlf_grand_enchanter_innate_22		wh2_main_skill_innate_all_tough	wh_main_skill_node_set_ovn_hlf_ll		6.0	21.0		0	0	false
+ovn_hlf_grand_enchanter_innate_23		wh2_main_skill_innate_all_weapon_master	wh_main_skill_node_set_ovn_hlf_ll		6.0	22.0		0	0	false

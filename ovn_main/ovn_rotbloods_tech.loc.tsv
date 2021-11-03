@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_rotbloods_tech.loc		
 technologies_long_description_rot_tech_mon_2	The northlands exist in the shadow of terrible energies. When the world was young, mysterious beings known only as the Old Ones sited a gateway to the stars above the world's poles. Unknown to them this portal drew other, less benevolent entities, now worshipped as the Dark Gods. A cataclysm occurred, unseen by mortal eyes, and the gateway was destroyed. But not entirely. There remains, in the farthest north, a place where all reason, all life, breaks down: the Realm of Chaos. Those strong enough to serve its fickle rulers and endure the changes it carves into living flesh share a fraction of that unearthly power, and those best suited to do so are monstrous creatures who know no other Gods and have always called the northlands home.	true
 technologies_onscreen_name_rot_tech_mon_2	Chaos Surge	true
 technologies_short_description_rot_tech_mon_2	Nowhere else but under the shadow of Chaos are such brutish and degenerate killers nurtured and bred.	true

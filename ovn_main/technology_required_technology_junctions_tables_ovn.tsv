@@ -1,5 +1,5 @@
-technology_required_technology_junctions_tables	0
 technology	required_technology
+#technology_required_technology_junctions_tables;0;db/technology_required_technology_junctions_tables/ovn	
 araby_tech_neu_1	araby_tech_good_2
 araby_tech_neu_1	araby_tech_neu_eco_1
 araby_tech_neu_3	araby_tech_good_4

@@ -1,22 +1,22 @@
-building_units_allowed_tables	4
-building	unit	xp	key	conditions	faction	enabled
-wh_main_emp_cha_grudge_recruit_1	wh_dlc04_emp_inf_free_company_militia_0	0	260589105	0		false
-wh_main_emp_cha_grudge_recruit_2	wh_dlc04_emp_inf_free_company_militia_0	0	260589106	0		false
-wh_main_emp_cha_grudge_recruit_3	wh_dlc04_emp_inf_free_company_militia_0	0	260589107	0		false
-wh_main_emp_cha_grudge_recruit_2	wh_main_emp_cav_pistoliers_1	0	260589108	0		false
-wh_main_emp_cha_grudge_recruit_3	wh_main_emp_cav_pistoliers_1	0	260589109	0		false
-wh_main_emp_cha_grudge_recruit_3	sr_ogre	0	260589110	0		false
-wh_main_emp_cha_grudge_growth_2	wh2_dlc13_emp_inf_archers_0	0	260589111	0		false
-wh_main_emp_cha_grudge_growth_3	wh2_dlc13_emp_inf_archers_0	0	260589112	0		false
-wh_main_emp_cha_grudge_growth_3	wh2_dlc13_emp_inf_huntsmen_0	0	260589113	0		false
-wh_main_emp_cha_grudge_worship	wh_dlc04_emp_inf_flagellants_0	0	260589114	0		false
-wh_main_emp_cha_grudge_recruit_3	halfling_archer	0	260589115	0		false
-wh_main_emp_cha_grudge_recruit_1	wh_main_emp_inf_spearmen_0	0	260589116	0		false
-wh_main_emp_cha_grudge_recruit_2	wh_main_emp_inf_spearmen_0	0	260589117	0		false
-wh_main_emp_cha_grudge_recruit_3	wh_main_emp_inf_spearmen_0	0	260589118	0		false
-wh_main_emp_cha_grudge_recruit_2	wh_main_emp_inf_swordsmen	0	260589362	0		false
-wh_main_emp_cha_grudge_recruit_3	wh_main_emp_inf_swordsmen	0	260589363	0		false
-ovn_grudge_settlement_recruit	wh_main_emp_inf_swordsmen	0	260589364	0		false
-ovn_grudge_settlement_recruit	wh_main_emp_cav_pistoliers_1	0	260589365	0		false
-ovn_grudge_settlement_recruit	wh_dlc04_emp_inf_free_company_militia_0	0	260589366	0		false
-ovn_grudge_settlement_recruit	wh_main_emp_inf_crossbowmen	0	260589367	0		false
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/!!!ovn_grudge						
+260589105	wh_main_emp_cha_grudge_recruit_1	wh_dlc04_emp_inf_free_company_militia_0	0	0		false
+260589106	wh_main_emp_cha_grudge_recruit_2	wh_dlc04_emp_inf_free_company_militia_0	0	0		false
+260589107	wh_main_emp_cha_grudge_recruit_3	wh_dlc04_emp_inf_free_company_militia_0	0	0		false
+260589108	wh_main_emp_cha_grudge_recruit_2	wh_main_emp_cav_pistoliers_1	0	0		false
+260589109	wh_main_emp_cha_grudge_recruit_3	wh_main_emp_cav_pistoliers_1	0	0		false
+260589110	wh_main_emp_cha_grudge_recruit_3	sr_ogre	0	0		false
+260589111	wh_main_emp_cha_grudge_growth_2	wh2_dlc13_emp_inf_archers_0	0	0		false
+260589112	wh_main_emp_cha_grudge_growth_3	wh2_dlc13_emp_inf_archers_0	0	0		false
+260589113	wh_main_emp_cha_grudge_growth_3	wh2_dlc13_emp_inf_huntsmen_0	0	0		false
+260589114	wh_main_emp_cha_grudge_worship	wh_dlc04_emp_inf_flagellants_0	0	0		false
+260589115	wh_main_emp_cha_grudge_recruit_3	halfling_archer	0	0		false
+260589116	wh_main_emp_cha_grudge_recruit_1	wh_main_emp_inf_spearmen_0	0	0		false
+260589117	wh_main_emp_cha_grudge_recruit_2	wh_main_emp_inf_spearmen_0	0	0		false
+260589118	wh_main_emp_cha_grudge_recruit_3	wh_main_emp_inf_spearmen_0	0	0		false
+260589362	wh_main_emp_cha_grudge_recruit_2	wh_main_emp_inf_swordsmen	0	0		false
+260589363	wh_main_emp_cha_grudge_recruit_3	wh_main_emp_inf_swordsmen	0	0		false
+260589364	ovn_grudge_settlement_recruit	wh_main_emp_inf_swordsmen	0	0		false
+260589365	ovn_grudge_settlement_recruit	wh_main_emp_cav_pistoliers_1	0	0		false
+260589366	ovn_grudge_settlement_recruit	wh_dlc04_emp_inf_free_company_militia_0	0	0		false
+260589367	ovn_grudge_settlement_recruit	wh_main_emp_inf_crossbowmen	0	0		false

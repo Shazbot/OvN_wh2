@@ -1,5 +1,5 @@
-ancillary_included_subcultures_tables	0
 ancillary	subculture
+#ancillary_included_subcultures_tables;0;db/ancillary_included_subcultures_tables/halfling	
 hlf_staff	wh_main_sc_emp_empire
 hlf_robe	wh_main_sc_emp_empire
 ovn_anc_follower_halfling_housewife	wh_main_sc_emp_empire

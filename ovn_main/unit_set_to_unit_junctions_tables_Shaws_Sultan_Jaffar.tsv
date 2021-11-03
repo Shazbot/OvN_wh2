@@ -1,15 +1,15 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				Sultan_Jaffar	all_units_excluding_immune_to_psychology
-false				Sultan_Jaffar	all_units_excluding_terror
-false				Sultan_Jaffar	emp_characters
-false				Sultan_Jaffar_camel	all_units_excluding_immune_to_psychology
-false				Sultan_Jaffar_camel	all_units_excluding_terror
-false				Sultan_Jaffar_camel	emp_characters
-false				Sultan_Jaffar_elephant	all_units_excluding_immune_to_psychology
-false				Sultan_Jaffar_elephant	all_units_excluding_terror
-false				Sultan_Jaffar_elephant	emp_characters
-false				Sultan_Jaffar_elephant	wh2_mp_single_entity_monsters
-false				OtF_khemri_elite_guard	arb_jaffar_serpent_guard_units
-false				ovn_cat_knights	arb_jaffar_serpent_guard_units
-false				ovn_cat_knights_ror	arb_jaffar_serpent_guard_units
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/Shaws_Sultan_Jaffar					
+			Sultan_Jaffar	all_units_excluding_immune_to_psychology	false
+			Sultan_Jaffar	all_units_excluding_terror	false
+			Sultan_Jaffar	emp_characters	false
+			Sultan_Jaffar_camel	all_units_excluding_immune_to_psychology	false
+			Sultan_Jaffar_camel	all_units_excluding_terror	false
+			Sultan_Jaffar_camel	emp_characters	false
+			Sultan_Jaffar_elephant	all_units_excluding_immune_to_psychology	false
+			Sultan_Jaffar_elephant	all_units_excluding_terror	false
+			Sultan_Jaffar_elephant	emp_characters	false
+			Sultan_Jaffar_elephant	wh2_mp_single_entity_monsters	false
+			OtF_khemri_elite_guard	arb_jaffar_serpent_guard_units	false
+			ovn_cat_knights	arb_jaffar_serpent_guard_units	false
+			ovn_cat_knights_ror	arb_jaffar_serpent_guard_units	false

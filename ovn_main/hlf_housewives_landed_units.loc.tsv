@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/hlf_housewives_landed_units.loc		
 land_units_onscreen_name_halfling_housewives	Halfling Housewives	true
 unit_description_short_texts_text_hef_calith_gatekeepers	Clad in jade armour, these elite Asur swordsmen have sworn to defend the Gates of Calith from all who threaten them.	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_landmark_resources.loc		
 resources_onscreen_text_res_location_albion	Strategic Location	true
 resources_description_res_location_albion	This location is of special importance to the Truthsayers of Albion.	true
 resources_description_res_location_albion_lzd	This location is of special importance to the Truthsayers of Albion and the Lizardmen.	true

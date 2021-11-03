@@ -1,5 +1,5 @@
-ancillary_to_effects_tables	0
 ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/elo_ugma_new			
 anc_adventurer_trinkets	wh_main_effect_character_stat_mod_ward_save_magic	character_to_character_own	10.0
 anc_adventurer_trinkets	wh_main_effect_force_all_campaign_upkeep	general_to_force_own	-10.0
 anc_adventurer_trinkets	wh_main_effect_character_stat_mod_ward_save_fire	character_to_character_own	5.0

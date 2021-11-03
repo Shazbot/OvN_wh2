@@ -1,3 +1,3 @@
-projectile_displays_tables	10
-display_model	impact	key	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood
-variantmeshes/wh_variantmodels/hu3/mtl/mtl_bees/beehive1.rigid_model_v2		ovn_hlf_bee_throwers		wh_main_weapon_trail_smoke_small				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact			
+key	display_model	impact	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood
+#projectile_displays_tables;10;db/projectile_displays_tables/pj_hlf_bees															
+ovn_hlf_bee_throwers	variantmeshes/wh_variantmodels/hu3/mtl/mtl_bees/beehive1.rigid_model_v2			wh_main_weapon_trail_smoke_small				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact			

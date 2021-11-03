@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_effects.loc		
 effects_description_ovn_effect_enable_mount_djinn_vessel	Follower: Djinn Vessel	true
 effects_description_ovn_effect_enable_mount_magic_carpet	Mount: Flying Carpet	true
 wh_main_effect_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true

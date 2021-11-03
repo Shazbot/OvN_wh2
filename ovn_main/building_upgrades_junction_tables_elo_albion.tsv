@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/elo_albion	
 elo_ogham_stone_1	elo_ogham_stone_2
 elo_ogham_stone_2	elo_ogham_stone_4
 elo_ogham_stone_4	elo_ogham_stone_3

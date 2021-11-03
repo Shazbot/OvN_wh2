@@ -1,4 +1,4 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_alb_waystone	
 ovn_Waystone_1	ovn_Waystone_2
 ovn_Waystone_2	ovn_Waystone_3

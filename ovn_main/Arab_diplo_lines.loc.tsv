@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Arab_diplo_lines.loc		
 diplomacy_strings_string_Araby_Dip_Acceptance_Negative_01	The Desert Spirits advise me otherwise, but I will accept your proposal.	false
 diplomacy_strings_string_Araby_Dip_Acceptance_Negative_02	You have my word, but not my confidence. Now go away!	false
 diplomacy_strings_string_Araby_Dip_Acceptance_Negative_03	I hope spirits don't punish me for this.	false

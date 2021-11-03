@@ -1,4 +1,4 @@
-building_downgrade_junctions_tables	0
 from	to
+#building_downgrade_junctions_tables;0;db/building_downgrade_junctions_tables/ovn_nor_outpost_expansion	
 ovn_nor_outpost_major_human_4	ovn_nor_outpost_major_human_4
 wh_main_nor_outpost_major_human_4_coast	wh_main_nor_outpost_major_human_4_coast

@@ -1,5 +1,5 @@
-character_traits_tables	2
 key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+#character_traits_tables;2;db/character_traits_tables/ovn_lost_factions_gold						
 ovn_trait_defeated_olorin_the_grey_wizard	1	false	1	human	1	
 grudge_trait_name_dummy_vladimir_stormbringer	1	true	99	personality	0	
 grudge_trait_name_dummy_luther_flamestrike	1	true	99	personality	0	

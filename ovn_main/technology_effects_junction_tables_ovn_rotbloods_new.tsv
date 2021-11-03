@@ -1,5 +1,5 @@
-technology_effects_junction_tables	0
 technology	effect	effect_scope	value
+#technology_effects_junction_tables;0;db/technology_effects_junction_tables/ovn_rotbloods_new			
 rot_tech_mon_2	rot_charge_speed_increase_trolls	faction_to_force_own_unseen	10.0
 rot_tech_mon_2	rot_melee_damage_increase_trolls	faction_to_force_own_unseen	10.0
 rot_tech_mon_2	rot_recruitment_cost_reduction_trolls	faction_to_force_own_unseen	-10.0

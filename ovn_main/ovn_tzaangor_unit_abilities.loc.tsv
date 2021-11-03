@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_tzaangor_unit_abilities.loc		
 unit_abilities_tooltip_text_elo_tzaan_twisted_blessings	Bless the target with the powers of the Changer of Way, flesh may reform under his touch to better serve the blessed...maybe.	true
 unit_abilities_onscreen_name_elo_tzaan_twisted_blessings	Twisted Blessings	true
 unit_abilities_tooltip_text_elo_tzaan_boon_tzeentch	When the winds of magic blow strong on a battlefield, Tzeentch may use his influence to protect his worthy followers. As long as they remain useful.	false

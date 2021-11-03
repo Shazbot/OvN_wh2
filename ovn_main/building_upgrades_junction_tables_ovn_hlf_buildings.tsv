@@ -1,4 +1,4 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_hlf_buildings	
 ovn_hlf_welf_1	ovn_hlf_welf_2
 ovn_hlf_welf_2	ovn_hlf_welf_3

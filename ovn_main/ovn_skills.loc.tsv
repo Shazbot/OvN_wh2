@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_skills.loc		
 effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands	true
 effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands	true
 effects_description_elo_elite_mdef	Melee Defence: %+n  for Hearthguard, Highlanders and Viridian Lords	true

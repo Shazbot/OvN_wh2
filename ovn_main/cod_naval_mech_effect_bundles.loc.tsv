@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/cod_naval_mech_effect_bundles.loc		
 effects_description_cod_threat_vhigh_dummy	Amanar Alert: Threat Level Severe & Supplies Barren	false
 effects_description_cod_threat_high_dummy	Nadrur Alert: Threat Level High & Supplies Low	false
 effects_description_cod_threat_vlow_dummy	Histo Alert: Threat Level Fanciful & Supplies Plentiful	false

@@ -1,5 +1,5 @@
-unit_abilities_tables	16
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;16;db/unit_abilities_tables/ovn_fimir											
 elo_fimir_witness_me	true	wh_dlc03_unit_abilities_slaughterers_call		wh_type_augment		wh_main_anc_group_rare	true	false	lord		false
 ovn_mystic_mist	false	wh_dlc08_unit_passive_from_the_mist		wh_type_area_of_augments		wh_main_anc_group_rare	false	false	unit		false
 fire_of_the_gods_effect_deamon	false	wh_dlc08_quest_passive_ancient_protector		wh_type_area_of_hexes		wh_main_anc_group_unique	false	true	lord		false

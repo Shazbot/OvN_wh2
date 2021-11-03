@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/@cr_lore_desert					
 ovn_effect_ability_enable_blessing_of_the_elements	general_ability.png	600	general_ability.png	battle	true
 ovn_effect_magic_desert_enable_mirage	spell_ability.png	3	spell_ability.png	battle	true
 ovn_effect_magic_desert_enable_mirage_upgraded	spell_ability.png	4	spell_ability.png	battle	true

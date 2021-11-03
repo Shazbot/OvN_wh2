@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Dread_King_names__.loc		
 names_name_247259235	Dread	true
 names_name_247259236	King	true
 names_name_247259237	Hand of 	true

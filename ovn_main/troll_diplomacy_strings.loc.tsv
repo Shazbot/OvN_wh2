@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/troll_diplomacy_strings.loc		
 diplomacy_strings_string_Troll_Dip_Acceptance_Negative_01	You’re lucky we don’t eat your face off	false
 diplomacy_strings_string_Troll_Dip_Acceptance_Negative_02	If it gets us back to the Dark Reservoir so be it	false
 diplomacy_strings_string_Troll_Dip_Acceptance_Negative_03	We'll not eat you… just yet.	false

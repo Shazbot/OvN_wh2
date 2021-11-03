@@ -1,5 +1,5 @@
-unit_abilities_tables	16
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;16;db/unit_abilities_tables/ovn_grudge											
 grudge_character_abilities_volley_of_high_arrows	true	wh2_main_character_abilities_volley_of_high_arrows		wh_type_magic_missiles		wh_main_anc_group_uncommon	true	false	hero		false
 grudge_character_abilities_volley_of_dark_arrows	true	wh2_main_character_abilities_volley_of_dark_arrows		wh_type_magic_missiles		wh_main_anc_group_uncommon	true	false	hero		false
 grudge_hero_abilities_arrow_of_kurnous	true	wh_dlc05_hero_abilities_arrow_of_kurnous		wh_type_magic_missiles		wh_main_anc_group_uncommon	true	false	hero		false

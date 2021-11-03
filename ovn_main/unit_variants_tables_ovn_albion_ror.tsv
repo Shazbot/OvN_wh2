@@ -1,5 +1,5 @@
-unit_variants_tables	5
-faction	name	unit	variant	unit_card
+faction	unit	name	variant	unit_card
+#unit_variants_tables;5;db/unit_variants_tables/ovn_albion_ror				
 	albion_shieldmaiden_ror	albion_shieldmaiden_ror	albion_shieldmaiden_ror	albion_swordmaiden
 	albion_bologs_giant_ror	albion_bologs_giant_ror	albion_bologs_giant_ror	albion_giant
 	elo_fly_infested_rotwood	elo_fly_infested_rotwood	elo_fly_infested_rotwood	elo_fenbeast

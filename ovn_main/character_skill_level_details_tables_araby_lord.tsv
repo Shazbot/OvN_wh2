@@ -1,12 +1,12 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	sword		10
-		x	1	Helm		10
-		x	1	Talisman		5
-		x	1	Order_Buff		13
-		x	1	Chaos_Buff		6
-		x	1	rattlesnake_staff		14
-		x	1	ovn_skill_arb_lord_mount_horse		6
-		x	1	Mount		13
-		x	1	Mount_Elephant		15
-		x	1	Djinn		20
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/araby_lord						
+		1	sword		x	10
+		1	Helm		x	10
+		1	Talisman		x	5
+		1	Order_Buff		x	13
+		1	Chaos_Buff		x	6
+		1	rattlesnake_staff		x	14
+		1	ovn_skill_arb_lord_mount_horse		x	6
+		1	Mount		x	13
+		1	Mount_Elephant		x	15
+		1	Djinn		x	20

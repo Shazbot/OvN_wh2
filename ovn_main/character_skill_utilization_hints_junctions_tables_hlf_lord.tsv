@@ -1,5 +1,5 @@
-character_skill_utilization_hints_junctions_tables	0
 hint	key
+#character_skill_utilization_hints_junctions_tables;0;db/character_skill_utilization_hints_junctions_tables/hlf_lord	
 USEFUL_ALWAYS	hlf_staff
 USEFUL_ALWAYS	hlf_robe
 USEFUL_ALWAYS	cig_Buff

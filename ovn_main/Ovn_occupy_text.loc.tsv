@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Ovn_occupy_text.loc		
 culture_settlement_occupation_options_tooltip_2205198900	Clear Ruins||You will be presented with a puzzle to solve; you will be rewarded if you successfully decipher it. Though your quest for such trinkets will bring the annoyance of the Dark Gods.	true
 culture_settlement_occupation_options_tooltip_2205198901	Root Corruption||Take this land in the name of the Dark Gods!	true
 culture_settlement_occupation_options_tooltip_2205198902	Do Nothing||Leave the settlement as it stands, as any craven fool would!	true

@@ -1,16 +1,16 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-item_weapon.png	the_blade_of_shadows			8	false	false	false	0.0	0
-causes_fear.png	wh_dlc08_skill_chs_lord_unique_belakor_0		Whispers in the darkness	0	false	false	false	0.0	0
-character_magic.png	wh_dlc08_skill_chs_lord_unique_belakor_1		Night Wards	3	false	false	false	0.0	0
-causes_terror.png	wh_dlc08_skill_chs_lord_unique_belakor_2		Eternal Terror	6	false	false	false	0.0	0
-character_ward_save.png	wh_dlc08_skill_chs_lord_unique_belakor_3		Shadow Shroud	9	false	false	false	0.0	0
-character_damage.png	wh_dlc08_skill_chs_lord_unique_belakor_4		Insurmountable Rage	12	false	false	false	0.0	0
-character_magic.png	wh_dlc08_skill_chs_lord_unique_belakor_5		Master Of The Shadow	15	false	false	false	0.0	0
-trait_belakor.png	belakor_innate_skill		The Dark Master	0	true	false	false	0.0	0
-campaign_army.png	eons_of_spite		Eons of Spite	4	false	false	false	0.0	0
-character_magic.png	the_first_deamon_prince		The First Deamon Prince	7	false	false	false	0.0	0
-character_attack.png	primordial_everchosen		Primordial Everchosen	10	false	false	false	0.0	0
-character_health.png	timeless_rage		Timeless Rage	14	false	false	false	0.0	0
-character_movement.png	chaos_incarnate		Chaos Incarnate	18	false	false	false	0.0	0
-character_magic.png	wh_dlc08_skill_chs_lord_unique_belakor_6		Violent rise to power	16	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/belakor									
+the_blade_of_shadows	item_weapon.png			8	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_0	causes_fear.png		Whispers in the darkness	0	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_1	character_magic.png		Night Wards	3	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_2	causes_terror.png		Eternal Terror	6	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_3	character_ward_save.png		Shadow Shroud	9	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_4	character_damage.png		Insurmountable Rage	12	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_5	character_magic.png		Master Of The Shadow	15	false	false	false	0.0	0
+belakor_innate_skill	trait_belakor.png		The Dark Master	0	true	false	false	0.0	0
+eons_of_spite	campaign_army.png		Eons of Spite	4	false	false	false	0.0	0
+the_first_deamon_prince	character_magic.png		The First Deamon Prince	7	false	false	false	0.0	0
+primordial_everchosen	character_attack.png		Primordial Everchosen	10	false	false	false	0.0	0
+timeless_rage	character_health.png		Timeless Rage	14	false	false	false	0.0	0
+chaos_incarnate	character_movement.png		Chaos Incarnate	18	false	false	false	0.0	0
+wh_dlc08_skill_chs_lord_unique_belakor_6	character_magic.png		Violent rise to power	16	false	false	false	0.0	0

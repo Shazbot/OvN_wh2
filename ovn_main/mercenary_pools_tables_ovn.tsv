@@ -1,5 +1,5 @@
-mercenary_pools_tables	2
 key	recruitment_source
+#mercenary_pools_tables;2;db/mercenary_pools_tables/ovn	
 albion_renown_pool	
 ovn_arb_units_of_renown_pool	
 ovn_gru_moot_units_of_renown_pool	

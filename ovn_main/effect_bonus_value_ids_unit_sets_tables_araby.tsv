@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/araby		
 armour_mod	ovn_araby_tech_camel_armour	ovn_araby_tech_camel
 missile_damage_mod_mult	ovn_araby_tech_gunpowder_missle_dam	ovn_araby_tech_gunpowder
 reload	ovn_araby_tech_gunpowder_rel	ovn_araby_tech_gunpowder

@@ -1,5 +1,5 @@
-effect_bundles_tables	4
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/adsprovinces								
 province_edict_albion1	 	Harshen Tithes	province	1	edict_collect_tribute.png	false	false	true
 province_edict_albion1b	 	Harshen Tithes	province	1	edict_collect_tribute.png	false	false	true
 province_edict_albion1c	 	Harshen Tithes	province	1	edict_collect_tribute.png	false	false	true

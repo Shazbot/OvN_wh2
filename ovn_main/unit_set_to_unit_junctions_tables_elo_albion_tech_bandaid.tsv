@@ -1,71 +1,71 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				elo_albion_warriors	dlc08_nor_marauders_all
-false				elo_albion_warriors_spears	dlc08_nor_marauders_all
-false				elo_albion_warriors_2h	dlc08_nor_marauders_all
-false				elo_youngbloods	dlc08_nor_marauders_all
-false				elo_woadraider	dlc08_nor_marauders_all
-false				druid_neophytes	dlc08_nor_marauders_all
-false				albion_huntresses	dlc08_nor_marauders_all
-false				albion_hearthguard	dlc08_nor_marauders_all
-false				albion_hearthguard_halberd	dlc08_nor_marauders_all
-false				albion_hearthguard_2h	dlc08_nor_marauders_all
-false				albion_swordmaiden	dlc08_nor_marauders_all
-false				albion_riders	dlc08_nor_marauders_all
-false				albion_riders_javelins	dlc08_nor_marauders_all
-false				albion_chariot	dlc08_nor_marauders_all
-false				albion_centaurs	dlc08_nor_marauders_all
-false				albion_riders	dlc08_nor_marauders_cav_chariots
-false				albion_riders_javelins	dlc08_nor_marauders_cav_chariots
-false				albion_chariot	dlc08_nor_marauders_cav_chariots
-false				albion_centaurs	dlc08_nor_marauders_cav_chariots
-false				albion_riders	dlc08_nor_marauders_cav
-false				albion_riders_javelins	dlc08_nor_marauders_cav
-false				albion_centaurs	dlc08_nor_marauders_cav
-false				albion_stonethrower	dlc08_nor_marauders_hunters
-false				albion_huntresses	dlc08_nor_marauders_hunters
-false				elo_youngbloods	dlc08_nor_marauders_hunters
-false				elo_albion_warriors	dlc08_nor_marauders_inf
-false				elo_albion_warriors_spears	dlc08_nor_marauders_inf
-false				elo_albion_warriors_2h	dlc08_nor_marauders_inf
-false				elo_youngbloods	dlc08_nor_marauders_inf
-false				elo_woadraider	dlc08_nor_marauders_inf
-false				druid_neophytes	dlc08_nor_marauders_inf
-false				albion_huntresses	dlc08_nor_marauders_inf
-false				albion_hearthguard	dlc08_nor_marauders_inf
-false				albion_hearthguard_halberd	dlc08_nor_marauders_inf
-false				albion_hearthguard_2h	dlc08_nor_marauders_inf
-false				albion_swordmaiden	dlc08_nor_marauders_inf
-false				albion_riders_javelins	dlc08_nor_marauders_mis
-false				albion_stonethrower	dlc08_nor_marauders_mis
-false				albion_huntresses	dlc08_nor_marauders_mis
-false				elo_youngbloods	dlc08_nor_marauders_mis
-false				albion_chariot	dlc08_nor_marauders_chariots
-false				elo_woadraider	dlc08_nor_marauders_berserkers
-false				albion_swordmaiden	dlc08_nor_marauders_berserkers
-false				elo_albion_warriors_spears	dlc08_nor_marauders_spearmen
-false				albion_hearthguard_halberd	dlc08_nor_marauders_spearmen
-false				albion_hearthguard	dlc08_nor_marauders_champions
-false				albion_hearthguard_halberd	dlc08_nor_marauders_champions
-false				albion_hearthguard_2h	dlc08_nor_marauders_champions
-false				albion_fenhulk	dlc08_nor_monsters
-false				albion_giant	dlc08_nor_monsters
-false				albion_half_giants	dlc08_nor_monsters
-false				elo_fenbeast	dlc08_nor_monsters
-false				albion_half_giants	dlc08_nor_trolls_fimirs
-false				elo_fenbeast	dlc08_nor_trolls_fimirs
-false				elo_bloodhounds	dlc08_nor_all_warhounds
-false				elo_bloodhounds	dlc08_nor_warhounds_only
-false				elo_bloodhounds	dlc08_nor_all_norscan_wolf_creatures_and_warhounds
-false				alb_cav_noble	dlc08_nor_marauders_cav_chariots
-false				alb_cav_noble	dlc08_nor_marauders_cav
-false				alb_cav_noble	dlc08_nor_marauders_all
-false				alb_cav_noble_spear	dlc08_nor_marauders_cav_chariots
-false				alb_cav_noble_spear	dlc08_nor_marauders_cav
-false				alb_cav_noble_spear	dlc08_nor_marauders_all
-false				alb_viridian_champ	dlc08_nor_marauders_inf
-false				alb_viridian_champ	dlc08_nor_marauders_all
-false				alb_viridian_champ	dlc08_nor_marauders_champions
-false				albion_riders_spear	dlc08_nor_marauders_cav_chariots
-false				albion_riders_spear	dlc08_nor_marauders_cav
-false				albion_riders_spear	dlc08_nor_marauders_all
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/elo_albion_tech_bandaid					
+			elo_albion_warriors	dlc08_nor_marauders_all	false
+			elo_albion_warriors_spears	dlc08_nor_marauders_all	false
+			elo_albion_warriors_2h	dlc08_nor_marauders_all	false
+			elo_youngbloods	dlc08_nor_marauders_all	false
+			elo_woadraider	dlc08_nor_marauders_all	false
+			druid_neophytes	dlc08_nor_marauders_all	false
+			albion_huntresses	dlc08_nor_marauders_all	false
+			albion_hearthguard	dlc08_nor_marauders_all	false
+			albion_hearthguard_halberd	dlc08_nor_marauders_all	false
+			albion_hearthguard_2h	dlc08_nor_marauders_all	false
+			albion_swordmaiden	dlc08_nor_marauders_all	false
+			albion_riders	dlc08_nor_marauders_all	false
+			albion_riders_javelins	dlc08_nor_marauders_all	false
+			albion_chariot	dlc08_nor_marauders_all	false
+			albion_centaurs	dlc08_nor_marauders_all	false
+			albion_riders	dlc08_nor_marauders_cav_chariots	false
+			albion_riders_javelins	dlc08_nor_marauders_cav_chariots	false
+			albion_chariot	dlc08_nor_marauders_cav_chariots	false
+			albion_centaurs	dlc08_nor_marauders_cav_chariots	false
+			albion_riders	dlc08_nor_marauders_cav	false
+			albion_riders_javelins	dlc08_nor_marauders_cav	false
+			albion_centaurs	dlc08_nor_marauders_cav	false
+			albion_stonethrower	dlc08_nor_marauders_hunters	false
+			albion_huntresses	dlc08_nor_marauders_hunters	false
+			elo_youngbloods	dlc08_nor_marauders_hunters	false
+			elo_albion_warriors	dlc08_nor_marauders_inf	false
+			elo_albion_warriors_spears	dlc08_nor_marauders_inf	false
+			elo_albion_warriors_2h	dlc08_nor_marauders_inf	false
+			elo_youngbloods	dlc08_nor_marauders_inf	false
+			elo_woadraider	dlc08_nor_marauders_inf	false
+			druid_neophytes	dlc08_nor_marauders_inf	false
+			albion_huntresses	dlc08_nor_marauders_inf	false
+			albion_hearthguard	dlc08_nor_marauders_inf	false
+			albion_hearthguard_halberd	dlc08_nor_marauders_inf	false
+			albion_hearthguard_2h	dlc08_nor_marauders_inf	false
+			albion_swordmaiden	dlc08_nor_marauders_inf	false
+			albion_riders_javelins	dlc08_nor_marauders_mis	false
+			albion_stonethrower	dlc08_nor_marauders_mis	false
+			albion_huntresses	dlc08_nor_marauders_mis	false
+			elo_youngbloods	dlc08_nor_marauders_mis	false
+			albion_chariot	dlc08_nor_marauders_chariots	false
+			elo_woadraider	dlc08_nor_marauders_berserkers	false
+			albion_swordmaiden	dlc08_nor_marauders_berserkers	false
+			elo_albion_warriors_spears	dlc08_nor_marauders_spearmen	false
+			albion_hearthguard_halberd	dlc08_nor_marauders_spearmen	false
+			albion_hearthguard	dlc08_nor_marauders_champions	false
+			albion_hearthguard_halberd	dlc08_nor_marauders_champions	false
+			albion_hearthguard_2h	dlc08_nor_marauders_champions	false
+			albion_fenhulk	dlc08_nor_monsters	false
+			albion_giant	dlc08_nor_monsters	false
+			albion_half_giants	dlc08_nor_monsters	false
+			elo_fenbeast	dlc08_nor_monsters	false
+			albion_half_giants	dlc08_nor_trolls_fimirs	false
+			elo_fenbeast	dlc08_nor_trolls_fimirs	false
+			elo_bloodhounds	dlc08_nor_all_warhounds	false
+			elo_bloodhounds	dlc08_nor_warhounds_only	false
+			elo_bloodhounds	dlc08_nor_all_norscan_wolf_creatures_and_warhounds	false
+			alb_cav_noble	dlc08_nor_marauders_cav_chariots	false
+			alb_cav_noble	dlc08_nor_marauders_cav	false
+			alb_cav_noble	dlc08_nor_marauders_all	false
+			alb_cav_noble_spear	dlc08_nor_marauders_cav_chariots	false
+			alb_cav_noble_spear	dlc08_nor_marauders_cav	false
+			alb_cav_noble_spear	dlc08_nor_marauders_all	false
+			alb_viridian_champ	dlc08_nor_marauders_inf	false
+			alb_viridian_champ	dlc08_nor_marauders_all	false
+			alb_viridian_champ	dlc08_nor_marauders_champions	false
+			albion_riders_spear	dlc08_nor_marauders_cav_chariots	false
+			albion_riders_spear	dlc08_nor_marauders_cav	false
+			albion_riders_spear	dlc08_nor_marauders_all	false

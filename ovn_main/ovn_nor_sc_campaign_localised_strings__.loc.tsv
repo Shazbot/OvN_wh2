@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_nor_sc_campaign_localised_strings__.loc		
 campaign_localised_strings_string_cannot_occupy_wh_main_sc_nor_albion	[[col:red]]Your race cannot occupy settlements of this type.\\n\\nYou can only occupy settlements in Norsca and coastal settlements.[[/col]]	true
 campaign_localised_strings_string_cannot_colonise_wh_main_sc_nor_albion	[[col:red]]Your race cannot colonise ruins of this type.\\n\\nYou can only colonise ruins in Norsca and coastal settlements.[[/col]]	true

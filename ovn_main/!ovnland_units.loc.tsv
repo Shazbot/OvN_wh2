@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovnland_units.loc		
 land_units_onscreen_name_dread_wh2_dlc09_tmb_mon_khemrian_warsphinx_0	Khemrian Warsphinx	true
 land_units_onscreen_name_dread_wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	Dread Archer Chariots	true
 land_units_onscreen_name_dread_wh2_dlc09_tmb_veh_skeleton_chariot_0	Dread Chariots	true

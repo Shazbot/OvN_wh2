@@ -1,5 +1,5 @@
-effect_bundles_tables	4
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/chaos_edict								
 chaos_edict_1		For The Chaos Gods	province	1	edict_def_sacrifices_for_khaine.png	false	false	true
 chaos_edict_2		Prepare For War	province	1	edict_def_enforce_tribute_payments.png	false	false	true
 chaos_edict_3		Corruption	province	1	edict_skv_efficient_scheming.png	false	false	true

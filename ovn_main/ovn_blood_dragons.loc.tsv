@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_blood_dragons.loc		
 effects_description_ovn_blood_dragons_gain_blood_dragon	[[overridecol:fe_white]]Awaken a new Blood Dragon Lord![[/col]]	true
 effect_bundles_localised_description_ovn_blood_dragons_gain_blood_dragon	A new commander to lead your armies!	true
 effect_bundles_localised_title_ovn_blood_dragons_gain_blood_dragon	Blood Dragon Lord	true

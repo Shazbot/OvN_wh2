@@ -1,5 +1,5 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/ovn_fimir			
 92112190	10	ovn_boglar	ovn_boglar
 92112191	1	ovn_shearl	ovn_shearl
 92112209	1	ovn_fimm	ovn_fimm

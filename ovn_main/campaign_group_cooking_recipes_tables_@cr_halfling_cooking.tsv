@@ -1,5 +1,5 @@
-campaign_group_cooking_recipes_tables	0
 campaign_group	recipe
+#campaign_group_cooking_recipes_tables;0;db/campaign_group_cooking_recipes_tables/@cr_halfling_cooking	
 ovn_halfling_cooking	ovn_food_dish_1
 ovn_halfling_cooking	ovn_food_dish_2
 ovn_halfling_cooking	ovn_food_dish_3

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/newf_ovn_factions.loc		
 factions_screen_adjective_wh2_main_vmp_blood_dragons	Blood Dragons	true
 factions_screen_name_wh2_main_vmp_blood_dragons	Blood Dragons	true
 factions_attack_desc_wh2_main_vmp_blood_dragons	You are attacking the Blood Dragons!	true

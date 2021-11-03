@@ -1,5 +1,5 @@
-ancillary_to_effects_tables	0
 ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/elo_larenscheld			
 luthor_the_hunchback	wh_main_effect_force_army_campaign_ambush_attack_success_chance	general_to_force_own	20.0
 luthor_the_hunchback	wh_main_effect_agent_action_success_chance_enemy	character_to_character_own	-15.0
 luthor_the_hunchback	wh_main_effect_agent_action_success_chance	character_to_character_own	15.0

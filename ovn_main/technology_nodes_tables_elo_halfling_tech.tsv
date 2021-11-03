@@ -1,56 +1,56 @@
-technology_nodes_tables	3
-campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
-	wh2_main_emp_the_moot	15	elo_halfling_conscription	elo_halfling_conscription	emp_civ_reworkd	0	300	0	0		
-	wh2_main_emp_the_moot	13	elo_halfling_good_pots	elo_halfling_good_pots	emp_civ_reworkd	0	600	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_farmer_tools	elo_halfling_farmer_tools	emp_civ_reworkd	0	800	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_training	elo_halfling_training	emp_civ_reworkd	0	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_housewifes	elo_halfling_housewifes	emp_civ_reworkd	1	1500	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_farmer_tools_2	elo_halfling_farmer_tools_2	emp_civ_reworkd	1	1000	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_fields	elo_halfling_fields	emp_civ_reworkd	1	300	0	0		
-	wh2_main_emp_the_moot	17	elo_halfling_borrowing	elo_halfling_borrowing	emp_civ_reworkd	1	600	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_tobacco_1	elo_halfling_tobacco_1	emp_civ_reworkd	1	800	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_tobacco_2	elo_halfling_tobacco_2	emp_civ_reworkd	2	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_trade_1	elo_halfling_trade_1	emp_civ_reworkd	1	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_trade_2	elo_halfling_trade_2	emp_civ_reworkd	2	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_animals	elo_halfling_animals	emp_civ_reworkd	2	300	0	0		
-	wh2_main_emp_the_moot	13	elo_halfling_doggos	elo_halfling_doggos	emp_civ_reworkd	2	600	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_piggies	elo_halfling_piggies	emp_civ_reworkd	2	800	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_riders	elo_halfling_riders	emp_civ_reworkd	3	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_chicken	elo_halfling_chicken	emp_civ_reworkd	2	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_cav	elo_halfling_cav	emp_civ_reworkd	3	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_old_ones	elo_halfling_old_ones	emp_civ_reworkd	3	300	0	0		
-	wh2_main_emp_the_moot	17	elo_halfling_worship	elo_halfling_worship	emp_civ_reworkd	3	600	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_hyacinth	elo_halfling_hyacinth	emp_civ_reworkd	3	800	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_josias	elo_halfling_josias	emp_civ_reworkd	4	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_quinsberry	elo_halfling_quinsberry	emp_civ_reworkd	3	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_esmeralda	elo_halfling_esmeralda	emp_civ_reworkd	4	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_security	elo_halfling_security	emp_civ_reworkd	4	300	0	0		
-	wh2_main_emp_the_moot	13	elo_halfling_sheriff	elo_halfling_sheriff	emp_civ_reworkd	4	600	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_thieves	elo_halfling_thieves	emp_civ_reworkd	4	800	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_thieves_2	elo_halfling_thieves_2	emp_civ_reworkd	5	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_warden	elo_halfling_warden	emp_civ_reworkd	4	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_warden_2	elo_halfling_warden_2	emp_civ_reworkd	5	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_forest	elo_halfling_forest	emp_civ_reworkd	5	300	0	0		
-	wh2_main_emp_the_moot	17	elo_halfling_hunters	elo_halfling_hunters	emp_civ_reworkd	5	600	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_rangers	elo_halfling_rangers	emp_civ_reworkd	5	800	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_ranged	elo_halfling_ranged	emp_civ_reworkd	6	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_trees	elo_halfling_trees	emp_civ_reworkd	5	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_better_trees	elo_halfling_better_trees	emp_civ_reworkd	6	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_cooking	elo_halfling_cooking	emp_civ_reworkd	6	300	0	0		
-	wh2_main_emp_the_moot	13	elo_halfling_hero_cooks	elo_halfling_hero_cooks	emp_civ_reworkd	6	600	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_hot_pot	elo_halfling_hot_pot	emp_civ_reworkd	7	1000	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_cooks_unit	elo_halfling_cooks_unit	emp_civ_reworkd	6	800	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_feast_carrier	elo_halfling_feast_carrier	emp_civ_reworkd	6	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_chuck_wagons	elo_halfling_chuck_wagons	emp_civ_reworkd	7	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_unlikely_allies	elo_halfling_unlikely_allies	emp_civ_reworkd	7	300	0	0		
-	wh2_main_emp_the_moot	17	elo_halfling_eagles	elo_halfling_eagles	emp_civ_reworkd	7	600	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_ogres	elo_halfling_ogres	emp_civ_reworkd	7	800	0	0		
-	wh2_main_emp_the_moot	18	elo_halfling_ogres_2	elo_halfling_ogres_2	emp_civ_reworkd	8	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_baby_dragon	elo_halfling_baby_dragon	emp_civ_reworkd	7	1000	0	0		
-	wh2_main_emp_the_moot	19	elo_halfling_monsters	elo_halfling_monsters	emp_civ_reworkd	8	1500	0	0		
-	wh2_main_emp_the_moot	15	elo_halfling_rights_movement	elo_halfling_rights_movement	emp_civ_reworkd	8	300	0	0		
-	wh2_main_emp_the_moot	13	elo_halfling_empire_support	elo_halfling_empire_support	emp_civ_reworkd	8	600	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_empire_elite	elo_halfling_empire_elite	emp_civ_reworkd	8	800	0	0		
-	wh2_main_emp_the_moot	12	elo_halfling_empire_mages	elo_halfling_empire_mages	emp_civ_reworkd	9	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_empire_heroes	elo_halfling_empire_heroes	emp_civ_reworkd	8	1000	0	0		
-	wh2_main_emp_the_moot	11	elo_halfling_empire_equipment	elo_halfling_empire_equipment	emp_civ_reworkd	9	1500	0	0		
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+#technology_nodes_tables;3;db/technology_nodes_tables/elo_halfling_tech											
+elo_halfling_conscription		wh2_main_emp_the_moot	15	elo_halfling_conscription	emp_civ_reworkd	0	300	0	0		
+elo_halfling_good_pots		wh2_main_emp_the_moot	13	elo_halfling_good_pots	emp_civ_reworkd	0	600	0	0		
+elo_halfling_farmer_tools		wh2_main_emp_the_moot	12	elo_halfling_farmer_tools	emp_civ_reworkd	0	800	0	0		
+elo_halfling_training		wh2_main_emp_the_moot	11	elo_halfling_training	emp_civ_reworkd	0	1000	0	0		
+elo_halfling_housewifes		wh2_main_emp_the_moot	11	elo_halfling_housewifes	emp_civ_reworkd	1	1500	0	0		
+elo_halfling_farmer_tools_2		wh2_main_emp_the_moot	12	elo_halfling_farmer_tools_2	emp_civ_reworkd	1	1000	0	0		
+elo_halfling_fields		wh2_main_emp_the_moot	15	elo_halfling_fields	emp_civ_reworkd	1	300	0	0		
+elo_halfling_borrowing		wh2_main_emp_the_moot	17	elo_halfling_borrowing	emp_civ_reworkd	1	600	0	0		
+elo_halfling_tobacco_1		wh2_main_emp_the_moot	18	elo_halfling_tobacco_1	emp_civ_reworkd	1	800	0	0		
+elo_halfling_tobacco_2		wh2_main_emp_the_moot	18	elo_halfling_tobacco_2	emp_civ_reworkd	2	1000	0	0		
+elo_halfling_trade_1		wh2_main_emp_the_moot	19	elo_halfling_trade_1	emp_civ_reworkd	1	1000	0	0		
+elo_halfling_trade_2		wh2_main_emp_the_moot	19	elo_halfling_trade_2	emp_civ_reworkd	2	1500	0	0		
+elo_halfling_animals		wh2_main_emp_the_moot	15	elo_halfling_animals	emp_civ_reworkd	2	300	0	0		
+elo_halfling_doggos		wh2_main_emp_the_moot	13	elo_halfling_doggos	emp_civ_reworkd	2	600	0	0		
+elo_halfling_piggies		wh2_main_emp_the_moot	12	elo_halfling_piggies	emp_civ_reworkd	2	800	0	0		
+elo_halfling_riders		wh2_main_emp_the_moot	12	elo_halfling_riders	emp_civ_reworkd	3	1000	0	0		
+elo_halfling_chicken		wh2_main_emp_the_moot	11	elo_halfling_chicken	emp_civ_reworkd	2	1000	0	0		
+elo_halfling_cav		wh2_main_emp_the_moot	11	elo_halfling_cav	emp_civ_reworkd	3	1500	0	0		
+elo_halfling_old_ones		wh2_main_emp_the_moot	15	elo_halfling_old_ones	emp_civ_reworkd	3	300	0	0		
+elo_halfling_worship		wh2_main_emp_the_moot	17	elo_halfling_worship	emp_civ_reworkd	3	600	0	0		
+elo_halfling_hyacinth		wh2_main_emp_the_moot	18	elo_halfling_hyacinth	emp_civ_reworkd	3	800	0	0		
+elo_halfling_josias		wh2_main_emp_the_moot	18	elo_halfling_josias	emp_civ_reworkd	4	1000	0	0		
+elo_halfling_quinsberry		wh2_main_emp_the_moot	19	elo_halfling_quinsberry	emp_civ_reworkd	3	1000	0	0		
+elo_halfling_esmeralda		wh2_main_emp_the_moot	19	elo_halfling_esmeralda	emp_civ_reworkd	4	1500	0	0		
+elo_halfling_security		wh2_main_emp_the_moot	15	elo_halfling_security	emp_civ_reworkd	4	300	0	0		
+elo_halfling_sheriff		wh2_main_emp_the_moot	13	elo_halfling_sheriff	emp_civ_reworkd	4	600	0	0		
+elo_halfling_thieves		wh2_main_emp_the_moot	12	elo_halfling_thieves	emp_civ_reworkd	4	800	0	0		
+elo_halfling_thieves_2		wh2_main_emp_the_moot	12	elo_halfling_thieves_2	emp_civ_reworkd	5	1000	0	0		
+elo_halfling_warden		wh2_main_emp_the_moot	11	elo_halfling_warden	emp_civ_reworkd	4	1000	0	0		
+elo_halfling_warden_2		wh2_main_emp_the_moot	11	elo_halfling_warden_2	emp_civ_reworkd	5	1500	0	0		
+elo_halfling_forest		wh2_main_emp_the_moot	15	elo_halfling_forest	emp_civ_reworkd	5	300	0	0		
+elo_halfling_hunters		wh2_main_emp_the_moot	17	elo_halfling_hunters	emp_civ_reworkd	5	600	0	0		
+elo_halfling_rangers		wh2_main_emp_the_moot	18	elo_halfling_rangers	emp_civ_reworkd	5	800	0	0		
+elo_halfling_ranged		wh2_main_emp_the_moot	18	elo_halfling_ranged	emp_civ_reworkd	6	1000	0	0		
+elo_halfling_trees		wh2_main_emp_the_moot	19	elo_halfling_trees	emp_civ_reworkd	5	1000	0	0		
+elo_halfling_better_trees		wh2_main_emp_the_moot	19	elo_halfling_better_trees	emp_civ_reworkd	6	1500	0	0		
+elo_halfling_cooking		wh2_main_emp_the_moot	15	elo_halfling_cooking	emp_civ_reworkd	6	300	0	0		
+elo_halfling_hero_cooks		wh2_main_emp_the_moot	13	elo_halfling_hero_cooks	emp_civ_reworkd	6	600	0	0		
+elo_halfling_hot_pot		wh2_main_emp_the_moot	12	elo_halfling_hot_pot	emp_civ_reworkd	7	1000	0	0		
+elo_halfling_cooks_unit		wh2_main_emp_the_moot	12	elo_halfling_cooks_unit	emp_civ_reworkd	6	800	0	0		
+elo_halfling_feast_carrier		wh2_main_emp_the_moot	11	elo_halfling_feast_carrier	emp_civ_reworkd	6	1000	0	0		
+elo_halfling_chuck_wagons		wh2_main_emp_the_moot	11	elo_halfling_chuck_wagons	emp_civ_reworkd	7	1500	0	0		
+elo_halfling_unlikely_allies		wh2_main_emp_the_moot	15	elo_halfling_unlikely_allies	emp_civ_reworkd	7	300	0	0		
+elo_halfling_eagles		wh2_main_emp_the_moot	17	elo_halfling_eagles	emp_civ_reworkd	7	600	0	0		
+elo_halfling_ogres		wh2_main_emp_the_moot	18	elo_halfling_ogres	emp_civ_reworkd	7	800	0	0		
+elo_halfling_ogres_2		wh2_main_emp_the_moot	18	elo_halfling_ogres_2	emp_civ_reworkd	8	1000	0	0		
+elo_halfling_baby_dragon		wh2_main_emp_the_moot	19	elo_halfling_baby_dragon	emp_civ_reworkd	7	1000	0	0		
+elo_halfling_monsters		wh2_main_emp_the_moot	19	elo_halfling_monsters	emp_civ_reworkd	8	1500	0	0		
+elo_halfling_rights_movement		wh2_main_emp_the_moot	15	elo_halfling_rights_movement	emp_civ_reworkd	8	300	0	0		
+elo_halfling_empire_support		wh2_main_emp_the_moot	13	elo_halfling_empire_support	emp_civ_reworkd	8	600	0	0		
+elo_halfling_empire_elite		wh2_main_emp_the_moot	12	elo_halfling_empire_elite	emp_civ_reworkd	8	800	0	0		
+elo_halfling_empire_mages		wh2_main_emp_the_moot	12	elo_halfling_empire_mages	emp_civ_reworkd	9	1000	0	0		
+elo_halfling_empire_heroes		wh2_main_emp_the_moot	11	elo_halfling_empire_heroes	emp_civ_reworkd	8	1000	0	0		
+elo_halfling_empire_equipment		wh2_main_emp_the_moot	11	elo_halfling_empire_equipment	emp_civ_reworkd	9	1500	0	0		

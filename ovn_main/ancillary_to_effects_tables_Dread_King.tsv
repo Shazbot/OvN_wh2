@@ -1,5 +1,5 @@
-ancillary_to_effects_tables	0
 ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/Dread_King			
 Soulreaper	wh_main_effect_character_stat_mod_melee_damage	character_to_character_own	12.0
 Soulreaper	wh_main_effect_character_stat_mod_ap_damage	character_to_character_own	10.0
 Soulreaper	Summon_Black_Grail_Kinghts	character_to_character_own	1.0

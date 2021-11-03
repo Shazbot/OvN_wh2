@@ -1,5 +1,5 @@
-particle_effects_tables	0
 key
+#particle_effects_tables;0;db/particle_effects_tables/ovn
 ovn_unit_genie_deco
 ovn_unit_sea_nymph_deco
 ovn_unit_desert_spirit_deco

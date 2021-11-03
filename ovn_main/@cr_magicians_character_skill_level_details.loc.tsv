@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_magicians_character_skill_level_details.loc		
 character_skill_level_details_localised_name_1ovn_skill_arb_all_unique_ward_of_the_one		true
 character_skill_level_details_localised_description_1ovn_skill_arb_all_unique_ward_of_the_one		true
 character_skill_level_details_localised_name_1ovn_skill_arb_magician_unique_magician_life_magic_carpet		true

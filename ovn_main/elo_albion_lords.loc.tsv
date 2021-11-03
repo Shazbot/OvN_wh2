@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_albion_lords.loc		
 agent_subtypes_onscreen_name_override_albion_warleader	Warleader	true
 agent_subtypes_onscreen_name_override_albion_truthsayer_beast	Truthsayer (Beasts)	true
 agent_subtypes_onscreen_name_override_albion_truthsayer_life	Truthsayer (Life)	true

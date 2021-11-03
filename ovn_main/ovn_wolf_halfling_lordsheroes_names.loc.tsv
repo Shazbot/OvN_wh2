@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_halfling_lordsheroes_names.loc		
 names_name_858211990	Albert	true
 names_name_858211991	Alf	true
 names_name_858211992	Edgar	true

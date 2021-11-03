@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_crafting_mortuary_cult_categories.loc		
 mortuary_cult_categories_craft_button_text_ovn_arb_crafting_weapons	Barter	true
 mortuary_cult_categories_craft_button_text_ovn_arb_crafting_armor	Barter	true
 mortuary_cult_categories_craft_button_text_ovn_arb_crafting_enchanted_items	Barter	true

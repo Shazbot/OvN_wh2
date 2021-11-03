@@ -1,8 +1,8 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	elo_dread_centurion_horse		3
-		x	1	dread_legion_barded_skeletal_steed		6
-		x	1	dread_chariot_skeletal_steed		9
-		x	1	dread_we_are_legion		9
-		x	1	dread_eternal_march		9
-		x	1	dread_blessing_nagash		9
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/elo_dread_hero						
+		1	elo_dread_centurion_horse		x	3
+		1	dread_legion_barded_skeletal_steed		x	6
+		1	dread_chariot_skeletal_steed		x	9
+		1	dread_we_are_legion		x	9
+		1	dread_eternal_march		x	9
+		1	dread_blessing_nagash		x	9

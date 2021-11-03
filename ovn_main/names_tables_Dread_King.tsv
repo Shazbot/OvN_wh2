@@ -1,7 +1,7 @@
-names_tables	1
-names_group	type	gender	frequency	id
-180	forename	m	0	247259235
-180	family_name	m	0	247259236
-180	forename	m	0	247259237
-180	family_name	m	0	247259238
-180	forename	m	0	3110890049
+id	names_group	type	gender	frequency
+#names_tables;1;db/names_tables/Dread_King				
+247259235	180	forename	m	0
+247259236	180	family_name	m	0
+247259237	180	forename	m	0
+247259238	180	family_name	m	0
+3110890049	180	forename	m	0

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/albion_diplo_lines.loc		
 diplomacy_strings_string_Albion_Dip_Acceptance_Negative_01	May the earth mother forgive me, we accept.	false
 diplomacy_strings_string_Albion_Dip_Acceptance_Negative_02	Dark times call for unpleasant decisions.	false
 diplomacy_strings_string_Albion_Dip_Acceptance_Negative_03	If this will make you leave, then so be it.	false

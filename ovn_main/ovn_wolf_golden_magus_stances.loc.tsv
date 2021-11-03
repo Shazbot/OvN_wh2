@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_golden_magus_stances.loc		
 effect_bundles_localised_description_arb_golden_magus_navy_camp	Allows the [[img:icon_pirate_crew]][[/img]]pirate crew to construct ship buildings and recruit units directly to the vessel.	true
 effect_bundles_localised_title_arb_golden_magus_navy_camp	Stance: Flagship Expansion	true
 effect_bundles_localised_description_arb_golden_magus_inland_camp	Sets up a defensive camp, enabling shipbuilding, recruitment and replenishment regardless of territory.	true

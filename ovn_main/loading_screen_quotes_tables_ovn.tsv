@@ -1,5 +1,5 @@
-loading_screen_quotes_tables	4
-image	key	max_displays	weighting	first_shown_weighting	category
-ui/units/infopics/ovn_mtl_reaper.png	ovn_mtl_reaper	-1	3	0	unit
-ui/units/infopics/cr_hef_skycutter.png	cr_hef_skycutter	-1	3	0	unit
-ui/units/infopics/cr_hef_skycutter_ror.png	cr_hef_skycutter_ror	-1	3	0	unit
+key	image	max_displays	weighting	first_shown_weighting	category
+#loading_screen_quotes_tables;4;db/loading_screen_quotes_tables/ovn					
+ovn_mtl_reaper	ui/units/infopics/ovn_mtl_reaper.png	-1	3	0	unit
+cr_hef_skycutter	ui/units/infopics/cr_hef_skycutter.png	-1	3	0	unit
+cr_hef_skycutter_ror	ui/units/infopics/cr_hef_skycutter_ror.png	-1	3	0	unit

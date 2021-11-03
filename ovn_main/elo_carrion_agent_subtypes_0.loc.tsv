@@ -1,3 +1,3 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_carrion_agent_subtypes_0.loc		
 agent_subtypes_onscreen_name_override_elo_carrion_boss	Carrion Big Boss	true

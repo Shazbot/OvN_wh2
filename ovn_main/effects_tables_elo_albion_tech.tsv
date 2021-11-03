@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_albion_tech					
 elo_warband_cost	military_spending.png	111	military_spending.png	campaign	false
 elo_ranged_reload	icon_stat_reload_time_force.png	111	icon_stat_reload_time_force.png	battle	true
 elo_ranged_xp	experience.png	111	experience.png	battle	true

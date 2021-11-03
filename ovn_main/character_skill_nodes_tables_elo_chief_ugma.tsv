@@ -1,51 +1,51 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	ugma_innate	elo_chief_ugma		6.0	ugma_innate	0.0		1	0	false
-	elo_skill_throgg_leader	elo_chief_ugma		4.0	elo_chief_ugma_battle_01	0.0		0	0	true
-	elo_skill_troll_children_chaos	elo_chief_ugma		4.0	elo_chief_ugma_battle_02	1.0		0	0	true
-	elo_skill_troll_unnatural_resilience	elo_chief_ugma		4.0	elo_chief_ugma_battle_03	2.0		0	0	true
-	elo_skill_troll_menace_land	elo_chief_ugma		4.0	elo_chief_ugma_battle_04	3.0		0	0	true
-	elo_skill_troll_ice_snow	elo_chief_ugma		4.0	elo_chief_ugma_battle_05	4.0		0	0	true
-	elo_skill_toostupid	elo_chief_ugma		4.0	elo_chief_ugma_battle_06	5.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	elo_chief_ugma		4.0	elo_chief_ugma_battle_08	6.0		0	4	true
-	elo_skill_throgg_scourge	elo_chief_ugma		4.0	elo_chief_ugma_battle_09	7.0		0	0	true
-	elo_skill_throgg_raw_might	elo_chief_ugma		4.0	elo_chief_ugma_battle_10	8.0		0	0	true
-	elo_skill_mountain_masters	elo_chief_ugma		4.0	elo_chief_ugma_battle_11	9.0		0	0	true
-	elo_skill_throgg_blight	elo_chief_ugma		4.0	elo_chief_ugma_battle_12	10.0		0	0	true
-	elo_skill_run_and_shakeoff	elo_chief_ugma		4.0	elo_chief_ugma_battle_13	11.0		0	1	true
-	wh_dlc08_skill_nor_lords_battle_fight_or_die	elo_chief_ugma		4.0	elo_chief_ugma_battle_14	12.0		0	1	true
-	wh_main_skill_all_lord_campaign_route_marcher	elo_chief_ugma		5.0	elo_chief_ugma_campaign_01	0.0		0	0	true
-	wh_dlc08_skill_nor_lord_campaign_despoilers	elo_chief_ugma		5.0	elo_chief_ugma_campaign_02	1.0		0	0	true
-	wh_main_skill_chs_lord_campaign_serve_or_die	elo_chief_ugma		5.0	elo_chief_ugma_campaign_03	2.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_norse_resilience	elo_chief_ugma		5.0	elo_chief_ugma_campaign_04	3.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	elo_chief_ugma		5.0	elo_chief_ugma_campaign_05	4.0		0	4	true
-	wh_main_skill_chs_lord_campaign_unholy_resilience	elo_chief_ugma		5.0	elo_chief_ugma_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	elo_chief_ugma		5.0	elo_chief_ugma_campaign_07	6.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_savage_skills	elo_chief_ugma		5.0	elo_chief_ugma_campaign_08	7.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_unnatural_healing	elo_chief_ugma		5.0	elo_chief_ugma_campaign_09	8.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	elo_chief_ugma		5.0	elo_chief_ugma_campaign_10	9.0		0	0	true
-	wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	elo_chief_ugma		5.0	elo_chief_ugma_campaign_11	10.0		0	4	true
-	wh_dlc15_skill_all_all_self_horrid_mass	elo_chief_ugma		1.0	elo_chief_ugma_self_01	0.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_devastating_charge	elo_chief_ugma		1.0	elo_chief_ugma_self_02	1.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_thick-skinned	elo_chief_ugma		1.0	elo_chief_ugma_self_03	2.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_hard_to_hit	elo_chief_ugma		1.0	elo_chief_ugma_self_04	3.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_deadly_blade	elo_chief_ugma		1.0	elo_chief_ugma_self_05	4.0		0	0	true
-	wh_main_skill_all_all_self_foe-seeker	elo_chief_ugma		1.0	elo_chief_ugma_self_06	5.0		0	4	true
-	wh2_dlc11_skill_all_lord_self_wound-maker	elo_chief_ugma		1.0	elo_chief_ugma_self_07	6.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_scarred_veteran	elo_chief_ugma		1.0	elo_chief_ugma_self_08	7.0		0	0	true
-	wh2_dlc11_skill_all_lord_self_self_indomitable	elo_chief_ugma		1.0	elo_chief_ugma_self_09	8.0		0	0	true
-	wh2_dlc11_skill_nor_lords_self_quicksilver	elo_chief_ugma		1.0	elo_chief_ugma_self_10	9.0		0	0	true
-	wh_main_skill_all_all_self_deadly_onslaught	elo_chief_ugma		1.0	elo_chief_ugma_self_11	10.0		0	4	true
-	ugma_trinkets	elo_chief_ugma		0.0	elo_chief_ugma_unique_01	0.0		0	0	true
-	resevoir_stone_hammer	elo_chief_ugma		0.0	elo_chief_ugma_unique_06	1.0		0	0	true
-	wh_dlc08_skill_nor_lords_unique_eye_of_the_gods	elo_chief_ugma		0.0	elo_chief_ugma_unique_02	2.0		0	0	true
-	wh_dlc08_skill_nor_lords_unique_aura_of_chaos	elo_chief_ugma		0.0	elo_chief_ugma_unique_03	3.0		0	0	true
-	reworked_mutant_regeneration	elo_chief_ugma		0.0	elo_chief_ugma_unique_04	4.0		0	0	true
-	elo_leader_river	elo_chief_ugma		0.0	elo_chief_ugma_unique_05	5.0		0	0	true
-	reworked_cyclopean_fiends	elo_chief_ugma		0.0	elo_chief_ugma_unique_07	6.0		0	0	true
-	elo_eloquent_troll	elo_chief_ugma		2.0	elo_eloquent_troll	0.0		0	0	true
-	elo_troll_toll	elo_chief_ugma		2.0	elo_troll_toll	1.0		0	0	true
-	creature_water	elo_chief_ugma		2.0	creature_water	2.0		0	0	true
-	elo_skill_hitharder	elo_chief_ugma		2.0	elo_ugma_hitharder	3.0		0	0	true
-	ugma_warpstone_touched	elo_chief_ugma		2.0	ugma_warpstone_touched	4.0		0	0	true
-	ugma_strongest_river	elo_chief_ugma		2.0	ugma_strongest_river	5.0		0	4	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_chief_ugma										
+ugma_innate		ugma_innate	elo_chief_ugma		6.0	0.0		1	0	false
+elo_chief_ugma_battle_01		elo_skill_throgg_leader	elo_chief_ugma		4.0	0.0		0	0	true
+elo_chief_ugma_battle_02		elo_skill_troll_children_chaos	elo_chief_ugma		4.0	1.0		0	0	true
+elo_chief_ugma_battle_03		elo_skill_troll_unnatural_resilience	elo_chief_ugma		4.0	2.0		0	0	true
+elo_chief_ugma_battle_04		elo_skill_troll_menace_land	elo_chief_ugma		4.0	3.0		0	0	true
+elo_chief_ugma_battle_05		elo_skill_troll_ice_snow	elo_chief_ugma		4.0	4.0		0	0	true
+elo_chief_ugma_battle_06		elo_skill_toostupid	elo_chief_ugma		4.0	5.0		0	0	true
+elo_chief_ugma_battle_08		wh_main_skill_all_lord_battle_rally	elo_chief_ugma		4.0	6.0		0	4	true
+elo_chief_ugma_battle_09		elo_skill_throgg_scourge	elo_chief_ugma		4.0	7.0		0	0	true
+elo_chief_ugma_battle_10		elo_skill_throgg_raw_might	elo_chief_ugma		4.0	8.0		0	0	true
+elo_chief_ugma_battle_11		elo_skill_mountain_masters	elo_chief_ugma		4.0	9.0		0	0	true
+elo_chief_ugma_battle_12		elo_skill_throgg_blight	elo_chief_ugma		4.0	10.0		0	0	true
+elo_chief_ugma_battle_13		elo_skill_run_and_shakeoff	elo_chief_ugma		4.0	11.0		0	1	true
+elo_chief_ugma_battle_14		wh_dlc08_skill_nor_lords_battle_fight_or_die	elo_chief_ugma		4.0	12.0		0	1	true
+elo_chief_ugma_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	elo_chief_ugma		5.0	0.0		0	0	true
+elo_chief_ugma_campaign_02		wh_dlc08_skill_nor_lord_campaign_despoilers	elo_chief_ugma		5.0	1.0		0	0	true
+elo_chief_ugma_campaign_03		wh_main_skill_chs_lord_campaign_serve_or_die	elo_chief_ugma		5.0	2.0		0	0	true
+elo_chief_ugma_campaign_04		wh_dlc08_skill_nor_lords_campaign_norse_resilience	elo_chief_ugma		5.0	3.0		0	0	true
+elo_chief_ugma_campaign_05		wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	elo_chief_ugma		5.0	4.0		0	4	true
+elo_chief_ugma_campaign_06		wh_main_skill_chs_lord_campaign_unholy_resilience	elo_chief_ugma		5.0	5.0		0	4	true
+elo_chief_ugma_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	elo_chief_ugma		5.0	6.0		0	0	true
+elo_chief_ugma_campaign_08		wh_dlc08_skill_nor_lords_campaign_savage_skills	elo_chief_ugma		5.0	7.0		0	0	true
+elo_chief_ugma_campaign_09		wh_dlc08_skill_nor_lords_campaign_unnatural_healing	elo_chief_ugma		5.0	8.0		0	0	true
+elo_chief_ugma_campaign_10		wh_dlc08_skill_nor_lords_campaign_fuelled_by_war	elo_chief_ugma		5.0	9.0		0	0	true
+elo_chief_ugma_campaign_11		wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos	elo_chief_ugma		5.0	10.0		0	4	true
+elo_chief_ugma_self_01		wh_dlc15_skill_all_all_self_horrid_mass	elo_chief_ugma		1.0	0.0		0	0	true
+elo_chief_ugma_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	elo_chief_ugma		1.0	1.0		0	0	true
+elo_chief_ugma_self_03		wh2_dlc11_skill_all_lord_self_thick-skinned	elo_chief_ugma		1.0	2.0		0	0	true
+elo_chief_ugma_self_04		wh2_dlc11_skill_all_lord_self_hard_to_hit	elo_chief_ugma		1.0	3.0		0	0	true
+elo_chief_ugma_self_05		wh2_dlc11_skill_all_lord_self_deadly_blade	elo_chief_ugma		1.0	4.0		0	0	true
+elo_chief_ugma_self_06		wh_main_skill_all_all_self_foe-seeker	elo_chief_ugma		1.0	5.0		0	4	true
+elo_chief_ugma_self_07		wh2_dlc11_skill_all_lord_self_wound-maker	elo_chief_ugma		1.0	6.0		0	0	true
+elo_chief_ugma_self_08		wh2_dlc11_skill_all_lord_self_scarred_veteran	elo_chief_ugma		1.0	7.0		0	0	true
+elo_chief_ugma_self_09		wh2_dlc11_skill_all_lord_self_self_indomitable	elo_chief_ugma		1.0	8.0		0	0	true
+elo_chief_ugma_self_10		wh2_dlc11_skill_nor_lords_self_quicksilver	elo_chief_ugma		1.0	9.0		0	0	true
+elo_chief_ugma_self_11		wh_main_skill_all_all_self_deadly_onslaught	elo_chief_ugma		1.0	10.0		0	4	true
+elo_chief_ugma_unique_01		ugma_trinkets	elo_chief_ugma		0.0	0.0		0	0	true
+elo_chief_ugma_unique_06		resevoir_stone_hammer	elo_chief_ugma		0.0	1.0		0	0	true
+elo_chief_ugma_unique_02		wh_dlc08_skill_nor_lords_unique_eye_of_the_gods	elo_chief_ugma		0.0	2.0		0	0	true
+elo_chief_ugma_unique_03		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	elo_chief_ugma		0.0	3.0		0	0	true
+elo_chief_ugma_unique_04		reworked_mutant_regeneration	elo_chief_ugma		0.0	4.0		0	0	true
+elo_chief_ugma_unique_05		elo_leader_river	elo_chief_ugma		0.0	5.0		0	0	true
+elo_chief_ugma_unique_07		reworked_cyclopean_fiends	elo_chief_ugma		0.0	6.0		0	0	true
+elo_eloquent_troll		elo_eloquent_troll	elo_chief_ugma		2.0	0.0		0	0	true
+elo_troll_toll		elo_troll_toll	elo_chief_ugma		2.0	1.0		0	0	true
+creature_water		creature_water	elo_chief_ugma		2.0	2.0		0	0	true
+elo_ugma_hitharder		elo_skill_hitharder	elo_chief_ugma		2.0	3.0		0	0	true
+ugma_warpstone_touched		ugma_warpstone_touched	elo_chief_ugma		2.0	4.0		0	0	true
+ugma_strongest_river		ugma_strongest_river	elo_chief_ugma		2.0	5.0		0	4	true

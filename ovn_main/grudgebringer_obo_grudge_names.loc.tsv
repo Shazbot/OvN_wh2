@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/grudgebringer_obo_grudge_names.loc		
 names_name_3110890001	Commander	true
 names_name_3110890002	Bernhardt	true
 names_name_3110890003	Sgt. Gunther	true

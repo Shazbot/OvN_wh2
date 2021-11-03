@@ -1,5 +1,5 @@
-units_custom_battle_permissions_tables	8
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+#units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/ovn_rotbloods								
 wh_main_chs_chaos	false	ovn_nurgle_chs_cav_chaos_knights_0	true	true				false
 wh_main_chs_chaos	false	ovn_nurgle_chs_cav_chaos_knights_1	true	true				false
 wh2_main_nor_rotbloods	false	ovn_nurgle_chs_cav_chaos_knights_0	true	true				false

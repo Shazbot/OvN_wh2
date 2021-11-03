@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_halfling_legendarylord_names.loc		
 names_name_858212100	Glibfoot	true
 names_name_858212101	Volespanker	true
 names_name_858212102	Glibfoot Volespanker	true

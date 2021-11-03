@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_carrion_agent_subtype_subculture_overrides__.loc		
 agent_subtype_subculture_overrides_description_elo_carrion_bosswh_main_sc_nor_trollspy	A boss of the Carrion Tribe, these goblins learned to manipulate both their troll overlords and their fellow goblins to their advantage.	true
 agent_subtype_subculture_overrides_onscreen_name_elo_carrion_bosswh_main_sc_nor_trollspy	Carrion Big Boss	false

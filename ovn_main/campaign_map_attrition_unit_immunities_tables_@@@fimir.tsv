@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/@@@fimir	
 chaos_territory	ovn_finmor
 chaos_territory	ovn_finmor_belakor
 disease	ovn_finmor

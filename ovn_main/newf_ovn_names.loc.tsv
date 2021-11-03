@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/newf_ovn_names.loc		
 names_name_306846499	Meargh Skattach	true
 names_name_755912224		true
 names_name_986134575	Walach	true

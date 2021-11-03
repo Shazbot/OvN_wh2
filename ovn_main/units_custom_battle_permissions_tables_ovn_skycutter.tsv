@@ -1,4 +1,4 @@
-units_custom_battle_permissions_tables	8
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
+#units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/ovn_skycutter								
 wh2_main_hef_citadel_of_dusk	false	cr_hef_veh_lothern_skycutter	true	true				false
 wh2_main_hef_citadel_of_dusk	false	cr_hef_veh_lothern_skycutter_ror	true	true				false

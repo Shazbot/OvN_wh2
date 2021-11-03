@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/belakor_effects__.loc		
 effects_description_Violent_rise_to_power_1	Ability: "Violent Rise To Power I"	true
 effects_description_Violent_rise_to_power_2	Ability: "Violent Rise To Power II"	true
 effects_description_Violent_rise_to_power_3	Ability: "Violent Rise To Power III"	true

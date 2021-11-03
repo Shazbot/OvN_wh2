@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_halfling_lordsheroes_unit_groupings.loc		
 ui_unit_groupings_onscreen_hlf_master_chef	Culinary Support Expert	true
 ui_unit_groupings_tooltip_hlf_master_chef	Master Chefs are the greatest cooks in Halfling society.	true

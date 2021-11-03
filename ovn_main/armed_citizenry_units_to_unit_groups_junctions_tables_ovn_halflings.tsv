@@ -1,5 +1,5 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/ovn_halflings			
 92112192	3	halfling_spear	ovn_halfling
 92112193	3	halfling_milittia_arch	ovn_halfling
 92112194	3	halfling_inf	ovn_halfling

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_crafting_araby_slaves_pooled_res.loc		
 pooled_resources_description_ovn_araby_victories_lzd	Victories against Lizardmen	true
 pooled_resources_positive_factors_display_name_ovn_araby_victories_lzd	Achieved	true
 pooled_resources_display_name_ovn_araby_victories_lzd	Victories against Lizardmen	true

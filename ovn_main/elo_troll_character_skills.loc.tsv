@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_troll_character_skills.loc		
 character_skills_localised_description_elo_skill_conduit	Dumb but big, mean and tough enough to make other monsters around him do...something. Sometimes even what he wants them to do. 	true
 character_skills_localised_name_elo_skill_conduit	Troll Boss	true
 character_skills_localised_description_elo_skill_fedbywar	A Troll Horde always hungers and the first to battle are the first to feed.	true

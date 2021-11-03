@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/ovn_wolf_halfling_legendary_lord		
 unit_xp_mod	hlf_glibfoot_hlf_thieves	hlf_thieves
 upkeep_mod	hlf_glibfoot_reduce_inf_upkeep	hlf_melee_units
 morale	hlf_glibfoot_morale_inf	hlf_melee_units

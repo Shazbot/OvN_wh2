@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/elo_fimir_lord		
 mod_land_movement_battle	elo_fimir_rusher_sp	fimir_rushers
 charge_add	elo_fimir_rusher_ch	fimir_rushers
 melee_attack_mod	elo_fimir_first_wave_ma	first_wave

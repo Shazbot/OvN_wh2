@@ -1,9 +1,9 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	reworked_cyclopean_fiends		24
-		x	1	reworked_king_of_trolls		14
-		x	1	reworked_mutant_regeneration		11
-		x	1	elo_leader_river		14
-		x	1	elo_eloquent_troll		11
-		x	1	resevoir_stone_hammer		18
-		x	1	ugma_trinkets		14
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/elo_troll_ugma						
+		1	reworked_cyclopean_fiends		x	24
+		1	reworked_king_of_trolls		x	14
+		1	reworked_mutant_regeneration		x	11
+		1	elo_leader_river		x	14
+		1	elo_eloquent_troll		x	11
+		1	resevoir_stone_hammer		x	18
+		1	ugma_trinkets		x	14

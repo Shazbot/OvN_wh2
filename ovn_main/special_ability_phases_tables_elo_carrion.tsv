@@ -1,5 +1,5 @@
-special_ability_phases_tables	35
-duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
-1.1	positive	elo_special_treat		true	false	false	-1.0	0.0	0.0	1.0	2500	0.0	0	-1	2500	false	0.0	0.0	false	0		wh2_main_unit_passive_rebirth		-1.0	false	true	true	0.0	
-30.0	negative	elo_those_are_tasty		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0	elo_contact_very_tasty	wh_main_generic_debuff_attack		-1.0	false	true	true	0.0	
-30.0	positive	elo_contact_very_tasty		false	false	false	-0.1	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	
+id	duration	effect_type	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
+#special_ability_phases_tables;35;db/special_ability_phases_tables/elo_carrion																													
+elo_special_treat	1.1	positive		true	false	false	-1.0	0.0	0.0	1.0	2500	0.0	0	-1	2500	false	0.0	0.0	false	0		wh2_main_unit_passive_rebirth		-1.0	false	true	true	0.0	
+elo_those_are_tasty	30.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0	elo_contact_very_tasty	wh_main_generic_debuff_attack		-1.0	false	true	true	0.0	
+elo_contact_very_tasty	30.0	positive		false	false	false	-0.1	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale		-1.0	false	true	true	0.0	

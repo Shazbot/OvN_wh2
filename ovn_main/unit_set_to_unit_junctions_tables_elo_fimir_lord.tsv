@@ -1,266 +1,266 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				ovn_shearl	first_wave
-false				ovn_death_quest	first_wave
-false				ovn_boglar	first_wave
-false				ovn_fianna_fimm	swamp_warriors
-false				ovn_fimm	swamp_warriors
-false				wh_dlc08_nor_mon_fimir_0	swamp_warriors
-false				wh_dlc08_nor_mon_fimir_1	swamp_warriors
-false				ovn_finmor	swamp_warriors
-false				ovn_finmor_belakor	swamp_warriors
-false				wh_pro04_nor_mon_fimir_ror_0	swamp_warriors
-false				ovn_zoat	fimir_rushers
-false				wh_main_chs_mon_chaos_warhounds_0	fimir_rushers
-false				wh_main_chs_mon_chaos_warhounds_1	fimir_rushers
-false				ovn_fim_cav_bog_beast_riders_0	fimir_rushers
-false				ovn_mistmor	fimir_giants_fen
-false				albion_fenhulk	fimir_giants_fen
-false				wh_main_chs_mon_giant	fimir_giants_fen
-false				elo_fenbeast	fimir_bog_monsters
-false				elo_river_trolls	fimir_bog_monsters
-false				wh_main_chs_mon_trolls	fimir_bog_monsters
-false				wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_bog_monsters
-false				ovn_shearl	fimir_r7_warriors
-false				ovn_death_quest	fimir_r7_warriors
-false				ovn_boglar	fimir_r7_warriors
-false				ovn_finmor	fimir_r7_warriors
-false				ovn_finmor_belakor	fimir_r7_warriors
-false				ovn_fianna_fimm	fimir_r7_warriors
-false				ovn_fimm	fimir_r7_warriors
-false				wh_dlc08_nor_mon_fimir_0	fimir_r7_warriors
-false				wh_dlc08_nor_mon_fimir_1	fimir_r7_warriors
-false				wh_pro04_nor_mon_fimir_ror_0	fimir_r7_warriors
-false				ovn_zoat	fimir_r7_fast
-false				wh_main_chs_mon_chaos_warhounds_0	fimir_r7_fast
-false				wh_main_chs_mon_chaos_warhounds_1	fimir_r7_fast
-false				ovn_fim_cav_bog_beast_riders_0	fimir_r7_fast
-false				ovn_mistmor	fimir_r7_giants
-false				albion_fenhulk	fimir_r7_giants
-false				wh_main_chs_mon_giant	fimir_r7_giants
-false				elo_fenbeast	fimir_r7_auxillaries
-false				elo_river_trolls	fimir_r7_auxillaries
-false				wh_main_chs_mon_trolls	fimir_r7_auxillaries
-false				wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_r7_auxillaries
-false				ovn_shearl	fimir_slaves
-false				ovn_boglar	fimir_slaves
-false				ovn_fianna_fimm	fimir_warrior_caste
-false				ovn_fimm	fimir_warrior_caste
-false				wh_dlc08_nor_mon_fimir_0	fimir_warrior_caste
-false				wh_dlc08_nor_mon_fimir_1	fimir_warrior_caste
-false				wh_pro04_nor_mon_fimir_ror_0	fimir_warrior_caste
-false				ovn_zoat	fimir_untamed_monsters
-false				wh_main_chs_mon_giant	fimir_untamed_monsters
-false				elo_river_trolls	fimir_untamed_monsters
-false				wh_main_chs_mon_trolls	fimir_untamed_monsters
-false				wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_untamed_monsters
-false				ovn_fim_cav_bog_beast_riders_0	dlc08_nor_fimirs
-false				ovn_shearl	dlc08_nor_fimirs
-false				ovn_death_quest	dlc08_nor_fimirs
-false				ovn_killing_eye	dlc08_nor_fimirs
-false				ovn_fianna_fimm	dlc08_nor_fimirs
-false				ovn_gharnus_demon	dlc08_nor_fimirs
-false				ovn_fimm	dlc08_nor_fimirs
-false				ovn_mistmor	dlc08_nor_fimirs
-false				ovn_fim_mon_caster_0	dlc08_nor_fimirs
-false				ovn_fim_mon_javelin_0	dlc08_nor_fimirs
-false				ovn_fim_cav_bog_beast_riders_0	all_units
-false				ovn_shearl	all_units
-false				ovn_death_quest	all_units
-false				ovn_killing_eye	all_units
-false				ovn_fianna_fimm	all_units
-false				ovn_gharnus_demon	all_units
-false				ovn_fimm	all_units
-false				ovn_mistmor	all_units
-false				ovn_boglar	all_units
-false				ovn_zoat	all_units
-false				ovn_fim_mon_caster_0	all_units
-false				ovn_fim_mon_javelin_0	all_units
-false				ovn_shearl	elo_fimir_shearl
-false				ovn_fim_mon_javelin_0	elo_fimir_shearl
-false				ovn_death_quest	elo_fimir_shearl
-false				ovn_fim_mon_javelin_0	elo_fimir_useful_shearls
-false				ovn_death_quest	elo_fimir_useful_shearls
-false				ovn_fim_mon_caster_0	elo_fimir_apprentices
-false				ovn_boglar	elo_low_level_swamp_dwellers
-false				wh_main_chs_mon_chaos_warhounds_0	elo_low_level_swamp_dwellers
-false				wh_main_chs_mon_chaos_warhounds_1	elo_low_level_swamp_dwellers
-false				elo_river_trolls	elo_fimir_trolls
-false				wh_main_chs_mon_trolls	elo_fimir_trolls
-false				wh_dlc08_nor_mon_norscan_ice_trolls_0	elo_fimir_trolls
-false				ovn_fim_cav_bog_beast_riders_0	elo_swamp_riders
-false				ovn_mistmor	elo_fen_big_dwellers
-false				ovn_zoat	elo_fen_big_dwellers
-false				wh_main_chs_mon_giant	elo_fen_big_dwellers
-false				ovn_boglar	elo_fen_monster_rulers
-false				wh_main_chs_mon_chaos_warhounds_0	elo_fen_monster_rulers
-false				wh_main_chs_mon_chaos_warhounds_1	elo_fen_monster_rulers
-false				elo_river_trolls	elo_fen_monster_rulers
-false				wh_main_chs_mon_trolls	elo_fen_monster_rulers
-false				wh_dlc08_nor_mon_norscan_ice_trolls_0	elo_fen_monster_rulers
-false				ovn_fim_cav_bog_beast_riders_0	elo_fen_monster_rulers
-false				ovn_zoat	elo_fen_monster_rulers
-false				wh_main_chs_mon_giant	elo_fen_monster_rulers
-false				wh_dlc08_nor_cha_fimir_balefiend_fire_0	elo_fen_lord_heroes
-false				wh_dlc08_nor_cha_fimir_balefiend_shadow_0	elo_fen_lord_heroes
-false				wh2_dlc15_grn_cha_river_troll_hag_0	elo_fen_lord_heroes
-false				rbt_nurgle_daemon	elo_belakor_fimir_demons
-false				kho_bloodletter	elo_belakor_fimir_demons
-false				Great_Deamon1_unit	elo_belakor_fimir_demons
-false				ovn_boglar_no_garrison	first_wave
-false				ovn_boglar_no_garrison	fimir_r7_warriors
-false				ovn_boglar_no_garrison	fimir_slaves
-false				ovn_boglar_no_garrison	all_units
-false				ovn_boglar_no_garrison	elo_low_level_swamp_dwellers
-false				ovn_boglar_no_garrison	elo_fen_monster_rulers
-false				ovn_shearl_no_garrison	first_wave
-false				ovn_shearl_no_garrison	fimir_r7_warriors
-false				ovn_shearl_no_garrison	fimir_slaves
-false				ovn_shearl_no_garrison	dlc08_nor_fimirs
-false				ovn_shearl_no_garrison	all_units
-false				ovn_shearl_no_garrison	elo_fimir_shearl
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	chs_all
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	chs_warriors_only
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	chs_warriors
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	mp_set_chs_inf_chaos_warriors_2
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	wh2_dlc11_chs_chosen_spawn_chaos_warriors
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	chs_all
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	chs_warriors_only
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	chs_warriors
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	mp_set_chs_inf_chaos_warriors_1
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	wh2_dlc11_chs_chosen_spawn_chaos_warriors
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-true				wh_main_nor_cav_marauder_horsemen_0_no_garrison	all_units_excluding_guerrilla_deployment
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_all
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_cav_chariots
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_cav
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_mis
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	mp_cap_missile_cav_chariots
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	mp_set_360_degree_fire
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	mp_set_nor_cav_marauder_horsemen_0
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	wh2_dlc11_nor_marauder_hunters_marauder_horsemen
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	wh2_dlc11_nor_vets_marauder_hunters_marauder_horsemen
-true				wh_dlc01_chs_inf_forsaken_0_no_garrison	all_units_excluding_immune_to_psychology
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	chs_all
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	chs_forsaken
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	mp_set_chs_inf_forsaken
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	wh2_dlc11_chs_marauders_aspiring_champions_forsaken
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen
-false				ovn_marsh_hounds	fimir_rushers
-false				ovn_marsh_hounds	fimir_r7_fast
-false				ovn_marsh_hounds	elo_low_level_swamp_dwellers
-false				ovn_marsh_hounds	elo_fen_monster_rulers
-false				ovn_finmor	fimir_warrior_caste
-false				ovn_finmor_belakor	fimir_warrior_caste
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_belakor_fimir_demons
-false				wh_pro04_chs_mon_chaos_spawn_ror_0	elo_belakor_fimir_demons
-false				wh_main_chs_mon_chaos_spawn	elo_belakor_fimir_demons
-false				rbt_nurgle_daemon	elo_demons_papa_nurgle
-false				kho_bloodletter	elo_demons_khoooorne
-false				ovn_boglar_no_garrison	elo_belakor_hopeless_fodder
-false				ovn_marsh_hounds	elo_belakor_hopeless_fodder
-false				wh_main_chs_inf_chaos_marauders_0	elo_belakor_hopeless_fodder
-false				wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_hopeless_fodder
-false				wh_main_nor_cav_marauder_horsemen_1	elo_belakor_riders_chaos
-false				wh_main_chs_cav_chaos_knights_1	elo_belakor_riders_chaos
-false				wh_main_chs_cav_chaos_knights_0	elo_belakor_riders_chaos
-false				wh_main_chs_cav_chaos_chariot	elo_belakor_riders_chaos
-false				wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_riders_chaos
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_riders_chaos
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_belakor_armoured_warriors
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_belakor_armoured_warriors
-false				wh_main_chs_inf_chaos_warriors_0	elo_belakor_armoured_warriors
-false				wh_main_chs_inf_chosen_0	elo_belakor_armoured_warriors
-false				ovn_zoat	elo_belakor_corrupted_giants
-false				wh_main_chs_mon_giant	elo_belakor_corrupted_giants
-false				wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_corrupted_giants
-false				wh_main_chs_inf_chaos_marauders_0	elo_belakor_twisted_corrupted
-false				wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_twisted_corrupted
-false				wh_main_nor_cav_marauder_horsemen_1	elo_belakor_twisted_corrupted
-false				wh_main_chs_cav_chaos_knights_1	elo_belakor_twisted_corrupted
-false				wh_main_chs_cav_chaos_knights_0	elo_belakor_twisted_corrupted
-false				wh_main_chs_cav_chaos_chariot	elo_belakor_twisted_corrupted
-false				wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_twisted_corrupted
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_twisted_corrupted
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_belakor_twisted_corrupted
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_belakor_twisted_corrupted
-false				wh_main_chs_inf_chaos_warriors_0	elo_belakor_twisted_corrupted
-false				wh_main_chs_inf_chosen_0	elo_belakor_twisted_corrupted
-false				ovn_zoat	elo_belakor_twisted_corrupted
-false				wh_main_chs_mon_giant	elo_belakor_twisted_corrupted
-false				wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_twisted_corrupted
-false				ovn_boglar_no_garrison	elo_belakor_twisted_corrupted
-false				wh_main_chs_inf_chaos_marauders_0	elo_belakor_here_to_die
-false				ovn_boglar_no_garrison	elo_belakor_here_to_die
-false				ovn_shearl_no_garrison	elo_belakor_here_to_die
-false				ovn_death_quest	elo_belakor_here_to_die
-false				ovn_fim_mon_caster_0	elo_belakor_ranged
-false				ovn_fim_mon_javelin_0	elo_belakor_ranged
-false				wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_ranged
-false				wh_main_chs_art_hellcannon	elo_belakor_ranged
-false				wh_main_nor_cav_marauder_horsemen_1	elo_belakor_cav
-false				wh_main_chs_cav_chaos_knights_1	elo_belakor_cav
-false				wh_main_chs_cav_chaos_knights_0	elo_belakor_cav
-false				wh_main_chs_cav_chaos_chariot	elo_belakor_cav
-false				wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_cav
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_cav
-false				rbt_nurgle_daemon	elo_belakor_chaos_infantry
-false				kho_bloodletter	elo_belakor_chaos_infantry
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_belakor_chaos_infantry
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_belakor_chaos_infantry
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_belakor_chaos_infantry
-false				wh_main_chs_inf_chaos_warriors_0	elo_belakor_chaos_infantry
-false				wh_main_chs_inf_chosen_0	elo_belakor_chaos_infantry
-false				wh_pro04_chs_mon_chaos_spawn_ror_0	elo_belakor_conjured_monsters
-false				wh_main_chs_mon_chaos_spawn	elo_belakor_conjured_monsters
-false				elo_fenbeast	elo_belakor_conjured_monsters
-false				albion_fenhulk	elo_belakor_conjured_monsters
-false				Great_Deamon1_unit	elo_belakor_conjured_monsters
-false				ovn_marsh_hounds	elo_belakor_conscripted_beasts
-false				ovn_zoat	elo_belakor_conscripted_beasts
-false				wh_main_chs_mon_giant	elo_belakor_conscripted_beasts
-false				wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_conscripted_beasts
-false				ovn_shearl_no_garrison	elo_belakor_r7_fimir_all
-false				ovn_finmor	elo_belakor_r7_fimir_all
-false				ovn_finmor_belakor	elo_belakor_r7_fimir_all
-false				wh_dlc08_nor_mon_fimir_0	elo_belakor_r7_fimir_all
-false				wh_dlc08_nor_mon_fimir_1	elo_belakor_r7_fimir_all
-false				wh_pro04_nor_mon_fimir_ror_0	elo_belakor_r7_fimir_all
-false				ovn_death_quest	elo_belakor_r7_fimir_all
-false				ovn_killing_eye	elo_belakor_r7_fimir_all
-false				ovn_fianna_fimm	elo_belakor_r7_fimir_all
-false				ovn_gharnus_demon	elo_belakor_r7_fimir_all
-false				ovn_fimm	elo_belakor_r7_fimir_all
-false				ovn_fim_mon_caster_0	elo_belakor_ranged_r7
-false				ovn_fim_mon_javelin_0	elo_belakor_ranged_r7
-false				wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_ranged_r7
-false				wh_main_chs_art_hellcannon	elo_belakor_ranged_r7
-false				wh_main_nor_cav_marauder_horsemen_1	elo_belakor_ranged_r7
-false				wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_ranged_r7
-false				wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_ranged_r7
-false				wh_main_chs_cav_chaos_knights_1	elo_belakor_cav_bog_r7
-false				wh_main_chs_cav_chaos_knights_0	elo_belakor_cav_bog_r7
-false				wh_main_chs_cav_chaos_chariot	elo_belakor_cav_bog_r7
-false				ovn_boglar_no_garrison	elo_belakor_cav_bog_r7
-false				ovn_marsh_hounds	elo_belakor_cav_bog_r7
-false				ovn_zoat	elo_belakor_cav_bog_r7
-false				wh_main_chs_mon_giant	elo_belakor_cav_bog_r7
-false				rbt_nurgle_daemon	elo_champions_chaos_r7
-false				kho_bloodletter	elo_champions_chaos_r7
-false				wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_champions_chaos_r7
-false				wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_champions_chaos_r7
-false				wh_main_chs_inf_chaos_warriors_0	elo_champions_chaos_r7
-false				wh_main_chs_inf_chosen_0	elo_champions_chaos_r7
-false				wh_pro04_chs_mon_chaos_spawn_ror_0	elo_champions_chaos_r7
-false				wh_main_chs_mon_chaos_spawn	elo_champions_chaos_r7
-false				Great_Deamon1_unit	elo_champions_chaos_r7
-false				wh_main_chs_inf_chaos_marauders_0	elo_champions_chaos_r7
-false				wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_champions_chaos_r7
-false				albion_riders	elo_belakor_cav
-false				albion_riders_javelins_no_garrison	elo_belakor_cav
-false				elo_albion_warriors_no_garrison	elo_belakor_here_to_die
-false				elo_albion_warriors_spears_no_garrison	elo_belakor_here_to_die
-false				albion_riders	elo_belakor_ranged
-false				ovn_mon_harpies	fimir_bog_monsters
-false				ovn_mon_harpies	fimir_r7_auxillaries
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/elo_fimir_lord					
+			ovn_shearl	first_wave	false
+			ovn_death_quest	first_wave	false
+			ovn_boglar	first_wave	false
+			ovn_fianna_fimm	swamp_warriors	false
+			ovn_fimm	swamp_warriors	false
+			wh_dlc08_nor_mon_fimir_0	swamp_warriors	false
+			wh_dlc08_nor_mon_fimir_1	swamp_warriors	false
+			ovn_finmor	swamp_warriors	false
+			ovn_finmor_belakor	swamp_warriors	false
+			wh_pro04_nor_mon_fimir_ror_0	swamp_warriors	false
+			ovn_zoat	fimir_rushers	false
+			wh_main_chs_mon_chaos_warhounds_0	fimir_rushers	false
+			wh_main_chs_mon_chaos_warhounds_1	fimir_rushers	false
+			ovn_fim_cav_bog_beast_riders_0	fimir_rushers	false
+			ovn_mistmor	fimir_giants_fen	false
+			albion_fenhulk	fimir_giants_fen	false
+			wh_main_chs_mon_giant	fimir_giants_fen	false
+			elo_fenbeast	fimir_bog_monsters	false
+			elo_river_trolls	fimir_bog_monsters	false
+			wh_main_chs_mon_trolls	fimir_bog_monsters	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_bog_monsters	false
+			ovn_shearl	fimir_r7_warriors	false
+			ovn_death_quest	fimir_r7_warriors	false
+			ovn_boglar	fimir_r7_warriors	false
+			ovn_finmor	fimir_r7_warriors	false
+			ovn_finmor_belakor	fimir_r7_warriors	false
+			ovn_fianna_fimm	fimir_r7_warriors	false
+			ovn_fimm	fimir_r7_warriors	false
+			wh_dlc08_nor_mon_fimir_0	fimir_r7_warriors	false
+			wh_dlc08_nor_mon_fimir_1	fimir_r7_warriors	false
+			wh_pro04_nor_mon_fimir_ror_0	fimir_r7_warriors	false
+			ovn_zoat	fimir_r7_fast	false
+			wh_main_chs_mon_chaos_warhounds_0	fimir_r7_fast	false
+			wh_main_chs_mon_chaos_warhounds_1	fimir_r7_fast	false
+			ovn_fim_cav_bog_beast_riders_0	fimir_r7_fast	false
+			ovn_mistmor	fimir_r7_giants	false
+			albion_fenhulk	fimir_r7_giants	false
+			wh_main_chs_mon_giant	fimir_r7_giants	false
+			elo_fenbeast	fimir_r7_auxillaries	false
+			elo_river_trolls	fimir_r7_auxillaries	false
+			wh_main_chs_mon_trolls	fimir_r7_auxillaries	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_r7_auxillaries	false
+			ovn_shearl	fimir_slaves	false
+			ovn_boglar	fimir_slaves	false
+			ovn_fianna_fimm	fimir_warrior_caste	false
+			ovn_fimm	fimir_warrior_caste	false
+			wh_dlc08_nor_mon_fimir_0	fimir_warrior_caste	false
+			wh_dlc08_nor_mon_fimir_1	fimir_warrior_caste	false
+			wh_pro04_nor_mon_fimir_ror_0	fimir_warrior_caste	false
+			ovn_zoat	fimir_untamed_monsters	false
+			wh_main_chs_mon_giant	fimir_untamed_monsters	false
+			elo_river_trolls	fimir_untamed_monsters	false
+			wh_main_chs_mon_trolls	fimir_untamed_monsters	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_untamed_monsters	false
+			ovn_fim_cav_bog_beast_riders_0	dlc08_nor_fimirs	false
+			ovn_shearl	dlc08_nor_fimirs	false
+			ovn_death_quest	dlc08_nor_fimirs	false
+			ovn_killing_eye	dlc08_nor_fimirs	false
+			ovn_fianna_fimm	dlc08_nor_fimirs	false
+			ovn_gharnus_demon	dlc08_nor_fimirs	false
+			ovn_fimm	dlc08_nor_fimirs	false
+			ovn_mistmor	dlc08_nor_fimirs	false
+			ovn_fim_mon_caster_0	dlc08_nor_fimirs	false
+			ovn_fim_mon_javelin_0	dlc08_nor_fimirs	false
+			ovn_fim_cav_bog_beast_riders_0	all_units	false
+			ovn_shearl	all_units	false
+			ovn_death_quest	all_units	false
+			ovn_killing_eye	all_units	false
+			ovn_fianna_fimm	all_units	false
+			ovn_gharnus_demon	all_units	false
+			ovn_fimm	all_units	false
+			ovn_mistmor	all_units	false
+			ovn_boglar	all_units	false
+			ovn_zoat	all_units	false
+			ovn_fim_mon_caster_0	all_units	false
+			ovn_fim_mon_javelin_0	all_units	false
+			ovn_shearl	elo_fimir_shearl	false
+			ovn_fim_mon_javelin_0	elo_fimir_shearl	false
+			ovn_death_quest	elo_fimir_shearl	false
+			ovn_fim_mon_javelin_0	elo_fimir_useful_shearls	false
+			ovn_death_quest	elo_fimir_useful_shearls	false
+			ovn_fim_mon_caster_0	elo_fimir_apprentices	false
+			ovn_boglar	elo_low_level_swamp_dwellers	false
+			wh_main_chs_mon_chaos_warhounds_0	elo_low_level_swamp_dwellers	false
+			wh_main_chs_mon_chaos_warhounds_1	elo_low_level_swamp_dwellers	false
+			elo_river_trolls	elo_fimir_trolls	false
+			wh_main_chs_mon_trolls	elo_fimir_trolls	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	elo_fimir_trolls	false
+			ovn_fim_cav_bog_beast_riders_0	elo_swamp_riders	false
+			ovn_mistmor	elo_fen_big_dwellers	false
+			ovn_zoat	elo_fen_big_dwellers	false
+			wh_main_chs_mon_giant	elo_fen_big_dwellers	false
+			ovn_boglar	elo_fen_monster_rulers	false
+			wh_main_chs_mon_chaos_warhounds_0	elo_fen_monster_rulers	false
+			wh_main_chs_mon_chaos_warhounds_1	elo_fen_monster_rulers	false
+			elo_river_trolls	elo_fen_monster_rulers	false
+			wh_main_chs_mon_trolls	elo_fen_monster_rulers	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	elo_fen_monster_rulers	false
+			ovn_fim_cav_bog_beast_riders_0	elo_fen_monster_rulers	false
+			ovn_zoat	elo_fen_monster_rulers	false
+			wh_main_chs_mon_giant	elo_fen_monster_rulers	false
+			wh_dlc08_nor_cha_fimir_balefiend_fire_0	elo_fen_lord_heroes	false
+			wh_dlc08_nor_cha_fimir_balefiend_shadow_0	elo_fen_lord_heroes	false
+			wh2_dlc15_grn_cha_river_troll_hag_0	elo_fen_lord_heroes	false
+			rbt_nurgle_daemon	elo_belakor_fimir_demons	false
+			kho_bloodletter	elo_belakor_fimir_demons	false
+			Great_Deamon1_unit	elo_belakor_fimir_demons	false
+			ovn_boglar_no_garrison	first_wave	false
+			ovn_boglar_no_garrison	fimir_r7_warriors	false
+			ovn_boglar_no_garrison	fimir_slaves	false
+			ovn_boglar_no_garrison	all_units	false
+			ovn_boglar_no_garrison	elo_low_level_swamp_dwellers	false
+			ovn_boglar_no_garrison	elo_fen_monster_rulers	false
+			ovn_shearl_no_garrison	first_wave	false
+			ovn_shearl_no_garrison	fimir_r7_warriors	false
+			ovn_shearl_no_garrison	fimir_slaves	false
+			ovn_shearl_no_garrison	dlc08_nor_fimirs	false
+			ovn_shearl_no_garrison	all_units	false
+			ovn_shearl_no_garrison	elo_fimir_shearl	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	chs_all	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	chs_warriors_only	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	chs_warriors	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	mp_set_chs_inf_chaos_warriors_2	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	wh2_dlc11_chs_chosen_spawn_chaos_warriors	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	chs_all	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	chs_warriors_only	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	chs_warriors	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	mp_set_chs_inf_chaos_warriors_1	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	wh2_dlc11_chs_chosen_spawn_chaos_warriors	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	all_units_excluding_guerrilla_deployment	true
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_all	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_cav_chariots	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_cav	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	dlc08_nor_marauders_mis	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	mp_cap_missile_cav_chariots	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	mp_set_360_degree_fire	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	mp_set_nor_cav_marauder_horsemen_0	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	wh2_dlc11_nor_marauder_hunters_marauder_horsemen	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	wh2_dlc11_nor_vets_marauder_hunters_marauder_horsemen	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	all_units_excluding_immune_to_psychology	true
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	chs_all	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	chs_forsaken	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	mp_set_chs_inf_forsaken	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	wh2_dlc11_chs_marauders_aspiring_champions_forsaken	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
+			ovn_marsh_hounds	fimir_rushers	false
+			ovn_marsh_hounds	fimir_r7_fast	false
+			ovn_marsh_hounds	elo_low_level_swamp_dwellers	false
+			ovn_marsh_hounds	elo_fen_monster_rulers	false
+			ovn_finmor	fimir_warrior_caste	false
+			ovn_finmor_belakor	fimir_warrior_caste	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_belakor_fimir_demons	false
+			wh_pro04_chs_mon_chaos_spawn_ror_0	elo_belakor_fimir_demons	false
+			wh_main_chs_mon_chaos_spawn	elo_belakor_fimir_demons	false
+			rbt_nurgle_daemon	elo_demons_papa_nurgle	false
+			kho_bloodletter	elo_demons_khoooorne	false
+			ovn_boglar_no_garrison	elo_belakor_hopeless_fodder	false
+			ovn_marsh_hounds	elo_belakor_hopeless_fodder	false
+			wh_main_chs_inf_chaos_marauders_0	elo_belakor_hopeless_fodder	false
+			wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_hopeless_fodder	false
+			wh_main_nor_cav_marauder_horsemen_1	elo_belakor_riders_chaos	false
+			wh_main_chs_cav_chaos_knights_1	elo_belakor_riders_chaos	false
+			wh_main_chs_cav_chaos_knights_0	elo_belakor_riders_chaos	false
+			wh_main_chs_cav_chaos_chariot	elo_belakor_riders_chaos	false
+			wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_riders_chaos	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_riders_chaos	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_belakor_armoured_warriors	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_belakor_armoured_warriors	false
+			wh_main_chs_inf_chaos_warriors_0	elo_belakor_armoured_warriors	false
+			wh_main_chs_inf_chosen_0	elo_belakor_armoured_warriors	false
+			ovn_zoat	elo_belakor_corrupted_giants	false
+			wh_main_chs_mon_giant	elo_belakor_corrupted_giants	false
+			wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_corrupted_giants	false
+			wh_main_chs_inf_chaos_marauders_0	elo_belakor_twisted_corrupted	false
+			wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_twisted_corrupted	false
+			wh_main_nor_cav_marauder_horsemen_1	elo_belakor_twisted_corrupted	false
+			wh_main_chs_cav_chaos_knights_1	elo_belakor_twisted_corrupted	false
+			wh_main_chs_cav_chaos_knights_0	elo_belakor_twisted_corrupted	false
+			wh_main_chs_cav_chaos_chariot	elo_belakor_twisted_corrupted	false
+			wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_twisted_corrupted	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_twisted_corrupted	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_belakor_twisted_corrupted	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_belakor_twisted_corrupted	false
+			wh_main_chs_inf_chaos_warriors_0	elo_belakor_twisted_corrupted	false
+			wh_main_chs_inf_chosen_0	elo_belakor_twisted_corrupted	false
+			ovn_zoat	elo_belakor_twisted_corrupted	false
+			wh_main_chs_mon_giant	elo_belakor_twisted_corrupted	false
+			wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_twisted_corrupted	false
+			ovn_boglar_no_garrison	elo_belakor_twisted_corrupted	false
+			wh_main_chs_inf_chaos_marauders_0	elo_belakor_here_to_die	false
+			ovn_boglar_no_garrison	elo_belakor_here_to_die	false
+			ovn_shearl_no_garrison	elo_belakor_here_to_die	false
+			ovn_death_quest	elo_belakor_here_to_die	false
+			ovn_fim_mon_caster_0	elo_belakor_ranged	false
+			ovn_fim_mon_javelin_0	elo_belakor_ranged	false
+			wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_ranged	false
+			wh_main_chs_art_hellcannon	elo_belakor_ranged	false
+			wh_main_nor_cav_marauder_horsemen_1	elo_belakor_cav	false
+			wh_main_chs_cav_chaos_knights_1	elo_belakor_cav	false
+			wh_main_chs_cav_chaos_knights_0	elo_belakor_cav	false
+			wh_main_chs_cav_chaos_chariot	elo_belakor_cav	false
+			wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_cav	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_cav	false
+			rbt_nurgle_daemon	elo_belakor_chaos_infantry	false
+			kho_bloodletter	elo_belakor_chaos_infantry	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_belakor_chaos_infantry	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_belakor_chaos_infantry	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_belakor_chaos_infantry	false
+			wh_main_chs_inf_chaos_warriors_0	elo_belakor_chaos_infantry	false
+			wh_main_chs_inf_chosen_0	elo_belakor_chaos_infantry	false
+			wh_pro04_chs_mon_chaos_spawn_ror_0	elo_belakor_conjured_monsters	false
+			wh_main_chs_mon_chaos_spawn	elo_belakor_conjured_monsters	false
+			elo_fenbeast	elo_belakor_conjured_monsters	false
+			albion_fenhulk	elo_belakor_conjured_monsters	false
+			Great_Deamon1_unit	elo_belakor_conjured_monsters	false
+			ovn_marsh_hounds	elo_belakor_conscripted_beasts	false
+			ovn_zoat	elo_belakor_conscripted_beasts	false
+			wh_main_chs_mon_giant	elo_belakor_conscripted_beasts	false
+			wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_conscripted_beasts	false
+			ovn_shearl_no_garrison	elo_belakor_r7_fimir_all	false
+			ovn_finmor	elo_belakor_r7_fimir_all	false
+			ovn_finmor_belakor	elo_belakor_r7_fimir_all	false
+			wh_dlc08_nor_mon_fimir_0	elo_belakor_r7_fimir_all	false
+			wh_dlc08_nor_mon_fimir_1	elo_belakor_r7_fimir_all	false
+			wh_pro04_nor_mon_fimir_ror_0	elo_belakor_r7_fimir_all	false
+			ovn_death_quest	elo_belakor_r7_fimir_all	false
+			ovn_killing_eye	elo_belakor_r7_fimir_all	false
+			ovn_fianna_fimm	elo_belakor_r7_fimir_all	false
+			ovn_gharnus_demon	elo_belakor_r7_fimir_all	false
+			ovn_fimm	elo_belakor_r7_fimir_all	false
+			ovn_fim_mon_caster_0	elo_belakor_ranged_r7	false
+			ovn_fim_mon_javelin_0	elo_belakor_ranged_r7	false
+			wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_ranged_r7	false
+			wh_main_chs_art_hellcannon	elo_belakor_ranged_r7	false
+			wh_main_nor_cav_marauder_horsemen_1	elo_belakor_ranged_r7	false
+			wh_dlc08_nor_cav_marauder_horsemasters_0	elo_belakor_ranged_r7	false
+			wh_main_nor_cav_marauder_horsemen_0_no_garrison	elo_belakor_ranged_r7	false
+			wh_main_chs_cav_chaos_knights_1	elo_belakor_cav_bog_r7	false
+			wh_main_chs_cav_chaos_knights_0	elo_belakor_cav_bog_r7	false
+			wh_main_chs_cav_chaos_chariot	elo_belakor_cav_bog_r7	false
+			ovn_boglar_no_garrison	elo_belakor_cav_bog_r7	false
+			ovn_marsh_hounds	elo_belakor_cav_bog_r7	false
+			ovn_zoat	elo_belakor_cav_bog_r7	false
+			wh_main_chs_mon_giant	elo_belakor_cav_bog_r7	false
+			rbt_nurgle_daemon	elo_champions_chaos_r7	false
+			kho_bloodletter	elo_champions_chaos_r7	false
+			wh_dlc01_chs_inf_chaos_warriors_2_no_garrison	elo_champions_chaos_r7	false
+			wh_main_chs_inf_chaos_warriors_1_no_garrison	elo_champions_chaos_r7	false
+			wh_main_chs_inf_chaos_warriors_0	elo_champions_chaos_r7	false
+			wh_main_chs_inf_chosen_0	elo_champions_chaos_r7	false
+			wh_pro04_chs_mon_chaos_spawn_ror_0	elo_champions_chaos_r7	false
+			wh_main_chs_mon_chaos_spawn	elo_champions_chaos_r7	false
+			Great_Deamon1_unit	elo_champions_chaos_r7	false
+			wh_main_chs_inf_chaos_marauders_0	elo_champions_chaos_r7	false
+			wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_champions_chaos_r7	false
+			albion_riders	elo_belakor_cav	false
+			albion_riders_javelins_no_garrison	elo_belakor_cav	false
+			elo_albion_warriors_no_garrison	elo_belakor_here_to_die	false
+			elo_albion_warriors_spears_no_garrison	elo_belakor_here_to_die	false
+			albion_riders	elo_belakor_ranged	false
+			ovn_mon_harpies	fimir_bog_monsters	false
+			ovn_mon_harpies	fimir_r7_auxillaries	false

@@ -1,5 +1,5 @@
-faction_uniform_colours_tables	1
 faction_name	primary_colour_r	primary_colour_g	primary_colour_b	secondary_colour_r	secondary_colour_g	secondary_colour_b	tertiary_colour_r	tertiary_colour_g	tertiary_colour_b
+#faction_uniform_colours_tables;1;db/faction_uniform_colours_tables/@ovn_uniforms									
 wh2_main_emp_the_moot	140	160	50	200	190	60	155	45	35
 wh2_main_emp_grudgebringers	0	0	138	125	0	0	125	0	0
 wh2_main_arb_caliphate_of_araby	60	90	60	206	197	163	163	255	0

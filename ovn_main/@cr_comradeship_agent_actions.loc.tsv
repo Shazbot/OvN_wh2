@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_comradeship_agent_actions.loc		
 agent_actions_localised_action_name_ovn_agent_action_spy_hinder_settlement_damage_building	{{tr:agent_action_name_damage_building}}	true
 agent_actions_localised_action_description_ovn_agent_action_spy_hinder_settlement_damage_building	[[col:yellow]]Inflicts damage upon a building in the target settlement.[[/col]]	true
 agent_actions_localised_action_name_ovn_agent_action_spy_hinder_agent_wound	{{tr:agent_action_name_wound}}	true

@@ -1,5 +1,5 @@
-ancillary_to_effects_tables	0
 ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/elo_albion			
 anc_morrigan_staff	wh_main_effect_character_stat_mod_miscast_chance	character_to_character_own	-15.0
 anc_morrigan_staff	wh_main_effect_military_force_winds_of_magic_starting_mod	character_to_force_own_unseen	15.0
 anc_morrigan_staff	wh_main_effect_character_stat_mod_ward_save	character_to_character_own	10.0

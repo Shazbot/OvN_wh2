@@ -1,5 +1,5 @@
-unit_variants_tables	5
-faction	name	unit	variant	unit_card
+faction	unit	name	variant	unit_card
+#unit_variants_tables;5;db/unit_variants_tables/ovn_grudgebringers				
 	grudgebringer_infantry	grudgebringer_infantry	grudgebringer_infantry	emp_grudge_comp
 	grudgebringer_cannon	grudgebringer_cannon	grudgebringer_cannon	emp_grudge_can
 	grudgebringer_cavalry	grudgebringer_cavalry	grudgebringer_cavalry	grudgebringer_cavalry

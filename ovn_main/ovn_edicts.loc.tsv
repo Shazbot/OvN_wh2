@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_edicts.loc		
 provincial_initiative_records_localised_name_Fimir_edict_1	Miasma	true
 provincial_initiative_records_localised_name_Fimir_edict_2	Fimm War Call	true
 provincial_initiative_records_localised_name_Fimir_edict_3	Driach Bewitchment	true

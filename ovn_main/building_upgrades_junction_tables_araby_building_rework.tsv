@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/araby_building_rework	
 ovn_arb_nomad_1	ovn_arb_nomad_2
 ovn_arb_nomad_2	ovn_arb_nomad_3
 ovn_arb_nomad_3	ovn_arb_nomad_4

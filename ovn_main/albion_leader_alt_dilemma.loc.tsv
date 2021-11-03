@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/albion_leader_alt_dilemma.loc		
 dilemmas_localised_description_ovn_dilemma_alb_alt_leader	The High Druid of Albion has returned from his journey to Beast Peaks and brings grave visions of impending doom. A prophecy the Phantom Queen knows all too well, with her timely arrival to ward off the Chaos Invasion. Between them, one must lead our defences and the other be the overseer in the restoration of the Waystones.	true
 dilemmas_localised_title_ovn_dilemma_alb_alt_leader	Dural Durak's Vision Quest	true
 cdir_events_dilemma_choice_details_localised_choice_label_ovn_dilemma_alb_alt_leaderFIRST	Phantom Queen Shall Lead	true

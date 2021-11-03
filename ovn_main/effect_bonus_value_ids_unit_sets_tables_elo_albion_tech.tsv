@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/elo_albion_tech		
 cost_mod	elo_warband_cost	elo_warband
 reload	elo_ranged_reload	elo_ranged_special
 unit_xp_mod	elo_ranged_xp	elo_ranged_special

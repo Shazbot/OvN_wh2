@@ -1,4 +1,4 @@
-campaign_map_settlements_tables	4
 settlement_id	climate_type	citybar_height_offset
+#campaign_map_settlements_tables;4;db/campaign_map_settlements_tables/ovn_lost_factions		
 settlement:wh2_main_albion_albion	climate_island	0
 settlement:wh2_main_albion_isle_of_wights	climate_island	0

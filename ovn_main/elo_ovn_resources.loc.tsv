@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_ovn_resources.loc		
 resources_onscreen_text_res_location_araby	Strategic Location	true
 resources_description_res_location_araby	This location is of special importance to Araby.	true
 resources_onscreen_text_res_location_chorfs	Strategic Location	true

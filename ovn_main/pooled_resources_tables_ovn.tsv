@@ -1,5 +1,5 @@
-pooled_resources_tables	7
 key	maximum	minimum	persistent_factors	ai_ignored	default_factor	optional_icon_path
+#pooled_resources_tables;7;db/pooled_resources_tables/ovn						
 pj_rot_warpstone	10000	0	false	true	wh2_main_resource_factor_other	pj_rot_warpstone.png
 ovn_grudge_res	50000	0	false	true	wh2_main_resource_factor_other	icon_income.png
 mtl_seasong	10000	0	false	false	wh2_main_resource_factor_other	icon_mtl_seasong.png

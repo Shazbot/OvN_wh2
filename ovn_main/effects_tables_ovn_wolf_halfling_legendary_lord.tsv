@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/ovn_wolf_halfling_legendary_lord					
 hlf_glibfoot_hlf_thieves	experience.png	120	experience.png	campaign	true
 hlf_glibfoot_reduce_inf_upkeep	military_spending.png	105	military_spending.png	campaign	false
 hlf_glibfoot_morale_inf	morale.png	61	morale.png	battle	true

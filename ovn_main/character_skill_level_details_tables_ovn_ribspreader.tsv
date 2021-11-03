@@ -1,5 +1,5 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	ribspreader_special_0		8
-		x	1	ribspreader_weapon_skill		10
-		x	1	ribspreader_mammoth_skill		17
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ovn_ribspreader						
+		1	ribspreader_special_0		x	8
+		1	ribspreader_weapon_skill		x	10
+		1	ribspreader_mammoth_skill		x	17

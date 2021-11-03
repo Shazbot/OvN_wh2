@@ -1,5 +1,5 @@
-building_downgrade_junctions_tables	0
 from	to
+#building_downgrade_junctions_tables;0;db/building_downgrade_junctions_tables/ovn_wolf_golden_magus	
 arb_flaming_scimitar_main_1	arb_flaming_scimitar_main_1
 arb_flaming_scimitar_main_2	arb_flaming_scimitar_main_2
 arb_flaming_scimitar_main_3	arb_flaming_scimitar_main_3

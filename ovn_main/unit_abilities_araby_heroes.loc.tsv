@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/unit_abilities_araby_heroes.loc		
 unit_abilities_onscreen_name_roy_unit_active_arb_strike_from_the_shadows	Strike from the Shadows	true
 unit_abilities_tooltip_text_roy_unit_active_arb_strike_from_the_shadows	The Hashishin are master assassins.	true
 unit_abilities_onscreen_name_roy_unit_active_arb_doppelgang	Doppelgang	false

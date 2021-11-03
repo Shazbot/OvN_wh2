@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/albion_naval_invasion.loc		
 event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_primary_detail	Dark Emissaries forces at the Mainland!	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_secondary_detail	Dark forces prepare to ravage our Capital to use its power for their own dark and twisted plans.	true
 effect_bundles_localised_title_albion_global_mist_4	Waystones Restored	false

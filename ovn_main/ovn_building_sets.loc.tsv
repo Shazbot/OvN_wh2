@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_building_sets.loc		
 building_sets_onscreen_name_wh_main_emp_cha_grudge_settlement	Grudgebringer Camp	true
 building_sets_onscreen_description_wh_main_emp_cha_grudge_settlement	Home to the illustrious Grudgebringer mercenary band renowned throughout the Old World.	true
 building_sets_onscreen_name_wh_main_emp_cha_grudge_recruit	Recruitment	true

@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/ovn_@rbt_nurgle_daemon	
 chaos_territory	rbt_nurgle_daemon
 disease	rbt_nurgle_daemon
 horde_infighting	rbt_nurgle_daemon

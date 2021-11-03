@@ -1,5 +1,5 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/ovn_albion	
 hu11_cygor	wh_main_chs_chaos
 hu1b_elf_sword_and_shield	wh_main_chs_chaos
 wm_rock_lobber01	wh_main_chs_chaos

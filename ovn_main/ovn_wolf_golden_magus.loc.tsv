@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_wolf_golden_magus.loc		
 land_units_onscreen_name_arb_golden_magus	The Golden Magus	true
 land_units_onscreen_name_arb_golden_magus_camel	The Golden Magus	true
 land_units_onscreen_name_arb_golden_magus_skiff	The Golden Magus	true

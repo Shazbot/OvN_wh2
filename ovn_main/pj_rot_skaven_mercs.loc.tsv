@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_rot_skaven_mercs.loc		
 building_short_description_texts_short_description_ovn_warp_skaven_mercs	Warpstone reserved for dealings with clan Fester.	true
 effects_description_pj_ovn_rotbloods_warpstone_mercs_production	Warpstone gain: %n per turn	true
 effect_bundles_localised_description_pj_ovn_rotbloods_warpstone_mercs_res	Stockpiled warpstone.	true

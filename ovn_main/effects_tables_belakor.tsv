@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/belakor					
 whispers_in_the_darkness	general_ability.png	600	general_ability.png	battle	true
 Violent_rise_to_power_1	general_ability.png	600	general_ability.png	battle	true
 Violent_rise_to_power_2	general_ability.png	600	general_ability.png	battle	true

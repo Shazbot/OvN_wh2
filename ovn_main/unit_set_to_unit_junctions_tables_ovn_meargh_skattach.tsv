@@ -1,9 +1,9 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				fim_meargh_skattach	chs_lords
-false				rbt_nurgle_daemon	fim_skattach_daemons
-false				kho_bloodletter	fim_skattach_daemons
-false				ovn_fianna_fimm	fim_skattach_fianna
-false				ovn_fim_mon_caster_0	fim_skattach_apprentices
-false				kho_bloodletter_summon	chs_all
-false				kho_bloodletter_summon	kho_bloodletter
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/ovn_meargh_skattach					
+			fim_meargh_skattach	chs_lords	false
+			rbt_nurgle_daemon	fim_skattach_daemons	false
+			kho_bloodletter	fim_skattach_daemons	false
+			ovn_fianna_fimm	fim_skattach_fianna	false
+			ovn_fim_mon_caster_0	fim_skattach_apprentices	false
+			kho_bloodletter_summon	chs_all	false
+			kho_bloodletter_summon	kho_bloodletter	false

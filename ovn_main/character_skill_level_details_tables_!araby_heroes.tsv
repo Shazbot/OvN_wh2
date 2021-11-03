@@ -1,13 +1,13 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	roy_skill_nomad_mount_warhorse		6
-		x	1	roy_skill_champion_mount_horse		6
-		x	1	roy_skill_champion_mount_warhorse		10
-		x	1	roy_skill_champion_mount_elephant		17
-		x	1	roy_skill_arb_agent_missile_res		7
-		x	1	roy_skill_nomad_mount_assassin		14
-		x	1	roy_skill_nomad_jezzail		14
-		x	1	roy_skill_champion_arb_guard		9
-		x	1	roy_skill_champion_arb_warrior		9
-		x	1	roy_skill_champion_arb_sergeant		9
-		x	1	roy_skill_arb_nomad_strike_from_the_shadows		12
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/!araby_heroes						
+		1	roy_skill_nomad_mount_warhorse		x	6
+		1	roy_skill_champion_mount_horse		x	6
+		1	roy_skill_champion_mount_warhorse		x	10
+		1	roy_skill_champion_mount_elephant		x	17
+		1	roy_skill_arb_agent_missile_res		x	7
+		1	roy_skill_nomad_mount_assassin		x	14
+		1	roy_skill_nomad_jezzail		x	14
+		1	roy_skill_champion_arb_guard		x	9
+		1	roy_skill_champion_arb_warrior		x	9
+		1	roy_skill_champion_arb_sergeant		x	9
+		1	roy_skill_arb_nomad_strike_from_the_shadows		x	12

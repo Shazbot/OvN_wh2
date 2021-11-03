@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_albion_names.loc		
 names_name_77777001	Morrigan	true
 names_name_77777002	the Phantom Queen	true
 names_name_77777003	Alan	true

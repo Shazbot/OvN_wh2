@@ -1,5 +1,5 @@
-ancillary_to_effects_tables	0
 ancillary	effect	effect_scope	value
+#ancillary_to_effects_tables;0;db/ancillary_to_effects_tables/grudgebringer			
 chalcidar_orb	wh2_main_effect_force_unit_stat_melee_attack_versus_all_undead	general_to_force_own	6.0
 chalcidar_orb	wh2_main_effect_character_stat_mod_melee_damage_versus_undead	character_to_character_own	10.0
 chalcidar_orb	wh_main_effect_force_unit_stat_morale_versus_undead	character_to_character_own	5.0

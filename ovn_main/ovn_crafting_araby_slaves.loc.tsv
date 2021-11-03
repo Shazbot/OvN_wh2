@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_crafting_araby_slaves.loc		
 rituals_display_name_ovn_arb_crafting_followers_1	Eshin Apprentice	false
 rituals_display_name_ovn_arb_crafting_followers_2	Elf-Thing Slave	false
 rituals_display_name_ovn_arb_crafting_followers_3	Man-Thing Slave	false

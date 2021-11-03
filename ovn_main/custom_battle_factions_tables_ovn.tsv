@@ -1,5 +1,5 @@
-custom_battle_factions_tables	1
 faction_key	sort_order	culture_sort_order
+#custom_battle_factions_tables;1;db/custom_battle_factions_tables/ovn		
 wh2_main_emp_the_moot	180	1
 wh2_main_emp_grudgebringers	185	18
 wh2_main_nor_albion	181	1

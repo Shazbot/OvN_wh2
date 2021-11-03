@@ -1,13 +1,13 @@
-unit_set_to_mp_unit_caps_tables	0
-cap	unit_set
-2	mp_set_mtl_veh_reapers
-1	mp_cap_ovn_finmor_belakor
-1	mp_cap_ovn_killing_eye
-1	mp_cap_ovn_gharnus_demon
-1	mp_cap_ovn_com_cha_aragand_the_layabout_0
-1	mp_cap_ovn_com_cha_legles_the_elf_0
-1	mp_cap_ovn_com_cha_giblit_the_dwarf_0
-5	mp_set_rbt_nurgle_daemon
-5	mp_set_kho_bloodletter
-2	mp_set_hef_veh_lothern_skycutter
-1	mp_set_hef_veh_lothern_skycutter_ror
+unit_set	cap
+#unit_set_to_mp_unit_caps_tables;0;db/unit_set_to_mp_unit_caps_tables/ovn	
+mp_set_mtl_veh_reapers	2
+mp_cap_ovn_finmor_belakor	1
+mp_cap_ovn_killing_eye	1
+mp_cap_ovn_gharnus_demon	1
+mp_cap_ovn_com_cha_aragand_the_layabout_0	1
+mp_cap_ovn_com_cha_legles_the_elf_0	1
+mp_cap_ovn_com_cha_giblit_the_dwarf_0	1
+mp_set_rbt_nurgle_daemon	5
+mp_set_kho_bloodletter	5
+mp_set_hef_veh_lothern_skycutter	2
+mp_set_hef_veh_lothern_skycutter_ror	1

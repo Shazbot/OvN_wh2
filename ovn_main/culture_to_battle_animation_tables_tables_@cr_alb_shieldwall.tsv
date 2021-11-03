@@ -1,4 +1,4 @@
-culture_to_battle_animation_tables_tables	0
 battle_animations_table	culture_pack
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/@cr_alb_shieldwall	
 hu1c_chaos_axe_and_shield_shieldwall	wh_main_chs_chaos
 hu1c_chaos_sword_and_shield_shieldwall	wh_main_chs_chaos

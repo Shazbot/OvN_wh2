@@ -1,21 +1,21 @@
-cai_construction_system_building_values_tables	0
-building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive	sub_culture
-		ovn_arb_barracks_1	ovn_arb_barracks_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_arb_industry_basic_1	ovn_arb_industry_basic_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100	
-		ovn_arb_stables_1	ovn_arb_stables_3			cai_military_group				0	0	5	5	5	5	0	0	0	0	60	60	60	60	0	0	50	50	
-		ovn_arb_tavern_1	ovn_arb_tavern_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		ovn_arb_worship_1	ovn_arb_worship_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	30	30	30	30	0	0	20	20	
-		ovn_araby_walls_1	ovn_araby_walls_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	200	
-		ovn_araby_coffee_1	ovn_araby_coffee_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100	
-		ovn_arb_hosp_1	ovn_arb_hosp_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	0	0	0	0	10	10	
-		arb_flaming_scimitar_main_1	arb_flaming_scimitar_main_5			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_barracks_1	arb_flaming_scimitar_barracks_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	50	50	
-		arb_flaming_scimitar_support_monsters_1	arb_flaming_scimitar_support_monsters_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_support_mages_1	arb_flaming_scimitar_support_mages_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_structure_movement_1	arb_flaming_scimitar_structure_movement_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_structure_upkeep_1	arb_flaming_scimitar_structure_upkeep_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_structure_replenishment_1	arb_flaming_scimitar_structure_replenishment_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_structure_growth_1	arb_flaming_scimitar_structure_growth_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_defense_bombardment_1	arb_flaming_scimitar_defense_bombardment_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_defense_magical_bombardment_1	arb_flaming_scimitar_defense_magical_bombardment_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
-		arb_flaming_scimitar_unique_minaret_1	arb_flaming_scimitar_unique_minaret_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10	
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+#cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/ovn_araby																												
+		ovn_arb_barracks_1	ovn_arb_barracks_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_arb_industry_basic_1	ovn_arb_industry_basic_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		ovn_arb_stables_1	ovn_arb_stables_3			cai_military_group					0	0	5	5	5	5	0	0	0	0	60	60	60	60	0	0	50	50
+		ovn_arb_tavern_1	ovn_arb_tavern_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		ovn_arb_worship_1	ovn_arb_worship_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	30	30	30	30	0	0	20	20
+		ovn_araby_walls_1	ovn_araby_walls_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	200
+		ovn_araby_coffee_1	ovn_araby_coffee_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		ovn_arb_hosp_1	ovn_arb_hosp_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	0	0	0	0	10	10
+		arb_flaming_scimitar_main_1	arb_flaming_scimitar_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_barracks_1	arb_flaming_scimitar_barracks_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	50	50
+		arb_flaming_scimitar_support_monsters_1	arb_flaming_scimitar_support_monsters_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_support_mages_1	arb_flaming_scimitar_support_mages_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_structure_movement_1	arb_flaming_scimitar_structure_movement_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_structure_upkeep_1	arb_flaming_scimitar_structure_upkeep_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_structure_replenishment_1	arb_flaming_scimitar_structure_replenishment_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_structure_growth_1	arb_flaming_scimitar_structure_growth_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_defense_bombardment_1	arb_flaming_scimitar_defense_bombardment_1			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_defense_magical_bombardment_1	arb_flaming_scimitar_defense_magical_bombardment_1			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10
+		arb_flaming_scimitar_unique_minaret_1	arb_flaming_scimitar_unique_minaret_1			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	5	5	5	5	0	0	10	10

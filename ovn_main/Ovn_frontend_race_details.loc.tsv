@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Ovn_frontend_race_details.loc		
 frontend_factions_localised_mechanics_wh2_main_emp_the_moot	[[img:bullet_emp_magic]][[/img]]The Kitchen: Use your Lords to forage for ingredients and cook food recipes to boost your Halfling armies!||[[img:bullet_emp_offices]][[/img]]Halfling Restaurants: Establish lucrative restaurants in foreign settlements using Master Chefs, or by gifting regions to the Empire.||[[img:bullet_emp_units]][[/img]]Quirky and nimble Halfling units make up the majority of this roster, along with added culinary artillery, and monstruous infantry support from Imperial Ogres.	false
 frontend_factions_localised_mechanics_wh2_main_emp_grudgebringers	[[img:bullet_emp_magic]][[/img]]Hireling Wizards: Harness multiple Lores of Magic to bolster the Grudgebringers strength and destroy their enemies.||[[img:bullet_emp_offices]][[/img]]Imperial Reinforcements: Can gift newly conquered territories to the Empire in turn for reinforcements.||[[img:bullet_emp_units]][[/img]]Powerful but expensive mercenary units make up this unique and diverse roster.	false
 frontend_factions_localised_mechanics_wh2_main_amz_amazons	[[img:bullet_lzd_beasts]][[/img]]Beasts suitable for every task, though some are so ferocious they may lose control and charge ahead.	true

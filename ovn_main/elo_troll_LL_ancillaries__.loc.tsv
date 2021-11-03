@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_troll_LL_ancillaries__.loc		
 ancillaries_colour_text_anc_adventurer_trinkets	Ugma improvised his armour himself. It is made from the equipment of foes he bested. Some of the items have magical effects which additionally benefit him.	true
 ancillaries_onscreen_name_anc_adventurer_trinkets	Ugma's Trash Armour	true
 ancillaries_colour_text_anc_resevoir_stone	Chief Ugma's oversized hammer has probably been taken from the statue of a Dwarf hero or ancestor god in the fallen Karak Azgal. Chief Umga doesn't seem to care though, all that matters is that the hammer has the right size and doesn't break.	true

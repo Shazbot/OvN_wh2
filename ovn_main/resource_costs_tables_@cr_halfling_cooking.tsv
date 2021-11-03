@@ -1,3 +1,3 @@
-resource_costs_tables	2
 id	treasury_cost	expenditure_type	income_type
+#resource_costs_tables;2;db/resource_costs_tables/@cr_halfling_cooking			
 ovn_cooking_cost	0	ACTIONS	BATTLE_KILLS

@@ -1,5 +1,5 @@
-faction_agent_permitted_subtypes_tables	0
 agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/data__		
 colonel	wh2_dlc09_rogue_black_creek_raiders	wh2_main_def_dreadlord
 general	wh2_dlc09_rogue_black_creek_raiders	wh2_dlc14_def_high_beastmaster
 general	wh2_dlc09_rogue_black_creek_raiders	wh2_main_def_dreadlord

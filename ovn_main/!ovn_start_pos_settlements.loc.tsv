@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_start_pos_settlements.loc		
 start_pos_settlements_onscreen_name_settlement:wh_main_blightwater_kradtommen2130428357	Serpent's Fang	true
 start_pos_settlements_onscreen_name_settlement:wh_main_stirland_the_moot2130428028	Eicheschatten	true
 start_pos_settlements_onscreen_name_settlement:wh2_main_headhunters_jungle_mangrove_coast2130432409	Citadel of Dusk	true

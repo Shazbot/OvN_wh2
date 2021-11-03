@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_dread					
 dread_king_burial_3	dread_legion_spears_cap	building_to_faction_own	1.0	1.0	0.0
 dread_king_burial_3	dread_legion_dual_cap	building_to_faction_own	1.0	1.0	0.0
 dread_king_burial_4	dread_legion_2h_cap	building_to_faction_own	1.0	1.0	0.0

@@ -1,4 +1,4 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_ugma_new					
 elo_reservoir_hammer	general_ability.png	100	general_ability.png	battle	true
 elo_trash_armour	general_ability.png	100	general_ability.png	battle	true

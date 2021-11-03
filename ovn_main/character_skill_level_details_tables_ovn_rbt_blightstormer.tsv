@@ -1,5 +1,5 @@
-character_skill_level_details_tables	0
-campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_rank
-		x	1	roy_skill_ovn_rbt_blightstomer_blightstorm		9
-			2	ovn_blightstomer_campaign_plague		6
-			3	ovn_blightstomer_campaign_plague		12
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ovn_rbt_blightstormer						
+		1	roy_skill_ovn_rbt_blightstomer_blightstorm		x	9
+		2	ovn_blightstomer_campaign_plague			6
+		3	ovn_blightstomer_campaign_plague			12

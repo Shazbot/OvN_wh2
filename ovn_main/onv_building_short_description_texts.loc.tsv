@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/onv_building_short_description_texts.loc		
 building_short_description_texts_short_description_ovn_arb_nomad_1	We bring fine goods from faraway lands. Pray, what is it you seek?	true
 building_short_description_texts_short_description_ovn_arb_nomad_2	Built near nomadic settlements they bring a steady trickle of gold and unusual items.	true
 building_short_description_texts_short_description_ovn_arb_nomad_3	By bringing the tribes of Araby together we can muster a force the like of which has never been seen.	true

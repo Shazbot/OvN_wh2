@@ -1,90 +1,90 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	dummy_agent_actions_enable_assist_army	vladimir_stormbringer		8.0	vladimir_stormbringer_dummy_01	0.0		1	0	false
-	wh2_main_skill_all_hero_assist_army_scouting	vladimir_stormbringer		5.0	vladimir_stormbringer_campaign_01	0.0		0	0	true
-	grudgebringers_campaign_quartermaster	morgan_bernhardt		6.0	morgan_bernhardt_innate_01	0.0		1	0	false
-	wh2_main_skill_innate_all_knowledgeable	vladimir_stormbringer		6.0	vladimir_stormbringer_innate_01	0.0		0	0	false
-	wh_main_skill_all_lord_battle_inspiring_presence	morgan_bernhardt		4.0	morgan_bernhardt_army_01	0.0		0	0	true
-	wh2_main_skill_def_malekith_absolute_power	morgan_bernhardt		4.0	morgan_bernhardt_army_02	1.0		0	0	true
-	ovn_grudge_gold	morgan_bernhardt		4.0	morgan_bernhardt_army_03	2.0		0	0	true
-	ovn_grudge_glory	morgan_bernhardt		4.0	morgan_bernhardt_army_04	3.0		0	0	true
-	wh_main_skill_emp_lord_battle_pistolkorps	morgan_bernhardt		4.0	morgan_bernhardt_army_05	4.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	morgan_bernhardt		4.0	morgan_bernhardt_army_06	5.0		0	3	true
-	wh_main_skill_all_lord_battle_brass-lunged	morgan_bernhardt		4.0	morgan_bernhardt_army_07	6.0		0	0	true
-	ovn_grudge_soldiers_of_fortune	morgan_bernhardt		4.0	morgan_bernhardt_army_08	7.0		0	0	true
-	wh_main_skill_emp_lord_battle_imperial_gunnery	morgan_bernhardt		4.0	morgan_bernhardt_army_09	8.0		0	0	true
-	wh_main_skill_brt_lord_battle_basic_training	morgan_bernhardt		4.0	morgan_bernhardt_army_10	9.0		0	0	true
-	wh_main_skill_all_lord_battle_stand_your_ground	morgan_bernhardt		4.0	morgan_bernhardt_army_11	10.0		0	3	true
-	wh_main_skill_all_lord_campaign_route_marcher	morgan_bernhardt		5.0	morgan_bernhardt_campaign_01	0.0		0	0	true
-	wh_main_skill_emp_lord_campaign_iron_disciplinarian	morgan_bernhardt		5.0	morgan_bernhardt_campaign_02	1.0		0	0	true
-	wh2_main_skill_def_campaign_wary	morgan_bernhardt		5.0	morgan_bernhardt_campaign_03	2.0		0	0	true
-	wh_main_skill_lord_all_campaign_reassuring_presence	morgan_bernhardt		5.0	morgan_bernhardt_campaign_04	3.0		0	0	true
-	wh_main_skill_emp_lord_campaign_fervent	morgan_bernhardt		5.0	morgan_bernhardt_campaign_05	4.0		0	0	true
-	wh2_main_skill_LL_self_defense	morgan_bernhardt		5.0	morgan_bernhardt_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	morgan_bernhardt		5.0	morgan_bernhardt_campaign_07	6.0		0	0	true
-	wh_main_skill_emp_lord_campaign_quartermaster	morgan_bernhardt		5.0	morgan_bernhardt_campaign_08	7.0		0	0	true
-	wh_main_skill_emp_lord_campaign_logistician	morgan_bernhardt		5.0	morgan_bernhardt_campaign_09	8.0		0	0	true
-	wh_main_skill_all_lord_campaign_alert	morgan_bernhardt		5.0	morgan_bernhardt_campaign_10	9.0		0	0	true
-	wh2_main_skill_def_malekith_warleader_1	morgan_bernhardt		5.0	morgan_bernhardt_campaign_11	10.0		0	4	true
-	grudge_skill_damage_starter	morgan_bernhardt		1.0	morgan_bernhardt_war_01	0.0		0	0	true
-	grudge_skill_attack_main1	morgan_bernhardt		1.0	morgan_bernhardt_war_02	1.0		0	0	true
-	grudge_skill_damage_main1	morgan_bernhardt		1.0	morgan_bernhardt_war_03	2.0		0	0	true
-	grudge_skill_defence_main1	morgan_bernhardt		1.0	morgan_bernhardt_war_04	3.0		0	0	true
-	grudge_skill_armour_main1	morgan_bernhardt		1.0	morgan_bernhardt_war_05	4.0		0	0	true
-	grudge_skill_deadly_onslaught	morgan_bernhardt		1.0	morgan_bernhardt_war_06	5.0		0	4	true
-	grudge_skill_attack_main2	morgan_bernhardt		1.0	morgan_bernhardt_war_07	6.0		0	0	true
-	grudge_skill_damage_main2	morgan_bernhardt		1.0	morgan_bernhardt_war_08	7.0		0	0	true
-	grudge_skill_defence_main2	morgan_bernhardt		1.0	morgan_bernhardt_war_09	8.0		0	0	true
-	grudge_skill_armour_main2	morgan_bernhardt		1.0	morgan_bernhardt_war_10	9.0		0	0	true
-	grudge_skill_heroic_killing_blow	morgan_bernhardt		1.0	morgan_bernhardt_war_11	10.0		0	4	true
-	magic_ice_shield_of_cold	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_01	1.0		0	0	true
-	magic_ice_frost_blade	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_02	2.0		0	0	true
-	magic_ice_crisping_cold	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_03	3.0		0	0	true
-	magic_ice_shattering_frost	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_04	4.0		0	0	true
-	skill_all_magic_ice_cold	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_05	5.0		0	3	true
-	magic_ice_chill	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_06	6.0		0	0	true
-	magic_ice_blinding_blizzard	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_07	7.0		0	0	true
-	magic_ice_shield_of_cold_dummy	vladimir_stormbringer		1.0	vladimir_stormbringer_war1_dummy	0.0		1	0	false
-	magic_ice_ice_shards	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_01	1.0		0	0	true
-	magic_ice_storm_strike	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_02	2.0		0	0	true
-	magic_ice_chill_blast	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_03	3.0		0	0	true
-	magic_ice_ice_blizzard	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_04	4.0		0	0	true
-	skill_all_magic_ice_winter	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_05	5.0		0	3	true
-	magic_ice_tempest	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_06	6.0		0	0	true
-	magic_ice_hailstorm	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_07	7.0		0	0	true
-	magic_ice_ice_shards_dummy	vladimir_stormbringer		2.0	vladimir_stormbringer_war2_dummy	0.0		1	0	false
-	wh_main_skill_emp_all_unique_sigmars_ward	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_04	3.0		0	0	true
-	wh2_main_skill_lzd_disciplines_higher_state_of_consciousness	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_05	4.0		0	0	true
-	wh_dlc07_skill_brt_fay_enchantress_unique_power_familiar	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_06	5.0		0	0	true
-	wh2_main_skill_hef_teclis_sublime_focus	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_07	6.0		0	0	true
-	wh2_main_skill_hef_generic_lileaths_blessing	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_08	7.0		0	0	true
-	wh2_main_skill_lzd_disciplines_unfathomable_presence	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_09	8.0		0	0	true
-	wh2_main_skill_lzd_disciplines_soul_of_stone	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_10	9.0		0	0	true
-	wh2_dlc11_skill_cst_damned_paladin_unique_0	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_13	13.0		0	0	true
-	wh2_main_skill_all_immortality_hero	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_14	14.0		1	0	true
-	grudge_skill_missile_ward	morgan_bernhardt		0.0	morgan_bernhardt_unique_8	8.0		0	0	true
-	grudge_skill_horn_of_urgok	morgan_bernhardt		0.0	morgan_bernhardt_unique_9	3.0		1	0	true
-	wh2_main_skill_all_immortality_lord	morgan_bernhardt		0.0	morgan_bernhardt_unique_13	13.0		1	0	false
-	grudge_skill_bernhardt_bonus_vs_men	morgan_bernhardt		3.0	morgan_bernhardt_war3_01	0.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_dwarves	morgan_bernhardt		3.0	morgan_bernhardt_war3_02	1.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_undead	morgan_bernhardt		3.0	morgan_bernhardt_war3_03	2.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_chaos	morgan_bernhardt		3.0	morgan_bernhardt_war3_04	3.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_beastmen	morgan_bernhardt		3.0	morgan_bernhardt_war3_05	4.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_skaven	morgan_bernhardt		3.0	morgan_bernhardt_war3_06	5.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_greenskins	morgan_bernhardt		3.0	morgan_bernhardt_war3_07	6.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_dark_elves	morgan_bernhardt		3.0	morgan_bernhardt_war3_08	7.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_lizardmen	morgan_bernhardt		3.0	morgan_bernhardt_war3_09	8.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_high_elves	morgan_bernhardt		3.0	morgan_bernhardt_war3_10	9.0		0	0	true
-	grudge_skill_bernhardt_bonus_vs_wood_elves	morgan_bernhardt		3.0	morgan_bernhardt_war3_11	10.0		0	0	true
-	grudge_skill_mercenary	vladimir_stormbringer		0.0	merc_vladimir_stormbringer_dummy_01	1.0		1	0	true
-	grudge_skill_mercenary	morgan_bernhardt		0.0	morgan_bernhardt_unique_01	9.0		0	0	true
-	grudge_skill_regiment_size	morgan_bernhardt		0.0	morgan_bernhardt_unique_10	10.0		0	0	true
-	grudge_skill_grudgebringer_sword	morgan_bernhardt		0.0	morgan_bernhardt_unique_2	2.0		1	0	true
-	grudge_skill_enchanted_shield	morgan_bernhardt		0.0	morgan_bernhardt_unique_3	4.0		0	0	true
-	grudge_skill_wand_of_jet	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_2	2.0		0	0	true
-	grudge_skill_banner_of_wrath	morgan_bernhardt		0.0	morgan_bernhardt_unique_4	5.0		0	0	true
-	grudge_skill_banner_of_arcane_warding	morgan_bernhardt		0.0	morgan_bernhardt_unique_5	6.0		0	0	true
-	grudge_skill_banner_of_defiance	morgan_bernhardt		0.0	morgan_bernhardt_unique_6	7.0		0	0	true
-	grudge_skill_shadow_of_the_horned_rat	morgan_bernhardt		0.0	morgan_bernhardt_unique_11	11.0		0	0	true
-	grudge_skill_dark_omen	morgan_bernhardt		0.0	morgan_bernhardt_unique_12	12.0		0	0	true
-	grudge_skill_dark_omen	vladimir_stormbringer		0.0	vladimir_stormbringer_unique_12	12.0		0	0	true
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/obo_grudgebringers_data										
+vladimir_stormbringer_dummy_01		dummy_agent_actions_enable_assist_army	vladimir_stormbringer		8.0	0.0		1	0	false
+vladimir_stormbringer_campaign_01		wh2_main_skill_all_hero_assist_army_scouting	vladimir_stormbringer		5.0	0.0		0	0	true
+morgan_bernhardt_innate_01		grudgebringers_campaign_quartermaster	morgan_bernhardt		6.0	0.0		1	0	false
+vladimir_stormbringer_innate_01		wh2_main_skill_innate_all_knowledgeable	vladimir_stormbringer		6.0	0.0		0	0	false
+morgan_bernhardt_army_01		wh_main_skill_all_lord_battle_inspiring_presence	morgan_bernhardt		4.0	0.0		0	0	true
+morgan_bernhardt_army_02		wh2_main_skill_def_malekith_absolute_power	morgan_bernhardt		4.0	1.0		0	0	true
+morgan_bernhardt_army_03		ovn_grudge_gold	morgan_bernhardt		4.0	2.0		0	0	true
+morgan_bernhardt_army_04		ovn_grudge_glory	morgan_bernhardt		4.0	3.0		0	0	true
+morgan_bernhardt_army_05		wh_main_skill_emp_lord_battle_pistolkorps	morgan_bernhardt		4.0	4.0		0	0	true
+morgan_bernhardt_army_06		wh_main_skill_all_lord_battle_rally	morgan_bernhardt		4.0	5.0		0	3	true
+morgan_bernhardt_army_07		wh_main_skill_all_lord_battle_brass-lunged	morgan_bernhardt		4.0	6.0		0	0	true
+morgan_bernhardt_army_08		ovn_grudge_soldiers_of_fortune	morgan_bernhardt		4.0	7.0		0	0	true
+morgan_bernhardt_army_09		wh_main_skill_emp_lord_battle_imperial_gunnery	morgan_bernhardt		4.0	8.0		0	0	true
+morgan_bernhardt_army_10		wh_main_skill_brt_lord_battle_basic_training	morgan_bernhardt		4.0	9.0		0	0	true
+morgan_bernhardt_army_11		wh_main_skill_all_lord_battle_stand_your_ground	morgan_bernhardt		4.0	10.0		0	3	true
+morgan_bernhardt_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	morgan_bernhardt		5.0	0.0		0	0	true
+morgan_bernhardt_campaign_02		wh_main_skill_emp_lord_campaign_iron_disciplinarian	morgan_bernhardt		5.0	1.0		0	0	true
+morgan_bernhardt_campaign_03		wh2_main_skill_def_campaign_wary	morgan_bernhardt		5.0	2.0		0	0	true
+morgan_bernhardt_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence	morgan_bernhardt		5.0	3.0		0	0	true
+morgan_bernhardt_campaign_05		wh_main_skill_emp_lord_campaign_fervent	morgan_bernhardt		5.0	4.0		0	0	true
+morgan_bernhardt_campaign_06		wh2_main_skill_LL_self_defense	morgan_bernhardt		5.0	5.0		0	4	true
+morgan_bernhardt_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	morgan_bernhardt		5.0	6.0		0	0	true
+morgan_bernhardt_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster	morgan_bernhardt		5.0	7.0		0	0	true
+morgan_bernhardt_campaign_09		wh_main_skill_emp_lord_campaign_logistician	morgan_bernhardt		5.0	8.0		0	0	true
+morgan_bernhardt_campaign_10		wh_main_skill_all_lord_campaign_alert	morgan_bernhardt		5.0	9.0		0	0	true
+morgan_bernhardt_campaign_11		wh2_main_skill_def_malekith_warleader_1	morgan_bernhardt		5.0	10.0		0	4	true
+morgan_bernhardt_war_01		grudge_skill_damage_starter	morgan_bernhardt		1.0	0.0		0	0	true
+morgan_bernhardt_war_02		grudge_skill_attack_main1	morgan_bernhardt		1.0	1.0		0	0	true
+morgan_bernhardt_war_03		grudge_skill_damage_main1	morgan_bernhardt		1.0	2.0		0	0	true
+morgan_bernhardt_war_04		grudge_skill_defence_main1	morgan_bernhardt		1.0	3.0		0	0	true
+morgan_bernhardt_war_05		grudge_skill_armour_main1	morgan_bernhardt		1.0	4.0		0	0	true
+morgan_bernhardt_war_06		grudge_skill_deadly_onslaught	morgan_bernhardt		1.0	5.0		0	4	true
+morgan_bernhardt_war_07		grudge_skill_attack_main2	morgan_bernhardt		1.0	6.0		0	0	true
+morgan_bernhardt_war_08		grudge_skill_damage_main2	morgan_bernhardt		1.0	7.0		0	0	true
+morgan_bernhardt_war_09		grudge_skill_defence_main2	morgan_bernhardt		1.0	8.0		0	0	true
+morgan_bernhardt_war_10		grudge_skill_armour_main2	morgan_bernhardt		1.0	9.0		0	0	true
+morgan_bernhardt_war_11		grudge_skill_heroic_killing_blow	morgan_bernhardt		1.0	10.0		0	4	true
+vladimir_stormbringer_war1_01		magic_ice_shield_of_cold	vladimir_stormbringer		1.0	1.0		0	0	true
+vladimir_stormbringer_war1_02		magic_ice_frost_blade	vladimir_stormbringer		1.0	2.0		0	0	true
+vladimir_stormbringer_war1_03		magic_ice_crisping_cold	vladimir_stormbringer		1.0	3.0		0	0	true
+vladimir_stormbringer_war1_04		magic_ice_shattering_frost	vladimir_stormbringer		1.0	4.0		0	0	true
+vladimir_stormbringer_war1_05		skill_all_magic_ice_cold	vladimir_stormbringer		1.0	5.0		0	3	true
+vladimir_stormbringer_war1_06		magic_ice_chill	vladimir_stormbringer		1.0	6.0		0	0	true
+vladimir_stormbringer_war1_07		magic_ice_blinding_blizzard	vladimir_stormbringer		1.0	7.0		0	0	true
+vladimir_stormbringer_war1_dummy		magic_ice_shield_of_cold_dummy	vladimir_stormbringer		1.0	0.0		1	0	false
+vladimir_stormbringer_war2_01		magic_ice_ice_shards	vladimir_stormbringer		2.0	1.0		0	0	true
+vladimir_stormbringer_war2_02		magic_ice_storm_strike	vladimir_stormbringer		2.0	2.0		0	0	true
+vladimir_stormbringer_war2_03		magic_ice_chill_blast	vladimir_stormbringer		2.0	3.0		0	0	true
+vladimir_stormbringer_war2_04		magic_ice_ice_blizzard	vladimir_stormbringer		2.0	4.0		0	0	true
+vladimir_stormbringer_war2_05		skill_all_magic_ice_winter	vladimir_stormbringer		2.0	5.0		0	3	true
+vladimir_stormbringer_war2_06		magic_ice_tempest	vladimir_stormbringer		2.0	6.0		0	0	true
+vladimir_stormbringer_war2_07		magic_ice_hailstorm	vladimir_stormbringer		2.0	7.0		0	0	true
+vladimir_stormbringer_war2_dummy		magic_ice_ice_shards_dummy	vladimir_stormbringer		2.0	0.0		1	0	false
+vladimir_stormbringer_unique_04		wh_main_skill_emp_all_unique_sigmars_ward	vladimir_stormbringer		0.0	3.0		0	0	true
+vladimir_stormbringer_unique_05		wh2_main_skill_lzd_disciplines_higher_state_of_consciousness	vladimir_stormbringer		0.0	4.0		0	0	true
+vladimir_stormbringer_unique_06		wh_dlc07_skill_brt_fay_enchantress_unique_power_familiar	vladimir_stormbringer		0.0	5.0		0	0	true
+vladimir_stormbringer_unique_07		wh2_main_skill_hef_teclis_sublime_focus	vladimir_stormbringer		0.0	6.0		0	0	true
+vladimir_stormbringer_unique_08		wh2_main_skill_hef_generic_lileaths_blessing	vladimir_stormbringer		0.0	7.0		0	0	true
+vladimir_stormbringer_unique_09		wh2_main_skill_lzd_disciplines_unfathomable_presence	vladimir_stormbringer		0.0	8.0		0	0	true
+vladimir_stormbringer_unique_10		wh2_main_skill_lzd_disciplines_soul_of_stone	vladimir_stormbringer		0.0	9.0		0	0	true
+vladimir_stormbringer_unique_13		wh2_dlc11_skill_cst_damned_paladin_unique_0	vladimir_stormbringer		0.0	13.0		0	0	true
+vladimir_stormbringer_unique_14		wh2_main_skill_all_immortality_hero	vladimir_stormbringer		0.0	14.0		1	0	true
+morgan_bernhardt_unique_8		grudge_skill_missile_ward	morgan_bernhardt		0.0	8.0		0	0	true
+morgan_bernhardt_unique_9		grudge_skill_horn_of_urgok	morgan_bernhardt		0.0	3.0		1	0	true
+morgan_bernhardt_unique_13		wh2_main_skill_all_immortality_lord	morgan_bernhardt		0.0	13.0		1	0	false
+morgan_bernhardt_war3_01		grudge_skill_bernhardt_bonus_vs_men	morgan_bernhardt		3.0	0.0		0	0	true
+morgan_bernhardt_war3_02		grudge_skill_bernhardt_bonus_vs_dwarves	morgan_bernhardt		3.0	1.0		0	0	true
+morgan_bernhardt_war3_03		grudge_skill_bernhardt_bonus_vs_undead	morgan_bernhardt		3.0	2.0		0	0	true
+morgan_bernhardt_war3_04		grudge_skill_bernhardt_bonus_vs_chaos	morgan_bernhardt		3.0	3.0		0	0	true
+morgan_bernhardt_war3_05		grudge_skill_bernhardt_bonus_vs_beastmen	morgan_bernhardt		3.0	4.0		0	0	true
+morgan_bernhardt_war3_06		grudge_skill_bernhardt_bonus_vs_skaven	morgan_bernhardt		3.0	5.0		0	0	true
+morgan_bernhardt_war3_07		grudge_skill_bernhardt_bonus_vs_greenskins	morgan_bernhardt		3.0	6.0		0	0	true
+morgan_bernhardt_war3_08		grudge_skill_bernhardt_bonus_vs_dark_elves	morgan_bernhardt		3.0	7.0		0	0	true
+morgan_bernhardt_war3_09		grudge_skill_bernhardt_bonus_vs_lizardmen	morgan_bernhardt		3.0	8.0		0	0	true
+morgan_bernhardt_war3_10		grudge_skill_bernhardt_bonus_vs_high_elves	morgan_bernhardt		3.0	9.0		0	0	true
+morgan_bernhardt_war3_11		grudge_skill_bernhardt_bonus_vs_wood_elves	morgan_bernhardt		3.0	10.0		0	0	true
+merc_vladimir_stormbringer_dummy_01		grudge_skill_mercenary	vladimir_stormbringer		0.0	1.0		1	0	true
+morgan_bernhardt_unique_01		grudge_skill_mercenary	morgan_bernhardt		0.0	9.0		0	0	true
+morgan_bernhardt_unique_10		grudge_skill_regiment_size	morgan_bernhardt		0.0	10.0		0	0	true
+morgan_bernhardt_unique_2		grudge_skill_grudgebringer_sword	morgan_bernhardt		0.0	2.0		1	0	true
+morgan_bernhardt_unique_3		grudge_skill_enchanted_shield	morgan_bernhardt		0.0	4.0		0	0	true
+vladimir_stormbringer_unique_2		grudge_skill_wand_of_jet	vladimir_stormbringer		0.0	2.0		0	0	true
+morgan_bernhardt_unique_4		grudge_skill_banner_of_wrath	morgan_bernhardt		0.0	5.0		0	0	true
+morgan_bernhardt_unique_5		grudge_skill_banner_of_arcane_warding	morgan_bernhardt		0.0	6.0		0	0	true
+morgan_bernhardt_unique_6		grudge_skill_banner_of_defiance	morgan_bernhardt		0.0	7.0		0	0	true
+morgan_bernhardt_unique_11		grudge_skill_shadow_of_the_horned_rat	morgan_bernhardt		0.0	11.0		0	0	true
+morgan_bernhardt_unique_12		grudge_skill_dark_omen	morgan_bernhardt		0.0	12.0		0	0	true
+vladimir_stormbringer_unique_12		grudge_skill_dark_omen	vladimir_stormbringer		0.0	12.0		0	0	true

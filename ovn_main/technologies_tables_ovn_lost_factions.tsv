@@ -1,5 +1,5 @@
-technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;5;db/technologies_tables/ovn_lost_factions														
 tech_ovn_hlf_soup_1	wh_main_sch_special_moot_cauldron_1	1	wh2_def_tech_keep_what_you_capture	0	0	0	0	false	false	"placeholder.tga"	250519880	false	false	true
 tech_ovn_hlf_soup_2	wh_main_sch_special_moot_cauldron_1	1	wh2_hef_tech_spices_trade_contract_with_the_east	0	0	0	0	false	false	"placeholder.tga"	250519881	false	false	true
 tech_ovn_hlf_soup_3		1	wh2_hef_tech_pastures_call_to_the_great_herds	0	0	0	0	false	false	"placeholder.tga"	250519882	false	false	true

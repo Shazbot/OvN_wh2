@@ -1,15 +1,15 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				hlf_roast_pig	hlf_feast_carriers
-false				ovn_hlf_master_chef_0	hlf_cooks_and_chefs
-false				ovn_hlf_master_chef_1	hlf_cooks_and_chefs
-false				halfling_cook	hlf_cooks_and_chefs
-false				halfling_cook_ror	hlf_cooks_and_chefs
-false				hlf_baby_dragon	hlf_baby_dragons
-false				halfling_warfoot	hlf_halfling_infantry
-false				halfling_warden_great	hlf_halfling_infantry
-false				halfling_thief	hlf_halfling_infantry
-false				halfling_spear	hlf_halfling_infantry
-false				halfling_inf	hlf_halfling_infantry
-false				halfling_cook_ror	hlf_halfling_infantry
-false				halfling_cook	hlf_halfling_infantry
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/@cr_hlf_unit_set_addition					
+			hlf_roast_pig	hlf_feast_carriers	false
+			ovn_hlf_master_chef_0	hlf_cooks_and_chefs	false
+			ovn_hlf_master_chef_1	hlf_cooks_and_chefs	false
+			halfling_cook	hlf_cooks_and_chefs	false
+			halfling_cook_ror	hlf_cooks_and_chefs	false
+			hlf_baby_dragon	hlf_baby_dragons	false
+			halfling_warfoot	hlf_halfling_infantry	false
+			halfling_warden_great	hlf_halfling_infantry	false
+			halfling_thief	hlf_halfling_infantry	false
+			halfling_spear	hlf_halfling_infantry	false
+			halfling_inf	hlf_halfling_infantry	false
+			halfling_cook_ror	hlf_halfling_infantry	false
+			halfling_cook	hlf_halfling_infantry	false

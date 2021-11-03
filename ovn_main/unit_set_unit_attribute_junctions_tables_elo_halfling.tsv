@@ -1,4 +1,4 @@
-unit_set_unit_attribute_junctions_tables	0
 key	unit_attribute	unit_set
+#unit_set_unit_attribute_junctions_tables;0;db/unit_set_unit_attribute_junctions_tables/elo_halfling		
 enable_expandable_animals	expendable	elo_hlf_edible
 enable_unspottable_thieves	unspottable	elo_hlf_thieves

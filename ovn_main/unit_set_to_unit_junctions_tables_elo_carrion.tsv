@@ -1,5 +1,5 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				elo_carrion_gobbo_bow	carrion_gobbos
-false				elo_carrion_squig_hoppers	carrion_gobbos
-false				elo_carrion_gobbo_melee	carrion_gobbos
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/elo_carrion					
+			elo_carrion_gobbo_bow	carrion_gobbos	false
+			elo_carrion_squig_hoppers	carrion_gobbos	false
+			elo_carrion_gobbo_melee	carrion_gobbos	false

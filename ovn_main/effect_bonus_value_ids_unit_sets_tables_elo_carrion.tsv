@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/elo_carrion		
 melee_attack_mod	carrion_gobbos_ma	carrion_gobbos
 melee_defence_mod	carrion_gobbos_md	carrion_gobbos
 ammo_mod	carrion_gobbos_ammo	carrion_gobbos

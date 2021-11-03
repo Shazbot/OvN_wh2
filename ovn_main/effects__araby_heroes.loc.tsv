@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/effects__araby_heroes.loc		
 effects_description_roy_effect_agent_enable_recruitment_arb_champion	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Askar	false
 effects_description_roy_effect_agent_cap_increase_arb_champion	Hero capacity: %+n for Askars	false
 effects_description_roy_effect_agent_recruitment_xp_arb_champion	Hero recruit rank: %+n for Askars	false

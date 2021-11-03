@@ -1,38 +1,38 @@
-battle_set_piece_armies_characters_tables	7
-character_level	character_name	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-1	vmp_cha_walach	8888277188	wh_main_lore_vampires	100	8888277189	vmp_cha_walach	general	vmp_cha_walach	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmpwalach.png	815317561		true
-1	vmp_cha_walach_nightmare	8888277188	wh_main_lore_vampires	100	8888277189	vmp_cha_walach_nightmare	general	vmp_cha_walach	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmpwalach.png	815317561		true
-1	ovn_com_cha_olorin_the_grey_wizard	162509577	wh_dlc05_lore_shadows	100	271572567	ovn_com_cha_olorin_the_grey_wizard_0	general	ovn_com_olorin_the_grey_wizard	ui/portraits/portholes/ovn_the_comradeship/ovn_com_olorin_the_grey_wizard.png	137587985		true
-1	ovn_com_cha_aragand_the_layabout	452577106		100	564280971	ovn_com_cha_aragand_the_layabout_0	champion	ovn_com_aragand_the_layabout	ui/portraits/portholes/ovn_the_comradeship/ovn_com_aragand_the_layabout.png	137587986		true
-1	ovn_com_cha_legles_the_elf	252755655		100	431114642	ovn_com_cha_legles_the_elf_0	spy	ovn_com_legles_the_elf	ui/portraits/portholes/ovn_the_comradeship/ovn_com_legles_the_elf.png	137587987		true
-1	ovn_com_cha_giblit_the_dwarf	187373064		100	854306550	ovn_com_cha_giblit_the_dwarf_0	champion	ovn_com_giblit_the_dwarf	ui/portraits/portholes/ovn_the_comradeship/ovn_com_giblit_the_dwarf.png	137587988		true
-1	ovn_arb_cha_magician_life_0	999983023	wh_dlc05_lore_life	100	999983087	ovn_arb_cha_magician_life_0	wizard	arb_magician_life	ui/portraits/portholes/no_culture/araby_wiz_life.png	1325400312		true
-1	ovn_arb_cha_magician_desert_0	999983024	ovn_lore_desert	100	999983088	ovn_arb_cha_magician_desert_0	wizard	arb_magician_desert	ui/portraits/portholes/no_culture/araby_wiz.png	1325400313		true
-1	ovn_arb_cha_magician_fire_0	999983025	wh_main_lore_fire	100	999983089	ovn_arb_cha_magician_fire_0	wizard	arb_magician_fire	ui/portraits/portholes/no_culture/araby_wiz_fire.png	1325400314		true
-1	ovn_arb_cha_magician_heavens_0	999983026	wh_main_lore_heavens	100	999983090	ovn_arb_cha_magician_heavens_0	wizard	arb_magician_heavens	ui/portraits/portholes/no_culture/araby_wiz_sky.png	1325400315		true
-1	Dread_King	247259235		100	247259236	Dread_King	general	Dread_King		2101873		true
-1	aky_chief_fimir_great_weapons_0	164295142		100	1513022302	aky_chief_fimir_great_weapons_0	general	aky_chief_fimir_great_weapons	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_fimir_great_weapons_0.png	1326263180		true
-1	aky_chief_wolf_werekin_0	1091358184		100	1132597213	aky_chief_wolf_werekin_0	general	aky_chief_wolf_werekin	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_wolf_werekin_0.png	1531994451		true
-1	aky_chief_wolf_werekin_1_terrorgheist_0	1091358184		100	1132597213	aky_chief_wolf_werekin_1_terrorgheist	general	aky_chief_wolf_werekin	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_wolf_werekin_0.png	1531994451		true
-1	roy_arb_cha_nomad	3508823146		100	3508823147	roy_arb_cha_nomad	spy	roy_arb_nomad	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	32823075		true
-1	roy_arb_cha_champion	3508823148		100	3508823149	roy_arb_cha_champion	champion	roy_arb_champion	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	32823068		true
-1	roy_arb_cha_nomad_assassin	3508823146		100	3508823147	roy_arb_cha_nomad_assassin	spy	roy_arb_nomad	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	32823076		true
-1	belakor	247258464	wh_dlc05_lore_shadows	100	247258465	belakor	general	belakor		8070	wh_dlc07_skill_node_set_chs_sorcerer_lord_shadows	true
-1	albion_morrigan	77777001	elo_lore_morrigan	100	77777002	albion_morrigan	general	albion_morrigan	ui/portraits/portholes/no_culture/wh_main_dwf_cha_greybeard.png	120211		false
-1	bl_elo_dural_durak	77777202	elo_lore_truthsayer	100	77777201	bl_elo_dural_durak	general	bl_elo_dural_durak	ui/portraits/portholes/no_culture/wh_main_dwf_cha_greybeard.png	120212		true
-1	elo_dread_centurion	2147345100		100	2147345172	elo_dread_centurion	champion	elo_dread_centurion	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmp_wight_king_sword_campaign_01_0.png	190901	wh_main_skill_node_set_all_champion	true
-1	elo_liche_general	1078273109		100	2080915970	elo_liche_general	general	elo_liche_general	ui/portraits/portholes/no_culture/elo_liche_general.png	65658901		true
-1	elo_hand_of_nagash	247259237		100	247259238	elo_hand_of_nagash	general	elo_hand_of_nagash		2101874		true
-1	elo_chief_ugma	77779001		100	77779002	elo_chief_ugma	general	elo_chief_ugma	ui/portraits/portholes/no_culture/elo_chief_ugma.png	119193		true
-1	Sultan_Jaffar	882000	wh_main_lore_jaffar	100	882001	Sultan_Jaffar	general	Sultan_Jaffar	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	7078		true
-1	ovn_araby_ll	999982308		100		ovn_araby_ll	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll.png	290598903		true
-1	ovn_hlf_ll	999982316	wh_dlc05_lore_shadows	100		ovn_hlf_ll	general	ovn_hlf_ll	ui/portraits/portholes/no_culture/ovn_hlf_ll.png	290598904		true
-1	ovn_grudge	3110890001	wh_dlc05_lore_shadows	100	3110890002	morgan_bernhardt	general	morgan_bernhardt	ui/portraits/portholes/wh_main_brt_bretonnia/brt_lords_campaign_01_0.png	311089016		true
-1	ovn_araby_ll_2	999982309		100		ovn_araby_ll_2	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll_2.png	290588884		true
-1	fim_meargh_skattach	999982314	wh2_main_lore_dark_magic	100		fim_meargh_skattach	general	fim_meargh_skattach	ui/portraits/portholes/no_culture/fim_meargh_skattach.png	798687835		true
-1	ovn_rbt_blightstormer	2147359797	ovn_lore_rot	100	1725206863	ovn_rbt_ch_blightstormer	wizard	rbt_blightstormer	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	3023082		true
-1	ribspreader	999982317		100		ribspreader	general	ribspreader	ui/portraits/portholes/ribspreader/ribspreader.png	1973488301		true
-1	arb_fatandira	882002		100	882003	arb_fatandira	general	arb_fatandira	ui/portraits/portholes/no_culture/arb_fatandira.png	87497939		true
-1	arb_golden_magus	882008	ovn_lore_golden_magus	100	882009	arb_golden_magus	general	arb_golden_magus	ui/portraits/portholes/no_culture/arb_golden_magus.png	889387935		true
-1	hlf_glibfoot	858212100		100	858212101	ovn_hlf_glibfoot	general	ovn_hlf_glibfoot	ui/portraits/portholes/no_culture/ovn_hlf_glibfoot.png	278687905		true
-1	ovn_hlf_moot_general	999982316		100		ovn_hlf_moot_general_0	general	ovn_hlf_moot_general	ui/portraits/portholes/no_culture/ovn_hlf_moot_general.png	299597905		true
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;7;db/battle_set_piece_armies_characters_tables/ovn_lost_factions_gold												
+vmp_cha_walach	1	8888277188	wh_main_lore_vampires	100	8888277189	vmp_cha_walach	general	vmp_cha_walach	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmpwalach.png	815317561		true
+vmp_cha_walach_nightmare	1	8888277188	wh_main_lore_vampires	100	8888277189	vmp_cha_walach_nightmare	general	vmp_cha_walach	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmpwalach.png	815317561		true
+ovn_com_cha_olorin_the_grey_wizard	1	162509577	wh_dlc05_lore_shadows	100	271572567	ovn_com_cha_olorin_the_grey_wizard_0	general	ovn_com_olorin_the_grey_wizard	ui/portraits/portholes/ovn_the_comradeship/ovn_com_olorin_the_grey_wizard.png	137587985		true
+ovn_com_cha_aragand_the_layabout	1	452577106		100	564280971	ovn_com_cha_aragand_the_layabout_0	champion	ovn_com_aragand_the_layabout	ui/portraits/portholes/ovn_the_comradeship/ovn_com_aragand_the_layabout.png	137587986		true
+ovn_com_cha_legles_the_elf	1	252755655		100	431114642	ovn_com_cha_legles_the_elf_0	spy	ovn_com_legles_the_elf	ui/portraits/portholes/ovn_the_comradeship/ovn_com_legles_the_elf.png	137587987		true
+ovn_com_cha_giblit_the_dwarf	1	187373064		100	854306550	ovn_com_cha_giblit_the_dwarf_0	champion	ovn_com_giblit_the_dwarf	ui/portraits/portholes/ovn_the_comradeship/ovn_com_giblit_the_dwarf.png	137587988		true
+ovn_arb_cha_magician_life_0	1	999983023	wh_dlc05_lore_life	100	999983087	ovn_arb_cha_magician_life_0	wizard	arb_magician_life	ui/portraits/portholes/no_culture/araby_wiz_life.png	1325400312		true
+ovn_arb_cha_magician_desert_0	1	999983024	ovn_lore_desert	100	999983088	ovn_arb_cha_magician_desert_0	wizard	arb_magician_desert	ui/portraits/portholes/no_culture/araby_wiz.png	1325400313		true
+ovn_arb_cha_magician_fire_0	1	999983025	wh_main_lore_fire	100	999983089	ovn_arb_cha_magician_fire_0	wizard	arb_magician_fire	ui/portraits/portholes/no_culture/araby_wiz_fire.png	1325400314		true
+ovn_arb_cha_magician_heavens_0	1	999983026	wh_main_lore_heavens	100	999983090	ovn_arb_cha_magician_heavens_0	wizard	arb_magician_heavens	ui/portraits/portholes/no_culture/araby_wiz_sky.png	1325400315		true
+Dread_King	1	247259235		100	247259236	Dread_King	general	Dread_King		2101873		true
+aky_chief_fimir_great_weapons_0	1	164295142		100	1513022302	aky_chief_fimir_great_weapons_0	general	aky_chief_fimir_great_weapons	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_fimir_great_weapons_0.png	1326263180		true
+aky_chief_wolf_werekin_0	1	1091358184		100	1132597213	aky_chief_wolf_werekin_0	general	aky_chief_wolf_werekin	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_wolf_werekin_0.png	1531994451		true
+aky_chief_wolf_werekin_1_terrorgheist_0	1	1091358184		100	1132597213	aky_chief_wolf_werekin_1_terrorgheist	general	aky_chief_wolf_werekin	UI/Portraits/Portholes/wh_main_chs_chaos/aky_chief_wolf_werekin_0.png	1531994451		true
+roy_arb_cha_nomad	1	3508823146		100	3508823147	roy_arb_cha_nomad	spy	roy_arb_nomad	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	32823075		true
+roy_arb_cha_champion	1	3508823148		100	3508823149	roy_arb_cha_champion	champion	roy_arb_champion	ui/portraits/portholes/no_culture/roy_arb_cha_champion.png	32823068		true
+roy_arb_cha_nomad_assassin	1	3508823146		100	3508823147	roy_arb_cha_nomad_assassin	spy	roy_arb_nomad	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	32823076		true
+belakor	1	247258464	wh_dlc05_lore_shadows	100	247258465	belakor	general	belakor		8070	wh_dlc07_skill_node_set_chs_sorcerer_lord_shadows	true
+albion_morrigan	1	77777001	elo_lore_morrigan	100	77777002	albion_morrigan	general	albion_morrigan	ui/portraits/portholes/no_culture/wh_main_dwf_cha_greybeard.png	120211		false
+bl_elo_dural_durak	1	77777202	elo_lore_truthsayer	100	77777201	bl_elo_dural_durak	general	bl_elo_dural_durak	ui/portraits/portholes/no_culture/wh_main_dwf_cha_greybeard.png	120212		true
+elo_dread_centurion	1	2147345100		100	2147345172	elo_dread_centurion	champion	elo_dread_centurion	ui/portraits/portholes/wh_main_vmp_vampire_counts/vmp_wight_king_sword_campaign_01_0.png	190901	wh_main_skill_node_set_all_champion	true
+elo_liche_general	1	1078273109		100	2080915970	elo_liche_general	general	elo_liche_general	ui/portraits/portholes/no_culture/elo_liche_general.png	65658901		true
+elo_hand_of_nagash	1	247259237		100	247259238	elo_hand_of_nagash	general	elo_hand_of_nagash		2101874		true
+elo_chief_ugma	1	77779001		100	77779002	elo_chief_ugma	general	elo_chief_ugma	ui/portraits/portholes/no_culture/elo_chief_ugma.png	119193		true
+Sultan_Jaffar	1	882000	wh_main_lore_jaffar	100	882001	Sultan_Jaffar	general	Sultan_Jaffar	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	7078		true
+ovn_araby_ll	1	999982308		100		ovn_araby_ll	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll.png	290598903		true
+ovn_hlf_ll	1	999982316	wh_dlc05_lore_shadows	100		ovn_hlf_ll	general	ovn_hlf_ll	ui/portraits/portholes/no_culture/ovn_hlf_ll.png	290598904		true
+ovn_grudge	1	3110890001	wh_dlc05_lore_shadows	100	3110890002	morgan_bernhardt	general	morgan_bernhardt	ui/portraits/portholes/wh_main_brt_bretonnia/brt_lords_campaign_01_0.png	311089016		true
+ovn_araby_ll_2	1	999982309		100		ovn_araby_ll_2	general	ovn_araby_ll	ui/portraits/portholes/no_culture/ovn_araby_ll_2.png	290588884		true
+fim_meargh_skattach	1	999982314	wh2_main_lore_dark_magic	100		fim_meargh_skattach	general	fim_meargh_skattach	ui/portraits/portholes/no_culture/fim_meargh_skattach.png	798687835		true
+ovn_rbt_blightstormer	1	2147359797	ovn_lore_rot	100	1725206863	ovn_rbt_ch_blightstormer	wizard	rbt_blightstormer	ui/portraits/portholes/no_culture/ovn_rbt_blightstormer.png	3023082		true
+ribspreader	1	999982317		100		ribspreader	general	ribspreader	ui/portraits/portholes/ribspreader/ribspreader.png	1973488301		true
+arb_fatandira	1	882002		100	882003	arb_fatandira	general	arb_fatandira	ui/portraits/portholes/no_culture/arb_fatandira.png	87497939		true
+arb_golden_magus	1	882008	ovn_lore_golden_magus	100	882009	arb_golden_magus	general	arb_golden_magus	ui/portraits/portholes/no_culture/arb_golden_magus.png	889387935		true
+hlf_glibfoot	1	858212100		100	858212101	ovn_hlf_glibfoot	general	ovn_hlf_glibfoot	ui/portraits/portholes/no_culture/ovn_hlf_glibfoot.png	278687905		true
+ovn_hlf_moot_general	1	999982316		100		ovn_hlf_moot_general_0	general	ovn_hlf_moot_general	ui/portraits/portholes/no_culture/ovn_hlf_moot_general.png	299597905		true

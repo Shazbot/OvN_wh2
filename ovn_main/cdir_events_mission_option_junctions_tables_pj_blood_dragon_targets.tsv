@@ -1,5 +1,5 @@
-cdir_events_mission_option_junctions_tables	2
 id	mission_key	option_key	value
+#cdir_events_mission_option_junctions_tables;2;db/cdir_events_mission_option_junctions_tables/pj_blood_dragon_targets			
 1665200477	pj_blood_dragon_targets_1	VAR_CHANCE	100
 1665200478	pj_blood_dragon_targets_2	VAR_CHANCE	100
 1665200479	pj_blood_dragon_targets_3	VAR_CHANCE	100

@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/pj_hlf_bees					
 ovn_half_barracks_1	ovn_hlf_bee_throwers_cap	faction_to_faction_own_unseen	1.0	1.0	0.0
 ovn_half_barracks_2	ovn_hlf_bee_throwers_cap	faction_to_faction_own_unseen	2.0	1.0	0.0
 ovn_half_barracks_3	ovn_hlf_bee_throwers_cap	faction_to_faction_own_unseen	3.0	1.0	0.0

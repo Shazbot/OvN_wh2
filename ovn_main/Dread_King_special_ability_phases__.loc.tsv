@@ -1,4 +1,4 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Dread_King_special_ability_phases__.loc		
 special_ability_phases_onscreen_name_spawn_ushabti_dread_king	Ushabti Summoner	true
 special_ability_phases_onscreen_name_Dread_Aura	Dread Aura	true

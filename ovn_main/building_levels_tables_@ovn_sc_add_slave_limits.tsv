@@ -1,5 +1,5 @@
-building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+#building_levels_tables;16;db/building_levels_tables/@ovn_sc_add_slave_limits																										
 wh_main_nor_settlement_major_1	wh_main_NORSCA_settlement_major	1	2	800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	wh_cam_settlement_major_nordic	true	0	2000
 wh_main_nor_settlement_major_1_coast	wh_main_NORSCA_settlement_major_coast	1	2	800	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	0	true	0	Wh_Cam_Settlement_Port_Nordic	true	0	2000
 wh_main_nor_settlement_major_2	wh_main_NORSCA_settlement_major	2	3	1600	0		false	0	0	0	0	false				true	wh_main_NORSCA_settlement	false	0.0	1	true	0	wh_cam_settlement_major_nordic	true	0	2500

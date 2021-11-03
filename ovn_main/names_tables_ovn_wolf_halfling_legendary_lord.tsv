@@ -1,5 +1,5 @@
-names_tables	1
-names_group	type	gender	frequency	id
-111	forename	m	1	858212100
-111	family_name	m	1	858212101
-111	forename	m	0	858212102
+id	names_group	type	gender	frequency
+#names_tables;1;db/names_tables/ovn_wolf_halfling_legendary_lord				
+858212100	111	forename	m	1
+858212101	111	family_name	m	1
+858212102	111	forename	m	0

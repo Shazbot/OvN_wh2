@@ -1,5 +1,5 @@
-unit_sets_tables	2
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/ovn_troll				
 elo_troll_monster	false	-1	-1	
 elo_raw_might	true	7	9	
 elo_northern_scourge	true	7	9	

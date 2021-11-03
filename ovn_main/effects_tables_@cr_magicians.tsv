@@ -1,4 +1,4 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/@cr_magicians					
 ovn_effect_enable_mount_djinn_vessel	mount.png	50	mount.png	both	true
 ovn_effect_enable_mount_magic_carpet	mount.png	50	mount.png	both	true

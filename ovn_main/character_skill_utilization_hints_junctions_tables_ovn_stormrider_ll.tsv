@@ -1,5 +1,5 @@
-character_skill_utilization_hints_junctions_tables	0
 hint	key
+#character_skill_utilization_hints_junctions_tables;0;db/character_skill_utilization_hints_junctions_tables/ovn_stormrider_ll	
 USEFUL_ALWAYS	ovn_as_starblade
 USEFUL_ALWAYS	ovn_as_armour
 USEFUL_ALWAYS	ovn_as_Hoeth_Talisman

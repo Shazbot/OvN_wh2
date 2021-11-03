@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/ovn_grudge	
 grudgebringer_cannon	ovn_grudge
 helmgart_bowmen	ovn_grudge
 dargrimm_firebeard_dwarf_warriors	ovn_grudge

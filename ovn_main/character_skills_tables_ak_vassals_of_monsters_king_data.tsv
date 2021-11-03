@@ -1,4 +1,4 @@
-character_skills_tables	5
-image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
-character_damage.png	ak_fake_skill_point_dump	Warriors of Total War are toys of the Gods and receive various gifts, including tremendous fighting skills or nothing.	Fake Skill Point Dump	15	false	false	false	0.0	0
-mount_terrorgheist.png	aky_chief_wolf_terrorgheist	Giant bats the size of dragons, capable of plucking men from the field and stunning warhorses into paralysis.	Terrorgheist	19	false	false	false	0.0	0
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ak_vassals_of_monsters_king_data									
+ak_fake_skill_point_dump	character_damage.png	Warriors of Total War are toys of the Gods and receive various gifts, including tremendous fighting skills or nothing.	Fake Skill Point Dump	15	false	false	false	0.0	0
+aky_chief_wolf_terrorgheist	mount_terrorgheist.png	Giant bats the size of dragons, capable of plucking men from the field and stunning warhorses into paralysis.	Terrorgheist	19	false	false	false	0.0	0

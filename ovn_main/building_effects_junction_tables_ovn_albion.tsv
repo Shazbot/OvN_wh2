@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/ovn_albion					
 elo_great_ogham	increase_cap_albion_wyrd_druid	faction_to_faction_own_unseen	2.0	2.0	2.0
 elo_great_ogham	enable_recruitment_albion_wyrd_druid	province_to_province_own	1.0	1.0	1.0
 elo_great_ogham	wh_main_effect_religion_conversion_chaos_bad	region_to_region_own	15.0	8.0	0.0

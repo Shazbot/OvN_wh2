@@ -1,5 +1,5 @@
-banners_tables	1
 banner	effect_bundle
+#banners_tables;1;db/banners_tables/ovn	
 albion_scary_banner	albion_scary_banner
 anc_albion_triskele_banner	anc_albion_triskele_banner
 anc_danu_banner	anc_danu_banner

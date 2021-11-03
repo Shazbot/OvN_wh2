@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/elo_dread_caps		
 unit_cap	dread_legion_dual_cap	dread_legion_dual
 unit_cap	dread_legion_spears_cap	dread_legion_spears
 unit_cap	dread_legion_2h_cap	dread_legion_2h

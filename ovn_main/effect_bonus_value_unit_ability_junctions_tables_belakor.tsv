@@ -1,5 +1,5 @@
-effect_bonus_value_unit_ability_junctions_tables	0
 effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/belakor		
 whispers_in_the_darkness	enable	whispers_in_the_darkness
 Violent_rise_to_power_1	enable	Violent_rise_to_power_1
 Violent_rise_to_power_2	enable	Violent_rise_to_power_2

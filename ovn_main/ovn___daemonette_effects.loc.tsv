@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn___daemonette_effects.loc		
 effects_description_wh2_main_effect_skill_melee_attack_increase_def_witchelf_blackguard_executioner	Melee attack: %+n for Witch Elves, Daemonette, Har Ganeth Executioners, Black Guard of Naggarond and Sisters of Slaughter units	true
 effects_description_wh2_main_effect_skill_melee_defence_increase_def_witchelf_blackguard_executioner	Melee defence: %+n for Witch Elves, Daemonette, Har Ganeth Executioners, Black Guard of Naggarond and Sisters of Slaughter units	true
 effects_description_wh2_main_effect_skill_battle_morale_increase_def_beasts_witchelfs_rank7	Leadership: %+n for Witch Elves, Daemonette, Harpies, War Hydra, Kharibdyss and Black Dragon units {{tr:rank7}}	true

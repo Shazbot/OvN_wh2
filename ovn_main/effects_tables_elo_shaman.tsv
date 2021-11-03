@@ -1,4 +1,4 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_shaman					
 increase_cap_elo_boglar_shaman	wizard.png	102	wizard.png	campaign	true
 enable_recruitment_elo_boglar_shaman	wizard.png	3	wizard.png	campaign	true

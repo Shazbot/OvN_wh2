@@ -1,6 +1,6 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				wh_main_mtl_veh_soupcart	missile_units
-false				wh_main_mtl_veh_soupcart	mp_cap_missile_cav_chariots
-false				wh_main_mtl_veh_soupcart	mp_cap_ranged_units
-false				wh_main_mtl_veh_soupcart	mp_set_chariots
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/@cr_halftank					
+			wh_main_mtl_veh_soupcart	missile_units	false
+			wh_main_mtl_veh_soupcart	mp_cap_missile_cav_chariots	false
+			wh_main_mtl_veh_soupcart	mp_cap_ranged_units	false
+			wh_main_mtl_veh_soupcart	mp_set_chariots	false

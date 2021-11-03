@@ -1,5 +1,5 @@
-faction_agent_permitted_subtypes_tables	0
 agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/ovn_marienburg_subtypes		
 champion	wh_main_emp_marienburg_rebels	emp_captain
 colonel	wh_main_emp_marienburg_rebels	emp_lord
 dignitary	wh_main_emp_marienburg_rebels	emp_warrior_priest

@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/elo_fimir_lord					
 elo_fimir_rusher_sp	battle_movement.png	100	battle_movement.png	battle	true
 elo_fimir_rusher_ch	charge.png	100	charge.png	battle	true
 elo_fimir_first_wave_ma	melee.png	100	melee.png	battle	true

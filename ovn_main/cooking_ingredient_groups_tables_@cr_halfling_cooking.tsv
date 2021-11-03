@@ -1,5 +1,5 @@
-cooking_ingredient_groups_tables	2
 key	icon	colour
+#cooking_ingredient_groups_tables;2;db/cooking_ingredient_groups_tables/@cr_halfling_cooking		
 ovn_cereals	ovn_cereals	cooking_ingredients_group_5
 ovn_meats	ovn_meats	cooking_ingredients_group_4
 ovn_spices	ovn_spices	cooking_ingredients_group_2

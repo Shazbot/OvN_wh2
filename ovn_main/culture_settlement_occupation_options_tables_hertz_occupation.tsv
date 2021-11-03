@@ -1,3 +1,3 @@
-culture_settlement_occupation_options_tables	10
-option	acting_army_faction_effect_bundle	acting_army_faction_effect_bundle_turns	target_settlement_faction_effect_bundle	target_settlement_faction_effect_bundle_turns	group	acting_army_effect_bundle	acting_army_effect_bundle_turns	id	tooltip	icon	base_loot	building_loot_mod	resource_transaction	audio_option_type_override
-occupation_decision_establish_foreign_slot		0		0	hertz_rotblood_ocupation_decision_build_cult		0	616841	Create Cult||Seed chaos and corrupution in this settlement. Preparing worship to the dark gods	occupy	0.0	0.0		
+id	option	acting_army_faction_effect_bundle	acting_army_faction_effect_bundle_turns	target_settlement_faction_effect_bundle	target_settlement_faction_effect_bundle_turns	group	acting_army_effect_bundle	acting_army_effect_bundle_turns	tooltip	icon	base_loot	building_loot_mod	resource_transaction	audio_option_type_override
+#culture_settlement_occupation_options_tables;10;db/culture_settlement_occupation_options_tables/hertz_occupation														
+616841	occupation_decision_establish_foreign_slot		0		0	hertz_rotblood_ocupation_decision_build_cult		0	Create Cult||Seed chaos and corrupution in this settlement. Preparing worship to the dark gods	occupy	0.0	0.0		

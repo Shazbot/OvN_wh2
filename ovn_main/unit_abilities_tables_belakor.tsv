@@ -1,5 +1,5 @@
-unit_abilities_tables	16
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;16;db/unit_abilities_tables/belakor											
 whispers_in_the_darkness	true	whispers_in_shadow		wh_type_area_of_hexes		wh_main_anc_group_unique	true	false	character		false
 Violent_rise_to_power_1	true	violent_rise_1		wh_type_augment		wh_main_anc_group_uncommon	true	false	character		false
 Violent_rise_to_power_2	true	violent_rise_2		wh_type_augment		wh_main_anc_group_rare	true	false	character		false

@@ -1,57 +1,57 @@
-character_skill_nodes_tables	5
-campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-	wh_main_skill_all_lord_battle_inspiring_presence	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_0	0.0		0	0	true
-	Desert_Wind	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_1_1	1.0		0	0	true
-	Sand_Dwellers	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_1_2	2.0		0	0	true
-	ovn_buff_araby_nomads	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_1_3	3.0		0	0	true
-	ovn_buff_araby_gunpowder	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_1_4	4.0		0	0	true
-	ovn_buff_araby_bows	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_1_5	5.0		0	0	true
-	ovn_buff_araby_state_inf	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_1_6	6.0		0	0	true
-	wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_2	7.0		0	6	true
-	ovn_araby_nomads_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_3_1	8.0		0	0	true
-	ovn_araby_state_inf_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_3_2	9.0		0	0	true
-	ovn_araby_beasts_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_3_3	10.0		0	0	true
-	ovn_araby_magic_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_3_4	11.0		0	0	true
-	wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_arb_vizier_desert		4.0	wh_skill_node_arb_vizier_desert_army_4	12.0		0	1	true
-	arb_vizier_desert_camel	wh_main_skill_node_set_arb_vizier_desert		0.0	wh_skill_node_arb_vizier_desert_mount_1	2.0		0	0	true
-	arb_vizier_desert_magic_carpet	wh_main_skill_node_set_arb_vizier_desert		0.0	wh_skill_node_arb_vizier_desert_mount_2	3.0		0	0	true
-	Order_Buff	wh_main_skill_node_set_arb_vizier_desert		1.0	wh_skill_node_arb_vizier_desert_generic_1	4.0		0	0	true
-	Chaos_Buff	wh_main_skill_node_set_arb_vizier_desert		1.0	wh_skill_node_arb_vizier_desert_generic_2	5.0		0	0	true
-	ovn_skill_arb_all_unique_ward_of_the_one	wh_main_skill_node_set_arb_vizier_desert		0.0	wh_skill_node_arb_vizier_desert_generic_3	4.0		0	0	true
-	wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_arb_vizier_desert		0.0	wh_skill_node_arb_vizier_desert_generic_4	5.0		0	0	true
-	ovn_skill_magic_desert_mirage	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_01	0.0		0	0	true
-	ovn_skill_magic_desert_blessing_of_the_elements	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_02	1.0		0	0	true
-	ovn_skill_magic_desert_sunstrike	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_03	2.0		0	0	true
-	ovn_skill_magic_desert_sandstorm	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_04	3.0		0	0	true
-	ovn_skill_magic_desert_quicksand	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_05	4.0		0	0	true
-	wh_main_skill_all_magic_all_06_evasion	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_06	5.0		0	4	true
-	ovn_skill_magic_desert_burning_hands	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_07	8.0		0	0	true
-	ovn_skill_magic_desert_curse_of_the_djinn	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_08	9.0		0	0	true
-	wh_main_skill_all_magic_all_07_earthing	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_09	6.0		0	0	true
-	wh_main_skill_all_magic_all_08_power_drain	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_10	7.0		0	0	true
-	wh_main_skill_all_magic_all_11_arcane_conduit	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_11	10.0		0	4	true
-	ovn_skill_magic_desert_mirage_dummy	wh_main_skill_node_set_arb_vizier_desert		2.0	wh_skill_node_arb_vizier_desert_magic_dummy	11.0		1	0	false
-	arb_vizier_administrator	wh_main_skill_node_set_arb_vizier_desert		1.0	wh_skill_node_arb_vizier_desert_uniques_01	1.0		0	0	true
-	arb_vizier_scholar	wh_main_skill_node_set_arb_vizier_desert		1.0	wh_skill_node_arb_vizier_desert_uniques_02	2.0		0	0	true
-	arb_vizier_schemer	wh_main_skill_node_set_arb_vizier_desert		1.0	wh_skill_node_arb_vizier_desert_uniques_03	3.0		0	0	true
-	wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_01	0.0		0	0	true
-	wh_main_skill_emp_lord_campaign_iron_disciplinarian	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_02	1.0		0	0	true
-	wh_main_skill_brt_lord_campaign_bonded_service	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_03	2.0		0	0	true
-	wh_main_skill_brt_lord_campaign_bailiff	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_04	3.0		0	0	true
-	wh2_main_skill_def_campaign_dreaded_slaver	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_05	4.0		0	0	true
-	wh_main_skill_all_lord_campaign_irrepressible	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_06	5.0		0	4	true
-	wh_main_skill_all_lord_campaign_lightning_strike	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_07	6.0		0	0	true
-	wh2_main_skill_def_campaign_infamous_raider	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_08	7.0		0	0	true
-	wh2_main_skill_def_campaign_draftmaster	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_09	8.0		0	0	true
-	wh_main_skill_emp_lord_campaign_logistician	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_10	9.0		0	0	true
-	wh2_main_skill_LL_self_defense	wh_main_skill_node_set_arb_vizier_desert		5.0	wh_skill_node_arb_vizier_desert_campaign_11	10.0		0	4	true
-	Araby_Lord_Buff	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_01	0.0		0	0	false
-	ovn_araby_ll_innate_02	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_02	1.0		0	0	false
-	ovn_araby_ll_innate_03	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_03	2.0		0	0	false
-	ovn_araby_ll_innate_04	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_04	3.0		0	0	false
-	ovn_araby_ll_innate_06	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_06	5.0		0	0	false
-	ovn_araby_ll_innate_07	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_07	6.0		0	0	false
-	ovn_araby_ll_innate_08	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_08	7.0		0	0	false
-	ovn_araby_ll_innate_09	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_09	8.0		0	0	false
-	ovn_araby_ll_innate_10	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_10	9.0		0	0	false
-	ovn_araby_ll_innate_05	wh_main_skill_node_set_arb_vizier_desert		6.0	wh_skill_node_arb_vizier_desert_innate_05	4.0		0	0	false
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_arb_vizier_desert										
+wh_skill_node_arb_vizier_desert_army_0		wh_main_skill_all_lord_battle_inspiring_presence	wh_main_skill_node_set_arb_vizier_desert		4.0	0.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_1_1		Desert_Wind	wh_main_skill_node_set_arb_vizier_desert		4.0	1.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_1_2		Sand_Dwellers	wh_main_skill_node_set_arb_vizier_desert		4.0	2.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_1_3		ovn_buff_araby_nomads	wh_main_skill_node_set_arb_vizier_desert		4.0	3.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_1_4		ovn_buff_araby_gunpowder	wh_main_skill_node_set_arb_vizier_desert		4.0	4.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_1_5		ovn_buff_araby_bows	wh_main_skill_node_set_arb_vizier_desert		4.0	5.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_1_6		ovn_buff_araby_state_inf	wh_main_skill_node_set_arb_vizier_desert		4.0	6.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_2		wh_main_skill_all_lord_battle_rally	wh_main_skill_node_set_arb_vizier_desert		4.0	7.0		0	6	true
+wh_skill_node_arb_vizier_desert_army_3_1		ovn_araby_nomads_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	8.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_3_2		ovn_araby_state_inf_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	9.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_3_3		ovn_araby_beasts_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	10.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_3_4		ovn_araby_magic_r7	wh_main_skill_node_set_arb_vizier_desert		4.0	11.0		0	0	true
+wh_skill_node_arb_vizier_desert_army_4		wh_main_skill_all_lord_battle_stand_your_ground	wh_main_skill_node_set_arb_vizier_desert		4.0	12.0		0	1	true
+wh_skill_node_arb_vizier_desert_mount_1		arb_vizier_desert_camel	wh_main_skill_node_set_arb_vizier_desert		0.0	2.0		0	0	true
+wh_skill_node_arb_vizier_desert_mount_2		arb_vizier_desert_magic_carpet	wh_main_skill_node_set_arb_vizier_desert		0.0	3.0		0	0	true
+wh_skill_node_arb_vizier_desert_generic_1		Order_Buff	wh_main_skill_node_set_arb_vizier_desert		1.0	4.0		0	0	true
+wh_skill_node_arb_vizier_desert_generic_2		Chaos_Buff	wh_main_skill_node_set_arb_vizier_desert		1.0	5.0		0	0	true
+wh_skill_node_arb_vizier_desert_generic_3		ovn_skill_arb_all_unique_ward_of_the_one	wh_main_skill_node_set_arb_vizier_desert		0.0	4.0		0	0	true
+wh_skill_node_arb_vizier_desert_generic_4		wh2_main_skill_all_immortality_lord	wh_main_skill_node_set_arb_vizier_desert		0.0	5.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_01		ovn_skill_magic_desert_mirage	wh_main_skill_node_set_arb_vizier_desert		2.0	0.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_02		ovn_skill_magic_desert_blessing_of_the_elements	wh_main_skill_node_set_arb_vizier_desert		2.0	1.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_03		ovn_skill_magic_desert_sunstrike	wh_main_skill_node_set_arb_vizier_desert		2.0	2.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_04		ovn_skill_magic_desert_sandstorm	wh_main_skill_node_set_arb_vizier_desert		2.0	3.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_05		ovn_skill_magic_desert_quicksand	wh_main_skill_node_set_arb_vizier_desert		2.0	4.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_06		wh_main_skill_all_magic_all_06_evasion	wh_main_skill_node_set_arb_vizier_desert		2.0	5.0		0	4	true
+wh_skill_node_arb_vizier_desert_magic_07		ovn_skill_magic_desert_burning_hands	wh_main_skill_node_set_arb_vizier_desert		2.0	8.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_08		ovn_skill_magic_desert_curse_of_the_djinn	wh_main_skill_node_set_arb_vizier_desert		2.0	9.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_09		wh_main_skill_all_magic_all_07_earthing	wh_main_skill_node_set_arb_vizier_desert		2.0	6.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_10		wh_main_skill_all_magic_all_08_power_drain	wh_main_skill_node_set_arb_vizier_desert		2.0	7.0		0	0	true
+wh_skill_node_arb_vizier_desert_magic_11		wh_main_skill_all_magic_all_11_arcane_conduit	wh_main_skill_node_set_arb_vizier_desert		2.0	10.0		0	4	true
+wh_skill_node_arb_vizier_desert_magic_dummy		ovn_skill_magic_desert_mirage_dummy	wh_main_skill_node_set_arb_vizier_desert		2.0	11.0		1	0	false
+wh_skill_node_arb_vizier_desert_uniques_01		arb_vizier_administrator	wh_main_skill_node_set_arb_vizier_desert		1.0	1.0		0	0	true
+wh_skill_node_arb_vizier_desert_uniques_02		arb_vizier_scholar	wh_main_skill_node_set_arb_vizier_desert		1.0	2.0		0	0	true
+wh_skill_node_arb_vizier_desert_uniques_03		arb_vizier_schemer	wh_main_skill_node_set_arb_vizier_desert		1.0	3.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_set_arb_vizier_desert		5.0	0.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_02		wh_main_skill_emp_lord_campaign_iron_disciplinarian	wh_main_skill_node_set_arb_vizier_desert		5.0	1.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_03		wh_main_skill_brt_lord_campaign_bonded_service	wh_main_skill_node_set_arb_vizier_desert		5.0	2.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_04		wh_main_skill_brt_lord_campaign_bailiff	wh_main_skill_node_set_arb_vizier_desert		5.0	3.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_05		wh2_main_skill_def_campaign_dreaded_slaver	wh_main_skill_node_set_arb_vizier_desert		5.0	4.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_06		wh_main_skill_all_lord_campaign_irrepressible	wh_main_skill_node_set_arb_vizier_desert		5.0	5.0		0	4	true
+wh_skill_node_arb_vizier_desert_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	wh_main_skill_node_set_arb_vizier_desert		5.0	6.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_08		wh2_main_skill_def_campaign_infamous_raider	wh_main_skill_node_set_arb_vizier_desert		5.0	7.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_09		wh2_main_skill_def_campaign_draftmaster	wh_main_skill_node_set_arb_vizier_desert		5.0	8.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_10		wh_main_skill_emp_lord_campaign_logistician	wh_main_skill_node_set_arb_vizier_desert		5.0	9.0		0	0	true
+wh_skill_node_arb_vizier_desert_campaign_11		wh2_main_skill_LL_self_defense	wh_main_skill_node_set_arb_vizier_desert		5.0	10.0		0	4	true
+wh_skill_node_arb_vizier_desert_innate_01		Araby_Lord_Buff	wh_main_skill_node_set_arb_vizier_desert		6.0	0.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_02		ovn_araby_ll_innate_02	wh_main_skill_node_set_arb_vizier_desert		6.0	1.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_03		ovn_araby_ll_innate_03	wh_main_skill_node_set_arb_vizier_desert		6.0	2.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_04		ovn_araby_ll_innate_04	wh_main_skill_node_set_arb_vizier_desert		6.0	3.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_06		ovn_araby_ll_innate_06	wh_main_skill_node_set_arb_vizier_desert		6.0	5.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_07		ovn_araby_ll_innate_07	wh_main_skill_node_set_arb_vizier_desert		6.0	6.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_08		ovn_araby_ll_innate_08	wh_main_skill_node_set_arb_vizier_desert		6.0	7.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_09		ovn_araby_ll_innate_09	wh_main_skill_node_set_arb_vizier_desert		6.0	8.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_10		ovn_araby_ll_innate_10	wh_main_skill_node_set_arb_vizier_desert		6.0	9.0		0	0	false
+wh_skill_node_arb_vizier_desert_innate_05		ovn_araby_ll_innate_05	wh_main_skill_node_set_arb_vizier_desert		6.0	4.0		0	0	false

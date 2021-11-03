@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/!!!ovn_nor_outpost_expansion	
 ovn_cd_slave_1	ovn_cd_slave_2
 ovn_cd_work_1	ovn_cd_work_2
 ovn_cd_work_2	ovn_cd_work_3

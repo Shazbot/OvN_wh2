@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/Ovn_post_battle_captive_text.loc		
 campaign_post_battle_captive_options_onscreen_name_enslaveovn_captive_option_enslave_troll	Devour Captives	true
 campaign_post_battle_captive_options_description_enslaveovn_captive_option_enslave_troll	Lookz like meatz back on the menu boyz!	true
 campaign_post_battle_captive_options_onscreen_name_enslavewh_captive_option_enslave_albion	Convert Captives	false

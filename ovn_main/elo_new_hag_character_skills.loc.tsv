@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/elo_new_hag_character_skills.loc		
 character_skills_localised_description_elo_ocean_breeze	The hag summons a sea breeze, filling the target with new vigour and making them move at unnatural speed.	true
 character_skills_localised_name_elo_ocean_breeze	Sea Breeze	true
 character_skills_localised_description_elo_sea_hag_call_children	The Sea Hag calls upon her disgusting kin and summons a unit of Sea Trolls to do her bidding.	false
