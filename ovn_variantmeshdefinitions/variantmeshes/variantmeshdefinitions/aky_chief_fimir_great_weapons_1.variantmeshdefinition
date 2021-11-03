@@ -1,6 +1,6 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7d\fim\Fim_NOBLE\TORSO/fim_noble_torso_2.rigid_model_v2" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7d\fim\Fim_NOBLE\TORSO/fim_noble_torso_02.rigid_model_v2" >
 			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="head" >
