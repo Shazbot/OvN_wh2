@@ -204,7 +204,7 @@ end
 end
 
 local function unclock_ror(unit_key)
-	cm:remove_event_restricted_unit_record_for_faction(unit_key, cm:get_local_faction_name(true))
+	cm:remove_event_restricted_unit_record_for_faction(unit_key, "wh2_main_ovn_chaos_dwarfs")
 end
 
 local tree_to_other_bonuses = {
