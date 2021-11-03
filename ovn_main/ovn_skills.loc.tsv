@@ -422,7 +422,7 @@ character_skills_localised_description_mount_horse_truthsayer_life_skill	The tri
 character_skills_localised_name_truth_spell_gift_life_lord	Gift of Life	true
 character_skills_localised_description_truth_spell_gift_life_lord	Dying Warriors are granted a second chance as the spell of the truthsayer mends their deadly wounds and allows them to return to battle.	true
 character_skills_localised_name_truth_spell_wings_fate_lord	Wings of Fate	true
-character_skills_localised_description_truth_spell_wings_fate_lord	The Truthsayer conjures a flock of magic bird which will fly straight into the enemy formations, bringing doom to those they collide with.	true
+character_skills_localised_description_truth_spell_wings_fate_lord	The Truthsayer conjures a flock of magic birds which will fly straight into the enemy formations, bringing doom to those they collide with.	true
 character_skills_localised_name_truth_spell_valor_lord	Blessing of Valor	false
 character_skills_localised_description_truth_spell_valor_lord	The mage calls upon the gods of hunting and battle to grant his allies additional strength and skill.	false
 character_skills_localised_name_truth_spell_voice_command_lord	Voice of Command	false

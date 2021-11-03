@@ -118,7 +118,7 @@ unit_abilities_tooltip_text_spell_truth_voice_command_upgraded	The booming voice
 unit_abilities_onscreen_name_spell_truth_voice_command_upgraded	Voice of Command (upgraded)	false
 unit_abilities_tooltip_text_spell_truth_boon_courage_upgraded	The voice of the truthsayer is heard in the minds of his warriors, invoking their sense of honor and giving them unwavering hope even in the most desperate of situations.	false
 unit_abilities_onscreen_name_spell_truth_boon_courage_upgraded	Boon of Courage (upgraded)	false
-unit_abilities_tooltip_text_spell_truth_wings_fate_upgraded	The Truthsayer conjures a flock of magic bird which will fly straight into the enemy formations, bringing doom to those they collide with.	false
+unit_abilities_tooltip_text_spell_truth_wings_fate_upgraded	The Truthsayer conjures a flock of magic birds which will fly straight into the enemy formations, bringing doom to those they collide with.	false
 unit_abilities_onscreen_name_spell_truth_wings_fate_upgraded	Wings of Fate (upgraded)	false
 unit_abilities_tooltip_text_magic_siphon	These unnatural creatures require magic to exist - the more the better. If the winds of magic blow strongly, they are more stable on the battlefield.	false
 unit_abilities_onscreen_name_magic_siphon	Magic Dependant	false
