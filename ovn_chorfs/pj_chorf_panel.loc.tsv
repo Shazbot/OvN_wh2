@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_chorf_panel.loc		
 effects_description_pj_chorfs_infernals_xp	Recruit Rank: %+n for Infernal Guard units	true
 effects_description_pj_chorfs_infernals_upkeep	Upkeep: %+n% for Infernal Guard units	true
 effects_description_pj_chorfs_acolytes_upkeep	Upkeep: %+n% for Acolytes of Hashut	true
@@ -10,8 +10,8 @@ effects_description_pj_chorfs_infernals_heal	Infernal Guard units replenish 20%%
 campaign_localised_strings_string_pj_chorf_panel_ror_lock	[[col:red]]This Regiment of Renown will unlock only if you curry favor with the Lord of the Black Fortress.[[/col]]	true
 effects_description_pj_chorfs_unlock_infernals	Allows access to the Infernal Guard units through recruitment buildings	true
 campaign_localised_strings_string_pj_chorf_panel_infernals_lock	[[col:red]]The Infernal Guard units will unlock only if you curry favor with the Lord of the Black Fortress.[[/col]]	true
-campaign_localised_strings_string_pj_chorf_panel_ror_lock_ghorth	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Zharr-Naggrund.[[/col]]	true
-campaign_localised_strings_string_pj_chorf_panel_ror_lock_zharr	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Ghorth the Cruel.[[/col]]	true
+campaign_localised_strings_string_pj_chorf_panel_ror_lock_ghorth	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Ghorth the Cruel.[[/col]]	true
+campaign_localised_strings_string_pj_chorf_panel_ror_lock_zharr	[[col:red]]This Regiment of Renown will unlock only if you curry favor with Zharr-Naggrund.[[/col]]	true
 effects_description_pj_chorfs_unlock_infernals_fireglaive	Allows access to the Infernal Guard (Fireglaive) units throught recruitment buildings	true
 effects_description_pj_chorfs_unlock_infernals_naptha	Allows access to the Infernal Guard (Naptha Bombs) units throught recruitment buildings	true
 effects_description_ovn_chorfs_no_hobgoblin_lord_upkeep	Armies led by Hobgoblin Great Khans and Hobgoblin Pelt Shamans do not pay additional Army Upkeep	true
