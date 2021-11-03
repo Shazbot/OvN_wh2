@@ -1,5 +1,5 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/ovn_chorf			
 534199097	10	goblin_slaves	goblin_slaves
 534199098	4	chaos_dwarf_warriors	chaos_dwarf_warriors
 534199099	2	chaos_dwarf_warriors_rifles	chaos_dwarf_warriors_rifles

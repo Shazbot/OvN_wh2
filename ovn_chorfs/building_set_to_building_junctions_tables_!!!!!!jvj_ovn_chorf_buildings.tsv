@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/!!!!!!jvj_ovn_chorf_buildings			
 ovn_chorf_military		wh_main_set_norsca_military_recruitment	false
 ovn_chorf_stables		wh_main_set_norsca_military_recruitment	false
 ovn_chorf_creatures		wh_main_set_norsca_military_recruitment	false

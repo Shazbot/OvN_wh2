@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_chorf_buildings.loc		
 building_short_description_texts_short_description_ovn_chorf_port1	The ports provide good opportunities to reach new lands and capture more slaves to be brought back Zharr-Naggrund.	false
 building_short_description_texts_short_description_ovn_chorf_wall1	Black walls, massive gateways and dark towers carved from obsidian.	false
 building_short_description_texts_short_description_ovn_chorf_port2	The ports provide good opportunities to reach new lands and capture more slaves to be brought back Zharr-Naggrund.	false

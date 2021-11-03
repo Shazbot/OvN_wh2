@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!!!!ovn_nor_outpost_expansion_descriptions.loc		
 building_short_description_texts_short_description_ovn_chorfs_resource_building_amber	Amber is extracted here, and traded with Zharr-Naggrund for a tidy profit.	true
 building_short_description_texts_short_description_ovn_chorfs_resource_building_animals	Animals are slaughtered here, and used to feed the Dawi Zharr armies.	true
 building_short_description_texts_short_description_ovn_chorfs_resource_building_furs	The tannery works day and night, sewing clothes for the Dawi Zharr.	true

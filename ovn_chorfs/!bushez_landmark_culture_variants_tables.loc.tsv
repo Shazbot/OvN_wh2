@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!bushez_landmark_culture_variants_tables.loc		
 building_culture_variants_name_ovn_cd_kadrinwh2_main_ovn_chaos_dwarfs	Desecrated Temple of Grimnir	true
 building_culture_variants_name_ovn_cd_karazwh2_main_ovn_chaos_dwarfs	Forge of Desecration	true
 building_culture_variants_name_ovn_cd_varrwh2_main_ovn_chaos_dwarfs	Black Gulf Naval Yard	true

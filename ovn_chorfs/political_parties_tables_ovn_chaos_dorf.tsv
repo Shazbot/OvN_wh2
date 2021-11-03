@@ -1,3 +1,3 @@
-political_parties_tables	7
 key	playable	effect_bundle	initial_power	campaign_key
+#political_parties_tables;7;db/political_parties_tables/ovn_chaos_dorf				
 wh2_main_political_party_ovn_chaos_dwarfs	true	wh_main_bundle_dummy	100	main_warhammer

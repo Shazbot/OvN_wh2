@@ -1,3 +1,3 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/ace_Dawi_Zarr_Fireborn		
 unit_xp_mod	ads_fireborn_exp	aafireborntag

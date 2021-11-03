@@ -1,5 +1,5 @@
-building_instances_tables	0
 key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn_chorf_landmark	
 ovn_ash_ridge	1
 ovn_darkhold	1
 ovn_vorag	1

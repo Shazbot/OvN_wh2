@@ -1,4 +1,4 @@
-frontend_faction_effect_groups_tables	0
-campaign	faction_leader	group_key	ui_section
-	wh2_main_political_party_ovn_chaos_dwarfs	ovn_chorf	faction_traits
-	wh2_main_political_party_ovn_chaos_dwarfs	ovn_chorf_lord	lord_traits
+group_key	campaign	faction_leader	ui_section
+#frontend_faction_effect_groups_tables;0;db/frontend_faction_effect_groups_tables/ovn_chorf			
+ovn_chorf		wh2_main_political_party_ovn_chaos_dwarfs	faction_traits
+ovn_chorf_lord		wh2_main_political_party_ovn_chaos_dwarfs	lord_traits

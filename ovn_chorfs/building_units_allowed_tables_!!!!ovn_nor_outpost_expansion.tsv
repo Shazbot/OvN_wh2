@@ -1,8 +1,8 @@
-building_units_allowed_tables	4
-building	unit	xp	key	conditions	faction	enabled
-ovn_nor_outpost_major_human_5	goblin_slaves	0	345252577	0		false
-ovn_nor_outpost_major_human_5	orc_slaves	0	345252522	0		false
-ovn_nor_outpost_major_human_5	slave_ogre	0	341252500	0		false
-ovn_nor_outpost_major_human_5_coast	goblin_slaves	0	456882233	0		false
-ovn_nor_outpost_major_human_5_coast	orc_slaves	0	679896997	0		false
-ovn_nor_outpost_major_human_5_coast	slave_ogre	0	135423466	0		false
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/!!!!ovn_nor_outpost_expansion						
+345252577	ovn_nor_outpost_major_human_5	goblin_slaves	0	0		false
+345252522	ovn_nor_outpost_major_human_5	orc_slaves	0	0		false
+341252500	ovn_nor_outpost_major_human_5	slave_ogre	0	0		false
+456882233	ovn_nor_outpost_major_human_5_coast	goblin_slaves	0	0		false
+679896997	ovn_nor_outpost_major_human_5_coast	orc_slaves	0	0		false
+135423466	ovn_nor_outpost_major_human_5_coast	slave_ogre	0	0		false

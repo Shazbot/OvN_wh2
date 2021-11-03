@@ -1,8 +1,8 @@
-building_culture_variants_tables	4
-building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
-ovn_cd_kadrin		wh_main_PLACEHOLDER	special_har_ganeth_temple_of_khaine		wh2_main_ovn_chaos_dwarfs	false	ovn_cd_kadrin	true
-ovn_cd_karaz		wh_main_PLACEHOLDER	special_vauls_anvil		wh2_main_ovn_chaos_dwarfs	false	ovn_cd_karaz	true
-ovn_cd_varr		wh_main_PLACEHOLDER	copher_special_port		wh2_main_ovn_chaos_dwarfs	false	ovn_cd_varr	true
-ovn_cd_azul		wh_main_PLACEHOLDER	special_merovech		wh2_main_ovn_chaos_dwarfs	false	ovn_cd_azul	true
-ovn_cd_peak		wh_main_PLACEHOLDER	special_ancient_vault		wh2_main_ovn_chaos_dwarfs	false	ovn_cd_peak	true
-ovn_cd_black		wh_main_PLACEHOLDER	special_opera_house		wh2_main_ovn_chaos_dwarfs	false	ovn_cd_black	true
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/!bushez_landmark								
+ovn_cd_kadrin			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_har_ganeth_temple_of_khaine	false	ovn_cd_kadrin	true
+ovn_cd_karaz			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_vauls_anvil	false	ovn_cd_karaz	true
+ovn_cd_varr			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	copher_special_port	false	ovn_cd_varr	true
+ovn_cd_azul			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_merovech	false	ovn_cd_azul	true
+ovn_cd_peak			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_ancient_vault	false	ovn_cd_peak	true
+ovn_cd_black			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_opera_house	false	ovn_cd_black	true

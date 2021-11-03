@@ -1,5 +1,5 @@
-building_set_to_building_junctions_tables	0
 building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/!!!ovn_fix_and_more			
 ovn_resource_marble		wh2_main_set_resource	false
 ovn_resource_spices		wh2_main_set_resource	false
 ovn_resource_dyes		wh2_main_set_resource	false

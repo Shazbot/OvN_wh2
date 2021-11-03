@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!!!ovn_fix_and_more_culture_variants_tables.loc		
 building_chains_chain_tooltip_ovn_emp_fort_5	Impregnable Fort	false
 building_chains_chain_tooltip_ovn_emp_fort_4	Imposing Fort	false
 building_chains_chain_tooltip_ovn_emp_fort_3	Grand Fort	false

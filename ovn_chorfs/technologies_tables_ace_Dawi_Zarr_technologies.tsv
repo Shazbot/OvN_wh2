@@ -1,5 +1,5 @@
-technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;5;db/technologies_tables/ace_Dawi_Zarr_technologies														
 tech_chs_dawi_main_1	wh_main_chs_port	1	wh_main_chs_the_path_to_ruination	0	0	0	0	false	false	"placeholder.tga"	6135	false	false	true
 tech_chs_dawi_main_2	wh_main_chs_port	1	wh_main_chs_lure_of_dark_promises	0	0	0	0	false	false	"placeholder.tga"	6145	false	false	true
 tech_chs_dawi_main_3	wh_main_chs_port	1	wh_main_chs_unholy_communion	0	0	0	0	false	false	"placeholder.tga"	6149	false	false	true

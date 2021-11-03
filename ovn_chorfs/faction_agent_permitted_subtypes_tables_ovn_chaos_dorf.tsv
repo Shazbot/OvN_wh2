@@ -1,5 +1,5 @@
-faction_agent_permitted_subtypes_tables	0
 agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/ovn_chaos_dorf		
 general	wh2_main_ovn_chaos_dwarfs	wh_main_chs_cha_dwarf_lord
 general	wh2_main_ovn_chaos_dwarfs	wh_main_chs_cha_dwarf_lord_shadow
 colonel	wh2_main_ovn_chaos_dwarfs	wh_main_chs_cha_dwarf_lord

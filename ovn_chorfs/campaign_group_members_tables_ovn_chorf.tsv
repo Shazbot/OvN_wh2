@@ -1,8 +1,8 @@
-campaign_group_members_tables	1
-group	id	priority
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/ovn_chorf		
 diplomacy_Subcult_Chorf_&_Negative	diplomacy_Subcult_Chorf_&_Negative	18.0
 diplomacy_Subcult_Chorf_&_Positive	diplomacy_Subcult_Chorf_&_Positive	18.0
 diplomacy_Subcult_Chorf	diplomacy_Subcult_Chorf	18.0
 ovn_chorfs_army_upkeep	ovn_chorfs_army_upkeep	50.0
-ovn_chorfs_goblin_lord_armies	ovn_chorfs_goblin_lord_armies_khan	0.0
-ovn_chorfs_goblin_lord_armies	ovn_chorfs_goblin_lord_armies_sorc	0.0
+ovn_chorfs_goblin_lord_armies_khan	ovn_chorfs_goblin_lord_armies	0.0
+ovn_chorfs_goblin_lord_armies_sorc	ovn_chorfs_goblin_lord_armies	0.0

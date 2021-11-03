@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/!!!ovn_fix_and_more	
 ovn_emp_fort_ruin	ovn_emp_fort_1
 ovn_emp_fort_1	ovn_emp_fort_2
 ovn_emp_fort_2	ovn_emp_fort_3

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!ovn_cd_garrison_culture_variants_tables.loc		
 building_culture_variants_name_ovn_cd_garrison_1wh2_main_ovn_chaos_dwarfs	Barak 	false
 building_culture_variants_name_ovn_cd_garrison_2wh2_main_ovn_chaos_dwarfs	Mingol 	false
 building_chains_chain_tooltip_ovn_cd_garrison	Garrison	false

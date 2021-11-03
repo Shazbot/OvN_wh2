@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!bushez_landmark_descriptions.loc		
 building_short_description_texts_short_description_ovn_cd_kadrin	A monstrous brass bull now stands above the powdered remains of the ancestral shrine of Grimnir. Here the remnants of Karak Kadrin’s civilian population are boiled alive inside the bull, their voices twisted into praises for the bullfather.	true
 building_short_description_texts_short_description_ovn_cd_karaz	Fuelled by the torn pages of the book of grudges, this forge produces powerful demonic weapons to bring doom to the Dwarfs.	true
 building_short_description_texts_short_description_ovn_cd_varr	These old Dwarfen ports, once home to the large trade fleets of the Dwarfs. Now polluted beyond recognition by heavy industry from their new Darker Masters. The waters now lethal to all forms of life, Only the powerful Brass Ships of the Dawi-Zharr treads these waters. Cargo filled with Slaves for their masters	true

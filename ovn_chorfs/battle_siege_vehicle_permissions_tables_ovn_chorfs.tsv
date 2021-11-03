@@ -1,4 +1,4 @@
-battle_siege_vehicle_permissions_tables	0
 faction	vehicle
+#battle_siege_vehicle_permissions_tables;0;db/battle_siege_vehicle_permissions_tables/ovn_chorfs	
 wh2_main_ovn_chaos_dwarfs	chs_battering_ram
 wh2_main_ovn_chaos_dwarfs	chs_siege_tower_15m

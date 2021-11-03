@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/!!!ovn_cd_road					
 ovn_cd_road_1	wh2_main_effect_force_own_campaign_movement_range	region_to_force_own_unseen	35.0	8.0	0.0
 ovn_cd_road_1	wh2_main_effect_slave_income_modifier	province_to_province_own	25.0	3.0	0.0
 ovn_cd_road_1	wh_main_effect_economy_trade_tariff_mod	faction_to_faction_own	10.0	2.0	0.0

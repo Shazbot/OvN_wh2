@@ -1,3 +1,3 @@
-faction_uniform_colours_tables	1
 faction_name	primary_colour_r	primary_colour_g	primary_colour_b	secondary_colour_r	secondary_colour_g	secondary_colour_b	tertiary_colour_r	tertiary_colour_g	tertiary_colour_b
+#faction_uniform_colours_tables;1;db/faction_uniform_colours_tables/ovn_chaos_dorf									
 wh2_main_ovn_chaos_dwarfs	91	91	91	0	0	0	1	1	1

@@ -1,4 +1,4 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/pj_warrhak_skullcrusher	
 warrhak_skullcrusher	chaos_dwarf_group
 warrhak_skullcrusher_taurus	chaos_dwarf_group

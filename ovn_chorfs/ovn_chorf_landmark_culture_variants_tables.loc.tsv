@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_chorf_landmark_culture_variants_tables.loc		
 building_culture_variants_name_ovn_ash_ridgewh2_main_ovn_chaos_dwarfs	Ash Ridge Peak	true
 building_culture_variants_name_ovn_darkholdwh2_main_ovn_chaos_dwarfs	Darkhold Slave Dungeon	true
 building_culture_variants_name_ovn_vorag_0wh2_main_ovn_chaos_dwarfs	Bloodytooth's Secret Chamber	true

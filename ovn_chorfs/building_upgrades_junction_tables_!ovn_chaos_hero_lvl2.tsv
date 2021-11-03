@@ -1,3 +1,3 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/!ovn_chaos_hero_lvl2	
 ovn_chs_agent_chorfs_1	ovn_chs_agent_1

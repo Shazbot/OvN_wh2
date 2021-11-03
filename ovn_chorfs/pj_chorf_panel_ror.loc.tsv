@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_chorf_panel_ror.loc		
 effects_description_pj_chorf_panel_unlock_ror_ironsworn	Unlocks Regiment of Renown: Infernal Ironsworn (Infernal Guard)	true
 effects_description_pj_chorf_panel_unlock_ror_chaos_dwarf_warriors_horde	Unlocks Regiment of Renown: Varzhnak's Horde  (Chaos Dwarf Quarrellers)	true
 effects_description_pj_chorf_panel_unlock_ror_granite_guard	Unlocks Regiment of Renown: The Granite Guard (Immortals)	true

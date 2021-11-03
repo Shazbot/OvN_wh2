@@ -1,5 +1,5 @@
-building_chains_tables	6
 key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+#building_chains_tables;6;db/building_chains_tables/!!!!ovn_nor_outpost_expansion								
 ovn_chorfs_resource_building_amber			money	false	ovn_chorfs_resource_building_amber		0	
 ovn_chorfs_resource_building_animals			money	false	ovn_chorfs_resource_building_animals		0	
 ovn_chorfs_resource_building_furs			money	false	ovn_chorfs_resource_building_furs		0	

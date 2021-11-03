@@ -1,4 +1,4 @@
-campaign_character_art_sets_tables	6
-agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-general	warrhak_skullcrusher				false	true	warrhak_skullcrusher	1.0
-general	warrhak_skullcrusher_taurus				false	true	warrhak_skullcrusher	1.0
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/pj_warrhak_skullcrusher								
+warrhak_skullcrusher	general				false	true	warrhak_skullcrusher	1.0
+warrhak_skullcrusher_taurus	general				false	true	warrhak_skullcrusher	1.0

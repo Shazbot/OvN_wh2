@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/pj_warrhak_skullcrusher	
 chaos_territory	warrhak_skullcrusher
 chaos_territory	warrhak_skullcrusher_taurus
 wasteland	warrhak_skullcrusher

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_chorf_panel_effect_bundles.loc		
 effect_bundles_localised_description_pj_zhatan		true
 effect_bundles_localised_title_pj_zhatan	Favor of Ghorth the Cruel	true
 effect_bundles_localised_description_pj_immortal		true

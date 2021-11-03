@@ -1,2 +1,2 @@
-technology_node_links_tables	2
-child_key	initial_descent_tiers	parent_key	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset
+#technology_node_links_tables;2;db/technology_node_links_tables/Chaos_Dwarfs_technologies						

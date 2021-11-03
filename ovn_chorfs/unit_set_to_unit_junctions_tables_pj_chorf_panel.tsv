@@ -1,9 +1,9 @@
-unit_set_to_unit_junctions_tables	0
-exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
-false				infernal_guard	pj_chorfs_infernals
-false				infernal_guard_deathmask_naphta	pj_chorfs_infernals
-false				infernal_guard_great_weapons	pj_chorfs_infernals
-false				ironsworn	pj_chorfs_infernals
-false				infernal_guard_acolytes	pj_chorfs_acolytes
-false				granite_guard	pj_chorfs_immortals
-false				immortals	pj_chorfs_immortals
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/pj_chorf_panel					
+			infernal_guard	pj_chorfs_infernals	false
+			infernal_guard_deathmask_naphta	pj_chorfs_infernals	false
+			infernal_guard_great_weapons	pj_chorfs_infernals	false
+			ironsworn	pj_chorfs_infernals	false
+			infernal_guard_acolytes	pj_chorfs_acolytes	false
+			granite_guard	pj_chorfs_immortals	false
+			immortals	pj_chorfs_immortals	false

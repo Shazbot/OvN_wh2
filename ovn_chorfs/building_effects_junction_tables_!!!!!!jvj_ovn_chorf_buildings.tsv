@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/!!!!!!jvj_ovn_chorf_buildings					
 ovn_chorf_slaves_1	wh_main_effect_economy_gdp_industry	building_to_building_own	200.0	100.0	0.0
 ovn_chorf_slaves_1	wh2_main_effect_slave_decline_modifier	province_to_province_own	5.0	4.0	0.0
 ovn_chorf_slaves_1	wh_main_effect_public_order_base	province_to_province_own	-2.0	-4.0	0.0

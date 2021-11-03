@@ -1,3 +1,3 @@
-missile_weapons_tables	11
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/pj_warrhak_skullcrusher				
 warrhak_skullcrusher_rifle	false	warrhak_skullcrusher_rifle	repeater_gun	false

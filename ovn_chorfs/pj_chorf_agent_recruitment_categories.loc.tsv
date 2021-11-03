@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_chorf_agent_recruitment_categories.loc		
 agent_recruitment_categories_onscreen_name_chorf_lord	Chaos Dwarf Overlord	true
 agent_recruitment_categories_onscreen_name_chorf_sorcerer_lord	Sorcerer-Prophet	true
 agent_recruitment_categories_onscreen_name_chorf_bull_lord	Bull Centaur Lord	true

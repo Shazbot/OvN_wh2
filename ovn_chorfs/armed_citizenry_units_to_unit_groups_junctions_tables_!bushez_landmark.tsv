@@ -1,4 +1,4 @@
-armed_citizenry_units_to_unit_groups_junctions_tables	0
 id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/!bushez_landmark			
 3453673254	1	dreadquake_mortar	dreadquake_mortar
 3453673255	5	orc_slaves	orc_slaves

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!!!!ovn_nor_outpost_expansion_culture_variants_tables.loc		
 building_culture_variants_name_ovn_cd_boss_1wh2_main_ovn_chaos_dwarfs	Font of Chaos	true
 building_culture_variants_name_ovn_cd_boss_2wh2_main_ovn_chaos_dwarfs	Altar of Chaos	true
 building_culture_variants_name_ovn_nor_outpost_major_human_5wh2_main_ovn_chaos_dwarfs	Uzkulak	true

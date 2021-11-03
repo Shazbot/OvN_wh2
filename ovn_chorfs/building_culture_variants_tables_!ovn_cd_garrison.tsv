@@ -1,4 +1,4 @@
-building_culture_variants_tables	4
-building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
-ovn_cd_garrison_1		wh_main_PLACEHOLDER	ovn_infernal_guard		wh2_main_ovn_chaos_dwarfs	false	ovn_chorf_garrison1	true
-ovn_cd_garrison_2		wh_main_PLACEHOLDER	ovn_infernal_guard		wh2_main_ovn_chaos_dwarfs	false	ovn_chorf_garrison1	true
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/!ovn_cd_garrison								
+ovn_cd_garrison_1			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	ovn_infernal_guard	false	ovn_chorf_garrison1	true
+ovn_cd_garrison_2			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	ovn_infernal_guard	false	ovn_chorf_garrison1	true

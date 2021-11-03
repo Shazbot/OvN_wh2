@@ -1,5 +1,5 @@
-building_instances_tables	0
 key	num_instances
+#building_instances_tables;0;db/building_instances_tables/!bushez_landmark	
 ovn_cd_kadrin	1
 ovn_cd_karaz	1
 ovn_cd_varr	1

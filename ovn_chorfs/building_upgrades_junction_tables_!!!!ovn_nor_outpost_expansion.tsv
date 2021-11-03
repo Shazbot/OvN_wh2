@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/!!!!ovn_nor_outpost_expansion	
 ovn_nor_outpost_major_human_4	ovn_nor_outpost_major_human_5
 ovn_chorfs_resource_building_amber_1	ovn_chorfs_resource_building_amber_2
 ovn_chorfs_resource_building_animals_1	ovn_chorfs_resource_building_animals_2

@@ -1,5 +1,5 @@
-building_levels_tables	16
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+#building_levels_tables;16;db/building_levels_tables/!bushez_landmark																										
 ovn_cd_kadrin	ovn_cd_kadrin	0	5	7000	0		false	0	0	0	0	false				true	ovn_cd_kadrin	false	0.0	0	true	3		true	0	0
 ovn_cd_karaz	ovn_cd_karaz	0	5	6800	0		false	0	0	0	0	false				true	ovn_cd_karaz	false	0.0	0	true	4		true	0	0
 ovn_cd_varr	ovn_cd_varr	0	8	13000	0		false	0	0	0	0	false				true	ovn_cd_varr	false	0.0	0	true	4		true	0	0

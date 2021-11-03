@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/jvj_chorf_culture_variants_ovn.loc		
 building_culture_variants_name_ovn_chorf_creatures_1wh2_main_ovn_chaos_dwarfs	Font of Chaos	true
 building_culture_variants_name_ovn_chorf_creatures_2wh2_main_ovn_chaos_dwarfs	Altar of Chaos	true
 building_culture_variants_name_ovn_chorf_creatures_3wh2_main_ovn_chaos_dwarfs	[TEMP] ovn_chorf_creatures_3	true

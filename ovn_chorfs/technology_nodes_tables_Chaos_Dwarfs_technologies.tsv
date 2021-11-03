@@ -1,2 +1,2 @@
-technology_nodes_tables	3
-campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+#technology_nodes_tables;3;db/technology_nodes_tables/Chaos_Dwarfs_technologies											

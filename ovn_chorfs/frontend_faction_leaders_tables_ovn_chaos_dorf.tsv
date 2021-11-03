@@ -1,3 +1,3 @@
-frontend_faction_leaders_tables	19
-uniform	x_offset	y_offset	key	character_image	prelude_battle	video	loading_screen_image	loading_screen_intro_video	override_force_location_x	override_force_location_y	voiceover	show_full_intro_option	difficulty	startpos_map
-composite_scene/front_end_selection/ungrim_ironfist_selection.csc	0.0	0.0	wh2_main_political_party_ovn_chaos_dwarfs	ui\Portraits\Faction_leaders\chorf.png		Front_end_selection_movies/alberic_front_end	ui/loading_ui/load_images/chorf_load.png		-1.0	-1.0	wh_main_vo_actor_default	false	hard	ovn_me_chorf
+key	uniform	x_offset	y_offset	character_image	prelude_battle	video	loading_screen_image	loading_screen_intro_video	override_force_location_x	override_force_location_y	voiceover	show_full_intro_option	difficulty	startpos_map
+#frontend_faction_leaders_tables;19;db/frontend_faction_leaders_tables/ovn_chaos_dorf														
+wh2_main_political_party_ovn_chaos_dwarfs	composite_scene/front_end_selection/ungrim_ironfist_selection.csc	0.0	0.0	ui\Portraits\Faction_leaders\chorf.png		Front_end_selection_movies/alberic_front_end	ui/loading_ui/load_images/chorf_load.png		-1.0	-1.0	wh_main_vo_actor_default	false	hard	ovn_me_chorf

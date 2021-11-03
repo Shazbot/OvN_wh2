@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_chorf_landmark_building_chains.loc		
 building_chains_chain_tooltip_ovn_ash_ridge	Chaos Dwarf Landmark	true
 building_chains_chain_tooltip_ovn_darkhold	Chaos Dwarf Landmark	true
 building_chains_chain_tooltip_ovn_vorag	Chaos Dwarf Landmark	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/pj_chorf_panel_script.loc		
 pj_chorf_panel_script_inline_1	The Black Fortress	false
 pj_chorf_panel_script_inline_2	Hellforges of Ghorth	false
 pj_chorf_panel_script_inline_3	Zharr-Naggrund	false

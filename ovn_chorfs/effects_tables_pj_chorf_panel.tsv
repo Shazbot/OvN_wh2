@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/pj_chorf_panel					
 pj_chorfs_infernals_xp	experience.png	343	experience.png	campaign	true
 pj_chorfs_infernals_upkeep	income.png	369	income.png	campaign	false
 pj_chorfs_acolytes_upkeep	income.png	369	income.png	campaign	false

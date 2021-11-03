@@ -1,5 +1,5 @@
-building_instances_tables	0
 key	num_instances
+#building_instances_tables;0;db/building_instances_tables/!!!!!!jvj_ovn_chorf_buildings	
 ovn_chorf_military	1
 ovn_chorf_outpost_military	1
 ovn_chorf_stables	1

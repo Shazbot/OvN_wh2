@@ -1,5 +1,5 @@
-effect_bonus_value_ids_unit_sets_tables	0
 bonus_value_id	effect	unit_set
+#effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/pj_chorf_panel		
 unit_xp_mod	pj_chorfs_infernals_xp	pj_chorfs_infernals
 upkeep_mod	pj_chorfs_infernals_upkeep	pj_chorfs_infernals
 upkeep_mod	pj_chorfs_acolytes_upkeep	pj_chorfs_acolytes

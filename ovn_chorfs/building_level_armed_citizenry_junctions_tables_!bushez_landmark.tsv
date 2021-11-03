@@ -1,9 +1,9 @@
-building_level_armed_citizenry_junctions_tables	1
-building_level	id	unit_group
-ovn_cd_peak	12375673453457	dreadquake_mortar
-ovn_cd_black	234556988905	goblin_slaves
-ovn_cd_black	234556988906	goblin_slaves
-ovn_cd_black	234556988907	goblin_slaves
-ovn_cd_black	234556988908	orc_slaves
-ovn_cd_black	234556988909	orc_slaves
-ovn_cd_black	234556988910	orc_slaves
+id	building_level	unit_group
+#building_level_armed_citizenry_junctions_tables;1;db/building_level_armed_citizenry_junctions_tables/!bushez_landmark		
+12375673453457	ovn_cd_peak	dreadquake_mortar
+234556988905	ovn_cd_black	goblin_slaves
+234556988906	ovn_cd_black	goblin_slaves
+234556988907	ovn_cd_black	goblin_slaves
+234556988908	ovn_cd_black	orc_slaves
+234556988909	ovn_cd_black	orc_slaves
+234556988910	ovn_cd_black	orc_slaves

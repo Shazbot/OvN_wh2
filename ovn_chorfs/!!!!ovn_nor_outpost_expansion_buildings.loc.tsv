@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/!!!!ovn_nor_outpost_expansion_buildings.loc		
 building_chains_chain_tooltip_ovn_chorfs_resource_building_amber	Amber Extraction	true
 building_chains_chain_tooltip_ovn_chorfs_resource_building_animals	Slaughterhouse	true
 building_chains_chain_tooltip_ovn_chorfs_resource_building_furs	Tannery	true

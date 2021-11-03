@@ -1,8 +1,8 @@
-building_culture_variants_tables	4
-building	culture	description	icon	subculture	faction	disables	short_description	display_tooltip
-ovn_ash_ridge		wh_main_PLACEHOLDER	special_copper_mountain		wh2_main_ovn_chaos_dwarfs	false	ovn_ash_ridge	true
-ovn_darkhold		wh_main_PLACEHOLDER	special_ancient_vault		wh2_main_ovn_chaos_dwarfs	false	ovn_darkhold	true
-ovn_vorag		wh_main_PLACEHOLDER	dlc12_skv_clan_skyre_laboratory		wh2_main_ovn_chaos_dwarfs	false	ovn_vorag	true
-ovn_greyhag		wh_main_PLACEHOLDER	ovn_greyhag_landmark		wh2_main_ovn_chaos_dwarfs	false	ovn_greyhag	true
-ovn_flayed_rock		wh_main_PLACEHOLDER	special_anlec_citadel_def		wh2_main_ovn_chaos_dwarfs	false	ovn_flayed_rock	true
-ovn_vorag_0		wh_main_PLACEHOLDER	dlc12_skv_clan_skyre_laboratory		wh2_main_ovn_chaos_dwarfs	false	ovn_vorag_0	true
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_chorf_landmark								
+ovn_ash_ridge			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_copper_mountain	false	ovn_ash_ridge	true
+ovn_darkhold			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_ancient_vault	false	ovn_darkhold	true
+ovn_vorag			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	dlc12_skv_clan_skyre_laboratory	false	ovn_vorag	true
+ovn_greyhag			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	ovn_greyhag_landmark	false	ovn_greyhag	true
+ovn_flayed_rock			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	special_anlec_citadel_def	false	ovn_flayed_rock	true
+ovn_vorag_0			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	dlc12_skv_clan_skyre_laboratory	false	ovn_vorag_0	true

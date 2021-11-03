@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;3;db/building_effects_junction_tables/!!!!ovn_nor_outpost_expansion					
 ovn_chorfs_resource_building_amber_1	wh_main_effect_economy_gdp_subsistance	building_to_building_own	500.0	250.0	0.0
 ovn_chorfs_resource_building_amber_1	wh_main_effect_economy_gdp_mod_all	province_to_region_own	10.0	5.0	0.0
 ovn_chorfs_resource_building_amber_1	wh_main_effect_region_resource_gem_production	building_to_building_own	30.0	15.0	0.0

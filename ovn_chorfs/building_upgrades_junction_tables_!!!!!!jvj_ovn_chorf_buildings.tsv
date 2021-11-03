@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/!!!!!!jvj_ovn_chorf_buildings	
 ovn_chorf_military_1	ovn_chorf_military_2
 ovn_chorf_military_2	ovn_chorf_military_3
 ovn_chorf_military_3	ovn_chorf_military_4

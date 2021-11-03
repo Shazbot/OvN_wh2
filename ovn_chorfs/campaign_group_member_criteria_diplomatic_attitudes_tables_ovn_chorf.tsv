@@ -1,4 +1,4 @@
-campaign_group_member_criteria_diplomatic_attitudes_tables	0
-attitude	member
-hostile	diplomacy_Subcult_Chorf_&_Negative
-friendly	diplomacy_Subcult_Chorf_&_Positive
+member	attitude
+#campaign_group_member_criteria_diplomatic_attitudes_tables;0;db/campaign_group_member_criteria_diplomatic_attitudes_tables/ovn_chorf	
+diplomacy_Subcult_Chorf_&_Negative	hostile
+diplomacy_Subcult_Chorf_&_Positive	friendly

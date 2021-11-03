@@ -1,5 +1,5 @@
-building_chains_tables	6
 key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+#building_chains_tables;6;db/building_chains_tables/!bushez_landmark								
 ovn_cd_kadrin			military	false	ovn_cd_kadrin		7	
 ovn_cd_karaz			military	false	ovn_cd_karaz		7	
 ovn_cd_varr			military	false	ovn_cd_varr		7	

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/jvj_chorf_buildings_chains_ovn.loc		
 building_chains_chain_tooltip_ovn_chorf_military	Dwarfen Barracks	true
 building_chains_chain_tooltip_ovn_chorf_stables	Hobgoblin Encampment	true
 building_chains_chain_tooltip_ovn_chorf_creatures	Beasts & Monsters	true

@@ -1,3 +1,3 @@
-campaign_features_tables	0
-available	feature	group
-true	additional_army_upkeep	ovn_chorfs_army_upkeep
+feature	group	available
+#campaign_features_tables;0;db/campaign_features_tables/ovn_chorfs		
+additional_army_upkeep	ovn_chorfs_army_upkeep	true

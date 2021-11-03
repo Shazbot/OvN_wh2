@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile;1;text/db/chorf_diplo_lines.loc		
 diplomacy_strings_string_Chorf_Dip_Acceptance_Negative_01	I may be destined for the iron mask, but I accept.	false
 diplomacy_strings_string_Chorf_Dip_Acceptance_Negative_02	May the Shadows of Hashut hide my dishonour!	false
 diplomacy_strings_string_Chorf_Dip_Acceptance_Negative_03	It pains me to treat with the likes of you, very well.	false

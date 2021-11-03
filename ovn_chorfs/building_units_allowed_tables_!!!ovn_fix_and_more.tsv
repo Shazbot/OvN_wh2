@@ -1,14 +1,14 @@
-building_units_allowed_tables	4
-building	unit	xp	key	conditions	faction	enabled
-wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	goblin_slaves	0	970042678	0		false
-wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	orc_slaves	0	389451177	0		false
-wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	slave_ogre	0	639996807	0		false
-wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	goblin_slaves	0	440795063	0		false
-wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	orc_slaves	0	438808791	0		false
-wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	slave_ogre	0	792652111	0		false
-wh2_main_special_settlement_athel_loren_norsca_5	goblin_slaves	0	718749503	0		false
-wh2_main_special_settlement_athel_loren_norsca_5	orc_slaves	0	871163286	0		false
-wh2_main_special_settlement_athel_loren_norsca_5	slave_ogre	0	275206788	0		false
-wh2_main_special_settlement_athel_loren_norsca_4	goblin_slaves	0	587701073	0		false
-wh2_main_special_settlement_athel_loren_norsca_4	orc_slaves	0	369383648	0		false
-wh2_main_special_settlement_athel_loren_norsca_4	slave_ogre	0	425550951	0		false
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/!!!ovn_fix_and_more						
+970042678	wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	goblin_slaves	0	0		false
+389451177	wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	orc_slaves	0	0		false
+639996807	wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_5	slave_ogre	0	0		false
+440795063	wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	goblin_slaves	0	0		false
+438808791	wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	orc_slaves	0	0		false
+792652111	wh2_dlc09_special_settlement_pyramid_of_nagash_norsca_4	slave_ogre	0	0		false
+718749503	wh2_main_special_settlement_athel_loren_norsca_5	goblin_slaves	0	0		false
+871163286	wh2_main_special_settlement_athel_loren_norsca_5	orc_slaves	0	0		false
+275206788	wh2_main_special_settlement_athel_loren_norsca_5	slave_ogre	0	0		false
+587701073	wh2_main_special_settlement_athel_loren_norsca_4	goblin_slaves	0	0		false
+369383648	wh2_main_special_settlement_athel_loren_norsca_4	orc_slaves	0	0		false
+425550951	wh2_main_special_settlement_athel_loren_norsca_4	slave_ogre	0	0		false

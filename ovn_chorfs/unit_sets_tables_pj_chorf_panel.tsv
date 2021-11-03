@@ -1,5 +1,5 @@
-unit_sets_tables	2
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/pj_chorf_panel				
 pj_chorfs_infernals	false	-1	-1	
 pj_chorfs_acolytes	false	-1	-1	
 pj_chorfs_immortals	false	-1	-1	
