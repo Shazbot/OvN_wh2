@@ -45,7 +45,6 @@ local function binding_iter(binding)
 					pos = pos + 1
 					return item
 			end
-			return
 	end
 end
 
