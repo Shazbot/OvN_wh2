@@ -159,6 +159,7 @@ local function sr_chaos_new_game_setup(rotblood_tribe)
 		"wh2_main_skv_inf_skavenslaves_0",
 		"wh2_main_skv_inf_clanrat_spearmen_1",
 		"wh2_main_skv_inf_clanrats_1",
+		"elo_rot_fanatics",
 	}) do
 		cm:add_unit_to_faction_mercenary_pool(rotblood_tribe, unit, 0, 0, 20, 1, 0, "", "", "", false)
 	end
@@ -941,6 +942,15 @@ local building_to_chances = {
 		wh2_main_skv_inf_skavenslaves_0 = 6,
 		wh2_main_skv_inf_clanrat_spearmen_1 = 5,
 		wh2_main_skv_inf_clanrats_1 = 5,
+	},
+	hertz_rotblood_nurgle_corruption = {
+		elo_rot_fanatics = 4,
+	},
+	hertz_rotblood_nurgle_corruption_2 = {
+		elo_rot_fanatics = 6,
+	},
+	hertz_rotblood_nurgle_corruption_3 = {
+		elo_rot_fanatics = 8,
 	},
 }
 building_to_chances["hertz_rotblood_nurgle_fester_warren_1"] = building_to_chances.ovn_Clan_Fester_1

@@ -20,3 +20,6 @@ ovn_reduce_cooldown_spawn_fanatics	magic_cooldown.png	60	magic_cooldown.png	batt
 hertz_rotblood_nurgle_fester_warren_1_dummy	religion_skaven.png	1	religion_skaven.png	campaign	true
 hertz_rotblood_nurgle_fester_warren_2_dummy	religion_skaven.png	1	religion_skaven.png	campaign	true
 hertz_rotblood_nurgle_fester_warren_3_dummy	religion_skaven.png	1	religion_skaven.png	campaign	true
+hertz_rotblood_nurgle_corruption_dummy	plague.png	1	plague.png	campaign	true
+hertz_rotblood_nurgle_corruption_2_dummy	plague.png	1	plague.png	campaign	true
+hertz_rotblood_nurgle_corruption_3_dummy	plague.png	1	plague.png	campaign	true

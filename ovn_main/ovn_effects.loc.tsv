@@ -330,3 +330,6 @@ effects_description_ovn_hlf_restaurant_chaos_corruption	Chaos corruption (Slaane
 effects_description_ovn_hlf_restaurant_chaos_corruption_meat	Chaos corruption (meat from Chaos-tainted creatures): %+n	true
 effect_bundles_localised_description_ovn_arb_jehad_region	This region is sacred to Arabyans!	true
 effect_bundles_localised_title_ovn_arb_jehad_region	Holy Arabyan Ground	true
+effects_description_hertz_rotblood_nurgle_corruption_dummy	Chance per turn for Fanatics to be added to your faction mercenary pool	true
+effects_description_hertz_rotblood_nurgle_corruption_2_dummy	Greater chance per turn for Fanatics to be added to your faction mercenary pool	true
+effects_description_hertz_rotblood_nurgle_corruption_3_dummy	Even greater chance per turn for Fanatics to be added to your faction mercenary pool	true
