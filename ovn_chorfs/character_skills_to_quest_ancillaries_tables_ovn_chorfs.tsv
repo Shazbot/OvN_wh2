@@ -1,0 +1,4 @@
+ancillary	skill	use_quest_for_prefix
+#character_skills_to_quest_ancillaries_tables;1;db/character_skills_to_quest_ancillaries_tables/ovn_chorfs		
+ovn_warrhak_bandolier	ovn_warrhak_bandolier	true
+ovn_warrhak_armour	ovn_warrhak_armour	true

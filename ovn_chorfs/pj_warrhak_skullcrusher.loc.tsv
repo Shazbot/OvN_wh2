@@ -39,3 +39,11 @@ character_skills_localised_description_warrhak_skullcrusher_ammo	Always best to 
 effects_description_pj_xp_gain_increase_dwarfs	Double experience gain for units when fighting against Dwarfs	true
 ui_unit_bullet_point_enums_onscreen_name_pj_warrhak_blunderbuss	Blunderbuss	true
 ui_unit_bullet_point_enums_tooltip_pj_warrhak_blunderbuss	Warrhak's blunderbuss has limited ammunition but can bring ruin on packed enemy formations.	true
+character_skills_localised_description_ovn_warrhak_bandolier	Mastercrafted Bandolier fitted for ammunition Warrhak uses for his Blunderbuss.	true
+character_skills_localised_name_ovn_warrhak_bandolier	Mastercrafted Bandolier	true
+ancillaries_onscreen_name_ovn_warrhak_bandolier	Mastercrafted Bandolier	true
+ancillaries_colour_text_ovn_warrhak_bandolier	Mastercrafted Bandolier fitted for ammunition Warrhak uses for his Blunderbuss.	true
+character_skills_localised_description_ovn_warrhak_armour	Gromril armour inlaid with powerful runes, and worked on by the masters of the Daemoncraft art.	true
+character_skills_localised_name_ovn_warrhak_armour	Runic Daemonforged Armour	true
+ancillaries_onscreen_name_ovn_warrhak_armour	Runic Daemonforged Armour	true
+ancillaries_colour_text_ovn_warrhak_armour	Gromril armour inlaid with powerful runes, and worked on by the masters of the Daemoncraft art.	true

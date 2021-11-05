@@ -12,3 +12,5 @@ warrhak_skullcrusher_special_2_4	character_diplomacy.png			0	false	false	false	0
 warrhak_skullcrusher_special_2_5	campaign_siege_defence.png			0	false	false	false	0.0	0
 warrhak_skullcrusher_trait	trait_chaos.png			0	true	false	false	5.0	0
 warrhak_skullcrusher_ammo	character_ammo.png	aacdrangedskill3	aacdrangedskill3	0	false	false	false	0.0	0
+ovn_warrhak_bandolier	ovn_warrhak_bandolier.png			9	false	false	false	0.0	0
+ovn_warrhak_armour	ovn_warrhak_armour.png			14	false	false	false	0.0	0
