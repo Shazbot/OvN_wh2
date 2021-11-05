@@ -9,7 +9,6 @@ local function binding_iter(binding)
 					pos = pos + 1
 					return item
 			end
-			return
 	end
 end
 
@@ -178,14 +177,15 @@ apply_upkeep_penalty = function(faction, ...)
 
 	for i = 0, mf_list:num_items() - 1 do
 		local current_mf = mf_list:item_at(i);
-		local force_type = current_mf:force_type():key()
 
-		if current_mf:is_armed_citizenry() == false and current_mf:has_general() == true and force_type ~= "SUPPORT_ARMY"  then
+		if not current_mf:is_armed_citizenry() and current_mf:has_general() then
 			local general = current_mf:general_character();
 			local character_subtype_key = general:character_subtype_key();
 			local cqi = general:command_queue_index();
 
-			if character_subtype_key == "hobgoblin_greatkhan" or character_subtype_key == "hobgoblin_greatsorcerer" then
+			if character_subtype_key == "hobgoblin_greatkhan"
+				or character_subtype_key == "hobgoblin_greatsorcerer"
+			then
 				for _, army_upkeep_bundle in ipairs(army_upkeep_bundles) do
 					cm:remove_effect_bundle_from_characters_force(army_upkeep_bundle, cqi)
 				end
@@ -193,6 +193,33 @@ apply_upkeep_penalty = function(faction, ...)
 		end
 	end
 end
+
+local warrhaks_item_to_level_unlock = {
+	ovn_warrhak_bandolier = 10,
+	ovn_warrhak_armour = 15,
+}
+
+core:remove_listener('ovn_chorfs_give_warrhaks_items')
+core:add_listener(
+	'ovn_chorfs_give_warrhaks_items',
+	'CharacterRankUp',
+	true,
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+		local rank = char:rank()
+
+		if char:character_subtype_key() ~= "warrhak_skullcrusher" then return end
+
+		for anci_key, level_required in pairs(warrhaks_item_to_level_unlock) do
+			if rank >= level_required and not cm:get_saved_value(anci_key) then
+				cm:force_add_ancillary(char, anci_key, true, false)
+				cm:set_saved_value(anci_key, true)
+			end
+		end
+	end,
+	true
+)
 
 local building_key_from_to_lookup = {
 	["ovn_chs_agent"] = "ovn_chorf_agent_1",
