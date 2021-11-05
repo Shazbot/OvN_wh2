@@ -595,6 +595,13 @@ cm:add_first_tick_callback(
         araby_init()
 				-- replace_old_buildings()
 				add_araby_trebuchet_bonus_listeners()
-				add_jehad_region_icons()
+
+				local human_factions = cm:get_human_factions()
+				for araby_faction_key, _ in pairs(araby_faction_names_lookup) do
+					if table_contains(human_factions, araby_faction_key) then
+						add_jehad_region_icons()
+						break
+					end
+				end
     end
 )
