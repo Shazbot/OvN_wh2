@@ -20,3 +20,4 @@ key	filename	range	animated
 861312231	warmachines\chariot\arb_golden_magus_ship\arb_golden_magus_ship_01.wsmodel	0.0	arb_ship
 861312232	warmachines\chariot\arb_golden_magus_ship\arb_golden_magus_ship_destruct.rigid_model_v2	0.0	arb_ship_destruct
 21466556925	warmachines\engines\emp_steam_tank\dwf_steam_tank01.rigid_model_v2	0.0	dwf_dwarf_tank
+21466556926	warmachines\chariot\tmb_basic_chariot\elo_albion_chariot_01.rigid_model_v2	0.0	albion_chariot
