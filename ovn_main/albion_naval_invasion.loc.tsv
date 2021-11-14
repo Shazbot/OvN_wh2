@@ -1,18 +1,18 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/albion_naval_invasion.loc		
 event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_primary_detail	Dark Emissaries forces at the Mainland!	true
-event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_secondary_detail	Dark forces prepare to ravage our Capital to use its power for their own dark and twisted plans.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_secondary_detail	Dark forces prepare to ravage our Capital! They seek to use its power for their own dark and twisted purposes.	true
 effect_bundles_localised_title_albion_global_mist_4	Waystones Restored	false
-effect_bundles_localised_description_albion_global_mist_4	Through the restoration of the Albion waystones network we have forever weakened the evil in this world.	false
-event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_n_invasion_primary_detail	Dark Emissaries forces to the North!	true
-event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_secondary_detail	Dark forces muster to the north prepare the defenses we shall beat them back from the Citadel! We will never fall to their dark and twisted plans.	true
-event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_primary_detail	Dark Emissaries forces to the South!	true
-event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_secondary_detail	Dark forces sighted on the southern shores, their greedy eyes lay on the Isle of Wights	true
+effect_bundles_localised_description_albion_global_mist_4	Through the restoration of the Albion waystones network we have forever weakened chaos and its servants in this world.	false
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_primary_detail	Dark Emissary forces to the North!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_secondary_detail	Dark forces muster to the north! Prepare the defenses, we shall beat them back from the Citadel! We will never fall to their dark and twisted plans.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_primary_detail	Dark Emissary forces to the South!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_secondary_detail	Dark forces sighted on the southern shores! Their lay their greedy eyes on the Isle of Wights!	true
 effect_bundles_localised_title_albion_global_mist_3	Waystones Partially Restored	false
-effect_bundles_localised_description_albion_global_mist_3	Restoration of the Albion waystones is underway and evil begins to tremble as chaos is siphoned from the world.	false
+effect_bundles_localised_description_albion_global_mist_3	Restoration of the Albion waystones is underway! Dark things stir in anger as chaos energy is siphoned from the world.	false
 effect_bundles_localised_title_albion_global_mist_2	Waystones Uncovered	false
-effect_bundles_localised_description_albion_global_mist_2	We have uncovered all the Waystones on Albion, we must rebuild them urgently if the world is to overcome the End Times.	false
+effect_bundles_localised_description_albion_global_mist_2	We have uncovered all the Waystones on Albion. They must be rebuilt urgently if the world is to overcome the End Times.	false
 effect_bundles_localised_title_albion_global_mist_1	Rampant Chaos	false
-effect_bundles_localised_description_albion_global_mist_1	We must uncover the Waystones scattered throughout Albion, though it will attract much evil to this island it is necessary if we are to save this world.	false
+effect_bundles_localised_description_albion_global_mist_1	We must uncover the Waystones scattered throughout Albion, though it will attract things of evil and chaos to our island. But this is our duty and responsibility to the world.	false
 event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_incoming_primary_detail	Invasion en route!	true
 event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_incoming_secondary_detail	The Truthsayers have foreseen dark forces landing on Albion soil! Prepare the defences!	true
