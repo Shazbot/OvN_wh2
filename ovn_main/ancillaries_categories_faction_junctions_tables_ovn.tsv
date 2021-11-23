@@ -1,0 +1,6 @@
+ancillary_category	faction	allowed_per_character
+#ancillaries_categories_faction_junctions_tables;1;db/ancillaries_categories_faction_junctions_tables/ovn		
+general	wh2_main_arb_caliphate_of_araby	8
+general	wh2_main_arb_aswad_scythans	8
+general	wh2_main_arb_flaming_scimitar	8
+general	wh2_main_emp_grudgebringers	8
