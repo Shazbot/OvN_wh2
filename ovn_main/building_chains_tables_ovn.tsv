@@ -115,10 +115,10 @@ ovn_rot_military			military	false	wh2_main_sch_military1_barracks		1
 ovn_rot_monsters			military	false	wh2_main_sch_support1_smith		4	
 ovn_troll_Bridges			money	false	wh2_main_sch_infrastructure2_industry		7	
 ovn_troll_Wyvern			military	false	wh2_main_sch_military1_barracks		7	
-ovn_troll_creatures			military	false	wh_main_sch_norsca_creatures		4	
-ovn_troll_offerings			military	false	wh_main_sch_norsca_offerings		7	
-ovn_troll_outpost_stables			military	false	wh_main_sch_norsca_outpost_stables		2	
-ovn_troll_worship			money	false	wh_main_sch_norsca_worship		4	
+ovn_troll_creatures			military	false	wh2_main_sch_military4_monsters		4	
+ovn_troll_offerings			military	false	wh2_main_sch_support5_extra		7	
+ovn_troll_outpost_stables			military	false	wh2_main_sch_military2_stables		2	
+ovn_troll_worship			money	false	wh2_main_sch_support2_worship		4	
 elo_troll			military	false	wh_main_sch_special_reiksfort		0	
 elo_dragon_crag			money	false	elo_dragon_crag		0	
 arb_fatandira_landmark			money	false	arb_fatandira_landmark		0	
