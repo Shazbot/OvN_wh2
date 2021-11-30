@@ -50,3 +50,5 @@ ovn_mtl_auroch		mtl_auroch		1.0	1.0	0.05
 ovn_mtl_reaper_blade		mtl_reaper_blade		1.0	1.0	0.0	
 ovn_mtl_reaper_rider		mtl_reaper_rider		1.0	0.8	0.0	
 halfling_housewives		halfling_housewives		1.0	0.8	0.05	
+ovn_mtl_battleram_riders		ovn_mtl_battleram_riders		1.0	0.75	0.0	
+ovn_mtl_battleram		ovn_mtl_battleram		1.05	0.8	0.0	

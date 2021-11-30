@@ -51,3 +51,8 @@ expendable	halfling_milittia_great_emp
 expendable	halfling_milittia_arch_emp
 poor_morale	halfling_milittia_great_emp
 poor_morale	halfling_milittia_arch_emp
+anti_infantry	ovn_mtl_cav_battleram_riders_0
+armour_piercing	ovn_mtl_cav_battleram_riders_0
+anti_infantry	ovn_mtl_veh_reaper
+poor_morale	ovn_hlf_bee_throwers
+expendable	ovn_hlf_bee_throwers

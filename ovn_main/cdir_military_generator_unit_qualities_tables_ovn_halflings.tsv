@@ -34,3 +34,5 @@ Default_land_anti_armour	halfling_spear_emp	6
 Default_land_infantry_melee	halfling_cook_emp	2
 Default_land_aura	halfling_militia_emp	12
 Default_land_infantry_melee	halfling_militia	1
+Default_land_support	ovn_hlf_bee_throwers	8
+Default_land_cavalry_shock	ovn_mtl_cav_battleram_riders_0	18

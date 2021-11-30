@@ -1,5 +1,0 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/hlf_lord					
-			ovn_hlf_ll	emp_characters	false
-			sr_ogre	elo_ogres	false
-			sr_ogre_ror	elo_ogres	false

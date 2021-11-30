@@ -423,3 +423,8 @@ key	building	unit	xp	conditions	faction	enabled
 261500420	wh_main_sch_special_moot_cauldron_1	halfling_milittia_arch_emp	0	0		false
 261500421	wh_main_sch_special_moot_cauldron_1	halfling_milittia_great_emp	0	0		false
 261500422	wh_main_sch_special_moot_cauldron_1	halfling_cook_emp	0	0		false
+261500423	ovn_half_barracks_1	ovn_hlf_bee_throwers	0	0		false
+261500424	ovn_half_barracks_2	ovn_hlf_bee_throwers	0	0		false
+261500425	ovn_half_barracks_3	ovn_hlf_bee_throwers	0	0		false
+261500426	ovn_Animal_Rearing_2	ovn_mtl_cav_battleram_riders_0	0	0		false
+261500427	ovn_Animal_Rearing_1	ovn_mtl_cav_swine_riders_0	0	0		false

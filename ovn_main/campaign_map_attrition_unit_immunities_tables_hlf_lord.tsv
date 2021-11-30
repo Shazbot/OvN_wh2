@@ -1,3 +1,4 @@
 attrition	unit
 #campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/hlf_lord	
 non_vampire_territory	ovn_hlf_ll
+non_vampire_territory	ovn_mtl_cav_battleram_riders_0
