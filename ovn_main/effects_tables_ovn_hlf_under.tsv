@@ -8,3 +8,4 @@ ovn_restaurant_exclusive_food_chains	construction.png	102	construction.png	campa
 ovn_restaurant_faction_effect_dummy	skaven_food.png	1	skaven_food.png	campaign	true
 ovn_hlf_restaurant_chaos_corruption	religion_chaos.png	104	religion_chaos.png	campaign	false
 ovn_hlf_restaurant_chaos_corruption_meat	religion_chaos.png	104	religion_chaos.png	campaign	false
+ovn_enable_unit_passive_running_with_the_herd	spell_ability.png	0	spell_ability.png	battle	true
