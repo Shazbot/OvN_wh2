@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/@ovn_hlf_doggo_ability_unit_abilities.loc		
+unit_abilities_onscreen_name_ovn_unit_passive_running_with_the_herd	Running with the Herd	true
+unit_abilities_tooltip_text_ovn_unit_passive_running_with_the_herd	Sheep dogs are perfect for managing large herds of livestock.	true

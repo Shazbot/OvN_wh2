@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/@ovn_hlf_doggo_ability_ui_text_replacements.loc		
+unit_attributes_bullet_text_moulder_monster	{{tr:ovn_moulder_monster_name}}	true
+ui_text_replacements_localised_text_ovn_moulder_monster_name	Moulder Monster||This is a unit created by Clan Moulder. Packmasters and Throt the Unclean can push it to its full combat potential and restore it in battle.	true
+ui_text_replacements_localised_text_ovn_moulder_monster_name_wh_main_sc_emp_empire	Herdable||This is a unit of barnyard animals. Sheep Dogs can push it to its full combat potential.	true
+special_ability_invalid_usage_flags_flag_description_unit_is_moulder_monster	{{tr:ovn_moulder_monster_desc}}	true
+ui_text_replacements_localised_text_ovn_moulder_monster_desc	Unit is not a Clan Moulder Monster	true
+ui_text_replacements_localised_text_ovn_moulder_monster_desc_wh_main_sc_emp_empire	Unit is not a Herdable Animal	true
+special_ability_invalid_usage_flags_alt_description_unit_is_moulder_monster	{{tr:ovn_moulder_monster_desc_alt}}	true
+ui_text_replacements_localised_text_ovn_moulder_monster_desc_alt	Unit is Clan Moulder Monster	true
+ui_text_replacements_localised_text_ovn_moulder_monster_desc_alt_wh_main_sc_emp_empire	Unit is Herdable Animal	true
