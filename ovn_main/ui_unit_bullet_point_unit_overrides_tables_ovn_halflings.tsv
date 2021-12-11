@@ -56,3 +56,7 @@ armour_piercing	ovn_mtl_cav_battleram_riders_0
 anti_infantry	ovn_mtl_veh_reaper
 poor_morale	ovn_hlf_bee_throwers
 expendable	ovn_hlf_bee_throwers
+very_fast	ovn_hlf_sheep_dogs
+weak_anti_armour	ovn_hlf_sheep_dogs
+vanguard_deployment	ovn_hlf_sheep_dogs
+support_unit	ovn_hlf_sheep_dogs

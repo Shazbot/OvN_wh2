@@ -1,5 +1,8 @@
 key
 #unit_description_short_texts_tables;0;db/unit_description_short_texts_tables/ovn_lost_factions_gold
+tmb_grave_halberd
+elo_sea_hag
+elo_plague_toads
 elo_rot_fanatics
 elo_carrion_boss
 elo_carrion_boss_squig
@@ -238,3 +241,4 @@ elo_tzaangor
 vmp_cha_walach
 ovn_hlf_bee_throwers
 ovn_unit_short_text_mtl_cav_battleram_riders
+ovn_hlf_sheep_dogs

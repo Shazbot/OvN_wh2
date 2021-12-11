@@ -290,3 +290,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_com_cha_giblit_the_dwarf_0	emp_characters	false
 			ovn_com_cha_giblit_the_dwarf_0	mp_cap_heroes	false
 			ovn_com_cha_giblit_the_dwarf_0	mp_cap_ovn_com_cha_giblit_the_dwarf_0	false
+			ovn_hlf_sheep_dogs	elo_hlf_doggos	false
+			ovn_hlf_sheep_dogs	elo_hlf_edible	false

@@ -84,3 +84,4 @@ wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_arch_emp	true	
 wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_great_emp	true	true				true
 wh_main_emp_empire_mp_custom_battles_only	false	halfling_militia_emp	true	true				true
 wh2_main_emp_the_moot	false	ovn_mtl_cav_battleram_riders_0	false	false				false
+wh2_main_emp_the_moot	false	ovn_hlf_sheep_dogs	false	false				false
