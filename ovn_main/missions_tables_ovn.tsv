@@ -9,9 +9,9 @@ ovn_halfling_ingredient_quest_4	true	The pets of the Vampire Counts are fearsome
 ovn_halfling_ingredient_quest_5	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
 ovn_halfling_ingredient_quest_6	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
 ovn_halfling_ingredient_quest_7	true	The pets of the Vampire Counts are fearsome Unliving creatures whose only desire is to serve. Read the books and summon them to our cause!	Unholy Beasts	RECRUIT_UNIT	rom_event_mission.png	emp/generic	false	Military		0	0	false	0.0		false	false
-ovn_grudge_vortex_move_to_swem	false	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-ovn_grudge_vortex_take_morgheim	false	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-ovn_grudge_vortex_take_zandri	false	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_vortex_move_to_swem	false	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	false	0.0		false	false
+ovn_grudge_vortex_take_morgheim	false	fight battle near Mordheim		FIGHT_SET_PIECE_BATTLE	rom_event_mission.png	def/generic	true	Quest	ovn_qb_gru_morgheim	476	246	true	0.0		true	false
+ovn_grudge_vortex_take_zandri	false	fight battle near Zandri		FIGHT_SET_PIECE_BATTLE	rom_event_mission.png	def/generic	true	Quest	ovn_qb_gru_zandri	420	235	true	0.0		true	false
 ovn_grudge_vortex_take_kasabar	false	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_vortex_kill_dk	false	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_vortex_kill_arkhan	false	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
@@ -21,8 +21,8 @@ ovn_blood_dragons_me_take_couronne	false	ovn_blood_dragons_me_take_couronne		CAP
 ovn_blood_dragons_me_take_templehof	false	ovn_blood_dragons_me_take_templehof		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_blood_dragons_me_take_nuln	false	ovn_blood_dragons_me_take_nuln		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_me_move_to_swem	false	moving any lord or agent to the province		MOVE_TO_PROVINCE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-ovn_grudge_me_take_morgheim	false	conquer morgheim		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-ovn_grudge_me_take_zandri	false	conquer zandri		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_grudge_me_take_morgheim	false	fight battle near Mordheim		FIGHT_SET_PIECE_BATTLE	rom_event_mission.png	def/generic	true	Quest	ovn_qb_gru_morgheim	440	150	true	0.0		true	false
+ovn_grudge_me_take_zandri	false	fight battle near Zandri		FIGHT_SET_PIECE_BATTLE	rom_event_mission.png	def/generic	true	Quest	ovn_qb_gru_zandri	346	103	true	0.0		true	false
 ovn_grudge_me_take_kasabar	false	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_me_kill_dk	false	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_me_kill_arkhan	false	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false

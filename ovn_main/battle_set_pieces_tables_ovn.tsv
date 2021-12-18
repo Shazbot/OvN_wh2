@@ -1,0 +1,4 @@
+battle_name	battle_duration	battle_environment	battle_environment_audio	battle_script	battle_type	frontend_icon_offset_x	frontend_icon_offset_y	is_player_attacker	bmd_layer_type	use_large_armies	battlefield_folder	teleport_cost	catchment_area	intro_movie	outro_movie_win	outro_movie_lose	campaign_pre_battle_intro_movie	can_retreat	can_retreat_multiplayer
+#battle_set_pieces_tables;14;db/battle_set_pieces_tables/ovn																			
+ovn_qb_gru_zandri	60	weather/battle/wh_tmb_04.environment		script\battle\quest_battles\ovn\battle_script.lua	classic	0	0	true	quest_battle_1	true	unfortified_tmb_a	50						true	true
+ovn_qb_gru_morgheim	60	weather/battle/wh_vmp_03.environment		script\battle\quest_battles\ovn\battle_script.lua	classic	0	0	true	quest_battle_1	true	chokepoint_sylvania_river	50						true	true

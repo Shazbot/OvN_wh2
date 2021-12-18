@@ -12,7 +12,7 @@ elo_hand_punished_one	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			
 elo_hungering_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			9000	1		false	false	false
 anc_adventurer_trinkets	wh_main_anc_talisman	.	false	false	false	1	0	9999			true	false	false	talisman	16	30	30	50	true			200	1		false	false	false
 anc_resevoir_stone	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
-chalcidar_orb	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	1		false	false	false
+chalcidar_orb	wh_main_anc_talisman	.	true	false	false	1	0	9999			true	false	false	talisman	16	30	30	50	true			200	1		false	false	false
 malach_sword	wh_main_anc_weapon	.	true	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	1		false	false	false
 ovn_anc_magic_standard_ptolos	grudge_item_shield_of_ptolos	.	true	false	false	1	0	9999			true	false	false	general	16	30	30	50	true		ovn_anc_magic_standard_ptolos	200	0	banner	false	false	false
 hlf_staff	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	false

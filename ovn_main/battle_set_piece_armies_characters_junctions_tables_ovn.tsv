@@ -1,0 +1,6 @@
+army_name	character_name	script_name
+#battle_set_piece_armies_characters_junctions_tables;1;db/battle_set_piece_armies_characters_junctions_tables/ovn		
+ovn_qb_gru_zandri_player	ovn_grudge	
+ovn_qb_gru_zandri_enemy	elo_liche_general	
+ovn_qb_gru_morgheim_player	ovn_grudge	
+ovn_qb_gru_morgheim_enemy	elo_liche_general	

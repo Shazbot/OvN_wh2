@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_quest_battles_text.loc		
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_zandri_enemy	Larenscheld's Minions	true
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_zandri_player	Grudgebringers	true
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_zandri_ally	Shak-y Tribe	true
+battle_set_pieces_localised_description_ovn_qb_gru_zandri	Nomads from the local tribe have lead us straight to Larenscheld's Laboratory, they say their people are abducted and taken there, never to be seen again. Not even the locals or Fimir Slavers could satiate Larenscheld's need for subjects. They will not stand for this undead filth no more and have mustered a force to join us for the battle ahead.	true
+battle_set_pieces_localised_name_ovn_qb_gru_zandri	Battle of Larenscheld's Laboratory	true
+scripted_subtitles_localised_text_ovn_qb_gru_zandri	Yet that is not what we face today. No, today we send the Elector Count of Middenland a message that it is the House of Franz that protects the borders of Reikland! 	true
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_morgheim_enemy	Larenscheld's Minions	true
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_morgheim_enemy_reinforcement	Fimir Slavers	true
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_morgheim_player	Grudgebringers	true
+battle_set_piece_armies_army_onscreen_name_ovn_qb_gru_morgheim_ally	Dawi Rescue Party	true
+battle_set_pieces_localised_description_ovn_qb_gru_morgheim	Larenscheld, servant of the Dread King, is in league with local Fimir Slavers, who have being providing him subjects for his twisted experiments. It seems in tandem they captured our wizards to weaken us at the behest of the Dread King. We will butcher the slavers and maggot ridden alike and save our brothers.	true
+battle_set_pieces_localised_name_ovn_qb_gru_morgheim	Battle of Slavers Camp	true

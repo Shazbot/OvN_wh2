@@ -1,0 +1,8 @@
+army_name	battle_name
+#battle_set_piece_armies_junctions_tables;0;db/battle_set_piece_armies_junctions_tables/ovn	
+ovn_qb_gru_zandri_enemy	ovn_qb_gru_zandri
+ovn_qb_gru_zandri_player	ovn_qb_gru_zandri
+ovn_qb_gru_zandri_ally	ovn_qb_gru_zandri
+ovn_qb_gru_morgheim_enemy	ovn_qb_gru_morgheim
+ovn_qb_gru_morgheim_player	ovn_qb_gru_morgheim
+ovn_qb_gru_morgheim_ally	ovn_qb_gru_morgheim

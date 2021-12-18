@@ -1,0 +1,8 @@
+army_name	ai_army_tactic	approach_angle	army_emblem	army_model	deployment_zone_id	faction	is_allied_to_player	is_reinforcement_army	is_frontend_player_army	use_default_deployment_zones	is_hidden_army	should_merge_army
+#battle_set_piece_armies_tables;7;db/battle_set_piece_armies_tables/ovn												
+ovn_qb_gru_zandri_enemy		0	tomb_kings_test_emblem_army_01	1187086529	0	wh2_dlc09_tmb_the_sentinels	false	false	false	true	false	false
+ovn_qb_gru_zandri_player	FALSE	0	empire_test_emblem_army_01	311089016	1	wh2_main_emp_grudgebringers	false	false	true	true	false	true
+ovn_qb_gru_zandri_ally		0	empire_test_emblem_army_01	290598903	1	wh2_main_emp_grudgebringers	true	false	false	true	false	true
+ovn_qb_gru_morgheim_enemy		0	tomb_kings_test_emblem_army_01	1187086529	0	wh2_dlc09_tmb_the_sentinels	false	false	false	true	false	false
+ovn_qb_gru_morgheim_player	FALSE	0	empire_test_emblem_army_01	311089016	1	wh2_main_emp_grudgebringers	false	false	true	true	false	true
+ovn_qb_gru_morgheim_ally		0	empire_test_emblem_army_01	290598903	1	wh2_main_emp_grudgebringers	true	false	false	true	false	true

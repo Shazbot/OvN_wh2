@@ -436,7 +436,7 @@ local function grudgebringers_init()
 
             --MORTAL EMPIRES--
         -- early-game listeners
-        if campaign_name == "main_warhammer" then
+      --[[  if campaign_name == "main_warhammer" then
 
             core:add_listener(
                 "grudgestartmemissionlistner",
@@ -470,7 +470,7 @@ local function grudgebringers_init()
                 end,
                 false
             )
-        end
+        end ]]
 
         --------------------------------------------------------------
         -------- GRUDGEBRINGER RoR & ANCILLARY MECHANIC --------------
@@ -491,7 +491,7 @@ local function grudgebringers_init()
         --BLACK TOWER OF ARKHAN--
         if not cm:get_saved_value("black_tower_storm") then
             core:add_listener(
-                "morgheimoccupylistner",
+                "blacktoweroccupylistner",
                 "CharacterPerformsSettlementOccupationDecision",
                 function(context)
                     local char = context:character()
@@ -506,7 +506,7 @@ local function grudgebringers_init()
                     local character = context:character()
                     message(faction_key, "black_tower_storm")
 
-                    cm:force_add_ancillary(character, "malach_sword", true, false)
+                    cm:force_add_ancillary(character, "malach_sword", false, false)
                     cm:set_saved_value("black_tower_storm", true);
                 end,
                 false
@@ -528,7 +528,6 @@ local function grudgebringers_init()
                     function(context)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_kill_dk", true)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_take_morgheim", true)
-                        cm:add_unit_to_faction_mercenary_pool(faction_obj, "azguz_bloodfist_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
                     end,
                     false
                 )
@@ -545,6 +544,10 @@ local function grudgebringers_init()
 
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "elrod_wood_elf_glade_guards", 1, 20, 1, 0.1, 0, "", "", "", true)
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "dargrimm_firebeard_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
+                        cm:add_unit_to_faction_mercenary_pool(faction_interface, "azguz_bloodfist_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
+                
+                        cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_take_zandri", true)
+                        cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_move_to_swem", true)
                         cm:force_add_ancillary(character, "chalcidar_orb", true, false)
                         message(faction_key, "grudge_rescue")
                         cm:set_saved_value("morgheim_rescue", true)
@@ -554,7 +557,7 @@ local function grudgebringers_init()
             end
 
               -- CERIDIAN --
-              if not cm:get_saved_value("ceridan_rescue") then
+             --[[ if not cm:get_saved_value("ceridan_rescue") then
                 core:add_listener(
                     "Ceridan_ME_Mission",
                     "FactionTurnStart",
@@ -565,7 +568,20 @@ local function grudgebringers_init()
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_move_to_swem", true)
                     end,
                     false
-                );
+                );]]
+
+              --[[  core:add_listener(
+                    "ME_kill_dk_Listener",
+                    "MissionSucceeded",
+                    function(context)
+                        return context:mission():mission_record_key() == "ovn_grudge_me_kill_dk"
+                    end,
+                    function(context)
+                        cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_kill_arkhan", true)
+                    end,
+                    false
+                )
+                ]]
 
                 core:add_listener(
                     "Enter_ME_Swem_Listener",
@@ -575,12 +591,13 @@ local function grudgebringers_init()
                     end,
                     function(context)
                         cm:add_unit_to_faction_mercenary_pool(faction_obj, "ceridan", 1, 20, 1, 0.1, 0, "", "", "", true)
-                        cm:set_saved_value("ceridan_rescue", true)
+                        --cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_take_kasabar", true)
+                       -- cm:set_saved_value("ceridan_rescue", true)
                     end,
                     false
                 )
 
-            end
+            -- end
 
              --KA-SABAAR AND THE FOUNTAIN OF LIGHT--
              if not cm:get_saved_value("sabarr_occupied") then
@@ -663,7 +680,7 @@ local function grudgebringers_init()
                                         function(cqi)
                                             cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_alloy", false);
                                             cm:replenish_action_points(cm:char_lookup_str(cqi));
-                                            cm:add_agent_experience("character_cqi:"..cqi, 1000)
+                                            cm:add_agent_experience("character_cqi:"..cqi, 4000)
                                         end
                                 elseif choice == 2 then
                                     subtype = "emp_celestial_wizard"
@@ -671,7 +688,7 @@ local function grudgebringers_init()
                                     function(cqi)
                                         cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_ubersbrom", false);
                                         cm:replenish_action_points(cm:char_lookup_str(cqi));
-                                        cm:add_agent_experience("character_cqi:"..cqi, 1500)
+                                        cm:add_agent_experience("character_cqi:"..cqi, 4000)
                                     end
                                 elseif choice == 3 then
                                     subtype = "emp_bright_wizard"
@@ -679,7 +696,7 @@ local function grudgebringers_init()
                                     function(cqi)
                                         cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_luther_flamestrike", false);
                                         cm:replenish_action_points(cm:char_lookup_str(cqi));
-                                        cm:add_agent_experience("character_cqi:"..cqi, 1500)
+                                        cm:add_agent_experience("character_cqi:"..cqi, 4000)
                                     end
                                 end
 
@@ -706,7 +723,7 @@ local function grudgebringers_init()
         else
 
             -- CERIDIAN --
-            if not cm:get_saved_value("ceridan_rescue") then
+           --[[ if not cm:get_saved_value("ceridan_rescue") then
                 core:add_listener(
                     "Ceridan_Vortex_Mission",
                     "FactionTurnStart",
@@ -717,7 +734,9 @@ local function grudgebringers_init()
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_move_to_swem", true)
                     end,
                     false
-                );
+                ); ]]
+
+              
 
                 core:add_listener(
                     "Enter_Swem_Listener",
@@ -727,12 +746,26 @@ local function grudgebringers_init()
                     end,
                     function(context)
                         cm:add_unit_to_faction_mercenary_pool(faction_obj, "ceridan", 1, 20, 1, 0.1, 0, "", "", "", true)
-                        cm:set_saved_value("ceridan_rescue", true)
+                        --cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_take_kasabar", true)
+                        --cm:set_saved_value("ceridan_rescue", true)
+                
                     end,
                     false
                 )
 
-            end
+           -- end
+
+          --[[ core:add_listener(
+            "vor_kill_dk_Listener",
+            "MissionSucceeded",
+            function(context)
+                return context:mission():mission_record_key() == "ovn_grudge_vortex_kill_dk"
+            end,
+            function(context)
+                cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_kill_arkhan", true)
+            end,
+            false
+        )]]
 
             if not cm:get_saved_value("morgheim_rescue") then
 
@@ -746,8 +779,7 @@ local function grudgebringers_init()
                     function(context)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_kill_dk", true)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_take_morgheim", true)
-                        cm:add_unit_to_faction_mercenary_pool(faction_obj, "azguz_bloodfist_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
-
+        
                         message(faction_key, "grudge_start_two")
                     end,
                     false
@@ -765,7 +797,10 @@ local function grudgebringers_init()
 
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "elrod_wood_elf_glade_guards", 1, 20, 1, 0.1, 0, "", "", "", true)
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "dargrimm_firebeard_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
+                        cm:add_unit_to_faction_mercenary_pool(faction_obj, "azguz_bloodfist_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
                         cm:force_add_ancillary(character, "chalcidar_orb", true, false)
+                        cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_move_to_swem", true)
+                        cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_take_zandri", true)
 
                         message(faction_key, "grudge_rescue")
                         cm:set_saved_value("morgheim_rescue", true)
@@ -854,7 +889,7 @@ local function grudgebringers_init()
                                         function(cqi)
                                             cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_alloy", false);
                                             cm:replenish_action_points(cm:char_lookup_str(cqi));
-                                            cm:add_agent_experience("character_cqi:"..cqi, 1000)
+                                            cm:add_agent_experience("character_cqi:"..cqi, 4000)
                                         end
                                 elseif choice == 2 then
                                     subtype = "emp_celestial_wizard"
@@ -862,7 +897,7 @@ local function grudgebringers_init()
                                     function(cqi)
                                         cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_ubersbrom", false);
                                         cm:replenish_action_points(cm:char_lookup_str(cqi));
-                                        cm:add_agent_experience("character_cqi:"..cqi, 1500)
+                                        cm:add_agent_experience("character_cqi:"..cqi, 4000)
                                     end
                                 elseif choice == 3 then
                                     subtype = "emp_bright_wizard"
@@ -870,7 +905,7 @@ local function grudgebringers_init()
                                     function(cqi)
                                         cm:force_add_trait(cm:char_lookup_str(cqi), "grudge_trait_name_dummy_luther_flamestrike", false);
                                         cm:replenish_action_points(cm:char_lookup_str(cqi));
-                                        cm:add_agent_experience("character_cqi:"..cqi, 1500)
+                                        cm:add_agent_experience("character_cqi:"..cqi, 4000)
                                     end
                                 end
 

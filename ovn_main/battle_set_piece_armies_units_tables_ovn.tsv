@@ -1,0 +1,16 @@
+unit_name	unit_level	unit_type	percentage_num_men
+#battle_set_piece_armies_units_tables;2;db/battle_set_piece_armies_units_tables/ovn			
+grudgebringer_infantry	1	grudgebringer_infantry	100
+elo_dread_mummy	1	elo_dread_mummy	100
+wh2_dlc09_tmb_cav_hexwraiths	1	wh2_dlc09_tmb_cav_hexwraiths	100
+wh2_dlc09_tmb_inf_crypt_ghouls	1	wh2_dlc09_tmb_inf_crypt_ghouls	100
+ovn_arb_cav_archer_camel	1	ovn_arb_cav_archer_camel	100
+OtF_khemri_kepra_guard	1	OtF_khemri_kepra_guard	100
+ovn_boglar	1	ovn_boglar	100
+ovn_shearl	1	ovn_shearl	100
+ovn_marsh_hounds	1	ovn_marsh_hounds	100
+ovn_fim_mon_javelin_0	1	ovn_fim_mon_javelin_0	100
+ovn_death_quest	1	ovn_death_quest	100
+azguz_bloodfist_dwarf_warriors	1	azguz_bloodfist_dwarf_warriors	100
+elo_dread_inf_grave_guard_0	1	elo_dread_inf_grave_guard_0	100
+elo_tomb_guardian	1	elo_tomb_guardian	100
