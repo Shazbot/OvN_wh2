@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_new_halfling_stuff_abilities.loc		
+unit_abilities_onscreen_name_hlf_gatherers_yank	Pin Down	false
+unit_abilities_tooltip_text_hlf_gatherers_yank	"Yank em down boys!"	false

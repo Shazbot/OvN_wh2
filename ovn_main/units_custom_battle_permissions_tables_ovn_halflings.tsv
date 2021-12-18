@@ -84,3 +84,10 @@ wh_main_emp_empire_mp_custom_battles_only	false	halfling_milittia_great_emp	true
 wh_main_emp_empire_mp_custom_battles_only	false	halfling_militia_emp	true	true				true
 wh2_main_emp_the_moot	false	ovn_mtl_cav_battleram_riders_0	false	false				false
 wh2_main_emp_the_moot	false	ovn_hlf_sheep_dogs	false	false				false
+wh2_main_emp_the_moot	false	hlf_gatherers	true	true				false
+wh2_main_emp_the_moot	false	ovn_hlf_fieldwarden_0	true	true	ui/portraits/portholes/no_culture/ovn_hlf_fieldwarden_1.png	ovn_hlf_fieldwarden_1		false
+wh2_main_emp_the_moot	true	ovn_hlf_ll_battle_ram	true	true	ui/portraits/portholes/no_culture/ovn_hlf_ll.png	ovn_hlf_ll	ovn_hlf_ll	false
+wh2_main_emp_the_moot	true	ovn_hlf_ll_swan	true	true	ui/portraits/portholes/no_culture/ovn_hlf_ll.png	ovn_hlf_ll	ovn_hlf_ll	false
+wh2_main_emp_the_moot	false	ovn_hlf_fieldwarden_1	true	true	ui/portraits/portholes/no_culture/ovn_hlf_fieldwarden_1.png	ovn_hlf_fieldwarden_1		false
+wh2_main_emp_the_moot	true	ovn_hlf_moot_general_3	true	true	ui/portraits/portholes/no_culture/ovn_hlf_moot_general.png	ovn_hlf_moot_general	wh_main_grn_cha_orc_warboss_0	false
+wh2_main_emp_the_moot	false	ovn_mtl_cav_swan_riders_0	true	true				false

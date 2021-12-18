@@ -428,3 +428,5 @@ key	building	unit	xp	conditions	faction	enabled
 261500425	ovn_half_barracks_3	ovn_hlf_bee_throwers	0	0		false
 261500426	ovn_Animal_Rearing_2	ovn_mtl_cav_battleram_riders_0	0	0		false
 261500427	ovn_Animal_Rearing_1	ovn_mtl_cav_swine_riders_0	0	0		false
+261500428	ovn_half_tavern_3	hlf_gatherers	0	0		true
+261500429	ovn_Animal_Rearing_2	ovn_mtl_cav_swan_riders_0	0	0		false

@@ -43,3 +43,4 @@ wh_main_skill_node_set_hlf_fieldwarden_innate_22		elo_halfling_warden	wh_main_sk
 wh_main_skill_node_set_hlf_fieldwarden_innate_23		elo_halfling_thief	wh_main_skill_node_set_ovn_hlf_fieldwarden		7.0	6.0		0	0	false
 wh_main_skill_node_set_hlf_fieldwarden_innate_24		elo_halfling_adventurer	wh_main_skill_node_set_ovn_hlf_fieldwarden		7.0	7.0		0	0	false
 wh_main_skill_node_set_hlf_fieldwarden_unique_04		hlf_unique_ward	wh_main_skill_node_set_ovn_hlf_fieldwarden		0.0	4.0		0	0	true
+wh_main_skill_node_set_hlf_fieldwarden_unique_01		ovn_skill_mtl_fieldwarden_mount_swan	wh_main_skill_node_set_ovn_hlf_fieldwarden		0.0	1.0		0	0	true

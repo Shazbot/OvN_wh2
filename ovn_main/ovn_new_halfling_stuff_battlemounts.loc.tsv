@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_new_halfling_stuff_battlemounts.loc		
+units_custom_battle_mounts_mount_name_ovn_hlf_llovn_hlf_ll_battle_ram	Battle Ram	true
+units_custom_battle_mounts_localised_description_ovn_hlf_llovn_hlf_ll_battle_ram	Some Halfling leaders choose to ride to battle in their trusty battle rams. Only the fluffiest rams will do.	true
+units_custom_battle_mounts_mount_name_ovn_hlf_llovn_hlf_ll_swan	Giant Swan	true
+units_custom_battle_mounts_localised_description_ovn_hlf_llovn_hlf_ll_swan	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+units_custom_battle_mounts_mount_name_ovn_hlf_moot_general_0ovn_hlf_moot_general_3	Giant Swan	true
+units_custom_battle_mounts_localised_description_ovn_hlf_moot_general_0ovn_hlf_moot_general_3	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+units_custom_battle_mounts_localised_description_ovn_hlf_fieldwarden_0ovn_hlf_fieldwarden_1	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+units_custom_battle_mounts_mount_name_ovn_hlf_fieldwarden_0ovn_hlf_fieldwarden_1	Giant Swan	true

@@ -1,5 +1,11 @@
 key	bonus_v_cavalry	bonus_v_large	bonus_v_infantry	damage	ap_damage	first_strike	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage
 #melee_weapons_tables;22;db/melee_weapons_tables/ovn																				
+tmb_grave_halberd	0	19	0	7	19	0	2.0	spear	halberd		1	1.0	10	0.0	false		0	10	4.9	
+hlf_ogr_ror_great_weapon	0	26	0	33	77	0	3.0	axe	axe	medium	3	1.0	100	0.0	false	wh_main_unit_contact_souped	0	10	3.8	
+hlf_gatherers_mancatcher	0	15	0	8	21	0	2.0	spear	halberd		1	1.0	10	0.0	false		0	10	5.6	
+sea_hag_net_staff	0	15	0	135	225	0	2.0	axe	club_huge	large	6	1.0	100	0.0	false	contact_anchored	0	10	4.0	
+elo_plague_toad_bite	0	0	15	15	35	0	1.0	sword	claw	medium	3	1.0	25	0.0	false	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.3	
+elo_cultist_daggers	0	0	0	19	5	0	1.0	sword	sword		1	1.0	10	0.0	false		0	10	4.3	
 ovn_mtl_reaper	0	0	25	27	10	0	5.0	axe		very_large	4	1.0	100	0.0	false		4	2	4.0	
 ovn_arb_flying_carpet	0	28	0	19	36	0	4.0	axe	dlc15_troll_hag_net	small	3	0.25	14	0.0	false		0	10	5.4	
 ovn_arb_flying_carpet_rider	0	16	0	8	20	0	4.0	spear	halberd		1	1.0	10	0.0	false		0	10	5.6	
@@ -136,3 +142,6 @@ ovn_hlf_mislead_summoned_weapon	0	0	0	0	0	0	3.0	sword	sword	medium	8	1.0	0	0.0	f
 wh_main_club_giant_troll	0	0	0	150	450	0	8.0	axe	club_huge	large	14	2.0	600	0.0	false		0	10	4.0	
 goblin_hero_bone_dual	0	0	0	350	50	0	3.0	sword	sword	medium	4	1.0	50	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
 carrion_squig_hero_bone	0	0	25	140	260	0	3.0	spear	spear	medium	8	1.0	150	0.0	false	wh_main_unit_contact_poison	0	10	4.0	
+bacr_chs_daemonette	0	0	2	35	12	0	1.0	sword	claw		1	1.0	10	0.0	true		0	10	4.3	
+tzaangor_axe_staff	0	0	0	35	16	0	1.0	axe	axe		1	1.0	10	0.0	true		0	10	4.4	
+halfling_great_weapons_militia_bees	0	0	0	7	18	0	1.0	axe	axe		1	1.0	14	0.0	false	ovn_hlf_bee_throwers_contact	0	10	4.3	

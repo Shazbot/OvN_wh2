@@ -1,5 +1,7 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/ovn
+ovn_guerrilla_mountedFireMove_moulderMonster
+ovn_hideForest_moulderMonster
 ovn_finmor
 ovn_fianna_fimm
 ovn_fimm_guard
@@ -35,3 +37,4 @@ elo_troll_fear
 elo_troll_fear_guerrilla_terror
 elo_troll_fear_immune_to_psy
 elo_troll_fear_terror_chargereflector
+fear_immuneToPsych_hideForest

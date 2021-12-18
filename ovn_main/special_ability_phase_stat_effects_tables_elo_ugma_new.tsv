@@ -1,9 +1,0 @@
-phase	stat	value	how
-#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/elo_ugma_new			
-elo_reservoir_hammer	stat_melee_damage_ap	1.4	mult
-elo_reservoir_hammer	stat_melee_damage_base	1.4	mult
-elo_reservoir_hammer	scalar_splash_attack_power	2.0	mult
-elo_trash_armour	stat_missile_block_chance	15.0	add
-elo_trash_armour	stat_resistance_physical	10.0	add
-elo_trash_armour	stat_melee_defence	5.0	add
-elo_trash_armour	stat_armour	15.0	add

@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_new_halfling_stuff_character_skills.loc		
+character_skills_localised_name_hlf_ll_battleram_mount	Battle Ram	true
+character_skills_localised_description_hlf_ll_battleram_mount	Some Halfling leaders choose to ride to battle in their trusty battle rams. Only the fluffiest rams will do.	true
+character_skills_localised_name_ovn_skill_mtl_ll_mount_swan	Giant Swan	true
+character_skills_localised_description_ovn_skill_mtl_ll_mount_swan	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+character_skills_localised_name_ovn_skill_mtl_mgeneral_mount_swan	Giant Swan	true
+character_skills_localised_description_ovn_skill_mtl_mgeneral_mount_swan	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+character_skills_localised_name_ovn_skill_mtl_fieldwarden_mount_swan	Giant Swan	true
+character_skills_localised_description_ovn_skill_mtl_fieldwarden_mount_swan	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true

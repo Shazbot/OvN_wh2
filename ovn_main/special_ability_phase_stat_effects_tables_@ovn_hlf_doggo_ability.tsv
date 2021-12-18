@@ -1,4 +1,0 @@
-phase	stat	value	how
-#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/@ovn_hlf_doggo_ability			
-ovn_unit_passive_running_with_the_herd	scalar_speed	1.1	mult
-ovn_unit_passive_running_with_the_herd	stat_morale	10.0	add

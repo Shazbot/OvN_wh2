@@ -1,4 +1,0 @@
-order	special_ability	phase
-#special_ability_to_special_ability_phase_junctions_tables;1;db/special_ability_to_special_ability_phase_junctions_tables/plague_toads		
-1	elo_plague_flies_helper	elo_plague_flies_helper
-1	elo_plague_stench_helper	elo_plague_stench_helper

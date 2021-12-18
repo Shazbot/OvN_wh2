@@ -15,7 +15,6 @@ wh_dwf_dwarf_tank_turret		wh_dwf_dwarf_tank_turret		0.5	0.5	0.0
 halfling_cook		halfling_cook		1.0	0.8	0.05	
 halfling_spear		halfling_spear		1.0	0.8	0.05	
 halfling_thief		halfling_thief		1.0	0.8	0.05	
-sr_ogre_ror		ogr_hlf_ogre		1.0	1.5	0.1	
 halfling_cook_ror		halfling_cook_ror		1.0	0.8	0.05	
 ovn_hlf_ll		halfling_lord		0.8	0.8	0.0	
 half_pig		half_pig		0.65	0.65	0.1	
@@ -33,9 +32,6 @@ ovn_hlf_fieldwarden_1		halfling_fieldwarden_1		1.0	0.9	0.0
 ovn_hlf_master_chef_0		halfling_master_chef		1.0	0.9	0.0	
 ovn_hlf_master_chef_1		halfling_master_chef_1		1.0	0.9	0.0	
 ovn_hlf_sheriff_0		halfling_sheriff		1.0	0.9	0.0	
-ovn_hlf_moot_general_1_poultry		halfling_moot_general_1_poultry		1.0	1.0	0.0	
-ovn_hlf_moot_general_2_poultry		halfling_moot_general_2_poultry		1.0	1.0	0.0	
-ovn_mtl_poultry_lord_general	VariantMeshes\wh_variantmodels\rp3\mtl\mtl_poultry\tech	mtl_poultry		0.95	0.95	0.0	
 ovn_hlf_master_chef_0_wagon		halfling_master_chef_wagon		1.0	0.9	0.0	
 ovn_hlf_master_chef_1_wagon		halfling_master_chef_1_wagon		1.0	0.9	0.0	
 ovn_mtl_swine_lord_general	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	mtl_swine		1.0	0.9	0.05	
@@ -44,11 +40,21 @@ ovn_mtl_swine	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	mtl_swine	
 ovn_mtl_swine_rider		halfling_militia		1.0	0.8	0.0	
 wh_main_vehicle_halftank		mtl_halftank		1.0	0.65	0.0	
 wh_main_mtl_soupcart_rider		mtl_soupcart_rider		1.0	0.85	0.0	
-ovn_mtl_poultry		mtl_poultry		1.1	0.7	0.0	
-ovn_mtl_poultry_rider_0		mtl_poultry_rider_lancer		1.0	1.0	0.0	
 ovn_mtl_auroch		mtl_auroch		1.0	1.0	0.05	
 ovn_mtl_reaper_blade		mtl_reaper_blade		1.0	1.0	0.0	
 ovn_mtl_reaper_rider		mtl_reaper_rider		1.0	0.8	0.0	
 halfling_housewives		halfling_housewives		1.0	0.8	0.05	
 ovn_mtl_battleram_riders		ovn_mtl_battleram_riders		1.0	0.75	0.0	
 ovn_mtl_battleram		ovn_mtl_battleram		1.05	0.81	0.0	
+sr_ogre_ror		ogr_hlf_ogre_ror		1.0	1.2	0.1	
+halfling_piggyback_mount		halfling_piggyback_mount		1.0	0.8	0.0	
+halfling_piggyback_rider		halfling_gatherers_rider		1.0	0.8	0.0	
+ovn_cam_mtl_battleram	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	ovn_mtl_battleram		1.05	0.81	0.0	
+ovn_mtl_swan	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	mtl_swan		0.75	0.8	0.0	
+ovn_mtl_swan_mgeneral	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	mtl_swan_mgeneral		0.75	0.8	0.0	
+ovn_mtl_swan_rider		mtl_swan_rider		1.0	0.8	0.0	
+ovn_mtl_poultry_rider_0		halfling_rooster_rider		1.0	0.8	0.0	
+ovn_mtl_poultry		mtl_poultry		1.0	0.8	0.0	
+ovn_hlf_moot_general_1_poultry		halfling_moot_general		1.0	1.0	0.0	
+ovn_hlf_moot_general_2_poultry		halfling_moot_general_1		1.0	1.0	0.0	
+ovn_mtl_poultry_lord_general	VariantMeshes\wh_variantmodels\rp3\mtl\mtl_poultry\tech	mtl_poultry_barded		1.0	1.0	0.0	

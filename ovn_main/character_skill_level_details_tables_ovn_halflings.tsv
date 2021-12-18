@@ -15,3 +15,7 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	wh2_main_skill_hlf_glibfoot_unique_2		x	11
 		1	wh2_main_skill_anc_hyshia		x	11
 		1	wh2_main_skill_anc_willowblade		x	12
+		1	hlf_ll_battleram_mount		x	6
+		1	ovn_skill_mtl_ll_mount_swan		x	15
+		1	ovn_skill_mtl_mgeneral_mount_swan		x	15
+		1	ovn_skill_mtl_fieldwarden_mount_swan		x	15

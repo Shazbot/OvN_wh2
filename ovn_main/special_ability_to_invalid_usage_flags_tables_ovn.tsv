@@ -80,3 +80,5 @@ climbing	ovn_hlf_mislead
 engaged_in_melee	ovn_hlf_mislead
 manning_equipment	ovn_hlf_mislead
 on_a_platform	ovn_hlf_mislead
+climbing	hlf_gatherers_yank
+out_of_melee	hlf_gatherers_yank

@@ -72,3 +72,5 @@ ovn_hlf_grand_enchanter_innate_20		wh2_main_skill_innate_all_strong	wh_main_skil
 ovn_hlf_grand_enchanter_innate_21		wh2_main_skill_innate_all_tactician	wh_main_skill_node_set_ovn_hlf_ll		6.0	20.0		0	0	false
 ovn_hlf_grand_enchanter_innate_22		wh2_main_skill_innate_all_tough	wh_main_skill_node_set_ovn_hlf_ll		6.0	21.0		0	0	false
 ovn_hlf_grand_enchanter_innate_23		wh2_main_skill_innate_all_weapon_master	wh_main_skill_node_set_ovn_hlf_ll		6.0	22.0		0	0	false
+wh_main_skill_node_ovn_hlf_ll_unique_03		hlf_ll_battleram_mount	wh_main_skill_node_set_ovn_hlf_ll		0.0	3.0		0	0	true
+wh_main_skill_node_ovn_hlf_ll_unique_04		ovn_skill_mtl_ll_mount_swan	wh_main_skill_node_set_ovn_hlf_ll		0.0	4.0		0	0	true

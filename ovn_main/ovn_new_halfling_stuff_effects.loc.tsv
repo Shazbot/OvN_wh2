@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_new_halfling_stuff_effects.loc		
+effects_description_hlf_ll_battleram_mount	Unlocks mount: Battle Ram	true
+effects_description_hlf_ll_swan_mount	Unlocks mount: Giant Swan	true

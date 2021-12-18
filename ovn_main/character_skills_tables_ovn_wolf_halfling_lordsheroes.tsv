@@ -18,3 +18,7 @@ hlf_unique_ward	character_ward_save.png	cnsidnvdnv	Smallfolk Luck	7	false	false	
 hlf_moot_general_skill_0_0_mount_poultry	mount_cockarel.png		poultry	8	false	false	false	0.0	0
 hlf_master_chef_skill_0_0_mount_wagon	mount_cwagon.png		wagon	9	false	false	false	0.0	0
 hlf_sheriff_skill_0_0_mount_pig	mount_bpig.png		pig	8	false	false	false	0.0	0
+hlf_ll_battleram_mount	mount_barded_warhorse.png			6	false	false	false	0.0	0
+ovn_skill_mtl_mgeneral_mount_swan	mount_great_eagle.png	Ulthuan's Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	Great Eagle	15	false	false	false	0.0	0
+ovn_skill_mtl_fieldwarden_mount_swan	mount_great_eagle.png	Ulthuan's Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	Great Eagle	15	false	false	false	0.0	0
+ovn_skill_mtl_ll_mount_swan	mount_great_eagle.png	Ulthuan's Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	Great Eagle	15	false	false	false	0.0	0

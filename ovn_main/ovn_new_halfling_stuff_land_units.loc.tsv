@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_new_halfling_stuff_land_units.loc		
+land_units_onscreen_name_hlf_gatherers	Gatherers	true
+land_units_onscreen_name_ovn_hlf_ll_battle_ram	Grand Enchanter	true
+land_units_onscreen_name_ovn_hlf_ll_swan	Grand Enchanter	true
+land_units_onscreen_name_ovn_hlf_moot_general_3	Moot General	true
+land_units_concealed_name_ovn_mtl_cav_swan_riders_0		true
+land_units_onscreen_name_ovn_mtl_cav_swan_riders_0	Swan Riders	true
+land_units_concealed_name_ovn_hlf_fieldwarden_1		true
+land_units_onscreen_name_ovn_hlf_fieldwarden_1	Fieldwarden	true

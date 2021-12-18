@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_new_halfling_stuff_ancillaries.loc		
+ancillaries_onscreen_name_hlf_genchanter_ram_mount	Battle Ram	true
+ancillaries_colour_text_hlf_genchanter_ram_mount	Some Halfling leaders choose to ride to battle in their trusty battle rams. Only the fluffiest rams will do.	true
+ancillaries_onscreen_name_hlf_genchanter_swan_mount	Giant Swan	true
+ancillaries_colour_text_hlf_genchanter_swan_mount	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+ancillaries_onscreen_name_hlf_mgeneral_swan_mount	Giant Swan	true
+ancillaries_colour_text_hlf_mgeneral_swan_mount	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
+ancillaries_onscreen_name_ovn_anc_mount_mtl_fieldwarden_swan	Giant Swan	true
+ancillaries_colour_text_ovn_anc_mount_mtl_fieldwarden_swan	These large birds make ideal mounts for transporting troops around the battlefield quickly. They are also very aggressive and kill with their powerful wings.	true
