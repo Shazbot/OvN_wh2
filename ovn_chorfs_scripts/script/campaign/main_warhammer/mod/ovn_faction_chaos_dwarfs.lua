@@ -299,9 +299,90 @@ local function replace_old_buildings()
 	end
 end
 
+local dsmith_subtypes = {
+	["wh_main_chs_cha_dwarf_sorcerer_fire"] = true,
+	["wh_main_chs_cha_dwarf_sorcerer_metal"] = true,
+	["wh_main_chs_cha_dwarf_sorcerer_death"] = true,
+}
+
+local bundle_name = "ovn_chorf_dsmith_army_req"
+
+---@param character CA_CHAR
+local apply_chorf_dsmith_req_bundle = function(character)
+	local custom_bundle = cm:create_new_custom_effect_bundle(bundle_name)
+	custom_bundle:add_effect("ovn_chorf_dsmith_army_unit_upkeep", "character_to_force_own", 100)
+	cm:apply_custom_effect_bundle_to_force(custom_bundle, character:military_force())
+end
+
+---@param mil_force CA_MILITARY_FORCE
+local check_chorf_force_for_dsmith_presence = function(mil_force)
+	local has_dsmith = false
+	for char_in_mf in binding_iter(mil_force:character_list()) do
+		---@type CA_CHAR
+		local char_in_mf = char_in_mf
+		if dsmith_subtypes[char_in_mf:character_subtype_key()] then
+			has_dsmith = true
+			break
+		end
+	end
+
+	local general = mil_force:general_character()
+	if not has_dsmith then
+		apply_chorf_dsmith_req_bundle(general)
+	else
+		cm:remove_effect_bundle_from_characters_force(bundle_name, general:command_queue_index())
+	end
+end
+
+core:remove_listener('ovn_chorf_on_character_selected_check_dsmith_army_req')
+core:add_listener(
+	'ovn_chorf_on_character_selected_check_dsmith_army_req',
+	'CharacterSelected',
+	true,
+	function(context)
+		---@type CA_CHAR
+		local char = context:character()
+
+		local faction = char:faction()
+		if faction:name() ~= chorf_faction_key or not faction:is_human() then
+			return
+		end
+
+		if char:has_military_force() then
+			if char:character_subtype("wh_main_chs_cha_dwarf_lord_shadow") then
+				cm:remove_effect_bundle_from_characters_force(bundle_name, char:command_queue_index())
+			else
+				check_chorf_force_for_dsmith_presence(char:military_force())
+			end
+		end
+	end,
+	true
+)
+
+local check_all_armies_for_dsmith_req_on_first_tick = function()
+	local chorf_faction = cm:get_faction(chorf_faction_key)
+	if not chorf_faction or chorf_faction:is_null_interface() or not chorf_faction:is_human() then
+		return
+	end
+
+	for char in binding_iter(chorf_faction:character_list()) do
+		---@type CA_CHAR
+		local char = char
+		if char:has_military_force() and not char:character_subtype("wh_main_chs_cha_dwarf_lord_shadow") then
+			local mf = char:military_force()
+			check_chorf_force_for_dsmith_presence(mf)
+		end
+	end
+end
+
 cm:add_first_tick_callback(
 	function()
 		sr_chaos_dwarfs()
 		-- replace_old_buildings()
+
+		cm:callback(
+			check_all_armies_for_dsmith_req_on_first_tick,
+			4
+		)
 	end
 )
