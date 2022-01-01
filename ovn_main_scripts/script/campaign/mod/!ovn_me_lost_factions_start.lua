@@ -719,7 +719,10 @@ local function halflings_setup()
 			"sr_ogre_ror",
 			"halfling_cock",
 			"wh_main_mtl_veh_soupcart",
-			"halfling_cat_ror"
+			"halfling_cat_ror",
+			"halfling_pantry_guards_ror",
+			"halfling_lords_of_harvest_ror",
+			"halfling_knights_kitchentable_ror",
 		}
 
 		cm:add_unit_to_faction_mercenary_pool(
