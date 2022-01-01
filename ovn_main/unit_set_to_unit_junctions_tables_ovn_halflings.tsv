@@ -310,3 +310,32 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_hlf_fieldwarden_1	wh2_mp_single_entity_monsters	false
 			ovn_hlf_moot_general_3	emp_characters	false
 			ovn_hlf_moot_general_3	wh2_mp_single_entity_monsters	false
+			halfling_pantry_guards_ror	emp_infantry	false
+			halfling_pantry_guards_ror	emp_melee_infantry_tier_1	false
+			halfling_pantry_guards_ror	emp_state_troops	false
+			halfling_pantry_guards_ror	emp_swords	false
+			halfling_pantry_guards_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_pantry_guards_ror	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_pantry_guards_ror	wh2_main_ror_units_all	false
+			halfling_pantry_guards_ror	infantry_units	false
+			halfling_pantry_guards_ror	infantry_units_melee	false
+			halfling_pantry_guards_ror	ovn_halfling_hlf_r7	false
+			halfling_pantry_guards_ror	elo_hlf_cooks	false
+			halfling_pantry_guards_ror	hlf_cooks_and_chefs	false
+			halfling_pantry_guards_ror	hlf_halfling_infantry	false
+			halfling_knights_kitchentable_ror	emp_infantry	false
+			halfling_knights_kitchentable_ror	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_knights_kitchentable_ror	emp_melee_infantry_tier_1	false
+			halfling_knights_kitchentable_ror	emp_state_troops	false
+			halfling_knights_kitchentable_ror	emp_swords	false
+			halfling_knights_kitchentable_ror	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			halfling_knights_kitchentable_ror	infantry_units_melee	false
+			halfling_knights_kitchentable_ror	infantry_units	false
+			halfling_knights_kitchentable_ror	ovn_halfling_hlf_r7	false
+			halfling_knights_kitchentable_ror	elo_hlf_wardens	false
+			halfling_knights_kitchentable_ror	hlf_halfling_infantry	false
+			halfling_knights_kitchentable_ror	wh2_main_ror_units_all	false
+			halfling_lords_of_harvest_ror	wh2_dlc11_emp_greatswords_demigryph_knights	false
+			halfling_lords_of_harvest_ror	emp_knights	false
+			halfling_lords_of_harvest_ror	elo_hlf_cav	false
+			halfling_lords_of_harvest_ror	wh2_main_ror_units_all	false

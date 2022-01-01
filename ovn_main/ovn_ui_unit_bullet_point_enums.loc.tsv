@@ -10,7 +10,6 @@ ui_unit_bullet_point_enums_onscreen_name_nice_elf	Nice (for an Elf)	true
 ui_unit_bullet_point_enums_tooltip_nice_elf	While Elfs are generally not the most friendly inhabitants of the Old World, they can be surprisingly nice when not stroking their large egos.	true
 ui_unit_bullet_point_enums_onscreen_name_stinking_drunk	Stinkin Drunk	true
 ui_unit_bullet_point_enums_tooltip_stinking_drunk	Argaad iz drunk, but y-yo-you don 'ave an.... zzzzzzzzz... zzzzz...... huh, wah, uhn excuz... zzzz....	true
-ui_unit_bullet_point_enums_onscreen_name_soup_cannon	Soup Cannon	true
 ui_unit_bullet_point_enums_tooltip_soup_cannon	This unit shoots [[img:ui/battle ui/ability_icons/wh_main_unit_contact_souped.png]][[/img]]soup at enemy units, debuffing their [[img:icon_melee_attack]][[/img]]melee attack and [[img:icon_armour]][[/img]]armour for a long time.	true
 ui_unit_bullet_point_enums_onscreen_name_poor_ranged_damage	Poor Ranged Damage	true
 ui_unit_bullet_point_enums_tooltip_poor_ranged_damage	This unit's projectile does low[[img:ui/skins/default/icon_stat_ranged_damage.png]][[/img]]damage.	true
@@ -18,8 +17,6 @@ ui_unit_bullet_point_enums_onscreen_name_amazon_venom	Envenomed Arrows	true
 ui_unit_bullet_point_enums_tooltip_amazon_venom	Amazons coat their arrows in powerful venoms harvested from the exotic serpents found in Lustria; victims struck by such arrows are sent into wild bouts of hysteria.	true
 ui_unit_bullet_point_enums_onscreen_name_amazon_mac	Stunning Blows	true
 ui_unit_bullet_point_enums_tooltip_amazon_mac	Heavy strikes from these exotic clubs can debilitate and crush the defense of even the most armored of foes.	true
-ui_unit_bullet_point_enums_tooltip_demonic_flesh	Bel'akor's body is unnaturally resilient to all kinds of damage. It will be difficult to bring this monster down.	true
-ui_unit_bullet_point_enums_onscreen_name_demonic_flesh	Demonic Flesh	true
 ui_unit_bullet_point_enums_tooltip_uncontrollable_rage	It takes much of Bel'akor's concentration to suppress the unholy rage boiling within him. If he is pushed too far, he will rampage through the enemies lines with wild abandon.	true
 ui_unit_bullet_point_enums_onscreen_name_uncontrollable_rage	Uncontrollable Rage	true
 ui_unit_bullet_point_enums_tooltip_unstable_form	The body of a Viridian Lord maintains form by the willpower and faith of the warrior soul inside alone. Once this determination wavers, the body starts to crumble.	true
@@ -28,7 +25,6 @@ ui_unit_bullet_point_enums_tooltip_woad_paint	Woad Paint is made and applied by 
 ui_unit_bullet_point_enums_onscreen_name_woad_paint	Woad Paint	true
 ui_unit_bullet_point_enums_tooltip_disciplined	Having mastered their temper, they no longer suffer from the mood swings so common in the warbands of Albion, allowing them to utilize their war fury without any drawbacks.	true
 ui_unit_bullet_point_enums_onscreen_name_disciplined	Disciplined	true
-ui_unit_bullet_point_enums_tooltip_devestating_charge	As long as they aren't too injured or weakened, the charge of this unit will be savage, uncompromising and simply devastating.	true
 ui_unit_bullet_point_enums_onscreen_name_devestating_charge	Devastating Charge	true
 ui_unit_bullet_point_enums_tooltip_incredible_will	Even if the body is broken, Highlanders will attempt to fight on for some seconds, forcing their body to keep on moving by sheer willpower alone.	true
 ui_unit_bullet_point_enums_onscreen_name_incredible_will	Unbreakable Will	true
@@ -120,3 +116,11 @@ ui_unit_bullet_point_enums_tooltip_contaminating_attacks	The weapons made of cru
 ui_unit_bullet_point_enums_onscreen_name_contaminating_attacks	Contaminating Attacks	true
 ui_unit_bullet_point_enums_tooltip_missile_weakness	This unit is weak to ranged missile fire.	true
 ui_unit_bullet_point_enums_onscreen_name_missile_weakness	Missile Weakness	true
+ui_unit_bullet_point_enums_onscreen_name_woolly_coat	Woolly Coat	true
+ui_unit_bullet_point_enums_tooltip_woolly_coat	The thick woolly coat makes a Battle Ram harder to hurt.	true
+ui_unit_bullet_point_enums_onscreen_name_teefin'	Teefin'	true
+ui_unit_bullet_point_enums_tooltip_teefin'	This unit steals helmets, side arms and whatever else it can 'find' during an engagement.	true
+ui_unit_bullet_point_enums_onscreen_name_soup_cannon	Soup Cannon	true
+ui_unit_bullet_point_enums_tooltip_demonic_flesh	Bel'akor's body is unnaturally resilient to all kinds of damage. It will be difficult to bring this monster down.	true
+ui_unit_bullet_point_enums_onscreen_name_demonic_flesh	Demonic Flesh	true
+ui_unit_bullet_point_enums_tooltip_devestating_charge	As long as they aren't too injured or weakened, the charge of this unit will be savage, uncompromising and simply devastating.	true

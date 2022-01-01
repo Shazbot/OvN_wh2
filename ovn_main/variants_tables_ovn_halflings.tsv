@@ -58,3 +58,6 @@ ovn_mtl_poultry		mtl_poultry		1.0	0.8	0.0
 ovn_hlf_moot_general_1_poultry		halfling_moot_general		1.0	1.0	0.0	
 ovn_hlf_moot_general_2_poultry		halfling_moot_general_1		1.0	1.0	0.0	
 ovn_mtl_poultry_lord_general	VariantMeshes\wh_variantmodels\rp3\mtl\mtl_poultry\tech	mtl_poultry_barded		1.0	1.0	0.0	
+halfling_knights_kitchentable_ror		halfling_knights_kitchentable_ror		1.0	0.8	0.05	
+halfling_pantry_guards_ror		halfling_pantry_guards_ror		1.0	0.8	0.05	
+halfling_lords_of_harvest_rider_ror		halfling_lords_of_harvest_rider_ror		1.0	0.8	0.0	

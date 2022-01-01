@@ -45,7 +45,6 @@ unit_abilities_onscreen_name_ovn_hero_abilities_summon_tempest_djinn	Summon Temp
 unit_abilities_tooltip_text_ovn_hero_abilities_summon_tempest_djinn	Crack open the djinn vessel, release the Djinn held within.	true
 unit_abilities_onscreen_name_ovn_unit_passive_unbinding_djinn	Return to the Lamp	true
 unit_abilities_tooltip_text_ovn_unit_passive_unbinding_djinn	Give a Djinn too much freedom and they will start thinking dangerous thoughts.	true
-special_ability_phases_onscreen_name_wh_main_unit_contact_souped	Soup'd	true
 unit_abilities_onscreen_name_ovn_lore_passive_blessing_of_the_elements	Blessing of the Elements	true
 unit_abilities_onscreen_name_ovn_spell_desert_mirage	Mirage	true
 unit_abilities_onscreen_name_ovn_spell_desert_mirage_upgraded	Mirage Upgraded	true
@@ -290,3 +289,5 @@ unit_abilities_tooltip_text_hlf_master_chef_flush_soup	"So you want to get my fo
 unit_abilities_onscreen_name_hlf_master_chef_epinephrine	Epinephrine	true
 unit_abilities_tooltip_text_hlf_master_chef_epinephrine	Go live forever!	true
 special_ability_phases_onscreen_name_hlf_master_chef_contact_poisoned	[[col:red]][[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Deadly Poison Arrow！\\n[[img:icon_hp]][[/img]]Sustained Damage[[/col]]	true
+special_ability_phases_onscreen_name_wh_main_unit_contact_teefin	Teefin'	true
+special_ability_phases_onscreen_name_wh_main_unit_contact_souped	Soup'd	true

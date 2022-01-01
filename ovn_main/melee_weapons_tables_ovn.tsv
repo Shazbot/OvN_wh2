@@ -145,3 +145,4 @@ carrion_squig_hero_bone	0	0	25	140	260	0	3.0	spear	spear	medium	8	1.0	150	0.0	fa
 bacr_chs_daemonette	0	0	2	35	12	0	1.0	sword	claw		1	1.0	10	0.0	true		0	10	4.3	
 tzaangor_axe_staff	0	0	0	35	16	0	1.0	axe	axe		1	1.0	10	0.0	true		0	10	4.4	
 halfling_great_weapons_militia_bees	0	0	0	7	18	0	1.0	axe	axe		1	1.0	14	0.0	false	ovn_hlf_bee_throwers_contact	0	10	4.3	
+halfling_thief_sword	0	0	0	6	18	0	1.0	sword	sword		1	1.0	10	0.0	false	wh_main_unit_contact_teefin	0	10	4.6	

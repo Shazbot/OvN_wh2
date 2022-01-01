@@ -55,7 +55,6 @@ unit_description_short_texts_text_dargrimm_firebeard_dwarf_warriors	On the order
 unit_description_short_texts_text_azguz_bloodfist_dwarf_warriors	On the orders of King Ungrunn Dragonbane, envoy Engrol Goldtongue with a small army of well-known regiments was sent to help the allied Empire.	false
 unit_description_short_texts_text_urblab_rotgut_mercenary_ogres	These massive creatures stand twice as tall as a man and are far more strongly built. Although they are not particularly intelligent, they are strong and tough and fight ferociously. Ogres provoke fear. 	false
 unit_description_short_texts_text_galed_elf_archers	These tall, agile warriors are armed with powerful longbows. They are quick on their feet, are not slowed by difficult terrain and are equally as good hand-to-hand fighters as other Elves. 	false
-unit_description_short_texts_text_elrod_wood_elf_glade_guards	These tall, agile warriors live in the forests of Loren. They are quick on their feet, are not slowed by difficult terrain and are skilled in combat. 	false
 unit_description_short_texts_text_treeman_knarlroot	These extremely large creatures are incredibly strong and tough. However, their dry woody skin suffers great damage if burned, so fire is their greatest enemy. Treemen provoke fear. 	false
 unit_description_short_texts_text_black_avangers	Ramon Black formed the Avengers after a Skaven raiding party burned their homes and killed their families during an attack on their town of Wissenheim. They are sworn to hunt down and kill Skaven wherever they can find them.	false
 unit_description_short_texts_text_carlsson_cavalry	These warriors form part of the militia commanded by the Border Prince and former mercenary Sven Carlsson, a personal friend of Bernhardt. They ride into battle on mighty warhorses and are proficient in combat. 	false
@@ -97,7 +96,6 @@ unit_description_short_texts_text_halfling_cook	The promise of spiced mutton ste
 unit_description_short_texts_text_halfling_thief	While "borrowing" is a normal Halfling custom there are limits, as these poor fools have found out, forced into military service until their debt is repaid.	true
 unit_description_short_texts_text_sr_ogre_ror	Hailing from the Darklands, these ogres freed their Halfling captives and escorted them back to the Moot, where they now serve as guardians and are well-fed in return.	true
 unit_description_short_texts_text_halfling_cook_ror	There is no greater honour in the Moot than to be a cook at the Grand Cauldron.	true
-unit_description_short_texts_text_halfling_cat	The Halflings have developed a crude catapult that hurls vats of boiling slosh into the enemy ranks with devastating effect.	true
 unit_description_short_texts_text_halfling_cat_ror	The Halflings have developed a crude catapult that hurls vats of boiling slosh into the enemy ranks, many though do not like this technological advance and only one regiment has ever been commissioned until tempers simmer down.	true
 unit_description_short_texts_text_fim_skattach_short_text	Skattach is one of the most powerful living Mearghs - the witch-queens of the FImir - which has lead hear to claim the mantle of Hellmother, ruler of all Fimir Clans.	true
 unit_description_short_texts_text_ovn_stormrider_mount	Prince Althran is determined to uphold the ‘Stormrider’ name and will stop at nothing to protect his people and the domains of Ulthuan in glory and bloodshed.	true
@@ -146,7 +144,6 @@ unit_description_short_texts_text_ovn_unit_short_text_alb_stone_throw_giant	The 
 unit_description_short_texts_text_ovn_unit_short_text_trl_stone_throw_troll	These trolls are more than willing to throw their enemies a bone or two.	true
 unit_description_short_texts_text_arb_trebuchet	An effective siege engine capable of lobbing large wall... or creature crushing boulders.	true
 unit_description_short_texts_text_bacr_unit_short_text_kho_bloodletter	These Lesser Daemons are deadly warriors believed to have been foremost amongst the Blood God's followers in mortal life and whose will is as implacable and blood-hungry as that of Khorne himself.	true
-unit_description_short_texts_text_rbt_nurgle_daemon	Plaguebearers are the rank and file of Nurgle’s legions, crafted from the soul-stuff of mortals who have been slain.	true
 unit_description_short_texts_text_lzd_amazon	Ferocious female hunters said to prowl the deep southern jungles. 	true
 unit_description_short_texts_text_elo_albion_gryphon	Feral Gryphons are known to dwell on Albion and often clash with the giants for food and living space. In times of need the Truthsayers can use their close magical connection to call upon these creatures in times of war.	true
 unit_description_short_texts_text_bl_elo_dural_durak	Mightiest and wisest of the Truthsayers, Dural Durak leads Albion's ranks in times of peace and war.	true
@@ -200,3 +197,9 @@ unit_description_short_texts_text_elo_troll_giant	Sometimes, rarely, a seemingly
 unit_description_short_texts_text_tmb_grave_halberd	Undead corpses of long-past heroes and warlords.	true
 unit_description_short_texts_text_ovn_unit_short_text_mtl_cav_battleram_riders	Battle Rams have very thick woolly coats which makes them very hard to hurt. They also pack a powerful headbutt and have wicked horns.	true
 unit_description_short_texts_text_ovn_hlf_sheep_dogs	The Sheep Dogs are usually found towards the rear of the Halfling's cavalry units. Sheep Dogs are notoriously loyal to their masters and will often lay down their lives for them.	true
+unit_description_short_texts_text_halfling_knights_kitchentable_ror	With dreams of mountains of iced buns and rivers of fizzy-drink, they fearlessly entered Mordheim in search of gold, wyrdstone and abandoned kitchens to plunder.	true
+unit_description_short_texts_text_halfling_pantry_guards_ror	Pantry Guards are Cooks with more than a reputation for their culinary skills. These elite fighters act as bodyguards for Halfling Chuck Wagons.	true
+unit_description_short_texts_text_halfling_lords_of_harvest_ror	Lords of the Harvest are the leaders of gangs of farm labourers.	true
+unit_description_short_texts_text_elrod_wood_elf_glade_guards	These tall, agile warriors live in the forests of Loren. They are quick on their feet, are not slowed by difficult terrain and are skilled in combat. 	false
+unit_description_short_texts_text_halfling_cat	The Halflings have developed a crude catapult that hurls vats of boiling slosh into the enemy ranks with devastating effect.	true
+unit_description_short_texts_text_rbt_nurgle_daemon	Plaguebearers are the rank and file of Nurgle’s legions, crafted from the soul-stuff of mortals who have been slain.	true

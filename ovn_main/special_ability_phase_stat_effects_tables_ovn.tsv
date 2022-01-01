@@ -263,3 +263,6 @@ contact_tzaan_mutations	stat_melee_defence	-6.0	add
 ovn_hlf_bee_throwers_contact	stat_morale	-6.0	add
 ovn_hlf_bee_throwers_contact	stat_melee_attack	-5.0	add
 ovn_hlf_bee_throwers_contact	stat_melee_defence	-5.0	add
+wh_main_unit_contact_teefin	stat_armour	0.85	mult
+wh_main_unit_contact_teefin	stat_melee_damage_ap	0.85	mult
+wh_main_unit_contact_teefin	stat_melee_damage_base	0.85	mult

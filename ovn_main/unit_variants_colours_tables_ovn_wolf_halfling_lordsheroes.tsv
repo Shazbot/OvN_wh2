@@ -7,3 +7,6 @@ key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_
 283589586	wh2_main_emp_the_moot	50	160	140	0	0	128	officer	35	45	155	ovn_hlf_moot_general_2_poultry	
 281687641	wh2_main_emp_the_moot	0	153	204	240	240	240	officer	240	240	240	ovn_hlf_master_chef_1	
 289527641	wh2_main_emp_the_moot	240	240	240	240	240	240	officer	255	0	0	ovn_hlf_sheriff_1	
+289527642	wh2_main_emp_the_moot	50	50	119	243	243	243	soldier	1	1	1	halfling_knights_kitchentable_ror	
+289527643	wh2_main_emp_the_moot	50	50	119	102	255	255	soldier	1	1	1	halfling_lords_of_harvest_ror	
+289527644	wh2_main_emp_the_moot	153	153	0	102	255	255	soldier	255	255	255	halfling_pantry_guards_ror	
