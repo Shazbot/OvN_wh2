@@ -1,0 +1,4 @@
+ability	land_unit
+#land_units_to_unit_abilites_junctions_tables;0;db/land_units_to_unit_abilites_junctions_tables/@ovn_mtl_crazed_cooks	
+ovn_unit_abilities_crazed_cooks	halfling_cook
+ovn_unit_abilities_crazed_cooks_upgraded	halfling_cook_ror

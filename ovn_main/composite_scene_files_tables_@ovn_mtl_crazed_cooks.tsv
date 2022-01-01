@@ -1,0 +1,5 @@
+scene_filepath
+#composite_scene_files_tables;0;db/composite_scene_files_tables/@ovn_mtl_crazed_cooks
+composite_scene/spells_and_abilities/crazedcook.csc
+composite_scene/spells_and_abilities/crazedcook_blood.csc
+composite_scene/spells_and_abilities/crazedcook_custom_vfx.csc

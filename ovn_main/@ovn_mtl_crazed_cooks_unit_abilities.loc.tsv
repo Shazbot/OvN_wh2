@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/@ovn_mtl_crazed_cooks_unit_abilities.loc		
+unit_abilities_onscreen_name_ovn_unit_abilities_crazed_cooks	Crazed Cooks	true
+unit_abilities_tooltip_text_ovn_unit_abilities_crazed_cooks	Frenzied, crazed cooks (they've been at the 'spicy dumplings' again!) jump out of the cooks' formation whirling their heavy cookpots around.	true
+unit_abilities_onscreen_name_ovn_unit_abilities_crazed_cooks_upgraded	Crazed Cooks	true
+unit_abilities_tooltip_text_ovn_unit_abilities_crazed_cooks_upgraded	Frenzied, crazed cooks (they've been at the 'spicy dumplings' again!) jump out of the cooks' formation whirling their heavy cookpots around.	true
