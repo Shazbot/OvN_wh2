@@ -105,17 +105,17 @@ ovn_albion_military_3	increase_cap_albion_chief	faction_to_faction_own_unseen	1.
 ovn_albion_military_3	enable_recruitment_chief	province_to_province_own	1.0	1.0	1.0
 ovn_albion_outpost_military_3	increase_cap_albion_chief	faction_to_faction_own_unseen	1.0	1.0	1.0
 ovn_albion_outpost_military_3	enable_recruitment_chief	province_to_province_own	1.0	1.0	1.0
-ovn_Waystone_1	wh2_main_effect_force_enemy_campaign_movement_range	region_to_force_enemy	-10.0	-8.0	0.0
+ovn_Waystone_1	wh2_main_effect_force_enemy_campaign_movement_range	region_to_force_enemy	-15.0	-8.0	0.0
 ovn_Waystone_1	wh_main_effect_force_unit_stat_morale	region_to_force_own	4.0	2.0	0.0
 ovn_Waystone_1	wh_main_effect_force_army_campaign_ambush_attack_success_chance	province_to_force_own_provincewide	10.0	5.0	0.0
 ovn_Waystone_1	wh_main_effect_agent_action_success_chance_enemy_building	region_to_character_enemy	-10.0	-5.0	0.0
 ovn_Waystone_1	wh_main_effect_economy_gdp_industry	building_to_building_own	100.0	50.0	0.0
-ovn_Waystone_2	wh2_main_effect_force_enemy_campaign_movement_range	region_to_force_enemy	-15.0	-8.0	0.0
+ovn_Waystone_2	wh2_main_effect_force_enemy_campaign_movement_range	region_to_force_enemy	-20.0	-8.0	0.0
 ovn_Waystone_2	wh_main_effect_force_unit_stat_morale	region_to_force_own	5.0	2.0	0.0
 ovn_Waystone_2	wh_main_effect_force_army_campaign_ambush_attack_success_chance	province_to_force_own_provincewide	12.0	5.0	0.0
 ovn_Waystone_2	wh_main_effect_agent_action_success_chance_enemy_building	region_to_character_enemy	-12.0	-5.0	0.0
 ovn_Waystone_2	wh_main_effect_economy_gdp_industry	building_to_building_own	200.0	100.0	0.0
-ovn_Waystone_3	wh2_main_effect_force_enemy_campaign_movement_range	region_to_force_enemy	-20.0	-8.0	0.0
+ovn_Waystone_3	wh2_main_effect_force_enemy_campaign_movement_range	region_to_force_enemy	-25.0	-8.0	0.0
 ovn_Waystone_3	wh_main_effect_force_unit_stat_morale	region_to_force_own	6.0	2.0	0.0
 ovn_Waystone_3	wh_main_effect_force_army_campaign_ambush_attack_success_chance	province_to_force_own_provincewide	15.0	5.0	0.0
 ovn_Waystone_3	wh_main_effect_agent_action_success_chance_enemy_building	region_to_character_enemy	-15.0	-5.0	0.0
@@ -141,3 +141,6 @@ elo_temple_danu_3	enable_recruitment_albion_wyrd_druid	province_to_province_own	
 ovn_Albion_War_1	wh_main_effect_religion_conversion_chaos_bad	region_to_region_own	5.0	3.0	0.0
 ovn_Albion_War_2	wh_main_effect_religion_conversion_chaos_bad	region_to_region_own	10.0	5.0	0.0
 elo_citadel_lead	wh_main_effect_unit_recruitment_points	province_to_province_own	2.0	1.0	0.0
+ovn_Waystone_1	ovn_albion_waystone_construction_penalty_dummy	this_building	1.0	0.0	0.0
+ovn_Waystone_2	ovn_albion_waystone_construction_penalty_dummy	this_building	1.0	0.0	0.0
+ovn_Waystone_3	ovn_albion_waystone_construction_penalty_dummy	this_building	1.0	0.0	0.0

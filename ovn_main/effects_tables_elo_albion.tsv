@@ -117,3 +117,5 @@ elo_druid_circle_lead	morale.png	111	morale.png	battle	true
 recruitment_rank_truthsayer	experience.png	111	experience.png	campaign	true
 ovn_albion_second_lord_mission_morrigan	effect_rite.png	100	effect_rite.png	campaign	true
 ovn_albion_second_lord_mission_durak	effect_rite.png	100	effect_rite.png	campaign	true
+ovn_albion_waystone_build_time	construction.png	102	construction.png	campaign	false
+ovn_albion_waystone_construction_penalty_dummy	construction.png	102	construction.png	campaign	false

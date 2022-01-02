@@ -1,7 +1,7 @@
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
 #building_levels_tables;16;db/building_levels_tables/ovn_alb_waystone																										
 ovn_Waystone_1	ovn_Waystone	0	3	2500	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	1		true	0	0
-ovn_Waystone_2	ovn_Waystone	1	4	3500	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	2		true	0	0
-ovn_Waystone_3	ovn_Waystone	2	5	5000	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	3		true	0	0
+ovn_Waystone_2	ovn_Waystone	1	8	3500	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	2		true	0	0
+ovn_Waystone_3	ovn_Waystone	2	12	5000	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	3		true	0	0
 ovn_Waystone_marker	ovn_Waystone_marker	0	2	3000	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	3		true	0	0
 ovn_Waystone_beacon	ovn_Waystone_beacon	0	2	3000	0		false	0	0	0	0	false				true	ovn_Waystone	false	0.0	0	true	3		true	0	0

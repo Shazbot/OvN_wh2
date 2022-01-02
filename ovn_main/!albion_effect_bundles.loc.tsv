@@ -2,3 +2,5 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/!albion_effect_bundles.loc		
 effect_bundles_localised_title_wh2_main_lord_trait_nor_albion	Masters of a Blighted Land	true
 effect_bundles_localised_description_wh2_main_lord_trait_nor_albion	In years past Albion has sacrificed itself for the benefit of the rest of the world, siphoning the winds of magic into their very soil, poisoning and twisting the former paradise into a dangerous, bleak parody of itself. Yet they learned to thrive even in such corrupted lands.	true
+effect_bundles_localised_title_ovn_albion_waystone_build_time	Waystone Restoration	true
+effect_bundles_localised_description_ovn_albion_waystone_build_time	Albion only has resources to commit to a single Waystone restoration at a time.	true

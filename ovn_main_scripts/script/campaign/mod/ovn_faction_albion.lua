@@ -38,10 +38,63 @@ local ovn_albion_anc_pool = {
 	"anc_albion_skull_trophies"
 }
 
+local albion_region_invasion_positions = {
+	wh2_main_albion_albion = {
+		{311, 563},
+		{304, 563},
+		{303, 558},
+		{302, 555},
+		{305, 552},
+		{302, 549},
+		{301, 546},
+		{302, 542},
+		{303, 537},
+		{305, 533},
+		{307, 528},
+		{309, 532},
+		{313, 535},
+		{317, 537},
+		{320, 541},
+		{324, 542},
+		{329, 541},
+		{331, 545},
+		{335, 547},
+		{337, 548},
+		{340, 552},
+		{342, 555},
+	},
+	wh2_main_albion_citadel_of_lead = {
+		{311, 567},
+		{312, 573},
+		{317, 574},
+		{328, 584},
+		{329, 578},
+		{331, 575},
+		{341, 571},
+		{341, 567},
+		{341, 563},
+		{338, 560},
+	},
+	wh2_main_albion_isle_of_wights = {
+		{330, 536},
+		{330, 533},
+		{329, 531},
+		{326, 529},
+		{322, 529},
+		{329, 541},
+		{337, 548},
+		{313, 535},
+		{318, 539},
+	},
+}
+
 local invasion_queue = {}
 
 local function albion_mist_invasion_queue(region)
-	local x, y = cm:find_valid_spawn_location_for_character_from_settlement(albion_faction_key, region, false, false, 50)
+	local region_positions = albion_region_invasion_positions[region]
+	local random_position = region_positions[cm:random_number(#region_positions)]
+	local preset_x, preset_y = unpack(random_position)
+	local x, y = cm:find_valid_spawn_location_for_character_from_position(albion_faction_key, preset_x, preset_y, true)
 
 	if x == -1 then
 		return
@@ -540,6 +593,134 @@ local function albion_init()
         init_albion_mist_mechanic()
     end
 end
+
+local waystone_building_keys = {
+	ovn_Waystone_1 = true,
+	ovn_Waystone_2 = true,
+	ovn_Waystone_3 = true,
+}
+
+local waystone_building_component_ids = {
+	ovn_Waystone_1wh2_main_nor_albion = true,
+	ovn_Waystone_2wh2_main_nor_albion = true,
+	ovn_Waystone_3wh2_main_nor_albion = true,
+}
+
+local albion_isle_regions = {
+	"wh2_main_albion_albion",
+	"wh2_main_albion_citadel_of_lead",
+	"wh2_main_albion_isle_of_wights",
+}
+
+core:remove_listener("ovn_albion_add_waystone_construction_penalty")
+core:add_listener(
+	"ovn_albion_add_waystone_construction_penalty",
+	"BuildingConstructionIssuedByPlayer",
+	true,
+	function(context)
+		local faction = context:garrison_residence():faction()
+		local faction_name = faction:name()
+
+		if faction_name ~= albion_faction_key or not faction:is_human() then
+			return
+		end
+
+		if not waystone_building_keys[context:building()] then
+			return
+		end
+
+		if not cm:model():campaign_name("main_warhammer") then return end
+
+		local custom_bundle = cm:create_new_custom_effect_bundle("ovn_albion_waystone_build_time")
+		custom_bundle:add_effect("ovn_albion_waystone_build_time", "province_to_region_own", 150)
+
+		for _, region_key in ipairs(albion_isle_regions) do
+			local region = cm:get_region(region_key)
+			if region and region:owning_faction():name() == albion_faction_key then
+				cm:apply_custom_effect_bundle_to_faction_province(custom_bundle, region)
+				break
+			end
+		end
+	end,
+	true
+)
+
+--- If construction has proceeded at least 1 turn you get a dialogue popup to click,
+--- we don't check for that case.
+core:remove_listener('ovn_albion_waystone_building_cancelled')
+core:add_listener(
+	'ovn_albion_waystone_building_cancelled',
+	'ComponentLClickUp',
+	true,
+	function(context)
+		if not waystone_building_component_ids[context.string] then
+			return
+		end
+
+		if not cm:model():campaign_name("main_warhammer") then return end
+
+		if cm:get_local_faction_name(true) ~= albion_faction_key then
+			return
+		end
+
+		local comp = UIComponent(context.component)
+		if not comp then return end
+
+		local parent_comp =  UIComponent(comp:Parent())
+		if not parent_comp then return end
+
+		local parent_id = parent_comp:Id()
+		if parent_id and parent_id:starts_with("building_slot_") then
+			CampaignUI.TriggerCampaignScriptEvent(
+				cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
+				"ovn_albion_remove_construction_penalty"
+			)
+		end
+	end,
+	true
+)
+
+core:remove_listener("ovn_albion_on_triggered_remove_construction_penalty")
+core:add_listener("ovn_albion_on_triggered_remove_construction_penalty",
+	"UITrigger",
+	function(context)
+			return context:trigger():starts_with("ovn_albion_remove_construction_penalty")
+	end,
+	function()
+		for _, region_key in ipairs(albion_isle_regions) do
+			local region = cm:get_region(region_key)
+			if region and region:owning_faction():name() == albion_faction_key then
+				cm:remove_effect_bundle_from_faction_province("ovn_albion_waystone_build_time", region)
+			end
+		end
+	end,
+	true
+)
+
+core:remove_listener("ovn_albion_remove_waystone_construction_penalty")
+core:add_listener(
+	"ovn_albion_remove_waystone_construction_penalty",
+	"BuildingCompleted",
+	true,
+	function(context)
+		local faction = context:garrison_residence():faction()
+		local faction_name = faction:name()
+
+		if faction_name ~= albion_faction_key or not faction:is_human() then
+			return
+		end
+
+		local building_name = context:building():name()
+		if not waystone_building_keys[building_name] then
+			return
+		end
+
+		if not cm:model():campaign_name("main_warhammer") then return end
+
+		cm:remove_effect_bundle_from_faction_province("ovn_albion_waystone_build_time", cm:get_region("wh2_main_albion_albion"))
+	end,
+	true
+)
 
 cm:add_first_tick_callback(
     function()

@@ -140,3 +140,5 @@ effects_description_ovn_diplo_bonus_with_arkhan	Diplomatic relations: %+n with t
 effects_description_ovn_diplo_bonus_with_dread_king	Diplomatic relations: %+n with the faction of Dread King Legions	true
 effect_bundles_localised_title_ovn_tomb_king_diplo_hidden	Hidden Diplo Bonus	true
 effect_bundles_localised_description_ovn_tomb_king_diplo_hidden	Hidden Diplo Bonus	true
+effects_description_ovn_albion_waystone_build_time	Construction time: %+n% for Albion Waystone buildings	true
+effects_description_ovn_albion_waystone_construction_penalty_dummy	While this Waystone is being restored the restoration time for Waystones in other regions is increased	true
