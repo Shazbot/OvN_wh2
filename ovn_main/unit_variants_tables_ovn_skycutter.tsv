@@ -1,4 +1,0 @@
-faction	unit	name	variant	unit_card
-#unit_variants_tables;5;db/unit_variants_tables/ovn_skycutter				
-	cr_hef_veh_lothern_skycutter	cr_hef_veh_lothern_skycutter	cr_hef_lothern_skycutter_rider	cr_hef_skycutter
-	cr_hef_veh_lothern_skycutter_ror	cr_hef_veh_lothern_skycutter_ror	cr_hef_lothern_skycutter_rider	cr_hef_skycutter_ror

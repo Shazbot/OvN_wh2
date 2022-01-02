@@ -32,3 +32,5 @@ Default_land_infantry_melee	kho_bloodletter	25
 Default_land_infantry_melee	Great_Deamon1_unit	10
 Default_land_magic	belakor	10
 Default_land_support	ovn_mon_harpies	5
+Default_land_infantry_melee	wh_main_chs_inf_chaos_marauders_0_belakor_garrison	1
+Default_land_infantry_missile	ovn_fim_mon_javelin_0_belakor_garrison	1

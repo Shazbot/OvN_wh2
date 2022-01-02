@@ -8,3 +8,5 @@ id	priority	unit	unit_group
 92112212	1	ovn_mistmor	ovn_mistmor
 92112214	1	ovn_barrow_wight	ovn_barrow_wight
 92112215	1	ovn_marsh_hounds	ovn_marsh_hounds
+93112200	50	wh_main_chs_inf_chaos_marauders_0_belakor_garrison	wh_main_chs_inf_chaos_marauders_0_belakor_garrison
+93112201	15	ovn_fim_mon_javelin_0_belakor_garrison	ovn_fim_mon_javelin_0_belakor_garrison
