@@ -40,3 +40,5 @@ ovn_hlf_welf_2			wh2_main_emp_the_moot	wh_main_PLACEHOLDER	wood_elves_laurelorn	
 ovn_hlf_welf_3			wh2_main_emp_the_moot	wh_main_PLACEHOLDER	wood_elves_laurelorn	false	ovn_hlf_welf	true
 ovn_hlf_cig			wh2_main_emp_the_moot	wh_main_PLACEHOLDER	hlf_pipe	false	ovn_hlf_cig	true
 wh_main_emp_wizards_1			wh2_main_emp_the_moot	wh_main_PLACEHOLDER	empire_mages	false	wh_main_emp_wizards_1	true
+ovn_half_smiths_1			wh2_main_emp_the_moot	wh_main_PLACEHOLDER	empire_armourer	false	ovn_half_smiths_1	true
+ovn_half_smiths_2			wh2_main_emp_the_moot	wh_main_PLACEHOLDER	empire_armourer	false	ovn_half_smiths_2	true

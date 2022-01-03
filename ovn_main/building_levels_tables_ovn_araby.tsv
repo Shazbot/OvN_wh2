@@ -1,5 +1,24 @@
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
-#building_levels_tables;16;db/building_levels_tables/jvj_ovn_araby																										
+#building_levels_tables;16;db/building_levels_tables/ovn_araby																										
+ovn_arb_haikk	ovn_arb_haikk	0	8	8000	0		false	0	0	0	0	false				true	ovn_arb_haikk	false	0.0	0	true	4		true	0	0
+ovn_arb_bel	ovn_arb_bel	0	6	7000	0		false	0	0	0	0	false				true	ovn_arb_bel	false	0.0	0	true	3		true	0	0
+ovn_arb_fyrus	ovn_arb_fyrus	0	6	7000	0		false	0	0	0	0	false				true	ovn_arb_fyrus	false	0.0	0	true	3		true	0	0
+ovn_arb_Sabar	ovn_arb_Sabar	0	8	9000	0		false	0	0	0	0	false				true	ovn_arb_Sabar	false	0.0	0	true	4		true	0	0
+ovn_arb_Madrasat	ovn_arb_Madrasat	0	8	10000	0		false	0	0	0	0	false				true	ovn_arb_Madrasat	false	0.0	0	true	3		true	0	0
+ovn_arb_Sartosa	ovn_arb_Sartosa	0	12	12000	0		false	0	0	0	0	false				true	ovn_arb_Sartosa	false	0.0	0	true	5		true	0	0
+ovn_arb_Magritta	ovn_arb_Magritta	0	12	14000	0		false	0	0	0	0	false				true	ovn_arb_Magritta	false	0.0	0	true	5		true	0	0
+ovn_arb_Crypt	ovn_arb_Crypt	0	10	13000	0		false	0	0	0	0	false				true	ovn_arb_Crypt	false	0.0	0	true	5		true	0	0
+ovn_arb_Twilight	ovn_arb_Twilight	0	6	7000	0		false	0	0	0	0	false				true	ovn_arb_Twilight	false	0.0	0	true	3		true	0	0
+ovn_arb_hosp_1	ovn_arb_hosp	0	2	2000	0		false	0	0	0	0	false				true	ovn_arb_hosp	false	0.0	0	true	2		true	0	0
+ovn_arb_hosp_2	ovn_arb_hosp	1	4	3500	0		false	0	0	0	0	false				true	ovn_arb_hosp	false	0.0	0	true	3		true	0	0
+ovn_arb_forge_1	ovn_arb_forge	0	2	4000	0		false	0	0	0	0	false				true	ovn_arb_forge	false	0.0	0	true	2		true	0	0
+ovn_arb_forge_2	ovn_arb_forge	1	3	6000	0		false	0	0	0	0	false				true	ovn_arb_forge	false	0.0	0	true	3		true	0	0
+ovn_arb_forge_3	ovn_arb_forge	2	4	10000	0		false	0	0	0	0	false				true	ovn_arb_forge	false	0.0	0	true	4		true	0	0
+ovn_arb_nomad_1	ovn_arb_nomad	0	1	1200	0		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	2		true	0	0
+ovn_arb_nomad_2	ovn_arb_nomad	1	2	2400	0		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	3		true	0	0
+ovn_arb_nomad_3	ovn_arb_nomad	2	3	4600	0		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	4		true	0	0
+ovn_arb_nomad_4	ovn_arb_nomad	3	5	9000	50		false	0	0	0	0	false				true	ovn_arb_nomad	false	0.0	0	true	5		true	0	0
+ovn_arb_xp	ovn_arb_xp	0	2	900	50		false	0	0	0	0	false				true	ovn_arb_xp	false	0.0	0	true	2		true	0	0
 ovn_arb_barracks_1	ovn_arb_barracks	0	1	1000	0		false	0	0	0	0	false				true	ovn_arb_barracks	true	0.0	0	true	1		true	0	0
 ovn_arb_barracks_2	ovn_arb_barracks	1	2	2000	0		false	0	0	0	0	false				true	ovn_arb_barracks	true	0.0	0	true	2		true	0	0
 ovn_arb_barracks_3	ovn_arb_barracks	2	3	4000	0		false	0	0	0	0	false				true	ovn_arb_barracks	true	0.0	0	true	3		true	0	0
@@ -20,3 +39,5 @@ ovn_araby_walls_3	ovn_araby_walls	2	5	7500	0		false	0	0	0	0	false				true	ovn_ar
 ovn_araby_coffee_1	ovn_araby_ch_coffee	0	1	500	0		false	0	0	0	0	false				true	ovn_araby_coffee	false	0.0	0	true	1		true	0	0
 ovn_araby_coffee_2	ovn_araby_ch_coffee	1	2	750	0		false	0	0	0	0	false				true	ovn_araby_coffee	false	0.0	0	true	2		true	0	0
 ovn_araby_coffee_3	ovn_araby_ch_coffee	2	3	1000	0		false	0	0	0	0	false				true	ovn_araby_coffee	false	0.0	0	true	3		true	0	0
+arb_fatandira_landmark	arb_fatandira_landmark	0	6	10000	0		false	0	0	0	0	false				true	arb_fatandira_landmark	false	0.0	0	true	5		true	0	0
+ovn_arb_scy_tmb	ovn_arb_scy_tmb	0	5	5000	100		false	0	0	0	0	false				true	ovn_arb_scy_tmb	false	0.0	0	true	3		true	0	0

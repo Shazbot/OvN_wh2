@@ -3,8 +3,6 @@ variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	sc
 elo_supply_wagon		mtl_chuckwagon_campaign_01		1.0	1.0	-0.0	
 ovn_mtl_warpony_draught		emp_warhorse		1.0	0.85	0.0	
 ovn_mtl_warpony_armoured_draught		emp_warhorse_armoured		1.0	0.85	0.0	
-ovn_mtl_chuckwagon_rider_0		mtl_chuckwagon_rider_0		1.0	0.7	0.0	
-ovn_mtl_chuckwagon_rider_1		mtl_chuckwagon_rider_1		1.0	0.7	0.0	
 halfling_archer		halfling_archer		1.0	0.8	0.05	
 halfling_inf		halfling_inf		1.0	0.8	0.05	
 halfling_cock		halfling_cock		1.0	0.8	0.05	
@@ -24,7 +22,6 @@ halfling_warden_great		halfling_warden_great		1.0	0.8	0.05
 hlf_baby_dragon		hlf_baby_dragon		0.5	0.5	0.0	
 hlf_roast_pig		hlf_roast_pig		0.8	0.8	0.0	
 halfling_militia		halfling_militia		1.0	0.8	0.05	
-ovn_hlf_glibfoot		halfling_glibfoot		1.0	1.0	0.0	
 ovn_hlf_moot_general_0		halfling_moot_general		1.0	0.9	0.0	
 ovn_hlf_moot_general_01		halfling_moot_general_1		1.0	0.9	0.0	
 ovn_hlf_fieldwarden_0		halfling_fieldwarden		1.0	0.9	0.0	
@@ -55,9 +52,12 @@ ovn_mtl_swan_mgeneral	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\bod
 ovn_mtl_swan_rider		mtl_swan_rider		1.0	0.8	0.0	
 ovn_mtl_poultry_rider_0		halfling_rooster_rider		1.0	0.8	0.0	
 ovn_mtl_poultry		mtl_poultry		1.0	0.8	0.0	
-ovn_hlf_moot_general_1_poultry		halfling_moot_general		1.0	1.0	0.0	
-ovn_hlf_moot_general_2_poultry		halfling_moot_general_1		1.0	1.0	0.0	
 ovn_mtl_poultry_lord_general	VariantMeshes\wh_variantmodels\rp3\mtl\mtl_poultry\tech	mtl_poultry_barded		1.0	1.0	0.0	
 halfling_knights_kitchentable_ror		halfling_knights_kitchentable_ror		1.0	0.8	0.05	
 halfling_pantry_guards_ror		halfling_pantry_guards_ror		1.0	0.8	0.05	
 halfling_lords_of_harvest_rider_ror		halfling_lords_of_harvest_rider_ror		1.0	0.8	0.0	
+ovn_mtl_chuckwagon_rider_0		mtl_chuckwagon_rider_0		1.0	0.8	0.0	
+ovn_mtl_chuckwagon_rider_1		mtl_chuckwagon_rider_1		1.0	0.8	0.0	
+ovn_hlf_glibfoot		halfling_glibfoot		1.0	0.9	0.0	
+ovn_hlf_moot_general_1_poultry		halfling_moot_general		1.0	0.9	0.0	
+ovn_hlf_moot_general_2_poultry		halfling_moot_general_1		1.0	0.9	0.0	

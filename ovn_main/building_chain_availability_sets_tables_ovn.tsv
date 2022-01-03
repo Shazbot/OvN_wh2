@@ -1,5 +1,6 @@
 building_chain	id
 #building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/ovn	
+ovn_half_smiths	ovn_bas_halflings
 ovn_cd_slave	wh_main_bas_nor
 ovn_cd_work	wh_main_bas_nor
 wh2_dlc14_special_dragon_isle_port	wh_main_bas_nor
@@ -469,3 +470,4 @@ wh_main_special_settlement_black_crag_norsca	ovn_bas_rotbloods
 wh_main_special_settlement_eight_peaks_norsca	ovn_bas_rotbloods
 wh_main_special_settlement_karaz_a_karak_norsca	ovn_bas_rotbloods
 hertz_rotblood_nurgle_fester_warren	ovn_bas_rotbloods
+ovn_rot_skittergate	ovn_bas_rotbloods

@@ -1,5 +1,0 @@
-building_chain	building_level	building_set	exclude
-#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/ovn_half_buildings			
-ovn_Animal_Rearing		wh_main_set_empire_military_recruitment	false
-ovn_half_industry		wh_main_set_empire_economy	false
-ovn_half_dragon		wh_main_set_empire_military_recruitment	false

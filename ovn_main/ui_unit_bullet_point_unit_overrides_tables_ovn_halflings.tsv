@@ -28,10 +28,8 @@ anti_large	halfling_cook_ror
 magical_aura	halfling_cook_ror
 stalk	halfling_thief
 vanguard_deployment	halfling_thief
-expendable	halfling_thief
 expendable	halfling_militia
 poor_morale	halfling_spear
-poor_morale	halfling_thief
 poor_morale	halfling_militia
 magical_aura	elo_supply_wagon
 shielded	halfling_militia

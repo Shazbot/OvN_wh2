@@ -1,5 +1,6 @@
 key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
 #building_chains_tables;6;db/building_chains_tables/ovn								
+ovn_half_smiths			military	false	wh2_main_sch_support1_smith		1	
 ovn_Nehekharan			military	false	ovn_Nehekharan		7	
 ovn_Portal_Recruitment			money	false	wh2_main_sch_infrastructure2_industry		7	
 ovn_Portal_Recruitment_alt			money	false	wh2_main_sch_infrastructure2_industry		7	
@@ -126,3 +127,4 @@ ovn_warp_skaven_mercs			military	false	wh2_main_sch_military6		8
 ovn_Albion_Barrows			military	false	ovn_Albion_Barrows		0	
 ovn_Albion_War			military	false	ovn_Albion_War		0	
 hertz_rotblood_nurgle_fester_warren			money	false	hertz_rotblood_nurgle_building_superchain		3	
+ovn_rot_skittergate			money	false	ovn_rot_skittergate		0	

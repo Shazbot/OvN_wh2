@@ -1,3 +1,0 @@
-building_chain	building_level	building_set	exclude
-#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/ovn_hlf_salt_building			
-ovn_hlf_resource_salt		wh2_main_set_resource	false

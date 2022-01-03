@@ -1,5 +1,6 @@
 key	num_instances
 #building_instances_tables;0;db/building_instances_tables/ovn	
+ovn_half_smiths	1
 ovn_arb_hosp	1
 ovn_cd_slave	1
 ovn_cd_work	1
@@ -112,3 +113,4 @@ arb_flaming_scimitar_defense_magical_bombardment	1
 ovn_warp_skaven_mercs	1
 ovn_Albion_Barrows	1
 ovn_Albion_War	1
+ovn_rot_skittergate	1

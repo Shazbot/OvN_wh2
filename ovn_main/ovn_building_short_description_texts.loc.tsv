@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/onv_building_short_description_texts.loc		
+#Loc PackedFile;1;text/db/ovn_building_short_description_texts.loc		
 building_short_description_texts_short_description_ovn_arb_nomad_1	We bring fine goods from faraway lands. Pray, what is it you seek?	true
 building_short_description_texts_short_description_ovn_arb_nomad_2	Built near nomadic settlements they bring a steady trickle of gold and unusual items.	true
 building_short_description_texts_short_description_ovn_arb_nomad_3	By bringing the tribes of Araby together we can muster a force the like of which has never been seen.	true
@@ -127,3 +127,5 @@ building_short_description_texts_short_description_ovn_troll_1	Barely more than 
 building_short_description_texts_short_description_ovn_troll_2	A permanent troll abode, full of junk, bones and the aftermath of many troll meals.	true
 building_short_description_texts_short_description_ovn_troll_3	A big gathering place for trolls. The stench is barely tolerable for every unfortunate soul that dares venture too close to it.	true
 building_short_description_texts_short_description_ovn_troll_5	A huge bewildering maze that only the most daring adventurer would dare venture into.	true
+building_short_description_texts_short_description_ovn_half_smiths_1	A small shed were all the farming tools are stored.	true
+building_short_description_texts_short_description_ovn_half_smiths_2	The toolmakers produce all the scythes, cleavers and other tools needed by the Halflings.	true
