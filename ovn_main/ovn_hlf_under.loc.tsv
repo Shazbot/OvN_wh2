@@ -20,3 +20,4 @@ effect_bundles_localised_description_ovn_hlf_recruit_general	Click to recruit a 
 effect_bundles_localised_title_ovn_hlf_recruit_wizard	Recruit Grand Enchanter	true
 effect_bundles_localised_description_ovn_hlf_recruit_wizard	Click to recruit a Grand Enchanter near this Restaurant. Usable once per turn per restaurant.	true
 ovn_hlf_restaurant_discoverability	Chance the Restaurant gets closed down by the authorities: +20	false
+ovn_hlf_ui_wizard_req_label	Establish a Restaurant inside an Empire settlement that has a Wizard's Conclave to enable Wizard recruitment and increase the faction Wizard cap and recruitment rank.	true

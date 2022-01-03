@@ -22,7 +22,6 @@ local function binding_iter(binding)
 					pos = pos + 1
 					return item
 			end
-			return
 	end
 end
 
@@ -31,13 +30,38 @@ local json = require("ovn/json")
 local region_labels_with_foreign_slots = {}
 local regions_with_restaurant_recruit_buttons = {}
 
+local enable_wiz_recrutiment_bundle = "ovn_hlf_enable_wiz_recruitment"
+
 local function refresh_foreign_slots()
+	local num_emp_wiz_restaurants = 0
 	region_labels_with_foreign_slots = {}
 	---@type CA_FACTION
 	local lf = cm:get_local_faction(true)
 	for fsm in binding_iter(lf:foreign_slot_managers()) do
-		region_labels_with_foreign_slots["label_settlement:"..fsm:region():name()] = true
-		regions_with_restaurant_recruit_buttons[fsm:region():name()] = true
+		local region = fsm:region()
+		local region_name = region:name()
+		region_labels_with_foreign_slots["label_settlement:"..region_name] = true
+		regions_with_restaurant_recruit_buttons[region_name] = true
+
+		for slot in binding_iter(region:slot_list()) do
+			if slot and slot:has_building() then
+				local building_key = slot:building():name()
+				if building_key == "wh_main_emp_wizards_1" or building_key == "wh_main_emp_wizards_2" then
+					num_emp_wiz_restaurants = num_emp_wiz_restaurants + 1
+				end
+			end
+		end
+	end
+
+	if num_emp_wiz_restaurants == 0 then
+		cm:remove_effect_bundle(enable_wiz_recrutiment_bundle, "wh2_main_emp_the_moot")
+	else
+		local wiz_bundle = cm:create_new_custom_effect_bundle(enable_wiz_recrutiment_bundle)
+		wiz_bundle:add_effect("wh_main_effect_agent_enable_recruitment_wizard_empire", "faction_to_province_own", 1)
+		local rounded_ceil = math.ceil(num_emp_wiz_restaurants/2)
+		wiz_bundle:add_effect("wh_main_effect_agent_recruitment_xp_wizard_empire", "faction_to_province_own", rounded_ceil)
+		wiz_bundle:add_effect("wh_main_effect_agent_cap_increase_wizard_empire", "faction_to_faction_own_unseen", rounded_ceil)
+		cm:apply_custom_effect_bundle_to_faction(wiz_bundle, cm:get_faction("wh2_main_emp_the_moot"))
 	end
 
 	for region_key, _ in pairs(regions_with_restaurant_recruit_buttons) do

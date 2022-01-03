@@ -5,3 +5,4 @@ ovn_hlf_missions_unlock_ingredient	"No ‘shroom more bitter, dis stickier than 
 ovn_create_restaurant_cooldown	A Vampire Coven has been established recently, more time is required until we can efficiently establish another.	Vampire Coven Established	faction	1	edict_host_festag.png	true	false	true
 ovn_hlf_recruit_general			faction	1	army.png	true	true	false
 ovn_hlf_recruit_wizard			faction	1	wizard.png	true	true	false
+ovn_hlf_enable_wiz_recruitment			faction	0	wizard.png	false	false	true

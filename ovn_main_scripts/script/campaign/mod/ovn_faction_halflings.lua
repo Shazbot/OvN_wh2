@@ -132,6 +132,12 @@ local function halflings_init()
 							dignitary:SetTooltipText(existing_tooltip_text, true)
 							dignitary_label:SetStateText(effect.get_localised_string("ovn_hlf_ui_dignitary_label"))
 					end
+
+					local wizard = find_uicomponent(list_box, "wizard")
+					if not wizard then return end
+					local wizard_req_icon = find_uicomponent(wizard, "icon_building_required")
+					if not wizard_req_icon then return end
+					wizard_req_icon:SetTooltipText(effect.get_localised_string("ovn_hlf_ui_wizard_req_label"), true)
 			end,
 			true
 		)

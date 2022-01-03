@@ -333,3 +333,4 @@ effect_bundles_localised_title_ovn_arb_jehad_region	Holy Arabyan Ground	true
 effects_description_hertz_rotblood_nurgle_corruption_dummy	Chance per turn for Fanatics to be added to your faction mercenary pool	true
 effects_description_hertz_rotblood_nurgle_corruption_2_dummy	Greater chance per turn for Fanatics to be added to your faction mercenary pool	true
 effects_description_hertz_rotblood_nurgle_corruption_3_dummy	Even greater chance per turn for Fanatics to be added to your faction mercenary pool	true
+effects_description_wh_main_effect_agent_cap_increase_champion_sheriff	Hero capacity: %+n for Sheriff	true
