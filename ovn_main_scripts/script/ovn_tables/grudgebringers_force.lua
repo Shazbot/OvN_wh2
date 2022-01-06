@@ -1,7 +1,7 @@
 local grudgebringers = {
 	main_warhammer = {
 		faction_key = "wh2_main_emp_grudgebringers",
-		unit_list = "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,wh_dlc04_emp_inf_flagellants_0,wh2_dlc13_emp_inf_greatswords_ror_0",
+		unit_list = "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,eusebio_flagellants,wh2_dlc13_emp_inf_greatswords_ror_0",
 		region_key = "wh2_main_great_desert_of_araby_el-kalabad",
 		x = 675,
 		y = 200,
@@ -20,7 +20,7 @@ local grudgebringers = {
 	},
 	wh2_main_great_vortex = {
 		faction_key = "wh2_main_emp_grudgebringers",
-		unit_list = "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,wh_dlc04_emp_inf_flagellants_0,wh2_dlc13_emp_inf_greatswords_ror_0",
+		unit_list = "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,eusebio_flagellants,wh2_dlc13_emp_inf_greatswords_ror_0",
 		region_key = "wh2_main_vor_ash_river_quatar",
 		x = 715,
 		y = 305,

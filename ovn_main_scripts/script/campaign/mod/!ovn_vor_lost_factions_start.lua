@@ -629,7 +629,8 @@ local function grudgebringers_setup()
 			"grudgebringer_crossbow",
 			"treeman_gnarl_fist",
 			"urblab_rotgut_mercenary_ogres",
-			"galed_elf_archers"
+			"galed_elf_archers",
+			"eusebio_flagellants"
 		}
 
 		cm:add_unit_to_faction_mercenary_pool(

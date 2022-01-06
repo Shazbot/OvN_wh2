@@ -142,3 +142,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			grudgebringer_cannon	wh2_main_ror_units_all	false
 			grudgebringer_cavalry	wh2_main_ror_units_all	false
 			morgan_bernhardt	wh2_main_ror_units_all	false
+			eusebio_flagellants	emp_flagellants	false
+			eusebio_flagellants	emp_infantry	false
+			eusebio_flagellants	emp_state_troops	false
+			eusebio_flagellants	infantry_units	false
+			eusebio_flagellants	mp_cap_wh_dlc04_emp_inf_tattersouls_0	false
+			eusebio_flagellants	mp_set_emp_inf_flagellants_0	false
+			eusebio_flagellants	wh2_dlc11_emp_spearmen_swordsmen_flagellants_halberdiers	false
+			eusebio_flagellants	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights_ror	false
+			eusebio_flagellants	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
+			eusebio_flagellants	wh2_dlc17_volkmar_focus_units	false
+			eusebio_flagellants	wh2_main_ror_units_all	false

@@ -154,7 +154,7 @@ local function set_up_grudgebingers_ME_confed_listener()
                             if cm:get_faction("wh2_main_emp_grudgebringers"):is_dead() then
                                 cm:create_force_with_general(
                                     faction_string,
-                                    "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,wh_dlc04_emp_inf_flagellants_0",
+                                    "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,eusebio_flagellants",
                                     "wh2_main_dragon_isles_shattered_stone_isle",
                                     687,
                                     333,
@@ -167,7 +167,7 @@ local function set_up_grudgebingers_ME_confed_listener()
                                     false,
                                     function(cqi)
                                         cm:set_character_immortality("character_cqi:"..cqi, true);
-                                        cm:add_agent_experience("character_cqi:"..cqi, 2500)                
+                                        cm:add_agent_experience("character_cqi:"..cqi, 2500)
                                         cm:set_character_unique("character_cqi:"..cqi, true);
                                         local character = cm:get_character_by_cqi(cqi)
                                         cm:force_add_ancillary(character, "ovn_anc_magic_standard_ptolos", true, false)
@@ -260,7 +260,7 @@ local function set_up_grudgebingers_vortex_confed_listener()
                             if cm:get_faction("wh2_main_emp_grudgebringers"):is_dead() then
                                 cm:create_force_with_general(
                                     faction_string,
-                                    "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,wh_dlc04_emp_inf_flagellants_0",
+                                    "grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow,eusebio_flagellants",
                                     "wh2_main_dragon_isles_shattered_stone_isle",
                                     687,
                                     333,
@@ -545,7 +545,7 @@ local function grudgebringers_init()
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "elrod_wood_elf_glade_guards", 1, 20, 1, 0.1, 0, "", "", "", true)
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "dargrimm_firebeard_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
                         cm:add_unit_to_faction_mercenary_pool(faction_interface, "azguz_bloodfist_dwarf_warriors", 1, 20, 1, 0.1, 0, "", "", "", true)
-                
+
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_take_zandri", true)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_me_move_to_swem", true)
                         cm:force_add_ancillary(character, "chalcidar_orb", true, false)
@@ -736,7 +736,7 @@ local function grudgebringers_init()
                     false
                 ); ]]
 
-              
+
 
                 core:add_listener(
                     "Enter_Swem_Listener",
@@ -748,7 +748,7 @@ local function grudgebringers_init()
                         cm:add_unit_to_faction_mercenary_pool(faction_obj, "ceridan", 1, 20, 1, 0.1, 0, "", "", "", true)
                         --cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_take_kasabar", true)
                         --cm:set_saved_value("ceridan_rescue", true)
-                
+
                     end,
                     false
                 )
@@ -779,7 +779,7 @@ local function grudgebringers_init()
                     function(context)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_kill_dk", true)
                         cm:trigger_mission("wh2_main_emp_grudgebringers", "ovn_grudge_vortex_take_morgheim", true)
-        
+
                         message(faction_key, "grudge_start_two")
                     end,
                     false
