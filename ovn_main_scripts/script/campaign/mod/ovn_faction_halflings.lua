@@ -1,3 +1,62 @@
+local function create_wizards_unlocking_tutorial()
+	local dialogue_box = core:get_or_create_component("ovn_hlf_wizards_tutorial", "ui/common ui/dialogue_box")
+	core:add_listener(
+		"ovn_hlf_wizards_tutorial_real_time_trigger_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "ovn_hlf_wizards_tutorial_real_time_trigger"
+		end,
+		function(context)
+			local dialogue_box = find_uicomponent(core:get_ui_root(), "ovn_hlf_wizards_tutorial")
+			if not dialogue_box then return end
+
+			dialogue_box:SetCanResizeWidth(true)
+			dialogue_box:SetCanResizeHeight(true)
+			dialogue_box:Resize(600,850)
+			local replenish_text = find_uicomponent(dialogue_box, "DY_text")
+			replenish_text:SetStateText("[[col:white]]Build a Restaurant under an Empire settlement with a Wizard's Conclave to be able to recruit Wizards.[[/col]]")
+			replenish_text:SetDockingPoint(5)
+			replenish_text:SetDockOffset(1,280)
+
+			local button_cancel = find_uicomponent(dialogue_box, "both_group", "button_cancel")
+			button_cancel:SetVisible(false)
+
+			local button_tick = find_uicomponent(dialogue_box, "both_group", "button_tick")
+			button_tick:SetDockingPoint(8)
+			button_tick:SetDockOffset(0,-30)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("ovn_hlf_wizards_tutorial_image", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/ovn/ovn_hlf_wizards_tutorial.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(542,542)
+			bg_image:SetDockOffset(0,-115)
+		end,
+		false
+	)
+	real_timer.register_singleshot("ovn_hlf_wizards_tutorial_real_time_trigger", 0)
+end
+
+core:remove_listener("ovn_hlf_wizards_tutorial_opened_panel")
+core:add_listener(
+	"ovn_hlf_wizards_tutorial_opened_panel",
+	"PanelOpenedCampaign",
+	true,
+	function(context)
+		if cm:get_local_faction_name(true) ~= "wh2_main_emp_the_moot" then return end
+		if context.string ~= "character_panel" then return end
+		local agents = find_uicomponent(core:get_ui_root(), "character_panel", "agent_parent")
+		if not agents or not agents:Visible() then return end
+
+		if not cm:get_saved_value("ovn_hlf_wizards_tutorial_was_shown") then
+			cm:set_saved_value("ovn_hlf_wizards_tutorial_was_shown", true)
+			create_wizards_unlocking_tutorial()
+		end
+	end,
+	true
+)
+
 local function setup_diplo()
     cm:force_diplomacy("faction:wh2_main_emp_the_moot", "faction:wh_main_emp_empire", "all", true, true, true);
     if cm:get_faction("wh2_main_emp_the_moot"):is_human() then
