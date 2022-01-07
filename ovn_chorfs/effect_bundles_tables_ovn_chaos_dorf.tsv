@@ -1,4 +1,0 @@
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect
-#effect_bundles_tables;3;db/effect_bundles_tables/ovn_chaos_dorf						
-wh2_main_lord_trait_ovn_chaos_dwarfs	ph	ph	faction	1	dlc10_sword_of_khaine.png	false
-ovn_faction_trait_chorf			faction	1	food.png	false

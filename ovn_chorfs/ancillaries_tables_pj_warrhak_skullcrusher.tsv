@@ -3,3 +3,4 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 wh_main_anc_mount_chs_great_taurus_warrhak	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	warrhak_skullcrusher_taurus		1	1		false	false	false
 ovn_warrhak_bandolier	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false
 ovn_warrhak_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false
+ovn_warrhak_tank	wh_main_anc_mount_steam_tank	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	warrhak_skullcrusher_tank		1	1		false	false	false

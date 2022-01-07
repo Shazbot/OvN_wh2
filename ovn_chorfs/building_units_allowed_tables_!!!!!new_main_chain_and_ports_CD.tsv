@@ -1,5 +1,5 @@
 key	building	unit	xp	conditions	faction	enabled
-#building_units_allowed_tables;4;db/building_units_allowed_tables/!!!!!new_main_chain_and_ports_CD						
+#building_units_allowed_tables;4;db/building_units_allowed_tables/!!!!!new_main_chain_and_ports_cd						
 427770708	ovn_nor_outpost_major_human_1	goblin_slaves	0	0		false
 879899675	ovn_nor_outpost_major_human_1_coast	goblin_slaves	0	0		false
 558095289	ovn_nor_outpost_major_human_2_coast	goblin_slaves	0	0		false

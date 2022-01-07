@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/ovn_chorf_dsmith_req					
+			k'daai_destroyer	ovn_kdaai	false
+			k'daai_fireborn	ovn_kdaai	false

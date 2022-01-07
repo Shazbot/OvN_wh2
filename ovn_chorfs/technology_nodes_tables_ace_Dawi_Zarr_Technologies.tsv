@@ -1,5 +1,5 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
-#technology_nodes_tables;3;db/technology_nodes_tables/ace_Dawi_Zarr_Technologies											
+#technology_nodes_tables;3;db/technology_nodes_tables/ace_dawi_zarr_technologies											
 tech_chs_dawi_main_1		wh2_main_ovn_chaos_dwarfs	1	tech_chs_dawi_main_1	ovn_chaos_dwarfs_tech	0	100	2500	0		
 tech_chs_dawi_main_2		wh2_main_ovn_chaos_dwarfs	1	tech_chs_dawi_main_2	ovn_chaos_dwarfs_tech	2	100	5000	0		
 tech_chs_dawi_main_3		wh2_main_ovn_chaos_dwarfs	1	tech_chs_dawi_main_3	ovn_chaos_dwarfs_tech	4	100	10000	0		

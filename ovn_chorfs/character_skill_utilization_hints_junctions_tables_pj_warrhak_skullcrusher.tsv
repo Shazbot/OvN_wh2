@@ -1,3 +1,6 @@
 hint	key
 #character_skill_utilization_hints_junctions_tables;0;db/character_skill_utilization_hints_junctions_tables/pj_warrhak_skullcrusher	
 USEFUL_ALWAYS	wh_main_skill_chs_warrhak_taurus
+USEFUL_ALWAYS	ovn_warrhak_tank
+USEFUL_ALWAYS	ovn_warrhak_armour
+USEFUL_ALWAYS	ovn_warrhak_bandolier

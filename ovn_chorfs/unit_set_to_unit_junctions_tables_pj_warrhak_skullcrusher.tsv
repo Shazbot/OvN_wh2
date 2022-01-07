@@ -8,3 +8,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			warrhak_skullcrusher_taurus	flying_units	false
 			warrhak_skullcrusher_taurus	chs_all	false
 			warrhak_skullcrusher_taurus	chs_lords	false
+			warrhak_skullcrusher_tank	all_units_excluding_terror	true
+			warrhak_skullcrusher_tank	chs_all	false
+			warrhak_skullcrusher_tank	chs_lords	false
+			warrhak_skullcrusher_tank	aachaosdwarftag	false
+			warrhak_skullcrusher_tank	wh2_mp_single_entity_monsters	false

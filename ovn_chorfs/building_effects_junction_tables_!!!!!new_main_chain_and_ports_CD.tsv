@@ -1,5 +1,5 @@
 building	effect	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables;3;db/building_effects_junction_tables/!!!!!new_main_chain_and_ports_CD					
+#building_effects_junction_tables;3;db/building_effects_junction_tables/!!!!!new_main_chain_and_ports_cd					
 ovn_nor_outpost_major_human_1_coast	wh_main_effect_construction_slot_dummy	this_building	1.0	1.0	1.0
 ovn_nor_outpost_major_human_1_coast	wh_main_effect_economy_gdp_subsistance	building_to_building_own	80.0	40.0	0.0
 ovn_nor_outpost_major_human_1_coast	wh_main_effect_force_army_campaign_siege_defend_holdout_time_hidden	region_to_region_own	2.0	2.0	2.0

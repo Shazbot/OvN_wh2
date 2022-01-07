@@ -1,5 +1,0 @@
-key	localised_description	localised_title	bundle_target	priority	ui_icon
-#effect_bundles_tables;2;db/effect_bundles_tables/pj_chorf_panel					
-pj_zhatan	 		faction	1	pj_zhatan_bundle.png
-pj_immortal	 		faction	1	mannslieb_solar_eclipse.png
-pj_draz	 		faction	1	mannslieb_lunar_eclipse.png

@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_chorf_dsmith_req.loc		
+effect_bundles_localised_description_ovn_chorf_dsmith_army_req	If the army dosn't have a Daemonsmith the resources needed to control the K'daai must be sought and paid for elsewhere.	false
+effect_bundles_localised_title_ovn_chorf_dsmith_army_req	No Daemonsmith Presence	false
+effects_description_ovn_chorf_dsmith_army_unit_upkeep	Upkeep: %+n% for K'daai Destroyer and K'daai Fireborn units	true

@@ -1,3 +1,4 @@
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
 #units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/pj_warrhak_skullcrusher								
 wh2_main_chs_chaos_dwarfs	true	warrhak_skullcrusher	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/warrhak_skullcrusher.png	warrhak_skullcrusher	wh_main_chs_cha_dwarf_lord	false
+wh2_main_chs_chaos_dwarfs	true	warrhak_skullcrusher_tank	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/warrhak_skullcrusher.png	warrhak_skullcrusher_tank	wh_main_chs_cha_dwarf_lord	false

@@ -1,5 +1,5 @@
 child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset
-#technology_node_links_tables;2;db/technology_node_links_tables/ace_Dawi_Zarr_Technologies						
+#technology_node_links_tables;2;db/technology_node_links_tables/ace_dawi_zarr_technologies						
 tech_chs_dawi_branch_1_1	tech_chs_dawi_main_1	0	3	4	0.0	0.0
 tech_chs_dawi_branch_1_2	tech_chs_dawi_main_1	0	3	4	0.0	0.0
 tech_chs_dawi_branch_1_3	tech_chs_dawi_main_1	0	3	4	0.0	0.0

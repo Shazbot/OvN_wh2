@@ -1,3 +1,3 @@
-faction_key	faction_group	is_major_faction	sort_order
-#frontend_faction_groups_to_factions_tables;0;db/frontend_faction_groups_to_factions_tables/ovn_chaos_dorf			
-wh2_main_ovn_chaos_dwarfs	destruction	false	134
+faction_key	faction_group	is_major_faction	sort_order	show_in_frontend
+#frontend_faction_groups_to_factions_tables;1;db/frontend_faction_groups_to_factions_tables/ovn_chaos_dorf				
+wh2_main_ovn_chaos_dwarfs	destruction	false	134	false

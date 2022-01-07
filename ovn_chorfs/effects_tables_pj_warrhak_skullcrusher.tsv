@@ -2,3 +2,4 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;3;db/effects_tables/pj_warrhak_skullcrusher					
 pj_frenzy_versus_dwarfs	general_ability.png	620	general_ability.png	battle	true
 pj_xp_gain_increase_dwarfs	experience.png	611	experience.png	battle	true
+ovn_warrhak_enable_mount_tank	mount.png	50	mount.png	both	true

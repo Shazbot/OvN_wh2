@@ -1,5 +1,5 @@
 building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables;4;db/building_culture_variants_tables/!!!!!new_main_chain_and_ports_CD								
+#building_culture_variants_tables;4;db/building_culture_variants_tables/!!!!!new_main_chain_and_ports_cd								
 ovn_nor_outpost_major_human_1			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	dwarf_city	false	ovn_chorf_settlements	true
 ovn_nor_outpost_major_human_1_coast			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	dwarf_city	false	ovn_chorf_settlements	true
 ovn_nor_outpost_major_human_2			wh2_main_ovn_chaos_dwarfs	wh_main_PLACEHOLDER	dwarf_city	false	ovn_chorf_settlements	true

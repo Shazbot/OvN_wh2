@@ -2,3 +2,7 @@ variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	sc
 #variants_tables;6;db/variants_tables/pj_warrhak_skullcrusher							
 pj_warrhak_skullcrusher		pj_warrhak_skullcrusher		1.0	1.15	0.0	
 pj_warrhak_skullcrusher_mnt		pj_warrhak_skullcrusher_mnt		1.0	1.0	0.0	
+ovn_warrhak_tank		ovn_warrhak_tank		1.0	1.0	0.0	
+ovn_warrhak_tank_turret		ovn_warrhak_tank_turret		1.0	1.0	0.0	
+ovn_warrhak_tank_campaign	warmachines/engines/emp_steam_tank/ovn_warrhak_tank_tech/	ovn_warrhak_tank_campaign		0.75	0.75	0.0	
+ovn_warrhak_tank_small		ovn_warrhak_tank		0.75	0.75	0.0	
