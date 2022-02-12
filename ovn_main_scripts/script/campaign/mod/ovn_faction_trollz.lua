@@ -62,18 +62,20 @@ end
                 2504
             )
         end
-
-        core:add_listener(
-            "troll_karak_azgal_mission",
-            "FactionTurnStart",
-            function(context)
-                return context:faction():is_human() and context:faction():name() == faction_key and cm:model():turn_number() == 2
-            end,
-            function(context)
-                cm:trigger_mission(faction_key, "ovn_troll_me_take_karak_azgal", true)
-            end,
-            false
-        )
+        
+if cm:model():turn_number() < 3 then
+    core:add_listener(
+        "me_troll_karak_azgal_mission",
+        "FactionTurnStart",
+        function(context)
+            return context:faction():is_human() and cm:model():turn_number() == 2
+        end,
+        function(context)
+            cm:trigger_mission("wh2_main_nor_trollz", "ovn_troll_me_take_karak_azgal", true)
+        end,
+        false
+    )
+end
 
         core:add_listener(
             "troll_lord_recruited_add_wellfed_eb",

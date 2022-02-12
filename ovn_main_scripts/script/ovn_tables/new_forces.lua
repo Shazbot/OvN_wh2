@@ -83,7 +83,7 @@ local new_forces = {
 
         wh2_main_nor_servants_of_fimulneid = {
             faction_key = "wh2_main_nor_servants_of_fimulneid",
-            unit_list = "wh_dlc08_nor_mon_fimir_1,ovn_shearl,wh2_dlc15_grn_mon_river_trolls_0_no_scrap,ovn_fimm,ovn_boglar,ovn_boglar,ovn_boglar,elo_fenbeast",
+            unit_list = "wh_dlc08_nor_mon_fimir_1,ovn_shearl,ovn_swamp_daemons,ovn_fimm,ovn_boglar,ovn_boglar,ovn_boglar,elo_fenbeast",
             region_key = "wh2_main_great_desert_of_araby_el-kalabad",
             x = 653,
             y = 170,

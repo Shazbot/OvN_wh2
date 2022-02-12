@@ -776,21 +776,31 @@ local function trollz_setup()
 		cm:teleport_to(cm:char_lookup_str(char_cqi), 439, 40, true)
 
 		cm:transfer_region_to_faction("wh_main_southern_badlands_agrul_migdhal", "wh2_main_nor_trollz")
+        cm:transfer_region_to_faction("wh_main_blightwater_karak_azgal", "wh_main_grn_red_fangs")
 
 		local agrul_region = cm:get_region("wh_main_southern_badlands_agrul_migdhal")
 		cm:heal_garrison(agrul_region:cqi())
 		cm:instantly_set_settlement_primary_slot_level(agrul_region:settlement(), 2)
+        
+        local azgal_region = cm:get_region("wh_main_blightwater_karak_azgal")
+		cm:instantly_set_settlement_primary_slot_level(agrul_region:settlement(), 2)
+        cm:heal_garrison(azgal_region:cqi())
+        
+        	cm:force_religion_factors("wh2_main_albion_albion", "wh_main_religion_untainted", 0.5, "wh_main_religion_chaos", 0.5)
 
-		cm:transfer_region_to_faction("wh2_main_atalan_mountains_eye_of_the_panther", "wh2_main_nor_trollz")
-		cm:heal_garrison(cm:get_region("wh2_main_atalan_mountains_eye_of_the_panther"):cqi())
 
 		if not troll:is_human() then
 			cm:transfer_region_to_faction("wh_main_vanaheim_mountains_troll_fjord", "wh2_main_nor_trollz")
 			cm:transfer_region_to_faction("wh2_main_misty_hills_wreckers_point", "wh2_main_nor_trollz")
 			cm:transfer_region_to_faction("wh_main_rib_peaks_grom_peak", "wh2_main_nor_trollz")
+            cm:transfer_region_to_faction("wh2_main_atalan_mountains_eye_of_the_panther", "wh2_main_nor_trollz")
 			cm:heal_garrison(cm:get_region("wh_main_vanaheim_mountains_troll_fjord"):cqi())
 			cm:heal_garrison(cm:get_region("wh2_main_misty_hills_wreckers_point"):cqi())
 			cm:heal_garrison(cm:get_region("wh_main_rib_peaks_grom_peak"):cqi())
+            cm:heal_garrison(cm:get_region("wh2_main_atalan_mountains_eye_of_the_panther"):cqi())
+            
+            cm:force_religion_factors("wh2_main_albion_albion", "wh_main_religion_untainted", 0.25, "wh_main_religion_chaos", 0.75)
+
 		end
 
 		--local unit_key = "chosen_asur_lions" -- String unit_record
@@ -886,8 +896,10 @@ local function treeblood_setup()
 			"ovn_killing_eye",
 			"wh_pro04_nor_mon_fimir_ror_0",
 			"ovn_gharnus_demon",
-			"wh_pro04_chs_mon_chaos_spawn_ror_0",
-			"ovn_finmor_belakor"
+			"ovn_finmor_belakor",
+            "ovn_daemonomaniac_ror",
+            "ovn_marsh_hornets_ror",
+            "ovn_moor_hounds_ror"
 		}
 
 		for _, unit in ipairs(units) do
@@ -1111,7 +1123,9 @@ local function fimir_setup()
 			"ovn_killing_eye",
 			"wh_pro04_nor_mon_fimir_ror_0",
 			"ovn_gharnus_demon",
-			"wh_pro04_chs_mon_chaos_spawn_ror_0"
+            "ovn_daemonomaniac_ror",
+            "ovn_marsh_hornets_ror",
+            "ovn_moor_hounds_ror"
 		}
 
 		for _, unit in ipairs(units) do

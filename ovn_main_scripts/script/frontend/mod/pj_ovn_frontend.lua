@@ -96,7 +96,7 @@ local starting_units = {
 		starting_unit_3 = "elo_bile_trolls", unit_card_3 = "elo_bile_trolls"
 	},
 	["fimir_servants"] = {
-		starting_unit_1 = "wh2_dlc15_grn_mon_river_trolls_0", unit_card_1 = "wh2_dlc15_grn_mon_river_trolls",
+		starting_unit_1 = "ovn_swamp_daemons", unit_card_1 = "ovn_swamp_daemons",
 		starting_unit_2 = "elo_fenbeast", unit_card_2 = "elo_fenbeast",
 		starting_unit_3 = "wh_dlc08_nor_mon_fimir_1", unit_card_3 = "wh_dlc08_nor_fimir_warriors_great_weapons"
 	},
