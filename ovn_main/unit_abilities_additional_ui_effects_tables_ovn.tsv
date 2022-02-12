@@ -30,3 +30,6 @@ ovn_heal_passive_24	109
 deals_damage_to_friendly	105
 unit_kills_itself	103
 ovn_spawn_fanatics	105
+elo_summon_sea_trolls	101
+ovn_hlf_mislead_gain_attributes	1
+ovn_hlf_mislead_creates_mirror	1
