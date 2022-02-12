@@ -64,21 +64,21 @@ end
 
 -- we can cache checking for the same lord here, but not needed for just a few dlc checks
 local dlc_requirements = {
-	-- Rotbloods
-	["1668499673"] = {
-		lords_to_check = { "Archaon the Everchosen", "Wulfrik the Wanderer" },
-		message = "This lord is unavailable, because you don't have the Warriors of Chaos DLC or the Norsca DLC."
-	},
-	-- Servants
-	["1267543494"] = {
-		lords_to_check = { "Wulfrik the Wanderer" },
-		message = "This lord is unavailable, because you don't have the Norsca DLC."
-	},
-	-- Be'lakor
-	["924962720"] = {
-		lords_to_check = { "Archaon the Everchosen", "Wulfrik the Wanderer" },
-		message = "This lord is unavailable, because you don't have the Warriors of Chaos DLC or the Norsca DLC."
-	},
+	-- -- Rotbloods
+	-- ["1668499673"] = {
+	-- 	lords_to_check = { "Archaon the Everchosen", "Wulfrik the Wanderer" },
+	-- 	message = "This lord is unavailable, because you don't have the Warriors of Chaos DLC or the Norsca DLC."
+	-- },
+	-- -- Servants
+	-- ["1267543494"] = {
+	-- 	lords_to_check = { "Wulfrik the Wanderer" },
+	-- 	message = "This lord is unavailable, because you don't have the Norsca DLC."
+	-- },
+	-- -- Be'lakor
+	-- ["924962720"] = {
+	-- 	lords_to_check = { "Archaon the Everchosen", "Wulfrik the Wanderer" },
+	-- 	message = "This lord is unavailable, because you don't have the Warriors of Chaos DLC or the Norsca DLC."
+	-- },
 }
 
 function ovn_frontend()
