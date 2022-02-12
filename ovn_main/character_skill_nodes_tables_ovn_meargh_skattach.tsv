@@ -1,7 +1,5 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_meargh_skattach										
-fim_meargh_skattach_immortality		wh2_main_skill_all_immortality_lord	wh_main_skill_node_fim_meargh_skattach		0.0	6.0		0	0	true
-fim_meargh_skattach_from_mists		elo_fimir_from_mists	wh_main_skill_node_fim_meargh_skattach		0.0	5.0		0	0	true
 fim_meargh_skattach_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	wh_main_skill_node_fim_meargh_skattach		5.0	0.0		0	0	true
 fim_meargh_skattach_campaign_02		wh2_main_skill_def_campaign_dreaded_slaver	wh_main_skill_node_fim_meargh_skattach		5.0	1.0		0	0	true
 fim_meargh_skattach_campaign_03		wh_main_skill_chs_lord_campaign_serve_or_die	wh_main_skill_node_fim_meargh_skattach		5.0	2.0		0	0	true
@@ -51,3 +49,5 @@ wh_main_skill_node_fim_meargh_skattach_death_magic1_11		wh_main_skill_all_magic_
 wh_main_skill_node_fim_meargh_skattach_death_magic1_dummy		wh2_main_skill_magic_dark_chillwind_power_of_darkness_dummy	wh_main_skill_node_fim_meargh_skattach		2.0	11.0		1	0	false
 fim_meargh_skattach_ancillary_01		fim_meargh_skattach_anc_staff_balor	wh_main_skill_node_fim_meargh_skattach		0.0	0.0		0	0	true
 fim_meargh_skattach_ancillary_02		fim_meargh_skattach_anc_hellmother_crown	wh_main_skill_node_fim_meargh_skattach		0.0	1.0		0	0	true
+fim_meargh_skattach_immortality		wh2_main_skill_all_immortality_lord	wh_main_skill_node_fim_meargh_skattach		0.0	8.0		0	0	true
+fim_meargh_skattach_from_mists		elo_fimir_from_mists	wh_main_skill_node_fim_meargh_skattach		0.0	7.0		0	0	true

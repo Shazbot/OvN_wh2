@@ -38,3 +38,4 @@ fatigue_res	ovn_rot_mark_nurgle	positive
 snipe	ovn_hlf_mislead	positive
 stalk	ovn_hlf_mislead	positive
 unspottable	ovn_hlf_mislead	positive
+immune_to_psychology	ovn_unit_passive_aura_great_eye	positive

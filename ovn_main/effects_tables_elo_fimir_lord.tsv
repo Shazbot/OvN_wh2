@@ -113,3 +113,7 @@ elo_belakor_cav_bog_r7_cb	charge.png	100	charge.png	battle	true
 elo_champions_chaos_r7_wps	weapon_damage.png	100	weapon_damage.png	battle	true
 elo_champions_chaos_r7_md	defence.png	100	defence.png	battle	true
 elo_champions_chaos_r7_magicres	resistance_magic.png	100	resistance_magic.png	battle	true
+fim_main_effect_agent_cap_increase_champion_finmor	agent.png	2	agent.png	campaign	true
+fim_main_effect_agent_enable_recruitment_finmor	agent.png	2	agent.png	campaign	true
+fim_main_effect_agent_xp_increase_finmor	agent.png	3	agent.png	campaign	true
+fim_main_effect_agent_xp_increase_balefiend	agent.png	3	agent.png	campaign	true

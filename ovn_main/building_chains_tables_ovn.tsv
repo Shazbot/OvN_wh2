@@ -65,7 +65,7 @@ ovn_blood_landmark			military	false	ovn_blood_landmark		7
 ovn_blood_keep			military	false	ovn_blood_keep		7	
 ovn_Citadel_of_dusk			military	false	ovn_Citadel_of_dusk		7	
 ovn_fimir_income			money	false	wh_main_sch_norsca_outpost_income		7	
-ovn_fimir_agent			military	false	wh2_main_sch_military2_stables		7	
+ovn_fimir_agent			military	false	wh2_main_sch_military3_warmachines		7	
 ovn_fimir_mil			military	false	wh2_main_sch_military1_barracks		7	
 ovn_fimir_nor			military	false	wh_main_sch_norsca_military		7	
 ovn_fimir_beast			military	false	wh2_main_sch_military4_monsters		7	
@@ -128,3 +128,4 @@ ovn_Albion_Barrows			military	false	ovn_Albion_Barrows		0
 ovn_Albion_War			military	false	ovn_Albion_War		0	
 hertz_rotblood_nurgle_fester_warren			money	false	hertz_rotblood_nurgle_building_superchain		3	
 ovn_rot_skittergate			money	false	ovn_rot_skittergate		0	
+ovn_fimir_marsh			military	false	wh2_main_sch_military2_stables		7	

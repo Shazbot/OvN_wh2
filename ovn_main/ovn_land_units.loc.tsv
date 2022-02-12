@@ -127,7 +127,6 @@ land_units_onscreen_name_roy_arb_cha_champion	Askar	true
 land_units_onscreen_name_roy_arb_cha_champion_horse	Askar	true
 land_units_onscreen_name_roy_arb_cha_champion_warhorse	Askar	true
 land_units_onscreen_name_roy_arb_cha_champion_elephant	Askar	true
-land_units_onscreen_name_roy_arb_cha_lord_horse	Sheikh	true
 land_units_onscreen_name_roy_arb_cha_nomad_assassin	Hashashin	true
 land_units_onscreen_name_roy_arb_cha_nomad_assassin_summoned	Hashashin	true
 land_units_onscreen_name_ovn_hef_cav_ellyrian_reavers_shore	Shore Riders	true
@@ -146,9 +145,6 @@ land_units_onscreen_name_ovn_boglar	Boglars	true
 unit_description_short_texts_text_ovn_boglar	Boglars made a pact with the cyclopean creatures and now they fight side by side, why the Fimir would make deals with such puny creatures is a mystery.	true
 land_units_onscreen_name_ovn_zoat	Glacial Dragon Ogre	true
 unit_description_short_texts_text_ovn_zoat	Dragon Ogres are incredibly ancient and very powerful creatures, some chose to reside in the frostbitten glaciers of Norsca until their Dark master beckon them forth.	true
-land_units_onscreen_name_ovn_finmor	Finmor	true
-unit_description_short_texts_text_ovn_finmor	The Finmor usually command small bands of Shearls or just use them as slaves in their communities.	true
-land_units_onscreen_name_ovn_finmor_belakor	Followers of Be'lakor (Finmor)	true
 unit_description_short_texts_text_ovn_finmor_belakor	Devoted to the Dark Master Be'Lakor, these fanatics worship their god blindly.	true
 land_units_onscreen_name_wh_dlc08_nor_cha_fimir_balefiend_beast	Fimir Balefiend (Beasts)	true
 land_units_onscreen_name_wh_dlc08_nor_cha_fimir_balefiend_death	Fimir Balefiend (Death)	true
@@ -156,22 +152,17 @@ agent_subtypes_onscreen_name_override_wh_dlc08_nor_cha_fimir_balefiend_beast	Fim
 agent_subtypes_description_text_override_wh_dlc08_nor_cha_fimir_balefiend_beast	Balefiends revel in the instability they create between worlds, urging the Dark Gods to favour the Fimir once again.	true
 agent_subtypes_onscreen_name_override_wh_dlc08_nor_cha_fimir_balefiend_death	Fimir Balefiend (Death)	true
 agent_subtypes_description_text_override_wh_dlc08_nor_cha_fimir_balefiend_death	Balefiends revel in the instability they create between worlds, urging the Dark Gods to favour the Fimir once again.	true
-land_units_onscreen_name_ovn_shearl	Shearl Warband	true
 unit_description_short_texts_text_ovn_shearl	The slave caste of the Fimir. While lower in ranks, Shearls are still a fearsome foe.	true
 unit_description_short_texts_text_ovn_mistmor	Tall as a troll and easily as strong, Mistmor are prized as defenders of Fimir settlements.	true
 unit_description_short_texts_text_ovn_death_quest	Fanatic worshippers of daemonic powers. Their clans destroyed, they raid and pillage with the sole purpose of killing and reproducing in cruel ways.	true
 unit_description_short_texts_text_ovn_gharnus_demon	Rumors tell of creatures living near a haunted, icy lake in the northern part of Albion. The native folks call them Gharnu's Demon-Friends.  	true
 unit_description_short_texts_text_ovn_killing_eye	When Killing Eye clan was left without a leader, the retinues of Fimm warriors set out to seek a new Meargh or their ultimate annihilation.	true
-land_units_onscreen_name_ovn_fimm	Fimm Guards	true
 land_units_onscreen_name_ovn_fianna_fimm	Fianna Fimm	true
 land_units_onscreen_name_ovn_killing_eye	Killing Eye (Fimm Death-Quest)	true
-land_units_onscreen_name_ovn_gharnus_demon	Gharnu's Demon-Friends (Fianna Fimm)	true
-land_units_onscreen_name_ovn_mistmor	Mistmor	true
+land_units_onscreen_name_ovn_gharnus_demon	Gharnu's Daemon-Friends (Fianna Fimm)	true
 land_units_onscreen_name_ovn_death_quest	Fimm Death-Quest	true
-unit_description_short_texts_text_ovn_fimm_guard	Of the Fimm warrior caste only proven veterans may be elevated to guarding the upper echelons of society.	true
 unit_description_short_texts_text_ovn_fimm_unused	The Guards are sometimes found leading bands of Orcs and Goblins, but are dangerous enough even when encountered singly.	true
 unit_description_short_texts_text_ovn_fianna_fimm	The Fianna are the elite of the Fimm Warriors, hand-picked, sometimes at birth, sometimes as a result of some great deed.	true
-land_units_onscreen_name_ovn_marsh_hounds	Marsh Hounds	true
 unit_description_short_texts_text_ovn_marsh_hounds	They terrorize the swamps, stalking livestock and lonely travelers until the daemonic hounds are summoned by the Fimir, where they know they will dine well on battlefield carcasses.	true
 land_units_concealed_name_ovn_fim_cav_bog_beast_riders_0		true
 land_units_onscreen_name_ovn_fim_cav_bog_beast_riders_0	Marsh Reavers	true
@@ -310,7 +301,6 @@ land_units_onscreen_name_elo_carrion_gobbo_melee	Carrion Warriors	true
 land_units_onscreen_name_elo_night_trolls_ror	Night Trolls (Stone Trolls)	true
 land_units_onscreen_name_elo_hand_of_nagash	Hand of Nagash	true
 land_units_onscreen_name_elo_hand_of_nagash_chariot	Hand of Nagash	true
-land_units_onscreen_name_aky_chief_fimir_great_weapons_0	Fimirach Warlord	true
 land_units_onscreen_name_aky_chief_wolf_werekin_0	Chieftain Wolf Werekin	true
 land_units_onscreen_name_aky_chief_wolf_werekin_1_terrorgheist	Chieftain Wolf Werekin	true
 land_units_onscreen_name_fim_meargh_skattach	Meargh Skattach	true
@@ -366,3 +356,25 @@ land_units_onscreen_name_ovn_mtl_art_hotpot_ror	Grand Cauldron Hot-Pot	true
 land_units_onscreen_name_halfling_cook	Cooks	true
 land_units_onscreen_name_halfling_cook_ror	Grand Cauldron Cooks	true
 land_units_onscreen_name_eusebio_flagellants	Eusebio's Flagellants	true
+land_units_onscreen_name_ovn_fimir_dirach_fire	Dirach Elder (Fire)	true
+land_units_onscreen_name_ovn_fimir_dirach_shadow	Dirach Elder (Shadows)	true
+land_units_onscreen_name_ovn_fimir_dirach_beast	Dirach Elder (Beasts)	true
+land_units_onscreen_name_ovn_fimir_dirach_death	Dirach Elder (Death)	true
+land_units_onscreen_name_ovn_fimir_warriors	Fimm Warriors	true
+land_units_onscreen_name_ovn_fimir_warriors_great_weapons	Fimm Warriors (Great Weapons)	true
+land_units_onscreen_name_ovn_finmor	Fimm Finmor	true
+land_units_onscreen_name_ovn_shearl	Shearls	true
+land_units_onscreen_name_ovn_fimm	Fianna Fimm (Great Weapons)	true
+land_units_onscreen_name_aky_chief_fimir_great_weapons_0	Fimirach Noble	true
+land_units_onscreen_name_ovn_finmor_belakor	Followers of Be'lakor (Fimm Warriors)	true
+land_units_onscreen_name_ovn_mistmor	Fimm Mistmor	true
+land_units_onscreen_name_ovn_marsh_hounds	Moor Hounds	true
+land_units_onscreen_name_ovn_nuckelavee	Nuckelavees	true
+land_units_onscreen_name_ovn_daemonomaniac	Daemonomaniac	true
+land_units_onscreen_name_ovn_swamp_daemons	Swamp Daemons	true
+land_units_onscreen_name_ovn_eye_oculus	Eye Oculus of Balor	true
+land_units_onscreen_name_ovn_marsh_hornets_ror	Chulann's Marsh Hornets (Marsh Reavers)	true
+land_units_onscreen_name_ovn_daemonomaniac_ror	Eye of Doom (Daemonomaniac)	true
+land_units_onscreen_name_ovn_moor_hounds_ror	Hellhounds of Basker Moor (Moor Hounds)	true
+land_units_onscreen_name_wh_pro04_nor_mon_fimir_ror_0	Mist Stalkers (Fianna Fimm)	true
+land_units_onscreen_name_ovn_swamp_daemons_summon	Swamp Daemons	true

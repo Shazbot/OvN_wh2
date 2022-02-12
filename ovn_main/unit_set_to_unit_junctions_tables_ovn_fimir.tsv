@@ -1,59 +1,72 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;0;db/unit_set_to_unit_junctions_tables/ovn_fimir					
+			ovn_fimir_warriors	elo_belakor_r7_fimir_all	false
+			ovn_fimir_warriors	dlc08_nor_trolls_fimirs	false
+			ovn_fimir_warriors	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_fimir_warriors	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_fimir_warriors_great_weapons	elo_belakor_r7_fimir_all	false
+			ovn_fimir_warriors_great_weapons	dlc08_nor_trolls_fimirs	false
+			ovn_fimir_warriors_great_weapons	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_fimir_warriors_great_weapons	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			ovn_shearl	first_wave	false
 			ovn_death_quest	first_wave	false
 			ovn_boglar	first_wave	false
 			ovn_fianna_fimm	swamp_warriors	false
 			ovn_fimm	swamp_warriors	false
-			wh_dlc08_nor_mon_fimir_0	swamp_warriors	false
-			wh_dlc08_nor_mon_fimir_1	swamp_warriors	false
-			ovn_finmor	swamp_warriors	false
+			ovn_fimir_warriors	swamp_warriors	false
+			ovn_fimir_warriors_great_weapons	swamp_warriors	false
+			ovn_mistmor	swamp_warriors	false
 			ovn_finmor_belakor	swamp_warriors	false
 			wh_pro04_nor_mon_fimir_ror_0	swamp_warriors	false
+			ovn_gharnus_demon	swamp_warriors	false
 			ovn_zoat	fimir_rushers	false
 			wh_main_chs_mon_chaos_warhounds_0	fimir_rushers	false
 			wh_main_chs_mon_chaos_warhounds_1	fimir_rushers	false
+			ovn_marsh_hounds	fimir_rushers	false
+			ovn_mon_harpies	all_units	false
+			ovn_nuckelavee	fimir_rushers	false
 			ovn_fim_cav_bog_beast_riders_0	fimir_rushers	false
-			ovn_mistmor	fimir_giants_fen	false
-			albion_fenhulk	fimir_giants_fen	false
+			ovn_daemonomaniac	fimir_giants_fen	false
+			ovn_fenhulk	fimir_giants_fen	false
 			wh_main_chs_mon_giant	fimir_giants_fen	false
-			elo_fenbeast	fimir_bog_monsters	false
-			elo_river_trolls	fimir_bog_monsters	false
-			wh_main_chs_mon_trolls	fimir_bog_monsters	false
-			wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_bog_monsters	false
+			ovn_fenbeast	fimir_bog_monsters	false
+			ovn_swamp_daemons	fimir_bog_monsters	false
 			ovn_shearl	fimir_r7_warriors	false
 			ovn_death_quest	fimir_r7_warriors	false
 			ovn_boglar	fimir_r7_warriors	false
-			ovn_finmor	fimir_r7_warriors	false
+			ovn_gharnus_demon	fimir_r7_warriors	false
 			ovn_finmor_belakor	fimir_r7_warriors	false
 			ovn_fianna_fimm	fimir_r7_warriors	false
 			ovn_fimm	fimir_r7_warriors	false
-			wh_dlc08_nor_mon_fimir_0	fimir_r7_warriors	false
-			wh_dlc08_nor_mon_fimir_1	fimir_r7_warriors	false
+			ovn_fimir_warriors	fimir_r7_warriors	false
+			ovn_fimir_warriors_great_weapons	fimir_r7_warriors	false
 			wh_pro04_nor_mon_fimir_ror_0	fimir_r7_warriors	false
 			ovn_zoat	fimir_r7_fast	false
 			wh_main_chs_mon_chaos_warhounds_0	fimir_r7_fast	false
 			wh_main_chs_mon_chaos_warhounds_1	fimir_r7_fast	false
+			ovn_marsh_hounds	fimir_r7_fast	false
+			ovn_nuckelavee	fimir_r7_fast	false
 			ovn_fim_cav_bog_beast_riders_0	fimir_r7_fast	false
 			ovn_mistmor	fimir_r7_giants	false
-			albion_fenhulk	fimir_r7_giants	false
+			ovn_fenhulk	fimir_r7_giants	false
 			wh_main_chs_mon_giant	fimir_r7_giants	false
-			elo_fenbeast	fimir_r7_auxillaries	false
-			elo_river_trolls	fimir_r7_auxillaries	false
-			wh_main_chs_mon_trolls	fimir_r7_auxillaries	false
-			wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_r7_auxillaries	false
+			ovn_daemonomaniac	fimir_r7_giants	false
+			ovn_eye_oculus	fimir_r7_giants	false
+			ovn_fenbeast	fimir_r7_auxillaries	false
+			ovn_mon_harpies	fimir_r7_auxillaries	false
+			ovn_swamp_daemons	fimir_r7_auxillaries	false
 			ovn_shearl	fimir_slaves	false
 			ovn_boglar	fimir_slaves	false
 			ovn_fianna_fimm	fimir_warrior_caste	false
+			ovn_finmor_belakor	fimir_warrior_caste	false
 			ovn_fimm	fimir_warrior_caste	false
-			wh_dlc08_nor_mon_fimir_0	fimir_warrior_caste	false
-			wh_dlc08_nor_mon_fimir_1	fimir_warrior_caste	false
+			ovn_gharnus_demon	fimir_warrior_caste	false
+			ovn_fimir_warriors	fimir_warrior_caste	false
+			ovn_fimir_warriors_great_weapons	fimir_warrior_caste	false
 			wh_pro04_nor_mon_fimir_ror_0	fimir_warrior_caste	false
 			ovn_zoat	fimir_untamed_monsters	false
 			wh_main_chs_mon_giant	fimir_untamed_monsters	false
-			elo_river_trolls	fimir_untamed_monsters	false
-			wh_main_chs_mon_trolls	fimir_untamed_monsters	false
-			wh_dlc08_nor_mon_norscan_ice_trolls_0	fimir_untamed_monsters	false
+			ovn_mistmor	fimir_untamed_monsters	false
 			ovn_fim_cav_bog_beast_riders_0	dlc08_nor_fimirs	false
 			ovn_shearl	dlc08_nor_fimirs	false
 			ovn_death_quest	dlc08_nor_fimirs	false
@@ -64,6 +77,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_mistmor	dlc08_nor_fimirs	false
 			ovn_fim_mon_caster_0	dlc08_nor_fimirs	false
 			ovn_fim_mon_javelin_0	dlc08_nor_fimirs	false
+			ovn_fimir_warriors	dlc08_nor_fimirs	false
+			ovn_fimir_warriors_great_weapons	dlc08_nor_fimirs	false
+			ovn_daemonomaniac	dlc08_nor_fimirs	false
 			ovn_fim_cav_bog_beast_riders_0	all_units	false
 			ovn_shearl	all_units	false
 			ovn_death_quest	all_units	false
@@ -76,6 +92,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_zoat	all_units	false
 			ovn_fim_mon_caster_0	all_units	false
 			ovn_fim_mon_javelin_0	all_units	false
+			ovn_fimir_warriors	all_units	false
+			ovn_fimir_warriors_great_weapons	all_units	false
+			ovn_nuckelavee	all_units	false
+			ovn_daemonomaniac	all_units	false
+			ovn_swamp_daemons	all_units	false
+			ovn_eye_oculus	all_units	false
+			ovn_marsh_hounds	all_units	false
+			ovn_finmor_belakor	all_units	false
 			ovn_shearl	elo_fimir_shearl	false
 			ovn_fim_mon_javelin_0	elo_fimir_shearl	false
 			ovn_death_quest	elo_fimir_shearl	false
@@ -83,27 +107,30 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_death_quest	elo_fimir_useful_shearls	false
 			ovn_fim_mon_caster_0	elo_fimir_apprentices	false
 			ovn_boglar	elo_low_level_swamp_dwellers	false
+			ovn_marsh_hounds	elo_low_level_swamp_dwellers	false
 			wh_main_chs_mon_chaos_warhounds_0	elo_low_level_swamp_dwellers	false
 			wh_main_chs_mon_chaos_warhounds_1	elo_low_level_swamp_dwellers	false
-			elo_river_trolls	elo_fimir_trolls	false
-			wh_main_chs_mon_trolls	elo_fimir_trolls	false
-			wh_dlc08_nor_mon_norscan_ice_trolls_0	elo_fimir_trolls	false
+			ovn_swamp_daemons	elo_fimir_trolls	false
 			ovn_fim_cav_bog_beast_riders_0	elo_swamp_riders	false
-			ovn_mistmor	elo_fen_big_dwellers	false
+			ovn_nuckelavee	elo_swamp_riders	false
 			ovn_zoat	elo_fen_big_dwellers	false
 			wh_main_chs_mon_giant	elo_fen_big_dwellers	false
+			ovn_daemonomaniac	elo_fen_big_dwellers	false
 			ovn_boglar	elo_fen_monster_rulers	false
 			wh_main_chs_mon_chaos_warhounds_0	elo_fen_monster_rulers	false
 			wh_main_chs_mon_chaos_warhounds_1	elo_fen_monster_rulers	false
-			elo_river_trolls	elo_fen_monster_rulers	false
-			wh_main_chs_mon_trolls	elo_fen_monster_rulers	false
-			wh_dlc08_nor_mon_norscan_ice_trolls_0	elo_fen_monster_rulers	false
+			ovn_marsh_hounds	elo_fen_monster_rulers	false
+			ovn_swamp_daemons	elo_fen_monster_rulers	false
+			ovn_nuckelavee	elo_fen_monster_rulers	false
 			ovn_fim_cav_bog_beast_riders_0	elo_fen_monster_rulers	false
 			ovn_zoat	elo_fen_monster_rulers	false
 			wh_main_chs_mon_giant	elo_fen_monster_rulers	false
 			wh_dlc08_nor_cha_fimir_balefiend_fire_0	elo_fen_lord_heroes	false
 			wh_dlc08_nor_cha_fimir_balefiend_shadow_0	elo_fen_lord_heroes	false
-			wh2_dlc15_grn_cha_river_troll_hag_0	elo_fen_lord_heroes	false
+			ovn_fimir_dirach_fire	elo_fen_lord_heroes	false
+			ovn_fimir_dirach_shadow	elo_fen_lord_heroes	false
+			ovn_fimir_dirach_beast	elo_fen_lord_heroes	false
+			ovn_fimir_dirach_death	elo_fen_lord_heroes	false
 			rbt_nurgle_daemon	elo_belakor_fimir_demons	false
 			kho_bloodletter	elo_belakor_fimir_demons	false
 			Great_Deamon1_unit	elo_belakor_fimir_demons	false
@@ -147,19 +174,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc01_chs_inf_forsaken_0_no_garrison	mp_set_chs_inf_forsaken	false
 			wh_dlc01_chs_inf_forsaken_0_no_garrison	wh2_dlc11_chs_marauders_aspiring_champions_forsaken	false
 			wh_dlc01_chs_inf_forsaken_0_no_garrison	wh2_dlc11_chs_vets_marauders_aspiring_champions_forsaken_chaos_warriors_chosen	false
-			ovn_marsh_hounds	fimir_rushers	false
-			ovn_marsh_hounds	fimir_r7_fast	false
-			ovn_marsh_hounds	elo_low_level_swamp_dwellers	false
-			ovn_marsh_hounds	elo_fen_monster_rulers	false
-			ovn_finmor	fimir_warrior_caste	false
-			ovn_finmor_belakor	fimir_warrior_caste	false
 			wh_dlc01_chs_inf_forsaken_0_no_garrison	elo_belakor_fimir_demons	false
 			wh_pro04_chs_mon_chaos_spawn_ror_0	elo_belakor_fimir_demons	false
 			wh_main_chs_mon_chaos_spawn	elo_belakor_fimir_demons	false
 			rbt_nurgle_daemon	elo_demons_papa_nurgle	false
 			kho_bloodletter	elo_demons_khoooorne	false
 			ovn_boglar_no_garrison	elo_belakor_hopeless_fodder	false
-			ovn_marsh_hounds	elo_belakor_hopeless_fodder	false
 			wh_main_chs_inf_chaos_marauders_0	elo_belakor_hopeless_fodder	false
 			wh_dlc08_nor_inf_marauder_hunters_1	elo_belakor_hopeless_fodder	false
 			wh_main_nor_cav_marauder_horsemen_1	elo_belakor_riders_chaos	false
@@ -214,15 +234,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_chs_inf_chosen_0	elo_belakor_chaos_infantry	false
 			wh_pro04_chs_mon_chaos_spawn_ror_0	elo_belakor_conjured_monsters	false
 			wh_main_chs_mon_chaos_spawn	elo_belakor_conjured_monsters	false
-			elo_fenbeast	elo_belakor_conjured_monsters	false
-			albion_fenhulk	elo_belakor_conjured_monsters	false
+			ovn_fenbeast	elo_belakor_conjured_monsters	false
+			ovn_fenhulk	elo_belakor_conjured_monsters	false
 			Great_Deamon1_unit	elo_belakor_conjured_monsters	false
 			ovn_marsh_hounds	elo_belakor_conscripted_beasts	false
 			ovn_zoat	elo_belakor_conscripted_beasts	false
 			wh_main_chs_mon_giant	elo_belakor_conscripted_beasts	false
 			wh_dlc08_nor_mon_frost_wyrm_0	elo_belakor_conscripted_beasts	false
 			ovn_shearl_no_garrison	elo_belakor_r7_fimir_all	false
-			ovn_finmor	elo_belakor_r7_fimir_all	false
 			ovn_finmor_belakor	elo_belakor_r7_fimir_all	false
 			wh_dlc08_nor_mon_fimir_0	elo_belakor_r7_fimir_all	false
 			wh_dlc08_nor_mon_fimir_1	elo_belakor_r7_fimir_all	false
@@ -263,7 +282,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			elo_albion_warriors_spears_no_garrison	elo_belakor_here_to_die	false
 			albion_riders	elo_belakor_ranged	false
 			ovn_mon_harpies	fimir_bog_monsters	false
-			ovn_mon_harpies	fimir_r7_auxillaries	false
 			ovn_shearl	dlc08_nor_trolls_fimirs	false
 			ovn_killing_eye	dlc08_nor_trolls_fimirs	false
 			ovn_fianna_fimm	dlc08_nor_trolls_fimirs	false
@@ -287,6 +305,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_fimm	wh2_dlc11_nor_fimir_giant_mammoth	false
 			ovn_fimm	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			ovn_gharnus_demon	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_gharnus_demon	fim_skattach_fianna	false
 			ovn_gharnus_demon	wh2_main_ror_units_all	false
 			ovn_gharnus_demon	mp_cap_ovn_gharnus_demon	false
 			ovn_fim_cav_bog_beast_riders_0	dlc08_nor_trolls_fimirs	false
@@ -295,20 +314,87 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_shearl_no_garrison	dlc08_nor_trolls_fimirs	false
 			ovn_shearl_no_garrison	wh2_dlc11_nor_fimir_giant_mammoth	false
 			ovn_shearl_no_garrison	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
-			ovn_finmor	dlc08_nor_fimirs	false
-			ovn_finmor	dlc08_nor_trolls_fimirs	false
-			ovn_finmor	wh2_dlc11_nor_fimir_giant_mammoth	false
-			ovn_finmor	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
-			ovn_finmor_belakor	dlc08_nor_fimirs	false
 			ovn_finmor_belakor	dlc08_nor_trolls_fimirs	false
 			ovn_finmor_belakor	wh2_dlc11_nor_fimir_giant_mammoth	false
 			ovn_finmor_belakor	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			ovn_finmor_belakor	wh2_main_ror_units_all	false
+			ovn_finmor_belakor	dlc08_nor_fimirs	false
 			ovn_finmor_belakor	mp_cap_ovn_finmor_belakor	false
 			fim_meargh_skattach	chs_lords	false
 			rbt_nurgle_daemon	fim_skattach_daemons	false
 			kho_bloodletter	fim_skattach_daemons	false
 			ovn_fianna_fimm	fim_skattach_fianna	false
+			ovn_fimm	fim_skattach_fianna	false
 			ovn_fim_mon_caster_0	fim_skattach_apprentices	false
 			kho_bloodletter_summon	chs_all	false
 			kho_bloodletter_summon	kho_bloodletter	false
+			ovn_boglar	dlc08_nor_marauders_all	false
+			ovn_boglar	dlc08_nor_marauders_inf	false
+			ovn_zoat	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_zoat	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_fenbeast	all_units	false
+			ovn_fenhulk	all_units	false
+			ovn_fenbeast	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_fenhulk	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_fenbeast	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_fenhulk	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_boglar_no_garrison	dlc08_nor_marauders_all	false
+			ovn_boglar_no_garrison	dlc08_nor_marauders_inf	false
+			ovn_killing_eye	first_wave	false
+			ovn_killing_eye	fimir_r7_warriors	false
+			ovn_killing_eye	elo_fimir_shearl	false
+			ovn_killing_eye	elo_fimir_useful_shearls	false
+			ovn_killing_eye	elo_belakor_here_to_die	false
+			wh_pro04_nor_mon_fimir_ror_0	dlc08_nor_fimirs	false
+			wh_pro04_nor_mon_fimir_ror_0	all_units	false
+			wh_pro04_nor_mon_fimir_ror_0	fim_skattach_fianna	false
+			ovn_nuckelavee	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_nuckelavee	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_daemonomaniac	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_daemonomaniac	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_swamp_daemons	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_swamp_daemons	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_eye_oculus	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_eye_oculus	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_eye_oculus	elo_fen_big_dwellers	false
+			ovn_mistmor	elo_fimir_trolls	false
+			ovn_daemonomaniac_ror	fimir_giants_fen	false
+			ovn_daemonomaniac_ror	fimir_r7_giants	false
+			ovn_daemonomaniac_ror	dlc08_nor_fimirs	false
+			ovn_daemonomaniac_ror	all_units	false
+			ovn_daemonomaniac_ror	elo_fen_big_dwellers	false
+			ovn_daemonomaniac_ror	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_daemonomaniac_ror	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_daemonomaniac_ror	wh2_main_ror_units_all	false
+			ovn_marsh_hornets_ror	fimir_rushers	false
+			ovn_marsh_hornets_ror	fimir_r7_fast	false
+			ovn_marsh_hornets_ror	dlc08_nor_fimirs	false
+			ovn_marsh_hornets_ror	all_units	false
+			ovn_marsh_hornets_ror	elo_swamp_riders	false
+			ovn_marsh_hornets_ror	elo_fen_monster_rulers	false
+			ovn_marsh_hornets_ror	dlc08_nor_trolls_fimirs	false
+			ovn_marsh_hornets_ror	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_marsh_hornets_ror	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_marsh_hornets_ror	wh2_main_ror_units_all	false
+			ovn_moor_hounds_ror	fimir_rushers	false
+			ovn_moor_hounds_ror	fimir_r7_fast	false
+			ovn_moor_hounds_ror	all_units	false
+			ovn_moor_hounds_ror	elo_low_level_swamp_dwellers	false
+			ovn_moor_hounds_ror	elo_fen_monster_rulers	false
+			ovn_moor_hounds_ror	elo_belakor_conscripted_beasts	false
+			ovn_moor_hounds_ror	elo_belakor_cav_bog_r7	false
+			ovn_moor_hounds_ror	wh2_main_ror_units_all	false
+			ovn_swamp_daemons_summon	fimir_bog_monsters	false
+			ovn_swamp_daemons_summon	fimir_r7_auxillaries	false
+			ovn_swamp_daemons_summon	all_units	false
+			ovn_swamp_daemons_summon	elo_fimir_trolls	false
+			ovn_swamp_daemons_summon	elo_fen_monster_rulers	false
+			ovn_swamp_daemons_summon	wh2_dlc11_nor_fimir_giant_mammoth	false
+			ovn_swamp_daemons_summon	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_daemonomaniac	fim_skattach_daemons	false
+			ovn_daemonomaniac_ror	fim_skattach_daemons	false
+			ovn_marsh_hounds	fim_skattach_daemons	false
+			ovn_moor_hounds_ror	fim_skattach_daemons	false
+			ovn_nuckelavee	fim_skattach_daemons	false
+			ovn_swamp_daemons	fim_skattach_daemons	false
+			ovn_swamp_daemons_summon	fim_skattach_daemons	false

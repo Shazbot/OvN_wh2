@@ -1,6 +1,6 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/ovn_werekin_norsca							
-aky_chief_fimir_great_weapons_0		aky_chief_fimir_great_weapons_0		1.0	1.3	0.0	
+aky_chief_fimir_great_weapons_0		aky_chief_fimir_great_weapons_0		1.0	1.15	0.0	
 aky_chief_wolf_werekin_0		aky_chief_wolf_werekin_0		1.0	1.5	0.0	
 aky_terrorgheist_mount_0	VariantMeshes\wh_variantmodels\bi2\vmp\vmp_terrorgheist\tech	aky_terrorgheist_mount_0		1.0	1.0	0.0	
 aky_chief_wolf_werekin_1		aky_chief_wolf_werekin_1		1.0	1.5	0.0	

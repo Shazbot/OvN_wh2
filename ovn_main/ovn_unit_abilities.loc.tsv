@@ -4,8 +4,8 @@ unit_abilities_tooltip_text_ovn_hlf_ammo	Shoot faster, we have plenty more where
 unit_abilities_onscreen_name_ovn_hlf_ammo	Ammunition Supplies	true
 unit_abilities_onscreen_name_fim_skattach_poison_mist	Poison Mist	false
 unit_abilities_tooltip_text_fim_skattach_poison_mist	All Fimir Mearghs are acomppained by a noxious mist that demoralises and poisons their enemies. Skattach is no exception.	false
-unit_abilities_onscreen_name_fim_skattach_summon_bloodletters	Summon Bloodletters	false
-unit_abilities_tooltip_text_fim_skattach_summon_bloodletters	The caster opens a rift into the Realm oF Chaos and binds a pack of Bloodletters to their will.	false
+unit_abilities_onscreen_name_fim_skattach_summon_bloodletters	Summon Swamp Daemons	false
+unit_abilities_tooltip_text_fim_skattach_summon_bloodletters	The caster opens a rift into the Realm of Chaos and binds a pack of Swamp Daemons to their will.	false
 unit_abilities_onscreen_name_fim_meargh_skattach_staff_balor_ability	Staff of Balor's Eye	false
 unit_abilities_tooltip_text_fim_meargh_skattach_staff_balor_ability	At the tip of this magical staff rests an ancient Fimir artifact known as "Balor's Eye" a magically preserved eye said to belong to the myterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user's enemies within.	false
 unit_abilities_onscreen_name_cr_unit_formation_shieldwall	Bordweall 	true
@@ -291,3 +291,5 @@ unit_abilities_tooltip_text_hlf_master_chef_epinephrine	Go live forever!	true
 special_ability_phases_onscreen_name_hlf_master_chef_contact_poisoned	[[col:red]][[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Deadly Poison Arrow！\\n[[img:icon_hp]][[/img]]Sustained Damage[[/col]]	true
 special_ability_phases_onscreen_name_wh_main_unit_contact_teefin	Teefin'	true
 special_ability_phases_onscreen_name_wh_main_unit_contact_souped	Soup'd	true
+unit_abilities_onscreen_name_ovn_unit_passive_aura_great_eye	The Great Eye is always watching	true
+unit_abilities_tooltip_text_ovn_unit_passive_aura_great_eye	Under the stern gaze of Balor, the Fimir dare not waver in the face of the enemy.	true

@@ -15,7 +15,7 @@ ovn_grudge_vortex_take_zandri	false	fight battle near Zandri		FIGHT_SET_PIECE_BA
 ovn_grudge_vortex_take_kasabar	false	conquer kasabar		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_vortex_kill_dk	false	ovn_grudge_vortex_kill_dk		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_grudge_vortex_kill_arkhan	false	ovn_grudge_vortex_kill_arkhan		ELIMINATE_CHARACTER_IN_BATTLE	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
-ovn_troll_me_take_karak_azgal	false	ovn_troll_me_take_karak_azgal		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
+ovn_troll_me_take_karak_azgal	false	ovn_troll_me_take_karak_azgal		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		true	false
 ovn_blood_dragons_me_take_altdorf	false	ovn_blood_dragons_me_take_altdorf		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_blood_dragons_me_take_couronne	false	ovn_blood_dragons_me_take_couronne		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false
 ovn_blood_dragons_me_take_templehof	false	ovn_blood_dragons_me_take_templehof		CAPTURE_REGIONS	rom_event_mission.png	def/generic	true	Quest		0	0	true	0.0		false	false

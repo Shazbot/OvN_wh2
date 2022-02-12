@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/fimir_agent_subtype_subculture_overrides__.loc		
-agent_subtype_subculture_overrides_onscreen_name_grn_goblin_big_bosswh_main_sc_nor_fimirchampion	Goblin Big Boss	true
-agent_subtype_subculture_overrides_description_grn_goblin_big_bosswh_main_sc_nor_fimirchampion	Though powerful enough in battle, a Goblin Boss can also employ all manner of trickery to ensure victory.	true
+agent_subtype_subculture_overrides_onscreen_name_fim_finmorwh_main_sc_nor_fimirchampion	Fimm Finmor	true
+agent_subtype_subculture_overrides_description_fim_finmorwh_main_sc_nor_fimirchampion	Finmor are lesser Fimir lords who aspire to be given the honour of leading their own raiding parties or units of Fimm Warriors.	true
 agent_subtype_subculture_overrides_description_elo_boglar_shamanwh_main_sc_nor_fimirwizard	The magic of Boglar Shamans reflects their cowardly nature and boggy homelands.	true
 agent_subtype_subculture_overrides_onscreen_name_wh_dlc08_nor_fimir_balefiend_firewh_main_sc_nor_fimirdignitary	Fimir Balefiend	true
 agent_subtype_subculture_overrides_description_wh_dlc08_nor_fimir_balefiend_firewh_main_sc_nor_fimirdignitary	An ancient, intrinsically evil race of amphibians, the Fimir worshipped the Ruinous Powers long before the fickle Gods’ attentions were drawn by man’s endless potential.	true

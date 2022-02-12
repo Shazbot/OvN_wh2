@@ -59,3 +59,9 @@ wh_main_skill_node_set_arb_vizier_life	general				false	false	arb_vizier_life_0
 wh_main_skill_node_set_arb_vizier_heavens	general				false	false	arb_vizier_heavens_0
 wh_main_skill_node_set_arb_vizier_desert	general				false	false	arb_vizier_desert_0
 wh2_dlc11_skill_node_set_vmp_walach	general				false	false	vmp_cha_walach
+elo_sea_hag	runesmith				false	false	elo_sea_hag
+node_set_fimir_dirach_beasts	general				false	false	fim_dirach_lord_beasts
+node_set_fimir_dirach_fire	general				false	false	fim_dirach_lord_fire
+node_set_fimir_dirach_shadows	general				false	false	fim_dirach_lord_shadow
+node_set_fimir_dirach_death	general				false	false	fim_dirach_lord_death
+node_set_fimir_finmor	champion				false	false	fim_finmor

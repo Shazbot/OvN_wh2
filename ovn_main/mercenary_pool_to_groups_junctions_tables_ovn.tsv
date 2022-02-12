@@ -143,3 +143,6 @@ key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tec
 261500325	halfling_pantry_guards_ror	1	wh_dlc04_emp_units_of_renown_pool		wh_main_sc_emp_empire	
 261500326	halfling_lords_of_harvest_ror	1	wh_dlc04_emp_units_of_renown_pool		wh_main_sc_emp_empire	
 261500327	eusebio_flagellants	1	wh_dlc04_emp_units_of_renown_pool		wh_main_sc_emp_empire	
+261500328	ovn_daemonomaniac_ror	1	ovn_fimir_units_of_renown_pool		wh_main_sc_nor_fimir	
+261500329	ovn_marsh_hornets_ror	1	ovn_fimir_units_of_renown_pool		wh_main_sc_nor_fimir	
+261500330	ovn_moor_hounds_ror	1	ovn_fimir_units_of_renown_pool		wh_main_sc_nor_fimir	

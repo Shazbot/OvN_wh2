@@ -10,6 +10,8 @@ wh_main_sc_emp_araby	roy_arb_champion	champion	roy_arb_cha_champion	ui/campaign 
 wh_main_sc_emp_araby	emp_warrior_priest	dignitary		
 wh_main_sc_nor_fimir	wh_dlc08_nor_fimir_balefiend_fire	dignitary		
 wh_main_sc_nor_troll	wh2_dlc15_grn_river_troll_hag	runesmith		
-wh_main_sc_nor_fimir	wh2_dlc15_grn_river_troll_hag	runesmith		
 wh_main_sc_nor_fimir	elo_boglar_shaman	wizard		
 wh_main_sc_nor_troll	elo_troll_champ	champion	elo_troll_champ	
+wh_main_sc_nor_fimir	fim_finmor	champion		
+wh_main_sc_nor_troll	elo_sea_hag	runesmith		
+wh_main_sc_nor_troll	grn_night_goblin_shaman	wizard	wh_main_grn_cha_night_goblin_shaman	ui/campaign ui/agents/wh_main_lore_lil_waaagh.png

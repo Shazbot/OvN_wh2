@@ -4,3 +4,4 @@ ovn_mtl_reaper		vmp_black_coach_01			ovn_mtl_reaper_articulation	0.4	1.4	2.4	0.2
 ovn_mtl_chuckwagon		vmp_black_coach_01			ovn_vehicle_chuckwagon_articulation	1.25	1.3	3.5	0.25	6.0	1.5	57.0	2.2
 wh_main_mtl_soupcart		vmp_black_coach_01			wh_main_vehicle_soupcart_articulation	1.25	1.4	3.3	0.25	6.0	1.5	57.0	2.2
 hand_of_nagash_vehicle_chariot_articulation		vmp_black_coach_01			hand_of_nagash_vehicle_chariot_articulation	1.25	1.75	4.0	0.95	6.0	0.95	45.0	2.2
+fim_shrine_balor		vmp_black_coach_01			fim_eye_oculus_articulation	0.5	1.75	2.85	0.25	5.0	2.0	75.0	2.0

@@ -4,24 +4,20 @@ wh2_main_nor_servants_of_fimulneid	true	fim_meargh_skattach	true	true	ui/portrai
 wh2_main_nor_servants_of_fimulneid	false	elo_boglar_shaman	true	true	ui/portraits/portholes/no_culture/elo_boglar_shaman.png	elo_boglar_shaman	wh_main_grn_cha_night_goblin_shaman	false
 wh2_main_nor_servants_of_fimulneid	false	elo_boglar_shaman_hound	true	true	ui/portraits/portholes/no_culture/elo_boglar_shaman.png	elo_boglar_shaman	wh_main_grn_cha_night_goblin_shaman	false
 wh2_main_nor_servants_of_fimulneid	false	ovn_boglar	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	ovn_mon_harpies	true	true				false
+wh2_main_nor_servants_of_fimulneid	true	ovn_fimir_dirach_fire	true	true	ui/portraits/portholes/no_culture/fim_dirach_01.png	ovn_uniform_fim_dirach_1	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false
+wh2_main_nor_servants_of_fimulneid	true	ovn_fimir_dirach_shadow	true	true	ui/portraits/portholes/no_culture/fim_dirach_02.png	ovn_uniform_fim_dirach_2	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false
+wh2_main_nor_servants_of_fimulneid	true	ovn_fimir_dirach_beast	true	true	ui/portraits/portholes/no_culture/fim_dirach_03.png	ovn_uniform_fim_dirach_3	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false
+wh2_main_nor_servants_of_fimulneid	true	ovn_fimir_dirach_death	true	true	ui/portraits/portholes/no_culture/fim_dirach_02.png	ovn_uniform_fim_dirach_2	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false
 wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_cha_fimir_balefiend_fire_0	true	true	UI/Portraits/Portholes/wh_main_chs_chaos/nor_cha_fimir_balefiend_campaign_02_0.png	wh_dlc08_uniform_nor_fimir_balefiend_campaign_02	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false
 wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	true	true	UI/Portraits/Portholes/wh_main_chs_chaos/nor_cha_fimir_balefiend_campaign_01_0.png	wh_dlc08_uniform_nor_fimir_balefiend_campaign_01	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false
-wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_mon_fimir_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_mon_fimir_1	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	wh_pro04_nor_mon_fimir_ror_0	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	wh_main_chs_mon_giant	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh2_dlc11_cst_mon_bloated_corpse_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	ovn_zoat	true	true				false
 wh2_main_nor_servants_of_fimulneid	true	aky_chief_fimir_great_weapons_0	true	true	ui/portraits/portholes/wh_main_chs_chaos/aky_chief_fimir_great_weapons_0.png	aky_chief_fimir_great_weapons_0	aky_chief_fimir_great_weapons_0	false
-wh2_main_nor_servants_of_fimulneid	false	wh2_dlc15_grn_mon_river_trolls_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_mon_norscan_ice_trolls_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh_main_chs_mon_trolls	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_finmor	true	true	ui/portraits/portholes/no_culture/fim_finmor_01.png	ovn_uniform_fim_finmor_1	wh_main_chs_cha_exalted_hero_0	false
+wh2_main_nor_servants_of_fimulneid	false	ovn_fimir_warriors	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_fimir_warriors_great_weapons	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fenbeast	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fenhulk	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh_pro04_chs_mon_chaos_spawn_ror_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh_pro04_nor_mon_marauder_warwolves_ror_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh2_dlc15_grn_cha_river_troll_hag_0	true	true	ui/portraits/portholes/wh_main_grn_greenskins/grn_troll_hag_campaign_01_0.png	wh2_dlc15_grn_river_troll_hag_campaign_01	wh2_dlc15_grn_cha_river_troll_hag_0	false
 wh2_main_nor_servants_of_fimulneid	false	ovn_death_quest	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fianna_fimm	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fimm	true	true				false
@@ -32,11 +28,7 @@ wh2_main_nor_servants_of_fimulneid	false	ovn_shearl	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fim_cav_bog_beast_riders_0	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fim_mon_javelin_0	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_fim_mon_caster_0	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	rbt_nurgle_daemon	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	kho_bloodletter	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	ovn_marsh_hounds	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	ovn_finmor	true	true				false
-wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_mon_frost_wyrm_0	true	true				false
 wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_cha_fimir_balefiend_beast	true	true	UI/Portraits/Portholes/wh_main_chs_chaos/nor_cha_fimir_balefiend_campaign_03_0.png	wh_dlc08_uniform_nor_fimir_balefiend_campaign_03	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false
 wh2_main_nor_servants_of_fimulneid	false	wh_dlc08_nor_cha_fimir_balefiend_death	true	true	UI/Portraits/Portholes/wh_main_chs_chaos/nor_cha_fimir_balefiend_campaign_02_0.png	wh_dlc08_uniform_nor_fimir_balefiend_campaign_02	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false
 wh2_main_nor_servants_of_fimulneid	false	wh2_twa05_ogr_cav_mournfang_cavalry_0	true	true				true
@@ -44,8 +36,10 @@ wh2_main_nor_servants_of_fimulneid	false	wh2_twa05_ogr_inf_ogres_0	true	true				
 wh2_main_nor_servants_of_fimulneid	false	wh2_twa05_ogr_inf_ogres_1	true	true				true
 wh2_main_nor_servants_of_fimulneid	false	wh2_twa05_ogr_inf_maneaters_2	true	true				true
 wh2_main_nor_servants_of_fimulneid	false	wh2_twa05_ogr_inf_maneaters_3	true	true				true
-wh2_main_nor_harbingers_of_doom	false	wh2_twa05_ogr_cav_mournfang_cavalry_0	true	true				true
-wh2_main_nor_harbingers_of_doom	false	wh2_twa05_ogr_inf_ogres_0	true	true				true
-wh2_main_nor_harbingers_of_doom	false	wh2_twa05_ogr_inf_ogres_1	true	true				true
-wh2_main_nor_harbingers_of_doom	false	wh2_twa05_ogr_inf_maneaters_2	true	true				true
-wh2_main_nor_harbingers_of_doom	false	wh2_twa05_ogr_inf_maneaters_3	true	true				true
+wh2_main_nor_servants_of_fimulneid	false	ovn_mon_harpies	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_nuckelavee	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_daemonomaniac	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_swamp_daemons	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_daemonomaniac_ror	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_marsh_hornets_ror	true	true				false
+wh2_main_nor_servants_of_fimulneid	false	ovn_moor_hounds_ror	true	true				false

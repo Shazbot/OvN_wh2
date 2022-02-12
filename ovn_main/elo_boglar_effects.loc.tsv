@@ -2,3 +2,4 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/elo_boglar_effects.loc		
 effects_description_increase_cap_elo_boglar_shaman	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Boglar Shaman	true
 effects_description_enable_recruitment_elo_boglar_shaman	Hero capacity: %+n for Boglar Shamans	true
+effects_description_increase_xp_elo_boglar_shaman	Hero recruit rank: %+n for Boglar Shamans	true

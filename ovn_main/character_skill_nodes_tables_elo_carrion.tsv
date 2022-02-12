@@ -1,12 +1,12 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/elo_carrion										
 elo_carrion_big_boss_campaign_01		wh2_main_skill_all_hero_assist_army_scavenge	elo_carrion_boss		5.0	0.0		0	0	true
-elo_carrion_big_boss_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption	elo_carrion_boss		5.0	1.0		0	0	true
+elo_carrion_big_boss_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption_chs	elo_carrion_boss		5.0	1.0		0	0	true
 elo_carrion_big_boss_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_walls	elo_carrion_boss		5.0	2.0		0	0	true
 elo_carrion_big_boss_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate	elo_carrion_boss		5.0	3.0		0	0	true
 elo_carrion_big_boss_campaign_05		wh2_main_skill_all_hero_hinder_army_block_army	elo_carrion_boss		5.0	4.0		0	0	true
 elo_carrion_big_boss_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	elo_carrion_boss		5.0	5.0		0	0	true
-elo_carrion_big_boss_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_grn_goblin_big_boss	elo_carrion_boss		8.0	0.0		1	0	false
+elo_carrion_big_boss_campaign_actions_dummy		ovn_main_skill_all_agent_actions_tro_carrion_big_boss	elo_carrion_boss		6.0	17.0		1	0	false
 elo_carrion_big_boss_immortality		wh2_main_skill_all_immortality_hero	elo_carrion_boss		0.0	8.0		0	0	true
 elo_carrion_big_boss_innate_02		wh2_main_skill_innate_grn_bragga	elo_carrion_boss		6.0	1.0		0	0	false
 elo_carrion_big_boss_innate_04		wh2_main_skill_innate_grn_serial_danca	elo_carrion_boss		6.0	3.0		0	0	false

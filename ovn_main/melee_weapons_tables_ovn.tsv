@@ -25,9 +25,7 @@ dk_lance_black_grail_knight	0	16	0	24	16	0	1.0	lance	spear	medium	3	1.5	10	0.0	t
 ovn_finmor	0	0	8	40	10	0	1.0	axe	hammer		1	1.0	10	0.0	false		0	10	4.0	
 ovn_finmor_belakor	0	0	8	40	10	0	1.0	axe	hammer		1	1.0	10	10.0	false		0	10	4.0	
 ovn_fianna_fimm	0	0	0	30	68	0	2.0	axe	axe	medium	5	1.3	150	0.0	true		0	10	3.8	
-ovn_gharnus_demon	0	0	0	85	25	0	2.0	axe	axe	medium	5	1.3	150	0.0	true	wh_dlc08_unit_contact_frostbite	0	10	3.8	
 ovn_fimm_guard	0	27	0	31	69	0	2.0	axe	axe	medium	2	1.3	150	0.0	true		0	10	4.0	
-ovn_shearl	0	0	0	30	8	0	1.0	axe	claw		2	1.1	75	0.0	false		0	10	4.2	
 ovn_death_quest	0	0	0	25	20	0	2.0	axe	hammer		2	1.2	100	0.0	false		0	10	3.5	
 ovn_fim_bog_beast	0	0	0	65	45	0	2.0	axe	claw	large	4	1.0	500	0.0	false	wh_main_unit_contact_poison	0	10	3.6	
 bonethrower_bone	0	0	0	40	30	0	2.0	axe	club_medium	medium	4	1.0	100	0.0	false		0	10	3.8	
@@ -146,3 +144,12 @@ bacr_chs_daemonette	0	0	2	35	12	0	1.0	sword	claw		1	1.0	10	0.0	true		0	10	4.3
 tzaangor_axe_staff	0	0	0	35	16	0	1.0	axe	axe		1	1.0	10	0.0	true		0	10	4.4	
 halfling_great_weapons_militia_bees	0	0	0	7	18	0	1.0	axe	axe		1	1.0	14	0.0	false	ovn_hlf_bee_throwers_contact	0	10	4.3	
 halfling_thief_sword	0	0	0	6	18	0	1.0	sword	sword		1	1.0	10	0.0	false	wh_main_unit_contact_teefin	0	10	4.6	
+aky_chief_fimir_great_mace	0	30	0	120	340	0	3.0	axe	hammer	medium	4	1.12	350	0.0	true	wh_dlc06_unit_contact_sundered_armour	0	10	4.0	
+ovn_gharnus_demon	0	0	0	31	69	0	2.0	axe	axe	medium	4	1.3	150	0.0	true	wh_dlc08_unit_contact_frostbite	0	10	3.8	
+ovn_finmor_mace	0	0	20	220	180	0	3.0	axe	hammer	large	6	2.5	150	0.0	true	wh_dlc06_unit_contact_sundered_armour	0	10	4.0	
+ovn_shearl	0	0	0	28	8	0	1.0	axe	claw		2	1.1	75	0.0	false		0	10	4.2	
+ovn_marsh_hound_fangs	0	0	0	17	3	0	1.0	knife	claw		1	1.0	5	0.0	true		0	10	4.6	
+ovn_swamp_daemons	0	0	0	42	14	0	2.0	axe	claw		1	1.0	10	0.0	true	wh_main_unit_contact_poison	0	10	4.3	
+ovn_daemonomaniac	0	30	0	100	400	0	6.0	axe	axe_huge	large	5	1.3	600	0.0	true		0	10	4.0	
+ovn_daemonomaniac_ror	0	30	0	120	420	0	7.0	axe	sword_huge	large	5	1.0	600	0.0	true		0	10	4.0	
+ovn_moor_hound_ror_fangs	0	0	0	27	13	0	1.0	axe	claw	medium	1	1.0	5	0.0	true		0	10	4.0	

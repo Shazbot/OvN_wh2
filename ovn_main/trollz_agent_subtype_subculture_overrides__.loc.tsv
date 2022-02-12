@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/trollz_agent_subtype_subculture_overrides__.loc		
+agent_subtype_subculture_overrides_description_elo_carrion_bosswh_main_sc_nor_trollspy	A boss of the Carrion Tribe, these goblins learned to manipulate both their troll overlords and their fellow goblins to their advantage.	true
+agent_subtype_subculture_overrides_onscreen_name_elo_carrion_bosswh_main_sc_nor_trollspy	Carrion Big Boss	false
+agent_subtype_subculture_overrides_description_grn_night_goblin_shamanwh_main_sc_nor_trollwizard	Shamans, most likely mad on mushrooms, have no fear working with the Trollz, they're kind of like big orcs after all.	true
+agent_subtype_subculture_overrides_onscreen_name_grn_night_goblin_shamanwh_main_sc_nor_trollwizard	Night Goblin Shaman	false

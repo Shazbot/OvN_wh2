@@ -29,3 +29,20 @@ key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_
 270589007		60	110	75	60	110	75	soldier	200	200	200	halfling_archer	
 270589005	wh2_main_emp_the_moot	69	124	63	0	0	150	soldier	0	0	150	halfling_cock	
 112233450		0	0	150	0	0	150	soldier	0	0	150	ovn_arb_art_grand_bombard_crew_2	
+8841230		225	225	225	0	0	0	soldier	0	0	0	ovn_death_quest	
+8841230		225	225	225	0	0	0	officer	0	0	0	ovn_death_quest	
+8841231		0	0	0	0	0	0	soldier	0	0	0	ovn_killing_eye	
+8841231		0	0	0	0	0	0	officer	0	0	0	ovn_killing_eye	
+8841232	wh2_main_nor_servants_of_fimulneid	25	25	25	200	10	10	soldier	0	0	0	ovn_mistmor	
+8841233		0	179	199	206	110	0	soldier	0	0	0	ovn_gharnus_demon	
+8841242		10	10	10	5	5	200	soldier	0	0	0	ovn_finmor_belakor	
+8841241	wh2_main_nor_servants_of_fimulneid	84	133	181	81	173	189	soldier	1	1	1	ovn_fianna_fimm	
+8841243	wh2_main_nor_servants_of_fimulneid	84	133	181	81	173	189	soldier	1	1	1	ovn_fimm	
+8841234		0	102	102	0	0	0	soldier	0	0	0	ovn_fimir_dirach_beast	
+8841235		0	0	0	0	0	0	soldier	0	0	0	ovn_fimir_dirach_death	
+8841236		0	102	204	0	0	0	soldier	0	0	0	ovn_fimir_dirach_fire	
+8841237		229	126	177	0	0	0	soldier	0	0	0	ovn_fimir_dirach_shadow	
+0		8	23	169	8	23	169	soldier	8	23	169	ovn_daemonomaniac	
+0		20	18	18	20	18	18	soldier	20	18	18	ovn_daemonomaniac_ror	
+0		10	10	10	0	203	218	autonomous_rider	0	0	0	ovn_marsh_hornets_ror	
+0	wh2_main_nor_servants_of_fimulneid	84	133	181	81	173	189	autonomous_rider	1	1	1	ovn_fim_cav_bog_beast_riders_0	

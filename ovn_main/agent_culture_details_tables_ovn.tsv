@@ -2,3 +2,4 @@ key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon
 #agent_culture_details_tables;9;db/agent_culture_details_tables/ovn										
 190901	champion	wh2_dlc09_tmb_tomb_kings	elo_dread_centurion		0		m	UI/units/icons/wh_main_dwf_cha_greybeard.png	ui/campaign ui/agents/wh_main_vmp_champion.png	true
 9880176	runesmith	wh_main_chs_chaos			0		f	UI/units/icons/wh2_dlc15_grn_giant_river_troll_hag.png	ui/campaign ui/agents/wh2_dlc15_grn_giant_river_troll_hag.png	true
+1239435257	spy	wh_main_chs_chaos			0		m		ui/campaign ui/agents/paladin.png	true

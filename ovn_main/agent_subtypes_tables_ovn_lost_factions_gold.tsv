@@ -55,3 +55,9 @@ ovn_hlf_sheriff	true	false	ui/campaign ui/agents/wh_main_brt_champion.png	ovn_hl
 elo_boglar_shaman	true	true	ui/campaign ui/agents/wh_main_lore_lil_waaagh.png	elo_boglar_shaman	wh_main_vo_actor_Goblin_NightShaman	true	-1	false	true	true	true		elo_lore_boglar		false
 elo_troll_champ	true	false	ui/campaign ui/agents/wh_main_chs_champion.png	elo_troll_champ	wh2_dlc13_vo_actor_Ancient_Kroxigor	true	-1	true	true	true	true			WH_MAIN_VO_CULTURE_TROLL	false
 vmp_cha_walach	false	true		vmp_cha_walach	wh_main_vo_actor_Vampire_Lord	true	-1	false	true	true	true	legendary_lords			false
+elo_sea_hag	true	true	ui/campaign ui/agents/wh2_main_lore_deeps.png	elo_sea_hag	wh2_dlc15_vo_actor_Troll_River_Troll_Hag	true	-1	true	true	false	true		elo_sea_hag_lore	WH_MAIN_VO_CULTURE_TROLL	false
+fim_dirach_lord_beasts	true	true	UI/Campaign UI/Agents/wh_dlc03_lore_beasts.png	ovn_fimir_dirach_beast	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	false	true	true	true	fimir_dirach_lord	wh_dlc03_lore_beasts		false
+fim_dirach_lord_fire	true	true	UI/Campaign UI/Agents/wh_main_lore_fire.png	ovn_fimir_dirach_fire	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	false	true	true	true	fimir_dirach_lord	wh_main_lore_fire		false
+fim_dirach_lord_shadow	true	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	ovn_fimir_dirach_shadow	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	false	true	true	true	fimir_dirach_lord	wh_dlc05_lore_shadows		false
+fim_dirach_lord_death	true	true	UI/Campaign UI/Agents/wh_main_lore_death.png	ovn_fimir_dirach_death	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	false	true	true	true	fimir_dirach_lord	wh_main_lore_death		false
+fim_finmor	true	false	ui/campaign ui/agents/wh_main_chs_champion.png	ovn_finmor	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	false	true	true	true				false

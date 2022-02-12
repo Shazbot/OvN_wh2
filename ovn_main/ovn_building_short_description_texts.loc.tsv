@@ -91,7 +91,7 @@ building_short_description_texts_short_description_ovn_chs_agent	Heroes of damna
 building_short_description_texts_short_description_ovn_evil_income_1	Not much more than a big hole to put the filthy slaves to work in.	true
 building_short_description_texts_short_description_ovn_evil_income_2	The deeper the hole, the greater the reward, but also the risk. And when it's a slave's life on the line we can live with that, even if they can't...	true
 building_short_description_texts_short_description_ovn_evil_income_3	It's not unusual to stumble upon a half-eaten, shriveled corpse of a slave. They complain we delved too greedily and too deep. That we awoke in the darkness ... shadow and flame. Good! Let its foulness join our ranks.	true
-building_short_description_texts_short_description_ovn_grn_agent	Goblins can be useful... sometimes.	true
+building_short_description_texts_short_description_ovn_grn_agent	It is not unusual to find daemons among the Fimir war and raiding parties, which are summoned and bound by the Dirachs.	true
 building_short_description_texts_short_description_arb_fatandira_landmark	Inside a forgotten rocky valley near the World's Edge Mountains lies the tomb of Karitamen, the Death Scarab himself, and deadly foe to Prince Fatandira and her people. The Liche Lord is conspicuously absent, but has left behind many riches and servants, ripe for the taking...	true
 building_short_description_texts_short_description_arb_flaming_scimitar_main_1		true
 building_short_description_texts_short_description_arb_flaming_scimitar_main_2		true
@@ -129,3 +129,8 @@ building_short_description_texts_short_description_ovn_troll_3	A big gathering p
 building_short_description_texts_short_description_ovn_troll_5	A huge bewildering maze that only the most daring adventurer would dare venture into.	true
 building_short_description_texts_short_description_ovn_half_smiths_1	A small shed were all the farming tools are stored.	true
 building_short_description_texts_short_description_ovn_half_smiths_2	The toolmakers produce all the scythes, cleavers and other tools needed by the Halflings.	true
+building_short_description_texts_short_description_ovn_fimir_marsh_1	There are countless tales of massive daemonic hounds stalking the moors in search for prey.	true
+building_short_description_texts_short_description_ovn_fimir_marsh_2	The marshes are home to the Fimir's closest allies, where they lurk in ambush.	true
+building_short_description_texts_short_description_ovn_fimir_marsh_3	What horros may lie beneath the surface?	true
+building_short_description_texts_short_description_ovn_fimir_marsh_4	Daemonic servant creatures can be summoned from the deeps to crush the enemy.	true
+building_short_description_texts_short_description_ovn_grn_agent_2	Through gruesome rituals and sacrifices, the mightiest daemons are summoned to aid the war effort of the Fimir.	true

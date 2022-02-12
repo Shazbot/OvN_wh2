@@ -1,6 +1,6 @@
 building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
 #cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/ovn_fimir																												
-		ovn_fimir_agent	ovn_fimir_agent			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	40	40	60	40	0	0	40	40
+		ovn_fimir_agent	ovn_fimir_agent_2			cai_military_group					0	0	110	110	110	110	0	0	0	0	110	110	110	110	0	0	100	100
 		ovn_fimir_income_1	ovn_fimir_income_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		ovn_fimir_nor_1	ovn_fimir_nor_1			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	15	15
 		ovn_fimir_beast_1	ovn_fimir_beast_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	60	60
@@ -8,3 +8,4 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		ovn_fimir_mil_1	ovn_fimir_mil_4			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	80	80
 		ovn_Portal_Recruitment_0	ovn_Portal_Recruitment_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	60	60
 		ovn_Portal_Recruitment_alt	ovn_Portal_Recruitment_alt			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	60	60
+		ovn_fimir_marsh_1	ovn_fimir_marsh_4			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	60	60

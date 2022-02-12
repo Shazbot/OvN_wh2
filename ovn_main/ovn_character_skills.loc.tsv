@@ -192,8 +192,8 @@ character_skills_localised_name_stormrider_Buff	Ancestors of Renown	true
 character_skills_localised_description_stormrider_Buff	With an ancestry dating back to the first Phoenix Kings, Althran's ancestors have led Asuryan armies all around the world, earning great glory and renown. Althran is determined to carry on this grand tradition, and will stop at nothing to protect his people and the domains of Ulthuan.	true
 character_skills_localised_description_ovn_as_lightning_reflexes	Capable of reactions so fast, Althran makes even the quickest Swordmaster of Hoeth look clumsy in comparison.	true
 character_skills_localised_name_ovn_as_lightning_reflexes	Lightning Reflexes	true
-character_skills_localised_description_anc_boglar_shaman_hound	Boglar Shamans are often gifted Marsh Hounds by the Fimir. It can be considered a form of reward or punishment. If the Hound devours the Shaman, it was a punishment. If the Shaman tames the hound, it was a reward.	true
-character_skills_localised_name_anc_boglar_shaman_hound	Marsh Hound	true
+character_skills_localised_description_anc_boglar_shaman_hound	Boglar Shamans are often gifted Moor Hounds by the Fimir. It can be considered a form of reward or punishment. If the Hound devours the Shaman, it was a punishment. If the Shaman tames the hound, it was a reward.	true
+character_skills_localised_name_anc_boglar_shaman_hound	Moor Hound	true
 character_skills_localised_name_elo_enable_me_boss_now	Me Boss Now!	false
 character_skills_localised_description_elo_enable_me_boss_now	In the long run a troll champion cannot hold a horde together, but in the midst of battle his presence is enough to keep the trolls in line.	false
 character_skills_localised_name_elo_enable_lesser_vomit	Corrosive Vomit	false

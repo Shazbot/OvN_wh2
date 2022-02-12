@@ -4,3 +4,4 @@ ovn_mystic_mist	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	fa
 fire_of_the_gods_effect_deamon	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 fire_of_the_gods_effect_deamon_ground	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	1.0	5	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 abilities_rage_of_khorne	30.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+ovn_unit_passive_aura_great_eye	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	

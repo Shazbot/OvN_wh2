@@ -38,7 +38,7 @@ ui_unit_groupings_onscreen_pigalry	Pigalry	true
 ui_unit_groupings_tooltip_pigalry	 	true
 ui_unit_groupings_onscreen_monstrous_bone_thrower	Monstrous Missile Infantry	true
 ui_unit_groupings_tooltip_monstrous_bone_thrower	 	true
-ui_unit_groupings_onscreen_kho_bloodletter	Demon Infantry	true
+ui_unit_groupings_onscreen_kho_bloodletter	Daemon Infantry	true
 ui_unit_groupings_tooltip_kho_bloodletter	 	true
 ui_unit_groupings_onscreen_rbt_nurgle_daemon	Daemon Infantry	true
 ui_unit_groupings_tooltip_rbt_nurgle_daemon	 	true
@@ -56,3 +56,5 @@ ui_unit_groupings_onscreen_ovn_fenbeasts	Undead Monstrous Construct	true
 ui_unit_groupings_tooltip_ovn_fenbeasts	Fenbeasts are durable magic undead constructs, able to cause and endure a lot of damage.	true
 ui_unit_groupings_onscreen_ovn_rbt_ch_blightstormer	Wizard	true
 ui_unit_groupings_tooltip_ovn_rbt_ch_blightstormer		true
+ui_unit_groupings_onscreen_fim_finmor_hero	Monstrous Infantry	true
+ui_unit_groupings_tooltip_fim_finmor_hero		true

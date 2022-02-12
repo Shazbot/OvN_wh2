@@ -49,67 +49,67 @@ effects_description_increase_cap_albion_chief	Recruitment Capacity: %+n for Albi
 effects_description_enable_recruitment_chief	Enables Recruitment of Albion Chieftains	false
 effects_description_increase_cap_albion_wyrd_druid	Recruitment Capacity: %+n for Wyrd Druids	false
 effects_description_enable_recruitment_albion_wyrd_druid	Enables Recruitment of Wyrd Druids	false
-effects_description_elo_fimir_rusher_sp	Speed: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
-effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers	true
-effects_description_elo_fimir_first_wave_ma	Melee Attack: %+n for Boglars, Shearls and Deathquest	true
-effects_description_elo_fimir_first_wave_wps	Weapon Strength: %+n% for Boglars, Shearls and Deathquest	true
-effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeasts, Harpies and Troll units	true
-effects_description_elo_fimir_bog_monsters_md	Melee Defence: %+n for Fenbeasts, Harpies and Troll units	true
-effects_description_elo_fimir_swamp_warriors_ma	Melee Attack: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_elo_fimir_swamp_warriors_md	Melee Defence: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_elo_fimir_giants_fen_sp	Speed: %+n% for Chaos Giants, Fenhulks and Mistmor	true
-effects_description_elo_fimir_giants_fen_ma	Melee Attack: %+n for Chaos Giants, Fenhulks and Mistmor	true
-effects_description_elo_fimir_r7_warriors_md	Melee Defence: %+n for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
-effects_description_elo_fimir_r7_warriors_armour	Armour: %+n for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
-effects_description_elo_fimir_r7_warriors_phyres	Physical Resistance: %+n% for Boglars, Shearls, Deathquest, Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm {{tr:rank7}}	true
-effects_description_elo_fimir_r7_auxillaries_missres	Missile Resistance: %+n% for Fenbeasts, Harpies and Troll units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_auxillaries_md	Melee Defence: %+n for Fenbeasts, Harpies and Troll units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeasts, Harpies and Troll units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Glacial Dragon Ogre, Hounds and Marsh Reavers {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_ward	Ward Save: %+n% for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_wps	Weapon Strength: %+n% for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Chaos Giants, Fenhulks and Mistmor {{tr:rank7}}	true
+effects_description_elo_fimir_rusher_sp	Speed: %+n% for Hounds, Nuckelavees and Marsh Reavers	true
+effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Hounds, Nuckelavees and Marsh Reavers	true
+effects_description_elo_fimir_first_wave_ma	Melee Attack: %+n for Boglars, Shearls and Fimm Deathquests	true
+effects_description_elo_fimir_first_wave_wps	Weapon Strength: %+n% for Boglars, Shearls and Fimm Deathquests	true
+effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeasts and Swamp Daemons	true
+effects_description_elo_fimir_bog_monsters_md	Melee Defence: %+n for Fenbeasts and Swamp Daemons	true
+effects_description_elo_fimir_swamp_warriors_ma	Melee Attack: %+n for Fimm Warriors, Fianna Fimm and Fimm Mistmors	true
+effects_description_elo_fimir_swamp_warriors_md	Melee Defence: %+n for Fimm Warriors, Fianna Fimm and Fimm Mistmors	true
+effects_description_elo_fimir_giants_fen_sp	Speed: %+n% for Chaos Giants, Fenhulks and Daemonomaniacs	true
+effects_description_elo_fimir_giants_fen_ma	Melee Attack: %+n for Chaos Giants, Fenhulks and Daemonomaniacs	true
+effects_description_elo_fimir_r7_warriors_md	Melee Defence: %+n for Boglars, Shearls, Fimm Deathquests, Fimm Warriors and Fianna Fimm {{tr:rank7}}	true
+effects_description_elo_fimir_r7_warriors_armour	Armour: %+n for Boglars, Shearls, Fimm Deathquests, Fimm Warriors and Fianna Fimm {{tr:rank7}}	true
+effects_description_elo_fimir_r7_warriors_phyres	Physical Resistance: %+n% for Boglars, Shearls, Fimm Deathquests, Fimm Warriors and Fianna Fimm {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_missres	Missile Resistance: %+n% for Fenbeasts, Chaos Furies and Swamp Daemons {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_md	Melee Defence: %+n for Fenbeasts, Chaos Furies and Swamp Daemons {{tr:rank7}}	true
+effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeasts, Chaos Furies and Swamp Daemons {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Hounds, Nuckelavees and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Hounds, Nuckelavees and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Hounds, Nuckelavees and Marsh Reavers {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_ward	Ward Save: %+n% for Chaos Giants, Fenhulks, Fimm Mistmors, Daemonomaniacs and Eye Oculus of Balor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_wps	Weapon Strength: %+n% for Chaos Giants, Fenhulks, Fimm Mistmors, Daemonomaniacs and Eye Oculus of Balor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Chaos Giants, Fenhulks, Fimm Mistmors, Daemonomaniacs and Eye Oculus of Balor {{tr:rank7}}	true
 effects_description_fimir_slaves_upkeep	Upkeep: %+n% for Boglars and Shearls	true
 effects_description_fimir_slaves_cost	Recruitment Cost: %+n% for Boglars and Shearls	true
-effects_description_fimir_warrior_elite_xp	Recruitment Rank: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_fimir_warrior_elite_md	Melee Defence: %+n for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_fimir_warrior_elite_up	Upkeep: %+n% for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_fimir_warrior_elite_cost	Recruitment Cost: %+n% for Fimir Warriors, Fimm Guard and Fianna Fimm	true
-effects_description_fimir_untamed_monsters_frenzy	Passive Ability: "Frenzy" for Glacial Dragon Ogre, Giants and Troll units	true
-effects_description_fimir_untamed_monsters_guerilla	Enables Guerilla Deployment for Glacial Dragon Ogre, Giants and Troll units	true
-effects_description_fimir_untamed_monsters_rampage	Enables Rampage for Glacial Dragon Ogre, Giants and Troll units	true
+effects_description_fimir_warrior_elite_xp	Recruitment Rank: %+n for Fimm Warriors and Fianna Fimm	true
+effects_description_fimir_warrior_elite_md	Melee Defence: %+n for Fimm Warriors and Fianna Fimm	true
+effects_description_fimir_warrior_elite_up	Upkeep: %+n% for Fimm Warriors and Fianna Fimm	true
+effects_description_fimir_warrior_elite_cost	Recruitment Cost: %+n% for Fimm Warriors and Fianna Fimm	true
+effects_description_fimir_untamed_monsters_frenzy	Passive Ability: "Frenzy" for Chaos Giants and Fimm Mistmors	true
+effects_description_fimir_untamed_monsters_guerilla	Enables Guerilla Deployment for Chaos Giants and Fimm Mistmors	true
+effects_description_fimir_untamed_monsters_rampage	Enables Rampage for Chaos Giants and Fimm Mistmors	true
 effects_description_elo_fimir_witness_me	Ability: "Under the Eyes of the Gods"	true
-effects_description_fimir_warrior_elite_wps	Weapon Strength: %+n% for Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm	true
-effects_description_fimir_warrior_elite_armour	Armour: %+n for Fimir Warriors, Fimm Guard, Finmor and Fianna Fimm	true
+effects_description_fimir_warrior_elite_wps	Weapon Strength: %+n% for Fimm Warriors and Fianna Fimm	true
+effects_description_fimir_warrior_elite_armour	Armour: %+n for Fimm Warriors and Fianna Fimm	true
 effects_description_dlc08_nor_fimirs_ma	Melee Attack: %+n for all Fimir units	true
 effects_description_dlc08_nor_fimirs_up	Upkeep: %+n% for all Fimir units	true
-effects_description_elo_fimir_shearl_ma	Melee Attack: %+n for Fimir Shearls, Javelineers and Death Quest units	true
-effects_description_elo_fimir_shearl_md	Melee Defence: %+n for Fimir Shearls, Javelineers and Death Quest units	true
-effects_description_elo_fimir_useful_shearls_wps	Weapon Strength: %+n% for Fimir Javelineers and Death Quest units	true
-effects_description_elo_fimir_useful_shearls_charge	Charge: %+n% for Fimir Javelineers and Death Quest units	true
-effects_description_elo_fimir_useful_shearls_ammo	Ammunition: %+n% for Fimir Javelineers	true
-effects_description_elo_fimir_useful_shearls_mdmg	Missile Damage: %+n% for Fimir Javelineers	true
+effects_description_elo_fimir_shearl_ma	Melee Attack: %+n for Shearls, Shearl Scouts and Fimm Deathquests	true
+effects_description_elo_fimir_shearl_md	Melee Defence: %+n for Shearls, Shearl Scouts and Fimm Deathquests	true
+effects_description_elo_fimir_useful_shearls_wps	Weapon Strength: %+n% for Shearl Scouts and Fimm Deathquests	true
+effects_description_elo_fimir_useful_shearls_charge	Charge: %+n% for Shearl Scouts and Fimm Deathquests	true
+effects_description_elo_fimir_useful_shearls_ammo	Ammunition: %+n% for Shearl Scouts	true
+effects_description_elo_fimir_useful_shearls_mdmg	Missile Damage: %+n% for Shearl Scouts	true
 effects_description_elo_fimir_apprentices_mdmg	Missile Damage: %+n% for Balefiend Apprentices	true
 effects_description_elo_fimir_apprentices_reload	Reload: %+n% for Balefiend Apprentices	true
 effects_description_elo_fimir_apprentices_range	Range: %+n% for Balefiend Apprentices	true
-effects_description_elo_low_level_swamp_dwellers_rep	Replenishment: %+n% for Boglars and Chaos Warhound units	true
-effects_description_elo_low_level_swamp_dwellers_speed	Speed: %+n% for Boglars and Chaos Warhound units	true
-effects_description_elo_low_level_swamp_dwellers_vsinf	Bonus vs. Infantry: %+n for Boglars and Chaos Warhound units	true
-effects_description_elo_fimir_trolls_charge	Charge: %+n% for Troll units	true
-effects_description_elo_fimir_trolls_ma	Melee Attack: %+n for Troll units	true
-effects_description_elo_fimir_trolls_armour	Armour: %+n for Troll units	true
-effects_description_elo_swamp_riders_speed	Speed: %+n% for Marsh Reavers	true
-effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Marsh Reavers	true
-effects_description_elo_swamp_riders_charge	Charge: %+n% for Marsh Reavers	true
-effects_description_elo_fen_big_dwellers_xp	Recruitment Rank: %+n for Giants, Mistmor and Glacial Dragon Ogre	true
-effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Giants, Mistmor and Glacial Dragon Ogre	true
-effects_description_elo_fen_big_dwellers_ward	Ward Save: %+n% for Giants, Mistmor and Glacial Dragon Ogre	true
-effects_description_elo_fen_monster_rulers_matt	Melee Attack: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
-effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
-effects_description_elo_fen_monster_rulers_resmis	Missile Resistance: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
-effects_description_elo_fen_monster_rulers_cost	Recruitment Cost: %+n% for Marsh Reavers, Marsh Hounds, Boglars, Trolls, Giants and Glacial Dragon Ogre	true
+effects_description_elo_low_level_swamp_dwellers_rep	Replenishment: %+n% for Boglars and Hound units	true
+effects_description_elo_low_level_swamp_dwellers_speed	Speed: %+n% for Boglars and Hound units	true
+effects_description_elo_low_level_swamp_dwellers_vsinf	Bonus vs. Infantry: %+n for Boglars and Hound units	true
+effects_description_elo_fimir_trolls_charge	Charge: %+n% for Swamp Daemons and Fimm Mistmors	true
+effects_description_elo_fimir_trolls_ma	Melee Attack: %+n for Swamp Daemons and Fimm Mistmors	true
+effects_description_elo_fimir_trolls_armour	Armour: %+n for Swamp Daemons and Fimm Mistmors	true
+effects_description_elo_swamp_riders_speed	Speed: %+n% for Nuckelavees and Marsh Reavers	true
+effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Nuckelavees and Marsh Reavers	true
+effects_description_elo_swamp_riders_charge	Charge: %+n% for Nuckelavees and Marsh Reavers	true
+effects_description_elo_fen_big_dwellers_xp	Recruitment Rank: %+n for Chaos Giants, Eye Oculus of Balor and Daemonomaniacs	true
+effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Chaos Giants, Eye Oculus of Balor and Daemonomaniacs	true
+effects_description_elo_fen_big_dwellers_ward	Ward Save: %+n% for Chaos Giants, Eye Oculus of Balor and Daemonomaniacs	true
+effects_description_elo_fen_monster_rulers_matt	Melee Attack: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Marsh Reavers and Chaos Giants	true
+effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Marsh Reavers and Chaos Giants	true
+effects_description_elo_fen_monster_rulers_resmis	Missile Resistance: %+n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Marsh Reavers and Chaos Giants	true
+effects_description_elo_fen_monster_rulers_cost	Recruitment Cost: %+n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Marsh Reavers and Chaos Giants	true
 effects_description_elo_fen_lord_heroes	Abilities: "Warpfireball" and "Windblast" for all Lords and Heroes	true
 effects_description_elo_fen_lord_heroes_ward	Ward Save: %+n% for all Lords and Heroes	true
 effects_description_elo_belakor_fimir_demons_md	Melee Defence: %+n for Bloodletters, Plaguebearers, Bloodthirsters, Forsaken and Chaos Spawn	true

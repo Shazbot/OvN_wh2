@@ -30,7 +30,7 @@ agent_subtypes_description_text_override_belakor	He is a creature who wields unh
 agent_subtypes_onscreen_name_override_elo_liche_general	Liche General	true
 agent_subtypes_onscreen_name_override_elo_hand_of_nagash	Legendary Lord	true
 agent_subtypes_onscreen_name_override_aky_chief_fimir_great_weapons	Fimirach Noble	true
-agent_subtypes_description_text_override_aky_chief_fimir_great_weapons	When hoping for the fleeting, fickle favour of the Ruinous Ones, carry a really big mace.	true
+agent_subtypes_description_text_override_aky_chief_fimir_great_weapons	The highest ranking member of the Noble caste usually leads the Fimir army in the field - and that's always the strongest of them.	true
 agent_subtypes_onscreen_name_override_aky_chief_wolf_werekin	Chieftain Wolf Werekin	true
 agent_subtypes_description_text_override_aky_chief_wolf_werekin	Shredded flaps of skin, clinging to a vicious humanoid wolf-thing, are all that remains of this former chieftain.	true
 agent_subtypes_onscreen_name_override_gunther_schepke	Grudgebringer Infantry	true
@@ -87,3 +87,13 @@ agent_subtypes_onscreen_name_override_ovn_hlf_master_chef	Master Chef	true
 agent_subtypes_onscreen_name_override_ovn_hlf_sheriff	Sheriff	true
 agent_subtypes_onscreen_name_override_elo_boglar_shaman	Boglar Shaman	true
 agent_subtypes_onscreen_name_override_elo_troll_champ	Chaos Troll Champion	true
+agent_subtypes_onscreen_name_override_fim_finmor	Fimm Finmor	true
+agent_subtypes_description_text_override_fim_finmor	Finmor are lesser Fimir lords who aspire to be given the honour of leading their own raiding parties or units of Fimm Warriors.	true
+agent_subtypes_onscreen_name_override_fim_dirach_lord_beasts	Dirach Elder (Beasts)	true
+agent_subtypes_description_text_override_fim_dirach_lord_beasts	Dirachs are known as 'Daemon-Friends'. Their spellcasting second only to the Meargh's among Fimir they shape the very weather of the marshes to aid their foul cause.	true
+agent_subtypes_onscreen_name_override_fim_dirach_lord_fire	Dirach Elder (Fire)	true
+agent_subtypes_description_text_override_fim_dirach_lord_fire	Dirachs are known as 'Daemon-Friends'. Their spellcasting second only to the Meargh's among Fimir they shape the very weather of the marshes to aid their foul cause.	true
+agent_subtypes_onscreen_name_override_fim_dirach_lord_shadow	Dirach Elder (Shadows)	true
+agent_subtypes_description_text_override_fim_dirach_lord_shadow	Dirachs are known as 'Daemon-Friends'. Their spellcasting second only to the Meargh's among Fimir they shape the very weather of the marshes to aid their foul cause.	true
+agent_subtypes_onscreen_name_override_fim_dirach_lord_death	Dirach Elder (Death)	true
+agent_subtypes_description_text_override_fim_dirach_lord_death	Dirachs are known as 'Daemon-Friends'. Their spellcasting second only to the Meargh's among Fimir they shape the very weather of the marshes to aid their foul cause.	true

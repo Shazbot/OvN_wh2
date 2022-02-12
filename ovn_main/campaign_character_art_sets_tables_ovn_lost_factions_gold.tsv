@@ -135,3 +135,18 @@ wh2_main_art_set_ovn_rbt_blightstormer	wizard				false	true	rbt_blightstormer	1.
 elo_boglar_shaman	wizard				false	true	elo_boglar_shaman	1.0
 elo_troll_champ	champion				false	true	elo_troll_champ	0.6
 cha_walachart	general	wh_main_vmp_vampire_counts			false	true	vmp_cha_walach	1.0
+ovn_art_set_fim_dirach_beasts_1	general				false	true	fim_dirach_lord_beasts	1.0
+ovn_art_set_fim_dirach_beasts_2	general				false	true	fim_dirach_lord_beasts	1.0
+ovn_art_set_fim_dirach_beasts_3	general				false	true	fim_dirach_lord_beasts	1.0
+ovn_art_set_fim_dirach_fire_1	general				false	true	fim_dirach_lord_fire	1.0
+ovn_art_set_fim_dirach_fire_2	general				false	true	fim_dirach_lord_fire	1.0
+ovn_art_set_fim_dirach_fire_3	general				false	true	fim_dirach_lord_fire	1.0
+ovn_art_set_fim_dirach_shadow_1	general				false	true	fim_dirach_lord_shadow	1.0
+ovn_art_set_fim_dirach_shadow_2	general				false	true	fim_dirach_lord_shadow	1.0
+ovn_art_set_fim_dirach_shadow_3	general				false	true	fim_dirach_lord_shadow	1.0
+ovn_art_set_fim_dirach_death_1	general				false	true	fim_dirach_lord_death	1.0
+ovn_art_set_fim_dirach_death_2	general				false	true	fim_dirach_lord_death	1.0
+ovn_art_set_fim_dirach_death_3	general				false	true	fim_dirach_lord_death	1.0
+ovn_art_set_fim_finmor_1	champion				false	true	fim_finmor	1.0
+ovn_art_set_fim_finmor_2	champion				false	true	fim_finmor	1.0
+ovn_art_set_fim_finmor_3	champion				false	true	fim_finmor	1.0
